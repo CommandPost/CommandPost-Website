@@ -16,7 +16,7 @@ We recommend changing the CommandPost Notification alert style to Alerts. This c
 
 Download the latest version of CommandPost [here](https://github.com/CommandPost/CommandPost/releases/latest).
 
-# Special Thanks
+# Special Thanks:
 
 The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 
