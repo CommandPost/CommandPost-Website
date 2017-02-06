@@ -1,3 +1,7 @@
+---
+title: CommandPost
+---
+
 # Introduction:
 
 CommandPost is a free and open source application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (read the [original blog](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
