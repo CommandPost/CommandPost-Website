@@ -6,6 +6,14 @@ title: CommandPost
 
 CommandPost is a free and open source application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (read the [original blog](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
+# Installation:
+
+Download the latest version of CommandPost [here](https://github.com/CommandPost/CommandPost/releases/latest).
+
+# User Guide:
+
+You can learn about CommandPost's feature here.
+
 # System Requirements:
 
 CommandPost requires **Final Cut Pro 10.3** (or above). It will not work on any previous versions of Final Cut Pro.
@@ -16,9 +24,21 @@ The Touch Bar feature requires [macOS Sierra 10.12.1 build 16B2657](https://supp
 
 We recommend changing the CommandPost Notification alert style to Alerts. This can be done in the Notifications section of macOS System Preferences once CommandPost has been installed.
 
-# Installation:
+# How to Contribute:
 
-Download the latest version of CommandPost [here](https://github.com/CommandPost/CommandPost/releases/latest).
+As you can imagine, coding something as complex and feature rich as CommandPost is a massive undertaking.
+
+You can help the CommandPost project by:
+
+- Translating the application into other languages.
+- Helping create tutorials and documentation for CommandPost.
+- Create your own CommandPost plugin and share it with the community.
+- Make a secure PayPal donation to the developers.
+- [Buy a t-shirt from LateNite Films](https://lateniteshop.com).
+
+# Credits:
+
+[FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/) was originally thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer).
 
 # Special Thanks:
 
