@@ -12,7 +12,7 @@ Download the latest version of CommandPost [here](https://github.com/CommandPost
 
 # User Guide:
 
-You can learn about CommandPost's feature here.
+You can learn about CommandPost's feature [here](http://commandpost.io/userguide/).
 
 # System Requirements:
 
