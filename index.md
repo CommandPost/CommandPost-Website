@@ -4,7 +4,9 @@ title: CommandPost
 
 # Introduction:
 
-CommandPost is a free and open source application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (read the [original blog](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
+CommandPost is a **free** and **open source** application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the original blog post [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
+
+The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their lives easier, so they can get home earlier and spend more time doing creative things.
 
 # Installation:
 
@@ -12,15 +14,15 @@ Download the latest version of CommandPost [here](https://github.com/CommandPost
 
 # User Guide:
 
-You can learn about CommandPost's feature [here](http://commandpost.io/userguide/).
+You can learn about CommandPost's features [here](http://commandpost.io/userguide/).
 
 # System Requirements:
 
-CommandPost requires **Final Cut Pro 10.3** (or above). It will not work on any previous versions of Final Cut Pro.
+CommandPost requires **Final Cut Pro 10.3** or above. It will not work on any previous version of Final Cut Pro.
 
-It’s compatible with **macOS 10.10.5** (or above), and works with any language and keyboard layout.
+It requires **macOS 10.10.5** or above, and works with any language and keyboard layout.
 
-The Touch Bar feature requires [macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897) (or above).
+The Virtual Touch Bar feature requires [macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897) or above.
 
 We recommend changing the CommandPost Notification alert style to Alerts. This can be done in the Notifications section of macOS System Preferences once CommandPost has been installed.
 
