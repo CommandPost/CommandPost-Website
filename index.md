@@ -48,7 +48,7 @@ You can help the CommandPost project by:
 
 The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 
-[CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all your help!
+[CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
 
 MASSIVE thank you to [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people. And a HUMONGOUS thank you to the amazing [David Peterson](https://github.com/randomeizer) for his programming genius and Github Training! David is slowly turning all of Chris' rubbish code into something really awesome!
 
