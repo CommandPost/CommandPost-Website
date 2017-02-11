@@ -20,8 +20,10 @@ When you first run CommandPost, you'll be prompted with the following alert:
 
 ![CommandPost Accessibility Dialog Box](http://commandpost.io/assets/images/cp-accessibility-alert-01.png "CommandPost Accessibility Dialog Box")
 
-When you click OK, you'll then be presented with another alert:
+When you click **OK**, you'll then be presented with another alert:
 
 ![CommandPost Accessibility Dialog Box](http://commandpost.io/assets/images/cp-accessibility-alert-02.png "CommandPost Accessibility Dialog Box")
 
-...to be continued.
+When you click **Open System Preferences**, it will open the Accessibility section of the Security & Privacy System Preferences.
+
+To be continued...
