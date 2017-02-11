@@ -12,6 +12,8 @@ The aim of CommandPost is to create an open platform where editors all over the 
 
 Download the latest version of CommandPost [here](https://github.com/CommandPost/CommandPost/releases/latest).
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+
 # User Guide:
 
 You can learn about CommandPost's features [here](http://commandpost.io/userguide/).
@@ -36,9 +38,7 @@ You can help the CommandPost project by:
 - Helping create tutorials and documentation for CommandPost.
 - Create your own CommandPost plugin and share it with the community.
 - [Buy a t-shirt from LateNite Films](https://lateniteshop.com).
-- Make a secure PayPal donation to [LateNite Films](https://latenitefilms.com):
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+- [Make a secure PayPal donation to LateNite Films](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
 # Credits:
 
