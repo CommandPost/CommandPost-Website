@@ -32,16 +32,16 @@ We recommend changing the macOS Notification alert styles for CommandPost to **A
 
 As you can imagine, coding something as complex and feature rich as CommandPost is a massive undertaking.
 
-You can help the CommandPost project by:
+You can help out by:
 
-- Translating the application into other languages.
-- Helping create tutorials and documentation for CommandPost.
-- [Create your own CommandPost plugin and share it with the community.](http://commandpost.io/developer)
+- [Translating CommandPost into other languages.](http://commandpost.io/developer)
+- [Helping create tutorials and documentation for CommandPost.](http://commandpost.io/developer)
+- [Creating your own CommandPost plugin and sharing them with the community.](http://commandpost.io/developer)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
-- [Buy a t-shirt from LateNite Films.](https://lateniteshop.com).
-- [Make a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+- [Buying a t-shirt from LateNite Films.](https://lateniteshop.com).
+- [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
-# Credits:
+# Authors:
 
 [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/) was originally conceived and thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
@@ -49,12 +49,12 @@ You can help the CommandPost project by:
 
 The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 
-[CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
+The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
 
-MASSIVE thank you to [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people. And a HUMONGOUS thank you to the amazing [David Peterson](https://github.com/randomeizer) for his programming genius and Github Training! David is slowly turning all of Chris' rubbish code into something really awesome!
+MASSIVE thank you to [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people.
 
 Also, a very big thank you to Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice. Thanks also to Hans Linssen, [Yvan Koenig](http://macscripter.net/viewtopic.php?id=45148) and [Tim Webb](https://twitter.com/_timwebb_) for their troubleshooting help, and to Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp).
 
-MASSIVE thank you to the INCREDIBLE Andrew Kramer at [Video Copilot](http://www.videocopilot.net/) for giving the world [FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) for FREE – and also inspiring me to rip off his genius idea and include a “console” feature in CommandPost!
+MASSIVE thank you to the INCREDIBLE Andrew Kramer at [Video Copilot](http://www.videocopilot.net/) for giving the world [FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) for FREE – and also inspiring us to rip off his genius idea and include a “console” feature in CommandPost!
 
-An equally MASSIVE thank you to the always amazing Karen Hocking, Daniel Daperis, [David Hocking](http://www.dphocking.com/), Андрей Смирнов, [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
+An equally MASSIVE thank you to the always amazing Karen Hocking, Daniel Daperis, [David Hocking](http://www.dphocking.com/), Nicholas Colla, [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
