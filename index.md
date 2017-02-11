@@ -4,7 +4,7 @@ title: CommandPost
 
 # Introduction:
 
-CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the original blog post [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
+CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
 The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their lives easier, so they can get home earlier and spend more time doing creative things. CommandPost is not limited to Final Cut Pro - we hope to eventually add useful functionality for a range of other professional applications.
 
@@ -36,13 +36,14 @@ You can help the CommandPost project by:
 
 - Translating the application into other languages.
 - Helping create tutorials and documentation for CommandPost.
-- Create your own CommandPost plugin and share it with the community.
-- [Buy a t-shirt from LateNite Films](https://lateniteshop.com).
-- [Make a secure PayPal donation to LateNite Films](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+- [Create your own CommandPost plugin and share it with the community.](http://commandpost.io/developer)
+- [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
+- [Buy a t-shirt from LateNite Films.](https://lateniteshop.com).
+- [Make a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
 # Credits:
 
-[FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/) was originally thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer).
+[FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/) was originally conceived and thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
 # Special Thanks:
 
