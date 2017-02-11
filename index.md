@@ -6,7 +6,7 @@ title: CommandPost
 
 CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
-The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their lives easier, so they can get home earlier and spend more time doing creative things. CommandPost is not limited to Final Cut Pro - we hope to eventually add useful functionality for a range of other professional applications.
+The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their editing lives easier, so they can get home earlier and spend more time doing creative things. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects.
 
 # Installation:
 
@@ -20,7 +20,7 @@ You can learn about CommandPost's features [here](http://commandpost.io/userguid
 
 # System Requirements:
 
-CommandPost requires **Final Cut Pro 10.3** or above. It will not work on any previous version of Final Cut Pro.
+CommandPost requires **Final Cut Pro 10.3** or above. It will not work with any previous version of Final Cut Pro.
 
 It requires **macOS 10.10.5** or above, and works with any language and keyboard layout.
 
@@ -30,7 +30,7 @@ We recommend changing the macOS Notification alert styles for CommandPost to **A
 
 # How to Contribute:
 
-As you can imagine, coding something as complex and feature rich as CommandPost is a massive undertaking.
+As you can imagine, coding something as crazy complex and feature rich as CommandPost is a massive undertaking.
 
 You can help out by:
 
@@ -43,13 +43,15 @@ You can help out by:
 
 # Authors:
 
-[FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/) was originally conceived and thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
+CommandPost is the next generation of [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/), which was originally conceived and thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
 # Special Thanks:
 
 The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 
 The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
+
+The Dutch translation was completed by [Jan Schoen](https://github.com/JanSchoen).
 
 MASSIVE thank you to [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people.
 
