@@ -8,7 +8,7 @@ title: CommandPost User Guide
 - [Assessibility Permissions](#assessibility-permissions)
 - [Removing CommandPost](#removing-commandpost)
 - [The Menubar](#the-menubar)
-- [Preparing the Console, HUD & Shortcuts](#preparing-the-console-hud-shortcuts)
+- [Preparing the Console, HUD & Shortcuts](#preparing-the-console-hud--shortcuts)
 - [The Console](#the-console)
 
 ## Installation
