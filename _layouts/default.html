@@ -81,7 +81,7 @@
 						timeAgo = (dateDiff / oneDay).toFixed(1) + " days ago";
 					}
 					var releaseInfo = release.name + " was updated " + timeAgo + " and downloaded " + downloadCount.toLocaleString() + " times.";
-					$(".download-link").attr("href", asset.browser_download_url);
+					$("#download-link").attr("href", asset.browser_download_url);
 					$(".release-info").text(releaseInfo);
 					$(".release-info").fadeIn("slow");
 				});
