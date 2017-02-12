@@ -10,9 +10,9 @@ The aim of CommandPost is to create an open platform where editors all over the 
 
 # Installation:
 
-Download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>
+Download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]()
+[![license](https://img.shields.io/github/license/CommandPost/apistatus.svg)]() [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
 # User Guide:
 
