@@ -6,7 +6,9 @@ title: CommandPost
 
 CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
-The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their editing lives easier, so they can get home earlier and spend more time doing creative things. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects.
+The aim of CommandPost is to create an open platform where editors all over the world can add and create new features to make their editing lives easier, so they can get home earlier and spend more time doing creative things. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
+
+---
 
 # Installation:
 
@@ -14,9 +16,13 @@ Download the latest version of CommandPost <a href="https://github.com/CommandPo
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
+---
+
 # User Guide:
 
 You can learn about CommandPost's features [here](http://commandpost.io/userguide/).
+
+---
 
 # System Requirements:
 
@@ -27,6 +33,8 @@ It requires **macOS 10.10.5** or above, and works with any language and keyboard
 The Virtual Touch Bar feature requires [macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897) or above.
 
 We recommend changing the macOS Notification alert styles for CommandPost to **Alerts**. This can be done in the Notifications section of macOS System Preferences once CommandPost has been installed.
+
+---
 
 # How to Contribute:
 
@@ -41,9 +49,13 @@ You can help out by:
 - [Buying a t-shirt from LateNite Films.](https://lateniteshop.com).
 - [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
+---
+
 # Authors:
 
 CommandPost is the next generation of [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/), which was originally conceived and thrown together by [Chris Hocking @ LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by Chris Hocking & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
+
+---
 
 # Special Thanks:
 
