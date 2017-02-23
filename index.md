@@ -20,7 +20,7 @@ Download the latest version of CommandPost <a href="https://github.com/CommandPo
 
 # User Guide:
 
-You can learn about CommandPost's features [here](http://commandpost.io/userguide/).
+You can learn about CommandPost's features [here](http://help.commandpost.io/).
 
 ---
 
@@ -42,9 +42,9 @@ As you can imagine, coding something as crazy complex and feature rich as Comman
 
 You can help out by:
 
-- [Translating CommandPost into other languages.](http://commandpost.io/developer)
-- [Helping create tutorials and documentation for CommandPost.](http://commandpost.io/developer)
-- [Creating your own CommandPost plugin and sharing them with the community.](http://commandpost.io/developer)
+- [Translating CommandPost into other languages.](http://dev.commandpost.io/)
+- [Helping create tutorials and documentation for CommandPost.](http://dev.commandpost.io/)
+- [Creating your own CommandPost plugin and sharing them with the community.](http://dev.commandpost.io/)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
 - [Buying a t-shirt from LateNite Films.](https://lateniteshop.com).
 - [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
