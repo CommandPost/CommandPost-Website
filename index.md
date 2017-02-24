@@ -13,9 +13,9 @@ Video inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDu
 
 ---
 
-# Installation:
+# Download:
 
-Download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
+You can download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
