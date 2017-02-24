@@ -8,6 +8,8 @@ CommandPost is a **free** and **open source** Mac application that adds a mounta
 
 The aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
 
+<iframe src="https://player.vimeo.com/video/196231096?title=0&byline=0&portrait=0" width="832" height="468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ---
 
 # Installation:
