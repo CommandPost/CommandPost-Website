@@ -6,7 +6,9 @@ title: CommandPost
 
 CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple's [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
 
-The aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
+The aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
+
+CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
 
 <iframe src="https://player.vimeo.com/video/196231096?title=0&byline=0&portrait=0" width="832" height="468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 Video inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com/).
@@ -41,15 +43,17 @@ You can learn about CommandPost's features [here](http://help.commandpost.io/).
 
 # Developers Guide:
 
-One of the best things about CommandPost is it's customisability and ease of creating plugins.
+The best thing about CommandPost is that it's completely modular and customisable.
 
-You can learn more about developing with CommandPost [here](http://dev.commandpost.io/).
+All of the features are written in [Lua](https://www.lua.org/start.html), with user interfaces written in HTML, meaning even non-programmers can easily get their head around the CommandPost API's, and start developing their own plugins which they can share with the rest of the community.
+
+To learn more, check out the Developers Guide [here](http://dev.commandpost.io/).
 
 ---
 
 # How to Contribute:
 
-As you can imagine, coding something as crazy complex and feature rich as CommandPost is a massive undertaking - especially for a free application!
+As you can imagine, coding something as crazy complex and feature rich as CommandPost is a massive undertaking - especially when no one's being paid to do it!
 
 You can help out by:
 
@@ -62,9 +66,19 @@ You can help out by:
 
 ---
 
+# Support
+
+You can post issues and feature requests on the [CommandPost GitHub Page](https://github.com/CommandPost/CommandPost/issues). Registering with GitHub is free, and we actively monitor these requests, so you'll generally get a very quick reply.
+
+Alternatively, you can always email us via [team@commandpost.io](mailto:team@commandpost.io).
+
+---
+
 # Authors:
 
-CommandPost is the next iteration of [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/), which was originally conceived and thrown together by Chris Hocking from [LateNite Films](https://latenitefilms.com/about/). CommandPost is now developed and maintained by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost). However, as this is an open source project - we always welcome other contributors!
+CommandPost is the next iteration of [FCPX Hacks](https://latenitefilms.com/blog/final-cut-pro-hacks/), which was originally conceived and thrown together by Chris Hocking from [LateNite Films](https://latenitefilms.com/about/).
+
+CommandPost is now developed and maintained by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost). However, as this is an open source project - we always welcome other contributors!
 
 ---
 
