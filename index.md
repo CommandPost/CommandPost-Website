@@ -35,24 +35,6 @@ We recommend changing the macOS Notification alert styles for CommandPost to **A
 
 ---
 
-# User Guide:
-
-You can learn about CommandPost's features [here](http://help.commandpost.io/).
-
----
-
-# Developer Guide:
-
-The best thing about CommandPost is that it's open source, fully customisable, and completely modular.
-
-All of the core features are written in [Lua](https://www.lua.org/start.html). All of the user interfaces are driven by HTML.
-
-This means that even non-programmers can easily get their heads around the CommandPost API's, and start developing their own plugins which they can share with the rest of the community.
-
-To learn more, check out the Developers Guide [here](http://dev.commandpost.io/).
-
----
-
 # How to Contribute:
 
 As you can imagine, coding something as crazy complex and feature rich as CommandPost is a massive undertaking - especially when no one's being paid to do it!
