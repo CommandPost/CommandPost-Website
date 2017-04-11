@@ -15,7 +15,7 @@ With the addition of a powerful plugin architecture, the aim of CommandPost is t
 # Video:
 
 <iframe src="https://player.vimeo.com/video/196231096?title=0&byline=0&portrait=0" width="832" height="468" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-Video inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com/).
+Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com/).
 
 ---
 
@@ -31,9 +31,9 @@ You can download the latest version of CommandPost <a href="https://github.com/C
 
 CommandPost requires **Final Cut Pro 10.3** and **macOS 10.10.5** or above.
 
-It requires Accessibility Permissions, so you'll need your computer's Administrator Password.
+It requires **Accessibility Permissions**, so you'll need your computer's Administrator Password.
 
-The Virtual Touch Bar feature requires [macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897) or above.
+The **Virtual Touch Bar** feature requires [macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897) or above.
 
 ---
 
@@ -50,7 +50,7 @@ You can help out by:
 
 ---
 
-# Support
+# Support:
 
 You can post issues and feature requests on the [CommandPost GitHub Page](https://github.com/CommandPost/CommandPost/issues). Registering with GitHub is free, and we actively monitor these requests, so you'll generally get a very quick reply.
 
