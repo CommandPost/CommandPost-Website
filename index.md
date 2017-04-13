@@ -42,7 +42,7 @@ The **Virtual Touch Bar** feature requires [macOS Sierra 10.12.1 build 16B2657](
 You can help out by:
 
 - [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
-- [Buying a Wizards t-shirt from LateNite Films.](https://lateniteshop.com).
+- [Buying a Wizards t-shirt from LateNite Films.](https://lateniteshop.com)
 - [Helping create tutorials and documentation for CommandPost.](http://dev.commandpost.io/)
 - [Creating your own CommandPost plugin and sharing them with the community.](http://dev.commandpost.io/)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
