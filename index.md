@@ -39,14 +39,18 @@ The **Virtual Touch Bar** feature requires [macOS Sierra 10.12.1 build 16B2657](
 
 # How to Contribute:
 
-You can help out by:
+You can help support CommandPost financially by:
 
 - [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 - [Buying a Wizards t-shirt from LateNite Films.](https://lateniteshop.com)
-- [Helping create tutorials and documentation for CommandPost.](http://dev.commandpost.io/)
-- [Creating your own CommandPost plugin and sharing them with the community.](http://dev.commandpost.io/)
+
+...or help out with development by:
+
+- [Translating CommandPost into other languages.](http://dev.commandpost.io/internationalisation/translate.html)
+- [Creating your own CommandPost Plugin and sharing it with the community.](https://dev.commandpost.io/plugins/plugin-overview.html)
+- [Helping create tutorials and documentation for CommandPost.](https://github.com/CommandPost/CommandPost/issues)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
-- [Translating CommandPost into other languages.](http://dev.commandpost.io/)
+- [Supporting the development of Lua](https://www.lua.org/donations.html)
 
 ---
 
@@ -79,5 +83,3 @@ MASSIVE thank you to the INCREDIBLE Andrew Kramer at [Video Copilot](http://www.
 Also, a very big thank you to Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice. Thanks also to Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
 
 An equally MASSIVE thank you to the always amazing Karen Hocking, Daniel Daperis, [David Hocking](http://www.dphocking.com/), Nicholas Colla, [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
-
-The Dutch translation was completed by [Jan Schoen](https://github.com/JanSchoen).
