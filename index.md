@@ -46,8 +46,8 @@ You can help support CommandPost financially by:
 
 ...or help out with development by:
 
-- [Translating CommandPost into other languages.](http://dev.commandpost.io/internationalisation/translate.html)
-- [Creating your own CommandPost Plugin and sharing it with the community.](https://dev.commandpost.io/plugins/plugin-overview.html)
+- [Translating CommandPost into other languages.](https://dev.commandpost.io/internationalisation/translate/)
+- [Creating your own CommandPost Plugin and sharing it with the community.](https://dev.commandpost.io/plugins/overview/)
 - [Helping create tutorials and documentation for CommandPost.](https://github.com/CommandPost/CommandPost/issues)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
 - [Supporting the development of Lua](https://www.lua.org/donations.html)
