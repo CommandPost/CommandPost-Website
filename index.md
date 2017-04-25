@@ -31,11 +31,11 @@ You can download the latest version of CommandPost <a href="https://github.com/C
 
 CommandPost supports **macOS 10.10.5** or above.
 
-It also requires **Accessibility Permissions**, so you'll need your computer's Administrator Password.
+It requires **Accessibility Permissions**, so you'll need your computer's Administrator Password.
+
+The **Virtual Touch Bar** features require **[macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897)** or above.
 
 The Final Cut Pro features require **Final Cut Pro 10.3** or above.
-
-The **Virtual Touch Bar** feature requires **[macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897)** or above.
 
 ---
 
