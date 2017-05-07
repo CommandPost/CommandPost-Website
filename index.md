@@ -21,7 +21,11 @@ Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by
 
 # Download:
 
-You can download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
+CommandPost is currently in a **beta testing phase**.
+
+If you're interested in helping out, [join our Beta Testers Facebook Page](https://www.facebook.com/groups/commandpost/).
+
+<!-- You can download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>. -->
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
@@ -35,7 +39,7 @@ It requires **Accessibility Permissions**, so you'll need your computer's Admini
 
 The **Virtual Touch Bar** features require **[macOS Sierra 10.12.1 build 16B2657](https://support.apple.com/kb/dl1897)** or above.
 
-The Final Cut Pro features require **Final Cut Pro 10.3** or above.
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or above.
 
 ---
 
