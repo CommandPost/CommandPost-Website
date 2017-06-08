@@ -14,6 +14,8 @@ With the addition of a powerful plugin architecture, the aim of CommandPost is t
 
 # Video:
 
+Please note, that this video is very out-dated and doesn't reflect all the new features of CommandPost. New video coming soon!
+
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/196231096/' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com/).
 
@@ -21,13 +23,15 @@ Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by
 
 # Download:
 
-CommandPost is currently in a **beta testing phase**.
+CommandPost is currently in a **public beta testing phase**.
 
-If you're interested in helping out, [join our Beta Testers Facebook Page](https://www.facebook.com/groups/commandpost/).
+If you're interested in helping out, [join our Beta Testers Facebook Group](https://www.facebook.com/groups/commandpost/).
+
+Alternatively, if you don't have Facebook you can download the latest release from [GitHub](https://github.com/CommandPost/CommandPost/releases).
 
 <!-- You can download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>. -->
 
-[![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+[![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
 ---
 
