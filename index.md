@@ -4,17 +4,19 @@ title: CommandPost
 
 # Introduction:
 
-CommandPost is a completely **free** and **open source** Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools - it's basically [Automator](https://macosxautomation.com/automator/) for editors. It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the plan is to eventually add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html) and [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/).
+CommandPost is a completely **free** and **open source** Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools - it's basically [Automator](https://macosxautomation.com/automator/) for editors. It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html) and [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/).
 
 It originally started off as a little proof of concept project to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)) – but has since grown into a HUGE collection of handy professional workflow tools and unique automation features to make editing within Final Cut Pro faster, easier and much more powerful. And this is just the beginning...
 
-With the addition of a powerful plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
+Built on-top of a powerful plugin architecture, the aim of CommandPost is to build a free and **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
+
+If you know how to stumble around HTML or JavaScript code, building plugins for CommandPost will be a breeze, as they're built using the powerful, efficient and lightweight [Lua](https://www.lua.org/about.html) coding language.
 
 ---
 
 # Video:
 
-Please note, that this video is very out-dated and doesn't reflect all the new features of CommandPost. New video coming soon!
+**New promo video coming soon!** The below video is quite a few months old now and doesn't reflect all the new features of CommandPost.
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/196231096/' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by [Thomas Grove Carter](http://thomasgrovecarter.com/).
@@ -25,11 +27,9 @@ Inspired by [this AMAZING video](https://www.youtube.com/watch?v=mRbJH-GDumg) by
 
 CommandPost is currently in a **public beta testing phase**.
 
-If you're interested in helping out, [join our Beta Testers Facebook Group](https://www.facebook.com/groups/commandpost/).
+If you're interested in helping out please join our [Beta Testers Facebook Group](https://www.facebook.com/groups/commandpost/).
 
-Alternatively, if you don't have Facebook you can download the latest release from [GitHub](https://github.com/CommandPost/CommandPost/releases).
-
-<!-- You can download the latest version of CommandPost <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>. -->
+Alternatively, if you don't have Facebook you can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)]() [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)]() [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
