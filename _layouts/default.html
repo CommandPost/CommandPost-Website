@@ -69,7 +69,7 @@
 					console.log("Latest Release:");
 					console.log(latestRelease);
 
-					var asset = latestRelease.assets[0];
+					var asset = latestRelease.assets;
 					var downloadCount = 0;
 					for (var i = 0; i < release.assets.length; i++) {
 						downloadCount += release.assets[i].download_count;
