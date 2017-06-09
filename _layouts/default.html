@@ -10,8 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	  <script>
 		jQuery(document).ready (function () {
-			jQuery.getJSON("https://api.github.com/repos/CommandPost/CommandPost/tags").done(function (data) {
-				jQuery('#download-link').attr ('href', data[0].zipball_url);
+			jQuery.getJSON("https://api.github.com/repos/CommandPost/CommandPost/releases").done(function (data) {
+				jQuery('#download-link').attr ('href', data[0].assets.browser_download_url);
 			})
 		});
 	</script>
