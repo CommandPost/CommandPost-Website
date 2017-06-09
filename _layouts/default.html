@@ -65,11 +65,18 @@
 					console.log("Release:");
 					console.log(release);
 
-					var latestRelease = release[0];
+					var latestRelease = json[0];
+
 					console.log("Latest Release:");
 					console.log(latestRelease);
 
 					var asset = latestRelease.assets;
+
+					console.log("Asset:");
+					console.log(asset);
+
+					console.log("URL:");
+					console.log(asset.browser_download_url);
 
 					$("#download-link").attr("href", asset.browser_download_url);
 					$("#download-text-link").attr("href", asset.browser_download_url);
