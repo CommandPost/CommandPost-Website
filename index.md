@@ -24,7 +24,7 @@ CommandPost is currently in a **public beta testing phase**.
 
 If you're interested in helping out please join our [Beta Testers Facebook Group](https://www.facebook.com/groups/commandpost/).
 
-Alternatively, if you don't have Facebook you can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
+You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
@@ -36,9 +36,9 @@ CommandPost supports **macOS 10.10.5** or above (although we recommend Sierra & 
 
 It requires **Accessibility Permissions**, so you'll need your computer's Administrator Password.
 
-The **Virtual Touch Bar** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or above.
+The optional **Virtual Touch Bar** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or above.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or above (although we recommend Final Cut Pro 10.3.4).
+The optional Final Cut Pro features require **Final Cut Pro 10.3.2** or above (although we recommend Final Cut Pro 10.3.4).
 
 ---
 
