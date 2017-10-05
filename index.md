@@ -12,9 +12,9 @@ It originally started off as a little proof-of-concept project to make finding t
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
-For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're built using the powerful, efficient and lightweight [Lua](https://www.lua.org/about.html) coding language.
+For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're built using the powerful, fast, and easy-to-learn [Lua](https://www.lua.org/about.html) coding language.
 
-Enjoy!
+You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpradio.com/episodes/episode043.html).
 
 ---
 
@@ -46,13 +46,13 @@ The optional **Virtual Touch Bar** features require **[macOS Sierra 10.12.1](htt
 
 You can help support CommandPost by:
 
-- [Making a secure PayPal donation to LateNite Films.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
-- [Buying a Wizards t-shirt from LateNite Films.](https://lateniteshop.com)
+- [Making a Secure PayPal Donation.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
+- [Buying Merchandise.](https://lateniteshop.com)
 
 ...or help out with development by:
 
 - [Translating CommandPost into other languages.](https://dev.commandpost.io/internationalisation/translate/)
-- [Creating your own CommandPost Plugin and sharing it with the community.](https://dev.commandpost.io/plugins/overview/)
+- [Creating your own CommandPost Plugins and sharing them with the community.](https://dev.commandpost.io/plugins/overview/)
 - [Helping create tutorials and documentation for CommandPost.](https://github.com/CommandPost/CommandPost/issues)
 - [Supporting the development of Hammerspoon.](http://www.hammerspoon.org)
 - [Supporting the development of Lua](https://www.lua.org/donations.html)
