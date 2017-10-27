@@ -18,6 +18,28 @@ You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpr
 
 ---
 
+# Top Features for Final Cut Pro:
+
+- Timecode Overlays in Viewer
+- Batch Exporting from Browser
+- Scrolling Timeline
+- Watch Folders
+- Customisable Touch Bar buttons
+- Shared Clipboard & Clipboard History
+- Timeline Zooming with Mouse Scroll & OPTION key (includes Magic Mouse)
+- Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
+- Color Board Puck Shortcuts (for use with control surfaces)
+- Movable Markers
+- Mobile Notifications ([Prowl](https://www.prowlapp.com) or iMessage)
+- Enable Rendering During Playback
+- Change Final Cut Pro's Backup Interval
+- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
+- Ignore Inserted Camera Cards
+- Highlight Browser Playhead
+- *Plus lots more...*
+
+---
+
 # Download:
 
 CommandPost is currently in a **public beta testing phase**.
