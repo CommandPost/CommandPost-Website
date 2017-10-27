@@ -4,7 +4,7 @@ title: CommandPost
 
 # Introduction:
 
-CommandPost is a completely **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically design for creative professionals. 
+CommandPost is a completely **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically design for creative professionals.
 
 It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html) and [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/).
 
@@ -32,13 +32,13 @@ You can download the latest release <a href="https://github.com/CommandPost/Comm
 
 # System Requirements:
 
-CommandPost supports **macOS 10.10.5** or above (High Sierra recommended).
+CommandPost supports **macOS 10.10.5** or above (Sierra recommended).
 
-It requires **Accessibility Permissions**, so you'll need your computer's Administrator Password.
+It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The optional Final Cut Pro features support **Final Cut Pro 10.3.2** or above (10.3.4 recommended).
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or above (10.3.4 recommended).
 
-The optional **Virtual Touch Bar** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or above.
+The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or above.
 
 ---
 
