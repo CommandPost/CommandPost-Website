@@ -4,7 +4,7 @@ title: CommandPost
 
 # Introduction:
 
-CommandPost is a completely **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically design for creative professionals.
+CommandPost is a completely **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
 It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html) and [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/).
 
