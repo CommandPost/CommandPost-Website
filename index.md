@@ -25,26 +25,27 @@ You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpr
 - Scrolling Timeline
 - Watch Folders
 - Customisable Touch Bar buttons
+- Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Shared Clipboard & Clipboard History
 - Timeline Zooming with Mouse Scroll & OPTION key (includes Magic Mouse)
-- Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Color Board Puck Shortcuts (for use with control surfaces)
 - Movable Markers
-- Mobile Notifications ([Prowl](https://www.prowlapp.com) or iMessage)
+- Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
 - Enable Rendering During Playback
 - Change Final Cut Pro's Backup Interval
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
 - Ignore Inserted Camera Cards
 - Highlight Browser Playhead
+- MIDI Support (including controlling Color Board via Knobs)
 - *Plus lots more...*
 
 ---
 
 # Download:
 
-CommandPost is currently in a **public beta testing phase**.
+CommandPost is currently in a **public beta testing phase**, with around 560 monthly active users.
 
-If you're interested in helping out please join our [Beta Testers Facebook Group](https://www.facebook.com/groups/commandpost/).
+If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
@@ -54,7 +55,7 @@ You can download the latest release <a href="https://github.com/CommandPost/Comm
 
 # System Requirements:
 
-CommandPost supports **macOS 10.10.5** or above (Sierra recommended).
+CommandPost supports **macOS 10.10.5** or above (Sierra recommended, High Sierra supported).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
