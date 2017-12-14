@@ -17,12 +17,24 @@
 		});
 	</script>
     <style>
-		body {	
-			font-family: -apple-system;		
+		body {
+			font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: 0.23100000619888306px;
+			font-style: normal;
+			font-synthesis: none;
+			font-weight: normal;
+			background-color: rgb(27, 27, 27);
+			font-size: 17px;
+			color: rgb(204, 204, 204);
+		}
+		a {
+			color: rgb(102, 187, 255);
+			cursor: auto;
 		}
 		.page-header {
 			background-color: #1f1f1f !important;
-			background-image: none !important;
+			background-image: "http://commandpost.io/assets/images/header_background.jpg" !important;
 		}
 		.main-content h1 {
 			color: #555555;
@@ -40,8 +52,8 @@
     <section class="page-header">
       <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>      
-      <a href="https://github.com/CommandPost/CommandPost/releases/latest" class="btn" id="download-link">Download</a>      
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <a href="https://github.com/CommandPost/CommandPost/releases/latest" class="btn" id="download-link">Download</a>
       <a href="http://help.commandpost.io/" class="btn" target="_blank">User Guide</a>
       <a href="http://dev.commandpost.io/" class="btn" target="_blank">Developer Guide</a>
       <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta">Facebook Group</a>
