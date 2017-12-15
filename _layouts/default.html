@@ -37,8 +37,18 @@
 			background-image: url("http://commandpost.io/assets/images/header_background.jpg") !important;
 		}
 		.main-content h1 {
+			-webkit-font-smoothing: antialiased;
 			color: rgb(255, 255, 255);
-			font-size: 1.5em;
+			direction: ltr;
+			display: block;
+			font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 32px;
+			font-style: normal;
+			font-synthesis: none;
+			font-weight: 600;
+			height: 36px;
+			letter-spacing: 0.12800000607967377px;
+			line-height: 36px;
 		}
 		.main-content h2 {
 			font-size: 1.3em;
@@ -46,7 +56,7 @@
 		.site-footer-credits {
 			font-size: 0.9em;
 		}
-		.main-content hr {
+		hr {
 			height: 2px;
 			border: 0;
 			color: linear-gradient(to right, #ffad65 0%, #ff7928 100%) !important;
@@ -64,25 +74,12 @@
       <a href="http://dev.commandpost.io/" class="btn" target="_blank">Developer Guide</a>
       <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta">Facebook Group</a>
     </section>
-
     <section class="main-content">
       {{ content }}
       <footer class="site-footer">
-        <span class="site-footer-credits">This page was <a href="https://github.com/CommandPost/CommandPost-Website">created</a> using <a href="https://pages.github.com">GitHub Pages</a>. If you notice a mistake please <a href="https://github.com/CommandPost/CommandPost-Website/issues">submit an issue</a>.</span>
-	<p style="font-size: 10px;">Apple, macOS, Final Cut Pro and Final Cut are trademarks of Apple, Inc., registered in the U.S. and other countries. Adobe, Premiere Pro and After Effects are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are properties of their respective owners.</p>
+    	<span class="site-footer-credits">This page was <a href="https://github.com/CommandPost/CommandPost-Website">created</a> using <a href="https://pages.github.com">GitHub Pages</a>. If you notice a mistake please <a href="https://github.com/CommandPost/CommandPost-Website/issues">submit an issue</a>.</span>
+		<p style="font-size: 10px;">Apple, macOS, Final Cut Pro and Final Cut are trademarks of Apple, Inc., registered in the U.S. and other countries. Adobe, Premiere Pro and After Effects are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are properties of their respective owners.</p>
       </footer>
     </section>
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
 </html>
