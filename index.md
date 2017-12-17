@@ -10,7 +10,7 @@ It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pr
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
-For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://www.lua.org/about.html) coding language.
+For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) coding language.
 
 You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpradio.com/episodes/episode043.html).
 
