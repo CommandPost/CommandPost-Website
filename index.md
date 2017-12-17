@@ -53,13 +53,13 @@ You can download the latest release <a href="https://github.com/CommandPost/Comm
 
 # System Requirements
 
-CommandPost supports **macOS 10.10.5** or above (Sierra recommended, High Sierra supported).
+CommandPost supports **macOS 10.10.5** or later (including High Sierra).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or above (10.3.4 recommended).
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4).
 
-The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or above.
+The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
 ---
 
