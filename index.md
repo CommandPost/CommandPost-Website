@@ -35,6 +35,7 @@ You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpr
 - Ignore Inserted Camera Cards
 - Highlight Browser Playhead
 - MIDI Support (including controlling Color Board via Knobs)
+- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
 - *Plus lots more...*
 
 ---
@@ -46,6 +47,8 @@ CommandPost is currently in a **public beta testing phase**, with around 565 act
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
+
+You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
