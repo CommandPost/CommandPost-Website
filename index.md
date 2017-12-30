@@ -42,7 +42,7 @@ You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpr
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with around 565 active monthly users.
+CommandPost is currently in a **public beta testing phase**, with around 593 active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
