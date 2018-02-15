@@ -12,7 +12,7 @@ Built on-top of a powerful and flexible plugin architecture, the aim of CommandP
 
 For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/).
 
-You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpradio.com/episodes/episode043.html).
+You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
 ---
 
