@@ -18,6 +18,10 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 # Top Features
 
+## Compressor
+
+- Watch Folders
+
 ## Final Cut Pro
 
 - Timecode Overlays in Viewer
