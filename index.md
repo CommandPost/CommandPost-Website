@@ -16,7 +16,9 @@ You can listen to Chris explain CommandPost on [Final Cut Pro Radio](http://fcpr
 
 ---
 
-# Top Features for Final Cut Pro
+# Top Features
+
+## Final Cut Pro
 
 - Timecode Overlays in Viewer
 - Batch Exporting from Browser
