@@ -112,6 +112,7 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - Chris's AMAZING supportive wife, Karen.
 - Daniel Daperis, Nicholas Colla and our entire team at [LateNite Films](https://latenitefilms.com).
 - The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
+- The Stream Deck icons were created by Daniele Di Tuccio.
 - The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
 - [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their on-going [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people. CommandPost wouldn't be remotely possible if it wasn't for their brains and constant help and support. Thank you, thank you.
 - [Andrew Madsen](https://github.com/armadsen) for all his help and support with [MIKMIDI](https://github.com/mixedinkey-opensource/MIKMIDI).
