@@ -81,7 +81,7 @@ You can help support CommandPost by:
 
 Or help out with development by:
 
-- [Translating CommandPost into other languages](https://dev.commandpost.io/internationalisation/translate/)
+- [Translating CommandPost into other languages](https://poeditor.com/join/project/QWvOQlF1Sy)
 - [Creating your own CommandPost Plugins and sharing them with the community](https://dev.commandpost.io/plugins/overview/)
 - [Helping create tutorials and documentation for CommandPost](https://github.com/CommandPost/CommandPost/issues)
 - [Supporting the development of Hammerspoon](http://www.hammerspoon.org)
