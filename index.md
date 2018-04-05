@@ -27,20 +27,20 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 - Timecode Overlays in Viewer
 - Batch Exporting from Browser
 - Scrolling Timeline
+- Movable Markers
 - Watch Folders
 - Customisable Touch Bar buttons
 - Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Shared Clipboard & Clipboard History
-- Timeline Zooming with Mouse Scroll & OPTION key (includes Magic Mouse)
-- Color Board Puck Shortcuts (for use with control surfaces)
-- Movable Markers
+- Timeline Zooming with Mouse Scroll & modifier key (includes Magic Mouse)
+- Additional Color Inspector Shortcuts (for use with control surfaces)
 - Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
 - Enable Rendering During Playback
 - Change Final Cut Pro's Backup Interval
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
 - Ignore Inserted Camera Cards
 - Highlight Browser Playhead
-- MIDI Support (including controlling Color Board via Knobs)
+- MIDI Support (including controlling the Color Wheels)
 - [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
 - *Plus lots more...*
 
@@ -48,7 +48,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with around 600+ active monthly users.
+CommandPost is currently in a **public beta testing phase**, with around 669+ active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
@@ -109,13 +109,14 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 
 # Special Thanks
 
-- Chris's AMAZING supportive wife, Karen.
+- Our family for putting up with us, especially Karen, Erica & Nigel the dog.
 - Daniel Daperis, Nicholas Colla and our entire team at [LateNite Films](https://latenitefilms.com).
 - The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 - The Stream Deck icons were created by Daniele Di Tuccio.
 - The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
 - [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their on-going [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people. CommandPost wouldn't be remotely possible if it wasn't for their brains and constant help and support. Thank you, thank you.
 - [Andrew Madsen](https://github.com/armadsen) for all his help and support with [MIKMIDI](https://github.com/mixedinkey-opensource/MIKMIDI).
+- Andy Knox and the team at [Tangent](http://tangentwave.co.uk) for all their ongoing help and support.
 - The INCREDIBLE Andrew Kramer at [Video Copilot](http://www.videocopilot.net/) for giving the world [FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) for FREE – and also inspiring me to rip off his genius idea and include a “console” feature in CommandPost!
 - Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice.
 - Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
