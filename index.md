@@ -48,7 +48,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with around 669+ active monthly users.
+CommandPost is currently in a **public beta testing phase**, with over 757 active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
@@ -66,7 +66,7 @@ CommandPost supports **macOS 10.10.5** or later (including High Sierra).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4).
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.1).
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
