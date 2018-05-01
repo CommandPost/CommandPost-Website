@@ -25,14 +25,14 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 ## Final Cut Pro
 
 - Timecode Overlays in Viewer
-- Batch Exporting from Browser
-- Scrolling Timeline
+- Batch Exporting from Browser & Timeline
+- Scrolling & Locked Timeline
 - Movable Markers
 - Watch Folders
 - Customisable Touch Bar buttons
 - Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Shared Clipboard & Clipboard History
-- Timeline Zooming with Mouse Scroll & modifier key (includes Magic Mouse)
+- Timeline Zooming with Mouse Scroll & Modifier Key (includes Magic Mouse)
 - Additional Color Inspector Shortcuts (for use with control surfaces)
 - Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
 - Enable Rendering During Playback
@@ -48,7 +48,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with over 789 active monthly users.
+CommandPost is currently in a **public beta testing phase**, with over 893 active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
@@ -62,11 +62,11 @@ You can review the release notes and download previous versions [here](https://g
 
 # System Requirements
 
-CommandPost supports **macOS 10.10.5** or later (including High Sierra).
+CommandPost supports **macOS 10.10.5** or later (including High Sierra 10.13.4).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.1).
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.2).
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
