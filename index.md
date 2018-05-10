@@ -16,7 +16,16 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 ---
 
-# Top Features
+# Features
+
+CommandPost has **hundreds** of useful features. Here are some of our favourites:
+
+## Finder
+
+- Launch Final Cut Pro
+- Make Pasteboard Contents Uppercase/Lowercase, etc.
+- Windows Management/Resize Tools
+- Shortcut for Un-mounting External Drives
 
 ## Compressor
 
@@ -42,19 +51,22 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 - Highlight Browser Playhead
 - MIDI Support (including controlling the Color Wheels)
 - [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
-- *Plus lots more...*
+
+For more information check out our [User Guide](http://help.commandpost.io/).
 
 ---
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with over 893 active monthly users.
+CommandPost is currently in a **public beta testing phase**, with over 908 active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
+
+If you find CommandPost useful, please consider making a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) for development.
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
