@@ -10,7 +10,7 @@ It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pr
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
-For those that know how to stumble around HTML or JavaScript code, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/).
+For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/) and [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html).
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
@@ -19,6 +19,12 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 # Features
 
 CommandPost has **hundreds** of useful features. Here are some of our favourites:
+
+## All Applications
+- Apple Touch Bar Support
+- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
+- MIDI Device Support
+- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
 
 ## Finder
 
@@ -38,7 +44,6 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Scrolling & Locked Timeline
 - Movable Markers
 - Watch Folders
-- Customisable Touch Bar buttons
 - Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Shared Clipboard & Clipboard History
 - Timeline Zooming with Mouse Scroll & Modifier Key (includes Magic Mouse)
@@ -46,11 +51,8 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
 - Enable Rendering During Playback
 - Change Final Cut Pro's Backup Interval
-- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
 - Ignore Inserted Camera Cards
 - Highlight Browser Playhead
-- MIDI Support (including controlling the Color Wheels)
-- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
 
 For more information check out our [User Guide](http://help.commandpost.io/).
 
@@ -58,7 +60,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with over 908 active monthly users.
+CommandPost is currently in a **public beta testing phase**, with around 900 active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
