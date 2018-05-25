@@ -64,6 +64,8 @@ CommandPost is currently in a **public beta testing phase**, with around 900 act
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
+Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
+
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
