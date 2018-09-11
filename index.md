@@ -10,7 +10,7 @@ It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pr
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
-For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/) and [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html).
+For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/) and [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html). It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
@@ -33,10 +33,6 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Windows Management/Resize Tools
 - Shortcut for Un-mounting External Drives
 
-## Compressor
-
-- Watch Folders
-
 ## Final Cut Pro
 
 - Timecode Overlays in Viewer
@@ -54,13 +50,17 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Ignore Inserted Camera Cards
 - Highlight Browser Playhead
 
+## Compressor
+
+- Watch Folders
+
 For more information check out our [User Guide](http://help.commandpost.io/).
 
 ---
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with around 900 active monthly users.
+CommandPost is currently in a **public beta testing phase**, with around 1.1K active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
@@ -78,11 +78,11 @@ If you find CommandPost useful, please consider making a [donation](https://www.
 
 # System Requirements
 
-CommandPost supports **macOS 10.10.5** or later (including High Sierra 10.13.4).
+CommandPost supports **macOS 10.10.5** or later (including High Sierra 10.13.6).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.2).
+The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.3).
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
