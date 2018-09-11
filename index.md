@@ -37,7 +37,7 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 
 - Timecode Overlays in Viewer
 - Batch Exporting from Browser & Timeline
-- Scrolling & Locked Timeline
+- Scrolling Timeline
 - Movable Markers
 - Watch Folders
 - Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
