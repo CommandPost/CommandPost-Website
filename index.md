@@ -35,8 +35,7 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 
 ## Final Cut Pro
 
-- Timecode Overlays in Viewer
-- Batch Exporting from Browser & Timeline
+- Batch Exporting from Timeline
 - Scrolling Timeline
 - Movable Markers
 - Watch Folders
@@ -78,11 +77,11 @@ If you find CommandPost useful, please consider making a [donation](https://www.
 
 # System Requirements
 
-CommandPost supports **macOS 10.10.5** or later (including High Sierra 10.13.6).
+CommandPost supports **macOS 10.10.5** or later (including Mojave 10.14.1).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-The Final Cut Pro features require **Final Cut Pro 10.3.2** or later (including 10.4.3).
+Beta 35 requires **Final Cut Pro 10.4.4**. If you're using an older version of Final Cut Pro, please use an older version of CommandPost.
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
