@@ -10,7 +10,7 @@ It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pr
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
-For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/) and [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html). It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
+For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792). It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
