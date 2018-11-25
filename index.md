@@ -35,19 +35,16 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 
 ## Final Cut Pro
 
-- Batch Exporting from Timeline
 - Scrolling Timeline
-- Movable Markers
+- Batch Export from Timeline
+- Highlight Browser Playhead
+- Color Inspector controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Watch Folders
-- Color Board controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Shared Clipboard & Clipboard History
 - Timeline Zooming with Mouse Scroll & Modifier Key (includes Magic Mouse)
-- Additional Color Inspector Shortcuts (for use with control surfaces)
 - Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
 - Enable Rendering During Playback
-- Change Final Cut Pro's Backup Interval
 - Ignore Inserted Camera Cards
-- Highlight Browser Playhead
 
 ## Compressor
 
