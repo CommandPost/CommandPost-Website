@@ -80,7 +80,7 @@ CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Moja
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-**Beta 43** requires **Final Cut Pro 10.4.5** (or later). If you're using an older version of Final Cut Pro, please use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
+**Beta 44** requires **Final Cut Pro 10.4.5** (or later). If you're using an older version of Final Cut Pro, please use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
