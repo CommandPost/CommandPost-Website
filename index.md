@@ -22,7 +22,6 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 
 ## All Applications
 - Apple Touch Bar Support
-- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) Support
 - MIDI Device Support
 - [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
 
@@ -36,13 +35,16 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 ## Final Cut Pro
 
 - Scrolling Timeline
+- Save & Restore Browser Layouts
 - Batch Export from Timeline
 - Highlight Browser Playhead
+- Pasteboard Buffer
 - Color Inspector controls on the MacBook Pro Touch Bar (or using [Duet](https://www.duetdisplay.com))
 - Watch Folders
 - Shared Clipboard & Clipboard History
 - Timeline Zooming with Mouse Scroll & Modifier Key (includes Magic Mouse)
 - Mobile Notifications ([Prowl](https://www.prowlapp.com), [Pushover](https://pushover.net/login) & iMessage)
+- Apple Watch & Android Wear notifications (via [Pushover](https://pushover.net/login))
 - Enable Rendering During Playback
 - Ignore Inserted Camera Cards
 
@@ -74,11 +76,11 @@ If you find CommandPost useful, please consider making a [donation](https://www.
 
 # System Requirements
 
-CommandPost supports **macOS 10.10.5** or later (including Mojave 10.14.1).
+CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave 10.14.3**).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-Beta 35 requires **Final Cut Pro 10.4.4**. If you're using an older version of Final Cut Pro, please use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
+**Beta 43** requires **Final Cut Pro 10.4.5** (or later). If you're using an older version of Final Cut Pro, please use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
@@ -133,6 +135,6 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice.
 - Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
 - [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
-- [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing and encouragement.
+- [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.
 - [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Vigneswaran Rajkumar, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
-- Thanks also to all our [awesome beta testers](https://www.facebook.com/groups/commandpost/)!
+- Thanks also to all our [awesome Facebook Community](https://www.facebook.com/groups/commandpost/)!
