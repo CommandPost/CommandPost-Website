@@ -11,7 +11,6 @@
 	  <script>
 		jQuery(document).ready (function () {
 			jQuery.getJSON("https://api.github.com/repos/CommandPost/CommandPost/releases").done(function (data) {
-				jQuery('#download-link').attr ('href', data[0].assets[0].browser_download_url);
 				jQuery('#download-text-link').attr ('href', data[0].assets[0].browser_download_url);
 			})
 		});
@@ -77,7 +76,7 @@
       <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="https://github.com/CommandPost/CommandPost/releases/latest" class="btn" id="download-link">Download</a>
+      <a href="https://commandpost.io/#download" class="btn" id="download-link">Download</a>
       <a href="http://help.commandpost.io/" class="btn" target="_blank">User Guide</a>
       <a href="http://dev.commandpost.io/" class="btn" target="_blank">Developer Guide</a>
       <a href="http://lab.commandpost.io/" class="btn" target="_blank">The Lab</a>

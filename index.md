@@ -47,6 +47,7 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Apple Watch & Android Wear notifications (via [Pushover](https://pushover.net/login))
 - Enable Rendering During Playback
 - Ignore Inserted Camera Cards
+- Advanced HUD with FCPXML & Pasteboard Editor
 
 ## Compressor
 
@@ -58,13 +59,13 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 # Download
 
-CommandPost is currently in a **public beta testing phase**, with around 1.1K active monthly users.
+You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
+
+CommandPost is currently in a **public beta testing phase**, with around 1.2K active monthly users.
 
 If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
-
-You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
 You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
 
