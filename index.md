@@ -61,9 +61,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-CommandPost is currently in a **public beta testing phase**, with around 1.2K active monthly users.
-
-If you're interested in helping out please join our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+CommandPost is currently in a public beta testing phase, with around **1.2K active monthly users**.
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
 
@@ -81,7 +79,7 @@ CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Moja
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-**Beta 44** requires **Final Cut Pro 10.4.5** (or later). If you're using an older version of Final Cut Pro, please use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
+**Beta 50** supports **Final Cut Pro 10.4.4** (or later). If you're using an older version of Final Cut Pro, you can use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
@@ -116,7 +114,7 @@ Alternatively, you can always email us via [team@commandpost.io](mailto:team@com
 
 # Authors
 
-CommandPost was originally conceived as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
+CommandPost was originally thrown together by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
 It's now developed and maintained by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
