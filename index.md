@@ -135,5 +135,6 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
 - [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
 - [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.
-- [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Vigneswaran Rajkumar, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
+- [Vigneswaran Rajkumar](https://theacharya.co) for all his detailed bug reports and testing.
+- [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
 - Thanks also to all our [awesome Facebook Community](https://www.facebook.com/groups/commandpost/)!
