@@ -133,8 +133,10 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - The INCREDIBLE Andrew Kramer at [Video Copilot](http://www.videocopilot.net/) for giving the world [FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) for FREE – and also inspiring me to rip off his genius idea and include a “console” feature in CommandPost!
 - Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice.
 - Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
-- [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
+- [Julien Chichignoud](http://julien.chichignoud.com) for all his amazing coding advice, maths problem solving and support.
 - [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.
 - [Vigneswaran Rajkumar](https://theacharya.co) for all his detailed bug reports and testing.
+- [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
+- [Roger Bolton](https://coremelt.com) for all his help and advice.
 - [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
 - Thanks also to all our [awesome Facebook Community](https://www.facebook.com/groups/commandpost/)!
