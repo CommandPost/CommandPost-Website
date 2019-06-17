@@ -4,9 +4,9 @@ title: CommandPost
 
 # Introduction
 
-CommandPost is a completely **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
+CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html) and [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/).
+It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html), [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
@@ -16,14 +16,27 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 ---
 
+# Videos
+
+Here's some awesome videos made by members of our community:
+
+- [Amazing for Final Cut Pro! | Loupedeck+ Review](https://www.youtube.com/watch?v=uNMdDGtIoR0)
+- [How to Hack the Touch Bar on the MacBook Pro using CommandPost](https://www.youtube.com/watch?v=Wf7MZ2MjgkA)
+- [Creative Techniques #12: MIDI Color Correction with CommandPost](https://www.youtube.com/watch?v=V4YvDeOtpGc)
+- [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)
+- [Tangent Ripple for FCPX w/CommandPost](https://www.youtube.com/watch?v=FWzd6KZNHpY)
+- [Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)](https://www.youtube.com/watch?v=Ai_fTAwEI_g)
+
+---
+
 # Features
 
 CommandPost has **hundreds** of useful features. Here are some of our favourites:
 
 ## All Applications
 - Apple Touch Bar Support
-- MIDI Device Support
-- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad App)
+- MIDI Device Support (including [Loupedeck+](https://loupedeck.com))
+- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad & Android App)
 
 ## Finder
 
@@ -61,13 +74,13 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-CommandPost is currently in a public beta testing phase, with around **1.2K active monthly users**.
+CommandPost is currently in a public beta testing phase, with around **1.3K active monthly users**.
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
 
 You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
 
-If you find CommandPost useful, please consider making a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) for development.
+**If you find CommandPost useful, please consider making a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) for development.**
 
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
@@ -75,7 +88,7 @@ If you find CommandPost useful, please consider making a [donation](https://www.
 
 # System Requirements
 
-CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave 10.14.3**).
+CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave 10.14.6**).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
@@ -87,10 +100,7 @@ The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](ht
 
 # How to Contribute
 
-You can help support CommandPost by:
-
-- [Making a Secure PayPal Donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
-- [Buying LateNite Merchandise](https://lateniteshop.com)
+You can help support CommandPost by [making a Secure PayPal Donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
 
 Or help out with development by:
 
