@@ -20,7 +20,8 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 Here's some awesome videos made by members of our community:
 
-- [CommandPost & Loupedeck+ Review](https://www.youtube.com/watch?v=uNMdDGtIoR0)
+- [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
+- [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
 - [How to Hack the Touch Bar on the MacBook Pro using CommandPost](https://www.youtube.com/watch?v=Wf7MZ2MjgkA)
 - [Creative Techniques #12: MIDI Color Correction with CommandPost](https://www.youtube.com/watch?v=V4YvDeOtpGc)
 - [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)
@@ -74,7 +75,9 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-CommandPost is currently in a public beta testing phase, with over **1.5K active monthly users**.
+CommandPost is currently in a public beta testing phase, with over **2400 active monthly users**.
+
+There are over 1000 users in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
 
@@ -90,11 +93,13 @@ You can review the release notes and download previous versions [here](https://g
 
 CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave 10.14.6**).
 
-It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
-
-**Beta 50** supports **Final Cut Pro 10.4.4** (or later). If you're using an older version of Final Cut Pro, you can use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost.
-
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
+
+CommandPost requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
+
+**Beta 50** onwards only supports **Final Cut Pro 10.4.4** (or later).
+
+If you're using an older version of Final Cut Pro, you can use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost, but we strongly recommend updating Final Cut Pro.
 
 ---
 
@@ -149,4 +154,4 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
 - [Roger Bolton](https://coremelt.com) for all his help and advice.
 - [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
-- Thanks also to all our [awesome Facebook Community](https://www.facebook.com/groups/commandpost/)!
+- Thanks also to all our awesome [Facebook Community](https://www.facebook.com/groups/commandpost/)!
