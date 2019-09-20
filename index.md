@@ -75,9 +75,9 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-CommandPost is currently in a public beta testing phase, with over **2400 active monthly users**.
+CommandPost is currently in a public beta testing phase, with over **2600 active monthly users**.
 
-There are over 1000 users in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+There are over 1062 users in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
 
