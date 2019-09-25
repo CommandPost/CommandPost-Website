@@ -6,6 +6,8 @@ title: CommandPost
 
 CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
+It's currently in a public beta testing phase, with over **2900 active monthly users** and over **1085** users in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+
 It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html), [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
@@ -74,10 +76,6 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 # Download
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
-
-CommandPost is currently in a public beta testing phase, with over **2600 active monthly users**.
-
-There are over 1062 users in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy-policy) before downloading.
 
