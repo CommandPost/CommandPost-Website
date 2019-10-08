@@ -89,15 +89,13 @@ You can review the release notes and download previous versions [here](https://g
 
 # System Requirements
 
-CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave 10.14.6**).
+CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Mojave & Catalina**).
+
+**Beta 50** onwards only supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.7**).
 
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
 CommandPost requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
-
-**Beta 50** onwards only supports **Final Cut Pro 10.4.4** (or later).
-
-If you're using an older version of Final Cut Pro, you can use an [older version](https://github.com/CommandPost/CommandPost/releases/tag/1.0.0-beta.34) of CommandPost, but we strongly recommend updating Final Cut Pro.
 
 ---
 
