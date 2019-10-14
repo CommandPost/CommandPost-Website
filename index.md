@@ -37,8 +37,9 @@ Here's some awesome videos made by members of our community:
 CommandPost has **hundreds** of useful features. Here are some of our favourites:
 
 ## All Applications
-- Apple Touch Bar Support
-- MIDI Device Support (including [Loupedeck+](https://loupedeck.com))
+
+- MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
+- MIDI Device Support (including [Loupedeck+](https://loupedeck.com) & [AudioSwift](https://audioswiftapp.com))
 - [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad & Android App)
 
 ## Finder
@@ -47,6 +48,7 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Make Pasteboard Contents Uppercase/Lowercase, etc.
 - Windows Management/Resize Tools
 - Shortcut for Un-mounting External Drives
+- Enable/disable chime sound when laptop power is connected
 
 ## Final Cut Pro
 
@@ -96,6 +98,8 @@ CommandPost supports **macOS Yosemite 10.10.5** or later (including **macOS Moja
 The **Touch Bar** & **Magic Mouse** features require **[macOS Sierra 10.12.1](https://support.apple.com/kb/dl1897)** or later.
 
 CommandPost requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
+
+macOS Catalina also requires Screen Recording permission.
 
 ---
 
