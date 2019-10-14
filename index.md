@@ -6,7 +6,7 @@ title: CommandPost
 
 CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-It's currently in a public beta testing phase, with over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1158** users</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+It's currently in a public beta testing phase, with over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1158 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Built on-top of a powerful and flexible plugin architecture, the aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
