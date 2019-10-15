@@ -23,8 +23,8 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 Here's some awesome videos made by members of our community:
 
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
+- [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
 - [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
-- [Serge M demos CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
 - [How to Hack the Touch Bar on the MacBook Pro using CommandPost](https://www.youtube.com/watch?v=Wf7MZ2MjgkA)
 - [Creative Techniques #12: MIDI Color Correction with CommandPost](https://www.youtube.com/watch?v=V4YvDeOtpGc)
 - [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)
