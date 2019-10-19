@@ -30,6 +30,7 @@ Here's some awesome videos made by members of our community:
 - [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)
 - [Tangent Ripple for FCPX w/CommandPost](https://www.youtube.com/watch?v=FWzd6KZNHpY)
 - [Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)](https://www.youtube.com/watch?v=Ai_fTAwEI_g)
+- [Conheça o Command Post !!!](https://www.youtube.com/watch?v=ymHuhJmcyIg)
 
 ---
 
