@@ -18,6 +18,27 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 ---
 
+# Sponsor
+
+To help continue CommandPost to grow, evolve and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
+
+**GitHub will kindly match user contributions up to USD$5,000 until November 2020.**
+
+GitHub also covers all the transaction costs, so 100% of your contribution hits our bank account.
+
+We would love you to make the most of GitHub's very generous offer, and support CommandPost.
+
+If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
+
+You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
+You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
+
+Starting on 13th November 2019, you'll also be able to sponsor the CommandPost project directly via GitHub, however, GitHub won't match the contributions.
+
+Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
+
+---
+
 # Videos
 
 Here's some awesome videos made by members of our community:
@@ -85,8 +106,6 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
 
-**If you find CommandPost useful, please consider making a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) for development.**
-
 [![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)
 
 ---
@@ -100,20 +119,6 @@ It supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.7*
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
 macOS Catalina also requires **Screen Recording** permission.
-
----
-
-# How to Contribute
-
-You can help support CommandPost by [making a Secure PayPal Donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
-
-Or help out with development by:
-
-- [Translating CommandPost into other languages](https://poeditor.com/join/project/QWvOQlF1Sy)
-- [Creating your own CommandPost Plugins and sharing them with the community](https://dev.commandpost.io/plugins/overview/)
-- [Helping create tutorials and documentation for CommandPost](https://github.com/CommandPost/CommandPost/issues)
-- [Supporting the development of Hammerspoon](http://www.hammerspoon.org)
-- [Supporting the development of Lua](https://www.lua.org/donations.html)
 
 ---
 
@@ -138,7 +143,7 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 # Special Thanks
 
 - Our family for putting up with us, especially Karen, Erica & Nigel the dog.
-- Daniel Daperis, Nicholas Colla and our entire team at [LateNite Films](https://latenitefilms.com).
+- Kevin Luk, Daniel Daperis, Nicholas Colla and our entire team at [LateNite Films](https://latenitefilms.com).
 - The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
 - The Stream Deck icons were created by Daniele Di Tuccio.
 - The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
