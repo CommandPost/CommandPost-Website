@@ -30,8 +30,8 @@ We would love you to make the most of GitHub's very generous offer, and support 
 
 If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
 
-You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
-You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
+- You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
+- You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
 Starting on 13th November 2019, you'll also be able to sponsor the CommandPost project directly via GitHub, however, GitHub won't match the contributions.
 
