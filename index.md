@@ -12,7 +12,7 @@ Built on-top of a powerful and flexible plugin architecture, the aim of CommandP
 
 For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792). It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
 
-It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/) - however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html), [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
+It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/), however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html), [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
@@ -20,7 +20,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 # Sponsor
 
-To help continue CommandPost to grow, evolve and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
+To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
 **GitHub will kindly match user contributions up to USD$5,000 until November 2020.**
 
