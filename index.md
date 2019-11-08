@@ -33,9 +33,13 @@ If we can raise $5K for both Chris & David, this means GitHub will double the am
 - You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
+GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel, or smaller monthly contributions.
+
 Starting on 13th November 2019, you'll also be able to sponsor the CommandPost project directly via GitHub, however, GitHub won't match the contributions.
 
-Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
+Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
+
+You can read the GitHub Sponsors FAQ [here](https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors).
 
 ---
 
