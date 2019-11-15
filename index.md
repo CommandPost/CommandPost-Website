@@ -6,7 +6,7 @@ title: CommandPost
 
 CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1158 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1231 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Built on-top of a powerful and flexible plugin architecture, CommandPost provides an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
@@ -35,7 +35,7 @@ If we can raise $5K for both Chris & David, this means GitHub will double the am
 
 GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel, or smaller monthly contributions.
 
-Starting on 13th November 2019, you'll also be able to sponsor the CommandPost project directly via GitHub, however, GitHub won't match the contributions.
+You can also sponsor the CommandPost project [directly via GitHub](https://github.com/sponsors/CommandPost), however, GitHub **won't** match the contributions.
 
 Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
 
@@ -56,6 +56,7 @@ Here's some awesome videos made by members of our community:
 - [Tangent Ripple for FCPX w/CommandPost](https://www.youtube.com/watch?v=FWzd6KZNHpY)
 - [Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)](https://www.youtube.com/watch?v=Ai_fTAwEI_g)
 - [Conheça o Command Post !!!](https://www.youtube.com/watch?v=ymHuhJmcyIg)
+- [Oyibo VFX explains how to speed up your FCPX workflow](https://www.youtube.com/watch?v=NCShkNSsH40)
 
 ---
 
