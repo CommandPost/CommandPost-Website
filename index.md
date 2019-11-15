@@ -26,16 +26,12 @@ To help continue CommandPost to grow, evolve, and stay completely free and open-
 
 GitHub also covers all the transaction costs, so 100% of your contribution hits our bank account.
 
-We would love you to make the most of GitHub's very generous offer, and support CommandPost.
-
 If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
 
 - You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
-GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel, or smaller monthly contributions.
-
-You can also sponsor the CommandPost project [directly via GitHub](https://github.com/sponsors/CommandPost), however, GitHub **won't** match the contributions.
+GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel after a month, or do smaller monthly contributions.
 
 Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
 
