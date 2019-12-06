@@ -123,6 +123,8 @@ It requires **Accessibility Permissions**, so you'll need your computer's **Admi
 
 macOS Catalina also requires **Screen Recording** permission.
 
+Customisable & Virtual Touch Bar support currently doesn't work on the new 16-inch MacBook Pro. We are actively working on a fix.
+
 ---
 
 # Support
