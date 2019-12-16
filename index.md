@@ -6,7 +6,7 @@ title: CommandPost
 
 CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1231 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1281 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Built on-top of a powerful and flexible plugin architecture, CommandPost provides an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
@@ -117,13 +117,13 @@ You can review the release notes and download previous versions [here](https://g
 
 CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave & Catalina**).
 
-It supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.7**).
+It supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.8**).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
 macOS Catalina also requires **Screen Recording** permission.
 
-Customisable & Virtual Touch Bar support currently doesn't work on the new 16-inch MacBook Pro. We are actively working on a fix.
+Customisable & Virtual Touch Bar support currently doesn't work on the new **16-inch MacBook Pro**. We are actively working on a fix.
 
 ---
 
