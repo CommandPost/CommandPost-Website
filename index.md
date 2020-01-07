@@ -6,7 +6,7 @@ title: CommandPost
 
 CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1281 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1293 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Built on-top of a powerful and flexible plugin architecture, CommandPost provides an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
@@ -38,6 +38,18 @@ If you're new to GitHub you may be presented with a "Your GitHub Sponsors contri
 Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
 
 You can read the GitHub Sponsors FAQ [here](https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors).
+
+---
+
+# Custom Tools
+
+If you have a specific post production workflow problem you need to solve or automate, we can help.
+
+We've developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
+
+For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark's second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
+
+[Email us](mailto:team@commandpost.io?subject="Custom Tools") to discuss your specific requirements.
 
 ---
 
