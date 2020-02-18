@@ -11,7 +11,7 @@
 	  <script>
 		jQuery(document).ready (function () {
 			jQuery.getJSON("https://api.github.com/repos/CommandPost/CommandPost/releases/latest").done(function (data) {
-				jQuery('#download-text-link').attr ('href', data[0].assets[0].browser_download_url);
+				jQuery('#download-text-link').attr ('href', data.assets[0].browser_download_url);
 			})
 		});
 	</script>
