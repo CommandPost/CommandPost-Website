@@ -121,8 +121,6 @@ You can review the release notes and download previous versions and beta release
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
 
-[![GitHub release](https://img.shields.io/github/release/CommandPost/CommandPost/all.svg)](https://github.com/CommandPost/CommandPost/releases) [![license](https://img.shields.io/github/license/CommandPost/CommandPost.svg)](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) [![Github All Releases](https://img.shields.io/github/downloads/CommandPost/CommandPost/total.svg)](https://github.com/CommandPost/CommandPost/releases)
-
 ---
 
 # System Requirements
@@ -135,7 +133,7 @@ It requires **Accessibility Permissions**, so you'll need your computer's **Admi
 
 macOS Catalina also requires **Screen Recording** permission.
 
-Customisable & Virtual Touch Bar support currently doesn't work on the new **16-inch MacBook Pro**. We are actively working on a fix.
+Customisable & Virtual Touch Bar support currently doesn't work on the new **16-inch MacBook Pro**. This is fixed in the beta releases and will ship soon.
 
 ---
 
