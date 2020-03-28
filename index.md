@@ -72,21 +72,7 @@ Here's some awesome videos made by members of our community:
 
 # Features
 
-CommandPost has **hundreds** of useful features. Here are some of our favourites:
-
-## All Applications
-
-- MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
-- MIDI Device Support (including [Loupedeck+](https://loupedeck.com) & [AudioSwift](https://audioswiftapp.com))
-- [Tangent Panel](http://tangentwave.co.uk) Support (including Tangent's iPad & Android App)
-
-## Finder
-
-- Launch Final Cut Pro
-- Make Pasteboard Contents Uppercase/Lowercase, etc.
-- Windows Management/Resize Tools
-- Shortcut for Un-mounting External Drives
-- Enable/disable chime sound when laptop power is connected
+CommandPost has **hundreds** of useful professional features. Here are some of our favourites:
 
 ## Final Cut Pro
 
@@ -105,11 +91,28 @@ CommandPost has **hundreds** of useful features. Here are some of our favourites
 - Ignore Inserted Camera Cards
 - Advanced HUD with FCPXML & Pasteboard Editor
 
-## Compressor
+## Finder
 
-- Watch Folders
+- Make Pasteboard Contents Uppercase/Lowercase, etc.
+- Windows Management/Resize Tools
+- Shortcut for Un-mounting External Drives
+- Enable/disable chime sound when laptop power is connected
 
 For more information check out our [User Guide](http://help.commandpost.io/).
+
+---
+
+# Control Surface Support
+
+CommandPost has native support for the following devices:
+
+- MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
+- [AudioSwift](https://audioswiftapp.com)
+- [Loupedeck+](https://loupedeck.com)
+- [Loupedeck CT](https://loupedeck.com) (currently in beta)
+- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) (XL and Mini support currently in beta)
+- [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
+- MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
 
 ---
 
