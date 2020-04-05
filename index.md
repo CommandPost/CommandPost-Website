@@ -120,7 +120,9 @@ CommandPost has native support for the following devices:
 
 You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
 
-You can review the release notes and download previous versions and beta releases [here](https://github.com/CommandPost/CommandPost/releases/).
+We also post regular pre-release and beta builds in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+
+You can review the release notes and download previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
 
