@@ -85,9 +85,7 @@
 	App
 	--------------------*/
 	.search-form {
-		margin:0 0 4rem 0;
 	  width: 15rem;
-	  height: 2.5rem;
 	  border-radius: 0.5rem;
 	  display: flex;
 	  align-items: center;
@@ -96,6 +94,7 @@
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
 	  text-align: left;
+		height:3.225rem;
 	}
 	.search-form.focus {
 	  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
@@ -143,6 +142,7 @@
 	}
 	.btn{
 		cursor: pointer;
+		height:3.225rem;
 	}
 	.blue {
 		background-color: #25aae2;
@@ -176,6 +176,16 @@
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
 	}
+	.valign{
+		display: flex;
+		align-items: center;
+		width:100%;
+		justify-content: center;
+	}
+	.valign>*{
+		display:block;
+		margin:0;
+	}
 	</style>
   </head>
   <body>
@@ -184,23 +194,26 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
 	  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 			<br>
-      <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
-      <a href="https://commandpost.io/#sponsor" class="btn red" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
-<br>
-<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+			<div class="valign"><a href="http://help.commandpost.io/" class="btn cspace red" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+				<span style="width:1.4rem;"></span>
+			<div class="wrapper">
+				<form class="search-form" action="https://help.commandpost.io/" method="GET">
+						<button type="submit" class="search-button">
+					  <svg class="submit-button">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+					  </svg>
+					</button>
+					<input type="search" id="keywords" value="" placeholder="Search User Guide" class="search-input" name="q">
+					</form>
+					</div></div><br>
+
+      <a href="https://commandpost.io/#download" class="btn" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
+      <a href="https://commandpost.io/#sponsor" class="btn" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
+
       <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i> Developer Guide</a>
       <a href="http://lab.commandpost.io/" class="btn" target="_blank"><i class="fas fa-flask cspace"></i>The Lab</a>
       <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta"><i class="fab fa-facebook-f cspace"></i>Facebook Group</a>
-      <br><br><div class="wrapper">
-		<form class="search-form" action="https://help.commandpost.io/" method="GET">
-				<button type="submit" class="search-button">
-			  <svg class="submit-button">
-				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-			  </svg>
-			</button>
-			<input type="search" id="keywords" value="" placeholder="Search User Guide" class="search-input" name="q">
-			</form>
-			</div>
+    
 		</section>
     <section class="main-content">
       {{ content }}
