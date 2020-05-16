@@ -34,6 +34,7 @@
 		.page-header {
 			background-color: #1f1f1f !important;
 			background-image: url("http://commandpost.io/assets/images/header_background.jpg") !important;
+			text-align: center;
 		}
 		.main-content h1 {
 			-webkit-font-smoothing: antialiased;
@@ -69,26 +70,178 @@
 			border: 0 !important;
 			text-align: center;
 		}
-    </style>
+		.cspace{
+			margin-right:0.5em;
+		}
+	</style>
+	
+<style>
+	*,
+	*::before,
+	*::after {
+	  box-sizing: border-box;
+	}
+	/*--------------------
+	App
+	--------------------*/
+	.search-form {
+	  width: 15rem;
+	  border-radius: 0.5rem;
+	  display: flex;
+	  align-items: center;
+	  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+	  background: #fff;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	  text-align: left;
+		height:3.225rem;
+	}
+	.search-form.focus {
+	  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+	}
+	.wrapper{
+		display:inline-block;
+		/*position:fixed;
+		right:2rem;
+		top:2rem;*/
+	}
+	.search-input {
+	  font-size: 0.8rem;
+	  background: none;
+	  color: #5a6674;
+	  width: 11rem;
+	  padding-left:0.5rem;
+	  border: none;
+	  align-items:center;
+	  -webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+	  outline: none;
+	}
+	.search-input::-webkit-search-cancel-button {
+	  -webkit-appearance: none;
+			  appearance: none;
+	}
+	
+	.search-button {
+		height:1rem;
+		width:1rem;
+	  padding: 0;
+	  margin: 0;
+	  margin-left:1em;
+	  border: none;
+	  background: none;
+	  outline: none !important;
+	  cursor: pointer;
+	  margin-bottom: 0.4em;
+	}
+	.search-button svg {
+	  width: 1rem;
+	  height: 1rem;
+	  fill: #5a6674;
+	}
+	.btn{
+		cursor: pointer;
+		height:3.225rem;
+	}
+	.blue {
+		background-color: #25aae2;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.blue:hover {
+		background-color: #1795d4;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.blue:active {
+		background-color: #0074ad;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.red {
+		background-color: #6d1010;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.red:hover {
+		background-color: #841212;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.red:active {
+		background-color: #5E0D0D;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.valign{
+		display: flex;
+		align-items: center;
+		width:100%;
+		justify-content: center;
+	}
+	.valign>*{
+		display:block;
+		margin:0;
+	}
+	.orange {
+		background-color: #993800;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.orange:hover {
+		background-color: #BD4500;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.orange:active {
+		background-color: #A63D00;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	</style>
   </head>
   <body>
     <section class="page-header">
       <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="https://commandpost.io/#download" class="btn" id="download-link">Download</a>
-      <a href="https://commandpost.io/#sponsor" class="btn" id="sponsor-link">Sponsor</a>
-      <a href="http://help.commandpost.io/" class="btn" target="_blank">User Guide</a>
-      <a href="http://dev.commandpost.io/" class="btn" target="_blank">Developer Guide</a>
-      <a href="http://lab.commandpost.io/" class="btn" target="_blank">The Lab</a>
-      <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta">Facebook Group</a>
-    </section>
+	  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+	  <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
+	  <a href="https://commandpost.io/#sponsor" class="btn orange" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
+      <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i> Developer Guide</a>
+      <a href="http://lab.commandpost.io/" class="btn" target="_blank"><i class="fas fa-flask cspace"></i>The Lab</a>
+      <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta"><i class="fab fa-facebook-f cspace"></i>Facebook Group</a>
+    
+			<br>
+			<div class="valign">
+				<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+				<span style="width:1.4rem;"></span>
+			<div class="wrapper">
+				<form class="search-form" action="https://help.commandpost.io/" method="GET">
+						<button type="submit" class="search-button">
+					  <svg class="submit-button">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+					  </svg>
+					</button>
+					<input type="search" id="keywords" value="" placeholder="Search User Guide" class="search-input" name="q">
+					</form>
+					</div></div>
+		</section>
     <section class="main-content">
       {{ content }}
       <footer class="site-footer">
       	<p style="font-size: 10px;">Apple, macOS, Final Cut Pro and Final Cut are trademarks of Apple, Inc., registered in the U.S. and other countries. Adobe, Premiere Pro and After Effects are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are properties of their respective owners.</p>
     	<span class="site-footer-credits">This page was <a href="https://github.com/CommandPost/CommandPost-Website">created</a> using <a href="https://pages.github.com">GitHub Pages</a>. If you notice a mistake please <a href="https://github.com/CommandPost/CommandPost-Website/issues">submit an issue</a>.</span>
       </footer>
-    </section>
+	</section>
+	<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+		<symbol id="search" viewBox="0 0 32 32">
+		  <path d="M 19.5 3 C 14.26514 3 10 7.2651394 10 12.5 C 10 14.749977 10.810825 16.807458 12.125 18.4375 L 3.28125 27.28125 L 4.71875 28.71875 L 13.5625 19.875 C 15.192542 21.189175 17.250023 22 19.5 22 C 24.73486 22 29 17.73486 29 12.5 C 29 7.2651394 24.73486 3 19.5 3 z M 19.5 5 C 23.65398 5 27 8.3460198 27 12.5 C 27 16.65398 23.65398 20 19.5 20 C 15.34602 20 12 16.65398 12 12.5 C 12 8.3460198 15.34602 5 19.5 5 z" />
+		</symbol>
+		</svg>
+	<script src="https://kit.fontawesome.com/f53d8b80a6.js" crossorigin="anonymous"></script>
   </body>
 </html>
