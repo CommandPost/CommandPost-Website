@@ -1,5 +1,6 @@
 ---
 title: CommandPost
+layout: default
 ---
 
 # Introduction

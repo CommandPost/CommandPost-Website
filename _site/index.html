@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>CommandPost</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script>
+		jQuery(document).ready (function () {
+			jQuery.getJSON("https://api.github.com/repos/CommandPost/CommandPost/releases/latest").done(function (data) {
+				jQuery('#download-text-link').attr ('href', data.assets[0].browser_download_url);
+			})
+		});
+	</script>
+    <style>
+		body {
+			font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: 0.23100000619888306px;
+			font-style: normal;
+			font-synthesis: none;
+			font-weight: normal;
+			background-color: rgb(27, 27, 27);
+			font-size: 17px;
+			color: rgb(255, 255, 255);
+		}
+		a {
+			color: rgb(102, 187, 255);
+			cursor: auto;
+		}
+		.page-header {
+			background-color: #1f1f1f !important;
+			background-image: url("http://commandpost.io/assets/images/header_background.jpg") !important;
+			text-align: center;
+		}
+		.main-content h1 {
+			-webkit-font-smoothing: antialiased;
+			color: rgb(255, 255, 255);
+			direction: ltr;
+			display: block;
+			font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 32px;
+			font-style: normal;
+			font-synthesis: none;
+			font-weight: 600;
+			height: 36px;
+			letter-spacing: 0.12800000607967377px;
+			line-height: 36px;
+		}
+		.main-content h2 {
+			font-size: 1.3em;
+			color: rgb(255, 255, 255);
+		}
+		.site-footer-credits {
+			font-size: 0.9em;
+		}
+		.main-content hr {
+			height: 2px !important;
+			border: 0 !important;
+			color: linear-gradient(to right, #ffad65 0%, #ff7928 100%) !important;
+			background: linear-gradient(to right, #ffad65 0%, #ff7928 100%) !important;
+			width: 50% !important;
+			text-align: center !important;
+			margin: 2rem 0px 0px 25% !important;
+		}
+		.site-footer {
+			border: 0 !important;
+			text-align: center;
+		}
+		.cspace{
+			margin-right:0.5em;
+		}
+	</style>
+	
+<style>
+	*,
+	*::before,
+	*::after {
+	  box-sizing: border-box;
+	}
+	/*--------------------
+	App
+	--------------------*/
+	.search-form {
+		margin:0 0 4rem 0;
+	  width: 15rem;
+	  height: 2.5rem;
+	  border-radius: 0.5rem;
+	  display: flex;
+	  align-items: center;
+	  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+	  background: #fff;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	  text-align: left;
+	}
+	.search-form.focus {
+	  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+	}
+	.wrapper{
+		display:inline-block;
+		/*position:fixed;
+		right:2rem;
+		top:2rem;*/
+	}
+	.search-input {
+	  font-size: 0.8rem;
+	  background: none;
+	  color: #5a6674;
+	  width: 11rem;
+	  padding-left:0.5rem;
+	  border: none;
+	  align-items:center;
+	  -webkit-appearance: none;
+		 -moz-appearance: none;
+			  appearance: none;
+	  outline: none;
+	}
+	.search-input::-webkit-search-cancel-button {
+	  -webkit-appearance: none;
+			  appearance: none;
+	}
+	
+	.search-button {
+		height:1rem;
+		width:1rem;
+	  padding: 0;
+	  margin: 0;
+	  margin-left:1em;
+	  border: none;
+	  background: none;
+	  outline: none !important;
+	  cursor: pointer;
+	  margin-bottom: 0.4em;
+	}
+	.search-button svg {
+	  width: 1rem;
+	  height: 1rem;
+	  fill: #5a6674;
+	}
+	.btn{
+		cursor: pointer;
+	}
+	.blue {
+		background-color: #25aae2;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.blue:hover {
+		background-color: #1795d4;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.blue:active {
+		background-color: #0074ad;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.red {
+		background-color: #BD1C1B;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.red:hover {
+		background-color: #7E1212;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.red:active {
+		background-color: #8C1414;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	</style>
+  </head>
+  <body>
+    <section class="page-header">
+      <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
+      <h1 class="project-name">CommandPost</h1>
+	  <h2 class="project-tagline">Workflow Toolkit for Professional Editors</h2>
+			<br>
+      <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
+      <a href="https://commandpost.io/#sponsor" class="btn red" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
+<br>
+<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+      <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i> Developer Guide</a>
+      <a href="http://lab.commandpost.io/" class="btn" target="_blank"><i class="fas fa-flask cspace"></i>The Lab</a>
+      <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta"><i class="fab fa-facebook-f cspace"></i>Facebook Group</a>
+      <br><br><div class="wrapper">
+		<form class="search-form" action="https://help.commandpost.io/" method="GET">
+				<button type="submit" class="search-button">
+			  <svg class="submit-button">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+			  </svg>
+			</button>
+			<input type="search" id="keywords" value="" placeholder="Search" class="search-input" name="q">
+			</form>
+			</div>
+		</section>
+    <section class="main-content">
+      <h1 id="introduction">Introduction</h1>
+
+<p>CommandPost is a <strong>free</strong> and <a href="https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md"><strong>open source</strong></a> Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple’s <a href="https://macosxautomation.com/automator/">Automator</a>, with a little bit of <a href="https://www.boastr.net">BetterTouchTool</a> and <a href="https://www.keyboardmaestro.com">Keyboard Maestro</a> thrown in, but specifically designed for creative professionals.</p>
+
+<p>CommandPost has over <span style="color: #e8a75d;"><strong>3300 active monthly users</strong></span> and over <span style="color: #e8a75d;"><strong>1293 users</strong></span> in our <a href="https://www.facebook.com/groups/commandpost/">Facebook Group</a>.</p>
+
+<p>Built on-top of a powerful and flexible plugin architecture, CommandPost provides an <strong>open platform</strong> where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can <strong>get home earlier</strong> and spend <strong>less</strong> time in front of a computer.</p>
+
+<p>For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they’re created using the powerful, fast, and easy-to-learn <a href="https://dev.commandpost.io/lua/overview/">Lua</a> - the same scripting language used by <a href="https://www.blackmagicdesign.com/products/fusion/">Blackmagic Fusion</a>, <a href="https://www.adobe.com/au/products/photoshop-lightroom.html">Adobe Lightroom</a> and even parts of <a href="https://twitter.com/_inside/status/1026173832527265792">Apple iOS</a>. It’s also fully compatible with <a href="http://www.hammerspoon.org">Hammerspoon</a>.</p>
+
+<p>It’s currently focussed on Apple’s <a href="http://apple.com/final-cut-pro/">Final Cut Pro</a>, however the road-map is to add useful functionality for other tools we use on a daily basis, like <a href="http://www.adobe.com/au/products/aftereffects.html">Adobe After Effects</a>, <a href="http://www.imagineersystems.com/products/mocha-pro/">mocha Pro</a> and <a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a>.</p>
+
+<p>You can listen to Chris explain CommandPost on Final Cut Pro Radio <a href="http://fcpradio.com/episode057.html">Episode #57</a> and <a href="http://fcpradio.com/episodes/episode043.html">Episode #43</a>.</p>
+
+<hr />
+
+<h1 id="sponsor">Sponsor</h1>
+
+<p>To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.</p>
+
+<p><strong>GitHub will kindly match user contributions up to USD$5,000 until November 2020.</strong></p>
+
+<p>GitHub also covers all the transaction costs, so 100% of your contribution hits our bank account.</p>
+
+<p>If we can raise $5K for both Chris &amp; David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.</p>
+
+<ul>
+  <li>You can sponsor Chris on GitHub <a href="https://github.com/sponsors/latenitefilms">here</a>.</li>
+  <li>You can sponsor David on GitHub <a href="https://github.com/sponsors/randomeizer">here</a>.</li>
+</ul>
+
+<p>GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel after a month, or do smaller monthly contributions.</p>
+
+<p>If you’re new to GitHub you may be presented with a “Your GitHub Sponsors contribution will not be matched at this time” warning. This is just temporary, as GitHub needs to verify brand new accounts internally to prevent fraud and abuse. Once verified your contributions will be matched.</p>
+
+<p>Alternatively, you can also make a donation via <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HQK87KLKY8EVN">PayPal</a> (but would prefer you did a one-off payment through GitHub instead so they match your donation).</p>
+
+<p>You can read the GitHub Sponsors FAQ <a href="https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors">here</a>.</p>
+
+<hr />
+
+<h1 id="custom-tools">Custom Tools</h1>
+
+<p>If you have a specific post production workflow problem you need to solve or automate, we can help.</p>
+
+<p>We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.</p>
+
+<p>For example, we developed a transcription plugin for <a href="https://www.imdb.com/title/tt9782756/">Apollo: Missions to the Moon</a> (edited by <a href="https://twitter.com/davidtillman">David Tillman</a>) as well as specific CommandPost features for Denmark’s second largest production company, <a href="http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake">Metronome Productions</a>.</p>
+
+<p><a href="mailto:team@commandpost.io?subject=&quot;Custom Tools&quot;">Email us</a> to discuss your specific requirements.</p>
+
+<hr />
+
+<h1 id="videos">Videos</h1>
+
+<p>Here’s some awesome videos made by members of our community:</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=2IkCYS9Svrw">Arthur Moore demoes CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=yYCNVb24kR8">Serge M demoes CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=uNMdDGtIoR0">Arthur Moore demoes CommandPost &amp; Loupedeck+</a></li>
+  <li><a href="https://www.youtube.com/watch?v=Wf7MZ2MjgkA">How to Hack the Touch Bar on the MacBook Pro using CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=V4YvDeOtpGc">Creative Techniques #12: MIDI Color Correction with CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=FXzoeAUWMe4">Batch Export FCPX browser clips using CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=FWzd6KZNHpY">Tangent Ripple for FCPX w/CommandPost</a></li>
+  <li><a href="https://www.youtube.com/watch?v=Ai_fTAwEI_g">Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)</a></li>
+  <li><a href="https://www.youtube.com/watch?v=ymHuhJmcyIg">Conheça o Command Post !!!</a></li>
+  <li><a href="https://www.youtube.com/watch?v=NCShkNSsH40">Oyibo VFX explains how to speed up your FCPX workflow</a></li>
+</ul>
+
+<hr />
+
+<h1 id="features">Features</h1>
+
+<p>CommandPost has <strong>hundreds</strong> of useful professional features. Here are some of our favourites:</p>
+
+<h2 id="final-cut-pro">Final Cut Pro</h2>
+
+<ul>
+  <li>Scrolling Timeline</li>
+  <li>Save &amp; Restore Browser Layouts</li>
+  <li>Batch Export from Timeline</li>
+  <li>Highlight Browser Playhead</li>
+  <li>Pasteboard Buffer</li>
+  <li>Color Inspector controls on the MacBook Pro Touch Bar (or using <a href="https://www.duetdisplay.com">Duet</a>)</li>
+  <li>Watch Folders</li>
+  <li>Shared Clipboard &amp; Clipboard History</li>
+  <li>Timeline Zooming with Mouse Scroll &amp; Modifier Key (includes Magic Mouse)</li>
+  <li>Mobile Notifications (<a href="https://www.prowlapp.com">Prowl</a>, <a href="https://pushover.net/login">Pushover</a> &amp; iMessage)</li>
+  <li>Apple Watch &amp; Android Wear notifications (via <a href="https://pushover.net/login">Pushover</a>)</li>
+  <li>Enable Rendering During Playback</li>
+  <li>Ignore Inserted Camera Cards</li>
+  <li>Advanced HUD with FCPXML &amp; Pasteboard Editor</li>
+</ul>
+
+<h2 id="finder">Finder</h2>
+
+<ul>
+  <li>Make Pasteboard Contents Uppercase/Lowercase, etc.</li>
+  <li>Windows Management/Resize Tools</li>
+  <li>Shortcut for Un-mounting External Drives</li>
+  <li>Enable/disable chime sound when laptop power is connected</li>
+</ul>
+
+<p>For more information check out our <a href="http://help.commandpost.io/">User Guide</a>.</p>
+
+<hr />
+
+<h1 id="control-surface-support">Control Surface Support</h1>
+
+<p>CommandPost has native support for the following devices:</p>
+
+<ul>
+  <li>MIDI Devices (including <a href="https://hexler.net/products/touchosc">TouchOSC</a>, etc.)</li>
+  <li><a href="https://audioswiftapp.com">AudioSwift</a></li>
+  <li><a href="https://loupedeck.com">Loupedeck+</a></li>
+  <li><a href="https://loupedeck.com">Loupedeck CT</a> (currently in beta)</li>
+  <li><a href="https://www.elgato.com/en/gaming/stream-deck">Stream Deck</a> (XL and Mini support currently in beta)</li>
+  <li><a href="http://tangentwave.co.uk">Tangent Panels</a> (including Tangent’s iPad &amp; Android App)</li>
+  <li>MacBook Pro Touch Bar Support (including a Virtual Touch Bar)</li>
+</ul>
+
+<hr />
+
+<h1 id="download">Download</h1>
+
+<p>You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.</p>
+
+<p>We also post regular pre-release and beta builds in our <a href="https://www.facebook.com/groups/commandpost/">Facebook Group</a>.</p>
+
+<p>You can review the release notes and download previous versions <a href="https://github.com/CommandPost/CommandPost/releases/">here</a>.</p>
+
+<p>Please review our <a href="https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md">license agreement</a> and <a href="https://help.commandpost.io/privacy-and-credits/privacy_policy">privacy policy</a> before downloading.</p>
+
+<hr />
+
+<h1 id="system-requirements">System Requirements</h1>
+
+<p>CommandPost requires <strong>macOS Sierra 10.12.1</strong> or later (including <strong>macOS Mojave &amp; Catalina</strong>).</p>
+
+<p>It supports <strong>Final Cut Pro 10.4.4</strong> or later (including <strong>Final Cut Pro 10.4.8</strong>).</p>
+
+<p>It requires <strong>Accessibility Permissions</strong>, so you’ll need your computer’s <strong>Administrator Password</strong>.</p>
+
+<p>macOS Catalina also requires <strong>Screen Recording</strong> permission.</p>
+
+<p>Customisable &amp; Virtual Touch Bar support currently doesn’t work on the new <strong>16-inch MacBook Pro</strong>. This is fixed in the beta releases and will ship soon.</p>
+
+<hr />
+
+<h1 id="support">Support</h1>
+
+<p>The best way to get support is via the <strong>CommandPost &gt; Provide Feedback</strong> button in the CommandPost menu.</p>
+
+<p>You can also post issues and feature requests on the <a href="https://github.com/CommandPost/CommandPost/issues">CommandPost GitHub Page</a>. Registering with GitHub is free, and we actively monitor these requests.</p>
+
+<p>Alternatively, you can always email us via <a href="mailto:team@commandpost.io">team@commandpost.io</a>.</p>
+
+<hr />
+
+<h1 id="authors">Authors</h1>
+
+<p>CommandPost was originally created by <a href="https://github.com/latenitefilms">Chris Hocking</a> as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for <a href="http://www.scottsimmons.tv/">Scott Simmons</a> (you can read the origin story <a href="https://latenitefilms.com/blog/final-cut-pro-hacks/">here</a>).</p>
+
+<p>It’s now developed and maintained by <a href="https://github.com/latenitefilms">Chris Hocking</a> &amp; <a href="https://github.com/randomeizer">David Peterson</a> through <a href="https://github.com/CommandPost/CommandPost">GitHub</a>.</p>
+
+<hr />
+
+<h1 id="special-thanks">Special Thanks</h1>
+
+<ul>
+  <li>Our family for putting up with us, especially Karen, Erica &amp; Nigel the dog.</li>
+  <li>Kevin Luk, Daniel Daperis, Nicholas Colla and our entire team at <a href="https://latenitefilms.com">LateNite Films</a>.</li>
+  <li>The CommandPost logo was designed by the very generous and talented <a href="https://twitter.com/SWDoctor">Sam Woodhall</a>.</li>
+  <li>The Stream Deck icons were created by Daniele Di Tuccio.</li>
+  <li>The <a href="https://github.com/CommandPost/CommandPost-App">CommandPost-App</a> is a fork of <a href="http://www.hammerspoon.org">Hammerspoon</a>. Thank you to <a href="https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md">EVERYONE</a> in the <a href="https://github.com/Hammerspoon/hammerspoon/issues">Hammerspoon Community</a> for all their help!</li>
+  <li><a href="https://github.com/asmagill">Aaron Magill</a> and <a href="https://github.com/cmsj">Chris Jones</a> for all their on-going <a href="https://github.com/Hammerspoon/hammerspoon/issues">help and support</a> with Hammerspoon – they’re both truly awesome people. CommandPost wouldn’t be remotely possible if it wasn’t for their brains and constant help and support. Thank you, thank you.</li>
+  <li><a href="https://github.com/armadsen">Andrew Madsen</a> for all his help and support with <a href="https://github.com/mixedinkey-opensource/MIKMIDI">MIKMIDI</a>.</li>
+  <li>Andy Knox and the team at <a href="http://tangentwave.co.uk">Tangent</a> for all their ongoing help and support.</li>
+  <li>The INCREDIBLE Andrew Kramer at <a href="http://www.videocopilot.net/">Video Copilot</a> for giving the world <a href="http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/">FX Console</a> for FREE – and also inspiring me to rip off his genius idea and include a “console” feature in CommandPost!</li>
+  <li>Bill Cheeseman at <a href="http://pfiddlesoft.com/">PFiddlesoft</a>, for all his help with <a href="http://pfiddlesoft.com/uibrowser/index.html">UI Browser</a> and his very generous GUI Scripting advice.</li>
+  <li>Andreas Verhoeven &amp; Robbert Klarenbeek for the work they’ve done with <a href="https://github.com/bikkelbroeders/TouchBarDemoApp">Touch Bar Demo App</a> - which <a href="https://github.com/asmagill">Aaron Magill</a> very kindly <a href="https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar">ported to Hammerspoon</a>.</li>
+  <li><a href="http://julien.chichignoud.com">Julien Chichignoud</a> for all his amazing coding advice, maths problem solving and support.</li>
+  <li><a href="http://funwithstuff.com">Iain Anderson</a> &amp; Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.</li>
+  <li><a href="https://theacharya.co">Vigneswaran Rajkumar</a> for all his detailed bug reports and testing.</li>
+  <li><a href="https://twitter.com/cailyoung">Cail Young</a> for all his knowledge, advice and wisdom.</li>
+  <li><a href="https://coremelt.com">Roger Bolton</a> for all his help and advice.</li>
+  <li><a href="http://alex4d.com/">Alex Gollner</a>, <a href="http://www.scottsimmons.tv/">Scott Simmons</a>, <a href="https://twitter.com/ijterronez">Isaac J. Terronez</a>, Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync &amp; FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!</li>
+  <li>Thanks also to all our awesome <a href="https://www.facebook.com/groups/commandpost/">Facebook Community</a>!</li>
+</ul>
+
+      <footer class="site-footer">
+      	<p style="font-size: 10px;">Apple, macOS, Final Cut Pro and Final Cut are trademarks of Apple, Inc., registered in the U.S. and other countries. Adobe, Premiere Pro and After Effects are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are properties of their respective owners.</p>
+    	<span class="site-footer-credits">This page was <a href="https://github.com/CommandPost/CommandPost-Website">created</a> using <a href="https://pages.github.com">GitHub Pages</a>. If you notice a mistake please <a href="https://github.com/CommandPost/CommandPost-Website/issues">submit an issue</a>.</span>
+      </footer>
+	</section>
+	<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+		<symbol id="search" viewBox="0 0 32 32">
+		  <path d="M 19.5 3 C 14.26514 3 10 7.2651394 10 12.5 C 10 14.749977 10.810825 16.807458 12.125 18.4375 L 3.28125 27.28125 L 4.71875 28.71875 L 13.5625 19.875 C 15.192542 21.189175 17.250023 22 19.5 22 C 24.73486 22 29 17.73486 29 12.5 C 29 7.2651394 24.73486 3 19.5 3 z M 19.5 5 C 23.65398 5 27 8.3460198 27 12.5 C 27 16.65398 23.65398 20 19.5 20 C 15.34602 20 12 16.65398 12 12.5 C 12 8.3460198 15.34602 5 19.5 5 z" />
+		</symbol>
+		</svg>
+	<script src="https://kit.fontawesome.com/f53d8b80a6.js" crossorigin="anonymous"></script>
+  </body>
+</html>

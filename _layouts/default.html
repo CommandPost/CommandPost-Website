@@ -101,10 +101,10 @@
 	  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
 	}
 	.wrapper{
-		/*display:inline-block;*/
-		position:fixed;
+		display:inline-block;
+		/*position:fixed;
 		right:2rem;
-		top:2rem;
+		top:2rem;*/
 	}
 	.search-input {
 	  font-size: 0.8rem;
@@ -141,6 +141,9 @@
 	  height: 1rem;
 	  fill: #5a6674;
 	}
+	.btn{
+		cursor: pointer;
+	}
 	.blue {
 		background-color: #25aae2;
 	  -webkit-transition: all 0.3s ease;
@@ -157,6 +160,22 @@
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
 	}
+	.red {
+		background-color: #BD1C1B;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
+	.red:hover {
+		background-color: #7E1212;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	
+	}
+	.red:active {
+		background-color: #8C1414;
+	  -webkit-transition: all 0.3s ease;
+	  transition: all 0.3s ease;
+	}
 	</style>
   </head>
   <body>
@@ -164,7 +183,15 @@
       <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
 	  <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-	  <div class="wrapper">
+			<br>
+      <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
+      <a href="https://commandpost.io/#sponsor" class="btn red" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
+<br>
+<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+      <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i> Developer Guide</a>
+      <a href="http://lab.commandpost.io/" class="btn" target="_blank"><i class="fas fa-flask cspace"></i>The Lab</a>
+      <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta"><i class="fab fa-facebook-f cspace"></i>Facebook Group</a>
+      <br><br><div class="wrapper">
 		<form class="search-form" action="https://help.commandpost.io/" method="GET">
 				<button type="submit" class="search-button">
 			  <svg class="submit-button">
@@ -174,15 +201,7 @@
 			<input type="search" id="keywords" value="" placeholder="Search" class="search-input" name="q">
 			</form>
 			</div>
-			<br>
-      <a href="https://commandpost.io/#download" class="btn blue" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
-	  <a href="http://help.commandpost.io/" class="btn blue" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
-      <a href="https://commandpost.io/#sponsor" class="btn blue" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
-<br><br>
-      <a href="http://dev.commandpost.io/" class="btn" target="_blank">Developer Guide</a>
-      <a href="http://lab.commandpost.io/" class="btn" target="_blank">The Lab</a>
-      <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta">Facebook Group</a>
-    </section>
+		</section>
     <section class="main-content">
       {{ content }}
       <footer class="site-footer">
