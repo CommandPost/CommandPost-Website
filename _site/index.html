@@ -74,7 +74,7 @@
 			margin-right:0.5em;
 		}
 	</style>
-	
+
 <style>
 	*,
 	*::before,
@@ -122,7 +122,7 @@
 	  -webkit-appearance: none;
 			  appearance: none;
 	}
-	
+
 	.search-button {
 		height:1rem;
 		width:1rem;
@@ -153,7 +153,7 @@
 		background-color: #1795d4;
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
-	
+
 	}
 	.blue:active {
 		background-color: #0074ad;
@@ -169,7 +169,7 @@
 		background-color: #841212;
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
-	
+
 	}
 	.red:active {
 		background-color: #5E0D0D;
@@ -195,12 +195,32 @@
 		background-color: #BD4500;
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
-	
+
 	}
 	.orange:active {
 		background-color: #A63D00;
 	  -webkit-transition: all 0.3s ease;
 	  transition: all 0.3s ease;
+	}
+	@media screen and (min-width: 42em) and (max-width: 64em){
+		.btn{
+			padding: 0.85rem 0.9rem;
+		}
+	}
+	@media screen and (max-width: 42em) {
+		.btn {
+			height:initial;
+		}
+		.valign{
+			display: block;
+		}
+		.search-form {
+			width:100%;
+			margin-top:1em;
+		}
+		.search-input{
+			flex-grow:3;
+		}
 	}
 	</style>
   </head>
@@ -209,33 +229,28 @@
       <a href="http://commandpost.io"><img src="http://commandpost.io/assets/images/CommandPost_Icon_128@2x.png" width="150px" height="150px" /></a>
       <h1 class="project-name">CommandPost</h1>
 	  <h2 class="project-tagline">Workflow Toolkit for Professional Editors</h2>
-	  <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i> Download</a>
-	  <a href="https://commandpost.io/#sponsor" class="btn orange" id="sponsor-link"><i class="fas fa-heart cspace"></i> Sponsor</a>
-      <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i> Developer Guide</a>
+	  <a href="https://commandpost.io/#download" class="btn red" id="download-link"><i class="fas fa-download cspace"></i>Download</a>
+	  <a href="https://commandpost.io/#sponsor" class="btn orange" id="sponsor-link"><i class="fas fa-heart cspace"></i>Sponsor</a>
+      <a href="http://dev.commandpost.io/" class="btn" target="_blank"><i class="fas fa-code cspace"></i>Developer Guide</a>
       <a href="http://lab.commandpost.io/" class="btn" target="_blank"><i class="fas fa-flask cspace"></i>The Lab</a>
       <a href="https://www.facebook.com/groups/commandpost/" class="btn" id="join-beta"><i class="fab fa-facebook-f cspace"></i>Facebook Group</a>
-    
-			<br>
-			<div class="valign">
-				<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
-				<span style="width:1.4rem;"></span>
+		<div class="valign">
+			<a href="http://help.commandpost.io/" class="btn" target="_blank"><i class="fas fa-book-open cspace"></i> User Guide</a>
+			<span style="width:1.4rem;"></span>
 			<div class="wrapper">
 				<form class="search-form" action="https://help.commandpost.io/" method="GET">
-						<button type="submit" class="search-button">
-					  <svg class="submit-button">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-					  </svg>
-					</button>
+					<button type="submit" class="search-button"><svg class="submit-button"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use></svg></button>
 					<input type="search" id="keywords" value="" placeholder="Search User Guide" class="search-input" name="q">
-					</form>
-					</div></div>
-		</section>
+				</form>
+			</div>
+		</div>
+	</section>
     <section class="main-content">
       <h1 id="introduction">Introduction</h1>
 
-<p>CommandPost is a <strong>free</strong> and <a href="https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md"><strong>open source</strong></a> Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple’s <a href="https://macosxautomation.com/automator/">Automator</a>, with a little bit of <a href="https://www.boastr.net">BetterTouchTool</a> and <a href="https://www.keyboardmaestro.com">Keyboard Maestro</a> thrown in, but specifically designed for creative professionals.</p>
+<p>CommandPost is a <strong>free</strong> and <a href="https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md">open source</a> Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple’s <a href="https://macosxautomation.com/automator/">Automator</a>, with a little bit of <a href="https://www.boastr.net">BetterTouchTool</a> and <a href="https://www.keyboardmaestro.com">Keyboard Maestro</a> thrown in, but specifically designed for creative professionals.</p>
 
-<p>CommandPost has over <span style="color: #e8a75d;"><strong>3300 active monthly users</strong></span> and over <span style="color: #e8a75d;"><strong>1293 users</strong></span> in our <a href="https://www.facebook.com/groups/commandpost/">Facebook Group</a>.</p>
+<p>CommandPost has over <span style="color: #e8a75d;"><strong>3300 active monthly users</strong></span> and over <span style="color: #e8a75d;"><strong>1507 users</strong></span> in our <a href="https://www.facebook.com/groups/commandpost/">Facebook Group</a>.</p>
 
 <p>Built on-top of a powerful and flexible plugin architecture, CommandPost provides an <strong>open platform</strong> where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can <strong>get home earlier</strong> and spend <strong>less</strong> time in front of a computer.</p>
 
@@ -253,7 +268,7 @@
 
 <p><strong>GitHub will kindly match user contributions up to USD$5,000 until November 2020.</strong></p>
 
-<p>GitHub also covers all the transaction costs, so 100% of your contribution hits our bank account.</p>
+<p>GitHub also covers all the transaction costs, so <strong>100% of your contribution hits our bank account</strong>.</p>
 
 <p>If we can raise $5K for both Chris &amp; David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.</p>
 
@@ -279,6 +294,8 @@
 <p>We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.</p>
 
 <p>For example, we developed a transcription plugin for <a href="https://www.imdb.com/title/tt9782756/">Apollo: Missions to the Moon</a> (edited by <a href="https://twitter.com/davidtillman">David Tillman</a>) as well as specific CommandPost features for Denmark’s second largest production company, <a href="http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake">Metronome Productions</a>.</p>
+
+<p>The <strong>FCPXML Titles Processor</strong> in CommandPost is another example of a commissioned tool.</p>
 
 <p><a href="mailto:team@commandpost.io?subject=&quot;Custom Tools&quot;">Email us</a> to discuss your specific requirements.</p>
 
@@ -375,7 +392,7 @@
 
 <p>It requires <strong>Accessibility Permissions</strong>, so you’ll need your computer’s <strong>Administrator Password</strong>.</p>
 
-<p>macOS Catalina also requires <strong>Screen Recording</strong> permission.</p>
+<p>macOS Catalina also requires <strong>Screen Recording</strong> permission. Some features may now require <strong>Full Disk Access</strong>.</p>
 
 <p>Customisable &amp; Virtual Touch Bar support currently doesn’t work on the new <strong>16-inch MacBook Pro</strong>. This is fixed in the beta releases and will ship soon.</p>
 
@@ -415,7 +432,7 @@
   <li>Andreas Verhoeven &amp; Robbert Klarenbeek for the work they’ve done with <a href="https://github.com/bikkelbroeders/TouchBarDemoApp">Touch Bar Demo App</a> - which <a href="https://github.com/asmagill">Aaron Magill</a> very kindly <a href="https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar">ported to Hammerspoon</a>.</li>
   <li><a href="http://julien.chichignoud.com">Julien Chichignoud</a> for all his amazing coding advice, maths problem solving and support.</li>
   <li><a href="http://funwithstuff.com">Iain Anderson</a> &amp; Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.</li>
-  <li><a href="https://theacharya.co">Vigneswaran Rajkumar</a> for all his detailed bug reports and testing.</li>
+  <li><a href="https://vigneswaranrajkumar.com">Vigneswaran Rajkumar</a> for all his detailed bug reports and testing.</li>
   <li><a href="https://twitter.com/cailyoung">Cail Young</a> for all his knowledge, advice and wisdom.</li>
   <li><a href="https://coremelt.com">Roger Bolton</a> for all his help and advice.</li>
   <li><a href="http://alex4d.com/">Alex Gollner</a>, <a href="http://www.scottsimmons.tv/">Scott Simmons</a>, <a href="https://twitter.com/ijterronez">Isaac J. Terronez</a>, Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync &amp; FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!</li>

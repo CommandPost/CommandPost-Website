@@ -5,9 +5,9 @@ layout: default
 
 # Introduction
 
-CommandPost is a **free** and [**open source**](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
 
-CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1293 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1507 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 Built on-top of a powerful and flexible plugin architecture, CommandPost provides an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
 
@@ -25,7 +25,7 @@ To help continue CommandPost to grow, evolve, and stay completely free and open-
 
 **GitHub will kindly match user contributions up to USD$5,000 until November 2020.**
 
-GitHub also covers all the transaction costs, so 100% of your contribution hits our bank account.
+GitHub also covers all the transaction costs, so **100% of your contribution hits our bank account**.
 
 If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
 
@@ -49,6 +49,8 @@ If you have a specific post production workflow problem you need to solve or aut
 We've developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
 
 For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark's second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
+
+The **FCPXML Titles Processor** in CommandPost is another example of a commissioned tool.
 
 [Email us](mailto:team@commandpost.io?subject="Custom Tools") to discuss your specific requirements.
 
@@ -137,7 +139,7 @@ It supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.8*
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-macOS Catalina also requires **Screen Recording** permission.
+macOS Catalina also requires **Screen Recording** permission. Some features may now require **Full Disk Access**.
 
 Customisable & Virtual Touch Bar support currently doesn't work on the new **16-inch MacBook Pro**. This is fixed in the beta releases and will ship soon.
 
@@ -176,7 +178,7 @@ It's now developed and maintained by [Chris Hocking](https://github.com/latenite
 - Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
 - [Julien Chichignoud](http://julien.chichignoud.com) for all his amazing coding advice, maths problem solving and support.
 - [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.
-- [Vigneswaran Rajkumar](https://theacharya.co) for all his detailed bug reports and testing.
+- [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com) for all his detailed bug reports and testing.
 - [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
 - [Roger Bolton](https://coremelt.com) for all his help and advice.
 - [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
