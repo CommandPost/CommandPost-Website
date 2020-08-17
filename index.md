@@ -112,10 +112,16 @@ CommandPost has native support for the following devices:
 - MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
 - [AudioSwift](https://audioswiftapp.com)
 - [Loupedeck+](https://loupedeck.com)
-- [Loupedeck CT](https://loupedeck.com) (currently in beta)
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) (XL and Mini support currently in beta)
 - [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
+
+...and will soon support:
+
+- [Loupedeck](https://loupedeck.com) (currently in beta)
+- [Loupedeck CT](https://loupedeck.com) (currently in beta)
+- [TourBox](https://www.tourboxtech.com) (currently in development)
+- [Monogram/Palette](https://monogramcc.com) (currently in development)
 
 ---
 
