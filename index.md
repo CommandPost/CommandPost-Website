@@ -5,15 +5,17 @@ layout: default
 
 # Introduction
 
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) Mac application that allows you to seriously speed up your creative editing process through powerful and customisable automation tools. Think Apple's [Automator](https://macosxautomation.com/automator/), with a little bit of [BetterTouchTool](https://www.boastr.net) and [Keyboard Maestro](https://www.keyboardmaestro.com) thrown in, but specifically designed for creative professionals.
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-CommandPost has over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1507 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1750 users**</span> in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
-Built on-top of a powerful and flexible plugin architecture, CommandPost provides an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer.
+It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
-For those that know how to do basic coding, building plugins for CommandPost will also be a breeze, as they're created using the powerful, fast, and easy-to-learn [Lua](https://dev.commandpost.io/lua/overview/) - the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792). It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
+For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
 
-It's currently focussed on Apple's [Final Cut Pro](http://apple.com/final-cut-pro/), however the road-map is to add useful functionality for other tools we use on a daily basis, like [Adobe After Effects](http://www.adobe.com/au/products/aftereffects.html), [mocha Pro](http://www.imagineersystems.com/products/mocha-pro/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
+Developed in [Lua](https://dev.commandpost.io/lua/overview/) (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792)), it's insanely customisable and powerful.
+
+It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org).
 
 You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57](http://fcpradio.com/episode057.html) and [Episode #43](http://fcpradio.com/episodes/episode043.html).
 
@@ -32,7 +34,7 @@ If we can raise $5K for both Chris & David, this means GitHub will double the am
 - You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
-GitHub Sponsors works on a monthly subscription model, but you can cancel at any time, so you can just make one big donation and cancel after a month, or do smaller monthly contributions.
+GitHub Sponsors works on a monthly subscription model, **but you can cancel at any time**, so you can just make one big donation and cancel after a month, or do smaller monthly contributions.
 
 If you're new to GitHub you may be presented with a "Your GitHub Sponsors contribution will not be matched at this time" warning. This is just temporary, as GitHub needs to verify brand new accounts internally to prevent fraud and abuse. Once verified your contributions will be matched.
 
@@ -127,9 +129,7 @@ CommandPost has native support for the following devices:
 
 # Download
 
-You can download the latest release <a href="https://github.com/CommandPost/CommandPost/releases/latest" id="download-text-link">here</a>.
-
-You can review the release notes and download beta releases and previous versions [here](https://github.com/CommandPost/CommandPost/releases/).
+You can download the latest release [here](https://github.com/CommandPost/CommandPost/releases/).
 
 Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
 
@@ -137,15 +137,13 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave & Catalina**).
+CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina & Big Sur**).
 
-It supports **Final Cut Pro 10.4.4** or later (including **Final Cut Pro 10.4.8**).
+It supports **Final Cut Pro 10.4.4** and later (including **Final Cut Pro 10.4.10**).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-macOS Catalina also requires **Screen Recording** permission. Some features may now require **Full Disk Access**.
-
-Customisable & Virtual Touch Bar support currently doesn't work on the new **16-inch MacBook Pro**. This is fixed in the beta releases and will ship soon.
+macOS Catalina & Big Sur now require **Screen Recording** permission.
 
 ---
 
