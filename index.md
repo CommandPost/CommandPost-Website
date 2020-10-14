@@ -27,7 +27,7 @@ To help continue CommandPost to grow, evolve, and stay completely free and open-
 
 <span style="color: #e8a75d;">**GitHub will kindly match user contributions up to USD$5,000 until November 2020.**</span>
 
-GitHub also covers all the transaction costs, so **100% of your contribution hits our bank account**.
+<span style="color: #e8a75d;">**They also cover all the transaction costs, so 100% of your contribution hits our bank account.**</span>
 
 If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
 
