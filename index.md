@@ -11,7 +11,7 @@ There are currently over <span style="color: #e8a75d;">**3300 active monthly use
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
-For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
+For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button. It also has powerful Windows management tools.
 
 Developed in [Lua](https://dev.commandpost.io/lua/overview/) (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792)), it's insanely customisable and powerful.
 
@@ -25,7 +25,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
-**GitHub will kindly match user contributions up to USD$5,000 until November 2020.**
+<span style="color: #e8a75d;">**GitHub will kindly match user contributions up to USD$5,000 until November 2020.**</span>
 
 GitHub also covers all the transaction costs, so **100% of your contribution hits our bank account**.
 
@@ -41,6 +41,26 @@ If you're new to GitHub you may be presented with a "Your GitHub Sponsors contri
 Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
 
 You can read the GitHub Sponsors FAQ [here](https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors).
+
+---
+
+# Download
+
+You can download CommandPost [here](https://github.com/CommandPost/CommandPost/releases/).
+
+Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
+
+---
+
+# System Requirements
+
+CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina & Big Sur**).
+
+It supports **Final Cut Pro 10.4.4** and later (including **Final Cut Pro 10.4.10**).
+
+It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
+
+macOS Catalina & Big Sur now require **Screen Recording** permission.
 
 ---
 
@@ -128,26 +148,6 @@ We are also currently working on support for:
 
 ---
 
-# Download
-
-You can download the latest release [here](https://github.com/CommandPost/CommandPost/releases/).
-
-Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
-
----
-
-# System Requirements
-
-CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina & Big Sur**).
-
-It supports **Final Cut Pro 10.4.4** and later (including **Final Cut Pro 10.4.10**).
-
-It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
-
-macOS Catalina & Big Sur now require **Screen Recording** permission.
-
----
-
 # Support
 
 The best way to get support is via the **CommandPost > Provide Feedback** button in the CommandPost menu.
@@ -158,11 +158,11 @@ Alternatively, you can always email us via [team@commandpost.io](mailto:team@com
 
 ---
 
-# Authors
+# The Team
 
 CommandPost was originally created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
-It's now developed and maintained by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
+It's now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
 ---
 
