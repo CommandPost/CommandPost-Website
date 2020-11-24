@@ -29,7 +29,7 @@ To help continue CommandPost to grow, evolve, and stay completely free and open-
 
 <span style="color: #e8a75d;">**They also cover all the transaction costs, so 100% of your contribution hits our bank account.**</span>
 
-If we can raise $5K for both Chris & David, this means GitHub will double the amount, and we can dedicate a couple of months to CommandPost development.
+If we can raise $5K for both Chris & David, this means GitHub will double the amount for both of us, and we can dedicate a couple of months to CommandPost development.
 
 - You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
