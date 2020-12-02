@@ -25,22 +25,11 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
-<span style="color: #e8a75d;">**GitHub will kindly match user contributions up to USD$5,000 until November 2020.**</span>
+- Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
+- Sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
+- Sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
-<span style="color: #e8a75d;">**They also cover all the transaction costs, so 100% of your contribution hits our bank account.**</span>
-
-If we can raise $5K for both Chris & David, this means GitHub will double the amount for both of us, and we can dedicate a couple of months to CommandPost development.
-
-- You can sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
-- You can sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
-
-GitHub Sponsors works on a monthly subscription model, **but you can cancel at any time**, so you can just make one big donation and cancel after a month, or do smaller monthly contributions.
-
-If you're new to GitHub you may be presented with a "Your GitHub Sponsors contribution will not be matched at this time" warning. This is just temporary, as GitHub needs to verify brand new accounts internally to prevent fraud and abuse. Once verified your contributions will be matched.
-
-Alternatively, you can also make a donation via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN) (but would prefer you did a one-off payment through GitHub instead so they match your donation).
-
-You can read the GitHub Sponsors FAQ [here](https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors).
+Alternatively, you can also make a contribution via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
 
 ---
 
