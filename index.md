@@ -43,13 +43,15 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina & Big Sur**).
+CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina**).
 
 It supports **Final Cut Pro 10.4.4** and later (including **Final Cut Pro 10.4.10**).
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-macOS Catalina & Big Sur now require **Screen Recording** permission.
+macOS Catalina & Big Sur now require **Screen Recording** permission, so we can determine window positions.
+
+**macOS Big Sur, Native Apple Silicon Support, and Final Cut Pro 10.5 support is currently being investigated.**
 
 ---
 
