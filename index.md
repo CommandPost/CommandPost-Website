@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1750 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1900 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -41,17 +41,35 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 ---
 
-# System Requirements
+# macOS System Requirements
 
-CommandPost requires **macOS Sierra 10.12.1** or later (including **macOS Mojave, Catalina**).
+CommandPost supports **macOS High Sierra, Mojave, Catalina & Big Sur**.
 
-It supports **Final Cut Pro 10.4.4** and later (including **Final Cut Pro 10.4.10**).
+It has native support for both Intel and Apple Silicon Mac's.
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
 macOS Catalina & Big Sur now require **Screen Recording** permission, so we can determine window positions.
 
-**macOS Big Sur, Native Apple Silicon Support, and Final Cut Pro 10.5 support is currently being investigated.**
+---
+
+# Application System Requirements
+
+CommandPost supports **Final Cut Pro 10.4.4** to **10.5.1**.
+
+It has basic support for **Adobe After Effects 2020** or later.
+
+It has experimental support for **DaVinci Resolve 16.2.7** or later.
+
+It has built-in basic support for the latest versions of:
+
+- Apple Compressor
+- Apple Motion
+- Cisco Webex Meetings
+- Ecamm Live
+- Microsoft Teams
+- Skype
+- Zoom
 
 ---
 
