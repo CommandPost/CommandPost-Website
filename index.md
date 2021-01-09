@@ -41,7 +41,7 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 ---
 
-# macOS System Requirements
+# System Requirements
 
 CommandPost supports **macOS High Sierra, Mojave, Catalina & Big Sur**.
 
@@ -53,7 +53,7 @@ macOS Catalina & Big Sur now require **Screen Recording** permission, so we can 
 
 ---
 
-# Application System Requirements
+# Supported Applications
 
 CommandPost supports **Final Cut Pro 10.4.4** to **10.5.1**.
 
@@ -136,7 +136,9 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 ---
 
-# Control Surface Support
+# Control Surfaces
+
+CommandPost currently supports:
 
 - [AudioSwift](https://audioswiftapp.com)
 - [Loupedeck (Original)](https://loupedeck.com)
