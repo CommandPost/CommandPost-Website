@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1900 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1906 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -25,9 +25,9 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
-- Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
 - Sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - Sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
+- Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
 
 Alternatively, you can also make a contribution via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
 
@@ -81,7 +81,7 @@ We've developed custom plugins and solutions for post production studios, produc
 
 For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark's second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
 
-The **FCPXML Titles Processor** in CommandPost is another example of a commissioned tool.
+The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are other examples of commissioned tools.
 
 [Email us](mailto:team@commandpost.io?subject="Custom Tools") to discuss your specific requirements.
 
@@ -154,8 +154,9 @@ CommandPost currently supports:
 We are also currently working on support for:
 
 - [Monogram/Palette](https://monogramcc.com)
+- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [Razer Tartarus Pro](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-tartarus-pro)
-- Gamepad Devices (such as Xbox Controllers)
+- [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
 ---
 
