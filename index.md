@@ -53,7 +53,7 @@ macOS Catalina & Big Sur now require **Screen Recording** permission, so we can 
 
 ---
 
-# Supported Applications
+# Applications
 
 CommandPost supports **Final Cut Pro 10.4.4** to **10.5.1**.
 
@@ -171,31 +171,8 @@ Alternatively, you can always email us via [team@commandpost.io](mailto:team@com
 
 ---
 
-# The Team
+# Credits
 
 CommandPost was originally created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
 It's now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
-
----
-
-# Special Thanks
-
-- Our family for putting up with us, especially Karen, Erica & Nigel the dog.
-- Kevin Luk, Daniel Daperis, Nicholas Colla and our entire team at [LateNite Films](https://latenitefilms.com).
-- The CommandPost logo was designed by the very generous and talented [Sam Woodhall](https://twitter.com/SWDoctor).
-- The Stream Deck icons were created by Daniele Di Tuccio.
-- The [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). Thank you to [EVERYONE](https://github.com/Hammerspoon/hammerspoon/blob/master/CREDITS.md) in the [Hammerspoon Community](https://github.com/Hammerspoon/hammerspoon/issues) for all their help!
-- [Aaron Magill](https://github.com/asmagill) and [Chris Jones](https://github.com/cmsj) for all their on-going [help and support](https://github.com/Hammerspoon/hammerspoon/issues) with Hammerspoon – they’re both truly awesome people. CommandPost wouldn't be remotely possible if it wasn't for their brains and constant help and support. Thank you, thank you.
-- [Andrew Madsen](https://github.com/armadsen) for all his help and support with [MIKMIDI](https://github.com/mixedinkey-opensource/MIKMIDI).
-- Andy Knox and the team at [Tangent](http://tangentwave.co.uk) for all their ongoing help and support.
-- The INCREDIBLE Andrew Kramer at [Video Copilot](http://www.videocopilot.net/) for giving the world [FX Console](http://www.videocopilot.net/blog/2016/10/new-workflow-plug-in-fx-console-is-now-available/) for FREE – and also inspiring me to rip off his genius idea and include a “console” feature in CommandPost!
-- Bill Cheeseman at [PFiddlesoft](http://pfiddlesoft.com/), for all his help with [UI Browser](http://pfiddlesoft.com/uibrowser/index.html) and his very generous GUI Scripting advice.
-- Andreas Verhoeven & Robbert Klarenbeek for the work they’ve done with [Touch Bar Demo App](https://github.com/bikkelbroeders/TouchBarDemoApp) - which [Aaron Magill](https://github.com/asmagill) very kindly [ported to Hammerspoon](https://github.com/asmagill/hammerspoon_asm/tree/master/touchbar).
-- [Julien Chichignoud](http://julien.chichignoud.com) for all his amazing coding advice, maths problem solving and support.
-- [Iain Anderson](http://funwithstuff.com) & Sarah Kimberly Euschen for their beta testing, encouragement and general awesomeness.
-- [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com) for all his detailed bug reports and testing.
-- [Cail Young](https://twitter.com/cailyoung) for all his knowledge, advice and wisdom.
-- [Roger Bolton](https://coremelt.com) for all his help and advice.
-- [Alex Gollner](http://alex4d.com/), [Scott Simmons](http://www.scottsimmons.tv/), [Isaac J. Terronez](https://twitter.com/ijterronez), Tim Webb, Андрей Смирнов, Michael Matzdorff, Shahin Shokoui, Ilyas Akhmedov and everyone in the FCPX Editors InSync & FINAL CUT PRO X EDITORS Facebook Groups for all their ideas and advice!
-- Thanks also to all our awesome [Facebook Community](https://www.facebook.com/groups/commandpost/)!
