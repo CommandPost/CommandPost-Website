@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-There are currently over <span style="color: #e8a75d;">**3300 active monthly users**</span> and over <span style="color: #e8a75d;">**1906 users**</span> in our [Facebook Group](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [5916 times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and has over <span style="color: #e8a75d;">**1940 users**</span> in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -83,7 +83,7 @@ For example, we developed a transcription plugin for [Apollo: Missions to the Mo
 
 The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are other examples of commissioned tools.
 
-[Email us](mailto:team@commandpost.io?subject="Custom Tools") to discuss your specific requirements.
+[Email us](mailto:team@commandpost.io?subject=Custom Tools) to discuss your specific requirements.
 
 ---
 
@@ -167,12 +167,12 @@ The best way to get support is via the **CommandPost > Provide Feedback** button
 
 You can also post issues and feature requests on the [CommandPost GitHub Page](https://github.com/CommandPost/CommandPost/issues). Registering with GitHub is free, and we actively monitor these requests.
 
-Alternatively, you can always email us via [team@commandpost.io](mailto:team@commandpost.io).
+Alternatively, you can always email us via [team@commandpost.io](mailto:team@commandpost.io?subject=Website Support).
 
 ---
 
 # Credits
 
-CommandPost was originally created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
+CommandPost was created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
 It's now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
