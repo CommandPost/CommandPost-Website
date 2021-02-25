@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [5916 times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and has over <span style="color: #e8a75d;">**1940 users**</span> in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [6617 times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and has over <span style="color: #e8a75d;">**1940 users**</span> in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
