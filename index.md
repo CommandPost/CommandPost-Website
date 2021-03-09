@@ -152,12 +152,15 @@ CommandPost currently supports:
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
 - MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
 
-We are also currently working on support for:
+We are also currently actively working on support for:
 
 - [Monogram/Palette](https://monogramcc.com)
+- [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
+
+And investigating support for:
+
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [Razer Tartarus Pro](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-tartarus-pro)
-- [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
 ---
 
