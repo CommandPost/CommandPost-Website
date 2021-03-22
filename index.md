@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [80 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and has over [1948 members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [81 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and nearly [2 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -55,7 +55,7 @@ macOS Catalina & Big Sur now require **Screen Recording** permission, so we can 
 
 # Applications
 
-CommandPost supports **Final Cut Pro 10.4.4** to **10.5.1**.
+CommandPost supports **Final Cut Pro 10.4.4** to **10.5.2**.
 
 It has basic support for **Adobe After Effects 2020** or later.
 
@@ -89,7 +89,7 @@ The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are 
 
 # Videos
 
-Here's some awesome videos made by members of our community:
+Here's a collection of awesome videos made by members of our community in English:
 
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
@@ -99,9 +99,13 @@ Here's some awesome videos made by members of our community:
 - [Creative Techniques #12: MIDI Color Correction with CommandPost](https://www.youtube.com/watch?v=V4YvDeOtpGc)
 - [Batch Export FCPX browser clips using CommandPost](https://www.youtube.com/watch?v=FXzoeAUWMe4)
 - [Tangent Ripple for FCPX w/CommandPost](https://www.youtube.com/watch?v=FWzd6KZNHpY)
+- [Oyibo VFX explains how to speed up your FCPX workflow](https://www.youtube.com/watch?v=NCShkNSsH40)
+
+...and in other languages:
+
+- [Hegedüs Gyula demoes CommandPost in Hungarian](https://www.youtube.com/watch?v=NKRNQxY41FQ)
 - [Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)](https://www.youtube.com/watch?v=Ai_fTAwEI_g)
 - [Conheça o Command Post !!!](https://www.youtube.com/watch?v=ymHuhJmcyIg)
-- [Oyibo VFX explains how to speed up your FCPX workflow](https://www.youtube.com/watch?v=NCShkNSsH40)
 
 ---
 
