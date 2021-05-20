@@ -91,6 +91,7 @@ The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are 
 
 Here's a collection of awesome videos made by members of our community in English:
 
+- [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
 - [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
