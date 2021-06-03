@@ -94,6 +94,7 @@ Here's a collection of awesome videos made by members of our community in Englis
 - [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
+- [LVUP with Monogram - Final Cut Pro setup via CommandPost](https://www.youtube.com/watch?v=DYndh74Fa7U)
 - [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
 - [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
 - [How to Hack the Touch Bar on the MacBook Pro using CommandPost](https://www.youtube.com/watch?v=Wf7MZ2MjgkA)
@@ -146,6 +147,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 CommandPost currently supports:
 
+- [Monogram/Palette](https://monogramcc.com)
 - [AudioSwift](https://audioswiftapp.com)
 - [Loupedeck (Original)](https://loupedeck.com)
 - [Loupedeck CT](https://loupedeck.com)
@@ -159,13 +161,12 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
-- [Monogram/Palette](https://monogramcc.com)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
+- [Razer Tartarus Pro](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-tartarus-pro)
 
-And investigating support for:
+Unfortunately it's not possible for us to support:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
-- [Razer Tartarus Pro](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-tartarus-pro)
 
 ---
 
