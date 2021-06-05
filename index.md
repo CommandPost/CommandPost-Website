@@ -61,15 +61,7 @@ It has basic support for **Adobe After Effects 2020** or later.
 
 It has experimental support for **DaVinci Resolve 16.2.7** or later.
 
-It has built-in basic support for the latest versions of:
-
-- Apple Compressor
-- Apple Motion
-- Cisco Webex Meetings
-- Ecamm Live
-- Microsoft Teams
-- Skype
-- Zoom
+It also has built-in basic support for a number of common apps, and you can add your own custom apps to most of the control surface preferences.
 
 ---
 
@@ -94,6 +86,7 @@ Here's a collection of awesome videos made by members of our community in Englis
 - [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
+- [Supercharge your FCPX Workflow | Monogram Creative Console Review](https://www.youtube.com/watch?v=lj6tZaf7lCY)
 - [LVUP with Monogram - Final Cut Pro setup via CommandPost](https://www.youtube.com/watch?v=DYndh74Fa7U)
 - [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
 - [Arthur Moore demoes CommandPost & Loupedeck+](https://www.youtube.com/watch?v=uNMdDGtIoR0)
