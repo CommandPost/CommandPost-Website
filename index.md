@@ -155,12 +155,13 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
+- [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
-- [Razer Tartarus Pro](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-tartarus-pro)
 
 Unfortunately it's not possible for us to support:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
+- [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/media/release/20201109-02)
 
 ---
 
