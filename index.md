@@ -99,6 +99,7 @@ Here's a collection of awesome videos made by members of our community in Englis
 
 ...and in other languages:
 
+- [O MELHOR PLUGIN PARA FCPX - CommandPost + NanoKontrol2 (PT-BR)](https://www.youtube.com/watch?v=j9FqvIzgiqw)
 - [Hegedüs Gyula demoes CommandPost in Hungarian](https://www.youtube.com/watch?v=NKRNQxY41FQ)
 - [Tutorial de CommandPost para Final Cut Pro X: ¡imprescindible! (parte 1)](https://www.youtube.com/watch?v=Ai_fTAwEI_g)
 - [Conheça o Command Post !!!](https://www.youtube.com/watch?v=ymHuhJmcyIg)
