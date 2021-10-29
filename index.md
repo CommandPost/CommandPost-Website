@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [81 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and nearly [2 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [98 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and over [2.2 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -43,23 +43,23 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost supports **macOS High Sierra, Mojave, Catalina & Big Sur**.
+CommandPost supports **macOS Mojave, Catalina, Big Sur & Monterey**.
 
 It has native support for both Intel and Apple Silicon Mac's.
 
 It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
 
-macOS Catalina & Big Sur now require **Screen Recording** permission, so we can determine window positions.
+macOS Catalina, Big Sur & Monterey now require **Screen Recording** permission, so we can determine window positions.
 
 ---
 
 # Applications
 
-CommandPost supports **Final Cut Pro 10.4.4** to **10.5.2**.
+CommandPost supports **Final Cut Pro 10.4.4** to **10.6**.
 
-It has basic support for **Adobe After Effects 2020** or later.
+It has basic support for **Adobe After Effects 2020** and later.
 
-It has experimental support for **DaVinci Resolve 16.2.7** or later.
+It has limited experimental support for **DaVinci Resolve 16.2.7** and later.
 
 It also has built-in basic support for a number of common apps, and you can add your own custom apps to most of the control surface preferences.
 
@@ -142,6 +142,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 CommandPost currently supports:
 
+- [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 - [Monogram/Palette](https://monogramcc.com)
 - [AudioSwift](https://audioswiftapp.com)
 - [Loupedeck (Original)](https://loupedeck.com)
@@ -156,13 +157,15 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
-- [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
+- [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
-Unfortunately it's not possible for us to support:
+Unfortunately it's **NOT** possible for us to support:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/media/release/20201109-02)
+
+Please contact [Blackmagic Design](https://www.blackmagicdesign.com/support/contact/phone) if you'd like to see support for the above devices in CommandPost.
 
 ---
 
