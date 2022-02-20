@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [101 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.2 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [107 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's been translated into Arabic, Bengali, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -57,7 +57,7 @@ macOS Catalina, Big Sur & Monterey now require **Screen Recording** permission, 
 
 # Applications
 
-CommandPost supports **Final Cut Pro 10.4.4** to **10.6**.
+CommandPost supports **Final Cut Pro 10.4.4** to **10.6.1**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
@@ -159,15 +159,10 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
+- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
+- [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
-
-Unfortunately it's **NOT** possible for us to support:
-
-- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
-- [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/media/release/20201109-02)
-
-Please contact [Blackmagic Design](https://www.blackmagicdesign.com/support/contact/phone) if you'd like to see support for the above devices in CommandPost.
 
 ---
 
