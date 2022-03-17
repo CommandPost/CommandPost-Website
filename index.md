@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [107 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [108 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's been translated into Arabic, Bengali, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -27,9 +27,14 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
+You can do one-off or monthly payments. GitHub is a safe and secure developers platform used by over 73 million users worldwide.
+
+- Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
+
+You can also sponsor the individual developers here:
+
 - Sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - Sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
-- Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
 
 Alternatively, you can also make a contribution via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
 
@@ -162,6 +167,7 @@ We are also currently actively working on support for:
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
+- [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
 ---
