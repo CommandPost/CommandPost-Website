@@ -27,7 +27,7 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
-You can do one-off or monthly payments. GitHub is a safe and secure developers platform used by over 73 million users worldwide.
+You can do **one-off or monthly** payments. GitHub is a safe and secure developers platform used by over **73 million users** worldwide.
 
 - Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
 
@@ -52,23 +52,21 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 CommandPost supports **macOS Mojave, Catalina, Big Sur & Monterey**.
 
-It has native support for both Intel and Apple Silicon Mac's.
+It has **native** support for both Intel and Apple Silicon Mac's.
 
-It requires **Accessibility Permissions**, so you'll need your computer's **Administrator Password**.
-
-macOS Catalina, Big Sur & Monterey now require **Screen Recording** permission, so we can determine window positions.
+We use Apple's built-in Accessibility API, which requires both **Accessibility** and **Screen Recording** permissions, so that we can determine window and button positions.
 
 ---
 
 # Applications
 
-CommandPost supports **Final Cut Pro 10.4.4** to **10.6.1**.
+You can use CommandPost to trigger keyboard shortcuts and menubar items on **any** macOS application.
+
+CommandPost also has deep support for **Final Cut Pro 10.4.10** to **10.6.1**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
 It has limited experimental support for **DaVinci Resolve 16.2.7** and later.
-
-It also has built-in basic support for a number of common apps, and you can add your own custom apps to most of the control surface preferences.
 
 ---
 
@@ -174,9 +172,13 @@ We are also currently actively working on support for:
 
 # Support
 
-The best way to get support is via the **CommandPost > Provide Feedback** button in the CommandPost menu.
+You can get technical support via the **CommandPost > Provide Feedback** button in the CommandPost menu.
 
-You can also post issues and feature requests on the [CommandPost GitHub Page](https://github.com/CommandPost/CommandPost/issues). Registering with GitHub is free, and we actively monitor these requests.
+You can post **questions** on our [GitHub Discussions](https://github.com/CommandPost/CommandPost/discussions) page.
+
+You can post **bug reports & feature requests** on our [GitHub Issues](https://github.com/CommandPost/CommandPost/issues) page.
+
+Registering with GitHub is free, and we actively monitor these requests.
 
 Alternatively, you can always email us via [team@commandpost.io](mailto:team@commandpost.io?subject=Website Support).
 
