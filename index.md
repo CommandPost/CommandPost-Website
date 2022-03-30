@@ -11,7 +11,7 @@ It's been downloaded over [108 thousand times](https://hanadigital.github.io/gre
 
 It's been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
-It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
+It's used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
 For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button. It also has powerful Windows management tools.
 
@@ -55,6 +55,8 @@ CommandPost supports **macOS Catalina, Big Sur & Monterey**.
 It has **native** support for both Intel and Apple Silicon Mac's.
 
 We use Apple's built-in Accessibility API, which requires both **Accessibility** and **Screen Recording** permissions, so that we can determine window and button positions.
+
+If you're using **Mojave**, you can still access older versions [here](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
 
 ---
 
@@ -189,3 +191,5 @@ Alternatively, you can always email us via [team@commandpost.io](mailto:team@com
 CommandPost was created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
 It's now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
+
+CommandPost's icon was designed by [Matthew Skiles](https://matthewskiles.com).
