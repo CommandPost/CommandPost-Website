@@ -9,7 +9,7 @@ CommandPost is a **free** and [open source](https://github.com/CommandPost/Comma
 
 It's been downloaded over [108 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
-It's been translated into Arabic, Bengali, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
+It's been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
 It's used by filmmakers, scientists and just general macOS fans all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -50,7 +50,7 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost supports **macOS Mojave, Catalina, Big Sur & Monterey**.
+CommandPost supports **macOS Catalina, Big Sur & Monterey**.
 
 It has **native** support for both Intel and Apple Silicon Mac's.
 
@@ -147,6 +147,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 CommandPost currently supports:
 
+- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 - [Monogram/Palette](https://monogramcc.com)
 - [AudioSwift](https://audioswiftapp.com)
@@ -162,7 +163,6 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
-- [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
