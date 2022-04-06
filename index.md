@@ -90,6 +90,7 @@ The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are 
 
 Here's a collection of awesome videos made by members of our community in English:
 
+- [Brad & Donna: Edit 5x Faster with Macros Using Monogram CC](https://www.youtube.com/watch?v=zpO1GjQ8-5w)
 - [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
@@ -150,6 +151,7 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 CommandPost currently supports:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
+- [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 - [Monogram/Palette](https://monogramcc.com)
 - [AudioSwift](https://audioswiftapp.com)
