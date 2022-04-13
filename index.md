@@ -64,11 +64,13 @@ If you're using **Mojave**, you can still access older versions [here](https://g
 
 You can use CommandPost to trigger keyboard shortcuts and menubar items on **any** macOS application.
 
-CommandPost also has deep support for **Final Cut Pro 10.4.10** to **10.6.2**.
+CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.2**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
 It has limited experimental support for **DaVinci Resolve 16.2.7** and later.
+
+If you're using an earlier version of Final Cut Pro, you can use an [older version of CommandPost](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
 
 ---
 
