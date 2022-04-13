@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
 
-It's been downloaded over [108 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It's been downloaded over [114 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It's been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -64,7 +64,7 @@ If you're using **Mojave**, you can still access older versions [here](https://g
 
 You can use CommandPost to trigger keyboard shortcuts and menubar items on **any** macOS application.
 
-CommandPost also has deep support for **Final Cut Pro 10.4.10** to **10.6.1**.
+CommandPost also has deep support for **Final Cut Pro 10.4.10** to **10.6.2**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
@@ -167,6 +167,7 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
+- Razer Orbweaver
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
