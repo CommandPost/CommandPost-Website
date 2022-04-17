@@ -5,15 +5,15 @@ layout: default
 
 # Introduction
 
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) native macOS application that acts as a bridge between control surfaces, and software that doesn't natively support control surfaces, such as [Apple's Final Cut Pro X](https://www.apple.com/final-cut-pro/) and Adobe After Effects.
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It's been downloaded over [114 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there's over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [114 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
-It's been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
+It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
-It's used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
+It’s used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
-For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button. It also has powerful Windows management tools.
+For example, you can apply individual effects within Final Cut Pro or After Effects with the single tap of a button.
 
 Powered by [Lua](https://dev.commandpost.io/lua/overview/) (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/), [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html) and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792)), it's insanely customisable and powerful.
 
@@ -52,9 +52,9 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 CommandPost supports **macOS Catalina, Big Sur & Monterey**.
 
-It has **native** support for both Intel and Apple Silicon Mac's.
+It has **native** support for both Intel and Apple Silicon Macs.
 
-We use Apple's built-in Accessibility API, which requires both **Accessibility** and **Screen Recording** permissions, so that we can determine window and button positions.
+We use Apple’s built-in Accessibility API, which requires both **Accessibility** and **Screen Recording** permissions, so that we can determine window and button positions.
 
 If you're using **Mojave**, you can still access older versions [here](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
 
@@ -78,11 +78,11 @@ If you're using an earlier version of Final Cut Pro, you can use an [older versi
 
 If you have a specific post production workflow problem you need to solve or automate, we can help.
 
-We've developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
+We’ve developed custom plugins and solutions for post production studios, production companies, and individual editors all over the world.
 
-For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark's second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
+For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
 
-The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are other examples of commissioned tools.
+The **FCPXML Titles Processor**, and **Shot Data** in CommandPost’s Toolbox are other examples of commissioned tools.
 
 [Email us](mailto:team@commandpost.io?subject=Custom Tools) to discuss your specific requirements.
 
@@ -90,7 +90,7 @@ The **FCPXML Titles Processor**, and **Shot Data** in CommandPost's Toolbox are 
 
 # Videos
 
-Here's a collection of awesome videos made by members of our community in English:
+Here’s a collection of awesome videos made by members of our community in English:
 
 - [Brad & Donna: Edit 5x Faster with Macros Using Monogram CC](https://www.youtube.com/watch?v=zpO1GjQ8-5w)
 - [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
@@ -195,6 +195,6 @@ Alternatively, you can always email us via [team@commandpost.io](mailto:team@com
 
 CommandPost was created by [Chris Hocking](https://github.com/latenitefilms) as a proof-of-concept to make finding the Final Cut Pro browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) (you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)).
 
-It's now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
+It’s now developed, maintained and supported by [Chris Hocking](https://github.com/latenitefilms) & [David Peterson](https://github.com/randomeizer) through [GitHub](https://github.com/CommandPost/CommandPost).
 
-CommandPost's icon was designed by [Matthew Skiles](https://matthewskiles.com).
+CommandPost’s icon was designed by [Matthew Skiles](https://matthewskiles.com).
