@@ -27,7 +27,9 @@ You can listen to Chris explain CommandPost on Final Cut Pro Radio [Episode #57]
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
-You can do **one-off or monthly** payments. GitHub is a safe and secure developers platform used by over **73 million users** worldwide.
+You can do **one-off or monthly** payments.
+
+GitHub is a safe and secure developers platform used by over **73 million users** worldwide.
 
 - Sponsor CommandPost on GitHub [here](https://github.com/sponsors/commandpost).
 
