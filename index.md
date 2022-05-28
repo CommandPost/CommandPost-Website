@@ -154,6 +154,8 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 # Control Surfaces
 
+We're currently beta testing a new Loupedeck Plugin. You can learn more [here](https://github.com/CommandPost/LoupedeckPlugin).
+
 CommandPost currently supports:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
@@ -167,13 +169,15 @@ CommandPost currently supports:
 - [Loupedeck+](https://loupedeck.com)
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
 - [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
-- [TourBox](https://www.tourboxtech.com)
+- [TourBox (Original)](https://www.tourboxtech.com)
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
 - MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
 
 We are also currently actively working on support for:
 
-- Razer Orbweaver
+- [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
+- [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
+- [TourBox NEO](https://www.tourboxtech.com/en/product.html)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
