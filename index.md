@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [114 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.3 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [121 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -154,18 +154,17 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 # Control Surfaces
 
-We're currently beta testing a new Loupedeck Plugin. You can learn more [here](https://github.com/CommandPost/LoupedeckPlugin).
-
 CommandPost currently supports:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
+- [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
 - [Monogram/Palette](https://monogramcc.com)
 - [AudioSwift](https://audioswiftapp.com)
 - [Loupedeck (Original)](https://loupedeck.com)
-- [Loupedeck CT](https://loupedeck.com)
-- [Loupedeck Live](https://loupedeck.com)
+- [Loupedeck CT](https://loupedeck.com) - Direct & via Loupedeck Plugin
+- [Loupedeck Live](https://loupedeck.com) - Direct & via Loupedeck Plugin
 - [Loupedeck+](https://loupedeck.com)
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
 - [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
@@ -175,7 +174,8 @@ CommandPost currently supports:
 
 We are also currently actively working on support for:
 
-- [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
+- [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support)
+- [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
