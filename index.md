@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [121 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [123 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -38,7 +38,9 @@ You can also sponsor the individual developers here:
 - Sponsor Chris on GitHub [here](https://github.com/sponsors/latenitefilms).
 - Sponsor David on GitHub [here](https://github.com/sponsors/randomeizer).
 
-Alternatively, you can also make a contribution via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN).
+Alternatively, you can also make a contribution via **[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)**.
+
+If you're in Australia, we can also generate a **tax invoice** with GST for you - just [contact us](mailto:team@commandpost.io?subject=Website Support).
 
 ---
 
@@ -158,30 +160,51 @@ CommandPost currently supports:
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
-- [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
+
 - [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
+- [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
+
 - [Monogram/Palette](https://monogramcc.com)
-- [AudioSwift](https://audioswiftapp.com)
+
 - [Loupedeck (Original)](https://loupedeck.com)
 - [Loupedeck CT](https://loupedeck.com) - Direct & via Loupedeck Plugin
 - [Loupedeck Live](https://loupedeck.com) - Direct & via Loupedeck Plugin
 - [Loupedeck+](https://loupedeck.com)
+
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
+- [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck)
+- [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck)
+
 - [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
+
 - [TourBox (Original)](https://www.tourboxtech.com)
+
+We also support:
+
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
 - MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
+- [AudioSwift](https://audioswiftapp.com)
 
-We are also currently actively working on support for:
+The next release of CommandPost will support:
 
 - [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support)
 - [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro)
+- [Razer Orbweaver Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3619/~/razer-orbweaver-chroma-%7C-rz07-01440-support)
+- [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo)
+
+We are also currently actively working on support for:
+
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
-- [TourBox NEO](https://www.tourboxtech.com/en/product.html)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
+
+Later in the year we plan to add support for:
+
+- [Work Louder Creator Board](https://worklouder.cc/creator-board/)
+- [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
+- [TourBox NEO](https://www.tourboxtech.com/en/product.html)
 
 ---
 
