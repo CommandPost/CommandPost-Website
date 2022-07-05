@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [123 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [124 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -161,7 +161,11 @@ CommandPost currently supports:
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
 
+- [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo)
 - [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
+- [Razer Orbweaver Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3619/~/razer-orbweaver-chroma-%7C-rz07-01440-support)
+- [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support)
+- [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro)
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 
 - [Monogram/Palette](https://monogramcc.com)
@@ -184,13 +188,6 @@ We also support:
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
 - MIDI Devices (including [TouchOSC](https://hexler.net/products/touchosc), etc.)
 - [AudioSwift](https://audioswiftapp.com)
-
-The next release of CommandPost will support:
-
-- [Razer Tartarus](https://mysupport.razer.com/app/answers/detail/a_id/3614/~/razer-tartarus-%7C-rz07-010301-support)
-- [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro)
-- [Razer Orbweaver Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3619/~/razer-orbweaver-chroma-%7C-rz07-01440-support)
-- [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo)
 
 We are also currently actively working on support for:
 
