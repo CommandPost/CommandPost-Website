@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [124 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [129 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
 
@@ -74,7 +74,7 @@ CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.2**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
-It has limited experimental support for **DaVinci Resolve 16.2.7** and later.
+It has limited experimental support for **DaVinci Resolve 16.2.7** and later. If there's enough interest/sponsorship, we hope to offer much better Resolve support in the future.
 
 If you're using an earlier version of Final Cut Pro, you can use an [older version of CommandPost](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
 
@@ -98,6 +98,8 @@ The **FCPXML Titles Processor**, and **Shot Data** in CommandPost’s Toolbox ar
 
 Here’s a collection of awesome videos made by members of our community in English:
 
+- [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8)
+- [Serge M: POWER UP Final Cut Pro with Loupedeck CT & CommandPost](https://www.youtube.com/watch?v=I962Dj5IFzw)
 - [Brad & Donna: Edit 5x Faster with Macros Using Monogram CC](https://www.youtube.com/watch?v=zpO1GjQ8-5w)
 - [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
@@ -191,17 +193,20 @@ We also support:
 
 We are also currently actively working on support for:
 
+- [Nob](https://www.nobcontrol.com)
+- [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
 - [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
-- [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
-Later in the year we plan to add support for:
+In the future, we plan to add support for:
 
 - [Work Louder Creator Board](https://worklouder.cc/creator-board/)
 - [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
+
+We're currently looking for a 2nd hand **Razer Tartarus Chroma** - if you have one, get in touch!
 
 ---
 
