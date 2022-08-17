@@ -7,9 +7,9 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [129 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [132 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
-It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by our awesome community.
+It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
 It’s used by filmmakers, developers, scientists and macOS power users all over the world to seriously speed up mundane tasks through powerful and customisable automation tools.
 
@@ -88,7 +88,7 @@ We’ve developed custom plugins and solutions for post production studios, prod
 
 For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
 
-The **FCPXML Titles Processor**, and **Shot Data** in CommandPost’s Toolbox are other examples of commissioned tools.
+The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
 
 [Email us](mailto:team@commandpost.io?subject=Custom Tools) to discuss your specific requirements.
 
@@ -193,6 +193,7 @@ We also support:
 
 We are also currently actively working on support for:
 
+- [Razer Tartarus Chroma](https://mysupport.razer.com/app/answers/detail/a_id/3617/~/razer-tartarus-chroma-%7C-rz07-01510-support)
 - [Nob](https://www.nobcontrol.com)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
@@ -205,8 +206,6 @@ In the future, we plan to add support for:
 - [Work Louder Creator Board](https://worklouder.cc/creator-board/)
 - [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
-
-We're currently looking for a 2nd hand **Razer Tartarus Chroma** - if you have one, get in touch!
 
 ---
 
