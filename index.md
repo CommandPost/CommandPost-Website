@@ -98,13 +98,14 @@ The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in Com
 
 Here’s a collection of awesome videos made by members of our community in English:
 
+- [Matthew O'Brien: Edit & Color Grade FASTER with Monogram's Video Console in Final Cut Pro](https://www.youtube.com/watch?v=p7iyAvGk0lk)
 - [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8)
 - [Serge M: POWER UP Final Cut Pro with Loupedeck CT & CommandPost](https://www.youtube.com/watch?v=I962Dj5IFzw)
 - [Brad & Donna: Edit 5x Faster with Macros Using Monogram CC](https://www.youtube.com/watch?v=zpO1GjQ8-5w)
-- [8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
+- [Brad and Donna: 8 Reasons Why FCPX Editors Need CommandPost](https://www.youtube.com/watch?v=KWN1mk-138s)
 - [FxFactory demoes CommandPost](https://www.youtube.com/watch?v=F81vquuBIOg)
 - [Arthur Moore demoes CommandPost](https://www.youtube.com/watch?v=2IkCYS9Svrw)
-- [Supercharge your FCPX Workflow - Monogram Creative Console Review](https://www.youtube.com/watch?v=lj6tZaf7lCY)
+- [Brad and Donna: Supercharge your FCPX Workflow - Monogram Creative Console Review](https://www.youtube.com/watch?v=lj6tZaf7lCY)
 - [LVUP with Monogram - Final Cut Pro setup via CommandPost](https://www.youtube.com/watch?v=DYndh74Fa7U)
 - [Live Demo: Monogram Creative Console + Final Cut Pro](https://www.youtube.com/watch?v=sR7_TZQaZ9w)
 - [Serge M demoes CommandPost](https://www.youtube.com/watch?v=yYCNVb24kR8)
@@ -194,6 +195,8 @@ We also support:
 
 We are also currently actively working on support for:
 
+- [Loupedeck Live S](https://www.indiegogo.com/projects/loupedeck-live-s-customizable-streaming-console#/)
+- [Razer Stream Controller](https://www.razer.com/au-en/streaming-accessories/razer-stream-controller)
 - [Nob](https://www.nobcontrol.com)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
@@ -203,6 +206,7 @@ We are also currently actively working on support for:
 
 In the future, we plan to add support for:
 
+- [Stream Deck Pedal](https://www.elgato.com/en/stream-deck-pedal)
 - [Work Louder Creator Board](https://worklouder.cc/creator-board/)
 - [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
