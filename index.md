@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [132 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [138 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
@@ -40,7 +40,7 @@ You can also sponsor the individual developers here:
 
 Alternatively, you can also make a contribution via **[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HQK87KLKY8EVN)**.
 
-If you're in Australia, we can also generate a **tax invoice** with GST for you - just [contact us](mailto:team@commandpost.io?subject=Website Support).
+If you're in Australia, we can also generate a **tax invoice** with GST for you - just [contact us](mailto:team@commandpost.io?subject=Sponsor CommandPost).
 
 ---
 
@@ -56,7 +56,7 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost supports **macOS Catalina, Big Sur & Monterey**.
+CommandPost supports **macOS Catalina, Big Sur, Monterey & Ventura**.
 
 It has **native** support for both Intel and Apple Silicon Macs.
 
@@ -70,7 +70,7 @@ If you're using **Mojave**, you can still access older versions [here](https://g
 
 You can use CommandPost to trigger keyboard shortcuts and menubar items on **any** macOS application.
 
-CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.2**.
+CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.4**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
@@ -161,8 +161,26 @@ For more information check out our [User Guide](http://help.commandpost.io/).
 
 CommandPost currently supports:
 
+- [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
+
+- [Monogram/Palette](https://monogramcc.com)
+
+- [TourBox (Original)](https://www.tourboxtech.com)
+
+- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
+- [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck)
+- [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck)
+
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
+
+- [Loupedeck (Original)](https://loupedeck.com)
+- [Loupedeck CT](https://loupedeck.com)
+- [Loupedeck Live](https://loupedeck.com) - Direct & via Loupedeck Plugin
+- [Loupedeck Live-S](https://www.indiegogo.com/projects/loupedeck-live-s-customizable-streaming-console#/) - Direct & via Loupedeck Plugin
+- [Loupedeck+](https://loupedeck.com)
+
+- [Razer Stream Controller](https://www.razer.com/au-en/streaming-accessories/razer-stream-controller) - Direct & via Loupedeck Plugin
 
 - [Razer Nostromo](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-nostromo)
 - [Razer Orbweaver](https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-orbweaver-2012)
@@ -172,21 +190,6 @@ CommandPost currently supports:
 - [Razer Tartarus Pro](https://www.razer.com/au-en/gaming-keypads/razer-tartarus-pro)
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/Razer-Tartarus-V2/RZ07-02270100-R3U1)
 
-- [Monogram/Palette](https://monogramcc.com)
-
-- [Loupedeck (Original)](https://loupedeck.com)
-- [Loupedeck CT](https://loupedeck.com) - Direct & via Loupedeck Plugin
-- [Loupedeck Live](https://loupedeck.com) - Direct & via Loupedeck Plugin
-- [Loupedeck+](https://loupedeck.com)
-
-- [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
-- [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck)
-- [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck)
-
-- [Tangent Panels](http://tangentwave.co.uk) (including Tangent's iPad & Android App)
-
-- [TourBox (Original)](https://www.tourboxtech.com)
-
 We also support:
 
 - MacBook Pro Touch Bar Support (including a Virtual Touch Bar)
@@ -195,8 +198,6 @@ We also support:
 
 We are also currently actively working on support for:
 
-- [Loupedeck Live S](https://www.indiegogo.com/projects/loupedeck-live-s-customizable-streaming-console#/)
-- [Razer Stream Controller](https://www.razer.com/au-en/streaming-accessories/razer-stream-controller)
 - [Nob](https://www.nobcontrol.com)
 - [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
