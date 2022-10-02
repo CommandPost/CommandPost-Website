@@ -98,6 +98,7 @@ The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in Com
 
 Here’s a collection of awesome videos made by members of our community in English:
 
+- [Chadeveryday: Batch Export Clips in FCPX](https://www.youtube.com/watch?v=mLkxzpRbYh8)
 - [Matthew O'Brien: Edit & Color Grade FASTER with Monogram's Video Console in Final Cut Pro](https://www.youtube.com/watch?v=p7iyAvGk0lk)
 - [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8)
 - [Serge M: POWER UP Final Cut Pro with Loupedeck CT & CommandPost](https://www.youtube.com/watch?v=I962Dj5IFzw)
