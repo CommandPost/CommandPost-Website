@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [138 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.4 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [146 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
@@ -56,11 +56,13 @@ Please review our [license agreement](https://github.com/CommandPost/CommandPost
 
 # System Requirements
 
-CommandPost supports **macOS Catalina, Big Sur, Monterey & Ventura**.
+CommandPost supports **macOS Big Sur, Monterey & Ventura**.
 
 It has **native** support for both Intel and Apple Silicon Macs.
 
 We use Apple’s built-in Accessibility API, which requires both **Accessibility** and **Screen Recording** permissions, so that we can determine window and button positions.
+
+If you're using **Catalina**, you can still access older versions [here](https://github.com/CommandPost/CommandPost/releases/tag/1.4.13).
 
 If you're using **Mojave**, you can still access older versions [here](https://github.com/CommandPost/CommandPost/releases/tag/1.2.16).
 
@@ -126,12 +128,22 @@ Here’s a collection of awesome videos made by members of our community in Engl
 
 ---
 
+# Articles
+
+- [Chris Hocking from LateNite Films Explains How His Team Uses Final Cut Pro X](https://fcp.co/final-cut-pro/articles/2226-chris-hocking-from-latenite-films-explains-how-his-team-used-final-cut-pro-x-to-edit-mix-grade-and-deliver-the-much-anticipated-series-neighbours-erinsborough-high-for-fremantle-australia)
+- [Enable control surfaces with CommandPost](https://www.provideocoalition.com/enable-control-surfaces-with-commandpost/)
+- [CommandPost adds support for the DaVinci Resolve Speed Editor](https://www.provideocoalition.com/commandpost-adds-support-for-the-davinci-resolve-speed-editor/)
+- [Monogram now offers Final Cut Pro integration via CommandPost](https://www.provideocoalition.com/monogram-now-offers-final-cut-pro-integration-via-commandpost/)
+
+---
+
 # Features
 
 CommandPost has **hundreds** of useful professional features. Here are some of our favourites:
 
 ## Final Cut Pro
 
+- Fix Timecode on Sony MP4 Clips
 - Scrolling Timeline
 - Save & Restore Browser Layouts
 - Batch Export from Timeline
