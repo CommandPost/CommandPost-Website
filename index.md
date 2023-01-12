@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [146 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [151 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
@@ -100,6 +100,7 @@ The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in Com
 
 Here’s a collection of awesome videos made by members of our community in English:
 
+- [Ripple Training: Color Grading in Final Cut with Monogram Creating Console](https://www.youtube.com/watch?v=MmG8bhJjdB0)
 - [Chadeveryday: Batch Export Clips in FCPX](https://www.youtube.com/watch?v=mLkxzpRbYh8)
 - [Matthew O'Brien: Edit & Color Grade FASTER with Monogram's Video Console in Final Cut Pro](https://www.youtube.com/watch?v=p7iyAvGk0lk)
 - [YCImaging: THIS Made Me Edit Twice As Fast (Loupedeck CT 2 Years Later)](https://youtu.be/mu67HtWjom8)
