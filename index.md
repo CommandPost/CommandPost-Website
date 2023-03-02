@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [151 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [156 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
@@ -184,6 +184,7 @@ CommandPost currently supports:
 - [Stream Deck](https://www.elgato.com/en/gaming/stream-deck)
 - [Stream Deck XL](https://www.elgato.com/en/gaming/stream-deck)
 - [Stream Deck Mini](https://www.elgato.com/en/gaming/stream-deck)
+- [Stream Deck Plus](https://www.elgato.com/en/gaming/stream-deck)
 
 - [DaVinci Resolve Speed Editor](https://www.blackmagicdesign.com/media/release/20201109-02)
 - [DaVinci Resolve Editor Keyboard](https://www.blackmagicdesign.com/au/products/davinciresolve/keyboard)
@@ -212,19 +213,19 @@ We also support:
 
 We are also currently actively working on support for:
 
-- [Nob](https://www.nobcontrol.com)
-- [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
-- [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
-- [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
+- [Stream Deck Pedal](https://www.elgato.com/en/stream-deck-pedal)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
-- [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
 In the future, we plan to add support for:
 
-- [Stream Deck Pedal](https://www.elgato.com/en/stream-deck-pedal)
 - [Work Louder Creator Board](https://worklouder.cc/creator-board/)
 - [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
+- [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
+- [Nob](https://www.nobcontrol.com)
+- [duckyPad](https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad)
+- [Xencelabs Quick Keys](https://www.xencelabs.com/product/xencelabs-quick-keys-remote/)
+- [Xbox & PlayStation Wireless Game Controllers](https://support.apple.com/en-au/HT210414)
 
 ---
 
