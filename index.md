@@ -7,7 +7,7 @@ layout: default
 
 CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/) and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html).
 
-It’s been downloaded over [156 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.5 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
+It’s been downloaded over [163 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost), and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members) in our [Facebook Community](https://www.facebook.com/groups/commandpost/).
 
 It’s been translated into Arabic, Bengali, Catalan, Chinese (Simplified & Traditional), Danish, Dutch, French, German, Greek, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Panjabi/Punjabi, Polish, Portuguese, Russian, Spanish, Swedish, Ukrainian & Vietnamese by [our awesome community](https://poeditor.com/join/project/QWvOQlF1Sy).
 
@@ -42,6 +42,12 @@ Alternatively, you can also make a contribution via **[PayPal](https://www.paypa
 
 If you're in Australia, we can also generate a **tax invoice** with GST for you - just [contact us](mailto:team@commandpost.io?subject=Sponsor CommandPost).
 
+You can also show your support by purchasing one of our paid apps on the Mac App Store:
+
+- [BRAW Toolbox: Import Blackmagic RAW files directly into Final Cut Pro without transcoding](https://brawtoolbox.io)
+- [Gyroflow Toolbox: Import Gyroflow Projects into Apple's Final Cut Pro](https://gyroflowtoolbox.io)
+- [Marker Toolbox: Import Vimeo CSV & Email Comments into Apple's Final Cut Pro](https://markertoolbox.io)
+
 ---
 
 # Download
@@ -72,7 +78,7 @@ If you're using **Mojave**, you can still access older versions [here](https://g
 
 You can use CommandPost to trigger keyboard shortcuts and menubar items on **any** macOS application.
 
-CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.4**.
+CommandPost also has deep support for **Final Cut Pro 10.5.4** to **10.6.5**.
 
 It has basic support for **Adobe After Effects 2020** and later.
 
@@ -91,6 +97,12 @@ We’ve developed custom plugins and solutions for post production studios, prod
 For example, we developed a transcription plugin for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/) (edited by [David Tillman](https://twitter.com/davidtillman)) as well as specific CommandPost features for Denmark’s second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake).
 
 The **FCPXML Titles Processor**, **Shot Data** and **Titles to Keywords** in CommandPost’s Toolbox are other examples of commissioned tools.
+
+We've also made products that we sell on the Mac App Store:
+
+- [BRAW Toolbox: Import Blackmagic RAW files directly into Final Cut Pro without transcoding](https://brawtoolbox.io)
+- [Gyroflow Toolbox: Import Gyroflow Projects into Apple's Final Cut Pro](https://gyroflowtoolbox.io)
+- [Marker Toolbox: Import Vimeo CSV & Email Comments into Apple's Final Cut Pro](https://markertoolbox.io)
 
 [Email us](mailto:team@commandpost.io?subject=Custom Tools) to discuss your specific requirements.
 
@@ -215,11 +227,11 @@ We are also currently actively working on support for:
 
 - [Stream Deck Pedal](https://www.elgato.com/en/stream-deck-pedal)
 - [Logitech Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
+- [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 
 In the future, we plan to add support for:
 
 - [Work Louder Creator Board](https://worklouder.cc/creator-board/)
-- [Work Louder Creator Micro](https://worklouder.cc/creator-micro/)
 - [TourBox NEO](https://www.tourboxtech.com/en/product.html)
 - [TourBox Elite](https://www.tourboxtech.com/en/TourBoxElite-product.html)
 - [Nob](https://www.nobcontrol.com)
