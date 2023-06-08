@@ -359,7 +359,7 @@ Workflow Created by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com){targ
 
 Shot Data’s Toolbox Programming was made possible by [Chris Hocking](https://github.com/latenitefilms){target="_blank"}
 
-Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion) by [Vladilen Zhdanov](https://github.com/vzhd1701){target="_blank"}
+Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion){target="_blank"} by [Vladilen Zhdanov](https://github.com/vzhd1701){target="_blank"}
 
 Initial Motion Template rigging was assisted by [Peter Wiggins](https://twitter.com/peterwiggins){target="_blank"}
 
