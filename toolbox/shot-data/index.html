@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739511637234">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>Shot Data User Guide</title>
+    <meta name="title" content="Shot Data User Guide">
+    <meta name="description" content="SDCover.gif" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/toolbox/shot-data/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/toolbox/shot-data/">
+    <meta property="og:title" content="Shot Data User Guide">
+    <meta property="og:description" content="SDCover.gif">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/toolbox/shot-data/">
+    <meta property="twitter:title" content="Shot Data User Guide">
+    <meta property="twitter:description" content="SDCover.gif">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=3.0.3.739511637234" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739511637234" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739511637234" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="shot-data-user-guide" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shot-data-user-guide">#</doc-anchor-trigger>
+        <span>Shot Data User Guide</span>
+    </h1>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="assets/sdcover.gif" alt="SDCover.gif" />
+    <figcaption class="caption">SDCover.gif</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="table-of-contents">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#table-of-contents">#</doc-anchor-trigger>
+        <span>Table of contents</span>
+    </h1>
+</doc-anchor-target>
+<ul>
+<li><doc-anchor-trigger to="#shot-data-user-guide">Shot Data User Guide</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#background">Background</doc-anchor-trigger>
+<ul>
+<li><doc-anchor-trigger to="#what-is-sound-locking">What is Sound Locking?</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#the-most-resilient-parasite">The Most Resilient Parasite</doc-anchor-trigger></li>
+</ul>
+</li>
+<li><doc-anchor-trigger to="#enter-shot-data">Enter Shot Data</doc-anchor-trigger>
+<ul>
+<li><doc-anchor-trigger to="#why-final-cut-pro">Why Final Cut Pro?</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#why-notion">Why Notion?</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#introduction-to-notions-databases">Introduction to Notion’s databases</doc-anchor-trigger></li>
+</ul>
+</li>
+<li><doc-anchor-trigger to="#basic-usage---shot-data">Basic Usage - Shot Data</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#advance-usage---shot-data">Advance Usage - Shot Data</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#faq">FAQ</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#afterthoughts">Afterthoughts</doc-anchor-trigger></li>
+</ul>
+<p><figure class="content-center">
+    <img src="assets/shot_data_toolbox.png" alt="Shot Data Toolbox.png" />
+    <figcaption class="caption">Shot Data Toolbox.png</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="background">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#background">#</doc-anchor-trigger>
+        <span>Background</span>
+    </h1>
+</doc-anchor-target>
+<p>Before I explain the workflow behind <strong>Shot Data</strong>, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is.</p>
+<blockquote>
+<p><em>Picture lock is a stage in editing a film or editing a television production. It is the stage prior to online editing when all changes to the film or television program cut have been done and approved. It is then sent to subsequent stages in the process, such as online editing and audio mixing. Any last-minute changes can force portions of subsequent work to be redone.</em></p>
+</blockquote>
+<p><em>Source: <a href="https://en.wikipedia.org/wiki/Picture_lock">Wikipedia</a></em></p>
+<p>In an analogous fashion, Sound Lock is a stage in a film or editing a television production where a sequence is edited before the production starts principal photography. In other words, before the project is being shot, in the pre-production or development stage. You could call it “Pre-Editing” as well. The filmmaker would use a series of concept images to construct a timeline.</p>
+<doc-anchor-target id="what-is-sound-locking">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-sound-locking">#</doc-anchor-trigger>
+        <span>What is Sound Locking?</span>
+    </h2>
+</doc-anchor-target>
+<p>Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, <a href="https://wonderunit.com/storyboarder/">hand-drawn sketches</a> or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.</p>
+<p>Sound Locking is not an entirely a new concept. Filmmakers, Music Video Directors and the animation industry have utilised this technique for a long time. The biggest hurdle from the above mentioned workflow is, there is no path to bring shot and scene information out from NLE to on-set usage meaningfully. Even if you have edited and prepared the sequence, the only method within the NLE is to export that sequence out as a rendered video file. It is not entirely useful, and shot information is not entirely homogenous. You are also required to do a Shot List manually based on the envisioned visuals. Which would precipitate tons of physical print out for various departments in productions, which yields a non eco-friendly work practice.</p>
+<p>However, there are applications on the market like <a href="https://www.shotlister.com/">Shot Lister</a>, <a href="https://www.studiobinder.com/">Studio Binder</a> or <a href="https://www.celtx.com/">Celtx</a> that allow you to develop industry standard Shot Lists. But all seems to tackle the Shot List construction from a script level. There is undoubtedly nothing wrong with this approach. The script is the anchor point, as screenplay is the foundation of every production.</p>
+<p>For Music Videos and music driven narratives, sound or music invariably takes higher precedence. You can’t visualise music on a sheet of paper except on a musical score sheet and you can’t conceivably construct a Shot List from a score sheet.</p>
+<doc-anchor-target id="the-most-resilient-parasite">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-most-resilient-parasite">#</doc-anchor-trigger>
+        <span>The Most Resilient Parasite</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="assets/inception.gif" alt="inception.gif" />
+    <figcaption class="caption">inception.gif</figcaption>
+</figure>
+</p>
+<blockquote>
+<p><em>What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient... highly contagious. Once an idea has taken hold of the brain it&#x27;s almost impossible to eradicate. An idea that is fully formed - fully understood - that sticks; right in there somewhere. - Cobb</em></p>
+</blockquote>
+<p>The thought of <strong>Shot Data</strong> workflow sparked in my mind some 7 years ago when working on various commercial projects. But no proper streamlined workflow or application was available at that period in time.</p>
+<p>Furthermore, most database applications were not exclusively mainstream. You had your usual suspects like Microsoft Access and FileMaker Pro. You would certainly need to engage a consultant to develop your custom database application, which is complicated and costly.</p>
+<p>In recent times, there is an emergence of cloud based database applications, like Notion and Airtable. With Data being the centre-point of our lives, such applications provide new intuitive features in a cost effective manner.</p>
+<p>Starting with <strong>Shot Data</strong>, I aim to streamline and optimise the process for Shot List generation from within Final Cut Pro.</p>
+<doc-anchor-target id="enter-shot-data">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enter-shot-data">#</doc-anchor-trigger>
+        <span>Enter Shot Data</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="why-final-cut-pro">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-final-cut-pro">#</doc-anchor-trigger>
+        <span>Why Final Cut Pro?</span>
+    </h2>
+</doc-anchor-target>
+<p>Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference">FCPXML</a> file. The <code v-pre>*.fcpxml</code> file contains most of the timeline’s information, including Metadata from custom Motion Titles.</p>
+<p>Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate <a href="https://en.wikipedia.org/wiki/Storyboard">Storyboard</a> or <a href="https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list">Shot-List</a> from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name <strong>Shot Data</strong>.</p>
+<doc-anchor-target id="why-notion">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-notion">#</doc-anchor-trigger>
+        <span>Why Notion?</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://www.notion.so/">Notion</a> is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.</p>
+<p>Notion’s workspace allows you to write in a beautiful clean space, build your own personal wiki (with endless layers of content), plan using a kanban view, a calendar or a simple list view and last, but not least, to capture your workflows and record everything by creating databases.</p>
+<p>If you are familiar with Final Cut Pro’s <a href="https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac">Smart Collections</a>, you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific <a href="https://www.notion.so/help/views-filters-and-sorts">filters and sort criteria</a>.</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=gp2yhkVw0z4" title="Why Notion?">
+        <img src="https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg" alt="Why Notion?" />
+    </a>
+    <figcaption class="caption">Why Notion?</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="introduction-to-notions-databases">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction-to-notions-databases">#</doc-anchor-trigger>
+        <span>Introduction to Notion’s databases</span>
+    </h2>
+</doc-anchor-target>
+<p>One feature that sets Notion apart from other database (i.e Airtable) is every entry or record is its own editable page. The record you enter into your database can be opened as its own Notion page, where you can layer or add in any information or <a href="https://www.youtube.com/watch?v=BZnR2Ml17sc">blocks</a> you want.</p>
+<p><figure class="content-center">
+    <a href="https://www.youtube.com/watch?v=npaNKlAO7g8" title="Introduction to Notion’s databases">
+        <img src="https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg" alt="Introduction to Notion’s databases" />
+    </a>
+    <figcaption class="caption">Introduction to Notion’s databases</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="basic-usage---shot-data">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#basic-usage---shot-data">#</doc-anchor-trigger>
+        <span>Basic Usage - Shot Data</span>
+    </h1>
+</doc-anchor-target>
+<details>
+<summary>Part 0 - Download CommandPost</summary>
+<ol>
+<li>Download and Install the latest version of CommandPost from <a href="https://github.com/CommandPost/CommandPost/releases/">GitHub</a>.</li>
+</ol>
+</details>
+<details>
+<summary>Part 1 - Sound Locking (Pre-Editing)</summary>
+<ol>
+<li><p>Select <strong>Shot Data</strong> from the <strong>CommandPost</strong>’s Toolbox Menu.</p>
+<p><img src="assets/s1.1.png" alt="S1.1.png" /></p>
+</li>
+<li><p>Click <strong>Install Motion Template</strong> from the <strong>Shot Data</strong>’s Toolbox</p>
+<p><img src="assets/s1.2.png" alt="S1.2.png" /></p>
+</li>
+<li><p>Launch <strong>Final Cut Pro</strong>.</p>
+<p><img src="assets/s1.3.png" alt="S1.3.png" /></p>
+</li>
+<li><p>Create a new <strong>Library</strong> of your choosing.</p>
+</li>
+<li><p>In <strong>Titles and Generators</strong> sidebar, you will now see the <strong>Shot Data</strong> Template under <strong>CommandPost</strong> category.</p>
+<p><img src="assets/s1.4.png" alt="S1.4.png" /></p>
+</li>
+<li><p>Create a new <strong>Project</strong> with your desired Resolution and Frame Rate.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> <strong>Shot Data</strong> Template is design for 4K UHD, DCI &amp; CinemaScope Resolutions.</p>
+</li>
+<li><p>Append a <strong>Custom Solid</strong> to the Timeline.</p>
+<p><img src="assets/s1.5.png" alt="S1.5.png" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> Custom Solid is used for this example. You can use any other available Solids from the Generators.</p>
+<p>🪲 There is an apparent bug in Final Cut Pro where Custom <strong>Generators</strong> with complex rigging and layers does not preview the background colour in the timeline. Hence, we have to use default Custom Solid Generator for visual indication within the timeline.</p>
+</li>
+<li><p>Connect your desired Music or Score Track to the first clip.</p>
+<p><img src="assets/s1.6.png" alt="S1.6.png" /></p>
+</li>
+</ol>
+<p><span class="docs-emoji">&#x1F4A1;</span> You can completely use Shot Data without a Music Track. It all depends on your project’s workflow and requirements.</p>
+<ol>
+<li><p>With the Custom Solid Generator, you can start editing using the music’s structure and rhythm.</p>
+<p><img src="assets/s1.7.png" alt="S1.7.png" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> You could change the colour of each Custom Solid to provide you a visual indication. For quicker reusability, create a set of Custom Solids with different colours. And you could also create a separate <strong>Role</strong> for all the Custom Solids and tag with a different colour.</p>
+</li>
+<li><p>Once you have completed editing the timeline with Custom Solids, you can now proceed to connect your reference images.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> These reference images, could be hand-drawn sketches, movie stills, photographs or even 3D rendered images.</p>
+<p><img src="assets/s1.8.png" alt="S1.8.png" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> Upon connecting the images to the timeline, select all the images. press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline. With secondary storyline, you can easily snap the images to each edit point.</p>
+</li>
+<li><p>Now, Connect <strong>Shot Data</strong> Template to the timeline.</p>
+<p><img src="assets/s1.9.png" alt="S1.9.png" /></p>
+</li>
+<li><p>Take a look at the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template. Don’t get overwhelmed with the number of fields. <span class="docs-emoji">&#x1F633;</span></p>
+<p><img src="assets/s1.10.gif" alt="S1.10.gif" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> You need not have to tabulate data in every field. They are published for greater versatility and flexibility when generating the <code v-pre>*.csv</code>.</p>
+</li>
+<li><p>Back in your timeline, perform an Extend Edit <code v-pre>Shift</code> + <code v-pre>X</code> on <strong>Shot Data</strong> Template.</p>
+<p><img src="assets/s1.11.gif" alt="S1.11.gif" /></p>
+</li>
+<li><p>Go back to the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template, enter your desired shot information pertaining the timeline and scene. If your entire timeline is meant only for scene 10, enter in <code v-pre>10</code> in the Scene Number field. Enter <code v-pre>01</code> under Shot Number.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> For the purpose of sorting, use a 2 digit numbering with padding for the Shot Number field. You can also use 3 digit numbering with padding if you desire. It is unlikely that you would require more than 100 shots within a single Scene.</p>
+<p><img src="assets/s1.12.png" alt="S1.12.png" /></p>
+</li>
+<li><p>Back in your timeline, press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline for the <strong>Shot Data</strong> Template. Using the <strong>Blade</strong> Tool, cut the <strong>Shot Data</strong> Template base on existing edit points. If you have <strong>Snapping</strong> enabled, all of the edit points should be identical across all 3 connected storyline.</p>
+<p><img src="assets/s1.13.png" alt="S1.13.png" /></p>
+</li>
+<li><p>In order for <strong>CommandPost</strong> to the process <strong>Shot Data</strong> Template with the connected images, the storyline needs to be reordered. Both of the connected storylines need to be broken apart using <code v-pre>Shift</code> + <code v-pre>CMD</code> + <code v-pre>G</code>. To bring the visibility of the <strong>Shot Data</strong> Template’s Text on screen, you can reduce the opacity of the Images and Custom Solids to your desired value.</p>
+<p><img src="assets/s1.14.png" alt="S1.14.png" /></p>
+</li>
+<li><p>Make sure you have entered and selected all the values within each <strong>Shot Data</strong> Template instance. You are required to enter a unique Shot Number <code v-pre>01</code>, <code v-pre>02</code>, <code v-pre>03</code>, <code v-pre>04</code> and so on for each <strong>Shot Data</strong> Template instance. If you have 19 cuts in your timeline, you should have 19 instances of <strong>Shot Data</strong> Template.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> At this point, you can enter as much of <strong>Shot Data</strong> information pertaining each shot. Example: Scene Description, Wardrobe Notes and etc.</p>
+<p>But if they are going to be the same for continuing shots, leave them as blank. You can copy &amp; paste them easily later in Notion.</p>
+<p><img src="assets/s1.15.png" alt="S1.15.png" /></p>
+</li>
+<li><p>We are finally done with Part 1! Here comes the fun Part. <span class="docs-emoji">&#x1F973;</span></p>
+</li>
+</ol>
+</details>
+<details>
+<summary>Part 2 - Sending to Notion</summary>
+<ol>
+<li><p><a href="https://www.notion.so/help/duplicate-public-pages">Duplicate</a> my <a href="https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7">Shot Data Template</a> into your Notion Workspace. You can rename the template to your desire.</p>
+</li>
+<li><p>Select <strong>Shot Data</strong> from the <strong>CommandPost</strong>’s Toolbox Menu.</p>
+</li>
+<li><p>Paste your <a href="https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede">Notion v2 Token</a> in the Notion Token field. Make sure both <strong>Automatically Upload Converted FCPXMLs</strong> and <strong>Merge with Existing Database</strong> are Checked.</p>
+<p><img src="assets/s2.1.png" alt="S2.1.png" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.</p>
+</li>
+<li><p>From your duplicated Shot Data Template, <strong>Copy Link to View</strong> and paste the URL into the Notion Database URL field.</p>
+</li>
+<li><p>Select your preferred <strong>Export Destination</strong> by pressing on <strong>Change Export Destination</strong>.</p>
+<p><img src="assets/s2.2.png" alt="S2.2.png" /></p>
+</li>
+<li><p>Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone.</p>
+<p><img src="assets/s3.3.png" alt="S3.3.png" /></p>
+</li>
+<li><p>Watch as the magic happens!</p>
+</li>
+</ol>
+<p><figure class="content-center">
+    <img src="assets/s2.4.gif" alt="S2.4.gif" />
+    <figcaption class="caption">S2.4.gif</figcaption>
+</figure>
+</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> The upload speed is dependent on your internet connection and Notion’s servers.</p>
+<ol start="8">
+<li>If you have 19 shots within your Project’s Timeline, you should technically have 19 records automatically created within your Notion’s database.</li>
+<li>This is the very essence of <strong>Shot Data</strong> Workflow. Repeat the process for the rest of your Scenes in Final Cut Pro. Your Notion’s database will grow overtime.</li>
+</ol>
+</details>
+<doc-anchor-target id="advance-usage---shot-data">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#advance-usage---shot-data">#</doc-anchor-trigger>
+        <span>Advance Usage - Shot Data</span>
+    </h1>
+</doc-anchor-target>
+<details>
+<summary>Using Notion’s Mobile App</summary>
+<ol>
+<li><a href="https://www.notion.so/mobile">Download</a> the Mobile version of Notion.</li>
+<li>Add <a href="https://www.notion.so/help/mobile-widgets">widget</a> on your home screen.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="assets/s3.1.gif" alt="S3.1.gif" />
+    <figcaption class="caption">S3.1.gif</figcaption>
+</figure>
+</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> You could <a href="https://www.manfrotto.com/global/magic-arm-with-bracket-143a/">mount</a> your iPhone or iPad to your Camera Rig and to your <a href="https://woodencamera.com/products/directors-monitor-cage-v3">Director&#x27;s Monitor Cage</a>.</p>
+</details>
+<details>
+<summary>Setting up database relationships</summary>
+<ol>
+<li><p>Make sure you have read and understand Notion’s <a href="https://www.notion.so/help/relations-and-rollups">documentation on Relations &amp; Rollups</a>.</p>
+</li>
+<li><p>You can create separate databases for <strong>Scene Characters</strong>, <strong>Scenes</strong>, <strong>Sets</strong>, <strong>Locations</strong>, <strong>Wardrobe</strong> and so on.</p>
+</li>
+<li><p>Once you have created individual databases for each <strong>Property</strong>.</p>
+</li>
+<li><p>In the property menu, Choose <strong>Relation</strong> from the <strong>Type</strong> menu.</p>
+</li>
+<li><p>You&#x27;ll be asked to find the database you want to create the relation with. You can use the input at the top to search for this database.</p>
+<p><img src="assets/s3.2.png" alt="S3.2.png" /></p>
+</li>
+<li><p>In <strong>Shot Data</strong> Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your <strong>Characters</strong> database.</p>
+<p><img src="assets/s3.3201.png" alt="S3.3.png" /></p>
+<p><span class="docs-emoji">&#x1F4A1;</span> If you have added <code v-pre>Luke</code> and <code v-pre>Yoda</code> in your <strong>Characters</strong> database, enter <code v-pre>Luke,Yoda</code>. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with <code v-pre>,</code>.</p>
+</li>
+<li><p>Now when you Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone, <strong>Shot Data</strong> will automatically match and link the record with the associated relation in Notion during the upload.</p>
+</li>
+<li><p>As mention, you can create separate database for <strong>Scene Characters</strong>, <strong>Scenes</strong>, <strong>Sets</strong>, <strong>Locations</strong>, <strong>Wardrobe</strong> and so on.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> Set up all relevant and vital databases in Notion before you commence your work in Final Cut Pro with <strong>Shot Data</strong> Template.</p>
+</li>
+</ol>
+</details>    
+<details>
+<summary>Updating existing Shot List in Notion’s database</summary>
+<ol>
+<li><p>In a scenario where your Images are updated in <strong>Final Cut Pro</strong>, you can batch update your existing Shot List database in Notion using <strong>Ignore Selected Column</strong> feature.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> In order to batch update your records, couple of conditions have to be met. The <strong>Shot Number</strong> and <strong>Scene Number</strong> have to be matched and identical. And the number of edits have to be identical.</p>
+</li>
+<li><p>Select all the Columns except <strong>Scene Description</strong> and <strong>Image Filename</strong>. The <strong>Scene Description</strong> will always be used as the Image’s Caption within Notion.</p>
+<p><img src="assets/s3.4.gif" alt="S3.4.gif" /></p>
+</li>
+<li><p>Now when you Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone, <strong>Shot Data</strong> will only upload and update the images that are embedded within each record.</p>
+</li>
+<li><p>You can also update other Columns if required.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> If your entire scene in <strong>Final Cut Pro</strong> is updated with a different set of cuts, the best course of action is to delete that affected range of Scene or Shot records in Notion. And perform a fresh set of upload in <strong>Shot Data</strong>’s Toolbox.</p>
+</li>
+</ol>
+</details>    
+<details>
+<summary>Emojis 😀</summary>
+<ol>
+<li><p>In Notion, you can customise your pages with <a href="https://www.notion.so/help/customize-and-style-your-content">Icons</a>.</p>
+</li>
+<li><p>The default icon for all the records is. <span class="docs-emoji">&#x1F3AC;</span>.</p>
+<p><img src="assets/s3.5.png" alt="S3.5.png" /></p>
+</li>
+<li><p>You can click on the <strong>Emoji Picker</strong> button to change to a different Emoji.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> You can get creative with emojis. You can assign <span class="docs-emoji">&#x2600;&#xFE0F;</span> sun emoji for day scenes and <span class="docs-emoji">&#x1F311;</span> moon emoji for night scenes.</p>
+</li>
+</ol>
+</details>
+<details>
+<summary>Saving and Loading Settings</summary>
+<ol>
+<li><p>As you get comfortable with <strong>Shot Data</strong> workflow and Notion, you would have multiple Shot List database within Notion for different projects. You might also hold multiple Notion accounts, Personal and Teams.</p>
+</li>
+<li><p>You are able to <strong>Save Settings</strong> for multiple configuration.</p>
+<p><img src="assets/s3.6.png" alt="S3.6.png" /></p>
+</li>
+<li><p>You can recall different configuration by pressing <strong>Load Settings</strong>.</p>
+</li>
+</ol>
+</details>
+<details>
+<summary>Drag & Drop Final Cut Pro’s Project to Dock Icon</summary>
+<ol>
+<li><p>Check CommandPost’s Dock Icon, under <strong>Preferences</strong>, <strong>General</strong>.</p>
+<p><img src="assets/s3.7.png" alt="S3.7.png" /></p>
+</li>
+<li><p>CommandPost’s Dock Icon will appear in your Dock.</p>
+<p><img src="assets/s3.8.png" alt="S3.8.png" /></p>
+</li>
+<li><p>Check <strong>Enable Dropping Final Cut Pro Project to Dock Icon</strong>.</p>
+<p><img src="assets/s3.9.png" alt="S3.9.png" /></p>
+</li>
+<li><p>You can now Drag &amp; Drop Project’s <strong>Shot Data</strong> Sequences into CommandPost’s Dock Icon easily without opening <strong>Shot Data</strong>’s Toolbox.</p>
+<p><span class="docs-emoji">&#x1F4A1;</span> Please make sure you have pre-configured all your settings within <strong>Shot Data</strong>’s Toolbox.</p>
+</li>
+</ol>
+</details>    
+<doc-anchor-target id="faq">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#faq">#</doc-anchor-trigger>
+        <span>FAQ</span>
+    </h1>
+</doc-anchor-target>
+<details>
+<summary>Can Shot Data be used with other applications?</summary>
+<ol>
+<li>Yes. You can uncheck <strong>Automatically Upload Converted FCPXMLs</strong> in <strong>Shot Data</strong>’s Toolbox.</li>
+<li>All Shot Data files are stored in <strong>Export Destination</strong> folder. Press <strong>Reveal Export Destination</strong> to open the folder.</li>
+<li>In each sub folders, you will find the <code v-pre>*.csv</code> file with the accompanying images auto renamed.</li>
+<li>You can import the <code v-pre>*.csv</code> to any application that accepts it.</li>
+</ol>
+</details>
+<details>
+<summary>Can Shot Data be used with Airtable?</summary>
+<p>Interestingly, I initially experimented Shot Data with Airtable. Airtable offers a superior database system compared to Notion. However, Notion offers greater affordability, superior embeds, note-taking features within each page, comparatively.</p>
+<p>If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, <a href="https://twitter.com/IAmVigneswaran">get in touch with me</a>.</p>
+</details>
+<doc-anchor-target id="afterthoughts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#afterthoughts">#</doc-anchor-trigger>
+        <span>Afterthoughts</span>
+    </h2>
+</doc-anchor-target>
+<p>This workflow would be particularly advantageous if you are the Writer, Director and Editor; or at least collaborating with an Editor in the early development phase. You could pursue through your vision from storyboard, pre-cut to actual principal photography and back to editorial in Final Cut Pro. Be it short-form or feature form, this workflow should be applicable across.</p>
+<p><em>Last Edited : 28th November 2022</em></p>
+<hr />
+<p>Workflow Created by <a href="https://vigneswaranrajkumar.com">Vigneswaran Rajkumar</a></p>
+<p>Shot Data’s Toolbox Programming was made possible by <a href="https://github.com/latenitefilms">Chris Hocking</a></p>
+<p>Notion’s <a href="https://github.com/vzhd1701/csv2notion">Import Tool</a> by <a href="https://github.com/vzhd1701">Vladilen Zhdanov</a></p>
+<p>Initial Motion Template rigging was assisted by <a href="https://twitter.com/peterwiggins">Peter Wiggins</a></p>
+<p>Empire Strikes Back storyboard illustrations by <a href="https://www.imdb.com/name/nm0002653/">Joe Johnston</a> and <a href="https://www.imdb.com/name/nm0734890/">Nilo Rodis-Jamero</a></p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../toolbox/fcpxml-titles/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Installation</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../toolbox/sony-timecode/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Installation</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Installation", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

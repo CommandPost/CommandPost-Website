@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739511637234">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>Release Notes</title>
+    <meta name="title" content="Release Notes">
+    <meta name="description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/release-notes/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/release-notes/">
+    <meta property="og:title" content="Release Notes">
+    <meta property="og:description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!">
+    <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/release-notes/">
+    <meta property="twitter:title" content="Release Notes">
+    <meta property="twitter:description" content="Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!">
+    <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../resources/css/retype.css?v=3.0.3.739511637234" rel="stylesheet" />
+
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739511637234" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739511637234" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../download/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../download/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/latenitefilms/brawtoolbox/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="release-notes" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#release-notes">#</doc-anchor-trigger>
+        <span>Release Notes</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="commandpost-1417">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1417">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.17</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Increase Pasteboard Buffer Actions from 9 to 50. Thanks for suggesting Dimitar Maratilov!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Take 3! It seems we&#x27;ve been playing cat and mouse with Apple. &quot;Save Timeline Index to CSV&quot; should now work on both macOS Monterey and all versions of macOS Ventura. Thanks for reporting Larry Jordan!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1416">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1416">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.16</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Updated from Lua v5.4.3 to v5.4.4. Thanks Chris Jones &amp; Lua Team!</li>
+<li>The Debug Console is now limited to 100,000 characters by default. Thanks Chris Jones!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed bug in &quot;Select Clip at Lane&quot; actions. Thanks for reporting Christopher Tasti!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1415">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1415">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.15</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Stream Deck Plus.</li>
+<li>Added support for the latest Stream Deck Mini.</li>
+<li>Added actions for controlling the Loupedeck Screen and LED brightness. Thanks for suggesting anarchy!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Updated csv2notion from v0.3.5 to v0.3.7. Thanks for your amazing work Vladilen Zhdanov!</li>
+<li>In the Shot Data Toolbox, we now save and restore the &quot;Export Destination&quot; with the settings. Thanks for suggesting Vigneswaran Rajkumar!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where the clip duration was incorrect when using the Vimeo Toolbox. Thanks for reporting Noah Leon!</li>
+<li>Fixed a bug which prevented &quot;Reveal in Keyword Collection&quot; actions from working. Thanks for reporting Eric Lami!</li>
+<li>Fixed a bug in the Titles to Keywords Toolbox where we never considered that a sync-clip might actually contain a spine, if there&#x27;s a gap clip at the start of the sync-clip. Thanks Olivier Galliano &amp; Sam Pluemacher!</li>
+<li>Fixed Logic bug in Stream Deck Banks. Thanks aj752!</li>
+<li>Fixed logic bug in Resolve Control Surface Banks. Thanks KotzendesEinhorn-rgb!</li>
+<li>Reverted changes we made in v1.4.14 to fix macOS Ventura bugs, as Apple has seemed to fix them in a later Ventura update.</li>
+<li>Fixed a nil error in the Keywords action within the Loupedeck Plugin if no existing Keyword Shortcuts are allocated.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1414">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1414">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.14</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="important-changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#important-changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Important Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>With the release of macOS Ventura, CommandPost v1.4.14 now requires macOS Big Sur or later. You can still use CommandPost v1.4.13 on macOS Catalina.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Sony Timecode Toolbox now supports 100fps Non-Drop Frame clips. Thanks for reporting Valerio D&#x27;Andrassi!</li>
+<li>Sony Timecode Toolbox now supports clips with Drop Frame (29.97fps, 59.94fps and 119.88fps) timecode. MASSIVE thank you to George Elias for supplying a huge amount of test clips!</li>
+<li>Added additional actions for triggering shortcut keys, using a slightly different method that works better with macOS applications using non-native frameworks, such as Blender. Thanks for reporting Alex Petrov!</li>
+<li>Updated csv2notion to v0.3.6. Thanks for your amazing work Vladilen Zhdanov!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug in our Timeline Index API, which caused the &quot;Save Timeline Index to CSV&quot; to fail on macOS Ventura, due to changes to the Accessibility API on macOS Ventura. Thanks for reporting Dale Ryan and Phil Swallow!</li>
+<li>Fixed a bug in our MenuButton API, which caused triggering certain menu buttons to fail on macOS Ventura, due to changes to the Accessibility API on macOS Ventura. Thanks for reporting Oli Frost!</li>
+<li>Fixed a potential error message in our AppleScript handler. Thanks for reporting Daniel Latimer!</li>
+<li>Fixed a bug with the “Copy Application” function in the Control Surfaces panels. If you copied a built-in application to a user-added application, it would incorrectly replace the display name of the destination application with that of the source application. Thanks for reporting John McAfee!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1413">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1413">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.13</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Titles to Keywords Toolbox now supports audio clips on the primary storyline. Also, now if you have a title that spans across multiple clips, keywords will be applied to all the clips that intersect that title. Thanks Sam Pluemacher!</li>
+<li>We&#x27;ve updated the CommandPost Workflow Extension icon so that it&#x27;s greyscale, matching the look of other Workflow Extension icons. This will look much better if CommandPost is the only Workflow Extension you have installed. Thanks for suggesting Byk Valkonen! Designed by the amazing Matthew Skiles!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Final Cut Pro v10.6.5 fixes a regression (introduced in v10.6.2) which prevented CommandPost from detecting selected clips within a secondary storyline. This meant, for example, if you had a clip selected in a secondary storyline and triggered Timeline Batch Export, CommandPost would think no clips are selected in the timeline. This is now fixed! Woohoo! Thanks Apple!</li>
+<li>Fixed a bug in &quot;Select Middle of Next/Previous Clip in the same storyline&quot; actions. This now works again thanks to the above mentioned fix in Final Cut Pro v10.6.5. Thanks for reporting Nathen McEvoy!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1412">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1412">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.12</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed an issue in the &quot;Auto Sequence&quot; Toolbox where audio clips were not processed correctly. Thanks for reporting Florian Duffe!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1411">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1411">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.11</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Razer Stream Controller.</li>
+<li>Added support for the Loupedeck Live-S.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for titles in secondary storylines to the Titles to Keywords Toolbox. Thanks for suggesting Knut Hake!</li>
+<li>Added a second text-box to the Titles to Keywords Toolbox, to be used for &quot;common&quot; keywords.</li>
+<li>Added a preference to &quot;Add Space After Sequence&quot; in the Titles to Keywords Toolbox. We also now add a &quot;KEYWORD&quot; role to every title.</li>
+<li>Added an option to &quot;Treat FAVORITE and REJECT as Ratings instead of Keywords&quot; in the Titles to Keywords Toolbox. When &quot;Treat FAVORITE and REJECT as Ratings instead of Keywords&quot; is enabled it will automatically create a &quot;REJECT&quot; and &quot;FAVORITE&quot; title when using &quot;Create Titles from Text&quot; (which also has a &quot;REJECT&quot; or &quot;FAVORITE&quot; role). We also now put the &quot;Create Titles from Text&quot; titles on a secondary storyline to make copying easier.</li>
+<li>When using &quot;Create Titles from Text&quot; in the Titles to Keywords Toolbox, we now alternate the positioning of the titles, so that you can more easily see them in the Final Cut Pro Viewer.</li>
+<li>Updated csv2notion to v0.3.5. Thanks for your amazing work Vladilen Zhdanov!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where &quot;Screens Backlight Level&quot; wouldn&#x27;t update correctly on Loupedeck devices.</li>
+<li>The warning popup that appears when using the reset buttons on the Loupedeck control surfaces panels now shows the correct control surface name (i.e. if you want to reset a Loupedeck Live, it now says Loupedeck Live instead of Loupedeck CT).</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1410">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1410">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.10</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added a new &quot;Auto Sequence&quot; Toolbox. When you drag a Final Cut Pro Project to this Toolbox, we&#x27;ll send a new Project back to Final Cut Pro with the clips sorted by timecode (with or without gaps). Thanks for suggesting Knut Hake &amp; Sam Pluemacher!</li>
+<li>Added a new &quot;Sony Timecode Repair&quot; Toolbox. Final Cut Pro currently doesn&#x27;t always correctly interpret timecode from certain Sony Cameras that are recording into an MP4 wrapper. This Toolbox will update a Project&#x27;s FCPXML to use the correct timecode values from the XML sidecar file (or the MP4 itself if no sidecar file exists), so that you can more easily send timelines from Final Cut Pro to DaVinci Resolve, Baselight or Adobe Premiere (with XtoCC). Thanks Alister Robbie &amp; Jamie LeJeune!</li>
+</ul>
+<doc-anchor-target id="improvement">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvement">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvement</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Titles to Keywords&quot; Toolbox now supports connected clips above the Primary Storyline. This means that you can have a single title over the top of multiple clips, and all of those clips will get the same keyword from this title. Thanks for suggesting Knut Hake &amp; Sam Pluemacher!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-149">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-149">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.9</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added some workarounds for macOS 13 Ventura Beta 22A5321da. Currently the Final Cut Pro &quot;Edit &gt; Start Dictation…&quot; and &quot;Edit &gt; Emoji &amp; Symbols&quot; menu item actions will only work in English due to changes in macOS - we will try to search for a proper fix for this in the future for non-English users. Thanks for reporting Jeff Asher!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-148">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-148">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.8</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvement">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvement">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvement</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The <code v-pre>projectTimecode</code> token that can be used in Timeline Batch Export custom naming no longer uses dashes as separators (i.e. &quot;00000000&quot; instead of &quot;00-00-00-00&quot;) so you more easily copy and paste into Final Cut Pro. Thanks for suggesting Jiří Fiala!</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added missing action group labels for Razer Tartarus Chroma Applications &amp; Banks. Thanks for reporting Frozner Videography!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-147">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-147">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.7</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Razer Tartarus Chroma. Thanks for suggesting Frozner Videography!</li>
+<li>Added a <code v-pre>projectTimecode</code> token to the Timeline Batch Export custom naming feature, allowing you to insert the project timecode of where the clip starts to the filename. Thanks for suggesting Jiří Fiala!</li>
+<li>Added action for &quot;Toggle Zoom to Fit&quot;, allowing you to toggle between &quot;Zoom to Fit&quot; and your last zoom value. Thanks for suggesting Jiří Fiala!</li>
+<li>Added action for &quot;Toggle Zoom to Selection&quot;, allowing you to toggle between &quot;Zoom to Selection&quot; and your last zoom value. Thanks for suggesting Richard Taylor!</li>
+<li>Added individual actions for specific timeline zoom values (1 to 10 in 0.5 increments).</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug in the &quot;Mouse Left Double Click&quot; action.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-146">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-146">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.6</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Disabling &quot;Open Debug Console on Dock Icon Click&quot; in the General Preferences still opened the Debug Console when clicking the dock icon. Thanks for reporting Vigneswaran Rajkumar!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-145">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-145">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.5</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added an option to &quot;Replace Commas With Alternative Commas&quot; in the &quot;Titles to Keywords&quot; Toolbox. This is to workaround a bug in Final Cut Pro where it will split up a single keyword into multiple keywords when it detects a comma in the keyword name, when imported via a FCPXML. Thanks Knut Hake, Sam Pluemacher, Iain Anderson and Alex Gollner!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The contextual menu will now appear when you right-click on the &quot;Create Titles from Text&quot; text editor in the &quot;Titles to Keywords&quot; Toolbox.</li>
+<li>Fixed a bug that could cause a &quot;nil&quot; error in the Debug Console related to &quot;topToBottomBaseAligned&quot; sorting.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-144">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-144">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.4</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added a new &quot;Titles to Keywords&quot; Toolbox. When you drag a Final Cut Pro Event to this Toolbox (which must only contain a single Project), we will look through all the Titles connected to the clips in the Primary Storyline, read the name of those clips, then create new Keyword Ranges for each of those Titles. We then send that data back into Final Cut Pro automagically.</li>
+<li>We&#x27;ve also included a &quot;Create Titles from Text&quot; feature in this same Toolbox, that allows you to create a new Final Cut Pro Project which contains a new Title for every line in the Toolbox&#x27;s text box - along with some additional formatting features, such as adding a prefix, suffix or sequential numbering. This allows you to easily copy and paste text from things like a PDF Script, convert them into Titles, adjust as required, then convert those Titles into Keywords. You can also setup the CommandPost Dock icon so that it automatically sends any dragged Events or FCPXML files directly to this new Toolbox. Thanks for suggesting Knut Hake &amp; Sam Pluemacher! Thanks for testing Vigneswaran Rajkumar!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Shot Data&quot; Toolbox icon has been updated. Thanks Vigneswaran Rajkumar!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>In Final Cut Pro 10.6.2, Apple renamed the &quot;Photos and Audio&quot; menubar item to &quot;Photos, Videos and Audio&quot;, which broke some automation features, like inserting specific Titles &amp; Generators. This is now fixed. Thanks for reporting Trace Dominguez!</li>
+<li>Fixed a bug that could cause a &quot;invalid order function for sorting&quot; error in the Debug Console.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-143">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-143">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.3</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added the ability to upload directly to Notion from the Shot Data Toolbox. Thanks Vigneswaran Rajkumar!</li>
+<li>Added a new Notion Toolbox allowing you to upload the Final Cut Pro Timeline Index and Browser Contents directly to Notion.</li>
+<li>Added two new drop-boxes in the General section of CommandPost’s preferences allowing you to set a “Drag &amp; Drop Text Action” and a “Drag &amp; Drop File Action”. This allows you to, for example, drag a Final Cut Pro project directly to the CommandPost dock icon to trigger the Vimeo Toolbox.</li>
+<li>Added a preference for “Key Repeat” and “Delay Until Repeat” in the Razer Control Surfaces panel. Thanks for suggesting Ross Batten!</li>
+<li>Added button that allows you to copy profiles between Razer devices in the Razer Control Surfaces panel. Thanks for suggesting Ross Batten!</li>
+<li>Added additional “Press &amp; Hold” modifier actions. Thanks for suggesting Valerio D&#x27;Andrassi and Noé Molnár!</li>
+<li>Added actions to control Spotify. We’ve also added a new “Spotify” section in the CommandPost Loupedeck Plugin for easy access.</li>
+<li>Added actions to &quot;Increment/Decrement User Interface Element Under Mouse”. This allows you to hover your mouse over a slider, knob or text-box in Final Cut Pro or DaVinci Resolve (for example), and use a control surface to control its value. We’ve also added a new “macOS: Accessibility” section in the CommandPost Loupedeck Plugin for easy access.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added missing labels to some Razer Action Groups.</li>
+<li>Fixed a bug in the Color Board Angles actions. Thanks for reporting Noé Molnár!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-142">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-142">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.2</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvement">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvement">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvement</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Loupedeck Plugin now requires Loupedeck 5.2 or later. The CommandPost Loupedeck Plugin has been updated so that unnecessary &quot;reset&quot; actions are no longer displayed in the LoupedeckConfig application - for example, the Cinematic Focus Point action, no longer has a &quot;press&quot; action associated with it (as it previously did nothing). This was a bug in the Loupedeck Plugin API that has now been addressed in version 5.2 of their software. Thanks Loupedeck Team!</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a regression that broke the &quot;Unmount external drives when switching to battery power&quot; and &quot;Mount external drives when switching to AC power&quot; features in the previous release.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-141">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-141">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.1</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Razer Tartarus, Tartarus Pro, Nostromo &amp; Orbweaver Chroma. We&#x27;d love to add support for the Tartarus Chroma too, but have been unable to get our hands on this older device as of yet - if you have one that you can donate, let us know!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>You can now &quot;drag and drop&quot; to re-arrange buttons in the Razer Control Surfaces panel. You can also right-click on buttons to copy, cut and paste buttons.</li>
+<li>We&#x27;ve also added a preference to &quot;Prevent Excessive Thumb Taps&quot;, to workaround issues with the thumb button on older Razer devices where the thumb button becomes too sensitive over time. Thanks for suggesting Ross Batten!</li>
+<li>We now cache the Razer devices brightness to improve performance.</li>
+<li>Added preference to &quot;Scan Running Application Menubars on Startup&quot; and &quot;Scan the Menubars of the Active Application&quot;, which are now off by default to improve CommandPost&#x27;s startup time.</li>
+<li>We no longer load various Final Cut Pro plugins when Final Cut Pro isn&#x27;t installed, to improve startup performance.</li>
+<li>The CommandPost Workflow Extension for Final Cut Pro is no longer installed if Final Cut Pro is not installed.</li>
+<li>The Skype Shortcuts plugin no longer loads if Skype isn&#x27;t installed.</li>
+<li>The Zoom Shortcuts plugin no longer loads if Zoom isn&#x27;t installed.</li>
+<li>We&#x27;ve changed the way the &quot;Press &amp; Hold&quot; modifier key actions works for better performance.</li>
+<li>CommandPost now defaults to controlling the Final Cut Pro Trial, if the trial is already running when CommandPost starts, even if the full version is also installed. Thanks for suggesting Nathen McEvoy!</li>
+<li>Changed the wording from &quot;Unknown&quot; to &quot;Not Installed&quot; in the Debug Console if the Final Cut Pro version and/or path can&#x27;t be detected.</li>
+<li>Improved the German translation in the Loupedeck Plugin. Thanks Jenny!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed bugs related to the &quot;Copy Control to All Banks&quot; and &quot;Reset Control&quot; buttons in the Razer Preferences.</li>
+<li>Fixed a bug where &quot;Unlisted &amp; Ignored Applications&quot; wouldn&#x27;t work as intended on Razer devices.</li>
+<li>Fixed a bug where deleting a Custom User Application in Razer Preferences wouldn&#x27;t update the user interface correctly.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-140">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-140">#</doc-anchor-trigger>
+        <span>CommandPost 1.4.0</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve added a new &quot;Loupedeck Plugin&quot; that acts as an alternative to our native/direct Loupedeck support - allowing you to access all of CommandPost&#x27;s Final Cut Pro actions within the LoupedeckConfig application. This is really handy for users that have to jump between Adobe Premiere and Final Cut Pro, for example. All of your macOS Shortcuts macros and Keyboard Maestro macros will also appear in the LoupedeckConfig application automagically. There are also some macOS Spaces actions. Big thanks to the Loupedeck Team for their support - especially Jenny!</li>
+<li>Added support for the Razer Orbweaver. Big thanks to Ross Batten for giving us access to the hardware! We hope to add more Razer keyboards in the near future.</li>
+<li>We&#x27;ve added a new Final Cut Pro Workflow Extension, which allows us to better control the playhead (which works great with control surfaces - such as the Loupedeck CT wheel). The Workflow Extension will only load when you trigger an action that requires it. When you first load the Workflow Extension it will try and make itself as small as possible and get out of the way - however you can move it to wherever you want, and like all Workflow Extensions its position is saved with your Workspace. There are new actions for &quot;Move Playhead Forward/Backward&quot; at different increments. There&#x27;s no buttons on the Workflow Extension - it&#x27;s currently simply an interface for us to control the playhead.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Improved the colour accuracy of the Razer Tartarus V2 LEDs.</li>
+<li>Fixed a bug in the Resolve Control Surfaces where the &quot;RELATIVE FINE CONTROL&quot; jog mode wouldn&#x27;t trigger the correct jog mode on the hardware.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1313">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1313">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.13</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve added a new &quot;Relative (Fine Control)&quot; Jog Wheel Mode for the Blackmagic Resolve Keyboards, which uses a different algorithm for more precise control, as some users found the jog wheel too sensitive and hard to navigate when in relative mode. We’ve also added some additional sensitivity values, so you can further fine tune it to your liking. Thanks for your valuable feedback David Manganelli!</li>
+<li>We now forcefully update the LED lights on the Blackmagic Resolve Keyboards every 5 minutes to attempt to prevent the device from falling asleep. Thanks for reporting David Manganelli!</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a regression introduced in the previous release which caused applying individual effects, transitions, titles and generators to clips in Final Cut Pro via a CommandPost action to fail unexpectedly. Thanks for reporting Fernando Piñero &amp; Andrew Griffiths!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1312">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1312">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.12</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>CommandPost now remembers the menubar position if you change it by holding down COMMAND and dragging it to a new location.</li>
+<li>In the previous release of CommandPost if you tried to trigger a Final Cut Pro shortcut key that didn&#x27;t actually have any keys assigned to it with the Final Cut Pro Command Editor, you&#x27;d be presented with an error message. This would sometime confuse users - for example, those using a Speed Editor which has the &quot;Play Rate&quot; shortcut keys assigned to the jog wheel - but Final Cut Pro doesn&#x27;t assign anything to the &quot;Play Rate&quot; shortcuts by default. To improve this, if CommandPost tries to trigger a shortcut key that you haven&#x27;t set up in Final Cut Pro, we&#x27;ll now present you with a macOS Notification, which when clicked, takes you to the relevant Command within the Final Cut Pro Command Editor.</li>
+<li>CommandPost now disables support for displaying macOS Shortcut app shortcuts within the Search Console by default. To enable this functionality you must now manually enable it within the Shortcuts preferences panel within CommandPost. We have also added a new setup screen for new users, that allows you to enable shortcuts there. This is to prevent the shortcuts permission box from popping up the first time new users opened the Search Console.</li>
+<li>When you add a custom application to the Resolve Keyboards, it now automatically selects that application once added. Thanks for reporting Dávid Szentmiklósi!</li>
+<li>We&#x27;ve improved how we cache the Jog Wheel mode on the DaVinci Resolve Keyboards.</li>
+<li>Improved the load times of the Resolve, Razer and TourBox Control Surface Panels.</li>
+<li>The Speed Editor battery status is now displayed in the preferences panel.</li>
+<li>Updated the default Resolve Keyboard layouts so that the JOG banks use menubar actions instead of shortcut key actions to improve performance. This will only change for new users, or if you reset your layout to &quot;factory default&quot;.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>If you delete an application, device or everything on the Resolve Keyboard panel, it now resets the &quot;last application&quot; if that custom application no longer exists in the preferences file.</li>
+<li>CommandPost now correctly determines the Final Cut Pro language when you change it via System Preferences within the Language &amp; Region &gt; Apps section. Thanks for reporting Sam Pluemacher - we had no idea this feature was added to macOS!</li>
+<li>System Preferences no longer quits when CommandPost starts up.</li>
+<li>CommandPost can now better detect when the Command Set is changed within Final Cut Pro.</li>
+<li>Fixed a bug which prevented the Search Console from pre-populating the last action title in the Resolve Keyboard panel.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1311">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1311">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.11</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where Effects that contained special symbols in English would not be listed correctly in the Search Console when Final Cut Pro was not in English (i.e. the &quot;Black &amp; White&quot; colour effect for Spanish users). Thanks for reporting Javier Beldamu!</li>
+<li>Fixed a bug where CommandPost would fail to select the Effects Category when Final Cut Pro was in Spanish, so that when you tried to insert an Effect from the Search Console, it would always use the &quot;All Video &amp; Audio&quot; category, making it slightly slower.</li>
+<li>Fixed a bug where actions saved in English (i.e. all the default control surface layouts) would fail to trigger when Final Cut Pro was not in English. Thanks for reporting Peter Schroeder!</li>
+<li>Fixed a bug where the Search Console would fail to populate properly if Final Cut Pro was in Korean.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1310">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1310">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.10</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>CommandPost now has the ability to read Final Cut Pro&#x27;s Main Menu Structure directly (i.e. we can read the MainMenu.nib). MASSIVE THANK YOU to my partner-in-crime behind CommandPost, the incredible David Peterson. Whilst this won&#x27;t really change anything for end users, it means that next time Apple pushes out an update - CommandPost will automatically read the new menubar structure without us having to push out an update. It also means &quot;Show Duplicate Ranges&quot; now appears in the &quot;Menu Items&quot; action group, not just the &quot;Menu Items (Scanned)&quot; action group.</li>
+<li>The Search HUD now shows options for &quot;Original Codecs&quot; and &quot;Proxy Codecs&quot;.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We can now detect whether or not the timeline is in focus again - fixing various actions, such as &quot;Set Spatial Conform Type&quot;.</li>
+<li>The &quot;Set Spatial Conform Type&quot; actions now work correctly when triggered from the Search Console.</li>
+<li>The &quot;Show Horizon&quot; action now works correctly when Final Cut Pro is in Korean.</li>
+<li>We&#x27;ve removed the Touch Bar debugging messages from the Debug Console.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-139">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-139">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.9</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>In Final Cut Pro 10.6.2, Apple has changed the file format where they store the main menu structure for Final Cut Pro (from a binary property list to a NIBArchive), and we&#x27;re currently trying to work out how to read the new format - as it&#x27;s undocumented, we&#x27;re not sure how long it&#x27;ll take us to solve. In the meantime, we&#x27;ve added a temporary workaround where we use the menu main structure from 10.6.1, so that you can continue to use CommandPost with this new release. New menu items (such as &quot;Show Duplicate Ranges&quot;) will still be available in the Search Console as Command Editor Shortcuts and scanned menu items.</li>
+</ul>
+<doc-anchor-target id="known-issues">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#known-issues">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F62D;</span> Known Issues</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Currently we can&#x27;t detect whether or not the Timeline is focussed in Final Cut Pro 10.6.2. This breaks some features such as &quot;Set Spatial Conform Type&quot;, because we need to determine if you&#x27;re selecting clips in the Browser or the Timeline - so CommandPost currently just assumes you&#x27;re working in the browser. We&#x27;ll investigate a workaround ASAP. If you spot any other Final Cut Pro 10.6.2 issues or bugs, please let us know!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-138">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-138">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.8</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a regression where CommandPost would error on startup if Final Cut Pro wasn&#x27;t installed. Apologies to all our users that aren&#x27;t using Final Cut Pro! Thanks for reporting Matt Dial!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-137">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-137">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.7</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We now scan the &quot;additional&quot; commands in Final Cut Pro. This means there are now keyboard command set actions for &quot;Next Focus Point&quot;, &quot;Previous Focus Point&quot;, &quot;Cinematic Tool&quot; and &quot;Cinematic Editor&quot; (and any future &quot;additional&quot; commands Apple adds in the future).</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a rare bug where sometimes CommandPost shortcuts for Final Cut Pro would not activate if you started CommandPost with Final Cut Pro already running.</li>
+<li>The &quot;Insert Action&quot; button in the Snippets Editor now correctly formats code with non-standard characters, like the command icon you see on your keyboard. Previously inserted actions still work - they just look a bit weird. Thanks for reporting Marc Bach!</li>
+<li>You can now use the full range of LED colours on the Razer Tartarus V2 when using custom colours. Thanks for reporting Leonardo Franke!</li>
+<li>Fixed a bug which prevented CommandPost from detecting when Final Cut Pro was playing or stopped. We&#x27;re hopeful this might fix the Scrolling Timeline Feature for some users. Thanks for reporting Martin Lohmann, Wizi Roy Shmueli and Javier Olvedo!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-136">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-136">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.6</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>If you add a Custom Application in the Blackmagic Resolve Speed Editor or Editor Keyboard panel, the Custom Applications menubar items will now correctly appear in the Search Console. For example, if you add Hedge as a custom application, all of its menubar items will now appear in the CommandPost Search Console (assuming Hedge is running), so that you can trigger them from the Speed Editor or Editor Keyboard. Thanks for reporting Scott Simmons!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-135">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-135">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.5</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where the &quot;Insert Action&quot; button in the Snippets Preferences panel could fail if the action code contained certain characters. Thanks for reporting Marc Bach!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-134">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-134">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.4</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Long Press&quot; action on the Blackmagic Keyboards now happens after X number of seconds, rather than on the release of the button. Thanks for suggesting Marc Bach!</li>
+<li>If you do a &quot;Long Press&quot; action on the Blackmagic Keyboards, a seperate release action can now trigger when you release the button.</li>
+<li>You can now customise the &quot;Long Press&quot; duration for the Blackmagic Keyboards. It defaults to 0.4 seconds.</li>
+<li>We&#x27;ve added a new preference to the Blackmagic Keyboards panel called &quot;Change Bank on Hardware When Changing Here&quot;. When enabled, if you change the bank in the preferences dropdown, it will change on the hardware too, so you can preview LED changes.</li>
+<li>The &quot;Last Bank&quot; action now takes into account any bank changes causes by changing the bank via the Preferences dropbox (assuming &quot;Change Bank on Hardware When Changing Here&quot; is enabled).</li>
+<li>Added a new preference to Blackmagic Keyboards panel called &quot;Display Message When Changing Banks&quot; to turn off the overlay that&#x27;s displayed when changing banks.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-133">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-133">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.3</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the DaVinci Resolve Editor Keyboard.</li>
+<li>Added &quot;absolute&quot; Jog Wheel support to the DaVinci Resolve Speed Editor.</li>
+<li>Added &quot;long press&quot; actions to the DaVinci Resolve Speed Editor.</li>
+<li>Added actions to scroll the Final Cut Pro timeline contents horizontally.</li>
+<li>Added actions to &quot;Jump to Next/Previous Frame&quot;, which also takes into account a SHIFT key modifier to jump 10 frames instead of 1.</li>
+<li>Add actions to trigger Search Console specifically for Final Cut Pro Effects, Titles, Transitions and Generators. Thanks for suggesting Marc Bach!</li>
+<li>Added an action to go back to the &quot;last&quot; DaVinci Resolve Keyboard bank.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve updated the DaVinci Resolve Speed Editor layout to better demonstrate CommandPost&#x27;s functionality. If you&#x27;re already using CommandPost, you&#x27;ll need to reset your layout to see these changes.</li>
+<li>Improved the reliability of virtual keyboard presses on macOS Monterey &amp; Final Cut Pro 10.6.1.</li>
+<li>Improved the image quality of the Speed Editor image in the interface. Thanks for reporting Archetyped!</li>
+<li>Improved how we handle LEDs on the Speed Editor. LEDs are now all turned off when your computer is put to sleep, Speed Editor support is disabled, or you quit CommandPost.</li>
+<li>CommandPost now ignores button presses and jog wheel movements if DaVinci Resolve is running. DaVinci Resolve is now greyed out in the Speed Editor &amp; Editor Keyboard drop-downs.</li>
+<li>Increased Tangent Favourites from 50 to 200. Thanks for suggesting Marc Bach!</li>
+<li>Added a Search Console toolbar icon for DaVinci Resolve keyboard banks.</li>
+<li>Added ability to reset to either completely empty or factory default for all the reset buttons on the DaVinci Resolve Keyboard panel.</li>
+<li>The &quot;Insert Action&quot; button in the Snippets Preferences now inserts more simplified code, and handles slashes better. Thanks for reporting Marc Bach!</li>
+<li>We added a new global Lua function to more easily trigger actions: cp.triggerAction(handler, action).</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug in the DaVinci Resolve Keyboard panel where resetting an action would reset the entire button. Thanks for reporting Marc Bach!</li>
+<li>Changing Speed Editor banks now correctly shows any custom bank labels on the on-screen message.</li>
+<li>Fixed a bug where Final Cut Pro commands didn&#x27;t show an icon in the Search Console.</li>
+<li>Fixed bugs in Distort Y actions. Thanks for reporting Flavio Saramin!</li>
+<li>Fixed a bug where the Snippets window never remembered the last Snippet.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-132">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-132">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.2</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>&quot;Automatically Switch Applications&quot; for the Blackmagic Control Surfaces is now enabled by default on fresh installs.</li>
+<li>We&#x27;ve changed the default Speed Editor layout to turn all the LEDs on in the &quot;Unlisted &amp; Ignored Applications&quot; layout so you can more easily see it&#x27;s working. The Jog Wheel now acts as a mouse scroll wheel in this layout by default too.</li>
+<li>We&#x27;ve changed the wording on the DaVinci Resolve Control Surface panel to make it clear that &quot;DaVinci Resolve will override CommandPost when running&quot; and &quot;we recommend using a wired connection&quot;.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where the Speed Editor, Razer and TourBox preferences pages could appear incorrect if certain Safari Extensions are installed. Thanks for reporting!</li>
+<li>You can now change the LEDs for the CAM buttons on the Speed Editor.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-131">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-131">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.1</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Another attempt to fix an uncommon Touch Bar related crash that affects a very small number of users.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-130">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-130">#</doc-anchor-trigger>
+        <span>CommandPost 1.3.0</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="important-changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#important-changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Important Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>CommandPost has dropped Mojave support in this release. We now only support macOS Catalina, Big Sur &amp; Monterey. If you&#x27;re stuck on Mojave you can still use ### CommandPost 1.2.16.</li>
+</ul>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Blackmagic Resolve Speed Editor. This wouldn&#x27;t be possible without the genius work from Sylvain Munaut. Special thanks to Morten Bentsen, Håvard Njåstad and Sondre Tungesvik Njåstad.</li>
+<li>Added actions to Prevent Mac from Sleeping (this was previously only available via the menubar). Thanks for suggesting Undertaker01!</li>
+<li>Added option to invert the timeline mouse zoom feature in Final Cut Pro, as well as adjust the sensitivity. Thanks for suggesting dutchct!</li>
+<li>Added actions to control the volume slider in the Final Cut Pro Inspector. Thanks for suggesting Olm Ek!</li>
+<li>Added Timeline Scroll presets to Monogram Creator.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Stream Deck preferences panel has been completely re-designed to more closely match our Loupedeck panels - allowing for better Drag &amp; Drop support, and right-click contextual menus. You can now programatically generate icons. Thanks for suggesting James Peach!</li>
+<li>The Preferences and Control Surfaces toolbars now look much better on macOS Monterey.</li>
+<li>You can now assign shortcut keys without a modifier key. This is useful is you want to assign an action to the F1 key for example. Thanks for suggesting Florian Duffe!</li>
+<li>You can now assign any CommandPost action within the &quot;All Applications&quot; Keyboard section.</li>
+<li>The various Loupedeck Control Surfaces panels are now accessible from a single Loupedeck icon, which triggers a popup menu.</li>
+<li>We&#x27;ve added an option to the Loupedeck CT and Live to &quot;Preview Selected Application &amp; Bank on Hardware&quot;, so that you can visually check how a layout looks without leaving the CommandPost interface.</li>
+<li>Loupedeck devices running the older firmware, now more reliably wake form sleep. Thanks for reporting Knut Hake!</li>
+<li>Added Catalan translation. Thanks for suggesting Lluís Bartra!</li>
+</ul>
+<doc-anchor-target id="removed">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#removed">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x274C;</span> Removed</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Compressor Watch Folders feature has been removed, as this can now be achieved natively in Compressor.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug that broken any actions that used Final Cut Pro Audio Components. Thanks for reporting Daniel Stiefelhagen!</li>
+<li>Fixed a bug where Timeline Batch Export would fail to close the &quot;Go to the folder&quot; prompt on macOS Monterey. Thanks for reporting Kevin Luk!</li>
+<li>Skimming is now disabled when doing a Timeline Batch Export to improve reliability. Thanks for reporting Kevin Luk!</li>
+<li>&quot;Enable Loupedeck Support&quot; now appears correctly in the Search Console.</li>
+<li>The Vimeo Toolbox now correctly handles both the &quot;Username&quot; and &quot;Name&quot; headers in the CSV. Thanks for reporting Ché Baker!</li>
+<li>The &quot;Report Final Cut Pro Bug to Apple&quot; feature now works on Apple Silicon.</li>
+<li>We now check that the default Timeline Batch Export destination exists in the menubar before commencing. This fixes a bug where the Default Destination name changed between Final Cut Pro versions.</li>
+<li>Fixed a bug which prevented CommandPost from detecting the correct Timeline Title in 10.5.4 and above.</li>
+<li>Fixed a potential Lua error in the &quot;Ignore Card&quot; feature. Thanks for reporting Jack Ohrman!</li>
+<li>Fixed a potential Lua error in our Snapshot code.</li>
+<li>Allow copying to &quot;Unlisted &amp; Ignored Applications&quot; in Control Surfaces panels. Thanks for reporting danielsti!</li>
+<li>If you added a custom application to the Loupedeck Preferences (i.e. Logic Pro X) and turned off &quot;Automatically Switch Applications&quot;, there was no actions for switching to Logic Pro X. This has now been fixed. Thanks for reporting Eric Badura!</li>
+<li>You can now right-click on text boxes in the CommandPost Preferences panels, Control Surface panels and Final Cut Pro HUD.</li>
+<li>TourBox Devices now work correctly on macOS Big Sur &amp; Monterey. Thanks for reporting Brett Sherman!</li>
+<li>Fixed a bug related to the Final Cut Pro Libraries List View that prevented the HUD Batch Rename tool from working. Thanks for reporting Florian Duffe!</li>
+<li>We&#x27;ve added a bandaid solution to HOPEFULLY solve crashes related to the Touch Bar.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1216">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1216">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.16</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added action to &quot;Edit New Title&quot; and &quot;Edit New Lower Thirds&quot; which adds a new title in Final Cut Pro, and highlights the text field so that you can instantly start typing. Thanks for suggesting Hugh Nagle!</li>
+<li>Added a Contrast control for the Color Wheels in Final Cut Pro for Monogram users. Thanks for suggesting Rob Mervin!</li>
+<li>Added Timeline Zoom in Final Cut Pro for Monogram users. Thanks for suggesting Sven Pape!</li>
+<li>Added clip Volume control in Final Cut Pro for Monogram Users. Thanks for suggesting Drew Boyd!</li>
+<li>Added Timeline Clip Height in Final Cut Pro for Monogram users.</li>
+<li>Added actions to change Razer Backlight Mode &amp; Brightness, so you can trigger these from any control surface, HUD or Search Console.</li>
+<li>Added action to &quot;Send Vimeo CSV to Final Cut Pro&quot;, so you can trigger this from any control surface, HUD or Search Console.</li>
+<li>macOS Shortcuts are now available on the Search Console for macOS Monterey users.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Chinese (Simplified) translations have been improved. Thanks Charles Liu!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1215">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1215">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.15</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Vimeo Toolbox can now handle CSV files where notes span over multiple lines. We also now ignore any lines in the CSV that don&#x27;t have any notes. The error messages have also been improved. Thanks for reporting Scott Simmons!</li>
+<li>Fixed a bug which prevented backlight effects from working on a Razer device. Thanks for reporting Marwan Bakr!</li>
+<li>Fixed a bug which could cause the mouse scroll wheel or Trackpad to stop working after using the scroll wheel on a Razer device. Thanks for reporting Marwan Bakr!</li>
+<li>Fixed bug in the FCPXML Titles Toolbox and Frame.io to Markers action where CSV files would fail to load.</li>
+<li>Fixed bug where CommandPost would incorrectly expect all FCPXML files to be the latest v1.10 format.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>CommandPost now loads slightly faster when a Monogram device is connected.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1214">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1214">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.14</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-feature">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-feature">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Feature</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added a new Toolbox which converts Vimeo Review CSV files into markers in Final Cut Pro X. Thanks for suggesting Gary Roll, Adam Olivero &amp; Scott Simmons!</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Prevented an error that could occur if you open the Tangent Control Surfaces panel without Tangent Hub/Mapper installed.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1213">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1213">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.13</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug which prevented the Search Console from showing on macOS Monterey 12.0.1. Thanks for reporting Mikhael Pacheco!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for FCPXML v1.10 and FCPXML Bundles.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1212">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1212">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.12</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The user interfaces in CommandPost (Preferences, Control Surfaces, Watch Folders &amp; Toolbox) now show vertical scrollbars to allow you to scroll the panels, if your screen resolution is too small for the panel, such as on the Apple Silicon 13-inch MacBook Pro. Thanks for reporting Jocke Selin!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1211">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1211">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.11</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Razer Tartarus V2. You have full control over the LED backlights, and can assign the buttons and scroll wheels to any CommandPost actions. This all happens in the user space - no need for administrator privileges or kernel extensions.</li>
+<li>Added action to &quot;Mark All Clips&quot; in Final Cut Pro. Adds a marker to all selected clips under the playhead, or all clips if only one clip is selected.</li>
+<li>Added action to &quot;Select All Even/Odd Clips In Timeline&quot; in Final Cut Pro. Thanks for suggesting Rafael Gamboa!</li>
+<li>Added action to &quot;Copy Selected Clip Duration to Pasteboard&quot; in Final Cut Pro. Thanks for suggesting Vigneswaran Rajkumar &amp; Rizvi Haider Rabby!</li>
+</ul>
+<doc-anchor-target id="improvement">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvement">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvement</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>You can now access all the individual Preference, Control Surface, Toolbox &amp; Watch Folder panels directly from the menubar. This is a workaround for Big Sur users, where all the Control Surfaces don&#x27;t fit on the toolbar, and sometimes the toolbar doesn&#x27;t display a &quot;more&quot; button.</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Select&quot; button for &quot;Use Snippet to Set LED Color&quot; in the Loupedeck CT and Live Preferences panel now opens a Search Console which only displays Snippets.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-1210">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-1210">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.10</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug which caused Transitions actions within Final Cut Pro to fail to apply if they didn&#x27;t have a theme name. Thanks for reporting Dimitar Maratilov!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-129">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-129">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.9</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Shot Data&quot; Toolbox has been improved. The duration is now always in the hh:mm:ss format. Fixed a bug where the CSV output would be broken if a field is blank/empty in the Motion Template. Added a column in the CSV for &quot;Shot ID&quot; and &quot;Image Filename&quot;. Images are now converted to PNG files for consistency. Thanks for your feedback Vigneswaran Rajkumar!</li>
+<li>&quot;Rendering During Playback&quot; is now disabled when performing Batch Export to improve performance and reliability. Thanks for the suggestion Mitchell!</li>
+<li>Updated translations. Thanks to everyone who submitted fixes!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug when applying transitions in cases where there&#x27;s multiple transitions with the same name. We now properly take into account the theme name as well. Thanks for reporting Selina Tannenberg!</li>
+<li>Fixed a bug in the Loupedeck Manager, which could prevent changes to Loupedeck layouts from saving correctly. Thanks for reporting Knut Hake &amp; Kuba Rok!</li>
+<li>Fixed a bug that would cause CommandPost to fail to load if you were running an application that had no application bundle identifier. Thanks for reporting Helder S Ribeiro!</li>
+<li>Fixed a bug that would cause actions that changed the speed of clips in Final Cut Pro (such as &quot;Speed to -50%&quot;) to fail. Thanks for reporting Prawit Sarathamwuthikul!</li>
+<li>Fixed some potential errors with MIDI banks. Thanks for reporting Marco Malaca!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-128">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-128">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.8</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where CommandPost might not list the correct Share Destinations in the Timeline Batch Export tool if running Final Cut Pro 10.5 or later. Thanks for reporting Chris Walton &amp; David Kuckhermann!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-127">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-127">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.7</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where CommandPost Overlays in Final Cut Pro wouldn&#x27;t work correctly in some specific dual screen custom Workspace layouts. Thanks for your awesome assistance tracking this down Joseph Linaschke!</li>
+<li>Fixed a bug in the CommandPost download DMG, where the &quot;Applications&quot; alias was pointing specifically to &quot;/Macintosh HD/Applications&quot; instead of &quot;/Applications&quot;. Thanks for reporting Iain Anderson!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-126">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-126">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.6</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added actions to trigger virtual mouse wheel actions. Thanks for suggesting Mikhael Pacheco!</li>
+<li>Added actions to trigger virtual Trackpad gestures.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The feedback form will now always appear on top of other windows, even if the Debug Console has &quot;Always On Top&quot; enabled. Thanks for suggesting William Dalrymple!</li>
+<li>Added a new Touch Bar icon for Audio Fade In &amp; Out. Thank Dani Ditu!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug which prevented the Colour Temperature controls from working on Tangent Panels. Thanks for reporting 천동주!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-125">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-125">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.5</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added option to &quot;Ignore Every Second P1 to P8 Wheel Command&quot; and &quot;Ignore Every Second Control Dial Command&quot; in the Loupedeck+ Preferences panel. This is because on some models of the Loupedeck+ the P1-P8 wheels and/or the Control Dial will trigger two actions for every hardware &quot;click&quot;. Thanks for reporting Davvi!</li>
+<li>Added a search bar to allow you to filter plugin in the Plugins Preferences panel. Thanks for suggesting Shahin Shokoui! We&#x27;ve also added the ability to open each plugin in your preferred Text Editor, and have added an explanations of how plugins work at the top of the panel.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Jog &amp; Nudge actions for Final Cut Pro in Monogram Creator now make sure the timeline is in focus prior to moving the playhead. Thanks for suggesting Andy Hayes!</li>
+<li>The ability to attach a screenshot when sending feedback is now disabled by default for your privacy protection. Thanks for suggesting William Dalrymple!</li>
+<li>The feedback form no longer tries to populate your full name and email from the Contacts app, to avoid any privacy concerns. Thanks for suggesting Joseph Linaschke!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed potential bug when using a secondary monitor in Final Cut Pro. Thanks for reporting Dale Ryan Leckie!</li>
+<li>Fixed potential bug when CommandPost is trying to detect the timeline in Final Cut Pro.</li>
+<li>Fixed potential bug when triggering certain menu items in Final Cut Pro. Thanks for reporting Milos Jokic!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-124">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-124">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.4</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added a preference to disable User Interface Animations within Final Cut Pro. This will allow you to disable, for example, the animated fade effect of the &quot;Custom Speed&quot; window and the timeline Appearance popup when they open and close.</li>
+<li>Added an action to copy the Final Cut Pro Viewer contents to the Pasteboard. Thanks for suggesting Alex Gollner!</li>
+<li>Added an action to &quot;commit multicam&quot; within Final Cut Pro using automation. It’s a bit clunky, but it works. We essential “Reveal in Angle Editor”, then “Reveal in Browser”, mark an in-point, then connect that clip back on top of the timeline. Essentially a macro, like Timeline Batch Export. One day I hope to use the Pasteboard instead to make it a one click thing. Thanks for suggesting Knut Hake &amp; Sam Pluemacher!</li>
+<li>Added actions to control the Anchor controls within the Final Cut Pro Video Inspector.</li>
+<li>Added actions to reset Compositing, Crop, Distort and Transform within the Final Cut Pro Video Inspector. Thanks for suggesting Nariman Gafurov!</li>
+<li>Added a &quot;Retime to Duration&quot; action for Final Cut Pro. This will trigger a &quot;Custom Speed&quot; action and select the &quot;Duration&quot; radio button, so that you can then just type in the new duration, rather than having to click it manually with the mouse.</li>
+</ul>
+<doc-anchor-target id="changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The wording on Monogram Preferences panel has been changed. You can now use the public version of Monogram Creator 4.1.11 or later, as opposed to just the beta and alpha releases.</li>
+<li>We now disable certain user interface animations within Final Cut Pro when triggering CommandPost actions, so that the actions are more responsive.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-123">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-123">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.3</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added support for the Loupedeck CT and Loupedeck Live beta firmware, which changes the connection method from a virtual ethernet port to a virtual serial port.</li>
+<li>Added support for multiple Loupedeck CT and multiple Loupedeck Live devices at the same time. Each device can now have its own unique layout.</li>
+<li>Added actions for triggering virtual mouse clicks. Thanks for suggesting Chase Guidroz!</li>
+</ul>
+<doc-anchor-target id="changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The setup screen no longer refers to the &quot;satellite icon&quot;. Thanks for reporting Shahin Shokoui!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-122">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-122">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.2</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Improved the Search Console so that, for example, if you open it when setting up a layout for Final Cut Pro in the Loupedeck CT preferences, it now shows Final Cut Pro actions by default - but you still have access to all the other application actions by using one of the toolbar icons, or right-clicking on the Search Console to change which Action Groups you want to filter.</li>
+<li>Added a preference to the Loupedeck CT/Live Preferences to &quot;Automatically Apply Icon From Action&quot;. Thanks for suggesting Eric Badura!</li>
+<li>We now automatically add a text label based on the action title, when you assign an action in the Loupedeck CT/Live Preferences.</li>
+<li>Added an action to &quot;Reset Color Wheel&quot; in Final Cut Pro, which resets all the controls for the selected color wheel. Thanks for suggesting Matthew H Green!</li>
+<li>Added the ability to delete custom applications from Loupedeck CT/Live preferences. Thanks for reporting Eric Badura!</li>
+<li>Improved the reliability of the Final Cut Pro Color Wheel Tint Controls on Tangent Panels. Thanks for reporting David Brown!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where enabling then disabling a Loupedeck CT/Live vibration control wouldn&#x27;t actually disable it, requiring you to reset the whole control to get rid of the vibration. Thanks for reporting Eric Badura!</li>
+<li>Fixes some mistakes in the German language translation for CommandPost. Thanks for reporting Eric Badura!</li>
+<li>Fixed a bug where resetting the Color Wheels on a Tangent Panel would not work correctly. Thanks for reporting Richard Guinand!</li>
+<li>Fixed a bug in our Final Cut Pro Angle Editor API. Thanks for reporting Sam Pluemacher!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-121">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-121">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.1</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>When you click an action select button in the Loupedeck CT/Live Preferences panel, if there was previously an action already assigned, this name will now be automatically populated in the Search Console.</li>
+<li>When you click an action select button in the Loupedeck CT/Live Preferences panel, the selected action groups will now default to whatever application you currently have selected in the Loupedeck CT/Live Preferences. For example, if you&#x27;re changing the layout for TextEdit, which you click an action select button, only the actions for TextEdit will appear by default. However, you can still access all the other application actions via the toolbar, or the right-click menu for complete control.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug in the Loupedeck CT/Live manager, where resizing some legacy icons could fail, preventing the Loupedeck screens from updating correctly. Thanks for reporting Eric Badura!</li>
+<li>Fixed some user interface issues in the Loupedeck CT/Live Preferences when the interface is in Dutch. Thanks for reporting Jeroen van Amerongen!</li>
+<li>The default Loupedeck Live layout incorrectly had actions for the Loupedeck CT, which just made things very confusing. This has now been corrected.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-120">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-120">#</doc-anchor-trigger>
+        <span>CommandPost 1.2.0</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We have a new dock and menubar icon by the incredible Matthew Skiles. Woohoo!</li>
+<li>We have also added the option to select 5 new built-in menubar icons, or select any image from your machine to use as a menubar icon. You can also now customise the menubar text label for full control.</li>
+<li>We now support the Monogram and Palette control surfaces. CommandPost integrates closely with the Monogram Creator, so once you enable Monogram support in CommandPost, you can jump into Monogram Creator to set up your layout. It also supports Automatic Profile Switching. Monogram support requires the latest beta or alpha builds of Monogram Creator - it won&#x27;t work on the public release yet. Any ideas, comments, suggestions welcome!</li>
+<li>You can now use Lua Snippets to programatically generate Loupedeck CT/Live icons, and also define the LED color. With some simple lines of code, you can now make your Loupedeck device appear exactly how you want it. There&#x27;s a new option in the preferences to adjust the refresh frequency (defaults to 1 second).</li>
+<li>Added option to &quot;Resize Images on Import&quot; and set a custom &quot;Image Background Colour on Import&quot; in the Loupedeck CT/Live Preferences panel.</li>
+<li>Added ability to customise the font, font size and colour of text labels in the Loupedeck CT/Live Preferences panel.</li>
+<li>Added the ability to consolidate images when using the Shot Data Toolbox. This means if you have any images &quot;connected&quot; to the Shot Data Motion Template in your timeline, they&#x27;ll be copied to the same location as the CSV export. Thanks for the suggestion Vigneswaran Rajkumar!</li>
+<li>Added actions to control the individual red, green and blue parameters for the Color Wheels in Final Cut Pro. Thanks for suggesting Eric Badura!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve renamed &quot;All Applications&quot; to &quot;Unlisted &amp; Ignored Applications&quot; in the Control Surfaces panels to better describe what this option does.</li>
+<li>We&#x27;ve improved how the Search Console searches and orders the results.</li>
+<li>Updated all the translations, and improved the Lua documentation.</li>
+<li>Various user interface improvements in the Preferences and Control Surfaces windows.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug in both the Shot Data Toolbox, Save Browser Contents to CSV and Save Timeline Index to CSV. Thanks for reporting Aaron Villa!</li>
+<li>Various improvements and bug fixes in the Loupedeck CT/Live Preferences panels - especially in regards to dragging and dropping icons. Thanks to Eric Badura for all your testing and ideas!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-115">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-115">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.5</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>If you assign an action to a Loupedeck CT/Live Touchscreen button that has an image in the Search Console, that image will now be automatically applied to the button. For example, if you apply the action to launch Disk Utility to a Loupedeck CT/Live Touchscreen Button, the Disk Utility icon will be automatically applied. Thanks for suggesting Eric Badura!</li>
+<li>You can now select Applications (in addition to image files) when you click the Image Drop Zone in the Loupedeck CT/Live Control Surfaces panel.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-114">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-114">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.4</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>On a fresh installation, CommandPost will no longer ask you if you want to copy the CommandPost application to your application folder. Instead, you should manually copy CommandPost to the application folder via the Applications shortcut in the DMG package. This has been changed to get around issues where people want to install CommandPost in their user-specific application folder, or when there&#x27;s permission issues trying to copy CommandPost across, which can happen on some Big Sur installations.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed the &quot;Zoom to selection&quot; action in Final Cut Pro. Thanks for reporting Jeffrey Linneman!</li>
+<li>Fixed the &quot;Save Current Frame&quot; option in the Final Cut Pro Viewer Overlay popup. Thanks for reporting David Brown!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-113">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-113">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.3</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added actions that adjust the Position controls in Final Cut Pro&#x27;s inspector in reverse using MIDI. Thanks Joe Dull!</li>
+<li>Added an action to &quot;Toggle Opacity Fade Handles in Video Animation Popup on Selected Clips&quot;. Thanks for the suggestion Ripple Training! Unfortunately, due to a bug in Final Cut Pro&#x27;s Accessibility API this doesn&#x27;t work for clips within a secondary storyline container.</li>
+<li>Added preferences to change the Search Console width and height. This can be found when you right click on the Search Console. Each individual Search Console has its own unique width and height (i.e. the Search Console in Final Cut Pro can be different than in After Effects).</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>DaVinci Resolve &amp; After Effects Tangent support is now disabled by default on a fresh install.</li>
+<li>Updated the Shot Data Motion Template, so that it works with all common aspect ratios. Thanks Iain Anderson!</li>
+<li>We&#x27;ve removed the EULA from the CommandPost DMG, and updated the tag-line to match the website.</li>
+<li>We&#x27;ve adjusted the window sizes on Big Sur so there&#x27;s not as much wasted space at the bottom of the windows.</li>
+<li>The Shared Pasteboard will no longer prompt you on CommandPost&#x27;s startup if the shared folder is not accessible. This means that if you&#x27;re using something like PostLab Drive, the Shared Pasteboard will now work when the drive is connected, and you won&#x27;t get notified if the drive becomes disconnected. Thanks for reporting Dale Ryan Leckie!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where the menu bar actions had the wrong menu path in the Search Console subtext.</li>
+<li>Fixed a bug where you will be asked for Accessibility Permissions straight away on a fresh install. Thanks for reporting Iain Anderson!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-112">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-112">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.2</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug that could cause the hue control in the Final Cut Pro Colour Wheels to change its value to 90 degrees when CommandPost first loads, if the Colour Wheel is active on a clip. Thanks for reporting Valerio D&#x27;Andrassi.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Shot Data Motion Template has been updated. Thanks Vigneswaran Rajkumar!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-111">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-111">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.1</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve added some caching to dramatically increase the responsiveness of control surfaces, such as the Loupedeck CT. This has massive improvements for controlling the Color Wheels with the Loupedeck CT Touch Screen, for example.</li>
+</ul>
+<doc-anchor-target id="new-actions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-actions">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F195;</span> New Actions</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>We&#x27;ve added new actions to control the Final Cut Pro Color Board, by increments of 1, 2, 3, 4, 5 and 10. They are all contained within their own Action Group called &quot;Color Board&quot; on the Search Console. Thanks for suggesting Eric Badura!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed the Hue controls on Tangent Panels. Thanks for reporting Robert J. Bradshaw!</li>
+<li>Fixed an error that could occur randomly when refreshing Loupedeck devices. Thanks for reporting Eric Badura!</li>
+<li>Some actions that used popup menus (such as &quot;Show Horizon&quot;) weren&#x27;t working correctly. This is now fixed. Thanks for reporting Adam Terlanda!</li>
+<li>Some fields weren&#x27;t being correctly exported in the Shot Data Toolbox Utility. This is now fixed. Thanks for reporting Vigneswaran Rajkumar!</li>
+<li>Fixed a bug which cause a MIDI error when launching ### CommandPost 1.1 or later for the first time. Thanks for reporting Scott Dodson!</li>
+<li>Fixed a bug where Stream Deck settings weren&#x27;t migrated from ### CommandPost 1.0.6 (or earlier) to 1.1 (or later). The Final Cut Pro and All Applications settings are now automatically migrated to the Stream Deck Unit 1.</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-110">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-110">#</doc-anchor-trigger>
+        <span>CommandPost 1.1.0</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="-control-surfaces-support">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-control-surfaces-support">#</doc-anchor-trigger>
+        <span>🎛 Control Surfaces Support</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Control Surfaces have been moved out of Preferences into their own window.</li>
+<li>Added Loupedeck (original), Loupedeck CT and Loupedeck Live support.</li>
+<li>Added Stream Deak XL and Stream Deck Mini support.</li>
+<li>Added TourBox support.</li>
+<li>Added placeholder Control Surface panels for Monogram and Gamepad, with an explanation of how to use these control surfaces with CommandPost until we add built-in support.</li>
+<li>MIDI, Loupedeck &amp; Stream Deck Preferences panels now support Custom Applications.</li>
+<li>AudioSwift now correctly works with CommandPost&#x27;s MIDI functionality. Thanks for reporting Nigel Rios!</li>
+<li>Added Skype, Microsoft Teams, Zoom, Disk Utility, System Preferences and TextEdit to the default Control Surfaces application drop-down lists. However, currently there is only basic keyboard shortcut actions for Skype.</li>
+<li>Tangent panel support has been re-engineered to support multiple CommandPost applications within Tangent Mapper (i.e. you can now have a completely seperate Tangent Mapper layout for Final Cut Pro and DaVinci Resolve). Better support for DaVinci Resolve will come in a future beta - this release it just laying the foundations.</li>
+</ul>
+<doc-anchor-target id="toolbox-utilities">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#toolbox-utilities">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F9F0;</span> Toolbox Utilities</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The FCPXML Titles Processor allows you update the titles within a FCPXML, based on new data from a CSV file. This utility was commissioned by Connor Eberhart.</li>
+<li>Shot Data is new specialised Toolbox utility that allows you to import a FCPXML which contains one or more Shot Data Titles in a timeline, and converts the data from these Motion Templates into a single CSV file for use in other applications. This feature has been commissioned by Vigneswaran Rajkumar for his upcoming feature film.</li>
+</ul>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added non-keyboard shortcut actions for Final Cut Pro Browser Clip Height &amp; Browser Duration.</li>
+<li>Added speed rate actions for 40, 50, and 200.</li>
+<li>Added actions to increase and decrease display brightness.</li>
+<li>Added actions for adjusting opacity in Final Cut Pro.</li>
+<li>Added actions for Filmstrip &amp; List Mode in the Final Cut Pro Browser.</li>
+<li>Added a Contrast action for Final Cut Pro which adjusts shadows &amp; highlights brightness at the same time.</li>
+<li>Added actions for Timeline Zoom (using the Appearance Popup). Thanks for suggesting Prescott Van Leer!</li>
+<li>All your Keyboard Maestro Macros are now available in the Search Console as actions.</li>
+<li>Added initial support for Adobe After Effects. There are now actions for each individual effect in After Effects, as well as actions for all the shortcut keys and menubar items.</li>
+<li>Added actions for Zoom keyboard shortcuts. Thanks for your assistance Jonathan Zuck!</li>
+<li>CommandPost can now generate menu bar actions for all Custom Applications.</li>
+<li>Added an option to create Captions when using the Text To Speech feature in Final Cut Pro. Thanks for the suggestion Vigneswaran Rajkumar!</li>
+<li>Added actions that allow you to &quot;emulate&quot; a Tangent Element panel in DaVinci Resolve. This feature requires Tangent support to be enabled, and at least one physical Tangent device to be connected to your machine (i.e. a Tangent Ripple). This means you can now use Tangent Mapper to customise your DaVinci Resolve layout for any Tangent panel, as well as trigger Tangent actions from any other control surface or shortcut key (i.e. you can control a colour wheel from a Loupedeck CT or TourBox). It also means you can control DaVinci Resolve from a Tangent Arc or CP200.</li>
+<li>Added a Contrast Color Wheel control to Tangent Mapper. Thanks for suggesting Von Jackson!</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Recompiled CommandPost to natively support Apple Silicon.</li>
+<li>Improved the method we detect &quot;Screen Recording&quot; permissions on macOS Catalina &amp; Big Sur.</li>
+<li>We now use Sentry instead of Firebase Crashlytics for tracking crashes.</li>
+<li>CommandPost now uses Lua 5.4.</li>
+<li>We&#x27;ve made lots of changes and improvements to our underlying Final Cut Pro X API. These changes should make writing your own Lua Snippets a lot more simple and easy to understand.</li>
+<li>The Search Console now loads faster, and displays a &quot;loading&quot; message when the contents of the Search Console is still populating. We&#x27;ve also adjusted the way the Search Console orders its results to improve usability.</li>
+<li>Added more Touch Bar icons. Thanks Daniele Di Tuccio!</li>
+<li>Changed the way we trigger shortcut keys for better performance.</li>
+<li>HUD now watches for Viewer resizing.</li>
+<li>Browser Playhead Highlight now follows playhead when visible.</li>
+<li>&quot;Select Clips Forward/Backwards&quot; actions now selects clips with speed handles.</li>
+<li>Timeline Batch Export now correctly handles clips with speed handles visible.</li>
+<li>Removed unnecessary &quot;Failed to cache User Effects Presets” debug message in Plugin Scanner.</li>
+<li>Added option to enable/disable all draggable guides in Final Cut Pro Viewer Overlay.</li>
+<li>Improved the performance of the Video Inspector actions.</li>
+<li>Improved the MIDI Controls for Colour Wheels, so that you can use both the horizontal and vertical actions at the same time. This allows you to use the controls smoothly in AudioSwift using X/Y mode. Thanks for reporting Nigel Rios!</li>
+<li>Added relative MIDI actions for controlling the Final Cut Pro Colour Board. Thanks Nigel Rios!</li>
+<li>We now just play an error sound instead of showing a dialog box when a menubar action cannot be triggered. Thanks Knut Hake!</li>
+<li>You can now use a velocity value for the &quot;Note Off&quot; and &quot;Note On&quot; MIDI commands. The velocity is also now detected and filled out in the MIDI Preferences panel when you use the &quot;Learn&quot; button. Thanks Nigel Rios!</li>
+<li>Improved the &quot;Relative A&quot; MIDI Controls for the Color Board &amp; Color Wheels, for use with AudioSwift (and other MIDI devices).</li>
+<li>&quot;Sections&quot; in the Search Console has been renamed to &quot;Show Action Groups&quot;, and is now grouped by application.</li>
+<li>The &quot;Text to Speech&quot; feature has been re-designed and improved.</li>
+<li>Actions that trigger virtual keyboard presses now take into account any modifier keys triggered by the &quot;Press and hold Modifier Key&quot; actions. Thanks for reporting Flavio Saramin!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed Touch Bar support on 16-inch MacBook Pro.</li>
+<li>Fixed bug in Search Console where toggling “Search Subtext” wouldn’t take affect until the Search Console was closed and re-opened.</li>
+<li>Fixed bug where the Effects &amp; Transitions search box contents would not be restored correctly after applying an effect or transition via an action.</li>
+<li>Fixed bug in Notes HUD panel.</li>
+<li>Fixed bug in Final Cut Pro Crop Bottom Action.</li>
+<li>Fixed bug where double quotation marks in Snippet names prevented the Snippets from being editable.</li>
+<li>Fixed bug which prevented the &quot;Clear&quot; buttons in the Loupedeck+ preferences panel from working.</li>
+<li>Fixed a bug in the &quot;Press and hold&quot; modifier actions for CONTROL, OPTION and COMMAND. Thanks for reporting Knut Hake!</li>
+<li>Fixed a bug where the &quot;Make Pasteboard Text Uppercase/Lowercase/Camelcase&quot; actions would not affect certain characters such as &quot;å&quot;. Thanks for reporting Eivind Lie Nitter!</li>
+<li>Fixed a bug where the Search Console was incorrectly case sensitive.</li>
+<li>Fixed a bug which prevented the individual &quot;Play&quot; and &quot;Pause&quot; actions from functioning. A better description for these actions has also been added to the Search Console, so that it&#x27;s clearer to understand their purpose (i.e. the play button only plays - it won&#x27;t stop playback). Thanks for reporting Prescott Van Leer!</li>
+<li>Fixed a bug where Colour Wheel actions wouldn&#x27;t not automatically change to the Colour Wheel Inspector if you were on the Colour Curves. Thanks for reporting Prescott Van Leer!</li>
+<li>Fixed a bug in the Timeline Batch Export tool, where sometimes CommandPost could fail to change the destination directory.</li>
+<li>Fixed a bug which prevented MIDI commands from applying correctly if you manually entered them in the MIDI Preferences panel (as opposed to using the &quot;Learn&quot; button). Thanks Nigel Rios!</li>
+<li>Fixed a bug in the Text to Speech function and Media Watch Folders where certain non-alphanumeric characters in filenames could cause the functions to fail. Thanks for reporting Vigneswaran Rajkumar!</li>
+<li>Fixed a bug which prevented Color Wheels from opening correctly in the Final Cut Pro Inspector when you moved a Tangent wheel or knob.</li>
+<li>Fixed a bug in MIDI Timeline Scroll action.</li>
+<li>Fixed a bug where the &quot;Leave Files in Place&quot; menubar item tick was incorrectly reversed. Thanks for reporting Mark Westcott!</li>
+<li>Fixed a bug that could cause certain items to not appear in the Search Console, due to a &quot;Share Destinations&quot; folder not existing on some machines. Thanks for reporting Peter Moss!</li>
+<li>Fixed a bug with the Jog/Shuttle control for Tangent Panels in Final Cut Pro. Thanks for reporting Vigneswaran Rajkumar!</li>
+<li>Fixed a bug where a deleted Media Watch Folder would reappear when you restarted CommandPost. Thanks for reporting Erik Lathouwers, Matt Steeves &amp; Jiří Fiala!</li>
+<li>Fixed a bug which prevented Color Board controls from working in some newer versions of Final Cut Pro when the interface was in German. Thanks for reporting Eric Badura!</li>
+<li>Fixed a bug that would cause an error if you tried to Restore a Browser Layout that wasn&#x27;t previously saved. Thanks for reporting Gábor Kertai!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-106">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-106">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.6</span>
+    </h3>
+</doc-anchor-target>
+<p><span class="docs-emoji">&#x1F389;</span> New Feature</p>
+<ul>
+<li>Improved the Batch Rename HUD. You can now add sequential numbers to clip names. Thanks for the suggestion Vigneswaran Rajkumar! You can also process clip names with custom Lua code, giving you the ultimate renaming freedom.</li>
+</ul>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed bug in &quot;Color Wheel - Midtones - Brightness - Down&quot; actions. Thanks for reporting Valerio D&#x27;Andrassi!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-105">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-105">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.5</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added additional Colour Wheel actions for different increments. For example, you can now increase or decrease the Tint by 0.1, 0.2, 0.3, 0.4, 0.5, 1, 5 or 10. This applies to Saturation, Brightness, Tint, &amp; Temperature. Thanks for suggesting Rafa Alejandro!</li>
+<li>Added actions to trigger custom keyboard shortcuts (for example COMMAND+C).</li>
+</ul>
+<doc-anchor-target id="changes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Changes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>CommandPost will now prompt for Screen Recording permissions on macOS Catalina, and will not start until those permissions are granted. CommandPost requires Screen Recording permission on macOS Catalina to detect the state of various user interface elements - for example, to detect when Final Cut Pro is playing or stopped. We also allow users to optionally share screenshots when submitting feedback.</li>
+<li>The CommandPost Dock Item is now disabled by default. You can change this in CommandPost&#x27;s General Preferences panel if required.</li>
+<li>The contextual menu that appears when you right-click on the top of the Final Cut Pro Viewer is now disabled by default. You now have to click &quot;Enable Viewer Contextual Menu&quot; from the CommandPost menubar to enable it.</li>
+<li>The Uninstall tool now removes all of CommandPost&#x27;s permissions in macOS Catalina.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug that prevented Timeline Batch Export from working correctly in macOS Catalina. Thanks for reporting Chris Walton!</li>
+<li>Fixed a bug that prevented the Batch Name Tool in the HUD from permanently renaming items in the browser. Thanks for reporting Vigneswaran Rajkumar!</li>
+<li>Fixed bug in Timeline Batch Export. Thanks for reporting Rima H. Bassil!</li>
+<li>Fixed a bug which prevented the &quot;Reveal Multicam Clip in Browser&quot; action from working correctly.</li>
+</ul>
+<doc-anchor-target id="翻訳-translations">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#翻訳-translations">#</doc-anchor-trigger>
+        <span>翻訳 Translations</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added Danish Translation. Thanks for adding Patrick Fust!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-104">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-104">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.4</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fix">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fix">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fix</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixes a bug introduced in 1.0.3 that can prevent Effects &amp; Generators from being applied correctly. Thanks for reporting Anton Lopez &amp; Wayne Kopping!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-103">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-103">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.3</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-feature">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-feature">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Feature</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added option to &quot;Use Better Quality in Angles Viewer&quot; in the Advanced Final Cut Pro Preferences.</li>
+</ul>
+<doc-anchor-target id="improvements">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#improvements">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F528;</span> Improvements</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added a preference to enable or disable the Text Pasteboard History, and also set a History Size in the Finder Preferences panel. The Text Pasteboard History is now off by default.</li>
+<li>CommandPost now disconnects from Tangent Hub when the Color Finale 2 window is open, allowing you to control Color Finale 2 with Tangent Panels. When you close the Color Finale 2 window, CommandPost reconnects to Tangent Hub.</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The &quot;Select Active/Topmost Library in Browser&quot; actions now put focus on the Browser Sidebar when triggered so that the Library becomes active in the Inspector. Thanks for reporting Mads Larsen Nielsen!</li>
+<li>Fixed a bug where Final Cut Pro could freeze temporarily when importing clips from a Media Watch Folder notification. Thanks for reporting Corky Ballas!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-102">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-102">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.2</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="new-features">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-features">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Features</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>You can now apply multiple Compressor presets to the same watch folder.</li>
+<li>Added Final Cut Pro X preference for &quot;Correct Spelling Automatically&quot;. Thanks for the suggestion Afshin Rohani!</li>
+<li>Added support for IFTTT Notifications. Thanks <a href="https://github.com/JFtechOfficial">JFtechOfficial</a> for implementing!</li>
+<li>Added action for &quot;Select Topmost Library in Browser&quot; and &quot;Select Active Library in Browser&quot;. Thanks for the suggestion Mads Larsen Nielsen!</li>
+</ul>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Improved reliability of &quot;Change Duration&quot; menu item action. Thanks for reporting Vigneswaran Rajkumar.</li>
+<li>Fixed the naming of destinations in Timeline Batch Export if you have a fresh install of Final Cut Pro X without any custom destinations.</li>
+<li>Updated the Final Cut Pro, Motion &amp; Compressor Feedback Form assistant.</li>
+<li>Fixed bug when disabling the Custom Touch Bar on Mojave.</li>
+</ul>
+<doc-anchor-target id="workarounds">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#workarounds">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F9E8;</span> Workarounds</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>The Touch Bar features are currently not working correctly on the new 16-inch MacBook Pro so we have temporarily disabled Touch Bar support on these machines until we can come up with a proper fix. If anyone has any ideas, please get in touch.</li>
+</ul>
+<doc-anchor-target id="翻訳-translations-1">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#翻訳-translations-1">#</doc-anchor-trigger>
+        <span>翻訳 Translations</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added Hungarian Translation. Thanks Gyula Hegedüs!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-101">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-101">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.1</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="bug-fixes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bug-fixes">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F41E;</span> Bug Fixes</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Fixed a bug where the Timeline Batch Export feature would not list all the installed Destination Presets. Thanks for reporting Edgar Davis!</li>
+<li>Fixed a bug where Snippets assigned as an action (i.e. as a keyboard shortcut) would not trigger the latest Snippet code if the Snippet was updated in the Preferences panel after being assigned. Thanks for reporting Stefan Benz!</li>
+</ul>
+<doc-anchor-target id="new-additions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-additions">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> New Additions</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li>Added Polish Translation. Thanks Robert!</li>
+</ul>
+<hr />
+<doc-anchor-target id="commandpost-100">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost-100">#</doc-anchor-trigger>
+        <span>CommandPost 1.0.0</span>
+    </h3>
+</doc-anchor-target>
+<p>Woohoo! <span class="docs-emoji">&#x1F389;</span></p>
+<p>After **78 releases<em>- of FCPX Hacks and **91 beta releases</em>- of CommandPost, we&#x27;re extremely excited to announce that we&#x27;re finally removing the beta label from CommandPost.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../troubleshooting/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Troubleshooting</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../interface/debug-console/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Installation</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Release Notes", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
