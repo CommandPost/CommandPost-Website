@@ -1,4 +1,4 @@
-# Sponsor
+# Sponsor CommandPost
 
 To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.
 
