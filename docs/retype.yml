@@ -1,26 +1,24 @@
 input: .
 output: .retype
 
-url: commandpost.io # Add your website address here
+url: commandpost.io
 
 branding:
   title: CommandPost
-  #label: v1.0.0
   logo: static/logo.png
 
 links:
 - text: Download
   link: /download
   icon: desktop-download
-  target: blank
 
 - text: Issues
-  link: https://github.com/latenitefilms/brawtoolbox/issues
+  link: https://github.com/commandpost/commandpost/issues
   icon: issue-opened
   target: blank
 
 - text: Discussions
-  link: https://github.com/latenitefilms/brawtoolbox/discussions
+  link: https://github.com/commandpost/commandpost/discussions
   icon: comment-discussion
   target: blank
 
