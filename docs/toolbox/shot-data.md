@@ -164,7 +164,7 @@ For the purpose of sorting, use a 2 digit numbering with padding for the Shot Nu
 
 16. In order for **CommandPost** to the process **Shot Data** Template with the connected images, the storyline needs to be reordered. Both of the connected storylines need to be broken apart using `Shift` + `CMD` + `G`. To bring the visibility of the **Shot Data** Template’s Text on screen, you can reduce the opacity of the Images and Custom Solids to your desired value.
 
-![S1.14.png](../static/S1.14.png)
+![](../static/S1.14.png)
 
 17. Make sure you have entered and selected all the values within each **Shot Data** Template instance. You are required to enter a unique Shot Number `01`, `02`, `03`, `04` and so on for each **Shot Data** Template instance. If you have 19 cuts in your timeline, you should have 19 instances of **Shot Data** Template.
 
@@ -242,7 +242,7 @@ You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/)
 
 5. You'll be asked to find the database you want to create the relation with. You can use the input at the top to search for this database.
 
-!](../static/S3.2.png)
+![](../static/S3.2.png)
 
 6. In **Shot Data** Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your **Characters** database.
 
