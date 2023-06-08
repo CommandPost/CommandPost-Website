@@ -4,4 +4,4 @@ The toolbox is an evolving collection of handy utilities commissioned by members
 
 If there's something you or your company would like to automate, then you can contact the CommandPost team for advice and a quote.
 
-![](../static/toolbox-intro)
+![](../static/toolbox-intro.png)
