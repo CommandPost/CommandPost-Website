@@ -2,24 +2,9 @@
 
 ![](../static/SDCover.gif)
 
-# Table of contents
-
-- [Shot Data User Guide](#shot-data-user-guide)
-- [Background](#background)
-  - [What is Sound Locking?](#what-is-sound-locking)
-  - [The Most Resilient Parasite](#the-most-resilient-parasite)
-- [Enter Shot Data](#enter-shot-data)
-  - [Why Final Cut Pro?](#why-final-cut-pro)
-  - [Why Notion?](#why-notion)
-  - [Introduction to Notion’s databases](#introduction-to-notions-databases)
-- [Basic Usage - Shot Data](#basic-usage---shot-data)
-- [Advance Usage - Shot Data](#advance-usage---shot-data)
-- [FAQ](#faq)
-- [Afterthoughts](#afterthoughts)
-
 ![](../static/Shot_Data_Toolbox.png)
 
-# Background
+## Background
 
 Before I explain the workflow behind **Shot Data**, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is.
 
@@ -30,7 +15,7 @@ Before I explain the workflow behind **Shot Data**, let me explain the concept o
 
 In an analogous fashion, Sound Lock is a stage in a film or editing a television production where a sequence is edited before the production starts principal photography. In other words, before the project is being shot, in the pre-production or development stage. You could call it “Pre-Editing” as well. The filmmaker would use a series of concept images to construct a timeline.
 
-## What is Sound Locking?
+### What is Sound Locking?
 
 Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, [hand-drawn sketches](https://wonderunit.com/storyboarder/){target="_blank"} or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.
 
@@ -40,7 +25,7 @@ However, there are applications on the market like [Shot Lister](https://www.sho
 
 For Music Videos and music driven narratives, sound or music invariably takes higher precedence. You can’t visualise music on a sheet of paper except on a musical score sheet and you can’t conceivably construct a Shot List from a score sheet.
 
-## The Most Resilient Parasite
+### The Most Resilient Parasite
 
 ![](../static/inception.gif)
 
@@ -54,15 +39,15 @@ In recent times, there is an emergence of cloud based database applications, lik
 
 Starting with **Shot Data**, I aim to streamline and optimise the process for Shot List generation from within Final Cut Pro.
 
-# Enter Shot Data
+## Enter Shot Data
 
-## Why Final Cut Pro?
+### Why Final Cut Pro?
 
 Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s [FCPXML](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference){target="_blank"} file. The `*.fcpxml` file contains most of the timeline’s information, including Metadata from custom Motion Titles.
 
 Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate [Storyboard](https://en.wikipedia.org/wiki/Storyboard){target="_blank"} or [Shot-List](https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list){target="_blank"} from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name **Shot Data**.
 
-## Why Notion?
+### Why Notion?
 
 [Notion](https://www.notion.so/){target="_blank"} is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.
 
@@ -72,13 +57,13 @@ If you are familiar with Final Cut Pro’s [Smart Collections](https://support.a
 
 [![Why Notion?](https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg)](https://www.youtube.com/watch?v=gp2yhkVw0z4 "Why Notion?"){target="_blank"}
 
-## Introduction to Notion’s databases
+### Introduction to Notion’s databases
 
 One feature that sets Notion apart from other database (i.e Airtable) is every entry or record is its own editable page. The record you enter into your database can be opened as its own Notion page, where you can layer or add in any information or [blocks](https://www.youtube.com/watch?v=BZnR2Ml17sc) you want.
 
 [![Introduction to Notion’s databases](https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg)](https://www.youtube.com/watch?v=npaNKlAO7g8){target="_blank"}
 
-# Basic Usage - Shot Data
+## Basic Usage - Shot Data
 
 ==- Part 0 - Download CommandPost
 1. Download and Install the latest version of CommandPost from [GitHub](https://github.com/CommandPost/CommandPost/releases/){target="_blank"}.
@@ -230,7 +215,7 @@ The upload speed is dependent on your internet connection and Notion’s servers
 9. This is the very essence of **Shot Data** Workflow. Repeat the process for the rest of your Scenes in Final Cut Pro. Your Notion’s database will grow overtime.
 ===
 
-# Advance Usage - Shot Data
+## Advance Usage - Shot Data
 
 ==- Using Notion’s Mobile App
 
@@ -346,7 +331,7 @@ Please make sure you have pre-configured all your settings within **Shot Data**�
 
 ===
 
-# FAQ
+## FAQ
 
 ==- Can Shot Data be used with other applications?
 1. Yes. You can uncheck **Automatically Upload Converted FCPXMLs** in **Shot Data**’s Toolbox.
