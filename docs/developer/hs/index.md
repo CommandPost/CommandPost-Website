@@ -1,4 +1,4 @@
-# https://github.com/CommandPost/CommandPost-App/blob/master/
+# Hammerspoon API
 ---
 
 ## API Documentation
