@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739539218698">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739541926890">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -30,12 +30,12 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739539218698" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739541926890" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739539218698" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739539218698" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739539218698" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739541926890" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -381,7 +381,7 @@ end tell</code></pre>
     </h2>
 </doc-anchor-target>
 <p>Hammerspoon is actually a fork of <a href="https://github.com/sdegutis/mjolnir" target="_blank">Mjolnir</a> by Steven Degutis. Unlike Hammerspoon, Mjolnir aims to be a very minimal application, with its extensions hosted externally and managed using a Lua package manager. Hammerspoon wanted to provide a more integrated experience.</p>
-<p>Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called <a href="http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#" target="_blank">LuaSkin</a>, the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and <a href="https://github.com/Hammerspoon/hammerspoon/tree/master/extensions" target="_blank">various extension modules</a> that <a href="../hs/">expose system APIs</a> to the user&#x27;s Lua code.</p>
+<p>Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called <a href="http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#" target="_blank">LuaSkin</a>, the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and <a href="https://github.com/Hammerspoon/hammerspoon/tree/master/extensions" target="_blank">various extension modules</a> that <a href="/developer/hs/">expose system APIs</a> to the user&#x27;s Lua code.</p>
 <hr />
 <doc-anchor-target id="what-is-lua">
     <h2>
@@ -423,7 +423,7 @@ if caffeine then
     setCaffeineDisplay(hs.caffeinate.get(&quot;displayIdle&quot;))
 end</code></pre>
 </doc-codeblock></div>
-<p>This code snippet will create a menubar item that displays either the text <code v-pre>SLEEPY</code> if your machine is allowed to go to sleep when you’re not using it, or <code v-pre>AWAKE</code> if it will refuse to sleep. The <a href="../hs/hs.caffeinate/"><code v-pre>hs.caffeine</code></a> extension provides the ability to prevent the display from sleeping, but <a href="../hs/hs.menubar/"><code v-pre>hs.menubar</code></a> is providing the menubar item.</p>
+<p>This code snippet will create a menubar item that displays either the text <code v-pre>SLEEPY</code> if your machine is allowed to go to sleep when you’re not using it, or <code v-pre>AWAKE</code> if it will refuse to sleep. The <a href="/developer/hs/hs.caffeinate/"><code v-pre>hs.caffeine</code></a> extension provides the ability to prevent the display from sleeping, but <a href="/developer/hs/hs.menubar/"><code v-pre>hs.menubar</code></a> is providing the menubar item.</p>
 <p>In this case we create the menubar item and connect a callback (in this case <code v-pre>caffeineClicked()</code>) to click events on the menubar item. You can also use icons instead of text, using the <code v-pre>:setIcon()</code> method on your menubar object.</p>
 <p>As you can see, with very few lines of code, we can do incredibly powerful things.</p>
 <p>What we&#x27;ve done with CommandPost is basically take all the power of Hammerspoon, and it&#x27;s extensive Hammerspoon Extensions, and then built our own set of extensions, such as <a href="/developer/cp/cp/"><code v-pre>cp.finalcutpro</code></a> - which allows use to control Final Cut Pro.</p>

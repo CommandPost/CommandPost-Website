@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739541926890">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>docs &#187; hs</title>
+    <meta name="title" content="docs » hs">
+    <meta name="description" content="Core Hammerspoon functionality" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-reference/hs/hs/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-reference/hs/hs/">
+    <meta property="og:title" content="docs » hs">
+    <meta property="og:description" content="Core Hammerspoon functionality">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-reference/hs/hs/">
+    <meta property="twitter:title" content="docs » hs">
+    <meta property="twitter:description" content="Core Hammerspoon functionality">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.0.3.739541926890" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="docs--hs" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#docs--hs">#</doc-anchor-trigger>
+        <span><a href="../">docs</a> » hs</span>
+    </h1>
+</doc-anchor-target>
+<hr />
+<p>Core Hammerspoon functionality</p>
+<doc-anchor-target id="submodules">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
+        <span>Submodules</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="../hs.alert/">hs.alert</a></li>
+<li><a href="../hs.appfinder/">hs.appfinder</a></li>
+<li><a href="../hs.applescript/">hs.applescript</a></li>
+<li><a href="../hs.application/">hs.application</a></li>
+<li><a href="../hs.audiodevice/">hs.audiodevice</a></li>
+<li><a href="../hs.axuielement/">hs.axuielement</a></li>
+<li><a href="../hs.base64/">hs.base64</a></li>
+<li><a href="../hs.battery/">hs.battery</a></li>
+<li><a href="../hs.blackmagic/">hs.blackmagic</a></li>
+<li><a href="../hs.bonjour/">hs.bonjour</a></li>
+<li><a href="../hs.brightness/">hs.brightness</a></li>
+<li><a href="../hs.caffeinate/">hs.caffeinate</a></li>
+<li><a href="../hs.camera/">hs.camera</a></li>
+<li><a href="../hs.canvas/">hs.canvas</a></li>
+<li><a href="../hs.chooser/">hs.chooser</a></li>
+<li><a href="../hs.console/">hs.console</a></li>
+<li><a href="../hs.crash/">hs.crash</a></li>
+<li><a href="../hs.deezer/">hs.deezer</a></li>
+<li><a href="../hs.dialog/">hs.dialog</a></li>
+<li><a href="../hs.distributednotifications/">hs.distributednotifications</a></li>
+<li><a href="../hs.doc/">hs.doc</a></li>
+<li><a href="../hs.dockicon/">hs.dockicon</a></li>
+<li><a href="../hs.drawing/">hs.drawing</a></li>
+<li><a href="../hs.eventtap/">hs.eventtap</a></li>
+<li><a href="../hs.expose/">hs.expose</a></li>
+<li><a href="../hs.fnutils/">hs.fnutils</a></li>
+<li><a href="../hs.fs/">hs.fs</a></li>
+<li><a href="../hs.geometry/">hs.geometry</a></li>
+<li><a href="../hs.grid/">hs.grid</a></li>
+<li><a href="../hs.hash/">hs.hash</a></li>
+<li><a href="../hs.hid/">hs.hid</a></li>
+<li><a href="../hs.hints/">hs.hints</a></li>
+<li><a href="../hs.host/">hs.host</a></li>
+<li><a href="../hs.hotkey/">hs.hotkey</a></li>
+<li><a href="../hs.http/">hs.http</a></li>
+<li><a href="../hs.httpserver/">hs.httpserver</a></li>
+<li><a href="../hs.image/">hs.image</a></li>
+<li><a href="../hs.inspect/">hs.inspect</a></li>
+<li><a href="../hs.ipc/">hs.ipc</a></li>
+<li><a href="../hs.itunes/">hs.itunes</a></li>
+<li><a href="../hs.javascript/">hs.javascript</a></li>
+<li><a href="../hs.json/">hs.json</a></li>
+<li><a href="../hs.keycodes/">hs.keycodes</a></li>
+<li><a href="../hs.layout/">hs.layout</a></li>
+<li><a href="../hs.location/">hs.location</a></li>
+<li><a href="../hs.logger/">hs.logger</a></li>
+<li><a href="../hs.math/">hs.math</a></li>
+<li><a href="../hs.menubar/">hs.menubar</a></li>
+<li><a href="../hs.messages/">hs.messages</a></li>
+<li><a href="../hs.midi/">hs.midi</a></li>
+<li><a href="../hs.milight/">hs.milight</a></li>
+<li><a href="../hs.mjomatic/">hs.mjomatic</a></li>
+<li><a href="../hs.mouse/">hs.mouse</a></li>
+<li><a href="../hs.network/">hs.network</a></li>
+<li><a href="../hs.noises/">hs.noises</a></li>
+<li><a href="../hs.notify/">hs.notify</a></li>
+<li><a href="../hs.osascript/">hs.osascript</a></li>
+<li><a href="../hs.osc/">hs.osc</a></li>
+<li><a href="../hs.pasteboard/">hs.pasteboard</a></li>
+<li><a href="../hs.pathwatcher/">hs.pathwatcher</a></li>
+<li><a href="../hs.plist/">hs.plist</a></li>
+<li><a href="../hs.razer/">hs.razer</a></li>
+<li><a href="../hs.redshift/">hs.redshift</a></li>
+<li><a href="../hs.screen/">hs.screen</a></li>
+<li><a href="../hs.serial/">hs.serial</a></li>
+<li><a href="../hs.settings/">hs.settings</a></li>
+<li><a href="../hs.sharing/">hs.sharing</a></li>
+<li><a href="../hs.shortcuts/">hs.shortcuts</a></li>
+<li><a href="../hs.socket/">hs.socket</a></li>
+<li><a href="../hs.sound/">hs.sound</a></li>
+<li><a href="../hs.spaces/">hs.spaces</a></li>
+<li><a href="../hs.speech/">hs.speech</a></li>
+<li><a href="../hs.spoons/">hs.spoons</a></li>
+<li><a href="../hs.spotify/">hs.spotify</a></li>
+<li><a href="../hs.spotlight/">hs.spotlight</a></li>
+<li><a href="../hs.sqlite3/">hs.sqlite3</a></li>
+<li><a href="../hs.streamdeck/">hs.streamdeck</a></li>
+<li><a href="../hs.styledtext/">hs.styledtext</a></li>
+<li><a href="../hs.tabs/">hs.tabs</a></li>
+<li><a href="../hs.tangent/">hs.tangent</a></li>
+<li><a href="../hs.task/">hs.task</a></li>
+<li><a href="../hs.timer/">hs.timer</a></li>
+<li><a href="../hs.uielement/">hs.uielement</a></li>
+<li><a href="../hs.urlevent/">hs.urlevent</a></li>
+<li><a href="../hs.usb/">hs.usb</a></li>
+<li><a href="../hs.utf8/">hs.utf8</a></li>
+<li><a href="../hs.vox/">hs.vox</a></li>
+<li><a href="../hs.watchable/">hs.watchable</a></li>
+<li><a href="../hs.websocket/">hs.websocket</a></li>
+<li><a href="../hs.webview/">hs.webview</a></li>
+<li><a href="../hs.wifi/">hs.wifi</a></li>
+<li><a href="../hs.window/">hs.window</a></li>
+</ul>
+<doc-anchor-target id="api-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
+        <span>API Overview</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Constants - Useful values which cannot be changed</li>
+<li><doc-anchor-trigger to="#configdir">configdir</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#docstrings_json_file">docstrings_json_file</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#processInfo">processInfo</doc-anchor-trigger></li>
+<li>Variables - Configurable values</li>
+<li><doc-anchor-trigger to="#accessibilityStateCallback">accessibilityStateCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#completionsForInputString">completionsForInputString</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#dockIconClickCallback">dockIconClickCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fileDroppedToDockIconCallback">fileDroppedToDockIconCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#shutdownCallback">shutdownCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#textDroppedToDockIconCallback">textDroppedToDockIconCallback</doc-anchor-trigger></li>
+<li>Functions - API calls offered directly by the extension</li>
+<li><doc-anchor-trigger to="#accessibilityState">accessibilityState</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allowAppleScript">allowAppleScript</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#autoLaunch">autoLaunch</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#automaticallyCheckForUpdates">automaticallyCheckForUpdates</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#cameraState">cameraState</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#canCheckForUpdates">canCheckForUpdates</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#checkForUpdates">checkForUpdates</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#cleanUTF8forConsole">cleanUTF8forConsole</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#closeConsole">closeConsole</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#closePreferences">closePreferences</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#consoleOnTop">consoleOnTop</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#coroutineApplicationYield">coroutineApplicationYield</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#dockIcon">dockIcon</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#execute">execute</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#focus">focus</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getObjectMetatable">getObjectMetatable</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#help">help</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#hsdocs">hsdocs</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#loadSpoon">loadSpoon</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#menuIcon">menuIcon</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#microphoneState">microphoneState</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#open">open</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#openAbout">openAbout</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#openConsole">openConsole</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#openConsoleOnDockClick">openConsoleOnDockClick</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#openPreferences">openPreferences</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#preferencesDarkMode">preferencesDarkMode</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#printf">printf</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#rawprint">rawprint</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#relaunch">relaunch</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#reload">reload</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#screenRecordingState">screenRecordingState</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#showError">showError</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#toggleConsole">toggleConsole</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#updateAvailable">updateAvailable</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#uploadCrashData">uploadCrashData</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="constants">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
+        <span>Constants</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#configdir">configdir</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.configdir</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A string containing Hammerspoon&#x27;s configuration directory. Typically <code v-pre>~/.hammerspoon/</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#docstrings_json_file">docstrings_json_file</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.docstrings_json_file</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A string containing the full path to the <code v-pre>docs.json</code> file inside Hammerspoon&#x27;s app bundle. This contains the full Hammerspoon API documentation and can be accessed in the Console using <code v-pre>help(&quot;someAPI&quot;)</code>. It can also be loaded and processed by the <code v-pre>hs.doc</code> extension</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#processInfo">processInfo</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.processInfo</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table containing read-only information about the Hammerspoon application instance currently running.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="variables">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
+        <span>Variables</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#accessibilityStateCallback">accessibilityStateCallback</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.accessibilityStateCallback</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>An optional function that will be called when the Accessibility State is changed.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The function will not receive any arguments when called.  To check what the accessibility state has been changed to, you should call <doc-anchor-trigger to="#accessibilityState">hs.accessibilityState</doc-anchor-trigger> from within your function.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#completionsForInputString">completionsForInputString</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.completionsForInputString(completionWord) -&gt; table of strings</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gathers tab completion options for the Console window</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>completionWord - A string from the Console window&#x27;s input field that completions are needed for</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table of strings, each of which will be shown as a possible completion option to the user</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Hammerspoon provides a default implementation of this function, which can complete against the global Lua namespace, the &#x27;hs&#x27; (i.e. extension) namespace, and object metatables. You can assign a new function to the variable to replace it with your own variant.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#dockIconClickCallback">dockIconClickCallback</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.dockIconClickCallback</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>An optional function that will be called when the Hammerspoon Dock Icon is clicked while the app is running</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If set, this callback will be called regardless of whether or not Hammerspoon shows its console window in response to a click (which can be enabled/disabled via <code v-pre>hs.openConsoleOnDockClick()</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fileDroppedToDockIconCallback">fileDroppedToDockIconCallback</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.fileDroppedToDockIconCallback</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>An optional function that will be called when a files are dragged to the Hammerspoon Dock Icon or sent via the Services menu</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The function should accept a single parameter, which will be a string containing the full path to the file that was dragged to the dock icon</li><li>If multiple files are sent, this callback will be called once for each file</li><li>This callback will be triggered when ANY file type is dragged onto the Hammerspoon Dock Icon, however certain filetypes are also processed separately by Hammerspoon. For example, <code v-pre>hs.urlevent</code> will be triggered when the following filetypes are dropped onto the Dock Icon: HTML Documents (.html, .htm, .shtml, .jhtml), Plain text documents (.txt, .text), Web site locations (.url), XHTML documents (.xhtml, .xht, .xhtm, .xht).</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#shutdownCallback">shutdownCallback</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.shutdownCallback</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>An optional function that will be called when the Lua environment is being destroyed (either because Hammerspoon is exiting or reloading its config)</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function should not perform any asynchronous tasks</li><li>You do not need to fastidiously destroy objects you have created, this callback exists purely for utility reasons (e.g. serialising state, destroying system resources that will not be released by normal Lua garbage collection processes, etc)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#textDroppedToDockIconCallback">textDroppedToDockIconCallback</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.textDroppedToDockIconCallback</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>An optional function that will be called when text is dragged to the Hammerspoon Dock Icon or sent via the Services menu</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The function should accept a single parameter, which will be a string containing the text that was dragged to the dock icon</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="functions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
+        <span>Functions</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#accessibilityState">accessibilityState</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.accessibilityState(shouldPrompt) -&gt; isEnabled</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks the Accessibility Permissions for Hammerspoon, and optionally allows you to prompt for permissions.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>shouldPrompt - an optional boolean value indicating if the dialog box asking if the System Preferences application should be opened should be presented when Accessibility is not currently enabled for Hammerspoon.  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True or False indicating whether or not Accessibility is enabled for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Since this check is done automatically when Hammerspoon loads, it is probably of limited use except for skipping things that are known to fail when Accessibility is not enabled.  Evettaps which try to capture keyUp and keyDown events, for example, will fail until Accessibility is enabled and the Hammerspoon application is relaunched.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowAppleScript">allowAppleScript</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.allowAppleScript([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not external Hammerspoon AppleScript commands are allowed.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not external Hammerspoon&#x27;s AppleScript commands are allowed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, <code v-pre>true</code> if Hammerspoon&#x27;s AppleScript commands are (or has just been) allowed, otherwise <code v-pre>false</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>AppleScript access is disallowed by default.</li><li>However due to the way AppleScript support works, Hammerspoon will always allow AppleScript commands that are part of the &quot;Standard Suite&quot;, such as <code v-pre>name</code>, <code v-pre>quit</code>, <code v-pre>version</code>, etc. However, Hammerspoon will only allow commands from the &quot;Hammerspoon Suite&quot; if <code v-pre>hs.allowAppleScript()</code> is set to <code v-pre>true</code>.</li><li>For a full list of AppleScript Commands:</li><li>     - Open <code v-pre>/Applications/Utilities/Script Editor.app</code></li><li>     - Click <code v-pre>File &gt; Open Dictionary...</code></li><li>     - Select Hammerspoon from the list of Applications</li><li>     - This will now open a Dictionary containing all of the available Hammerspoon AppleScript commands.</li><li>Note that strings within the Lua code you pass from AppleScript can be delimited by <code v-pre>[[</code> and <code v-pre>]]</code> rather than normal quotes</li><li>Example:</li><li>   <code v-pre>lua&lt;/li&gt;&lt;li&gt;   tell application &quot;Hammerspoon&quot;&lt;/li&gt;&lt;li&gt;     execute lua code &quot;hs.alert([[Hello from AppleScript]])&quot;&lt;/li&gt;&lt;li&gt;   end tell</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#autoLaunch">autoLaunch</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.autoLaunch([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display the &quot;Launch on Login&quot; status for Hammerspoon.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not Hammerspoon should be launched automatically when you log into your computer.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if Hammerspoon is currently (or has just been) set to launch on login or False if Hammerspoon is not.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#automaticallyCheckForUpdates">automaticallyCheckForUpdates</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.automaticallyCheckForUpdates([setting]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets and optionally sets the Hammerspoon option to automatically check for updates.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>setting - an optional boolean variable indicating if Hammerspoon should (true) or should not (false) check for updates.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The current (or newly set) value indicating whether or not automatic update checks should occur for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If you are running a non-release or locally compiled version of Hammerspoon then the results of this function are unspecified.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#cameraState">cameraState</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.cameraState(shouldPrompt) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks the Camera Permissions for Hammerspoon, and optionally allows you to prompt for permissions.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>shouldPrompt - an optional boolean value indicating if we should request camera access. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li><code v-pre>true</code> or <code v-pre>false</code> indicating whether or not Camera access is enabled for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Will always return <code v-pre>true</code> on macOS 10.13 or earlier.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#canCheckForUpdates">canCheckForUpdates</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.canCheckForUpdates() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a boolean indicating whether or not the Sparkle framework is available to check for Hammerspoon updates.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a boolean indicating whether or not the Sparkle framework is available to check for Hammerspoon updates</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The Sparkle framework is included in all regular releases of Hammerspoon but not included if you are running a non-release or locally compiled version of Hammerspoon, so this function can be used as a simple test to determine whether or not you are running a formal release Hammerspoon or not.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#checkForUpdates">checkForUpdates</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.checkForUpdates([silent]) -&gt; none</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Check for an update now, and if one is available, prompt the user to continue the update process.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>silent - An optional boolean. If true, no UI will be displayed if an update is available. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If you are running a non-release or locally compiled version of Hammerspoon then the results of this function are unspecified.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#cleanUTF8forConsole">cleanUTF8forConsole</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.cleanUTF8forConsole(inString) -&gt; outString</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the incoming string that can be displayed in the Hammerspoon console.  Invalid UTF8 sequences are converted to the Unicode Replacement Character and NULL (0x00) is converted to the Unicode Empty Set character.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>inString - the string to be cleaned up</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>outString - the cleaned up version of the input string.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function is applied automatically to all output which appears in the Hammerspoon console, but not to the output provided by the <code v-pre>hs</code> command line tool.</li><li>This function does not modify the original string - to actually replace it, assign the result of this function to the original string.</li><li>This function is a more specifically targeted version of the <code v-pre>hs.utf8.fixUTF8(...)</code> function.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#closeConsole">closeConsole</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.closeConsole()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Closes the Hammerspoon Console window</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#closePreferences">closePreferences</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.closePreferences()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Closes the Hammerspoon Preferences window</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#consoleOnTop">consoleOnTop</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.consoleOnTop([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the Hammerspoon console is always on top when visible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not the Hammerspoon console is always on top when visible.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the console is currently set (or has just been) to be always on top when visible or False if it is not.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#coroutineApplicationYield">coroutineApplicationYield</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.coroutineApplicationYield([delay])</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Yield coroutine to allow the Hammerspoon application to process other scheduled events and schedule a resume in the event application queue.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>delay</code> - an optional number, default <code v-pre>hs.math.minFloat</code>, specifying the number of seconds from when this function is executed that the <code v-pre>coroutine.resume</code> should be scheduled for.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>this function will return an error if invoked outside of a coroutine.</li><li>unlike <code v-pre>coroutine.yield</code>, this function does not allow the passing of (new) information to or from the coroutine while it is running; this function is to allow long running tasks to yield time to the Hammerspoon application so other timers and scheduled events can occur without requiring the programmer to add code for an explicit resume.</li><li></li><li>this function is added to the lua <code v-pre>coroutine</code> library as <code v-pre>coroutine.applicationYield</code> as an alternative name.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#dockIcon">dockIcon</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.dockIcon([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the Hammerspoon dock icon is visible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not the Hammerspoon dock icon should be visible.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the icon is currently set (or has just been) to be visible or False if it is not.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function is a wrapper to functions found in the <code v-pre>hs.dockicon</code> module, but is provided here to provide an interface consistent with other selectable preference items.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#execute">execute</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.execute(command[, with_user_env]) -&gt; output, status, type, rc</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Runs a shell command, optionally loading the users shell environment first, and returns stdout as a string, followed by the same result codes as <code v-pre>os.execute</code> would return.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>command - a string containing the shell command to execute</li><li>with_user_env - optional boolean argument which if provided and is true, executes the command in the users login shell as an &quot;interactive&quot; login shell causing the user&#x27;s local profile (or other login scripts) to be loaded first.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>output -- the stdout of the command as a string.  May contain an extra terminating new-line (\n).</li><li>status -- <code v-pre>true</code> if the command terminated successfully or nil otherwise.</li><li>type   -- a string value of &quot;exit&quot; or &quot;signal&quot; indicating whether the command terminated of its own accord or if it was terminated by a signal (killed, segfault, etc.)</li><li>rc     -- if the command exited of its own accord, then this number will represent the exit code (usually 0 for success, not 0 for an error, though this is very command specific, so check man pages when there is a question).  If the command was killed by a signal, then this number corresponds to the signal type that caused the command to terminate.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Setting <code v-pre>with_user_env</code> to true does incur noticeable overhead, so it should only be used if necessary (to set the path or other environment variables).</li><li>Because this function returns the stdout as it&#x27;s first return value, it is not quite a drop-in replacement for <code v-pre>os.execute</code>.  In most cases, it is probable that <code v-pre>stdout</code> will be the empty string when <code v-pre>status</code> is nil, but this is not guaranteed, so this trade off of shifting os.execute&#x27;s results was deemed acceptable.</li><li>This particular function is most useful when you&#x27;re more interested in the command&#x27;s output then a simple check for completion and result codes.  If you only require the result codes or verification of command completion, then <code v-pre>os.execute</code> will be slightly more efficient.</li><li>If you need to execute commands that have spaces in their paths, use a form like: <code v-pre>hs.execute [[&quot;/Some/Path To/An/Executable&quot; &quot;--first-arg&quot; &quot;second-arg&quot;]]</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#focus">focus</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.focus()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Makes Hammerspoon the foreground app.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getObjectMetatable">getObjectMetatable</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.getObjectMetatable(name) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Fetches the Lua metatable for objects produced by an extension</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>name - A string containing the name of a module to fetch object metadata for (e.g. <code v-pre>&quot;hs.screen&quot;</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The extension&#x27;s object metatable, or nil if an error occurred</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#help">help</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.help(identifier)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Prints the documentation for some part of Hammerspoon&#x27;s API and Lua 5.3.  This function is actually sourced from hs.doc.help.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>identifier - A string containing the signature of some part of Hammerspoon&#x27;s API (e.g. <code v-pre>&quot;hs.reload&quot;</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function is mainly for runtime API help while using Hammerspoon&#x27;s Console</li><li>You can also access the results of this function by the following methods from the console:</li><li>  help(&quot;identifier&quot;) -- quotes are required, e.g. <code v-pre>help(&quot;hs.reload&quot;)</code></li><li>  help.identifier.path -- no quotes are required, e.g. <code v-pre>help.hs.reload</code></li><li>Lua information can be accessed by using the <code v-pre>lua</code> prefix, rather than <code v-pre>hs</code>.</li><li>  the identifier <code v-pre>lua._man</code> provides the table of contents for the Lua 5.3 manual.  You can pull up a specific section of the lua manual by including the chapter (and subsection) like this: <code v-pre>lua._man._3_4_8</code>.</li><li>  the identifier <code v-pre>lua._C</code> will provide information specifically about the Lua C API for use when developing modules which require external libraries.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#hsdocs">hsdocs</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.hsdocs([identifier])</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Display&#x27;s Hammerspoon API documentation in a webview browser.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>identifier - An optional string containing the signature of some part of Hammerspoon&#x27;s API (e.g. <code v-pre>&quot;hs.reload&quot;</code>).  If no string is provided, then the table of contents for the Hammerspoon documentation is displayed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>You can also access the results of this function by the following methods from the console:</li><li>  hs.hsdocs.identifier.path -- no quotes are required, e.g. <code v-pre>hs.hsdocs.hs.reload</code></li><li>See <code v-pre>hs.doc.hsdocs</code> for more information about the available settings for the documentation browser.</li><li>This function provides documentation for Hammerspoon modules, functions, and methods similar to the Hammerspoon Dash docset, but does not require any additional software.</li><li>This currently only provides documentation for the built in Hammerspoon modules, functions, and methods.  The Lua documentation and third-party modules are not presently supported, but may be added in a future release.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#loadSpoon">loadSpoon</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.loadSpoon(name[, global]) -&gt; Spoon object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Loads a Spoon</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>name - The name of a Spoon (without the trailing <code v-pre>.spoon</code>)</li><li>global - An optional boolean. If true, this function will insert the spoon into Lua&#x27;s global namespace as <code v-pre>spoon.NAME</code>. Defaults to true.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The object provided by the Spoon (which can be ignored if you chose to make the Spoon global)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Spoons are a way of distributing self-contained units of Lua functionality, for Hammerspoon. For more information, see <a href="https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md">https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md</a></li><li>This function will load the Spoon and call its <code v-pre>:init()</code> method if it has one. If you do not wish this to happen, or wish to use a Spoon that somehow doesn&#x27;t fit with the behaviours of this function, you can also simply <code v-pre>require('name')</code> to load the Spoon</li><li>If the Spoon has a <code v-pre>:start()</code> method you are responsible for calling it before using the functionality of the Spoon.</li><li>If the Spoon provides documentation, it will be loaded by made available in hs.docs</li><li>To learn how to distribute your own code as a Spoon, see <a href="https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md">https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md</a></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#menuIcon">menuIcon</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.menuIcon([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the Hammerspoon menu icon is visible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not the Hammerspoon menu icon should be visible.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the icon is currently set (or has just been) to be visible or False if it is not.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#microphoneState">microphoneState</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.microphoneState(shouldPrompt) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks the Microphone Permissions for Hammerspoon, and optionally allows you to prompt for permissions.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>shouldPrompt - an optional boolean value indicating if we should request microphone access. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li><code v-pre>true</code> or <code v-pre>false</code> indicating whether or not Microphone access is enabled for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Will always return <code v-pre>true</code> on macOS 10.13 or earlier.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#open">open</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.open(filePath)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Opens a file as if it were opened with /usr/bin/open</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>filePath - A string containing the path to a file/bundle to open</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, true if the file was opened successfully, otherwise false</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#openAbout">openAbout</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.openAbout()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Displays the OS X About panel for Hammerspoon; implicitly focuses Hammerspoon.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#openConsole">openConsole</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.openConsole([bringToFront])</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Opens the Hammerspoon Console window and optionally focuses it.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bringToFront - if true (default), the console will be focused as well as opened.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#openConsoleOnDockClick">openConsoleOnDockClick</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.openConsoleOnDockClick([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the Console window will open when the Hammerspoon dock icon is clicked</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - An optional boolean, true if the console window should open, false if not</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, true if the console window will open when the dock icon</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This only refers to dock icon clicks while Hammerspoon is already running. The console window is not opened by launching the app</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#openPreferences">openPreferences</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.openPreferences()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Displays the Hammerspoon Preferences panel; implicitly focuses Hammerspoon.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#preferencesDarkMode">preferencesDarkMode</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.preferencesDarkMode([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the Preferences panel should display in dark mode.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - an optional boolean which will set whether or not the Preferences panel should display in dark mode.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, true if dark mode is enabled otherwise false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#printf">printf</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.printf(format, ...)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Prints formatted strings to the Console</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>format - A format string</li><li>... - Zero or more arguments to fill the placeholders in the format string</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This is a simple wrapper around the Lua code <code v-pre>print(string.format(...))</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#rawprint">rawprint</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.rawprint(aString)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>The original Lua print() function</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>aString - A string to be printed</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Hammerspoon overrides Lua&#x27;s print() function, but this is a reference we retain to is, should you need it for any reason</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#relaunch">relaunch</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.relaunch()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Quits and relaunches Hammerspoon.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#reload">reload</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.reload()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Reloads your init-file in a fresh Lua environment.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#screenRecordingState">screenRecordingState</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.screenRecordingState(shouldPrompt) -&gt; isEnabled</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks the Screen Recording Permissions for Hammerspoon, and optionally allows you to prompt for permissions.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>shouldPrompt - an optional boolean value indicating if the dialog box asking if the System Preferences application should be opened should be presented when Screen Recording is not currently enabled for Hammerspoon.  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True or False indicating whether or not Screen Recording is enabled for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If you trigger the prompt and the user denies it, you cannot bring up the prompt again - the user must manually enable it in System Preferences.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#showError">showError</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.showError(err)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Shows an error to the user, using Hammerspoon&#x27;s Console</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>err - A string containing an error message</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function is called whenever an (uncaught) error occurs or is thrown (via <code v-pre>error()</code>)</li><li>The default implementation shows a notification, opens the Console, and prints the error message and stacktrace</li><li>You can override this function if you wish to route errors differently (e.g. for remote systems)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#toggleConsole">toggleConsole</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.toggleConsole()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Toggles the visibility of the console</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If the console is not currently open, it will be opened. If it is open and not the focused window, it will be brought forward and focused.</li><li>If the console is focused, it will be closed.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#updateAvailable">updateAvailable</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.updateAvailable() -&gt; string or false, string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the version &amp; build number of an available update</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the display version of the latest release, or a boolean false if no update is available</li><li>A string containing the build number of the latest release, or <code v-pre>nil</code> if no update is available</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This is not a live check, it is a cached result of whatever the previous update check found. By default Hammerspoon checks for updates every few hours, but you can also add your own timer to check for updates more frequently with <code v-pre>hs.checkForUpdates()</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#uploadCrashData">uploadCrashData</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.uploadCrashData([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the &quot;Upload Crash Data&quot; preference for Hammerspoon</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>state - An optional boolean, true to upload crash reports, false to not</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if Hammerspoon is currently (or has just been) set to upload crash data or False otherwise</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If at all possible, please do allow Hammerspoon to upload crash reports to us, it helps a great deal in keeping Hammerspoon stable</li><li>Our Privacy Policy can be found here: <a href="https://www.hammerspoon.org/privacy.html">https://www.hammerspoon.org/privacy.html</a></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "docs » hs", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

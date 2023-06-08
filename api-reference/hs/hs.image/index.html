@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739541926890">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>docs &#187; hs.image</title>
+    <meta name="title" content="docs » hs.image">
+    <meta name="description" content="A module for capturing and manipulating image objects from other modules for use with hs.drawing." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-reference/hs/hs.image/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-reference/hs/hs.image/">
+    <meta property="og:title" content="docs » hs.image">
+    <meta property="og:description" content="A module for capturing and manipulating image objects from other modules for use with hs.drawing.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-reference/hs/hs.image/">
+    <meta property="twitter:title" content="docs » hs.image">
+    <meta property="twitter:description" content="A module for capturing and manipulating image objects from other modules for use with hs.drawing.">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.0.3.739541926890" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="docs--hsimage" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#docs--hsimage">#</doc-anchor-trigger>
+        <span><a href="../">docs</a> » hs.image</span>
+    </h1>
+</doc-anchor-target>
+<hr />
+<p>A module for capturing and manipulating image objects from other modules for use with hs.drawing.</p>
+<doc-anchor-target id="api-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
+        <span>API Overview</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Constants - Useful values which cannot be changed</li>
+<li><doc-anchor-trigger to="#additionalImageNames">additionalImageNames</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#systemImageNames">systemImageNames</doc-anchor-trigger></li>
+<li>Functions - API calls offered directly by the extension</li>
+<li><doc-anchor-trigger to="#getExifFromPath">getExifFromPath</doc-anchor-trigger></li>
+<li>Constructors - API calls which return an object, typically one that offers API methods</li>
+<li><doc-anchor-trigger to="#iconForFile">iconForFile</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#iconForFileType">iconForFileType</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromAppBundle">imageFromAppBundle</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromASCII">imageFromASCII</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromMediaFile">imageFromMediaFile</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromName">imageFromName</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromPath">imageFromPath</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#imageFromURL">imageFromURL</doc-anchor-trigger></li>
+<li>Methods - API calls which can only be made on an object returned by a constructor</li>
+<li><doc-anchor-trigger to="#bitmapRepresentation">bitmapRepresentation</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#colorAt">colorAt</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#croppedCopy">croppedCopy</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#encodeAsURLString">encodeAsURLString</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getLoupedeckArray">getLoupedeckArray</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#name">name</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#saveToFile">saveToFile</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setName">setName</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setSize">setSize</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#size">size</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#template">template</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#toASCII">toASCII</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="constants">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
+        <span>Constants</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#additionalImageNames">additionalImageNames</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.additionalImageNames[]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Table of arrays containing the names of additional internal system images which may also be available for use with <code v-pre>hs.drawing.image</code> and <doc-anchor-trigger to="#imageFromName">hs.image.imageFromName</doc-anchor-trigger>.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The list of these images was pulled from a collection located in the repositories at <a href="https://github.com/hetima?tab=repositories">https://github.com/hetima?tab=repositories</a>.  As these image names are (for the most part) not formally listed in Apple&#x27;s documentation or published APIs, their use cannot be guaranteed across all OS X versions.  If you identify any images which may be missing or could be added, please file an issue at <a href="https://github.com/Hammerspoon/hammerspoon">https://github.com/Hammerspoon/hammerspoon</a>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#systemImageNames">systemImageNames</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.systemImageNames[]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Table containing the names of internal system images for use with hs.drawing.image</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Image names pulled from NSImage.h</li><li>This table has a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.image.systemImageNames</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="functions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
+        <span>Functions</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getExifFromPath">getExifFromPath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.getExifFromPath(path) -&gt; table | nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the EXIF metadata information from an image file.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>path - The path to the image file.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table of EXIF metadata, or <code v-pre>nil</code> if no metadata can be found or the file path is invalid.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="constructors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
+        <span>Constructors</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#iconForFile">iconForFile</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.iconForFile(file) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates an <code v-pre>hs.image</code> object for the file or files specified</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>file - the path to a file or an array of files to generate an icon for.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object or nil, if there was an error.  The image will be the icon for the specified file or an icon representing multiple files if an array of multiple files is specified.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#iconForFileType">iconForFileType</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.iconForFileType(fileType) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates an <code v-pre>hs.image</code> object of the icon for the specified file type.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>fileType - the file type, specified as a filename extension or a universal type identifier (UTI).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object or nil, if there was an error</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#imageFromAppBundle">imageFromAppBundle</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.imageFromAppBundle(bundleID) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates an <code v-pre>hs.image</code> object using the icon from an App</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing the bundle identifier of an application</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object or nil, if no app icon was found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#imageFromASCII">imageFromASCII</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.image.imageFromASCII(ascii[, context]) -&gt; object</code>                                                                    |
+| <strong>Type</strong>                                    | Constructor                                                                     |
+| <strong>Description</strong>                             | Creates an image from an ASCII representation with the specified context.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>ascii - A string containing a representation of an image</li><li>context - An optional table containing the context for each shape in the image.  A shape is considered a single drawing element (point, ellipse, line, or polygon) as defined at <a href="https://github.com/cparnot/ASCIImage">https://github.com/cparnot/ASCIImage</a> and <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/">http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/</a>.
+The context table is an optional (possibly sparse) array in which the index represents the order in which the shapes are defined.  The last (highest) numbered index in the sparse array specifies the default settings for any unspecified index and any settings which are not explicitly set in any other given index.
+Each index consists of a table which can contain one or more of the following keys:fillColor - the color with which the shape will be filled (defaults to black)  Color is defined in a table containing color component values between 0.0 and 1.0 for each of the keys:red (default 0.0)green (default 0.0)blue (default 0.0)alpha (default 1.0)strokeColor - the color with which the shape will be stroked (defaults to black)lineWidth - the line width (number) for the stroke of the shape (defaults to 1 if anti-aliasing is on or (√2)/2 if it is off -- approximately 0.7)shouldClose - a boolean indicating whether or not the shape should be closed (defaults to true)antialias - a boolean indicating whether or not the shape should be antialiased (defaults to true)</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.image</code> object, or nil if an error occurred</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>To use the ASCII diagram image support, see <a href="https://github.com/cparnot/ASCIImage">https://github.com/cparnot/ASCIImage</a> and <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring">http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring</a></li><li>The default for lineWidth, when antialiasing is off, is defined within the ASCIImage library. Geometrically it represents one half of the hypotenuse of the unit right-triangle and is a more accurate representation of a &quot;real&quot; point size when dealing with arbitrary angles and lines than 1.0 would be.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#imageFromMediaFile">imageFromMediaFile</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.imageFromMediaFile(file) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates an <code v-pre>hs.image</code> object from a video file or the album artwork of an audio file or directory</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>file - A string containing the path to an audio or video file or an album directory</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If a thumbnail can be generated for a video file, it is returned as an <code v-pre>hs.image</code> object, otherwise the filetype icon</li><li>For audio files, this function first determines the containing directory (if not already a directory)</li><li>It checks if any of the following common filenames for album art are present:</li><li> cover.jpg</li><li> front.jpg</li><li> art.jpg</li><li> album.jpg</li><li> folder.jpg</li><li>If one of the common album art filenames is found, it is returned as an <code v-pre>hs.image</code> object</li><li>This is faster than extracting image metadata and allows for obtaining artwork associated with file formats such as .flac/.ogg</li><li>If no common album art filenames are found, it attempts to extract image metadata from the file. This works for .mp3/.m4a files</li><li>If embedded image metadata is found, it is returned as an <code v-pre>hs.image</code> object, otherwise the filetype icon</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#imageFromName">imageFromName</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.imageFromName(string) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the hs.image object for the specified name, if it exists.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>Name - the name of the image to return.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An hs.image object or nil, if no image was found with the specified name.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Some predefined labels corresponding to OS X System default images can be found in <code v-pre>hs.image.systemImageNames</code>.</li><li>Names are not required to be unique: The search order is as follows, and the first match found is returned:</li><li>   an image whose name was explicitly set with the <code v-pre>setName</code> method since the last full restart of Hammerspoon</li><li>   Hammerspoon&#x27;s main application bundle</li><li>   the Application Kit framework (this is where most of the images listed in <code v-pre>hs.image.systemImageNames</code> are located)</li><li>Image names can be assigned by the image creator or by calling the <code v-pre>hs.image:setName</code> method on an hs.image object.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#imageFromPath">imageFromPath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.imageFromPath(path) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Loads an image file</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>path - A string containing the path to an image file on disk</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object, or nil if an error occurred</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#imageFromURL">imageFromURL</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image.imageFromURL(url[, callbackFn]) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates an <code v-pre>hs.image</code> object from the contents of the specified URL.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>url - a web url specifying the location of the image to retrieve</li><li>callbackFn - an optional callback function to be called when the image fetching is complete</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An <code v-pre>hs.image</code> object or nil, if the url does not specify image contents or is unreachable, or if a callback function is supplied</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If a callback function is supplied, this function will return nil immediately and the image will be fetched asynchronously</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="methods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
+        <span>Methods</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#bitmapRepresentation">bitmapRepresentation</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:bitmapRepresentation([size], [gray]) -&gt; imageObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Creates a new bitmap representation of the image and returns it as a new hs.image object</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>size</code> - an optional table specifying the height and width the image should be scaled to in the bitmap. The size is specified as table with <code v-pre>h</code> and <code v-pre>w</code> keys set. Defaults to the size of the source image object.</li><li><code v-pre>gray</code> - an optional boolean, default false, specifying whether or not the bitmap should be converted to grayscale (true) or left as RGB color (false).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a new hs.image object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>a bitmap representation of an image is rendered at the specific size specified (or inherited) when it is generated -- if you later scale it to a different size, the bitmap will be scaled as larger or smaller pixels rather than smoothly.</li><li></li><li>this method may be useful when preparing images for other devices (e.g. <code v-pre>hs.streamdeck</code>).</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#colorAt">colorAt</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:colorAt(point) -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Reads the color of the pixel at the specified location.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>point</code> - a <code v-pre>hs.geometry.point</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A <code v-pre>hs.drawing.color</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:copy() -&gt; imageObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the image</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a new hs.image object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#croppedCopy">croppedCopy</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:croppedCopy(rectangle) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the portion of the image specified by the rectangle specified.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>rectangle - a table with &#x27;x&#x27;, &#x27;y&#x27;, &#x27;h&#x27;, and &#x27;w&#x27; keys specifying the portion of the image to return in the new image.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the portion of the image specified</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#encodeAsURLString">encodeAsURLString</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.image:encodeAsURLString([scale], [type]) -&gt; string</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Returns a bitmap representation of the image as a base64 encoded URL string                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>scale - an optional boolean, default false, which indicates that the image size (which macOS represents as points) should be scaled to pixels.  For images that have Retina scale representations, this may result in an encoded image which is scaled down from the original source.</li><li>type  - optional case-insensitive string parameter specifying the bitmap image type for the encoded string (default PNG)
+PNG  - save in Portable Network Graphics (PNG) format
+TIFF - save in Tagged Image File Format (TIFF) format
+BMP  - save in Windows bitmap image (BMP) format
+GIF  - save in Graphics Image Format (GIF) format
+JPEG - save in Joint Photographic Experts Group (JPEG) format</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>the bitmap image representation as a Base64 encoded string</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>You can convert the string back into an image object with <doc-anchor-trigger to="#URL">hs.image.imageFromURL</doc-anchor-trigger>, e.g. <code v-pre>hs.image.imageFromURL(string)</code></li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getLoupedeckArray">getLoupedeckArray</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:getLoupedeckArray() -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Translates an <code v-pre>hs.image</code> object into an RGB array string suitable for the Loupedeck CT device.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the RGB data</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#name">name</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:name([name]) -&gt; imageObject | string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the name of the image represented by the hs.image object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>name</code> - an optional string specifying the new name for the hs.image object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if no argument is provided, returns the current name.  If a new name is specified, returns the hs.image object or nil if the name cannot be changed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>see also <doc-anchor-trigger to="#setName">hs.image:setName</doc-anchor-trigger> for a variant that returns a boolean instead.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#saveToFile">saveToFile</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.image:saveToFile(filename, [scale], [filetype]) -&gt; boolean</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Save the hs.image object as an image of type <code v-pre>filetype</code> to the specified filename.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>filename - the path and name of the file to save.</li><li>scale    - an optional boolean, default false, which indicates that the image size (which macOS represents as points) should be scaled to pixels.  For images that have Retina scale representations, this may result in a saved image which is scaled down from the original source.</li><li>filetype - optional case-insensitive string parameter specifying the file type to save (default PNG)
+PNG  - save in Portable Network Graphics (PNG) format
+TIFF - save in Tagged Image File Format (TIFF) format
+BMP  - save in Windows bitmap image (BMP) format
+GIF  - save in Graphics Image Format (GIF) format
+JPEG - save in Joint Photographic Experts Group (JPEG) format</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>Status - a boolean value indicating success (true) or failure (false)</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>Saves image at the size in points (or pixels, if <code v-pre>scale</code> is true) as reported by <doc-anchor-trigger to="#size">hs.image:size()</doc-anchor-trigger> for the image object</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setName">setName</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:setName(Name) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Assigns the name assigned to the hs.image object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>Name - the name to assign to the hs.image object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>Status - a boolean value indicating success (true) or failure (false) when assigning the specified name.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is included for backwards compatibility and is considered deprecated.  It is equivalent to <code v-pre>hs.image:name(name) and true or false</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setSize">setSize</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:setSize(size [, absolute]) -&gt; object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the image resized to the height and width specified in the size table.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>size     - a table with &#x27;h&#x27; and &#x27;w&#x27; keys specifying the size for the new image.</li><li>absolute - an optional boolean specifying whether or not the copied image should be resized to the height and width specified (true), or whether the copied image should be scaled proportionally to fit within the height and width specified (false).  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the image object at the new size</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is included for backwards compatibility and is considered deprecated.  It is equivalent to <code v-pre>hs.image:copy():size(size, [absolute])</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#size">size</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:size([size, [absolute]] ) -&gt; imageObject | size</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the size of the image represented by the hs.image object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>size</code>     - an optional table with &#x27;h&#x27; and &#x27;w&#x27; keys specifying the size for the image.</li><li><code v-pre>absolute</code> - when specifying a new size, an optional boolean, default false, specifying whether or not the image should be resized to the height and width specified (true), or whether the copied image should be scaled proportionally to fit within the height and width specified (false).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If arguments are provided, return the hs.image object; otherwise returns the current size</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>See also <doc-anchor-trigger to="#setSize">hs.image:setSize</doc-anchor-trigger> for creating a copy of the image at a new size.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#template">template</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:template([state]) -&gt; imageObject | boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether the image is considered a template image.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>state</code> - an optional boolean specifying whether or not the image should be a template.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a parameter is provided, returns the hs.image object; otherwise returns the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Template images consist of black and clear colors (and an alpha channel). Template images are not intended to be used as standalone images and are usually mixed with other content to create the desired final appearance.</li><li>Images with this flag set to true usually appear lighter than they would with this flag set to false.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#toASCII">toASCII</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.image:toASCII([width, height]) -&gt; string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Converts an image to an ASCII representation of the image in the form of a string.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>width - An optional width in pixels (defaults to image width if nothing supplied).</li><li>height - An optional height in pixels (defaults to image height if nothing supplied).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "docs » hs.image", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

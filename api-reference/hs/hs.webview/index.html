@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739541926890">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>docs &#187; hs.webview</title>
+    <meta name="title" content="docs » hs.webview">
+    <meta name="description" content="Display web content in a window from Hammerspoon" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-reference/hs/hs.webview/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-reference/hs/hs.webview/">
+    <meta property="og:title" content="docs » hs.webview">
+    <meta property="og:description" content="Display web content in a window from Hammerspoon">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-reference/hs/hs.webview/">
+    <meta property="twitter:title" content="docs » hs.webview">
+    <meta property="twitter:description" content="Display web content in a window from Hammerspoon">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.0.3.739541926890" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="docs--hswebview" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#docs--hswebview">#</doc-anchor-trigger>
+        <span><a href="../">docs</a> » hs.webview</span>
+    </h1>
+</doc-anchor-target>
+<hr />
+<p>Display web content in a window from Hammerspoon</p>
+<p>This module uses Apple&#x27;s WebKit WKWebView class to provide web content display with JavaScript injection support.  The objective is to provide a functional interface to the WKWebView and WKUserContentController classes.</p>
+<p>This module is not intended to replace a full web browser and does have some limitations to keep in mind:</p>
+<ul>
+<li>Self-signed SSL certificates are not accepted unless they have first been approved and included in the users Keychain by another method, for example, opening the page first in Safari.</li>
+<li>The context-menu (right clicking or ctrl-clicking in the webview) provides some menu items which are currently unsupported -- a known example of this is any &quot;Download...&quot; menu item in the context menu for links and images.</li>
+<li>It is uncertain at present exactly how or where cookies and cached page data is stored or how it can be invalidated.
+<ul>
+<li>This can be mitigated to an extent for web requests by using <code v-pre>hs.webview:reload(true)</code> and by crafting the url for <code v-pre>hs.webview:url({...})</code> as a table -- see the appropriate help entries for more information.</li>
+</ul>
+</li>
+</ul>
+<p>Any suggestions or updates to the code to address any of these or other limitations as they may become apparent are welcome at the Hammerspoon github site: <a href="https://www.github.com/Hammerspoon/hammerspoon">https://www.github.com/Hammerspoon/hammerspoon</a></p>
+<doc-anchor-target id="submodules">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
+        <span>Submodules</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="../hs.webview.datastore/">hs.webview.datastore</a></li>
+<li><a href="../hs.webview.toolbar/">hs.webview.toolbar</a></li>
+<li><a href="../hs.webview.usercontent/">hs.webview.usercontent</a></li>
+</ul>
+<doc-anchor-target id="api-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
+        <span>API Overview</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Deprecateds - API features which will be removed in an future release</li>
+<li><doc-anchor-trigger to="#asHSDrawing">asHSDrawing</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#asHSWindow">asHSWindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setLevel">setLevel</doc-anchor-trigger></li>
+<li>Constants - Useful values which cannot be changed</li>
+<li><doc-anchor-trigger to="#certificateOIDs">certificateOIDs</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#windowMasks">windowMasks</doc-anchor-trigger></li>
+<li>Functions - API calls offered directly by the extension</li>
+<li><doc-anchor-trigger to="#titleVisibility">titleVisibility</doc-anchor-trigger></li>
+<li>Constructors - API calls which return an object, typically one that offers API methods</li>
+<li><doc-anchor-trigger to="#new">new</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#newBrowser">newBrowser</doc-anchor-trigger></li>
+<li>Methods - API calls which can only be made on an object returned by a constructor</li>
+<li><doc-anchor-trigger to="#allowGestures">allowGestures</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allowMagnificationGestures">allowMagnificationGestures</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allowNavigationGestures">allowNavigationGestures</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allowNewWindows">allowNewWindows</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allowTextEntry">allowTextEntry</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#alpha">alpha</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#attachedToolbar">attachedToolbar</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#behavior">behavior</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#behaviorAsLabels">behaviorAsLabels</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#bringToFront">bringToFront</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#certificateChain">certificateChain</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#children">children</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#closeOnEscape">closeOnEscape</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#darkMode">darkMode</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#deleteOnClose">deleteOnClose</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#estimatedProgress">estimatedProgress</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#evaluateJavaScript">evaluateJavaScript</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#examineInvalidCertificates">examineInvalidCertificates</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#frame">frame</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#goBack">goBack</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#goForward">goForward</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#hide">hide</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#historyList">historyList</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#hswindow">hswindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#html">html</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isOnlySecureContent">isOnlySecureContent</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isVisible">isVisible</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#level">level</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#loading">loading</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#magnification">magnification</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#navigationCallback">navigationCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#navigationID">navigationID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#orderAbove">orderAbove</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#orderBelow">orderBelow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#parent">parent</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#policyCallback">policyCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#privateBrowsing">privateBrowsing</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#reload">reload</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#sendToBack">sendToBack</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#shadow">shadow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#show">show</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#size">size</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#sslCallback">sslCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#stopLoading">stopLoading</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#title">title</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#topLeft">topLeft</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#transparent">transparent</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#url">url</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#urlParts">urlParts</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#userAgent">userAgent</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#windowCallback">windowCallback</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#windowStyle">windowStyle</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#windowTitle">windowTitle</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="deprecateds">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deprecateds">#</doc-anchor-trigger>
+        <span>Deprecateds</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#asHSDrawing">asHSDrawing</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:asHSDrawing() -&gt; hs.drawing object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Deprecated</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Because use of this method can easily lead to a crash, useful methods from <code v-pre>hs.drawing</code> have been added to the <code v-pre>hs.webview</code> module itself.  If you believe that a useful method has been overlooked, please submit an issue.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a placeholder object</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#asHSWindow">asHSWindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:asHSWindow() -&gt; hs.window object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Deprecated</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an hs.window object for the webview so that you can use hs.window methods on it.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setLevel">setLevel</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:setLevel(theLevel) -&gt; drawingObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Deprecated</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Deprecated; you should use <doc-anchor-trigger to="#level">hs.webview:level</doc-anchor-trigger> instead.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>theLevel</code> - the level specified as a number, which can be obtained from <code v-pre>hs.drawing.windowLevels</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>see the notes for <code v-pre>hs.drawing.windowLevels</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="constants">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
+        <span>Constants</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#certificateOIDs">certificateOIDs</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview.certificateOIDs[]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table of common OID values found in SSL certificates.  SSL certificates provided to the callback function for <doc-anchor-trigger to="#sslCallback">hs.webview:sslCallback</doc-anchor-trigger> or in the results of <doc-anchor-trigger to="#certificateChain">hs.webview:certificateChain</doc-anchor-trigger> use OID strings as the keys which describe the properties of the certificate and this table can be used to get a more common name for the keys you are most likely to see.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#windowMasks">windowMasks</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview.windowMasks[]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table containing valid masks for the webview window.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="functions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
+        <span>Functions</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#titleVisibility">titleVisibility</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:titleVisibility([state]) -&gt; webviewObject | string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the title text appears in the webview window.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>state</code> - an optional string containing the text &quot;visible&quot; or &quot;hidden&quot;, specifying whether or not the webview&#x27;s title text appears when webview&#x27;s window style includes &quot;titled&quot;.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a value is provided, returns the webview object; otherwise returns the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>See also <doc-anchor-trigger to="#windowStyle">hs.webview:windowStyle</doc-anchor-trigger> and <doc-anchor-trigger to="#windowMasks">hs.webview.windowMasks</doc-anchor-trigger>.</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window&#x27;s title (&quot;visible&quot;) or in the window&#x27;s title bar itself, as seen in applications like Safari (&quot;hidden&quot;). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with <code v-pre>hs.webview.toolbar:displayMode</code>.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with <code v-pre>hs.webview:attachedToolbar():inTitleBar(boolean)</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="constructors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
+        <span>Constructors</span>
+    </h3>
+</doc-anchor-target>
+<p>| <doc-anchor-trigger to="#new">new</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview.new(rect, [preferencesTable], [userContentController]) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Constructor                                                                     |
+| <strong>Description</strong>                             | Create a webviewObject and optionally modify its preferences.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>rect</code> - a rectangle specifying where the webviewObject should be displayed.</li><li><code v-pre>preferencesTable</code> - an optional table which can include one of more of the following keys:
+<code v-pre>javaScriptEnabled</code>                     - JavaScript is enabled (default true)
+<code v-pre>javaScriptCanOpenWindowsAutomatically</code> - can JavaScript open windows without user intervention (default true)
+<code v-pre>minimumFontSize</code>                       - minimum font size (default 0.0)
+<code v-pre>developerExtrasEnabled</code>                - include &quot;Inspect Element&quot; in the context menu
+<code v-pre>suppressesIncrementalRendering</code>        - suppresses content rendering until fully loaded into memory (default false)
+The following additional preferences may also be set under OS X 10.11 or later (they will be ignored with a warning printed if used under OS X 10.10):<code v-pre>applicationName</code>                       - a string specifying an application name to be listed at the end of the browser&#x27;s USER-AGENT header.  Note that this is only appended to the default user agent string; if you set a custom one with <doc-anchor-trigger to="#userAgent">hs.webview:userAgent</doc-anchor-trigger>, this value is ignored.<code v-pre>allowsAirPlay</code>                         - a boolean specifying whether media playback within the webview can play through AirPlay devices.<code v-pre>datastore</code>                             - an <code v-pre>hs.webview.datastore</code> object specifying where website data such as cookies, cacheable content, etc. is to be stored.<code v-pre>privateBrowsing</code>                       - a boolean (default false) specifying that the datastore should be set to a new, empty and non-persistent datastore.  Note that this will override the <code v-pre>datastore</code> key if both are specified and this is set to true.</li><li><code v-pre>userContentController</code> - an optional <code v-pre>hs.webview.usercontent</code> object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>To set the initial URL, use the <code v-pre>hs.webview:url</code> method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple&#x27;s documentation, but is included in the WebKit2 documentation.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#newBrowser">newBrowser</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview.newBrowser(rect, [preferencesTable], [userContentController]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Create a webviewObject with some presets common to an interactive web browser.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>rect</code>                  - a rectangle specifying where the webviewObject should be displayed.</li><li><code v-pre>preferencesTable</code>      - an optional table which specifies special settings for the webview object.</li><li><code v-pre>userContentController</code> - an optional <code v-pre>hs.webview.usercontent</code> object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The parameters are the same as for <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> -- check there for more details</li><li>This constructor is just a short-hand for <code v-pre>hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)</code>, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> and the following for more details:</li><li> <doc-anchor-trigger to="#allowGestures">hs.webview:allowGestures</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#allowTextEntry">hs.webview:allowTextEntry</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#windowStyle">hs.webview:windowStyle</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#windowMasks">hs.webview.windowMasks</doc-anchor-trigger></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="methods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
+        <span>Methods</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowGestures">allowGestures</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:allowGestures([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview will respond to gestures from a trackpad or magic mouse.  Default is false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>value - an optional boolean value indicating whether or not the webview should respond gestures.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This is a shorthand method for getting or setting both <code v-pre>hs.webview:allowMagnificationGestures</code> and <code v-pre>hs.webview:allowNavigationGestures</code>.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if <em>both</em> gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowMagnificationGestures">allowMagnificationGestures</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:allowMagnificationGestures([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview will respond to magnification gestures from a trackpad or magic mouse.  Default is false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value indicating whether or not the webview should respond to magnification gestures.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowNavigationGestures">allowNavigationGestures</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:allowNavigationGestures([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview will respond to the navigation gestures from a trackpad or magic mouse.  Default is false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value indicating whether or not the webview should respond to navigation gestures.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowNewWindows">allowNewWindows</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:allowNewWindows([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview allows new windows to be opened from it by any method.  Defaults to true.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value indicating whether or not the webview should allow new windows to be opened from it.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting &quot;Open in a New Window&quot;, JavaScript pop-ups, links with the target of &quot;__blank&quot;, etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks <em>all</em> methods.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allowTextEntry">allowTextEntry</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:allowTextEntry([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview can accept keyboard for web form entry. Defaults to false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value which sets whether or not the webview will accept keyboard input.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#alpha">alpha</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:alpha([alpha]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the alpha level of the window containing the hs.webview object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>alpha</code> - an optional number between 0.0 and 1.0 specifying the new alpha level for the webview.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a parameter is provided, returns the webview object; otherwise returns the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#attachedToolbar">attachedToolbar</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:attachedToolbar([toolbar]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or attach/detach a toolbar to/from the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>toolbar</code> - if an <code v-pre>hs.webview.toolbar</code> object is specified, it will be attached to the webview.  If an explicit nil is specified, the current toolbar will be removed from the webview.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a toolbarObject or explicit nil is specified, returns the webviewObject; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the webview.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>this method is a convenience wrapper for the <code v-pre>hs.webview.toolbar.attachToolbar</code> function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see <code v-pre>hs.webview.toolbar:copy</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#behavior">behavior</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:behavior([behavior]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the window behavior settings for the webview object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>behavior</code> - an optional number representing the desired window behaviors for the webview object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See <code v-pre>hs.drawing.windowBehaviors</code> for more information.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#behaviorAsLabels">behaviorAsLabels</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:behaviorAsLabels(behaviorTable) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the window behavior settings for the webview object using labels defined in <code v-pre>hs.drawing.windowBehaviors</code>.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>behaviorTable - an optional table of strings and/or numbers specifying the desired window behavior for the webview object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See <code v-pre>hs.drawing.windowBehaviors</code> for more information.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#bringToFront">bringToFront</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:bringToFront([aboveEverything]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Places the drawing object on top of normal windows</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>aboveEverything</code> - An optional boolean value that controls how far to the front the webview should be placed. True to place the webview on top of all windows (including the dock and menubar and fullscreen windows), false to place the webview above normal windows, but below the dock, menubar and fullscreen windows. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#certificateChain">certificateChain</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:certificateChain() -&gt; table | nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the certificate chain for the most recently committed navigation of the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing the certificates that make up the SSL certificate chain securing the most recent committed navigation.  Each certificate is described in a table with the following keys:</li><li>  <code v-pre>commonName</code> - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate&#x27;s purpose.</li><li>  <code v-pre>values</code>     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in <doc-anchor-trigger to="#certificateOIDs">hs.webview.certificateOIDs</doc-anchor-trigger>. The value for each key will be a table with the following keys:</li><li>    <code v-pre>label</code>           - a description or label for the entry</li><li>    <code v-pre>localized label</code> - a localized version of <code v-pre>label</code></li><li>    <code v-pre>type</code>            - a description of the data type for this value</li><li>    <code v-pre>value</code>           - the value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of &quot;date&quot; -- e.g. &quot;2.5.29.24&quot; (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua <code v-pre>os.date</code> command.</li><li>For OIDs which are known to represent a date, but specify its type as a &quot;number&quot; -- e.g. &quot;2.16.840.1.113741.2.1.1.1.7&quot; (X509V1ValidityNotAfter) or &quot;2.16.840.1.113741.2.1.1.1.6&quot; (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  <code v-pre>os.date(&quot;%c&quot;, value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#children">children</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:children() -&gt; array</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an array of webview objects which have been opened as children of this webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an array containing the webview objects of all child windows opened from this webview.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#closeOnEscape">closeOnEscape</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:closeOnEscape([flag]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>If the webview is closable, this will get or set whether or not the Escape key is allowed to close the webview window.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>flag</code> - an optional boolean value which indicates whether a webview, when it&#x27;s style includes Closable (see <code v-pre>hs.webview:windowStyle</code>), should allow the Escape key to be a shortcut for closing the webview window.  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#darkMode">darkMode</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:darkMode([state]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Set or display whether or not the <code v-pre>hs.webview</code> window should display in dark mode.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>state</code> - an optional boolean which will set whether or not the <code v-pre>hs.webview</code> window should display in dark mode.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, <code v-pre>true</code> if dark mode is enabled otherwise <code v-pre>false</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:delete([propagate], [fadeOutTime]) -&gt; none</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Destroys the webview object, optionally fading it out first (if currently visible).</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>propagate</code>   - an optional boolean, default false, which indicates whether or not the child windows of this webview should also be deleted.</li><li><code v-pre>fadeOutTime</code> - an optional number of seconds over which to fade out the webview object. Defaults to zero.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#deleteOnClose">deleteOnClose</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:deleteOnClose([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview should delete itself when its window is closed.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value which sets whether or not the webview will delete itself when its window is closed by any method.  Defaults to false for a window created with <code v-pre>hs.webview.new</code> and true for any webview windows created by the main webview (user selects &quot;Open Link in New Window&quot;, etc.)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see <code v-pre>hs.webview.windowStyle</code>).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the &quot;newWindow&quot; action.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#estimatedProgress">estimatedProgress</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:estimatedProgress() -&gt; number</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the estimated percentage of expected content that has been loaded.  Will equal 1.0 when all content has been loaded.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a numerical value between 0.0 and 1.0 indicating the percentage of expected content which has been loaded.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#evaluateJavaScript">evaluateJavaScript</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:evaluateJavaScript(script, [callback]) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Execute JavaScript within the context of the current webview and optionally receive its result or error in a callback function.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>script</code> - the JavaScript to execute within the context of the current webview&#x27;s display</li><li><code v-pre>callback</code> - an optional function which should accept two parameters as the result of the executed JavaScript.  The function parameters are as follows:
+<code v-pre>result</code> - the result of the executed JavaScript code or nil if there was no result or an error occurred.
+<code v-pre>error</code>  - an NSError table describing any error that occurred during the JavaScript execution or nil if no error occurred.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>the webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#examineInvalidCertificates">examineInvalidCertificates</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:examineInvalidCertificates([flag]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not invalid SSL server certificates that are approved by the ssl callback function are accepted as valid for browsing with the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>flag</code> - an optional boolean, default false, specifying whether or not an invalid SSL server certificate should be  accepted if it is approved by the ssl callback function.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>In order for this setting to have any effect, you must also register an ssl callback function with <doc-anchor-trigger to="#sslCallback">hs.webview:sslCallback</doc-anchor-trigger> which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback <em>must</em> be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate&#x27;s common name is <a href="http://www.site.com">www.site.com</a>, but it is being used for something else, possibly just <a href="https://site.com">https://site.com</a>, possibly something else entirely</li><li>  some corporate proxy servers don&#x27;t handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by <code v-pre>hs.httpserver</code> uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#frame">frame</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:frame([rect]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the frame of the webview window.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>rect - An optional rect-table containing the co-ordinates and size the webview window should be moved and set to</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys <code v-pre>x</code>  and <code v-pre>y</code>) and the new size (keys <code v-pre>h</code> and <code v-pre>w</code>).  The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#goBack">goBack</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:goBack() -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Move to the previous page in the webview&#x27;s history, if possible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview Object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#goForward">goForward</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:goForward() -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Move to the next page in the webview&#x27;s history, if possible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview Object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#hide">hide</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:hide([fadeOutTime]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Hides the webview object</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>fadeOutTime</code> - An optional number of seconds over which to fade out the webview. Defaults to zero</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#historyList">historyList</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:historyList() -&gt; historyTable</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the URL history for the current webview as an array.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table which is an array of the URLs viewed within this webview and a key named <code v-pre>current</code> which is equal to the index corresponding to the currently visible entry.  Each array element will be a table with the following keys:</li><li>  <code v-pre>URL</code>        - the URL of the web page</li><li>  <code v-pre>initialURL</code> - the URL of the initial request that led to this item</li><li>  <code v-pre>title</code>      - the web page title</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#hswindow">hswindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:hswindow() -&gt; hs.window object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an hs.window object for the webview so that you can use hs.window methods on it.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an hs.window object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>hs.window:minimize only works if the webview is minimizable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:setSize only works if the webview is resizable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:close only works if the webview is closable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see <code v-pre>hs.webview.windowStyle</code>)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#html">html</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:html(html,[baseURL]) -&gt; webviewObject, navigationIdentifier</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Render the given HTML in the webview with an optional base URL for relative links.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>html</code>    - the html to be rendered in the webview</li><li><code v-pre>baseURL</code> - an optional Base URL to use as the starting point for any relative links within the provided html.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview Object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isOnlySecureContent">isOnlySecureContent</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:isOnlySecureContent() -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a boolean value indicating if all content current displayed in the webview was loaded over securely encrypted connections.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>true if all content current displayed in the web view was loaded over securely encrypted connections; otherwise false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isVisible">isVisible</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:isVisible() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks to see if a webview window is visible or not.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li><code v-pre>true</code> if the webview window is visible, otherwise <code v-pre>false</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#level">level</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:level([theLevel]) -&gt; drawingObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the window level</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>theLevel</code> - an optional parameter specifying the desired level as an integer, which can be obtained from <code v-pre>hs.drawing.windowLevels</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a parameter is specified, returns the webview object, otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>see the notes for <code v-pre>hs.drawing.windowLevels</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#loading">loading</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:loading() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a boolean value indicating whether or not the webview is still loading content.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>true if the content is still being loaded, or false if it has completed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#magnification">magnification</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:magnification([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the webviews current magnification level. Default is 1.0.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional number specifying the webviews magnification level.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#navigationCallback">navigationCallback</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:navigationCallback(fn) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Sets a callback for tracking a webview&#x27;s navigation process.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>fn</code> - the function to be called when the navigation status of a webview changes.  To disable the callback function, explicitly specify nil.  The function should expect 3 or 4 arguments and may optionally return 1.  The function arguments are defined as follows:
+<code v-pre>action</code>  - a string indicating the webview&#x27;s current status.  It will be one of the following:<code v-pre>didStartProvisionalNavigation</code>                    - a request or action to change the contents of the main frame has occurred<code v-pre>didReceiveServerRedirectForProvisionalNavigation</code> - a server redirect was received for the main frame<code v-pre>didCommitNavigation</code>                              - content has started arriving for the main frame<code v-pre>didFinishNavigation</code>                              - the webview&#x27;s main frame has completed loading.<code v-pre>didFailNavigation</code>                                - an error has occurred after content started arriving<code v-pre>didFailProvisionalNavigation</code>                     - an error has occurred as or before content has started arriving
+<code v-pre>webView</code> - the webview object the navigation is occurring for.
+<code v-pre>navID</code>   - a navigation identifier which can be used to link this event back to a specific request made by a <code v-pre>hs.webview:url</code>, <code v-pre>hs.webview:html</code>, or <code v-pre>hs.webview:reload</code> method.
+<code v-pre>error</code>   - a table which will only be provided when <code v-pre>action</code> is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If provided, it will contain at leas some of the following keys, possibly others as well:<code v-pre>code</code>        - a numerical value indicating the type of error code.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>domain</code>      - a string indicating the error domain of the error.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>description</code> - a string describing the condition or problem that has occurred.<code v-pre>reason</code>      - if available, more information about what may have caused the problem to occur.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>The return value of the callback function is ignored except when the <code v-pre>action</code> argument is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#navigationID">navigationID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:navigationID() -&gt; navigationID</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get the most recent navigation identifier for the specified webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the navigation identifier</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see <code v-pre>hs.webview.navigationCallback</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#orderAbove">orderAbove</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:orderAbove([webview2]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Moves webview object above webview2, or all webview objects in the same presentation level, if webview2 is not given.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>webview2</code> -An optional webview object to place the webview object above.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.webview.level</doc-anchor-trigger>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#orderBelow">orderBelow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:orderBelow([webview2]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Moves webview object below webview2, or all webview objects in the same presentation level, if webview2 is not given.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>webview2</code> -An optional webview object to place the webview object below.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.webview.level</doc-anchor-trigger>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#parent">parent</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:parent() -&gt; webviewObject | nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get the parent webview object for the calling webview object, or nil if the webview has no parent.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the parent webview object for the calling webview object, or nil if the webview has no parent</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#policyCallback">policyCallback</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:policyCallback(fn) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Sets a callback to approve or deny web navigation activity.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>fn</code> - the function to be called to approve or deny web navigation activity.  To disable the callback function, explicitly specify nil.  The callback function will accept three or four arguments and must return 1 argument which will determine if the action is approved or denied.  The first argument will specify the type of policy request and will determine the second and third arguments as follows:
+<code v-pre>navigationAction</code>: This applies to any connection to a server or service which supplies content for the webview and occurs before any connection has actually been made.the second argument will be the webview this request originates from.the third argument will be a table about the navigation action requested and may contain any of the following keys:<code v-pre>request</code>        - a table containing the request for that generated this policy action request.  See <code v-pre>hs.webview.url</code> for details on what keys may be present in this table.<code v-pre>sourceFrame</code>    - a table describing the frame in which the request occurred containing the following keys:<code v-pre>mainFrame</code>      - a boolean value indicating if this is the main view frame of the webview or not<code v-pre>request</code>        - a table containing the request for this frame.  See <code v-pre>hs.webview.url</code> for details on what keys may be present in this table.<code v-pre>targetFrame</code>    - a table with the same keys as <code v-pre>sourceFrame</code>, but describing the target of the request, if it differs.<code v-pre>buttonNumber</code>   - a number indicating the mouse button pressed that initiated this action or 0 if no mouse button was involved (for example, a url specified via <code v-pre>hs.webview.url</code> or a request for an image, etc. as part of rendering an earlier request).<code v-pre>modifierFlags</code>  - a table containing keys for the keyboard modifiers which were pressed when the navigation generating this policy request was generated.<code v-pre>navigationType</code> - a string indicating how the navigation was requested: <code v-pre>linkActivated</code>, <code v-pre>formSubmitted</code>, <code v-pre>backForward</code>, <code v-pre>reload</code>, <code v-pre>formResubmitted</code>, or <code v-pre>other</code>
+The callback function should return <code v-pre>true</code> if the navigation should proceed or false if it should be denied.
+<code v-pre>navigationResponse</code>: This applies to any connection to a server or service which supplies content for the webview and occurs after the connection has been made but before it has been rendered in the webview.the second argument will be the webview this request originates from.the third argument will be a table about the response received and may contain any of the following keys:<code v-pre>canShowMIMEType</code> - a boolean indicating whether or not the webview can display the content either natively or with a plugin.  If this value is false, it is likely the content either cannot be displayed at all or will appear as gibberish in the webview.<code v-pre>forMainFrame</code>    - a boolean indicating if the response is for a navigation of the main frames primary content (i.e. not an image or sub-frame, etc.)<code v-pre>response</code>        - a table describing the response to the URL request and may contain any of the following keys:<code v-pre>expectedContentLength</code> - the expected length of the response content<code v-pre>suggestedFileName</code>     - a suggested filename for the response data<code v-pre>MIMEType</code>              - the MIME type of the response data<code v-pre>textEncodingName</code>      - if the response is text, then this will contain the encoding type used<code v-pre>URL</code>                   - the URL of the actual response.  Note that this may differ from the original request due to redirects, etc.<code v-pre>statusCode</code>            - the HTTP response code for the request<code v-pre>statusCodeDescription</code> - a localized description of the response code<code v-pre>allHeaderFields</code>       - a table containing the header fields and values provided in the response
+The callback function should return <code v-pre>true</code> if the navigation should proceed or false if it should be denied.
+<code v-pre>newWindow</code>: This applies to any request to create a new window from a webview.  This includes JavaScript, the user selecting &quot;Open in a new window&quot;, etc.the second argument will be the new webview this request is generating.the third argument will be a table about the navigation action requested.  See the description above for <code v-pre>navigationAction</code> for details about this parameter.the fourth argument will be a table containing features requested for the new window (none of these will be addressed by default -- you can choose to honor or disregard the feature requests in the callback yourself) and may contain any of the following keys:<code v-pre>menuBarVisibility</code>   - Whether the menu bar should be visible. (Not a feature provided for windows under OS X)<code v-pre>statusBarVisibility</code> - Whether the status bar should be visible. (Not currently supported by this module)<code v-pre>toolbarsVisibility</code>  - Whether toolbars should be visible.<code v-pre>allowsResizing</code>      - Whether the new window should be resizable.<code v-pre>x</code>                   - The x coordinate of the new window.<code v-pre>y</code>                   - The y coordinate of the new window.<code v-pre>h</code>                   - The height coordinate of the new window.<code v-pre>w</code>                   - The width coordinate of the new window.
+The callback function should return <code v-pre>true</code> if the new window should be created or false if it should not.
+<code v-pre>authenticationChallenge</code>:  This applies to a web page which requires a log in credential for HTTPBasic or HTTPDigest authentication.the second argument will be the webview this request originates from.the third argument will be a table containing the challenge details and may contain any of the following keys:<code v-pre>previousFailureCount</code> - an integer indicating the number of previously failed login attempts.  This will be 0 for the first try.<code v-pre>failureResponse</code>      - the response data as described for <code v-pre>navigationResponse</code> above for the last authentication failureResponse<code v-pre>proposedCredential</code>   - a table containing the previously failed credential containing any of the following keys:<code v-pre>hasPassword</code>          - a boolean value indicating if a password was provided with this credential<code v-pre>persistence</code>          - a string value identifying the persistence of this credential.  This value will be one of the following:None                 - the credential is for this URL request only and no other<code v-pre>session</code>              - the credential is for this session and will be forgotten once the webview is deleted<code v-pre>permanent</code>            - the credential is stored in the user&#x27;s keychain<code v-pre>synchronized</code>         - the credential is stored in the user&#x27;s keychain and may be shared with other devices with the same owning Apple ID.<code v-pre>user</code>                 - the username of the failed credential<code v-pre>password</code>             - the password of the failed credential<code v-pre>protectionSpace</code>      - a table describing the realm for the authentication and may contain any of the following keys:<code v-pre>port</code>                       - the port of the server with which communication for this request is occurring<code v-pre>receivesCredentialSecurely</code> - a boolean value indicating whether or not the credential can be sent to the server securely<code v-pre>authenticationMethod</code>       - a string indicating the authentication type: default, HTTPBasic, or HTTPDigest.  Other types exists but are not currently supported with this module or do not apply to webview activities.<code v-pre>host</code>                       - the host name of the server with which communication for this request is occurring<code v-pre>protocol</code>                   - the protocol for which the authentication is occurring<code v-pre>isProxy</code>                    - a boolean indicating whether or not the authentication is occurring with a proxy server<code v-pre>proxyType</code>                  - a string representing the type of proxy server: http, https, ftp, or socks.<code v-pre>realm</code>                      - a string representing the realm name for the authentication.
+The callback function should return true if the user should be prompted for the username and password credentials, a table with the keys <code v-pre>user</code> and <code v-pre>password</code> containing the username and password to log in with, or false if the login request should be cancelled.  Note that if your function returns a table and fails to authenticate three times, the user will be prompted anyways to prevent loops.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>With the <code v-pre>newWindow</code> action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#privateBrowsing">privateBrowsing</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:privateBrowsing() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns whether or not the webview browser is set up for private browsing (i.e. uses a non-persistent datastore)</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a boolean value indicating whether or not the datastore is non-persistent.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See <code v-pre>hs.webview.datastore</code> and <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> for more information.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#reload">reload</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:reload([validate]) -&gt; webviewObject, navigationIdentifier</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Reload the page in the webview, optionally performing end-to-end revalidation using cache-validating conditionals if possible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>validate</code> - an optional boolean indicating whether or not an attempt to perform end-to-end revalidation of cached data should be performed.  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview Object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#sendToBack">sendToBack</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:sendToBack() -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Places the webview object behind normal windows, between the desktop wallpaper and desktop icons</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The drawing object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#shadow">shadow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:shadow([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview window has shadows. Default to false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value indicating whether or not the webview should have shadows.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#show">show</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:show([fadeInTime]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Displays the webview object</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>fadeInTime</code> - An optional number of seconds over which to fade in the webview. Defaults to zero</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#size">size</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:size([size]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the size of a webview window</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>size</code> - An optional size-table specifying the width and height the webview window should be resized to</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>a size-table is a table with key-value pairs specifying the size (keys <code v-pre>h</code> and <code v-pre>w</code>) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#sslCallback">sslCallback</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:sslCallback(fn) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Sets a callback to examine an invalid SSL certificate and determine if an exception should be granted.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>fn</code> - the function to be called to examine the SSL certificate to determine if an exception should be granted.  To disable the callback function, explicitly specify nil.  The callback function will accept two arguments and must return 1 argument which will determine if the action is approved or denied.  The first argument will be the webview this request originates from.  The second argument will be a table containing the protection space details and may include the following keys:
+<code v-pre>port</code>                       - the port of the server with which communication for this request is occurring
+<code v-pre>receivesCredentialSecurely</code> - a boolean value indicating whether or not the credential can be sent to the server securely
+<code v-pre>authenticationMethod</code>       - a string indicating the authentication type, in this case &quot;serverTrust&quot;.
+<code v-pre>host</code>                       - the host name of the server with which communication for this request is occurring
+<code v-pre>protocol</code>                   - the protocol for which the authentication is occurring
+<code v-pre>isProxy</code>                    - a boolean indicating whether or not the authentication is occurring with a proxy server
+<code v-pre>proxyType</code>                  - a string representing the type of proxy server: http, https, ftp, or socks.
+<code v-pre>realm</code>                      - a string representing the realm name for the authentication.
+<code v-pre>certificates</code> - an array of tables, each table describing a certificate in the SSL certificate chain provided by the server responding to the webview&#x27;s request.  Each table will contain the following keys:<code v-pre>commonName</code> - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate&#x27;s purpose.<code v-pre>values</code>     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in <doc-anchor-trigger to="#certificateOIDs">hs.webview.certificateOIDs</doc-anchor-trigger>. The value for each key will be a table with the following keys:<code v-pre>label</code>           - a description or label for the entry<code v-pre>localized label</code> - a localized version of <code v-pre>label``type</code>            - a description of the data type for this value<code v-pre>value</code>           - the value</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns <code v-pre>true</code>, the certificate will only be granted an exception if <doc-anchor-trigger to="#examineInvalidCertificates">hs.webview:examineInvalidCertificates</doc-anchor-trigger> has also been set to <code v-pre>true</code>.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#stopLoading">stopLoading</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:stopLoading() -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Stop loading additional content for the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if <doc-anchor-trigger to="#loading">hs.webview:loading</doc-anchor-trigger> would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#title">title</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:title() -&gt; title</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get the title of the page displayed in the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the title</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#topLeft">topLeft</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:topLeft([point]) -&gt; webviewObject | currentValue</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the top-left coordinate of the webview window</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>point</code> - An optional point-table specifying the new coordinate the top-left of the webview window should be moved to</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys <code v-pre>x</code>  and <code v-pre>y</code>). The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#transparent">transparent</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:transparent([value]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether or not the webview background is transparent.  Default is false.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>value</code> - an optional boolean value indicating whether or not the webview should be transparent.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>When enabled, the webview&#x27;s background color is equal to the body&#x27;s <code v-pre>background-color</code> (transparent by default)</li><li>Setting <code v-pre>background-color:rgba(0, 225, 0, 0.3)</code> on <code v-pre>&lt;body&gt;</code> will give a translucent green webview background</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#url">url</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:url([URL]) -&gt; webviewObject, navigationIdentifier | url</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Get or set the URL to render for the webview.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>URL</code> - an optional string or table representing the URL to display.  If you provide a table, it should contain one or more of the following keys (note that URL is the only required key):
+<code v-pre>URL</code>                     - the URL of the desired content
+<code v-pre>mainDocumentURL</code>         - the URL of the main document, if it differs.  This usually only matters for cookie negotiation and currently has no effect in this module.
+<code v-pre>HTTPBody</code>                - the message body of the request, as in an HTTP POST request
+<code v-pre>HTTPMethod</code>              - the HTTP Method of the request, default GET.
+<code v-pre>timeoutInterval</code>         - the timeout interval for the request in seconds, default 60.0.
+<code v-pre>HTTPShouldHandleCookies</code> - whether or not cookies should be managed automatically, default true.  Currently there is no support for the manual handling of cookies, though this may change in the future.
+<code v-pre>HTTPShouldUsePipelining</code> - whether or not the request can continue to transmit data before receiving a response from the remote server.  Default false.
+<code v-pre>cachePolicy</code>             - a string value representing the cache policy for the request.  It should match one of the following:<code v-pre>protocolCachePolicy</code>     - (default) the cache policy defined as the default for the protocol of the URL request<code v-pre>ignoreLocalCache</code>        - ignore any locally cached content and request all content from the remote server<code v-pre>returnCacheOrLoad</code>       - return cached data, regardless of its age or expiration date. If there is no existing data in the cache corresponding to the request, load data from the originating source.<code v-pre>returnCacheDontLoad</code>     - treat the request as if offline - return cached data, regardless of its age or expiration date. If there is no existing data in the cache corresponding to the request, the load is considered to have failed.
+<code v-pre>networkServiceType</code>      - a string value representing the network service type of the request.  It should match one of the following:<code v-pre>default</code>                 - (default) standard network traffic.  You should rarely use a value other than this as it can affect the responsiveness of your computer and other applications.<code v-pre>VoIP</code>                    - with the VoIP service type, the kernel continues to listen for incoming traffic while your app is in the background, then wakes up your app whenever new data arrives. This should be used only for connections that are used to communicate with a VoIP service.<code v-pre>video</code>                   - specifies that this is video traffic<code v-pre>background</code>              - use this for data if your are performing a download that was not requested by the user — for example, prefetching content so that it will be available when the user chooses to view it.<code v-pre>voice</code>                   - specifies that this is voice traffic
+<code v-pre>HTTPHeaderFields</code>        - a table containing key-value pairs corresponding to additional headers you wish to include in your request.  Because the HTTP specification requires that both keys and values are strings, any key which is not a string is ignored, and any value which is not a string or number is also ignored.  In addition, the following keys are handled automatically behind the scenes and will be ignored if you specify them:<code v-pre>Authorization``Connection``Host``WWW-Authenticate``Content-Length</code></li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system&#x27;s ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#urlParts">urlParts</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:urlParts() -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a table of keys containing the individual components of the URL for the webview.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing the keys for the webview&#x27;s URL.  See the function <code v-pre>hs.http.urlParts</code> for a description of the possible keys returned in the table.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is a wrapper to the <code v-pre>hs.http.urlParts</code> function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the <code v-pre>hs.httpserver.hsminweb.urlParts</code> function for a version more consistent with RFC 3986.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#userAgent">userAgent</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:userAgent([agent]) -&gt; webviewObject | current value</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set the webview&#x27;s user agent string</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>agent</code> - an options string specifying the user agent string to include in all URL requests made by the webview object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a parameter is specified, returns the webviewObject, otherwise returns the current value</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)&quot;</li><li>By default, this method will return the empty string (&quot;&quot;) when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to &quot;&quot; with this method (e.g. <code v-pre>hs.webview:userAgent(&quot;&quot;)</code>).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at <a href="http://www.useragentstring.com/pages/useragentstring.php">http://www.useragentstring.com/pages/useragentstring.php</a>.</li><li></li><li>If you have set the user agent application name with the <code v-pre>applicationName</code> parameter to the <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> constructor, it will be ignored unless this value is &quot;&quot;, i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#windowCallback">windowCallback</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:windowCallback(fn) -&gt; webviewObject</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Set or clear a callback for updates to the webview window                                                                     |
+| <strong>Parameters</strong>                              | <ul><li><code v-pre>fn</code> - the function to be called when the webview window is moved or closed. Specify an explicit nil to clear the current callback.  The function should expect 2 or 3 arguments and return none.  The arguments will be one of the following:
+&quot;closing&quot;, webview - specifies that the webview window is being closed, either by the user or with the <doc-anchor-trigger to="#delete">hs.webview:delete</doc-anchor-trigger> method.<code v-pre>action</code>  - in this case &quot;closing&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed
+&quot;focusChange&quot;, webview, state - indicates that the webview window has either become or stopped being the focused window<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>state</code>   - a boolean, true if the webview has become the focused window, or false if it has lost focus
+&quot;frameChange&quot;, webview, frame - indicates that the webview window has been moved or resized<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>frame</code>   - a rect-table containing the new co-ordinates and size of the webview window</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<p>| <doc-anchor-trigger to="#windowStyle">windowStyle</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.webview:windowStyle(mask) -&gt; webviewObject | currentMask</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Get or set the window display style                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>mask - if present, this mask should be a combination of values found in <code v-pre>hs.webview.windowMasks</code> describing the window style.  The mask should be provided as one of the following:
+integer - a number representing the style which can be created by combining values found in <code v-pre>hs.webview.windowMasks</code> with the logical or operator.
+string  - a single key from <code v-pre>hs.webview.windowMasks</code> which will be toggled in the current window style.
+table   - a list of keys from <code v-pre>hs.webview.windowMasks</code> which will be combined to make the final style by combining their values with the logical or operator.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#windowTitle">windowTitle</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.webview:windowTitle([title]) -&gt; webviewObject</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Sets the title for the webview window.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>title</code> - if specified and not nil, the title to set for the webview window.  If this parameter is not present or is nil, the title will follow the title of the webview&#x27;s content.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The webview Object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The title will be hidden unless the window style includes the &quot;titled&quot; style (see <code v-pre>hs.webview.windowStyle</code> and <code v-pre>hs.webview.windowMasks</code>)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "docs » hs.webview", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739541926890">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>Hammerspoon API</title>
+    <meta name="title" content="Hammerspoon API">
+    <meta name="description" content="Module" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-reference/hs/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-reference/hs/">
+    <meta property="og:title" content="Hammerspoon API">
+    <meta property="og:description" content="Module">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-reference/hs/">
+    <meta property="twitter:title" content="Hammerspoon API">
+    <meta property="twitter:description" content="Module">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=3.0.3.739541926890" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739541926890" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="hammerspoon-api" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hammerspoon-api">#</doc-anchor-trigger>
+        <span>Hammerspoon API</span>
+    </h1>
+</doc-anchor-target>
+<hr />
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="hs/">hs</a></td>
+<td>Core Hammerspoon functionality</td>
+</tr>
+<tr>
+<td><a href="hs.alert/">hs.alert</a></td>
+<td>Simple on-screen alerts</td>
+</tr>
+<tr>
+<td><a href="hs.appfinder/">hs.appfinder</a></td>
+<td>Easily find <code v-pre>hs.application</code> and <code v-pre>hs.window</code> objects</td>
+</tr>
+<tr>
+<td><a href="hs.applescript/">hs.applescript</a></td>
+<td>Execute AppleScript code</td>
+</tr>
+<tr>
+<td><a href="hs.application/">hs.application</a></td>
+<td>Manipulate running applications</td>
+</tr>
+<tr>
+<td><a href="hs.application.watcher/">hs.application.watcher</a></td>
+<td>Watch for application launch/terminate events</td>
+</tr>
+<tr>
+<td><a href="hs.audiodevice/">hs.audiodevice</a></td>
+<td>Manipulate the system&#x27;s audio devices</td>
+</tr>
+<tr>
+<td><a href="hs.audiodevice.datasource/">hs.audiodevice.datasource</a></td>
+<td>Inspect/manipulate the data sources of an audio device</td>
+</tr>
+<tr>
+<td><a href="hs.audiodevice.watcher/">hs.audiodevice.watcher</a></td>
+<td>Watch for system level audio hardware events</td>
+</tr>
+<tr>
+<td><a href="hs.axuielement/">hs.axuielement</a></td>
+<td>This module allows you to access the accessibility objects of running applications, their windows, menus, and other user interface elements that support the OS X accessibility API.</td>
+</tr>
+<tr>
+<td><a href="hs.axuielement.axtextmarker/">hs.axuielement.axtextmarker</a></td>
+<td>This submodule allows hs.axuielement to support using AXTextMarker and AXTextMarkerRange objects as parameters for parameterized Accessibility attributes with applications that support them.</td>
+</tr>
+<tr>
+<td><a href="hs.axuielement.observer/">hs.axuielement.observer</a></td>
+<td>This submodule allows you to create observers for accessibility elements and be notified when they trigger notifications. Not all notifications are supported by all elements and not all elements support notifications, so some trial and error will be necessary, but for compliant applications, this can allow your code to be notified when an application&#x27;s user interface changes in some way.</td>
+</tr>
+<tr>
+<td><a href="hs.base64/">hs.base64</a></td>
+<td>Base64 encoding and decoding</td>
+</tr>
+<tr>
+<td><a href="hs.battery/">hs.battery</a></td>
+<td>Battery/power information</td>
+</tr>
+<tr>
+<td><a href="hs.battery.watcher/">hs.battery.watcher</a></td>
+<td>Watch for battery/power state changes</td>
+</tr>
+<tr>
+<td><a href="hs.blackmagic/">hs.blackmagic</a></td>
+<td>Support for the Blackmagic DaVinci Resolve Speed Editor Keyboard and Editor Keyboard.</td>
+</tr>
+<tr>
+<td><a href="hs.bonjour/">hs.bonjour</a></td>
+<td>Find and publish network services advertised by multicast DNS (Bonjour) with Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.bonjour.service/">hs.bonjour.service</a></td>
+<td>Represents the service records that are discovered or published by the hs.bonjour module.</td>
+</tr>
+<tr>
+<td><a href="hs.brightness/">hs.brightness</a></td>
+<td>Inspect/manipulate display brightness</td>
+</tr>
+<tr>
+<td><a href="hs.caffeinate/">hs.caffeinate</a></td>
+<td>Control system power states (sleeping, preventing sleep, screen locking, etc)</td>
+</tr>
+<tr>
+<td><a href="hs.caffeinate.watcher/">hs.caffeinate.watcher</a></td>
+<td>Watch for display and system sleep/wake/power events</td>
+</tr>
+<tr>
+<td><a href="hs.camera/">hs.camera</a></td>
+<td>Inspect the system&#x27;s camera devices</td>
+</tr>
+<tr>
+<td><a href="hs.canvas/">hs.canvas</a></td>
+<td>A different approach to drawing in Hammerspoon</td>
+</tr>
+<tr>
+<td><a href="hs.canvas.matrix/">hs.canvas.matrix</a></td>
+<td>A sub module to <code v-pre>hs.canvas</code> which provides support for basic matrix manipulations which can be used as the values for <code v-pre>transformation</code> attributes in the <code v-pre>hs.canvas</code> module.</td>
+</tr>
+<tr>
+<td><a href="hs.chooser/">hs.chooser</a></td>
+<td>Graphical, interactive tool for choosing/searching data</td>
+</tr>
+<tr>
+<td><a href="hs.console/">hs.console</a></td>
+<td>Some functions for manipulating the Hammerspoon console.</td>
+</tr>
+<tr>
+<td><a href="hs.crash/">hs.crash</a></td>
+<td>Various features/facilities for developers who are working on Hammerspoon itself, or writing extensions for it. It is extremely unlikely that you should need any part of this extension, in a normal user configuration.</td>
+</tr>
+<tr>
+<td><a href="hs.deezer/">hs.deezer</a></td>
+<td>Controls for Deezer music player.</td>
+</tr>
+<tr>
+<td><a href="hs.dialog/">hs.dialog</a></td>
+<td>A collection of useful dialog boxes, alerts and panels for user interaction.</td>
+</tr>
+<tr>
+<td><a href="hs.dialog.color/">hs.dialog.color</a></td>
+<td>A panel that allows users to select a color.</td>
+</tr>
+<tr>
+<td><a href="hs.distributednotifications/">hs.distributednotifications</a></td>
+<td>Interact with NSDistributedNotificationCenter</td>
+</tr>
+<tr>
+<td><a href="hs.doc/">hs.doc</a></td>
+<td>Create documentation objects for interactive help within Hammerspoon</td>
+</tr>
+<tr>
+<td><a href="hs.doc.builder/">hs.doc.builder</a></td>
+<td>Builds documentation support files.  Still experimental.</td>
+</tr>
+<tr>
+<td><a href="hs.doc.hsdocs/">hs.doc.hsdocs</a></td>
+<td>Manage the internal documentation web server.</td>
+</tr>
+<tr>
+<td><a href="hs.doc.markdown/">hs.doc.markdown</a></td>
+<td>Markdown to HTML and plaintext conversion support used by hs.doc</td>
+</tr>
+<tr>
+<td><a href="hs.dockicon/">hs.dockicon</a></td>
+<td>Control Hammerspoon&#x27;s dock icon</td>
+</tr>
+<tr>
+<td><a href="hs.drawing/">hs.drawing</a></td>
+<td>DEPRECATED. Primitives for drawing on the screen in various ways.</td>
+</tr>
+<tr>
+<td><a href="hs.drawing.color/">hs.drawing.color</a></td>
+<td>Provides access to the system color lists and a wider variety of ways to represent color within Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.eventtap/">hs.eventtap</a></td>
+<td>Tap into input events (mouse, keyboard, trackpad) for observation and possibly overriding them</td>
+</tr>
+<tr>
+<td><a href="hs.eventtap.event/">hs.eventtap.event</a></td>
+<td>Create, modify and inspect events for <code v-pre>hs.eventtap</code></td>
+</tr>
+<tr>
+<td><a href="hs.expose/">hs.expose</a></td>
+<td>Keyboard-driven expose replacement/enhancement</td>
+</tr>
+<tr>
+<td><a href="hs.fnutils/">hs.fnutils</a></td>
+<td>Functional programming utility functions</td>
+</tr>
+<tr>
+<td><a href="hs.fs/">hs.fs</a></td>
+<td>Access/inspect the filesystem</td>
+</tr>
+<tr>
+<td><a href="hs.fs.volume/">hs.fs.volume</a></td>
+<td>Interact with OS X filesystem volumes</td>
+</tr>
+<tr>
+<td><a href="hs.fs.xattr/">hs.fs.xattr</a></td>
+<td>Get and manipulate extended attributes for files and directories</td>
+</tr>
+<tr>
+<td><a href="hs.geometry/">hs.geometry</a></td>
+<td>Utility object to represent points, sizes and rects in a bidimensional plane</td>
+</tr>
+<tr>
+<td><a href="hs.grid/">hs.grid</a></td>
+<td>Move/resize windows within a grid</td>
+</tr>
+<tr>
+<td><a href="hs.hash/">hs.hash</a></td>
+<td>Various hashing algorithms</td>
+</tr>
+<tr>
+<td><a href="hs.hid/">hs.hid</a></td>
+<td>HID interface for Hammerspoon, controls and queries caps lock state</td>
+</tr>
+<tr>
+<td><a href="hs.hid.led/">hs.hid.led</a></td>
+<td>HID LED interface for Hammerspoon, controls the state of keyboard LEDs</td>
+</tr>
+<tr>
+<td><a href="hs.hints/">hs.hints</a></td>
+<td>Switch focus with a transient per-application keyboard shortcut</td>
+</tr>
+<tr>
+<td><a href="hs.host/">hs.host</a></td>
+<td>Inspect information about the machine Hammerspoon is running on</td>
+</tr>
+<tr>
+<td><a href="hs.host.locale/">hs.host.locale</a></td>
+<td>Retrieve information about the user&#x27;s Language and Region settings.</td>
+</tr>
+<tr>
+<td><a href="hs.hotkey/">hs.hotkey</a></td>
+<td>Create and manage global keyboard shortcuts</td>
+</tr>
+<tr>
+<td><a href="hs.hotkey.modal/">hs.hotkey.modal</a></td>
+<td>Create/manage modal keyboard shortcut environments</td>
+</tr>
+<tr>
+<td><a href="hs.http/">hs.http</a></td>
+<td>Perform HTTP requests</td>
+</tr>
+<tr>
+<td><a href="hs.httpserver/">hs.httpserver</a></td>
+<td>Simple HTTP server</td>
+</tr>
+<tr>
+<td><a href="hs.httpserver.hsminweb/">hs.httpserver.hsminweb</a></td>
+<td>Minimalist Web Server for Hammerspoon</td>
+</tr>
+<tr>
+<td><a href="hs.httpserver.hsminweb.cgilua/">hs.httpserver.hsminweb.cgilua</a></td>
+<td>Provides support functions in the <code v-pre>cgilua</code> module for Hammerspoon Minimal Web Server Lua templates.</td>
+</tr>
+<tr>
+<td><a href="hs.httpserver.hsminweb.cgilua.lp/">hs.httpserver.hsminweb.cgilua.lp</a></td>
+<td>Support functions for the CGILua compatibility module for including and translating Lua template pages into Lua code for execution within the Hammerspoon environment to provide dynamic content for http requests.</td>
+</tr>
+<tr>
+<td><a href="hs.httpserver.hsminweb.cgilua.urlcode/">hs.httpserver.hsminweb.cgilua.urlcode</a></td>
+<td>Support functions for the CGILua compatibility module for encoding and decoding URL components in accordance with RFC 3986.</td>
+</tr>
+<tr>
+<td><a href="hs.image/">hs.image</a></td>
+<td>A module for capturing and manipulating image objects from other modules for use with hs.drawing.</td>
+</tr>
+<tr>
+<td><a href="hs.inspect/">hs.inspect</a></td>
+<td>Produce human-readable representations of Lua variables (particularly tables)</td>
+</tr>
+<tr>
+<td><a href="hs.ipc/">hs.ipc</a></td>
+<td>Provides Hammerspoon with the ability to create both local and remote message ports for inter-process communication.</td>
+</tr>
+<tr>
+<td><a href="hs.itunes/">hs.itunes</a></td>
+<td>Controls for iTunes music player</td>
+</tr>
+<tr>
+<td><a href="hs.javascript/">hs.javascript</a></td>
+<td>Execute JavaScript code</td>
+</tr>
+<tr>
+<td><a href="hs.json/">hs.json</a></td>
+<td>JSON encoding and decoding</td>
+</tr>
+<tr>
+<td><a href="hs.keycodes/">hs.keycodes</a></td>
+<td>Convert between key-strings and key-codes. Also provides functionality for querying and changing keyboard layouts.</td>
+</tr>
+<tr>
+<td><a href="hs.layout/">hs.layout</a></td>
+<td>Window layout manager</td>
+</tr>
+<tr>
+<td><a href="hs.location/">hs.location</a></td>
+<td>Determine the machine&#x27;s location and useful information about that location</td>
+</tr>
+<tr>
+<td><a href="hs.location.geocoder/">hs.location.geocoder</a></td>
+<td>Converts between GPS coordinates and more user friendly representations like an address or points of interest.</td>
+</tr>
+<tr>
+<td><a href="hs.logger/">hs.logger</a></td>
+<td>Simple logger for debugging purposes</td>
+</tr>
+<tr>
+<td><a href="hs.math/">hs.math</a></td>
+<td>Various helpful mathematical functions</td>
+</tr>
+<tr>
+<td><a href="hs.menubar/">hs.menubar</a></td>
+<td>Create and manage menubar icons</td>
+</tr>
+<tr>
+<td><a href="hs.messages/">hs.messages</a></td>
+<td>Send messages via iMessage and SMS Relay (note, SMS Relay requires OS X 10.10 and an established SMS Relay pairing between your Mac and an iPhone running iOS8)</td>
+</tr>
+<tr>
+<td><a href="hs.midi/">hs.midi</a></td>
+<td>MIDI Extension for Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.milight/">hs.milight</a></td>
+<td>Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and EasyBulb)</td>
+</tr>
+<tr>
+<td><a href="hs.mjomatic/">hs.mjomatic</a></td>
+<td>tmuxomatic-like window management</td>
+</tr>
+<tr>
+<td><a href="hs.mouse/">hs.mouse</a></td>
+<td>Inspect/manipulate the position of the mouse pointer</td>
+</tr>
+<tr>
+<td><a href="hs.network/">hs.network</a></td>
+<td>This module provides functions for inquiring about and monitoring changes to the network.</td>
+</tr>
+<tr>
+<td><a href="hs.network.configuration/">hs.network.configuration</a></td>
+<td>This sub-module provides access to the current location set configuration settings in the system&#x27;s dynamic store.</td>
+</tr>
+<tr>
+<td><a href="hs.network.host/">hs.network.host</a></td>
+<td>This sub-module provides functions for acquiring host information, such as hostnames, addresses, and reachability.</td>
+</tr>
+<tr>
+<td><a href="hs.network.ping/">hs.network.ping</a></td>
+<td>This module provides a basic ping function which can test host availability. Ping is a network diagnostic tool commonly found in most operating systems which can be used to test if a route to a specified host exists and if that host is responding to network traffic.</td>
+</tr>
+<tr>
+<td><a href="hs.network.ping.echorequest/">hs.network.ping.echoRequest</a></td>
+<td>Provides lower-level access to the ICMP Echo Request infrastructure used by the hs.network.ping module. In general, you should not need to use this module directly unless you have specific requirements not met by the hs.network.ping module and the <code v-pre>hs.network.ping</code> object methods.</td>
+</tr>
+<tr>
+<td><a href="hs.network.reachability/">hs.network.reachability</a></td>
+<td>This sub-module can be used to determine the reachability of a target host. A remote host is considered reachable when a data packet, sent by an application into the network stack, can leave the local device. Reachability does not guarantee that the data packet will actually be received by the host.</td>
+</tr>
+<tr>
+<td><a href="hs.noises/">hs.noises</a></td>
+<td>Contains two low latency audio recognizers for different mouth noises, which can be used to trigger actions like scrolling or clicking.</td>
+</tr>
+<tr>
+<td><a href="hs.notify/">hs.notify</a></td>
+<td>This module allows you to create on screen notifications in the User Notification Center located at the right of the users screen.</td>
+</tr>
+<tr>
+<td><a href="hs.osascript/">hs.osascript</a></td>
+<td>Execute Open Scripting Architecture (OSA) code - AppleScript and JavaScript</td>
+</tr>
+<tr>
+<td><a href="hs.osc/">hs.osc</a></td>
+<td>Open Sound Control (OSC) support.</td>
+</tr>
+<tr>
+<td><a href="hs.pasteboard/">hs.pasteboard</a></td>
+<td>Inspect/manipulate pasteboards (more commonly called clipboards). Both the system default pasteboard and custom named pasteboards can be interacted with.</td>
+</tr>
+<tr>
+<td><a href="hs.pasteboard.watcher/">hs.pasteboard.watcher</a></td>
+<td>Watch for Pasteboard Changes.</td>
+</tr>
+<tr>
+<td><a href="hs.pathwatcher/">hs.pathwatcher</a></td>
+<td>Watch paths recursively for changes</td>
+</tr>
+<tr>
+<td><a href="hs.plist/">hs.plist</a></td>
+<td>Read and write Property List files</td>
+</tr>
+<tr>
+<td><a href="hs.razer/">hs.razer</a></td>
+<td>Razer device support.</td>
+</tr>
+<tr>
+<td><a href="hs.redshift/">hs.redshift</a></td>
+<td>Inverts and/or lowers the color temperature of the screen(s) on a schedule, for a more pleasant experience at night</td>
+</tr>
+<tr>
+<td><a href="hs.screen/">hs.screen</a></td>
+<td>Manipulate screens (i.e. monitors)</td>
+</tr>
+<tr>
+<td><a href="hs.screen.watcher/">hs.screen.watcher</a></td>
+<td>Watch for screen layout changes</td>
+</tr>
+<tr>
+<td><a href="hs.serial/">hs.serial</a></td>
+<td>Communicate with external devices through a serial port (most commonly RS-232).</td>
+</tr>
+<tr>
+<td><a href="hs.settings/">hs.settings</a></td>
+<td>Serialize simple Lua variables across Hammerspoon launches</td>
+</tr>
+<tr>
+<td><a href="hs.sharing/">hs.sharing</a></td>
+<td>Share items with the macOS Sharing Services under the control of Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.shortcuts/">hs.shortcuts</a></td>
+<td>List and run shortcuts from the Shortcuts app</td>
+</tr>
+<tr>
+<td><a href="hs.socket/">hs.socket</a></td>
+<td>Talk to custom protocols using asynchronous TCP sockets.</td>
+</tr>
+<tr>
+<td><a href="hs.socket.udp/">hs.socket.udp</a></td>
+<td>Talk to custom protocols using asynchronous UDP sockets.</td>
+</tr>
+<tr>
+<td><a href="hs.sound/">hs.sound</a></td>
+<td>Load/play/manipulate sound files</td>
+</tr>
+<tr>
+<td><a href="hs.spaces/">hs.spaces</a></td>
+<td>This module provides some basic functions for controlling macOS Spaces.</td>
+</tr>
+<tr>
+<td><a href="hs.spaces.watcher/">hs.spaces.watcher</a></td>
+<td>Watches for the current Space being changed</td>
+</tr>
+<tr>
+<td><a href="hs.speech/">hs.speech</a></td>
+<td>This module provides access to the Speech Synthesizer component of OS X.</td>
+</tr>
+<tr>
+<td><a href="hs.speech.listener/">hs.speech.listener</a></td>
+<td>This module provides access to the Speech Recognizer component of OS X.</td>
+</tr>
+<tr>
+<td><a href="hs.spoons/">hs.spoons</a></td>
+<td>Utility and management functions for Spoons</td>
+</tr>
+<tr>
+<td><a href="hs.spotify/">hs.spotify</a></td>
+<td>Controls for Spotify music player</td>
+</tr>
+<tr>
+<td><a href="hs.spotlight/">hs.spotlight</a></td>
+<td>This module allows Hammerspoon to preform Spotlight metadata queries.</td>
+</tr>
+<tr>
+<td><a href="hs.spotlight.group/">hs.spotlight.group</a></td>
+<td>This sub-module is used to access results to a spotlightObject query which have been grouped by one or more attribute values.</td>
+</tr>
+<tr>
+<td><a href="hs.spotlight.item/">hs.spotlight.item</a></td>
+<td>This sub-module is used to access the individual results of a spotlightObject or a spotlightGroupObject.</td>
+</tr>
+<tr>
+<td><a href="hs.sqlite3/">hs.sqlite3</a></td>
+<td>Interact with SQLite databases</td>
+</tr>
+<tr>
+<td><a href="hs.streamdeck/">hs.streamdeck</a></td>
+<td>Configure/control an Elgato Stream Deck.</td>
+</tr>
+<tr>
+<td><a href="hs.styledtext/">hs.styledtext</a></td>
+<td>This module adds support for controlling the style of the text in Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.tabs/">hs.tabs</a></td>
+<td>Place the windows of an application into tabs drawn on its titlebar</td>
+</tr>
+<tr>
+<td><a href="hs.tangent/">hs.tangent</a></td>
+<td>Tangent Control Surface Extension</td>
+</tr>
+<tr>
+<td><a href="hs.task/">hs.task</a></td>
+<td>Execute processes in the background and capture their output</td>
+</tr>
+<tr>
+<td><a href="hs.timer/">hs.timer</a></td>
+<td>Execute functions with various timing rules</td>
+</tr>
+<tr>
+<td><a href="hs.timer.delayed/">hs.timer.delayed</a></td>
+<td>Specialized timer objects to coalesce processing of unpredictable asynchronous events into a single callback</td>
+</tr>
+<tr>
+<td><a href="hs.uielement/">hs.uielement</a></td>
+<td>A generalized framework for working with OSX UI elements</td>
+</tr>
+<tr>
+<td><a href="hs.uielement.watcher/">hs.uielement.watcher</a></td>
+<td>Watch for events on certain UI elements (including windows and applications)</td>
+</tr>
+<tr>
+<td><a href="hs.urlevent/">hs.urlevent</a></td>
+<td>Allows CommandPost to respond to URLs</td>
+</tr>
+<tr>
+<td><a href="hs.usb/">hs.usb</a></td>
+<td>Inspect USB devices</td>
+</tr>
+<tr>
+<td><a href="hs.usb.watcher/">hs.usb.watcher</a></td>
+<td>Watch for USB device connection/disconnection events</td>
+</tr>
+<tr>
+<td><a href="hs.utf8/">hs.utf8</a></td>
+<td>Functions providing basic support for UTF-8 encodings</td>
+</tr>
+<tr>
+<td><a href="hs.vox/">hs.vox</a></td>
+<td>Controls for VOX music player</td>
+</tr>
+<tr>
+<td><a href="hs.watchable/">hs.watchable</a></td>
+<td>A minimalistic Key-Value-Observer framework for Lua.</td>
+</tr>
+<tr>
+<td><a href="hs.websocket/">hs.websocket</a></td>
+<td>Simple websocket client.</td>
+</tr>
+<tr>
+<td><a href="hs.webview/">hs.webview</a></td>
+<td>Display web content in a window from Hammerspoon</td>
+</tr>
+<tr>
+<td><a href="hs.webview.datastore/">hs.webview.datastore</a></td>
+<td>Provides methods to list and purge the various types of data used by websites visited with <code v-pre>hs.webview</code>.</td>
+</tr>
+<tr>
+<td><a href="hs.webview.toolbar/">hs.webview.toolbar</a></td>
+<td>Create and manipulate toolbars which can be attached to the Hammerspoon console or hs.webview objects.</td>
+</tr>
+<tr>
+<td><a href="hs.webview.usercontent/">hs.webview.usercontent</a></td>
+<td>This module provides support for injecting custom JavaScript user content into your webviews and for JavaScript to post messages back to Hammerspoon.</td>
+</tr>
+<tr>
+<td><a href="hs.wifi/">hs.wifi</a></td>
+<td>Inspect WiFi networks</td>
+</tr>
+<tr>
+<td><a href="hs.wifi.watcher/">hs.wifi.watcher</a></td>
+<td>Watch for changes to the associated wifi network</td>
+</tr>
+<tr>
+<td><a href="hs.window/">hs.window</a></td>
+<td>Inspect/manipulate windows</td>
+</tr>
+<tr>
+<td><a href="hs.window.filter/">hs.window.filter</a></td>
+<td>Filter windows by application, title, location on screen and more, and easily subscribe to events on these windows</td>
+</tr>
+<tr>
+<td><a href="hs.window.highlight/">hs.window.highlight</a></td>
+<td>Highlight the focused window</td>
+</tr>
+<tr>
+<td><a href="hs.window.layout/">hs.window.layout</a></td>
+<td><strong>WARNING</strong>: EXPERIMENTAL MODULE. DO <strong>NOT</strong> USE IN PRODUCTION.</td>
+</tr>
+<tr>
+<td><a href="hs.window.switcher/">hs.window.switcher</a></td>
+<td>Window-based cmd-tab replacement</td>
+</tr>
+<tr>
+<td><a href="hs.window.tiling/">hs.window.tiling</a></td>
+<td><strong>WARNING</strong>: EXPERIMENTAL MODULE. DO <strong>NOT</strong> USE IN PRODUCTION.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Hammerspoon API", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
