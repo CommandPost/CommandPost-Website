@@ -1,0 +1,58 @@
+# [docs](index.md) » cp.nib.archiver
+---
+
+Provides support for loading NIB files stored in the `NIBArchive` format.
+
+## API Overview
+* Constants - Useful values which cannot be changed
+ * [SIGNATURE](#SIGNATURE)
+* Functions - API calls offered directly by the extension
+ * [isSupported](#isSupported)
+* Constructors - API calls which return an object, typically one that offers API methods
+ * [new](#new)
+* Methods - API calls which can only be made on an object returned by a constructor
+ * [fromFile](#fromFile)
+
+## API Documentation
+
+### Constants
+
+| [SIGNATURE](#SIGNATURE)         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.nib.archiver.SIGNATURE -> string`                                                                    |
+| **Type**                                    | Constant                                                                     |
+| **Description**                             | Marks the data stream as an `NIBArchive`.                                                                     |
+
+### Functions
+
+| [isSupported](#isSupported)         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.nib.archiver.isSupported(data) -> boolean`                                                                    |
+| **Type**                                    | Function                                                                     |
+| **Description**                             | Checks if the given `data` is an NIBArchive.                                                                     |
+| **Parameters**                              | <ul><li>data - The data to check.</li></ul> |
+| **Returns**                                 | <ul><li>`true` if the `data` is an NIBArchive, `false` otherwise.</li></ul>          |
+| **Notes**                                   | <ul></ul>                |
+
+### Constructors
+
+| [new](#new)         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.nib.archiver.new(decoders) -> cp.nib.archiver`                                                                    |
+| **Type**                                    | Constructor                                                                     |
+| **Description**                             | Creates a new `cp.nib.archiver` instance, with the specified list of `decoders`.                                                                     |
+| **Parameters**                              | <ul><li>decoders - The list of `cp.nib.decoder` functions to use.</li></ul> |
+| **Returns**                                 | <ul><li>The new `cp.nib.archiver` instance.</li></ul>          |
+| **Notes**                                   | <ul></ul>                |
+
+### Methods
+
+| [fromFile](#fromFile)         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| **Signature**                               | `cp.nib.archiver.fromFile(filename) -> table | nil, string`                                                                    |
+| **Type**                                    | Method                                                                     |
+| **Description**                             | Attempts to read the specified `filename` and unarchives it into a `table`, if it is a valid NIBArchive.                                                                     |
+| **Parameters**                              | <ul><li>filename - The `string` of the file to read.</li></ul> |
+| **Returns**                                 | <ul><li>A `table` containing the archive data, or `nil` if the file could not be read.</li><li>The `string` error message, if any.</li></ul>          |
+| **Notes**                                   | <ul></ul>                |
+
