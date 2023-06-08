@@ -1,6 +1,11 @@
 # Titles to Keywords
 
-This toolbox is a combination of two handy tools: Titles to Keywords, and Create Title from Text.
+This toolbox is a combination of two handy tools:
+
+- **Titles to Keywords**
+- **Create Title from Text**
+
+![](../static/toolbox-titles-to-keywords.png)
 
 ---
 

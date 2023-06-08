@@ -6,3 +6,5 @@ This Toolbox was thrown together for Knut Hake & Sam Pluemacher.
 
 Option for this toolbox is:
 - Remove Gaps
+
+![](../static/toolbox-auto-sequence.png)
