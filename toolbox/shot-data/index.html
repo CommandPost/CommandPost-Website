@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739535022185">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739539218698">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Shot Data User Guide</title>
     <meta name="title" content="Shot Data User Guide">
-    <meta name="description" content="SDCover.gif" />
+    <meta name="description" content="Before I explain the workflow behind Shot Data, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://commandpost.io/toolbox/shot-data/" />
@@ -20,21 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://commandpost.io/toolbox/shot-data/">
     <meta property="og:title" content="Shot Data User Guide">
-    <meta property="og:description" content="SDCover.gif">
+    <meta property="og:description" content="Before I explain the workflow behind Shot Data, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://commandpost.io/toolbox/shot-data/">
     <meta property="twitter:title" content="Shot Data User Guide">
-    <meta property="twitter:description" content="SDCover.gif">
+    <meta property="twitter:description" content="Before I explain the workflow behind Shot Data, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739535022185" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739539218698" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739535022185" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739539218698" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739535022185" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739539218698" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -280,72 +280,46 @@
     </h1>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../static/sdcover.gif" alt="SDCover.gif" />
-    <figcaption class="caption">SDCover.gif</figcaption>
+    <img src="../../static/sdcover.gif" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="table-of-contents">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#table-of-contents">#</doc-anchor-trigger>
-        <span>Table of contents</span>
-    </h1>
-</doc-anchor-target>
-<ul>
-<li><doc-anchor-trigger to="#shot-data-user-guide">Shot Data User Guide</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#background">Background</doc-anchor-trigger>
-<ul>
-<li><doc-anchor-trigger to="#what-is-sound-locking">What is Sound Locking?</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#the-most-resilient-parasite">The Most Resilient Parasite</doc-anchor-trigger></li>
-</ul>
-</li>
-<li><doc-anchor-trigger to="#enter-shot-data">Enter Shot Data</doc-anchor-trigger>
-<ul>
-<li><doc-anchor-trigger to="#why-final-cut-pro">Why Final Cut Pro?</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#why-notion">Why Notion?</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#introduction-to-notions-databases">Introduction to Notion’s databases</doc-anchor-trigger></li>
-</ul>
-</li>
-<li><doc-anchor-trigger to="#basic-usage---shot-data">Basic Usage - Shot Data</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#advance-usage---shot-data">Advance Usage - Shot Data</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#faq">FAQ</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#afterthoughts">Afterthoughts</doc-anchor-trigger></li>
-</ul>
 <p><figure class="content-center">
-    <img src="../../static/shot_data_toolbox.png" alt="Shot Data Toolbox.png" />
-    <figcaption class="caption">Shot Data Toolbox.png</figcaption>
+    <img src="../../static/shot_data_toolbox.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <doc-anchor-target id="background">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#background">#</doc-anchor-trigger>
         <span>Background</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
 <p>Before I explain the workflow behind <strong>Shot Data</strong>, let me explain the concept of “Sound Lock”. We all know what “Picture Lock” is.</p>
 <blockquote>
 <p><em>Picture lock is a stage in editing a film or editing a television production. It is the stage prior to online editing when all changes to the film or television program cut have been done and approved. It is then sent to subsequent stages in the process, such as online editing and audio mixing. Any last-minute changes can force portions of subsequent work to be redone.</em></p>
 </blockquote>
-<p><em>Source: <a href="https://en.wikipedia.org/wiki/Picture_lock">Wikipedia</a></em></p>
+<p><em>Source: <a href="https://en.wikipedia.org/wiki/Picture_lock" target="_blank">Wikipedia</a></em></p>
 <p>In an analogous fashion, Sound Lock is a stage in a film or editing a television production where a sequence is edited before the production starts principal photography. In other words, before the project is being shot, in the pre-production or development stage. You could call it “Pre-Editing” as well. The filmmaker would use a series of concept images to construct a timeline.</p>
 <doc-anchor-target id="what-is-sound-locking">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-sound-locking">#</doc-anchor-trigger>
         <span>What is Sound Locking?</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
-<p>Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, <a href="https://wonderunit.com/storyboarder/">hand-drawn sketches</a> or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.</p>
+<p>Now, you might ask, where does the Sound component come in? In projects like Music Video, music follows higher precedence over visuals. Not that the visuals are not important, but in 99% of all Music Videos, the music will always be composed and recorded first. Thus, with that piece of the Music, it becomes the “Locked” component. It will never change. The filmmaker now uses that music track as an anchor point to construct the matching visual or rather envisioned visuals against that music right within the NLE. These envisioned visuals could come as a set of reference images, <a href="https://wonderunit.com/storyboarder/" target="_blank">hand-drawn sketches</a> or even 3D generated shots. It mostly revolves around the filmmaker’s workflow.</p>
 <p>Sound Locking is not an entirely a new concept. Filmmakers, Music Video Directors and the animation industry have utilised this technique for a long time. The biggest hurdle from the above mentioned workflow is, there is no path to bring shot and scene information out from NLE to on-set usage meaningfully. Even if you have edited and prepared the sequence, the only method within the NLE is to export that sequence out as a rendered video file. It is not entirely useful, and shot information is not entirely homogenous. You are also required to do a Shot List manually based on the envisioned visuals. Which would precipitate tons of physical print out for various departments in productions, which yields a non eco-friendly work practice.</p>
-<p>However, there are applications on the market like <a href="https://www.shotlister.com/">Shot Lister</a>, <a href="https://www.studiobinder.com/">Studio Binder</a> or <a href="https://www.celtx.com/">Celtx</a> that allow you to develop industry standard Shot Lists. But all seems to tackle the Shot List construction from a script level. There is undoubtedly nothing wrong with this approach. The script is the anchor point, as screenplay is the foundation of every production.</p>
+<p>However, there are applications on the market like <a href="https://www.shotlister.com/" target="_blank">Shot Lister</a>, <a href="https://www.studiobinder.com/" target="_blank">Studio Binder</a> or <a href="https://www.celtx.com/" target="_blank">Celtx</a> that allow you to develop industry standard Shot Lists. But all seems to tackle the Shot List construction from a script level. There is undoubtedly nothing wrong with this approach. The script is the anchor point, as screenplay is the foundation of every production.</p>
 <p>For Music Videos and music driven narratives, sound or music invariably takes higher precedence. You can’t visualise music on a sheet of paper except on a musical score sheet and you can’t conceivably construct a Shot List from a score sheet.</p>
 <doc-anchor-target id="the-most-resilient-parasite">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#the-most-resilient-parasite">#</doc-anchor-trigger>
         <span>The Most Resilient Parasite</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../static/inception.gif" alt="inception.gif" />
-    <figcaption class="caption">inception.gif</figcaption>
+    <img src="../../static/inception.gif" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <blockquote>
@@ -356,186 +330,489 @@
 <p>In recent times, there is an emergence of cloud based database applications, like Notion and Airtable. With Data being the centre-point of our lives, such applications provide new intuitive features in a cost effective manner.</p>
 <p>Starting with <strong>Shot Data</strong>, I aim to streamline and optimise the process for Shot List generation from within Final Cut Pro.</p>
 <doc-anchor-target id="enter-shot-data">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#enter-shot-data">#</doc-anchor-trigger>
         <span>Enter Shot Data</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
 <doc-anchor-target id="why-final-cut-pro">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#why-final-cut-pro">#</doc-anchor-trigger>
         <span>Why Final Cut Pro?</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
-<p>Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference">FCPXML</a> file. The <code v-pre>*.fcpxml</code> file contains most of the timeline’s information, including Metadata from custom Motion Titles.</p>
-<p>Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate <a href="https://en.wikipedia.org/wiki/Storyboard">Storyboard</a> or <a href="https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list">Shot-List</a> from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name <strong>Shot Data</strong>.</p>
+<p>Final Cut Pro is a radical and controversial NLE. There are users who loathe it and there are users who espouse the application. I am the latter. Apart from speed, Final Cut Pro is extremely powerful when it comes to handling Metadata. In particular, it’s <a href="https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference" target="_blank">FCPXML</a> file. The <code v-pre>*.fcpxml</code> file contains most of the timeline’s information, including Metadata from custom Motion Titles.</p>
+<p>Utilising the Sound Locking principles, Shot Data is a 2-part workflow and a tool that allows you to generate <a href="https://en.wikipedia.org/wiki/Storyboard" target="_blank">Storyboard</a> or <a href="https://www.masterclass.com/articles/film-101-what-is-a-shot-list-how-to-format-and-create-a-shot-list" target="_blank">Shot-List</a> from within Final Cut Pro to Notion.  It utilises a custom Motion Template as a basis for Shot’s Data tabulation. Hence the name <strong>Shot Data</strong>.</p>
 <doc-anchor-target id="why-notion">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#why-notion">#</doc-anchor-trigger>
         <span>Why Notion?</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
-<p><a href="https://www.notion.so/">Notion</a> is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.</p>
+<p><a href="https://www.notion.so/" target="_blank">Notion</a> is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. Notion provides the building blocks and you can create your own layouts and toolkit to get work done at an affordable cost.</p>
 <p>Notion’s workspace allows you to write in a beautiful clean space, build your own personal wiki (with endless layers of content), plan using a kanban view, a calendar or a simple list view and last, but not least, to capture your workflows and record everything by creating databases.</p>
-<p>If you are familiar with Final Cut Pro’s <a href="https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac">Smart Collections</a>, you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific <a href="https://www.notion.so/help/views-filters-and-sorts">filters and sort criteria</a>.</p>
-<p><figure class="content-center">
-    <a href="https://www.youtube.com/watch?v=gp2yhkVw0z4" title="Why Notion?">
-        <img src="https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg" alt="Why Notion?" />
-    </a>
-    <figcaption class="caption">Why Notion?</figcaption>
-</figure>
-</p>
+<p>If you are familiar with Final Cut Pro’s <a href="https://support.apple.com/en-sg/guide/final-cut-pro/ver2833eb5b/mac" target="_blank">Smart Collections</a>, you will feel right at home with Notion’s database. Notion’s database allows you to create custom views with specific <a href="https://www.notion.so/help/views-filters-and-sorts" target="_blank">filters and sort criteria</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=gp2yhkVw0z4" target="_blank" title="Why Notion?"><img src="https://i3.ytimg.com/vi/gp2yhkVw0z4/maxresdefault.jpg" alt="Why Notion?" /></a></p>
 <doc-anchor-target id="introduction-to-notions-databases">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#introduction-to-notions-databases">#</doc-anchor-trigger>
         <span>Introduction to Notion’s databases</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <p>One feature that sets Notion apart from other database (i.e Airtable) is every entry or record is its own editable page. The record you enter into your database can be opened as its own Notion page, where you can layer or add in any information or <a href="https://www.youtube.com/watch?v=BZnR2Ml17sc">blocks</a> you want.</p>
-<p><figure class="content-center">
-    <a href="https://www.youtube.com/watch?v=npaNKlAO7g8" title="Introduction to Notion’s databases">
-        <img src="https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg" alt="Introduction to Notion’s databases" />
-    </a>
-    <figcaption class="caption">Introduction to Notion’s databases</figcaption>
-</figure>
-</p>
+<p><a href="https://www.youtube.com/watch?v=npaNKlAO7g8" target="_blank"><img src="https://i3.ytimg.com/vi/npaNKlAO7g8/maxresdefault.jpg" alt="Introduction to Notion’s databases" /></a></p>
 <doc-anchor-target id="basic-usage---shot-data">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#basic-usage---shot-data">#</doc-anchor-trigger>
         <span>Basic Usage - Shot Data</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
-<details>
-<summary>Part 0 - Download CommandPost</summary>
+<doc-panel id="part-0-download-commandpost" collapsed>
+    <template #title>Part 0 - Download CommandPost</template>
 <ol>
-<li>Download and Install the latest version of CommandPost from <a href="https://github.com/CommandPost/CommandPost/releases/">GitHub</a>.</li>
+<li>Download and Install the latest version of CommandPost from <a href="https://github.com/CommandPost/CommandPost/releases/" target="_blank">GitHub</a>.</li>
 </ol>
-</details>
-<details>
-<summary>Part 1 - Sound Locking (Pre-Editing)</summary>
+</doc-panel>
+<doc-panel id="part-1-sound-locking-pre-editing" collapsed>
+    <template #title>Part 1 - Sound Locking (Pre-Editing)</template>
 <ol>
-<li><p>Select <strong>Shot Data</strong> from the <strong>CommandPost</strong>’s Toolbox Menu.</p>
-<p><img src="../../static/s1.1.png" alt="S1.1.png" /></p>
-</li>
-<li><p>Click <strong>Install Motion Template</strong> from the <strong>Shot Data</strong>’s Toolbox</p>
-<p><img src="../../static/s1.2.png" alt="S1.2.png" /></p>
-</li>
-<li><p>Launch <strong>Final Cut Pro</strong>.</p>
-<p><img src="../../static/s1.3.png" alt="S1.3.png" /></p>
-</li>
+<li>Select <strong>Shot Data</strong> from the <strong>CommandPost</strong>’s Toolbox Menu.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.1.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="2">
+<li>Click <strong>Install Motion Template</strong> from the <strong>Shot Data</strong>’s Toolbox</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.2.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="3">
+<li>Launch <strong>Final Cut Pro</strong>.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.3.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="4">
 <li><p>Create a new <strong>Library</strong> of your choosing.</p>
 </li>
 <li><p>In <strong>Titles and Generators</strong> sidebar, you will now see the <strong>Shot Data</strong> Template under <strong>CommandPost</strong> category.</p>
-<p><img src="../../static/s1.4.png" alt="S1.4.png" /></p>
-</li>
-<li><p>Create a new <strong>Project</strong> with your desired Resolution and Frame Rate.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> <strong>Shot Data</strong> Template is design for 4K UHD, DCI &amp; CinemaScope Resolutions.</p>
-</li>
-<li><p>Append a <strong>Custom Solid</strong> to the Timeline.</p>
-<p><img src="../../static/s1.5.png" alt="S1.5.png" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> Custom Solid is used for this example. You can use any other available Solids from the Generators.</p>
-<p>🪲 There is an apparent bug in Final Cut Pro where Custom <strong>Generators</strong> with complex rigging and layers does not preview the background colour in the timeline. Hence, we have to use default Custom Solid Generator for visual indication within the timeline.</p>
-</li>
-<li><p>Connect your desired Music or Score Track to the first clip.</p>
-<p><img src="../../static/s1.6.png" alt="S1.6.png" /></p>
 </li>
 </ol>
-<p><span class="docs-emoji">&#x1F4A1;</span> You can completely use Shot Data without a Music Track. It all depends on your project’s workflow and requirements.</p>
-<ol>
-<li><p>With the Custom Solid Generator, you can start editing using the music’s structure and rhythm.</p>
-<p><img src="../../static/s1.7.png" alt="S1.7.png" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> You could change the colour of each Custom Solid to provide you a visual indication. For quicker reusability, create a set of Custom Solids with different colours. And you could also create a separate <strong>Role</strong> for all the Custom Solids and tag with a different colour.</p>
-</li>
-<li><p>Once you have completed editing the timeline with Custom Solids, you can now proceed to connect your reference images.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> These reference images, could be hand-drawn sketches, movie stills, photographs or even 3D rendered images.</p>
-<p><img src="../../static/s1.8.png" alt="S1.8.png" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> Upon connecting the images to the timeline, select all the images. press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline. With secondary storyline, you can easily snap the images to each edit point.</p>
-</li>
-<li><p>Now, Connect <strong>Shot Data</strong> Template to the timeline.</p>
-<p><img src="../../static/s1.9.png" alt="S1.9.png" /></p>
-</li>
-<li><p>Take a look at the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template. Don’t get overwhelmed with the number of fields. <span class="docs-emoji">&#x1F633;</span></p>
-<p><img src="../../static/s1.10.gif" alt="S1.10.gif" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> You need not have to tabulate data in every field. They are published for greater versatility and flexibility when generating the <code v-pre>*.csv</code>.</p>
-</li>
-<li><p>Back in your timeline, perform an Extend Edit <code v-pre>Shift</code> + <code v-pre>X</code> on <strong>Shot Data</strong> Template.</p>
-<p><img src="../../static/s1.11.gif" alt="S1.11.gif" /></p>
-</li>
-<li><p>Go back to the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template, enter your desired shot information pertaining the timeline and scene. If your entire timeline is meant only for scene 10, enter in <code v-pre>10</code> in the Scene Number field. Enter <code v-pre>01</code> under Shot Number.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> For the purpose of sorting, use a 2 digit numbering with padding for the Shot Number field. You can also use 3 digit numbering with padding if you desire. It is unlikely that you would require more than 100 shots within a single Scene.</p>
-<p><img src="../../static/s1.12.png" alt="S1.12.png" /></p>
-</li>
-<li><p>Back in your timeline, press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline for the <strong>Shot Data</strong> Template. Using the <strong>Blade</strong> Tool, cut the <strong>Shot Data</strong> Template base on existing edit points. If you have <strong>Snapping</strong> enabled, all of the edit points should be identical across all 3 connected storyline.</p>
-<p><img src="../../static/s1.13.png" alt="S1.13.png" /></p>
-</li>
-<li><p>In order for <strong>CommandPost</strong> to the process <strong>Shot Data</strong> Template with the connected images, the storyline needs to be reordered. Both of the connected storylines need to be broken apart using <code v-pre>Shift</code> + <code v-pre>CMD</code> + <code v-pre>G</code>. To bring the visibility of the <strong>Shot Data</strong> Template’s Text on screen, you can reduce the opacity of the Images and Custom Solids to your desired value.</p>
-<p><img src="../../static/s1.14.png" alt="S1.14.png" /></p>
-</li>
-<li><p>Make sure you have entered and selected all the values within each <strong>Shot Data</strong> Template instance. You are required to enter a unique Shot Number <code v-pre>01</code>, <code v-pre>02</code>, <code v-pre>03</code>, <code v-pre>04</code> and so on for each <strong>Shot Data</strong> Template instance. If you have 19 cuts in your timeline, you should have 19 instances of <strong>Shot Data</strong> Template.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> At this point, you can enter as much of <strong>Shot Data</strong> information pertaining each shot. Example: Scene Description, Wardrobe Notes and etc.</p>
+<p><figure class="content-center">
+    <img src="../../static/s1.4.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="6">
+<li>Create a new <strong>Project</strong> with your desired Resolution and Frame Rate.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p><strong>Shot Data</strong> Template is design for 4K UHD, DCI &amp; CinemaScope Resolutions.</p>
+        </div>
+    </div>
+</div>
+<ol start="7">
+<li>Append a <strong>Custom Solid</strong> to the Timeline.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.5.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Custom Solid is used for this example. You can use any other available Solids from the Generators.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>There is an apparent bug in Final Cut Pro where Custom <strong>Generators</strong> with complex rigging and layers does not preview the background colour in the timeline. Hence, we have to use default Custom Solid Generator for visual indication within the timeline.</p>
+        </div>
+    </div>
+</div>
+<ol start="8">
+<li>Connect your desired Music or Score Track to the first clip.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.6.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You can completely use Shot Data without a Music Track. It all depends on your project’s workflow and requirements.</p>
+        </div>
+    </div>
+</div>
+<ol start="9">
+<li>With the Custom Solid Generator, you can start editing using the music’s structure and rhythm.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.7.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You could change the colour of each Custom Solid to provide you a visual indication. For quicker reusability, create a set of Custom Solids with different colours. And you could also create a separate <strong>Role</strong> for all the Custom Solids and tag with a different colour.</p>
+        </div>
+    </div>
+</div>
+<ol start="10">
+<li>Once you have completed editing the timeline with Custom Solids, you can now proceed to connect your reference images.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>These reference images, could be hand-drawn sketches, movie stills, photographs or even 3D rendered images.</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="../../static/s1.8.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Upon connecting the images to the timeline, select all the images. press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline. With secondary storyline, you can easily snap the images to each edit point.</p>
+        </div>
+    </div>
+</div>
+<ol start="11">
+<li>Now, Connect <strong>Shot Data</strong> Template to the timeline.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.9.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="12">
+<li>Take a look at the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template. Don’t get overwhelmed with the number of fields. <span class="docs-emoji">&#x1F633;</span></li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.10.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You need not have to tabulate data in every field. They are published for greater versatility and flexibility when generating the <code v-pre>*.csv</code>.</p>
+        </div>
+    </div>
+</div>
+<ol start="13">
+<li>Back in your timeline, perform an Extend Edit <code v-pre>Shift</code> + <code v-pre>X</code> on <strong>Shot Data</strong> Template.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.11.gif" alt="S1.11.gif" />
+    <figcaption class="caption">S1.11.gif</figcaption>
+</figure>
+</p>
+<ol start="14">
+<li>Go back to the <strong>Published Parameters</strong> of the <strong>Shot Data</strong> Template, enter your desired shot information pertaining the timeline and scene. If your entire timeline is meant only for scene 10, enter in <code v-pre>10</code> in the Scene Number field. Enter <code v-pre>01</code> under Shot Number.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>For the purpose of sorting, use a 2 digit numbering with padding for the Shot Number field. You can also use 3 digit numbering with padding if you desire. It is unlikely that you would require more than 100 shots within a single Scene.</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="../../static/s1.12.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="15">
+<li>Back in your timeline, press <code v-pre>CMD</code> + <code v-pre>G</code> to create a secondary storyline for the <strong>Shot Data</strong> Template. Using the <strong>Blade</strong> Tool, cut the <strong>Shot Data</strong> Template base on existing edit points. If you have <strong>Snapping</strong> enabled, all of the edit points should be identical across all 3 connected storyline.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.13.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="16">
+<li>In order for <strong>CommandPost</strong> to the process <strong>Shot Data</strong> Template with the connected images, the storyline needs to be reordered. Both of the connected storylines need to be broken apart using <code v-pre>Shift</code> + <code v-pre>CMD</code> + <code v-pre>G</code>. To bring the visibility of the <strong>Shot Data</strong> Template’s Text on screen, you can reduce the opacity of the Images and Custom Solids to your desired value.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s1.14.png" alt="S1.14.png" />
+    <figcaption class="caption">S1.14.png</figcaption>
+</figure>
+</p>
+<ol start="17">
+<li>Make sure you have entered and selected all the values within each <strong>Shot Data</strong> Template instance. You are required to enter a unique Shot Number <code v-pre>01</code>, <code v-pre>02</code>, <code v-pre>03</code>, <code v-pre>04</code> and so on for each <strong>Shot Data</strong> Template instance. If you have 19 cuts in your timeline, you should have 19 instances of <strong>Shot Data</strong> Template.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>At this point, you can enter as much of <strong>Shot Data</strong> information pertaining each shot. Example: Scene Description, Wardrobe Notes and etc.</p>
+        </div>
+    </div>
+</div>
 <p>But if they are going to be the same for continuing shots, leave them as blank. You can copy &amp; paste them easily later in Notion.</p>
-<p><img src="../../static/s1.15.png" alt="S1.15.png" /></p>
-</li>
-<li><p>We are finally done with Part 1! Here comes the fun Part. <span class="docs-emoji">&#x1F973;</span></p>
-</li>
+<p><figure class="content-center">
+    <img src="../../static/s1.15.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="18">
+<li>We are finally done with Part 1! Here comes the fun Part. <span class="docs-emoji">&#x1F973;</span></li>
 </ol>
-</details>
-<details>
-<summary>Part 2 - Sending to Notion</summary>
+</doc-panel>
+<doc-panel id="part-2-sending-to-notion" collapsed>
+    <template #title>Part 2 - Sending to Notion</template>
 <ol>
-<li><p><a href="https://www.notion.so/help/duplicate-public-pages">Duplicate</a> my <a href="https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7">Shot Data Template</a> into your Notion Workspace. You can rename the template to your desire.</p>
+<li><p><a href="https://www.notion.so/help/duplicate-public-pages" target="_blank">Duplicate</a> my <a href="https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7" target="_blank">Shot Data Template</a> into your Notion Workspace. You can rename the template to your desire.</p>
 </li>
 <li><p>Select <strong>Shot Data</strong> from the <strong>CommandPost</strong>’s Toolbox Menu.</p>
 </li>
-<li><p>Paste your <a href="https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede">Notion v2 Token</a> in the Notion Token field. Make sure both <strong>Automatically Upload Converted FCPXMLs</strong> and <strong>Merge with Existing Database</strong> are Checked.</p>
-<p><img src="../../static/s2.1.png" alt="S2.1.png" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.</p>
+<li><p>Paste your <a href="https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede" target="_blank">Notion v2 Token</a> in the Notion Token field. Make sure both <strong>Automatically Upload Converted FCPXMLs</strong> and <strong>Merge with Existing Database</strong> are Checked.</p>
 </li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s2.1.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.</p>
+        </div>
+    </div>
+</div>
+<ol start="4">
 <li><p>From your duplicated Shot Data Template, <strong>Copy Link to View</strong> and paste the URL into the Notion Database URL field.</p>
 </li>
 <li><p>Select your preferred <strong>Export Destination</strong> by pressing on <strong>Change Export Destination</strong>.</p>
-<p><img src="../../static/s2.2.png" alt="S2.2.png" /></p>
-</li>
-<li><p>Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone.</p>
-<p><img src="../../static/s3.3.png" alt="S3.3.png" /></p>
-</li>
-<li><p>Watch as the magic happens!</p>
 </li>
 </ol>
 <p><figure class="content-center">
-    <img src="../../static/s2.4.gif" alt="S2.4.gif" />
-    <figcaption class="caption">S2.4.gif</figcaption>
+    <img src="../../static/s2.2.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p><span class="docs-emoji">&#x1F4A1;</span> The upload speed is dependent on your internet connection and Notion’s servers.</p>
-<ol start="8">
-<li>If you have 19 shots within your Project’s Timeline, you should technically have 19 records automatically created within your Notion’s database.</li>
-<li>This is the very essence of <strong>Shot Data</strong> Workflow. Repeat the process for the rest of your Scenes in Final Cut Pro. Your Notion’s database will grow overtime.</li>
+<ol start="6">
+<li>Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone.</li>
 </ol>
-</details>
+<p><figure class="content-center">
+    <img src="../../static/s3.3.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="7">
+<li>Watch as the magic happens!</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s2.4.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>The upload speed is dependent on your internet connection and Notion’s servers.</p>
+        </div>
+    </div>
+</div>
+<ol start="8">
+<li><p>If you have 19 shots within your Project’s Timeline, you should technically have 19 records automatically created within your Notion’s database.</p>
+</li>
+<li><p>This is the very essence of <strong>Shot Data</strong> Workflow. Repeat the process for the rest of your Scenes in Final Cut Pro. Your Notion’s database will grow overtime.</p>
+</li>
+</ol>
+</doc-panel>
 <doc-anchor-target id="advance-usage---shot-data">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#advance-usage---shot-data">#</doc-anchor-trigger>
         <span>Advance Usage - Shot Data</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
-<details>
-<summary>Using Notion’s Mobile App</summary>
+<doc-panel id="using-notion-s-mobile-app" collapsed>
+    <template #title>Using Notion’s Mobile App</template>
 <ol>
-<li><a href="https://www.notion.so/mobile">Download</a> the Mobile version of Notion.</li>
-<li>Add <a href="https://www.notion.so/help/mobile-widgets">widget</a> on your home screen.</li>
+<li><p><a href="https://www.notion.so/mobile" target="_blank">Download</a> the Mobile version of Notion.</p>
+</li>
+<li><p>Add <a href="https://www.notion.so/help/mobile-widgets" target="_blank">widget</a>  on your home screen.</p>
+</li>
 </ol>
 <p><figure class="content-center">
-    <img src="../../static/s3.1.gif" alt="S3.1.gif" />
-    <figcaption class="caption">S3.1.gif</figcaption>
+    <img src="../../static/s3.1.gif" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p><span class="docs-emoji">&#x1F4A1;</span> You could <a href="https://www.manfrotto.com/global/magic-arm-with-bracket-143a/">mount</a> your iPhone or iPad to your Camera Rig and to your <a href="https://woodencamera.com/products/directors-monitor-cage-v3">Director&#x27;s Monitor Cage</a>.</p>
-</details>
-<details>
-<summary>Setting up database relationships</summary>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You could <a href="https://www.manfrotto.com/global/magic-arm-with-bracket-143a/" target="_blank">mount</a> your iPhone or iPad to your Camera Rig and to your <a href="https://woodencamera.com/products/directors-monitor-cage-v3" target="_blank">Director&#x27;s Monitor Cage</a>.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-panel id="setting-up-database-relationships" collapsed>
+    <template #title>Setting up database relationships</template>
 <ol>
-<li><p>Make sure you have read and understand Notion’s <a href="https://www.notion.so/help/relations-and-rollups">documentation on Relations &amp; Rollups</a>.</p>
+<li><p>Make sure you have read and understand Notion’s <a href="https://www.notion.so/help/relations-and-rollups" target="_blank">documentation on Relations &amp; Rollups</a>.</p>
 </li>
 <li><p>You can create separate databases for <strong>Scene Characters</strong>, <strong>Scenes</strong>, <strong>Sets</strong>, <strong>Locations</strong>, <strong>Wardrobe</strong> and so on.</p>
 </li>
@@ -544,97 +821,234 @@
 <li><p>In the property menu, Choose <strong>Relation</strong> from the <strong>Type</strong> menu.</p>
 </li>
 <li><p>You&#x27;ll be asked to find the database you want to create the relation with. You can use the input at the top to search for this database.</p>
-<p><img src="../../static/s3.2.png" alt="S3.2.png" /></p>
-</li>
-<li><p>In <strong>Shot Data</strong> Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your <strong>Characters</strong> database.</p>
-<p><img src="../static/s3.3201.png" alt="S3.3.png" /></p>
-<p><span class="docs-emoji">&#x1F4A1;</span> If you have added <code v-pre>Luke</code> and <code v-pre>Yoda</code> in your <strong>Characters</strong> database, enter <code v-pre>Luke,Yoda</code>. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with <code v-pre>,</code>.</p>
-</li>
-<li><p>Now when you Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone, <strong>Shot Data</strong> will automatically match and link the record with the associated relation in Notion during the upload.</p>
-</li>
-<li><p>As mention, you can create separate database for <strong>Scene Characters</strong>, <strong>Scenes</strong>, <strong>Sets</strong>, <strong>Locations</strong>, <strong>Wardrobe</strong> and so on.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> Set up all relevant and vital databases in Notion before you commence your work in Final Cut Pro with <strong>Shot Data</strong> Template.</p>
 </li>
 </ol>
-</details>
-<details>
-<summary>Updating existing Shot List in Notion’s database</summary>
+<p>!](../static/S3.2.png)</p>
+<ol start="6">
+<li>In <strong>Shot Data</strong> Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your <strong>Characters</strong> database.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../static/s3.3201.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>If you have added <code v-pre>Luke</code> and <code v-pre>Yoda</code> in your <strong>Characters</strong> database, enter <code v-pre>Luke,Yoda</code>. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with <code v-pre>,</code>.</p>
+        </div>
+    </div>
+</div>
+<ol start="7">
+<li>Now when you Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone, <strong>Shot Data</strong> will automatically match and link the record with the associated relation in Notion during the upload.</li>
+<li>As mention, you can create separate database for <strong>Scene Characters</strong>, <strong>Scenes</strong>, <strong>Sets</strong>, <strong>Locations</strong>, <strong>Wardrobe</strong> and so on.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Set up all relevant and vital databases in Notion before you commence your work in Final Cut Pro with <strong>Shot Data</strong> Template.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-panel id="updating-existing-shot-list-in-notion-s-database" collapsed>
+    <template #title>Updating existing Shot List in Notion’s database</template>
 <ol>
-<li><p>In a scenario where your Images are updated in <strong>Final Cut Pro</strong>, you can batch update your existing Shot List database in Notion using <strong>Ignore Selected Column</strong> feature.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> In order to batch update your records, couple of conditions have to be met. The <strong>Shot Number</strong> and <strong>Scene Number</strong> have to be matched and identical. And the number of edits have to be identical.</p>
-</li>
-<li><p>Select all the Columns except <strong>Scene Description</strong> and <strong>Image Filename</strong>. The <strong>Scene Description</strong> will always be used as the Image’s Caption within Notion.</p>
-<p><img src="../../static/s3.4.gif" alt="S3.4.gif" /></p>
-</li>
+<li>In a scenario where your Images are updated in <strong>Final Cut Pro</strong>, you can batch update your existing Shot List database in Notion using <strong>Ignore Selected Column</strong> feature.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>In order to batch update your records, couple of conditions have to be met. The <strong>Shot Number</strong> and <strong>Scene Number</strong> have to be matched and identical. And the number of edits have to be identical.</p>
+        </div>
+    </div>
+</div>
+<ol start="2">
+<li>Select all the Columns except <strong>Scene Description</strong> and <strong>Image Filename</strong>. The <strong>Scene Description</strong> will always be used as the Image’s Caption within Notion.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s3.4.gif" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="3">
 <li><p>Now when you Drag &amp; Drop your your Project into <strong>Shot Data’s Toolbox</strong> XML Drop Zone, <strong>Shot Data</strong> will only upload and update the images that are embedded within each record.</p>
 </li>
 <li><p>You can also update other Columns if required.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> If your entire scene in <strong>Final Cut Pro</strong> is updated with a different set of cuts, the best course of action is to delete that affected range of Scene or Shot records in Notion. And perform a fresh set of upload in <strong>Shot Data</strong>’s Toolbox.</p>
 </li>
 </ol>
-</details>
-<details>
-<summary>Emojis 😀</summary>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>If your entire scene in <strong>Final Cut Pro</strong> is updated with a different set of cuts, the best course of action is to delete that affected range of Scene or Shot records in Notion. And perform a fresh set of upload in <strong>Shot Data</strong>’s Toolbox.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-panel id="emojis" collapsed>
+    <template #title>Emojis <span class="docs-emoji">&#x1F600;</span></template>
 <ol>
-<li><p>In Notion, you can customise your pages with <a href="https://www.notion.so/help/customize-and-style-your-content">Icons</a>.</p>
+<li><p>In Notion, you can customise your pages with <a href="https://www.notion.so/help/customize-and-style-your-content" target="_blank">Icons</a>.</p>
 </li>
 <li><p>The default icon for all the records is. <span class="docs-emoji">&#x1F3AC;</span>.</p>
-<p><img src="../../static/s3.5.png" alt="S3.5.png" /></p>
-</li>
-<li><p>You can click on the <strong>Emoji Picker</strong> button to change to a different Emoji.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> You can get creative with emojis. You can assign <span class="docs-emoji">&#x2600;&#xFE0F;</span> sun emoji for day scenes and <span class="docs-emoji">&#x1F311;</span> moon emoji for night scenes.</p>
 </li>
 </ol>
-</details>
-<details>
-<summary>Saving and Loading Settings</summary>
+<p><figure class="content-center">
+    <img src="../../static/s3.5.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="3">
+<li>You can click on the <strong>Emoji Picker</strong> button to change to a different Emoji.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You can get creative with emojis. You can assign <span class="docs-emoji">&#x2600;&#xFE0F;</span> sun emoji for day scenes and <span class="docs-emoji">&#x1F311;</span> moon emoji for night scenes.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
+<doc-panel id="saving-and-loading-settings" collapsed>
+    <template #title>Saving and Loading Settings</template>
 <ol>
 <li><p>As you get comfortable with <strong>Shot Data</strong> workflow and Notion, you would have multiple Shot List database within Notion for different projects. You might also hold multiple Notion accounts, Personal and Teams.</p>
 </li>
 <li><p>You are able to <strong>Save Settings</strong> for multiple configuration.</p>
-<p><img src="../../static/s3.6.png" alt="S3.6.png" /></p>
-</li>
-<li><p>You can recall different configuration by pressing <strong>Load Settings</strong>.</p>
 </li>
 </ol>
-</details>
-<details>
-<summary>Drag & Drop Final Cut Pro’s Project to Dock Icon</summary>
+<p><figure class="content-center">
+    <img src="../../static/s3.6.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="3">
+<li>You can recall different configuration by pressing <strong>Load Settings</strong>.</li>
+</ol>
+</doc-panel>
+<doc-panel id="drag-drop-final-cut-pro-s-project-to-dock-icon" collapsed>
+    <template #title>Drag &amp; Drop Final Cut Pro’s Project to Dock Icon</template>
 <ol>
-<li><p>Check CommandPost’s Dock Icon, under <strong>Preferences</strong>, <strong>General</strong>.</p>
-<p><img src="../../static/s3.7.png" alt="S3.7.png" /></p>
-</li>
-<li><p>CommandPost’s Dock Icon will appear in your Dock.</p>
-<p><img src="../../static/s3.8.png" alt="S3.8.png" /></p>
-</li>
-<li><p>Check <strong>Enable Dropping Final Cut Pro Project to Dock Icon</strong>.</p>
-<p><img src="../../static/s3.9.png" alt="S3.9.png" /></p>
-</li>
-<li><p>You can now Drag &amp; Drop Project’s <strong>Shot Data</strong> Sequences into CommandPost’s Dock Icon easily without opening <strong>Shot Data</strong>’s Toolbox.</p>
-<p><span class="docs-emoji">&#x1F4A1;</span> Please make sure you have pre-configured all your settings within <strong>Shot Data</strong>’s Toolbox.</p>
-</li>
+<li>Check CommandPost’s Dock Icon, under <strong>Preferences</strong>, <strong>General</strong>.</li>
 </ol>
-</details>
+<p><figure class="content-center">
+    <img src="../../static/s3.7.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="2">
+<li>CommandPost’s Dock Icon will appear in your Dock.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s3.8.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="3">
+<li>Check <strong>Enable Dropping Final Cut Pro Project to Dock Icon</strong>.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../static/s3.9.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol start="4">
+<li>You can now Drag &amp; Drop Project’s <strong>Shot Data</strong> Sequences into CommandPost’s Dock Icon easily without opening <strong>Shot Data</strong>’s Toolbox.</li>
+</ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Please make sure you have pre-configured all your settings within <strong>Shot Data</strong>’s Toolbox.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
 <doc-anchor-target id="faq">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#faq">#</doc-anchor-trigger>
         <span>FAQ</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
-<details>
-<summary>Can Shot Data be used with other applications?</summary>
+<doc-panel id="can-shot-data-be-used-with-other-applications" collapsed>
+    <template #title>Can Shot Data be used with other applications?</template>
 <ol>
 <li>Yes. You can uncheck <strong>Automatically Upload Converted FCPXMLs</strong> in <strong>Shot Data</strong>’s Toolbox.</li>
 <li>All Shot Data files are stored in <strong>Export Destination</strong> folder. Press <strong>Reveal Export Destination</strong> to open the folder.</li>
 <li>In each sub folders, you will find the <code v-pre>*.csv</code> file with the accompanying images auto renamed.</li>
 <li>You can import the <code v-pre>*.csv</code> to any application that accepts it.</li>
 </ol>
-</details>
-<details>
-<summary>Can Shot Data be used with Airtable?</summary>
+</doc-panel>
+<doc-panel id="can-shot-data-be-used-with-airtable" collapsed>
+    <template #title>Can Shot Data be used with Airtable?</template>
 <p>Interestingly, I initially experimented Shot Data with Airtable. Airtable offers a superior database system compared to Notion. However, Notion offers greater affordability, superior embeds, note-taking features within each page, comparatively.</p>
-<p>If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, <a href="https://twitter.com/IAmVigneswaran">get in touch with me</a>.</p>
-</details>
+<p target="_blank">If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, <a href="https://twitter.com/IAmVigneswaran">get in touch with me</a> .</p>
+</doc-panel>
 <doc-anchor-target id="afterthoughts">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#afterthoughts">#</doc-anchor-trigger>
@@ -642,13 +1056,13 @@
     </h2>
 </doc-anchor-target>
 <p>This workflow would be particularly advantageous if you are the Writer, Director and Editor; or at least collaborating with an Editor in the early development phase. You could pursue through your vision from storyboard, pre-cut to actual principal photography and back to editorial in Final Cut Pro. Be it short-form or feature form, this workflow should be applicable across.</p>
-<p><em>Last Edited : 28th November 2022</em></p>
+<p><em>Last Edited : 8th June 2023</em></p>
 <hr />
-<p>Workflow Created by <a href="https://vigneswaranrajkumar.com">Vigneswaran Rajkumar</a></p>
-<p>Shot Data’s Toolbox Programming was made possible by <a href="https://github.com/latenitefilms">Chris Hocking</a></p>
-<p>Notion’s <a href="https://github.com/vzhd1701/csv2notion">Import Tool</a> by <a href="https://github.com/vzhd1701">Vladilen Zhdanov</a></p>
-<p>Initial Motion Template rigging was assisted by <a href="https://twitter.com/peterwiggins">Peter Wiggins</a></p>
-<p>Empire Strikes Back storyboard illustrations by <a href="https://www.imdb.com/name/nm0002653/">Joe Johnston</a> and <a href="https://www.imdb.com/name/nm0734890/">Nilo Rodis-Jamero</a></p>
+<p>Workflow Created by <a href="https://vigneswaranrajkumar.com" target="_blank">Vigneswaran Rajkumar</a></p>
+<p>Shot Data’s Toolbox Programming was made possible by <a href="https://github.com/latenitefilms" target="_blank">Chris Hocking</a></p>
+<p>Notion’s <a href="https://github.com/vzhd1701/csv2notion" target="_blank">Import Tool</a> by <a href="https://github.com/vzhd1701" target="_blank">Vladilen Zhdanov</a></p>
+<p>Initial Motion Template rigging was assisted by <a href="https://twitter.com/peterwiggins" target="_blank">Peter Wiggins</a></p>
+<p>Empire Strikes Back storyboard illustrations by <a href="https://www.imdb.com/name/nm0002653/" target="_blank">Joe Johnston</a> and <a href="https://www.imdb.com/name/nm0734890/" target="_blank">Nilo Rodis-Jamero</a></p>
 
                                 
                                 <!-- Required only on API pages -->
