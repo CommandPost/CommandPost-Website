@@ -129,7 +129,6 @@ There is an apparent bug in Final Cut Pro where Custom **Generators** with compl
 You can completely use Shot Data without a Music Track. It all depends on your project’s workflow and requirements.
 !!!
 
-
 9. With the Custom Solid Generator, you can start editing using the music’s structure and rhythm.
 
 ![](../static/S1.7.png)
@@ -137,7 +136,6 @@ You can completely use Shot Data without a Music Track. It all depends on your p
 !!!info Info
 You could change the colour of each Custom Solid to provide you a visual indication. For quicker reusability, create a set of Custom Solids with different colours. And you could also create a separate **Role** for all the Custom Solids and tag with a different colour.
 !!!
-
 
 10. Once you have completed editing the timeline with Custom Solids, you can now proceed to connect your reference images.
 
@@ -197,34 +195,38 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 ===
 
 ==- Part 2 - Sending to Notion
+1. [Duplicate](https://www.notion.so/help/duplicate-public-pages){target="_blank"} my [Shot Data Template](https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7){target="_blank"} into your Notion Workspace. You can rename the template to your desire.
 
-1. [Duplicate](https://www.notion.so/help/duplicate-public-pages) my [Shot Data Template](https://soothsayer.notion.site/1e6a317008e546159ca7015011cdb173?v=a1b16c2a1fa447138268a8f1fe515bd7) into your Notion Workspace. You can rename the template to your desire.
 2. Select **Shot Data** from the **CommandPost**’s Toolbox Menu.
-3. Paste your [Notion v2 Token](https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede) in the Notion Token field. Make sure both **Automatically Upload Converted FCPXMLs** and **Merge with Existing Database** are Checked.
 
-    ![S2.1.png](../static/S2.1.png)
+3. Paste your [Notion v2 Token](https://vzhd1701.notion.site/Find-Your-Notion-Token-5f57951434c1414d84ac72f88226eede){target="_blank"} in the Notion Token field. Make sure both **Automatically Upload Converted FCPXMLs** and **Merge with Existing Database** are Checked.
 
+![](../static/S2.1.png)
 
-    💡 Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.
-
-
+!!!info Info
+Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.
+!!!
 
 4. From your duplicated Shot Data Template, **Copy Link to View** and paste the URL into the Notion Database URL field.
+
 5. Select your preferred **Export Destination** by pressing on **Change Export Destination**.
 
-    ![S2.2.png](../static/S2.2.png)
+![](../static/S2.2.png)
 
 6. Drag & Drop your your Project into **Shot Data’s Toolbox** XML Drop Zone.
 
-    ![S3.3.png](../static/S3.3.png)
+![](../static/S3.3.png)
 
 7. Watch as the magic happens!
 
-![S2.4.gif](../static/S2.4.gif)
+![](../static/S2.4.gif)
 
-   💡 The upload speed is dependent on your internet connection and Notion’s servers.
+!!!info Info
+The upload speed is dependent on your internet connection and Notion’s servers.
+!!!
 
 8. If you have 19 shots within your Project’s Timeline, you should technically have 19 records automatically created within your Notion’s database.
+
 9. This is the very essence of **Shot Data** Workflow. Repeat the process for the rest of your Scenes in Final Cut Pro. Your Notion’s database will grow overtime.
 ===
 
@@ -232,40 +234,45 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 
 ==- Using Notion’s Mobile App
 
-1. [Download](https://www.notion.so/mobile) the Mobile version of Notion.
-2. Add [widget](https://www.notion.so/help/mobile-widgets) on your home screen.
+1. [Download](https://www.notion.so/mobile){target="_blank"} the Mobile version of Notion.
 
-![S3.1.gif](../static/S3.1.gif)
+2. Add [widget](https://www.notion.so/help/mobile-widgets){target="_blank"}  on your home screen.
 
-   💡 You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/) your iPhone or iPad to your Camera Rig and to your [Director's Monitor Cage](https://woodencamera.com/products/directors-monitor-cage-v3).
+![](../static/S3.1.gif)
+
+!!!info Info
+You could [mount](https://www.manfrotto.com/global/magic-arm-with-bracket-143a/){target="_blank"} your iPhone or iPad to your Camera Rig and to your [Director's Monitor Cage](https://woodencamera.com/products/directors-monitor-cage-v3){target="_blank"}.
+!!!
 
 ===
 
 ==- Setting up database relationships
+1. Make sure you have read and understand Notion’s [documentation on Relations & Rollups](https://www.notion.so/help/relations-and-rollups){target="_blank"}.
 
-1. Make sure you have read and understand Notion’s [documentation on Relations & Rollups](https://www.notion.so/help/relations-and-rollups).
 2. You can create separate databases for **Scene Characters**, **Scenes**, **Sets**, **Locations**, **Wardrobe** and so on.
+
 3. Once you have created individual databases for each **Property**.
+
 4. In the property menu, Choose **Relation** from the **Type** menu.
+
 5. You'll be asked to find the database you want to create the relation with. You can use the input at the top to search for this database.
 
-    ![S3.2.png](../static/S3.2.png)
+!](../static/S3.2.png)
 
 6. In **Shot Data** Template of each instance, back in Final Cut Pro, you can enter the Exact name of that record from your **Characters** database.
 
-    ![S3.3.png](../static/S3.3%201.png)
+![](../static/S3.3%201.png)
 
-
-    💡 If you have added `Luke` and `Yoda` in your **Characters** database, enter `Luke,Yoda`. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with `,`.
-
-
+!!!info Info
+If you have added `Luke` and `Yoda` in your **Characters** database, enter `Luke,Yoda`. It is case-sensitive. And if you have more than 1 item for the field, have to separate them with `,`.
+!!!
 
 7. Now when you Drag & Drop your your Project into **Shot Data’s Toolbox** XML Drop Zone, **Shot Data** will automatically match and link the record with the associated relation in Notion during the upload.
 8. As mention, you can create separate database for **Scene Characters**, **Scenes**, **Sets**, **Locations**, **Wardrobe** and so on.
 
-
-    💡 Set up all relevant and vital databases in Notion before you commence your work in Final Cut Pro with **Shot Data** Template.
-
+!!!info Info
+Set up all relevant and vital databases in Notion before you commence your work in Final Cut Pro with **Shot Data** Template.
+!!!
 
 ===
 
@@ -273,71 +280,69 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 
 1. In a scenario where your Images are updated in **Final Cut Pro**, you can batch update your existing Shot List database in Notion using **Ignore Selected Column** feature.
 
-
-    💡 In order to batch update your records, couple of conditions have to be met. The **Shot Number** and **Scene Number** have to be matched and identical. And the number of edits have to be identical.
-
-
+!!!info Info
+In order to batch update your records, couple of conditions have to be met. The **Shot Number** and **Scene Number** have to be matched and identical. And the number of edits have to be identical.
+!!!
 
 2. Select all the Columns except **Scene Description** and **Image Filename**. The **Scene Description** will always be used as the Image’s Caption within Notion.
 
-    ![S3.4.gif](../static/S3.4.gif)
+![](../static/S3.4.gif)
 
 3. Now when you Drag & Drop your your Project into **Shot Data’s Toolbox** XML Drop Zone, **Shot Data** will only upload and update the images that are embedded within each record.
+
 4. You can also update other Columns if required.
 
-
-    💡 If your entire scene in **Final Cut Pro** is updated with a different set of cuts, the best course of action is to delete that affected range of Scene or Shot records in Notion. And perform a fresh set of upload in **Shot Data**’s Toolbox.
-
+!!!info Info
+If your entire scene in **Final Cut Pro** is updated with a different set of cuts, the best course of action is to delete that affected range of Scene or Shot records in Notion. And perform a fresh set of upload in **Shot Data**’s Toolbox.
+!!!
 
 ===
 
 ==- Emojis 😀
 
-1. In Notion, you can customise your pages with [Icons](https://www.notion.so/help/customize-and-style-your-content).
+1. In Notion, you can customise your pages with [Icons](https://www.notion.so/help/customize-and-style-your-content){target="_blank"}.
+
 2. The default icon for all the records is. 🎬.
 
-    ![S3.5.png](../static/S3.5.png)
+![](../static/S3.5.png)
 
 3. You can click on the **Emoji Picker** button to change to a different Emoji.
 
-
-    💡 You can get creative with emojis. You can assign ☀️ sun emoji for day scenes and 🌑 moon emoji for night scenes.
-
+!!!info Info
+You can get creative with emojis. You can assign ☀️ sun emoji for day scenes and 🌑 moon emoji for night scenes.
+!!!
 
 ===
 
 ==- Saving and Loading Settings
-
 1. As you get comfortable with **Shot Data** workflow and Notion, you would have multiple Shot List database within Notion for different projects. You might also hold multiple Notion accounts, Personal and Teams.
+
 2. You are able to **Save Settings** for multiple configuration.
 
-    ![S3.6.png](../static/S3.6.png)
+![](../static/S3.6.png)
 
 3. You can recall different configuration by pressing **Load Settings**.
-</details>
 
 ===
 
 ==- Drag & Drop Final Cut Pro’s Project to Dock Icon
-
-
 1. Check CommandPost’s Dock Icon, under **Preferences**, **General**.
 
-    ![S3.7.png](../static/S3.7.png)
+![](../static/S3.7.png)
 
 2. CommandPost’s Dock Icon will appear in your Dock.
 
-    ![S3.8.png](../static/S3.8.png)
+![](../static/S3.8.png)
 
 3. Check **Enable Dropping Final Cut Pro Project to Dock Icon**.
 
-    ![S3.9.png](../static/S3.9.png)
+![](../static/S3.9.png)
 
 4. You can now Drag & Drop Project’s **Shot Data** Sequences into CommandPost’s Dock Icon easily without opening **Shot Data**’s Toolbox.
 
-
-    💡 Please make sure you have pre-configured all your settings within **Shot Data**’s Toolbox.
-
+!!!info Info
+Please make sure you have pre-configured all your settings within **Shot Data**’s Toolbox.
+!!!
 
 ===
 
@@ -353,23 +358,23 @@ But if they are going to be the same for continuing shots, leave them as blank. 
 ==- Can Shot Data be used with Airtable?
 Interestingly, I initially experimented Shot Data with Airtable. Airtable offers a superior database system compared to Notion. However, Notion offers greater affordability, superior embeds, note-taking features within each page, comparatively.
 
-If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran).
+If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran){target="_blank"}.
 ===
 
 ## Afterthoughts
 
 This workflow would be particularly advantageous if you are the Writer, Director and Editor; or at least collaborating with an Editor in the early development phase. You could pursue through your vision from storyboard, pre-cut to actual principal photography and back to editorial in Final Cut Pro. Be it short-form or feature form, this workflow should be applicable across.
 
-*Last Edited : 28th November 2022*
+*Last Edited : 8th June 2023*
 
 ---
 
-Workflow Created by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com)
+Workflow Created by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com){target="_blank"}
 
-Shot Data’s Toolbox Programming was made possible by [Chris Hocking](https://github.com/latenitefilms)
+Shot Data’s Toolbox Programming was made possible by [Chris Hocking](https://github.com/latenitefilms){target="_blank"}
 
-Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion) by [Vladilen Zhdanov](https://github.com/vzhd1701)
+Notion’s [Import Tool](https://github.com/vzhd1701/csv2notion) by [Vladilen Zhdanov](https://github.com/vzhd1701){target="_blank"}
 
-Initial Motion Template rigging was assisted by [Peter Wiggins](https://twitter.com/peterwiggins)
+Initial Motion Template rigging was assisted by [Peter Wiggins](https://twitter.com/peterwiggins){target="_blank"}
 
-Empire Strikes Back storyboard illustrations by [Joe Johnston](https://www.imdb.com/name/nm0002653/) and [Nilo Rodis-Jamero](https://www.imdb.com/name/nm0734890/)
+Empire Strikes Back storyboard illustrations by [Joe Johnston](https://www.imdb.com/name/nm0002653/){target="_blank"} and [Nilo Rodis-Jamero](https://www.imdb.com/name/nm0734890/){target="_blank"}
