@@ -1,12 +1,11 @@
 # CommandPost
----
 
 CommandPost is made up of two seperate components:
 
-* [CommandPost-App](https://github.com/CommandPost/CommandPost-App) contains the [Hammerspoon](http://www.hammerspoon.org) fork which makes up the main application.
-* [CommandPost](https://github.com/CommandPost/CommandPost) contains all the [Lua](https://www.lua.org/about.html) scripts that drive the interface and feature set.
+* [CommandPost-App](https://github.com/CommandPost/CommandPost-App){target="_blank"} contains the [Hammerspoon](http://www.hammerspoon.org){target="_blank"} fork which makes up the main application.
+* [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"} contains all the [Lua](https://www.lua.org/about.html){target="_blank"} scripts that drive the interface and feature set.
 
-Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based application - which is contained with the [CommandPost](https://github.com/CommandPost/CommandPost) repository.
+Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based application - which is contained with the [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"} repository.
 
 The CommandPost `src` directory contains three folders:
 
@@ -18,4 +17,4 @@ If there's a 3rd party extension that you need for development, you can add it t
 
 If you want to make new features for CommandPost, you can build them as a plugin and store them in the `plugins` folder.
 
-If you have any questions about this, feel free to [submit an issue](https://github.com/CommandPost/CommandPost/issues).
+If you have any questions about this, feel free to [submit an issue](https://github.com/CommandPost/CommandPost/issues){target="_blank"}.

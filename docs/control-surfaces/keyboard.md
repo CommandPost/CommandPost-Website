@@ -1,5 +1,4 @@
 # Keyboard
----
 
 The most common way of triggering actions in CommandPost is via shortcut keys on your keyboard.
 
@@ -16,11 +15,11 @@ There are also built-in shortcuts predefined for Final Cut Pro.
 
 You can customise the shortcuts keys in the **Keyboard** Preferences panel - which can be accessed by pressing the **Control Surfaces** dropdown menu near the bottom of the CommandPost menubar:
 
-![Control Surface Preferences Item](../../images/menubar-control-item.png)
+![](/static/menubar-control-item.png)
 
 This is what the Shortcut Preferences panel looks like:
 
-![Shortcut Preferences](../../images/shortcuts-prefs.png)
+![](/static/shortcuts-prefs.png)
 
 The top drop-down allows you to select between "All Applications" Shortcuts or application specific shortcuts (currently limited to Final Cut Pro).
 

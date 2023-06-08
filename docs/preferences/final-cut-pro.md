@@ -1,4 +1,5 @@
-# Final Cut Pro Preferences Panel
----
+# Final Cut Pro
 
-Under Construction
+This preferences panel allows you to change various Final Cut Pro preferences.
+
+![](../static/prefs-final-cut-pro.png)

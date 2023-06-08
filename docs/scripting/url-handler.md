@@ -1,5 +1,4 @@
 # URL Handler
----
 
 CommandPost has a URL Handler which allows you to trigger CommandPost Commands & Actions via a simple URL address.
 

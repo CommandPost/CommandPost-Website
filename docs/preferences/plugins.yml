@@ -1,4 +1,4 @@
-label: Installation
-icon: rocket
-order: 8000
-image: static/thumbnail.png
+label: Plugins
+icon: browser
+order: 92
+image: ../static/thumbnail.png

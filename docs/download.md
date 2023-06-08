@@ -1,7 +1,7 @@
 # Download
 
-You can download all versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
+You can download **CommandPost v1.4.17** [here](https://github.com/CommandPost/CommandPost/releases/download/1.4.17/CommandPost_1.4.17.dmg){target="_blank"}
 
-Click the **DMG** file to download (underneath the release notes).
+You can find all previous versions of CommandPost on [GitHub](https://github.com/CommandPost/CommandPost/releases/).
 
-Please review our [license agreement](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md) and [privacy policy](https://help.commandpost.io/privacy-and-credits/privacy_policy) before downloading.
+You can find installation instructions [here](/installation).

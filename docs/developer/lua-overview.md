@@ -1,5 +1,5 @@
 # Lua Overview
----
+
 ## What is Lua?
 
 What do DaVinci Resolve, Adobe Photoshop Lightroom, Angry Birds, Apache HTTP Server, Apache Traffic Server, the Firefox web browser, MediaWiki, and World of Warcraft all have in common?
@@ -10,11 +10,11 @@ They are all extensible using the cross-platform Lua programming language!
 
 Lua is a powerful and fast programming language that is easy to learn and use and to embed into your application.
 
-Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html) from games to web applications and image processing.
+Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html){target="_blank"} from games to web applications and image processing.
 
-Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html).
+Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html){target="_blank"}.
 
-For complete information, visit [Lua's web site](http://www.lua.org/).
+For complete information, visit [Lua's web site](http://www.lua.org/){target="_blank"}.
 
 ---
 
@@ -24,25 +24,25 @@ Here's some links to useful tutorials...
 
 #### Beginners:
 
-* [Lua Tutorial (Video)](https://www.youtube.com/watch?v=iMacxZQMPXs) & [Cheatsheet](http://www.newthinktank.com/2015/06/learn-lua-one-video/)
-* [Intro to Programming in Lua (Video)](https://www.youtube.com/playlist?list=PLz-rYTT-2nIvtosMFa-OVURa5J9fAgtNU)
-* [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/)
-* [Learn Lua the Hard Way](http://www.phailed.me/2011/02/learn-lua-the-hard-way-1/)
+* [Lua Tutorial (Video)](https://www.youtube.com/watch?v=iMacxZQMPXs){target="_blank"} & [Cheatsheet](http://www.newthinktank.com/2015/06/learn-lua-one-video/){target="_blank"}
+* [Intro to Programming in Lua (Video)](https://www.youtube.com/playlist?list=PLz-rYTT-2nIvtosMFa-OVURa5J9fAgtNU){target="_blank"}
+* [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/){target="_blank"}
+* [Learn Lua the Hard Way](http://www.phailed.me/2011/02/learn-lua-the-hard-way-1/){target="_blank"}
 
 #### Programmers:
 
-* [Lua for Programmers Part 1: Language Essentials](http://nova-fusion.com/2012/08/27/lua-for-programmers-part-1/)
-* [Learning Lua from JavaScript](http://phrogz.net/lua/LearningLua_FromJS.html)
-* [Lua for Python Programmers](http://the4thwiki.com/lua/)
-* [A Quick Start Guide On Lua For C/C++ Programmers](https://docs.google.com/presentation/d/1wU7QwUQGved6jpnn-oYHjv9sU3d9TlqEvhv_TqyAZwM/edit#slide=id.i0)
+* [Lua for Programmers Part 1: Language Essentials](http://nova-fusion.com/2012/08/27/lua-for-programmers-part-1/){target="_blank"}
+* [Learning Lua from JavaScript](http://phrogz.net/lua/LearningLua_FromJS.html){target="_blank"}
+* [Lua for Python Programmers](http://the4thwiki.com/lua/){target="_blank"}
+* [A Quick Start Guide On Lua For C/C++ Programmers](https://docs.google.com/presentation/d/1wU7QwUQGved6jpnn-oYHjv9sU3d9TlqEvhv_TqyAZwM/edit#slide=id.i0){target="_blank"}
 
 #### Advanced:
 
-* [Lua Performance Tips](https://www.lua.org/gems/sample.pdf)
+* [Lua Performance Tips](https://www.lua.org/gems/sample.pdf){target="_blank"}
 
 #### The Manual:
 
-*  [Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)
+*  [Programming in Lua (first edition)](http://www.lua.org/pil/contents.html){target="_blank"}
 
 ---
 
@@ -91,7 +91,7 @@ a=4 -- variable a is now 4!
  * Local Variables
  * Table Fields
 * Any variable is assumed to be global unless explicitely declared as local.
-* [Asmagill explains Global Variables](https://github.com/Hammerspoon/hammerspoon/issues/1103#issuecomment-265087511).
+* [Asmagill explains Global Variables](https://github.com/Hammerspoon/hammerspoon/issues/1103#issuecomment-265087511){target="_blank"}.
 * Before the first assignment to a variable, its value is `nil`.
 * Square brackets are used to index a table (e.g. `value=table[x]`). The first value in a table is at position 1 (and not 0 as for C arrays).
 

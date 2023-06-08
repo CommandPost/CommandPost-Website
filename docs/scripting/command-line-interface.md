@@ -1,9 +1,8 @@
 # Command Line Tool
----
 
 CommandPost offers an optional Command Line Tool, that allows you to trigger any arbitrary Lua code via Apple's Terminal.
 
-The Command Line Tool uses [hs.ipc](https://dev.commandpost.io/api/hs/hs.ipc.html).
+The Command Line Tool uses [hs.ipc](https://dev.commandpost.io/api/hs/hs.ipc.html){target="_blank"}.
 
 To install the Command Line Tool, click the CommandPost menubar icon, then **Preferences...**, click the **Advanced** tab then the **Install** button.
 

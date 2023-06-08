@@ -1,5 +1,4 @@
 # Naming Conventions
----
 
 Both Lua and Objective-C portions of an extension/plugin should contain in-line documention of all of the functions they expose to users of the extension/plugin.
 
@@ -19,10 +18,12 @@ The format for docstrings should follow the standard described below.
       2. `my.modulename:foo(bar) -> string`
       3. `my.modulename.foo(bar, fn(int) -> int)`
       4. `my.modulename.foo = {}`
-   3. The second line is a single captitalized word, like "Variable", "Function", "Constructor", "Method", "Constant" or "Field".
+   3. The second line is a single capitalized word, like "Variable" or "Function" or "Method" or "Constant" or "Field"
    4. The remaining lines describe the item
 5. Any comment that starts with 4 comment-characters is ignored
 7. Only files ending in `.lua` or `.m` are scanned
+
+---
 
 ### Constants
 
@@ -32,6 +33,8 @@ The format for docstrings should follow the standard described below.
 --- This defines the value of a thing
 ```
 
+---
+
 ### Variables
 
 ```lua
@@ -39,6 +42,8 @@ The format for docstrings should follow the standard described below.
 --- Variable
 --- This lets you influence the behaviour of this extension
 ```
+
+---
 
 ### Fields
 
@@ -55,6 +60,8 @@ For example:
 --- Field
 --- Returns `true` if the plugin is supported on this OS.
 ```
+
+---
 
 ### Functions
 
@@ -78,6 +85,8 @@ The `Parameters` and `Returns` sections should always be present. If there is no
 ---  * An important first note
 ---  * Another important note
 ```
+
+---
 
 ### Methods
 

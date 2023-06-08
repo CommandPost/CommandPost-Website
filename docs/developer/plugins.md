@@ -1,5 +1,4 @@
 # Plugin Overview
----
 
 CommandPost has a very easy to use and powerful plugins functionality, and because Lua is quite a simple language to use, it's really easy to throw together your own CommandPost Plugins!
 
@@ -25,17 +24,17 @@ A CommandPost Plugin is simply a macOS bundle which contains Lua scripts (and an
 
 When you first run CommandPost it will register the `.cpPlugin` extension in macOS, which means if you create a folder called `SOMETHING.cpPlugin` it will prompt you with:
 
-![CommandPost Plugin](../../images/cpplugin.png)
+![CommandPost Plugin](/static/cpplugin.png)
 
 If you click **Add** it will turn that newly created folder into a CommandPost Plugin Bundle.
 
 You view the contents of the bundle, simply right click and select **Show Package Contents**.
 
-![Show Package Contents](../../images/show-package-contents.png)
+![Show Package Contents](/static/show-package-contents.png)
 
 At a very minimum, the plugin should contain a single `.lua` file, which will be the Lua code that's executed.
 
-CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as [Swift](https://developer.apple.com/swift/).
+CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as [Swift](https://developer.apple.com/swift/){target="_blank"}.
 
 ---
 
@@ -43,9 +42,9 @@ CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (
 
 Below is a simple Plugin example that adds a button to the very bottom of the CommandPost menubar, and when click it displays the CommandPost version in a dialog box.
 
-* To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use [these naming conventions](https://dev.commandpost.io/naming_conventions.html) when building your own plugins.
-* You can learn more about the plugins API [here](https://dev.commandpost.io/api/cp/cp.plugins.html).
-* You can learn more about `cp.config` [here](https://dev.commandpost.io/api/cp/cp.config.html).
+* To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use [these naming conventions](/developer/naming-conventions/) when building your own plugins.
+* You can learn more about the plugins API [here](/developer/cp/cp.plugins/).
+* You can learn more about `cp.config` [here](/developer/cp/cp.config/).
 
 ```lua
 --- === plugins.core.example ===

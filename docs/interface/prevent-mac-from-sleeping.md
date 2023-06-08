@@ -1,5 +1,4 @@
 # Prevent Mac from Sleeping
----
 
 Much like the beloved MacOS app Caffeine, CommandPost provides an option to prevent your Mac from automatically going to sleep. This setting overrides your Battery setting in your System Preferences and keeps the display on indefinitely. It's a handy tool if you want to temporarily disable sleep to ensure a download or upload won't be interrupted, and then revert to your usual sleep settings afterwards.
 

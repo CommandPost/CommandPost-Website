@@ -1,5 +1,4 @@
 # Tangent
----
 
 CommandPost offers native support of the entire range of Tangent's panels, including the Arc, Element, Wave & Wave2, Ripple, the Element-Vs iPad & Android app, and any future panels.
 
@@ -7,15 +6,15 @@ element-Vs free (Android) and element-Vs sample (iPad) are the free version whic
 
 ---
 
-## Setup
+### Setup
 
 To setup Tangent support, from the CommandPost menubar, click "Preferences..." near the bottom:
 
-![Preferences](../../images/preferences.png)
+![](/static/preferences.png)
 
 Then click the "Tangent" tab:
 
-![Tangent Preferences](../../images/tangent-preferences.png)
+![](/static/tangent-preferences.png)
 
 If you don't already have the Tangent Hub software installed, click the "Download Tangent Hub" button to get it.
 
@@ -25,21 +24,21 @@ This will connect CommandPost to the Tangent Hub, allowing you to use the Tangen
 
 Click "Open Tangent Mapper" to open Tangent Mapper.
 
-![Tangent Mapper](../../images/tangent-mapper.png)
+![](/static/tangent-mapper.png)
 
 Tangent Mapper should automatically load with the CommandPost Default controls.
 
 If for some strange reason it doesn't, click the "Select Application" menu bar and make sure CommandPost is selected, or that "Auto-select Application" is selected and CommandPost has a triangle icon next to it.
 
-![Select Application](../../images/tangent-application.png)
+![](/static/tangent-application.png)
 
 If you've been using a previous version of CommandPost, and have built your own custom layouts, if you want to restore the default layout select "File > Manage Control Maps...":
 
-![Tangent Preferences](../../images/tangent-manage-control-maps.png)
+![](/static/tangent-manage-control-maps.png)
 
 Then with the CommandPost Application selected in the top section, delete any custom Control Maps for CommandPost in the bottom section:
 
-![Map Management](../../images/tangent-map-management.png)
+![](/static/tangent-map-management.png)
 
 By default CommandPost will disable the built-in Final Cut Pro control map.
 
@@ -60,11 +59,11 @@ Please refer to the Tangent Mapper [User Manual](http://www.tangentwave.co.uk/ta
 
 CommandPost adds a huge amount of Final Cut Pro Parameters into Tangent Mapper which you can allocated to whichever button, knob or wheel you want.
 
-![Tangent Controls](../../images/tangent-controls.png)
+![](/static/tangent-controls.png)
 
 Another powerful feature is that via the Tangent tab of the CommandPost Preferences is a "Favourites" section:
 
-![Tangent Favourites](../../images/tangent-favourites.png)
+![](/static/tangent-favourites.png)
 
 This feature allows you to assign ANY CommandPost action to a Tangent Favourite, which you can then access from within the Tangent Mapper.
 
@@ -74,10 +73,10 @@ You can learn more about the Console [here](https://help.commandpost.io/interfac
 
 Once you've selected an action via the Console:
 
-![Tangent Favourites](../../images/tangent-favourite-prefs.png)
+![](/static/tangent-favourite-prefs.png)
 
 It will then appear in Tangent Mapper:
 
-![Tangent Favourites](../../images/tangent-mapper-favourite.png)
+![](/static/tangent-mapper-favourite.png)
 
 You can customise the Tangent panels however you want, and share your layouts with your friends via the Tangent Mapper.

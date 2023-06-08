@@ -1,4 +1,5 @@
 # Sony Timecode Repair
+
 Final Cut Pro currently doesn't correctly interpret timecode from certain Sony Cameras that are recording into an MP4 wrapper.
 This Toolbox will update a Project's FCPXML to use the correct timecode values from the XML sidecar file (or the MP4 itself if no sidecar file exists),
 so that you can more easily send timelines from Final Cut Pro to DaVinci Resolve, Baselight or Adobe Premiere (with XtoCC).

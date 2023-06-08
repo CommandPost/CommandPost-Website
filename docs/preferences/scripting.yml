@@ -1,4 +1,4 @@
-label: Installation
-icon: rocket
-order: 8000
-image: static/thumbnail.png
+label: Scripting
+icon: browser
+order: 94
+image: ../static/thumbnail.png

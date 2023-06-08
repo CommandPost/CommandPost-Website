@@ -1,7 +1,10 @@
 # Titles to Keywords
-This toolbox is a combination of two handy tools: Titles to Keywords, and Create Title from Text. 
 
-## Titles to Keywords
+This toolbox is a combination of two handy tools: Titles to Keywords, and Create Title from Text.
+
+---
+
+### Titles to Keywords
 
 When you drag a Final Cut Pro Event to this Toolbox (which must only contain a single Project), we will look through all the Titles connected
 to the clips in the Primary Storyline, read the name of those clips (as they appear in the Timeline Index), then create new Keyword Ranges
@@ -17,14 +20,17 @@ Options include:
 - Replace Commas with Alternative Commas
 - Treat FAVORITE and REJECT as Ratings instead of Keywords
 
-## Create Titles from Text
+---
+
+### Create Titles from Text
+
 This is a helpful tool that allows you to create a new Final Cut Pro Project which contains a new Title for every line in the below two text boxes.
 
 Options include:
 - Prefix:
 - Suffix
 - Sequence
-  - Start/End 
+  - Start/End
   - Add Space After Sequence
 - Start with
 - Step value

@@ -1,5 +1,4 @@
 # AppleScript
----
 
 CommandPost allows you to trigger any arbitrary Lua code via CommandPost's AppleScript interface.
 

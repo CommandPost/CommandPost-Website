@@ -1,5 +1,4 @@
-# Installation and Setup
----
+# Installation & Setup
 
 ## Introduction
 
@@ -12,12 +11,12 @@ However, if you're less technical, and just want to play around with the Lua sid
 ## Prerequisites
 
 ### Xcode
-[Xcode](https://developer.apple.com/xcode/) can be downloaded for free from the [Mac App Store](https://itunes.apple.com/au/app/xcode/id497799835?mt=12).
+[Xcode](https://developer.apple.com/xcode/){target="_blank"} can be downloaded for free from the [Mac App Store](https://itunes.apple.com/au/app/xcode/id497799835?mt=12){target="_blank"}.
 
 You will need to launch it, and accept the Terms & Conditions before attempting to build CommandPost.
 
 ### Homebrew
-[Homebrew](https://brew.sh) can be easily installed by executing the following command into Terminal:
+[Homebrew](https://brew.sh){target="_blank"} can be easily installed by executing the following command into Terminal:
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -33,12 +32,12 @@ Once `brew` is installed, `jq` can be installed by executing the following comma
 `brew install jq`
 
 ### pip
-[pip](https://packaging.python.org/installing/#install-pip-setuptools-and-wheel) can be installed by downloading [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to your desktop, then executing the following command in Terminal:
+[pip](https://packaging.python.org/installing/#install-pip-setuptools-and-wheel){target="_blank"} can be installed by downloading [get-pip.py](https://bootstrap.pypa.io/get-pip.py){target="_blank"} to your desktop, then executing the following command in Terminal:
 
 `sudo python ~/Desktop/get-pip.py`
 
 ### DMG Canvas
-If you wanting to build a DMG package as part of the CommandPost release, you'll need to buy and install [DMG Canvas](https://www.araelium.com/dmgcanvas).
+If you wanting to build a DMG package as part of the CommandPost release, you'll need to buy and install [DMG Canvas](https://www.araelium.com/dmgcanvas){target="_blank"}.
 
 ---
 
@@ -46,21 +45,21 @@ If you wanting to build a DMG package as part of the CommandPost release, you'll
 
 CommandPost is made up of two seperate components:
 
-* [CommandPost-App](https://github.com/CommandPost/CommandPost-App) contains the [Hammerspoon](http://www.hammerspoon.org) fork which makes up the main application.
-* [CommandPost](https://github.com/CommandPost/CommandPost) contains all the [Lua](https://www.lua.org/about.html) scripts that drive the interface and feature set.
+* [CommandPost-App](https://github.com/CommandPost/CommandPost-App){target="_blank"} contains the [Hammerspoon](http://www.hammerspoon.org){target="_blank"} fork which makes up the main application.
+* [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"} contains all the [Lua](https://www.lua.org/about.html){target="_blank"} scripts that drive the interface and feature set.
 
 To build your own version of CommandPost, you need to download both these repositories from here:
 
-* [CommandPost](https://github.com/CommandPost/CommandPost)
-* [CommandPost-App](https://github.com/CommandPost/CommandPost-App)
+* [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"}
+* [CommandPost-App](https://github.com/CommandPost/CommandPost-App){target="_blank"}
 
-We use [GitHub Desktop](https://desktop.github.com), for keeping everything in sync.
+We use [GitHub Desktop](https://desktop.github.com){target="_blank"}, for keeping everything in sync.
 
 Once downloaded, these two repositories should be contained in the same folder, because when you build CommandPost-App, it will copy the Lua Scripts from the CommandPost folder.
 
 To build CommandPost-App:
 
-* Create a self-signed Code Signing certificate named **Internal Code Signing** as explained [here](http://bd808.com/blog/2013/10/21/creating-a-self-signed-code-certificate-for-xcode/) - however, please make sure you label the certificate "Internal Code Signing" and not "Self-signed Applications".
+* Create a self-signed Code Signing certificate named **Internal Code Signing** as explained [here](http://bd808.com/blog/2013/10/21/creating-a-self-signed-code-certificate-for-xcode/){target="_blank"} - however, please make sure you label the certificate "Internal Code Signing" and not "Self-signed Applications".
 * Open a Terminal window.
 * Navigate to the CommandPost-App project root directory.
 * Execute `sudo pip install -r requirements.txt`

@@ -1,5 +1,4 @@
 # Scrolling Timeline
----
 
 **Default Shortcut: CONTROL+OPTION+COMMAND+W**
 
@@ -7,7 +6,7 @@ As its been the number one request on [Richard Taylor’s Final Cut Pro X Top Re
 
 To activate and deactivate Scrolling Timeline Mode, by default you press **CONTROL+OPTION+COMMAND+W**, or select "Enable Scrolling Timeline" from the CommandPost menu.
 
-![Enable Scrolling Timeline](../../images/enable-scrolling-timeline.png)
+![Enable Scrolling Timeline](/static/enable-scrolling-timeline.png)
 
 Once activated, you will see a little notification on your screen saying “Scrolling Timeline Activated”.
 

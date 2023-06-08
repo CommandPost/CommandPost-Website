@@ -1,4 +1,4 @@
-label: Installation
-icon: rocket
-order: 8000
-image: static/thumbnail.png
+label: Settings
+icon: browser
+order: 91
+image: ../static/thumbnail.png

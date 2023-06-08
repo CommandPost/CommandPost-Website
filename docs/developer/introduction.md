@@ -1,11 +1,14 @@
-# CommandPost Developer Guide
----
+# Introduction
 
 ## What is CommandPost?
 
-CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple’s [Final Cut Pro](http://apple.com/final-cut-pro/). It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/) \(you can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/)\) – but has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
+CommandPost is a **free** and **open source** Mac application that adds a mountain-load of new features to Apple’s [Final Cut Pro](http://apple.com/final-cut-pro/){target="_blank"}. It originally started off as a little proof of concept project to make finding the browser playhead easier for [Scott Simmons](http://www.scottsimmons.tv/).
 
-The aim of CommandPost is to build an **open platform **where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
+You can read the origin story [here](https://latenitefilms.com/blog/final-cut-pro-hacks/){target="_blank"}.
+
+It has since grown into a huge collection of handy professional workflow tools and automation features to make editing within Final Cut Pro faster, easier and much more powerful.
+
+The aim of CommandPost is to build an **open platform** where editors worldwide can easily create and share useful tools to make their editing lives easier - allowing them to spend less time worrying about keystrokes, and more time doing creative things. We want to remove boring workflow obstacles so that everyone can **get home earlier** and spend **less** time in front of a computer. CommandPost is not limited to Final Cut Pro - the plan is to eventually add useful functionality for a range of other professional applications, such as Adobe After Effects and mocha Pro.
 
 ---
 
@@ -15,13 +18,17 @@ CommandPost has been built from the ground-up to be incredibly flexible, extensi
 
 Depending on what you're wanting to do and your skillset, there's lot of way you can develop with CommandPost:
 
+---
+
 ### Developing Plugins
 
 CommandPost has a powerful plugin architecture allowing you to easily build and distribute your own plugins that can be shared with the world.
 
 Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language).
 
-You can learn more about developing plugins in the [Plugins](plugins/plugin-overview.md) section of the Developer Guide.
+You can learn more about developing plugins in the [Plugins](/developer/plugins/) section of this site.
+
+---
 
 ### AppleScript
 
@@ -35,7 +42,9 @@ end tell
 
 This allows you to have all the power of CommandPost & it's Lua Scripting Engine, directly within AppleScript (and Automator).
 
-You can learn more about the AppleScript Interface [here](control/applescript.md).
+You can learn more about the AppleScript Interface [here](/scripting/applescript/).
+
+---
 
 ### Command Line Interface
 
@@ -47,7 +56,9 @@ cmdpost -c 'require("cp.plugins")("finalcutpro.timeline.lanes").selectClipAtLane
 
 This allows you to have all the power of CommandPost & it's Lua Scripting Engine, directly from the command line.
 
-You can learn more about the Command Line Interface [here](control/command-line.md).
+You can learn more about the Command Line Interface [here](scripting/command-line-interface/).
+
+---
 
 ### URL Handler
 
@@ -57,7 +68,7 @@ For example:
 
 `commandpost://command?group=fcpx&id=cpSelectClipAtLaneOne`
 
-You can learn more about the URL Handler [here](control/urlhandler.md).
+You can learn more about the URL Handler [here](/scripting/url-handler/).
 
 ---
 
@@ -65,8 +76,8 @@ You can learn more about the URL Handler [here](control/urlhandler.md).
 
 CommandPost is made up of two seperate components:
 
-* [CommandPost-App](https://github.com/CommandPost/CommandPost-App) is a fork of [Hammerspoon](http://www.hammerspoon.org). This is the main Objective-C based Xcode project.
-* [CommandPost](https://github.com/CommandPost/CommandPost) is a repository that contains all of the CommandPost [Lua](https://www.lua.org/about.html) scripts, which actually make up the CommandPost user interface and feature set.
+* [CommandPost-App](https://github.com/CommandPost/CommandPost-App){target="_blank"} is a fork of [Hammerspoon](http://www.hammerspoon.org){target="_blank"}. This is the main Objective-C based Xcode project.
+* [CommandPost](https://github.com/CommandPost/CommandPost){target="_blank"} is a repository that contains all of the CommandPost [Lua](https://www.lua.org/about.html){target="_blank"} scripts, which actually make up the CommandPost user interface and feature set.
 
 Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based application.
 
@@ -74,7 +85,7 @@ Essentially, we're using Hammerspoon as an "engine" to drive our Lua-based appli
 
 ## What is Hammerspoon?
 
-[Hammerspoon](http://www.hammerspoon.org) is a tool for powerful automation of macOS. At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine. What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
+[Hammerspoon](http://www.hammerspoon.org){target="_blank"} is a tool for powerful automation of macOS. At its core, Hammerspoon is just a bridge between the operating system and a Lua scripting engine. What gives Hammerspoon its power is a set of extensions that expose specific pieces of system functionality, to the user.
 
 With Hammerspoon, you can write Lua code that interacts with macOS APIs for applications, windows, mouse pointers, filesystem objects, audio devices, batteries, screens, low-level keyboard/mouse events, clipboards, location services, wifi, and more.
 
@@ -88,9 +99,9 @@ Because behind-the-scenes CommandPost is pretty much exactly the same code as Ha
 
 ## How has Hammerspoon been built?
 
-Hammerspoon is actually a fork of [Mjolnir](https://github.com/sdegutis/mjolnir) by Steven Degutis. Unlike Hammerspoon, Mjolnir aims to be a very minimal application, with its extensions hosted externally and managed using a Lua package manager. Hammerspoon wanted to provide a more integrated experience.
+Hammerspoon is actually a fork of [Mjolnir](https://github.com/sdegutis/mjolnir){target="_blank"} by Steven Degutis. Unlike Hammerspoon, Mjolnir aims to be a very minimal application, with its extensions hosted externally and managed using a Lua package manager. Hammerspoon wanted to provide a more integrated experience.
 
-Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called [LuaSkin](http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#), the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and [various extension modules](https://github.com/Hammerspoon/hammerspoon/tree/master/extensions) that [expose system APIs](/api/hs/hs.md) to the user's Lua code.
+Hammerspoon is composed of three separate logical areas - a Lua runtime wrapper framework called [LuaSkin](http://www.hammerspoon.org/docs/LuaSkin/Classes/LuaSkin/index.html#){target="_blank"}, the core Hammerspoon app which houses the LuaSkin/Lua runtime and provides the ability to load extensions, and [various extension modules](https://github.com/Hammerspoon/hammerspoon/tree/master/extensions){target="_blank"} that [expose system APIs](/developer/hs/) to the user's Lua code.
 
 ---
 
@@ -100,9 +111,9 @@ What do Adobe Photoshop Lightroom, Angry Birds, Apache HTTP Server, Apache Traff
 
 Lua is a powerful and fast programming language that is easy to learn and use and to embed into your application.
 
-Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html) from games to web applications and image processing.
+Lua is designed to be a lightweight embeddable scripting language and is used for [all sorts of applications](https://www.lua.org/uses.html){target="_blank"} from games to web applications and image processing.
 
-Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html).
+Lua is freely available for any purpose, including commercial purposes, at absolutely no cost, and using it requires no paperwork. Read the details in the [license page](https://www.lua.org/license.html){target="_blank"}.
 
 ---
 
@@ -136,10 +147,10 @@ if caffeine then
 end
 ```
 
-This code snippet will create a menubar item that displays either the text `SLEEPY` if your machine is allowed to go to sleep when you’re not using it, or `AWAKE` if it will refuse to sleep. The [`hs.caffeine`](/api/hs/hs.caffeinate.md) extension provides the ability to prevent the display from sleeping, but [`hs.menubar`](/api/hs/hs.menubar.md) is providing the menubar item.
+This code snippet will create a menubar item that displays either the text `SLEEPY` if your machine is allowed to go to sleep when you’re not using it, or `AWAKE` if it will refuse to sleep. The [`hs.caffeine`](/developer/hs/hs.caffeinate/) extension provides the ability to prevent the display from sleeping, but [`hs.menubar`](/developer/hs/hs.menubar/) is providing the menubar item.
 
 In this case we create the menubar item and connect a callback (in this case `caffeineClicked()`) to click events on the menubar item. You can also use icons instead of text, using the `:setIcon()` method on your menubar object.
 
 As you can see, with very few lines of code, we can do incredibly powerful things.
 
-What we've done with CommandPost is basically take all the power of Hammerspoon, and it's extensive Hammerspoon Extensions, and then built our own set of extensions, such as [`cp.finalcutpro`](/api/cp/cp.md) - which allows use to control Final Cut Pro.
+What we've done with CommandPost is basically take all the power of Hammerspoon, and it's extensive Hammerspoon Extensions, and then built our own set of extensions, such as [`cp.finalcutpro`](/developer/cp/cp/) - which allows use to control Final Cut Pro.

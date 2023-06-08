@@ -1,5 +1,4 @@
 # Search Console
----
 
 The Search Console is a name for the interface we use for selection actions in CommandPost. It's very similar to macOS Spotlight.
 
@@ -9,13 +8,13 @@ Triggering the Search Console from the "All Applications" option in the Applicat
 
 With CommandPost running after an initial install, if you press **CONTROL + OPTION + COMMAND + SPACE** on your keyboard, it will open the Search Console, which looks like this:
 
-![Global Console](../../images/global-console.png)
+![](/static/global-console.png)
 
 With a similar interface to [Alfred](https://www.alfredapp.com) you can then search for any action and trigger it.
 
 If you right-click on the Search Console, you'll see the follow menu:
 
-![Global Console](../../images/global-console-context.png)
+![](/static/global-console-context.png)
 
 This allows you to:
 
@@ -31,17 +30,17 @@ However, this isn't the only instance of the Search Console - we use it right th
 
 For example, with CommandPost running after an initial install, and Final Cut Pro open and active, if you press **CONTROL + SPACE** on your keyboard, this will activate the Search Console as well.
 
-![Final Cut Pro Console](../../images/fcpx-console.png)
+![](/static/fcpx-console.png)
 
 As you see in the above screenshot, it's exactly the same interface as when you activate the Search Console from other applications but with more/different sections.
 
 We also use the Search Console in the Preferences panel for selecting actions. For example, in the Touch Bar Preferences you'll see the "Select" button in the Layout Editor:
 
-![Touch Bar Preferences](../../images/action-button.png)
+![](/static/action-button.png)
 
 This opens a Search Console, allowing you to select an Action for this Touch Bar Item:
 
-![Touch Bar Preferences](../../images/touch-bar-console.png)
+![](/static/touch-bar-console.png)
 
 Each Search Console remembers it's own settings (i.e. selected sections, favourites, hides, remember the last query entered, etc.).
 

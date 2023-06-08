@@ -1,9 +1,8 @@
 # Shared Pasteboard
----
 
-Shared Pasteboard is another tools that is only available when used with Final Cut. It allows you to share reference to anything that you can natively copy and paste in Final Cut. This includes clips, generators, titles, etc. Multiple clips can be copied at once, and any effects and settings applied will also be copied along. For this to work properly, the other machines should have the media assets already in the library, otherwise a placeholder with the names and attributes will be pasted instead. 
+Shared Pasteboard is another tools that is only available when used with Final Cut. It allows you to share reference to anything that you can natively copy and paste in Final Cut. This includes clips, generators, titles, etc. Multiple clips can be copied at once, and any effects and settings applied will also be copied along. For this to work properly, the other machines should have the media assets already in the library, otherwise a placeholder with the names and attributes will be pasted instead.
 
-![Enable Shared Pasteboard](../../images/enable-shared-pasteboard.png)
+![Enable Shared Pasteboard](/static/enable-shared-pasteboard.png)
 
 This feature is off by default and must be activated by going to the "Shared Pasteboard History" dropdown menu from the CommandPost menu, and clicking "Enable Shared Pasteboard".
 
