@@ -343,7 +343,8 @@ Please make sure you have pre-configured all your settings within **Shot Data**�
 ==- Can Shot Data be used with Airtable?
 Interestingly, I initially experimented Shot Data with Airtable. Airtable offers a superior database system compared to Notion. However, Notion offers greater affordability, superior embeds, note-taking features within each page, comparatively.
 
-If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran){target="_blank"}.
+If you are an Airtable user and would like to use the Shot Data files in your Airtable’s database, [get in touch with me](https://twitter.com/IAmVigneswaran) {target="_blank"}.
+
 ===
 
 ## Afterthoughts
