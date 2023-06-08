@@ -1,4 +1,4 @@
-# https://github.com/CommandPost/CommandPost/blob/master/
+# Plugins
 ---
 
 ## API Documentation
