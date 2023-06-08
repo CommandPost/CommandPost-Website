@@ -1,5 +1,4 @@
 # Plugins API
----
 
 ## API Documentation
 | Module                                                             | Description           |

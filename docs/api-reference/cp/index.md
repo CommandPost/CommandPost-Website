@@ -1,5 +1,4 @@
 CommandPost API
----
 
 ## API Documentation
 | Module                                                             | Description           |

@@ -1,5 +1,4 @@
 # Hammerspoon API
----
 
 ## API Documentation
 | Module                                                             | Description           |
