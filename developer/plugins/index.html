@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -21,21 +21,23 @@
     <meta property="og:url" content="https://commandpost.io/developer/plugins/">
     <meta property="og:title" content="Plugin Overview">
     <meta property="og:description" content="CommandPost has a very easy to use and powerful plugins functionality, and because Lua is quite a simple language to use, it's really easy to throw...">
+    <meta property="og:image" content="https://commandpost.io/static/cpplugin.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://commandpost.io/developer/plugins/">
     <meta property="twitter:title" content="Plugin Overview">
     <meta property="twitter:description" content="CommandPost has a very easy to use and powerful plugins functionality, and because Lua is quite a simple language to use, it's really easy to throw...">
+    <meta property="twitter:image" content="https://commandpost.io/static/cpplugin.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739514308894" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739521224493" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -280,7 +282,6 @@
         <span>Plugin Overview</span>
     </h1>
 </doc-anchor-target>
-<hr />
 <p>CommandPost has a very easy to use and powerful plugins functionality, and because Lua is quite a simple language to use, it&#x27;s really easy to throw together your own CommandPost Plugins!</p>
 <hr />
 <doc-anchor-target id="plugins-location">
@@ -304,19 +305,19 @@
 <p>A CommandPost Plugin is simply a macOS bundle which contains Lua scripts (and any other resources you want to throw in it).</p>
 <p>When you first run CommandPost it will register the <code v-pre>.cpPlugin</code> extension in macOS, which means if you create a folder called <code v-pre>SOMETHING.cpPlugin</code> it will prompt you with:</p>
 <p><figure class="content-center">
-    <img src="../../images/cpplugin.png" alt="CommandPost Plugin" />
+    <img src="../../static/cpplugin.png" alt="CommandPost Plugin" />
     <figcaption class="caption">CommandPost Plugin</figcaption>
 </figure>
 </p>
 <p>If you click <strong>Add</strong> it will turn that newly created folder into a CommandPost Plugin Bundle.</p>
 <p>You view the contents of the bundle, simply right click and select <strong>Show Package Contents</strong>.</p>
 <p><figure class="content-center">
-    <img src="../../images/show-package-contents.png" alt="Show Package Contents" />
+    <img src="../../static/show-package-contents.png" alt="Show Package Contents" />
     <figcaption class="caption">Show Package Contents</figcaption>
 </figure>
 </p>
 <p>At a very minimum, the plugin should contain a single <code v-pre>.lua</code> file, which will be the Lua code that&#x27;s executed.</p>
-<p>CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as <a href="https://developer.apple.com/swift/">Swift</a>.</p>
+<p>CommandPost Plugins can either be pure Lua or a mixture of Lua and Objective-C (although since they are just dynamically loaded libraries, they could ultimately be compiled in almost any language such as <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>.</p>
 <hr />
 <doc-anchor-target id="simple-example-plugin">
     <h2>
@@ -326,9 +327,9 @@
 </doc-anchor-target>
 <p>Below is a simple Plugin example that adds a button to the very bottom of the CommandPost menubar, and when click it displays the CommandPost version in a dialog box.</p>
 <ul>
-<li>To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use <a href="https://dev.commandpost.io/naming_conventions.html">these naming conventions</a> when building your own plugins.</li>
-<li>You can learn more about the plugins API <a href="https://dev.commandpost.io/api/cp/cp.plugins.html">here</a>.</li>
-<li>You can learn more about <code v-pre>cp.config</code> <a href="https://dev.commandpost.io/api/cp/cp.config.html">here</a>.</li>
+<li>To make things easy for others to understand, and to help with automatic documentation generation, we recommend you use <a href="../naming-conventions/">these naming conventions</a> when building your own plugins.</li>
+<li>You can learn more about the plugins API <a href="../cp/cp.plugins/">here</a>.</li>
+<li>You can learn more about <code v-pre>cp.config</code> <a href="../cp/cp.config/">here</a>.</li>
 </ul>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">--- === plugins.core.example ===
@@ -819,6 +820,6 @@ return plugin</code></pre>
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Plugin Overview", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "HUD", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
-    <title>Frequently Asked Questions</title>
-    <meta name="title" content="Frequently Asked Questions">
-    <meta name="description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014." />
+    <title>Sponsor</title>
+    <meta name="title" content="Sponsor">
+    <meta name="description" content="To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through..." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://commandpost.io/sponsor/" />
@@ -19,24 +19,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://commandpost.io/sponsor/">
-    <meta property="og:title" content="Frequently Asked Questions">
-    <meta property="og:description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014.">
+    <meta property="og:title" content="Sponsor">
+    <meta property="og:description" content="To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through...">
     <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://commandpost.io/sponsor/">
-    <meta property="twitter:title" content="Frequently Asked Questions">
-    <meta property="twitter:description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014.">
+    <meta property="twitter:title" content="Sponsor">
+    <meta property="twitter:description" content="To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through...">
     <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -275,52 +275,31 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="frequently-asked-questions" class="break-words">
+<doc-anchor-target id="sponsor" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#frequently-asked-questions">#</doc-anchor-trigger>
-        <span>Frequently Asked Questions</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sponsor">#</doc-anchor-trigger>
+        <span>Sponsor</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="why-did-you-remove-moveable-markers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#why-did-you-remove-moveable-markers">#</doc-anchor-trigger>
-        <span>Why did you remove &quot;Moveable Markers&quot;?</span>
-    </h3>
-</doc-anchor-target>
-<p>Moveable Markers was <a href="http://alex4d.com/notes/item/fcpx-movable-markers">first discovered</a> by Alex Goldner back in June 2014.</p>
-<p>To enable it, you basically just need to toggle a boolean hidden within a preference file inside the Final Cut Pro Library.</p>
-<p>In the early days of <a href="https://latenitefilms.com/blog/fcpx-hacks">FCPX Hacks</a> we added an option for Moveable Markers which enables them using the same technique Alex found, except it allowed users to easily toggle the feature on and off using the menu bar or shortcut keys.</p>
-<p>When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we&#x27;ve since decided that it&#x27;s probably a bad idea to modify the contents of the Final Cut Pro application bundle, so we removed this feature all together, along with other features that modify the contents of the Final Cut Pro application bundle (such as inserting our commands into the Final Cut Pro Command Editor).</p>
-<p>We want CommandPost to be as safe and reliable as possible, and we want to avoid using &quot;hacks&quot; to make things happen.</p>
-<p>The easiest way to enable Moveable Markers is via Terminal.</p>
-<p>This works on Final Cut Pro 10.5.2 and below on both Intel and Apple Silicon.</p>
-<p>The below assumes you have Final Cut Pro installed within the <code v-pre>/Applications</code> folder.</p>
-<p>This will enable them:</p>
-<p><code v-pre>sudo /usr/libexec/PlistBuddy -c &quot;Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' true&quot; '/Applications/Final Cut Pro.app/Contents/Frameworks/TLKit.framework/Versions/A/Resources/EventDescriptions.plist'</code></p>
-<p>This will disable them:</p>
-<p><code v-pre>sudo /usr/libexec/PlistBuddy -c &quot;Set :TLKMarkerHandler:Configuration:'Allow Moving Markers' false&quot; '/Applications/Final Cut Pro.app/Contents/Frameworks/TLKit.framework/Versions/A/Resources/EventDescriptions.plist'</code></p>
-<hr />
-<doc-anchor-target id="why-did-you-remove-show-timeline-in-viewers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#why-did-you-remove-show-timeline-in-viewers">#</doc-anchor-trigger>
-        <span>Why did you remove &quot;Show Timeline in Viewers&quot;?</span>
-    </h3>
-</doc-anchor-target>
-<p>Unfortunately Apple removed the hidden &quot;Show Timeline in Viewers&quot; preference in Final Cut Pro 10.4.9.</p>
-<p>As CommandPost is just enabling this hidden preference, unfortunately there&#x27;s nothing we can do to bring it back.</p>
-<p>However, you can still use this feature if you&#x27;re using Final Cut Pro 10.4.4 to 10.4.8.</p>
-<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro.html">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
-<hr />
-<doc-anchor-target id="why-did-you-remove-the-hidden-fcpxml-importexport-option">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#why-did-you-remove-the-hidden-fcpxml-importexport-option">#</doc-anchor-trigger>
-        <span>Why did you remove the &quot;Hidden FCPXML Import/Export Option&quot;?</span>
-    </h3>
-</doc-anchor-target>
-<p>Unfortunately Apple removed the &quot;Hidden FCPXML Import/Export Option&quot; preferences in Final Cut Pro 10.4.9.</p>
-<p>As CommandPost is just enabling these hidden preferences, unfortunately there&#x27;s nothing we can do to bring them back.</p>
-<p>However, you can still use these features if you&#x27;re using Final Cut Pro 10.4.4 to 10.4.8.</p>
-<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro.html">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
+<p>To help continue CommandPost to grow, evolve, and stay completely free and open-source, we offer the ability to sponsor CommandPost directly through GitHub.</p>
+<p>You can do <strong>one-off or monthly</strong> payments.</p>
+<p>GitHub is a safe and secure developers platform used by over <strong>73 million users</strong> worldwide.</p>
+<ul>
+<li>Sponsor CommandPost on GitHub <a href="https://github.com/sponsors/commandpost" target="_blank">here</a>.</li>
+</ul>
+<p>You can also sponsor the individual developers here:</p>
+<ul>
+<li>Sponsor Chris on GitHub <a href="https://github.com/sponsors/latenitefilms" target="_blank">here</a>.</li>
+<li>Sponsor David on GitHub <a href="https://github.com/sponsors/randomeizer" target="_blank">here</a>.</li>
+</ul>
+<p>Alternatively, you can also make a contribution via <strong><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HQK87KLKY8EVN" target="_blank">PayPal</a></strong>.</p>
+<p>If you&#x27;re in Australia, we can also generate a <strong>tax invoice</strong> with GST for you - just <a href="mailto:support@latenitefilms.com?subject=CommandPost">contact us</a>.</p>
+<p>You can also show your support by purchasing one of our paid apps on the Mac App Store:</p>
+<ul>
+<li><a href="https://brawtoolbox.io" target="_blank">BRAW Toolbox: Import Blackmagic RAW files directly into Final Cut Pro without transcoding</a></li>
+<li><a href="https://gyroflowtoolbox.io" target="_blank">Gyroflow Toolbox: Import Gyroflow Projects into Apple&#x27;s Final Cut Pro</a></li>
+<li><a href="https://markertoolbox.io" target="_blank">Marker Toolbox: Import Vimeo CSV &amp; Email Comments into Apple&#x27;s Final Cut Pro</a></li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -330,20 +309,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../faq/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">FAQ</span>
+                                                <span class="block mt-1">Welcome</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../troubleshooting/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../download/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Troubleshooting</span>
+                                                <span class="block mt-1">Download</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>

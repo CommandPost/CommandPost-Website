@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
-    <title>Snippets for LED Status</title>
-    <meta name="title" content="Snippets for LED Status">
-    <meta name="description" content="The DaVinci Resolve Control Surface panel have the ability to use Lua Snippets to set whether or not an LED is active." />
+    <title>Command Line Tool</title>
+    <meta name="title" content="Command Line Tool">
+    <meta name="description" content="CommandPost offers an optional Command Line Tool, that allows you to trigger any arbitrary Lua code via Apple's Terminal." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://commandpost.io/advanced/snippets-for-led-status/" />
+    <link rel="canonical" href="https://commandpost.io/scripting/command-line-interface/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://commandpost.io/advanced/snippets-for-led-status/">
-    <meta property="og:title" content="Snippets for LED Status">
-    <meta property="og:description" content="The DaVinci Resolve Control Surface panel have the ability to use Lua Snippets to set whether or not an LED is active.">
+    <meta property="og:url" content="https://commandpost.io/scripting/command-line-interface/">
+    <meta property="og:title" content="Command Line Tool">
+    <meta property="og:description" content="CommandPost offers an optional Command Line Tool, that allows you to trigger any arbitrary Lua code via Apple's Terminal.">
+    <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://commandpost.io/advanced/snippets-for-led-status/">
-    <meta property="twitter:title" content="Snippets for LED Status">
-    <meta property="twitter:description" content="The DaVinci Resolve Control Surface panel have the ability to use Lua Snippets to set whether or not an LED is active.">
+    <meta property="twitter:url" content="https://commandpost.io/scripting/command-line-interface/">
+    <meta property="twitter:title" content="Command Line Tool">
+    <meta property="twitter:description" content="CommandPost offers an optional Command Line Tool, that allows you to trigger any arbitrary Lua code via Apple's Terminal.">
+    <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739514308894" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -274,41 +275,45 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="snippets-for-led-status" class="break-words">
+<doc-anchor-target id="command-line-tool" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#snippets-for-led-status">#</doc-anchor-trigger>
-        <span>Snippets for LED Status</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#command-line-tool">#</doc-anchor-trigger>
+        <span>Command Line Tool</span>
     </h1>
 </doc-anchor-target>
-<hr />
-<p>The DaVinci Resolve Control Surface panel have the ability to use Lua Snippets to set whether or not an LED is active.</p>
-<p>The Snippet should return a <code v-pre>true</code> or a <code v-pre>false</code>.</p>
-<p>You can learn more about Lua on the <a href="https://dev.commandpost.io/lua/lua-overview">CommandPost Developers site</a>.</p>
-<hr />
-<doc-anchor-target id="examples">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>
-        <span>Examples</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="set-led-to-on">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#set-led-to-on">#</doc-anchor-trigger>
-        <span>Set LED to On</span>
-    </h2>
-</doc-anchor-target>
+<p>CommandPost offers an optional Command Line Tool, that allows you to trigger any arbitrary Lua code via Apple&#x27;s Terminal.</p>
+<p>The Command Line Tool uses <a href="https://dev.commandpost.io/api/hs/hs.ipc.html" target="_blank">hs.ipc</a>.</p>
+<p>To install the Command Line Tool, click the CommandPost menubar icon, then <strong>Preferences...</strong>, click the <strong>Advanced</strong> tab then the <strong>Install</strong> button.</p>
+<p>After installing the Command Line Tool you can also trigger Lua via code the command line. For example:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">return true</code></pre>
+<pre class="language-none"><code v-pre class="language-none">cmdpost -c 'require(&quot;cp.plugins&quot;)(&quot;finalcutpro.timeline.lanes&quot;).selectClipAtLane(1)'</code></pre>
 </doc-codeblock></div>
-<hr />
-<doc-anchor-target id="set-led-to-off">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#set-led-to-off">#</doc-anchor-trigger>
-        <span>Set LED to Off</span>
-    </h2>
-</doc-anchor-target>
+<p>This allows you to have all the power of CommandPost &amp; it&#x27;s Lua Scripting Engine, directly from the command line.</p>
+<p>The man page of the command line tool is provided here:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">return false</code></pre>
+<pre class="language-none"><code v-pre class="language-none">NAME
+     cmdpost -- Command line interface to CommandPost.app
+
+SYNOPSIS
+     cmdpost [-i | -s | -c code] [-r] [-n]
+
+DESCRIPTION
+     Runs code from within CommandPost, and prints the results. The given code is passed to &quot;hs.ipc.
+     handler&quot; which normally executes it as plain Lua code, but may be overridden to do some custom
+     evaluation.
+
+     When no args are given, -i is implied.
+
+     -i       Runs in interactive-mode; uses each line as code . Prints in color unless otherwise speci-
+              fied.
+     -c       Uses the given argument as code
+     -s       Uses stdin as code
+     -r       Forces CommandPost to interpret code as raw Lua code; the function &quot;hs.ipc.handler&quot; is not
+              called.
+     -n       When specified, interactive-mode does not use colors.
+
+EXIT STATUS
+     The cmdpost utility exits 0 on success, and &gt;0 if an error occurs.</code></pre>
 </doc-codeblock></div>
 
                                 
@@ -319,20 +324,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../advanced/snippets-for-led-colors/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../scripting/applescript/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Apple​Script</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../control-surfaces/audioswift/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../scripting/lua-snippets/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Lua Snippets</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -376,6 +381,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Installation", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Commmand Line Interface", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

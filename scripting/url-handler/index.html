@@ -3,38 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
-    <title>Notification Preferences Panel</title>
-    <meta name="title" content="Notification Preferences Panel">
-    <meta name="description" content="Under Construction" />
+    <title>URL Handler</title>
+    <meta name="title" content="URL Handler">
+    <meta name="description" content="CommandPost has a URL Handler which allows you to trigger CommandPost Commands & Actions via a simple URL address." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://commandpost.io/preferences/notification/" />
+    <link rel="canonical" href="https://commandpost.io/scripting/url-handler/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://commandpost.io/preferences/notification/">
-    <meta property="og:title" content="Notification Preferences Panel">
-    <meta property="og:description" content="Under Construction">
+    <meta property="og:url" content="https://commandpost.io/scripting/url-handler/">
+    <meta property="og:title" content="URL Handler">
+    <meta property="og:description" content="CommandPost has a URL Handler which allows you to trigger CommandPost Commands & Actions via a simple URL address.">
+    <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://commandpost.io/preferences/notification/">
-    <meta property="twitter:title" content="Notification Preferences Panel">
-    <meta property="twitter:description" content="Under Construction">
+    <meta property="twitter:url" content="https://commandpost.io/scripting/url-handler/">
+    <meta property="twitter:title" content="URL Handler">
+    <meta property="twitter:description" content="CommandPost has a URL Handler which allows you to trigger CommandPost Commands & Actions via a simple URL address.">
+    <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739521224493" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -273,14 +276,54 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="notification-preferences-panel" class="break-words">
+<doc-anchor-target id="url-handler" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notification-preferences-panel">#</doc-anchor-trigger>
-        <span>Notification Preferences Panel</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#url-handler">#</doc-anchor-trigger>
+        <span>URL Handler</span>
     </h1>
 </doc-anchor-target>
-<hr />
-<p>Under Construction</p>
+<p>CommandPost has a URL Handler which allows you to trigger CommandPost Commands &amp; Actions via a simple URL address.</p>
+<p>For example, you can type any of the below into a browser to trigger a specific action:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">commandpost://fcpx_cmds?id=cpSelectClipAtLaneOne
+commandpost://global_cmds?id=cpGlobalConsole
+commandpost://fcpx_shortcuts?id=SelectAll
+commandpost://fcpx_menu?path=Final%20Cut%20Pro||About%20Final%20Cut%20Pro
+commandpost://fcpx_audioEffect?category=Voice&amp;name=AUNewPitch
+commandpost://fcpx_title?category=Lower%20Thirds&amp;name=Basic%20Lower%20Third
+commandpost://fcpx_transition?name=Spin&amp;category=Movements
+commandpost://fcpx_generator?name=Beam&amp;category=Backgrounds
+commandpost://fcpx_videoEffect?name=Directional&amp;category=Blur</code></pre>
+</doc-codeblock></div>
+<p>To get a list of the Handler IDs that are recognised by the URL Handler (i.e. &quot;fcpx_cmds&quot;), type the below Lua code into the <strong>Error Log</strong>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">hs.inspect(require(&quot;cp.plugins&quot;)(&quot;core.action.manager&quot;).handlerIds())</code></pre>
+</doc-codeblock></div>
+<p>To get a list of choices available for a specific Hander ID, type the below (replacing &quot;fcpx_shortcuts&quot; with the Handler ID you want to review) into the <strong>Error Log</strong>:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">hs.inspect(require(&quot;cp.plugins&quot;)(&quot;core.action.manager&quot;).getHandler(&quot;fcpx_cmds&quot;):choices())</code></pre>
+</doc-codeblock></div>
+<p>For example, if the Error Log displays something like:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-lua"><code v-pre class="language-lua">{
+  id = &quot;cmds:cpColorPuckFourLeft&quot;,
+  params = {
+	id = &quot;cpColorPuckFourLeft&quot;
+  },
+  subText = &quot;Command: Colour Board&quot;,
+  text = &quot;Select Color Puck 4 &amp; Left&quot;,
+  type = &quot;fcpx_cmds&quot;
+}</code></pre>
+</doc-codeblock></div>
+<p>Then the URL will be:</p>
+<p><code v-pre>commandpost://fcpx_cmds?id=cpColorPuckFourLeft</code></p>
+<p>Basically you use the <code v-pre>params</code> table as your guide. Table items can be separated with <strong>||</strong>.</p>
+<p>The following Handler IDs should not be used with the URL Handler:</p>
+<ul>
+<li><code v-pre>fcpx_midicontrols</code></li>
+<li><code v-pre>fcpx_widgets</code></li>
+<li><code v-pre>global_widgets</code></li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -290,20 +333,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../preferences/menubar/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../scripting/snippets-for-led-status/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Snippets for LED Status</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../preferences/plugins/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../developer/introduction/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Introduction</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -347,6 +390,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Installation", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "URL Handler", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

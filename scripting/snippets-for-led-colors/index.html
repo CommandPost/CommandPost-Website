@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
-    <title>Snippets for Icons</title>
-    <meta name="title" content="Snippets for Icons">
-    <meta name="description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to programatically generate icons for the Loupedeck CT..." />
+    <title>Snippets for LED Colors</title>
+    <meta name="title" content="Snippets for LED Colors">
+    <meta name="description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to set what color you want an LED button to use." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://commandpost.io/advanced/snippets-for-icons/" />
+    <link rel="canonical" href="https://commandpost.io/scripting/snippets-for-led-colors/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://commandpost.io/advanced/snippets-for-icons/">
-    <meta property="og:title" content="Snippets for Icons">
-    <meta property="og:description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to programatically generate icons for the Loupedeck CT...">
+    <meta property="og:url" content="https://commandpost.io/scripting/snippets-for-led-colors/">
+    <meta property="og:title" content="Snippets for LED Colors">
+    <meta property="og:description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to set what color you want an LED button to use.">
+    <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://commandpost.io/advanced/snippets-for-icons/">
-    <meta property="twitter:title" content="Snippets for Icons">
-    <meta property="twitter:description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to programatically generate icons for the Loupedeck CT...">
+    <meta property="twitter:url" content="https://commandpost.io/scripting/snippets-for-led-colors/">
+    <meta property="twitter:title" content="Snippets for LED Colors">
+    <meta property="twitter:description" content="The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to set what color you want an LED button to use.">
+    <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739514308894" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739521224493" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -274,159 +276,48 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="snippets-for-icons" class="break-words">
+<doc-anchor-target id="snippets-for-led-colors" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#snippets-for-icons">#</doc-anchor-trigger>
-        <span>Snippets for Icons</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#snippets-for-led-colors">#</doc-anchor-trigger>
+        <span>Snippets for LED Colors</span>
     </h1>
 </doc-anchor-target>
-<p>The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use <strong>Lua Snippets</strong> to programatically generate icons for the Loupedeck CT and Loupedeck Live panels.</p>
-<p>This gives you incredible freedom, to programatically make the icons appear however you want.</p>
-<p>CommandPost is also compatible with Hammerspoon, so you can also use helpful extensions such as <a href="http://www.hammerspoon.org/docs/hs.canvas.html"><code v-pre>hs.canvas</code></a>.</p>
-<p>Both the <a href="https://dev.commandpost.io/commandpost-api/cp">CommandPost API</a> and <a href="http://www.hammerspoon.org/docs/index.html">Hammerspoon API</a> are insanely powerful and flexible, so you can basically do anything and everything.</p>
-<p>Essentially all you need to do in your Snippet is return a <a href="http://www.hammerspoon.org/docs/hs.image.html"><code v-pre>hs.image</code></a> object.</p>
-<p>Some useful functions to generate a <a href="http://www.hammerspoon.org/docs/hs.image.html"><code v-pre>hs.image</code></a> include:</p>
-<ul>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#iconForFile"><code v-pre>hs.image.iconForFile()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#iconForFileType"><code v-pre>hs.image.iconForFileType()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromAppBundle"><code v-pre>hs.image.imageFromAppBundle()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromASCII"><code v-pre>hs.image.imageFromASCII()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromMediaFile"><code v-pre>hs.image.imageFromMediaFile()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromName"><code v-pre>hs.image.imageFromName()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromPath"><code v-pre>hs.image.imageFromPath()</code></a></li>
-<li><a href="http://www.hammerspoon.org/docs/hs.image.html#imageFromURL"><code v-pre>hs.image.imageFromURL()</code></a></li>
-</ul>
-<p>You can also use <a href="http://www.hammerspoon.org/docs/hs.canvas.html"><code v-pre>hs.canvas</code></a> to programatically draw things.</p>
-<p>There&#x27;s some more complex <a href="http://www.hammerspoon.org/docs/hs.canvas.html"><code v-pre>hs.canvas</code></a> examples <a href="https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples">here</a>.</p>
+<hr />
+<p>The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to set what color you want an LED button to use.</p>
+<p>The Snippet should return a <a href="http://www.hammerspoon.org/docs/hs.drawing.color.html"><code v-pre>hs.drawing.color</code></a> object.</p>
 <p>You can learn more about Lua on the <a href="https://dev.commandpost.io/lua/lua-overview">CommandPost Developers site</a>.</p>
 <hr />
 <doc-anchor-target id="examples">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>
-        <span>Examples:</span>
+        <span>Examples</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="display-a-built-in-system-icon">
+<doc-anchor-target id="set-led-to-red">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#display-a-built-in-system-icon">#</doc-anchor-trigger>
-        <span>Display a built-in system icon</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-led-to-red">#</doc-anchor-trigger>
+        <span>Set LED to Red</span>
     </h2>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">return hs.image.imageFromName(&quot;NSAdvanced&quot;)</code></pre>
+<pre class="language-lua"><code v-pre class="language-lua">return hs.drawing.color.asRGB({hex=&quot;#FF0000&quot;})</code></pre>
 </doc-codeblock></div>
 <hr />
-<doc-anchor-target id="display-the-first-final-cut-pro-keyword-shortcut-value">
+<doc-anchor-target id="set-led-to-random-color">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#display-the-first-final-cut-pro-keyword-shortcut-value">#</doc-anchor-trigger>
-        <span>Display the first Final Cut Pro Keyword Shortcut Value</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-led-to-random-color">#</doc-anchor-trigger>
+        <span>Set LED to random color</span>
     </h2>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">-- Create a new Canvas:
-local v = hs.canvas.new{x = 0, y = 0, w = 90, h = 90 }
+<pre class="language-lua"><code v-pre class="language-lua">local a = hs.math.randomFromRange(0, 9)
+local b = hs.math.randomFromRange(0, 9)
+local c = hs.math.randomFromRange(0, 9)
+local d = hs.math.randomFromRange(0, 9)
+local e = hs.math.randomFromRange(0, 9)
+local f = hs.math.randomFromRange(0, 9)
 
--- Add a black background:
-v[1] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    fillColor = { alpha = 1, red = 0, green = 0, blue = 0 },
-    type = &quot;rectangle&quot;,
-}
-
--- Write the first Keyword from the FCPX Preferences file:
-local keywords = cp.apple.finalcutpro.preferences.FFKeywordGroups
-local keywordOne = keywords and keywords[1] and keywords[1][1] or &quot;&quot;
-v[2] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    text = &quot;\n\n&quot; .. keywordOne,
-    textAlignment = &quot;center&quot;,
-    textColor = { white = 1.0 },
-    textSize = 15,
-    type = &quot;text&quot;,
-}
-
--- Convert the Canvas into an icon:
-local icon = v:imageFromCanvas()
-
--- Delete the Canvas:
-v:delete()
-
--- Return the icon:
-return icon</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="display-the-current-spotify-track">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#display-the-current-spotify-track">#</doc-anchor-trigger>
-        <span>Display the current Spotify Track</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">-- Create a new Canvas:
-local v = hs.canvas.new{x = 0, y = 0, w = 90, h = 90 }
-
--- Add a black background:
-v[1] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    fillColor = { alpha = 1, red = 0, green = 0, blue = 0 },
-    type = &quot;rectangle&quot;,
-}
-
--- Write the current Spotify Track as text:
-v[2] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    text = &quot;\n\n&quot; .. hs.spotify.getCurrentTrack(),
-    textAlignment = &quot;center&quot;,
-    textColor = { white = 1.0 },
-    textSize = 15,
-    type = &quot;text&quot;,
-}
-
--- Convert the Canvas into an icon:
-local icon = v:imageFromCanvas()
-
--- Delete the Canvas:
-v:delete()
-
--- Return the icon:
-return icon</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="display-the-current-system-volume">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#display-the-current-system-volume">#</doc-anchor-trigger>
-        <span>Display the current System Volume</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">-- Create a new Canvas:
-local v = hs.canvas.new{x = 0, y = 0, w = 90, h = 90 }
-
--- Add a black background:
-v[1] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    fillColor = { alpha = 1, red = 0, green = 0, blue = 0 },
-    type = &quot;rectangle&quot;,
-}
-
--- Write the System Volume as text:
-v[2] = {
-    frame = { h = &quot;100%&quot;, w = &quot;100%&quot;, x = 0, y = 0 },
-    text = &quot;\n\n&quot; .. hs.audiodevice.defaultOutputDevice():outputVolume(),
-    textAlignment = &quot;center&quot;,
-    textColor = { white = 1.0 },
-    textSize = 15,
-    type = &quot;text&quot;,
-}
-
--- Convert the Canvas into an icon:
-local icon = v:imageFromCanvas()
-
--- Delete the Canvas:
-v:delete()
-
--- Return the icon:
-return icon</code></pre>
+return hs.drawing.color.asRGB({hex=&quot;#&quot;..a..b..c..d..e..f})</code></pre>
 </doc-codeblock></div>
 
                                 
@@ -437,20 +328,20 @@ return icon</code></pre>
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../advanced/snippets/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../scripting/snippets-for-icons/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Snippets for Icons</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../advanced/snippets-for-led-colors/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../scripting/snippets-for-led-status/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Snippets for LED Status</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -494,6 +385,6 @@ return icon</code></pre>
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Installation", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Snippets for LED Colors", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

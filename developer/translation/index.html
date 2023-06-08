@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739514308894">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739521224493">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
-    <title>Snippets</title>
-    <meta name="title" content="Snippets">
-    <meta name="description" content="CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost's Search Console." />
+    <title>Translation</title>
+    <meta name="title" content="Translation">
+    <meta name="description" content="CommandPost has been designed with internationalisation in mind." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://commandpost.io/advanced/snippets/" />
+    <link rel="canonical" href="https://commandpost.io/developer/translation/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://commandpost.io/advanced/snippets/">
-    <meta property="og:title" content="Snippets">
-    <meta property="og:description" content="CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost's Search Console.">
+    <meta property="og:url" content="https://commandpost.io/developer/translation/">
+    <meta property="og:title" content="Translation">
+    <meta property="og:description" content="CommandPost has been designed with internationalisation in mind.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://commandpost.io/advanced/snippets/">
-    <meta property="twitter:title" content="Snippets">
-    <meta property="twitter:description" content="CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost's Search Console.">
+    <meta property="twitter:url" content="https://commandpost.io/developer/translation/">
+    <meta property="twitter:title" content="Translation">
+    <meta property="twitter:description" content="CommandPost has been designed with internationalisation in mind.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739514308894" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739521224493" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739514308894" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739514308894" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739521224493" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -274,204 +273,17 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="snippets" class="break-words">
+<doc-anchor-target id="translation" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#snippets">#</doc-anchor-trigger>
-        <span>Snippets</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#translation">#</doc-anchor-trigger>
+        <span>Translation</span>
     </h1>
 </doc-anchor-target>
-<hr />
-<p>CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost&#x27;s Search Console.</p>
-<p>This means you can trigger a Snippet via a shortcut key or control surface button.</p>
-<p>For example, to launch Final Cut Pro, you can use this simple Lua code:</p>
-<p><code v-pre>cp.apple.finalcutpro:launch()</code></p>
-<p>CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the Hammerspoon website:</p>
-<p><a href="http://www.hammerspoon.org/go/">http://www.hammerspoon.org/go/</a></p>
-<p>You can learn more about Lua here:</p>
-<p><a href="https://dev.commandpost.io/lua/lua-overview">https://dev.commandpost.io/lua/lua-overview</a></p>
-<p>Here&#x27;s a link to Hammerspoon&#x27;s API reference:</p>
-<p><a href="http://www.hammerspoon.org/docs/index.html">http://www.hammerspoon.org/docs/index.html</a></p>
-<p>Here&#x27;s some direct links to some useful Hammerspoon functions:</p>
-<ul>
-<li><a href="http://www.hammerspoon.org/docs/hs.timer.html#usleep"><code v-pre>hs.timer.usleep(microsecs)</code></a> - Add a delay</li>
-<li><a href="http://www.hammerspoon.org/docs/hs.eventtap.html#keyStroke"><code v-pre>hs.eventtap.keyStroke(modifiers, character[, delay, application])</code></a> - Trigger a virtual key stroke</li>
-<li><a href="http://www.hammerspoon.org/docs/hs.application.html#selectMenuItem"><code v-pre>hs.application:selectMenuItem(menuitem[, isRegex])</code></a> - Trigger an application menu item</li>
-</ul>
-<p>Here&#x27;s some direct links to some useful CommandPost functions:</p>
-<ul>
-<li><a href="https://dev.commandpost.io/commandpost-api/cp.tools"><code v-pre>cp.tools</code></a></li>
-</ul>
-<hr />
-<doc-anchor-target id="examples">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>
-        <span>Examples</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="press-cmdc">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#press-cmdc">#</doc-anchor-trigger>
-        <span>Press &quot;CMD+C&quot;</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="type-test">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#type-test">#</doc-anchor-trigger>
-        <span>Type &quot;test&quot;</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStrokes(&quot;test&quot;)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="trigger-shortcuts-with-delays-in-between">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#trigger-shortcuts-with-delays-in-between">#</doc-anchor-trigger>
-        <span>Trigger Shortcuts with Delay&#x27;s in-between</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">-- Type &quot;t&quot;
-hs.eventtap.keyStroke({}, &quot;t&quot;)
-
--- Wait 1 second
-cp.just.wait(1)
-
--- Type &quot;e&quot;
-hs.eventtap.keyStroke({}, &quot;e&quot;)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="forcefully-restart-an-application-by-its-bundle-identifier">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#forcefully-restart-an-application-by-its-bundle-identifier">#</doc-anchor-trigger>
-        <span>Forcefully restart an application by its bundle identifier</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">local bundleID = &quot;com.logitech.manager.daemon&quot;
-local apps = hs.application.applicationsForBundleID(bundleID)
-if apps and apps[1] then
-    apps[1]:kill9()
-end
-hs.application.launchOrFocusByBundleID(bundleID)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="select-all-even-clips-in-a-timeline">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#select-all-even-clips-in-a-timeline">#</doc-anchor-trigger>
-        <span>Select all even clips in a timeline</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">cp.apple.finalcutpro:launch()
-local clips = cp.apple.finalcutpro:timeline():contents():clipsUI()
-table.sort(clips, function(a, b) return a.AXPosition.x &lt; b.AXPosition.x end)
-local evenClips = {}
-for i, clip in ipairs(clips) do
-    if (i % 2 == 0) then
-        table.insert(evenClips, clip)
-    end
-end
-cp.apple.finalcutpro:timeline():contents():selectClips(evenClips)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="go-back-500-frames-and-play">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#go-back-500-frames-and-play">#</doc-anchor-trigger>
-        <span>Go back 500 frames and play</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;2&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;return&quot;)
-cp.apple.finalcutpro:doShortcut(&quot;JogForward&quot;):Now()</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="audio-cross-dissolve-backward-j-cut">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-backward-j-cut">#</doc-anchor-trigger>
-        <span>Audio Cross Dissolve Backward (J-Cut)</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;return&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;up&quot;, 0)
-
--- Need To Assign Toggle Fade Out in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;alt&quot;}, &quot;f&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;down&quot;, 0)
-
- -- Need To Assign Toggle Fade In in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;shift&quot;}, &quot;f&quot;, 0)
-hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="audio-cross-dissolve-centre">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-centre">#</doc-anchor-trigger>
-        <span>Audio Cross Dissolve Centre</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;return&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;up&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;down&quot;, 0)
-
--- Need To Assign Toggle Fade In in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;shift&quot;}, &quot;f&quot;, 0)
-hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;down&quot;, 0)
-hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;[&quot;, 0)
-hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;=&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;return&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;up&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;down&quot;, 0)
-
--- Need To Assign Toggle Fade Out in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;alt&quot;}, &quot;f&quot;)
-hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;)</code></pre>
-</doc-codeblock></div>
-<hr />
-<doc-anchor-target id="audio-cross-dissolve-forward-l-cut">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-forward-l-cut">#</doc-anchor-trigger>
-        <span>Audio Cross Dissolve Forward (L-Cut)</span>
-    </h2>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;[&quot;, 0)
-hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;=&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;1&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;0&quot;, 0)
-hs.eventtap.keyStroke({}, &quot;return&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;up&quot;, 0)
-
--- Need To Assign Toggle Fade In in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;shift&quot;}, &quot;f&quot;, 0)
-hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;down&quot;, 0)
-
- -- Need To Assign Toggle Fade Out in FCPX
-hs.eventtap.keyStroke({&quot;cmd&quot;, &quot;alt&quot;}, &quot;f&quot;, 0)
-hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
-</doc-codeblock></div>
+<p>CommandPost has been designed with internationalisation in mind.</p>
+<p>To translate CommandPost to another language visit <a href="https://poeditor.com/join/project/QWvOQlF1Sy" target="_blank">POeditor</a>.</p>
+<p>We use <a href="https://github.com/kikito/i18n.lua" target="_blank">i18n.lua</a> to handle translations.</p>
+<p>We currently have a single translation file for each language, which covers both the Extensions &amp; Plugins within CommandPost-App.</p>
+<p>If you&#x27;re developing a plugin, we recommend still using <code v-pre>i18n</code>, and doing your own translations within the plugin.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -481,20 +293,20 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../credits/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../developer/plugins/plugins.zoom.shortcuts/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Credits</span>
+                                                <span class="block mt-1">docs » plugins.​zoom.​shortcuts</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../advanced/snippets-for-icons/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../privacy/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Installation</span>
+                                                <span class="block mt-1">Privacy Policy</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -538,6 +350,6 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Installation", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "HUD", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
