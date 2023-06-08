@@ -1,2 +1,3 @@
 label: Plugins
-icon: device-camera-video
+icon: file-code
+order: 93
