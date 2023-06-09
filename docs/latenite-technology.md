@@ -1,14 +1,16 @@
 # LateNite Technology
 
-This website has been thrown together by [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} at [LateNite](https://latenitefilms.com/technology){target="_blank"}.
+CommandPost was founded by [Chris Hocking](https://twitter.com/chrisatlatenite){target="_blank"} from [LateNite](https://latenitefilms.com/technology){target="_blank"}.
 
-Constantly looking for ways to innovate, LateNite is as passionate about production and post production as it is storytelling. Their pursuit of creative excellence has seen them work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
+Constantly looking for ways to innovate, **LateNite** is as passionate about production and post production as it is storytelling. Their pursuit of creative excellence has seen them work closely with global cinematic technology companies to craft post workflow solutions and critically celebrated software in-house.
 
 ---
 
 ### BRAW Toolbox
 
 **BRAW Toolbox** allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.
+
+![](static/braw-toolbox.png)
 
 No more waiting. No more transcoding. No more massive ProRes files.
 
@@ -115,6 +117,8 @@ _MadMitch1993 – Jan 30, 2023 (Apple App Store Review)_
 
 **Gyroflow Toolbox** allows you to import Gyroflow Projects into Final Cut Pro.
 
+![](static/gyroflow-toolbox.png)
+
 Gyroflow is a free and open source third-party application that can stabilise your video by using motion data from a gyroscope and optionally an accelerometer. Modern cameras record that data internally (GoPro, Sony, Insta360 etc), and Gyroflow stabilizes the captured footage precisely by using them. It can also use gyro data from an external source (eg. from Betaflight blackbox).
 
 Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it within Final Cut Pro as an effect, so you don't have to export a ProRes from Gyroflow!
@@ -150,6 +154,8 @@ _Tydar94 – Jan 27, 2023 (Apple App Store Review)_
 ### Marker Toolbox
 
 **Marker Toolbox** allows you to import Vimeo CSV, Wipster CSV, Dropbox Replay JSON & Email Comments into Apple's Final Cut Pro via a handy Workflow Extension.
+
+![](static/marker-toolbox.png)
 
 You can also OPTIONALLY use OpenAI's ChatGPT to help translate email comments into markers using your own personal OpenAI API key!
 
@@ -202,6 +208,8 @@ _Blazy – Apr 6, 2023 (Apple App Store Review)_
 
 **Recall Toolbox** is a Final Cut Pro Workflow Extension that acts as a Shared Pasteboard.
 
+![](static/recall-toolbox.png)
+
 Anything that you can copy and paste in Final Cut Pro, Recall Toolbox can store.
 
 #### Build for Final Cut Pro
@@ -228,7 +236,9 @@ You can share folders with other iCloud users, and control permissions. For exam
 
 ### Transfer Toolbox
 
-Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
+**Transfer Toolbox** allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
+
+![](static/transfer-toolbox.png)
 
 You can now easily get from your Desktop to your iPad! Simply drag your existing Final Cut Pro library into the application's drop zone.
 
