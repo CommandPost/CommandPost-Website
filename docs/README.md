@@ -37,7 +37,7 @@ We've also built custom tools for Denmark’s second largest production company,
 ### Where Technology Meets Creativity
 
 > _“ CommandPost and FCP are so intertwined on my day to day that I see them as one app ”._<br />
-> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}**
+> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"} (Editor on Netflix's Turn of the Tide)**
 
 CommandPost has been **built by filmmakers, for filmmakers**.
 
@@ -50,7 +50,7 @@ However, it's also used by developers, scientists and macOS power users all over
 ### Experience Unparalleled Control
 
 > _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._<br />
-> **[Oli Frost](https://olifro.st/){target="_blank"}**
+> **[Oli Frost](https://olifro.st/){target="_blank"} (Editor)**
 
 > _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
 > **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (Assistant Editor on Netflix's Blood Red Sky)**
