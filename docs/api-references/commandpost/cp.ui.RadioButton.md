@@ -59,7 +59,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L32) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L32){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked. May be set by calling as a function with `true` or `false` to the function.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L59) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L59){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L110) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L110){target="_blank"} |
 
 ---
 
@@ -108,7 +108,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L202) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L202){target="_blank"} |
 
 ---
 
@@ -124,7 +124,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L157) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L157){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L91) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L91){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L125) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L125){target="_blank"} |
 
 ---
 
@@ -172,7 +172,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L186) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L186){target="_blank"} |
 
 ---
 
@@ -188,7 +188,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L140) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L140){target="_blank"} |
 
 ---
 
@@ -204,7 +204,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The new `RadioButton`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L45) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L45){target="_blank"} |
 
 ---
 
@@ -220,7 +220,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The table of the layout state.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L171) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L171){target="_blank"} |
 
 ---
 
@@ -236,7 +236,7 @@ myButton(false) == false	-- now false
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L77) |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L77){target="_blank"} |
 
 ---
 

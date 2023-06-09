@@ -82,7 +82,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>a string matching one of the following:</li><li>  "undefined"  - The user has not yet made a choice regarding whether Hammerspoon can use location services.</li><li>  "restricted" - Hammerspoon is not authorized to use location services. The user cannot change this status, possibly due to active restrictions such as parental controls being in place.</li><li>  "denied"     - The user explicitly denied the use of location services for Hammerspoon or location services are currently disabled in System Preferences.</li><li>  "authorized" - Hammerspoon is authorized to use location services.</li></ul>          |
 | **Notes**                                   | <ul><li>The first time you use a function which requires Location Services, you will be prompted to grant Hammerspoon access. If you wish to change this permission after the initial prompt, you may do so from the Location Services section of the Security & Privacy section in the System Preferences application.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 207](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L207) |
+| **Source**                                  | [extensions/location/liblocation.m line 207](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L207){target="_blank"} |
 
 ---
 
@@ -98,7 +98,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>A number containing the distance between `from` and `to` in meters. The measurement is made by tracing a line that follows an idealised curvature of the earth</li></ul>          |
 | **Notes**                                   | <ul><li>This function does not require Location Services to be enabled for Hammerspoon.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 245](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L245) |
+| **Source**                                  | [extensions/location/liblocation.m line 245](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L245){target="_blank"} |
 
 ---
 
@@ -114,7 +114,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>The number of minutes of daylight savings offset, zero if there is no offset</li></ul>          |
 | **Notes**                                   | <ul><li>This value is derived from the currently configured system timezone, it does not use Location Services</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 307](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L307) |
+| **Source**                                  | [extensions/location/liblocation.m line 307](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L307){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>If successful, a locationTable as described in the module header, otherwise nil.</li></ul>          |
 | **Notes**                                   | <ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If access to Location Services is enabled for Hammerspoon, this function will return the most recent cached data for the computer's location.</li><li>  Internally, the Location Services cache is updated whenever additional WiFi networks are detected or lost (not necessarily joined). When update tracking is enabled with the [hs.location.start](#start) function, calculations based upon the RSSI of all currently seen networks are preformed more often to provide a more precise fix, but it's still based on the WiFi networks near you.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 282](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L282) |
+| **Source**                                  | [extensions/location/liblocation.m line 282](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L282){target="_blank"} |
 
 ---
 
@@ -146,7 +146,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L139) |
+| **Source**                                  | [extensions/location/location.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L139){target="_blank"} |
 
 ---
 
@@ -162,7 +162,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>True if Location Services are enabled, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L192) |
+| **Source**                                  | [extensions/location/liblocation.m line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L192){target="_blank"} |
 
 ---
 
@@ -178,7 +178,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>True if the operation succeeded, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L179) |
+| **Source**                                  | [extensions/location/location.lua line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L179){target="_blank"} |
 
 ---
 
@@ -194,7 +194,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L201) |
+| **Source**                                  | [extensions/location/location.lua line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L201){target="_blank"} |
 
 ---
 
@@ -210,7 +210,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>A number containing the time of sunrise (represented as seconds since the epoch) for the given date. If no date is given, the current date is used. If the sun doesn't rise on the given day, the string "N/R" is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>You can turn the return value into a more useful structure, with ```os.date("*t", returnvalue)```</li><li>For compatibility with the locationTable object returned by [hs.location.get](#get), this function can also be invoked as `hs.location.sunrise(locationTable, offset[, date])`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 503](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L503) |
+| **Source**                                  | [extensions/location/liblocation.m line 503](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L503){target="_blank"} |
 
 ---
 
@@ -226,7 +226,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>A number containing the time of sunset (represented as seconds since the epoch) for the given date. If no date is given, the current date is used. If the sun doesn't set on the given day, the string "N/S" is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>You can turn the return value into a more useful structure, with ```os.date("*t", returnvalue)```</li><li>For compatibility with the locationTable object returned by [hs.location.get](#get), this function can also be invoked as `hs.location.sunset(locationTable, offset[, date])`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/liblocation.m line 526](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L526) |
+| **Source**                                  | [extensions/location/liblocation.m line 526](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L526){target="_blank"} |
 
 ---
 
@@ -242,7 +242,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L166) |
+| **Source**                                  | [extensions/location/location.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L166){target="_blank"} |
 
 ---
 
@@ -260,7 +260,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>a locationObject</li></ul>          |
 | **Notes**                                   | <ul><li>The locationObject created will receive callbacks independent of all other locationObjects and the legacy callback functions created with [hs.location.register](#register).  It can also receive callbacks for region changes which are not available through the legacy callback mechanism.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L221) |
+| **Source**                                  | [extensions/location/location.lua line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L221){target="_blank"} |
 
 ---
 
@@ -278,7 +278,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>if the region table was able to be added to Location Services for monitoring, returns the locationObject; otherwise returns nil</li></ul>          |
 | **Notes**                                   | <ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If the `identifier` key is not provided, a new UUID string is generated and used as the identifier.</li><li>If the `identifier` key matches an already monitored region, this region will replace the existing one.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 358](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L358) |
+| **Source**                                  | [extensions/location/location.lua line 358](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L358){target="_blank"} |
 
 ---
 
@@ -296,7 +296,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>the locationObject</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 461](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L461) |
+| **Source**                                  | [extensions/location/location.lua line 461](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L461){target="_blank"} |
 
 ---
 
@@ -312,7 +312,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>the string identifier for the region that the current location is within, or nil if the current location is not within a currently monitored region or location services cannot be enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 436](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L436) |
+| **Source**                                  | [extensions/location/location.lua line 436](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L436){target="_blank"} |
 
 ---
 
@@ -328,7 +328,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>the distance the specified location is from the current location in meters or nil if Location Services cannot be enabled for Hammerspoon. The measurement is made by tracing a line that follows an idealised curvature of the earth</li></ul>          |
 | **Notes**                                   | <ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 300](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L300) |
+| **Source**                                  | [extensions/location/location.lua line 300](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L300){target="_blank"} |
 
 ---
 
@@ -344,7 +344,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>If successful, a locationTable as described in the module header, otherwise nil.</li></ul>          |
 | **Notes**                                   | <ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If access to Location Services is enabled for Hammerspoon, this function will return the most recent cached data for the computer's location.</li><li>  Internally, the Location Services cache is updated whenever additional WiFi networks are detected or lost (not necessarily joined). When update tracking is enabled with the [hs.location.start](#start) function, calculations based upon the RSSI of all currently seen networks are preformed more often to provide a more precise fix, but it's still based on the WiFi networks near you.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 495](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L495) |
+| **Source**                                  | [extensions/location/location.lua line 495](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L495){target="_blank"} |
 
 ---
 
@@ -360,7 +360,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>if Location Services can be enabled for Hammerspoon, returns a table containing regionTables for each region which is being monitored for this locationObject; otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 321](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L321) |
+| **Source**                                  | [extensions/location/location.lua line 321](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L321){target="_blank"} |
 
 ---
 
@@ -376,7 +376,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>if the region identifier matches a currently monitored region, returns the locationObject; if it does not match a currently monitored region, returns false; returns nil if an error occurs or if Location Services is not currently active (no function or method which activates Location Services has been invoked yet) or enabled for Hammerspoon.</li></ul>          |
 | **Notes**                                   | <ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If the `identifier` key is not provided, a new UUID string is generated and used as the identifier.</li><li>If the `identifier` key matches an already monitored region, this region will replace the existing one.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 406](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L406) |
+| **Source**                                  | [extensions/location/location.lua line 406](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L406){target="_blank"} |
 
 ---
 
@@ -392,7 +392,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>the locationObject</li></ul>          |
 | **Notes**                                   | <ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 260](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L260) |
+| **Source**                                  | [extensions/location/location.lua line 260](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L260){target="_blank"} |
 
 ---
 
@@ -408,7 +408,7 @@ The following labels are used to describe tables which are used by functions and
 | **Returns**                                 | <ul><li>the locationObject</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/location/location.lua line 281](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L281) |
+| **Source**                                  | [extensions/location/location.lua line 281](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L281){target="_blank"} |
 
 ---
 

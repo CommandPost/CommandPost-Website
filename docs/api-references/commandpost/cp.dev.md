@@ -38,7 +38,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L146) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L146){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A string with the results of the search.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L66) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L66){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>The element.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L277) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L277){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L319) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L319){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 352](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L352) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 352](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L352){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L53) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L53){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A results as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L195) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L195){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L159) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L159){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None.</li></ul>          |
 | **Notes**                                   | <ul><li>The options table accepts the following parameters:</li><li> depth - A number representing the maximum depth to recurse into variable.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L234) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L234){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L393) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L393){target="_blank"} |
 
 ---
 
@@ -198,7 +198,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>A [cp.test] to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>This function will return a [cp.test](cp.test.md) with either the name `<id>_test` or `<id>._test` if the `<id>` is pointing at a folder.</li><li></li><li>For example, you have an extensions called `foo.bar`, and you want to create a test for it.</li><li></li><li>Option 1: `<id>_test`</li><li>File: `/src/tests/foo/bar_test.lua`</li><li></li><li>Option 2: `<id>._test`</li><li>File: `/src/tests/foo/bar/_test.lua`</li><li></li><li>You could then run all the contained tests like so:</li><li>```lua</li><li>_test("foo.bar")()</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 406](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L406) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 406](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L406){target="_blank"} |
 
 ---
 
@@ -214,7 +214,7 @@ A set of handy developer tools for CommandPost.
 | **Returns**                                 | <ul><li>The path or `nil` and the error message if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/dev/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L122) |
+| **Source**                                  | [src/extensions/cp/dev/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/dev/init.lua#L122){target="_blank"} |
 
 ---
 

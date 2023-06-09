@@ -44,7 +44,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L18) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L18){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the section.                                                                     |
 | **Notes**                                   | <ul><li>Must be overridden in subclasses to provide the actual RadioButton.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L65) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L65){target="_blank"} |
 
 ---
 
@@ -72,7 +72,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent [Index](cp.apple.finalcutpro.timeline.Index.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L26){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the section is currently showing.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L84) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L84){target="_blank"} |
 
 ---
 
@@ -98,7 +98,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The shared [SearchField](cp.ui.SearchField.md) for the [Index](cp.apple.finalcutpro.timeline.Index.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L58) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L58){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` that represents the item.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L75) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L75){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The [Final Cut Pro](cp.apple.finalcutpro.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L45) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L45){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>Returns a [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L113) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L113){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L92) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L92){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Returns**                                 | <ul><li>The parent index.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L32) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexSection.lua#L32){target="_blank"} |
 
 ---
 

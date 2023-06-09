@@ -30,7 +30,7 @@ Portions sourced from (https://gist.github.com/shpakovski/1902994).
 | **Returns**                                 | <ul><li>A string containing the decoded data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/base64/base64.lua line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/base64/base64.lua#L40) |
+| **Source**                                  | [extensions/base64/base64.lua line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/base64/base64.lua#L40){target="_blank"} |
 
 ---
 
@@ -46,7 +46,7 @@ Portions sourced from (https://gist.github.com/shpakovski/1902994).
 | **Returns**                                 | <ul><li>A string containing the base64 representation of the input string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/base64/base64.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/base64/base64.lua#L14) |
+| **Source**                                  | [extensions/base64/base64.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/base64/base64.lua#L14){target="_blank"} |
 
 ---
 

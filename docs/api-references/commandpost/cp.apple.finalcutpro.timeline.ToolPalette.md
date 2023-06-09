@@ -37,7 +37,7 @@ Extends:
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The options for the Tool Palette Menu Button.                                                                     |
 | **Notes**                                   | <ul><li>Contains `SELECT`, `TRIM`, `POSITION`, `RANGE`, `BLADE`, `ZOOM`, and `HAND`.</li><li>The `CommandSetID` value can be used with `cp.apple.finalcutpro:doShortcut()`.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L21) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L21){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `BLADE` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L190) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L190){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `HAND` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L222) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L222){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `POSITION` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L158) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L158){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `RANGE` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L174) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L174){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `SELECT` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L126) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L126){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `TRIM` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L142) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L142){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `ZOOM` option.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L206) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L206){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ Extends:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` containing the current [OPTIONS](#OPTIONS) value of the Tool Palette. May be `nil` if the toolbar is not available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L85) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/ToolPalette.lua#L85){target="_blank"} |
 
 ---
 

@@ -38,7 +38,7 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Button.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L18) |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L18){target="_blank"} |
 
 ---
 
@@ -56,7 +56,7 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The new `Button` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Button.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L31) |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L31){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ methods, fields and other properties.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Button.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L45) |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L45){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Button.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L69) |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L69){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ methods, fields and other properties.
 | **Returns**                                 | <ul><li>The `Button` instance.</li><li>`true` if the button was actually pressed successfully.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Button.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L52) |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L52){target="_blank"} |
 
 ---
 

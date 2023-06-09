@@ -34,7 +34,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `ControlBar`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L33) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L33){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Returns**                                 | <ul><li>The new `ControlBar`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L65) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L65){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current timecode value, with the format "hh:mm:ss:ff". Setting also supports "hh:mm:ss;ff".                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L111) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/ControlBar.lua#L111){target="_blank"} |
 
 ---
 

@@ -46,7 +46,7 @@ Note that the following options did not seem to be valid for the initial tests p
 | **Returns**                                 | <ul><li>If the attribute exists for the file or directory and contains data, returns the value of the attribute as a string of raw bytes which are not guaranteed to conform to proper UTF-8 byte sequences. If the attribute exist but does not have a value, returns the Lua boolean `true`.  If the attribute does not exist, returns nil. Throws a Lua error on failure with a description of the reason for the failure.</li></ul>          |
 | **Notes**                                   | <ul><li>See also [hs.fs.xattr.getHumanReadable](#getHumanReadable).</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/fs/libfs_xattr.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L156) |
+| **Source**                                  | [extensions/fs/libfs_xattr.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L156){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Note that the following options did not seem to be valid for the initial tests p
 | **Returns**                                 | <ul><li>if the returned data does not conform to proper UTF-8 byte sequences, passes the string through `hs.utf8.hexDump` first.  Otherwise the return values follow the description for [hs.fs.xattr.get](#get) .</li></ul>          |
 | **Notes**                                   | <ul><li>This is provided for testing and debugging purposes; in general you probably want [hs.fs.xattr.get](#get) once you know how to properly understand the data returned for the attribute.</li><li>This is similar to the long format option in the command line `xattr` command.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/fs/fs.lua line 11](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L11) |
+| **Source**                                  | [extensions/fs/fs.lua line 11](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L11){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Note that the following options did not seem to be valid for the initial tests p
 | **Returns**                                 | <ul><li>a table containing an array of strings identifying the extended attributes currently defined for the file or directory; note that the order of the attributes is nondeterministic and is not guaranteed to be the same for future queries.  Throws a Lua error on failure with a description of the reason for the failure.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/fs/libfs_xattr.m line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L208) |
+| **Source**                                  | [extensions/fs/libfs_xattr.m line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L208){target="_blank"} |
 
 ---
 
@@ -94,7 +94,7 @@ Note that the following options did not seem to be valid for the initial tests p
 | **Returns**                                 | <ul><li>True if the operation succeeds; otherwise throws a Lua error with a description of reason for failure.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/fs/libfs_xattr.m line 126](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L126) |
+| **Source**                                  | [extensions/fs/libfs_xattr.m line 126](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L126){target="_blank"} |
 
 ---
 
@@ -110,7 +110,7 @@ Note that the following options did not seem to be valid for the initial tests p
 | **Returns**                                 | <ul><li>True if the operation succeeds; otherwise throws a Lua error with a description of reason for failure.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/fs/libfs_xattr.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L87) |
+| **Source**                                  | [extensions/fs/libfs_xattr.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs_xattr.m#L87){target="_blank"} |
 
 ---
 

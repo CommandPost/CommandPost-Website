@@ -28,7 +28,7 @@ String-related functional programming helpers.
 | **Returns**                                 | <ul><li>`true` if the string is empty, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/string.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L7) |
+| **Source**                                  | [src/extensions/cp/fn/string.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L7){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ String-related functional programming helpers.
 | **Returns**                                 | <ul><li>A function that takes a string and returns the matches.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/string.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L20) |
+| **Source**                                  | [src/extensions/cp/fn/string.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L20){target="_blank"} |
 
 ---
 

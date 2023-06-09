@@ -29,7 +29,7 @@ Match Frame Tools for Final Cut Pro.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Favourite Keywords                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L37) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L37){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>Angle or `false` on error</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L153) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L153){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L291) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L291){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Match Frame Tools for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L42) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L42){target="_blank"} |
 
 ---
 

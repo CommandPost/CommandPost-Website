@@ -51,7 +51,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>`true` if it's a `Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L31) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L31){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>A `cp.spec.Specification` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L44) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L44){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L72) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L72){target="_blank"} |
 
 ---
 
@@ -103,7 +103,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L58) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L58){target="_blank"} |
 
 ---
 
@@ -119,7 +119,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L86) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L86){target="_blank"} |
 
 ---
 
@@ -135,7 +135,7 @@ return describe "a specification" {
 | **Returns**                                 | <ul><li>The same `Specification` instance, with the definitions added.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L135) |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L135){target="_blank"} |
 
 ---
 

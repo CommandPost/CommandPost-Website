@@ -63,7 +63,7 @@ Color ColorPuck Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The table of default angles for the various pucks (1-4).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L47) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L47){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Color ColorPuck Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Elasticity as number.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L42) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L42){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ Color ColorPuck Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Natural Length as number.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L37) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L37){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Color ColorPuck Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of puck ranges.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L32) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L32){target="_blank"} |
 
 ---
 
@@ -120,7 +120,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L77) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L77){target="_blank"} |
 
 ---
 
@@ -138,7 +138,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L90) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L90){target="_blank"} |
 
 ---
 
@@ -153,7 +153,7 @@ Color ColorPuck Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'angle' text field (only present for the 'color' aspect).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L172) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L172){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Color ColorPuck Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The human-readable label for the puck, in FCPX's current language.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L155) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L155){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ Color ColorPuck Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'percent' text field.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L162) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L162){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ Color ColorPuck Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Finds the 'row' for the property type.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L148) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L148){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ Color ColorPuck Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Skimming Preferences value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L141) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L141){target="_blank"} |
 
 ---
 
@@ -223,7 +223,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`x` - Accumulated `x` value as number</li><li>`y` - Accumulated `y` value as number</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 582](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L582) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 582](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L582){target="_blank"} |
 
 ---
 
@@ -239,7 +239,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 551](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L551) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 551](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L551){target="_blank"} |
 
 ---
 
@@ -255,7 +255,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 499](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L499) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 499](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L499){target="_blank"} |
 
 ---
 
@@ -271,7 +271,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>An `axuielementObject` or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L128) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L128){target="_blank"} |
 
 ---
 
@@ -287,7 +287,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful, or throwing an error if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L358) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L358){target="_blank"} |
 
 ---
 
@@ -303,7 +303,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or throwing an error if no.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L260) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L260){target="_blank"} |
 
 ---
 
@@ -319,7 +319,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to the updated percent value, or throwing an error if there is a problem.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L301) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L301){target="_blank"} |
 
 ---
 
@@ -335,7 +335,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L226) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L226){target="_blank"} |
 
 ---
 
@@ -351,7 +351,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 464](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L464) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 464](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L464){target="_blank"} |
 
 ---
 
@@ -367,7 +367,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The arc value as number.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 445](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L445) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 445](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L445){target="_blank"} |
 
 ---
 
@@ -383,7 +383,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The brightness value as number.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 422](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L422) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 422](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L422){target="_blank"} |
 
 ---
 
@@ -399,7 +399,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>`true` if the puck has an `angle`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L199) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L199){target="_blank"} |
 
 ---
 
@@ -415,7 +415,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The puck number.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L186) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L186){target="_blank"} |
 
 ---
 
@@ -431,7 +431,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 615](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L615) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 615](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L615){target="_blank"} |
 
 ---
 
@@ -447,7 +447,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L343) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L343){target="_blank"} |
 
 ---
 
@@ -463,7 +463,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L239) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L239){target="_blank"} |
 
 ---
 
@@ -479,7 +479,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L318) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L318){target="_blank"} |
 
 ---
 
@@ -495,7 +495,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The updated value.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L284) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 284](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L284){target="_blank"} |
 
 ---
 
@@ -511,7 +511,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ColorPuck` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L212) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L212){target="_blank"} |
 
 ---
 
@@ -527,7 +527,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>The `ColorPuck` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L375) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L375){target="_blank"} |
 
 ---
 
@@ -543,7 +543,7 @@ Color ColorPuck Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 538](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L538) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua line 538](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorPuck.lua#L538){target="_blank"} |
 
 ---
 

@@ -53,7 +53,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Garage Band ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L46) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L46){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | iTunes ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L51) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L51){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.1 and earlier.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L31) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L31){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum Sections.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L36) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L36){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L41) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L41){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sound Effects ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L56) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L56){target="_blank"} |
 
 ---
 
@@ -131,7 +131,7 @@ Media Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.2 and later.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L26){target="_blank"} |
 
 ---
 
@@ -149,7 +149,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>A new `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L61) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L61){target="_blank"} |
 
 ---
 
@@ -164,7 +164,7 @@ Media Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group PopUpButton.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L157) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L157){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ Media Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Media Browser is showing.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L80) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L80){target="_blank"} |
 
 ---
 
@@ -190,7 +190,7 @@ Media Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the main group UI for the Media Browser, or `nil` if not available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L88) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L88){target="_blank"} |
 
 ---
 
@@ -203,7 +203,7 @@ Media Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The search TextField.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L166) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L166){target="_blank"} |
 
 ---
 
@@ -216,7 +216,7 @@ Media Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar `Table`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L148) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L148){target="_blank"} |
 
 ---
 
@@ -234,7 +234,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L128) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L128){target="_blank"} |
 
 ---
 
@@ -250,7 +250,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L293) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L293){target="_blank"} |
 
 ---
 
@@ -266,7 +266,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>A table containing the current Media Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L274) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L274){target="_blank"} |
 
 ---
 
@@ -282,7 +282,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L106) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L106){target="_blank"} |
 
 ---
 
@@ -298,7 +298,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L235) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L235){target="_blank"} |
 
 ---
 
@@ -314,7 +314,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L248) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L248){target="_blank"} |
 
 ---
 
@@ -330,7 +330,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L222) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L222){target="_blank"} |
 
 ---
 
@@ -346,7 +346,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L204) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L204){target="_blank"} |
 
 ---
 
@@ -362,7 +362,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L175) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L175){target="_blank"} |
 
 ---
 
@@ -378,7 +378,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L261) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L261){target="_blank"} |
 
 ---
 
@@ -394,7 +394,7 @@ Media Browser Module.
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L189) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/MediaBrowser.lua#L189){target="_blank"} |
 
 ---
 

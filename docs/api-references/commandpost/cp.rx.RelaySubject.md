@@ -32,7 +32,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The new `ReplaySubject.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L18) |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L18){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L78) |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L78){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ produced values upon reference.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L40) |
+| **Source**                                  | [src/extensions/cp/rx/ReplaySubject.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ReplaySubject.lua#L40){target="_blank"} |
 
 ---
 

@@ -24,7 +24,7 @@ A `Statement.Modifier` that specifies the list should be sorted by its 'natural'
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `List`, which should be created via `List:Sorted()`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/List.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/List.lua#L70) |
+| **Source**                                  | [src/extensions/cp/rx/go/List.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/List.lua#L70){target="_blank"} |
 
 ---
 

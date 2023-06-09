@@ -73,7 +73,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | EQ Modes                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L187) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L187){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pan Modes                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L167) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L167){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L72) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L72){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `AudioInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L99) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L99){target="_blank"} |
 
 ---
 
@@ -137,7 +137,7 @@ audio:stabilization():smoothing():show():value(1.5)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AudioConfiguration` instance.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L160) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioInspector.lua#L160){target="_blank"} |
 
 ---
 

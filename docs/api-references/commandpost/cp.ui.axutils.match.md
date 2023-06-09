@@ -33,7 +33,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`true` if the element is an empty list.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 825](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L825) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 825](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L825){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the value matches exactly.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 810](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L810) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 810](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L810){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is above the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 884](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L884) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 884](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L884){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is below the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 861](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L861) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 861](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L861){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is left of the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 907](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L907) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 907](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L907){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>A function returning `true` if the element is right of the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 930](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L930) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 930](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L930){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ Contains common `hs.axuielement` matching functions.
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the `AXRole` is `roleName`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 795](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L795) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 795](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L795){target="_blank"} |
 
 ---
 

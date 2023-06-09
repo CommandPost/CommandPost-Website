@@ -35,7 +35,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observer`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L14) |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L14){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>The new Observer.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L27) |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L27){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L80) |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L80){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L64) |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L64){target="_blank"} |
 
 ---
 
@@ -103,7 +103,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L49) |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L49){target="_blank"} |
 
 ---
 

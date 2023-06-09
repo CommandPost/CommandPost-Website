@@ -38,7 +38,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L22) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L22){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current path for the document.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L36) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L36){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the `Document` when run.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L121) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L121){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Revision Mode button.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L72) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L72){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Sidebar](cp.highland2.Sidebar.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L86) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L86){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Splitter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L93) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L93){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sprint button.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L79) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L79){target="_blank"} |
 
 ---
 
@@ -131,7 +131,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Template Picker button.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L58) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L58){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextArea](cp.ui.TextArea.md) containing the document text.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L114) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L114){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Theme Picker button.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L65) |
+| **Source**                                  | [src/extensions/cp/highland2/Document.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/highland2/Document.lua#L65){target="_blank"} |
 
 ---
 

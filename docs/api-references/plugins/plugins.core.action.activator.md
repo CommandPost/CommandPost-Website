@@ -88,7 +88,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the table of active handlers. A handler is active if it is both allowed and enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L214) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L214){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all handlers that are allowed in this activator.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L185) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L185){target="_blank"} |
 
 ---
 
@@ -114,7 +114,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true` (the default), the activator can be configured by right-clicking on the main chooser.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L275) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L275){target="_blank"} |
 
 ---
 
@@ -127,7 +127,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the set of choice IDs which are favorites in this activator, mapped to a boolean value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L257) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L257){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the set of choice IDs which are hidden in this activator, mapped to a boolean value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L249) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L249){target="_blank"} |
 
 ---
 
@@ -153,7 +153,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, remember the last query.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L141) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L141){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last query value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L148) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L148){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last width of the Search Console. Defaults to 40.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L162) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L162){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Keeps track of how popular particular choices are. Returns a table of choice IDs                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L266) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L266){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current "query" value for the activator.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L241) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L241){target="_blank"} |
 
 ---
 
@@ -218,7 +218,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A property which will be true if the 'reduce transparency' mode is enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 984](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L984) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 984](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L984){target="_blank"} |
 
 ---
 
@@ -231,7 +231,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, allow users to search the subtext value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L134) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L134){target="_blank"} |
 
 ---
 
@@ -244,7 +244,7 @@ will not affect the "yadayada" activator.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, hidden items are shown.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L169) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L169){target="_blank"} |
 
 ---
 
@@ -262,7 +262,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1518](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1518) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1518](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1518){target="_blank"} |
 
 ---
 
@@ -278,7 +278,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Table of choices that can be displayed by an `hs.chooser`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 815](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L815) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 815](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L815){target="_blank"} |
 
 ---
 
@@ -294,7 +294,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Table of choices that can be displayed by an `hs.chooser`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 799](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L799) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 799](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L799){target="_blank"} |
 
 ---
 
@@ -310,7 +310,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L326) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L326){target="_blank"} |
 
 ---
 
@@ -326,7 +326,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>A `hs.chooser` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1069](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1069) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1069](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1069){target="_blank"} |
 
 ---
 
@@ -342,7 +342,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 455](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L455) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 455](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L455){target="_blank"} |
 
 ---
 
@@ -358,7 +358,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler exists and was disabled.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L363) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L363){target="_blank"} |
 
 ---
 
@@ -374,7 +374,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L428) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L428){target="_blank"} |
 
 ---
 
@@ -390,7 +390,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler exists and was enabled.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L383) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L383){target="_blank"} |
 
 ---
 
@@ -406,7 +406,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L403) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L403){target="_blank"} |
 
 ---
 
@@ -422,7 +422,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully favorited otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 601](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L601) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 601](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L601){target="_blank"} |
 
 ---
 
@@ -438,7 +438,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The choice or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 500](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L500) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 500](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L500){target="_blank"} |
 
 ---
 
@@ -454,7 +454,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The action handler, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L313) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L313){target="_blank"} |
 
 ---
 
@@ -470,7 +470,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The number of times the choice has been executed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 652](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L652) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 652](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L652){target="_blank"} |
 
 ---
 
@@ -486,7 +486,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1432](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1432) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1432](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1432){target="_blank"} |
 
 ---
 
@@ -502,7 +502,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully hidden otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L518) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L518){target="_blank"} |
 
 ---
 
@@ -518,7 +518,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator ID.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L300) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L300){target="_blank"} |
 
 ---
 
@@ -534,7 +534,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unfavourited, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 669](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L669) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 669](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L669){target="_blank"} |
 
 ---
 
@@ -550,7 +550,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the handler is disabled.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 486](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L486) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 486](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L486){target="_blank"} |
 
 ---
 
@@ -566,7 +566,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if currently hidden.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 587](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L587) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 587](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L587){target="_blank"} |
 
 ---
 
@@ -582,7 +582,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>A boolean, `true` if the chooser is displayed on screen, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1329](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1329) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1329](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1329){target="_blank"} |
 
 ---
 
@@ -598,7 +598,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, the activator will 'execute' the action, but you can choose to provide an alternative action. It will get passed the `handler` object and the `action` table. Eg:</li><li></li><li>```lua</li><li>activator:onActivate(function(handler, action))</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1477](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1477) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1477](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1477){target="_blank"} |
 
 ---
 
@@ -614,7 +614,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>The activator.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L282) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L282){target="_blank"} |
 
 ---
 
@@ -630,7 +630,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 971](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L971) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 971](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L971){target="_blank"} |
 
 ---
 
@@ -646,7 +646,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1310](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1310) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1310](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1310){target="_blank"} |
 
 ---
 
@@ -662,7 +662,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1560](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1560) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1560](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1560){target="_blank"} |
 
 ---
 
@@ -678,7 +678,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1547](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1547) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1547](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1547){target="_blank"} |
 
 ---
 
@@ -694,7 +694,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L109) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L109){target="_blank"} |
 
 ---
 
@@ -710,7 +710,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successful</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1348](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1348) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1348](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1348){target="_blank"} |
 
 ---
 
@@ -726,7 +726,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if the action executed successfully, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 783](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L783) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 783](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L783){target="_blank"} |
 
 ---
 
@@ -742,7 +742,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1460](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1460) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 1460](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L1460){target="_blank"} |
 
 ---
 
@@ -758,7 +758,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 348](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L348) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 348](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L348){target="_blank"} |
 
 ---
 
@@ -774,7 +774,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unfavorited.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 627](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L627) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 627](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L627){target="_blank"} |
 
 ---
 
@@ -790,7 +790,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>`true` if successfully unhidden otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 547](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L547) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 547](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L547){target="_blank"} |
 
 ---
 
@@ -806,7 +806,7 @@ will not affect the "yadayada" activator.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 991](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L991) |
+| **Source**                                  | [src/plugins/core/action/manager/activator.lua line 991](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/activator.lua#L991){target="_blank"} |
 
 ---
 

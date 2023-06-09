@@ -28,7 +28,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is played while skimming.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L318) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L318){target="_blank"} |
 
 ---
 
@@ -41,7 +41,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if video/audio skimming is active.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L307) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L307){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if snapping is enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L340) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L340){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is soloed on the selected clip(s).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L329) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L329){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) which allows the user to trim the edges of the selected clips.                                                                     |
 | **Notes**                                   | <ul><li>As of FCP 10.6.3, this is currently always hidden, and cannot have its value changed.</li><li>Uncertain in exactly which version this turned up.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L292) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L292){target="_blank"} |
 
 ---
 

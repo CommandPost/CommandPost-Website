@@ -52,7 +52,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel height.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L33) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L33){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel title.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L38) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L38){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel width.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L28) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L28){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Set to `true` if the manager is enabled. Defaults to `false`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L83) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L83){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The first panel priority.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L58) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L58){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The last panel priority.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L63) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L63){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A property indicating if the welcome window is visible on screen.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L78) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L78){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Set to `true` if on-boarding is required otherwise `false`. Defaults to `true`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L73) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L73){target="_blank"} |
 
 ---
 
@@ -158,7 +158,7 @@ Manager for the CommandPost Setup Screen.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last known position of the Setup Window as a frame.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L68) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L68){target="_blank"} |
 
 ---
 
@@ -176,7 +176,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The manager.</li></ul>          |
 | **Notes**                                   | <ul><li>If the Setup Manager is `enabled`, the window will be displayed immediately when a panel is added.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L415) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L415){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The current panel as a string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L186) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L186){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L339) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L339){target="_blank"} |
 
 ---
 
@@ -224,7 +224,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L375) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L375){target="_blank"} |
 
 ---
 
@@ -240,7 +240,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L107) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L107){target="_blank"} |
 
 ---
 
@@ -256,7 +256,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 360](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L360) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 360](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L360){target="_blank"} |
 
 ---
 
@@ -272,7 +272,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L242) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L242){target="_blank"} |
 
 ---
 
@@ -288,7 +288,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>`true` if there was another panel to move to, or `false` if no panels remain.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L393) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L393){target="_blank"} |
 
 ---
 
@@ -304,7 +304,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L94) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L94){target="_blank"} |
 
 ---
 
@@ -320,7 +320,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L306) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L306){target="_blank"} |
 
 ---
 
@@ -336,7 +336,7 @@ Manager for the CommandPost Setup Screen.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/setup/init.lua line 323](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L323) |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 323](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L323){target="_blank"} |
 
 ---
 

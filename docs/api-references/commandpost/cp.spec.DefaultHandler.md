@@ -36,7 +36,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L110) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L110){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L96) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L96){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L141) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L141){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L38) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L38){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L22) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L22){target="_blank"} |
 
 ---
 
@@ -116,7 +116,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L79) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L79){target="_blank"} |
 
 ---
 
@@ -132,7 +132,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L66) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L66){target="_blank"} |
 
 ---
 
@@ -148,7 +148,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L155) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L155){target="_blank"} |
 
 ---
 
@@ -164,7 +164,7 @@ outputs via the standard `print` function.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L124) |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L124){target="_blank"} |
 
 ---
 

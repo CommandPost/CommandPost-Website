@@ -38,7 +38,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L100) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L100){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L273) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L273){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L48) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L48){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L74) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L74){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>"Rectangle", "Circle" or "Diamond" or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L123) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L123){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>A number or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L149) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L149){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L175) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L175){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L200) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L200){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L61) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L61){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L87) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L87){target="_blank"} |
 
 ---
 
@@ -198,7 +198,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L136) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L136){target="_blank"} |
 
 ---
 
@@ -214,7 +214,7 @@ Browser Playhead Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L162) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/playhead.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/playhead.lua#L162){target="_blank"} |
 
 ---
 

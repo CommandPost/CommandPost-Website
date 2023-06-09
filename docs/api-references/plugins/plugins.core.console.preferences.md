@@ -25,7 +25,7 @@ Preferences for the Search Console.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan Running Application Menubars on Startup                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/console/preferences.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/preferences.lua#L12) |
+| **Source**                                  | [src/plugins/core/console/preferences.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/preferences.lua#L12){target="_blank"} |
 
 ---
 
@@ -38,7 +38,7 @@ Preferences for the Search Console.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan the Menubars of the Active Application                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/console/preferences.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/preferences.lua#L17) |
+| **Source**                                  | [src/plugins/core/console/preferences.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/preferences.lua#L17){target="_blank"} |
 
 ---
 

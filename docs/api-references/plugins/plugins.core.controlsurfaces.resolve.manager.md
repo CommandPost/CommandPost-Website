@@ -45,7 +45,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default Jog Wheel Mode.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L101) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L101){target="_blank"} |
 
 ---
 
@@ -58,7 +58,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default sensitivity used for Blackmagic Resolve Control Surfaces.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L96) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L96){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | How long a button needs to be pressed before it's considered a long press (in seconds).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L91) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L91){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Layout                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L146) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L146){target="_blank"} |
 
 ---
 
@@ -99,7 +99,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing `hs.timer` objects.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L116) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L116){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Returns**                                 | <ul><li>charging - A boolean</li><li>level - The battery level as a number</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L247) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L247){target="_blank"} |
 
 ---
 
@@ -133,7 +133,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L318) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L318){target="_blank"} |
 
 ---
 
@@ -149,7 +149,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 962](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L962) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 962](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L962){target="_blank"} |
 
 ---
 
@@ -165,7 +165,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 1085](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L1085) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 1085](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L1085){target="_blank"} |
 
 ---
 
@@ -181,7 +181,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 780](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L780) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 780](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L780){target="_blank"} |
 
 ---
 
@@ -196,7 +196,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L164) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L164){target="_blank"} |
 
 ---
 
@@ -209,7 +209,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L131) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L131){target="_blank"} |
 
 ---
 
@@ -222,7 +222,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable DaVinci Resolve Control Surface support                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 1163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L1163) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 1163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L1163){target="_blank"} |
 
 ---
 
@@ -235,7 +235,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A table containing the control surface layout.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L151) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L151){target="_blank"} |
 
 ---
 
@@ -248,7 +248,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L111) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L111){target="_blank"} |
 
 ---
 
@@ -261,7 +261,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last Bundle ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L136) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/resolve/manager/init.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/resolve/manager/init.lua#L136){target="_blank"} |
 
 ---
 

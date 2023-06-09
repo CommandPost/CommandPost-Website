@@ -30,7 +30,7 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L15) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L15){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) that serves as the list of the scroll area.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L32) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L32){target="_blank"} |
 
 ---
 

@@ -37,7 +37,7 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L23) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L23){target="_blank"} |
 
 ---
 
@@ -55,7 +55,7 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L40) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L40){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ Primary Window Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L92) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L92){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `Resolve` application root.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L51) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L51){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Primary Window Module.
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L75) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/main/PrimaryWindow.lua#L75){target="_blank"} |
 
 ---
 

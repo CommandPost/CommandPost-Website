@@ -32,7 +32,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L109) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L109){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L136) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L136){target="_blank"} |
 
 ---
 
@@ -58,7 +58,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L127) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L127){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L118) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L118){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L100) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L100){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Show standard markers" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L91) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L91){target="_blank"} |
 
 ---
 
@@ -115,7 +115,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L67) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L67){target="_blank"} |
 
 ---
 

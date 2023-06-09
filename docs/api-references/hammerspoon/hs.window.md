@@ -109,7 +109,7 @@ Notes:
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The default duration for animations, in seconds. Initial value is 0.2; set to 0 to disable animations.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L21) |
+| **Source**                                  | [extensions/window/window.lua line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L21){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ Notes:
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Using `hs.window:setFrame()` in some cases does not work as expected: namely, the bottom (or Dock) edge, and edges between screens, might                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 392](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L392) |
+| **Source**                                  | [extensions/window/window.lua line 392](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L392){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all open windows</li></ul>          |
 | **Notes**                                   | <ul><li>`visibleWindows()`, `orderedWindows()`, `get()`, `find()`, and several more functions and methods in this and other</li><li>    modules make use of this function, so it is important to understand its limitations</li><li>This function queries all applications for their windows every time it is invoked; if you need to call it a lot and</li><li>   performance is not acceptable consider using the `hs.window.filter` module</li><li>This function can only return windows in the current Mission Control Space; if you need to address windows across</li><li>   different Spaces you can use the `hs.window.filter` module</li><li>   - if `Displays have separate Spaces` is *on* (in System Preferences>Mission Control) the current Space is defined</li><li>     as the union of all currently visible Spaces</li><li>   - minimized windows and hidden windows (i.e. belonging to hidden apps, e.g. via cmd-h) are always considered</li><li>     to be in the current Space</li><li>This function filters out the desktop "window"; use `hs.window.desktop()` to address it. (Note however that</li><li>   `hs.application.get'Finder':allWindows()` *will* include the desktop in the returned list)</li><li>Beside the limitations discussed above, this function will return *all* windows as reported by OSX, including some</li><li>   "windows" that one wouldn't expect: for example, every Google Chrome (actual) window has a companion window for its</li><li>   status bar; therefore you might get unexpected results  - in the Chrome example, calling `hs.window.focusWindowSouth()`</li><li>   from a Chrome window would end up "focusing" its status bar, and therefore the proper window itself, seemingly resulting</li><li>   in a no-op. In order to avoid such surprises you can use the `hs.window.filter` module, and more specifically</li><li>   the default windowfilter (`hs.window.filter.default`) which filters out known cases of not-actual-windows</li><li>Some windows will not be reported by OSX - e.g. things that are on different Spaces, or things that are Full Screen</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 54](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L54) |
+| **Source**                                  | [extensions/window/window.lua line 54](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L54){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.window` object representing the desktop, or nil if Finder is not running</li></ul>          |
 | **Notes**                                   | <ul><li>The desktop belongs to Finder.app: when Finder is the active application, you can focus the desktop by cycling</li><li>   through windows via cmd-`</li><li>The desktop window has no id, a role of `AXScrollArea` and no subrole</li><li>The desktop is filtered out from `hs.window.allWindows()` (and downstream uses)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L33) |
+| **Source**                                  | [extensions/window/window.lua line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L33){target="_blank"} |
 
 ---
 
@@ -172,7 +172,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list containing `hs.window` objects representing all windows that are not visible as per `hs.window:isVisible()`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L139) |
+| **Source**                                  | [extensions/window/window.lua line 139](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L139){target="_blank"} |
 
 ---
 
@@ -188,7 +188,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` is succesful otherwise `false` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>This allows you to get window information without Accessibility Permissions.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L21) |
+| **Source**                                  | [extensions/window/libwindow.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L21){target="_blank"} |
 
 ---
 
@@ -204,7 +204,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list containing `hs.window` objects representing all windows that are minimized as per `hs.window:isMinimized()`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L156) |
+| **Source**                                  | [extensions/window/window.lua line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L156){target="_blank"} |
 
 ---
 
@@ -220,7 +220,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all visible windows, ordered from front to back</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L173) |
+| **Source**                                  | [extensions/window/window.lua line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L173){target="_blank"} |
 
 ---
 
@@ -236,7 +236,7 @@ Notes:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function uses a private, undocumented OS X API call, so it is not guaranteed to work in any future OS X release</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 563](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L563) |
+| **Source**                                  | [extensions/window/libwindow.m line 563](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L563){target="_blank"} |
 
 ---
 
@@ -252,7 +252,7 @@ Notes:
 | **Returns**                                 | <ul><li>`hs.image` object of the window snapshot or nil if unable to create a snapshot</li></ul>          |
 | **Notes**                                   | <ul><li>See also method `hs.window:snapshot()`</li><li>Because the window ID cannot always be dynamically determined, this function will allow you to provide the ID of a window that was cached earlier.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 589](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L589) |
+| **Source**                                  | [extensions/window/libwindow.m line 589](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L589){target="_blank"} |
 
 ---
 
@@ -268,7 +268,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` is succesful otherwise `false` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 65](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L65) |
+| **Source**                                  | [extensions/window/libwindow.m line 65](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L65){target="_blank"} |
 
 ---
 
@@ -284,7 +284,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list containing `hs.window` objects representing all windows that are visible as per `hs.window:isVisible()`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 122](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L122) |
+| **Source**                                  | [extensions/window/window.lua line 122](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L122){target="_blank"} |
 
 ---
 
@@ -302,7 +302,7 @@ Notes:
 | **Returns**                                 | <ul><li>one or more hs.window objects that match the supplied search criterion, or `nil` if none found</li></ul>          |
 | **Notes**                                   | <ul><li>for convenience you can call this as `hs.window(hint)`</li><li>see also `hs.window.get`</li><li>for more sophisticated use cases and/or for better performance if you call this a lot, consider using `hs.window.filter`</li><li></li><li>Usage:</li><li>```</li><li>-- by id</li><li>hs.window(8812):title() --> Hammerspoon Console</li><li>-- by title</li><li>hs.window'bash':application():name() --> Terminal</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L208) |
+| **Source**                                  | [extensions/window/window.lua line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L208){target="_blank"} |
 
 ---
 
@@ -318,7 +318,7 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.window` object representing the currently focused window</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L94) |
+| **Source**                                  | [extensions/window/libwindow.m line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L94){target="_blank"} |
 
 ---
 
@@ -334,7 +334,7 @@ Notes:
 | **Returns**                                 | <ul><li>* An `hs.window` object representing the frontmost window, or `nil` if there are no visible windows</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 748](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L748) |
+| **Source**                                  | [extensions/window/window.lua line 748](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L748){target="_blank"} |
 
 ---
 
@@ -350,7 +350,7 @@ Notes:
 | **Returns**                                 | <ul><li>the first hs.window object that matches the supplied search criterion, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>see also `hs.window.find` and `hs.application:getWindow()`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L189) |
+| **Source**                                  | [extensions/window/window.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L189){target="_blank"} |
 
 ---
 
@@ -368,7 +368,7 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.application` object representing the application that owns the window, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L482) |
+| **Source**                                  | [extensions/window/libwindow.m line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L482){target="_blank"} |
 
 ---
 
@@ -384,7 +384,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>Make a window become the main window does not transfer focus to the application. See `hs.window.focus()`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 500](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L500) |
+| **Source**                                  | [extensions/window/libwindow.m line 500](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L500){target="_blank"} |
 
 ---
 
@@ -400,7 +400,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 864](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L864) |
+| **Source**                                  | [extensions/window/window.lua line 864](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L864){target="_blank"} |
 
 ---
 
@@ -416,7 +416,7 @@ Notes:
 | **Returns**                                 | <ul><li>True if the operation succeeded, false if not</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 324](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L324) |
+| **Source**                                  | [extensions/window/libwindow.m line 324](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L324){target="_blank"} |
 
 ---
 
@@ -432,7 +432,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 508](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L508) |
+| **Source**                                  | [extensions/window/window.lua line 508](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L508){target="_blank"} |
 
 ---
 
@@ -448,7 +448,7 @@ Notes:
 | **Returns**                                 | <ul><li>true if the tab was successfully pressed, or false if there was a problem</li></ul>          |
 | **Notes**                                   | <ul><li>This method works with document tab groups and some app tabs, like Chrome and Safari.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L341) |
+| **Source**                                  | [extensions/window/libwindow.m line 341](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L341){target="_blank"} |
 
 ---
 
@@ -464,7 +464,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` if a window was found and focused, `false` otherwise; `nil` if the search couldn't take place</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired "windows" could be included</li><li>   (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in</li><li>   `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 783](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L783) |
+| **Source**                                  | [extensions/window/window.lua line 783](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L783){target="_blank"} |
 
 ---
 
@@ -480,7 +480,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` if a window was found and focused, `false` otherwise; `nil` if the search couldn't take place</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired "windows" could be included</li><li>   (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in</li><li>   `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 823](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L823) |
+| **Source**                                  | [extensions/window/window.lua line 823](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L823){target="_blank"} |
 
 ---
 
@@ -496,7 +496,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` if a window was found and focused, `false` otherwise; `nil` if the search couldn't take place</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired "windows" could be included</li><li>   (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in</li><li>   `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 843](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L843) |
+| **Source**                                  | [extensions/window/window.lua line 843](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L843){target="_blank"} |
 
 ---
 
@@ -512,7 +512,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` if a window was found and focused, `false` otherwise; `nil` if the search couldn't take place</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired "windows" could be included</li><li>   (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in</li><li>   `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 803](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L803) |
+| **Source**                                  | [extensions/window/window.lua line 803](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L803){target="_blank"} |
 
 ---
 
@@ -528,7 +528,7 @@ Notes:
 | **Returns**                                 | <ul><li>An hs.geometry rect containing the co-ordinates of the top left corner of the window and its width and height</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 430](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L430) |
+| **Source**                                  | [extensions/window/window.lua line 430](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L430){target="_blank"} |
 
 ---
 
@@ -544,7 +544,7 @@ Notes:
 | **Returns**                                 | <ul><li>A number containing the unique identifier of the window, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 546](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L546) |
+| **Source**                                  | [extensions/window/libwindow.m line 546](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L546){target="_blank"} |
 
 ---
 
@@ -560,7 +560,7 @@ Notes:
 | **Returns**                                 | <ul><li>True if the window is fullscreen, false if not. Nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 400](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L400) |
+| **Source**                                  | [extensions/window/libwindow.m line 400](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L400){target="_blank"} |
 
 ---
 
@@ -576,7 +576,7 @@ Notes:
 | **Returns**                                 | <ul><li>True if the window is maximizable, False if it isn't, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 296](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L296) |
+| **Source**                                  | [extensions/window/libwindow.m line 296](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L296){target="_blank"} |
 
 ---
 
@@ -592,7 +592,7 @@ Notes:
 | **Returns**                                 | <ul><li>True if the window is minimized, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 456](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L456) |
+| **Source**                                  | [extensions/window/libwindow.m line 456](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L456){target="_blank"} |
 
 ---
 
@@ -608,7 +608,7 @@ Notes:
 | **Returns**                                 | <ul><li>True if the window is standard, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>"Standard window" means that this is not an unusual popup window, a modal dialog, a floating window, etc.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L164) |
+| **Source**                                  | [extensions/window/libwindow.m line 164](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L164){target="_blank"} |
 
 ---
 
@@ -624,7 +624,7 @@ Notes:
 | **Returns**                                 | <ul><li>`true` if the window is visible, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>This does not mean the user can see the window - it may be obscured by other windows, or it may be off the edge of the screen</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L243) |
+| **Source**                                  | [extensions/window/window.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L243){target="_blank"} |
 
 ---
 
@@ -640,7 +640,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>The window will be resized as large as possible, without obscuring the dock/menu</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 581](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L581) |
+| **Source**                                  | [extensions/window/window.lua line 581](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L581){target="_blank"} |
 
 ---
 
@@ -656,7 +656,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>This method will always animate per your system settings and is not affected by `hs.window.animationDuration`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 417](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L417) |
+| **Source**                                  | [extensions/window/libwindow.m line 417](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L417){target="_blank"} |
 
 ---
 
@@ -672,7 +672,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 930](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L930) |
+| **Source**                                  | [extensions/window/window.lua line 930](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L930){target="_blank"} |
 
 ---
 
@@ -688,7 +688,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 969](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L969) |
+| **Source**                                  | [extensions/window/window.lua line 969](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L969){target="_blank"} |
 
 ---
 
@@ -704,7 +704,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 995](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L995) |
+| **Source**                                  | [extensions/window/window.lua line 995](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L995){target="_blank"} |
 
 ---
 
@@ -720,7 +720,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 1009](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L1009) |
+| **Source**                                  | [extensions/window/window.lua line 1009](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L1009){target="_blank"} |
 
 ---
 
@@ -736,7 +736,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 982](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L982) |
+| **Source**                                  | [extensions/window/window.lua line 982](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L982){target="_blank"} |
 
 ---
 
@@ -752,7 +752,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 904](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L904) |
+| **Source**                                  | [extensions/window/window.lua line 904](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L904){target="_blank"} |
 
 ---
 
@@ -768,7 +768,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>An example, which would make a window fill the top-left quarter of the screen: `win:moveToUnit'[0.0,0.0,0.5,0.5]'`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 887](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L887) |
+| **Source**                                  | [extensions/window/window.lua line 887](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L887){target="_blank"} |
 
 ---
 
@@ -784,7 +784,7 @@ Notes:
 | **Returns**                                 | <ul><li>A table containing `hs.window` objects representing all visible windows other than this one</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 493](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L493) |
+| **Source**                                  | [extensions/window/window.lua line 493](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L493){target="_blank"} |
 
 ---
 
@@ -800,7 +800,7 @@ Notes:
 | **Returns**                                 | <ul><li>A table of `hs.window` objects representing the visible windows other than this one that are on the same screen</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 479](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L479) |
+| **Source**                                  | [extensions/window/window.lua line 479](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L479){target="_blank"} |
 
 ---
 
@@ -816,7 +816,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 521](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L521) |
+| **Source**                                  | [extensions/window/libwindow.m line 521](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L521){target="_blank"} |
 
 ---
 
@@ -832,7 +832,7 @@ Notes:
 | **Returns**                                 | <ul><li>A string containing the role of the window</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L147) |
+| **Source**                                  | [extensions/window/libwindow.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L147){target="_blank"} |
 
 ---
 
@@ -848,7 +848,7 @@ Notes:
 | **Returns**                                 | <ul><li>An `hs.screen` object representing the screen which contains the window.</li></ul>          |
 | **Notes**                                   | <ul><li>While windows can be dragged to span multiple screens, part of the window will disappear when the mouse is released. The screen returned by this method will be the part of the window that remains visible.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 618](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L618) |
+| **Source**                                  | [extensions/window/window.lua line 618](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L618){target="_blank"} |
 
 ---
 
@@ -864,7 +864,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>Due to the way this method works and OSX limitations, calling this method when you have a lot of randomly overlapping (as opposed to neatly tiled) windows might be visually jarring, and take a fair amount of time to complete. So if you don't use orderly layouts, or if you have a lot of windows in general, you're probably better off using `hs.application:hide()` (or simply `cmd-h`)</li><li>This method works by focusing all overlapping windows behind this one, front to back. If called on the focused window, this method will switch focus to the topmost window under this one; otherwise, the currently focused window will regain focus after this window has been sent to the back.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 539](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L539) |
+| **Source**                                  | [extensions/window/window.lua line 539](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L539){target="_blank"} |
 
 ---
 
@@ -880,7 +880,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 368](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L368) |
+| **Source**                                  | [extensions/window/window.lua line 368](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L368){target="_blank"} |
 
 ---
 
@@ -896,7 +896,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 412](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L412) |
+| **Source**                                  | [extensions/window/window.lua line 412](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L412){target="_blank"} |
 
 ---
 
@@ -912,7 +912,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 380](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L380) |
+| **Source**                                  | [extensions/window/window.lua line 380](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L380){target="_blank"} |
 
 ---
 
@@ -928,7 +928,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 382](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L382) |
+| **Source**                                  | [extensions/window/libwindow.m line 382](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L382){target="_blank"} |
 
 ---
 
@@ -944,7 +944,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 239](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L239) |
+| **Source**                                  | [extensions/window/libwindow.m line 239](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L239){target="_blank"} |
 
 ---
 
@@ -960,7 +960,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L218) |
+| **Source**                                  | [extensions/window/libwindow.m line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L218){target="_blank"} |
 
 ---
 
@@ -976,7 +976,7 @@ Notes:
 | **Returns**                                 | <ul><li>A size-table containing the width and height of the window</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L201) |
+| **Source**                                  | [extensions/window/libwindow.m line 201](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L201){target="_blank"} |
 
 ---
 
@@ -992,7 +992,7 @@ Notes:
 | **Returns**                                 | <ul><li>`hs.image` object of the window snapshot or nil if unable to create a snapshot</li></ul>          |
 | **Notes**                                   | <ul><li>See also function `hs.window.snapshotForID()`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 611](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L611) |
+| **Source**                                  | [extensions/window/libwindow.m line 611](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L611){target="_blank"} |
 
 ---
 
@@ -1008,7 +1008,7 @@ Notes:
 | **Returns**                                 | <ul><li>A string containing the subrole of the window</li></ul>          |
 | **Notes**                                   | <ul><li>This typically helps to determine if a window is a special kind of window - such as a modal window, or a floating window</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 127](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L127) |
+| **Source**                                  | [extensions/window/libwindow.m line 127](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L127){target="_blank"} |
 
 ---
 
@@ -1024,7 +1024,7 @@ Notes:
 | **Returns**                                 | <ul><li>A number containing the number of tabs, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>Intended for use with the focusTab method, if this returns a number, then focusTab can switch between that many tabs.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 362](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L362) |
+| **Source**                                  | [extensions/window/libwindow.m line 362](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L362){target="_blank"} |
 
 ---
 
@@ -1040,7 +1040,7 @@ Notes:
 | **Returns**                                 | <ul><li>A string containing the title of the window</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 110](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L110) |
+| **Source**                                  | [extensions/window/libwindow.m line 110](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L110){target="_blank"} |
 
 ---
 
@@ -1056,7 +1056,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>Not all windows support being full-screened</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 597](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L597) |
+| **Source**                                  | [extensions/window/window.lua line 597](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L597){target="_blank"} |
 
 ---
 
@@ -1072,7 +1072,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L257) |
+| **Source**                                  | [extensions/window/libwindow.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L257){target="_blank"} |
 
 ---
 
@@ -1088,7 +1088,7 @@ Notes:
 | **Returns**                                 | <ul><li>A point-table containing the absolute co-ordinates of the top left corner of the window</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L184) |
+| **Source**                                  | [extensions/window/libwindow.m line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L184){target="_blank"} |
 
 ---
 
@@ -1104,7 +1104,7 @@ Notes:
 | **Returns**                                 | <ul><li>The `hs.window` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 438](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L438) |
+| **Source**                                  | [extensions/window/libwindow.m line 438](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L438){target="_blank"} |
 
 ---
 
@@ -1120,7 +1120,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned east (i.e. right) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired "windows" could be included (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 688](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L688) |
+| **Source**                                  | [extensions/window/window.lua line 688](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L688){target="_blank"} |
 
 ---
 
@@ -1136,7 +1136,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned north (i.e. up) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired "windows" could be included (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 718](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L718) |
+| **Source**                                  | [extensions/window/window.lua line 718](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L718){target="_blank"} |
 
 ---
 
@@ -1152,7 +1152,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned south (i.e. down) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired "windows" could be included (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 733](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L733) |
+| **Source**                                  | [extensions/window/window.lua line 733](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L733){target="_blank"} |
 
 ---
 
@@ -1168,7 +1168,7 @@ Notes:
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned west (i.e. left) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>If you don't pass `candidateWindows`, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired "windows" could be included (see the notes for `hs.window.allWindows()`); consider using the equivalent methods in `hs.window.filter` instead</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window.lua line 703](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L703) |
+| **Source**                                  | [extensions/window/window.lua line 703](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L703){target="_blank"} |
 
 ---
 
@@ -1184,7 +1184,7 @@ Notes:
 | **Returns**                                 | <ul><li>A rect-table containing the bounding frame of the zoom button, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>The co-ordinates in the rect-table (i.e. the `x` and `y` values) are in absolute co-ordinates, not relative to the window the button is part of, or the screen the window is on</li><li>Although not perfect as such, this method can provide a useful way to find a region of the titlebar suitable for simulating mouse click events on, with `hs.eventtap`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/libwindow.m line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L275) |
+| **Source**                                  | [extensions/window/libwindow.m line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L275){target="_blank"} |
 
 ---
 

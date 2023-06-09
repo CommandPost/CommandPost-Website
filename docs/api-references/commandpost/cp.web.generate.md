@@ -33,7 +33,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L141) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L141){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L59) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L59){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L183) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L183){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L115) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L115){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L98) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L98){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L46) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L46){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ Functions for Generating HTML UI Items
 | **Returns**                                 | <ul><li>String containing the HTML</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/generate.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L128) |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L128){target="_blank"} |
 
 ---
 

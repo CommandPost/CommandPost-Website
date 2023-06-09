@@ -31,7 +31,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L685) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L685){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 646](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L646) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 646](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L646){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L659) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L659){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L672) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L672){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L619) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L619){target="_blank"} |
 
 ---
 

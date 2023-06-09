@@ -40,7 +40,7 @@ UI Group.
 | **Returns**                                 | <ul><li>The `Group.Builder`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Group.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L21) |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L21){target="_blank"} |
 
 ---
 
@@ -56,7 +56,7 @@ UI Group.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Group.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L31) |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L31){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ UI Group.
 | **Returns**                                 | <ul><li>A new `Group` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Group.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L44) |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L44){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ UI Group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `Element` children of the group.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Group.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L67) |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L67){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ UI Group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the group.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Group.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L60) |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L60){target="_blank"} |
 
 ---
 

@@ -33,7 +33,7 @@ manually.
 | **Returns**                                 | <ul><li>The new `CooperativeScheduler`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L18) |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L18){target="_blank"} |
 
 ---
 
@@ -51,7 +51,7 @@ manually.
 | **Returns**                                 | <ul><li>`true` if the scheduler is empty, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L102) |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L102){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ manually.
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L36) |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L36){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ manually.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L67) |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L67){target="_blank"} |
 
 ---
 

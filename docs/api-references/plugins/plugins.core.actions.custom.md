@@ -29,7 +29,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of shortcuts.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/actions/custom.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L25) |
+| **Source**                                  | [src/plugins/core/actions/custom.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L25){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/actions/custom.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L37) |
+| **Source**                                  | [src/plugins/core/actions/custom.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L37){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/actions/custom.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L63) |
+| **Source**                                  | [src/plugins/core/actions/custom.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/actions/custom.lua#L63){target="_blank"} |
 
 ---
 

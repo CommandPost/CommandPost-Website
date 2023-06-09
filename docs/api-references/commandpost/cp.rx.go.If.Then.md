@@ -33,7 +33,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp`, which should be created via `SetProp:To(value)`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L99) |
+| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L99){target="_blank"} |
 
 ---
 
@@ -51,7 +51,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:Otherwise(false)</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L165) |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L165){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Returns**                                 | <ul><li>A new [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L150) |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L150){target="_blank"} |
 
 ---
 

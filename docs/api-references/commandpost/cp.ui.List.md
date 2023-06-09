@@ -35,7 +35,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it is an `AXList`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L14) |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L14){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L27) |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L27){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/List.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L51) |
+| **Source**                                  | [src/extensions/cp/ui/List.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/List.lua#L51){target="_blank"} |
 
 ---
 

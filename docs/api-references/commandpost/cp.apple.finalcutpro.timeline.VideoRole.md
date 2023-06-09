@@ -35,7 +35,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L21) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L21){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L36) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L36){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that toggles whether the sub-captions are visible.                                                                     |
 | **Notes**                                   | <ul><li>This [Button](cp.ui.Button.md) is only visible when the pointer is hovering over the Role.</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L50) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L50){target="_blank"} |
 
 ---
 

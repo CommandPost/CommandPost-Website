@@ -34,7 +34,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>If this function is called without a callback function, returns a table containing the IP addresses for the specified name.  If a callback function is specified, then a host object is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string "addresses", indicating that an address resolution occurred, and a table containing the IP addresses identified.</li><li>Generates an error if network access is currently disabled or the hostname is invalid.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 268](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L268) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 268](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L268){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>If this function is called without a callback function, returns a table containing the hostnames for the specified address.  If a callback function is specified, then a host object is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string "names", indicating that hostname resolution occurred, and a table containing the hostnames identified.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 287](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L287) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 287](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L287){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>If this function is called without a callback function, returns the numeric representation of the address reachability status.  If a callback function is specified, then a host object is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string "reachability", indicating that reachability was determined, and the numeric representation of the address reachability status.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li><li>The numeric representation is made up from a combination of the flags defined in `hs.network.reachability.flags`.</li><li>Performs the same reachability test as `hs.network.reachability.forAddress`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 306](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L306) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 306](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L306){target="_blank"} |
 
 ---
 
@@ -82,7 +82,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>If this function is called without a callback function, returns the numeric representation of the hostname reachability status.  If a callback function is specified, then a host object is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string "reachability", indicating that reachability was determined, and the numeric representation of the hostname reachability status.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li><li>The numeric representation is made up from a combination of the flags defined in `hs.network.reachability.flags`.</li><li>Performs the same reachability test as `hs.network.reachability.forHostName`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L327) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 327](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L327){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>the hostObject</li></ul>          |
 | **Notes**                                   | <ul><li>This method has no effect if the resolution has already completed.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 367](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L367) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 367](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L367){target="_blank"} |
 
 ---
 
@@ -116,7 +116,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 | **Returns**                                 | <ul><li>true, if resolution is still in progress, or false if resolution has already completed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_host.m line 350](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L350) |
+| **Source**                                  | [extensions/network/libnetwork_host.m line 350](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L350){target="_blank"} |
 
 ---
 

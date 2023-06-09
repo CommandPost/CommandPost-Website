@@ -32,7 +32,7 @@ A `Statement.Modifier` that defines what value to set a `cp.prop` to.
 | **Returns**                                 | <ul><li>A new [SetProp.To.Then](cp.rx.go.SetProp.To.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L160) |
+| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L160){target="_blank"} |
 
 ---
 

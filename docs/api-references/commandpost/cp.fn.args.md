@@ -32,7 +32,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A function that selects the argument at the specified index.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L32) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L32){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>`true` if any of the arguments are not `nil`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L112) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L112){target="_blank"} |
 
 ---
 
@@ -64,7 +64,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>`true` if all the arguments are `nil`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L93) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L93){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A function that returns the arguments at the specified indecies.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L9) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L9){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>A table containing the arguments.</li><li>A boolean indicating whether the arguments were packed into a table.</li></ul>          |
 | **Notes**                                   | <ul><li>If the number of arguments is 1 and the first argument is a table, and the table has a size of 1 or more, it will be returned.</li><li>Otherwise, the arguments are packed into a table.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L47) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L47){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Functions for working with function arguments.
 | **Returns**                                 | <ul><li>The arguments, unpacked if necessary.</li></ul>          |
 | **Notes**                                   | <ul><li>If the arguments were packed, the table is unpacked first.</li><li>* Otherwise, the arguments are returned unchanged.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/fn/args.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L72) |
+| **Source**                                  | [src/extensions/cp/fn/args.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/args.lua#L72){target="_blank"} |
 
 ---
 

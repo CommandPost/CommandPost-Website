@@ -67,7 +67,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L181) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L181){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L244) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L244){target="_blank"} |
 
 ---
 
@@ -99,7 +99,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L147) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L147){target="_blank"} |
 
 ---
 
@@ -115,7 +115,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L164) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L164){target="_blank"} |
 
 ---
 
@@ -131,7 +131,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L105) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L105){target="_blank"} |
 
 ---
 
@@ -147,7 +147,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L126) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L126){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L54) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L54){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L80) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L80){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L201) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L201){target="_blank"} |
 
 ---
 
@@ -211,7 +211,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L347) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 347](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L347){target="_blank"} |
 
 ---
 
@@ -229,7 +229,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>the new `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also create a new queue by calling `Queue(..)` directly.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L38) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L38){target="_blank"} |
 
 ---
 
@@ -247,7 +247,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L336) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L336){target="_blank"} |
 
 ---
 
@@ -263,7 +263,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L364) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L364){target="_blank"} |
 
 ---
 
@@ -279,7 +279,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L314) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L314){target="_blank"} |
 
 ---
 
@@ -295,7 +295,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L325) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L325){target="_blank"} |
 
 ---
 
@@ -311,7 +311,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L292) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L292){target="_blank"} |
 
 ---
 
@@ -327,7 +327,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L303) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L303){target="_blank"} |
 
 ---
 
@@ -343,7 +343,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L260) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L260){target="_blank"} |
 
 ---
 
@@ -359,7 +359,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L276) |
+| **Source**                                  | [src/extensions/cp/collect/Queue.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Queue.lua#L276){target="_blank"} |
 
 ---
 

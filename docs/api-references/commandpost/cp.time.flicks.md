@@ -119,7 +119,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 100 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L130) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L130){target="_blank"} |
 
 ---
 
@@ -132,7 +132,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 120 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L135) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L135){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 120 fps in NTSC, a.k.a. ~119.88 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L165) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L165){target="_blank"} |
 
 ---
 
@@ -158,7 +158,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 24 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L95) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L95){target="_blank"} |
 
 ---
 
@@ -171,7 +171,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 24 fps in NTSC, a.k.a. 23.976 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L150) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L150){target="_blank"} |
 
 ---
 
@@ -184,7 +184,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 25 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L100) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L100){target="_blank"} |
 
 ---
 
@@ -197,7 +197,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 30 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L105) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L105){target="_blank"} |
 
 ---
 
@@ -210,7 +210,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 30 fps in NTSC, a.k.a. 29.97 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L155) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L155){target="_blank"} |
 
 ---
 
@@ -223,7 +223,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 44100 fps, a.k.a. 44.1 Hz.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L140) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L140){target="_blank"} |
 
 ---
 
@@ -236,7 +236,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 48 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L110) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L110){target="_blank"} |
 
 ---
 
@@ -249,7 +249,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 44100 fps, a.k.a. 48 Hz.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L145) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L145){target="_blank"} |
 
 ---
 
@@ -262,7 +262,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 50 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L115) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L115){target="_blank"} |
 
 ---
 
@@ -275,7 +275,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 60 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L120) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L120){target="_blank"} |
 
 ---
 
@@ -288,7 +288,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 60 fps in NTSC, a.k.a. 59.94 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L160) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L160){target="_blank"} |
 
 ---
 
@@ -301,7 +301,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 90 fps.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L125) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L125){target="_blank"} |
 
 ---
 
@@ -314,7 +314,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 hour.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L90) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L90){target="_blank"} |
 
 ---
 
@@ -327,7 +327,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 minute.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L85) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L85){target="_blank"} |
 
 ---
 
@@ -340,7 +340,7 @@ approximations, and leave it at that!
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 second.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L80) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L80){target="_blank"} |
 
 ---
 
@@ -358,7 +358,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>`true` if the thingis a flicks instance, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L275) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L275){target="_blank"} |
 
 ---
 
@@ -376,7 +376,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>the new `flicks` instance</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local oneFlick = flicks.new(1)</li><li>local oneSecond = flicks.new(1flicks.perSecond)</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L251) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L251){target="_blank"} |
 
 ---
 
@@ -392,7 +392,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>a new `flicks` instance for the timecode.</li></ul>          |
 | **Notes**                                   | <ul><li>The timecode can match the folowing patterns:</li><li></li><li>`"HH:MM:SS:FF"`</li><li>`"HH:MM:SS;FF"`</li><li>`"HHMMSSFF"`</li><li></li><li>The characters above match to `H`ours, `M`inutes `S`econds and `F`rames, respectively. For example,</li><li>a timecode of 1 hour, 23 minutes, 45 seconds and 12 frames could be expressed as:</li><li></li><li>`"01:23:45:12"`</li><li>`"01:23:45;12"`</li><li>`"01234512"`</li><li></li><li>Times with a value of zero from left to right may be omitted. After the first non-zero value, all</li><li>other numbers including framesmust always be expressed, even if they are zero.</li><li>So, if your timecode is 1 minute 30 seconds, you could use:</li><li></li><li>`"1:30:00"`</li><li>`"1:30;00"`</li><li>`"13000"`</li><li></li><li>You can also put numbers up to `99` in each block. So, another way of expressing 1 minute 30 seconds is:</li><li></li><li>`"90:00"`</li><li>`"90;00"`</li><li>`"9000"`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L186) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L186){target="_blank"} |
 
 ---
 
@@ -410,7 +410,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>the number of frames</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L294) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L294){target="_blank"} |
 
 ---
 
@@ -426,7 +426,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>the number of seconds</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L304) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L304){target="_blank"} |
 
 ---
 
@@ -442,7 +442,7 @@ approximations, and leave it at that!
 | **Returns**                                 | <ul><li>String of the timecode.</li></ul>          |
 | **Notes**                                   | <ul><li> By default, there will be no delimiter. If you provide ":" then all delimiters will be colons. If you provide ";" then the final delimiter will be a semic-colon, all others will be colons.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/time/flicks.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L317) |
+| **Source**                                  | [src/extensions/cp/time/flicks.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/time/flicks.lua#L317){target="_blank"} |
 
 ---
 

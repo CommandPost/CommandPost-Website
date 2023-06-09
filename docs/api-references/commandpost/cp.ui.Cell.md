@@ -55,7 +55,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L30) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L30){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A [Cell.Builder](cp.ui.Cell.Builder.md)</li></ul>          |
 | **Notes**                                   | <ul><li>For example, if a cell contains a [Button](cp.ui.Button.md), you can use `cp.ui.Cell:with(Button)`, and it will return a `Cell`</li><li>   `Builder` that accepts the `parent` and `uiFinder` parameters, and whose contents is expected to be a `Button`.</li><li>   That `Button` instance can be accessed via the `children[1]` value.</li><li>   ```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L41) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L41){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A new `Cell` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L57) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L57){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `Element`s which are children of this `Cell`, if the `childInits` were provided to the constructor.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L101) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L101){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of `axuielement`s which are children of this `Cell`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L94) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L94){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple columns.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L73) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L73){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a table of `{len,loc}`, which indicates if the cell covers multiple rows.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L80) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L80){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the cell is currently selected.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L87) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L87){target="_blank"} |
 
 ---
 
@@ -169,7 +169,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The cell value, if it is a string.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L115) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L115){target="_blank"} |
 
 ---
 
@@ -187,7 +187,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if the cell text value equals the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L122) |
+| **Source**                                  | [src/extensions/cp/ui/Cell.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Cell.lua#L122){target="_blank"} |
 
 ---
 

@@ -55,7 +55,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L381) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L381){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L24) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L24){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>A new `Window` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L48) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L48){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides access to any 'Alert' windows on the Window.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L374) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L374){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists. It may not be visible.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L174) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L174){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window has mouse/keyboard focused.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L132) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L132){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.geometry` rect value describing the window's position.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L206) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L206){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L78) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L78){target="_blank"} |
 
 ---
 
@@ -169,7 +169,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The window title, or `nil` if the window is not currently visible.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L105) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L105){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is full-screen.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L273) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L273){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Window` is currently showing on screen.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L71) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L71){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists and is minimised.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L181) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L181){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window position                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L251) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L251){target="_blank"} |
 
 ---
 
@@ -234,7 +234,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window size                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L229) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L229){target="_blank"} |
 
 ---
 
@@ -247,7 +247,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI `axuielement` for the Window.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L63) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L63){target="_blank"} |
 
 ---
 
@@ -260,7 +260,7 @@ A Window UI element.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is visible on a screen.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L117) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L117){target="_blank"} |
 
 ---
 
@@ -278,7 +278,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>`true` if the window was successfully closed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L299) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L299){target="_blank"} |
 
 ---
 
@@ -294,7 +294,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `Statement` to execute, resolving to `true` if the window is closed successfully, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L313) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L313){target="_blank"} |
 
 ---
 
@@ -310,7 +310,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `Statement` to execute, which resolves to `true` if the window was successfully focused, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L345) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L345){target="_blank"} |
 
 ---
 
@@ -326,7 +326,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 404](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L404) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 404](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L404){target="_blank"} |
 
 ---
 
@@ -342,7 +342,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>`true` if the window was successfully focused.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L331) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L331){target="_blank"} |
 
 ---
 
@@ -358,7 +358,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 417](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L417) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 417](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L417){target="_blank"} |
 
 ---
 
@@ -374,7 +374,7 @@ A Window UI element.
 | **Returns**                                 | <ul><li>The `hs.image` that was created, or `nil` if the UI is not available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Window.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L430) |
+| **Source**                                  | [src/extensions/cp/ui/Window.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Window.lua#L430){target="_blank"} |
 
 ---
 

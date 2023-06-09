@@ -27,7 +27,7 @@ Helps look up localized names for folders.
 | **Returns**                                 | <ul><li>The localized name, or `name` if not available.</li><li>The original name, minus `.localized`</li></ul>          |
 | **Notes**                                   | <ul><li>This function will automatically convert a colon to a dash when localising.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/localized/init.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/localized/init.lua#L147) |
+| **Source**                                  | [src/extensions/cp/localized/init.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/localized/init.lua#L147){target="_blank"} |
 
 ---
 

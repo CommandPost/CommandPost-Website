@@ -41,7 +41,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L27) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L27){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>A new `CommandPostWindow` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L41) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L41){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ The CommandPost Workflow Extension Window.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Reload Button within a stalled Workflow Extension.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L60) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L60){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L162) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L162){target="_blank"} |
 
 ---
 
@@ -108,7 +108,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L126) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L126){target="_blank"} |
 
 ---
 
@@ -124,7 +124,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>`true` if stalled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L86) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L86){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L143) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L143){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L71) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L71){target="_blank"} |
 
 ---
 
@@ -172,7 +172,7 @@ The CommandPost Workflow Extension Window.
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>If the Workflow Extension has stalled, this method will restart it.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L99) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/workflowextensions/CommandPostWindow.lua#L99){target="_blank"} |
 
 ---
 

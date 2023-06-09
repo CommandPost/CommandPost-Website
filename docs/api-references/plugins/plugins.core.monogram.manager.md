@@ -42,7 +42,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of favourites                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L47) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L47){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A `cp.prop` that that contains all the Monogram Favourites.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L52) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L52){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The port that Monogram Creator used to connect to CommandPost.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L57) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L57){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of actions that are triggered by the callback function.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L93) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L93){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of Monogram plugins to install.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L98) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L98){target="_blank"} |
 
 ---
 
@@ -114,7 +114,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L282) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L282){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L174) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L174){target="_blank"} |
 
 ---
 
@@ -146,7 +146,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L117) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L117){target="_blank"} |
 
 ---
 
@@ -162,7 +162,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L103) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L103){target="_blank"} |
 
 ---
 
@@ -178,7 +178,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>`true` if Monogram support is enabled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L262) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L262){target="_blank"} |
 
 ---
 
@@ -194,7 +194,7 @@ Monogram Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L304) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L304){target="_blank"} |
 
 ---
 
@@ -209,7 +209,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Automatic Profile Switching                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L257) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L257){target="_blank"} |
 
 ---
 
@@ -222,7 +222,7 @@ Monogram Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Monogram Support.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L243) |
+| **Source**                                  | [src/plugins/core/monogram/manager/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/monogram/manager/init.lua#L243){target="_blank"} |
 
 ---
 

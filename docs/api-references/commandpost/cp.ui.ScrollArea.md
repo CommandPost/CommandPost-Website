@@ -95,7 +95,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A new `ScrollArea.Builder` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L71) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L71){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L85) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L85){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `ScrollArea`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L96) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L96){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `Element` representing the `ScrollArea` Contents.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L119) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L119){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Contents, or `nil` if not available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L112) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L112){target="_blank"} |
 
 ---
 
@@ -170,7 +170,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The horizontal [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L133) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L133){target="_blank"} |
 
 ---
 
@@ -183,7 +183,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Selected Children, or `nil` if not available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L140) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L140){target="_blank"} |
 
 ---
 
@@ -196,7 +196,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The vertical [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L126) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L126){target="_blank"} |
 
 ---
 
@@ -209,7 +209,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` reporting the Scroll Area frame as a table containing `{x, y, w, h}`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L171) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L171){target="_blank"} |
 
 ---
 
@@ -227,7 +227,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The `axuielement` or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L153) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L153){target="_blank"} |
 
 ---
 
@@ -243,7 +243,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 305](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L305) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 305](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L305){target="_blank"} |
 
 ---
 
@@ -259,7 +259,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L393) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L393){target="_blank"} |
 
 ---
 
@@ -275,7 +275,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>A table containing the current Scroll Area Layout.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L374) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 374](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L374){target="_blank"} |
 
 ---
 
@@ -291,7 +291,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L286) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 286](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L286){target="_blank"} |
 
 ---
 
@@ -307,7 +307,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L250) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L250){target="_blank"} |
 
 ---
 
@@ -323,7 +323,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L269) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L269){target="_blank"} |
 
 ---
 
@@ -339,7 +339,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 322](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L322) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 322](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L322){target="_blank"} |
 
 ---
 
@@ -355,7 +355,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 335](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L335) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 335](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L335){target="_blank"} |
 
 ---
 
@@ -371,7 +371,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 348](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L348) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 348](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L348){target="_blank"} |
 
 ---
 
@@ -387,7 +387,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 361](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L361) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 361](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L361){target="_blank"} |
 
 ---
 
@@ -403,7 +403,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L195) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L195){target="_blank"} |
 
 ---
 
@@ -419,7 +419,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 233](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L233) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollArea.lua line 233](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollArea.lua#L233){target="_blank"} |
 
 ---
 

@@ -29,7 +29,7 @@ Automatic Disk Mounting & Unmounting.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically mount on connection to mains power.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/disk/automount.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L66) |
+| **Source**                                  | [src/plugins/core/disk/automount.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L66){target="_blank"} |
 
 ---
 
@@ -42,7 +42,7 @@ Automatic Disk Mounting & Unmounting.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically Unmount on disconnection from battery.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/disk/automount.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L61) |
+| **Source**                                  | [src/plugins/core/disk/automount.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L61){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Automatic Disk Mounting & Unmounting.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/disk/automount.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L31) |
+| **Source**                                  | [src/plugins/core/disk/automount.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L31){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Automatic Disk Mounting & Unmounting.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/disk/automount.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L18) |
+| **Source**                                  | [src/plugins/core/disk/automount.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/disk/automount.lua#L18){target="_blank"} |
 
 ---
 

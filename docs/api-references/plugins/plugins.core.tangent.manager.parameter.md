@@ -45,7 +45,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`true` if it is a `parameter`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L33) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L33){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L221) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L221){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>the new `parameter`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L18) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L18){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L162) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L162){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L122) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L122){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L64) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L64){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L46) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L46){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function(amount) -> number`</li><li></li><li>The return value should be the new value of the parameter.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L138) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L138){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> number`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L100) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L100){target="_blank"} |
 
 ---
 
@@ -193,7 +193,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L183) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L183){target="_blank"} |
 
 ---
 
@@ -209,7 +209,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L85) |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L85){target="_blank"} |
 
 ---
 
@@ -225,7 +225,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L122) |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L122){target="_blank"} |
 
 ---
 
@@ -241,7 +241,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L205) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L205){target="_blank"} |
 
 ---
 
@@ -257,7 +257,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L82) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L82){target="_blank"} |
 
 ---
 
@@ -273,7 +273,7 @@ Represents a Tangent Parameter control.
 | **Returns**                                 | <ul><li>The `xml` for the Parameter.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L239) |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L239){target="_blank"} |
 
 ---
 

@@ -33,7 +33,7 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/List.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L35) |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L35){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/List.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L9) |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L9){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The size of the list.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/List.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L88) |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L88){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ They also have a few additional methods to assist with managing the size.
 | **Returns**                                 | <ul><li>The same `List` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/collect/List.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L66) |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L66){target="_blank"} |
 
 ---
 

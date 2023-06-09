@@ -45,7 +45,7 @@ Keyword Editor Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L26){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>`true` if a match otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L31) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L31){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>A KeywordEditor object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L64) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L64){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates whether or not the Keyword Editor is currently showing.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L112) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L112){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `DisclosureTriangle` that shows/hides the keyboard shortcuts configuration.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L183) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L183){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that contains the current keywords. The value is a `table` of `string` values for each individual keyword.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L173) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L173){target="_blank"} |
 
 ---
 
@@ -135,7 +135,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that resets the current keywords to blank.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L238) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L238){target="_blank"} |
 
 ---
 
@@ -148,7 +148,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of keyboard shortcut `Button`s. The button for `Cmd+1` is accessed via `shortcutButtons[1]`, and so on.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L218) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L218){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ Keyword Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of keyboard shortcut `KeywordField`s. The field for `Cmd+1` is accessed via `shortcutFields[1]`, and so on.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L198) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L198){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L160) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L160){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L133) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L133){target="_blank"} |
 
 ---
 
@@ -211,7 +211,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>KeywordEditor object</li><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L146) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L146){target="_blank"} |
 
 ---
 
@@ -227,7 +227,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>The parent object as a table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L89) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L89){target="_blank"} |
 
 ---
 
@@ -243,7 +243,7 @@ Keyword Editor Module.
 | **Returns**                                 | <ul><li>KeywordEditor object</li><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L119) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/KeywordEditor.lua#L119){target="_blank"} |
 
 ---
 

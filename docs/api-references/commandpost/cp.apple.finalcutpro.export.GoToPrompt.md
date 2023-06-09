@@ -41,7 +41,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L26){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>A new GoToPrompt object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L43) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L43){target="_blank"} |
 
 ---
 
@@ -72,7 +72,7 @@ Go To Prompt.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" `Button`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L96) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L96){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Go To Prompt.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Go" `Button`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L105) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L105){target="_blank"} |
 
 ---
 
@@ -98,7 +98,7 @@ Go To Prompt.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ComboBox` containing the folder value, if available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L128) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L128){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ Go To Prompt.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `TextField` containing the folder value, if available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L119) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L119){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L83) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L83){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L172) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L172){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.GoToPrompt` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L63) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L63){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The current value of the path.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L159) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L159){target="_blank"} |
 
 ---
 
@@ -193,7 +193,7 @@ Go To Prompt.
 | **Returns**                                 | <ul><li>The `TextField` or `ComboField` containing the value.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L142) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/export/GoToPrompt.lua#L142){target="_blank"} |
 
 ---
 

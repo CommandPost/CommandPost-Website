@@ -28,7 +28,7 @@ Final Cut Pro Font Console
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of font paths which have already been loaded or skipped.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L37) |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L37){target="_blank"} |
 
 ---
 
@@ -46,7 +46,7 @@ Final Cut Pro Font Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L106) |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L106){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Final Cut Pro Font Console
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L196) |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L196){target="_blank"} |
 
 ---
 

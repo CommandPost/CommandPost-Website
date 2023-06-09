@@ -29,7 +29,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoSubrole.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoSubrole.lua#L17) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoSubrole.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoSubrole.lua#L17){target="_blank"} |
 
 ---
 

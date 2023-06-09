@@ -114,7 +114,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L203) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L203){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L188) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L188){target="_blank"} |
 
 ---
 
@@ -146,7 +146,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2162) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2162){target="_blank"} |
 
 ---
 
@@ -162,7 +162,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A hs.geometry point</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1655](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1655) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1655](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1655){target="_blank"} |
 
 ---
 
@@ -178,7 +178,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2505) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2505){target="_blank"} |
 
 ---
 
@@ -194,7 +194,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A cleaned string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1966](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1966) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1966](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1966){target="_blank"} |
 
 ---
 
@@ -210,7 +210,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The contents as a string or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2425](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2425) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2425](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2425){target="_blank"} |
 
 ---
 
@@ -226,7 +226,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A four character string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2314) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2314){target="_blank"} |
 
 ---
 
@@ -242,7 +242,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The path as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L112) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L112){target="_blank"} |
 
 ---
 
@@ -258,7 +258,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table containing filenames as strings, or `nil` followed by the error message if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2041](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2041) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2041](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2041){target="_blank"} |
 
 ---
 
@@ -274,7 +274,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the directory exists otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1494](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1494) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1494](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1494){target="_blank"} |
 
 ---
 
@@ -290,7 +290,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the file exists otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1512](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1512) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1512](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1512){target="_blank"} |
 
 ---
 
@@ -306,7 +306,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1706](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1706) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1706](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1706){target="_blank"} |
 
 ---
 
@@ -322,7 +322,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>Except these characters: ; , / ? : @ & = + $ # alphabetic, decimal digits, - _ . ! ~' ( )</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2518) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2518){target="_blank"} |
 
 ---
 
@@ -338,7 +338,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>Except these characters: alphabetic, decimal digits, - _ . ! ~' ( )</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2534) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2534){target="_blank"} |
 
 ---
 
@@ -354,7 +354,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2214) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2214){target="_blank"} |
 
 ---
 
@@ -370,7 +370,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The full path, if it exists, or `nil` if unable to create the directory for some reason.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2229) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2229){target="_blank"} |
 
 ---
 
@@ -386,7 +386,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A new string or "" if no input is supplied.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L255) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L255){target="_blank"} |
 
 ---
 
@@ -402,7 +402,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if there's an exact match, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2366](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2366) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2366](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2366){target="_blank"} |
 
 ---
 
@@ -418,7 +418,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if successful, `false` if cancelled and a string if there's an error.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1564](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1564) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1564](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1564){target="_blank"} |
 
 ---
 
@@ -434,7 +434,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>An iterator function</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to `io.lines`, but works in reverse.</li><li>Example Usage: `for line in cp.tools.fileLinesBackward("file") do print(line) end`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L142) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L142){target="_blank"} |
 
 ---
 
@@ -450,7 +450,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The first common word that's found or `nil` if something goes wrong.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 661](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L661) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 661](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L661){target="_blank"} |
 
 ---
 
@@ -466,7 +466,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2182) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2182){target="_blank"} |
 
 ---
 
@@ -482,7 +482,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1313) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1313){target="_blank"} |
 
 ---
 
@@ -498,7 +498,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1282](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1282) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1282](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1282){target="_blank"} |
 
 ---
 
@@ -514,7 +514,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the file extension.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1913](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1913) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1913](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1913){target="_blank"} |
 
 ---
 
@@ -530,7 +530,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the filename.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1890](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1890) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1890](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1890){target="_blank"} |
 
 ---
 
@@ -546,7 +546,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1295) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1295){target="_blank"} |
 
 ---
 
@@ -562,7 +562,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A sorted table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L501) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L501){target="_blank"} |
 
 ---
 
@@ -578,7 +578,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The macOS version as a string or "" if unknown.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 950](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L950) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 950](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L950){target="_blank"} |
 
 ---
 
@@ -594,7 +594,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 743](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L743) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 743](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L743){target="_blank"} |
 
 ---
 
@@ -610,7 +610,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The RAM size as a string, or "" if unknown.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 710](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L710) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 710](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L710){target="_blank"} |
 
 ---
 
@@ -626,7 +626,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table containing base64 images of all available screens.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1361](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1361) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1361](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1361){target="_blank"} |
 
 ---
 
@@ -642,7 +642,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1235) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1235){target="_blank"} |
 
 ---
 
@@ -658,7 +658,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1206) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1206){target="_blank"} |
 
 ---
 
@@ -674,7 +674,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 881](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L881) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 881](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L881){target="_blank"} |
 
 ---
 
@@ -690,7 +690,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2407) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2407){target="_blank"} |
 
 ---
 
@@ -706,7 +706,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2195) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2195){target="_blank"} |
 
 ---
 
@@ -722,7 +722,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1996](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1996) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1996](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1996){target="_blank"} |
 
 ---
 
@@ -738,7 +738,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2015](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2015) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2015](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2015){target="_blank"} |
 
 ---
 
@@ -754,7 +754,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2492](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2492) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2492](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2492){target="_blank"} |
 
 ---
 
@@ -770,7 +770,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2479) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2479){target="_blank"} |
 
 ---
 
@@ -786,7 +786,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if value is a number string, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 683](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L683) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 683](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L683){target="_blank"} |
 
 ---
 
@@ -802,7 +802,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if offscreen otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1401) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1401](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1401){target="_blank"} |
 
 ---
 
@@ -818,7 +818,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L268) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L268){target="_blank"} |
 
 ---
 
@@ -834,7 +834,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1668](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1668) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1668](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1668){target="_blank"} |
 
 ---
 
@@ -850,7 +850,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table or `nil` if the parameter is not a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1538](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1538) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1538](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1538){target="_blank"} |
 
 ---
 
@@ -866,7 +866,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2147) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2147){target="_blank"} |
 
 ---
 
@@ -882,7 +882,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string containing the macOS version</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1479) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1479){target="_blank"} |
 
 ---
 
@@ -898,7 +898,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 570](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L570) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 570](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L570){target="_blank"} |
 
 ---
 
@@ -914,7 +914,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1758) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1758){target="_blank"} |
 
 ---
 
@@ -930,7 +930,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1776](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1776) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1776](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1776){target="_blank"} |
 
 ---
 
@@ -946,7 +946,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1722](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1722) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1722](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1722){target="_blank"} |
 
 ---
 
@@ -962,7 +962,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1740](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1740) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1740](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1740){target="_blank"} |
 
 ---
 
@@ -978,7 +978,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2108) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2108](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2108){target="_blank"} |
 
 ---
 
@@ -994,7 +994,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the option key is being pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 389](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L389) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 389](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L389){target="_blank"} |
 
 ---
 
@@ -1010,7 +1010,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2261) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2261){target="_blank"} |
 
 ---
 
@@ -1026,7 +1026,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Supported key values are:</li><li> SOUND_UP</li><li> SOUND_DOWN</li><li> MUTE</li><li> BRIGHTNESS_UP</li><li> BRIGHTNESS_DOWN</li><li> CONTRAST_UP</li><li> CONTRAST_DOWN</li><li> POWER</li><li> LAUNCH_PANEL</li><li> VIDMIRROR</li><li> PLAY</li><li> EJECT</li><li> NEXT</li><li> PREVIOUS</li><li> FAST</li><li> REWIND</li><li> ILLUMINATION_UP</li><li> ILLUMINATION_DOWN</li><li> ILLUMINATION_TOGGLE</li><li> CAPS_LOCK</li><li> HELP</li><li> NUM_LOCK</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 335](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L335) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 335](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L335){target="_blank"} |
 
 ---
 
@@ -1042,7 +1042,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 423](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L423) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 423](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L423){target="_blank"} |
 
 ---
 
@@ -1058,7 +1058,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the path without the filename.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1929](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1929) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1929](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1929){target="_blank"} |
 
 ---
 
@@ -1074,7 +1074,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1870](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1870) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1870](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1870){target="_blank"} |
 
 ---
 
@@ -1090,7 +1090,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A new string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2445](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2445) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2445](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2445){target="_blank"} |
 
 ---
 
@@ -1106,7 +1106,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The rescaled value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L479) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 479](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L479){target="_blank"} |
 
 ---
 
@@ -1122,7 +1122,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1687](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1687) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1687](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1687){target="_blank"} |
 
 ---
 
@@ -1138,7 +1138,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if successful, or `nil, err` if there was a problem.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2069](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2069) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2069](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2069){target="_blank"} |
 
 ---
 
@@ -1154,7 +1154,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A rounded number</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1386) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1386](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1386){target="_blank"} |
 
 ---
 
@@ -1170,7 +1170,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string of the safe filename</li></ul>          |
 | **Notes**                                   | <ul><li>Returns "filename" is both `value` and `defaultValue` are `nil`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1425](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1425) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1425](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1425){target="_blank"} |
 
 ---
 
@@ -1186,7 +1186,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The application title or `nil` if secure input is not enabled or failed to get a title.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L221) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L221){target="_blank"} |
 
 ---
 
@@ -1202,7 +1202,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if the shift key is being pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L371) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L371){target="_blank"} |
 
 ---
 
@@ -1218,7 +1218,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A iterator function.</li></ul>          |
 | **Notes**                                   | <ul><li>Author: [Michal Kottman](https://stackoverflow.com/a/15706820)</li><li>Example Usage:</li><li>   ```lua</li><li>   for k,v in cp.tools.spairs(theTableToSort, function(t,a,b) return t[b] < t[a] end) do</li><li>      print(k,v)</li><li>   end</li><li>   ```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 522](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L522) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 522](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L522){target="_blank"} |
 
 ---
 
@@ -1234,7 +1234,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 632](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L632) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 632](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L632){target="_blank"} |
 
 ---
 
@@ -1250,7 +1250,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>String</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 696](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L696) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 696](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L696){target="_blank"} |
 
 ---
 
@@ -1266,7 +1266,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if value starts with the startValue, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2345) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2345){target="_blank"} |
 
 ---
 
@@ -1282,7 +1282,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1942](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1942) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1942](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1942){target="_blank"} |
 
 ---
 
@@ -1298,7 +1298,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A hex string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2390) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2390){target="_blank"} |
 
 ---
 
@@ -1314,7 +1314,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1815](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1815) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1815](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1815){target="_blank"} |
 
 ---
 
@@ -1330,7 +1330,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The number of items in the table.</li></ul>          |
 | **Notes**                                   | <ul><li>If something other than a table is supplied, this function will return 0.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1793](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1793) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1793](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1793){target="_blank"} |
 
 ---
 
@@ -1346,7 +1346,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The same table, updated.</li></ul>          |
 | **Notes**                                   | <ul><li>This will modify the original table.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1838](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1838) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1838](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1838){target="_blank"} |
 
 ---
 
@@ -1362,7 +1362,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>`true` if `t1` and `t2` are identical, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2274) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2274){target="_blank"} |
 
 ---
 
@@ -1378,7 +1378,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L441) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 441](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L441){target="_blank"} |
 
 ---
 
@@ -1394,7 +1394,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The value as a number or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 460](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L460) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 460](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L460){target="_blank"} |
 
 ---
 
@@ -1410,7 +1410,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A trimmed string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1525](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1525) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1525](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1525){target="_blank"} |
 
 ---
 
@@ -1426,7 +1426,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string with all "+" characters converted to spaces and all percent encoded sequences converted to their ASCII equivalents.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L619) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 619](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L619){target="_blank"} |
 
 ---
 
@@ -1442,7 +1442,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 2132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2132) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 2132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L2132){target="_blank"} |
 
 ---
 
@@ -1458,7 +1458,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>Decoded URL Query String as string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 1346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1346) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 1346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L1346){target="_blank"} |
 
 ---
 
@@ -1474,7 +1474,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The filename.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L125) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L125){target="_blank"} |
 
 ---
 
@@ -1490,7 +1490,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>The `NSURLVolumeLocalizedFormatDescriptionKey` as a string, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 600](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L600) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 600](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L600){target="_blank"} |
 
 ---
 
@@ -1506,7 +1506,7 @@ A collection of handy miscellaneous tools for Lua development.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/tools/init.lua line 407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L407) |
+| **Source**                                  | [src/extensions/cp/tools/init.lua line 407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/tools/init.lua#L407){target="_blank"} |
 
 ---
 

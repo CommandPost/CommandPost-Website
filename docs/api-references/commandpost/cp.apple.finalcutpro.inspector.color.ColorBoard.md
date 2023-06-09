@@ -55,7 +55,7 @@ Color Board Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing tables of all the aspect panel settings                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L26){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Color Board Module.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The current aspect as a string.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L31) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L31){target="_blank"} |
 
 ---
 
@@ -88,7 +88,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is a Color Board otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L36) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L36){target="_blank"} |
 
 ---
 
@@ -106,7 +106,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>A ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L56) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L56){target="_blank"} |
 
 ---
 
@@ -121,7 +121,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` for the 'aspect' currently being controlled                                                                      |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L281) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L281){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `color` aspect of the color board.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L204) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 204](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L204){target="_blank"} |
 
 ---
 
@@ -147,7 +147,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object for the Color Board's content.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L82) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L82){target="_blank"} |
 
 ---
 
@@ -160,7 +160,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `exposure` aspect of the color board.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L218) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L218){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is active                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L107) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L107){target="_blank"} |
 
 ---
 
@@ -186,7 +186,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is visible.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L97) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L97){target="_blank"} |
 
 ---
 
@@ -199,7 +199,7 @@ Color Board Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `saturation` aspect of the color board.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L211) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L211){target="_blank"} |
 
 ---
 
@@ -217,7 +217,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>An `hs.axuielement` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L182) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L182){target="_blank"} |
 
 ---
 
@@ -233,7 +233,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The currently active `ColorBoardAspect`, or the `color` aspect if none is showing.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L225) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L225){target="_blank"} |
 
 ---
 
@@ -249,7 +249,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L169) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L169){target="_blank"} |
 
 ---
 
@@ -265,7 +265,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L324) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L324){target="_blank"} |
 
 ---
 
@@ -281,7 +281,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving with `true` if completed or an error if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L243) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L243){target="_blank"} |
 
 ---
 
@@ -297,7 +297,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or throw an error if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L291) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L291){target="_blank"} |
 
 ---
 
@@ -313,7 +313,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L136) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L136){target="_blank"} |
 
 ---
 
@@ -329,7 +329,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L153) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L153){target="_blank"} |
 
 ---
 
@@ -345,7 +345,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L306) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L306){target="_blank"} |
 
 ---
 
@@ -361,7 +361,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L341) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L341){target="_blank"} |
 
 ---
 
@@ -377,7 +377,7 @@ Color Board Module.
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L120) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorBoard.lua#L120){target="_blank"} |
 
 ---
 

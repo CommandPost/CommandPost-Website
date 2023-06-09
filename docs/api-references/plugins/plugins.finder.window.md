@@ -36,7 +36,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | An integer specifying how many gridparts the screen should be divided into. Defaults to 30.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L72) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L72){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L42) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L42){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L16) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L16){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L29) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L29){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L182) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L182){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L237) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L237){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L77) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L77){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L128) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L128){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/window/window.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L106) |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L106){target="_blank"} |
 
 ---
 

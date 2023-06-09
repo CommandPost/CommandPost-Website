@@ -28,7 +28,7 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/relative.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/relative.lua#L65) |
+| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/relative.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/relative.lua#L65){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Returns**                                 | <ul><li>The module</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/relative.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/relative.lua#L194) |
+| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/relative.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/relative.lua#L194){target="_blank"} |
 
 ---
 

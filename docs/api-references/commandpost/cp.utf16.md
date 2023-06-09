@@ -36,7 +36,7 @@ A pure-LUA implementation of UTF-16 decoding
 | **Returns**                                 | <ul><li>All the codepoints converted to UTF-16, concatonated into a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/utf16/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L41) |
+| **Source**                                  | [src/extensions/cp/utf16/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L41){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ A pure-LUA implementation of UTF-16 decoding
 | **Returns**                                 | <ul><li>a list of codepoint integers for all characters in the matching range.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/utf16/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L121) |
+| **Source**                                  | [src/extensions/cp/utf16/init.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L121){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ A pure-LUA implementation of UTF-16 decoding
 | **Returns**                                 | <ul><li>An iterator</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>     for p, c in utf16.codes(s) do body end</li><li>```</li><li></li><li>will iterate over all characters in string `s`, with `p` being the position (in bytes) and `c` the code point of each character. It raises an error if it meets any invalid byte sequence.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/utf16/init.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L152) |
+| **Source**                                  | [src/extensions/cp/utf16/init.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L152){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ A pure-LUA implementation of UTF-16 decoding
 | **Returns**                                 | <ul><li>The index</li></ul>          |
 | **Notes**                                   | <ul><li>As a special case, when `n` is 0 the function returns the start of the encoding of the character that contains the `i`-th byte of `s`.</li><li>This function assumes that `s` is a valid UTF-16 string</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/utf16/init.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L226) |
+| **Source**                                  | [src/extensions/cp/utf16/init.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L226){target="_blank"} |
 
 ---
 

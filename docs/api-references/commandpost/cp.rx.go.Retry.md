@@ -35,7 +35,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the delay between retries.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L62) |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L62){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the number of times to retry.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L43) |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L43){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>Retry(someObservable)</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L12) |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L12){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `DelayedBy` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L66) |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L66){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Returns**                                 | <ul><li>The `UpTo` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L47) |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L47){target="_blank"} |
 
 ---
 

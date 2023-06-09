@@ -27,7 +27,7 @@ Actions for control user interface elements via the Accessibility API.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we currently dragging something?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L24) |
+| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L24){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Actions for control user interface elements via the Accessibility API.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L37) |
+| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L37){target="_blank"} |
 
 ---
 

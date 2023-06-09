@@ -43,7 +43,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default number of seconds to cache results.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L34) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L34){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The new plist `source` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L191) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L191){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>mySource:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L39) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L39){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L125) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L125){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if none were fround</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L85) |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L85){target="_blank"} |
 
 ---
 
@@ -127,7 +127,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The table for the specified language, or `nil` if the file doesn't exist.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L105) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L105){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The path to the file, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L65) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L65){target="_blank"} |
 
 ---
 
@@ -159,7 +159,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L177) |
+| **Source**                                  | [src/extensions/cp/strings/source/plist.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/plist.lua#L177){target="_blank"} |
 
 ---
 

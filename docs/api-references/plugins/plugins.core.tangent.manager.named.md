@@ -45,7 +45,7 @@ as described below.
 | **Returns**                                 | <ul><li>`true` if it is `named.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L238) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L238){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ as described below.
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L205) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L205){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ as described below.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L24) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L24){target="_blank"} |
 
 ---
 
@@ -94,7 +94,7 @@ as described below.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is active. It will only be active if                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L48) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L48){target="_blank"} |
 
 ---
 
@@ -107,7 +107,7 @@ as described below.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L41) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L41){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ as described below.
 | **Returns**                                 | <ul><li>The `controls`, or `nil` if not specified.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L83) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L83){target="_blank"} |
 
 ---
 
@@ -141,7 +141,7 @@ as described below.
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L133) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L133){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ as described below.
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L170) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L170){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ as described below.
 | **Returns**                                 | <ul><li>The parent.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L57) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L57){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ as described below.
 | **Returns**                                 | <ul><li>The `hs.tangent`, if available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L70) |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L70){target="_blank"} |
 
 ---
 

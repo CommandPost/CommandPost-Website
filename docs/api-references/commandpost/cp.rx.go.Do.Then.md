@@ -45,7 +45,7 @@ end)
 | **Returns**                                 | <ul><li>Another [Do.Then](cp.rx.go.Do.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L96) |
+| **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L96){target="_blank"} |
 
 ---
 

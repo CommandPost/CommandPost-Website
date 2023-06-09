@@ -32,7 +32,7 @@ Action Manager Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns a list of registered handler IDs.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L181) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L181){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Action Manager Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Provides access to the set of handlers registered with the manager. It                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L172) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L172){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The `handler` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L134) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L134){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The activator with the specified ID.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L205) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L205){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>The action handler, or `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L192) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L192){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L114) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L114){target="_blank"} |
 
 ---
 
@@ -127,7 +127,7 @@ Action Manager Module.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/action/manager/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L96) |
+| **Source**                                  | [src/plugins/core/action/manager/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/init.lua#L96){target="_blank"} |
 
 ---
 

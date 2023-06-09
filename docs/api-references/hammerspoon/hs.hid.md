@@ -36,7 +36,7 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hid/hid.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L16) |
+| **Source**                                  | [extensions/hid/hid.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L16){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hid/hid.lua line 42](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L42) |
+| **Source**                                  | [extensions/hid/hid.lua line 42](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L42){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hid/hid.lua line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L29) |
+| **Source**                                  | [extensions/hid/hid.lua line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L29){target="_blank"} |
 
 ---
 

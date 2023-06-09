@@ -41,7 +41,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L41) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L41){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The new `FullScreenPlayer`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L58) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L58){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the window is full-screen.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L112) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L112){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root `AXGroup`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L79) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L79){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Viewer's group UI element.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L91) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L91){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L155) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L155){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Returns**                                 | <ul><li>The window instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L141) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FullScreenPlayer.lua#L141){target="_blank"} |
 
 ---
 

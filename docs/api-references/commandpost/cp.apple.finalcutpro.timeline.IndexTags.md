@@ -49,7 +49,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Tags' section.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L23) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L23){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L44) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L44){target="_blank"} |
 
 ---
 
@@ -75,7 +75,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L166) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L166){target="_blank"} |
 
 ---
 
@@ -88,7 +88,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L187) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L187){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L180) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L180){target="_blank"} |
 
 ---
 
@@ -114,7 +114,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L173) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L173){target="_blank"} |
 
 ---
 
@@ -127,7 +127,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L159) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L159){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of tags as a [Table](cp.ui.OldTable.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L30) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L30){target="_blank"} |
 
 ---
 
@@ -153,7 +153,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Standard markers" filter.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L152) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L152){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags.Type](cp.apple.finalcutpro.timeline.IndexTags.Type.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L145) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L145){target="_blank"} |
 
 ---
 
@@ -184,7 +184,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 328](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L328) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 328](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L328){target="_blank"} |
 
 ---
 
@@ -200,7 +200,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L194) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L194){target="_blank"} |
 
 ---
 
@@ -216,7 +216,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L242) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L242){target="_blank"} |
 
 ---
 
@@ -232,7 +232,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L290) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L290){target="_blank"} |
 
 ---
 
@@ -248,7 +248,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L274) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L274){target="_blank"} |
 
 ---
 
@@ -264,7 +264,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 258](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L258) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 258](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L258){target="_blank"} |
 
 ---
 
@@ -280,7 +280,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L226) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L226){target="_blank"} |
 
 ---
 
@@ -296,7 +296,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L210) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L210){target="_blank"} |
 
 ---
 
@@ -312,7 +312,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L306) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexTags.lua#L306){target="_blank"} |
 
 ---
 

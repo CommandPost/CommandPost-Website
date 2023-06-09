@@ -30,7 +30,7 @@ Application manager.
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/application/manager.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L70) |
+| **Source**                                  | [src/plugins/core/application/manager.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L70){target="_blank"} |
 
 ---
 
@@ -46,7 +46,7 @@ Application manager.
 | **Returns**                                 | <ul><li>A table of all the registered applications.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/application/manager.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L44) |
+| **Source**                                  | [src/plugins/core/application/manager.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L44){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Application manager.
 | **Returns**                                 | <ul><li>A table of the Search Sonole Toolbar data for the specified application.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/application/manager.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L57) |
+| **Source**                                  | [src/plugins/core/application/manager.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L57){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Application manager.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The data table should contain:</li><li> displayName - The display name of the application</li><li> bundleID - The bundle ID of the application</li><li> searchConsoleToolbar - A table containing the Search Console Toolbar information</li><li> legacyGroupID - A string containing the legacy group ID (i.e. "fcpx")</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/application/manager.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L20) |
+| **Source**                                  | [src/plugins/core/application/manager.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/application/manager.lua#L20){target="_blank"} |
 
 ---
 

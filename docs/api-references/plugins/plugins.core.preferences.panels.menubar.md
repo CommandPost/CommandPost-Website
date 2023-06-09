@@ -28,7 +28,7 @@ Menubar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L62) |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L62){target="_blank"} |
 
 ---
 
@@ -41,7 +41,7 @@ Menubar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L36) |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L36){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Menubar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Icon path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L31) |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L31){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ Menubar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The menubar icon.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L57) |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L57){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Menubar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Show section headings in menubar.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L41) |
+| **Source**                                  | [src/plugins/core/preferences/panels/menubar.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/menubar.lua#L41){target="_blank"} |
 
 ---
 

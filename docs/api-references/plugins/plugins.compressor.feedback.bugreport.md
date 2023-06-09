@@ -30,7 +30,7 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L244) |
+| **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L244){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The webview position.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L38) |
+| **Source**                                  | [src/plugins/compressor/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/compressor/feedback/bugreport.lua#L38){target="_blank"} |
 
 ---
 

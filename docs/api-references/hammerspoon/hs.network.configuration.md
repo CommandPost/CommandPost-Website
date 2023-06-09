@@ -43,7 +43,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>the storeObject</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L48) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L48){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>name     - the computer name</li><li>encoding - the encoding type</li></ul>          |
 | **Notes**                                   | <ul><li>You can also retrieve this information as key-value pairs with `hs.network.configuration:contents("Setup:/System")`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L194) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L194){target="_blank"} |
 
 ---
 
@@ -77,7 +77,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>name - the user name</li><li>uid  - the user ID for the user</li><li>gid  - the user's primary group ID</li></ul>          |
 | **Notes**                                   | <ul><li>You can also retrieve this information as key-value pairs with `hs.network.configuration:contents("State:/Users/ConsoleUser")`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 245](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L245) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 245](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L245){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>a table of key-value pairs from the dynamic store which match the specified keys or key patterns.</li></ul>          |
 | **Notes**                                   | <ul><li>if no parameters are provided, then all key-value pairs in the dynamic store are returned.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 86](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L86) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 86](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L86){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>a table containing DHCP information including lease time and DHCP options</li></ul>          |
 | **Notes**                                   | <ul><li>a list of possible Service ID's can be retrieved with `hs.network.configuration:contents("Setup:/Network/Global/IPv4")`</li><li>generates an error if the service ID is invalid or was not assigned an IP address via DHCP.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L161) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 161](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L161){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>name - the local host name</li></ul>          |
 | **Notes**                                   | <ul><li>You can also retrieve this information as key-value pairs with `hs.network.configuration:contents("Setup:/System")`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L278) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L278){target="_blank"} |
 
 ---
 
@@ -141,7 +141,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>a table of keys from the dynamic store.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L136) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L136){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>location - the UUID for the currently active network location</li></ul>          |
 | **Notes**                                   | <ul><li>You can also retrieve this information as key-value pairs with `hs.network.configuration:contents("Setup:")`</li><li>If you have different locations defined in the Network preferences panel, this can be used to determine the currently active location.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 397](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L397) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 397](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L397){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>a table of key-value pairs mapping location UUIDs to their names</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 425](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L425) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 425](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L425){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>the store Object</li></ul>          |
 | **Notes**                                   | <ul><li>if no parameters are provided, then all key-value pairs in the dynamic store are monitored for changes.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L572) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 572](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L572){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>a table of key-value pairs describing the current proxies in effect, both globally, and scoped to specific interfaces.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also retrieve this information as key-value pairs with `hs.network.configuration:contents("State:/Network/Global/Proxies")`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 461](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L461) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 461](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L461){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>the store object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function will be invoked each time a monitored key changes value and the callback function should accept two parameters: the storeObject itself, and an array of the keys which contain values that have changed.</li><li>This method just sets the callback function.  You specify which keys to watch with [hs.network.configuration:monitorKeys](#monitorKeys) and start or stop the watcher with [hs.network.configuration:start](#start) or [hs.network.configuration:stop](#stop)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 488](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L488) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 488](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L488){target="_blank"} |
 
 ---
 
@@ -237,7 +237,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>bool - true if the location was successfully changed, false if there was an error</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L316) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L316){target="_blank"} |
 
 ---
 
@@ -253,7 +253,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>the store object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should be specified with [hs.network.configuration:setCallback](#setCallback) and the keys to monitor should be specified with [hs.network.configuration:monitorKeys](#monitorKeys).</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 523](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L523) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 523](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L523){target="_blank"} |
 
 ---
 
@@ -269,7 +269,7 @@ This sub-module provides access to the current location set configuration settin
 | **Returns**                                 | <ul><li>the store object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/network/libnetwork_configuration.m line 550](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L550) |
+| **Source**                                  | [extensions/network/libnetwork_configuration.m line 550](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_configuration.m#L550){target="_blank"} |
 
 ---
 

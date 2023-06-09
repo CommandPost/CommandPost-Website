@@ -49,7 +49,7 @@ into whole seconds (for example, 5s).
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A time object with a value of 0/1s.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L402) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L402){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L131) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L131){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L228) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L228){target="_blank"} |
 
 ---
 
@@ -99,7 +99,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 370](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L370) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 370](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L370){target="_blank"} |
 
 ---
 
@@ -115,7 +115,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L283) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L283){target="_blank"} |
 
 ---
 
@@ -131,7 +131,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A number containing the greatest common divisor.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L102) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L102){target="_blank"} |
 
 ---
 
@@ -147,7 +147,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L318) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L318){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 353](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L353) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 353](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L353){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L336) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L336){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L208) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L208){target="_blank"} |
 
 ---
 
@@ -211,7 +211,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L168) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L168){target="_blank"} |
 
 ---
 
@@ -227,7 +227,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A number</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L269) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L269){target="_blank"} |
 
 ---
 
@@ -243,7 +243,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L250) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L250){target="_blank"} |
 
 ---
 
@@ -259,7 +259,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L151) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L151){target="_blank"} |
 
 ---
 
@@ -277,7 +277,7 @@ into whole seconds (for example, 5s).
 | **Returns**                                 | <ul><li>A new `cp.apple.fcpxml.time` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L20) |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L20){target="_blank"} |
 
 ---
 

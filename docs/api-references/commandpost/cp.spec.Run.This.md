@@ -47,7 +47,7 @@ will complete asynchronously.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A collection of states that a `Run.This` can be in.                                                                     |
 | **Notes**                                   | <ul><li>States include:</li><li> running     - The Run is currently running and will terminate at the end of the function (synchrnonous).</li><li> waiting     - The Run is waiting, and will terminate when [done()](#done) is called. (asynchronous).</li><li> done        - The Run is done.</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L31) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L31){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The current default timeout, in seconds.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L48) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L48){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The new `Run.This`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L64) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L64){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L403) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L403){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 489](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L489) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 489](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L489){target="_blank"} |
 
 ---
 
@@ -133,7 +133,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L346) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L346){target="_blank"} |
 
 ---
 
@@ -149,7 +149,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The same `Run.This` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the it doesn't occur at some point during the run, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual abort/`error` would occur.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L207) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L207){target="_blank"} |
 
 ---
 
@@ -165,7 +165,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>The same `Run.This` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>When this is expected, it doesn't log the problem as a 'fail'. In fact, if the fail doesn't occur, it will raise a failure at the end of the run.</li><li>The `messagePattern` can be used to ensure it's the fail you expect.</li><li>This should be called before the actual assert/fail would occur.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L120) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L120){target="_blank"} |
 
 ---
 
@@ -181,7 +181,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 427](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L427) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 427](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L427){target="_blank"} |
 
 ---
 
@@ -197,7 +197,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>`true` if isActive.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L295) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L295){target="_blank"} |
 
 ---
 
@@ -213,7 +213,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L390) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L390){target="_blank"} |
 
 ---
 
@@ -229,7 +229,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>`true` if the waiting.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L333) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L333){target="_blank"} |
 
 ---
 
@@ -245,7 +245,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 713](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L713) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 713](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L713){target="_blank"} |
 
 ---
 
@@ -261,7 +261,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 477](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L477) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 477](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L477){target="_blank"} |
 
 ---
 
@@ -277,7 +277,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>Returns the current [Run](cp.spec.Run.md)</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L86) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L86){target="_blank"} |
 
 ---
 
@@ -293,7 +293,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>cp.rx.Observer</li></ul>          |
 | **Notes**                                   | <ul><li>If the `onNext`/`onError`/`onCompleted` functions are</li><li>not provided, then it will provide defaults. `onNext` will be logged, `onError` will throw an error,</li><li>and `onCompleted` will trigger [done](#done).</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 272](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L272) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 272](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L272){target="_blank"} |
 
 ---
 
@@ -309,7 +309,7 @@ will complete asynchronously.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If not provided, [Run.This.defaultTimeout()](cp.spec.Run.This.md#defaultTimeout) is used.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Run.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L308) |
+| **Source**                                  | [src/extensions/cp/spec/Run.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L308){target="_blank"} |
 
 ---
 

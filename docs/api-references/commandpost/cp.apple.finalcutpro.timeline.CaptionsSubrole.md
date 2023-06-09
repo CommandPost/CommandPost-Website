@@ -36,7 +36,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L16) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L16){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L30) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L30){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [StaticText](cp.ui.StaticText.md) which represents the subtitle format (e.g. "ITT", "SRT").                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L44) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L44){target="_blank"} |
 
 ---
 
@@ -82,7 +82,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that indicates if the subtitle track is visible in the Viewer.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L53) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L53){target="_blank"} |
 
 ---
 

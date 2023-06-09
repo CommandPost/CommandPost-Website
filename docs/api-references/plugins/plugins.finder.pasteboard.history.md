@@ -26,7 +26,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Text Pasteboard History Enabled?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L63) |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L63){target="_blank"} |
 
 ---
 
@@ -39,7 +39,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the pasteboard history.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L48) |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L48){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Maximum Pasteboard History Size                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L53) |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L53){target="_blank"} |
 
 ---
 

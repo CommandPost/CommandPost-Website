@@ -30,7 +30,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Captions' section.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L22) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L22){target="_blank"} |
 
 ---
 
@@ -43,7 +43,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of captions as a [Table](cp.ui.OldTable.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L29) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L29){target="_blank"} |
 
 ---
 
@@ -56,7 +56,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) that will allow viewing errors in the Captions list.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L43) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L43){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L69) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L69){target="_blank"} |
 
 ---
 
@@ -90,7 +90,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L54) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L54){target="_blank"} |
 
 ---
 

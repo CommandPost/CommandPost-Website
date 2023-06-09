@@ -34,7 +34,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L61) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L61){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Filter Browser Before Search                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L66) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L66){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search History                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L96) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L96){target="_blank"} |
 
 ---
 
@@ -73,7 +73,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Column                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L51) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L51){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Value                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L46) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L46){target="_blank"} |
 
 ---
 
@@ -99,7 +99,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Loop Search                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L81) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L81){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L56) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L56){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Project                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L86) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L86){target="_blank"} |
 
 ---
 
@@ -138,7 +138,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Play After Find                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L76) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L76){target="_blank"} |
 
 ---
 
@@ -151,7 +151,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search Entire Library                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L91) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L91){target="_blank"} |
 
 ---
 
@@ -164,7 +164,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Whole Words                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L71) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/search/init.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/search/init.lua#L71){target="_blank"} |
 
 ---
 

@@ -49,7 +49,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L112) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 112](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L112){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L136) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L136){target="_blank"} |
 
 ---
 
@@ -75,7 +75,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | See [hs.ipc.cliColors](#cliColors).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L124) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L124){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>a table describing the colors used when colorizing output in the `hs` command line tool.</li></ul>          |
 | **Notes**                                   | <ul><li>For a brief intro into terminal colors, you can visit a web site like this one [http://jafrog.com/2013/11/23/colors-in-terminal.html](http://jafrog.com/2013/11/23/colors-in-terminal.html)</li><li>Lua doesn't support octal escapes in it's strings, so use `\x1b` or `\27` to indicate the `escape` character e.g. `ipc.cliSetColors{ initial = "", input = "\27[33m", output = "\27[38;5;11m" }`</li><li></li><li>Changes made with this function are saved with `hs.settings` with the following labels and will persist through a reload or restart of Hammerspoon: "ipc.cli.color_initial", "ipc.cli.color_input", "ipc.cli.color_output", and "ipc.cli.color_error"</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L63) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 63](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L63){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the tool was successfully installed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>If this function fails, it is likely that you have some old/broken symlinks. You can use `hs.ipc.cliUninstall()` to forcibly tidy them up</li><li>You may need to pre-create `/usr/local/bin` and `/usr/local/share/man/man1` in a terminal using sudo, and adjust permissions so your login user can write to them</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 268](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L268) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 268](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L268){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the current, possibly changed, value</li></ul>          |
 | **Notes**                                   | <ul><li>If this is enabled, your history is saved in `hs.configDir .. ".cli.history"`, which is usually "~/.hammerspoon/.cli.history".</li><li>If you have multiple invocations of the command line tool running at the same time, only the history of the last one cleanly exited is saved; this is a limitation of the readline wrapper Apple has provided for libedit and at present no workaround is known.</li><li></li><li>Changes made with this function are saved with `hs.settings` with the label "ipc.cli.saveHistory" and will persist through a reload or restart of Hammerspoon.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L148) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L148){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the current, possibly changed, value</li></ul>          |
 | **Notes**                                   | <ul><li>When [hs.ipc.cliSaveHistory](#cliSaveHistory) is enabled, your history is saved in `hs.configDir .. ".cli.history"`, which is usually "~/.hammerspoon/.cli.history".</li><li>If you have multiple invocations of the command line tool running at the same time, only the history of the last one cleanly exited is saved; this is a limitation of the readline wrapper Apple has provided for libedit and at present no workaround is known.</li><li></li><li>Changes made with this function are saved with `hs.settings` with the label "ipc.cli.historyLimit" and will persist through a reload or restart of Hammerspoon.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 171](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L171) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 171](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L171){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the `hs` command line tool is correctly installed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L194) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L194){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>A boolean, true if the tool was successfully removed, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>This function used to be very conservative and refuse to remove symlinks it wasn't sure about, but now it will unconditionally remove whatever it finds at `path/bin/cmdpost` and `path/share/man/man1/cmdpost.1`. This is more likely to be useful in situations where this command is actually needed (please open an Issue on GitHub if you disagree!)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/ipc.lua line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L294) |
+| **Source**                                  | [extensions/ipc/ipc.lua line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/ipc.lua#L294){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the ipc object</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 78](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L78) |
+| **Source**                                  | [extensions/ipc/libipc.m line 78](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L78){target="_blank"} |
 
 ---
 
@@ -211,7 +211,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the ipc object</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L128) |
+| **Source**                                  | [extensions/ipc/libipc.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L128){target="_blank"} |
 
 ---
 
@@ -229,7 +229,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 338](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L338) |
+| **Source**                                  | [extensions/ipc/libipc.m line 338](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L338){target="_blank"} |
 
 ---
 
@@ -245,7 +245,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>true if the object is a remote port, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>a remote port can send messages at any time to a local port; a local port can only respond to messages from a remote port</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 174](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L174) |
+| **Source**                                  | [extensions/ipc/libipc.m line 174](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L174){target="_blank"} |
 
 ---
 
@@ -261,7 +261,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>true if the object is a valid port, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L195) |
+| **Source**                                  | [extensions/ipc/libipc.m line 195](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L195){target="_blank"} |
 
 ---
 
@@ -277,7 +277,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>the port name as a string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L156) |
+| **Source**                                  | [extensions/ipc/libipc.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L156){target="_blank"} |
 
 ---
 
@@ -293,7 +293,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 | **Returns**                                 | <ul><li>status   - a boolean indicating whether or not the local port responded before the timeout (true) or if an error or timeout occurred waiting for the response (false)</li><li>response - the response from the local port, usually a string, but may be nil if there was no response returned.  If status is false, will contain an error message describing the error.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/ipc/libipc.m line 213](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L213) |
+| **Source**                                  | [extensions/ipc/libipc.m line 213](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/ipc/libipc.m#L213){target="_blank"} |
 
 ---
 

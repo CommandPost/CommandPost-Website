@@ -58,7 +58,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L36) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L36){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>A new `CommandEditor` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L61) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L61){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Close" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L227) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L227){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Command" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L254) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L254){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandDetail](cp.apple.finalcutpro.cmd.CommandDetail.md) section.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 350](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L350) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 350](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L350){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandGroups](cp.apple.finalcutpro.cmd.CommandGroups.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L333) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L333){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandList](cp.apple.finalcutpro.cmd.CommandList.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L317) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L317){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Commands](cp.apple.finalcutpro.cmd.Commands.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L326) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L326){target="_blank"} |
 
 ---
 
@@ -169,7 +169,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Command Set" [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L236) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L236){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Control" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L281) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L281){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Group](cp.ui.Group.md) containing the keyboard shortcuts. Does not seem to expose the actual key buttons.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L308) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 308](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L308){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keyboard Toggle" [CheckBox](cp.ui.CheckBox.md) (next to the Search field).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L290) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 290](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L290){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [KeyDetail](cp.apple.finalcutpro.cmd.KeyDetail.md) section.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L340) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L340){target="_blank"} |
 
 ---
 
@@ -234,7 +234,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Group](cp.ui.Group.md) containing 'modifier' checkboxes (Cmd, Shift, etc).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L245) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L245){target="_blank"} |
 
 ---
 
@@ -247,7 +247,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Option" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 272](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L272) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 272](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L272){target="_blank"} |
 
 ---
 
@@ -260,7 +260,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Save" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L218) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 218](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L218){target="_blank"} |
 
 ---
 
@@ -273,7 +273,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Search" [TextField](cp.ui.TextField.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L299) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 299](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L299){target="_blank"} |
 
 ---
 
@@ -286,7 +286,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Shift" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L263) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L263){target="_blank"} |
 
 ---
 
@@ -299,7 +299,7 @@ Command Editor Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` for the window.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L71) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L71){target="_blank"} |
 
 ---
 
@@ -317,7 +317,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L84) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L84){target="_blank"} |
 
 ---
 
@@ -333,7 +333,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the button was found and pushed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L203) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L203){target="_blank"} |
 
 ---
 
@@ -349,7 +349,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L383) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L383){target="_blank"} |
 
 ---
 
@@ -365,7 +365,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the button was found and pushed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L190) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L190){target="_blank"} |
 
 ---
 
@@ -381,7 +381,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if the CommandEditor is not showing or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L155) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L155){target="_blank"} |
 
 ---
 
@@ -397,7 +397,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.cmd.CommandEditor` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L141) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L141){target="_blank"} |
 
 ---
 
@@ -413,7 +413,7 @@ Command Editor Module.
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.cmd.CommandEditor` object for method chaining.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L97) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandEditor.lua#L97){target="_blank"} |
 
 ---
 

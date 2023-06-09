@@ -30,7 +30,7 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L467) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 467](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L467){target="_blank"} |
 
 ---
 
@@ -46,7 +46,7 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 419](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L419) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 419](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L419){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 435](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L435) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 435](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L435){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Contains functions for comparing `axuielement`s.
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L451) |
+| **Source**                                  | [src/extensions/cp/ui/axutils.lua line 451](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/axutils.lua#L451){target="_blank"} |
 
 ---
 

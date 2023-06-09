@@ -27,7 +27,7 @@ Controls Final Cut Pro's Lanes.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/lanes.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/lanes.lua#L20) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/lanes.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/lanes.lua#L20){target="_blank"} |
 
 ---
 

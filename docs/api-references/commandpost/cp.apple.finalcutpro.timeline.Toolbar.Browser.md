@@ -25,7 +25,7 @@ A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Ef
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Effects' browser visibility.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L371) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L371){target="_blank"} |
 
 ---
 
@@ -38,7 +38,7 @@ A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Ef
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Transitions' browser visibility.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 382](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L382) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 382](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L382){target="_blank"} |
 
 ---
 

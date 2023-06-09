@@ -40,7 +40,7 @@ Timeline Appearance Popup module.
 | **Returns**                                 | <ul><li>A new `Appearance` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L25) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L25){target="_blank"} |
 
 ---
 
@@ -55,7 +55,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Angles                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L136) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L136){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Height Slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L98) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L98){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Names                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L127) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L127){target="_blank"} |
 
 ---
 
@@ -94,7 +94,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Roles                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L145) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L145){target="_blank"} |
 
 ---
 
@@ -107,7 +107,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Waveform Height Radio Group.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L118) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L118){target="_blank"} |
 
 ---
 
@@ -120,7 +120,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Lane Headers                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L154) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L154){target="_blank"} |
 
 ---
 
@@ -133,7 +133,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Zoom Slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L109) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L109){target="_blank"} |
 
 ---
 
@@ -151,7 +151,7 @@ Timeline Appearance Popup module.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L73) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L73){target="_blank"} |
 
 ---
 
@@ -167,7 +167,7 @@ Timeline Appearance Popup module.
 | **Returns**                                 | <ul><li>The `Appearance` object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L54) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L54){target="_blank"} |
 
 ---
 

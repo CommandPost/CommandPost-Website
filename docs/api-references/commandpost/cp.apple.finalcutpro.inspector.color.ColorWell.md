@@ -42,7 +42,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This can be used with `nudge` to shift by the same distance                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L30) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L30){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>`true` if the element is a Color Well.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L246) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L246){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>A new `ColorWell` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L259) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L259){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The center point of the ColorWell. A table with `{x=..., y=...}`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L304) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L304){target="_blank"} |
 
 ---
 
@@ -106,7 +106,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the orientation of the color as a table containing an `up` and `right` value.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 356](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L356) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 356](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L356){target="_blank"} |
 
 ---
 
@@ -119,7 +119,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | X/Y screen position for the current color value of the Color Well. This ignores the bounds of the                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L334) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L334){target="_blank"} |
 
 ---
 
@@ -132,7 +132,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets whether the Color Well has focus.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L279) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L279){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Absolute X/Y screen position for the puck in the Color Well. Colours outside the bounds are clamped inside the color well.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L313) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L313){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWell` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L428) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L428){target="_blank"} |
 
 ---
 
@@ -179,7 +179,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWell` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 444](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L444) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 444](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L444){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 | **Returns**                                 | <ul><li>The `ColorWell` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 389](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L389) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua line 389](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWell.lua#L389){target="_blank"} |
 
 ---
 

@@ -63,7 +63,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version this API supports.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L23) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L23){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for DaVinci Resolve.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L35) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L35){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the Browser</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 338](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L338) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 338](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L338){target="_blank"} |
 
 ---
 
@@ -106,7 +106,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current locale for FCPX.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L124) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L124){target="_blank"} |
 
 ---
 
@@ -119,7 +119,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is DaVinci Resolve Frontmost?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L90) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L90){target="_blank"} |
 
 ---
 
@@ -132,7 +132,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is any version of DaVinci Resolve Installed?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L83) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L83){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a modal dialog currently open?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L97) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L97){target="_blank"} |
 
 ---
 
@@ -158,7 +158,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is DaVinci Resolve Running?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L55) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L55){target="_blank"} |
 
 ---
 
@@ -171,7 +171,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut visible on screen?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L76) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L76){target="_blank"} |
 
 ---
 
@@ -184,7 +184,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a supported version of DaVinci Resolve installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to `cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION`</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L104) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L104){target="_blank"} |
 
 ---
 
@@ -197,7 +197,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is an unsupported version of DaVinci Resolve installed?                                                                     |
 | **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L145) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L145){target="_blank"} |
 
 ---
 
@@ -210,7 +210,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The DaVinci Resolve Primary Window.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L325) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L325){target="_blank"} |
 
 ---
 
@@ -223,7 +223,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of supported locales for this version of FCPX.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L117) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L117){target="_blank"} |
 
 ---
 
@@ -236,7 +236,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The DaVinci Resolve `axuielement`, if available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L62) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L62){target="_blank"} |
 
 ---
 
@@ -249,7 +249,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The version number of the running or default installation of FCPX as a `semver`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L131) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L131){target="_blank"} |
 
 ---
 
@@ -262,7 +262,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The version number of the running or default installation of FCPX as a `string`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L138) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L138){target="_blank"} |
 
 ---
 
@@ -275,7 +275,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI containing the list of windows in the app.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L69) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L69){target="_blank"} |
 
 ---
 
@@ -293,7 +293,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The Bundle ID</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L155) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L155){target="_blank"} |
 
 ---
 
@@ -309,7 +309,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L266) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L266){target="_blank"} |
 
 ---
 
@@ -325,7 +325,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L199) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L199){target="_blank"} |
 
 ---
 
@@ -341,7 +341,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L293) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L293){target="_blank"} |
 
 ---
 
@@ -357,7 +357,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L212) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L212){target="_blank"} |
 
 ---
 
@@ -373,7 +373,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L239) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L239){target="_blank"} |
 
 ---
 
@@ -389,7 +389,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>A string containing DaVinci Resolve's filesystem path, or nil if DaVinci Resolve's path could not be determined.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L306) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L306){target="_blank"} |
 
 ---
 
@@ -405,7 +405,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L252) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L252){target="_blank"} |
 
 ---
 
@@ -421,7 +421,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L181) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L181){target="_blank"} |
 
 ---
 
@@ -437,7 +437,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L168) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L168){target="_blank"} |
 
 ---
 
@@ -453,7 +453,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L279) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L279){target="_blank"} |
 
 ---
 
@@ -469,7 +469,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L225) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L225){target="_blank"} |
 
 ---
 

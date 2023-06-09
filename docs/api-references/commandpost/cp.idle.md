@@ -29,7 +29,7 @@ or mouse movement.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/idle/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/idle/init.lua#L48) |
+| **Source**                                  | [src/extensions/cp/idle/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/idle/init.lua#L48){target="_blank"} |
 
 ---
 

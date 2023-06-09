@@ -24,7 +24,7 @@ The `cp.app` for Adobe After Effects.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for After Effects.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L30) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L30){target="_blank"} |
 
 ---
 

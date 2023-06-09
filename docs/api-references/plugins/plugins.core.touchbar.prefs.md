@@ -36,7 +36,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L32) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L32){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L52) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L52){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Touch Bar Icons.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L27) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L27){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 376](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L376) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 376](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L376){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 566](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L566) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 566](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L566){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Touch Bar Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L359) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L359){target="_blank"} |
 
 ---
 
@@ -127,7 +127,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L37) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L37){target="_blank"} |
 
 ---
 
@@ -140,7 +140,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L42) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L42){target="_blank"} |
 
 ---
 
@@ -153,7 +153,7 @@ Touch Bar Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L47) |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L47){target="_blank"} |
 
 ---
 

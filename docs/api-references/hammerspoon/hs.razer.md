@@ -89,7 +89,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L48) |
+| **Source**                                  | [extensions/razer/librazer.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L48){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>An hs.razer object or `nil` if something goes wrong</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L92) |
+| **Source**                                  | [extensions/razer/librazer.m line 92](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L92){target="_blank"} |
 
 ---
 
@@ -123,7 +123,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L23) |
+| **Source**                                  | [extensions/razer/librazer.m line 23](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L23){target="_blank"} |
 
 ---
 
@@ -139,7 +139,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>A number containing the number of Razer devices attached to the system</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L75) |
+| **Source**                                  | [extensions/razer/librazer.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L75){target="_blank"} |
 
 ---
 
@@ -155,7 +155,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Because `hs.razer` relies on a physical device to</li><li>   be connected for testing, this method exists so that</li><li>   Hammerspoon developers can test the extension outside</li><li>   of the usual GitHub tests. It can also be used for</li><li>   user troubleshooting.</li><li>This feature currently only works on the Razer Tartarus V2.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/razer.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L87) |
+| **Source**                                  | [extensions/razer/razer.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L87){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 844](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L844) |
+| **Source**                                  | [extensions/razer/librazer.m line 844](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L844){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>The order is top to bottom, left to right. You can use `nil` for any buttons you don't want to light up.</li><li>Example usage: ```lua</li><li>  hs.razer.new(0):backlightsCustom({hs.drawing.color.red, nil, hs.drawing.color.green, hs.drawing.color.blue})</li><li>  ```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 891](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L891) |
+| **Source**                                  | [extensions/razer/librazer.m line 891](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L891){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 555](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L555) |
+| **Source**                                  | [extensions/razer/librazer.m line 555](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L555){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 630](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L630) |
+| **Source**                                  | [extensions/razer/librazer.m line 630](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L630){target="_blank"} |
 
 ---
 
@@ -237,7 +237,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 744](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L744) |
+| **Source**                                  | [extensions/razer/librazer.m line 744](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L744){target="_blank"} |
 
 ---
 
@@ -253,7 +253,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 712](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L712) |
+| **Source**                                  | [extensions/razer/librazer.m line 712](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L712){target="_blank"} |
 
 ---
 
@@ -269,7 +269,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>If neither `color` nor `secondaryColor` is provided, then random colors will be used.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 787](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L787) |
+| **Source**                                  | [extensions/razer/librazer.m line 787](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L787){target="_blank"} |
 
 ---
 
@@ -285,7 +285,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 596](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L596) |
+| **Source**                                  | [extensions/razer/librazer.m line 596](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L596){target="_blank"} |
 
 ---
 
@@ -301,7 +301,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 662](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L662) |
+| **Source**                                  | [extensions/razer/librazer.m line 662](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L662){target="_blank"} |
 
 ---
 
@@ -317,7 +317,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 443](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L443) |
+| **Source**                                  | [extensions/razer/librazer.m line 443](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L443){target="_blank"} |
 
 ---
 
@@ -333,7 +333,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>The brightness as a number or `nil` if something goes wrong.</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L221) |
+| **Source**                                  | [extensions/razer/librazer.m line 221](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L221){target="_blank"} |
 
 ---
 
@@ -349,7 +349,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `razerObject` - The serial port object that triggered the callback.</li><li>  `buttonName` - The name of the button as a string.</li><li>  `buttonAction` - A string containing "pressed", "released", "up" or "down".</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L147) |
+| **Source**                                  | [extensions/razer/librazer.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L147){target="_blank"} |
 
 ---
 
@@ -365,7 +365,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/razer.lua line 52](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L52) |
+| **Source**                                  | [extensions/razer/razer.lua line 52](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L52){target="_blank"} |
 
 ---
 
@@ -381,7 +381,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 388](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L388) |
+| **Source**                                  | [extensions/razer/librazer.m line 388](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L388){target="_blank"} |
 
 ---
 
@@ -397,7 +397,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The device name as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L125) |
+| **Source**                                  | [extensions/razer/librazer.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L125){target="_blank"} |
 
 ---
 
@@ -413,7 +413,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L278) |
+| **Source**                                  | [extensions/razer/librazer.m line 278](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L278){target="_blank"} |
 
 ---
 
@@ -429,7 +429,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 498](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L498) |
+| **Source**                                  | [extensions/razer/librazer.m line 498](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L498){target="_blank"} |
 
 ---
 
@@ -445,7 +445,7 @@ Special thanks to the authors of these awesome documents & resources:
 | **Returns**                                 | <ul><li>The `hs.razer` object.</li><li>`true` for on, `false` for off`, or `nil` if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/razer/librazer.m line 333](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L333) |
+| **Source**                                  | [extensions/razer/librazer.m line 333](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L333){target="_blank"} |
 
 ---
 

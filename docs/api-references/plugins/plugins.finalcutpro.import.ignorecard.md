@@ -29,7 +29,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Ignore Card Plugin                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L141) |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L141){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L42) |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L42){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L105) |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L105){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L124) |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L124){target="_blank"} |
 
 ---
 

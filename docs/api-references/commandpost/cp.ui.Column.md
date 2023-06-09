@@ -35,7 +35,7 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>`true` if the element is a Column.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L10) |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L10){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ Represents a Column in a Table.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this column in the overall container, with `0` being the first item.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L23) |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L23){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Represents a Column in a Table.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the column is currently selected. May be set.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L30) |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L30){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L37) |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L37){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ Represents a Column in a Table.
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L54) |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L54){target="_blank"} |
 
 ---
 

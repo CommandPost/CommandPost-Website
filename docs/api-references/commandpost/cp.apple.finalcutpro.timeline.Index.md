@@ -45,7 +45,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L26){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>A new `Index` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L41) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L41){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexCaptions](cp.apple.finalcutpro.timeline.IndexCaptions.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L123) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L123){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips](cp.apple.finalcutpro.timeline.IndexClips.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L102) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L102){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexMode](cp.apple.finalcutpro.timeline.IndexMode.md) for the Index.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L69) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L69){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRoles](cp.apple.finalcutpro.timeline.IndexRoles.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L116) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L116){target="_blank"} |
 
 ---
 
@@ -130,7 +130,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [SearchField](cp.ui.SearchField.md) for the Timeline Index.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L60) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L60){target="_blank"} |
 
 ---
 
@@ -143,7 +143,7 @@ Timeline Index Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags](cp.apple.finalcutpro.timeline.IndexTags.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L109) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L109){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The active tab or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L130) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L130){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L89) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L89){target="_blank"} |
 
 ---
 
@@ -193,7 +193,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L174) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L174){target="_blank"} |
 
 ---
 
@@ -209,7 +209,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L76) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L76){target="_blank"} |
 
 ---
 
@@ -225,7 +225,7 @@ Timeline Index Module.
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L151) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Index.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Index.lua#L151){target="_blank"} |
 
 ---
 

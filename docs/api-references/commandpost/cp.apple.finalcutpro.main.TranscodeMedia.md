@@ -27,7 +27,7 @@ Represents the Transcode Media sheet.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" button, as a [Button](cp.ui.Button.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L84) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L84){target="_blank"} |
 
 ---
 
@@ -40,7 +40,7 @@ Represents the Transcode Media sheet.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Optimized Media" check box, as a [CheckBox](cp.ui.CheckBox.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L62) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L62){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Represents the Transcode Media sheet.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Proxy Media" check box, as a [CheckBox](cp.ui.CheckBox.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L73) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L73){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ Represents the Transcode Media sheet.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "OK" button, as a [Button](cp.ui.Button.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L95) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/TranscodeMedia.lua#L95){target="_blank"} |
 
 ---
 

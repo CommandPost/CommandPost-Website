@@ -27,7 +27,7 @@ Developer Guide Menu Item.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/helpandsupport/developerguide.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/developerguide.lua#L11) |
+| **Source**                                  | [src/plugins/core/helpandsupport/developerguide.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/developerguide.lua#L11){target="_blank"} |
 
 ---
 

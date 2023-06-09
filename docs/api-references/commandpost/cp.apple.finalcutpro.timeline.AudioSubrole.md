@@ -32,7 +32,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua#L12) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua#L12){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua#L26) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/AudioSubrole.lua#L26){target="_blank"} |
 
 ---
 

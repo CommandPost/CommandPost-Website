@@ -24,7 +24,7 @@ Playback Rendering Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Gets whether or not Playback Rendering is enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/advanced/playbackrendering.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/playbackrendering.lua#L12) |
+| **Source**                                  | [src/plugins/finalcutpro/advanced/playbackrendering.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/playbackrendering.lua#L12){target="_blank"} |
 
 ---
 

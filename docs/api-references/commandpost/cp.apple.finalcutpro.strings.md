@@ -30,7 +30,7 @@ that appear in Final Cut Pro.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.strings` providing access to common FCPX text values.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L166) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L166){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ that appear in Final Cut Pro.
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L142) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L142){target="_blank"} |
 
 ---
 
@@ -64,7 +64,7 @@ that appear in Final Cut Pro.
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
 | **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L169) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/strings.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/strings.lua#L169){target="_blank"} |
 
 ---
 

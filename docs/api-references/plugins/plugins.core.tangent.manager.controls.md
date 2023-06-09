@@ -44,7 +44,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>A new `Group` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L22) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L22){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Represents a Tangent Group
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are active. They will be active if `enabled` is `true`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L56) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L56){target="_blank"} |
 
 ---
 
@@ -72,7 +72,7 @@ Represents a Tangent Group
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L49) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L49){target="_blank"} |
 
 ---
 
@@ -90,7 +90,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L163) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L163){target="_blank"} |
 
 ---
 
@@ -106,7 +106,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `controls instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L76) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L76){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The control, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L128) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L128){target="_blank"} |
 
 ---
 
@@ -138,7 +138,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L141) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L141){target="_blank"} |
 
 ---
 
@@ -154,7 +154,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L211) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L211){target="_blank"} |
 
 ---
 
@@ -170,7 +170,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L187) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L187){target="_blank"} |
 
 ---
 
@@ -186,7 +186,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>`nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L63) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L63){target="_blank"} |
 
 ---
 
@@ -202,7 +202,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L89) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L89){target="_blank"} |
 
 ---
 
@@ -218,7 +218,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L36) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L36){target="_blank"} |
 
 ---
 
@@ -234,7 +234,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L109) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L109){target="_blank"} |
 
 ---
 
@@ -250,7 +250,7 @@ Represents a Tangent Group
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L235) |
+| **Source**                                  | [src/plugins/core/tangent/manager/controls.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/controls.lua#L235){target="_blank"} |
 
 ---
 

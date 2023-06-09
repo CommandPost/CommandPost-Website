@@ -31,7 +31,7 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A table representing the supplied JSON data</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for retrieving some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/json/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L83) |
+| **Source**                                  | [src/extensions/cp/json/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L83){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A string containing a JSON representation of the supplied table</li></ul>          |
 | **Notes**                                   | <ul><li>This is useful for storing some of the more complex lua table structures as a persistent setting (see `hs.settings`)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/json/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L66) |
+| **Source**                                  | [src/extensions/cp/json/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L66){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>A `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The optional `errorCallbackFn` should accept one parameter, a string with</li><li>   the error message.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/json/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L99) |
+| **Source**                                  | [src/extensions/cp/json/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L99){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>The JSON file converted into table, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/json/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L20) |
+| **Source**                                  | [src/extensions/cp/json/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L20){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ A collection of handy JSON tools.
 | **Returns**                                 | <ul><li>`true` if successfully saved, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/json/init.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L40) |
+| **Source**                                  | [src/extensions/cp/json/init.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/json/init.lua#L40){target="_blank"} |
 
 ---
 

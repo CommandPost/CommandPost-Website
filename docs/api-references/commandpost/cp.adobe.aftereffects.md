@@ -38,7 +38,7 @@ Adobe After Effects Extension
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for After Effects.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L35) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L35){target="_blank"} |
 
 ---
 
@@ -56,7 +56,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L82) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L82){target="_blank"} |
 
 ---
 
@@ -72,7 +72,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L62) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L62){target="_blank"} |
 
 ---
 
@@ -88,7 +88,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string or `nil` if no path can be found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L43) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L43){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L97) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L97){target="_blank"} |
 
 ---
 
@@ -120,7 +120,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L201) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L201){target="_blank"} |
 
 ---
 
@@ -136,7 +136,7 @@ Adobe After Effects Extension
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L116) |
+| **Source**                                  | [src/extensions/cp/adobe/aftereffects/init.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/adobe/aftereffects/init.lua#L116){target="_blank"} |
 
 ---
 

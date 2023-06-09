@@ -31,7 +31,7 @@ Final Cut Pro Proxy Icon Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Toggles the Enable Proxy Menu Icon                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L34) |
+| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L34){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ Final Cut Pro Proxy Icon Plugin.
 | **Returns**                                 | <ul><li>String containing the Proxy Title</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L18) |
+| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L18){target="_blank"} |
 
 ---
 
@@ -65,7 +65,7 @@ Final Cut Pro Proxy Icon Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L39) |
+| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L39){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Final Cut Pro Proxy Icon Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Using Proxies?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L13) |
+| **Source**                                  | [src/plugins/finalcutpro/menu/proxyicon.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/menu/proxyicon.lua#L13){target="_blank"} |
 
 ---
 

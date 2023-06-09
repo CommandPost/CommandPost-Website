@@ -32,7 +32,7 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>An `hs.spaces.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L69) |
+| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 69](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L69){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L95) |
+| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 95](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L95){target="_blank"} |
 
 ---
 
@@ -66,7 +66,7 @@ NOTE: This extension determines the number of a Space, using OS X APIs that have
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L128) |
+| **Source**                                  | [extensions/spaces/libspaces_watcher.m line 128](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/spaces/libspaces_watcher.m#L128){target="_blank"} |
 
 ---
 

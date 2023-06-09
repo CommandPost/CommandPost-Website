@@ -36,7 +36,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24) |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130) |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ require("cp.docs").generate()
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53) |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53){target="_blank"} |
 
 ---
 

@@ -30,7 +30,7 @@ Add Note Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/addnote.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/addnote.lua#L36) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/addnote.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/addnote.lua#L36){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Add Note Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of recent notes.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/addnote.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/addnote.lua#L31) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/addnote.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/addnote.lua#L31){target="_blank"} |
 
 ---
 

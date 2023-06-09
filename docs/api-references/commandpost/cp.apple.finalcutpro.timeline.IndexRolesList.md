@@ -37,7 +37,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L111) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L111){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L98) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L98){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L144) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L144){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L165) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L165){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L186) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L186){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L249) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L249){target="_blank"} |
 
 ---
 
@@ -133,7 +133,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L228) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L228){target="_blank"} |
 
 ---
 
@@ -149,7 +149,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L207) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 207](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L207){target="_blank"} |
 
 ---
 
@@ -165,7 +165,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md), or `nil` if no UI is currently available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L50) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L50){target="_blank"} |
 
 ---
 
@@ -181,7 +181,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>The [Role](cp.apple.finalcutpro.timeline.Role.md), or `nil` if it can't be found.</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L124) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L124){target="_blank"} |
 
 ---
 
@@ -197,7 +197,7 @@ Timeline Index Roles List.
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L85) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesList.lua#L85){target="_blank"} |
 
 ---
 

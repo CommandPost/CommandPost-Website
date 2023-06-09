@@ -39,7 +39,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>A cp.core.utilities.manager.panel object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L16) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L16){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The same panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table may contain:</li><li> ** `id`        - (optional) the unique ID for the button. If none is provided, one is generated.</li><li> ** `value`     - The value of the button. This is sent to the `onclick` function.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li><li> ** `onclick`   - the function to execute when the button is clicked. The function should have the signature of `function(id, value)`, where `id` is the id of the button that was clicked, and `value` is the value of the button.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L303) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L303){target="_blank"} |
 
 ---
 
@@ -73,7 +73,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`         - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`       - (optional) The name of the checkbox field.</li><li> ** `label`      - (optional) The text label to display after the checkbox.</li><li> ** `onchange`   - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`      - (optional) the CSS class list to apply to the checkbox.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L198) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L198){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L107) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L107){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L130) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L130){target="_blank"} |
 
 ---
 
@@ -121,7 +121,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L236) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L236){target="_blank"} |
 
 ---
 
@@ -137,7 +137,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L183) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L183){target="_blank"} |
 
 ---
 
@@ -153,7 +153,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L276) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L276){target="_blank"} |
 
 ---
 
@@ -169,7 +169,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 332](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L332) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 332](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L332){target="_blank"} |
 
 ---
 
@@ -185,7 +185,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L249) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L249){target="_blank"} |
 
 ---
 
@@ -201,7 +201,7 @@ CommandPost Preferences Panel.
 | **Returns**                                 | <ul><li>The toolbar item as a table.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L44) |
+| **Source**                                  | [src/plugins/core/toolbox/manager/panel.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/toolbox/manager/panel.lua#L44){target="_blank"} |
 
 ---
 

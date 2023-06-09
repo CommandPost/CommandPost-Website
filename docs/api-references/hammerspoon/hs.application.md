@@ -78,7 +78,7 @@ Manipulate running applications
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing UTF8 representations of the defined key glyphs used in Menus for keyboard shortcuts which are presented pictorially rather than as text (arrow keys, return key, etc.)                                                                     |
 | **Notes**                                   | <ul><li>a `__tostring` metamethod is provided for this table so you can view its current contents by typing `hs.application.menuGlyphs` into the Hammerspoon console.</li><li>This table is provided as a variable so that you can change any representation if you feel you know of a better or more appropriate one for you usage at runtime.</li><li></li><li>The glyphs provided are defined in the Carbon framework headers in the Menus.h file, located (as of 10.11) at /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Menus.h.</li><li>The following constants are defined in Menus.h, but do not seem to correspond to a visible UTF8 character or well defined representation that I could discover.  If you believe that you know of a (preferably sanctioned by Apple) proper visual representation, please submit an issue detailing it at the Hammerspoon repository on GitHub.</li><li>  kMenuNullGlyph, 0x00, Null (always glyph 1)</li><li>  kMenuNonmarkingReturnGlyph, 0x0D, Nonmarking return key</li><li>  kMenuParagraphKoreanGlyph, 0x15, Unassigned (paragraph in Korean)</li><li>  kMenuTrademarkJapaneseGlyph, 0x1F, Unassigned (trademark in Japanese)</li><li>  kMenuAppleLogoOutlineGlyph, 0x6C, Apple logo key (outline)</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 239](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L239) |
+| **Source**                                  | [extensions/application/application.lua line 239](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L239){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>An hs.application object if one can be found, otherwise nil</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 54](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L54) |
+| **Source**                                  | [extensions/application/libapplication.m line 54](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L54){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table of zero or more hs.application objects that match the given identifier</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 71](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L71) |
+| **Source**                                  | [extensions/application/libapplication.m line 71](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L71){target="_blank"} |
 
 ---
 
@@ -128,7 +128,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing a bundle ID, or nil if none could be found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 215](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L215) |
+| **Source**                                  | [extensions/application/libapplication.m line 215](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L215){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>the current, possibly changed, state</li></ul>          |
 | **Notes**                                   | <ul><li>This setting is persistent across reloading and restarting Hammerspoon.</li><li>If this was set to true and you set it to true again, it will purge the alternate name map and rebuild it from scratch.</li><li>You can disable Spotlight alternate name mapping by setting this value to false or nil. If you set this to false, then the notifications indicating that more results might be possible if Spotlight is enabled will be suppressed.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 429](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L429) |
+| **Source**                                  | [extensions/application/application.lua line 429](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L429){target="_blank"} |
 
 ---
 
@@ -160,7 +160,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>An hs.application object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L21) |
+| **Source**                                  | [extensions/application/libapplication.m line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L21){target="_blank"} |
 
 ---
 
@@ -176,7 +176,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing information about the application, or nil if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 119](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L119) |
+| **Source**                                  | [extensions/application/libapplication.m line 119](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L119){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing information about the application, or nil if the bundle could not be located</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 199](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L199) |
+| **Source**                                  | [extensions/application/libapplication.m line 199](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L199){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>True if the application was either launched or focused, otherwise false (e.g. if the application doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul><li>The name parameter should match the name of the application on disk, e.g. "IntelliJ IDEA", rather than "IntelliJ"</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 1092](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1092) |
+| **Source**                                  | [extensions/application/libapplication.m line 1092](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1092){target="_blank"} |
 
 ---
 
@@ -224,7 +224,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>True if the application was either launched or focused, otherwise false (e.g. if the application doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul><li>Bundle identifiers typically take the form of `com.company.ApplicationName`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 1111](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1111) |
+| **Source**                                  | [extensions/application/libapplication.m line 1111](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1111){target="_blank"} |
 
 ---
 
@@ -240,7 +240,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing language IDs for all the localizations contained in the bundle.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L167) |
+| **Source**                                  | [extensions/application/libapplication.m line 167](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L167){target="_blank"} |
 
 ---
 
@@ -256,7 +256,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing language IDs for all the localizations contained in the bundle.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L183) |
+| **Source**                                  | [extensions/application/libapplication.m line 183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L183){target="_blank"} |
 
 ---
 
@@ -272,7 +272,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing the application name, or nil if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L87) |
+| **Source**                                  | [extensions/application/libapplication.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L87){target="_blank"} |
 
 ---
 
@@ -288,7 +288,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing the app bundle's filesystem path, or nil if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L103) |
+| **Source**                                  | [extensions/application/libapplication.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L103){target="_blank"} |
 
 ---
 
@@ -304,7 +304,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing language IDs for localizations in the bundle. The strings are ordered according to the user's language preferences and available localizations.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 135](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L135) |
+| **Source**                                  | [extensions/application/libapplication.m line 135](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L135){target="_blank"} |
 
 ---
 
@@ -320,7 +320,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing language IDs for localizations in the bundle. The strings are ordered according to the user's language preferences and available localizations.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 151](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L151) |
+| **Source**                                  | [extensions/application/libapplication.m line 151](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L151){target="_blank"} |
 
 ---
 
@@ -336,7 +336,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing zero or more hs.application objects currently running on the system</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L37) |
+| **Source**                                  | [extensions/application/libapplication.m line 37](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L37){target="_blank"} |
 
 ---
 
@@ -354,7 +354,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>one or more hs.application objects for running applications that match the supplied search criterion, or `nil` if none found</li></ul>          |
 | **Notes**                                   | <ul><li>If multiple results are found, this function will return multiple values. See [https://www.lua.org/pil/5.1.html](https://www.lua.org/pil/5.1.html) for more information on how to work with this</li><li>for convenience you can call this as `hs.application(hint)`</li><li>use this function when you don't know the exact name of an application you're interested in, i.e.</li><li>   from the console: `hs.application'term' --> hs.application: iTerm2 (0x61000025fb88)  hs.application: Terminal (0x618000447588)`.</li><li>   But be careful when using it in your `init.lua`: `terminal=hs.application'term'` will assign either "Terminal" or "iTerm2" arbitrarily (or even,</li><li>   if neither are running, any other app with a window that happens to have "term" in its title); to make sure you get the right app in your scripts,</li><li>   use `hs.application.get` with the exact name: `terminal=hs.application.get'Terminal' --> "Terminal" app, or nil if it's not running`</li><li></li><li>Usage:</li><li>-- by pid</li><li>hs.application(42):name() --> Finder</li><li>-- by bundle id</li><li>hs.application'com.apple.Safari':name() --> Safari</li><li>-- by name</li><li>hs.application'chrome':name() --> Google Chrome</li><li>-- by window title</li><li>hs.application'bash':name() --> Terminal</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 106](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L106) |
+| **Source**                                  | [extensions/application/application.lua line 106](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L106){target="_blank"} |
 
 ---
 
@@ -370,7 +370,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>an hs.application object for a running application that matches the supplied search criterion, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>see also `hs.application.find`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L87) |
+| **Source**                                  | [extensions/application/application.lua line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L87){target="_blank"} |
 
 ---
 
@@ -386,7 +386,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>the `hs.application` object for the launched or activated application; `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>the `wait` parameter will *block all Hammerspoon activity* in order to return the application object "synchronously"; only use it if you</li><li>   a) have no time-critical event processing happening elsewhere in your `init.lua` and b) need to act on the application object, or on</li><li>   its window(s), right away</li><li>when launching a "windowless" app (background daemon, menulet, etc.) make sure to omit `waitForFirstWindow`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L202) |
+| **Source**                                  | [extensions/application/application.lua line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L202){target="_blank"} |
 
 ---
 
@@ -404,7 +404,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean value indicating whether or not the application could be activated</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L62) |
+| **Source**                                  | [extensions/application/application.lua line 62](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L62){target="_blank"} |
 
 ---
 
@@ -420,7 +420,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table of zero or more hs.window objects owned by the application</li></ul>          |
 | **Notes**                                   | <ul><li>This function can only return windows in the current Mission Control Space; if you need to address windows across</li><li>   different Spaces you can use the `hs.window.filter` module</li><li>   - if `Displays have separate Spaces` is *on* (in System Preferences>Mission Control) the current Space is defined</li><li>     as the union of all currently visible Spaces</li><li>   - minimized windows and hidden windows (i.e. belonging to hidden apps, e.g. via cmd-h) are always considered</li><li>     to be in the current Space</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L246) |
+| **Source**                                  | [extensions/application/libapplication.m line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L246){target="_blank"} |
 
 ---
 
@@ -436,7 +436,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing the bundle identifier of the application</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 349](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L349) |
+| **Source**                                  | [extensions/application/libapplication.m line 349](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L349){target="_blank"} |
 
 ---
 
@@ -452,7 +452,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>Returns nil if the menu item cannot be found. If it does exist, returns a table with two keys:</li><li> enabled - whether the menu item can be selected/ticked. This will always be false if the application is not currently focussed</li><li> ticked - whether the menu item is ticked or not (obviously this value is meaningless for menu items that can't be ticked)</li></ul>          |
 | **Notes**                                   | <ul><li>This can only search for menu items that don't have children - i.e. you can't search for the name of a submenu</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 764](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L764) |
+| **Source**                                  | [extensions/application/libapplication.m line 764](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L764){target="_blank"} |
 
 ---
 
@@ -468,7 +468,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>one or more hs.window objects belonging to this application that match the supplied search criterion, or `nil` if none found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L175) |
+| **Source**                                  | [extensions/application/application.lua line 175](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L175){target="_blank"} |
 
 ---
 
@@ -484,7 +484,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>An hs.window object representing the window of the application that currently has focus, or nil if there are none</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L289) |
+| **Source**                                  | [extensions/application/libapplication.m line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L289){target="_blank"} |
 
 ---
 
@@ -500,7 +500,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>If no argument is provided, returns a table containing the menu structure of the application, or nil if an error occurred. If a callback function is provided, the callback function will receive this table (or nil) and this method will return the application object this method was invoked on.</li></ul>          |
 | **Notes**                                   | <ul><li>In some applications, this can take a little while to complete, because quite a large number of round trips are required to the source application, to get the information. When this method is invoked without a callback function, Hammerspoon will block while creating the menu structure table.  When invoked with a callback function, the menu structure is built in a background thread.</li><li></li><li>The table is nested with the same structure as the menus of the application. Each item has several keys containing information about the menu item. Not all keys will appear for all items. The possible keys are:</li><li> AXTitle - A string containing the text of the menu item (entries which have no title are menu separators)</li><li> AXEnabled - A boolean, 1 if the menu item is clickable, 0 if not</li><li> AXRole - A string containing the role of the menu item - this will be either AXMenuBarItem for a top level menu, or AXMenuItem for an item in a menu</li><li> AXMenuItemMarkChar - A string containing the "mark" character for a menu item. This is for toggleable menu items and will usually be an empty string or a Unicode tick character (✓)</li><li> AXMenuItemCmdModifiers - A table containing string representations of the keyboard modifiers for the menu item's keyboard shortcut, or nil if no modifiers are present</li><li> AXMenuItemCmdChar - A string containing the key for the menu item's keyboard shortcut, or an empty string if no shortcut is present</li><li> AXMenuItemCmdGlyph - An integer, corresponding to one of the defined glyphs in `hs.application.menuGlyphs` if the keyboard shortcut is a special character usually represented by a pictorial representation (think arrow keys, return, etc), or an empty string if no glyph is used in presenting the keyboard shortcut.</li><li>Using `hs.inspect()` on these tables, while useful for exploration, can be extremely slow, taking several minutes to correctly render very complex menus</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 1025](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1025) |
+| **Source**                                  | [extensions/application/libapplication.m line 1025](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1025){target="_blank"} |
 
 ---
 
@@ -516,7 +516,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>the desired hs.window object belonging to this application, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L189) |
+| **Source**                                  | [extensions/application/application.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L189){target="_blank"} |
 
 ---
 
@@ -532,7 +532,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean indicating whether the application was successfully hidden</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 421](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L421) |
+| **Source**                                  | [extensions/application/libapplication.m line 421](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L421){target="_blank"} |
 
 ---
 
@@ -548,7 +548,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>True if the application is the frontmost application, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 490](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L490) |
+| **Source**                                  | [extensions/application/libapplication.m line 490](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L490){target="_blank"} |
 
 ---
 
@@ -564,7 +564,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean indicating whether the application is hidden or not</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L473) |
+| **Source**                                  | [extensions/application/libapplication.m line 473](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L473){target="_blank"} |
 
 ---
 
@@ -580,7 +580,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean, true if the application is running, false if not</li></ul>          |
 | **Notes**                                   | <ul><li>If an application is terminated and re-launched, this method will still return false, as `hs.application` objects are tied to a specific instance of an application (i.e. its PID)</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 383](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L383) |
+| **Source**                                  | [extensions/application/libapplication.m line 383](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L383){target="_blank"} |
 
 ---
 
@@ -596,7 +596,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 439](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L439) |
+| **Source**                                  | [extensions/application/libapplication.m line 439](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L439){target="_blank"} |
 
 ---
 
@@ -612,7 +612,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 456](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L456) |
+| **Source**                                  | [extensions/application/libapplication.m line 456](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L456){target="_blank"} |
 
 ---
 
@@ -628,7 +628,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A number that is either 1 if the app is in the dock, 0 if it is not, or -1 if the application is prohibited from having GUI elements</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 547](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L547) |
+| **Source**                                  | [extensions/application/libapplication.m line 547](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L547){target="_blank"} |
 
 ---
 
@@ -644,7 +644,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>An hs.window object representing the main window of the application, or nil if it has no windows</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L272) |
+| **Source**                                  | [extensions/application/libapplication.m line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L272){target="_blank"} |
 
 ---
 
@@ -659,7 +659,7 @@ Manipulate running applications
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 82](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L82) |
+| **Source**                                  | [extensions/application/application.lua line 82](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L82){target="_blank"} |
 
 ---
 
@@ -675,7 +675,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing the filesystem path of the application or nil if the path could not be determined (e.g. if the application has terminated).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 366](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L366) |
+| **Source**                                  | [extensions/application/libapplication.m line 366](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L366){target="_blank"} |
 
 ---
 
@@ -691,7 +691,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>The UNIX process identifier of the application (i.e. a number)</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L530) |
+| **Source**                                  | [extensions/application/libapplication.m line 530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L530){target="_blank"} |
 
 ---
 
@@ -707,7 +707,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>True if the menu item was found and selected, or nil if it wasn't (e.g. because the menu item couldn't be found)</li></ul>          |
 | **Notes**                                   | <ul><li>Depending on the type of menu item involved, this will either activate or tick/untick the menu item</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 855](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L855) |
+| **Source**                                  | [extensions/application/libapplication.m line 855](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L855){target="_blank"} |
 
 ---
 
@@ -723,7 +723,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean, true if the operation was successful, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 507](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L507) |
+| **Source**                                  | [extensions/application/libapplication.m line 507](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L507){target="_blank"} |
 
 ---
 
@@ -739,7 +739,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A string containing the name of the application</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 332](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L332) |
+| **Source**                                  | [extensions/application/libapplication.m line 332](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L332){target="_blank"} |
 
 ---
 
@@ -755,7 +755,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A boolean indicating whether the application was successfully unhidden</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/libapplication.m line 403](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L403) |
+| **Source**                                  | [extensions/application/libapplication.m line 403](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L403){target="_blank"} |
 
 ---
 
@@ -771,7 +771,7 @@ Manipulate running applications
 | **Returns**                                 | <ul><li>A table containing zero or more hs.window objects</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/application/application.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L46) |
+| **Source**                                  | [extensions/application/application.lua line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L46){target="_blank"} |
 
 ---
 

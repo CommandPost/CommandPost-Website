@@ -29,7 +29,7 @@ Place the windows of an application into tabs drawn on its titlebar
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/tabs/tabs.lua line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L145) |
+| **Source**                                  | [extensions/tabs/tabs.lua line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L145){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Place the windows of an application into tabs drawn on its titlebar
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If num is higher than the number of tabs, the last tab will be focussed</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/tabs/tabs.lua line 180](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L180) |
+| **Source**                                  | [extensions/tabs/tabs.lua line 180](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L180){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ Place the windows of an application into tabs drawn on its titlebar
 | **Returns**                                 | <ul><li>An array of the tabbed windows of an app in the same order as they would be tabbed</li></ul>          |
 | **Notes**                                   | <ul><li>This function can be used when writing tab switchers</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/tabs/tabs.lua line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L33) |
+| **Source**                                  | [extensions/tabs/tabs.lua line 33](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tabs/tabs.lua#L33){target="_blank"} |
 
 ---
 

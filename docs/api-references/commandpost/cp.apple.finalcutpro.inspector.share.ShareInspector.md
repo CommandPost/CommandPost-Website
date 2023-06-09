@@ -69,7 +69,7 @@ share:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L64) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L64){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ share:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `ShareInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L87) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/share/ShareInspector.lua#L87){target="_blank"} |
 
 ---
 

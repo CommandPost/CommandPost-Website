@@ -27,7 +27,7 @@ Add a marker to all selected clips under the playhead, or all clips if only one 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/markallclips.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/markallclips.lua#L22) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/markallclips.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/markallclips.lua#L22){target="_blank"} |
 
 ---
 

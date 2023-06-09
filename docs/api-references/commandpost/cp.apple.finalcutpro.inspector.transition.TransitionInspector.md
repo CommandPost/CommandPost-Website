@@ -32,7 +32,7 @@ Transition Inspector Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Ease Types                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L107) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L107){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Transition Inspector Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Fade Types                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L116) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L116){target="_blank"} |
 
 ---
 
@@ -58,7 +58,7 @@ Transition Inspector Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Cross Dissolve Looks                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L89) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L89){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Transition Inspector Module.
 | **Returns**                                 | <ul><li>`true` if the element is a match, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L42) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L42){target="_blank"} |
 
 ---
 
@@ -94,7 +94,7 @@ Transition Inspector Module.
 | **Returns**                                 | <ul><li>A `TransitionInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L56) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/transition/TransitionInspector.lua#L56){target="_blank"} |
 
 ---
 

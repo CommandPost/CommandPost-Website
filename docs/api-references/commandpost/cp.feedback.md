@@ -31,7 +31,7 @@ Feedback Form.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview height.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L37) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L37){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Feedback Form.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview title.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L42) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L42){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ Feedback Form.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview width.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L32) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L32){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Feedback Form.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Webview Position.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L52) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L52){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ Feedback Form.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Quit on complete?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L47) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L47){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Feedback Form.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/feedback/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L162) |
+| **Source**                                  | [src/extensions/cp/feedback/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/feedback/init.lua#L162){target="_blank"} |
 
 ---
 

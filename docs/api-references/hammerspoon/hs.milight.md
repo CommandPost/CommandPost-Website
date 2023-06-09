@@ -38,7 +38,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Specifies the maximum brightness value that can be used. Defaults to 25                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L14) |
+| **Source**                                  | [extensions/milight/milight.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L14){target="_blank"} |
 
 ---
 
@@ -51,7 +51,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Specifies the minimum brightness value that can be used. Defaults to 0                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 9](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L9) |
+| **Source**                                  | [extensions/milight/milight.lua line 9](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L9){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>An `hs.milight` object</li></ul>          |
 | **Notes**                                   | <ul><li>You can not use 255.255.255.255 as the IP address, to do so requires elevated privileges for the Hammerspoon process</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/libmilight.m line 73](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L73) |
+| **Source**                                  | [extensions/milight/libmilight.m line 73](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L73){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/libmilight.m line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L121) |
+| **Source**                                  | [extensions/milight/libmilight.m line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L121){target="_blank"} |
 
 ---
 
@@ -103,7 +103,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 90](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L90) |
+| **Source**                                  | [extensions/milight/milight.lua line 90](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L90){target="_blank"} |
 
 ---
 
@@ -119,7 +119,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>This is a low level command, you typically should use a specific method for the operation you want to perform</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/libmilight.m line 140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L140) |
+| **Source**                                  | [extensions/milight/libmilight.m line 140](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/libmilight.m#L140){target="_blank"} |
 
 ---
 
@@ -135,7 +135,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>A number containing the value that was sent to the WiFi bridge, or -1 if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L107) |
+| **Source**                                  | [extensions/milight/milight.lua line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L107){target="_blank"} |
 
 ---
 
@@ -151,7 +151,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>The color value is not a normal RGB colour, but rather a lookup in an internal table in the light hardware. While any number between 0 and 255 is valid, there are some useful values worth knowing:</li><li> 00 - Violet</li><li> 16 - Royal Blue</li><li> 32 - Baby Blue</li><li> 48 - Aqua</li><li> 64 - Mint Green</li><li> 80 - Seafoam Green</li><li> 96 - Green</li><li> 112 - Lime Green</li><li> 128 - Yellow</li><li> 144 - Yellowy Orange</li><li> 160 - Orange</li><li> 176 - Red</li><li> 194 - Pink</li><li> 210 - Fuchsia</li><li> 226 - Lilac</li><li> 240 - Lavender</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L121) |
+| **Source**                                  | [extensions/milight/milight.lua line 121](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L121){target="_blank"} |
 
 ---
 
@@ -167,7 +167,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L64) |
+| **Source**                                  | [extensions/milight/milight.lua line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L64){target="_blank"} |
 
 ---
 
@@ -183,7 +183,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 77](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L77) |
+| **Source**                                  | [extensions/milight/milight.lua line 77](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L77){target="_blank"} |
 
 ---
 
@@ -199,7 +199,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 | **Returns**                                 | <ul><li>True if the command was sent correctly, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/milight/milight.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L154) |
+| **Source**                                  | [extensions/milight/milight.lua line 154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/milight/milight.lua#L154){target="_blank"} |
 
 ---
 

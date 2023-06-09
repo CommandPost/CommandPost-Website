@@ -34,7 +34,7 @@ Provides support for NIB files.
 | **Returns**                                 | <ul><li>The `table` containing the unarchived data, or `nil` if the `archive` is not a valid `NIBArchive`.</li><li>The `string` error message, if any.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L358) |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L358){target="_blank"} |
 
 ---
 

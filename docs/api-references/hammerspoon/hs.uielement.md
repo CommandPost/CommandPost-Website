@@ -39,7 +39,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>An `hs.uielement` object or nil if no object could be found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/libuielement.m line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L12) |
+| **Source**                                  | [extensions/uielement/libuielement.m line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L12){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is an application</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/uielement.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/uielement.lua#L14) |
+| **Source**                                  | [extensions/uielement/uielement.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/uielement.lua#L14){target="_blank"} |
 
 ---
 
@@ -73,7 +73,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is a window, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/libuielement.m line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L29) |
+| **Source**                                  | [extensions/uielement/libuielement.m line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L29){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>An `hs.uielement.watcher` object, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/libuielement.m line 86](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L86) |
+| **Source**                                  | [extensions/uielement/libuielement.m line 86](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L86){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A string containing the role of the UI element</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/libuielement.m line 47](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L47) |
+| **Source**                                  | [extensions/uielement/libuielement.m line 47](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L47){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ A generalized framework for working with OSX UI elements
 | **Returns**                                 | <ul><li>A string containing the selected text, or nil if none could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Many applications (e.g. Safari, Mail, Firefox) do not implement the necessary accessibility features for this to work in their web views</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/uielement/libuielement.m line 65](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L65) |
+| **Source**                                  | [extensions/uielement/libuielement.m line 65](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L65){target="_blank"} |
 
 ---
 

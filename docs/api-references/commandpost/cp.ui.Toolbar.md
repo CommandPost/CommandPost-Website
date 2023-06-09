@@ -37,7 +37,7 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L15) |
+| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L15){target="_blank"} |
 
 ---
 
@@ -55,7 +55,7 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>The new `Toolbar` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L28) |
+| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L28){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Toolbar Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "overflow" button which appears if there are more toolbar items                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L64) |
+| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L64){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ Toolbar Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The title of the first selected item, if available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L51) |
+| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L51){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Toolbar Module.
 | **Returns**                                 | <ul><li>A `Statement` that when executed returns `true` if the item was found and selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L75) |
+| **Source**                                  | [src/extensions/cp/ui/Toolbar.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Toolbar.lua#L75){target="_blank"} |
 
 ---
 

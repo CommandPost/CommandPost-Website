@@ -25,7 +25,7 @@ Adds preferences for extra FCPXML import and export options.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML export options enabled?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/advanced/fcpxml.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/fcpxml.lua#L34) |
+| **Source**                                  | [src/plugins/finalcutpro/advanced/fcpxml.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/fcpxml.lua#L34){target="_blank"} |
 
 ---
 
@@ -38,7 +38,7 @@ Adds preferences for extra FCPXML import and export options.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML import options enabled?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/advanced/fcpxml.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/fcpxml.lua#L15) |
+| **Source**                                  | [src/plugins/finalcutpro/advanced/fcpxml.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/fcpxml.lua#L15){target="_blank"} |
 
 ---
 

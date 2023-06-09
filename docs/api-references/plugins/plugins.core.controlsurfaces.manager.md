@@ -57,7 +57,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of Preferences Window                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L48) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L48){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of Preferences Window                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L53) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L53){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L73) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L73){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of banks.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L33) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L33){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of devices.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L38) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L38){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L68) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L68){target="_blank"} |
 
 ---
 
@@ -135,7 +135,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The WebView Label                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L43) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L43){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L63) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L63){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ Manager for the CommandPost Preferences Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L58) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L58){target="_blank"} |
 
 ---
 
@@ -181,7 +181,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L104) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L104){target="_blank"} |
 
 ---
 
@@ -197,7 +197,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `closeFn`       - A callback function that's triggered when the Preferences window is closed.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 674](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L674) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 674](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L674){target="_blank"} |
 
 ---
 
@@ -213,7 +213,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>The panel ID as a string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L162) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L162){target="_blank"} |
 
 ---
 
@@ -229,7 +229,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>`true` if successful or otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L504) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L504){target="_blank"} |
 
 ---
 
@@ -245,7 +245,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L118) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L118){target="_blank"} |
 
 ---
 
@@ -261,7 +261,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L91) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L91){target="_blank"} |
 
 ---
 
@@ -277,7 +277,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L78) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L78){target="_blank"} |
 
 ---
 
@@ -293,7 +293,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 523](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L523) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 523](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L523){target="_blank"} |
 
 ---
 
@@ -309,7 +309,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L244) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L244){target="_blank"} |
 
 ---
 
@@ -325,7 +325,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 561](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L561) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 561](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L561){target="_blank"} |
 
 ---
 
@@ -341,7 +341,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L259) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L259){target="_blank"} |
 
 ---
 
@@ -357,7 +357,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L300) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L300){target="_blank"} |
 
 ---
 
@@ -373,7 +373,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 539](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L539) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 539](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L539){target="_blank"} |
 
 ---
 
@@ -389,7 +389,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 582](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L582) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 582](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L582){target="_blank"} |
 
 ---
 
@@ -405,7 +405,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L131) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L131){target="_blank"} |
 
 ---
 
@@ -421,7 +421,7 @@ Manager for the CommandPost Preferences Window.
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L472) |
+| **Source**                                  | [src/plugins/core/controlsurfaces/manager/init.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/controlsurfaces/manager/init.lua#L472){target="_blank"} |
 
 ---
 

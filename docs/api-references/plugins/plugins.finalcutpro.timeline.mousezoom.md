@@ -37,7 +37,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should Mouse Zoom be inverted?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L83) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L83){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Enable Proxy Menu Icon                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L73) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L73){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Number of Touch Devices Detected.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L41) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L41){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Offset Value used in difference calculations.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L46) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L46){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Sensitivity Level                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L88) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L88){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Threshold Value used in difference calculations.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L51) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L51){target="_blank"} |
 
 ---
 
@@ -120,7 +120,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L226) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L226){target="_blank"} |
 
 ---
 
@@ -136,7 +136,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 454](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L454) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 454](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L454){target="_blank"} |
 
 ---
 
@@ -152,7 +152,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L163) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L163){target="_blank"} |
 
 ---
 
@@ -168,7 +168,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L56) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/mousezoom.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/mousezoom.lua#L56){target="_blank"} |
 
 ---
 

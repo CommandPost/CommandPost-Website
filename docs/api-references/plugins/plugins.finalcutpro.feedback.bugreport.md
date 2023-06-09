@@ -31,7 +31,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L33) |
+| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L33){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L28) |
+| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L28){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L257) |
+| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L257){target="_blank"} |
 
 ---
 
@@ -77,7 +77,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L38) |
+| **Source**                                  | [src/plugins/finalcutpro/feedback/bugreport.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/feedback/bugreport.lua#L38){target="_blank"} |
 
 ---
 

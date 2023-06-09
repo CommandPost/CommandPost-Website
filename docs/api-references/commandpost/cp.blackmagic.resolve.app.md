@@ -27,7 +27,7 @@ The `cp.app` for Blackmagic DaVinci Resolve.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for DaVinci Resolve.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L30) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L30){target="_blank"} |
 
 ---
 
@@ -42,7 +42,7 @@ The `cp.app` for Blackmagic DaVinci Resolve.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for DaVinci Resolve, or `nil` if it's not running.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L48) |
+| **Source**                                  | [src/extensions/cp/blackmagic/resolve/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/blackmagic/resolve/init.lua#L48){target="_blank"} |
 
 ---
 

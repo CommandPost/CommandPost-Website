@@ -31,7 +31,7 @@ Shutdown Callback Module.
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L403) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L403){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ Shutdown Callback Module.
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L364) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L364){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Shutdown Callback Module.
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 377](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L377) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 377](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L377){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ Shutdown Callback Module.
 | **Returns**                                 | <ul><li>The ID of the current Shutdown Callback as a `string`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L390) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 390](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L390){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ Shutdown Callback Module.
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L337) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 337](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L337){target="_blank"} |
 
 ---
 

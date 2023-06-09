@@ -29,7 +29,7 @@ Browser Keywords Presets.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of presets available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L22) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L22){target="_blank"} |
 
 ---
 
@@ -42,7 +42,7 @@ Browser Keywords Presets.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L27) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L27){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Browser Keywords Presets.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L64) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L64){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Browser Keywords Presets.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L32) |
+| **Source**                                  | [src/plugins/finalcutpro/browser/keywords.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/browser/keywords.lua#L32){target="_blank"} |
 
 ---
 

@@ -33,7 +33,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L27) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L27){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Commands](cp.apple.finalcutpro.cmd.Commands.md) for this CommandList.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L77) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L77){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandGroups](cp.apple.finalcutpro.cmd.CommandGroups.md) for this CommandList.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L63) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L63){target="_blank"} |
 
 ---
 
@@ -74,7 +74,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The StaticText that displays the label.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L45) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L45){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Splitter](cp.ui.Splitter.md) for this CommandList.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L70) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/CommandList.lua#L70){target="_blank"} |
 
 ---
 

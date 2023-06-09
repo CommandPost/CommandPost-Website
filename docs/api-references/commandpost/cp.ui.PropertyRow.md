@@ -51,7 +51,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Defines the buffer for intersections with the `labelUI`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L37) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L37){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>`true` if the parent is prepared.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L84) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L84){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>`true` if the element could be a property row.</li></ul>          |
 | **Notes**                                   | <ul><li>This does not guarantee that it *is* a property row element, just that it could be.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L97) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L97){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The `cp.prop` which provides access to the finder, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L42) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L42){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L55) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L55){target="_blank"} |
 
 ---
 
@@ -135,7 +135,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The new `PropertyRow` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If you have more than one row with the same label, specify the `index` - specifying `2` will match with the second instance, for example.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L113) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L113){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The label of the property row, in the current langauge.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L191) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L191){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for the label UI.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L133) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L133){target="_blank"} |
 
 ---
 
@@ -176,7 +176,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` from the parent that contains the properties.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L184) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L184){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `reset` button for the row, which may or may not actually exist.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L208) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L208){target="_blank"} |
 
 ---
 
@@ -202,7 +202,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for the row.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L150) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L150){target="_blank"} |
 
 ---
 
@@ -220,7 +220,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>App</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L236) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 236](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L236){target="_blank"} |
 
 ---
 
@@ -236,7 +236,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>A table of children or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L319) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L319){target="_blank"} |
 
 ---
 
@@ -252,7 +252,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L293) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L293){target="_blank"} |
 
 ---
 
@@ -268,7 +268,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L263) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 263](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L263){target="_blank"} |
 
 ---
 
@@ -284,7 +284,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>The same `PropertyRow` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L169) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L169){target="_blank"} |
 
 ---
 
@@ -300,7 +300,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L276) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L276){target="_blank"} |
 
 ---
 
@@ -316,7 +316,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L306) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L306){target="_blank"} |
 
 ---
 
@@ -332,7 +332,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>parent</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L223) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 223](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L223){target="_blank"} |
 
 ---
 
@@ -348,7 +348,7 @@ Represents a single property row, typically in a Property Inspector.
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L249) |
+| **Source**                                  | [src/extensions/cp/ui/PropertyRow.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/PropertyRow.lua#L249){target="_blank"} |
 
 ---
 

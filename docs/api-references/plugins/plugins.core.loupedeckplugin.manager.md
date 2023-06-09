@@ -42,7 +42,7 @@ Loupedeck Plugin Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of favourites                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L38) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L38){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ Loupedeck Plugin Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A `cp.prop` that that contains all the Monogram Favourites.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L63) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L63){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Loupedeck Plugin Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of actions that are triggered by the callback function.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L68) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L68){target="_blank"} |
 
 ---
 
@@ -88,7 +88,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false` if fails.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L199) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L199){target="_blank"} |
 
 ---
 
@@ -104,7 +104,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L73) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L73){target="_blank"} |
 
 ---
 
@@ -120,7 +120,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>Will always return `true`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L379) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L379){target="_blank"} |
 
 ---
 
@@ -136,7 +136,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/loupedeckplugin/init.lua line 942](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/loupedeckplugin/init.lua#L942) |
+| **Source**                                  | [src/plugins/finalcutpro/loupedeckplugin/init.lua line 942](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/loupedeckplugin/init.lua#L942){target="_blank"} |
 
 ---
 
@@ -152,7 +152,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L134) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L134){target="_blank"} |
 
 ---
 
@@ -168,7 +168,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>`true` if Loupedeck Plugin support is enabled, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L405) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 405](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L405){target="_blank"} |
 
 ---
 
@@ -184,7 +184,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L149) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L149){target="_blank"} |
 
 ---
 
@@ -200,7 +200,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L173) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L173){target="_blank"} |
 
 ---
 
@@ -216,7 +216,7 @@ Loupedeck Plugin Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L293) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L293){target="_blank"} |
 
 ---
 
@@ -231,7 +231,7 @@ Loupedeck Plugin Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Monogram Support.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L188) |
+| **Source**                                  | [src/plugins/core/loupedeckplugin/manager/init.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckplugin/manager/init.lua#L188){target="_blank"} |
 
 ---
 

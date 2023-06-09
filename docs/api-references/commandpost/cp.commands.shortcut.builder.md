@@ -28,7 +28,7 @@ Shortcut Commands Builder Module.
 | **Returns**                                 | <ul><li>`self` if no `keyCode` is provided, or the original `command`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L291) |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L291){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Shortcut Commands Builder Module.
 | **Returns**                                 | <ul><li>The builder instance</li></ul>          |
 | **Notes**                                   | <ul><li>If provided, the receiver function will be called when the shortcut has been configured, and passed the new shortcut. The result of that function will be returned to the next stage.</li><li>If no `receiverFn` is provided, the shortcut will be returned directly.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L269) |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L269){target="_blank"} |
 
 ---
 

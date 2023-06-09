@@ -34,7 +34,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The new `env` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L21) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L21){target="_blank"} |
 
 ---
 
@@ -52,7 +52,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>It returns a function which can have a `model` table passed in which will provide variables/functions/etc that the template can access while rendering. The function can be reused multiple times with different context values.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L102) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L102){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The absolute path to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L37) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L37){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The absolute URL to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L60) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L60){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>The contents of the resouce, or `nil` if the file does not exist.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L78) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L78){target="_blank"} |
 
 ---
 
@@ -116,7 +116,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>The `model` is a table which will provide variables/functions/etc that the template can access while rendering.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plugins/env.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L146) |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L146){target="_blank"} |
 
 ---
 

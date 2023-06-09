@@ -45,7 +45,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L37) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L37){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Find" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L54) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L54){target="_blank"} |
 
 ---
 
@@ -73,7 +73,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Loop search" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L109) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L109){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Match case" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L87) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L87){target="_blank"} |
 
 ---
 
@@ -99,7 +99,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Next" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L164) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L164){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Previous" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L153) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L153){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L131) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L131){target="_blank"} |
 
 ---
 
@@ -138,7 +138,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace All" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L120) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L120){target="_blank"} |
 
 ---
 
@@ -151,7 +151,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace & Find" [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L142) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L142){target="_blank"} |
 
 ---
 
@@ -164,7 +164,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L65) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L65){target="_blank"} |
 
 ---
 
@@ -177,7 +177,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Search In" [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L76) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L76){target="_blank"} |
 
 ---
 
@@ -190,7 +190,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Whole words" [CheckBox](cp.ui.CheckBox.md).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L98) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L98){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L248) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L248){target="_blank"} |
 
 ---
 
@@ -224,7 +224,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L192) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L192){target="_blank"} |
 
 ---
 
@@ -240,7 +240,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L175) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/FindAndReplaceTitleText.lua#L175){target="_blank"} |
 
 ---
 

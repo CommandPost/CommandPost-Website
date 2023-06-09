@@ -31,7 +31,7 @@ File Dropped to Dock Icon Callback
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 591](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L591) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 591](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L591){target="_blank"} |
 
 ---
 
@@ -47,7 +47,7 @@ File Dropped to Dock Icon Callback
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 552](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L552) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 552](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L552){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ File Dropped to Dock Icon Callback
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L565) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L565){target="_blank"} |
 
 ---
 
@@ -79,7 +79,7 @@ File Dropped to Dock Icon Callback
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 578](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L578) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 578](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L578){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ File Dropped to Dock Icon Callback
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/config/init.lua line 525](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L525) |
+| **Source**                                  | [src/extensions/cp/config/init.lua line 525](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/config/init.lua#L525){target="_blank"} |
 
 ---
 

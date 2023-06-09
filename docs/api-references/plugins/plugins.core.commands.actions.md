@@ -32,7 +32,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>`true` if the action was executed successfully.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/commands/actions.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L113) |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L113){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/commands/actions.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L100) |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L100){target="_blank"} |
 
 ---
 
@@ -64,7 +64,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/commands/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L39) |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L39){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/commands/actions.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L67) |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L67){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Registers itself with the `core.action.manager`.
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/commands/actions.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L154) |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L154){target="_blank"} |
 
 ---
 

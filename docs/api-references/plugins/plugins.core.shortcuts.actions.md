@@ -29,7 +29,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A counter to detect how many times the event tap has been triggered.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L34) |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L34){target="_blank"} |
 
 ---
 
@@ -42,7 +42,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of held down modifier keys.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L29) |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L29){target="_blank"} |
 
 ---
 
@@ -60,7 +60,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L39) |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L39){target="_blank"} |
 
 ---
 
@@ -76,7 +76,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L53) |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L53){target="_blank"} |
 
 ---
 

@@ -38,7 +38,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A string representing the ID of the bundle Hammerspoon's settings are stored in . You can use this with the command line tool `defaults` or other tools which allow access to the `User Defaults` of applications, to access these outside of Hammerspoon                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 326](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L326) |
+| **Source**                                  | [extensions/settings/libsettings.m line 326](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L326){target="_blank"} |
 
 ---
 
@@ -51,7 +51,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A string representing the expected format of date and time when presenting the date and time as a string to `hs.setDate()`.  e.g. `os.date(hs.settings.dateFormat)`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L320) |
+| **Source**                                  | [extensions/settings/libsettings.m line 320](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L320){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A boolean, true if the setting was deleted, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L179) |
+| **Source**                                  | [extensions/settings/libsettings.m line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L179){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>The value of the setting</li></ul>          |
 | **Notes**                                   | <ul><li>This function can load all of the datatypes supported by `hs.settings.set()`, `hs.settings.setData()` and `hs.settings.setDate()`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L157) |
+| **Source**                                  | [extensions/settings/libsettings.m line 157](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L157){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>A table containing all of the settings keys in Hammerspoon's settings</li></ul>          |
 | **Notes**                                   | <ul><li>Use `ipairs(hs.settings.getKeys())` to iterate over all available settings</li><li>Use `hs.settings.getKeys()["someKey"]` to test for the existence of a particular key</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 200](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L200) |
+| **Source**                                  | [extensions/settings/libsettings.m line 200](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L200){target="_blank"} |
 
 ---
 
@@ -122,7 +122,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If no val parameter is provided, it is assumed to be nil</li><li>This function cannot set dates or raw data types, see `hs.settings.setDate()` and `hs.settings.setData()`</li><li>Assigning a nil value is equivalent to clearing the value with `hs.settings.clear`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 49](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L49) |
+| **Source**                                  | [extensions/settings/libsettings.m line 49](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L49){target="_blank"} |
 
 ---
 
@@ -138,7 +138,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 91](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L91) |
+| **Source**                                  | [extensions/settings/libsettings.m line 91](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L91){target="_blank"} |
 
 ---
 
@@ -154,7 +154,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>See `hs.settings.dateFormat` for a convenient representation of the RFC3339 format, to use with other time/date related functions</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 129](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L129) |
+| **Source**                                  | [extensions/settings/libsettings.m line 129](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L129){target="_blank"} |
 
 ---
 
@@ -170,7 +170,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 | **Returns**                                 | <ul><li>if a callback is set or removed, returns the identifier; otherwise returns the current callback function or nil if no callback function is currently defined.</li></ul>          |
 | **Notes**                                   | <ul><li>the identifier is required so that multiple callbacks for the same key can be registered by separate modules; it's value doesn't affect what is being watched but does need to be unique between multiple watchers of the same key.</li><li>Does not work with keys that include a period (.) in the key name because KVO uses dot notation to specify a sequence of properties.  If you know of a way to escape periods so that they are watchable as NSUSerDefault key names, please file an issue and share!</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/settings/libsettings.m line 230](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L230) |
+| **Source**                                  | [extensions/settings/libsettings.m line 230](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/settings/libsettings.m#L230){target="_blank"} |
 
 ---
 

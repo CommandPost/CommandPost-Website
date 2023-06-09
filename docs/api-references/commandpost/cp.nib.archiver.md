@@ -33,7 +33,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Marks the data stream as an `NIBArchive`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L324) |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L324){target="_blank"} |
 
 ---
 
@@ -51,7 +51,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>`true` if the `data` is an NIBArchive, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L329) |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 329](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L329){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>The new `cp.nib.archiver` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L343) |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L343){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Returns**                                 | <ul><li>A `table` containing the archive data, or `nil` if the file could not be read.</li><li>The `string` error message, if any.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L381) |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L381){target="_blank"} |
 
 ---
 

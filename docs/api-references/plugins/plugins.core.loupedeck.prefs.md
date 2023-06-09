@@ -30,7 +30,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L44) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L44){target="_blank"} |
 
 ---
 
@@ -43,7 +43,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L49) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L49){target="_blank"} |
 
 ---
 
@@ -56,7 +56,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L69) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L69){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L74) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L74){target="_blank"} |
 
 ---
 
@@ -82,7 +82,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the last selected item in the Preferences was a button.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L59) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L59){target="_blank"} |
 
 ---
 
@@ -95,7 +95,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last label used in the Preferences panel.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L64) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L64){target="_blank"} |
 
 ---
 
@@ -108,7 +108,7 @@ Loupedeck+ Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last note used in the Preferences panel.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L54) |
+| **Source**                                  | [src/plugins/core/loupedeck/prefs/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeck/prefs/init.lua#L54){target="_blank"} |
 
 ---
 

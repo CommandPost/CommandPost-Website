@@ -100,7 +100,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L26) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L26){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L39) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L39){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L256) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L256){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L75) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L75){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L375) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L375){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L196) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L196){target="_blank"} |
 
 ---
 
@@ -198,7 +198,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 230](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L230) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 230](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L230){target="_blank"} |
 
 ---
 
@@ -214,7 +214,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L143) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L143){target="_blank"} |
 
 ---
 
@@ -230,7 +230,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L170) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L170){target="_blank"} |
 
 ---
 
@@ -246,7 +246,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L90) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L90){target="_blank"} |
 
 ---
 
@@ -262,7 +262,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L122) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L122){target="_blank"} |
 
 ---
 
@@ -278,7 +278,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L274) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L274){target="_blank"} |
 
 ---
 
@@ -294,7 +294,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L103) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L103){target="_blank"} |
 
 ---
 
@@ -310,7 +310,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2983](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2983) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2983](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2983){target="_blank"} |
 
 ---
 
@@ -328,7 +328,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L317) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L317){target="_blank"} |
 
 ---
 
@@ -344,7 +344,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 453](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L453) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 453](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L453){target="_blank"} |
 
 ---
 
@@ -360,7 +360,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 487](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L487) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 487](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L487){target="_blank"} |
 
 ---
 
@@ -376,7 +376,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L545) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L545){target="_blank"} |
 
 ---
 
@@ -392,7 +392,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 604](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L604) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 604](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L604){target="_blank"} |
 
 ---
 
@@ -408,7 +408,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 667](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L667) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 667](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L667){target="_blank"} |
 
 ---
 
@@ -424,7 +424,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L680) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L680){target="_blank"} |
 
 ---
 
@@ -440,7 +440,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 739](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L739) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 739](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L739){target="_blank"} |
 
 ---
 
@@ -456,7 +456,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 800](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L800) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 800](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L800){target="_blank"} |
 
 ---
 
@@ -472,7 +472,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 854](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L854) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 854](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L854){target="_blank"} |
 
 ---
 
@@ -488,7 +488,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 896](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L896) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 896](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L896){target="_blank"} |
 
 ---
 
@@ -504,7 +504,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 950](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L950) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 950](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L950){target="_blank"} |
 
 ---
 
@@ -520,7 +520,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 989](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L989) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 989](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L989){target="_blank"} |
 
 ---
 
@@ -536,7 +536,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1022](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1022) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1022](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1022){target="_blank"} |
 
 ---
 
@@ -552,7 +552,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) for the subscription.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L296) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L296){target="_blank"} |
 
 ---
 
@@ -568,7 +568,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1061](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1061) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1061](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1061){target="_blank"} |
 
 ---
 
@@ -584,7 +584,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1100) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1100){target="_blank"} |
 
 ---
 
@@ -600,7 +600,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1211) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1211){target="_blank"} |
 
 ---
 
@@ -616,7 +616,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1264) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1264){target="_blank"} |
 
 ---
 
@@ -632,7 +632,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#next], but will throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1320](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1320) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1320](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1320){target="_blank"} |
 
 ---
 
@@ -648,7 +648,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1388](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1388) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1388](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1388){target="_blank"} |
 
 ---
 
@@ -664,7 +664,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1402) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1402){target="_blank"} |
 
 ---
 
@@ -680,7 +680,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1473](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1473) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1473](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1473){target="_blank"} |
 
 ---
 
@@ -696,7 +696,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1549](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1549) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1549](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1549){target="_blank"} |
 
 ---
 
@@ -712,7 +712,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1572](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1572) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1572](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1572){target="_blank"} |
 
 ---
 
@@ -728,7 +728,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1607](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1607) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1607](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1607){target="_blank"} |
 
 ---
 
@@ -744,7 +744,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1659) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1659){target="_blank"} |
 
 ---
 
@@ -760,7 +760,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1672) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1672){target="_blank"} |
 
 ---
 
@@ -776,7 +776,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1685) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1685){target="_blank"} |
 
 ---
 
@@ -792,7 +792,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#first], but will not throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1336) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1336){target="_blank"} |
 
 ---
 
@@ -808,7 +808,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The 'truthy' `Observable`.</li><li>The 'falsy' `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1711](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1711) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1711](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1711){target="_blank"} |
 
 ---
 
@@ -824,7 +824,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1725](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1725) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1725](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1725){target="_blank"} |
 
 ---
 
@@ -840,7 +840,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1758) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1758){target="_blank"} |
 
 ---
 
@@ -856,7 +856,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1821](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1821) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1821](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1821){target="_blank"} |
 
 ---
 
@@ -872,7 +872,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1877](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1877) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1877](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1877){target="_blank"} |
 
 ---
 
@@ -888,7 +888,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1935](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1935) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1935](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1935){target="_blank"} |
 
 ---
 
@@ -904,7 +904,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1999](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1999) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1999](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1999){target="_blank"} |
 
 ---
 
@@ -920,7 +920,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2064](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2064) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2064](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2064){target="_blank"} |
 
 ---
 
@@ -936,7 +936,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2125) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2125){target="_blank"} |
 
 ---
 
@@ -952,7 +952,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2188) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2188){target="_blank"} |
 
 ---
 
@@ -968,7 +968,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2245) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2245){target="_blank"} |
 
 ---
 
@@ -984,7 +984,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2307) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2307){target="_blank"} |
 
 ---
 
@@ -1000,7 +1000,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2368) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2368){target="_blank"} |
 
 ---
 
@@ -1016,7 +1016,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) which can be used to cancel the subscription.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L56) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L56){target="_blank"} |
 
 ---
 
@@ -1032,7 +1032,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2385) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2385){target="_blank"} |
 
 ---
 
@@ -1048,7 +1048,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2398](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2398) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2398](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2398){target="_blank"} |
 
 ---
 
@@ -1064,7 +1064,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1157) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1157){target="_blank"} |
 
 ---
 
@@ -1080,7 +1080,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2459](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2459) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2459](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2459){target="_blank"} |
 
 ---
 
@@ -1096,7 +1096,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2527](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2527) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2527](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2527){target="_blank"} |
 
 ---
 
@@ -1112,7 +1112,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2582](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2582) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2582](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2582){target="_blank"} |
 
 ---
 
@@ -1128,7 +1128,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2632](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2632) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2632](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2632){target="_blank"} |
 
 ---
 
@@ -1144,7 +1144,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2694) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2694){target="_blank"} |
 
 ---
 
@@ -1160,7 +1160,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2764](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2764) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2764](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2764){target="_blank"} |
 
 ---
 
@@ -1176,7 +1176,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2859](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2859) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2859](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2859){target="_blank"} |
 
 ---
 
@@ -1192,7 +1192,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2872](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2872) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2872](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2872){target="_blank"} |
 
 ---
 
@@ -1208,7 +1208,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2902](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2902) |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2902](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2902){target="_blank"} |
 
 ---
 

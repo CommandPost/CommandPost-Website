@@ -62,7 +62,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>a new watcher instance</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L44) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L44){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>The table of event names.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L62) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L62){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>The number of watchers.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L151) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L151){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L131) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L131){target="_blank"} |
 
 ---
 
@@ -128,7 +128,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>`true` if a watcher with the specified ID exists and was successfully removed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L111) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L111){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Returns**                                 | <ul><li>A unique ID that can be passed to `unwatch` to stop watching.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/watcher/init.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L95) |
+| **Source**                                  | [src/extensions/cp/watcher/init.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/watcher/init.lua#L95){target="_blank"} |
 
 ---
 

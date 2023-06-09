@@ -28,7 +28,7 @@ Functions for managing text on the web.
 | **Returns**                                 | <ul><li>The string, escaped for XML.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/text.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L42) |
+| **Source**                                  | [src/extensions/cp/web/text.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L42){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Functions for managing text on the web.
 | **Returns**                                 | <ul><li>The string, unescaped.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/web/text.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L19) |
+| **Source**                                  | [src/extensions/cp/web/text.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/text.lua#L19){target="_blank"} |
 
 ---
 

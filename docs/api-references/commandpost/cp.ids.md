@@ -35,7 +35,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A new `cp.ids` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L41) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L41){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A `semver` with the version number or `nil` if none is available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L61) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L61){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A table containing all the IDs</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L135) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L135){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A function that will return the value of the specified `subset` ID for the specified version.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local id = ids:of("10.4.0", "CommandEditor")</li><li>print "bar = "..id("bar")</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L187) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L187){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A function that will return the value of the specified `subset` ID for the current version.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L213) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L213){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A `semver` instance for the previous version.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L104) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L104){target="_blank"} |
 
 ---
 
@@ -133,7 +133,7 @@ Allows managing values/IDs which can vary between versions.
 | **Returns**                                 | <ul><li>A table of `semver` objects.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ids/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L74) |
+| **Source**                                  | [src/extensions/cp/ids/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ids/init.lua#L74){target="_blank"} |
 
 ---
 

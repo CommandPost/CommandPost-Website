@@ -29,7 +29,7 @@ our drawing/canvas images will not display correctly.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` the CommandPost dock icon should be hidden.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/dockicon.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/dockicon.lua#L27) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/dockicon.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/dockicon.lua#L27){target="_blank"} |
 
 ---
 
@@ -42,7 +42,7 @@ our drawing/canvas images will not display correctly.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` FCP is full-screen and the frontmost app.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/dockicon.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/dockicon.lua#L64) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/dockicon.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/dockicon.lua#L64){target="_blank"} |
 
 ---
 

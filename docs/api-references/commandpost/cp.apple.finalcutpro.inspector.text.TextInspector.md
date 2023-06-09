@@ -74,7 +74,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L85) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L85){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>A `TextInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L100) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L100){target="_blank"} |
 
 ---
 
@@ -110,7 +110,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L534) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 534](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L534){target="_blank"} |
 
 ---
 
@@ -126,7 +126,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 520](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L520) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 520](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L520){target="_blank"} |
 
 ---
 
@@ -142,7 +142,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Returns**                                 | <ul><li>TextInspector</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L504) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua line 504](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/text/TextInspector.lua#L504){target="_blank"} |
 
 ---
 

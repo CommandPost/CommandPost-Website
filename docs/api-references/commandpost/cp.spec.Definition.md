@@ -35,7 +35,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>`true` if the instance is an instance of this class.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L30) |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L30){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>cp.spec.Definition object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L13) |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L13){target="_blank"} |
 
 ---
 
@@ -71,7 +71,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L43) |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L43){target="_blank"} |
 
 ---
 

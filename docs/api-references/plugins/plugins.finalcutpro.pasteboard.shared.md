@@ -43,7 +43,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L198) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L198){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L282) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 282](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L282){target="_blank"} |
 
 ---
 
@@ -75,7 +75,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The decoded Pasteboard History Item or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L306) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 306](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L306){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L330) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L330){target="_blank"} |
 
 ---
 
@@ -107,7 +107,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The shared pasteboard menu as a table.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L363) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L363){target="_blank"} |
 
 ---
 
@@ -123,7 +123,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>A table of folder names.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L143) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L143){target="_blank"} |
 
 ---
 
@@ -139,7 +139,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The history in a table.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L232) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L232){target="_blank"} |
 
 ---
 
@@ -155,7 +155,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The history path as a string</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L217) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L217){target="_blank"} |
 
 ---
 
@@ -171,7 +171,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L172) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L172){target="_blank"} |
 
 ---
 
@@ -187,7 +187,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L185) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L185){target="_blank"} |
 
 ---
 
@@ -203,7 +203,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L269) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L269){target="_blank"} |
 
 ---
 
@@ -219,7 +219,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L112) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L112){target="_blank"} |
 
 ---
 
@@ -235,7 +235,7 @@ Shared Pasteboard Plugin.
 | **Returns**                                 | <ul><li>`true` if it exists otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L51) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L51){target="_blank"} |
 
 ---
 
@@ -250,7 +250,7 @@ Shared Pasteboard Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets whether or not the shared pasteboard is enabled as a boolean.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L41) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L41){target="_blank"} |
 
 ---
 
@@ -263,7 +263,7 @@ Shared Pasteboard Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Shared Pasteboard Root Path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L46) |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/shared.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/shared.lua#L46){target="_blank"} |
 
 ---
 

@@ -83,7 +83,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If set to `true`, the methods `hs.screen:toEast()`, `:toNorth()` etc. will disregard screens that lie perpendicularly to the desired axis                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 343](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L343) |
+| **Source**                                  | [extensions/screen/screen.lua line 343](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L343){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A table containing the following keys, and corresponding boolean values for whether the user has enabled these options:</li><li>  ReduceMotion (only available on macOS 10.12 or later)</li><li>  ReduceTransparency</li><li>  IncreaseContrast</li><li>  InvertColors (only available on macOS 10.12 or later)</li><li>  DifferentiateWithoutColor</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1337](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1337) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1337](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1337){target="_blank"} |
 
 ---
 
@@ -123,7 +123,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>one or more hs.screen objects that match the supplied search criterion, or `nil` if none found</li></ul>          |
 | **Notes**                                   | <ul><li>for convenience you call this as `hs.screen(hint)`</li><li></li><li>Example:</li><li>```lua</li><li>hs.screen(724562417) --> Color LCD - by id</li><li>hs.screen'Dell'      --> DELL U2414M - by name</li><li>hs.screen'Built%-in' --> Built-in Retina Display, note the % to escape the hyphen repetition character</li><li>hs.screen'0,0'       --> PHL BDM4065 - by position, same as hs.screen.primaryScreen()</li><li>hs.screen{x=-1,y=0}  --> DELL U2414M - by position, screen to the immediate left of the primary screen</li><li>hs.screen'3840x2160' --> PHL BDM4065 - by screen resolution</li><li>hs.screen'-500,240 700x1300' --> DELL U2414M, by arbitrary rect</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 43](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L43) |
+| **Source**                                  | [extensions/screen/screen.lua line 43](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L43){target="_blank"} |
 
 ---
 
@@ -139,7 +139,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This returns all displays to the gamma tables specified by the user's selected ColorSync display profiles</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L294) |
+| **Source**                                  | [extensions/screen/libscreen.m line 294](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L294){target="_blank"} |
 
 ---
 
@@ -155,7 +155,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>a table where each *key* is an `hs.screen` object, and the corresponding value is a table {x=X,y=Y}, where X and Y attempt to indicate each screen's position relative to the primary screen (which is at {x=0,y=0}); so e.g. a value of {x=-1,y=0} indicates a screen immediately to the left of the primary screen, and a value of {x=0,y=2} indicates a screen positioned below the primary screen, with another screen inbetween.</li></ul>          |
 | **Notes**                                   | <ul><li>grid-like arrangements of same-sized screens should behave consistently; but there's no guarantee of a consistent result for more "exotic" screen arrangements</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L124) |
+| **Source**                                  | [extensions/screen/screen.lua line 124](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L124){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A table containing one or more `hs.screen` objects</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 907](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L907) |
+| **Source**                                  | [extensions/screen/libscreen.m line 907](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L907){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>An `hs.screen` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 932](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L932) |
+| **Source**                                  | [extensions/screen/libscreen.m line 932](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L932){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>An `hs.screen` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 30](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L30) |
+| **Source**                                  | [extensions/screen/screen.lua line 30](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L30){target="_blank"} |
 
 ---
 
@@ -223,7 +223,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry point or rect, transformed to the screen's local coordinate space</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 259](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L259) |
+| **Source**                                  | [extensions/screen/screen.lua line 259](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L259){target="_blank"} |
 
 ---
 
@@ -239,7 +239,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A table containing the supported screen modes. The keys of the table take the form of "1440x900@2x" (for a HiDPI mode) or "1680x1050@1x" (for a native DPI mode). The values are tables which contain the keys:</li><li> w - A number containing the width of the screen mode in points</li><li> h - A number containing the height of the screen mode in points</li><li> scale - A number containing the scaling factor of the screen mode (typically `1` for a native mode, `2` for a HiDPI mode)</li><li> freq - A number containing the vertical refresh rate in Hz</li><li> depth - A number containing the bit depth of the display mode</li></ul>          |
 | **Notes**                                   | <ul><li>Prior to 0.9.83, only 32-bit colour modes would be returned, but now all colour depths are returned. This has necessitated changing the naming of the modes in the returned table.</li><li>"points" are not necessarily the same as pixels, because they take the scale factor into account (e.g. "1440x900@2x" is a 2880x1800 screen resolution, with a scaling factor of 2, i.e. with HiDPI pixel-doubled rendering enabled), however, they are far more useful to work with than native pixel modes, when a Retina screen is involved. For non-retina screens, points and pixels are equivalent.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 174](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L174) |
+| **Source**                                  | [extensions/screen/libscreen.m line 174](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L174){target="_blank"} |
 
 ---
 
@@ -255,7 +255,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A table containing the current screen mode. The keys of the table are:</li><li> w - A number containing the width of the screen mode in points</li><li> h - A number containing the height of the screen mode in points</li><li> scale - A number containing the scaling factor of the screen mode (typically `1` for a native mode, `2` for a HiDPI mode)</li><li> freq - A number containing the vertical refresh rate in Hz</li><li> depth - A number containing the bit depth</li><li> desc - A string containing a representation of the mode as used in `hs.screen:availableModes()` - e.g. "1920x1080@2x 60Hz 4bpp"</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L125) |
+| **Source**                                  | [extensions/screen/libscreen.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L125){target="_blank"} |
 
 ---
 
@@ -271,7 +271,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>the `hs.screen` object if a new URL was set, otherwise a string containing the current URL</li></ul>          |
 | **Notes**                                   | <ul><li>If the user has set a folder of pictures to be alternated as the desktop background, the path to that folder will be returned.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1295) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1295){target="_blank"} |
 
 ---
 
@@ -287,7 +287,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry rect describing this screen's "usable" frame (i.e. without the dock and menu bar) in absolute coordinates</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L198) |
+| **Source**                                  | [extensions/screen/screen.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L198){target="_blank"} |
 
 ---
 
@@ -303,7 +303,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry rect describing the given unit rect in absolute coordinates</li></ul>          |
 | **Notes**                                   | <ul><li>this method is just a convenience wrapper for `hs.geometry.fromUnitRect(unitrect,this_screen:frame())`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 214](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L214) |
+| **Source**                                  | [extensions/screen/screen.lua line 214](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L214){target="_blank"} |
 
 ---
 
@@ -319,7 +319,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry rect describing this screen's frame in absolute coordinates</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L182) |
+| **Source**                                  | [extensions/screen/screen.lua line 182](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L182){target="_blank"} |
 
 ---
 
@@ -335,7 +335,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A floating point number between 0 and 1, containing the current brightness level, or nil if the display does not support brightness queries</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 629](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L629) |
+| **Source**                                  | [extensions/screen/libscreen.m line 629](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L629){target="_blank"} |
 
 ---
 
@@ -351,7 +351,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A boolean, true if the ForceToGray mode is set, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 774](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L774) |
+| **Source**                                  | [extensions/screen/libscreen.m line 774](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L774){target="_blank"} |
 
 ---
 
@@ -367,7 +367,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A table containing the white point and black point of the screen, or nil if an error occurred. The keys `whitepoint` and `blackpoint` each have values of a table containing the following keys, with corresponding values between 0.0 and 1.0:</li><li> red</li><li> green</li><li> blue</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L316) |
+| **Source**                                  | [extensions/screen/libscreen.m line 316](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L316){target="_blank"} |
 
 ---
 
@@ -383,7 +383,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li> A table containing various information, or nil if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 740](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L740) |
+| **Source**                                  | [extensions/screen/libscreen.m line 740](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L740){target="_blank"} |
 
 ---
 
@@ -399,7 +399,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A boolean, true if the InvertedPolarity mode is set, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 812](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L812) |
+| **Source**                                  | [extensions/screen/libscreen.m line 812](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L812){target="_blank"} |
 
 ---
 
@@ -415,7 +415,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A string containing the UUID, or nil if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 711](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L711) |
+| **Source**                                  | [extensions/screen/libscreen.m line 711](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L711){target="_blank"} |
 
 ---
 
@@ -431,7 +431,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A number containing the ID of the screen</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 45](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L45) |
+| **Source**                                  | [extensions/screen/libscreen.m line 45](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L45){target="_blank"} |
 
 ---
 
@@ -447,7 +447,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry point or rect, transformed to the absolute coordinate space</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L246) |
+| **Source**                                  | [extensions/screen/screen.lua line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L246){target="_blank"} |
 
 ---
 
@@ -463,7 +463,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>true if the operation succeeded, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1145) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1145){target="_blank"} |
 
 ---
 
@@ -479,7 +479,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>true if the operation succeeded, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1178](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1178) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1178](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1178){target="_blank"} |
 
 ---
 
@@ -495,7 +495,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A string containing the name of the screen, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L64) |
+| **Source**                                  | [extensions/screen/libscreen.m line 64](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L64){target="_blank"} |
 
 ---
 
@@ -511,7 +511,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>An `hs.screen` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L272) |
+| **Source**                                  | [extensions/screen/screen.lua line 272](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L272){target="_blank"} |
 
 ---
 
@@ -527,7 +527,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>two integers indicating the screen position in the current screen arrangement, in the x and y axis respectively.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L166) |
+| **Source**                                  | [extensions/screen/screen.lua line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L166){target="_blank"} |
 
 ---
 
@@ -543,7 +543,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>An `hs.screen` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L289) |
+| **Source**                                  | [extensions/screen/screen.lua line 289](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L289){target="_blank"} |
 
 ---
 
@@ -563,7 +563,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>If the rotation is being set, a boolean, true if the operation succeeded, otherwise false. If the rotation is being queried, a number will be returned</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1023](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1023) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1023](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1023){target="_blank"} |
 
 ---
 
@@ -579,7 +579,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>The `hs.screen` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 676](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L676) |
+| **Source**                                  | [extensions/screen/libscreen.m line 676](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L676){target="_blank"} |
 
 ---
 
@@ -595,7 +595,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 793](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L793) |
+| **Source**                                  | [extensions/screen/libscreen.m line 793](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L793){target="_blank"} |
 
 ---
 
@@ -617,7 +617,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A boolean, true if the gamma settings were applied, false if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>If the whitepoint and blackpoint specified, are very similar, it will be impossible to read the screen. You should exercise caution, and may wish to bind a hotkey to `hs.screen.restoreGamma()` when experimenting</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 512](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L512) |
+| **Source**                                  | [extensions/screen/libscreen.m line 512](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L512){target="_blank"} |
 
 ---
 
@@ -633,7 +633,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 831](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L831) |
+| **Source**                                  | [extensions/screen/libscreen.m line 831](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L831){target="_blank"} |
 
 ---
 
@@ -649,7 +649,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A boolean, true if the requested mode was set, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>The available widths/heights/scales can be seen in the output of `hs.screen:availableModes()`, however, it should be noted that the CoreGraphics subsystem seems to list more modes for a given screen than it is actually prepared to set, so you may find that seemingly valid modes still return false. It is not currently understood why this is so!</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L246) |
+| **Source**                                  | [extensions/screen/libscreen.m line 246](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L246){target="_blank"} |
 
 ---
 
@@ -665,7 +665,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>true if the operation succeeded, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1102) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1102){target="_blank"} |
 
 ---
 
@@ -681,7 +681,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>A boolean, true if the operation succeeded, otherwise false</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 950](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L950) |
+| **Source**                                  | [extensions/screen/libscreen.m line 950](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L950){target="_blank"} |
 
 ---
 
@@ -697,7 +697,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 410](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L410) |
+| **Source**                                  | [extensions/screen/screen.lua line 410](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L410){target="_blank"} |
 
 ---
 
@@ -713,7 +713,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 395](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L395) |
+| **Source**                                  | [extensions/screen/screen.lua line 395](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L395){target="_blank"} |
 
 ---
 
@@ -729,7 +729,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>An `hs.image` object, or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/libscreen.m line 1270](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1270) |
+| **Source**                                  | [extensions/screen/libscreen.m line 1270](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1270){target="_blank"} |
 
 ---
 
@@ -745,7 +745,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li> An `hs.screen` object, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L348) |
+| **Source**                                  | [extensions/screen/screen.lua line 348](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L348){target="_blank"} |
 
 ---
 
@@ -761,7 +761,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li> An `hs.screen` object, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L370) |
+| **Source**                                  | [extensions/screen/screen.lua line 370](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L370){target="_blank"} |
 
 ---
 
@@ -777,7 +777,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li> An `hs.screen` object, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 381](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L381) |
+| **Source**                                  | [extensions/screen/screen.lua line 381](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L381){target="_blank"} |
 
 ---
 
@@ -793,7 +793,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li>an hs.geometry unit rect describing the given rect relative to this screen's frame</li></ul>          |
 | **Notes**                                   | <ul><li>this method is just a convenience wrapper for `hs.geometry.toUnitRect(rect,this_screen:frame())`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 230](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L230) |
+| **Source**                                  | [extensions/screen/screen.lua line 230](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L230){target="_blank"} |
 
 ---
 
@@ -809,7 +809,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 | **Returns**                                 | <ul><li> An `hs.screen` object, or `nil` if not found</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/screen/screen.lua line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L359) |
+| **Source**                                  | [extensions/screen/screen.lua line 359](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L359){target="_blank"} |
 
 ---
 

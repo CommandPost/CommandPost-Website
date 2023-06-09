@@ -27,7 +27,7 @@ Specifies that the `Require`d value `Matches` a function predicate.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a predicate function that checks values from the `requirement`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L213) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L213){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Specifies that the `Require`d value `Matches` a function predicate.
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L240) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L240){target="_blank"} |
 
 ---
 

@@ -29,7 +29,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>`true` if it is an `AXImage`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/Image.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Image.lua#L11) |
+| **Source**                                  | [src/extensions/cp/ui/Image.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Image.lua#L11){target="_blank"} |
 
 ---
 

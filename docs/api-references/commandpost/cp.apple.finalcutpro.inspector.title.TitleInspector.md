@@ -29,7 +29,7 @@ Extends [BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md).
 | **Returns**                                 | <ul><li>A `TitleInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua#L16) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua#L16){target="_blank"} |
 
 ---
 

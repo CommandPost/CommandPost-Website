@@ -45,7 +45,7 @@ and if not, it will send an error.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the message to throw if the requirement is not met.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L59) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L59){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `requirement` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will require that all items in the requirement are not `nil` and completed.</li><li>This is most useful with `Given`, allowing retrieval and checking of values before continuing.</li><li>Example:</li><li></li><li>```lua</li><li>Given(</li><li>    Require(someObservable):Is(2):OrThrow("Must be 2")</li><li>):Then(function(someValue)</li><li>    -- do stuff with `someValue`</li><li>):Now()</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L16) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L16){target="_blank"} |
 
 ---
 
@@ -81,7 +81,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L105) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L105){target="_blank"} |
 
 ---
 
@@ -97,7 +97,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L170) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L170){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L87) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L87){target="_blank"} |
 
 ---
 
@@ -129,7 +129,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L152) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L152){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>Require(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L217) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L217){target="_blank"} |
 
 ---
 
@@ -161,7 +161,7 @@ and if not, it will send an error.
 | **Returns**                                 | <ul><li>The `OrThrow` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L63) |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L63){target="_blank"} |
 
 ---
 

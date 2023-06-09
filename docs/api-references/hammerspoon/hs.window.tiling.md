@@ -35,7 +35,7 @@ The `tileWindows` function in this module is primarily meant for use by `hs.wind
 | **Returns**                                 | <ul><li> None</li></ul>          |
 | **Notes**                                   | <ul><li> To ensure all windows are placed in a row (side by side), use a very small aspect ratio (for "tall and narrow" windows) like 0.01;</li><li>    similarly, to have all windows in a column, use a very large aspect ratio (for "short and wide") like 100</li><li> Hidden and minimized windows will be processed as well: the rect will have "gaps" where the invisible windows</li><li>    would lie, that will get filled as the windows get unhidden/unminimized</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/window/window_tiling.lua line 57](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_tiling.lua#L57) |
+| **Source**                                  | [extensions/window/window_tiling.lua line 57](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_tiling.lua#L57){target="_blank"} |
 
 ---
 

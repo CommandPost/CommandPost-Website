@@ -43,7 +43,7 @@ Playhead Module.
 | **Returns**                                 | <ul><li>The playhead `hs.axuielement` object or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L30) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L30){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Playhead Module.
 | **Returns**                                 | <ul><li>`true` if the `element` is the Playhead otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L17) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L17){target="_blank"} |
 
 ---
 
@@ -77,7 +77,7 @@ Playhead Module.
 | **Returns**                                 | <ul><li>The new `Playhead` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L64) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L64){target="_blank"} |
 
 ---
 
@@ -92,7 +92,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the centre point (`{x, y}`) of the playhead.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L126) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L126){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Represents the current viewer for the playhead. This may be either the primary Viewer or the Event Viewer,                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L136) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L136){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the frame of the playhead.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L106) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L106){target="_blank"} |
 
 ---
 
@@ -131,7 +131,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the playhead persistent?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L99) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L99){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the horizontal position of the playhead line, which may be different to the `x` position of the playhead.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L116) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L116){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current timecode.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L154) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L154){target="_blank"} |
 
 ---
 
@@ -175,7 +175,7 @@ Playhead Module.
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L216) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L216){target="_blank"} |
 
 ---
 
@@ -191,7 +191,7 @@ Playhead Module.
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L180) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L180){target="_blank"} |
 
 ---
 

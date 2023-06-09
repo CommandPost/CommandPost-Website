@@ -24,7 +24,7 @@ Updates Module.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically check for updates?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/updates.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/updates.lua#L23) |
+| **Source**                                  | [src/plugins/core/preferences/updates.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/updates.lua#L23){target="_blank"} |
 
 ---
 

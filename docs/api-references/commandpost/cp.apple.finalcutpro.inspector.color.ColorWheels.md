@@ -65,7 +65,7 @@ Extends [Element](cp.ui.Element.md)
 | **Returns**                                 | <ul><li>`true` if the element is the Color Wheels.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L36) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L36){target="_blank"} |
 
 ---
 
@@ -83,7 +83,7 @@ Extends [Element](cp.ui.Element.md)
 | **Returns**                                 | <ul><li>A new `ColorInspector` object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L54) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L54){target="_blank"} |
 
 ---
 
@@ -98,7 +98,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the ColorWheels corrector.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L93) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L93){target="_blank"} |
 
 ---
 
@@ -111,7 +111,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'highlights' color settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L249) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L249){target="_blank"} |
 
 ---
 
@@ -124,7 +124,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The hue for the corrector. A number from `0` to `360`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L154) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L154){target="_blank"} |
 
 ---
 
@@ -137,7 +137,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Hue' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L359) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L359){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a `Slider` that provides access to the 'Hue' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 367](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L367) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 367](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L367){target="_blank"} |
 
 ---
 
@@ -163,7 +163,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Hue' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L379) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L379){target="_blank"} |
 
 ---
 
@@ -176,7 +176,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'master' color settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L228) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L228){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The maximum value of the indicator as a number.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L119) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L119){target="_blank"} |
 
 ---
 
@@ -202,7 +202,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'midtones' color settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L242) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L242){target="_blank"} |
 
 ---
 
@@ -215,7 +215,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The minimum value of the indicator as a number.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L110) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L110){target="_blank"} |
 
 ---
 
@@ -228,7 +228,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The mix amount for this corrector. A number ranging from `0` to `1`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L133) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L133){target="_blank"} |
 
 ---
 
@@ -241,7 +241,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Mix' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L260) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L260){target="_blank"} |
 
 ---
 
@@ -254,7 +254,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Mix' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L268) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L268){target="_blank"} |
 
 ---
 
@@ -267,7 +267,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Mix' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L280) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L280){target="_blank"} |
 
 ---
 
@@ -280,7 +280,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'shadows' color settings.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L235) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 235](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L235){target="_blank"} |
 
 ---
 
@@ -293,7 +293,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The color temperature for this corrector. A number from 2500 to 10000.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L140) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L140){target="_blank"} |
 
 ---
 
@@ -306,7 +306,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Temperatures' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L293) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L293){target="_blank"} |
 
 ---
 
@@ -319,7 +319,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Temperatures' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L301) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L301){target="_blank"} |
 
 ---
 
@@ -332,7 +332,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Temperature' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L313) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L313){target="_blank"} |
 
 ---
 
@@ -345,7 +345,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The tint for the corrector. A number from `-50` to `50`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L147) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L147){target="_blank"} |
 
 ---
 
@@ -358,7 +358,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Tint' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L326) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 326](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L326){target="_blank"} |
 
 ---
 
@@ -371,7 +371,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a `Slider` that provides access to the 'Tint' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L334) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 334](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L334){target="_blank"} |
 
 ---
 
@@ -384,7 +384,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Tint' slider.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L346) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L346){target="_blank"} |
 
 ---
 
@@ -397,7 +397,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The value of the value indicator as a number.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L63) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L63){target="_blank"} |
 
 ---
 
@@ -410,7 +410,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and modifies whether the ColorWheels corrector is showing "All Wheels" (`true`) or "Single Wheels" (`false`).                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L106) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L106){target="_blank"} |
 
 ---
 
@@ -423,7 +423,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the View Mode.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L198) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L198){target="_blank"} |
 
 ---
 
@@ -436,7 +436,7 @@ Extends [Element](cp.ui.Element.md)
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` that allows selection of the wheel type. Only available when                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L211) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L211){target="_blank"} |
 
 ---
 
@@ -454,7 +454,7 @@ Extends [Element](cp.ui.Element.md)
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successfully shown.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L183) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L183){target="_blank"} |
 
 ---
 
@@ -470,7 +470,7 @@ Extends [Element](cp.ui.Element.md)
 | **Returns**                                 | <ul><li>ColorWheels object</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L167) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorWheels.lua#L167){target="_blank"} |
 
 ---
 

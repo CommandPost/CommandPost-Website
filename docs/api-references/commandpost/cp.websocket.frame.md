@@ -41,7 +41,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The `number` of bytes required based on the frame header, or `nil` if not enough information is available.</li></ul>          |
 | **Notes**                                   | <ul><li>The `data` will be unmodified after returning from this function.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L166) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L166){target="_blank"} |
 
 ---
 
@@ -57,7 +57,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The a `cp.result` with either `success` and the `frame` of binary payload data plus the number of `bytes` read from the `data`,</li><li>  or `failure` with a `message` if there was an error.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `success`, the `value` will be a table containing the following:</li><li> `frame` - The `cp.websocket.frame` value</li><li> `bytes` - The `number` of bytes which were read from the `buffer`.</li><li>If a `success`, the passed-in `buffer` will have had the bytes required for the `frame` removed.</li><li>If a `failure`, the passed-in `buffer` will not be modified.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L234) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L234){target="_blank"} |
 
 ---
 
@@ -73,7 +73,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The a `cp.result` with either `success` and the `frame` of binary payload data plus the number of `bytes` read from the `data`,</li><li>  or `failure` with a `message` if there was an error.</li></ul>          |
 | **Notes**                                   | <ul><li>If a `success`, the `value` will be a table containing the following:</li><li> `frame` - The `cp.websocket.frame` value</li><li> `bytes` - The `number` of bytes which were read from the `buffer`.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L215) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L215){target="_blank"} |
 
 ---
 
@@ -89,7 +89,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The `frame` of binary payload data plus the next index `number` to read from the `data` `string`, or `nil` if the data was invalid.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 297](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L297) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 297](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L297){target="_blank"} |
 
 ---
 
@@ -105,7 +105,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if the data contains both a valid frame header and sufficient bytes for the whole frame.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L192) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 192](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L192){target="_blank"} |
 
 ---
 
@@ -123,7 +123,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The new `frame` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 311](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L311) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 311](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L311){target="_blank"} |
 
 ---
 
@@ -141,7 +141,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if this is a control frame.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 353](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L353) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 353](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L353){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>`true` if this is a non-control frame.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L340) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L340){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 | **Returns**                                 | <ul><li>The byte `string` containing the frame in binary format.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 373](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L373) |
+| **Source**                                  | [src/extensions/cp/websocket/frame.lua line 373](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/websocket/frame.lua#L373){target="_blank"} |
 
 ---
 

@@ -45,7 +45,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>A table of the plist data</li><li>A error message as string if an error occurs</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L19) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L19){target="_blank"} |
 
 ---
 
@@ -61,7 +61,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L107) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L107){target="_blank"} |
 
 ---
 
@@ -77,7 +77,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L140) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L140){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L74) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L74){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>It will check the file prior to loading to determine which type it is.</li><li>If you know which type of file you're dealing with in advance, you can use cp.plist.xmlFileToTable() or hs.plist.binaryFileToTable() instead.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L210) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L210){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is a binary plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L260) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L260){target="_blank"} |
 
 ---
 
@@ -141,7 +141,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 315](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L315) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 315](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L315){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if the data is a plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L243) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 243](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L243){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is a binary or XML plist file, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L289) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L289){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>`true` if it is an XML plist, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>This will only check if it is an XML file, it does not check the actual format is correct.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L273) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L273){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 342](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L342) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 342](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L342){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L180) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L180){target="_blank"} |
 
 ---
 
@@ -237,7 +237,7 @@ Reads & Writes plist data.
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/plist/init.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L165) |
+| **Source**                                  | [src/extensions/cp/plist/init.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plist/init.lua#L165){target="_blank"} |
 
 ---
 

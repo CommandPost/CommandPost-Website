@@ -27,7 +27,7 @@ Select All Timeline Clips
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/timeline/selectalltimelineclips.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/selectalltimelineclips.lua#L13) |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/selectalltimelineclips.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/selectalltimelineclips.lua#L13){target="_blank"} |
 
 ---
 

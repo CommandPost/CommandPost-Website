@@ -24,7 +24,7 @@ Adds correct timecode from Sony cameras in a FCPXML.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export Path                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/toolbox/sonytimecode/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/sonytimecode/init.lua#L47) |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/sonytimecode/init.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/sonytimecode/init.lua#L47){target="_blank"} |
 
 ---
 

@@ -44,7 +44,7 @@ list of options.
 | **Returns**                                 | <ul><li>`true` if it is a `menu`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L33) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L33){target="_blank"} |
 
 ---
 
@@ -62,7 +62,7 @@ list of options.
 | **Returns**                                 | <ul><li>the new `menu`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L18) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L18){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L68) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L68){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L146) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L146){target="_blank"} |
 
 ---
 
@@ -112,7 +112,7 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>--- This function should have this signature:</li><li></li><li>`function() -> string`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L46) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L46){target="_blank"} |
 
 ---
 
@@ -128,7 +128,7 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the end of the list of options a subsequent `next` call will cycle back to the beginning of the options. This is particularly useful for menus with two options.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L83) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L83){target="_blank"} |
 
 ---
 
@@ -144,7 +144,7 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the start of the list of options a subsequent `prev` call will cycle to the end of the options. This is particularly useful for menus with two options.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L161) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L161){target="_blank"} |
 
 ---
 
@@ -160,7 +160,7 @@ list of options.
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L107) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L107){target="_blank"} |
 
 ---
 
@@ -176,7 +176,7 @@ list of options.
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L185) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L185){target="_blank"} |
 
 ---
 
@@ -192,7 +192,7 @@ list of options.
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L129) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L129){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ list of options.
 | **Returns**                                 | <ul><li>`true` if the update was sent.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L200) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 200](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L200){target="_blank"} |
 
 ---
 
@@ -224,7 +224,7 @@ list of options.
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L216) |
+| **Source**                                  | [src/plugins/core/tangent/manager/menu.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/menu.lua#L216){target="_blank"} |
 
 ---
 

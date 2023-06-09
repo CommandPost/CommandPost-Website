@@ -24,7 +24,7 @@ Final Cut Pro Touch Bar Manager.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/touchbar/manager/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/manager/init.lua#L26) |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/manager/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/manager/init.lua#L26){target="_blank"} |
 
 ---
 

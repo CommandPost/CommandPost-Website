@@ -46,7 +46,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L98) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L98){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Stream Deck Icons.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L91) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L91){target="_blank"} |
 
 ---
 
@@ -77,7 +77,7 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 614](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L614) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 614](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L614){target="_blank"} |
 
 ---
 
@@ -93,7 +93,7 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>A new encoded icon as URL string.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L680) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L680){target="_blank"} |
 
 ---
 
@@ -108,7 +108,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Automatically Apply Icon from Action                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L103) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L103){target="_blank"} |
 
 ---
 
@@ -121,7 +121,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Background Colour.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L108) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 108](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L108){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Icon History                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L123) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L123){target="_blank"} |
 
 ---
 
@@ -147,7 +147,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Device used in the Preferences Panel.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L143) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L143){target="_blank"} |
 
 ---
 
@@ -160,7 +160,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L133) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L133){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last icon path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L118) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L118){target="_blank"} |
 
 ---
 
@@ -186,7 +186,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L138) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L138){target="_blank"} |
 
 ---
 
@@ -199,7 +199,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Unit used in the Preferences Panel.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L153) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L153){target="_blank"} |
 
 ---
 
@@ -212,7 +212,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L128) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L128){target="_blank"} |
 
 ---
 
@@ -225,7 +225,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we preview the selected application and bank on hardware?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L51) |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L51){target="_blank"} |
 
 ---
 
@@ -238,7 +238,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Resize Icons on Import Preference.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L113) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L113){target="_blank"} |
 
 ---
 
@@ -251,7 +251,7 @@ Stream Deck Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | How often snippets are refreshed.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L56) |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L56){target="_blank"} |
 
 ---
 
@@ -269,7 +269,7 @@ Stream Deck Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 563](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L563) |
+| **Source**                                  | [src/plugins/core/streamdeck/prefs/init.lua line 563](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/prefs/init.lua#L563){target="_blank"} |
 
 ---
 

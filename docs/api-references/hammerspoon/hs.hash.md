@@ -38,7 +38,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L169) |
+| **Source**                                  | [extensions/hash/libhash.m line 169](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L169){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L103) |
+| **Source**                                  | [extensions/hash/libhash.m line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L103){target="_blank"} |
 
 ---
 
@@ -70,7 +70,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L125) |
+| **Source**                                  | [extensions/hash/libhash.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L125){target="_blank"} |
 
 ---
 
@@ -86,7 +86,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L147) |
+| **Source**                                  | [extensions/hash/libhash.m line 147](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L147){target="_blank"} |
 
 ---
 
@@ -102,7 +102,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L236) |
+| **Source**                                  | [extensions/hash/libhash.m line 236](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L236){target="_blank"} |
 
 ---
 
@@ -118,7 +118,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L194) |
+| **Source**                                  | [extensions/hash/libhash.m line 194](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L194){target="_blank"} |
 
 ---
 
@@ -134,7 +134,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L208) |
+| **Source**                                  | [extensions/hash/libhash.m line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L208){target="_blank"} |
 
 ---
 
@@ -150,7 +150,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 222](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L222) |
+| **Source**                                  | [extensions/hash/libhash.m line 222](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L222){target="_blank"} |
 
 ---
 
@@ -166,7 +166,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L87) |
+| **Source**                                  | [extensions/hash/libhash.m line 87](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L87){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L48) |
+| **Source**                                  | [extensions/hash/libhash.m line 48](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L48){target="_blank"} |
 
 ---
 
@@ -198,7 +198,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 61](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L61) |
+| **Source**                                  | [extensions/hash/libhash.m line 61](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L61){target="_blank"} |
 
 ---
 
@@ -214,7 +214,7 @@ Various hashing algorithms
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/hash/libhash.m line 74](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L74) |
+| **Source**                                  | [extensions/hash/libhash.m line 74](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hash/libhash.m#L74){target="_blank"} |
 
 ---
 

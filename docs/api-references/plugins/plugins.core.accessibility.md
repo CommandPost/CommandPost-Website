@@ -39,7 +39,7 @@ Accessibility Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Is `true` if Accessibility permissions have been enabled for CommandPost.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L27) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L27){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Accessibility Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should we try and close system preferences?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L17) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L17){target="_blank"} |
 
 ---
 
@@ -67,7 +67,7 @@ Accessibility Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was System Preferences already open?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L22) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L22){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L54) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L54){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>The module as a table</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L85) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L85){target="_blank"} |
 
 ---
 
@@ -117,7 +117,7 @@ Accessibility Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L70) |
+| **Source**                                  | [src/plugins/core/accessibility/accessibility.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/accessibility.lua#L70){target="_blank"} |
 
 ---
 

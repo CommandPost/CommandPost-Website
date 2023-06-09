@@ -41,7 +41,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The new plist `source` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L112) |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L112){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The `cp.string.source`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L54) |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L54){target="_blank"} |
 
 ---
 
@@ -75,7 +75,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>mySource:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L29) |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L29){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L68) |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L68){target="_blank"} |
 
 ---
 

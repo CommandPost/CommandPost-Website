@@ -35,7 +35,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L16) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L16){target="_blank"} |
 
 ---
 
@@ -53,7 +53,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L101) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L101){target="_blank"} |
 
 ---
 
@@ -69,7 +69,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L85) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L85){target="_blank"} |
 
 ---
 
@@ -85,7 +85,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>The panel type identifier.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L41) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L41){target="_blank"} |
 
 ---
 
@@ -101,7 +101,7 @@ Extends [Element](cp.ui.Element.md).
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L54) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/BasePanel.lua#L54){target="_blank"} |
 
 ---
 

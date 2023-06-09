@@ -50,7 +50,7 @@ Razer Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of bank labels, which reflect the LED icons.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L74) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L74){target="_blank"} |
 
 ---
 
@@ -63,7 +63,7 @@ Razer Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table supported devices.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L61) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L61){target="_blank"} |
 
 ---
 
@@ -78,7 +78,7 @@ Razer Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck CT Layout                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L403) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 403](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L403){target="_blank"} |
 
 ---
 
@@ -91,7 +91,7 @@ Razer Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of Razer devices.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 463](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L463) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 463](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L463){target="_blank"} |
 
 ---
 
@@ -109,7 +109,7 @@ Razer Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 723](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L723) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 723](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L723){target="_blank"} |
 
 ---
 
@@ -125,7 +125,7 @@ Razer Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1369](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1369) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1369](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1369){target="_blank"} |
 
 ---
 
@@ -141,7 +141,7 @@ Razer Manager Plugin.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1258](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1258) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1258](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1258){target="_blank"} |
 
 ---
 
@@ -156,7 +156,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L428) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 428](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L428){target="_blank"} |
 
 ---
 
@@ -169,7 +169,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 413](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L413) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 413](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L413){target="_blank"} |
 
 ---
 
@@ -182,7 +182,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlights brightness for all the Razer devices.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 438](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L438) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 438](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L438){target="_blank"} |
 
 ---
 
@@ -195,7 +195,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect primary color.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L443) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L443){target="_blank"} |
 
 ---
 
@@ -208,7 +208,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect secondary color.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L448) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 448](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L448){target="_blank"} |
 
 ---
 
@@ -221,7 +221,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect direction.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 453](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L453) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 453](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L453){target="_blank"} |
 
 ---
 
@@ -234,7 +234,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect speed.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 458](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L458) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 458](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L458){target="_blank"} |
 
 ---
 
@@ -247,7 +247,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlights mode for all the Razer devices.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L433) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 433](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L433){target="_blank"} |
 
 ---
 
@@ -260,7 +260,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Delay Until Repeat Preference.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L51) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L51){target="_blank"} |
 
 ---
 
@@ -273,7 +273,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L418) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 418](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L418){target="_blank"} |
 
 ---
 
@@ -286,7 +286,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Loupedeck CT support enabled?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1274](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1274) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 1274](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L1274){target="_blank"} |
 
 ---
 
@@ -299,7 +299,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved TourBox layouts.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L408) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L408){target="_blank"} |
 
 ---
 
@@ -312,7 +312,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Key Repeat Preference.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L46) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L46){target="_blank"} |
 
 ---
 
@@ -325,7 +325,7 @@ Razer Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last used bundle ID.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 423](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L423) |
+| **Source**                                  | [src/plugins/core/razer/manager/init.lua line 423](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/manager/init.lua#L423){target="_blank"} |
 
 ---
 

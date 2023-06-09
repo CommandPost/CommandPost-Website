@@ -30,7 +30,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua#L34) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua#L34){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of HUD button values.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua#L29) |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/tenbuttons/init.lua#L29){target="_blank"} |
 
 ---
 

@@ -30,7 +30,7 @@ Fullscreen Shortcuts
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the module enabled?                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L61) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L61){target="_blank"} |
 
 ---
 
@@ -48,7 +48,7 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L156) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L156){target="_blank"} |
 
 ---
 
@@ -64,7 +64,7 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L105) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L105){target="_blank"} |
 
 ---
 
@@ -80,7 +80,7 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L132) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L132){target="_blank"} |
 
 ---
 
@@ -96,7 +96,7 @@ Fullscreen Shortcuts
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L34) |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L34){target="_blank"} |
 
 ---
 

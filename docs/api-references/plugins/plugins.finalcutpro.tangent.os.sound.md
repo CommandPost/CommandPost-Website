@@ -28,7 +28,7 @@ Tangent Sound Functions.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Current Output Device.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L20) |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L20){target="_blank"} |
 
 ---
 
@@ -41,7 +41,7 @@ Tangent Sound Functions.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tangent Sound Group.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L27) |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L27){target="_blank"} |
 
 ---
 
@@ -59,7 +59,7 @@ Tangent Sound Functions.
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L32) |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L32){target="_blank"} |
 
 ---
 

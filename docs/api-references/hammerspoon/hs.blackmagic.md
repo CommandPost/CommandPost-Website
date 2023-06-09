@@ -119,7 +119,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the button names used.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 93](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L93) |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 93](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L93){target="_blank"} |
 
 ---
 
@@ -132,7 +132,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the supported device types.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 85](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L85) |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 85](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L85){target="_blank"} |
 
 ---
 
@@ -145,7 +145,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the jog mode names used by each device type.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 223](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L223) |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 223](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L223){target="_blank"} |
 
 ---
 
@@ -158,7 +158,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the LED names used by each device type.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L189) |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L189){target="_blank"} |
 
 ---
 
@@ -178,7 +178,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 53](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L53) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 53](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L53){target="_blank"} |
 
 ---
 
@@ -194,7 +194,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>An `hs.blackmagic` object or `nil` if something goes wrong.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L94) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L94){target="_blank"} |
 
 ---
 
@@ -212,7 +212,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 27](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L27) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 27](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L27){target="_blank"} |
 
 ---
 
@@ -228,7 +228,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>A number containing the number of Blackmagic devices attached to the system.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 77](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L77) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 77](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L77){target="_blank"} |
 
 ---
 
@@ -246,7 +246,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>`true` if charging, otherwise `false`</li><li>The battery level between 0 and 100.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L183) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L183){target="_blank"} |
 
 ---
 
@@ -262,7 +262,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>The hs.blackmagic device</li><li>The callback function should receive three arguments:</li><li> The `hs.blackmagic` userdata object</li><li> A string containing the name of the button or "JOG WHEEL"</li><li> A boolean indicating whether the button was pressed (true) or released (false). Not relevant if a Jog Wheel action.</li><li> The Jog Wheel Mode (if not a button press)</li><li> The Jog Wheel value (if not a button press)</li><li>You can use `hs.blackmagic.buttonNames[deviceType]` to get a table of possible values.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L125) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L125){target="_blank"} |
 
 ---
 
@@ -278,7 +278,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>The device type as a string - either "Speed Editor" or "Editor Keyboard".</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L235) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L235){target="_blank"} |
 
 ---
 
@@ -294,7 +294,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>The `hs.blackmagic` device</li><li>"RELATIVE", "ABSOLUTE" and "ABSOLUTE ZERO" as a string, or `nil` if something has gone wrong.</li></ul>          |
 | **Notes**                                   | <ul><li>You can use `hs.blackmagic.jogModeNames[deviceType]` to get a table of possible values.</li><li>"RELATIVE" - Returns a “relative” position - a positive number if turning right, and a negative number if turning left. The faster you turn, the higher the number. One step is 360.</li><li>"ABSOLUTE" - Returns an “absolute” position, based on when the mode was set. It has a range of -4096 (left of 0) to 4096 (right of 0). On the Editor Keyboard it has mechanical hard stops at -4096 and 4096, meaning you only use one half of the wheel.</li><li>"ABSOLUTE ZERO" - The same as "ABSOLUTE", but has a small dead zone around 0 - which mechincally "snaps" to zero on a Editor Keyboard.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L257) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L257){target="_blank"} |
 
 ---
 
@@ -310,7 +310,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>The hs.blackmagic device.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use `hs.blackmagic.ledNames[deviceType]` to get a table of possible values.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L156) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L156){target="_blank"} |
 
 ---
 
@@ -326,7 +326,7 @@ limitations under the License.
 | **Returns**                                 | <ul><li>The serial number as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>The serial number is the unique identifier from the USB Device, and not the product serial number that's on the sticker on the back of the Blackmagic device.</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 210](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L210) |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 210](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L210){target="_blank"} |
 
 ---
 

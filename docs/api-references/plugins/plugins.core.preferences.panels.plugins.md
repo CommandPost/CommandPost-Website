@@ -27,7 +27,7 @@ Plugins Preferences Panel
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugins Disabled                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L26) |
+| **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L26){target="_blank"} |
 
 ---
 
@@ -45,7 +45,7 @@ Plugins Preferences Panel
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L248) |
+| **Source**                                  | [src/plugins/core/preferences/panels/plugins/init.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/panels/plugins/init.lua#L248){target="_blank"} |
 
 ---
 

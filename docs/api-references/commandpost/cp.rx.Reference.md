@@ -31,7 +31,7 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Returns**                                 | <ul><li>the [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L15) |
+| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L15){target="_blank"} |
 
 ---
 
@@ -49,7 +49,7 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L33) |
+| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L33){target="_blank"} |
 
 ---
 

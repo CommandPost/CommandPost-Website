@@ -41,7 +41,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is horizontal.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L15) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L15){target="_blank"} |
 
 ---
 
@@ -54,7 +54,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is vertical.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L10) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L10){target="_blank"} |
 
 ---
 
@@ -72,7 +72,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Returns**                                 | <ul><li>The new `ScrollBar`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L33) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L33){target="_blank"} |
 
 ---
 
@@ -87,7 +87,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is currently hidden.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L69) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L69){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is horizontal, otherwise `false`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L60) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L60){target="_blank"} |
 
 ---
 
@@ -113,7 +113,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AXOrientation` string.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L44) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L44){target="_blank"} |
 
 ---
 
@@ -126,7 +126,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the numeric scroll value, typically between `0.0` and `1.0`. May be set.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L76) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L76){target="_blank"} |
 
 ---
 
@@ -139,7 +139,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is vertical, otherwise `false`.                                                                     |
 | **Notes**                                   | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L51) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L51){target="_blank"} |
 
 ---
 
@@ -157,7 +157,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L115) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L115){target="_blank"} |
 
 ---
 
@@ -173,7 +173,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Returns**                                 | <ul><li>`true` if matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L20) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L20){target="_blank"} |
 
 ---
 
@@ -189,7 +189,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Returns**                                 | <ul><li>a `table` with the configuration parameters.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L100) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L100){target="_blank"} |
 
 ---
 
@@ -205,7 +205,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Returns**                                 | <ul><li>The new value, or `nil` if not available.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L83) |
+| **Source**                                  | [src/extensions/cp/ui/ScrollBar.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ScrollBar.lua#L83){target="_blank"} |
 
 ---
 

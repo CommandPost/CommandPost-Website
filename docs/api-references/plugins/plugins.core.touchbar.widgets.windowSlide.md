@@ -28,7 +28,7 @@ Window Slide Widget for Touch Bar.
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L84) |
+| **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L84){target="_blank"} |
 
 ---
 
@@ -44,7 +44,7 @@ Window Slide Widget for Touch Bar.
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L18) |
+| **Source**                                  | [src/plugins/core/touchbar/widgets/windowSlide.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/widgets/windowSlide.lua#L18){target="_blank"} |
 
 ---
 

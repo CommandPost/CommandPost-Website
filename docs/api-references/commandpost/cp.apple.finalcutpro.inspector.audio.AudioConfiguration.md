@@ -34,7 +34,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A new AudioConfiguration object.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L33) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L33){target="_blank"} |
 
 ---
 
@@ -50,7 +50,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L20) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L20){target="_blank"} |
 
 ---
 
@@ -68,7 +68,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L61) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L61){target="_blank"} |
 
 ---
 
@@ -84,7 +84,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L110) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L110){target="_blank"} |
 
 ---
 
@@ -100,7 +100,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>The `AudioConfiguration` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L95) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L95){target="_blank"} |
 
 ---
 
@@ -116,7 +116,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
 | **Notes**                                   | <ul><li>None</li></ul> |
 | **Examples**                                | <ul><li>None</li></ul> |
-| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L78) |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioConfiguration.lua#L78){target="_blank"} |
 
 ---
 
