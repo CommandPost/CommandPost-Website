@@ -18,9 +18,11 @@ You can Download CommandPost [here](https://commandpost.io/download/).
 
 ## Website Repository
 
-This repository contains the CommandPost website.
+This repository contains the **CommandPost website**.
 
-You can access the public CommandPost website [here](https://commandpost.io/).
+You can access the public CommandPost website at [commandpost.io](https://commandpost.io/).
+
+If you have any questions about the website, you can make them in the [main CommandPost issues and discussions repository](https://github.com/CommandPost/CommandPost/issues).
 
 ---
 
