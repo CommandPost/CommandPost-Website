@@ -52,6 +52,9 @@ However, it's also used by developers, scientists and macOS power users all over
 > _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._
 > **[Oli Frost](https://olifro.st/){target="_blank"}**
 
+> _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (Assistant Editor on Netflix's Blood Red Sky)**
+
 CommandPost has deep support for a wide range of **control surfaces**.
 
 It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the Mac!
