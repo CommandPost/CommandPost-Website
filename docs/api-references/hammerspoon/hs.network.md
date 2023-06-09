@@ -9,12 +9,13 @@ This module provides functions for inquiring about and monitoring changes to the
  * [hs.network.reachability](hs.network.reachability.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [addresses](#addresses)
  * [interfaceDetails](#interfacedetails)
  * [interfaceName](#interfacename)
  * [interfaces](#interfaces)
  * [primaryInterfaces](#primaryinterfaces)
+
 
 ## API Documentation
 

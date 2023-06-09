@@ -42,15 +42,19 @@ audio:stabilization():smoothing():show():value(1.5)
 ```
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [EQ_MODES](#eq_modes)
  * [PAN_MODES](#pan_modes)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [AudioInspector](#audioinspector)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [audioConfiguration](#audioconfiguration)
+
 
 ## API Documentation
 

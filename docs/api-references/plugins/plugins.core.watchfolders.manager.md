@@ -6,14 +6,15 @@ Manager for the CommandPost Watch Folders Panel.
  * [plugins.core.watchfolders.manager.panel](plugins.core.watchfolders.manager.panel.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_TITLE](#default_title)
  * [DEFAULT_WIDTH](#default_width)
  * [DEFAULT_WINDOW_STYLE](#default_window_style)
  * [position](#position)
  * [WEBVIEW_LABEL](#webview_label)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addHandler](#addhandler)
  * [addPanel](#addpanel)
  * [getHandler](#gethandler)
@@ -25,6 +26,7 @@ Manager for the CommandPost Watch Folders Panel.
  * [selectPanel](#selectpanel)
  * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
+
 
 ## API Documentation
 

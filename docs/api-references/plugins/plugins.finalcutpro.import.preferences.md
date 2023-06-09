@@ -3,11 +3,12 @@
 Import Preferences
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
  * [createOptimizedMedia](#createoptimizedmedia)
  * [createProxyMedia](#createproxymedia)
  * [leaveInPlace](#leaveinplace)
+
 
 ## API Documentation
 

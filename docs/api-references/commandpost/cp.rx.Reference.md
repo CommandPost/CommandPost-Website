@@ -4,10 +4,12 @@ A handle representing the link between an [Observer](cp.rx.Observer.md) and an [
 work required to clean up after the Observable completes or the Observer cancels.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [cancel](#cancel)
+
 
 ## API Documentation
 

@@ -3,12 +3,14 @@
 Represents a Tangent Parameter control.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
  * [update](#update)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [parameter](#parameter)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [change](#change)
  * [get](#get)
  * [maxValue](#maxvalue)
@@ -21,6 +23,7 @@ Represents a Tangent Parameter control.
  * [reset](#reset)
  * [stepSize](#stepsize)
  * [xml](#xml)
+
 
 ## API Documentation
 

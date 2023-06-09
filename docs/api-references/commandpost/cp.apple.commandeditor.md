@@ -4,16 +4,18 @@ Functions to control and manage Apple's Command Editor - used in Final Cut Pro,
 Motion and Compressor.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [padKeys](#padkeys)
  * [supportedModifiers](#supportedmodifiers)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [characterStringToKeyCode](#characterstringtokeycode)
  * [keypadCharacterToKeyCode](#keypadcharactertokeycode)
  * [modifierMaskToModifiers](#modifiermasktomodifiers)
  * [modifierMatch](#modifiermatch)
  * [shortcutsFromCommandSet](#shortcutsfromcommandset)
  * [translateModifiers](#translatemodifiers)
+
 
 ## API Documentation
 

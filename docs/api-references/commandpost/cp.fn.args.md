@@ -3,13 +3,14 @@
 Functions for working with function arguments.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [from](#from)
  * [hasAny](#hasany)
  * [hasNone](#hasnone)
  * [only](#only)
  * [pack](#pack)
  * [unpack](#unpack)
+
 
 ## API Documentation
 

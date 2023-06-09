@@ -5,8 +5,9 @@ Represents an `AXImage` `axuielement` value.
 Extends [Element](cp.ui.Element.md).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
+
 
 ## API Documentation
 

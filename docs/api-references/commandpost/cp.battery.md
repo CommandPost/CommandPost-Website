@@ -17,7 +17,7 @@ By default the watcher initialises in a "stopped" state, and must be started for
 the `cp.prop` watchers to trigger.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [amperage](#amperage)
  * [capacity](#capacity)
  * [cycles](#cycles)
@@ -35,11 +35,14 @@ the `cp.prop` watchers to trigger.
  * [timeToFullCharge](#timetofullcharge)
  * [voltage](#voltage)
  * [watts](#watts)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [_watcher](#_watcher)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

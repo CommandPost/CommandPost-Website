@@ -3,17 +3,20 @@
 Virtual Touch Bar Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [LOCATION_TIMELINE](#location_timeline)
  * [VISIBILITY_ALWAYS](#visibility_always)
  * [VISIBILITY_DEFAULT](#visibility_default)
  * [VISIBILITY_FCP](#visibility_fcp)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [updateLocation](#updatelocation)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [location](#location)
  * [visibility](#visibility)
+
 
 ## API Documentation
 

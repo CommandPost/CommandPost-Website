@@ -7,26 +7,30 @@ The most common use of this module is to provide support for the command line to
 This module is based heavily on code from Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
 ## API Overview
-* Deprecateds - API features which will be removed in an future release
+### **Deprecateds** - _API features which will be removed in an future release_
  * [cliGetColors](#cligetcolors)
  * [cliResetColors](#cliresetcolors)
  * [cliSetColors](#clisetcolors)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [cliColors](#clicolors)
  * [cliInstall](#cliinstall)
  * [cliSaveHistory](#clisavehistory)
  * [cliSaveHistorySize](#clisavehistorysize)
  * [cliStatus](#clistatus)
  * [cliUninstall](#cliuninstall)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [localPort](#localport)
  * [remotePort](#remoteport)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [delete](#delete)
  * [isRemote](#isremote)
  * [isValid](#isvalid)
  * [name](#name)
  * [sendMessage](#sendmessage)
+
 
 ## API Documentation
 

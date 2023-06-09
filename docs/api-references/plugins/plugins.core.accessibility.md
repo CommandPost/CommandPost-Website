@@ -7,15 +7,18 @@ Accessibility Plugin.
  * [plugins.core.accessibility.tools](plugins.core.accessibility.tools.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [enabled](#enabled)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [shouldWeTryCloseSystemPreferences](#shouldwetryclosesystempreferences)
  * [systemPreferencesAlreadyOpen](#systempreferencesalreadyopen)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [completeSetupPanel](#completesetuppanel)
  * [init](#init)
  * [showSetupPanel](#showsetuppanel)
+
 
 ## API Documentation
 

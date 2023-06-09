@@ -8,9 +8,10 @@ Highland 2 support.
  * [cp.highland2.app](cp.highland2.app.md)
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [documents](#documents)
  * [focusedDocument](#focuseddocument)
+
 
 ## API Documentation
 

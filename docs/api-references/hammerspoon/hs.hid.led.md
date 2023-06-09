@@ -3,8 +3,9 @@
 HID LED interface for Hammerspoon, controls the state of keyboard LEDs
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [set](#set)
+
 
 ## API Documentation
 

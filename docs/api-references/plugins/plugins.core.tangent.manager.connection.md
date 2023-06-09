@@ -3,11 +3,13 @@
 Represents a Tangent Connection.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [connections](#connections)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [connection](#connection)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addMode](#addmode)
  * [applicationName](#applicationname)
  * [device](#device)
@@ -23,6 +25,7 @@ Represents a Tangent Connection.
  * [updateFavourites](#updatefavourites)
  * [userPath](#userpath)
  * [writeControlsXML](#writecontrolsxml)
+
 
 ## API Documentation
 

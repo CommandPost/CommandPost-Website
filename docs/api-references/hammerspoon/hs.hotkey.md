@@ -6,23 +6,27 @@ Create and manage global keyboard shortcuts
  * [hs.hotkey.modal](hs.hotkey.modal.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [alertDuration](#alertduration)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [assignable](#assignable)
  * [deleteAll](#deleteall)
  * [disableAll](#disableall)
  * [getHotkeys](#gethotkeys)
  * [showHotkeys](#showhotkeys)
  * [systemAssigned](#systemassigned)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [bind](#bind)
  * [bindSpec](#bindspec)
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [delete](#delete)
  * [disable](#disable)
  * [enable](#enable)
+
 
 ## API Documentation
 

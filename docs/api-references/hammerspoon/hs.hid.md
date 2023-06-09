@@ -8,10 +8,11 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
  * [hs.hid.led](hs.hid.led.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [get](#get)
  * [set](#set)
  * [toggle](#toggle)
+
 
 ## API Documentation
 

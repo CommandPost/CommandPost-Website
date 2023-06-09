@@ -6,9 +6,10 @@ Manipulate running applications
  * [hs.application.watcher](hs.application.watcher.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [menuGlyphs](#menuglyphs)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [applicationForPID](#applicationforpid)
  * [applicationsForBundleID](#applicationsforbundleid)
  * [defaultAppForUTI](#defaultappforuti)
@@ -25,11 +26,13 @@ Manipulate running applications
  * [preferredLocalizationsForBundleID](#preferredlocalizationsforbundleid)
  * [preferredLocalizationsForBundlePath](#preferredlocalizationsforbundlepath)
  * [runningApplications](#runningapplications)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [find](#find)
  * [get](#get)
  * [open](#open)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [allWindows](#allwindows)
  * [bundleID](#bundleid)
@@ -54,6 +57,7 @@ Manipulate running applications
  * [title](#title)
  * [unhide](#unhide)
  * [visibleWindows](#visiblewindows)
+
 
 ## API Documentation
 

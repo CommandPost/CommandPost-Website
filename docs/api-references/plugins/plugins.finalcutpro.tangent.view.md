@@ -3,10 +3,12 @@
 Final Cut Pro Tangent View Group
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [group](#group)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
+
 
 ## API Documentation
 

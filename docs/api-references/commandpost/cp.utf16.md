@@ -7,11 +7,12 @@ A pure-LUA implementation of UTF-16 decoding
  * [cp.utf16.le](cp.utf16.le.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [char](#char)
  * [codepoint](#codepoint)
  * [codes](#codes)
  * [offset](#offset)
+
 
 ## API Documentation
 

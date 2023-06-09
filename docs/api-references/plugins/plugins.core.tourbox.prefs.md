@@ -3,12 +3,13 @@
 TourBox Preferences Panel
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [lastApplication](#lastapplication)
  * [lastControlType](#lastcontroltype)
  * [lastExportPath](#lastexportpath)
  * [lastImportPath](#lastimportpath)
  * [lastPage](#lastpage)
+
 
 ## API Documentation
 

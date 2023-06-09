@@ -9,7 +9,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
  * [hs.fs.xattr](hs.fs.xattr.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [attributes](#attributes)
  * [chdir](#chdir)
  * [currentDir](#currentdir)
@@ -36,6 +36,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
  * [touch](#touch)
  * [unlock](#unlock)
  * [urlFromPath](#urlfrompath)
+
 
 ## API Documentation
 

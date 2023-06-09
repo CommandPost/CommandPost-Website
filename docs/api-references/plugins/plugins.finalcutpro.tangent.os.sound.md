@@ -3,11 +3,13 @@
 Tangent Sound Functions.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [currentOutputDevice](#currentoutputdevice)
  * [group](#group)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
+
 
 ## API Documentation
 

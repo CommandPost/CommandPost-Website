@@ -3,9 +3,10 @@
 Adds preferences for extra FCPXML import and export options.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [exportEnabled](#exportenabled)
  * [importEnabled](#importenabled)
+
 
 ## API Documentation
 

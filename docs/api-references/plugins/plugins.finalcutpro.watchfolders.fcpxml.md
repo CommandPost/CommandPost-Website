@@ -3,9 +3,10 @@
 Final Cut Pro FCPXML Watch Folder Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [SECONDS_UNTIL_DELETE](#seconds_until_delete)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [automaticallyImport](#automaticallyimport)
  * [deleteAfterImport](#deleteafterimport)
  * [disableImport](#disableimport)
@@ -14,7 +15,8 @@ Final Cut Pro FCPXML Watch Folder Plugin.
  * [savedNotifications](#savednotifications)
  * [watchFolders](#watchfolders)
  * [watchFolderTableID](#watchfoldertableid)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addWatchFolder](#addwatchfolder)
  * [controllerCallback](#controllercallback)
  * [createNotification](#createnotification)
@@ -28,6 +30,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
  * [setupWatchers](#setupwatchers)
  * [styleSheet](#stylesheet)
  * [watchFolderTriggered](#watchfoldertriggered)
+
 
 ## API Documentation
 

@@ -39,11 +39,13 @@ There are two 'special' tag names:
  * `__`     - (double underscore) will generate a `&lt!-- ... --&gt` comment block.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [append](#append)
  * [prepend](#prepend)
+
 
 ## API Documentation
 

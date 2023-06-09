@@ -13,7 +13,7 @@ The goal of this file is to provide most of the same functionality that CGILua d
  * [hs.httpserver.hsminweb.cgilua.urlcode](hs.httpserver.hsminweb.cgilua.urlcode.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [script_file](#script_file)
  * [script_path](#script_path)
  * [script_pdir](#script_pdir)
@@ -21,7 +21,8 @@ The goal of this file is to provide most of the same functionality that CGILua d
  * [script_vpath](#script_vpath)
  * [tmp_path](#tmp_path)
  * [urlpath](#urlpath)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [contentheader](#contentheader)
  * [doif](#doif)
  * [doscript](#doscript)
@@ -38,6 +39,7 @@ The goal of this file is to provide most of the same functionality that CGILua d
  * [splitonlast](#splitonlast)
  * [tmpfile](#tmpfile)
  * [tmpname](#tmpname)
+
 
 ## API Documentation
 

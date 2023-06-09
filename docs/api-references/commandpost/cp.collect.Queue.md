@@ -21,7 +21,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 ```
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [contains](#contains)
  * [len](#len)
  * [peekLeft](#peekleft)
@@ -32,9 +32,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
  * [pushRight](#pushright)
  * [removeItem](#removeitem)
  * [removeItem](#removeitem)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [contains](#contains)
  * [len](#len)
  * [peekLeft](#peekleft)
@@ -43,6 +45,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
  * [popRight](#popright)
  * [pushLeft](#pushleft)
  * [pushRight](#pushright)
+
 
 ## API Documentation
 

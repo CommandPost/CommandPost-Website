@@ -3,10 +3,12 @@
 The `cp.app` for Blackmagic DaVinci Resolve.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [app](#app)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [application](#application)
+
 
 ## API Documentation
 

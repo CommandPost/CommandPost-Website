@@ -10,14 +10,16 @@ A discussion concerning the embedding of commands into the text to be spoken can
  * [hs.speech.listener](hs.speech.listener.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [attributesForVoice](#attributesforvoice)
  * [availableVoices](#availablevoices)
  * [defaultVoice](#defaultvoice)
  * [isAnyApplicationSpeaking](#isanyapplicationspeaking)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [continue](#continue)
  * [isPaused](#ispaused)
  * [isSpeaking](#isspeaking)
@@ -36,6 +38,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
  * [usesFeedbackWindow](#usesfeedbackwindow)
  * [voice](#voice)
  * [volume](#volume)
+
 
 ## API Documentation
 

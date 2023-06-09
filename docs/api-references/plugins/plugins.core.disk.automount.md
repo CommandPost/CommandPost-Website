@@ -3,12 +3,14 @@
 Automatic Disk Mounting & Unmounting.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [autoMountOnAC](#automountonac)
  * [autoUnmountOnBattery](#autounmountonbattery)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [mountPhysicalDrives](#mountphysicaldrives)
  * [unmountPhysicalDrives](#unmountphysicaldrives)
+
 
 ## API Documentation
 

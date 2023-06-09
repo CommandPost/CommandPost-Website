@@ -33,13 +33,15 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [matcher](#matcher)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [find](#find)
  * [gmatch](#gmatch)
  * [gsub](#gsub)
  * [match](#match)
+
 
 ## API Documentation
 

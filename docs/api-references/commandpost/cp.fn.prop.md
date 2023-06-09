@@ -3,8 +3,9 @@
 A module of free-standing functions for working with [cp.prop](cp.prop.md) values.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [mutate](#mutate)
+
 
 ## API Documentation
 

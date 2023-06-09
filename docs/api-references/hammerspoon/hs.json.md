@@ -6,11 +6,12 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [decode](#decode)
  * [encode](#encode)
  * [read](#read)
  * [write](#write)
+
 
 ## API Documentation
 

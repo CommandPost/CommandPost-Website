@@ -3,8 +3,9 @@
 Tangent Display Functions.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
+
 
 ## API Documentation
 

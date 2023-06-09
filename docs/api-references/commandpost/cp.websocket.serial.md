@@ -10,14 +10,16 @@ initial construction.
 Note that it does not support any websocket extensions.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [close](#close)
  * [isOpen](#isopen)
  * [open](#open)
  * [send](#send)
  * [status](#status)
+
 
 ## API Documentation
 

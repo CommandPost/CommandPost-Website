@@ -3,9 +3,10 @@
 Table-related functions.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [this](#this)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [call](#call)
  * [copy](#copy)
  * [filter](#filter)
@@ -32,6 +33,7 @@ Table-related functions.
  * [split](#split)
  * [zip](#zip)
  * [zipAll](#zipall)
+
 
 ## API Documentation
 

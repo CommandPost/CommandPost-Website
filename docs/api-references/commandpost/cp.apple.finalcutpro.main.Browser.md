@@ -6,11 +6,13 @@ Browser Module.
  * [cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover](cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Browser](#browser)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [generators](#generators)
  * [generatorsShowing](#generatorsshowing)
  * [isOnPrimary](#isonprimary)
@@ -23,7 +25,8 @@ Browser Module.
  * [showGenerators](#showgenerators)
  * [showLibraries](#showlibraries)
  * [showMedia](#showmedia)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [appearanceAndFiltering](#appearanceandfiltering)
  * [doHide](#dohide)
  * [doShow](#doshow)
@@ -34,6 +37,7 @@ Browser Module.
  * [saveLayout](#savelayout)
  * [showOnPrimary](#showonprimary)
  * [showOnSecondary](#showonsecondary)
+
 
 ## API Documentation
 

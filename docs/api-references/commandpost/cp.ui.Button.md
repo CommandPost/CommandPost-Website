@@ -4,15 +4,19 @@ The `Button` type extends [Element](cp.ui.Element.md) and includes all its
 methods, fields and other properties.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Button](#button)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [title](#title)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doPress](#dopress)
  * [press](#press)
+
 
 ## API Documentation
 

@@ -150,12 +150,14 @@ These modules will not be accessible to other plugins or to the main application
  * [cp.plugins.plugin](cp.plugins.plugin.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [CACHE](#cache)
  * [SETTINGS_DISABLED](#settings_disabled)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [IDS](#ids)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addDependent](#adddependent)
  * [disable](#disable)
  * [enable](#enable)
@@ -175,6 +177,7 @@ These modules will not be accessible to other plugins or to the main application
  * [postInitPlugins](#postinitplugins)
  * [scanDirectory](#scandirectory)
  * [watchPluginPaths](#watchpluginpaths)
+
 
 ## API Documentation
 

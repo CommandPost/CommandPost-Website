@@ -3,15 +3,17 @@
 Action Manager Module.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [handlerIds](#handlerids)
  * [handlers](#handlers)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addHandler](#addhandler)
  * [getActivator](#getactivator)
  * [getHandler](#gethandler)
  * [getURL](#geturl)
  * [init](#init)
+
 
 ## API Documentation
 

@@ -3,19 +3,23 @@
 Generators Browser Module.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [TITLE](#title)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [isShowing](#isshowing)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [GeneratorsBrowser](#generatorsbrowser)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [group](#group)
  * [mainGroupUI](#maingroupui)
  * [search](#search)
  * [sidebar](#sidebar)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [applyItem](#applyitem)
  * [currentItemsUI](#currentitemsui)
  * [getCurrentTitles](#getcurrenttitles)
@@ -35,6 +39,7 @@ Generators Browser Module.
  * [showSidebar](#showsidebar)
  * [showTitlesCategory](#showtitlescategory)
  * [topCategoriesUI](#topcategoriesui)
+
 
 ## API Documentation
 

@@ -5,13 +5,15 @@
 be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onCompleted](#oncompleted)
  * [onError](#onerror)
  * [onNext](#onnext)
  * [subscribe](#subscribe)
+
 
 ## API Documentation
 

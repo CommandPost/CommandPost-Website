@@ -20,16 +20,20 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 ```
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [ui](#ui)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [nextWindow](#nextwindow)
  * [previousWindow](#previouswindow)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [next](#next)
  * [previous](#previous)
+
 
 ## API Documentation
 

@@ -3,12 +3,13 @@
 Support functions for the CGILua compatibility module for encoding and decoding URL components in accordance with RFC 3986.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [encodetable](#encodetable)
  * [escape](#escape)
  * [insertfield](#insertfield)
  * [parsequery](#parsequery)
  * [unescape](#unescape)
+
 
 ## API Documentation
 

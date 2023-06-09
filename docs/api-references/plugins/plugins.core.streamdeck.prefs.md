@@ -3,13 +3,15 @@
 Stream Deck Preferences Panel
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [defaultIconPath](#defaulticonpath)
  * [supportedExtensions](#supportedextensions)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [buildIconFromLabel](#buildiconfromlabel)
  * [processEncodedIcon](#processencodedicon)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [automaticallyApplyIconFromAction](#automaticallyapplyiconfromaction)
  * [backgroundColour](#backgroundcolour)
  * [iconHistory](#iconhistory)
@@ -22,8 +24,10 @@ Stream Deck Preferences Panel
  * [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
  * [resizeImagesOnImport](#resizeimagesonimport)
  * [snippetsRefreshFrequency](#snippetsrefreshfrequency)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [setItem](#setitem)
+
 
 ## API Documentation
 

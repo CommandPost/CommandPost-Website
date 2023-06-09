@@ -3,7 +3,7 @@
 Functions for Generating HTML UI Items
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [button](#button)
  * [checkbox](#checkbox)
  * [dropdown](#dropdown)
@@ -11,6 +11,7 @@ Functions for Generating HTML UI Items
  * [javascript](#javascript)
  * [setWebviewLabel](#setwebviewlabel)
  * [text](#text)
+
 
 ## API Documentation
 

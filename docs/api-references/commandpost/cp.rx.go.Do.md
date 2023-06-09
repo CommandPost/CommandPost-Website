@@ -26,10 +26,12 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
  * [cp.rx.go.Do.Then](cp.rx.go.Do.Then.md)
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Do](#do)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
+
 
 ## API Documentation
 

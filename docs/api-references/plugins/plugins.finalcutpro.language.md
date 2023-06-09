@@ -3,8 +3,9 @@
 Final Cut Pro Language Plugin.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [change](#change)
+
 
 ## API Documentation
 

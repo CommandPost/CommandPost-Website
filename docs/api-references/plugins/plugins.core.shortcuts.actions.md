@@ -3,12 +3,14 @@
 Adds actions which allow you to trigger keyboard shortcuts.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [eventTapCount](#eventtapcount)
  * [heldKeys](#heldkeys)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [startEventTap](#starteventtap)
  * [stopEventTap](#stopeventtap)
+
 
 ## API Documentation
 

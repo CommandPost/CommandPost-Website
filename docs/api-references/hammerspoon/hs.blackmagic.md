@@ -81,23 +81,26 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [buttonNames](#buttonnames)
  * [deviceTypes](#devicetypes)
  * [jogModeNames](#jogmodenames)
  * [ledNames](#lednames)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [discoveryCallback](#discoverycallback)
  * [getDevice](#getdevice)
  * [init](#init)
  * [numDevices](#numdevices)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [battery](#battery)
  * [callback](#callback)
  * [deviceType](#devicetype)
  * [jogMode](#jogmode)
  * [led](#led)
  * [serialNumber](#serialnumber)
+
 
 ## API Documentation
 

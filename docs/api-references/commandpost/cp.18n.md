@@ -3,8 +3,9 @@
 CommandPost's Internationalisation & Localisation Manger.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
+
 
 ## API Documentation
 

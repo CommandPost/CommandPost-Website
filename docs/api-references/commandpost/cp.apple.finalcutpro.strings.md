@@ -5,11 +5,13 @@ This has been populated with common lookups for user interface values
 that appear in Final Cut Pro.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [strings](#strings)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [find](#find)
  * [findKeys](#findkeys)
+
 
 ## API Documentation
 

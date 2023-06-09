@@ -3,8 +3,9 @@
 Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` which will be executed after the previous one resolves.
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
+
 
 ## API Documentation
 

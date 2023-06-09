@@ -3,8 +3,9 @@
 Controls Final Cut Pro's Video Effects.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [videoeffects](#videoeffects)
+
 
 ## API Documentation
 

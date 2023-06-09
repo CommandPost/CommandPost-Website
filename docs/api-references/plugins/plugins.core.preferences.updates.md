@@ -3,8 +3,9 @@
 Updates Module.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [automaticallyCheckForUpdates](#automaticallycheckforupdates)
+
 
 ## API Documentation
 

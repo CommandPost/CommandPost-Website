@@ -3,8 +3,9 @@
 A `Statement.Modifier` that specifies that the `cp.prop` is reset to its original value once execution completes.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [ThenReset](#thenreset)
+
 
 ## API Documentation
 

@@ -3,8 +3,9 @@
 Feedback Menu Item.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [show](#show)
+
 
 ## API Documentation
 

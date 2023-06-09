@@ -3,15 +3,19 @@
 Color Board Module.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [aspect](#aspect)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [currentAspect](#currentaspect)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorBoard](#colorboard)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [aspectGroup](#aspectgroup)
  * [color](#color)
  * [contentUI](#contentui)
@@ -19,7 +23,8 @@ Color Board Module.
  * [isActive](#isactive)
  * [isShowing](#isshowing)
  * [saturation](#saturation)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [childUI](#childui)
  * [current](#current)
  * [doHide](#dohide)
@@ -31,6 +36,7 @@ Color Board Module.
  * [nextAspect](#nextaspect)
  * [reset](#reset)
  * [show](#show)
+
 
 ## API Documentation
 

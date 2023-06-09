@@ -7,19 +7,22 @@ This will generally not be created directly, but will be created via subclass su
 [IndexClips](cp.apple.finalcutpro.timeline.IndexClips.md).
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [IndexSection](#indexsection)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [index](#index)
  * [isShowing](#isshowing)
  * [search](#search)
  * [UI](#ui)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [doActivateSearch](#doactivatesearch)
  * [doShow](#doshow)
  * [parent](#parent)
+
 
 ## API Documentation
 

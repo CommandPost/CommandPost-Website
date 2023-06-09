@@ -3,10 +3,12 @@
 Specifies that the `Require`d value `Is` a specific value.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [Is](#is)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [OrThrow](#orthrow)
+
 
 ## API Documentation
 

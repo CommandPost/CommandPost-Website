@@ -3,16 +3,19 @@
 MIDI Manager Controls.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [controls](#controls)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [allGroups](#allgroups)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [get](#get)
  * [getAll](#getall)
  * [id](#id)
  * [new](#new)
  * [params](#params)
+
 
 ## API Documentation
 

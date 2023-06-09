@@ -3,12 +3,13 @@
 Color Board Plugins.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [colorBoardMousePuckRelease](#colorboardmousepuckrelease)
  * [nextAspect](#nextaspect)
  * [startMousePuck](#startmousepuck)
  * [startShiftingPuck](#startshiftingpuck)
  * [stopShiftingPuck](#stopshiftingpuck)
+
 
 ## API Documentation
 

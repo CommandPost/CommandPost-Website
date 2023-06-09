@@ -84,7 +84,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [cp.apple.finalcutpro.workflowextensions](cp.apple.finalcutpro.workflowextensions.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
  * [ALLOWED_IMPORT_EXTENSIONS](#allowed_import_extensions)
  * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
@@ -95,21 +95,25 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [PASTEBOARD_UTI](#pasteboard_uti)
  * [preferences](#preferences)
  * [WORKSPACES_PATH](#workspaces_path)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [activeCommandSet](#activecommandset)
  * [customWorkspaces](#customworkspaces)
  * [openAndSavePanelDefaultPath](#openandsavepaneldefaultpath)
  * [selectedWorkspace](#selectedworkspace)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [commandSet](#commandset)
  * [matches](#matches)
  * [matches](#matches)
  * [userCommandSetPath](#usercommandsetpath)
  * [workflowExtensionNames](#workflowextensionnames)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Color](#color)
  * [TranscodeMedia](#transcodemedia)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeCommandSetPath](#activecommandsetpath)
  * [alert](#alert)
  * [audioEnhancements](#audioenhancements)
@@ -174,7 +178,8 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [validateAudioUnits](#validateaudiounits)
  * [viewer](#viewer)
  * [volume](#volume)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activeLibraryPaths](#activelibrarypaths)
  * [closeLibrary](#closelibrary)
  * [defaultCommandSetPath](#defaultcommandsetpath)
@@ -191,6 +196,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [selectLibrary](#selectlibrary)
  * [string](#string)
  * [userCommandSets](#usercommandsets)
+
 
 ## API Documentation
 

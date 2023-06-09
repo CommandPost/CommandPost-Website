@@ -6,16 +6,18 @@ Manager for the Batch Export Window.
  * [plugins.finalcutpro.export.batch.manager.panel](plugins.finalcutpro.export.batch.manager.panel.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_WIDTH](#default_width)
  * [lastTab](#lasttab)
  * [position](#position)
  * [WEBVIEW_LABEL](#webview_label)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [_handlers](#_handlers)
  * [_panels](#_panels)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addHandler](#addhandler)
  * [addPanel](#addpanel)
  * [disabledPanels](#disabledpanels)
@@ -31,6 +33,7 @@ Manager for the Batch Export Window.
  * [selectPanel](#selectpanel)
  * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
+
 
 ## API Documentation
 

@@ -3,7 +3,7 @@
 Final Cut Pro Viewer Overlays.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [activeMemory](#activememory)
  * [basicGridEnabled](#basicgridenabled)
  * [capslock](#capslock)
@@ -25,7 +25,8 @@ Final Cut Pro Viewer Overlays.
  * [letterboxEnabled](#letterboxenabled)
  * [letterboxHeight](#letterboxheight)
  * [stillsLayout](#stillslayout)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [deleteMemory](#deletememory)
  * [disableAllDraggableGuides](#disablealldraggableguides)
  * [draggableGuidesEnabled](#draggableguidesenabled)
@@ -54,6 +55,7 @@ Final Cut Pro Viewer Overlays.
  * [toggleDraggableGuide](#toggledraggableguide)
  * [update](#update)
  * [viewMemory](#viewmemory)
+
 
 ## API Documentation
 

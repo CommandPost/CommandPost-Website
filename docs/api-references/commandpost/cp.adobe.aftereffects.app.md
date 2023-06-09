@@ -3,8 +3,9 @@
 The `cp.app` for Adobe After Effects.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [app](#app)
+
 
 ## API Documentation
 

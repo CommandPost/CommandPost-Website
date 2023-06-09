@@ -39,8 +39,9 @@ There are two 'special' tag names:
  * `__`		- (double underscore) will generate a `&lt!-- ... --&gt` comment block.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
+
 
 ## API Documentation
 

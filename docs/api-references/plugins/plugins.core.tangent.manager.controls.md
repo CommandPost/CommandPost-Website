@@ -3,12 +3,14 @@
 Represents a Tangent Group
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [controls](#controls)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [enabled](#enabled)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [action](#action)
  * [controls](#controls)
  * [findByID](#findbyid)
@@ -20,6 +22,7 @@ Represents a Tangent Group
  * [tangent](#tangent)
  * [unregister](#unregister)
  * [xml](#xml)
+
 
 ## API Documentation
 

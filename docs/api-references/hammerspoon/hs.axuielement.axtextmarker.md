@@ -17,15 +17,17 @@ As this submodule utilizes private and undocumented functions in the HIServices 
     hs.host.operatingSystemVersionString()
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [_functionCheck](#_functioncheck)
  * [bytes](#bytes)
  * [endMarker](#endmarker)
  * [length](#length)
  * [startMarker](#startmarker)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [newMarker](#newmarker)
  * [newRange](#newrange)
+
 
 ## API Documentation
 

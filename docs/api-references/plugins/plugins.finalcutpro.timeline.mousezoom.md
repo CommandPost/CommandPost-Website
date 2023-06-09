@@ -5,18 +5,20 @@ Allows you to zoom in or out of a Final Cut Pro timeline using the mechanical sc
 Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [customModifier](#custommodifier)
  * [enabled](#enabled)
  * [numberOfTouchDevices](#numberoftouchdevices)
  * [offset](#offset)
  * [sensitivity](#sensitivity)
  * [threshold](#threshold)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [findMagicMouses](#findmagicmouses)
  * [start](#start)
  * [stop](#stop)
  * [update](#update)
+
 
 ## API Documentation
 

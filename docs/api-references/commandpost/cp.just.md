@@ -4,10 +4,11 @@ This module provides functions to help with performing tasks which may be
 delayed, up to a finite number of loops.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [doUntil](#dountil)
  * [doWhile](#dowhile)
  * [wait](#wait)
+
 
 ## API Documentation
 

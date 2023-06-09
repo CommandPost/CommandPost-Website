@@ -43,7 +43,7 @@ ParameterizedAttributes:
  * [hs.axuielement.observer](hs.axuielement.observer.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [actions](#actions)
  * [attributes](#attributes)
  * [orientations](#orientations)
@@ -53,15 +53,18 @@ ParameterizedAttributes:
  * [sortDirections](#sortdirections)
  * [subroles](#subroles)
  * [units](#units)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [searchCriteriaFunction](#searchcriteriafunction)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [applicationElement](#applicationelement)
  * [applicationElementForPID](#applicationelementforpid)
  * [systemElementAtPosition](#systemelementatposition)
  * [systemWideElement](#systemwideelement)
  * [windowElement](#windowelement)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [actionDescription](#actiondescription)
  * [actionNames](#actionnames)
  * [allAttributeValues](#allattributevalues)
@@ -86,6 +89,7 @@ ParameterizedAttributes:
  * [pid](#pid)
  * [setAttributeValue](#setattributevalue)
  * [setTimeout](#settimeout)
+
 
 ## API Documentation
 

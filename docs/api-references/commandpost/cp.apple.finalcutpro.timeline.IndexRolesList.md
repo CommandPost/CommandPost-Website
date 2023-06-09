@@ -3,7 +3,7 @@
 Timeline Index Roles List.
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allRoles](#allroles)
  * [audioRoles](#audioroles)
  * [doActivate](#doactivate)
@@ -15,6 +15,7 @@ Timeline Index Roles List.
  * [filterRoles](#filterroles)
  * [findRoleTitled](#findroletitled)
  * [videoRoles](#videoroles)
+
 
 ## API Documentation
 

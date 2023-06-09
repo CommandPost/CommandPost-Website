@@ -3,12 +3,14 @@
 Ignore Final Cut Pro's Media Import Window.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [enabled](#enabled)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [start](#start)
  * [stop](#stop)
  * [update](#update)
+
 
 ## API Documentation
 

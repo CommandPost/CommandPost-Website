@@ -5,7 +5,7 @@ Watch for application launch/terminate events
 This module is based primarily on code from the previous incarnation of Mjolnir by [Markus Engelbrecht](https://github.com/mgee) and [Steven Degutis](https://github.com/sdegutis/).
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [activated](#activated)
  * [deactivated](#deactivated)
  * [hidden](#hidden)
@@ -13,11 +13,14 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [launching](#launching)
  * [terminated](#terminated)
  * [unhidden](#unhidden)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

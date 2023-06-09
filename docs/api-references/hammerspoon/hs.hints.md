@@ -3,7 +3,7 @@
 Switch focus with a transient per-application keyboard shortcut
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [fontName](#fontname)
  * [fontSize](#fontsize)
  * [hintChars](#hintchars)
@@ -11,8 +11,10 @@ Switch focus with a transient per-application keyboard shortcut
  * [showTitleThresh](#showtitlethresh)
  * [style](#style)
  * [titleMaxSize](#titlemaxsize)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [windowHints](#windowhints)
+
 
 ## API Documentation
 

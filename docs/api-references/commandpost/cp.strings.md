@@ -14,9 +14,10 @@ Notes: This will load the file on each request. To have values cached, use the `
  * [cp.strings.source](cp.strings.source.md)
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [context](#context)
  * [find](#find)
  * [findAllKeys](#findallkeys)
@@ -25,6 +26,7 @@ Notes: This will load the file on each request. To have values cached, use the `
  * [findKeysInSources](#findkeysinsources)
  * [from](#from)
  * [fromPlist](#fromplist)
+
 
 ## API Documentation
 

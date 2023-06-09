@@ -31,13 +31,14 @@ by passing any of the following:
 You can use any of these anywhere an hs.geometry object is expected in Hammerspoon; the constructor will be called for you.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [copy](#copy)
  * [new](#new)
  * [point](#point)
  * [rect](#rect)
  * [size](#size)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [area](#area)
  * [aspect](#aspect)
  * [bottomright](#bottomright)
@@ -57,7 +58,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
  * [y](#y)
  * [y1](#y1)
  * [y2](#y2)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [angle](#angle)
  * [angleTo](#angleto)
  * [distance](#distance)
@@ -75,6 +77,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
  * [type](#type)
  * [union](#union)
  * [vector](#vector)
+
 
 ## API Documentation
 

@@ -13,10 +13,11 @@ Notes:
  * [hs.window.tiling](hs.window.tiling.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [animationDuration](#animationduration)
  * [setFrameCorrectness](#setframecorrectness)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [allWindows](#allwindows)
  * [desktop](#desktop)
  * [invisibleWindows](#invisiblewindows)
@@ -27,12 +28,14 @@ Notes:
  * [snapshotForID](#snapshotforid)
  * [timeout](#timeout)
  * [visibleWindows](#visiblewindows)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [find](#find)
  * [focusedWindow](#focusedwindow)
  * [frontmostWindow](#frontmostwindow)
  * [get](#get)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [application](#application)
  * [becomeMain](#becomemain)
  * [centerOnScreen](#centeronscreen)
@@ -85,6 +88,7 @@ Notes:
  * [windowsToSouth](#windowstosouth)
  * [windowsToWest](#windowstowest)
  * [zoomButtonRect](#zoombuttonrect)
+
 
 ## API Documentation
 

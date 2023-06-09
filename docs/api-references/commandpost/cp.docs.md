@@ -10,10 +10,11 @@ require("cp.docs").generate()
 ```
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [generate](#generate)
  * [generateExtensionLinks](#generateextensionlinks)
  * [updateDeveloperGuideSummary](#updatedeveloperguidesummary)
+
 
 ## API Documentation
 

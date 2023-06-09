@@ -4,11 +4,13 @@ Processes the contents of the GridElement as a list of rows.
 Each of the defined `Element` initialisers will be used to create a cell within each `Row`.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [OfRows](#ofrows)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [createRow](#createrow)
  * [createRows](#createrows)
+
 
 ## API Documentation
 

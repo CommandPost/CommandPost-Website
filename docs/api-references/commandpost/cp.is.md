@@ -24,7 +24,7 @@ isnt_blank(nil) == false
 ```
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [blank](#blank)
  * [boolean](#boolean)
  * [callable](#callable)
@@ -40,6 +40,7 @@ isnt_blank(nil) == false
  * [table](#table)
  * [truthy](#truthy)
  * [userdata](#userdata)
+
 
 ## API Documentation
 

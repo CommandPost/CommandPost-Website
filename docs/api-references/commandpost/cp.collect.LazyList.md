@@ -11,8 +11,9 @@ This allows the list to be created lazily, and the items to be created on demand
 lists that are expensive to create, but are only required when they are actually used.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
+
 
 ## API Documentation
 

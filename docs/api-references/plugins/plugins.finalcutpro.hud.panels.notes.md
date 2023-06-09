@@ -3,8 +3,9 @@
 Notes Panel for the Final Cut Pro HUD.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [updateInfo](#updateinfo)
+
 
 ## API Documentation
 

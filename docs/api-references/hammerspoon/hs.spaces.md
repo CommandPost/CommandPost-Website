@@ -16,9 +16,10 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
  * [hs.spaces.watcher](hs.spaces.watcher.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [MCwaitTime](#mcwaittime)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [activeSpaceOnScreen](#activespaceonscreen)
  * [activeSpaces](#activespaces)
  * [addSpaceToScreen](#addspacetoscreen)
@@ -43,6 +44,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
  * [toggleShowDesktop](#toggleshowdesktop)
  * [windowsForSpace](#windowsforspace)
  * [windowSpaces](#windowspaces)
+
 
 ## API Documentation
 

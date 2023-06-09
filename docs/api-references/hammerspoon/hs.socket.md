@@ -62,14 +62,17 @@ The document has moved
  * [hs.socket.udp](hs.socket.udp.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [timeout](#timeout)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [parseAddress](#parseaddress)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [server](#server)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [connect](#connect)
  * [connected](#connected)
  * [connections](#connections)
@@ -83,6 +86,7 @@ The document has moved
  * [setTimeout](#settimeout)
  * [startTLS](#starttls)
  * [write](#write)
+
 
 ## API Documentation
 

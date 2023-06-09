@@ -97,18 +97,20 @@ Core Hammerspoon functionality
  * [hs.window](hs.window.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [configdir](#configdir)
  * [docstrings_json_file](#docstrings_json_file)
  * [processInfo](#processinfo)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [accessibilityStateCallback](#accessibilitystatecallback)
  * [completionsForInputString](#completionsforinputstring)
  * [dockIconClickCallback](#dockiconclickcallback)
  * [fileDroppedToDockIconCallback](#filedroppedtodockiconcallback)
  * [shutdownCallback](#shutdowncallback)
  * [textDroppedToDockIconCallback](#textdroppedtodockiconcallback)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [accessibilityState](#accessibilitystate)
  * [allowAppleScript](#allowapplescript)
  * [autoLaunch](#autolaunch)
@@ -145,6 +147,7 @@ Core Hammerspoon functionality
  * [toggleConsole](#toggleconsole)
  * [updateAvailable](#updateavailable)
  * [uploadCrashData](#uploadcrashdata)
+
 
 ## API Documentation
 

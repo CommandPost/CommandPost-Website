@@ -8,12 +8,14 @@ This module will *not* allow you to publish proxy records for other hosts on you
 Additional submodules which may address this limitation as well as provide additional functions available with Apple's dns-sd library are being considered but there is no estimated timeframe at present.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [serviceTypes](#servicetypes)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [remote](#remote)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addresses](#addresses)
  * [domain](#domain)
  * [hostname](#hostname)
@@ -27,6 +29,7 @@ Additional submodules which may address this limitation as well as provide addit
  * [stopMonitoring](#stopmonitoring)
  * [txtRecord](#txtrecord)
  * [type](#type)
+
 
 ## API Documentation
 

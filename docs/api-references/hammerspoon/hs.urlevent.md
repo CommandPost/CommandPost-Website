@@ -15,10 +15,11 @@ NOTE: Any event which is received, for which no callback has been bound, will be
 NOTE: When you trigger a URL from another application, it is usually best to have the URL open in the background, if that option is available. Otherwise, OS X will activate CommandPost (i.e. give it focus), which makes URL events difficult to use for things like window management.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [httpCallback](#httpcallback)
  * [mailtoCallback](#mailtocallback)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [bind](#bind)
  * [getAllHandlersForScheme](#getallhandlersforscheme)
  * [getDefaultHandler](#getdefaulthandler)
@@ -26,6 +27,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
  * [openURLWithBundle](#openurlwithbundle)
  * [setDefaultHandler](#setdefaulthandler)
  * [setRestoreHandler](#setrestorehandler)
+
 
 ## API Documentation
 

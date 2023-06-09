@@ -6,12 +6,14 @@ It delegates to the `contents` property, so any functions which can be called
 on the `contents` property can be called on the Timeline module.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [matchesMain](#matchesmain)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Timeline](#timeline)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [effects](#effects)
  * [index](#index)
@@ -26,7 +28,8 @@ on the `contents` property can be called on the Timeline module.
  * [title](#title)
  * [toolbar](#toolbar)
  * [transitions](#transitions)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [doHide](#dohide)
  * [doOpenProject](#doopenproject)
@@ -36,6 +39,7 @@ on the `contents` property can be called on the Timeline module.
  * [show](#show)
  * [showOnPrimary](#showonprimary)
  * [showOnSecondary](#showonsecondary)
+
 
 ## API Documentation
 

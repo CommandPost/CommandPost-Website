@@ -3,12 +3,14 @@
 Browser Keywords Presets.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_PRESETS](#number_of_presets)
  * [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [restore](#restore)
  * [save](#save)
+
 
 ## API Documentation
 

@@ -3,10 +3,12 @@
 A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matchesSearch](#matchessearch)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [SearchField](#searchfield)
+
 
 ## API Documentation
 

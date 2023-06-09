@@ -3,8 +3,9 @@
 A Outline UI element. It extends [GridElement](cp.ui.GridElement.md), so will inherit all of its properties and methods.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
+
 
 ## API Documentation
 

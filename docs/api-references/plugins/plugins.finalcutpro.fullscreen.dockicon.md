@@ -7,9 +7,10 @@ CP 'dockless' when an app we are working with goes full-screen. Otherwise
 our drawing/canvas images will not display correctly.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [dockIconEnabled](#dockiconenabled)
  * [fcpActiveFullScreen](#fcpactivefullscreen)
+
 
 ## API Documentation
 

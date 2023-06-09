@@ -38,21 +38,25 @@ Note that `text` values are not in any specific encoding, since they are stored 
  * [cp.text.matcher](cp.text.matcher.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [encoding](#encoding)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [char](#char)
  * [fromCodepoints](#fromcodepoints)
  * [fromFile](#fromfile)
  * [fromString](#fromstring)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [encode](#encode)
  * [find](#find)
  * [len](#len)
  * [match](#match)
  * [sub](#sub)
+
 
 ## API Documentation
 

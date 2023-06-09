@@ -26,11 +26,12 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 ```
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [eject](#eject)
  * [mount](#mount)
  * [unmount](#unmount)
  * [visit](#visit)
+
 
 ## API Documentation
 

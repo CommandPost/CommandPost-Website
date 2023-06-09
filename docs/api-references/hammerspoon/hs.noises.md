@@ -25,11 +25,13 @@ Personally I use this to scroll up by a large increment in case I scroll down to
 The only false positives I've ever had with this detector are various rare throat clearing noises that make a pop sound very much like a lip pop.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

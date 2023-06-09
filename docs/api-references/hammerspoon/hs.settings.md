@@ -7,10 +7,11 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [bundleID](#bundleid)
  * [dateFormat](#dateformat)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [clear](#clear)
  * [get](#get)
  * [getKeys](#getkeys)
@@ -18,6 +19,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
  * [setData](#setdata)
  * [setDate](#setdate)
  * [watchKey](#watchkey)
+
 
 ## API Documentation
 

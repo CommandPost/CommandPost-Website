@@ -3,10 +3,12 @@
 Specifies that the `Require`d value `Matches` a function predicate.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [Matches](#matches)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [OrThrow](#orthrow)
+
 
 ## API Documentation
 

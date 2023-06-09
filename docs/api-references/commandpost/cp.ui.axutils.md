@@ -7,7 +7,7 @@ Utility functions to support `hs.axuielement`.
  * [cp.ui.axutils.match](cp.ui.axutils.match.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [cache](#cache)
  * [childAtIndex](#childatindex)
  * [childFromBottom](#childfrombottom)
@@ -41,6 +41,7 @@ Utility functions to support `hs.axuielement`.
  * [withRole](#withrole)
  * [withTitle](#withtitle)
  * [withValue](#withvalue)
+
 
 ## API Documentation
 

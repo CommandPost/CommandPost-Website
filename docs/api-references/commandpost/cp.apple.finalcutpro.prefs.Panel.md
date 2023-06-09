@@ -3,9 +3,10 @@
 Preferences Panel.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [hide](#hide)
  * [show](#show)
+
 
 ## API Documentation
 

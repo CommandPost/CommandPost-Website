@@ -3,12 +3,15 @@
 The `TopProperties` class is used to represent the top properties group of the Audio Inspector.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [TopProperties](#topproperties)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentUI](#contentui)
+
 
 ## API Documentation
 

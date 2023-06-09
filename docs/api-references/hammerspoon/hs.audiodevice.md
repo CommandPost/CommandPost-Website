@@ -9,7 +9,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [hs.audiodevice.watcher](hs.audiodevice.watcher.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [allDevices](#alldevices)
  * [allInputDevices](#allinputdevices)
  * [allOutputDevices](#alloutputdevices)
@@ -23,7 +23,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [findInputByUID](#findinputbyuid)
  * [findOutputByName](#findoutputbyname)
  * [findOutputByUID](#findoutputbyuid)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allInputDataSources](#allinputdatasources)
  * [allOutputDataSources](#alloutputdatasources)
  * [balance](#balance)
@@ -58,6 +59,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [watcherIsRunning](#watcherisrunning)
  * [watcherStart](#watcherstart)
  * [watcherStop](#watcherstop)
+
 
 ## API Documentation
 

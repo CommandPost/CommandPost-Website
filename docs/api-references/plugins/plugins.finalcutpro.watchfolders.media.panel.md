@@ -3,15 +3,17 @@
 Watch Folder Media Panel.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [watchFolderTableID](#watchfoldertableid)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [addWatchFolder](#addwatchfolder)
  * [controllerCallback](#controllercallback)
  * [generateTable](#generatetable)
  * [init](#init)
  * [refreshTable](#refreshtable)
  * [styleSheet](#stylesheet)
+
 
 ## API Documentation
 

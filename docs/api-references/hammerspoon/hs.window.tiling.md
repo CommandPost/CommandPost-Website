@@ -11,8 +11,9 @@ The `tileWindows` function in this module is primarily meant for use by `hs.wind
 (e.g. for your custom layout engine).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [tileWindows](#tilewindows)
+
 
 ## API Documentation
 

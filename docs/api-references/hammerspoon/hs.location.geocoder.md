@@ -28,13 +28,15 @@ A `placemarkTable` is returned to the callback functions used by the constructor
  * `timeZone`              - a string containing the time zone associated with the placemark
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [lookupAddress](#lookupaddress)
  * [lookupAddressNear](#lookupaddressnear)
  * [lookupLocation](#lookuplocation)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [cancel](#cancel)
  * [geocoding](#geocoding)
+
 
 ## API Documentation
 

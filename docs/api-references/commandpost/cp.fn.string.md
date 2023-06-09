@@ -3,9 +3,10 @@
 String-related functional programming helpers.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [isEmpty](#isempty)
  * [match](#match)
+
 
 ## API Documentation
 

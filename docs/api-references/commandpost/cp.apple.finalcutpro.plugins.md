@@ -11,9 +11,10 @@ Usage:
  * [cp.apple.finalcutpro.plugins.guiscan](cp.apple.finalcutpro.plugins.guiscan.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [types](#types)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [clearCaches](#clearcaches)
  * [new](#new)
  * [scan](#scan)
@@ -22,7 +23,8 @@ Usage:
  * [scanSystemAudioUnits](#scansystemaudiounits)
  * [scanUserColorPresets](#scanusercolorpresets)
  * [scanUserEffectsPresets](#scanusereffectspresets)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [audioEffects](#audioeffects)
  * [effectBundleStrings](#effectbundlestrings)
@@ -47,6 +49,7 @@ Usage:
  * [unwatch](#unwatch)
  * [videoEffects](#videoeffects)
  * [watch](#watch)
+
 
 ## API Documentation
 

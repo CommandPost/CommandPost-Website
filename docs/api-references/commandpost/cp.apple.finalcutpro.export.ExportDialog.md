@@ -3,16 +3,19 @@
 Export Dialog Module.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ExportDialogTitleText](#exportdialogtitletext)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [fileExtension](#fileextension)
  * [saveSheet](#savesheet)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [hide](#hide)
  * [pressCancel](#presscancel)
  * [pressNext](#pressnext)
  * [show](#show)
+
 
 ## API Documentation
 

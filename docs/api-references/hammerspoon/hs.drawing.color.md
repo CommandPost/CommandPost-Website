@@ -41,17 +41,20 @@ Any combination of the above keys may be specified within the color table and th
 Except where specified above to indicate the color model being used, any key which is not provided defaults to a value of 0.0, except for `alpha`, which defaults to 1.0.  This means that specifying an empty table as the color will result in an opaque black color.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [definedCollections](#definedcollections)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [ansiTerminalColors](#ansiterminalcolors)
  * [hammerspoon](#hammerspoon)
  * [x11](#x11)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [asHSB](#ashsb)
  * [asRGB](#asrgb)
  * [colorsFor](#colorsfor)
  * [lists](#lists)
+
 
 ## API Documentation
 

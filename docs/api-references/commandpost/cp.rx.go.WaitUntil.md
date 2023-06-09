@@ -3,20 +3,23 @@
 A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `resolveable` that matches the predicate.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [Are](#are)
  * [AreNot](#arenot)
  * [Is](#is)
  * [IsNot](#isnot)
  * [Matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [WaitUntil](#waituntil)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Are](#are)
  * [AreNot](#arenot)
  * [Is](#is)
  * [IsNot](#isnot)
  * [Matches](#matches)
+
 
 ## API Documentation
 

@@ -9,9 +9,10 @@ Search Console
  * [plugins.core.console.scripts](plugins.core.console.scripts.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [register](#register)
  * [show](#show)
+
 
 ## API Documentation
 

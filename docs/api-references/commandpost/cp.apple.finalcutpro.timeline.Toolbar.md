@@ -7,11 +7,13 @@ Timeline Toolbar
  * [cp.apple.finalcutpro.timeline.Toolbar.Clip](cp.apple.finalcutpro.timeline.Toolbar.Clip.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Toolbar](#toolbar)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [appearance](#appearance)
  * [appearanceToggle](#appearancetoggle)
  * [appendClip](#appendclip)
@@ -33,6 +35,7 @@ Timeline Toolbar
  * [tool](#tool)
  * [transitions](#transitions)
  * [trimAlignedEdges](#trimalignededges)
+
 
 ## API Documentation
 

@@ -3,16 +3,19 @@
 Represents a Tangent Action
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [action](#action)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [localActive](#localactive)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [is](#is)
  * [onPress](#onpress)
  * [onRelease](#onrelease)
  * [xml](#xml)
+
 
 ## API Documentation
 

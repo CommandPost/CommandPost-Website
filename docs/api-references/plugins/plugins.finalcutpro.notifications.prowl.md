@@ -3,15 +3,17 @@
 Prowl Notifications Plugin.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
  * [sendNotification](#sendnotification)
  * [update](#update)
  * [validateAPIKey](#validateapikey)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [apiKey](#apikey)
  * [apiValidated](#apivalidated)
  * [enabled](#enabled)
+
 
 ## API Documentation
 

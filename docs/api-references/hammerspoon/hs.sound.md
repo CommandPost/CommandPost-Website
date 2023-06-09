@@ -3,15 +3,17 @@
 Load/play/manipulate sound files
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [getAudioEffectNames](#getaudioeffectnames)
  * [soundFileTypes](#soundfiletypes)
  * [soundTypes](#soundtypes)
  * [systemSounds](#systemsounds)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [getByFile](#getbyfile)
  * [getByName](#getbyname)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [currentTime](#currenttime)
  * [device](#device)
  * [duration](#duration)
@@ -25,6 +27,7 @@ Load/play/manipulate sound files
  * [stop](#stop)
  * [stopOnReload](#stoponreload)
  * [volume](#volume)
+
 
 ## API Documentation
 

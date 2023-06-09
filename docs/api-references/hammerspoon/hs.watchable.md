@@ -7,16 +7,18 @@ This module allows you to generate a table with a defined label or path that can
 The goal is to provide a mechanism for sharing state information between separate and (mostly) unrelated code easily and in an independent fashion.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [watch](#watch)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [callback](#callback)
  * [change](#change)
  * [pause](#pause)
  * [release](#release)
  * [resume](#resume)
  * [value](#value)
+
 
 ## API Documentation
 

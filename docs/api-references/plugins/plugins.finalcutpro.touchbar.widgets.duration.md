@@ -3,9 +3,10 @@
 Final Cut Pro Browser Duration Control Widget for Touch Bar.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
  * [widget](#widget)
+
 
 ## API Documentation
 

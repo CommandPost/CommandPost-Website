@@ -20,7 +20,7 @@ often with configuration parameters passed in.
  * [cp.fn.value](cp.fn.value.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [all](#all)
  * [any](#any)
  * [call](#call)
@@ -43,6 +43,7 @@ often with configuration parameters passed in.
  * [set](#set)
  * [uncurry](#uncurry)
  * [with](#with)
+
 
 ## API Documentation
 

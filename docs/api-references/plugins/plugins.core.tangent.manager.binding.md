@@ -3,13 +3,15 @@
 Represents a Tangent Binding
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [binding](#binding)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [member](#member)
  * [members](#members)
  * [name](#name)
  * [xml](#xml)
+
 
 ## API Documentation
 

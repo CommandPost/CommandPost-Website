@@ -3,14 +3,16 @@
 The Audio Configuration section of the Audio Inspector.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [AudioConfiguration](#audioconfiguration)
  * [matches](#matches)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [component](#component)
  * [doShow](#doshow)
  * [show](#show)
  * [subcomponent](#subcomponent)
+
 
 ## API Documentation
 

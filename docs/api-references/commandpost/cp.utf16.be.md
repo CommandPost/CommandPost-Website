@@ -3,12 +3,13 @@
 A pure-LUA implementation of UTF-16 decoding with big-endian ordering.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [char](#char)
  * [codepoint](#codepoint)
  * [codes](#codes)
  * [len](#len)
  * [offset](#offset)
+
 
 ## API Documentation
 

@@ -3,12 +3,13 @@
 Notion Toolbox Panel.
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [databaseURL](#databaseurl)
  * [defaultEmoji](#defaultemoji)
  * [mergeData](#mergedata)
  * [settings](#settings)
  * [token](#token)
+
 
 ## API Documentation
 

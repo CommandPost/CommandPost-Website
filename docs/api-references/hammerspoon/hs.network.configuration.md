@@ -3,9 +3,10 @@
 This sub-module provides access to the current location set configuration settings in the system's dynamic store.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [open](#open)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [computerName](#computername)
  * [consoleUser](#consoleuser)
  * [contents](#contents)
@@ -20,6 +21,7 @@ This sub-module provides access to the current location set configuration settin
  * [setLocation](#setlocation)
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

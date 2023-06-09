@@ -5,10 +5,12 @@ It is an extension of [Statement.Definition](cp.rx.go.Statement.Definition.md) a
 all of it's methods also.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [define](#define)
+
 
 ## API Documentation
 

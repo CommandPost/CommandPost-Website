@@ -14,15 +14,18 @@ This extension differs from the `hs.application` extension in several ways:
  * [cp.app.prefs](cp.app.prefs.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [frontmostApp](#frontmostapp)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [apps](#apps)
  * [bundleIDs](#bundleids)
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [forBundleID](#forbundleid)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [baseLocale](#baselocale)
  * [baseResourcesPath](#baseresourcespath)
  * [currentLocale](#currentlocale)
@@ -50,7 +53,8 @@ This extension differs from the `hs.application` extension in several ways:
  * [versionString](#versionstring)
  * [windows](#windows)
  * [windowsUI](#windowsui)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bestSupportedLocale](#bestsupportedlocale)
  * [bundleID](#bundleid)
  * [doHide](#dohide)
@@ -69,6 +73,7 @@ This extension differs from the `hs.application` extension in several ways:
  * [searchResources](#searchresources)
  * [show](#show)
  * [update](#update)
+
 
 ## API Documentation
 

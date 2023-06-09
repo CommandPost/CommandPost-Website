@@ -3,8 +3,9 @@
 Provides an Error message, which can be thrown via the `error` function.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
+
 
 ## API Documentation
 

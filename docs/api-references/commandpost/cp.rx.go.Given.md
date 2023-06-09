@@ -10,10 +10,12 @@ point other results from values are ignored.
  * [cp.rx.go.Given.Then](cp.rx.go.Given.Then.md)
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Given](#given)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
+
 
 ## API Documentation
 

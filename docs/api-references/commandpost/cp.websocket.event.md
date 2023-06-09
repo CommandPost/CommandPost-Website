@@ -3,13 +3,14 @@
 The set of event types received from websocket connections.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [closed](#closed)
  * [closing](#closing)
  * [error](#error)
  * [message](#message)
  * [opened](#opened)
  * [opening](#opening)
+
 
 ## API Documentation
 

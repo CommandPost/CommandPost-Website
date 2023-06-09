@@ -3,10 +3,12 @@
 Final Cut Pro Timeline Preferences.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [backgroundRender](#backgroundrender)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [getAutoRenderDelay](#getautorenderdelay)
+
 
 ## API Documentation
 

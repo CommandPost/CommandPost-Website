@@ -18,7 +18,7 @@ to instances of this activator, so disabling "videoEffect" in the "foobar" activ
 will not affect the "yadayada" activator.
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeHandlers](#activehandlers)
  * [allowedHandlers](#allowedhandlers)
  * [configurable](#configurable)
@@ -32,7 +32,8 @@ will not affect the "yadayada" activator.
  * [reducedTransparency](#reducedtransparency)
  * [searchSubText](#searchsubtext)
  * [showHidden](#showhidden)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [activeChoices](#activechoices)
  * [allChoices](#allchoices)
@@ -68,6 +69,7 @@ will not affect the "yadayada" activator.
  * [unfavoriteChoice](#unfavoritechoice)
  * [unhideChoice](#unhidechoice)
  * [updateSelectedToolbarIcon](#updateselectedtoolbaricon)
+
 
 ## API Documentation
 

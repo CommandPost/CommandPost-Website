@@ -6,8 +6,9 @@ This extension is based on inspect.lua by Enrique García Cota
 https://github.com/kikito/inspect.lua
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [inspect](#inspect)
+
 
 ## API Documentation
 

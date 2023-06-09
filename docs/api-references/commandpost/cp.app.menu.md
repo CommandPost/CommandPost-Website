@@ -4,16 +4,19 @@ Represents an app's menu bar, providing multi-lingual access to find and
 trigger menu items.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NIB_FILE](#nib_file)
  * [ROLE](#role)
  * [STORYBOARD_NAME](#storyboard_name)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [menu](#menu)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [showing](#showing)
  * [UI](#ui)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addMenuFinder](#addmenufinder)
  * [app](#app)
  * [doFindMenuUI](#dofindmenuui)
@@ -25,6 +28,7 @@ trigger menu items.
  * [isEnabled](#isenabled)
  * [selectMenu](#selectmenu)
  * [visitMenuItems](#visitmenuitems)
+
 
 ## API Documentation
 

@@ -6,14 +6,16 @@ Touch Bar Manager Plugin.
  * [plugins.core.touchbar.manager.widgets](plugins.core.touchbar.manager.widgets.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DEFAULT_GROUP](#default_group)
  * [FILE_NAME](#file_name)
  * [FOLDER_NAME](#folder_name)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [maxItems](#maxitems)
  * [numberOfSubGroups](#numberofsubgroups)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [activeGroup](#activegroup)
  * [activeSubGroup](#activesubgroup)
  * [clear](#clear)
@@ -40,10 +42,12 @@ Touch Bar Manager Plugin.
  * [updateIcon](#updateicon)
  * [updateLabel](#updatelabel)
  * [updateOrder](#updateorder)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [buttons](#buttons)
  * [enabled](#enabled)
  * [supported](#supported)
+
 
 ## API Documentation
 

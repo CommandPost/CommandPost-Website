@@ -3,9 +3,10 @@
 Represents a "Find and Replace Title Text" dialogue box.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [FindAndReplaceTitleText](#findandreplacetitletext)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [findText](#findtext)
  * [loopSearch](#loopsearch)
  * [matchCase](#matchcase)
@@ -17,10 +18,12 @@ Represents a "Find and Replace Title Text" dialogue box.
  * [replaceText](#replacetext)
  * [searchIn](#searchin)
  * [wholeWords](#wholewords)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doFindAndReplaceAll](#dofindandreplaceall)
  * [doHide](#dohide)
  * [doShow](#doshow)
+
 
 ## API Documentation
 

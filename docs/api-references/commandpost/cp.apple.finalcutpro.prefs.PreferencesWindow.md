@@ -3,18 +3,20 @@
 Preferences Window Module.
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [editingPanel](#editingpanel)
  * [generalPanel](#generalpanel)
  * [importPanel](#importpanel)
  * [playbackPanel](#playbackpanel)
  * [title](#title)
  * [toolbar](#toolbar)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doHide](#dohide)
  * [doShow](#doshow)
  * [hide](#hide)
  * [show](#show)
+
 
 ## API Documentation
 

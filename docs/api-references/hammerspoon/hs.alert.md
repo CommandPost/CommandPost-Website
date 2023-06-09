@@ -3,13 +3,15 @@
 Simple on-screen alerts
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [defaultStyle](#defaultstyle)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [closeAll](#closeall)
  * [closeSpecific](#closespecific)
  * [show](#show)
  * [showWithImage](#showwithimage)
+
 
 ## API Documentation
 

@@ -7,7 +7,7 @@ Reads & Writes plist data.
  * [cp.plist.plistParser](cp.plist.plistParser.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [base64ToTable](#base64totable)
  * [binaryFileToTable](#binaryfiletotable)
  * [binaryFileToXML](#binaryfiletoxml)
@@ -21,6 +21,7 @@ Reads & Writes plist data.
  * [isXMLPlistFile](#isxmlplistfile)
  * [xmlFileToTable](#xmlfiletotable)
  * [xmlToTable](#xmltotable)
+
 
 ## API Documentation
 

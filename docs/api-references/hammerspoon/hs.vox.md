@@ -3,7 +3,7 @@
 Controls for VOX music player
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [addurl](#addurl)
  * [backward](#backward)
  * [decreaseVolume](#decreasevolume)
@@ -26,6 +26,7 @@ Controls for VOX music player
  * [shuffle](#shuffle)
  * [togglePlaylist](#toggleplaylist)
  * [trackInfo](#trackinfo)
+
 
 ## API Documentation
 

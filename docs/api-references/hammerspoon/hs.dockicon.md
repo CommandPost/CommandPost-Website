@@ -5,7 +5,7 @@ Control Hammerspoon's dock icon
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [bounce](#bounce)
  * [hide](#hide)
  * [setBadge](#setbadge)
@@ -14,6 +14,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [tileSize](#tilesize)
  * [tileUpdate](#tileupdate)
  * [visible](#visible)
+
 
 ## API Documentation
 

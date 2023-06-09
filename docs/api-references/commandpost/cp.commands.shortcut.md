@@ -6,12 +6,14 @@ Shortcut Commands
  * [cp.commands.shortcut.builder](cp.commands.shortcut.builder.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [build](#build)
  * [new](#new)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isEnabled](#isenabled)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bind](#bind)
  * [delete](#delete)
  * [disable](#disable)
@@ -20,6 +22,7 @@ Shortcut Commands
  * [getModifiers](#getmodifiers)
  * [trigger](#trigger)
  * [unbind](#unbind)
+
 
 ## API Documentation
 

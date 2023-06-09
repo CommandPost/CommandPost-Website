@@ -69,7 +69,7 @@ approximations, and leave it at that!
  * 120 * 1000/1001 (~119.88) fps frame: 5885880 flicks
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [perFrame100](#perframe100)
  * [perFrame120](#perframe120)
  * [perFrame120NTSC](#perframe120ntsc)
@@ -88,15 +88,19 @@ approximations, and leave it at that!
  * [perHour](#perhour)
  * [perMinutes](#perminutes)
  * [perSecond](#persecond)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [parse](#parse)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [toFrames](#toframes)
  * [toSeconds](#toseconds)
  * [toTimecode](#totimecode)
+
 
 ## API Documentation
 

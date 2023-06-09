@@ -39,13 +39,14 @@ Special thanks to the authors of these awesome documents & resources:
  - [HID Device Property Keys](https://developer.apple.com/documentation/iokit/iohidkeys_h_user-space/hid_device_property_keys)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [discoveryCallback](#discoverycallback)
  * [getDevice](#getdevice)
  * [init](#init)
  * [numDevices](#numdevices)
  * [unitTests](#unittests)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [backlightsBreathing](#backlightsbreathing)
  * [backlightsCustom](#backlightscustom)
  * [backlightsMode](#backlightsmode)
@@ -64,6 +65,7 @@ Special thanks to the authors of these awesome documents & resources:
  * [orangeStatusLight](#orangestatuslight)
  * [redStatusLight](#redstatuslight)
  * [yellowStatusLight](#yellowstatuslight)
+
 
 ## API Documentation
 

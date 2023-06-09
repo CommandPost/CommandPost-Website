@@ -20,21 +20,25 @@ You can start this web server by typing the following into your Hammerspoon cons
  * [hs.httpserver.hsminweb.cgilua](hs.httpserver.hsminweb.cgilua.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [dateFormatString](#dateformatstring)
  * [statusCodes](#statuscodes)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [_accessLog](#_accesslog)
  * [_errorHandlers](#_errorhandlers)
  * [_serverAdmin](#_serveradmin)
  * [_supportMethods](#_supportmethods)
  * [log](#log)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [formattedDate](#formatteddate)
  * [urlParts](#urlparts)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [accessList](#accesslist)
  * [allowDirectory](#allowdirectory)
  * [bonjour](#bonjour)
@@ -54,6 +58,7 @@ You can start this web server by typing the following into your Hammerspoon cons
  * [ssl](#ssl)
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

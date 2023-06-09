@@ -3,14 +3,16 @@
 This class provides a UI for displaying the details of a key when it is selected on the keyboard layout.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentGroupUI](#contentgroupui)
  * [contents](#contents)
  * [detail](#detail)
  * [key](#key)
  * [label](#label)
+
 
 ## API Documentation
 

@@ -3,9 +3,10 @@
 Perform HTTP requests
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [htmlEntities](#htmlentities)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [asyncGet](#asyncget)
  * [asyncPost](#asyncpost)
  * [asyncPut](#asyncput)
@@ -18,6 +19,7 @@ Perform HTTP requests
  * [put](#put)
  * [registerEntity](#registerentity)
  * [urlParts](#urlparts)
+
 
 ## API Documentation
 

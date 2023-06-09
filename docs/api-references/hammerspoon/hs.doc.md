@@ -30,13 +30,14 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
  * [hs.doc.markdown](hs.doc.markdown.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [help](#help)
  * [locateJSONFile](#locatejsonfile)
  * [preloadSpoonDocs](#preloadspoondocs)
  * [registeredFiles](#registeredfiles)
  * [registerJSONFile](#registerjsonfile)
  * [unregisterJSONFile](#unregisterjsonfile)
+
 
 ## API Documentation
 

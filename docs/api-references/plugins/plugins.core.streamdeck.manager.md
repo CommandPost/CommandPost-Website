@@ -3,11 +3,12 @@
 Elgato Stream Deck Manager Plugin.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [defaultLayout](#defaultlayout)
  * [imageCache](#imagecache)
  * [repeatTimers](#repeattimers)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [buttonCallback](#buttoncallback)
  * [discoveryCallback](#discoverycallback)
  * [encoderCallback](#encodercallback)
@@ -16,12 +17,14 @@ Elgato Stream Deck Manager Plugin.
  * [screenCallback](#screencallback)
  * [start](#start)
  * [update](#update)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeBanks](#activebanks)
  * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [enabled](#enabled)
  * [lastApplication](#lastapplication)
  * [lastBundleID](#lastbundleid)
+
 
 ## API Documentation
 

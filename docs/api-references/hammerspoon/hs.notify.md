@@ -11,13 +11,15 @@ A shorthand, based upon the original inspiration for this module from Hydra and 
 This module is based in part on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [activationTypes](#activationtypes)
  * [defaultNotificationSound](#defaultnotificationsound)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [registry](#registry)
  * [warnAboutMissingFunctionTag](#warnaboutmissingfunctiontag)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [deliveredNotifications](#deliverednotifications)
  * [register](#register)
  * [scheduledNotifications](#schedulednotifications)
@@ -25,10 +27,12 @@ This module is based in part on code from the previous incarnation of Mjolnir by
  * [unregisterall](#unregisterall)
  * [withdrawAll](#withdrawall)
  * [withdrawAllScheduled](#withdrawallscheduled)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [show](#show)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [actionButtonTitle](#actionbuttontitle)
  * [activationType](#activationtype)
  * [actualDeliveryDate](#actualdeliverydate)
@@ -55,6 +59,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
  * [title](#title)
  * [withdraw](#withdraw)
  * [withdrawAfter](#withdrawafter)
+
 
 ## API Documentation
 

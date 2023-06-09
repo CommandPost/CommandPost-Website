@@ -11,17 +11,20 @@ This will load the file for the specified language (replacing `${language}` with
 Notes: This will load the file on each request. To have values cached, use the `cp.strings` module and specify a `plist` as a source.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [defaultCacheSeconds](#defaultcacheseconds)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [context](#context)
  * [find](#find)
  * [findKeys](#findkeys)
  * [loadFile](#loadfile)
  * [pathToAbsolute](#pathtoabsolute)
  * [reset](#reset)
+
 
 ## API Documentation
 

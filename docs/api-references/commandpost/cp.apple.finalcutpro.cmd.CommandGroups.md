@@ -3,8 +3,9 @@
 Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.cmd.CommandList.md).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
+
 
 ## API Documentation
 

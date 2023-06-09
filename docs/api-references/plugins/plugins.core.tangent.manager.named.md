@@ -6,20 +6,24 @@ Tables with `named` in it's metatable chain will have `name` methods added
 as described below.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
  * [xml](#xml)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [named](#named)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [enabled](#enabled)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [controls](#controls)
  * [name](#name)
  * [nameX](#namex)
  * [parent](#parent)
  * [tangent](#tangent)
+
 
 ## API Documentation
 

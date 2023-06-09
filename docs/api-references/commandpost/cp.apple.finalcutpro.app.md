@@ -4,10 +4,12 @@ The [cp.app](cp.app.md) for Final Cut Pro. Will automatically determine
 if only the trial version of FCPX is installed and use that instead.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [app](#app)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [application](#application)
+
 
 ## API Documentation
 

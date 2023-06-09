@@ -3,8 +3,9 @@
 Playback Rendering Plugin.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [enabled](#enabled)
+
 
 ## API Documentation
 

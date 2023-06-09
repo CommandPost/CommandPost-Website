@@ -4,12 +4,14 @@ A [Statement](cp.rx.go.Statement.md) is defined before being executable.
 A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.md#modifer) method.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [define](#define)
  * [onInit](#oninit)
  * [onObservable](#onobservable)
+
 
 ## API Documentation
 

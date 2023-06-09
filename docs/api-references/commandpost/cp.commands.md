@@ -8,9 +8,10 @@ Commands Module.
  * [cp.commands.shortcut](cp.commands.shortcut.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DEFAULT_EXTENSION](#default_extension)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [getShortcutsPath](#getshortcutspath)
  * [group](#group)
  * [groupIds](#groupids)
@@ -18,10 +19,12 @@ Commands Module.
  * [loadFromFile](#loadfromfile)
  * [new](#new)
  * [saveToFile](#savetofile)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [isEditable](#iseditable)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [add](#add)
  * [clear](#clear)
@@ -34,6 +37,7 @@ Commands Module.
  * [loadShortcuts](#loadshortcuts)
  * [saveShortcuts](#saveshortcuts)
  * [watch](#watch)
+
 
 ## API Documentation
 

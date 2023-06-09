@@ -4,11 +4,13 @@ Creates a bunch of commands that can be used to assign actions to.
 This allows you to assign any action to a shortcut key in CommandPost.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [shortcuts](#shortcuts)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [apply](#apply)
  * [assign](#assign)
+
 
 ## API Documentation
 

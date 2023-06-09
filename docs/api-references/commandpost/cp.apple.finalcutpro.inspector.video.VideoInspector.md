@@ -42,21 +42,26 @@ video:stabilization():smoothing():show():value(1.5)
 ```
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [BLEND_MODES](#blend_modes)
  * [CROP_TYPES](#crop_types)
  * [ROLLING_SHUTTER_AMOUNTS](#rolling_shutter_amounts)
  * [SPATIAL_CONFORM_TYPES](#spatial_conform_types)
  * [STABILIZATION_METHODS](#stabilization_methods)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [selectedEffectCheckBox](#selectedeffectcheckbox)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [VideoInspector](#videoinspector)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentUI](#contentui)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [effectCheckBoxes](#effectcheckboxes)
+
 
 ## API Documentation
 

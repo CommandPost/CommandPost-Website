@@ -3,13 +3,15 @@
 Fullscreen Shortcuts
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [enabled](#enabled)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [checkCommand](#checkcommand)
  * [ninjaKeyStroke](#ninjakeystroke)
  * [performCommand](#performcommand)
  * [update](#update)
+
 
 ## API Documentation
 

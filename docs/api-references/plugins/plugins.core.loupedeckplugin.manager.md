@@ -3,12 +3,14 @@
 Loupedeck Plugin Manager Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_FAVOURITES](#number_of_favourites)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [favourites](#favourites)
  * [performAction](#performaction)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [installPlugin](#installplugin)
  * [registerAction](#registeraction)
  * [removePlugin](#removeplugin)
@@ -18,8 +20,10 @@ Loupedeck Plugin Manager Plugin.
  * [startWebSocketClient](#startwebsocketclient)
  * [stopWebSocketClient](#stopwebsocketclient)
  * [updatePlugin](#updateplugin)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
+
 
 ## API Documentation
 

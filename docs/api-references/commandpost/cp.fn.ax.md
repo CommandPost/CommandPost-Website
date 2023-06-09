@@ -5,7 +5,7 @@ A collection of useful functions for working with AX.
 You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.md) useful.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [areAligned](#arealigned)
  * [attribute](#attribute)
  * [bottomToTop](#bottomtotop)
@@ -35,6 +35,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
  * [topToBottomBaseAligned](#toptobottombasealigned)
  * [uielement](#uielement)
  * [uielementList](#uielementlist)
+
 
 ## API Documentation
 

@@ -4,12 +4,15 @@ Represents the bottom "control" bar on a [Viewer](cp.apple.finalcutpro.viewer.Vi
 which contains the play/pause button, timecode, audio meters, etc.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ControlBar](#controlbar)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [timecode](#timecode)
+
 
 ## API Documentation
 

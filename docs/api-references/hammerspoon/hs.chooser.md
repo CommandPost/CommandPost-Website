@@ -6,11 +6,13 @@ Notes:
  * This module was influenced heavily by Choose, by Steven Degutis (https://github.com/sdegutis/choose)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [globalCallback](#globalcallback)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [attachedToolbar](#attachedtoolbar)
  * [bgDark](#bgdark)
  * [cancel](#cancel)
@@ -36,6 +38,7 @@ Notes:
  * [showCallback](#showcallback)
  * [subTextColor](#subtextcolor)
  * [width](#width)
+
 
 ## API Documentation
 

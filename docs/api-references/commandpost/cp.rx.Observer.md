@@ -3,14 +3,17 @@
 Observers are simple objects that receive values from [Observables](cp.rx.Observable.md).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onCompleted](#oncompleted)
  * [onError](#onerror)
  * [onNext](#onnext)
+
 
 ## API Documentation
 

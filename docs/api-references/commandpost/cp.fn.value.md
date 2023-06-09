@@ -3,12 +3,13 @@
 A collection of functions for working with values.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [default](#default)
  * [filter](#filter)
  * [is](#is)
  * [map](#map)
  * [matches](#matches)
+
 
 ## API Documentation
 

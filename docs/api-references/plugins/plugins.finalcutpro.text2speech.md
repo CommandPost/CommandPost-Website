@@ -3,9 +3,10 @@
 Text to Speech Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [copyToMediaFolder](#copytomediafolder)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [addCaption](#addcaption)
  * [addCustomKeyword](#addcustomkeyword)
  * [addKeywordForVoiceName](#addkeywordforvoicename)
@@ -23,10 +24,12 @@ Text to Speech Plugin.
  * [tag](#tag)
  * [useUnderscore](#useunderscore)
  * [voice](#voice)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [chooseFolder](#choosefolder)
  * [insertFromPasteboard](#insertfrompasteboard)
  * [show](#show)
+
 
 ## API Documentation
 

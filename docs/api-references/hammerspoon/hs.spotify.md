@@ -3,11 +3,12 @@
 Controls for Spotify music player
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [state_paused](#state_paused)
  * [state_playing](#state_playing)
  * [state_stopped](#state_stopped)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [displayCurrentTrack](#displaycurrenttrack)
  * [ff](#ff)
  * [getCurrentAlbum](#getcurrentalbum)
@@ -31,6 +32,7 @@ Controls for Spotify music player
  * [setVolume](#setvolume)
  * [volumeDown](#volumedown)
  * [volumeUp](#volumeup)
+
 
 ## API Documentation
 

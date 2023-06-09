@@ -4,11 +4,12 @@ A [Subject](cp.rx.Subject.md) that tracks its current value. Provides an accesso
 recent pushed value, and all subscribers immediately receive the latest value.
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [create](#create)
  * [getValue](#getvalue)
  * [onNext](#onnext)
  * [subscribe](#subscribe)
+
 
 ## API Documentation
 

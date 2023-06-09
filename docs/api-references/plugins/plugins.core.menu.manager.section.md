@@ -3,10 +3,11 @@
 Controls sections for the CommandPost menu.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DEFAULT_PRIORITY](#default_priority)
  * [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#section_disabled_preferences_key_prefix)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addApplicationHeading](#addapplicationheading)
  * [addHeading](#addheading)
  * [addItem](#additem)
@@ -21,6 +22,7 @@ Controls sections for the CommandPost menu.
  * [new](#new)
  * [setDisabledFn](#setdisabledfn)
  * [setDisabledPreferenceKey](#setdisabledpreferencekey)
+
 
 ## API Documentation
 

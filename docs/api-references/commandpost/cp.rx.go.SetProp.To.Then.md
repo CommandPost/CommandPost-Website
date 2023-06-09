@@ -6,10 +6,12 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
  * [cp.rx.go.SetProp.To.Then.ThenReset](cp.rx.go.SetProp.To.Then.ThenReset.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [Then](#then)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [ThenReset](#thenreset)
+
 
 ## API Documentation
 

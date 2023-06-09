@@ -3,13 +3,14 @@
 Inspect the system's camera devices
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [allCameras](#allcameras)
  * [isWatcherRunning](#iswatcherrunning)
  * [setWatcherCallback](#setwatchercallback)
  * [startWatcher](#startwatcher)
  * [stopWatcher](#stopwatcher)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [connectionID](#connectionid)
  * [isInUse](#isinuse)
  * [isPropertyWatcherRunning](#ispropertywatcherrunning)
@@ -18,6 +19,7 @@ Inspect the system's camera devices
  * [startPropertyWatcher](#startpropertywatcher)
  * [stopPropertyWatcher](#stoppropertywatcher)
  * [uid](#uid)
+
 
 ## API Documentation
 

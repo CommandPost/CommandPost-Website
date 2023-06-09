@@ -21,13 +21,15 @@ You can access the individual results of the query with the [hs.spotlight:result
  * [hs.spotlight.item](hs.spotlight.item.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [commonAttributeKeys](#commonattributekeys)
  * [definedSearchScopes](#definedsearchscopes)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [newWithin](#newwithin)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [callbackMessages](#callbackmessages)
  * [count](#count)
  * [groupedResults](#groupedresults)
@@ -44,6 +46,7 @@ You can access the individual results of the query with the [hs.spotlight:result
  * [updateInterval](#updateinterval)
  * [valueListAttributes](#valuelistattributes)
  * [valueLists](#valuelists)
+
 
 ## API Documentation
 

@@ -3,9 +3,10 @@
 Opens Final Cut Pro via Global Shortcut & Menubar.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [app](#app)
  * [commandEditor](#commandeditor)
+
 
 ## API Documentation
 

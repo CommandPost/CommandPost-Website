@@ -3,11 +3,12 @@
 A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http` to describe the connection status.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [closed](#closed)
  * [closing](#closing)
  * [open](#open)
  * [opening](#opening)
+
 
 ## API Documentation
 

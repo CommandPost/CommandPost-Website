@@ -8,8 +8,9 @@ that can be mapped to a keyboard shortcut.
  * [cp.apple.finalcutpro.cmd.Commands.Row](cp.apple.finalcutpro.cmd.Commands.Row.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
+
 
 ## API Documentation
 

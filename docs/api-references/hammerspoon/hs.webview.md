@@ -19,19 +19,23 @@ Any suggestions or updates to the code to address any of these or other limitati
  * [hs.webview.usercontent](hs.webview.usercontent.md)
 
 ## API Overview
-* Deprecateds - API features which will be removed in an future release
+### **Deprecateds** - _API features which will be removed in an future release_
  * [asHSDrawing](#ashsdrawing)
  * [asHSWindow](#ashswindow)
  * [setLevel](#setlevel)
-* Constants - Useful values which cannot be changed
+
+### **Constants** - _Useful values which cannot be changed_
  * [certificateOIDs](#certificateoids)
  * [windowMasks](#windowmasks)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [titleVisibility](#titlevisibility)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [newBrowser](#newbrowser)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allowGestures](#allowgestures)
  * [allowMagnificationGestures](#allowmagnificationgestures)
  * [allowNavigationGestures](#allownavigationgestures)
@@ -86,6 +90,7 @@ Any suggestions or updates to the code to address any of these or other limitati
  * [windowCallback](#windowcallback)
  * [windowStyle](#windowstyle)
  * [windowTitle](#windowtitle)
+
 
 ## API Documentation
 

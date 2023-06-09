@@ -64,14 +64,16 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
  * [cp.rx.go.Statement.Modifier](cp.rx.go.Statement.Modifier.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [defaultObserverFactory](#defaultobserverfactory)
  * [is](#is)
  * [toObservable](#toobservable)
  * [toObservables](#toobservables)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [named](#named)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [After](#after)
  * [Catch](#catch)
  * [Debug](#debug)
@@ -84,6 +86,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
  * [ThenYield](#thenyield)
  * [TimeoutAfter](#timeoutafter)
  * [toObservable](#toobservable)
+
 
 ## API Documentation
 

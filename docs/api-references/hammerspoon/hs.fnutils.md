@@ -3,7 +3,7 @@
 Functional programming utility functions
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [concat](#concat)
  * [contains](#contains)
  * [copy](#copy)
@@ -20,12 +20,14 @@ Functional programming utility functions
  * [reduce](#reduce)
  * [some](#some)
  * [split](#split)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [cycle](#cycle)
  * [partial](#partial)
  * [sequence](#sequence)
  * [sortByKeys](#sortbykeys)
  * [sortByKeyValues](#sortbykeyvalues)
+
 
 ## API Documentation
 

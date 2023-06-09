@@ -3,12 +3,14 @@
 Libraries Browser Module.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [deselectAll](#deselectall)
  * [indexOfClip](#indexofclip)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [LibrariesBrowser](#librariesbrowser)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [clipFiltering](#clipfiltering)
  * [filmstrip](#filmstrip)
  * [isFilmstripView](#isfilmstripview)
@@ -19,7 +21,8 @@ Libraries Browser Module.
  * [search](#search)
  * [searchToggle](#searchtoggle)
  * [toggleViewMode](#toggleviewmode)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [clips](#clips)
  * [clipsUI](#clipsui)
  * [doFindClips](#dofindclips)
@@ -44,6 +47,7 @@ Libraries Browser Module.
  * [showClip](#showclip)
  * [sidebar](#sidebar)
  * [skimmingPlayhead](#skimmingplayhead)
+
 
 ## API Documentation
 

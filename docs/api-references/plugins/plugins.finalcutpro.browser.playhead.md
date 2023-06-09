@@ -3,7 +3,7 @@
 Browser Playhead Plugin.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [changeHighlightColor](#changehighlightcolor)
  * [deleteHighlight](#deletehighlight)
  * [getHighlightColor](#gethighlightcolor)
@@ -16,6 +16,7 @@ Browser Playhead Plugin.
  * [setHighlightCustomColor](#sethighlightcustomcolor)
  * [setHighlightShape](#sethighlightshape)
  * [setHighlightTime](#sethighlighttime)
+
 
 ## API Documentation
 

@@ -3,23 +3,27 @@
 Represents a particular aspect of the color board (Color/Saturation/Exposure).
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [ids](#ids)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorBoardAspect](#colorboardaspect)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [highlights](#highlights)
  * [master](#master)
  * [midtones](#midtones)
  * [selected](#selected)
  * [shadows](#shadows)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [hasAngle](#hasangle)
  * [id](#id)
  * [index](#index)
  * [reset](#reset)
  * [show](#show)
+
 
 ## API Documentation
 

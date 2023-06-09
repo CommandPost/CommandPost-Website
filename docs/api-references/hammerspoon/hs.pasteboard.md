@@ -8,7 +8,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
  * [hs.pasteboard.watcher](hs.pasteboard.watcher.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [allContentTypes](#allcontenttypes)
  * [callbackWhenChanged](#callbackwhenchanged)
  * [changeCount](#changecount)
@@ -35,6 +35,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
  * [writeDataForUTI](#writedataforuti)
  * [writeObjects](#writeobjects)
  * [writePListForUTI](#writeplistforuti)
+
 
 ## API Documentation
 

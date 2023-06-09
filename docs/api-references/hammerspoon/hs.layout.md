@@ -5,7 +5,7 @@ Window layout manager
 This extension allows you to trigger window placement/sizing to a number of windows at once
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [left25](#left25)
  * [left30](#left30)
  * [left50](#left50)
@@ -17,8 +17,10 @@ This extension allows you to trigger window placement/sizing to a number of wind
  * [right50](#right50)
  * [right70](#right70)
  * [right75](#right75)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [apply](#apply)
+
 
 ## API Documentation
 

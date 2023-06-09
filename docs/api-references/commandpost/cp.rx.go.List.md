@@ -9,11 +9,13 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
  * [cp.rx.go.List.SortedBy](cp.rx.go.List.SortedBy.md)
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [List](#list)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Sorted](#sorted)
  * [SortedBy](#sortedby)
+
 
 ## API Documentation
 

@@ -20,18 +20,20 @@ here: http://www.tangentwave.co.uk/developer-support
  * [plugins.core.tangent.manager.parameter](plugins.core.tangent.manager.parameter.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [APPLICATION_NAME_SUFFIX](#application_name_suffix)
  * [MAXIMUM_CONNECTIONS](#maximum_connections)
  * [NUMBER_OF_FAVOURITES](#number_of_favourites)
  * [USER_CONTROL_MAPS_FOLDER](#user_control_maps_folder)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [applicationNameToGroupID](#applicationnametogroupid)
  * [customApplications](#customapplications)
  * [enabled](#enabled)
  * [tangentHubInstalled](#tangenthubinstalled)
  * [tangentMapperInstalled](#tangentmapperinstalled)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [applicationNames](#applicationnames)
  * [getConnection](#getconnection)
  * [launchTangentMapper](#launchtangentmapper)
@@ -39,6 +41,7 @@ here: http://www.tangentwave.co.uk/developer-support
  * [registerCustomApplication](#registercustomapplication)
  * [removeCustomApplication](#removecustomapplication)
  * [setupCustomApplications](#setupcustomapplications)
+
 
 ## API Documentation
 

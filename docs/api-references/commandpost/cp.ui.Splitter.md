@@ -3,12 +3,14 @@
 Represents an `AXSplitter`.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [HORIZONTAL_ORIENTATION](#horizontal_orientation)
  * [VERTICAL_ORIENTATION](#vertical_orientation)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [horizontal](#horizontal)
  * [maxValue](#maxvalue)
  * [minValue](#minvalue)
@@ -16,6 +18,7 @@ Represents an `AXSplitter`.
  * [orientation](#orientation)
  * [previousContentsUI](#previouscontentsui)
  * [vertical](#vertical)
+
 
 ## API Documentation
 

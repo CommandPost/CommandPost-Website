@@ -4,12 +4,14 @@ Manages [Observables](cp.rx.Observer.md) using `coroutines` and a virtual clock 
 manually.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [isEmpth](#isempth)
  * [schedule](#schedule)
  * [update](#update)
+
 
 ## API Documentation
 

@@ -3,9 +3,10 @@
 The results of a test [run](cp.spec.Run.md).
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Report](#report)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [aborts](#aborts)
  * [failures](#failures)
  * [passes](#passes)
@@ -13,7 +14,8 @@ The results of a test [run](cp.spec.Run.md).
  * [startTime](#starttime)
  * [stopTime](#stoptime)
  * [totalTime](#totaltime)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [aborted](#aborted)
  * [add](#add)
  * [failed](#failed)
@@ -22,6 +24,7 @@ The results of a test [run](cp.spec.Run.md).
  * [stop](#stop)
  * [summary](#summary)
  * [waiting](#waiting)
+
 
 ## API Documentation
 

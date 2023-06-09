@@ -5,12 +5,15 @@ It doesn't do anything itself, but provides a common ancestor for all implementa
 classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Scenario.md).
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Definition](#definition)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [run](#run)
+
 
 ## API Documentation
 

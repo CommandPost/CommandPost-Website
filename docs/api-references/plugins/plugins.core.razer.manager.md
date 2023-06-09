@@ -3,17 +3,20 @@
 Razer Manager Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [bankLabels](#banklabels)
  * [supportedDevices](#supporteddevices)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [defaultLayout](#defaultlayout)
  * [manager](#manager)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [refresh](#refresh)
  * [reset](#reset)
  * [resetTimers](#resettimers)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeBanks](#activebanks)
  * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [backlightBrightness](#backlightbrightness)
@@ -28,6 +31,7 @@ Razer Manager Plugin.
  * [items](#items)
  * [keyRepeat](#keyrepeat)
  * [lastBundleID](#lastbundleid)
+
 
 ## API Documentation
 

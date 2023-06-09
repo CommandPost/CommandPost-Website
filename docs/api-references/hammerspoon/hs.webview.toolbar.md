@@ -35,16 +35,19 @@ Notes:
  * Toolbar items are rendered in the order they are supplied, although if the toolbar is marked as customizable, the user may have changed the order.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [itemPriorities](#itempriorities)
  * [systemToolbarItems](#systemtoolbaritems)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [attachToolbar](#attachtoolbar)
  * [inTitleBar](#intitlebar)
  * [uniqueName](#uniquename)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addItems](#additems)
  * [allowedItems](#alloweditems)
  * [autosaves](#autosaves)
@@ -72,6 +75,7 @@ Notes:
  * [toolbarStyle](#toolbarstyle)
  * [visible](#visible)
  * [visibleItems](#visibleitems)
+
 
 ## API Documentation
 

@@ -3,14 +3,17 @@
 Represents a Column in a Table.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [index](#index)
  * [selected](#selected)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [rows](#rows)
  * [visibleRows](#visiblerows)
+
 
 ## API Documentation
 

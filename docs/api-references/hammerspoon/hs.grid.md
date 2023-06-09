@@ -25,10 +25,11 @@ Once you selected a cell, you can use the arrow keys to navigate through the gri
 After highlighting enough cells, press enter to move/resize the window to the highlighted area.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [HINTS](#hints)
  * [ui](#ui)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [adjustWindow](#adjustwindow)
  * [get](#get)
  * [getCell](#getcell)
@@ -50,6 +51,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
  * [show](#show)
  * [snap](#snap)
  * [toggleShow](#toggleshow)
+
 
 ## API Documentation
 

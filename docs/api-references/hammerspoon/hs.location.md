@@ -32,7 +32,7 @@ The following labels are used to describe tables which are used by functions and
  * [hs.location.geocoder](hs.location.geocoder.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [authorizationStatus](#authorizationstatus)
  * [distance](#distance)
  * [dstOffset](#dstoffset)
@@ -44,9 +44,11 @@ The following labels are used to describe tables which are used by functions and
  * [sunrise](#sunrise)
  * [sunset](#sunset)
  * [unregister](#unregister)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addMonitoredRegion](#addmonitoredregion)
  * [callback](#callback)
  * [currentRegion](#currentregion)
@@ -56,6 +58,7 @@ The following labels are used to describe tables which are used by functions and
  * [removeMonitoredRegion](#removemonitoredregion)
  * [startTracking](#starttracking)
  * [stopTracking](#stoptracking)
+
 
 ## API Documentation
 

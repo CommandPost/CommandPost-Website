@@ -5,9 +5,10 @@ Inspect/manipulate the data sources of an audio device
 Note: These objects are obtained from the methods on an `hs.audiodevice` object
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [name](#name)
  * [setDefault](#setdefault)
+
 
 ## API Documentation
 

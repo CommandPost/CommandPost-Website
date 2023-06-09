@@ -3,15 +3,17 @@
 Allows managing values/IDs which can vary between versions.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [currentVersion](#currentversion)
  * [load](#load)
  * [of](#of)
  * [ofCurrent](#ofcurrent)
  * [previousVersion](#previousversion)
  * [versions](#versions)
+
 
 ## API Documentation
 

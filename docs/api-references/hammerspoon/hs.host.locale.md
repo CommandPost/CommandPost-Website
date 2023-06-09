@@ -5,7 +5,7 @@ Retrieve information about the user's Language and Region settings.
 Locales encapsulate information about linguistic, cultural, and technological conventions and standards. Examples of information encapsulated by a locale include the symbol used for the decimal separator in numbers and the way dates are formatted. Locales are typically used to provide, format, and interpret information about and according to the user’s customs and preferences.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [availableLocales](#availablelocales)
  * [current](#current)
  * [details](#details)
@@ -13,6 +13,7 @@ Locales encapsulate information about linguistic, cultural, and technological co
  * [preferredLanguages](#preferredlanguages)
  * [registerCallback](#registercallback)
  * [unregisterCallback](#unregistercallback)
+
 
 ## API Documentation
 

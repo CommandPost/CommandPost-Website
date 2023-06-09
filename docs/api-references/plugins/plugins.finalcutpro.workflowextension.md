@@ -33,12 +33,13 @@ Commands that can be SENT to the Workflow Extension:
       (duration in seconds)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [connected](#connected)
  * [lastPlayheadPosition](#lastplayheadposition)
  * [skimmingRestoreTimer](#skimmingrestoretimer)
  * [wasSkimmingEnabled](#wasskimmingenabled)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [callback](#callback)
  * [connect](#connect)
  * [connectionCallback](#connectioncallback)
@@ -51,9 +52,11 @@ Commands that can be SENT to the Workflow Extension:
  * [repositionWorkflowExtension](#repositionworkflowextension)
  * [sendCommand](#sendcommand)
  * [setupActions](#setupactions)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [hasWorkflowExtensionBeenAddedVersion](#hasworkflowextensionbeenaddedversion)
  * [hasWorkflowExtensionBeenMovedVersion](#hasworkflowextensionbeenmovedversion)
+
 
 ## API Documentation
 

@@ -3,8 +3,9 @@
 Controls Final Cut Pro's Titles.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [apply](#apply)
+
 
 ## API Documentation
 

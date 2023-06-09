@@ -272,13 +272,15 @@ So, a little bit tricky. The general rule of thumb is:
 3. In most other cases, use a `deep` table copy.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NIL](#nil)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [bind](#bind)
  * [extend](#extend)
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [AND](#and)
  * [FALSE](#false)
  * [FROM](#from)
@@ -288,9 +290,11 @@ So, a little bit tricky. The general rule of thumb is:
  * [OR](#or)
  * [THIS](#this)
  * [TRUE](#true)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [mainWindow](#mainwindow)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [ABOVE](#above)
  * [AND](#and)
  * [ATLEAST](#atleast)
@@ -327,6 +331,7 @@ So, a little bit tricky. The general rule of thumb is:
  * [value](#value)
  * [watch](#watch)
  * [wrap](#wrap)
+
 
 ## API Documentation
 

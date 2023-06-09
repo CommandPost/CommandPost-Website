@@ -6,11 +6,13 @@ Choices Module.
  * [cp.choices.builder](cp.choices.builder.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [getChoices](#getchoices)
  * [new](#new)
+
 
 ## API Documentation
 

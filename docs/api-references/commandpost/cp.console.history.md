@@ -6,15 +6,17 @@ Based on code by @asmagill
 https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/consoleHistory.lua
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [clearHistory](#clearhistory)
  * [history](#history)
  * [init](#init)
  * [pruneHistory](#prunehistory)
  * [retrieveHistory](#retrievehistory)
  * [saveHistory](#savehistory)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cache](#cache)
+
 
 ## API Documentation
 

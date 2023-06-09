@@ -4,12 +4,14 @@ A module for capturing and manipulating image objects from other modules for use
 
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [additionalImageNames](#additionalimagenames)
  * [systemImageNames](#systemimagenames)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [getExifFromPath](#getexiffrompath)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [iconForFile](#iconforfile)
  * [iconForFileType](#iconforfiletype)
  * [imageFromAppBundle](#imagefromappbundle)
@@ -18,7 +20,8 @@ A module for capturing and manipulating image objects from other modules for use
  * [imageFromName](#imagefromname)
  * [imageFromPath](#imagefrompath)
  * [imageFromURL](#imagefromurl)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bitmapRepresentation](#bitmaprepresentation)
  * [colorAt](#colorat)
  * [copy](#copy)
@@ -32,6 +35,7 @@ A module for capturing and manipulating image objects from other modules for use
  * [size](#size)
  * [template](#template)
  * [toASCII](#toascii)
+
 
 ## API Documentation
 

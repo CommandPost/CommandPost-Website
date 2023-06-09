@@ -6,9 +6,10 @@ Extends:
  * [MenuButton](cp.ui.MenuButton.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [OPTIONS](#options)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isBlade](#isblade)
  * [isHand](#ishand)
  * [isPosition](#isposition)
@@ -17,6 +18,7 @@ Extends:
  * [isTrim](#istrim)
  * [isZoom](#iszoom)
  * [value](#value)
+
 
 ## API Documentation
 

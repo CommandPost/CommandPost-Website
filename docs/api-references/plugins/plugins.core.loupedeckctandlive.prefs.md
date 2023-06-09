@@ -3,22 +3,26 @@
 Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [defaultIconPath](#defaulticonpath)
  * [supportedExtensions](#supportedextensions)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [buildIconFromLabel](#buildiconfromlabel)
  * [processEncodedIcon](#processencodedicon)
  * [updateUI](#updateui)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [generateContent](#generatecontent)
  * [generateKnobImages](#generateknobimages)
  * [panelCallback](#panelcallback)
  * [refreshDevice](#refreshdevice)
  * [renderPanel](#renderpanel)
  * [setItem](#setitem)
+
 
 ## API Documentation
 

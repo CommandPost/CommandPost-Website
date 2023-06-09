@@ -3,12 +3,14 @@
 Match Frame Tools for Final Cut Pro.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [hiddenKeywords](#hiddenkeywords)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [getMulticamAngleFromSelectedClip](#getmulticamanglefromselectedclip)
  * [matchFrame](#matchframe)
  * [multicamMatchFrame](#multicammatchframe)
+
 
 ## API Documentation
 

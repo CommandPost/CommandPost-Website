@@ -7,14 +7,16 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
  * [cp.ui.GridElement.OfRows](cp.ui.GridElement.OfRows.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [withColumnsOf](#withcolumnsof)
  * [withHeaderOf](#withheaderof)
  * [withRowsOf](#withrowsof)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [GridElement](#gridelement)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [columns](#columns)
  * [columnsUI](#columnsui)
  * [firstRow](#firstrow)
@@ -30,7 +32,8 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
  * [visibleColumnsUI](#visiblecolumnsui)
  * [visibleRows](#visiblerows)
  * [visibleRowsUI](#visiblerowsui)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doSelectRow](#doselectrow)
  * [fetchColumn](#fetchcolumn)
  * [findCell](#findcell)
@@ -40,6 +43,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
  * [selectRowAt](#selectrowat)
  * [selectRows](#selectrows)
  * [visitRow](#visitrow)
+
 
 ## API Documentation
 

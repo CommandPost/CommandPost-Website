@@ -15,11 +15,13 @@ o:start()
 ```
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [notifiersForBundleID](#notifiersforbundleid)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [bundleID](#bundleid)
  * [currentElement](#currentelement)
@@ -30,6 +32,7 @@ o:start()
  * [update](#update)
  * [watchAll](#watchall)
  * [watchFor](#watchfor)
+
 
 ## API Documentation
 

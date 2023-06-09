@@ -7,15 +7,17 @@ Adobe After Effects Extension
  * [cp.adobe.aftereffects.shortcuts](cp.adobe.aftereffects.shortcuts.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [preferences](#preferences)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [allowScriptsToWriteFilesAndAccessNetwork](#allowscriptstowritefilesandaccessnetwork)
  * [preferencesFilePath](#preferencesfilepath)
  * [preferencesPath](#preferencespath)
  * [refreshPreferences](#refreshpreferences)
  * [shortcutsPreferences](#shortcutspreferences)
  * [shortcutsPreferencesPath](#shortcutspreferencespath)
+
 
 ## API Documentation
 

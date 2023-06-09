@@ -3,14 +3,16 @@
 This sub-module provides functions for acquiring host information, such as hostnames, addresses, and reachability.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [addressesForHostname](#addressesforhostname)
  * [hostnamesForAddress](#hostnamesforaddress)
  * [reachabilityForAddress](#reachabilityforaddress)
  * [reachabilityForHostname](#reachabilityforhostname)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [cancel](#cancel)
  * [isRunning](#isrunning)
+
 
 ## API Documentation
 

@@ -3,11 +3,13 @@
 Final Cut Pro Font Console
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [processedFonts](#processedfonts)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [onActivate](#onactivate)
  * [show](#show)
+
 
 ## API Documentation
 

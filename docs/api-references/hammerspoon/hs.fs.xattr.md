@@ -18,12 +18,13 @@ Note that the following options did not seem to be valid for the initial tests p
 
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [get](#get)
  * [getHumanReadable](#gethumanreadable)
  * [list](#list)
  * [remove](#remove)
  * [set](#set)
+
 
 ## API Documentation
 

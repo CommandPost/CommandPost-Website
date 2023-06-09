@@ -8,15 +8,17 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
  * [hs.drawing.color](hs.drawing.color.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [windowBehaviors](#windowbehaviors)
  * [windowLevels](#windowlevels)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [defaultTextStyle](#defaulttextstyle)
  * [disableScreenUpdates](#disablescreenupdates)
  * [enableScreenUpdates](#enablescreenupdates)
  * [getTextDrawingSize](#gettextdrawingsize)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [appImage](#appimage)
  * [arc](#arc)
  * [circle](#circle)
@@ -25,7 +27,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
  * [line](#line)
  * [rectangle](#rectangle)
  * [text](#text)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [alpha](#alpha)
  * [behavior](#behavior)
  * [behaviorAsLabels](#behavioraslabels)
@@ -70,6 +73,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
  * [setTextStyle](#settextstyle)
  * [setTopLeft](#settopleft)
  * [show](#show)
+
 
 ## API Documentation
 

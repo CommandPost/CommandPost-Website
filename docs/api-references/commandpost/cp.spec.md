@@ -174,13 +174,14 @@ cp.spec "*" ()
  * [cp.spec.expect](cp.spec.expect.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [describe](#describe)
  * [find](#find)
  * [it](#it)
  * [setSearchPath](#setsearchpath)
  * [spec](#spec)
  * [test](#test)
+
 
 ## API Documentation
 

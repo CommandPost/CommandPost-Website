@@ -48,7 +48,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 ```
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [default](#default)
  * [defaultCurrentSpace](#defaultcurrentspace)
  * [hasNoWindows](#hasnowindows)
@@ -78,21 +78,25 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
  * [windowUnhidden](#windowunhidden)
  * [windowUnminimized](#windowunminimized)
  * [windowVisible](#windowvisible)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [allowedWindowRoles](#allowedwindowroles)
  * [forceRefreshOnSpaceChange](#forcerefreshonspacechange)
  * [ignoreAlways](#ignorealways)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [focusEast](#focuseast)
  * [focusNorth](#focusnorth)
  * [focusSouth](#focussouth)
  * [focusWest](#focuswest)
  * [isGuiApp](#isguiapp)
  * [switchedToSpace](#switchedtospace)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [copy](#copy)
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allowApp](#allowapp)
  * [focusWindowEast](#focuswindoweast)
  * [focusWindowNorth](#focuswindownorth)
@@ -120,6 +124,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
  * [windowsToNorth](#windowstonorth)
  * [windowsToSouth](#windowstosouth)
  * [windowsToWest](#windowstowest)
+
 
 ## API Documentation
 

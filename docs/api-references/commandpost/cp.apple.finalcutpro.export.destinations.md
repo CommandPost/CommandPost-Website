@@ -64,9 +64,10 @@ and "Xsend Motion" from your Final Cut Pro destinations preferences, they'll com
 back after you restart FCPX.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [indexOf](#indexof)
  * [names](#names)
+
 
 ## API Documentation
 

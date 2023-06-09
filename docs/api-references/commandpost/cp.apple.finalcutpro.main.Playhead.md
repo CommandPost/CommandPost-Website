@@ -3,21 +3,25 @@
 Playhead Module.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [find](#find)
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Playhead](#playhead)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [center](#center)
  * [currentViewer](#currentviewer)
  * [frame](#frame)
  * [isPersistent](#ispersistent)
  * [position](#position)
  * [timecode](#timecode)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [hide](#hide)
  * [show](#show)
+
 
 ## API Documentation
 

@@ -68,16 +68,19 @@ Each layout can have an associated screen configuration; if so, the layout will 
 arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for more information.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [applyDelay](#applydelay)
  * [screensChangedDelay](#screenschangeddelay)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [applyLayout](#applylayout)
  * [pauseAllInstances](#pauseallinstances)
  * [resumeAllInstances](#resumeallinstances)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [apply](#apply)
  * [getRules](#getrules)
  * [pause](#pause)
@@ -85,6 +88,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
  * [setScreenConfiguration](#setscreenconfiguration)
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

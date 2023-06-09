@@ -5,11 +5,13 @@ non-numerical values. This could be as simple as "On" and "Off", or a long
 list of options.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [is](#is)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [menu](#menu)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [get](#get)
  * [next](#next)
  * [onGet](#onget)
@@ -20,6 +22,7 @@ list of options.
  * [reset](#reset)
  * [update](#update)
  * [xml](#xml)
+
 
 ## API Documentation
 

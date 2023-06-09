@@ -3,8 +3,9 @@
 Show Timeline In Player.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [enabled](#enabled)
+
 
 ## API Documentation
 

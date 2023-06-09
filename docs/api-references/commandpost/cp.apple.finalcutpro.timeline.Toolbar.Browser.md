@@ -3,9 +3,10 @@
 A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Effects and Transitions Browsers.
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [effects](#effects)
  * [transitions](#transitions)
+
 
 ## API Documentation
 

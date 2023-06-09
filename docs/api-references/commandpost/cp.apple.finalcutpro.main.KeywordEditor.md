@@ -3,25 +3,30 @@
 Keyword Editor Module.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [KeywordEditor](#keywordeditor)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isShowing](#isshowing)
  * [keyboardShortcuts](#keyboardshortcuts)
  * [keywords](#keywords)
  * [resetButton](#resetbutton)
  * [shortcutButtons](#shortcutbuttons)
  * [shortcutFields](#shortcutfields)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doHide](#dohide)
  * [doShow](#doshow)
  * [hide](#hide)
  * [parent](#parent)
  * [show](#show)
+
 
 ## API Documentation
 

@@ -15,15 +15,17 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [registeredKeys](#registeredkeys)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [asciiOnly](#asciionly)
  * [codepointToUTF8](#codepointtoutf8)
  * [fixUTF8](#fixutf8)
  * [hexDump](#hexdump)
  * [registerCodepoint](#registercodepoint)
  * [registeredLabels](#registeredlabels)
+
 
 ## API Documentation
 

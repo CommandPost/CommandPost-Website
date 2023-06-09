@@ -3,8 +3,9 @@
 A `Statement.Modifier` that specifies the list should be sorted by the specified `function`.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [SortedBy](#sortedby)
+
 
 ## API Documentation
 

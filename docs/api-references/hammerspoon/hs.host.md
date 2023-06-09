@@ -9,7 +9,7 @@ Notes:
  * [hs.host.locale](hs.host.locale.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [addresses](#addresses)
  * [cpuUsage](#cpuusage)
  * [cpuUsageTicks](#cpuusageticks)
@@ -25,6 +25,7 @@ Notes:
  * [uuid](#uuid)
  * [vmStat](#vmstat)
  * [volumeInformation](#volumeinformation)
+
 
 ## API Documentation
 

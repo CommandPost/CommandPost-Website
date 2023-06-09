@@ -10,7 +10,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [hs.timer.delayed](hs.timer.delayed.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [absoluteTime](#absolutetime)
  * [days](#days)
  * [hours](#hours)
@@ -20,7 +20,8 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [secondsSinceEpoch](#secondssinceepoch)
  * [usleep](#usleep)
  * [weeks](#weeks)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [doAfter](#doafter)
  * [doAt](#doat)
  * [doEvery](#doevery)
@@ -29,13 +30,15 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [new](#new)
  * [waitUntil](#waituntil)
  * [waitWhile](#waitwhile)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [fire](#fire)
  * [nextTrigger](#nexttrigger)
  * [running](#running)
  * [setNextTrigger](#setnexttrigger)
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

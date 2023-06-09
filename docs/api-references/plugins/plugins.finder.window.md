@@ -5,9 +5,10 @@ Handy tools for Windows Management in macOS.
 Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammerspoon](http://www.hammerspoon.org/).
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [gridparts](#gridparts)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [centerCursor](#centercursor)
  * [grid](#grid)
  * [hints](#hints)
@@ -16,6 +17,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
  * [stepMove](#stepmove)
  * [stepResize](#stepresize)
  * [undo](#undo)
+
 
 ## API Documentation
 

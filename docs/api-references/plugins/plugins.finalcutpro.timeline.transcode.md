@@ -3,15 +3,17 @@
 Adds actions that allows you to transcode clips from the timeline.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [transcodeType](#transcodetype)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [doTranscodeSelectedBrowserClips](#dotranscodeselectedbrowserclips)
  * [doTranscodeSelectedClips](#dotranscodeselectedclips)
  * [doTranscodeSelectedTimelineClips](#dotranscodeselectedtimelineclips)
  * [optimizeSelectedClips](#optimizeselectedclips)
  * [proxySelectedClips](#proxyselectedclips)
  * [transcodeSelectedClips](#transcodeselectedclips)
+
 
 ## API Documentation
 

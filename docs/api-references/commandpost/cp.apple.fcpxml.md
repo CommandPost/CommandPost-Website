@@ -7,12 +7,14 @@ A collection of tools for handling FCPXML Documents.
  * [cp.apple.fcpxml.timecode](cp.apple.fcpxml.timecode.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [HAS_OFFSET_ATTRIBUTE](#has_offset_attribute)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [latestDTDVersion](#latestdtdversion)
  * [supportedDTDs](#supporteddtds)
  * [valid](#valid)
+
 
 ## API Documentation
 

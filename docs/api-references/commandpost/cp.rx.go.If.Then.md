@@ -6,11 +6,13 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
  * [cp.rx.go.If.Then.Otherwise](cp.rx.go.If.Then.Otherwise.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [Then](#then)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Otherwise](#otherwise)
  * [Then](#then)
+
 
 ## API Documentation
 

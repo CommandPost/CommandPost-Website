@@ -29,11 +29,12 @@ These work on all UI elements, including windows.
 * hs.uielement.watcher.titleChanged: The element's title was changed.
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [element](#element)
  * [pid](#pid)
  * [start](#start)
  * [stop](#stop)
+
 
 ## API Documentation
 

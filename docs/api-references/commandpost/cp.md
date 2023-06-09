@@ -56,11 +56,13 @@ Core CommandPost functionality.
  * [cp.websocket](cp.websocket.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [imageBase64](#imagebase64)
  * [init](#init)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [connectClip](#connectclip)
+
 
 ## API Documentation
 

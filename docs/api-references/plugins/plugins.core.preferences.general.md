@@ -3,18 +3,21 @@
 General Preferences Panel.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [dragAndDropFileActions](#draganddropfileactions)
  * [dragAndDropTextActions](#draganddroptextactions)
  * [openDebugConsoleOnDockClick](#opendebugconsoleondockclick)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [registerDragAndDropFileAction](#registerdraganddropfileaction)
  * [registerDragAndDropTextAction](#registerdraganddroptextaction)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [autoLaunch](#autolaunch)
  * [dockIcon](#dockicon)
  * [dragAndDropFileAction](#draganddropfileaction)
  * [dragAndDropTextAction](#draganddroptextaction)
+
 
 ## API Documentation
 

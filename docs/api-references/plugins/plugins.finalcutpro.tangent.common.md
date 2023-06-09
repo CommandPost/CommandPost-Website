@@ -3,7 +3,7 @@
 Common Final Cut Pro functions for Tangent
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [buttonParameter](#buttonparameter)
  * [checkboxParameter](#checkboxparameter)
  * [checkboxParameterByIndex](#checkboxparameterbyindex)
@@ -21,6 +21,7 @@ Common Final Cut Pro functions for Tangent
  * [sliderParameter](#sliderparameter)
  * [volumeSliderParameter](#volumesliderparameter)
  * [xyParameter](#xyparameter)
+
 
 ## API Documentation
 

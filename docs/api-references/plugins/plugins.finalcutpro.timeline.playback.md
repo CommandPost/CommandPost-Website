@@ -3,9 +3,10 @@
 Playback Plugin.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [pause](#pause)
  * [play](#play)
+
 
 ## API Documentation
 

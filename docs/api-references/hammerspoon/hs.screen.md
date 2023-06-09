@@ -10,18 +10,21 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
  * [hs.screen.watcher](hs.screen.watcher.md)
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [strictScreenInDirection](#strictscreenindirection)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [accessibilitySettings](#accessibilitysettings)
  * [find](#find)
  * [restoreGamma](#restoregamma)
  * [screenPositions](#screenpositions)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [allScreens](#allscreens)
  * [mainScreen](#mainscreen)
  * [primaryScreen](#primaryscreen)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [absoluteToLocal](#absolutetolocal)
  * [availableModes](#availablemodes)
  * [currentMode](#currentmode)
@@ -59,6 +62,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
  * [toSouth](#tosouth)
  * [toUnitRect](#tounitrect)
  * [toWest](#towest)
+
 
 ## API Documentation
 

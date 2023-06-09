@@ -3,13 +3,15 @@
 This module provides support for injecting custom JavaScript user content into your webviews and for JavaScript to post messages back to Hammerspoon.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [injectScript](#injectscript)
  * [removeAllScripts](#removeallscripts)
  * [setCallback](#setcallback)
  * [userScripts](#userscripts)
+
 
 ## API Documentation
 

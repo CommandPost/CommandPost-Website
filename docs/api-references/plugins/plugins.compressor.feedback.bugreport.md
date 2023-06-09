@@ -3,10 +3,12 @@
 Sends Apple a Bug Report or Feature Request for Compressor.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [open](#open)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [position](#position)
+
 
 ## API Documentation
 

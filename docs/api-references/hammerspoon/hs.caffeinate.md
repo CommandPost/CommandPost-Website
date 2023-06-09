@@ -8,7 +8,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
  * [hs.caffeinate.watcher](hs.caffeinate.watcher.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [currentAssertions](#currentassertions)
  * [declareUserActivity](#declareuseractivity)
  * [fastUserSwitch](#fastuserswitch)
@@ -22,6 +22,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
  * [startScreensaver](#startscreensaver)
  * [systemSleep](#systemsleep)
  * [toggle](#toggle)
+
 
 ## API Documentation
 

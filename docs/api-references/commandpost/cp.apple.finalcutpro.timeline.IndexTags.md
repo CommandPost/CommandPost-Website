@@ -6,7 +6,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
  * [cp.apple.finalcutpro.timeline.IndexTags.Type](cp.apple.finalcutpro.timeline.IndexTags.Type.md)
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [all](#all)
  * [analysisKeywords](#analysiskeywords)
@@ -17,7 +17,8 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
  * [list](#list)
  * [standardMarkers](#standardmarkers)
  * [type](#type)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doLayout](#dolayout)
  * [doShowAll](#doshowall)
  * [doShowAnalysisKeywords](#doshowanalysiskeywords)
@@ -27,6 +28,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
  * [doShowKeywords](#doshowkeywords)
  * [doShowStandardMarkers](#doshowstandardmarkers)
  * [saveLayout](#savelayout)
+
 
 ## API Documentation
 

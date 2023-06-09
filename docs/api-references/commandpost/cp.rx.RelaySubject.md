@@ -4,11 +4,13 @@ A [Subject](cp.rx.Subject.md) that provides new [Observers](cp.rx.Observer.md) w
 produced values upon reference.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onNext](#onnext)
  * [subscribe](#subscribe)
+
 
 ## API Documentation
 

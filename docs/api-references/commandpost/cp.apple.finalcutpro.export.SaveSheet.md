@@ -3,17 +3,20 @@
 Save Sheet
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [SaveSheet](#savesheet)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cancel](#cancel)
  * [filename](#filename)
  * [goToPrompt](#gotoprompt)
  * [replaceAlert](#replacealert)
  * [save](#save)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [setPath](#setpath)
+
 
 ## API Documentation
 

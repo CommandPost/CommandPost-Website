@@ -6,8 +6,9 @@ A `Statement.Modifier` that defines what value to set a `cp.prop` to.
  * [cp.rx.go.SetProp.To.Then](cp.rx.go.SetProp.To.Then.md)
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
+
 
 ## API Documentation
 

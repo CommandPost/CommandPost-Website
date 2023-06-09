@@ -11,15 +11,17 @@ k:bind('', 'escape', function() k:exit() end)
 k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pressed' end)```
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bind](#bind)
  * [delete](#delete)
  * [enter](#enter)
  * [entered](#entered)
  * [exit](#exit)
  * [exited](#exited)
+
 
 ## API Documentation
 

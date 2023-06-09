@@ -9,7 +9,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [hs.battery.watcher](hs.battery.watcher.md)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [_report](#_report)
  * [adapterSerialNumber](#adapterserialnumber)
  * [amperage](#amperage)
@@ -36,6 +36,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [voltage](#voltage)
  * [warningLevel](#warninglevel)
  * [watts](#watts)
+
 
 ## API Documentation
 

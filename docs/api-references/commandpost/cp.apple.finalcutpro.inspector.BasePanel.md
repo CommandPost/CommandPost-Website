@@ -5,13 +5,15 @@ A base class for the different panels in the [Inspector](cp.apple.finalcutpro.in
 Extends [Element](cp.ui.Element.md).
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [BasePanel](#basepanel)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [hide](#hide)
  * [panelType](#paneltype)
  * [show](#show)
+
 
 ## API Documentation
 

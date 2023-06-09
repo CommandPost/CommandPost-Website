@@ -11,17 +11,20 @@ and if not, it will send an error.
  * [cp.rx.go.Require.Matches](cp.rx.go.Require.Matches.md)
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [OrThrow](#orthrow)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [Require](#require)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Are](#are)
  * [AreNot](#arenot)
  * [Is](#is)
  * [IsNot](#isnot)
  * [Matches](#matches)
  * [OrThrow](#orthrow)
+
 
 ## API Documentation
 

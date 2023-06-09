@@ -5,9 +5,10 @@ Send messages via iMessage and SMS Relay (note, SMS Relay requires OS X 10.10 an
 Note: This extension works by controlling the OS X "Messages" app via AppleScript, so you will need that app to be signed into an iMessage account
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [iMessage](#imessage)
  * [SMS](#sms)
+
 
 ## API Documentation
 

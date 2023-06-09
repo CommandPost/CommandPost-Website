@@ -24,13 +24,15 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [properties](#properties)
  * [rawFlagMasks](#rawflagmasks)
  * [types](#types)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [newKeyEventSequence](#newkeyeventsequence)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [copy](#copy)
  * [newEvent](#newevent)
  * [newEventFromData](#neweventfromdata)
@@ -39,7 +41,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * [newMouseEvent](#newmouseevent)
  * [newScrollEvent](#newscrollevent)
  * [newSystemKeyEvent](#newsystemkeyevent)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [asData](#asdata)
  * [getButtonState](#getbuttonstate)
  * [getCharacters](#getcharacters)
@@ -61,6 +64,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * [setUnicodeString](#setunicodestring)
  * [systemKey](#systemkey)
  * [timestamp](#timestamp)
+
 
 ## API Documentation
 

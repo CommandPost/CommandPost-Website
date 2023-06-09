@@ -3,7 +3,7 @@
 FCPXML Titles Toolbox Panel
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [ignoreFirstRow](#ignorefirstrow)
  * [lastBatchProcessPath](#lastbatchprocesspath)
  * [lastExportCSVPath](#lastexportcsvpath)
@@ -14,6 +14,7 @@ FCPXML Titles Toolbox Panel
  * [removeLineBreaks](#removelinebreaks)
  * [sentToFinalCutPro](#senttofinalcutpro)
  * [trimWhiteSpace](#trimwhitespace)
+
 
 ## API Documentation
 

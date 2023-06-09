@@ -6,12 +6,13 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 `hs.application.get()`, `hs.application:findWindow()` and `hs.application:getWindow()` instead.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [appFromName](#appfromname)
  * [appFromWindowTitle](#appfromwindowtitle)
  * [appFromWindowTitlePattern](#appfromwindowtitlepattern)
  * [windowFromWindowTitle](#windowfromwindowtitle)
  * [windowFromWindowTitlePattern](#windowfromwindowtitlepattern)
+
 
 ## API Documentation
 

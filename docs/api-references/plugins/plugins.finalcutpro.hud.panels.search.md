@@ -3,7 +3,7 @@
 Ten Panel for the Final Cut Pro HUD.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [exactMatch](#exactmatch)
  * [filterBrowserBeforeSearch](#filterbrowserbeforesearch)
  * [history](#history)
@@ -15,6 +15,7 @@ Ten Panel for the Final Cut Pro HUD.
  * [playAfterFind](#playafterfind)
  * [searchEntireLibrary](#searchentirelibrary)
  * [wholeWords](#wholewords)
+
 
 ## API Documentation
 

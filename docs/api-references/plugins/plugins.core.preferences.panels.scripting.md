@@ -3,8 +3,9 @@
 Scripting Preferences Panel
 
 ## API Overview
-* Fields - Variables which can only be accessed from an object returned by a constructor
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [snippets](#snippets)
+
 
 ## API Documentation
 

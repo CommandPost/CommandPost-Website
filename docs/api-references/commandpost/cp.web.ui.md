@@ -6,7 +6,7 @@ potentially dynamically updatable. Most values can be set using a value or a fun
 and if functions are provided, they are re-evaluated every time the element is generated.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [heading](#heading)
  * [img](#img)
  * [javascript](#javascript)
@@ -15,9 +15,11 @@ and if functions are provided, they are re-evaluated every time the element is g
  * [style](#style)
  * [template](#template)
  * [textbox](#textbox)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [button](#button)
  * [checkbox](#checkbox)
+
 
 ## API Documentation
 

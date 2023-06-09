@@ -68,12 +68,14 @@ This will do a run for each variation and interpolate the value into the run nam
 instance (such as "async" or "done") so ensure that you pick names that don't clash.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Scenario](#scenario)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doing](#doing)
  * [run](#run)
  * [where](#where)
+
 
 ## API Documentation
 

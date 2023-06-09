@@ -6,14 +6,17 @@ A [Statement](cp.rx.go.Statement.md) that will retry the contained statement if 
 It can be limited to a set number of retries, and have a delay added between retries.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [DelayedBy](#delayedby)
  * [UpTo](#upto)
-* Constructors - API calls which return an object, typically one that offers API methods
+
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Retry](#retry)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [DelayedBy](#delayedby)
  * [UpTo](#upto)
+
 
 ## API Documentation
 

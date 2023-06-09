@@ -9,8 +9,9 @@ The Ruby gem `github-markdown` was chosen as the code base for this module becau
 The Lua wrapper portion is licensed under the MIT license by the Hammerspoon development team.  The C code portion of the Ruby gem is licensed under the MIT license by GitHub, Inc.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [convert](#convert)
+
 
 ## API Documentation
 

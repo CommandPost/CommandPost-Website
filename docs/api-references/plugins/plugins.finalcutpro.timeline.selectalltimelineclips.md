@@ -3,8 +3,9 @@
 Select All Timeline Clips
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [selectalltimelineclips](#selectalltimelineclips)
+
 
 ## API Documentation
 

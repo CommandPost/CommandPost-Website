@@ -3,9 +3,10 @@
 Defines a `TextField` [Builder](cp.ui.Builder.md).
 
 ## API Overview
-* Methods - API calls which can only be made on an object returned by a constructor
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [convertingGet](#convertingget)
  * [convertingSet](#convertingset)
+
 
 ## API Documentation
 

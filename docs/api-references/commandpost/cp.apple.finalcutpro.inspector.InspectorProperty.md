@@ -8,7 +8,7 @@ there is also a `section`, which is for rows which expand/collapse to reveal
 other properties.
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [checkBox](#checkbox)
  * [hasProperties](#hasproperties)
  * [menuButton](#menubutton)
@@ -20,6 +20,7 @@ other properties.
  * [staticText](#statictext)
  * [textField](#textfield)
  * [xy](#xy)
+
 
 ## API Documentation
 

@@ -5,18 +5,21 @@ Simple logger for debugging purposes
 Note: "methods" in this module are actually "static" functions - see `hs.logger.new()`
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [defaultLogLevel](#defaultloglevel)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [history](#history)
  * [historySize](#historysize)
  * [new](#new)
  * [printHistory](#printhistory)
  * [setGlobalLogLevel](#setgloballoglevel)
  * [setModulesLogLevel](#setmodulesloglevel)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [level](#level)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [d](#d)
  * [df](#df)
  * [e](#e)
@@ -29,6 +32,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
  * [vf](#vf)
  * [w](#w)
  * [wf](#wf)
+
 
 ## API Documentation
 

@@ -3,23 +3,27 @@
 Monogram Manager Plugin.
 
 ## API Overview
-* Constants - Useful values which cannot be changed
+### **Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_FAVOURITES](#number_of_favourites)
-* Variables - Configurable values
+
+### **Variables** - _Configurable values_
  * [favourites](#favourites)
  * [lastPort](#lastport)
  * [performAction](#performaction)
  * [plugins](#plugins)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [changeContext](#changecontext)
  * [launchCreatorBundle](#launchcreatorbundle)
  * [registerAction](#registeraction)
  * [registerPlugin](#registerplugin)
  * [setEnabled](#setenabled)
  * [sign](#sign)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [automaticProfileSwitching](#automaticprofileswitching)
  * [enabled](#enabled)
+
 
 ## API Documentation
 

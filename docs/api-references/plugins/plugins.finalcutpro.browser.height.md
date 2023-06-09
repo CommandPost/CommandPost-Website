@@ -3,10 +3,12 @@
 Shortcut for changing Final Cut Pro's Browser Height
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [changeBrowserClipHeightAlreadyInProgress](#changebrowserclipheightalreadyinprogress)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [changeBrowserClipHeight](#changebrowserclipheight)
+
 
 ## API Documentation
 

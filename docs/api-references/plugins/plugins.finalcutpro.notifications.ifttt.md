@@ -5,14 +5,16 @@ IFTTT Notifications Plugin.
 Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 
 ## API Overview
-* Functions - API calls offered directly by the extension
+### **Functions** - _API calls offered directly by the extension_
  * [init](#init)
  * [sendNotification](#sendnotification)
  * [update](#update)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [appAPIKey](#appapikey)
  * [enabled](#enabled)
  * [userAPIKey](#userapikey)
+
 
 ## API Documentation
 

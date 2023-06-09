@@ -3,8 +3,9 @@
 Color Module.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Color](#color)
+
 
 ## API Documentation
 

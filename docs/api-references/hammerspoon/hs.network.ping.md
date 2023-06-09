@@ -6,9 +6,10 @@ This module provides a basic ping function which can test host availability. Pin
  * [hs.network.ping.echoRequest](hs.network.ping.echoRequest.md)
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ping](#ping)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [address](#address)
  * [cancel](#cancel)
  * [count](#count)
@@ -21,6 +22,7 @@ This module provides a basic ping function which can test host availability. Pin
  * [server](#server)
  * [setCallback](#setcallback)
  * [summary](#summary)
+
 
 ## API Documentation
 

@@ -15,12 +15,14 @@ The choices added to the `choices` should have the `params` value set to a table
 containing the details of the action to execute if the choice is selected.
 
 ## API Overview
-* Constructors - API calls which return an object, typically one that offers API methods
+### **Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
-* Fields - Variables which can only be accessed from an object returned by a constructor
+
+### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cached](#cached)
  * [choices](#choices)
-* Methods - API calls which can only be made on an object returned by a constructor
+
+### **Methods** - _API calls which can only be made on an object returned by a constructor_
  * [actionId](#actionid)
  * [execute](#execute)
  * [group](#group)
@@ -30,6 +32,7 @@ containing the details of the action to execute if the choice is selected.
  * [onChoices](#onchoices)
  * [onExecute](#onexecute)
  * [reset](#reset)
+
 
 ## API Documentation
 

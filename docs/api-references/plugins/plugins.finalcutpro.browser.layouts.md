@@ -34,10 +34,11 @@ as the strings for these values are contained within a `.nib` file not a `.strin
 file.
 
 ## API Overview
-* Variables - Configurable values
+### **Variables** - _Configurable values_
  * [busy](#busy)
  * [lastCollection](#lastcollection)
-* Functions - API calls offered directly by the extension
+
+### **Functions** - _API calls offered directly by the extension_
  * [getActiveColumnsNames](#getactivecolumnsnames)
  * [getClipNameSize](#getclipnamesize)
  * [getSingleSelectedCollection](#getsingleselectedcollection)
@@ -47,6 +48,7 @@ file.
  * [saveBrowserLayoutForSelectedCollection](#savebrowserlayoutforselectedcollection)
  * [saveLayoutToTable](#savelayouttotable)
  * [setupWatcher](#setupwatcher)
+
 
 ## API Documentation
 
