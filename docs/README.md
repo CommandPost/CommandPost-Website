@@ -49,7 +49,7 @@ However, it's also used by developers, scientists and macOS power users all over
 
 ### Experience Unparalleled Control
 
-> _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._
+> _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._<br />
 > **[Oli Frost](https://olifro.st/){target="_blank"}**
 
 > _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
