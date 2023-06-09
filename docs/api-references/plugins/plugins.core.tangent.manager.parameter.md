@@ -44,6 +44,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>thing     - The other object to test.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `parameter`, `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L33) |
 
 ---
 
@@ -58,6 +60,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L221) |
 
 ---
 
@@ -74,6 +78,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>id        - The ID number of the parameter.</li><li>name      - The name of the parameter.</li><li>parent    - The parent of the parameter.</li></ul> |
 | **Returns**                                 | <ul><li>the new `parameter`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L18) |
 
 ---
 
@@ -90,6 +96,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>amount    - The amount to change the parameter.</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L162) |
 
 ---
 
@@ -104,6 +112,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L122) |
 
 ---
 
@@ -118,6 +128,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>value     - The new value.</li></ul> |
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L64) |
 
 ---
 
@@ -132,6 +144,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>value     - The new value.</li></ul> |
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L46) |
 
 ---
 
@@ -146,6 +160,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>getFn     - The function to call when the Tangent requests the parameter change.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function(amount) -> number`</li><li></li><li>The return value should be the new value of the parameter.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L138) |
 
 ---
 
@@ -160,6 +176,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>getFn     - The function to call when the Tangent requests the parameter value.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> number`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L100) |
 
 ---
 
@@ -174,6 +192,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>resetFn     - The function to call when the Tangent requests the parameter reset.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L183) |
 
 ---
 
@@ -188,6 +208,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L85) |
 
 ---
 
@@ -202,6 +224,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/action.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/action.lua#L122) |
 
 ---
 
@@ -216,6 +240,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L205) |
 
 ---
 
@@ -230,6 +256,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>value     - The new value.</li></ul> |
 | **Returns**                                 | <ul><li>If `value` is `nil`, the current value is returned, otherwise returns `self`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L82) |
 
 ---
 
@@ -244,6 +272,8 @@ Represents a Tangent Parameter control.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Parameter.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/parameter.lua line 239](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/parameter.lua#L239) |
 
 ---
 

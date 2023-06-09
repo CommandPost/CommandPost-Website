@@ -33,6 +33,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp`, which should be created via `SetProp:To(value)`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L99) |
 
 ---
 
@@ -49,6 +50,8 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Parameters**                              | <ul><li>...  - The list of `resolveable` values to process for the unsuccessful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:Otherwise(false)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L165) |
 
 ---
 
@@ -63,6 +66,8 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` values to process for the sucessful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>A new [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/If.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/If.lua#L150) |
 
 ---
 

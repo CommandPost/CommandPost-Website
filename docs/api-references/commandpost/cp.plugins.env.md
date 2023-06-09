@@ -33,6 +33,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`rootPath` the path to the plugin's root folder.</li></ul> |
 | **Returns**                                 | <ul><li>The new `env` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L21) |
 
 ---
 
@@ -49,6 +51,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`view`	- The local path inside the plugin to the template file, or raw template markup.</li><li>`layout`	- The local path inside the plugin to the layout file.</li></ul> |
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>It returns a function which can have a `model` table passed in which will provide variables/functions/etc that the template can access while rendering. The function can be reused multiple times with different context values.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L102) |
 
 ---
 
@@ -63,6 +67,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`resourcePath` - The local path to the resource inside the plugin.</li></ul> |
 | **Returns**                                 | <ul><li>The absolute path to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L37) |
 
 ---
 
@@ -77,6 +83,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`resourcePath` - The local path to the resource inside the plugin.</li></ul> |
 | **Returns**                                 | <ul><li>The absolute URL to the resource, or `nil` if it does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L60) |
 
 ---
 
@@ -91,6 +99,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`resourcePath`	- The local path to the resource inside the plugin.</li></ul> |
 | **Returns**                                 | <ul><li>The contents of the resouce, or `nil` if the file does not exist.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L78) |
 
 ---
 
@@ -105,6 +115,8 @@ Provides access to resources in the plugin environment. In generally, this will 
 | **Parameters**                              | <ul><li>`view`	- The local path inside the plugin to the template file, or raw template markup.</li><li>`model`	- The model which provides variables/functions/etc to the template.</li><li>`layout`	- The local path inside the plugin to the layout file.</li></ul> |
 | **Returns**                                 | <ul><li>A function which will render the template.</li></ul>          |
 | **Notes**                                   | <ul><li>The `model` is a table which will provide variables/functions/etc that the template can access while rendering.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/plugins/env.lua line 146](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/plugins/env.lua#L146) |
 
 ---
 

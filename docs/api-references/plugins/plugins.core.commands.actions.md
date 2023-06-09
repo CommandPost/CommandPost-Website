@@ -31,6 +31,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`action` - A table representing the action, matching the following:`id` - The specific Command ID within the group.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the action was executed successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L113) |
 
 ---
 
@@ -45,6 +47,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`action`      - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L100) |
 
 ---
 
@@ -59,6 +63,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`actionmanager` - The Action Manager Plugin</li><li>`cmds` - The Commands Plugin.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L39) |
 
 ---
 
@@ -73,6 +79,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`choices`     - The `cp.choices` to add choices to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L67) |
 
 ---
 
@@ -87,6 +95,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/commands/actions.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/commands/actions.lua#L154) |
 
 ---
 

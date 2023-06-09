@@ -37,6 +37,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L14) |
 
 ---
 
@@ -53,6 +55,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>`parent`         - The parent table.</li><li>`uiFinder`       - The function which returns the `axuielement`.</li><li>`minValue`       - The minimum value allowed for the value.</li><li>`maxValue`       - The maximum value allowed for the value.</li><li>`toAXValueFn`    - The function which will convert the user value to the actual AXValue.</li><li>`fromAXValueFn`  - The function which will convert the current AXValue to a user value.</li></ul> |
 | **Returns**                                 | <ul><li>New `ValueIndicator` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L27) |
 
 ---
 
@@ -69,6 +73,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L145) |
 
 ---
 
@@ -83,6 +89,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L128) |
 
 ---
 
@@ -97,6 +105,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if showing, otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L50) |
 
 ---
 
@@ -111,6 +121,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>`layout` - The layout table you want to load.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 177](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L177) |
 
 ---
 
@@ -125,6 +137,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the layout.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L162) |
 
 ---
 
@@ -139,6 +153,8 @@ ValueIndicator Module.
 | **Parameters**                              | <ul><li>`value` - The amount to shift the value indicator by as a number.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.inspector.color.ValueIndicator` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ValueIndicator.lua#L91) |
 
 ---
 

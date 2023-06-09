@@ -45,6 +45,7 @@ and if not, it will send an error.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the message to throw if the requirement is not met.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L59) |
 
 ---
 
@@ -61,6 +62,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>requirement  - a `resolvable` value that will be checked.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `requirement` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will require that all items in the requirement are not `nil` and completed.</li><li>This is most useful with `Given`, allowing retrieval and checking of values before continuing.</li><li>Example:</li><li></li><li>```lua</li><li>Given(</li><li>    Require(someObservable):Is(2):OrThrow("Must be 2")</li><li>):Then(function(someValue)</li><li>    -- do stuff with `someValue`</li><li>):Now()</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L16) |
 
 ---
 
@@ -77,6 +80,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L105) |
 
 ---
 
@@ -91,6 +96,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L170) |
 
 ---
 
@@ -105,6 +112,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L87) |
 
 ---
 
@@ -119,6 +128,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must not match.</li></ul> |
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L152) |
 
 ---
 
@@ -133,6 +144,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must not match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>Require(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L217) |
 
 ---
 
@@ -147,6 +160,8 @@ and if not, it will send an error.
 | **Parameters**                              | <ul><li>message  - The string to throw when there is an error.</li></ul> |
 | **Returns**                                 | <ul><li>The `OrThrow` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L63) |
 
 ---
 

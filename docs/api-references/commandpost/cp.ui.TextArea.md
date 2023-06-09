@@ -36,6 +36,8 @@ UI Text Area.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L21) |
 
 ---
 
@@ -52,6 +54,8 @@ UI Text Area.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `TextArea` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L9) |
 
 ---
 
@@ -66,6 +70,7 @@ UI Text Area.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L34) |
 
 ---
 
@@ -82,6 +87,8 @@ UI Text Area.
 | **Parameters**                              | <ul><li>moreText - The text to add.</li></ul> |
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L55) |
 
 ---
 
@@ -96,6 +103,8 @@ UI Text Area.
 | **Parameters**                              | <ul><li>moreText - The text to add.</li></ul> |
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/TextArea.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/TextArea.lua#L70) |
 
 ---
 

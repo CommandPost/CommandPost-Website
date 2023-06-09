@@ -48,6 +48,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Roles' section.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L26) |
 
 ---
 
@@ -60,6 +61,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesArea](cp.apple.finalcutpro.timeline.IndexRolesArea.md) containing the list of [Role](cp.apple.finalcutpro.timeline.Role.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L47) |
 
 ---
 
@@ -72,6 +74,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Collapse Subroles` [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L94) |
 
 ---
 
@@ -84,6 +87,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Edit Roles...` [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L65) |
 
 ---
 
@@ -96,6 +100,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Hide Audio Lanes` [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L85) |
 
 ---
 
@@ -108,6 +113,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) for the roles.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L58) |
 
 ---
 
@@ -120,6 +126,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Show Audio Lanes` [Button](cp.ui.Button.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L76) |
 
 ---
 
@@ -136,6 +143,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 206](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L206) |
 
 ---
 
@@ -150,6 +159,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L232) |
 
 ---
 
@@ -164,6 +175,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L245) |
 
 ---
 
@@ -178,6 +191,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L274) |
 
 ---
 
@@ -192,6 +207,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L135) |
 
 ---
 
@@ -206,6 +223,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L294) |
 
 ---
 
@@ -220,6 +239,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 323](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L323) |
 
 ---
 
@@ -234,6 +255,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L150) |
 
 ---
 
@@ -248,6 +271,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L383) |
 
 ---
 
@@ -262,6 +287,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L183) |
 
 ---
 
@@ -276,6 +303,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L120) |
 
 ---
 
@@ -290,6 +319,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 363](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L363) |
 
 ---
 
@@ -304,6 +335,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 343](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L343) |
 
 ---
 
@@ -318,6 +351,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>title - The title to match.</li></ul> |
 | **Returns**                                 | <ul><li>The [Role](cp.apple.finalcutpro.timeline.Role.md) with the title, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 258](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L258) |
 
 ---
 
@@ -332,6 +367,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 166](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L166) |
 
 ---
 
@@ -346,6 +383,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRoles.lua#L219) |
 
 ---
 

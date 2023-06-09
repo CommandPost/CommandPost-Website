@@ -24,6 +24,7 @@ FCPXML Panel for the Final Cut Pro HUD.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last value in FCPXML HUD.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/fcpxml/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/fcpxml/init.lua#L24) |
 
 ---
 

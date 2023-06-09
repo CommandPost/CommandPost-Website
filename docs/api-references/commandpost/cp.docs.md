@@ -35,6 +35,8 @@ require("cp.docs").generate()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L24) |
 
 ---
 
@@ -49,6 +51,8 @@ require("cp.docs").generate()
 | **Parameters**                              | <ul><li>folder - The folder you want to process (i.e. "cp", "plugins" or "hs").</li></ul> |
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L130) |
 
 ---
 
@@ -63,6 +67,8 @@ require("cp.docs").generate()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/docs/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/docs/init.lua#L53) |
 
 ---
 

@@ -34,6 +34,8 @@ Prowl Notifications Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L89) |
 
 ---
 
@@ -48,6 +50,8 @@ Prowl Notifications Plugin.
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li><li>[title] - An optional Title for the message as a string.</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L103) |
 
 ---
 
@@ -62,6 +66,8 @@ Prowl Notifications Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L64) |
 
 ---
 
@@ -76,6 +82,8 @@ Prowl Notifications Plugin.
 | **Parameters**                              | <ul><li>key - The API key as string</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L25) |
 
 ---
 
@@ -90,6 +98,7 @@ Prowl Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Prowl API Key                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L59) |
 
 ---
 
@@ -102,6 +111,7 @@ Prowl Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API key has been validated.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L20) |
 
 ---
 
@@ -114,6 +124,7 @@ Prowl Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/prowl.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/prowl.lua#L54) |
 
 ---
 

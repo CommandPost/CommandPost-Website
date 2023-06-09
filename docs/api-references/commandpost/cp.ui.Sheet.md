@@ -44,6 +44,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L16) |
 
 ---
 
@@ -60,6 +62,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder     - The UI, either a `cp.prop` or a `function`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L29) |
 
 ---
 
@@ -74,6 +78,7 @@ Sheet UI Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The cancel [Button](cp.ui.Button.md) for the `Sheet`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L57) |
 
 ---
 
@@ -86,6 +91,7 @@ Sheet UI Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The default [Button](cp.ui.Button.md) for the `Sheet`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L50) |
 
 ---
 
@@ -98,6 +104,7 @@ Sheet UI Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the title of the sheet.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L43) |
 
 ---
 
@@ -114,6 +121,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>textPattern   - The text pattern to check.</li><li>plain         - If `true`, the text will be compared exactly, otherwise it will be considered to be a pattern. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if an element's `AXValue` matches the text pattern exactly.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L171) |
 
 ---
 
@@ -128,6 +137,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L94) |
 
 ---
 
@@ -142,6 +153,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L107) |
 
 ---
 
@@ -156,6 +169,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute, resolving to `true` if the button was present and clicked, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L77) |
 
 ---
 
@@ -170,6 +185,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>buttonFromLeft    - The number of the button from left-to-right.</li></ul> |
 | **Returns**                                 | <ul><li>a [Statement](cp.rx.go.Statement.md) to execute, resolving in `true` if the button was found and pressed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L120) |
 
 ---
 
@@ -184,6 +201,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L64) |
 
 ---
 
@@ -198,6 +217,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Sheet` object.</li><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L141) |
 
 ---
 
@@ -212,6 +233,8 @@ Sheet UI Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Sheet` object.</li><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Sheet.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Sheet.lua#L156) |
 
 ---
 

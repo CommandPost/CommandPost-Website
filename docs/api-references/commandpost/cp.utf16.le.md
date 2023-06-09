@@ -31,6 +31,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`...`		- The list of UCL codepoint integers to convert.</li></ul> |
 | **Returns**                                 | <ul><li>All the codepoints converted to UTF-16, concatonated into a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/le.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/le.lua#L10) |
 
 ---
 
@@ -45,6 +47,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`s`				- The string</li><li>`i`				- The starting index. Defaults to `1`.</li><li>`j`				- The ending index. Defaults to `i`.</li></ul> |
 | **Returns**                                 | <ul><li>a list of codepoint integers for all characters in the matching range.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/le.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/le.lua#L21) |
 
 ---
 
@@ -59,6 +63,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`s`				- The string to iterate through.</li></ul> |
 | **Returns**                                 | <ul><li>An iterator</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>     for p, c in utf16.codes(s) do body end</li><li>```</li><li></li><li>will iterate over all characters in string `s`, with `p` being the position (in bytes) and `c` the code point of each character. It raises an error if it meets any invalid byte sequence.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/le.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/le.lua#L34) |
 
 ---
 
@@ -73,6 +79,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`bigEndian`		- If true, the string is 'big-endian'.</li><li>`s`				- The UTF-16 string</li><li>`i`				- The starting index. Defaults to `1`.</li><li>`j`				- The ending index. Defaults to `-1`.</li></ul> |
 | **Returns**                                 | <ul><li>the length, or `false` and the first invalid byte index.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/init.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/init.lua#L186) |
 
 ---
 
@@ -87,6 +95,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`s`				- The UTF-16 string</li><li>`i`				- The starting index. Defaults to `1`.</li><li>`j`				- The ending index. Defaults to `-1`.</li></ul> |
 | **Returns**                                 | <ul><li>the length, or `false` and the first invalid byte index.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/le.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/le.lua#L53) |
 
 ---
 
@@ -101,6 +111,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 | **Parameters**                              | <ul><li>`s`				- The string</li><li>`n`				- The character number to find.</li><li>`i`				- The initial position to start from.</li></ul> |
 | **Returns**                                 | <ul><li>The index</li></ul>          |
 | **Notes**                                   | <ul><li>As a special case, when `n` is 0 the function returns the start of the encoding of the character that contains the `i`-th byte of `s`.</li><li>This function assumes that `s` is a valid UTF-16 string</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/utf16/le.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/utf16/le.lua#L66) |
 
 ---
 

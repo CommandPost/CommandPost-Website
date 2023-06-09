@@ -32,6 +32,8 @@ Done()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will complete immediately.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Done.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Done.lua#L14) |
 
 ---
 

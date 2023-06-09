@@ -119,6 +119,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the button names used.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 93](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L93) |
 
 ---
 
@@ -131,6 +132,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the supported device types.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 85](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L85) |
 
 ---
 
@@ -143,6 +145,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the jog mode names used by each device type.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 223](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L223) |
 
 ---
 
@@ -155,6 +158,7 @@ limitations under the License.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the LED names used by each device type.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/blackmagic/blackmagic.lua line 189](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L189) |
 
 ---
 
@@ -173,6 +177,8 @@ limitations under the License.
   An `hs.blackmagic` object, being the device that was connected/disconnected.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 53](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L53) |
 
 ---
 
@@ -187,6 +193,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>num - A number that should be within the bounds of the number of connected devices.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.blackmagic` object or `nil` if something goes wrong.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 94](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L94) |
 
 ---
 
@@ -203,6 +211,8 @@ limitations under the License.
   An `hs.blackmagic` object, being the device that was connected/disconnected.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 27](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L27) |
 
 ---
 
@@ -217,6 +227,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the number of Blackmagic devices attached to the system.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 77](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L77) |
 
 ---
 
@@ -233,6 +245,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if charging, otherwise `false`</li><li>The battery level between 0 and 100.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 183](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L183) |
 
 ---
 
@@ -247,6 +261,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>fn - A function to be called when a button is pressed/released, or the jog wheel is rotated on the Blackmagic device.</li></ul> |
 | **Returns**                                 | <ul><li>The hs.blackmagic device</li><li>The callback function should receive three arguments:</li><li> The `hs.blackmagic` userdata object</li><li> A string containing the name of the button or "JOG WHEEL"</li><li> A boolean indicating whether the button was pressed (true) or released (false). Not relevant if a Jog Wheel action.</li><li> The Jog Wheel Mode (if not a button press)</li><li> The Jog Wheel value (if not a button press)</li><li>You can use `hs.blackmagic.buttonNames[deviceType]` to get a table of possible values.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 125](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L125) |
 
 ---
 
@@ -261,6 +277,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The device type as a string - either "Speed Editor" or "Editor Keyboard".</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L235) |
 
 ---
 
@@ -275,6 +293,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>value - an optional string of "RELATIVE", "ABSOLUTE" and "ABSOLUTE ZERO" if setting.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.blackmagic` device</li><li>"RELATIVE", "ABSOLUTE" and "ABSOLUTE ZERO" as a string, or `nil` if something has gone wrong.</li></ul>          |
 | **Notes**                                   | <ul><li>You can use `hs.blackmagic.jogModeNames[deviceType]` to get a table of possible values.</li><li>"RELATIVE" - Returns a “relative” position - a positive number if turning right, and a negative number if turning left. The faster you turn, the higher the number. One step is 360.</li><li>"ABSOLUTE" - Returns an “absolute” position, based on when the mode was set. It has a range of -4096 (left of 0) to 4096 (right of 0). On the Editor Keyboard it has mechanical hard stops at -4096 and 4096, meaning you only use one half of the wheel.</li><li>"ABSOLUTE ZERO" - The same as "ABSOLUTE", but has a small dead zone around 0 - which mechincally "snaps" to zero on a Editor Keyboard.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 257](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L257) |
 
 ---
 
@@ -289,6 +309,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>options - A table where the key is the button ID, and the value is a boolean to turn the LED on or off.</li></ul> |
 | **Returns**                                 | <ul><li>The hs.blackmagic device.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use `hs.blackmagic.ledNames[deviceType]` to get a table of possible values.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 156](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L156) |
 
 ---
 
@@ -303,6 +325,8 @@ limitations under the License.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The serial number as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>The serial number is the unique identifier from the USB Device, and not the product serial number that's on the sticker on the back of the Blackmagic device.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/blackmagic/libblackmagic.m line 210](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L210) |
 
 ---
 

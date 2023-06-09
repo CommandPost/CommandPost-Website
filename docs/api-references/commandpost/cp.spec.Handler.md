@@ -44,6 +44,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>handler - (optional) when provided, sets the default to the specified handler.</li></ul> |
 | **Returns**                                 | <ul><li>The current `Handler` implementation.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L16) |
 
 ---
 
@@ -60,6 +62,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L36) |
 
 ---
 
@@ -76,6 +80,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run - The test run.</li><li>msg - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L119) |
 
 ---
 
@@ -90,6 +96,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L61) |
 
 ---
 
@@ -104,6 +112,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L107) |
 
 ---
 
@@ -118,6 +128,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L143) |
 
 ---
 
@@ -132,6 +144,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L96) |
 
 ---
 
@@ -146,6 +160,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L74) |
 
 ---
 
@@ -160,6 +176,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L85) |
 
 ---
 
@@ -174,6 +192,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run  - The test run.</li><li>report - The test reports.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L155) |
 
 ---
 
@@ -188,6 +208,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>isVerbose - (optional) If set to `false`, the handler will not be verbose. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The `Handler` instance, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L47) |
 
 ---
 
@@ -202,6 +224,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>timeout  - The timeout, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Handler.lua#L131) |
 
 ---
 

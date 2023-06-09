@@ -143,6 +143,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default windowfilter; it filters apps whose windows are transient in nature so that you're unlikely (and often                                                                     |
 | **Notes**                                   | <ul><li>While you can customize the default windowfilter, it's usually advisable to make your customizations on a local copy via `mywf=hs.window.filter.new()`;</li><li>   the default windowfilter can potentially be used in several Hammerspoon modules and changing it might have unintended consequences.</li><li>   Common customizations:</li><li>  to exclude fullscreen windows: `nofs_wf=hs.window.filter.new():setOverrideFilter{fullscreen=false}`</li><li>  to include invisible windows: `inv_wf=windowfilter.new():setDefaultFilter{}`</li><li>If you still want to alter the default windowfilter:</li><li>  you should probably apply your customizations at the top of your `init.lua`, or at any rate before instantiating any other windowfilter; this</li><li>     way copies created via `hs.window.filter.new(nil,...)` will inherit your modifications</li><li>  to list the known exclusions: `hs.inspect(hs.window.filter.default:getFilters())` from the console</li><li>  to add an exclusion: `hs.window.filter.default:rejectApp'Cool New Launcher'`</li><li>  to add an app-specific rule: `hs.window.filter.default:setAppFilter('My IDE',1)`; ignore tooltips/code completion (empty title) in My IDE</li><li>  to remove an exclusion (e.g. if you want to have access to Spotlight windows): `hs.window.filter.default:allowApp'Spotlight'`;</li><li>     for specialized uses you can make a specific windowfilter with `myfilter=hs.window.filter.new'Spotlight'`</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 742](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L742) |
 
 ---
 
@@ -155,6 +156,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A copy of the default windowfilter (see `hs.window.filter.default`) that only allows windows in the current                                                                     |
 | **Notes**                                   | <ul><li>This windowfilter will inherit customizations to the default windowfilter if they're performed *before* referencing this</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 763](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L763) |
 
 ---
 
@@ -167,6 +169,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pseudo-event for `hs.window.filter:subscribe()`: the windowfilter now rejects all windows                                                                     |
 | **Notes**                                   | <ul><li>callbacks for this event will receive (as the first argument) the last window that was allowed (and is now rejected)</li><li>this pseudo-event won't trigger again until after the windowfilter allows at least one window</li><li>this pseudo-event will be emitted *after* the *actual* event(s) (e.g. `windowDestroyed`) that caused the window to be rejected</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 915](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L915) |
 
 ---
 
@@ -179,6 +182,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pseudo-event for `hs.window.filter:subscribe()`: the windowfilter now allows one window                                                                     |
 | **Notes**                                   | <ul><li>callbacks for this event will receive (as the first argument) the window that is now allowed</li><li>this pseudo-event won't trigger again until after the windowfilter reverts to rejecting all windows</li><li>this pseudo-event will be emitted *after* the *actual* event(s) (e.g. `windowCreated`) that caused a window to be allowed</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 906](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L906) |
 
 ---
 
@@ -191,6 +195,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sort order for `hs.window.filter:getWindows()`: windows are sorted in order of creation, oldest first (see also `hs.window.filter:setSortOrder()`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 1759](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1759) |
 
 ---
 
@@ -203,6 +208,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sort order for `hs.window.filter:getWindows()`: windows are sorted in order of creation, newest first (see also `hs.window.filter:setSortOrder()`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 1755](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1755) |
 
 ---
 
@@ -215,6 +221,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sort order for `hs.window.filter:getWindows()`: windows are sorted in order of focus received, least recently first (see also `hs.window.filter:setSortOrder()`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 1751](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1751) |
 
 ---
 
@@ -227,6 +234,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sort order for `hs.window.filter:getWindows()`: windows are sorted in order of focus received, most recently first (see also `hs.window.filter:setSortOrder()`)                                                                     |
 | **Notes**                                   | <ul><li> This is the default sort order for all windowfilters</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1744](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1744) |
 
 ---
 
@@ -239,6 +247,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pseudo-event for `hs.window.filter:subscribe()`: a previously rejected window (or a newly created one) is now allowed                                                                     |
 | **Notes**                                   | <ul><li>this pseudo-event will be emitted *before* the *actual* event(s) (e.g. `windowCreated`) that caused the window to be allowed</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 892](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L892) |
 
 ---
 
@@ -251,6 +260,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a new window was created                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 814](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L814) |
 
 ---
 
@@ -263,6 +273,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was destroyed                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 818](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L818) |
 
 ---
 
@@ -275,6 +286,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window received focus                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 880](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L880) |
 
 ---
 
@@ -287,6 +299,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was expanded to fullscreen                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 826](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L826) |
 
 ---
 
@@ -299,6 +312,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was hidden (its app was hidden, e.g. via `cmd-h`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 846](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L846) |
 
 ---
 
@@ -311,6 +325,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window is now in the current Mission Control Space, due to                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 860](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L860) |
 
 ---
 
@@ -323,6 +338,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was minimized                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 834](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L834) |
 
 ---
 
@@ -335,6 +351,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was moved or resized, including toggling fullscreen/maximize                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 822](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L822) |
 
 ---
 
@@ -347,6 +364,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window that used to be in the current Mission Control Space isn't anymore,                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 865](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L865) |
 
 ---
 
@@ -359,6 +377,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window is no longer *actually* visible on any screen because it was minimized, closed,                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 875](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L875) |
 
 ---
 
@@ -371,6 +390,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window is no longer "visible" (in *any* Mission Control Space, as per `hs.window:isVisible()`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 855](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L855) |
 
 ---
 
@@ -383,6 +403,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window became *actually* visible on screen (i.e. it's "visible" as per `hs.window:isVisible()`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 870](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L870) |
 
 ---
 
@@ -395,6 +416,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pseudo-event for `hs.window.filter:subscribe()`: a previously allowed window (or a window that's been destroyed) is now rejected                                                                     |
 | **Notes**                                   | <ul><li>this pseudo-event will be emitted *after* the *actual* event(s) (e.g. `windowDestroyed`) that caused the window to be rejected</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 899](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L899) |
 
 ---
 
@@ -407,6 +429,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Pseudo-event for `hs.window.filter:subscribe()`: the list of allowed windows (as per `windowfilter:getWindows()`) has changed                                                                     |
 | **Notes**                                   | <ul><li>callbacks for this event will receive (as the first argument) either a random window among the currently allowed ones,</li><li>   or nil if the windowfilter is rejecting all windows</li><li>similarly, the second argument passed to callbacks (window's app name) will be nil if the windowfilter is rejecting all windows</li><li>this pseudo-event will be emitted *after* the *actual* event(s) that caused the list of allowed windows to change</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 924](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L924) |
 
 ---
 
@@ -419,6 +442,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window's title changed                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 888](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L888) |
 
 ---
 
@@ -431,6 +455,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window lost focus                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 884](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L884) |
 
 ---
 
@@ -443,6 +468,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was reverted back from fullscreen                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 830](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L830) |
 
 ---
 
@@ -455,6 +481,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was unhidden (its app was unhidden, e.g. via `cmd-h`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 842](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L842) |
 
 ---
 
@@ -467,6 +494,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window was unminimized                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 838](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L838) |
 
 ---
 
@@ -479,6 +507,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event for `hs.window.filter:subscribe()`: a window became "visible" (in *any* Mission Control Space, as per `hs.window:isVisible()`)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_filter.lua line 850](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L850) |
 
 ---
 
@@ -493,6 +522,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table for window roles (as per `hs.window:subrole()`) that are allowed by default.                                                                     |
 | **Notes**                                   | <ul><li>You can have fine grained control of allowed window roles via the `setAppFilter`, `setDefaultFilter`, `setOverrideFilter` methods.</li><li>If you know what you're doing you can override the allowed window roles globally by changing this variable, but this is discouraged.</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 179](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L179) |
 
 ---
 
@@ -505,6 +535,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tells all windowfilters whether to refresh all windows when the user switches to a different Mission Control Space.                                                                     |
 | **Notes**                                   | <ul><li>If you defined one or more Spaces-aware windowfilters (i.e. when the `currentSpace` field of a filter is present), windows need refreshing at every space change anyway, so this variable is ignored</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1510](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1510) |
 
 ---
 
@@ -517,6 +548,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of application names (as per `hs.application:name()`) that are always ignored by this module.                                                                     |
 | **Notes**                                   | <ul><li>As the name implies, even the empty, "allow all" windowfilter will ignore these apps.</li><li>You don't *need* to keep this table up to date, since non GUI apps will simply never show up anywhere; this table is just used as a "root" filter to gain a (very small) performance improvement.</li></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 103](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L103) |
 
 ---
 
@@ -533,6 +565,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.filter.defaultCurrentSpace:focusWindowEast(nil,nil,true)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2241](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2241) |
 
 ---
 
@@ -547,6 +581,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.filter.defaultCurrentSpace:focusWindowNorth(nil,nil,true)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2280](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2280) |
 
 ---
 
@@ -561,6 +597,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.filter.defaultCurrentSpace:focusWindowSouth(nil,nil,true)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2267](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2267) |
 
 ---
 
@@ -575,6 +613,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.filter.defaultCurrentSpace:focusWindowWest(nil,nil,true)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2254](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2254) |
 
 ---
 
@@ -589,6 +629,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>appname - name of the app to check as per `hs.application:name()`</li></ul> |
 | **Returns**                                 | <ul><li>`false` if the app is a known non-GUI (or not accessible) app; `true` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 771](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L771) |
 
 ---
 
@@ -603,6 +645,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>space - the Space number the user is switching to</li></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul><li>Only use this function if "Displays have separate Spaces" and "Automatically rearrange Spaces" are OFF in System Preferences>Mission Control</li><li>Calling this function will set `hs.window.filter.forceRefreshOnSpaceChange` to `false`</li><li>If you defined one or more Spaces-aware windowfilters (i.e. when the `currentSpace` field of a filter is present), windows need refreshing at every space change anyway, so using this callback will not result in improved performance</li><li>See `hs.window.filter.forceRefreshOnSpaceChange` for an overview of Spaces limitations in Hammerspoon. If you often (or always) change Space via the "numbered" Mission Control keyboard shortcuts (by default, `ctrl-1` etc.), you can call this function from your `init.lua` when intercepting these shortcuts; for example:</li><li> ```</li><li> hs.hotkey.bind('ctrl','1',nil,function()hs.window.filter.switchedToSpace(1)end)</li><li> hs.hotkey.bind('ctrl','2',nil,function()hs.window.filter.switchedToSpace(2)end)</li><li> -- etc.</li><li> ```</li><li>* Using this callback results in slightly better performance than setting `forceRefreshOnSpaceChange` to `true`, since already visited Spaces are remembered and no refreshing is necessary when switching back to those.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1471](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1471) |
 
 ---
 
@@ -619,6 +663,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>windowfilter - an `hs.window.filter` object to copy</li><li>logname - (optional) name of the `hs.logger` instance for the new windowfilter; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the `hs.logger` instance for the new windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.window.filter` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 724](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L724) |
 
 ---
 
@@ -639,6 +685,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
   otherwise it must be a function that accepts an `hs.window` object and returns `true` if the window is allowed or `false` otherwise; this way you can define a fully custom windowfilter</li><li>logname - (optional) name of the `hs.logger` instance for the new windowfilter; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the `hs.logger` instance for the new windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>a new windowfilter instance</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 672](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L672) |
 
 ---
 
@@ -655,6 +703,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>appname - app name as per `hs.application:name()`</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>this is just a convenience wrapper for `windowfilter:setAppFilter(appname,{visible=true})`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 342](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L342) |
 
 ---
 
@@ -669,6 +719,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true focuses the nearest window that isn't occluded by any other window in this windowfilter</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the eastward axis</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.focusWindowEast(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2173) |
 
 ---
 
@@ -683,6 +735,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true focuses the nearest window that isn't occluded by any other window in this windowfilter</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the southward axis</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.focusWindowNorth(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2223](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2223) |
 
 ---
 
@@ -697,6 +751,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true focuses the nearest window that isn't occluded by any other window in this windowfilter</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the northward axis</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.focusWindowSouth(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2206](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2206) |
 
 ---
 
@@ -711,6 +767,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true focuses the nearest window that isn't occluded by any other window in this windowfilter</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the westward axis</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that performs `hs.window.focusWindowWest(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2190](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2190) |
 
 ---
 
@@ -725,6 +783,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the filtering rules of this windowfilter; you can pass this table (optionally</li><li> after performing valid manipulations) to `hs.window.filter:setFilters()` and `hs.window.filter.new()`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 641](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L641) |
 
 ---
 
@@ -739,6 +799,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>sortOrder - (optional) one of the `hs.window.filter.sortBy...` constants to determine the sort order of the returned list; if omitted, uses the windowfilter's sort order as per `hs.window.filter:setSortOrder()` (defaults to `sortByFocusedLast`)</li></ul> |
 | **Returns**                                 | <ul><li>a list of `hs.window` objects</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1813](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1813) |
 
 ---
 
@@ -753,6 +815,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>appname - app name as per `hs.application:name()`</li></ul> |
 | **Returns**                                 | <ul><li>`false` if the app is rejected by the windowfilter; `true` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 312](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L312) |
 
 ---
 
@@ -767,6 +831,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - an `hs.window` object to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the window is allowed by the windowfilter, `false` otherwise; `nil` if an invalid object was passed</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L192) |
 
 ---
 
@@ -781,6 +847,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2042](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2042) |
 
 ---
 
@@ -795,6 +863,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>appname - app name as per `hs.application:name()`</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>this is just a convenience wrapper for `windowfilter:setAppFilter(appname,false)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 326](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L326) |
 
 ---
 
@@ -809,6 +879,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2027](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2027) |
 
 ---
 
@@ -836,6 +908,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
   allowRolesif a string or table of strings, only allow these window roles as per `hs.window:subrole()`if the special string `'*'`, this rule is ignored (i.e. all window roles, including empty ones, are allowed)if omitted, use the default allowed roles (defined in `hs.window.filter.allowedWindowRoles`)</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>Passing `focused=true` in `filter` will (naturally) result in the windowfilter ever allowing 1 window at most</li><li>If you want to allow *all* windows for an app, including invisible ones, pass an empty table for `filter`</li><li>Spaces-aware windowfilters might experience a (sometimes significant) delay after every Space switch, since (due to OS X limitations) they must re-query for the list of all windows in the current Space every time.</li><li>If System Preferences>Mission Control>Displays have separate Spaces is *on*, the *current Space* is defined as the union of all the Spaces that are currently visible</li><li>This table explains the effects of different combinations of `visible` and `currentSpace`, showing which windows will be allowed:</li><li>```</li><li>             |visible=         nil                      |             true             |     false    |</li><li>|currentSpace|------------------------------------------|------------------------------|--------------|</li><li>|     nil    |all                                       |visible in ANY space          |min and hidden|</li><li>|    true    |visible in CURRENT space+min and hidden   |visible in CURRENT space      |min and hidden|</li><li>|    false   |visible in OTHER space only+min and hidden|visible in OTHER space only   |none          |</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 440](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L440) |
 
 ---
 
@@ -850,6 +924,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>val - boolean; if `true`, only allow windows in the current Mission Control Space, plus minimized and hidden windows; if `false`, reject them; if `nil`, ignore Mission Control Spaces</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This is just a convenience wrapper for setting the `currentSpace` field in the `override` filter (other</li><li>   fields will be left untouched); per-app filters will maintain their `currentSpace` field, if present, as is</li><li>Spaces-aware windowfilters might experience a (sometimes significant) delay after every Space switch, since</li><li>   (due to OS X limitations) they must re-query for the list of all windows in the current Space every time.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 381](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L381) |
 
 ---
 
@@ -864,6 +940,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>filter - see `hs.window.filter:setAppFilter`</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 357](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L357) |
 
 ---
 
@@ -878,6 +956,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>filters - table, every element will set an application filter; these elements must: - have a *key* of type string, denoting an application name as per `hs.application:name()` - if the *value* is a boolean, the app will be allowed or rejected accordingly - see `hs.window.filter:allowApp()` and `hs.window.filter:rejectApp()` - if the *value* is a table, it must contain the accept/reject rules for the app *as key/value pairs*; valid keys and values are described in `hs.window.filter:setAppFilter()` - the key can be one of the special strings `"default"` and `"override"`, which will set the default and override filter respectively - the key can be the special string `"sortOrder"`; the value must be one of the `sortBy...` constants as per `hs.window.filter:setSortOrder()`</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>every filter definition in `filters` will overwrite the preexisting one for the relevant application, if present;</li><li>   this also applies to the special default and override filters, if included</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 601](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L601) |
 
 ---
 
@@ -892,6 +972,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>filter - see `hs.window.filter:setAppFilter`</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 369](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L369) |
 
 ---
 
@@ -906,6 +988,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>regions - an `hs.geometry` rect or constructor argument, or a list of them, indicating the allowed region(s) for this windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This is just a convenience wrapper for setting the `allowRegions` field in the `override` filter (other fields will be left untouched); per-app filters will maintain their `allowRegions` and `rejectRegions` fields, if present</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 403](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L403) |
 
 ---
 
@@ -920,6 +1004,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>regions - a valid argument for `hs.screen.find()`, or a list of them, indicating the allowed screen(s) for this windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>This is just a convenience wrapper for setting the `allowScreens` field in the `override` filter (other</li><li>   fields will be left untouched); per-app filters will maintain their `allowScreens` and `rejectScreens` fields, if present</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 421](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L421) |
 
 ---
 
@@ -934,6 +1020,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>sortOrder - one of the `hs.window.filter.sortBy...` constants</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li> The default sort order for all windowfilters (that is, until changed by this method) is `hs.window.filter.sortByFocusedLast`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1773](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1773) |
 
 ---
 
@@ -951,6 +1039,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
   a string containing the event that caused the callback, i.e. (one of) the event(s) you subscribed to</li><li>immediate - (optional) if `true`, also call all the callbacks immediately for windows that satisfy the event(s) criteria</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>Passing lists means that *all* the `fn`s will be called when *any* of the `event`s fires, so it's *not* a shortcut for subscribing distinct callbacks to distinct events; use a map or chained `:subscribe` calls for that.</li><li>Use caution with `immediate`: if for example you're subscribing to `hs.window.filter.windowUnfocused`, `fn`(s) will be called for *all* the windows except the currently focused one.</li><li>If the windowfilter was paused with `hs.window.filter:pause()`, calling this will resume it.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1867](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1867) |
 
 ---
 
@@ -965,6 +1055,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>event - string or list of strings, the event(s) to unsubscribe; if omitted, `fn`(s) will be unsubscribed from all events; alternatively, this can be a map `{event1=fn1,event2=fn2,...}`: fnN will be unsubscribed from eventN, and the parameter `fn` will be ignored</li><li>fn - function or list of functions, the callback(s) to remove; if omitted, all callbacks will be unsubscribed from `event`(s)</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>You must pass at least one of `event` or `fn`</li><li>If calling this on the default (or any other shared use) windowfilter, do not pass events, as that would remove</li><li>   *all* the callbacks for the events including ones subscribed elsewhere that you might not be aware of. You should</li><li>   instead keep references to your functions and pass in those.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 1944](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1944) |
 
 ---
 
@@ -979,6 +1071,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.filter` object for method chaining</li></ul>          |
 | **Notes**                                   | <ul><li>You should not use this on the default windowfilter or other shared-use windowfilters</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2008](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2008) |
 
 ---
 
@@ -993,6 +1087,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true unoccluded windows will be placed before occluded ones in the result list</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the eastward axis</li></ul> |
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned east (i.e. right) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that returns `hs.window.windowsToEast(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call (or just use</li><li>   `hs.window.filter.defaultCurrentSpace`)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2102](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2102) |
 
 ---
 
@@ -1007,6 +1103,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true unoccluded windows will be placed before occluded ones in the result list</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the northward axis</li></ul> |
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned north (i.e. up) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that returns `hs.window.windowsToNorth(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call (or just use</li><li>   `hs.window.filter.defaultCurrentSpace`)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2136](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2136) |
 
 ---
 
@@ -1021,6 +1119,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true unoccluded windows will be placed before occluded ones in the result list</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the southward axis</li></ul> |
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned south (i.e. down) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that returns `hs.window.windowsToSouth(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call (or just use</li><li>   `hs.window.filter.defaultCurrentSpace`)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2154](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2154) |
 
 ---
 
@@ -1035,6 +1135,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 | **Parameters**                              | <ul><li>window - (optional) an `hs.window` object; if nil, `hs.window.frontmostWindow()` will be used</li><li>frontmost - (optional) boolean, if true unoccluded windows will be placed before occluded ones in the result list</li><li>strict - (optional) boolean, if true only consider windows at an angle between 45° and -45° on the westward axis</li></ul> |
 | **Returns**                                 | <ul><li>A list of `hs.window` objects representing all windows positioned west (i.e. left) of the window, in ascending order of distance</li></ul>          |
 | **Notes**                                   | <ul><li>This is a convenience wrapper that returns `hs.window.windowsToWest(window,self:getWindows(),...)`</li><li>You'll likely want to add `:setCurrentSpace(true)` to the windowfilter used for this method call (or just use `hs.window.filter.defaultCurrentSpace`)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_filter.lua line 2120](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2120) |
 
 ---
 

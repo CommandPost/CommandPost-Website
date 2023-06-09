@@ -29,6 +29,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A counter to detect how many times the event tap has been triggered.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L34) |
 
 ---
 
@@ -41,6 +42,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of held down modifier keys.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L29) |
 
 ---
 
@@ -57,6 +59,8 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L39) |
 
 ---
 
@@ -71,6 +75,8 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/shortcuts/actions.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/shortcuts/actions.lua#L53) |
 
 ---
 

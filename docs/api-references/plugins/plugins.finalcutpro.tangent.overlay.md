@@ -27,6 +27,7 @@ Final Cut Pro Tangent Viewer Overlay Group
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro New actions/parameters/etc.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/overlay.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/overlay.lua#L13) |
 
 ---
 
@@ -43,6 +44,8 @@ Final Cut Pro Tangent Viewer Overlay Group
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/overlay.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/overlay.lua#L18) |
 
 ---
 

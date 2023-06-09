@@ -49,6 +49,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>thing     - the thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `languageID`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L32) |
 
 ---
 
@@ -63,6 +65,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>code - The `language ID` code. Eg. "en-AU".</li></ul> |
 | **Returns**                                 | <ul><li>language - The two-character lower-case alpha language code.</li><li>script - the four-character mixed-case alpha script code.</li><li>region - The two-character upper-case alpha region code.</li></ul>          |
 | **Notes**                                   | <ul><li>Parses a `language ID` into three possible string components:</li><li>  ** The ISO 693-1 language code</li><li>  ** The ISO 15924 script code</li><li>  ** The ISO 3166-1 region code</li><li>This is one of the following patterns:</li><li>  ** `[language]` - eg. `"en"`, or `"fr"`. The covers the language across all languages and scripts.</li><li>  ** `[language]-[script]` - eg. "az-Arab" for Azerbaijani in Arabic script, "az-Latn" for Azerbaijani in Latin script.</li><li>  ** `[language]-[region]` - eg. "en-AU" for Australian English, "fr-CA" for Canadian French, etc.</li><li>It will then return the matched component in three return values: language, script, region.</li><li>If a script is specified, the `region` will be `nil`. Eg.:</li><li></li><li>```lua</li><li>local lang, scrpt, rgn, scrpt = languageID.parse("en-AU") -- results in "en", nil, "AU"</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L45) |
 
 ---
 
@@ -79,6 +83,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>code      - The language ID code.</li></ul> |
 | **Returns**                                 | <ul><li>The matching `languageID`, or `nil` if the language ID couldn't be found.</li><li>The error message, or `nil` if there was no problem.</li></ul>          |
 | **Notes**                                   | <ul><li>If the code can't be parsed, or if the actual language/region/script codes don't exist, `nil` is returned.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L148) |
 
 ---
 
@@ -93,6 +99,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>locale            - The `localeID` to convert</li><li>prioritiseScript  - If set to `true` and the locale has both a region and script then the script code will be used.</li></ul> |
 | **Returns**                                 | <ul><li>The `languageID` for the `locale`, or `nil`</li><li>The error message if there was a problem.</li></ul>          |
 | **Notes**                                   | <ul><li>Language IDs can only have either a script or a region, so if the locale has both, this will priortise the `region` by default. You can set `prioritiseScript` to `true` to use script instead.</li><li>If only one or the other is set in the locale, `prioritiseScript` is ignored.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L165) |
 
 ---
 
@@ -107,6 +115,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>languageCode - Language code</li><li>scriptCode - Optional Script code</li><li>regionCode - Optional Region Code</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.i18n.languageID` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L84) |
 
 ---
 
@@ -121,6 +131,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The language ID code.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L217) |
 
 ---
 
@@ -133,6 +144,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `language` details.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 221](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L221) |
 
 ---
 
@@ -145,6 +157,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `region` details, if appropriate. Will be `nil` if no region was specified in the `code`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L225) |
 
 ---
 
@@ -157,6 +170,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The matching `script` details, if appropriate. Will be `nil` if no script was specified in the `code`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L229) |
 
 ---
 
@@ -173,6 +187,8 @@ You can also convert the resulting table back to the code via `tostring`, or the
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The matching `localeID`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/languageID.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L195) |
 
 ---
 

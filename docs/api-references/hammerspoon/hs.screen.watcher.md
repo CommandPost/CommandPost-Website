@@ -36,6 +36,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>The function to be called when a change in the screen layout occurs.  This function should take no arguments.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.screen.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>A screen layout change usually involves a change that is made from the Displays Preferences Panel or when a monitor is attached or removed. It can also be caused by a change in the Dock size or presence.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/screen/libscreen_watcher.m line 75](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen_watcher.m#L75) |
 
 ---
 
@@ -50,6 +52,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>The function to be called when a change in the screen layout or active screen occurs.  This function can optionally take one argument, a boolean which will indicate if the change was due to a screen layout change (nil) or because the active screen changed (true).</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.screen.watcher` object</li></ul>          |
 | **Notes**                                   | <ul><li>A screen layout change usually involves a change that is made from the Displays Preferences Panel or when a monitor is attached or removed. It can also be caused by a change in the Dock size or presence.</li><li>  `nil` was chosen instead of `false` for the argument type when this type of change occurs to more closely match the previous behavior of having no argument passed to the callback function.</li><li>An active screen change indicates that the focused or main screen has changed when the user has "Displays have separate spaces" checked in the Mission Control Preferences Panel (the focused display is the display which has the active window and active menubar).</li><li>  Detecting a change in the active display relies on watching for the `NSWorkspaceActiveDisplayDidChangeNotification` message which is not documented by Apple.  While this message has been around at least since OS X 10.9, because it is undocumented, we cannot be positive that Apple won't remove it in a future OS X update.  Because this watcher works by listening for posted messages, should Apple remove this notification, your callback function will no longer receive messages about this change -- it won't crash or change behavior in any other way.  This documentation will be updated if this status changes.</li><li>Plugging in or unplugging a monitor can cause both a screen layout callback and an active screen change callback.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/screen/libscreen_watcher.m line 109](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen_watcher.m#L109) |
 
 ---
 
@@ -66,6 +70,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.screen.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/screen/libscreen_watcher.m line 137](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen_watcher.m#L137) |
 
 ---
 
@@ -80,6 +86,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.screen.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/screen/libscreen_watcher.m line 166](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen_watcher.m#L166) |
 
 ---
 

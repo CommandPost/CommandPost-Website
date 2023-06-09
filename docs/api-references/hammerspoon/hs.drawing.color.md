@@ -73,6 +73,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This table contains this list of defined color collections provided by the `hs.drawing.color` module.  Collections differ from the system color lists in that you can modify the color values their members contain by modifying the table at `hs.drawing.color.<collection>.<color>` and future references to that color will reflect the new changes, thus allowing you to customize the palettes for your installation.                                                                     |
 | **Notes**                                   | <ul><li>This list is a constant, but the members it refers to are not.</li></ul> |
+| **Source**                                  | [extensions/drawing/color/drawing_color.lua line 361](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L361) |
 
 ---
 
@@ -87,6 +88,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A collection of colors representing the ANSI Terminal color sequences.  The color definitions are based upon code found at https://github.com/balthamos/geektool-3 in the /NerdTool/classes/ANSIEscapeHelper.m file.                                                                     |
 | **Notes**                                   | <ul><li>This is not a constant, so you can adjust the colors at run time for your installation if desired.</li></ul> |
+| **Source**                                  | [extensions/drawing/color/drawing_color.lua line 129](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L129) |
 
 ---
 
@@ -99,6 +101,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | This table contains a collection of various useful pre-defined colors:                                                                     |
 | **Notes**                                   | <ul><li>This is not a constant, so you can adjust the colors at run time for your installation if desired.</li><li></li><li>Previous versions of Hammerspoon included these colors at the `hs.drawing.color` path; for backwards compatibility, the keys of this table are replicated at that path as long as they do not conflict with any other color collection or function within the `hs.drawing.color` module.  You really should adjust your code to use the collection, as this may change in the future.</li></ul> |
+| **Source**                                  | [extensions/drawing/color/drawing_color.lua line 330](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L330) |
 
 ---
 
@@ -111,6 +114,7 @@ Except where specified above to indicate the color model being used, any key whi
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A collection of colors representing the X11 color names as defined at  https://en.wikipedia.org/wiki/Web_colors#X11_color_names (names in lowercase)                                                                     |
 | **Notes**                                   | <ul><li>This is not a constant, so you can adjust the colors at run time for your installation if desired.</li></ul> |
+| **Source**                                  | [extensions/drawing/color/drawing_color.lua line 170](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L170) |
 
 ---
 
@@ -127,6 +131,8 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>color - a table specifying a color as described in the module definition (see `hs.drawing.color` in the online help or Dash documentation)</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the hue, saturation, brightness, and alpha keys representing the specified color as HSB or a string describing the color's colorspace if conversion is not possible.</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.drawing.color.asRGB`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 66](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L66) |
 
 ---
 
@@ -141,6 +147,8 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>color - a table specifying a color as described in the module definition (see `hs.drawing.color` in the online help or Dash documentation)</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the red, blue, green, and alpha keys representing the specified color as RGB or a string describing the color's colorspace if conversion is not possible.</li></ul>          |
 | **Notes**                                   | <ul><li>See also `hs.drawing.color.asHSB`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L34) |
 
 ---
 
@@ -155,6 +163,8 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>list - the name of the list to provide colors for</li></ul> |
 | **Returns**                                 | <ul><li>a table whose keys are made from the colors provided by the color list or nil if the list does not exist.</li></ul>          |
 | **Notes**                                   | <ul><li>Where possible, each color node is provided as its RGB color representation.  Where this is not possible, the color node contains the keys `list` and `name` which identify the indicated color.  This means that you can use the following wherever a color parameter is expected: `hs.drawing.color.colorsFor(list)["color-name"]`</li><li>This function provides a tostring metatable method which allows listing the defined colors in the list in the Hammerspoon console with: `hs.drawing.colorsFor(list)`</li><li>See also `hs.drawing.color.lists`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/drawing/color/drawing_color.lua line 100](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/drawing_color.lua#L100) |
 
 ---
 
@@ -169,6 +179,8 @@ Except where specified above to indicate the color model being used, any key whi
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table whose keys are made from the currently defined system color lists and hs.drawing.color collections.  Each color list key refers to a table whose keys make up the colors provided by the specific color list.</li></ul>          |
 | **Notes**                                   | <ul><li>Where possible, each color node is provided as its RGB color representation.  Where this is not possible, the color node contains the keys `list` and `name` which identify the indicated color.  This means that you can use the following wherever a color parameter is expected: `hs.drawing.color.lists()["list-name"]["color-name"]`</li><li>This function provides a tostring metatable method which allows listing the defined color lists in the Hammerspoon console with: `hs.drawing.color.lists()`</li><li>See also `hs.drawing.color.colorsFor`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/drawing/color/libdrawing_color.m line 8](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/color/libdrawing_color.m#L8) |
 
 ---
 

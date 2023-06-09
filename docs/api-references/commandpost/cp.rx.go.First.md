@@ -28,6 +28,8 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 | **Parameters**                              | <ul><li>resolvable  - a `resolvable` value, of which the first result will be returned.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>First(someObservable)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/First.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/First.lua#L10) |
 
 ---
 

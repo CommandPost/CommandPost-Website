@@ -33,6 +33,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`action`  - A table representing the action</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L110) |
 
 ---
 
@@ -47,6 +49,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L97) |
 
 ---
 
@@ -61,6 +65,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L317) |
 
 ---
 
@@ -75,6 +81,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>actionmanager - The action manager object</li><li>cmds - Final Cut Pro commands manager</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L32) |
 
 ---
 
@@ -89,6 +97,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>`choices` - The optional `cp.choices` to add choices to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L241) |
 
 ---
 
@@ -103,6 +113,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/console/font.lua line 330](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/console/font.lua#L330) |
 
 ---
 
@@ -117,6 +129,8 @@ Registers itself with the `core.action.manager`.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/commands/actions.lua line 150](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/commands/actions.lua#L150) |
 
 ---
 

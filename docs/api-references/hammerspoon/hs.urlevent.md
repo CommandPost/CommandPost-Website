@@ -46,6 +46,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A function that should handle http:// and https:// URL events                                                                     |
 | **Notes**                                   | <ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URL scheme (i.e. "http")</li><li> host - A string containing the host requested (e.g. "www.commandpost.org")</li><li> params - A table containing the key/value pairs of all the URL parameters</li><li> fullURL - A string containing the full, original URL</li><li> senderPID - An integer containing the PID of the application that opened the URL, if available (otherwise -1)</li></ul> |
+| **Source**                                  | [extensions/urlevent/urlevent.lua line 21](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L21) |
 
 ---
 
@@ -58,6 +59,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A function that should handle mailto: URL events                                                                     |
 | **Notes**                                   | <ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URI scheme (i.e. "mailto")</li><li> host - A string containing the host requested (typically nil)</li><li> params - A table containing the key/value pairs of all the URL parameters, typically empty</li><li> fullURL - A string containing the full, original URI</li><li> senderPID - An integer containing the PID of the application that opened the URI, if available (otherwise -1)</li></ul> |
+| **Source**                                  | [extensions/urlevent/urlevent.lua line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L34) |
 
 ---
 
@@ -74,6 +76,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>eventName - A string containing the name of an event</li><li>callback - A function that will be called when the specified event is received, or nil to remove an existing callback</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The callback function should accept two parameters:</li><li> eventName - A string containing the name of the event</li><li> params - A table containing key/value string pairs containing any URL parameters that were specified in the URL</li><li> senderPID - An integer containing the PID of the sending application, if available (otherwise -1)</li><li>Given the URL `commandpost://doThingA?value=1` The event name is `doThingA` and the callback's `params` argument will be a table containing `{["value"] = "1"}`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/urlevent.lua line 88](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L88) |
 
 ---
 
@@ -88,6 +92,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>scheme - A string containing a URL scheme (e.g. 'http')</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the bundle identifiers of all applications that can handle the scheme</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/liburlevent.m line 269](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L269) |
 
 ---
 
@@ -102,6 +108,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>scheme - A string containing a URL scheme (e.g. 'http')</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the bundle identifier of the current default application</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/liburlevent.m line 244](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L244) |
 
 ---
 
@@ -116,6 +124,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>url - A string containing a URL, which must contain a scheme and '://'</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the URL was opened successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/urlevent.lua line 109](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L109) |
 
 ---
 
@@ -130,6 +140,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>url - A string containing a URL</li><li>bundleID - A string containing an application bundle identifier (e.g. "com.apple.Safari")</li></ul> |
 | **Returns**                                 | <ul><li>True if the application was launched successfully, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/liburlevent.m line 300](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L300) |
 
 ---
 
@@ -144,6 +156,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>scheme - A string containing the URL scheme to change. This must be 'http' or 'https' (although entering either will change the handler for both)</li><li>bundleID - An optional string containing an application bundle identifier for the application to set as the default handler. Defaults to `org.latenitefilms.CommandPost`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Changing the default handler for http/https URLs will display a system prompt asking the user to confirm the change</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/liburlevent.m line 196](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L196) |
 
 ---
 
@@ -158,6 +172,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 | **Parameters**                              | <ul><li>scheme - A string containing the URL scheme to change. This must be 'http' (although both http:// and https:// URLs will be affected)</li><li>bundleID - A string containing an application bundle identifier (e.g. 'com.apple.Safari') for the application to set as the default handler when CommandPost exits or reloads its config</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>You don't have to call this function if you want CommandPost to permanently be your default handler. Only use this if you want the handler to be automatically reverted to something else when CommandPost exits/reloads.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/urlevent/liburlevent.m line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L173) |
 
 ---
 

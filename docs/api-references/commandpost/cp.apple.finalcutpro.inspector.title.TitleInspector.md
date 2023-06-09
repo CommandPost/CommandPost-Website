@@ -28,6 +28,8 @@ Extends [BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md).
 | **Parameters**                              | <ul><li>`parent`		- The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `TitleInspector` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/title/TitleInspector.lua#L16) |
 
 ---
 

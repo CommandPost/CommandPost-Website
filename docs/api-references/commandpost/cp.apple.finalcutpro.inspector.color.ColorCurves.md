@@ -49,6 +49,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Parameters**                              | <ul><li>element	- The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is the Color Curves.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L48) |
 
 ---
 
@@ -65,6 +67,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L66) |
 
 ---
 
@@ -79,6 +83,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L217) |
 
 ---
 
@@ -91,6 +96,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the ColorCurves corrector.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L121) |
 
 ---
 
@@ -103,6 +109,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L208) |
 
 ---
 
@@ -115,6 +122,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L191) |
 
 ---
 
@@ -127,6 +135,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The mix amount for this corrector. A number ranging from `0` to `1`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L255) |
 
 ---
 
@@ -139,6 +148,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PropertyRow` that provides access to the 'Mix' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 226](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L226) |
 
 ---
 
@@ -151,6 +161,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Mix' slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 233](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L233) |
 
 ---
 
@@ -163,6 +174,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a [CheckBox](cp.ui.CheckBox.md) that provides access to the 'Preserve Luma' slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L270) |
 
 ---
 
@@ -175,6 +187,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Preserve Luma' parameter, and `axuielement`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L262) |
 
 ---
 
@@ -187,6 +200,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L199) |
 
 ---
 
@@ -199,6 +213,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and modifies whether the corrector is showing "All Curves" (`true`) or "Single Curves" (`false`).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L147) |
 
 ---
 
@@ -211,6 +226,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the [MenuButton](cp.ui.MenuButton.md) for the View Mode.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L134) |
 
 ---
 
@@ -223,6 +239,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` that allows selection of the curve type. Only available when                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 174](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L174) |
 
 ---
 
@@ -239,6 +256,8 @@ Requires Final Cut Pro 10.4 or later.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorCurves object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/color/ColorCurves.lua#L99) |
 
 ---
 

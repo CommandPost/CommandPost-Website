@@ -30,6 +30,7 @@ Fullscreen Shortcuts
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the module enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L61) |
 
 ---
 
@@ -46,6 +47,8 @@ Fullscreen Shortcuts
 | **Parameters**                              | <ul><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 156](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L156) |
 
 ---
 
@@ -60,6 +63,8 @@ Fullscreen Shortcuts
 | **Parameters**                              | <ul><li>whichModifier - Modifier Key</li><li>whichKey - Key</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L105) |
 
 ---
 
@@ -74,6 +79,8 @@ Fullscreen Shortcuts
 | **Parameters**                              | <ul><li>cmd - The Command.</li><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L132) |
 
 ---
 
@@ -88,6 +95,8 @@ Fullscreen Shortcuts
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/shortcuts.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/shortcuts.lua#L34) |
 
 ---
 

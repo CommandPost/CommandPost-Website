@@ -30,6 +30,8 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Parameters**                              | <ul><li>...     - The initial values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `BehaviorSubject`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L15) |
 
 ---
 
@@ -44,6 +46,8 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The last value.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also call the `BehaviorSubject` as a function to retrieve the value. E.g. `mySubject()`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L80) |
 
 ---
 
@@ -58,6 +62,8 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Parameters**                              | <ul><li>...     - The values to send.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L66) |
 
 ---
 
@@ -72,6 +78,8 @@ recent pushed value, and all subscribers immediately receive the latest value.
 | **Parameters**                              | <ul><li>observer - The [Observer](cp.rx.Observer.md) subscribing, or the `function` called when the `BehaviorSubject` produces a value.</li><li>onError - A `function` called when the `BehaviorSubject` terminates due to an error.</li><li>onCompleted - A `function` called when the `BehaviorSubject` completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/BehaviorSubject.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/BehaviorSubject.lua#L37) |
 
 ---
 

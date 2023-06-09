@@ -29,6 +29,7 @@ Match Frame Tools for Final Cut Pro.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Favourite Keywords                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L37) |
 
 ---
 
@@ -45,6 +46,8 @@ Match Frame Tools for Final Cut Pro.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Angle or `false` on error</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L153) |
 
 ---
 
@@ -59,6 +62,8 @@ Match Frame Tools for Final Cut Pro.
 | **Parameters**                              | <ul><li>`focus`  - If set to `true`, the library will search for the matched clip title</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 291](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L291) |
 
 ---
 
@@ -73,6 +78,8 @@ Match Frame Tools for Final Cut Pro.
 | **Parameters**                              | <ul><li>goBackToTimeline - `true` if you want to go back to the timeline after opening the clip in the Multicam Editor</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/matchframe.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/matchframe.lua#L42) |
 
 ---
 

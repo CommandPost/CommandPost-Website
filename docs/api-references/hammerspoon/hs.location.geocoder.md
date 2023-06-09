@@ -59,6 +59,8 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/location/liblocation.m line 593](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L593) |
 
 ---
 
@@ -75,6 +77,8 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li><li>While a partial address can be given, the more information you provide, the more likely the results will be useful.  The `regionTable` only determines sort order if multiple entries are returned, it does not constrain the search.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/location/liblocation.m line 635](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L635) |
 
 ---
 
@@ -91,6 +95,8 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
 | **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/location/liblocation.m line 551](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L551) |
 
 ---
 
@@ -107,6 +113,8 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>nil to facilitate garbage collection by assigning this result to the geocodeObject</li></ul>          |
 | **Notes**                                   | <ul><li>This method has no effect if the geocoding process has already completed.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/location/liblocation.m line 706](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L706) |
 
 ---
 
@@ -121,6 +129,8 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating if the geocoding process is still active.  If false, then the callback function either has already been called or will be as soon as the main thread of Hammerspoon becomes idle again.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/location/liblocation.m line 689](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L689) |
 
 ---
 

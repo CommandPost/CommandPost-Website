@@ -28,6 +28,8 @@ Extends [Element](cp.ui.Element.md).
 | **Parameters**                              | <ul><li>element  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an `AXImage`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Image.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Image.lua#L11) |
 
 ---
 

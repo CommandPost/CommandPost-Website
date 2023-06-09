@@ -352,6 +352,7 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a new `cp.prop` instance with a value of `nil`.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1402) |
 
 ---
 
@@ -368,6 +369,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>owner     - The owner table to bind the properties to.</li><li>relaxed   - If `true`, then non-`cp.prop` fields will be ignored. Otherwise they generate an error.</li></ul> |
 | **Returns**                                 | <ul><li>A function which should be called, passing in a table of key/value pairs which are `string`/`cp.prop` value.</li></ul>          |
 | **Notes**                                   | <ul><li>If you are binding multiple `cp.prop` values that are dependent on other `cp.prop` values on the same owner (e.g. via `mutate` or a boolean join), you</li><li>  will have to break it up into multiple `prop.bind(...) {...}` calls, so that the dependent property can access the bound property.</li><li>If a `cp.prop` provided as bindings already has a bound owner, it will be wrapped instead of bound directly.</li><li>To use, do something like this:</li><li></li><li>```lua</li><li>local o = {}</li><li>prop.bind(o) {</li><li>    foo = prop.TRUE(),</li><li>    bar = prop.THIS("Hello world"),</li><li>}</li><li>```</li><li></li><li>This is equivalent to the following:</li><li></li><li>```lua</li><li>local o = {}</li><li>o.foo = prop.TRUE():bind(o):label("foo")</li><li>-- alternately...</li><li>prop.THIS("Hello world"):bind(o, "bar")</li><li>```</li><li></li><li>It has the added benefit of checking that the target properties ('foo' and 'bar' in this case) have not already been assigned a value.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1714](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1714) |
 
 ---
 
@@ -382,6 +385,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`target` - The target to extend</li><li>`source` - The source to extend from</li></ul> |
 | **Returns**                                 | <ul><li>The `target`, now extending the `source`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1692](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1692) |
 
 ---
 
@@ -396,6 +401,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`value`  - The value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `cp.prop`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 345](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L345) |
 
 ---
 
@@ -412,6 +419,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`...`        - The list of `cp.prop` instances to 'AND' together.</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The value of this instance will resolve by lazily checking the `value` of the contained `cp.prop` instances in the order provided. The first `falsy` value will be returned. Otherwise the last `truthy` value is returned.</li><li>The instance is **immutable**.</li><li>Once you have created an 'AND', you cannot 'OR' as a method. Eg, this will fail: `prop.TRUE():AND(prop:FALSE()):OR(prop.TRUE())`. This is to avoid ambiguity as to whether the 'AND' or 'OR' takes precedence. Is it `(true and false) or true` or `true and (false or true)`?.</li><li>To combine 'AND' and 'OR' values, group them together when combining. Eg:</li><li> `(true and false) or true`: `prop.OR( prop.TRUE():AND(prop.FALSE()), prop.TRUE() )`</li><li> `true and (false or true)`: `prop.TRUE():AND( prop.FALSE():OR(prop.TRUE()) )`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1530](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1530) |
 
 ---
 
@@ -426,6 +435,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance defaulting to `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1440](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1440) |
 
 ---
 
@@ -440,6 +451,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`value`      - The value to use.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If it's already a `cp.prop`, it will be returned directly.</li><li>If it's a function, it will be treated as a `get` function.</li><li>Otherwise, it will be returned as [THIS](#THIS)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1338](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1338) |
 
 ---
 
@@ -454,6 +467,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`propValue` - The `cp.prop` value to wrap.</li></ul> |
 | **Returns**                                 | <ul><li>a new `cp.prop` instance which cannot be modified.</li></ul>          |
 | **Notes**                                   | <ul><li>The original `propValue` can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1384](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1384) |
 
 ---
 
@@ -468,6 +483,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`getFn`      - The function that will get called to retrieve the current value.</li><li>`setFn`      - (optional) The function that will get called to set the new value.</li><li>`cloneFn`        - (optional) The function that will get called when cloning the property.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>`getFn` signature: `function([owner]) -> anything`</li><li> `owner`     - If this is attached as a method, the owner table is passed in.</li><li>`setFn` signature: `function(newValue[, owner])`</li><li> `newValue`  - The new value to store.</li><li> `owner`     - If this is attached as a method, the owner table is passed in.</li><li>`cloneFn` signature: `function(prop) -> new cp.prop`</li><li>This can also be executed by calling the module directly. E.g. `require('cp.prop')(myGetFunction)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1305](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1305) |
 
 ---
 
@@ -482,6 +499,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`propValue`      - Another `cp.prop` instance.</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance negating the `propValue`.</li></ul>          |
 | **Notes**                                   | <ul><li>If the `propValue` is mutable, you can set the `NOT` property value and the underlying value</li><li>    will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  `boolean`    - Switch between `true` and `false`</li><li>  `nil`        - Switches to `true`</li><li>  <other>  - Switches to `nil`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1466](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1466) |
 
 ---
 
@@ -496,6 +515,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`...`        - The list of `cp.prop` instances to 'OR' together.</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>The value of this instance will resolve by lazily checking the `value` of the contained `cp.prop` instances in the order provided. If any return `true`, no further instances will be checked.</li><li>The instance is immutable, since there is no realy way to flip the component values of an 'OR' in a way that makes sense.</li><li>Once you have created an 'OR', you cannot 'AND' as a method. Eg, this will fail: `prop.TRUE():OR(prop:FALSE()):AND(prop.TRUE())`. This is to avoid ambiguity as to whether the 'OR' or 'AND' takes precedence. Is it `(true or false) and true` or `true or (false and true)`?.</li><li>To combine 'AND' and 'OR' values, group them together when combining. Eg:</li><li> `(true or false) and true`: `prop.AND( prop.TRUE():OR(prop.FALSE()), prop.TRUE() )`</li><li> `true or (false and true)`: `prop.TRUE():OR( prop.FALSE():AND(prop.TRUE()) )`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1585](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1585) |
 
 ---
 
@@ -510,6 +531,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`initialValue` - The initial value to set it to (optional).</li></ul> |
 | **Returns**                                 | <ul><li>a new `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1362](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1362) |
 
 ---
 
@@ -524,6 +547,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance defaulting to `true`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1427](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1427) |
 
 ---
 
@@ -538,6 +563,7 @@ So, a little bit tricky. The general rule of thumb is:
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main [Window](cp.ui.Window.md), or `nil` if none is available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp//app.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L472) |
 
 ---
 
@@ -554,6 +580,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is greater than `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1155) |
 
 ---
 
@@ -568,6 +596,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`...`        - The list of `cp.prop` instances to 'AND' together.</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See the [AND Function](#and) for more details</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1571](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1571) |
 
 ---
 
@@ -582,6 +612,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than or equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1201) |
 
 ---
 
@@ -596,6 +628,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than or equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1178](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1178) |
 
 ---
 
@@ -610,6 +644,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is less than `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1132) |
 
 ---
 
@@ -624,6 +660,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`owner`  - The owner to attach to.</li><li>`key`    - If provided, the property will be bound to the specified key.</li></ul> |
 | **Returns**                                 | <ul><li>the `cp.prop`</li></ul>          |
 | **Notes**                                   | <ul><li>Throws an `error` if the new owner is `nil`.</li><li>Throws an `error` if the owner already has a property with the name provided in `key`.</li><li>Throws an `error` if the `key` is not a string value.</li><li>Optionally, a key can be provided which will assign the `cp.prop` to the owner using that key.</li><li>If the `cp.prop` does not have a label, the key will be used as the label.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 551](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L551) |
 
 ---
 
@@ -638,6 +676,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>This can help with performance, but if there are other ways of modifying the original value outside the prop, it will potentially return stale values.</li><li>You can force a reload via the [update](#update) method.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 446](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L446) |
 
 ---
 
@@ -652,6 +692,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 538](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L538) |
 
 ---
 
@@ -666,6 +708,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>New `cp.prop`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 904](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L904) |
 
 ---
 
@@ -680,6 +724,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`skipMetatable` - If set to `true`, copies will _not_ copy the metatable into the new tables.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [shallowTable](#shallowTable).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L393) |
 
 ---
 
@@ -694,6 +740,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1087](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1087) |
 
 ---
 
@@ -708,6 +756,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current value.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L491) |
 
 ---
 
@@ -722,6 +772,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if any watchers have been registered.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 707](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L707) |
 
 ---
 
@@ -736,6 +788,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID value.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 362](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L362) |
 
 ---
 
@@ -750,6 +804,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`propValue`      - The `cp.prop` value to wrap.</li></ul> |
 | **Returns**                                 | <ul><li>a new `cp.prop` instance which cannot be modified.</li></ul>          |
 | **Notes**                                   | <ul><li>The original property can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1413](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1413) |
 
 ---
 
@@ -764,6 +820,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1064](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1064) |
 
 ---
 
@@ -778,6 +836,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is NOT equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1098](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1098) |
 
 ---
 
@@ -792,6 +852,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>newLabel - (optional) if provided, this will be the new label.</li></ul> |
 | **Returns**                                 | <ul><li>Either the existing label, or the `cp.prop` itself if a new label was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L375) |
 
 ---
 
@@ -806,6 +868,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`otherProp`   - The other prop to mirror.</li></ul> |
 | **Returns**                                 | <ul><li>The same property.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1046](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1046) |
 
 ---
 
@@ -820,6 +884,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`...`  - a list of other `cp.prop` values to monitor.</li></ul> |
 | **Returns**                                 | <ul><li>`cp.prop`    - This prop value.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 833](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L833) |
 
 ---
 
@@ -834,6 +900,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value can be modified.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 607](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L607) |
 
 ---
 
@@ -848,6 +916,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`getFn` - Get function</li><li>`setFn` - An optional set function</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.prop` which will return a mutation of the property value.</li></ul>          |
 | **Notes**                                   | <ul><li>Watchers of the mutant will be if a change in the current prop causes</li><li>the mutation to be a new value.</li><li></li><li>The `getFn` is a function with the following signature:</li><li></li><li>```lua</li><li>function(original, owner, prop) --> mutantValue</li><li>```</li><li></li><li>`originalProp`   - The original `cp.prop` being mutated.</li><li>`owner`          - The owner of the mutator property, if it has been bound.</li><li>`mutantProp`     - The mutant property.</li><li>`mutantValue`    - The new value based off the original.</li><li></li><li>You can ignore any parameters that you don't need. Most simply use the `original` prop.</li><li></li><li>The `setFn` is optional, and is a function with the following signature:</li><li></li><li>```lua</li><li>function(mutantValue, original, owner, prop) --> nil</li><li>```</li><li></li><li>`mutantValue`    - The new value being sent in.</li><li>`originalProp`   - The original property being mutated.</li><li>`owner`          - The owner of the mutant property, if it has been bound.</li><li>`mutantProp`     - The mutant property.</li><li></li><li>Again, you can ignore any parameters that you don't need.</li><li>If you want to set a new value to the `original` property, you can do so.</li><li>It's recommended that you use `original:set(...)`, which will allow setting `nil` values.</li><li></li><li>For example:</li><li></li><li>```lua</li><li>anyNumber   = prop.THIS(1)</li><li>isEven      = anyNumber:mutate(function(original) return original() % 2 == 0 end)</li><li>    :watch(function(even)</li><li>        if even() then</li><li>            print "even"</li><li>        else</li><li>            print "odd"</li><li>        end</li><li>    end)</li><li></li><li>isEven:update()     -- prints "odd"</li><li>anyNumber(10)       -- prints "even"</li><li>isEven() == true    -- no printing</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 929](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L929) |
 
 ---
 
@@ -862,6 +932,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`something`  - A value, a function or a `cp.prop` to compare to.</li></ul> |
 | **Returns**                                 | <ul><li>New, read-only `cp.prop` which will be `true` if this property is NOT equal to `something`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1121) |
 
 ---
 
@@ -876,6 +948,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance negating the current instance.</li></ul>          |
 | **Notes**                                   | <ul><li>If this property is mutable, you can set the `NOT` property value and this property will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  ** `boolean`    - Switch between `true` and `false`</li><li>  ** `nil`        - Switches to `true`</li><li>  ** <other>  - Switches to `nil`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1494](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1494) |
 
 ---
 
@@ -890,6 +964,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`...`        - The list of `cp.prop` instances to 'OR' together.</li></ul> |
 | **Returns**                                 | <ul><li>a `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [OR Function](#or) for more details.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1626](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1626) |
 
 ---
 
@@ -904,6 +980,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The owner table, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 594](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L594) |
 
 ---
 
@@ -918,6 +996,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`preWatchFn`     - The function to call once when the prop is watched. Has the signature `function(owner, prop)`.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul><li>This allows configuration, typically for watching other events, but only if anything is actually watching this property value.</li><li>If the prop already has watchers, this function will be called imediately.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 721](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L721) |
 
 ---
 
@@ -932,6 +1012,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`newValue`   - The new value to set. May be `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>The current value of the prop. May not be the same as `newValue`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 509](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L509) |
 
 ---
 
@@ -946,6 +1028,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.prop` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>See [deepTable](#deepTable).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 419](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L419) |
 
 ---
 
@@ -960,6 +1044,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new value.</li></ul>          |
 | **Notes**                                   | <ul><li>If the value is immutable, an error will be thrown.</li><li>If you toggle a non-boolean parameter twice, it will end up set to `true`.</li><li>Values are modified as follows:</li><li>  ** `boolean`    - Switch between `true` and `false`</li><li>  ** `nil`        - Switches to `true`</li><li>  ** <other>  - Switches to `nil`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 643](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L643) |
 
 ---
 
@@ -974,6 +1060,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Observable` instance for the property.</li></ul>          |
 | **Notes**                                   | <ul><li>It will only emit `onNext` events, never an `onError` or `onCompleted` event.</li><li>This will trigger an `update` each time it is called.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 779](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L779) |
 
 ---
 
@@ -988,6 +1076,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`watchFn`        - The original watch function to remove. Must be the same instance that was added.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the function was watching and successfully removed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>An example of adding and removing a watch:</li><li></li><li>```lua</li><li>local prop, watcher = prop.TRUE():watch(function(value) print tostring(value) end)</li><li>prop:unwatch(watcher) == true</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L758) |
 
 ---
 
@@ -1002,6 +1092,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current value of the property.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 864](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L864) |
 
 ---
 
@@ -1016,6 +1108,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`newValue`   - The new value to set the instance to.</li></ul> |
 | **Returns**                                 | <ul><li>The current boolean value.</li></ul>          |
 | **Notes**                                   | <ul><li>If you need to set the property to `nil`, use the [set method](#set), otherwise it will be ignored.</li><li>This method can also be called directly on the property, like so:</li><li></li><li>```lua</li><li>local foo = prop.TRUE()</li><li>foo() == foo:value()</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 465](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L465) |
 
 ---
 
@@ -1030,6 +1124,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`watchFn` - The watch function, with the signature `function(newValue, owner)`.</li><li>`notifyNow` - The function will be triggered immediately with the current state.  Defaults to `false`.</li><li>`uncloned` - If `true`, the watch function will not be attached to any clones of this prop.</li></ul> |
 | **Returns**                                 | <ul><li>`cp.prop` - The same `cp.prop` instance</li><li>`function` - The watch function, which can be passed to [unwatch](#unwatch) to stop watching.</li></ul>          |
 | **Notes**                                   | <ul><li>You can watch immutable values. Wrapped `cp.prop` instances may not be immutable, and any changes to them will cause watchers to be notified up the chain.</li><li>The function should have the following signature:</li><li></li><li>```lua</li><li>function(value, owner, prop)</li><li>```</li><li>`value`  - The new value of the property</li><li>`owner`  - The property owner. May be `nil`.</li><li>`prop`   - The property itself.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 667](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L667) |
 
 ---
 
@@ -1044,6 +1140,8 @@ So, a little bit tricky. The general rule of thumb is:
 | **Parameters**                              | <ul><li>`owner`  -    (optional) If provided, the wrapper will be bound to the specified owner.</li><li>`key`    -    (optional) If provided, the wrapper will be assigned to the owner with the specified key.</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.prop` which wraps this property.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/prop/init.lua line 1011](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1011) |
 
 ---
 

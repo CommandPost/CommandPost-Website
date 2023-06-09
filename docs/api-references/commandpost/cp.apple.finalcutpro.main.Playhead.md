@@ -42,6 +42,8 @@ Playhead Module.
 | **Parameters**                              | <ul><li>`containerUI` - The container UI</li><li>`skimming` - Whether or not you want the skimming playhead as boolean.</li></ul> |
 | **Returns**                                 | <ul><li>The playhead `hs.axuielement` object or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L30) |
 
 ---
 
@@ -56,6 +58,8 @@ Playhead Module.
 | **Parameters**                              | <ul><li>`element`    - The element you want to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is the Playhead otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L17) |
 
 ---
 
@@ -72,6 +76,8 @@ Playhead Module.
 | **Parameters**                              | <ul><li>parent        - The parent object</li><li>skimming      - (optional) if `true`, this links to the 'skimming' playhead created under the mouse, if present.</li><li>containerUI   - (optional) a `cp.prop` which returns the container axuielement which contains the playheads. If not present, it will use the parent's UI element.</li><li>useEventViewer - (optional) if `true`, this will use the Event Viewer's timecode, when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Playhead` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L64) |
 
 ---
 
@@ -86,6 +92,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the centre point (`{x, y}`) of the playhead.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L126) |
 
 ---
 
@@ -98,6 +105,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Represents the current viewer for the playhead. This may be either the primary Viewer or the Event Viewer,                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L136) |
 
 ---
 
@@ -110,6 +118,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the frame of the playhead.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L106) |
 
 ---
 
@@ -122,6 +131,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the playhead persistent?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L99) |
 
 ---
 
@@ -134,6 +144,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the horizontal position of the playhead line, which may be different to the `x` position of the playhead.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 116](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L116) |
 
 ---
 
@@ -146,6 +157,7 @@ Playhead Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current timecode.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L154) |
 
 ---
 
@@ -162,6 +174,8 @@ Playhead Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 216](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L216) |
 
 ---
 
@@ -176,6 +190,8 @@ Playhead Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Playhead object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/Playhead.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/Playhead.lua#L180) |
 
 ---
 

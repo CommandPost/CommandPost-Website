@@ -37,6 +37,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L62) |
 
 ---
 
@@ -51,6 +53,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>toFind - Number of the item to find.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L128) |
 
 ---
 
@@ -65,6 +69,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L164) |
 
 ---
 
@@ -79,6 +85,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Current History Count</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L113) |
 
 ---
 
@@ -93,6 +101,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L97) |
 
 ---
 
@@ -107,6 +117,8 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L75) |
 
 ---
 
@@ -121,6 +133,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Console History Cache                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/console/history.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/console/history.lua#L36) |
 
 ---
 

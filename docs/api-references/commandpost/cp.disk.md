@@ -52,6 +52,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//disk.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L214) |
 
 ---
 
@@ -66,6 +68,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//disk.lua line 184](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L184) |
 
 ---
 
@@ -80,6 +84,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//disk.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L199) |
 
 ---
 
@@ -94,6 +100,8 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li><li>fn        - The function to execute.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//disk.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//disk.lua#L165) |
 
 ---
 

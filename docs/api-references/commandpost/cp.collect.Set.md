@@ -85,6 +85,7 @@ a + b | c ~= a + (b | c)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Set` which contains the whole universe.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L694) |
 
 ---
 
@@ -97,6 +98,7 @@ a + b | c ~= a + (b | c)
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An empty `Set`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 689](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L689) |
 
 ---
 
@@ -113,6 +115,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>set       - The `Set` to complement.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 455](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L455) |
 
 ---
 
@@ -127,6 +131,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 392](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L392) |
 
 ---
 
@@ -141,6 +147,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>set   - The `Set` to check.</li><li>value - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is contained in the `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 310](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L310) |
 
 ---
 
@@ -155,6 +163,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>left      - The left `Set`</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Set` which contains an intersection `left` and `right`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 360](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L360) |
 
 ---
 
@@ -169,6 +179,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>thing     - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L213) |
 
 ---
 
@@ -183,6 +195,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>set       - The set to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 496](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L496) |
 
 ---
 
@@ -197,6 +211,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>set   - The set to find the size of.</li></ul> |
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
 | **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 476](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L476) |
 
 ---
 
@@ -211,6 +227,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 425](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L425) |
 
 ---
 
@@ -225,6 +243,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Set` which contains a union of the `left` and `right` `Set`s.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 324](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L324) |
 
 ---
 
@@ -241,6 +261,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>set       - The set to clone.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 292](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L292) |
 
 ---
 
@@ -255,6 +277,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>list      - The table that contains items as a list to add to the `Set`. E.g. `{"foo", "bar"}</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L244) |
 
 ---
 
@@ -269,6 +293,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>map      - The table that contains key/value items to add to the set. E.g. `{foo = true, bar = true}`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L268) |
 
 ---
 
@@ -283,6 +309,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>The set items.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L231) |
 
 ---
 
@@ -299,6 +327,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `-` or `~` prefix operators. E.g. `-a` or `~a`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 567](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L567) |
 
 ---
 
@@ -313,6 +343,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `-` operator. E.g. `a - b`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 553](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L553) |
 
 ---
 
@@ -327,6 +359,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>value     - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `Set` contains the `value`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also check for specific values via `mySet['key']` or `mySet.key`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 511](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L511) |
 
 ---
 
@@ -341,6 +375,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>...       - The list of `Set`s to create an intersection from.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `&` operator. E.g. `a & b`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 539](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L539) |
 
 ---
 
@@ -355,6 +391,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 595](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L595) |
 
 ---
 
@@ -369,6 +407,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
 | **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 606](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L606) |
 
 ---
 
@@ -383,6 +423,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `~` operator. E.g. `a ~ b`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 581](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L581) |
 
 ---
 
@@ -397,6 +439,8 @@ a + b | c ~= a + (b | c)
 | **Parameters**                              | <ul><li>...       - The list of `Set`s to create a union from.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` which is a union.</li></ul>          |
 | **Notes**                                   | <ul><li>You can also use the `\|` or `+` operator. E.g. `a \| b` or `a + b`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/Set.lua line 525](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/Set.lua#L525) |
 
 ---
 

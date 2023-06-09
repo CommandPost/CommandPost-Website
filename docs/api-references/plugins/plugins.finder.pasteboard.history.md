@@ -26,6 +26,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Text Pasteboard History Enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L63) |
 
 ---
 
@@ -38,6 +39,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the pasteboard history.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L48) |
 
 ---
 
@@ -50,6 +52,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Maximum Pasteboard History Size                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finder/pasteboard/history.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/pasteboard/history.lua#L53) |
 
 ---
 

@@ -40,6 +40,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new plist `source` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L112) |
 
 ---
 
@@ -56,6 +58,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`keyValues`  - The table of key/value pairs to define.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.string.source`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L54) |
 
 ---
 
@@ -70,6 +74,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>context   - A table with values which may be used by the source.</li></ul> |
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>mySource:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L29) |
 
 ---
 
@@ -84,6 +90,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`key`        - The key to retrieve the value for.</li></ul> |
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/source/table.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/source/table.lua#L68) |
 
 ---
 

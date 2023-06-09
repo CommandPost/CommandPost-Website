@@ -56,6 +56,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>`value`  - The value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L48) |
 
 ---
 
@@ -72,6 +74,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>otherBuffer - The `buffer` to clone.</li></ul> |
 | **Returns**                                 | <ul><li>the clone of the original `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L110) |
 
 ---
 
@@ -86,6 +90,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>hexString - The string of hex characters to convert.</li><li>spacer - The character to ignore as a spacer. Defaults to space (" ").</li></ul> |
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
 | **Notes**                                   | <ul><li>Examples:</li><li> `buffer.fromHex("ABCDE")`</li><li> `buffer.fromHex("12-34-56", "-")`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L90) |
 
 ---
 
@@ -100,6 +106,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>... - The new `string` chunks to add to the end of the buffer.</li></ul> |
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L65) |
 
 ---
 
@@ -116,6 +124,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul><li>Equivalent to, but more efficient than `pop` if you don't need the bytes being dropped.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 267](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L267) |
 
 ---
 
@@ -130,6 +140,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of bytes in the buffer.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L134) |
 
 ---
 
@@ -144,6 +156,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L214) |
 
 ---
 
@@ -158,6 +172,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L227) |
 
 ---
 
@@ -172,6 +188,8 @@ buff:bytes()     -- "lo world!"
 | **Parameters**                              | <ul><li>... - The new `string` chunks to add to the end of the buffer.</li></ul> |
 | **Returns**                                 | <ul><li>The same `buffer` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>Throws an error if more than `cp.buffer.maxChunks` are currently in the buffer when a new value is pushed.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//buffer.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//buffer.lua#L240) |
 
 ---
 

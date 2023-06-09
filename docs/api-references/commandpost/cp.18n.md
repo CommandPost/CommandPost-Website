@@ -26,6 +26,8 @@ CommandPost's Internationalisation & Localisation Manger.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/i18n/init.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/init.lua#L26) |
 
 ---
 

@@ -54,6 +54,8 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Parameters**                              | <ul><li>...      - the list of `resolvable` values to evaluate.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Do` `Statement` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L35) |
 
 ---
 
@@ -70,6 +72,8 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` values to process for each `Do` result.</li></ul> |
 | **Returns**                                 | <ul><li>The [Then](cp.rx.go.Do.Then.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L82) |
 
 ---
 

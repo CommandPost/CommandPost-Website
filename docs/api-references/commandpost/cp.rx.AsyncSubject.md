@@ -36,6 +36,8 @@ the `Observer` will immediately receive the value or the error.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `AsyncSubject`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L23) |
 
 ---
 
@@ -52,6 +54,8 @@ the `Observer` will immediately receive the value or the error.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L121) |
 
 ---
 
@@ -66,6 +70,8 @@ the `Observer` will immediately receive the value or the error.
 | **Parameters**                              | <ul><li>message - A string describing what went wrong.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L99) |
 
 ---
 
@@ -80,6 +86,8 @@ the `Observer` will immediately receive the value or the error.
 | **Parameters**                              | <ul><li>...       - The values to send.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L84) |
 
 ---
 
@@ -94,6 +102,8 @@ the `Observer` will immediately receive the value or the error.
 | **Parameters**                              | <ul><li>onNext | observer - A `function` called when the `AsyncSubject` produces a value or an existing [Observer](cp.rx.Observer.md) to attach to the `AsyncSubject`.</li><li>onError           - A `function` called when the `AsyncSubject` terminates due to an error.</li><li>onCompleted       - A `funtion` called when the `AsyncSubject` completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/AsyncSubject.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/AsyncSubject.lua#L43) |
 
 ---
 

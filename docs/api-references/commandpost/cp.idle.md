@@ -28,6 +28,8 @@ or mouse movement.
 | **Parameters**                              | <ul><li>`idleSeconds`		- The number of seconds of idle time must have elapsed run the action</li><li>`actionFn`		- The function to execute</li><li>`retryOnError`	- Optional. If set to `true`, the action will try running again if there is an error.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/idle/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/idle/init.lua#L48) |
 
 ---
 

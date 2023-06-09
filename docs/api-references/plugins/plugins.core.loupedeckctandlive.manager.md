@@ -44,6 +44,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of devices of the same type supported.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L69) |
 
 ---
 
@@ -60,6 +61,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>thisAction - The action to execute</li><li>deviceNumber - The device number</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1748](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1748) |
 
 ---
 
@@ -76,6 +79,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>deviceType - The device type defined in `hs.loupedeck.deviceTypes`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L126) |
 
 ---
 
@@ -90,6 +95,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last application                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L59) |
 
 ---
 
@@ -102,6 +108,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last bank                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L64) |
 
 ---
 
@@ -114,6 +121,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we preview the selected application and bank on hardware?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L54) |
 
 ---
 
@@ -130,6 +138,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>data - The callback data.</li><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1842](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1842) |
 
 ---
 
@@ -144,6 +154,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1781](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1781) |
 
 ---
 
@@ -158,6 +170,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Loupedeck Flash Drive path as a string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1028](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1028) |
 
 ---
 
@@ -172,6 +186,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>dueToAppChange - A optional boolean to specify whether the refresh is due to an application focus change.</li><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1152](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1152) |
 
 ---
 
@@ -186,6 +202,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1050](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1050) |
 
 ---
 
@@ -200,6 +218,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1139](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1139) |
 
 ---
 
@@ -214,6 +234,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Parameters**                              | <ul><li>deviceNumber - The device number.</li><li>value - The backlight level</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/loupedeckctandlive/manager/init.lua line 1825](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/loupedeckctandlive/manager/init.lua#L1825) |
 
 ---
 

@@ -45,6 +45,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L12) |
 
 ---
 
@@ -61,6 +63,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>parent		- The parent object. Should have an `isShowing` property.</li><li>uiFinder		- The function which returns an `hs.axuielement` for the slider, or `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Slider` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L25) |
 
 ---
 
@@ -75,6 +79,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the maximum value of the slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L53) |
 
 ---
 
@@ -87,6 +92,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the minimum value of the slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L46) |
 
 ---
 
@@ -99,6 +105,7 @@ Slider Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Sets or gets the value of the slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L39) |
 
 ---
 
@@ -115,6 +122,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L147) |
 
 ---
 
@@ -129,6 +138,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L117) |
 
 ---
 
@@ -143,6 +154,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The value as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L104) |
 
 ---
 
@@ -157,6 +170,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The value of the slider as a number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L60) |
 
 ---
 
@@ -171,6 +186,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L130) |
 
 ---
 
@@ -185,6 +202,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>layout - A table containing the Slider layout settings - created using [saveLayout](#saveLayout].</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L196) |
 
 ---
 
@@ -199,6 +218,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Slider Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L181) |
 
 ---
 
@@ -213,6 +234,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>value - The value you want to set the slider to as a number.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L73) |
 
 ---
 
@@ -227,6 +250,8 @@ Slider Module.
 | **Parameters**                              | <ul><li>value - The value you want to shift the slider by as a number.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Slider.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Slider.lua#L87) |
 
 ---
 

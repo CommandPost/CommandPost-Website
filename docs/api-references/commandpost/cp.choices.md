@@ -35,6 +35,8 @@ Choices Module.
 | **Parameters**                              | <ul><li>`type` - The unique ID for the type.</li></ul> |
 | **Returns**                                 | <ul><li>The new `choices` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L105) |
 
 ---
 
@@ -51,6 +53,8 @@ Choices Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The array of choices.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L157) |
 
 ---
 
@@ -65,6 +69,8 @@ Choices Module.
 | **Parameters**                              | <ul><li>`text`	- The text title for the choice.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul><li>Additional settings can be set using the returned builder instance. E.g.:</li><li></li><li>```</li><li>choices:add("Do Something")</li><li>	:subText("Cool Actions")</li><li>		:params({</li><li>		one = "foo",</li><li>		two = "bar",</li><li>	})</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L127) |
 
 ---
 

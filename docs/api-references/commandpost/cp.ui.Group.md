@@ -39,6 +39,8 @@ UI Group.
 | **Parameters**                              | <ul><li>... - A variable list of `Element` initializers, one for each child.</li></ul> |
 | **Returns**                                 | <ul><li>The `Group.Builder`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L21) |
 
 ---
 
@@ -53,6 +55,8 @@ UI Group.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L31) |
 
 ---
 
@@ -69,6 +73,8 @@ UI Group.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li><li>--- - Anything else</li></ul> |
 | **Returns**                                 | <ul><li>A new `Group` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L44) |
 
 ---
 
@@ -83,6 +89,7 @@ UI Group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `Element` children of the group.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L67) |
 
 ---
 
@@ -95,6 +102,7 @@ UI Group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the group.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Group.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Group.lua#L60) |
 
 ---
 

@@ -46,6 +46,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default location value.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L33) |
 
 ---
 
@@ -58,6 +59,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Location is Draggable.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L23) |
 
 ---
 
@@ -70,6 +72,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Location is Mouse.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L28) |
 
 ---
 
@@ -84,6 +87,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Update Location Callback                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L48) |
 
 ---
 
@@ -100,6 +104,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>obj - the touchbarObject the callback is for</li><li>message - the message to the callback, either "didEnter" or "didExit"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L280) |
 
 ---
 
@@ -114,6 +120,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 265](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L265) |
 
 ---
 
@@ -128,6 +136,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L319) |
 
 ---
 
@@ -142,6 +152,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L245) |
 
 ---
 
@@ -156,6 +168,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L118) |
 
 ---
 
@@ -170,6 +184,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L181) |
 
 ---
 
@@ -184,6 +200,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`hs._asm.undocumented.touchbar`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L69) |
 
 ---
 
@@ -198,6 +216,8 @@ Virtual Touch Bar Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 305](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L305) |
 
 ---
 
@@ -212,6 +232,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L91) |
 
 ---
 
@@ -224,6 +245,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled and the TouchBar is supported on this OS.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L107) |
 
 ---
 
@@ -236,6 +258,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last known Virtual Touch Bar Location                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L38) |
 
 ---
 
@@ -248,6 +271,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Does the macOS version support the Touch Bar?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L53) |
 
 ---
 
@@ -260,6 +284,7 @@ Virtual Touch Bar Manager
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the Touch Bar is supported on this version of macOS.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L61) |
 
 ---
 

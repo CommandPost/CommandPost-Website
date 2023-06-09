@@ -43,6 +43,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Stream Deck Layout                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L76) |
 
 ---
 
@@ -55,6 +56,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A cache of images used on the Stream Deck.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 536](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L536) |
 
 ---
 
@@ -67,6 +69,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing `hs.timer` objects.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L46) |
 
 ---
 
@@ -83,6 +86,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>object - The `hs.streamdeck` userdata object</li><li>buttonID - A number containing the button that was pressed/released</li><li>pressed - A boolean indicating whether the button was pressed (`true`) or released (`false`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L276) |
 
 ---
 
@@ -97,6 +102,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>connected - A boolean, `true` if a device was connected, `false` if a device was disconnected</li><li>object - An `hs.streamdeck` object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 809](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L809) |
 
 ---
 
@@ -111,6 +118,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>object - The `hs.streamdeck` userdata object</li><li>buttonID - The button ID</li><li>pressed - Was the encoder pressed?</li><li>turnedLeft - Did the encoder turn left?</li><li>turnedRight - Did the encoder turn right?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 484](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L484) |
 
 ---
 
@@ -125,6 +134,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>object - A `hs.streamdeck` object</li></ul> |
 | **Returns**                                 | <ul><li>"Mini", "Original" or "XL"</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L249) |
 
 ---
 
@@ -139,6 +150,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>device - The device name as a string.</li><li>buttonData - A table of button data.</li><li>isEncoder - Are we dealing with an encoder?</li></ul> |
 | **Returns**                                 | <ul><li>An encoded image as a string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 163](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L163) |
 
 ---
 
@@ -153,6 +166,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>object - The `hs.streamdeck` userdata object</li><li>eventType - The event type as a string</li><li>startX - The X position when first pressed</li><li>startY - The Y position when first pressed</li><li>endX - The X position when released</li><li>endY - The Y position when released</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L501) |
 
 ---
 
@@ -167,6 +182,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 883](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L883) |
 
 ---
 
@@ -181,6 +198,8 @@ Elgato Stream Deck Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 541](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L541) |
 
 ---
 
@@ -195,6 +214,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L81) |
 
 ---
 
@@ -207,6 +227,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L61) |
 
 ---
 
@@ -219,6 +240,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Stream Deck Support.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 942](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L942) |
 
 ---
 
@@ -231,6 +253,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L41) |
 
 ---
 
@@ -243,6 +266,7 @@ Elgato Stream Deck Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last Bundle ID.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/streamdeck/manager/init.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/streamdeck/manager/init.lua#L66) |
 
 ---
 

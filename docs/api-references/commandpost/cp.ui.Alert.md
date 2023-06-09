@@ -26,6 +26,8 @@ Alert UI Module.
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Alert.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Alert.lua#L13) |
 
 ---
 

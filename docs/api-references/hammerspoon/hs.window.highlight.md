@@ -41,6 +41,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the highlight overlays and behaviour.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_highlight.lua line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L34) |
 
 ---
 
@@ -57,6 +58,8 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Parameters**                              | <ul><li>windowfilterIsolate - (optional) an `hs.window.filter` instance that automatically enable "isolate" mode whenever one of the allowed windows is focused; alternatively, you can just provide a list of application names and a windowfilter will be created for you that enables isolate mode whenever one of these apps is focused; if omitted or nil, isolate mode won't be toggled automatically, but you can still toggle it manually via `hs.window.highlight.toggleIsolate()`</li><li>windowfilterOverlay - (optional) an `hs.window.filter` instance that determines which windows to consider for "overlay" mode when focused; if omitted or nil, the default windowfilter will be used</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>overlay mode is disabled by default - see `hs.window.highlight.ui.overlayColor`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_highlight.lua line 225](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L225) |
 
 ---
 
@@ -71,6 +74,8 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_highlight.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L275) |
 
 ---
 
@@ -85,6 +90,8 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 | **Parameters**                              | <ul><li>v - (optional) a boolean; if true, enable isolate mode; if false, disable isolate mode, even when `windowfilterIsolate` passed to `.start()` would otherwise enable it; if omitted or nil, toggle the override, i.e. clear it if it's currently enforced, or set it to the opposite of the current isolate mode status otherwise.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function should be bound to a hotkey, e.g.: `hs.hotkey.bind('ctrl-cmd','\','Isolate',hs.window.highlight.toggleIsolate)`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_highlight.lua line 198](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_highlight.lua#L198) |
 
 ---
 

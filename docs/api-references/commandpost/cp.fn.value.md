@@ -30,6 +30,8 @@ A collection of functions for working with values.
 | **Parameters**                              | <ul><li>... - A list of default values.</li></ul> |
 | **Returns**                                 | <ul><li>A function that accepts a list of values and returns the same number of values, with either the value passed in or the default value if that value is `nil`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example: `cp.fn.value.default(1, 2, 3)(5, nil, 6) -- returns 5, 2, 6`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/value.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/value.lua#L17) |
 
 ---
 
@@ -44,6 +46,8 @@ A collection of functions for working with values.
 | **Parameters**                              | <ul><li>predicate - A function that takes a value and returns `true` or `false`.</li><li>... - Optional additional predicates which must all be `true` to succeed.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a value and returns the value if the predicates all return `true`, otherwise `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/value.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/value.lua#L42) |
 
 ---
 
@@ -58,6 +62,8 @@ A collection of functions for working with values.
 | **Parameters**                              | <ul><li>other - A value or a function that returns a value.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a value and returns `true` if the value is equal to the other value, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/value.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/value.lua#L95) |
 
 ---
 
@@ -72,6 +78,8 @@ A collection of functions for working with values.
 | **Parameters**                              | <ul><li>mapper - A function that takes a value and returns a value.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a value and returns the result of the mapper function, or `nil` if the value is `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/value.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/value.lua#L61) |
 
 ---
 
@@ -86,6 +94,8 @@ A collection of functions for working with values.
 | **Parameters**                              | <ul><li>predicate - A function that takes a value and returns `true` or `false`.</li><li>... - Optional additional predicates which must all be `true` to succeed.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a value and returns `true` if the value matches the all predicates, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/value.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/value.lua#L78) |
 
 ---
 

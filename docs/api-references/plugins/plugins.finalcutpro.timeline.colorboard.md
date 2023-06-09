@@ -30,6 +30,8 @@ Color Board Plugins.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L111) |
 
 ---
 
@@ -44,6 +46,8 @@ Color Board Plugins.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L127) |
 
 ---
 
@@ -58,6 +62,8 @@ Color Board Plugins.
 | **Parameters**                              | <ul><li>aspect - "global", "shadows", "midtones" or "highlights"</li><li>property - "Color", "Saturation" or "Exposure"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L81) |
 
 ---
 
@@ -72,6 +78,8 @@ Color Board Plugins.
 | **Parameters**                              | <ul><li>puck         - The puck to shift</li><li>property     - The property to shift (typically the `percent` or `angle` value for the puck)</li><li>amount       - The amount to shift the property.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L23) |
 
 ---
 
@@ -86,6 +94,8 @@ Color Board Plugins.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/colorboard.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/colorboard.lua#L68) |
 
 ---
 

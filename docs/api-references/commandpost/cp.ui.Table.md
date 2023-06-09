@@ -26,6 +26,8 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Table.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Table.lua#L15) |
 
 ---
 

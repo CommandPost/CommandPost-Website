@@ -26,6 +26,8 @@ Notes Panel for the Final Cut Pro HUD.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/notes/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/notes/init.lua#L64) |
 
 ---
 

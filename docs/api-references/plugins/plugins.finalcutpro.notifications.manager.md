@@ -31,6 +31,7 @@ Notifications Manager Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event Types                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L16) |
 
 ---
 
@@ -45,6 +46,7 @@ Notifications Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watchers                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L139) |
 
 ---
 
@@ -61,6 +63,8 @@ Notifications Manager Plugin.
 | **Parameters**                              | <ul><li>id - The ID of the watcher to unwatch as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 159](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L159) |
 
 ---
 
@@ -75,6 +79,8 @@ Notifications Manager Plugin.
 | **Parameters**                              | <ul><li>events - Events to watch</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the watcher as string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/manager.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/manager.lua#L144) |
 
 ---
 

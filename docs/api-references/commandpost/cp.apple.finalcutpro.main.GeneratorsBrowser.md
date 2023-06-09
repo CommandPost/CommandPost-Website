@@ -58,6 +58,7 @@ Generators Browser Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Titles & Generators Title.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L37) |
 
 ---
 
@@ -72,6 +73,7 @@ Generators Browser Module.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Generators Browser showing?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L68) |
 
 ---
 
@@ -88,6 +90,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L42) |
 
 ---
 
@@ -102,6 +106,7 @@ Generators Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Generators Browser Contents.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 152](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L152) |
 
 ---
 
@@ -114,6 +119,7 @@ Generators Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L164) |
 
 ---
 
@@ -126,6 +132,7 @@ Generators Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Main Group UI.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L130) |
 
 ---
 
@@ -138,6 +145,7 @@ Generators Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the Search TextField object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L173) |
 
 ---
 
@@ -150,6 +158,7 @@ Generators Browser Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The sidebar object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L143) |
 
 ---
 
@@ -166,6 +175,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>itemUI - The `axuielementObject` of the item you want to apply.</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 380](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L380) |
 
 ---
 
@@ -180,6 +191,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L333) |
 
 ---
 
@@ -194,6 +207,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 399](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L399) |
 
 ---
 
@@ -208,6 +223,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Generators Row Label as string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 287](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L287) |
 
 ---
 
@@ -222,6 +239,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The 'Titles' label.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 241](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L241) |
 
 ---
 
@@ -236,6 +255,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L105) |
 
 ---
 
@@ -250,6 +271,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>itemUI - A `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the item is selected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L359) |
 
 ---
 
@@ -264,6 +287,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>layout - A table containing the Generators Browser layout settings - created using `cp.apple.finalcutpro.main.GeneratorsBrowser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 444](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L444) |
 
 ---
 
@@ -278,6 +303,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Effects Browser Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 424](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L424) |
 
 ---
 
@@ -292,6 +319,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 346](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L346) |
 
 ---
 
@@ -306,6 +335,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L78) |
 
 ---
 
@@ -320,6 +351,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L300) |
 
 ---
 
@@ -334,6 +367,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 254](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L254) |
 
 ---
 
@@ -348,6 +383,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>name - The name of the Generators Category to show.</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L318) |
 
 ---
 
@@ -362,6 +399,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L227) |
 
 ---
 
@@ -376,6 +415,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 213](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L213) |
 
 ---
 
@@ -390,6 +431,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `GeneratorsBrowser` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L182) |
 
 ---
 
@@ -404,6 +447,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>name - The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The Generators Browser.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 272](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L272) |
 
 ---
 
@@ -418,6 +463,8 @@ Generators Browser Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The array of category rows.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/GeneratorsBrowser.lua#L198) |
 
 ---
 

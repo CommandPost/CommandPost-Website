@@ -35,6 +35,8 @@ Watch for USB device connection/disconnection events
   productID - A number containing the Product ID of the device</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L177) |
 
 ---
 
@@ -51,6 +53,8 @@ Watch for USB device connection/disconnection events
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 212](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L212) |
 
 ---
 
@@ -65,6 +69,8 @@ Watch for USB device connection/disconnection events
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/usb/libusb_watcher.m line 251](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/usb/libusb_watcher.m#L251) |
 
 ---
 

@@ -33,6 +33,8 @@ Provides support for NIB files.
 | **Parameters**                              | <ul><li>data - The `string` of bytes to unarchive.</li></ul> |
 | **Returns**                                 | <ul><li>The `table` containing the unarchived data, or `nil` if the `archive` is not a valid `NIBArchive`.</li><li>The `string` error message, if any.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/nib/archiver.lua line 358](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/nib/archiver.lua#L358) |
 
 ---
 

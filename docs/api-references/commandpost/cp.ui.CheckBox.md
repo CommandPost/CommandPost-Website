@@ -60,6 +60,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L36) |
 
 ---
 
@@ -76,6 +78,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `CheckBox`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L49) |
 
 ---
 
@@ -90,6 +94,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L70) |
 
 ---
 
@@ -102,6 +107,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L63) |
 
 ---
 
@@ -118,6 +124,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L89) |
 
 ---
 
@@ -132,6 +140,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L161) |
 
 ---
 
@@ -146,6 +156,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L140) |
 
 ---
 
@@ -160,6 +172,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 180](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L180) |
 
 ---
 
@@ -174,6 +188,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>layout - The table containing layout settings. Usually created by the `saveLayout` method.</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L214) |
 
 ---
 
@@ -188,6 +204,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 123](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L123) |
 
 ---
 
@@ -202,6 +220,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 199](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L199) |
 
 ---
 
@@ -216,6 +236,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `CheckBox` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/CheckBox.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/CheckBox.lua#L109) |
 
 ---
 

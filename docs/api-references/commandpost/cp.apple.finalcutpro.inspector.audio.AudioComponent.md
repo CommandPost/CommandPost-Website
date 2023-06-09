@@ -37,6 +37,8 @@ The Audio Configuration section of the Audio Inspector.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>subcomponent - A boolean that defines whether or not this is a subcomponent.</li><li>index - The index of the component</li></ul> |
 | **Returns**                                 | <ul><li>A new AudioComponent object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L74) |
 
 ---
 
@@ -51,6 +53,8 @@ The Audio Configuration section of the Audio Inspector.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L30) |
 
 ---
 
@@ -65,6 +69,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The channels popup menu button for the component. This only present for                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L232) |
 
 ---
 
@@ -77,6 +82,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The role popup menu button for the subcomponent. Only present for                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 266](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L266) |
 
 ---
 
@@ -89,6 +95,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The subroles popup menu button for the component. Only present for                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 249](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L249) |
 
 ---
 
@@ -105,6 +112,8 @@ The Audio Configuration section of the Audio Inspector.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 298](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L298) |
 
 ---
 
@@ -119,6 +128,8 @@ The Audio Configuration section of the Audio Inspector.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Button` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L188) |
 
 ---
 
@@ -133,6 +144,8 @@ The Audio Configuration section of the Audio Inspector.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `AudioComponent` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/audio/AudioComponent.lua#L283) |
 
 ---
 

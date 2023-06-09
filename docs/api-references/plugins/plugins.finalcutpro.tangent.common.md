@@ -42,6 +42,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 591](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L591) |
 
 ---
 
@@ -56,6 +58,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L313) |
 
 ---
 
@@ -70,6 +74,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>section - The section as it appears in the FCPX Inspector.</li><li>nextSection - The next section as it appears in the FCPX Inspector.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>index - The index of the checkbox in the section.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L622) |
 
 ---
 
@@ -84,6 +90,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li><li>resetIndex - An index of which item to use when "reset" is triggered.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L341) |
 
 ---
 
@@ -98,6 +106,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>commandID - The command ID.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 506](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L506) |
 
 ---
 
@@ -112,6 +122,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 482](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L482) |
 
 ---
 
@@ -126,6 +138,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>defaultValue - The default value to use when the reset button is pressed.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L67) |
 
 ---
 
@@ -140,6 +154,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>path - The list of menu items you'd like to activate as a table.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L571) |
 
 ---
 
@@ -154,6 +170,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>path - The list of menu items you'd like to activate as a table.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 549](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L549) |
 
 ---
 
@@ -168,6 +186,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter.</li><li>id - The Tangent ID.</li><li>value - The value to select as a string.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L41) |
 
 ---
 
@@ -182,6 +202,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L289) |
 
 ---
 
@@ -196,6 +218,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li><li>resetIndex - An index of which item to use when "reset" is triggered.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L164) |
 
 ---
 
@@ -210,6 +234,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L430) |
 
 ---
 
@@ -224,6 +250,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>shortcutID - The shortcut ID.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 527](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L527) |
 
 ---
 
@@ -238,6 +266,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li><li>default - The default value</li><li>label - An optional label as an i18n ID or plain string. If no label is supplied the `param` label will be used.</li><li>optionalParamA - An optional parameter. Useful if you need to link parameters.</li><li>optionalParamB - An optional parameter. Useful if you need to link parameters.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 752](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L752) |
 
 ---
 
@@ -252,6 +282,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li><li>default - The default value</li><li>label - An optional label as an i18n ID or plain string. If no label is supplied the `param` label will be used.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 825](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L825) |
 
 ---
 
@@ -266,6 +298,8 @@ Common Final Cut Pro functions for Tangent
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The `x` parameter value</li><li>The `y` parameter value</li><li>The xy binding</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/common.lua line 668](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/common.lua#L668) |
 
 ---
 

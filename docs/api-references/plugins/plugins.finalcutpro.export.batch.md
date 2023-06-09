@@ -49,6 +49,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Custom Filename                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L55) |
 
 ---
 
@@ -65,6 +66,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 702](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L702) |
 
 ---
 
@@ -79,6 +82,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>clips - table of selected Clips</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L115) |
 
 ---
 
@@ -93,6 +98,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 542](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L542) |
 
 ---
 
@@ -107,6 +114,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L518) |
 
 ---
 
@@ -121,6 +130,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 482](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L482) |
 
 ---
 
@@ -135,6 +146,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The destination folder path as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 571](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L571) |
 
 ---
 
@@ -149,6 +162,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The destination preset as a string, or `nil` if no preset is set.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L596) |
 
 ---
 
@@ -163,6 +178,8 @@ Timeline Batch Export Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 764](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L764) |
 
 ---
 
@@ -177,6 +194,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Custom Filename for Batch Export.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L90) |
 
 ---
 
@@ -189,6 +207,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Destination Preset.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L75) |
 
 ---
 
@@ -201,6 +220,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Background Tasks.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L110) |
 
 ---
 
@@ -213,6 +233,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Invalid Captions.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L100) |
 
 ---
 
@@ -225,6 +246,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Missing Effects.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 95](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L95) |
 
 ---
 
@@ -237,6 +259,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Ignore Proxies.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L105) |
 
 ---
 
@@ -249,6 +272,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not a Batch Export should Replace Existing Files.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L80) |
 
 ---
 
@@ -261,6 +285,7 @@ Timeline Batch Export Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Defines whether or not the Batch Export tool should override the clipname with a custom filename.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/export/batch/batch.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/export/batch/batch.lua#L85) |
 
 ---
 

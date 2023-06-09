@@ -26,6 +26,8 @@ Select All Timeline Clips
 | **Parameters**                              | <ul><li>forwards - `true` if you want to select forwards</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/selectalltimelineclips.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/selectalltimelineclips.lua#L13) |
 
 ---
 

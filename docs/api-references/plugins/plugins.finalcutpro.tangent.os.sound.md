@@ -28,6 +28,7 @@ Tangent Sound Functions.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Current Output Device.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L20) |
 
 ---
 
@@ -40,6 +41,7 @@ Tangent Sound Functions.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tangent Sound Group.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L27) |
 
 ---
 
@@ -56,6 +58,8 @@ Tangent Sound Functions.
 | **Parameters**                              | <ul><li>deps - Dependancies</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/os/sound.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/os/sound.lua#L32) |
 
 ---
 

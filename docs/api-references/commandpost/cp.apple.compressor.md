@@ -44,6 +44,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L38) |
 
 ---
 
@@ -56,6 +57,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L28) |
 
 ---
 
@@ -68,6 +70,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L33) |
 
 ---
 
@@ -80,6 +83,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L23) |
 
 ---
 
@@ -92,6 +96,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Compressor's Bundle ID                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L18) |
 
 ---
 
@@ -104,6 +109,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version this API supports.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L43) |
 
 ---
 
@@ -120,6 +126,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the Compressor Bundle ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L125) |
 
 ---
 
@@ -134,6 +142,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the application was running and restarted successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L170) |
 
 ---
 
@@ -148,6 +158,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L201) |
 
 ---
 
@@ -162,6 +174,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>waitSeconds      - if provided, we will wait for up to the specified seconds for the launch to complete.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if Compressor was either launched or focused, otherwise false (e.g. if Compressor doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L151) |
 
 ---
 
@@ -176,6 +190,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L138) |
 
 ---
 
@@ -190,6 +206,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing Compressor's filesystem path, or `nil` if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L237) |
 
 ---
 
@@ -204,6 +222,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>waitSeconds  - if provided, we will wait for the specified time for the quit to complete before returning.</li></ul> |
 | **Returns**                                 | <ul><li>The `compressor` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 219](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L219) |
 
 ---
 
@@ -218,6 +238,8 @@ Represents the Compressor application, providing functions that allow different 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/compressor/init.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/compressor/init.lua#L183) |
 
 ---
 

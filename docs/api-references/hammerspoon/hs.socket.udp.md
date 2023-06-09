@@ -136,6 +136,7 @@ from host: 192.168.0.3 port: 53057
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Timeout for the socket operations, in seconds.                                                                     |
 | **Notes**                                   | <ul><li>New [`hs.socket.udp`](#new) objects will be created with this timeout value, but can individually change it with the [`hs.socket.udp:setTimeout`](#setTimeout) method.</li><li></li><li>If the timeout value is negative, the operations will not use a timeout. The default value is `-1`.</li></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L173) |
 
 ---
 
@@ -152,6 +153,7 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 184](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L184) |
 
 ---
 
@@ -168,6 +170,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`fn` - An optional [callback function](#setCallback) for reading data from the socket, settable here for convenience.</li></ul> |
 | **Returns**                                 | <ul><li>An [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 111](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L111) |
 
 ---
 
@@ -182,6 +186,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`port` - A port number [0-65535]. Ports [1-1023] are privileged. Port 0 allows the OS to select any available port.</li><li>`fn` - An optional [callback function](#setCallback) for reading data from the socket, settable here for convenience.</li></ul> |
 | **Returns**                                 | <ul><li>An [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 208](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L208) |
 
 ---
 
@@ -198,6 +204,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`flag` - An optional boolean: `true` to enable broadcasting, `false` to disable it. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, the underlying socket in the OS will not allow you to send broadcast messages.</li><li>In order to send broadcast messages, you need to enable this functionality in the socket.</li><li>A broadcast is a UDP message to addresses like "192.168.255.255" or "255.255.255.255" that is delivered to every host on the network.</li><li>The reason this is generally disabled by default (by the OS) is to prevent accidental broadcast messages from flooding the network.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 418](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L418) |
 
 ---
 
@@ -212,6 +220,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 222](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L222) |
 
 ---
 
@@ -226,6 +236,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the socket is closed, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>UDP sockets are typically meant to be connectionless.</li><li>Sending a packet anywhere, regardless of whether or not the destination receives it, opens the socket until it is explicitly closed.</li><li>An active listening socket will not be closed, but will not be 'connected' unless the [`hs.socket.udp:connect`](#connect) method has been called.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 675](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L675) |
 
 ---
 
@@ -240,6 +252,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`host` - A string containing the hostname or IP address.</li><li>`port` - A port number [1-65535].</li><li>`fn` - An optional single-use callback function to execute after establishing the connection. The callback receives no parameters.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>* By design, UDP is a connectionless protocol, and connecting is not needed.</li><li>* Choosing to connect to a specific host/port has the following effect:</li><li> You will only be able to send data to the connected host/port;</li><li> You will only be able to receive data from the connected host/port;</li><li> You will receive ICMP messages that come from the connected host/port, such as "connection refused".</li><li>* The actual process of connecting a UDP socket does not result in any communication on the socket, it simply changes the internal state of the socket.</li><li>* You cannot bind a socket for listening after it has been connected.</li><li>* You can only connect a socket once.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 145](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L145) |
 
 ---
 
@@ -254,6 +268,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if connected, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>UDP sockets are typically meant to be connectionless.</li><li>This method will only return `true` if the [`hs.socket.udp:connect`](#connect) method has been explicitly called.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 652](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L652) |
 
 ---
 
@@ -268,6 +284,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`version` - A number containing the IP version (4 or 6) to enable or disable.</li><li>`flag` - A boolean: `true` to enable the chosen IP version, `false` to disable it. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Must be called before binding the socket. If you want to create an IPv6-only server, do something like:</li><li>  `hs.socket.udp.new(callback):enableIPv(4, false):listen(port):receive()`</li><li>The convenience constructor [`hs.socket.server`](#server) will automatically bind the socket and requires closing and relistening to use this method.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 486](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L486) |
 
 ---
 
@@ -282,6 +300,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the following keys:</li><li>  connectedAddress - `string` (`sockaddr` struct)</li><li>  connectedHost - `string`</li><li>  connectedPort - `number`</li><li>  isClosed - `boolean`</li><li>  isConnected - `boolean`</li><li>  isIPv4 - `boolean`</li><li>  isIPv4Enabled - `boolean`</li><li>  isIPv4Preferred - `boolean`</li><li>  isIPv6 - `boolean`</li><li>  isIPv6Enabled - `boolean`</li><li>  isIPv6Preferred - `boolean`</li><li>  isIPVersionNeutral - `boolean`</li><li>  localAddress - `string` (`sockaddr` struct)</li><li>  localAddress_IPv4 - `string` (`sockaddr` struct)</li><li>  localAddress_IPv6 - `string` (`sockaddr` struct)</li><li>  localHost - `string`</li><li>  localHost_IPv4 - `string`</li><li>  localHost_IPv6 - `string`</li><li>  localPort - `number`</li><li>  localPort_IPv4 - `number`</li><li>  localPort_IPv6 - `number`</li><li>  maxReceiveIPv4BufferSize - `number`</li><li>  maxReceiveIPv6BufferSize - `number`</li><li>  timeout - `number`</li><li>  userData - `string`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 699](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L699) |
 
 ---
 
@@ -296,6 +316,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`port` - A port number [0-65535]. Ports [1-1023] are privileged. Port 0 allows the OS to select any available port.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 192](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L192) |
 
 ---
 
@@ -310,6 +332,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object</li></ul>          |
 | **Notes**                                   | <ul><li>Call one of the receive methods to resume.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L243) |
 
 ---
 
@@ -324,6 +348,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`version` - An optional number containing the IP version to prefer. Anything but 4 or 6 else sets the default neutral behavior.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>If a DNS lookup returns only IPv4 results, the socket will automatically use IPv4.</li><li>If a DNS lookup returns only IPv6 results, the socket will automatically use IPv6.</li><li>If a DNS lookup returns both IPv4 and IPv6 results, then the protocol used depends on the configured preference.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 523](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L523) |
 
 ---
 
@@ -338,6 +364,7 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 237](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L237) |
 
 ---
 
@@ -352,6 +379,7 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 243](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L243) |
 
 ---
 
@@ -366,6 +394,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`fn` - Optionally supply the [read callback](#setCallback) here.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the [callback function](#setCallback), which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time & continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in one-at-a-time mode, calling this method will switch it to continuous mode.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 295](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L295) |
 
 ---
 
@@ -380,6 +410,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`fn` - Optionally supply the [read callback](#setCallback) here.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>Results are passed to the [callback function](#setCallback), which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time & continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in continuous mode, calling this method will switch it to one-at-a-time mode</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 321](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L321) |
 
 ---
 
@@ -394,6 +426,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`flag` - An optional boolean: `true` to enable port reuse, `false` to disable it. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object, or `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, only one socket can be bound to a given IP address & port at a time.</li><li>To enable multiple processes to simultaneously bind to the same address & port, you need to enable this functionality in the socket.</li><li>All processes that wish to use the address & port simultaneously must all enable reuse port on the socket bound to that port.</li><li>Must be called before binding the socket.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 452](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L452) |
 
 ---
 
@@ -408,6 +442,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`message` - A string containing data to be sent on the socket.</li><li>`host` - A string containing the hostname or IP address.</li><li>`port` - A port number [1-65535].</li><li>`tag` - An optional integer to assist with labeling writes.</li><li>`fn` - An optional single-use callback function to execute after sending the packet. The callback receives the tag parameter provided here.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>For non-connected sockets, the remote destination is specified for each packet.</li><li>If the socket has been explicitly connected with [`connect`](#connect), only the message parameter and an optional tag and/or write callback can be supplied.</li><li>Recall that connecting is optional for a UDP socket.</li><li>For connected sockets, data can only be sent to the connected address.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 347](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L347) |
 
 ---
 
@@ -422,6 +458,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`size` - An number containing the receive buffer size in bytes.</li><li>`version` - An optional number containing the IP version for which to set the buffer size. Anything but 4 or 6 else sets the same size for both.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>The default maximum size is 9216 bytes.</li><li>The theoretical maximum size of any IPv4 UDP packet is `UINT16_MAX = 65535`.</li><li>The theoretical maximum size of any IPv6 UDP packet is `UINT32_MAX = 4294967295`.</li><li>Since the OS notifies us of the size of each received UDP packet, the actual allocated buffer size for each packet is exact.</li><li>In practice the size of UDP packets is generally much smaller than the max. Most protocols will send and receive packets of only a few bytes, or will set a limit on the size of packets to prevent fragmentation in the IP layer.</li><li>If you set the buffer size too small, the sockets API in the OS will silently discard any extra data.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 555](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L555) |
 
 ---
 
@@ -438,6 +476,8 @@ from host: 192.168.0.3 port: 53057
   `sockaddr` - The sending address as a binary socket address structure. See [`parseAddress`](#parseAddress).</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 597](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L597) |
 
 ---
 
@@ -452,6 +492,8 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul><li>`timeout` - A number containing the timeout duration, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>The [`hs.socket.udp`](#new) object.</li></ul>          |
 | **Notes**                                   | <ul><li> If the timeout value is negative, the operations will not use a timeout, which is the default.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/socket/libsocket_udp.m line 628](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L628) |
 
 ---
 
@@ -466,6 +508,7 @@ from host: 192.168.0.3 port: 53057
 | **Parameters**                              | <ul></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Source**                                  | [extensions/socket/socket.lua line 249](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L249) |
 
 ---
 

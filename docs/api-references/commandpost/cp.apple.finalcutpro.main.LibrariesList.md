@@ -51,6 +51,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>filterFn - A function to filter the UI results.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 229](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L229) |
 
 ---
 
@@ -65,6 +67,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>filterFn - A function to filter the UI results.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L169) |
 
 ---
 
@@ -79,6 +83,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 389](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L389) |
 
 ---
 
@@ -93,6 +99,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to get the index of.</li></ul> |
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L331) |
 
 ---
 
@@ -107,6 +115,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>clips - A optional table of `Clip` objects.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 371](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L371) |
 
 ---
 
@@ -121,6 +131,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L293) |
 
 ---
 
@@ -135,6 +147,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>index - A number of where the clip appears in the list.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 313](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L313) |
 
 ---
 
@@ -149,6 +163,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>title - The title of a clip.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 352](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L352) |
 
 ---
 
@@ -163,6 +179,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 260](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L260) |
 
 ---
 
@@ -177,6 +195,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 247](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L247) |
 
 ---
 
@@ -191,6 +211,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L273) |
 
 ---
 
@@ -207,6 +229,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `LibrariesList` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L43) |
 
 ---
 
@@ -221,6 +245,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries List Contents UI.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L160) |
 
 ---
 
@@ -233,6 +258,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Libraries List is currently focused within FCPX.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L90) |
 
 ---
 
@@ -245,6 +271,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Libraries List is showing on screen.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L83) |
 
 ---
 
@@ -257,6 +284,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` for the player section of the Libraries List UI.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L72) |
 
 ---
 
@@ -269,6 +297,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries List Playhead.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L140) |
 
 ---
 
@@ -281,6 +310,7 @@ Libraries List Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | the Libraries List Skimming Playhead.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L147) |
 
 ---
 
@@ -297,6 +327,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Columns` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L100) |
 
 ---
 
@@ -311,6 +343,8 @@ Libraries List Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`LibrariesList` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/LibrariesList.lua#L119) |
 
 ---
 

@@ -48,6 +48,7 @@ Text to Speech Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Copy to Media Folder Preferences Key.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L52) |
 
 ---
 
@@ -62,6 +63,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Option to Add Text to Notes Field After Importing                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L82) |
 
 ---
 
@@ -74,6 +76,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not to add a custom keyword.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 137](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L137) |
 
 ---
 
@@ -86,6 +89,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not a tag should be added for the voice.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L132) |
 
 ---
 
@@ -98,6 +102,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Option to Add Text to Notes Field After Importing                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L77) |
 
 ---
 
@@ -110,6 +115,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Assign Clip Audio Role to Voice Name                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L127) |
 
 ---
 
@@ -122,6 +128,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Current Incremental Number as number                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L62) |
 
 ---
 
@@ -134,6 +141,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | String which contains the custom prefix.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L117) |
 
 ---
 
@@ -146,6 +154,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Delete File After Import                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L87) |
 
 ---
 
@@ -158,6 +167,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not a custom prefix for the generated filename is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L112) |
 
 ---
 
@@ -170,6 +180,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Includes the entered text in the filename                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L67) |
 
 ---
 
@@ -182,6 +193,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L107) |
 
 ---
 
@@ -194,6 +206,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Text to Speech Path for generated files.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L92) |
 
 ---
 
@@ -206,6 +219,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of recent items in Text to Speech Search.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L57) |
 
 ---
 
@@ -218,6 +232,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Replace Space with Underscore                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L72) |
 
 ---
 
@@ -230,6 +245,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Tag that will be added to generated voice overs.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L102) |
 
 ---
 
@@ -242,6 +258,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` then an underscore will be used in the Custom Prefix filename otherwise a dash will be used.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L122) |
 
 ---
 
@@ -254,6 +271,7 @@ Text to Speech Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Text to Speech Voice.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 97](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L97) |
 
 ---
 
@@ -270,6 +288,8 @@ Text to Speech Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the selected path or `false` if cancelled.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L142) |
 
 ---
 
@@ -284,6 +304,8 @@ Text to Speech Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 1121](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L1121) |
 
 ---
 
@@ -298,6 +320,8 @@ Text to Speech Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/text2speech/init.lua line 1063](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/text2speech/init.lua#L1063) |
 
 ---
 

@@ -30,6 +30,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Captions' section.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L22) |
 
 ---
 
@@ -42,6 +43,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of captions as a [Table](cp.ui.OldTable.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L29) |
 
 ---
 
@@ -54,6 +56,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) that will allow viewing errors in the Captions list.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L43) |
 
 ---
 
@@ -70,6 +73,8 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L69) |
 
 ---
 
@@ -84,6 +89,8 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexCaptions.lua#L54) |
 
 ---
 

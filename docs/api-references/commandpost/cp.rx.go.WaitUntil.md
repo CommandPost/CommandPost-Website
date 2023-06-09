@@ -38,6 +38,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the values to match.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L61) |
 
 ---
 
@@ -50,6 +51,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value to skip over.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L94) |
 
 ---
 
@@ -62,6 +64,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value to wait for.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L47) |
 
 ---
 
@@ -74,6 +77,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value that is skipped over.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L80) |
 
 ---
 
@@ -86,6 +90,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a predicate check values against.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L113) |
 
 ---
 
@@ -102,6 +107,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>requirement  - a `resolvable` value that will be checked.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `resolvable` matches the requirement.</li></ul>          |
 | **Notes**                                   | <ul><li>By default, it will wait until the value is `truthy` - not `nil` and not `false`.</li><li>Example:</li><li></li><li>```lua</li><li>WaitUntil(someObservable):Is(true)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L15) |
 
 ---
 
@@ -118,6 +125,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>value  - The value to wait for.</li></ul> |
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L65) |
 
 ---
 
@@ -132,6 +141,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>value  - The value to skip over.</li></ul> |
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L98) |
 
 ---
 
@@ -146,6 +157,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>value  - The value to wait for.</li></ul> |
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L51) |
 
 ---
 
@@ -160,6 +173,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>value  - The value to skip over.</li></ul> |
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L84) |
 
 ---
 
@@ -174,6 +189,8 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Parameters**                              | <ul><li>predicate  - The function that will get called to determine if it has been found.</li></ul> |
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>* Example:</li><li>```lua</li><li>WaitUntil(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/WaitUntil.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/WaitUntil.lua#L117) |
 
 ---
 

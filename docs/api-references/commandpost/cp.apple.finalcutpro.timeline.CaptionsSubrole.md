@@ -35,6 +35,8 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L16) |
 
 ---
 
@@ -51,6 +53,8 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L30) |
 
 ---
 
@@ -65,6 +69,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [StaticText](cp.ui.StaticText.md) which represents the subtitle format (e.g. "ITT", "SRT").                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L44) |
 
 ---
 
@@ -77,6 +82,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that indicates if the subtitle track is visible in the Viewer.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/CaptionsSubrole.lua#L53) |
 
 ---
 

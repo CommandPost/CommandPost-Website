@@ -35,6 +35,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the delay between retries.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L62) |
 
 ---
 
@@ -47,6 +48,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the number of times to retry.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L43) |
 
 ---
 
@@ -63,6 +65,8 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Parameters**                              | <ul><li>resolvable  - a `resolvable` value, which will be retried if it sends an `error` signal.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>Retry(someObservable)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L12) |
 
 ---
 
@@ -79,6 +83,8 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Parameters**                              | <ul><li>milliseconds - The amount of time do delay between retries.</li><li>scheduler    - The scheduler to use. Defaults to `cp.rx.util.defaultScheduler()`.</li></ul> |
 | **Returns**                                 | <ul><li>The `DelayedBy` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L66) |
 
 ---
 
@@ -93,6 +99,8 @@ It can be limited to a set number of retries, and have a delay added between ret
 | **Parameters**                              | <ul><li>count  - The number of times to retry.</li></ul> |
 | **Returns**                                 | <ul><li>The `UpTo` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Retry.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Retry.lua#L47) |
 
 ---
 

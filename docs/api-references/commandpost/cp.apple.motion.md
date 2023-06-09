@@ -39,6 +39,7 @@ Represents the Motion application, providing functions that allow different task
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Compressor's Bundle ID                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L14) |
 
 ---
 
@@ -55,6 +56,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the Compressor Bundle ID</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L96) |
 
 ---
 
@@ -69,6 +72,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the application was running and restarted successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L141) |
 
 ---
 
@@ -83,6 +88,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The motion instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L172) |
 
 ---
 
@@ -97,6 +104,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>waitSeconds      - if provided, we will wait for up to the specified seconds for the launch to complete.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if Compressor was either launched or focused, otherwise false (e.g. if Compressor doesn't exist)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L122) |
 
 ---
 
@@ -111,6 +120,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L109) |
 
 ---
 
@@ -125,6 +136,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing Compressor's filesystem path, or `nil` if the bundle identifier could not be located</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L208) |
 
 ---
 
@@ -139,6 +152,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>waitSeconds  - if provided, we will wait for the specified time for the quit to complete before returning.</li></ul> |
 | **Returns**                                 | <ul><li>The `motion` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 190](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L190) |
 
 ---
 
@@ -153,6 +168,8 @@ Represents the Motion application, providing functions that allow different task
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The motion instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/motion/init.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/motion/init.lua#L154) |
 
 ---
 

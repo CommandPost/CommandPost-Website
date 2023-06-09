@@ -48,6 +48,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `group`, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L87) |
 
 ---
 
@@ -64,6 +66,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>name - The name of the group.</li><li>manager - The Tangent Manager.</li><li>parent - The parent group.</li><li>localActive - If `true`, this group will ignore the parent's `active` status when determining its own `active` status. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L28) |
 
 ---
 
@@ -78,6 +82,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is active. It will only be active if                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L78) |
 
 ---
 
@@ -90,6 +95,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L64) |
 
 ---
 
@@ -102,6 +108,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group should ignore the parent's `enabled` state when determining if the group is active.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L71) |
 
 ---
 
@@ -118,6 +125,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>id    - The ID number of the new action</li><li>name  - The name of the action.</li><li>localActive - If true, the parent group's `active` state is ignored when determining if this action is active.</li></ul> |
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L189) |
 
 ---
 
@@ -132,6 +141,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>id    - The ID number of the new binding</li><li>name  - The name of the binding.</li></ul> |
 | **Returns**                                 | <ul><li>The new `binding`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 265](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L265) |
 
 ---
 
@@ -146,6 +157,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `controls`, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 126](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L126) |
 
 ---
 
@@ -160,6 +173,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>name - the name of the new sub-group</li><li>localActive - An optional boolean. If `true`, this group will ignore the parent's `active` status when determining its own `active` status. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L144) |
 
 ---
 
@@ -174,6 +189,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>id    - The ID number of the new menu</li><li>name  - The name of the menu.</li></ul> |
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 240](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L240) |
 
 ---
 
@@ -188,6 +205,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L100) |
 
 ---
 
@@ -202,6 +221,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>id    - The ID number of the new parameter</li><li>name  - The name of the parameter.</li></ul> |
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L215) |
 
 ---
 
@@ -216,6 +237,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The group's parents.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L113) |
 
 ---
 
@@ -230,6 +253,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `group` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 288](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L288) |
 
 ---
 
@@ -244,6 +269,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L51) |
 
 ---
 
@@ -258,6 +285,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/group.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/group.lua#L307) |
 
 ---
 

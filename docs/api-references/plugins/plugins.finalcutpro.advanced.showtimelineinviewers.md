@@ -24,6 +24,7 @@ Show Timeline In Player.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Show Timeline in Player Enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/advanced/showtimelineinviewers.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/showtimelineinviewers.lua#L14) |
 
 ---
 

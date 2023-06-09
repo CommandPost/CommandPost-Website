@@ -44,6 +44,8 @@ as described below.
 | **Parameters**                              | <ul><li>thing     - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is `named.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L238) |
 
 ---
 
@@ -58,6 +60,8 @@ as described below.
 | **Parameters**                              | <ul><li>thing     - The thing to retrieve the names from.</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 205](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L205) |
 
 ---
 
@@ -74,6 +78,8 @@ as described below.
 | **Parameters**                              | <ul><li>id - the unique ID for the value.</li><li>name - The base name of the</li><li>parent - the parent</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L24) |
 
 ---
 
@@ -88,6 +94,7 @@ as described below.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is active. It will only be active if                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L48) |
 
 ---
 
@@ -100,6 +107,7 @@ as described below.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L41) |
 
 ---
 
@@ -116,6 +124,8 @@ as described below.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `controls`, or `nil` if not specified.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L83) |
 
 ---
 
@@ -130,6 +140,8 @@ as described below.
 | **Parameters**                              | <ul><li>value - The new name value.</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L133) |
 
 ---
 
@@ -144,6 +156,8 @@ as described below.
 | **Parameters**                              | <ul><li>value - The new name value.</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L170) |
 
 ---
 
@@ -158,6 +172,8 @@ as described below.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The parent.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L57) |
 
 ---
 
@@ -172,6 +188,8 @@ as described below.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.tangent`, if available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tangent/manager/named.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tangent/manager/named.lua#L70) |
 
 ---
 

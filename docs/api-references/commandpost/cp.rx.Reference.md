@@ -30,6 +30,8 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Parameters**                              | <ul><li>action - The action to run when the reference is canceld. It will only be run once.</li></ul> |
 | **Returns**                                 | <ul><li>the [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L15) |
 
 ---
 
@@ -46,6 +48,8 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Reference.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Reference.lua#L33) |
 
 ---
 

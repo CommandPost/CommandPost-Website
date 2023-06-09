@@ -33,6 +33,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>`choice`	- The choice instance to configure.</li></ul> |
 | **Returns**                                 | <ul><li>The new choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L7) |
 
 ---
 
@@ -49,6 +51,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>`value` - The ID.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L53) |
 
 ---
 
@@ -63,6 +67,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>value - A `hs.image` image object that will be displayed next to the choice</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L67) |
 
 ---
 
@@ -77,6 +83,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>`value`	- The table of parameters.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L83) |
 
 ---
 
@@ -91,6 +99,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>`value`	- The subText title for the choice.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L39) |
 
 ---
 
@@ -105,6 +115,8 @@ Choices Builder Module.
 | **Parameters**                              | <ul><li>`value`	- The text title for the choice.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/choices/init.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/choices/init.lua#L25) |
 
 ---
 

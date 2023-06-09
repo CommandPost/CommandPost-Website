@@ -29,6 +29,8 @@ Schedules `Observables` by running all operations immediately.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `ImmediateScheduler`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L14) |
 
 ---
 
@@ -45,6 +47,8 @@ Schedules `Observables` by running all operations immediately.
 | **Parameters**                              | <ul><li>action    - The `function` to execute.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/ImmediateScheduler.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/ImmediateScheduler.lua#L27) |
 
 ---
 

@@ -62,6 +62,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`cell`   - The cell to check</li></ul> |
 | **Returns**                                 | <ul><li>The combined text value of the cell.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 40](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L40) |
 
 ---
 
@@ -76,6 +78,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`cell`   - The cell to check</li><li>`value`  - The text value to compare.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the cell text value equals the provided `value`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L69) |
 
 ---
 
@@ -90,6 +94,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`row`        - The row to disclose</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the row is disclosable and is now expanded.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L83) |
 
 ---
 
@@ -104,6 +110,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`rows`       - The array of rows to process.</li><li>`names`      - The array of names to navigate down</li></ul> |
 | **Returns**                                 | <ul><li>The row that was visited, or `nil` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L102) |
 
 ---
 
@@ -118,6 +126,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`thing`      - The thing to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is a `Table` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L27) |
 
 ---
 
@@ -132,6 +142,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`element`    - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L161) |
 
 ---
 
@@ -146,6 +158,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`element`    - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is a valid content element.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 220](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L220) |
 
 ---
 
@@ -160,6 +174,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`rows`       - The array of rows to process.</li><li>`names`      - The array of names to navigate down</li></ul> |
 | **Returns**                                 | <ul><li>The row that was visited, or `nil` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L147) |
 
 ---
 
@@ -176,6 +192,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`parent`     - The parent object.</li><li>`uiFinder`   - A `function` or `cp.prop` which will return the `axuielement` that this table represents.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Table` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L172) |
 
 ---
 
@@ -190,6 +208,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` that contains the actual rows.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L183) |
 
 ---
 
@@ -202,6 +221,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The horizontal scroll bar UI element, if present.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L203) |
 
 ---
 
@@ -214,6 +234,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the table is focused by the user.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 210](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L210) |
 
 ---
 
@@ -226,6 +247,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The vertical scroll bar UI element, if present.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L196) |
 
 ---
 
@@ -242,6 +264,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table of column headers. If the table is visible but no column headers are defined, an empty table is returned. If it's not visible, `nil` is returned.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 278](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L278) |
 
 ---
 
@@ -256,6 +280,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowUI - A table of `hs.axuielement` objects for the rows you want to deselect.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L545) |
 
 ---
 
@@ -270,6 +296,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowUI - The `hs.axuielement` object of the row you want to deselect.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L491) |
 
 ---
 
@@ -284,6 +312,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>index - The index of the row you wish to deselect.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 509](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L509) |
 
 ---
 
@@ -298,6 +328,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowNumber - The row number.</li><li>columnId - The Column ID.</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.axuielement` object for the cell, or `nil` if the cell cannot be found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 322](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L322) |
 
 ---
 
@@ -312,6 +344,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>id - The `AXIdentifier` of the column index you want to find.</li></ul> |
 | **Returns**                                 | <ul><li>A column index as a number, or `nil` if no index can be found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L301) |
 
 ---
 
@@ -326,6 +360,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>layout - A table containing the Table layout settings - created using `cp.ui.OldTable:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 654](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L654) |
 
 ---
 
@@ -340,6 +376,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`filterFn`   - An optional function that will be called to check if individual rows should be included. If not provided, all rows are returned.</li></ul> |
 | **Returns**                                 | <ul><li>Table of rows. If the table is visible but no rows match, it will be an empty table, otherwise it will be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L237) |
 
 ---
 
@@ -354,6 +392,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Table Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 630](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L630) |
 
 ---
 
@@ -368,6 +408,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowUI - A table of `hs.axuielement` objects for the rows you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 526](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L526) |
 
 ---
 
@@ -382,6 +424,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table of `hs.axuielement` objects, or `nil` if none could be found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 341](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L341) |
 
 ---
 
@@ -396,6 +440,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowUI - The `hs.axuielement` object of the row you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 456](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L456) |
 
 ---
 
@@ -410,6 +456,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>index - The index of the row you wish to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 474](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L474) |
 
 ---
 
@@ -424,6 +472,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>rowUI - The `hs.axuielement` object of the row you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 395](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L395) |
 
 ---
 
@@ -438,6 +488,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>index - The index of the row you wish to show.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 437](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L437) |
 
 ---
 
@@ -452,6 +504,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string or `nil` if an error occurs.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L565) |
 
 ---
 
@@ -466,6 +520,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>`filterFn`   - An optional function that will be called to check if individual rows should be included. If not provided, all rows are returned.</li></ul> |
 | **Returns**                                 | <ul><li>Table of rows. If the table is visible but no rows match, it will be an empty table, otherwise it will be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 262](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L262) |
 
 ---
 
@@ -480,6 +536,8 @@ Represents an AXTable in the Apple Accessibility UX API.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The frame in the form of a `hs.geometry` rect object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldTable.lua line 364](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldTable.lua#L364) |
 
 ---
 

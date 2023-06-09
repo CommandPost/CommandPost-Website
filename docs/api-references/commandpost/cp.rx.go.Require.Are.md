@@ -27,6 +27,7 @@ Specifies that the `Require`d values `Are` a specific value.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value all values from the `requirement` must match.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L101) |
 
 ---
 
@@ -43,6 +44,8 @@ Specifies that the `Require`d values `Are` a specific value.
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` items to process.</li></ul> |
 | **Returns**                                 | <ul><li>A [Require.OrThrow](cp.rx.go.Require.OrThrow.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Require.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Require.lua#L133) |
 
 ---
 

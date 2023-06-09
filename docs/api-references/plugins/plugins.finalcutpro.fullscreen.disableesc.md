@@ -24,6 +24,7 @@ Disables the ESC key when Final Cut Pro is in fullscreen mode.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Disable ESC Key Function enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/fullscreen/disableesc.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/fullscreen/disableesc.lua#L55) |
 
 ---
 

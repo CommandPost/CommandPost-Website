@@ -49,6 +49,7 @@ into whole seconds (for example, 5s).
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A time object with a value of 0/1s.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L402) |
 
 ---
 
@@ -65,6 +66,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L131) |
 
 ---
 
@@ -79,6 +82,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 228](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L228) |
 
 ---
 
@@ -93,6 +98,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>aStart - The start time of clip one as a time object.</li><li>aDuration - The duration of clip one as a time object.</li><li>bStart - The start time of clip two as a time object.</li><li>bDuration - The duration of clip two as a time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 370](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L370) |
 
 ---
 
@@ -107,6 +114,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 283](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L283) |
 
 ---
 
@@ -121,6 +130,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>numerator - A numerator as a number</li><li>denominator - A denominator as a number</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the greatest common divisor.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L102) |
 
 ---
 
@@ -135,6 +146,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L318) |
 
 ---
 
@@ -149,6 +162,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 353](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L353) |
 
 ---
 
@@ -163,6 +178,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L336) |
 
 ---
 
@@ -177,6 +194,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>object - A time object.</li><li>value - The power value</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 208](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L208) |
 
 ---
 
@@ -191,6 +210,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 168](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L168) |
 
 ---
 
@@ -205,6 +226,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A number</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 269](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L269) |
 
 ---
 
@@ -219,6 +242,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L250) |
 
 ---
 
@@ -233,6 +258,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L151) |
 
 ---
 
@@ -249,6 +276,8 @@ into whole seconds (for example, 5s).
 | **Parameters**                              | <ul><li>An optional numerator as a number (i.e. 3400) or a string value (i.e. "3400/2500s" or "2s"). Defaults to "0s".</li><li>A optional denominator as a number (i.e 2500)</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.apple.fcpxml.time` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/time.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/time.lua#L20) |
 
 ---
 

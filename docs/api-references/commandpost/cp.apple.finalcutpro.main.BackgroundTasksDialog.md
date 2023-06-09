@@ -33,6 +33,8 @@ Represents the Background Tasks warning dialog.
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `BackgroundTasksDialog``.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua#L18) |
 
 ---
 
@@ -49,6 +51,8 @@ Represents the Background Tasks warning dialog.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua#L38) |
 
 ---
 
@@ -63,6 +67,7 @@ Represents the Background Tasks warning dialog.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Cancel button.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua#L55) |
 
 ---
 
@@ -75,6 +80,7 @@ Represents the Background Tasks warning dialog.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Continue button.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BackgroundTasksDialog.lua#L66) |
 
 ---
 

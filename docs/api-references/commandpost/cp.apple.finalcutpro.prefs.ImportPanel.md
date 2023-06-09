@@ -46,6 +46,8 @@ Import Panel Module.
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `ImportPanel` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L26) |
 
 ---
 
@@ -60,6 +62,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Analyze and fix audio problems" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 194](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L194) |
 
 ---
 
@@ -72,6 +75,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Analyze video for balance color" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L158) |
 
 ---
 
@@ -84,6 +88,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Assign Role" `PopUpButton`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L122) |
 
 ---
 
@@ -96,6 +101,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Copy to library storage location" `RadioButton`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L39) |
 
 ---
 
@@ -108,6 +114,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create optimized media" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L140) |
 
 ---
 
@@ -120,6 +127,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create proxy media" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L149) |
 
 ---
 
@@ -132,6 +140,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Find people" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L167) |
 
 ---
 
@@ -144,6 +153,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Consolidate find people results" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 176](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L176) |
 
 ---
 
@@ -156,6 +166,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Smart Collections after analysis" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L185) |
 
 ---
 
@@ -168,6 +179,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Assign iXML track names if available" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L131) |
 
 ---
 
@@ -180,6 +192,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keywords from Finder tags" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L104) |
 
 ---
 
@@ -192,6 +205,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keywords from folders" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 113](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L113) |
 
 ---
 
@@ -204,6 +218,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Leave files in place" `RadioButton`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L50) |
 
 ---
 
@@ -216,6 +231,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Remove silent channels" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L212) |
 
 ---
 
@@ -228,6 +244,7 @@ Import Panel Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Separate mono and group stereo audio" `CheckBox`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 203](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L203) |
 
 ---
 
@@ -244,6 +261,8 @@ Import Panel Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua line 82](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/ImportPanel.lua#L82) |
 
 ---
 

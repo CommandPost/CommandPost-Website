@@ -27,6 +27,8 @@ Final Cut Pro Zoom Control Widget for Touch Bar.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/zoom.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/zoom.lua#L110) |
 
 ---
 
@@ -41,6 +43,8 @@ Final Cut Pro Zoom Control Widget for Touch Bar.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/touchbar/widgets/zoom.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/touchbar/widgets/zoom.lua#L14) |
 
 ---
 

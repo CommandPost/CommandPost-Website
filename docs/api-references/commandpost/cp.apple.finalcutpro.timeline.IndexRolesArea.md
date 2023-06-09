@@ -29,6 +29,8 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Parameters**                              | <ul><li>element	- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 15](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L15) |
 
 ---
 
@@ -43,6 +45,7 @@ Represents the list of Roles in the [IndexRoles](cp.apple.finalcutpro.timeline.I
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) that serves as the list of the scroll area.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexRolesArea.lua#L32) |
 
 ---
 

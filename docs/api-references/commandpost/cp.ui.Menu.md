@@ -35,6 +35,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L33) |
 
 ---
 
@@ -51,6 +53,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Menu` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L21) |
 
 ---
 
@@ -67,6 +71,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L46) |
 
 ---
 
@@ -81,6 +87,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L63) |
 
 ---
 
@@ -95,6 +103,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>index - The index number of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L81) |
 
 ---
 
@@ -109,6 +119,8 @@ UI for AXMenus.
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li><li>[altPattern] - An optional alternate pattern to match if the first pattern fails.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Menu.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Menu.lua#L131) |
 
 ---
 

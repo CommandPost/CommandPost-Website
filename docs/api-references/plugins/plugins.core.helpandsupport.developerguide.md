@@ -26,6 +26,8 @@ Developer Guide Menu Item.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/helpandsupport/developerguide.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/helpandsupport/developerguide.lua#L11) |
 
 ---
 

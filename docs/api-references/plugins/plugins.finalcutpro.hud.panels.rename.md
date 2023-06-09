@@ -37,6 +37,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L84) |
 
 ---
 
@@ -49,6 +50,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code Processing                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L79) |
 
 ---
 
@@ -61,6 +63,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Find Preference                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L44) |
 
 ---
 
@@ -73,6 +76,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Keep Original Preference                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L54) |
 
 ---
 
@@ -85,6 +89,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Padding                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L74) |
 
 ---
 
@@ -97,6 +102,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Prefix Preference                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L34) |
 
 ---
 
@@ -109,6 +115,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Replace Preference                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L49) |
 
 ---
 
@@ -121,6 +128,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Sequence mode                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L59) |
 
 ---
 
@@ -133,6 +141,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L64) |
 
 ---
 
@@ -145,6 +154,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L69) |
 
 ---
 
@@ -157,6 +167,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Suffix Preference                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L39) |
 
 ---
 
@@ -173,6 +184,8 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/rename/init.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/rename/init.lua#L106) |
 
 ---
 

@@ -24,6 +24,7 @@ Show Timeline In Player.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Use Better Quality in Angles Viewer?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/advanced/multicam.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/advanced/multicam.lua#L13) |
 
 ---
 

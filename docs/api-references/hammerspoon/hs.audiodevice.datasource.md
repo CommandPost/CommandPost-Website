@@ -29,6 +29,8 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the datasource</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1806](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1806) |
 
 ---
 
@@ -43,6 +45,8 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.audiodevice.datasource` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/audiodevice/libaudiodevice.m line 1827](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/audiodevice/libaudiodevice.m#L1827) |
 
 ---
 

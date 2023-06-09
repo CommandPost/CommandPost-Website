@@ -39,6 +39,8 @@ Timeline Appearance Popup module.
 | **Parameters**                              | <ul><li>toggle - The parent CheckBox toggle.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Appearance` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L25) |
 
 ---
 
@@ -53,6 +55,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Angles                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 136](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L136) |
 
 ---
 
@@ -65,6 +68,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Clip Height Slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L98) |
 
 ---
 
@@ -77,6 +81,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Names                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 127](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L127) |
 
 ---
 
@@ -89,6 +94,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Clip Roles                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L145) |
 
 ---
 
@@ -101,6 +107,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Waveform Height Radio Group.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L118) |
 
 ---
 
@@ -113,6 +120,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Lane Headers                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L154) |
 
 ---
 
@@ -125,6 +133,7 @@ Timeline Appearance Popup module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Zoom Slider.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L109) |
 
 ---
 
@@ -141,6 +150,8 @@ Timeline Appearance Popup module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 73](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L73) |
 
 ---
 
@@ -155,6 +166,8 @@ Timeline Appearance Popup module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Appearance` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Appearance.lua#L54) |
 
 ---
 

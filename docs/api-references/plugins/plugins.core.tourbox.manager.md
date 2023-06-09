@@ -36,6 +36,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck CT Layout                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 540](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L540) |
 
 ---
 
@@ -52,6 +53,8 @@ Loupedeck CT Manager Plugin.
 | **Parameters**                              | <ul><li>portName - The optional port name of the device.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 411](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L411) |
 
 ---
 
@@ -66,6 +69,8 @@ Loupedeck CT Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 570](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L570) |
 
 ---
 
@@ -80,6 +85,8 @@ Loupedeck CT Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 473](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L473) |
 
 ---
 
@@ -94,6 +101,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 565](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L565) |
 
 ---
 
@@ -106,6 +114,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 555](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L555) |
 
 ---
 
@@ -118,6 +127,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 550](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L550) |
 
 ---
 
@@ -130,6 +140,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Loupedeck CT support enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 498](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L498) |
 
 ---
 
@@ -142,6 +153,7 @@ Loupedeck CT Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved TourBox layouts.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/tourbox/manager/init.lua line 560](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/tourbox/manager/init.lua#L560) |
 
 ---
 

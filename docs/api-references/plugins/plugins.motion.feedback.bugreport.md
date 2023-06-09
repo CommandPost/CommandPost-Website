@@ -32,6 +32,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L34) |
 
 ---
 
@@ -44,6 +45,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Title                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L39) |
 
 ---
 
@@ -56,6 +58,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Window Width                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L29) |
 
 ---
 
@@ -72,6 +75,8 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Parameters**                              | <ul><li>bugReport - Is it a bug report or an enhancement request?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L248) |
 
 ---
 
@@ -86,6 +91,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Webview Position                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/motion/feedback/bugreport.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/motion/feedback/bugreport.lua#L44) |
 
 ---
 

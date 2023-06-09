@@ -77,6 +77,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The list of supported encoding formats.                                                                     |
 | **Notes**                                   | <ul><li>The list of supported encoding formats:</li><li>  ** `utf8`		- UTF-8. The most common format on the web, backwards compatible with ANSI/ASCII.</li><li>  ** `utf16le`	- UTF-16 (little-endian). Commonly used in Windows and Mac text files.</li><li>  ** `utf16be`	- UTF-16 (big-endian). Alternate 16-bit format, common on Linux and PowerPC-based architectures.</li></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L65) |
 
 ---
 
@@ -93,6 +94,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`value`	- The value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is a `text` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 261](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L261) |
 
 ---
 
@@ -109,6 +112,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`...`	- The list of codepoint integers.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.text` value for the list of codepoint values.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 248](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L248) |
 
 ---
 
@@ -123,6 +128,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`codepoints`	- The array of codepoint integers.</li><li>`i`			- The starting index to read from codepoints. Defaults to `1`.</li><li>`j`			- The ending index to read from codepoints. Default to `-1`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>You can use a *negative* value for `i` and `j`. If so, it will count back from then end of the `codepoints` array.</li><li>If the codepoint array begins with a Byte-Order Marker (BOM), the BOM is skipped in the resulting text.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L167) |
 
 ---
 
@@ -137,6 +144,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`value`		- The value to turn into a unicode text instance.</li><li>`encoding`	- One of the falues from `text.encoding`: `utf8`, `utf16le`, or `utf16be`. Defaults to `utf8`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 227](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L227) |
 
 ---
 
@@ -151,6 +160,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`value`		- The value to turn into a unicode text instance.</li><li>`encoding`	- One of the falues from `text.encoding`: `utf8`, `utf16le`, or `utf16be`. Defaults to `utf8`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>Calling `text(value)` is the same as calling `text.fromString(value, text.encoding.utf8)`, so simple text can be initialized via `local x = text "foo"` when the `.lua` file's encoding is UTF-8.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L132) |
 
 ---
 
@@ -167,6 +178,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`encoding` - The encoding to use when converting. Defaults to `cp.text.encoding.utf8`.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 397](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L397) |
 
 ---
 
@@ -181,6 +194,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`pattern`		- The pattern to find.</li><li>`init`			- The index to start matching from. Defaults to `1`.</li><li>`plain`			- If `true`, the pattern is treated as plain text.</li></ul> |
 | **Returns**                                 | <ul><li>the start index, the end index, followed by any captures</li></ul>          |
 | **Notes**                                   | <ul><li>If the pattern has captures, then in a successful match the captured values are also returned, after the two indices.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 293](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L293) |
 
 ---
 
@@ -195,6 +210,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of codepoints.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L381) |
 
 ---
 
@@ -209,6 +226,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>`pattern`	- The text pattern to process.</li><li>`start`		- If specified, indicates the starting position to process from. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The capture results, the whole match, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 311](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L311) |
 
 ---
 
@@ -223,6 +242,8 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Parameters**                              | <ul><li>i - See above</li><li>j - See above</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>If `j` is absent, then it is assumed to be equal to `-1` (which is the same as the string length).</li><li>In particular, the call `cp.text:sub(1,j)` returns a prefix of `s` with length `j`, and `cp.text:sub(-i)` (for a positive `i`) returns a suffix of s with length i.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L274) |
 
 ---
 

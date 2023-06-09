@@ -99,6 +99,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>thing   - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L26) |
 
 ---
 
@@ -115,6 +117,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>onSubscription  - The reference function that produces values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L39) |
 
 ---
 
@@ -129,6 +133,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>fn - A function that returns an `Observable`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L256) |
 
 ---
 
@@ -143,6 +149,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L75) |
 
 ---
 
@@ -157,6 +165,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - list of [Observables](cp.rx.Observable.md)</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 375](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L375) |
 
 ---
 
@@ -171,6 +181,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>fn - A `coroutine` or `function` to use to generate values.  Note that if a coroutine is used, the values it yields will be shared by all subscribed [Observers](cp.rx.Observer.md) (influenced by the [Scheduler](cp.rx.Scheduler.md)), whereas a new coroutine will be created for each Observer when a `function` is used.</li><li>scheduler - The scheduler</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 196](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L196) |
 
 ---
 
@@ -185,6 +197,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>filename - The name of the file used to create the Observable.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 230](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L230) |
 
 ---
 
@@ -199,6 +213,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>initial   - The first value of the range, or the upper limit if no other arguments are specified.</li><li>limit     - The second value of the range. Defaults to no limit.</li><li>step      - An amount to increment the value by each iteration. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L143) |
 
 ---
 
@@ -213,6 +229,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>t         - The `table` used to create the `Observable`.</li><li>iterator  - An iterator used to iterate the table, e.g. `pairs` or `ipairs`. Defaults to `pairs`.</li><li>keys      - If `true`, also emit the keys of the table. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 170](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L170) |
 
 ---
 
@@ -227,6 +245,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L90) |
 
 ---
 
@@ -241,6 +261,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>...     - The list of values to send as individual `onNext` values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L122) |
 
 ---
 
@@ -255,6 +277,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>value - The value to repeat.</li><li>count - The number of times to repeat the value.  If left unspecified, the value is repeated an infinite number of times.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 274](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L274) |
 
 ---
 
@@ -269,6 +293,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>message   - The message to send.</li><li>...       - The additional values to apply to the message, using `string.format` syntax.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L103) |
 
 ---
 
@@ -283,6 +309,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>...       - The `Observables` to zip.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2983](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2983) |
 
 ---
 
@@ -299,6 +327,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate used to evaluate objects. Defaults to the `identity`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 317](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L317) |
 
 ---
 
@@ -313,6 +343,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 453](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L453) |
 
 ---
 
@@ -327,6 +359,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>size    - The size of the buffer.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 487](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L487) |
 
 ---
 
@@ -341,6 +375,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>handler - An `Observable` or a `function` that returns an `Observable` to replace the source `Observable` in the event of an error.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 545](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L545) |
 
 ---
 
@@ -355,6 +391,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - One or more `Observables` to combine. A combinator is a `function` that combines the latest result from each `Observable` and returns a single value.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 604](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L604) |
 
 ---
 
@@ -369,6 +407,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 667](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L667) |
 
 ---
 
@@ -383,6 +423,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>...     - The list of `Observables` to concatenate.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 680](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L680) |
 
 ---
 
@@ -397,6 +439,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>value - The value to search for. `==` is used for equality testing.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 739](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L739) |
 
 ---
 
@@ -411,6 +455,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate   - The predicate `function` used to match values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 800](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L800) |
 
 ---
 
@@ -425,6 +471,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>time        - The number of milliseconds.</li><li>scheduler   - The scheduler. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 854](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L854) |
 
 ---
 
@@ -439,6 +487,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - Zero or more values to produce if the source completes without emitting anything.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 896](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L896) |
 
 ---
 
@@ -453,6 +503,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>time - An amount in milliseconds to delay by, or a `function` which returns this value.</li><li>scheduler - The [Scheduler](cp.rx.Scheduler.md) to run the `Observable` on. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 950](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L950) |
 
 ---
 
@@ -467,6 +519,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 989](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L989) |
 
 ---
 
@@ -481,6 +535,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>comparator - A `function` used to compare 2 values. If unspecified, `==` is used.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1022](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1022) |
 
 ---
 
@@ -495,6 +551,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>name      - Prefixes the printed messages with a name.</li><li>formatter - A function that formats one or more values to be printed. Defaults to `tostring`.</li></ul> |
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) for the subscription.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L296) |
 
 ---
 
@@ -509,6 +567,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>index - The index of the item, with an index of `1` representing the first.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1061](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1061) |
 
 ---
 
@@ -523,6 +583,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to filter values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1100) |
 
 ---
 
@@ -537,6 +599,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>handler - The handler `function` to call when `onError`/`onCompleted` occurs.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1211](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1211) |
 
 ---
 
@@ -551,6 +615,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to find a value.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1264](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1264) |
 
 ---
 
@@ -565,6 +631,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#next], but will throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1320](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1320) |
 
 ---
 
@@ -579,6 +647,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>callback - The `function` to transform values from the original `Observable`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1388](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1388) |
 
 ---
 
@@ -593,6 +663,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>callback - The function used to convert values to Observables. Defaults to the [identity](cp.rx.util#identity) function.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1402](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1402) |
 
 ---
 
@@ -607,6 +679,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1473](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1473) |
 
 ---
 
@@ -621,6 +695,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1549](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1549) |
 
 ---
 
@@ -635,6 +711,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1572](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1572) |
 
 ---
 
@@ -649,6 +727,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>callback - The `function` to transform values from the original `Observable`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1607](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1607) |
 
 ---
 
@@ -663,6 +743,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1659](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1659) |
 
 ---
 
@@ -677,6 +759,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - One or more `Observables` to merge.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1672](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1672) |
 
 ---
 
@@ -691,6 +775,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1685](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1685) |
 
 ---
 
@@ -705,6 +791,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is similar to [#first], but will not throw an error if no `onNext` signal is sent before `onCompleted`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1336](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1336) |
 
 ---
 
@@ -719,6 +807,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to partition the values.</li></ul> |
 | **Returns**                                 | <ul><li>The 'truthy' `Observable`.</li><li>The 'falsy' `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1711](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1711) |
 
 ---
 
@@ -733,6 +823,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - The key to extract from the `table`. Multiple keys can be specified to recursively pluck values from nested tables.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1725](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1725) |
 
 ---
 
@@ -747,6 +839,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>accumulator - Accumulates the values of the original `Observable`. Will be passed the return value of the last call as the first argument and the current values as the rest of the arguments.</li><li>seed - An optional value to pass to the accumulator the first time it is run.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1758](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1758) |
 
 ---
 
@@ -761,6 +855,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to reject values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1821](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1821) |
 
 ---
 
@@ -775,6 +871,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>count - The maximum number of times to retry. If left unspecified, an infinite number of retries will be attempted.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1877](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1877) |
 
 ---
 
@@ -789,6 +887,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>count - The maximum number of times to retry.  If left unspecified, an infinite number of retries will be attempted.</li><li>delay - The `function` returning or a `number` representing the delay in milliseconds or a `function`. If left unspecified, defaults to 1000 ms (1 second).</li><li>scheduler - The [Scheduler](cp.rx.Scheduler.md) to use. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1935](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1935) |
 
 ---
 
@@ -803,6 +903,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>sampler - The `Observable` that is used to sample values from this `Observable`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1999](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1999) |
 
 ---
 
@@ -817,6 +919,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>accumulator - Accumulates the values of the original `Observable`. Will be passed the return value of the last call as the first argument and the current values as the rest of the arguments. Each value returned from this `function` will be emitted by the `Observable`.</li><li>seed - A value to pass to the accumulator the first time it is run.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2064](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2064) |
 
 ---
 
@@ -831,6 +935,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>n - The number of values to ignore. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2125) |
 
 ---
 
@@ -845,6 +951,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>count - The number of items to omit from the end.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2188](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2188) |
 
 ---
 
@@ -859,6 +967,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>other - The `Observable` that triggers the production of values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2245) |
 
 ---
 
@@ -873,6 +983,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to continue skipping values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2307) |
 
 ---
 
@@ -887,6 +999,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>values - The values to produce before the Observable begins producing values normally.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2368) |
 
 ---
 
@@ -901,6 +1015,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>observer - Either an [Observer](cp.rx.Observer.md) or a `function` to be called when the Observable produces a value.</li><li>onError - A `function` to be called when the Observable terminates due to an error.</li><li>onCompleted - A 'function` to be called when the Observable completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>A [Reference](cp.rx.Reference.md) which can be used to cancel the subscription.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 56](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L56) |
 
 ---
 
@@ -915,6 +1031,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2385](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2385) |
 
 ---
 
@@ -929,6 +1047,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2398](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2398) |
 
 ---
 
@@ -943,6 +1063,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>alternate - An `Observable` to switch to if this does not send any `onNext` values before the `onCompleted`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 1157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L1157) |
 
 ---
 
@@ -957,6 +1079,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>n - The number of elements to produce before completing. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2459](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2459) |
 
 ---
 
@@ -971,6 +1095,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>count - The number of elements to produce.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2527](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2527) |
 
 ---
 
@@ -985,6 +1111,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>other - The `Observable` that triggers completion of the original.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2582](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2582) |
 
 ---
 
@@ -999,6 +1127,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>predicate - The predicate `function` used to continue production of values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2632](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2632) |
 
 ---
 
@@ -1013,6 +1143,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>onNext - Run when the `Observable` produces values.</li><li>onError - Run when the `Observable` encounters a problem.</li><li>onCompleted - Run when the `Observable` completes.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2694](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2694) |
 
 ---
 
@@ -1027,6 +1159,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>timeInMs - The time in milliseconds to wait before an error is emitted.</li><li>next - If a `string`, it will be sent as an error. If an `Observable`, switch to that `Observable` instead of sending an error.</li><li>scheduler - The scheduler to use. If not specified, it will use the [defaultScheduler](cp.rx.util#defaultScheduler].</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2764](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2764) |
 
 ---
 
@@ -1041,6 +1175,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2859](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2859) |
 
 ---
 
@@ -1055,6 +1191,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2872](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2872) |
 
 ---
 
@@ -1069,6 +1207,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
 | **Parameters**                              | <ul><li>... - The `Observables` to include the most recent values from.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observable.lua line 2902](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observable.lua#L2902) |
 
 ---
 

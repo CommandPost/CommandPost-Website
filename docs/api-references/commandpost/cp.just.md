@@ -29,6 +29,8 @@ delayed, up to a finite number of loops.
 | **Parameters**                              | <ul><li>`actionFn`	- a fuction which is called on each loop. It should return a 'truthy' value.</li><li>`timeout`	- (optional) the number of seconds after which we will give up. Defaults to 1 second.</li><li>`frequency`	- (optional) the amount of time in seconds between checks. Defaults to 1 millisecond.</li></ul> |
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L42) |
 
 ---
 
@@ -43,6 +45,8 @@ delayed, up to a finite number of loops.
 | **Parameters**                              | <ul><li>`actionFn`	- a fuction which is called on each loop. It should return a 'truthy' value.</li><li>`timeout`	- (optional) the number of seconds after which we will give up. Defaults to 1 second.</li><li>`frequency`	- (optional) the time between checks. Defaults to 1 millisecond.</li></ul> |
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L16) |
 
 ---
 
@@ -57,6 +61,8 @@ delayed, up to a finite number of loops.
 | **Parameters**                              | <ul><li>periodInSeconds - the number of seconds to pause for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/just/init.lua line 68](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/just/init.lua#L68) |
 
 ---
 

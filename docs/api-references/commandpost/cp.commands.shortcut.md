@@ -45,6 +45,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>`receiverFn`     - (optional) a function which will get passed the shortcut when the build is complete.</li></ul> |
 | **Returns**                                 | <ul><li>`shortcut.builder` which can be used to create the shortcut.</li></ul>          |
 | **Notes**                                   | <ul><li>If provided, the receiver function will be called when the shortcut has been configured, and passed the new</li><li>  shortcut. The result of that function will be returned to the next stage.</li><li>  If no `receiverFn` is provided, the shortcut will be returned directly.</li><li></li><li>  The builder is additive. You can create a complex keystroke combo by</li><li>  chaining the shortcut names together.</li><li></li><li>  For example:</li><li></li><li>    `local myShortcut = shortcut.build():cmd():alt("x")`</li><li></li><li>  Alternately, provide a `receiver` function and it will get passed the shortcut instead:</li><li></li><li>    `shortcut.build(function(shortcut) self._myShortcut = shortcut end):cmd():alt("x")`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L69) |
 
 ---
 
@@ -59,6 +61,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>`modifiers`  - The modifiers.</li><li>`keyCode`    - The key code.</li></ul> |
 | **Returns**                                 | <ul><li>shortcut - The shortcut that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 51](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L51) |
 
 ---
 
@@ -73,6 +77,7 @@ Shortcut Commands
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the shortcut is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L124) |
 
 ---
 
@@ -89,6 +94,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>`pressedFn`  - (optional) If present, this is called when the shortcut combo is pressed.</li><li>`releasedFn` - (optional) If present, this is called when the shortcut combo is released.</li><li>`repeatedFn` - (optional) If present, this is called when the shortcut combo is repeated.</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul><li>If the shortcut is enabled, the hotkey will also be enabled at this point.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L169) |
 
 ---
 
@@ -103,6 +110,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L231) |
 
 ---
 
@@ -117,6 +126,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L155) |
 
 ---
 
@@ -131,6 +142,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L141) |
 
 ---
 
@@ -145,6 +158,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`string` containing the keycode of the shortcut.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L111) |
 
 ---
 
@@ -159,6 +174,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`table` containing the modifiers of the shortcut.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L98) |
 
 ---
 
@@ -173,6 +190,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>app - An optional `hs.application` object.</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 244](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L244) |
 
 ---
 
@@ -187,6 +206,8 @@ Shortcut Commands
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`self`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/commands/shortcut.lua line 212](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L212) |
 
 ---
 

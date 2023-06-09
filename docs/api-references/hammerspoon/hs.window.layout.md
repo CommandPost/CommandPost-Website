@@ -107,6 +107,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | When "active mode" windowlayouts apply a rule, they will pause briefly for this amount of time in seconds, to allow windows                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_layout.lua line 598](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L598) |
 
 ---
 
@@ -119,6 +120,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The number of seconds to wait, after a screen configuration change has been detected, before                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/window/window_layout.lua line 736](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L736) |
 
 ---
 
@@ -135,6 +137,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>rules - see `hs.window.layout.new()`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>this is a convenience wrapper for "passive mode" use that creates, applies, and deletes a windowlayout object;</li><li>   do *not* use shared windowfilters in `rules`, as they'll be deleted; you can just use constructor argument maps instead</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 871](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L871) |
 
 ---
 
@@ -149,6 +153,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 849](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L849) |
 
 ---
 
@@ -163,6 +169,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 860](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L860) |
 
 ---
 
@@ -179,6 +187,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>rules - a table containing the rules for this windowlayout (see the module description); additionally, if a special key `screens` is present, its value must be a valid screen configuration as per `hs.window.layout:setScreenConfiguration()`</li><li>logname - (optional) name of the `hs.logger` instance for the new windowlayout; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the `hs.logger` instance for the new windowlayout</li></ul> |
 | **Returns**                                 | <ul><li>a new windowlayout instance</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 311](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L311) |
 
 ---
 
@@ -195,6 +205,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>if a screen configuration is defined for this windowfilter, and currently not satisfied, this method will do nothing</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 576](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L576) |
 
 ---
 
@@ -209,6 +221,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the rules of this windowlayout; you can pass this table (optionally</li><li>   after performing valid manipulations) to `hs.window.layout.new()`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 342](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L342) |
 
 ---
 
@@ -223,6 +237,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 683](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L683) |
 
 ---
 
@@ -237,6 +253,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>if a screen configuration is defined for this windowfilter, and currently not satisfied, this method will do nothing</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 641](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L641) |
 
 ---
 
@@ -254,6 +272,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
   an `hs.geometry` point (or constructor argument) - the screen must be present and in this specific position in the current arrangement (as per `hs.screen:position()`)</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>If `screens` is `nil`, any previous screen configuration is removed, and this windowlayout will be always allowed</li><li>For "active" windowlayouts, call this method *before* calling `hs.window.layout:start()`</li><li>By using `hs.geometry` size objects as hints you can define separate layouts for the same physical screen at different resolutions</li><li>With this method you can define different windowlayouts for different screen configurations (as per System Preferences->Displays->Arrangement).</li><li>For example, suppose you define two "graphics design work" windowlayouts, one for "desk with dual monitors" and one for "laptop only mode":</li><li>  "passive mode" use: you call `:apply()` on *both* on your chosen hotkey (via `hs.hotkey:bind()`), but only the appropriate layout for the current arrangement will be applied</li><li>  "active mode" use: you just call `:start()` on both windowlayouts; as you switch between workplaces (by attaching or detaching external screens) the correct layout "kicks in" automatically - this is in effect a convenience wrapper that calls `:pause()` on the no longer relevant layout, and `:resume()` on the appropriate one, at every screen configuration change</li></ul> |
+| **Examples**                                | <ul><li>```lua</li><li>local laptop_layout,desk_layout=... -- define your layouts</li><li>-- just the laptop screen:</li><li>laptop_layout:setScreenConfiguration{['Color LCD']='0,0',dell=false,['3840x2160']=false}:start()</li><li>-- attached to a 4k primary + a Dell on the right:</li><li>desk_layout:setScreenConfiguration{['3840x2160']='0,0',['dell']='1,0',['Color LCD']='-1,0'}:start()</li><li>-- as above, but in clamshell mode (laptop lid closed):</li><li>clamshell_layout:setScreenConfiguration{['3840x2160']='0,0',['dell']='1,0',['Color LCD']=false}:start()</li><li>```</li></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 792](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L792) |
 
 ---
 
@@ -268,6 +288,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul><li>If a screen configuration is defined for this windowfilter, and currently not satisfied, this windowfilter will be put in "active mode" but will remain paused until the screen configuration requirements are met</li><li>When in active mode, a windowlayout instance will constantly monitor the windowfilters for its rules, by subscribing to all the relevant events. As soon as any change is detected (e.g. when you drag a window, switch focus, open or close apps/windows, etc.) the relative rule will be automatically re-applied. In other words, the rules you defined will remain enforced all the time, instead of waiting for manual intervention via `hs.window.layout:apply()`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 620](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L620) |
 
 ---
 
@@ -282,6 +304,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `hs.window.layout` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/window/window_layout.lua line 705](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_layout.lua#L705) |
 
 ---
 

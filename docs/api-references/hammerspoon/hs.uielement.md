@@ -38,6 +38,8 @@ A generalized framework for working with OSX UI elements
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.uielement` object or nil if no object could be found</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement.m line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L12) |
 
 ---
 
@@ -54,6 +56,8 @@ A generalized framework for working with OSX UI elements
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is an application</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/uielement.lua line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/uielement.lua#L14) |
 
 ---
 
@@ -68,6 +72,8 @@ A generalized framework for working with OSX UI elements
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is a window, otherwise false</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement.m line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L29) |
 
 ---
 
@@ -86,6 +92,8 @@ A generalized framework for working with OSX UI elements
   userData: The userData you included, if any.</li><li>an optional userData object which will be included as the final argument to the callback function when it is called.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.uielement.watcher` object, or `nil` if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement.m line 86](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L86) |
 
 ---
 
@@ -100,6 +108,8 @@ A generalized framework for working with OSX UI elements
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the role of the UI element</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement.m line 47](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L47) |
 
 ---
 
@@ -114,6 +124,8 @@ A generalized framework for working with OSX UI elements
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the selected text, or nil if none could be found</li></ul>          |
 | **Notes**                                   | <ul><li>Many applications (e.g. Safari, Mail, Firefox) do not implement the necessary accessibility features for this to work in their web views</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement.m line 65](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement.m#L65) |
 
 ---
 

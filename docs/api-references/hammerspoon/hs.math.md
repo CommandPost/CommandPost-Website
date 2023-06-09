@@ -68,6 +68,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Smallest positive floating point number representable in Hammerspoon                                                                     |
 | **Notes**                                   | <ul><li>Because specifying a delay of 0 to `hs.timer.doAfter` results in the event not triggering, use this value to indicate that the action should occur as soon as possible after the current code block has completed execution.</li></ul> |
+| **Source**                                  | [extensions/math/math.lua line 96](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L96) |
 
 ---
 
@@ -84,6 +85,8 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Parameters**                              | <ul><li>`value` - the value to be tested</li></ul> |
 | **Returns**                                 | <ul><li>true if the value is a finite number, or false otherwise</li></ul>          |
 | **Notes**                                   | <ul><li>This function returns true if the value is a number and both [hs.math.isNaN](#isNaN) and [hs.math.isInfinite](#isInfinite) return false.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/math/math.lua line 78](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L78) |
 
 ---
 
@@ -98,6 +101,8 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Parameters**                              | <ul><li>`value` - the value to be tested</li></ul> |
 | **Returns**                                 | <ul><li>1 if the value is equivalent to positive infinity, -1 if the value is equivalent to negative infinity, or false otherwise.</li></ul>          |
 | **Notes**                                   | <ul><li>This function specifically checks if the `value` is equivalent to positive or negative infinity --- it does not do type checking. If `value` is not a numeric value (e.g. a string), it *cannot* be equivalent to positive or negative infinity and will return false.</li><li>Because lua treats any value other than `nil` and `false` as `true`, the return value of this function can be safely used in conditionals when you don't care about the sign of the infinite value.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/math/math.lua line 61](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L61) |
 
 ---
 
@@ -112,6 +117,8 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Parameters**                              | <ul><li>`value` - the value to be tested</li></ul> |
 | **Returns**                                 | <ul><li>true if `value` is equal to the mathematical "value" of NaN, or false otherwise</li></ul>          |
 | **Notes**                                   | <ul><li>Mathematical `NaN` represents an impossible value, usually the result of a calculation, yet is still considered within the domain of mathematics. The most common case is the result of `n / 0` as division by 0 is considered undefined or "impossible".</li><li>This function specifically checks if the `value` is `NaN` --- it does not do type checking. If `value` is not a numeric value (e.g. a string), it *cannot* be equivalent to `NaN` and this function will return false.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/math/math.lua line 44](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L44) |
 
 ---
 
@@ -126,6 +133,8 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A random number between 0 and 1</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/math/libmath.m line 6](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/libmath.m#L6) |
 
 ---
 
@@ -140,6 +149,8 @@ Additional functions and values that are specific to Hammerspoon which provide e
 | **Parameters**                              | <ul><li>start - A number to start the range, must be greater than or equal to zero</li><li>end - A number to end the range, must be greater than zero and greater than `start`</li></ul> |
 | **Returns**                                 | <ul><li>A randomly chosen integer between `start` and `end`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/math/libmath.m line 26](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/libmath.m#L26) |
 
 ---
 

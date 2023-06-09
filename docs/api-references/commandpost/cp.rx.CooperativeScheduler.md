@@ -32,6 +32,8 @@ manually.
 | **Parameters**                              | <ul><li>currentTime     - A time to start the scheduler at. Defaults to `0`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `CooperativeScheduler`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L18) |
 
 ---
 
@@ -48,6 +50,8 @@ manually.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the scheduler is empty, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L102) |
 
 ---
 
@@ -62,6 +66,8 @@ manually.
 | **Parameters**                              | <ul><li>action - The `function` to execute. Will be converted into a coroutine. The coroutine may yield execution back to the scheduler with an optional number, which will put it to sleep for a time period.</li><li>delay - Delay execution of the action by a virtual time period. Defaults to `0`.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L36) |
 
 ---
 
@@ -76,6 +82,8 @@ manually.
 | **Parameters**                              | <ul><li>delta - An amount of time to advance the clock by. It is common to pass in the time in seconds or milliseconds elapsed since this function was last called. Defaults to `0`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/CooperativeScheduler.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/CooperativeScheduler.lua#L67) |
 
 ---
 

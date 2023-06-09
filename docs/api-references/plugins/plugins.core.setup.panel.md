@@ -47,6 +47,7 @@ CommandPost Setup Window Panel.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The ID for the Webview                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L17) |
 
 ---
 
@@ -63,6 +64,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of panels.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L147) |
 
 ---
 
@@ -77,6 +80,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the current panel number, or `0` if no panels are registered.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L160) |
 
 ---
 
@@ -91,6 +96,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of panels remaining to be processed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/init.lua line 173](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/init.lua#L173) |
 
 ---
 
@@ -107,6 +114,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>priority - Defines the order in which the panel appears.</li><li>id       - The unique ID for the panel.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L22) |
 
 ---
 
@@ -123,6 +132,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>params - The list of parameters.</li></ul> |
 | **Returns**                                 | <ul><li>The same panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table may contain:</li><li> ** `id`        - (optional) the unique ID for the button. If none is provided, one is generated.</li><li> ** `value`     - The value of the button. This is sent to the `onclick` function.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li><li> ** `onclick`   - the function to execute when the button is clicked. The function should have the signature of `function(id, value)`, where `id` is the id of the button that was clicked, and `value` is the value of the button.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 352](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L352) |
 
 ---
 
@@ -137,6 +148,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>`params`     - The set of parameters for the checkbox.</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`        - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`      - (optional) The name of the checkbox field.</li><li> ** `label`     - (optional) The text label to display after the checkbox.</li><li> ** `onchange`  - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`     - (optional) the CSS class list to apply to the checkbox.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L182) |
 
 ---
 
@@ -151,6 +164,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>`content` - a value that can be converted to a string.</li><li>`escaped` - if `true`, the content will not be escaped. Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L72) |
 
 ---
 
@@ -165,6 +180,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>`content` - a value that can be converted to a string.</li><li>`unescaped` - if `true`, the content will not be escaped. Defaults to true.</li></ul> |
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L87) |
 
 ---
 
@@ -179,6 +196,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>event - The event</li><li>id - the Handler ID</li><li>handlerFn - The Handler function</li><li>keys - Keys</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L115) |
 
 ---
 
@@ -193,6 +212,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>text - The text of the heading as a string</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 220](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L220) |
 
 ---
 
@@ -207,6 +228,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>src - Location of the icon.</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 331](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L331) |
 
 ---
 
@@ -221,6 +244,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>content - The content as a string</li><li>escaped - Whether or not the HTML should be escaped as a boolean</li><li>class - The class as a string</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L167) |
 
 ---
 
@@ -235,6 +260,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 273](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L273) |
 
 ---
 
@@ -249,6 +276,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 300](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L300) |
 
 ---
 
@@ -263,6 +292,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>text - The text of the sub-heading as a string</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 233](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L233) |
 
 ---
 
@@ -277,6 +308,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 246](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L246) |
 
 ---
 
@@ -291,6 +324,8 @@ CommandPost Setup Window Panel.
 | **Parameters**                              | <ul><li>`id` - the Handler ID</li></ul> |
 | **Returns**                                 | <ul><li>A handler.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/setup/panel.lua line 102](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/setup/panel.lua#L102) |
 
 ---
 

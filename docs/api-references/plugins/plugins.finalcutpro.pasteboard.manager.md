@@ -56,6 +56,7 @@ Pasteboard Manager.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of Pasteboard Buffers.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L66) |
 
 ---
 
@@ -68,6 +69,7 @@ Pasteboard Manager.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | How long to wait until we restart any Pasteboard Watchers in milliseconds.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 71](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L71) |
 
 ---
 
@@ -82,6 +84,7 @@ Pasteboard Manager.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of data we don't want to count when copying.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L76) |
 
 ---
 
@@ -94,6 +97,7 @@ Pasteboard Manager.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The Pasteboard Watcher Update frequency.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L61) |
 
 ---
 
@@ -110,6 +114,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 270](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L270) |
 
 ---
 
@@ -124,6 +130,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>id        - The ID to decode</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that sends the decoded buffer, or throws an error if not available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 605](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L605) |
 
 ---
 
@@ -138,6 +146,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>id - The ID of the buffer item.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 626](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L626) |
 
 ---
 
@@ -152,6 +162,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>id - The ID of the buffer item.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 555](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L555) |
 
 ---
 
@@ -166,6 +178,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>newData - The new Pasteboard data.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 535](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L535) |
 
 ---
 
@@ -180,6 +194,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>oldData - The original Pasteboard data.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 515](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L515) |
 
 ---
 
@@ -194,6 +210,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>data - The data object to process</li></ul> |
 | **Returns**                                 | <ul><li>Class name as string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L161) |
 
 ---
 
@@ -208,6 +226,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>data - The pasteboard data you want to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if a timeline clip otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L86) |
 
 ---
 
@@ -222,6 +242,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li><li>The pasteboard data</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 677](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L677) |
 
 ---
 
@@ -236,6 +258,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>overrideName - The override name.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L257) |
 
 ---
 
@@ -250,6 +274,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>data - The data object to process</li></ul> |
 | **Returns**                                 | <ul><li>The primary clip name as a string.</li><li>The number of clips as number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L124) |
 
 ---
 
@@ -264,6 +290,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>fcpxData - The data object to process</li><li>default - The default value</li></ul> |
 | **Returns**                                 | <ul><li>Returns the 'default' value if the pasteboard contains a media clip but we could not interpret it, otherwise `nil` if the data did not contain Final Cut Pro Clip data.</li></ul>          |
 | **Notes**                                   | <ul><li>Example usage: `local name = mod.findClipName(myFcpxData, "Unknown")`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L225) |
 
 ---
 
@@ -278,6 +306,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>data - The pasteboard data you want to check.</li></ul> |
 | **Returns**                                 | <ul><li>The primary clip name as a string.</li><li>The number of clips as number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L99) |
 
 ---
 
@@ -292,6 +322,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The pasteboard data or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 289](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L289) |
 
 ---
 
@@ -306,6 +338,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 410](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L410) |
 
 ---
 
@@ -320,6 +354,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 486](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L486) |
 
 ---
 
@@ -334,6 +370,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>data - The data object to process</li></ul> |
 | **Returns**                                 | <ul><li>`true` if supported otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L147) |
 
 ---
 
@@ -348,6 +386,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>fcpxData - The data object to process</li></ul> |
 | **Returns**                                 | <ul><li>The unarchived Final Cut Pro Pasteboard data or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 310](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L310) |
 
 ---
 
@@ -362,6 +402,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>id - The ID of the watcher you want to stop.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 387](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L387) |
 
 ---
 
@@ -376,6 +418,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>events - Table of events</li></ul> |
 | **Returns**                                 | <ul><li>Table of watchers.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 360](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L360) |
 
 ---
 
@@ -390,6 +434,8 @@ Pasteboard Manager.
 | **Parameters**                              | <ul><li>fcpxData - The data to write</li><li>quiet - Whether or not we should stop/start the watcher.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the operation succeeded, otherwise `false` (which most likely means ownership of the pasteboard has changed).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 340](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L340) |
 
 ---
 
@@ -404,6 +450,7 @@ Pasteboard Manager.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the Pasteboard Buffer.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 510](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L510) |
 
 ---
 
@@ -416,6 +463,7 @@ Pasteboard Manager.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets whether or not we're watching the pasteboard as a boolean.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/pasteboard/manager.lua line 503](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/pasteboard/manager.lua#L503) |
 
 ---
 

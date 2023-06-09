@@ -85,6 +85,8 @@ Core CommandPost functionality.
 | **Parameters**                              | <ul><li>pathToImage - path to the image</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/web/generate.lua line 230](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/generate.lua#L230) |
 
 ---
 
@@ -99,6 +101,8 @@ Core CommandPost functionality.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp//init.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//init.lua#L44) |
 
 ---
 
@@ -113,6 +117,7 @@ Core CommandPost functionality.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which connects a clip from the Browser to the Primary Storyline in the Timeline.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/Toolbar.lua#L79) |
 
 ---
 

@@ -24,6 +24,7 @@ Orders clips on a timeline by timecode.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Gaps?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/autosequence/init.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/autosequence/init.lua#L35) |
 
 ---
 

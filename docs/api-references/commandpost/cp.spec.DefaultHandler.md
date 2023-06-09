@@ -35,6 +35,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L110) |
 
 ---
 
@@ -49,6 +51,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L96) |
 
 ---
 
@@ -63,6 +67,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>msg       - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L141) |
 
 ---
 
@@ -77,6 +83,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>text - The message to print.</li><li>... - The parameters to interpolate into the text message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L38) |
 
 ---
 
@@ -91,6 +99,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L22) |
 
 ---
 
@@ -105,6 +115,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run - the [run](cp.spec.Run.md)</li><li>msg - the message string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L79) |
 
 ---
 
@@ -119,6 +131,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run - the [run](cp.spec.Run.md)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L66) |
 
 ---
 
@@ -133,6 +147,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run      - the [run](cp.spec.Run.md)</li><li>report    - the [report](cp.spec.Report.md)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L155) |
 
 ---
 
@@ -147,6 +163,8 @@ outputs via the standard `print` function.
 | **Parameters**                              | <ul><li>run - run</li><li>timeout - timeout</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/DefaultHandler.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/DefaultHandler.lua#L124) |
 
 ---
 

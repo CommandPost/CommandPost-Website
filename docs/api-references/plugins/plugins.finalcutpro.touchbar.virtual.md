@@ -35,6 +35,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is displayed in the top centre of the Final Cut Pro timeline                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 432](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L432) |
 
 ---
 
@@ -47,6 +48,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is Always Visible                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 417](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L417) |
 
 ---
 
@@ -59,6 +61,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default visibility.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 427](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L427) |
 
 ---
 
@@ -71,6 +74,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is only visible when Final Cut Pro is active.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 422](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L422) |
 
 ---
 
@@ -87,6 +91,8 @@ Virtual Touch Bar Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L202) |
 
 ---
 
@@ -101,6 +107,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 397](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L397) |
 
 ---
 
@@ -113,6 +120,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Virtual Touch Bar Location Setting                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/virtual/init.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/virtual/init.lua#L43) |
 
 ---
 
@@ -125,6 +133,7 @@ Virtual Touch Bar Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | When should the Virtual Touch Bar be visible?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/prefs/init.lua line 439](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/prefs/init.lua#L439) |
 
 ---
 

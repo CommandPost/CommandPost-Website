@@ -35,6 +35,7 @@ A collection of tools for handling FCPXML Documents.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of elements that have an `offset` attribute.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/init.lua#L20) |
 
 ---
 
@@ -51,6 +52,8 @@ A collection of tools for handling FCPXML Documents.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The latest DTD version as a string, for example: "1.8".</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/init.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/init.lua#L61) |
 
 ---
 
@@ -65,6 +68,8 @@ A collection of tools for handling FCPXML Documents.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of supported DTD versions as strings.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/init.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/init.lua#L38) |
 
 ---
 
@@ -79,6 +84,8 @@ A collection of tools for handling FCPXML Documents.
 | **Parameters**                              | <ul><li>path - The path and path of the FCPXML document you want to validate.</li><li>version - The optional FCPXML version you want to validate against.</li></ul> |
 | **Returns**                                 | <ul><li>The FCPXML path or `false` if not valid.</li><li>The output from xmllint as a string.</li></ul>          |
 | **Notes**                                   | <ul><li>If a version is not supplied, we will try and read the version</li><li>   from the file itself, and if that's not possible, we'll default</li><li>   to the latest FCPXML version.</li><li>If a `fcpxmld` bundle path is supplied, this function will return</li><li>   the path to the `Info.fcpxml` document if valid.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/fcpxml/init.lua line 76](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/fcpxml/init.lua#L76) |
 
 ---
 

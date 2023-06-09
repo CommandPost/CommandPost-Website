@@ -35,6 +35,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `EditingPanel` for the Preferences Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L79) |
 
 ---
 
@@ -47,6 +48,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `GeneralPanel` for the Preferences Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L72) |
 
 ---
 
@@ -59,6 +61,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ImportPanel` for the Preferences Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L93) |
 
 ---
 
@@ -71,6 +74,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PlaybackPanel` for the Preferences Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L86) |
 
 ---
 
@@ -83,6 +87,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` for the Preferences Window title.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L50) |
 
 ---
 
@@ -95,6 +100,7 @@ Preferences Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Toolbar` for the Preferences Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L61) |
 
 ---
 
@@ -111,6 +117,8 @@ Preferences Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L157) |
 
 ---
 
@@ -125,6 +133,8 @@ Preferences Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L121) |
 
 ---
 
@@ -139,6 +149,8 @@ Preferences Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 138](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L138) |
 
 ---
 
@@ -153,6 +165,8 @@ Preferences Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/prefs/PreferencesWindow.lua#L100) |
 
 ---
 

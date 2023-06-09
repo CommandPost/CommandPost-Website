@@ -32,6 +32,8 @@ They also have a few additional methods to assist with managing the size.
 | **Parameters**                              | <ul><li>...       - The items to put in the list, in order.</li></ul> |
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 35](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L35) |
 
 ---
 
@@ -46,6 +48,8 @@ They also have a few additional methods to assist with managing the size.
 | **Parameters**                              | <ul><li>size          - The size of the list. Defaults to `0`.</li><li>defaultValue  - If specified, all items in the list will be initialised to the default value.</li></ul> |
 | **Returns**                                 | <ul><li>The new `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L9) |
 
 ---
 
@@ -62,6 +66,8 @@ They also have a few additional methods to assist with managing the size.
 | **Parameters**                              | <ul><li>newSize       - if provided, sets the new size of the list. Any values contained above the new size are set to `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>The size of the list.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 88](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L88) |
 
 ---
 
@@ -76,6 +82,8 @@ They also have a few additional methods to assist with managing the size.
 | **Parameters**                              | <ul><li>minSize   - If provided, the minimum size to trim down to. Defaults to `0`.</li></ul> |
 | **Returns**                                 | <ul><li>The same `List` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/collect/List.lua line 66](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/collect/List.lua#L66) |
 
 ---
 

@@ -98,6 +98,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>geom - an hs.geometry object to copy</li></ul> |
 | **Returns**                                 | <ul><li>a newly created copy of the hs.geometry object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 151](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L151) |
 
 ---
 
@@ -112,6 +114,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>... - see the module description at the top</li></ul> |
 | **Returns**                                 | <ul><li>a newly created hs.geometry object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 141](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L141) |
 
 ---
 
@@ -126,6 +130,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>x - A number containing the horizontal co-ordinate of the point</li><li>y - A number containing the vertical co-ordinate of the point</li></ul> |
 | **Returns**                                 | <ul><li>An hs.geometry point object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 732](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L732) |
 
 ---
 
@@ -140,6 +146,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>x - A number containing the horizontal co-ordinate of the top-left point of the rect</li><li>y - A number containing the vertical co-ordinate of the top-left point of the rect</li><li>w - A number containing the width of the rect</li><li>h - A number containing the height of the rect</li></ul> |
 | **Returns**                                 | <ul><li>An hs.geometry rect object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 717](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L717) |
 
 ---
 
@@ -154,6 +162,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>w - A number containing a width</li><li>h - A number containing a height</li></ul> |
 | **Returns**                                 | <ul><li>An hs.geometry size object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 744](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L744) |
 
 ---
 
@@ -168,6 +178,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the area of this rect or size; changing it will scale the rect/size - see `hs.geometry:scale()`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 333](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L333) |
 
 ---
 
@@ -180,6 +191,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the aspect ratio of this rect or size; changing it will reshape the rect/size, keeping its area and center constant                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 352](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L352) |
 
 ---
 
@@ -192,6 +204,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `x2y2`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 267](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L267) |
 
 ---
 
@@ -204,6 +217,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A point representing the geometric center of this rect or the midpoint of this vector2; changing it will move the rect/vector accordingly                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 305](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L305) |
 
 ---
 
@@ -216,6 +230,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The height of this rect or size; changing it will keep the rect's x,y corner constant                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 218](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L218) |
 
 ---
 
@@ -228,6 +243,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A number representing the length of the diagonal of this rect, or the length of this vector2; changing it will scale the rect/vector - see `hs.geometry:scale()`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 318](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L318) |
 
 ---
 
@@ -240,6 +256,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `"X,Y/WxH"` string for this hs.geometry object (*reduced precision*); useful e.g. for logging                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 281](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L281) |
 
 ---
 
@@ -252,6 +269,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `{x=X,y=Y,w=W,h=H}` table for this hs.geometry object; useful e.g. for serialization/deserialization                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 275](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L275) |
 
 ---
 
@@ -264,6 +282,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `xy`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 206](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L206) |
 
 ---
 
@@ -276,6 +295,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The width of this rect or size; changing it will keep the rect's x,y corner constant                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 214](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L214) |
 
 ---
 
@@ -288,6 +308,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The size component for this hs.geometry object; setting this to a new size will keep the rect's x,y corner constant                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 251](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L251) |
 
 ---
 
@@ -300,6 +321,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The x coordinate for this point or rect's corner; changing it will move the rect but keep the same width and height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 173](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L173) |
 
 ---
 
@@ -312,6 +334,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `x`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 181](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L181) |
 
 ---
 
@@ -324,6 +347,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The x coordinate for the second corner of this rect; changing it will affect the rect's width                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 231](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L231) |
 
 ---
 
@@ -336,6 +360,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The point denoting the other corner of this hs.geometry object; setting this to a new point will change the rect's width and height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 263](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L263) |
 
 ---
 
@@ -348,6 +373,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The point component for this hs.geometry object; setting this to a new point will move the rect but keep the same width and height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 202](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L202) |
 
 ---
 
@@ -360,6 +386,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The y coordinate for this point or rect's corner; changing it will move the rect but keep the same width and height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 177](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L177) |
 
 ---
 
@@ -372,6 +399,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Alias for `y`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 185](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L185) |
 
 ---
 
@@ -384,6 +412,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The y coordinate for the second corner of this rect; changing it will affect the rect's height                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/geometry/geometry.lua line 235](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L235) |
 
 ---
 
@@ -400,6 +429,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a number representing the angle in radians</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 516](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L516) |
 
 ---
 
@@ -414,6 +445,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>point - an hs.geometry object, or a table or string or parameter list to construct one; if a rect, uses the rect's center</li></ul> |
 | **Returns**                                 | <ul><li>a number representing the angle in radians</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 529](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L529) |
 
 ---
 
@@ -428,6 +461,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>point - an hs.geometry object, or a table or string or parameter list to construct one; if a rect, uses the rect's center</li></ul> |
 | **Returns**                                 | <ul><li>a number indicating the distance</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 542](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L542) |
 
 ---
 
@@ -442,6 +477,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>other - another hs.geometry object, or a table or string or parameter list to construct one</li></ul> |
 | **Returns**                                 | <ul><li>`true` if this hs.geometry object perfectly overlaps other, `false` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 390](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L390) |
 
 ---
 
@@ -456,6 +493,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>bounds - an hs.geometry rect object, or a table or string or parameter list to construct one, indicating the rect that must fully contain this rect</li></ul> |
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 448](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L448) |
 
 ---
 
@@ -470,6 +509,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>this hs.geometry point for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 483](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L483) |
 
 ---
 
@@ -484,6 +525,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>frame - an hs.geometry rect (with `w` and `h` >0)</li></ul> |
 | **Returns**                                 | <ul><li>An hs.geometry rect object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 672](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L672) |
 
 ---
 
@@ -498,6 +541,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>rect - an hs.geometry rect, or a table or string or parameter list to construct one</li></ul> |
 | **Returns**                                 | <ul><li>`true` if this point/rect lies fully inside the given rect, `false` otherwise</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 570](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L570) |
 
 ---
 
@@ -512,6 +557,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>rect - an hs.geometry rect, or a table or string or parameter list to construct one</li></ul> |
 | **Returns**                                 | <ul><li>a new hs.geometry rect</li></ul>          |
 | **Notes**                                   | <ul><li>If the two rects don't intersect, the result rect will be a "projection" of the second rect onto this rect's</li><li>   closest edge or corner along the x or y axis; the `w` and/or `h` fields in the result rect will be 0.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 585](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L585) |
 
 ---
 
@@ -526,6 +573,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>point - an hs.geometry object, or a table or string or parameter list to construct one, indicating the x and y displacement to apply</li></ul> |
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 403](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L403) |
 
 ---
 
@@ -540,6 +589,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>this hs.geometry point for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 468](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L468) |
 
 ---
 
@@ -554,6 +605,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>aroundpoint - an hs.geometry point to rotate this point around</li><li>ntimes - the number of times to rotate, defaults to 1</li></ul> |
 | **Returns**                                 | <ul><li>A new hs.geometry point containing the location of the rotated point</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 695](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L695) |
 
 ---
 
@@ -568,6 +621,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>size - an hs.geometry object, or a table or string or parameter list to construct one, indicating the factors for scaling this rect's width and height; if a number, the rect will be scaled by the same factor in both axes</li></ul> |
 | **Returns**                                 | <ul><li>this hs.geometry object for method chaining</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 419](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L419) |
 
 ---
 
@@ -582,6 +637,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>frame - an hs.geometry rect (with `w` and `h` >0)</li></ul> |
 | **Returns**                                 | <ul><li>An hs.geometry unit rect object</li></ul>          |
 | **Notes**                                   | <ul><li>The resulting unit rect is always clipped within `frame`'s bounds (via `hs.geometry:intersect()`); if `frame`</li><li>   does not encompass this rect *no error will be thrown*, but the resulting unit rect won't be a direct match with this rect</li><li>   (i.e. calling `:fromUnitRect(frame)` on it will return a different rect)</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 644](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L644) |
 
 ---
 
@@ -596,6 +653,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a string describing the type of this hs.geometry object, i.e. 'point', 'size', 'rect' or 'unitrect'; `nil` if not a valid object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 45](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L45) |
 
 ---
 
@@ -610,6 +669,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>rect - an hs.geometry rect, or a table or string or parameter list to construct one</li></ul> |
 | **Returns**                                 | <ul><li>a new hs.geometry rect</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 555](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L555) |
 
 ---
 
@@ -624,6 +685,8 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 | **Parameters**                              | <ul><li>point - an hs.geometry object, or a table or string or parameter list to construct one; if a rect, uses the rect's center</li></ul> |
 | **Returns**                                 | <ul><li>an hs.geometry point</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/geometry/geometry.lua line 500](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/geometry/geometry.lua#L500) |
 
 ---
 

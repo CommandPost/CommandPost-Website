@@ -34,6 +34,7 @@ Touch Bar Widgets Manager
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Widget Manager                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/touchbar/manager/init.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/init.lua#L46) |
 
 ---
 
@@ -50,6 +51,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L96) |
 
 ---
 
@@ -66,6 +69,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the widget you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L44) |
 
 ---
 
@@ -80,6 +85,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L57) |
 
 ---
 
@@ -94,6 +101,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L70) |
 
 ---
 
@@ -108,6 +117,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>`id` - The unique ID for this widget.</li><li>`params` - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L20) |
 
 ---
 
@@ -122,6 +133,8 @@ Touch Bar Widgets Manager
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/touchbar/manager/widgets.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/touchbar/manager/widgets.lua#L83) |
 
 ---
 

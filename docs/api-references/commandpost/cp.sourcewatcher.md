@@ -31,6 +31,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>`files`      - Table of files to check as strings</li><li>`flagTables` - Table of flagTables (see: `hs.pathwatcher.new`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L67) |
 
 ---
 
@@ -45,6 +47,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>`file`       - The file as string</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L39) |
 
 ---
 
@@ -59,6 +63,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>`extensions`     - Extensions</li></ul> |
 | **Returns**                                 | <ul><li>A sourcewatcher instance</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L20) |
 
 ---
 
@@ -73,6 +79,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L129) |
 
 ---
 
@@ -87,6 +95,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L112) |
 
 ---
 
@@ -101,6 +111,8 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Parameters**                              | <ul><li>`path`       - The path you want to watch as a string.</li></ul> |
 | **Returns**                                 | <ul><li>sourcewatcher</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/sourcewatcher/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/sourcewatcher/init.lua#L93) |
 
 ---
 

@@ -32,6 +32,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This function will print some memory usage numbers (in bytes) to the Hammerspoon Console before and after forcing Lua's garbage collector</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/crash.lua line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/crash.lua#L40) |
 
 ---
 
@@ -46,6 +48,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is for testing purposes only, you are extremely unlikely to need this in normal Hammerspoon usage</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/libcrash.m line 12](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/libcrash.m#L12) |
 
 ---
 
@@ -60,6 +64,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>key - A string containing the key name of the pair</li><li>value - A string containing the value of the pair</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/libcrash.m line 72](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/libcrash.m#L72) |
 
 ---
 
@@ -74,6 +80,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>logMessage - A string containing a message to log</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>This is probably only useful to extension developers. If you are trying to track down a confusing crash, and you have access to the Sentry project for Hammerspoon (or access to someone who has access!), this can be a useful way to leave breadcrumbs from Lua in the crash dump</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/libcrash.m line 53](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/libcrash.m#L53) |
 
 ---
 
@@ -88,6 +96,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing all the paths of C libraries that have been loaded into the Lua runtime</li></ul>          |
 | **Notes**                                   | <ul><li>This is probably only useful to extension developers as a useful way of ensuring that you are loading C libraries from the places you expect.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/crash.lua line 7](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/crash.lua#L7) |
 
 ---
 
@@ -102,6 +112,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An integer containing the amount of RAM in use by Hammerspoon (in bytes), or nil if an error occurred</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/libcrash.m line 107](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/libcrash.m#L107) |
 
 ---
 
@@ -116,6 +128,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
 | **Parameters**                              | <ul><li>name - A string containing the name of the exception</li><li>message - A human readable string explaining the exception</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Outside of a context of a Lua pcall() (or a C lua_pcall()), this will cause Hammerspoon to exit. We follow the safe behaviour of terminating the app on any unhandled Objective C exception.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/crash/libcrash.m line 31](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/crash/libcrash.m#L31) |
 
 ---
 

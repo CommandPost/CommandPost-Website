@@ -48,6 +48,8 @@ update()
 | **Parameters**                              | <ul><li>delay - The number of seconds to delay when `run()` is initally called.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.deferred` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L33) |
 
 ---
 
@@ -64,6 +66,8 @@ update()
 | **Parameters**                              | <ul><li>The callable action.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul><li>It must be a `function` (or callable `table`) with the following signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li><li></li><li>* Multiple actions can be added and they will all be called when the delay timer goes off.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L57) |
 
 ---
 
@@ -78,6 +82,8 @@ update()
 | **Parameters**                              | <ul><li>value     - the new delay value.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.deferred` instance if a new value is provided, or the current delay if not.</li></ul>          |
 | **Notes**                                   | <ul><li>If it is provided, then the new delay will be set. If it is currently waiting, then the wait will be restarted with the new delay.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 139](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L139) |
 
 ---
 
@@ -92,6 +98,8 @@ update()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.deferred` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 83](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L83) |
 
 ---
 
@@ -106,6 +114,8 @@ update()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of seconds until execution.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 112](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L112) |
 
 ---
 
@@ -120,6 +130,8 @@ update()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The deferred timer.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L125) |
 
 ---
 
@@ -134,6 +146,8 @@ update()
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the deferred action is waiting to execute.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/deferred/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/deferred/init.lua#L99) |
 
 ---
 

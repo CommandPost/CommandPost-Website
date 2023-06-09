@@ -37,6 +37,8 @@ Represents an `AXRow` `axuielement`.
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L21) |
 
 ---
 
@@ -51,6 +53,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Row` is disclosing other `Rows`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L32) |
 
 ---
 
@@ -63,6 +66,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The depth of disclosure. `0` is the top level.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L39) |
 
 ---
 
@@ -75,6 +79,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this row in the overall container, with `0` being the first item.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L87) |
 
 ---
 
@@ -87,6 +92,7 @@ Represents an `AXRow` `axuielement`.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the row is currently selected. May be set.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L80) |
 
 ---
 
@@ -103,6 +109,8 @@ Represents an `AXRow` `axuielement`.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.ui.OldRow` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L46) |
 
 ---
 
@@ -117,6 +125,8 @@ Represents an `AXRow` `axuielement`.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table` of Rows, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L61) |
 
 ---
 
@@ -131,6 +141,8 @@ Represents an `AXRow` `axuielement`.
 | **Parameters**                              | <ul><li>element - the `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldRow.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldRow.lua#L10) |
 
 ---
 

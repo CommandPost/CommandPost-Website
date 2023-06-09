@@ -26,6 +26,7 @@ Commands Row.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The command [TextField](cp.ui.TextField.md) (read-only).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L96) |
 
 ---
 
@@ -38,6 +39,7 @@ Commands Row.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The key [TextField](cp.ui.TextField.md) (read-only).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L110) |
 
 ---
 
@@ -50,6 +52,7 @@ Commands Row.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The modifiers [TextField](cp.ui.TextField.md) (read-only)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 103](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L103) |
 
 ---
 

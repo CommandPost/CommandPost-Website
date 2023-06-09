@@ -45,6 +45,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>run</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.spec.Report` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L16) |
 
 ---
 
@@ -59,6 +61,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of aborts in the run.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L42) |
 
 ---
 
@@ -71,6 +74,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of failures in the run.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L37) |
 
 ---
 
@@ -83,6 +87,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of passes in the run.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L32) |
 
 ---
 
@@ -95,6 +100,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [run](cp.spec.Run.md) the reports are for.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L27) |
 
 ---
 
@@ -107,6 +113,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds since epoch when the test started, or `nil` if not started yet.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 47](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L47) |
 
 ---
 
@@ -119,6 +126,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds since epoch when the tests stopped, or `nil` if not stopped yet.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L52) |
 
 ---
 
@@ -131,6 +139,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds the run took (may be decimal), or `nil` if the test hasn't run.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 57](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L57) |
 
 ---
 
@@ -147,6 +156,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>message - The related message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 120](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L120) |
 
 ---
 
@@ -161,6 +172,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>otherReport   - The other report to add.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 160](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L160) |
 
 ---
 
@@ -175,6 +188,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>message - The related message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L106) |
 
 ---
 
@@ -189,6 +204,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>message - an optional additional message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L92) |
 
 ---
 
@@ -203,6 +220,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L63) |
 
 ---
 
@@ -217,6 +236,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L77) |
 
 ---
 
@@ -231,6 +252,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 147](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L147) |
 
 ---
 
@@ -245,6 +268,8 @@ The results of a test [run](cp.spec.Run.md).
 | **Parameters**                              | <ul><li>timeout - The timeout to wait for, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Report.lua line 134](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Report.lua#L134) |
 
 ---
 

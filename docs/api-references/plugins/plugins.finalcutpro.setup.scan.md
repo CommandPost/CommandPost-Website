@@ -26,6 +26,8 @@ Show setup panel if Final Cut Pro needs scanning.
 | **Parameters**                              | <ul><li>deps - A table of dependencies.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/setup/scan.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/setup/scan.lua#L17) |
 
 ---
 

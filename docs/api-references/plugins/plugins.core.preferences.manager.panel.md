@@ -38,6 +38,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>params - Table of parameters</li><li>manager - The manager</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.core.preferences.manager.panel` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L16) |
 
 ---
 
@@ -54,6 +56,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>params - The list of parameters.</li></ul> |
 | **Returns**                                 | <ul><li>The same panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` table may contain:</li><li> ** `id`        - (optional) the unique ID for the button. If none is provided, one is generated.</li><li> ** `value`     - The value of the button. This is sent to the `onclick` function.</li><li> ** `label`     - The text label for the button. Defaults to the `value` if not provided.</li><li> ** `width`     - The width of the button in pixels.</li><li> ** `onclick`   - the function to execute when the button is clicked. The function should have the signature of `function(id, value)`, where `id` is the id of the button that was clicked, and `value` is the value of the button.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 304](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L304) |
 
 ---
 
@@ -68,6 +72,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>`priority`   - The priority number for the checkbox.</li><li>`params`     - The set of parameters for the checkbox.</li></ul> |
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul><li>The `params` can contain the following fields:</li><li> ** `id`         - (optional) The unique ID. If none is provided, one will be generated.</li><li> ** `name`       - (optional) The name of the checkbox field.</li><li> ** `label`      - (optional) The text label to display after the checkbox.</li><li> ** `onchange`   - (optional) a function that will get called when the checkbox value changes. It will be passed two parameters, `id` and `params`, the latter of which is a table containing the `value` and `checked` values of the checkbox.</li><li> ** `class`      - (optional) the CSS class list to apply to the checkbox.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L198) |
 
 ---
 
@@ -82,6 +88,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>`priority`        - the priority order of the content.</li><li>`content`         - a value that can be converted to a string.</li><li>`escaped`         - if `true`, the content will be escaped.</li></ul> |
 | **Returns**                                 | <ul><li>The panel.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L107) |
 
 ---
 
@@ -96,6 +104,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>event - The event</li><li>id - the Handler ID</li><li>handlerFn - The Handler function</li><li>keys - Keys</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L130) |
 
 ---
 
@@ -110,6 +120,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>text - The text of the heading as a string</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L237) |
 
 ---
 
@@ -124,6 +136,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>content - The content as a string</li><li>escaped - Whether or not the HTML should be escaped as a boolean. Defaults to `true` for simple text.</li><li>class - The class as a string</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L183) |
 
 ---
 
@@ -138,6 +152,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 277](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L277) |
 
 ---
 
@@ -152,6 +168,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>priority - Priority of the item as number.</li><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 333](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L333) |
 
 ---
 
@@ -166,6 +184,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>params - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>The panel object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 250](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L250) |
 
 ---
 
@@ -180,6 +200,8 @@ CommandPost Preferences Panel.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The toolbar item as a table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/preferences/manager/panel.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/preferences/manager/panel.lua#L44) |
 
 ---
 

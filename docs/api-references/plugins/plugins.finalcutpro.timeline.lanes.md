@@ -26,6 +26,8 @@ Controls Final Cut Pro's Lanes.
 | **Parameters**                              | <ul><li>whichLane - Lane Number</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/lanes.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/lanes.lua#L20) |
 
 ---
 

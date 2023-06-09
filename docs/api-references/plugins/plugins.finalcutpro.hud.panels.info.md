@@ -27,6 +27,8 @@ Info Panel for the Final Cut Pro HUD.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/info/init.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/info/init.lua#L32) |
 
 ---
 
@@ -41,6 +43,8 @@ Info Panel for the Final Cut Pro HUD.
 | **Parameters**                              | <ul><li>enabled - `true` to setup, `false` to destroy</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/hud/panels/info/init.lua line 90](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/hud/panels/info/init.lua#L90) |
 
 ---
 

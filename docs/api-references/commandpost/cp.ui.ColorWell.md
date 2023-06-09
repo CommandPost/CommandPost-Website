@@ -29,6 +29,8 @@ UI ColorWell.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L23) |
 
 ---
 
@@ -45,6 +47,8 @@ UI ColorWell.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `ColorWell` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/ColorWell.lua line 11](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/ColorWell.lua#L11) |
 
 ---
 

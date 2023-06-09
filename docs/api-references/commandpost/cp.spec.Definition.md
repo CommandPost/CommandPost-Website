@@ -34,6 +34,8 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Parameters**                              | <ul><li>instance - The instance to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the instance is an instance of this class.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L30) |
 
 ---
 
@@ -50,6 +52,8 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Parameters**                              | <ul><li>name - The name</li><li>doing - doing</li></ul> |
 | **Returns**                                 | <ul><li>cp.spec.Definition object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L13) |
 
 ---
 
@@ -66,6 +70,8 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Parameters**                              | <ul><li>... - (optional) The list of filters to apply to any child definitions.</li></ul> |
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Definition.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Definition.lua#L43) |
 
 ---
 

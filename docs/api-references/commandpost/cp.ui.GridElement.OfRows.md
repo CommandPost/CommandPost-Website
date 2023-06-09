@@ -31,6 +31,8 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Parameters**                              | <ul><li>... - The `Cell` initialisers.</li></ul> |
 | **Returns**                                 | <ul><li>A new `GridElement.OfRows` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 505](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L505) |
 
 ---
 
@@ -47,6 +49,8 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Parameters**                              | <ul><li>tbl - The `GridElement` instance.</li><li>rowFinder - a callable that will return the `axuielementObject` for the row.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L518) |
 
 ---
 
@@ -61,6 +65,8 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Parameters**                              | <ul><li>tbl - The `GridElement` instance</li><li>rowsFinder - a callable that will return the a table of `cp.ui.Row` values.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Row`s.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/GridElement.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/GridElement.lua#L532) |
 
 ---
 

@@ -34,6 +34,8 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Parameters**                              | <ul><li>thing   - The thing to test.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observer`, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L14) |
 
 ---
 
@@ -50,6 +52,8 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Parameters**                              | <ul><li>onNext - Called when the Observable produces a value.</li><li>onError - Called when the Observable terminates due to an error.</li><li>onCompleted - Called when the Observable completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>The new Observer.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L27) |
 
 ---
 
@@ -66,6 +70,8 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L80) |
 
 ---
 
@@ -80,6 +86,8 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Parameters**                              | <ul><li>message - A string describing what went wrong.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L64) |
 
 ---
 
@@ -94,6 +102,8 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Parameters**                              | <ul><li>... - The list of values to send.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/Observer.lua line 49](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/Observer.lua#L49) |
 
 ---
 

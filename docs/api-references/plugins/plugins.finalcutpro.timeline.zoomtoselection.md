@@ -28,6 +28,8 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 183](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L183) |
 
 ---
 
@@ -42,6 +44,8 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 154](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L154) |
 
 ---
 
@@ -56,6 +60,8 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if there is selected content in the timeline and zooming was successful.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/zoomtoselection.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/zoomtoselection.lua#L101) |
 
 ---
 

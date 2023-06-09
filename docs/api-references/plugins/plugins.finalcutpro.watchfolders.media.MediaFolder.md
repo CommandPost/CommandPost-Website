@@ -54,6 +54,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>mediaFolder   - The `MediaFolder` to freeze.</li></ul> |
 | **Returns**                                 | <ul><li>A table of details.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L85) |
 
 ---
 
@@ -70,6 +72,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>mod - The module.</li><li>path - Path to the Media Folder.</li><li>videoTag - Video Tag as String</li><li>audioTag - Audio Tag as String</li><li>imageTag - Image Tag as String</li></ul> |
 | **Returns**                                 | <ul><li>A new MediaFolder object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L39) |
 
 ---
 
@@ -84,6 +88,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>details - The table with details of the media folder when it was frozen.</li></ul> |
 | **Returns**                                 | <ul><li>A new MediaFolder instance with the specified details.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L67) |
 
 ---
 
@@ -100,6 +106,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>file - The file to add.</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 301](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L301) |
 
 ---
 
@@ -114,6 +122,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>file      - The file to add.</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 316](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L316) |
 
 ---
 
@@ -128,6 +138,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 234](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L234) |
 
 ---
 
@@ -142,6 +154,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 758](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L758) |
 
 ---
 
@@ -156,6 +170,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>files - a table of file paths.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 590](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L590) |
 
 ---
 
@@ -170,6 +186,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L622) |
 
 ---
 
@@ -184,6 +202,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>context - The context.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 567](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L567) |
 
 ---
 
@@ -198,6 +218,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 790](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L790) |
 
 ---
 
@@ -212,6 +234,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L145) |
 
 ---
 
@@ -226,6 +250,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>notification - The notification object.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 436](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L436) |
 
 ---
 
@@ -240,6 +266,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 483](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L483) |
 
 ---
 
@@ -254,6 +282,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>files - a table/list of files to be imported.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 551](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L551) |
 
 ---
 
@@ -268,6 +298,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 501](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L501) |
 
 ---
 
@@ -282,6 +314,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The import tag as a string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 368](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L368) |
 
 ---
 
@@ -296,6 +330,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L105) |
 
 ---
 
@@ -310,6 +346,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>files - A table of files to process.</li><li>fileFlags - A table of file flags.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 251](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L251) |
 
 ---
 
@@ -324,6 +362,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>file  - the full path to the file.</li></ul> |
 | **Returns**                                 | <ul><li>The MediaFolder instance</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 279](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L279) |
 
 ---
 
@@ -338,6 +378,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 745](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L745) |
 
 ---
 
@@ -352,6 +394,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 519](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L519) |
 
 ---
 
@@ -366,6 +410,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 534](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L534) |
 
 ---
 
@@ -380,6 +426,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 336](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L336) |
 
 ---
 
@@ -394,6 +442,8 @@ Final Cut Pro Media Watch Folder Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua line 381](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/watchfolders/media/MediaFolder.lua#L381) |
 
 ---
 

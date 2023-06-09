@@ -34,6 +34,8 @@ Represents a Column in a Table.
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is a Column.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 10](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L10) |
 
 ---
 
@@ -48,6 +50,7 @@ Represents a Column in a Table.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this column in the overall container, with `0` being the first item.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L23) |
 
 ---
 
@@ -60,6 +63,7 @@ Represents a Column in a Table.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the column is currently selected. May be set.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L30) |
 
 ---
 
@@ -76,6 +80,8 @@ Represents a Column in a Table.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L37) |
 
 ---
 
@@ -90,6 +96,8 @@ Represents a Column in a Table.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/OldColumn.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/OldColumn.lua#L54) |
 
 ---
 

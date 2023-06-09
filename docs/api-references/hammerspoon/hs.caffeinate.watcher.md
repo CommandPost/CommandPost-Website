@@ -45,6 +45,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver started                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 42](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L42) |
 
 ---
 
@@ -57,6 +58,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver stopped                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 50](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L50) |
 
 ---
 
@@ -69,6 +71,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver is about to stop                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 46](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L46) |
 
 ---
 
@@ -81,6 +84,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screen was locked                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 54](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L54) |
 
 ---
 
@@ -93,6 +97,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The displays have gone to sleep                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 26](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L26) |
 
 ---
 
@@ -105,6 +110,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screen was unlocked                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 58](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L58) |
 
 ---
 
@@ -117,6 +123,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The displays have woken from sleep                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 30](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L30) |
 
 ---
 
@@ -129,6 +136,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The session became active, due to fast user switching                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 38](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L38) |
 
 ---
 
@@ -141,6 +149,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The session is no longer active, due to fast user switching                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 34](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L34) |
 
 ---
 
@@ -153,6 +162,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The system woke from sleep                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 14](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L14) |
 
 ---
 
@@ -165,6 +175,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The user requested a logout or shutdown                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 22](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L22) |
 
 ---
 
@@ -177,6 +188,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The system is preparing to sleep                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 18](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L18) |
 
 ---
 
@@ -194,6 +206,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
   An event type (see the constants defined above)</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 170](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L170) |
 
 ---
 
@@ -210,6 +224,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 277](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L277) |
 
 ---
 
@@ -224,6 +240,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/caffeinate/libcaffeinate_watcher.m line 301](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/caffeinate/libcaffeinate_watcher.m#L301) |
 
 ---
 

@@ -32,6 +32,8 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Parameters**                              | <ul><li>other - The object to compare</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L9) |
 
 ---
 
@@ -48,6 +50,8 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Parameters**                              | <ul><li>message   - the message to send.</li></ul> |
 | **Returns**                                 | <ul><li>A new message.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 22](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L22) |
 
 ---
 
@@ -64,6 +68,8 @@ Provides an Message message, which can be thrown via the `error` function.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Message.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Message.lua#L36) |
 
 ---
 

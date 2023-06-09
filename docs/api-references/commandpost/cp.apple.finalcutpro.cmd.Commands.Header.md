@@ -26,6 +26,7 @@ The header of the Commands.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Command". Pressing more than                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 62](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L62) |
 
 ---
 
@@ -38,6 +39,7 @@ The header of the Commands.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Key". Pressing more than                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L78) |
 
 ---
 
@@ -50,6 +52,7 @@ The header of the Commands.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Modifiers". Pressing more than                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/cmd/Commands.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/cmd/Commands.lua#L70) |
 
 ---
 

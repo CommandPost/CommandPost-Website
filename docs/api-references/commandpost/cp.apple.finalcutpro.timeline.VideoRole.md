@@ -34,6 +34,8 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 21](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L21) |
 
 ---
 
@@ -50,6 +52,8 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L36) |
 
 ---
 
@@ -64,6 +68,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that toggles whether the sub-captions are visible.                                                                     |
 | **Notes**                                   | <ul><li>This [Button](cp.ui.Button.md) is only visible when the pointer is hovering over the Role.</li></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/VideoRole.lua#L50) |
 
 ---
 

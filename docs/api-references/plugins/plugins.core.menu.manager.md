@@ -42,6 +42,7 @@ Menu Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A new Root Section                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L23) |
 
 ---
 
@@ -54,6 +55,7 @@ Menu Manager Plugin.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Title Suffix's                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 28](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L28) |
 
 ---
 
@@ -70,6 +72,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>priority - The priority order of menu items created in the section relative to other sections.</li></ul> |
 | **Returns**                                 | <ul><li>section - The section that was created.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 148](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L148) |
 
 ---
 
@@ -84,6 +88,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>fnTitleSuffix - A function that returns a single string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 161](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L161) |
 
 ---
 
@@ -98,6 +104,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L63) |
 
 ---
 
@@ -112,6 +120,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L78) |
 
 ---
 
@@ -126,6 +136,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Menu Table</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 175](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L175) |
 
 ---
 
@@ -140,6 +152,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 33](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L33) |
 
 ---
 
@@ -154,6 +168,8 @@ Menu Manager Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L93) |
 
 ---
 
@@ -168,6 +184,7 @@ Menu Manager Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/menu/manager/init.lua line 143](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/menu/manager/init.lua#L143) |
 
 ---
 

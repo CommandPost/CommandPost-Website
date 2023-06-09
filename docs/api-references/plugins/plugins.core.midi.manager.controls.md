@@ -34,6 +34,7 @@ MIDI Manager Controls.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Controls                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/midi/manager/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/init.lua#L92) |
 
 ---
 
@@ -50,6 +51,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L100) |
 
 ---
 
@@ -66,6 +69,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the widget you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L48) |
 
 ---
 
@@ -80,6 +85,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 61](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L61) |
 
 ---
 
@@ -94,6 +101,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L74) |
 
 ---
 
@@ -108,6 +117,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>id       - The unique ID for this widget.</li><li>params   - A table of parameters for the MIDI control.</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
 | **Notes**                                   | <ul><li>The parameters table should include:</li><li>  group      - The group as a string (i.e. "fcpx")</li><li>  text       - The name of the control as it will appear in the Console</li><li>  subText    - The subtext of the control as it will appear in the Console</li><li>  fn         - The callback function. This functions should accept one parameter</li><li>                  which contains all the MIDI callback metadata.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L16) |
 
 ---
 
@@ -122,6 +133,8 @@ MIDI Manager Controls.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/midi/manager/controls.lua line 87](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/midi/manager/controls.lua#L87) |
 
 ---
 

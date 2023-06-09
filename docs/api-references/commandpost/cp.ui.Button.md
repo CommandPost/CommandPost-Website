@@ -37,6 +37,8 @@ methods, fields and other properties.
 | **Parameters**                              | <ul><li>element		- The `hs.axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L18) |
 
 ---
 
@@ -53,6 +55,8 @@ methods, fields and other properties.
 | **Parameters**                              | <ul><li>parent		- The parent object. Should have a `UI` and `isShowing` field.</li><li>uiFinder		- A function which will return the `hs.axuielement` the button belongs to, or `nil` if not available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Button` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L31) |
 
 ---
 
@@ -67,6 +71,7 @@ methods, fields and other properties.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L45) |
 
 ---
 
@@ -83,6 +88,8 @@ methods, fields and other properties.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L69) |
 
 ---
 
@@ -97,6 +104,8 @@ methods, fields and other properties.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Button` instance.</li><li>`true` if the button was actually pressed successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Button.lua line 52](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Button.lua#L52) |
 
 ---
 

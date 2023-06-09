@@ -56,6 +56,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>index - The [Index](cp.apple.finalcutpro.timeline.Index.md) instance.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 27](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L27) |
 
 ---
 
@@ -70,6 +72,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Clips' section.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L34) |
 
 ---
 
@@ -82,6 +85,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 55](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L55) |
 
 ---
 
@@ -94,6 +98,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 158](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L158) |
 
 ---
 
@@ -106,6 +111,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of clips as a [Table](cp.ui.OldTable.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L41) |
 
 ---
 
@@ -118,6 +124,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 165](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L165) |
 
 ---
 
@@ -130,6 +137,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips.Type](cp.apple.finalcutpro.timeline.IndexClips.Type.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 144](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L144) |
 
 ---
 
@@ -142,6 +150,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L151) |
 
 ---
 
@@ -158,6 +167,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L268) |
 
 ---
 
@@ -172,6 +183,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>text - The text to search for.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul><li>Because the `text` can change each time, this result is not cached automatically. However as long as you are searching for the same text the result can be safely cached. The [#toFindMissingMedia] method does this, for example.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L232) |
 
 ---
 
@@ -186,6 +199,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L294) |
 
 ---
 
@@ -200,6 +215,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L255) |
 
 ---
 
@@ -214,6 +231,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 281](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L281) |
 
 ---
 
@@ -228,6 +247,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 307](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L307) |
 
 ---
 
@@ -242,6 +263,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L339) |
 
 ---
 
@@ -256,6 +279,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L172) |
 
 ---
 
@@ -270,6 +295,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L202) |
 
 ---
 
@@ -284,6 +311,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 217](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L217) |
 
 ---
 
@@ -298,6 +327,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L187) |
 
 ---
 
@@ -312,6 +343,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua line 320](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/timeline/IndexClips.lua#L320) |
 
 ---
 

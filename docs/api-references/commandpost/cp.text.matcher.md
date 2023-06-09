@@ -62,6 +62,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 | **Parameters**                              | <ul><li>`pattern`	- The pattern to parse</li><li>`plain`		- If `true`, the pattern is not parsed and the provided text must match exactly.</li></ul> |
 | **Returns**                                 | <ul><li>New `cp.text.matcher` for the pattern.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/matcher.lua line 819](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/matcher.lua#L819) |
 
 ---
 
@@ -78,6 +80,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 | **Parameters**                              | <ul><li>`value`		- The `cp.text` value to process.</li><li>`start`		- If specified, indicates the starting position to process from. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The start position for the match, end position, and the list of capture group values.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/matcher.lua line 415](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/matcher.lua#L415) |
 
 ---
 
@@ -92,6 +96,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 | **Parameters**                              | <ul><li>`value`		- The `cp.text` value to process.</li></ul> |
 | **Returns**                                 | <ul><li>The iterator function.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/matcher.lua line 486](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/matcher.lua#L486) |
 
 ---
 
@@ -106,6 +112,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 | **Parameters**                              | <ul><li>`value`	- The text or string value to process.</li><li>`repl`	- The replacement text/string/table/function</li><li>`limit`	- The maximum number of times to do the replacement. Defaults to unlimited.</li></ul> |
 | **Returns**                                 | <ul><li>`text`	- The text value with replacements.</li><li>`number`	- The number of matches that occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>If repl is text or a string, then its value is used for replacement. The character `%` works as an escape character: any sequence in repl of the form `%n`, with `n` between `1` and `9`, stands for the value of the `n`-th captured substring (see below). The sequence `%0` stands for the whole match. The sequence `%%` stands for a single `%`.</li><li>If `repl` is a table, then the table is queried for every match, using the first capture as the key; if the pattern specifies no captures, then the whole match is used as the key.</li><li>If `repl` is a function, then this function is called every time a match occurs, with all captured substrings passed as arguments, in order; if the pattern specifies no captures, then the whole match is passed as a sole argument.</li><li>If the value returned by the table query or by the function call is a string or a number, then it is used as the replacement string; otherwise, if it is `false` or `nil`, then there is no replacement (that is, the original match is kept in the string).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/init.lua line 338](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/init.lua#L338) |
 
 ---
 
@@ -120,6 +128,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 | **Parameters**                              | <ul><li>`value`		- The `cp.text` value to process.</li><li>`start`		- If specified, indicates the starting position to process from. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The capture results, the whole match, or `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/text/matcher.lua line 464](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/text/matcher.lua#L464) |
 
 ---
 

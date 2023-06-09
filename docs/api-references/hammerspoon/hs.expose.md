@@ -65,6 +65,7 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allows customization of the expose behaviour and user interface                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [extensions/expose/expose.lua line 248](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L248) |
 
 ---
 
@@ -81,6 +82,8 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 | **Parameters**                              | <ul><li>windowfilter - (optional) if omitted or nil, use the default windowfilter; otherwise it must be a windowfilter instance or constructor table</li><li>uiPrefs - (optional) a table to override UI preferences for this instance; its keys and values must follow the conventions described in `hs.expose.ui`; this parameter allows you to have multiple expose instances with different behaviour (for example, with and without thumbnails and/or titles) using different hotkeys</li><li>logname - (optional) name of the `hs.logger` instance for the new expose; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the `hs.logger` instance for the new expose</li></ul> |
 | **Returns**                                 | <ul><li>the new instance</li></ul>          |
 | **Notes**                                   | <ul><li> by default expose will show invisible windows and (unlike the OSX expose) windows from other spaces; use</li><li>    `hs.expose.ui` or the `uiPrefs` parameter to change these behaviours.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/expose/expose.lua line 1020](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L1020) |
 
 ---
 
@@ -97,6 +100,8 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>Call this function if you need to make sure the modal is exited without waiting for the user to press `esc`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/expose/expose.lua line 603](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L603) |
 
 ---
 
@@ -111,6 +116,8 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 | **Parameters**                              | <ul><li>activeApplication - (optional) if true, only show windows of the active application (within the scope of the instance windowfilter); otherwise show all windows allowed by the instance windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>passing `true` for `activeApplication` will simply hide hints/thumbnails for applications other</li><li>   than the active one, without recalculating the hints layout; conversely, setting `onlyActiveApplication=true`</li><li>   for an expose instance's `ui` will calculate an optimal layout for the current active application's windows</li><li>Completing a hint will exit the expose and focus the selected window.</li><li>Pressing esc will exit the expose and with no action taken.</li><li>If shift is being held when a hint is completed (the background will be red), the selected</li><li>   window will be closed. If it's the last window of an application, the application will be closed.</li><li>If alt is being held when a hint is completed (the background will be blue), the selected</li><li>   window will be minimized (if visible) or unminimized/unhidden (if minimized or hidden).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/expose/expose.lua line 618](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L618) |
 
 ---
 
@@ -125,6 +132,8 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 | **Parameters**                              | <ul><li>activeApplication - (optional) if true, only show windows of the active application (within the scope of the instance windowfilter); otherwise show all windows allowed by the instance windowfilter</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul><li>passing `true` for `activeApplication` will simply hide hints/thumbnails for applications other than the active one, without recalculating the hints layout; conversely, setting `onlyActiveApplication=true` for an expose instance's `ui` will calculate an optimal layout for the current active application's windows</li><li>Completing a hint will exit the expose and focus the selected window.</li><li>Pressing esc will exit the expose and with no action taken.</li><li>If shift is being held when a hint is completed (the background will be red), the selected window will be closed. If it's the last window of an application, the application will be closed.</li><li>If alt is being held when a hint is completed (the background will be blue), the selected  window will be minimized (if visible) or unminimized/unhidden (if minimized or hidden).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/expose/expose.lua line 581](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L581) |
 
 ---
 

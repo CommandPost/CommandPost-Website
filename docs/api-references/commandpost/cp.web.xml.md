@@ -62,6 +62,8 @@ There are two 'special' tag names:
 | **Parameters**                              | <ul><li>value		- the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/web/xml.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/xml.lua#L77) |
 
 ---
 

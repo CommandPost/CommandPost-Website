@@ -44,6 +44,8 @@ end)
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values to process.</li></ul> |
 | **Returns**                                 | <ul><li>Another [Do.Then](cp.rx.go.Do.Then.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/Do.lua line 96](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Do.lua#L96) |
 
 ---
 

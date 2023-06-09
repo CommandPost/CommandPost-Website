@@ -27,6 +27,7 @@ Actions for control user interface elements via the Accessibility API.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we currently dragging something?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L24) |
 
 ---
 
@@ -43,6 +44,8 @@ Actions for control user interface elements via the Accessibility API.
 | **Parameters**                              | <ul><li>increase - A boolean to set the direction.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/accessibility/tools.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/accessibility/tools.lua#L37) |
 
 ---
 

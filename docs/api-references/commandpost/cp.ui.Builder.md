@@ -93,6 +93,8 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 | **Parameters**                              | <ul><li>parent - The parent `Element`.</li><li>uiFinder - A `cp.prop` or `axuielement` that will be used to find this `Element`'s `axuielement`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Element` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Builder.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Builder.lua#L105) |
 
 ---
 

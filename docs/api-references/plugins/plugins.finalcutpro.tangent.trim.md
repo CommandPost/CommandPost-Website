@@ -27,6 +27,7 @@ Final Cut Pro Tangent Trim Group
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro Trim actions/parameters/etc.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/trim.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/trim.lua#L12) |
 
 ---
 
@@ -43,6 +44,8 @@ Final Cut Pro Tangent Trim Group
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/tangent/trim.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/tangent/trim.lua#L17) |
 
 ---
 

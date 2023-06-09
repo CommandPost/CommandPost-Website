@@ -52,6 +52,7 @@ Table-related functions.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `table` which can have any named property key, which will be a function combinator that expects to receive a `table` and returns the value at the specified key. These are essentially equivalent statements: `cp.fn.table.this.key` and `cp.fn.table.get "key"`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 164](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L164) |
 
 ---
 
@@ -68,6 +69,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>name - The name of the function to call.</li><li>... - Any additional arguments to pass to the function.</li></ul> |
 | **Returns**                                 | <ul><li>The function that will accept a table and call the function with the specified `name`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L23) |
 
 ---
 
@@ -82,6 +85,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>table - The table to copy.</li></ul> |
 | **Returns**                                 | <ul><li>A copy of the table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 46](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L46) |
 
 ---
 
@@ -96,6 +101,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>predicate - A function that takes a value and returns true if the value should be included in the filtered table.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns a filtered table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L63) |
 
 ---
 
@@ -110,6 +117,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>table - The table to get the first value from.</li></ul> |
 | **Returns**                                 | <ul><li>The first value in the table. May be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L85) |
 
 ---
 
@@ -124,6 +133,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>predicate - A function that will be passed each value in the table. If it returns `true`, the value will be returned.</li></ul> |
 | **Returns**                                 | <ul><li>A function that will return the first value in the table that matches the predicate. May be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 98](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L98) |
 
 ---
 
@@ -138,6 +149,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>t - The table to flatten.</li></ul> |
 | **Returns**                                 | <ul><li>A new table with all values flattened.</li></ul>          |
 | **Notes**                                   | <ul><li>This function will not flatten nested tables.</li><li>If the table has an `n` field, it will be used as the length, instead of `#t`.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 117](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L117) |
 
 ---
 
@@ -152,6 +165,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>key - The key to get the value for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns the value at the specified key.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 149](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L149) |
 
 ---
 
@@ -166,6 +181,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>count - The number of items to check for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has at least the given number of items, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 502](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L502) |
 
 ---
 
@@ -180,6 +197,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>count - The number of items to check for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has at most the given number of items, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 517](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L517) |
 
 ---
 
@@ -194,6 +213,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>count - The number of items to check for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has exactly the given number of items, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 532](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L532) |
 
 ---
 
@@ -208,6 +229,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>count - The number of items to check for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has less than the given number of items, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 562](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L562) |
 
 ---
 
@@ -222,6 +245,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>count - The number of items to check for.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has more than the given number of items, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 547](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L547) |
 
 ---
 
@@ -236,6 +261,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>key - The value to check for.</li><li>predicate - An optional predicate to use to check the value.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a table and returns `true` if the table has the given value, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 577](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L577) |
 
 ---
 
@@ -250,6 +277,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>fn - The function to map.</li><li>values - The table or list of arguments to map over.</li></ul> |
 | **Returns**                                 | <ul><li>A table or list of the results of the function.</li></ul>          |
 | **Notes**                                   | <ul><li>If the values are a table, the results will be a table. Otherwise, the results will be a vararg list.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 195](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L195) |
 
 ---
 
@@ -264,6 +293,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>table - The table to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the table is empty, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 476](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L476) |
 
 ---
 
@@ -278,6 +309,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>table - The table to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the table is not empty, otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 489](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L489) |
 
 ---
 
@@ -292,6 +325,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>table - The table to get the last value from.</li></ul> |
 | **Returns**                                 | <ul><li>The last value in the table. May be `nil`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 220](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L220) |
 
 ---
 
@@ -306,6 +341,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>fn - The function to map.</li><li>t - The table arguments to map over.</li></ul> |
 | **Returns**                                 | <ul><li>A table with the values updated via the function.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 257](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L257) |
 
 ---
 
@@ -320,6 +357,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>... - A list of predicates.</li></ul> |
 | **Returns**                                 | <ul><li>A function that will return `true` if the table exactly the number of items that match the provided list of predicates.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 233](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L233) |
 
 ---
 
@@ -334,6 +373,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>key - The key to set.</li></ul> |
 | **Returns**                                 | <ul><li>A function.</li></ul>          |
 | **Notes**                                   | <ul><li>The returned function will mutate the table passed in, as well as returning it.</li><li>Example usage: `fn.table.mutate("foo")(function(value) return value + 1 end)({value = 1})`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L275) |
 
 ---
 
@@ -348,6 +389,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>key - The key to set.</li><li>value - The value to set.</li></ul> |
 | **Returns**                                 | <ul><li>A function.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 297](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L297) |
 
 ---
 
@@ -362,6 +405,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>t - The table to get the size of.</li></ul> |
 | **Returns**                                 | <ul><li>The size of the table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L314) |
 
 ---
 
@@ -376,6 +421,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>... - The list of compare functions to use, in order.</li></ul> |
 | **Returns**                                 | <ul><li>A function.</li></ul>          |
 | **Notes**                                   | <ul><li>The compare functions should take two arguments and return `true` if the first argument is less than the second.</li><li>The returned result will be a shallow copy of the original in a new table. The original table will not be modified.</li><li>If no compare functions are provided, the table will be sorted "natural" sorting order (`a < b`).</li><li>Example usage: `fn.table.sort(function(a, b) return a > b end)({1, 2, 3})`</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 327](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L327) |
 
 ---
 
@@ -390,6 +437,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>predicate - A function that will be passed each value in the table. If it returns `true`, the value will be returned.</li></ul> |
 | **Returns**                                 | <ul><li>A function that accepts a table to split and returns a table of tables, followed by a table of splitter values</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 351](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L351) |
 
 ---
 
@@ -404,6 +453,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>lists - A table or list of lists.</li></ul> |
 | **Returns**                                 | <ul><li>A function which returns a list combining the values from the provided lists.</li></ul>          |
 | **Notes**                                   | <ul><li>If a table is provided, a table is returned. If a vararg is provided, a vararg is returned.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 413](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L413) |
 
 ---
 
@@ -418,6 +469,8 @@ Table-related functions.
 | **Parameters**                              | <ul><li>lists - A table or list of lists.</li></ul> |
 | **Returns**                                 | <ul><li>A list of lists.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/table.lua line 444](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/table.lua#L444) |
 
 ---
 

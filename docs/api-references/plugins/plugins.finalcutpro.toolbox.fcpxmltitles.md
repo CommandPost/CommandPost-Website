@@ -33,6 +33,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Ignore first row of CSV?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L79) |
 
 ---
 
@@ -45,6 +46,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Batch Process Path                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 109](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L109) |
 
 ---
 
@@ -57,6 +59,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export CSV Path                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 129](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L129) |
 
 ---
 
@@ -69,6 +72,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export Path                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L124) |
 
 ---
 
@@ -81,6 +85,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last FCPXMLPath                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 119](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L119) |
 
 ---
 
@@ -93,6 +98,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | New Title Column                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 104](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L104) |
 
 ---
 
@@ -105,6 +111,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Original Title Column                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 99](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L99) |
 
 ---
 
@@ -117,6 +124,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Line Breaks                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 94](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L94) |
 
 ---
 
@@ -129,6 +137,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Send to Final Cut Pro                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 84](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L84) |
 
 ---
 
@@ -141,6 +150,7 @@ FCPXML Titles Toolbox Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Trim White Space                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua line 89](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/toolbox/fcpxmltitles/init.lua#L89) |
 
 ---
 

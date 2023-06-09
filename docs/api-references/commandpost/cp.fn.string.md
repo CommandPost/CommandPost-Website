@@ -27,6 +27,8 @@ String-related functional programming helpers.
 | **Parameters**                              | <ul><li>str - The string to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the string is empty, `false` otherwise.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/string.lua line 7](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L7) |
 
 ---
 
@@ -41,6 +43,8 @@ String-related functional programming helpers.
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a string and returns the matches.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/fn/string.lua line 20](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/fn/string.lua#L20) |
 
 ---
 

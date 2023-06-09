@@ -35,6 +35,8 @@ Static Text Module.
 | **Parameters**                              | <ul><li>element      - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>If `true`, the element is a Static Text element.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 17](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L17) |
 
 ---
 
@@ -49,6 +51,7 @@ Static Text Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L67) |
 
 ---
 
@@ -65,6 +68,8 @@ Static Text Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 122](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L122) |
 
 ---
 
@@ -79,6 +84,8 @@ Static Text Module.
 | **Parameters**                              | <ul><li>layout - A table containing the Static Text layout settings - created using `cp.ui.StaticText:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 155](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L155) |
 
 ---
 
@@ -93,6 +100,8 @@ Static Text Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Static Text Layout.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L140) |
 
 ---
 
@@ -107,6 +116,8 @@ Static Text Module.
 | **Parameters**                              | <ul><li>parent   - The parent object.</li><li>uiFinder - The function will return the `axuielement` for the StaticText.</li><li>convertFn    - (optional) If provided, will be passed the `string` value when returning.</li></ul> |
 | **Returns**                                 | <ul><li>The new `StaticText`.</li></ul>          |
 | **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li>For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = StaticText(parent, function() return ... end, tonumber)</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/StaticText.lua line 30](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/StaticText.lua#L30) |
 
 ---
 

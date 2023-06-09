@@ -27,6 +27,8 @@ Playback Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/playback.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/playback.lua#L36) |
 
 ---
 
@@ -41,6 +43,8 @@ Playback Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/playback.lua line 19](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/playback.lua#L19) |
 
 ---
 

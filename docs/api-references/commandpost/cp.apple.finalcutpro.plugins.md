@@ -70,6 +70,7 @@ Usage:
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of the different audio/video/transition/generator types.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 255](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L255) |
 
 ---
 
@@ -86,6 +87,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the caches have been cleared successfully.</li></ul>          |
 | **Notes**                                   | <ul><li>Does not uninstall any of the actual plugins.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1499](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1499) |
 
 ---
 
@@ -100,6 +103,8 @@ Usage:
 | **Parameters**                              | <ul><li>fcp - The `cp.apple.finalcutpro` object</li></ul> |
 | **Returns**                                 | <ul><li>The plugins object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1828](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1828) |
 
 ---
 
@@ -114,6 +119,8 @@ Usage:
 | **Parameters**                              | <ul><li>fcp - the `cp.apple.finalcutpro` instance</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1684](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1684) |
 
 ---
 
@@ -128,6 +135,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 419](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L419) |
 
 ---
 
@@ -142,6 +151,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` is scanned otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1725](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1725) |
 
 ---
 
@@ -156,6 +167,8 @@ Usage:
 | **Parameters**                              | <ul><li>locale   - the locale to scan in.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 314](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L314) |
 
 ---
 
@@ -170,6 +183,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale` - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 528](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L528) |
 
 ---
 
@@ -184,6 +199,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 439](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L439) |
 
 ---
 
@@ -200,6 +217,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1339](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1339) |
 
 ---
 
@@ -214,6 +233,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1393) |
 
 ---
 
@@ -228,6 +249,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The effect bundle strings in a table.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1062](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1062) |
 
 ---
 
@@ -242,6 +265,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of effect strings.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1294](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1294) |
 
 ---
 
@@ -256,6 +281,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1435](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1435) |
 
 ---
 
@@ -270,6 +297,8 @@ Usage:
 | **Parameters**                              | <ul><li>`type`        - The plugin type. See `types` for the complete list.</li><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins of the specified type.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1352](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1352) |
 
 ---
 
@@ -284,6 +313,8 @@ Usage:
 | **Parameters**                              | <ul><li>`path`           - The path to the plugin directory.</li><li>`type`           - The type of plugin</li><li>`categoryName`   - The category name, in the specified locale.</li><li>`themeName`      - The theme name, in the specified locale. May be `nil` if not in a theme.</li><li>`pluginName`     - The plugin name, in the specified locale.</li><li>`locale`         - The `cp.i18n.localeID` or string code for same (e.g. "en", "fr", "de")</li></ul> |
 | **Returns**                                 | <ul><li>The plugin object.</li></ul>          |
 | **Notes**                                   | <ul><li>`locale` defaults to the current Final Cut Pro locale if nothing is supplied.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 991](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L991) |
 
 ---
 
@@ -298,6 +329,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1048](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1048) |
 
 ---
 
@@ -312,6 +345,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1738](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1738) |
 
 ---
 
@@ -326,6 +361,8 @@ Usage:
 | **Parameters**                              | <ul><li>directoryPath - Directory to scan</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1100) |
 
 ---
 
@@ -340,6 +377,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The `cp.i18n.localeID` code to search for. Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1449](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1449) |
 
 ---
 
@@ -354,6 +393,8 @@ Usage:
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1275](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1275) |
 
 ---
 
@@ -368,6 +409,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1132](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1132) |
 
 ---
 
@@ -382,6 +425,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`        - The locale to scan with.</li><li>`path`            - The path to the plugin type directory</li><li>`plugin`      - A table containing the plugin details collected so far.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 901](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L901) |
 
 ---
 
@@ -396,6 +441,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`   - The locale code to scan for (e.g. "en" or "fr").</li><li>`path`       - The path of the root plugin directory to scan.</li><li>`checkFn`    - A function which will receive the path being scanned and return `true` if it should be scanned.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin directory was successfully scanned.</li></ul>          |
 | **Notes**                                   | <ul><li>Plugins directories have a standard structure which comes in two flavours:</li><li>  ** <type>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<theme>/<plugin name>/<plugin name>.<ext></li><li>This is somewhat complicated by 'localization', wherein each of the folder levels may have a `.localized` extension. If this is the case, it will contain a subfolder called `.localized`, which in turn contains files which describe the local name for the folder in any number of locales.</li><li>This function will drill down through the contents of the specified `path`, assuming the above structure, and then register any contained plugins in the `locale` provided. Other locales are ignored, other than some use of English when checking for specific effect types (Effect, Generator, etc.).</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 754](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L754) |
 
 ---
 
@@ -410,6 +457,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`        - The locale to scan with.</li><li>`path`            - The path to the plugin type directory</li><li>`plugin`          - A table containing the plugin details collected so far.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 938](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L938) |
 
 ---
 
@@ -424,6 +473,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1214](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1214) |
 
 ---
 
@@ -438,6 +489,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1156](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1156) |
 
 ---
 
@@ -452,6 +505,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1407](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1407) |
 
 ---
 
@@ -466,6 +521,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1421](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1421) |
 
 ---
 
@@ -480,6 +537,8 @@ Usage:
 | **Parameters**                              | <ul><li>input - The original name</li><li>locale - The locale code you want to attempt to translate to</li></ul> |
 | **Returns**                                 | <ul><li>The translated value for `input` in the specified locale, if present.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1084](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1084) |
 
 ---
 
@@ -494,6 +553,8 @@ Usage:
 | **Parameters**                              | <ul><li>id - The ID of the watcher to stop watching.</li></ul> |
 | **Returns**                                 | <ul><li>The watcher object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1774](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1774) |
 
 ---
 
@@ -508,6 +569,8 @@ Usage:
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1379](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1379) |
 
 ---
 
@@ -522,6 +585,8 @@ Usage:
 | **Parameters**                              | <ul><li>events - A table of events to watch.</li></ul> |
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
 | **Notes**                                   | <ul><li>The events can be:</li><li> ** videoEffects</li><li> ** audioEffects</li><li> ** transitions</li><li> ** titles</li><li> ** generators</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/plugins.lua line 1753](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/plugins.lua#L1753) |
 
 ---
 

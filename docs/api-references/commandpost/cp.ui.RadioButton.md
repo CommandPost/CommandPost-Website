@@ -58,6 +58,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 32](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L32) |
 
 ---
 
@@ -72,6 +74,7 @@ myButton(false) == false	-- now false
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked. May be set by calling as a function with `true` or `false` to the function.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 59](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L59) |
 
 ---
 
@@ -88,6 +91,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 110](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L110) |
 
 ---
 
@@ -102,6 +107,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 202](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L202) |
 
 ---
 
@@ -116,6 +123,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L157) |
 
 ---
 
@@ -130,6 +139,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 91](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L91) |
 
 ---
 
@@ -144,6 +155,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L125) |
 
 ---
 
@@ -158,6 +171,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>layout - the table of state values to restore to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 186](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L186) |
 
 ---
 
@@ -172,6 +187,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 140](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L140) |
 
 ---
 
@@ -186,6 +203,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>finderFn		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `RadioButton`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L45) |
 
 ---
 
@@ -200,6 +219,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of the layout state.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 171](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L171) |
 
 ---
 
@@ -214,6 +235,8 @@ myButton(false) == false	-- now false
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/RadioButton.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/RadioButton.lua#L77) |
 
 ---
 

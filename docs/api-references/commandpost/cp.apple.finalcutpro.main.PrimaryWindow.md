@@ -54,6 +54,8 @@ Primary Window Module.
 | **Parameters**                              | <ul><li>w - The window to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 24](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L24) |
 
 ---
 
@@ -70,6 +72,8 @@ Primary Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 41](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L41) |
 
 ---
 
@@ -84,6 +88,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides access to any 'Alert' windows on the PrimaryWindow.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 335](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L335) |
 
 ---
 
@@ -96,6 +101,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the bottom group UI as a `hs.axuielement` object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L201) |
 
 ---
 
@@ -108,6 +114,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI which contains the Browser.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L252) |
 
 ---
 
@@ -120,6 +127,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 309](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L309) |
 
 ---
 
@@ -133,6 +141,7 @@ Primary Window Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 276](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L276) |
 
 ---
 
@@ -145,6 +154,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current position (x, y, width, height) of the window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 107](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L107) |
 
 ---
 
@@ -157,6 +167,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L86) |
 
 ---
 
@@ -169,6 +180,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Inspector object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 296](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L296) |
 
 ---
 
@@ -181,6 +193,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is full-screen.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 100](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L100) |
 
 ---
 
@@ -193,6 +206,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is visible.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 93](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L93) |
 
 ---
 
@@ -205,6 +219,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the left group UI as a `hs.axuielement` object                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 125](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L125) |
 
 ---
 
@@ -217,6 +232,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the right group UI as a `hs.axuielement` object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 145](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L145) |
 
 ---
 
@@ -229,6 +245,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the top AXSplitGroup as a `hs.axuielement` object                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 114](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L114) |
 
 ---
 
@@ -241,6 +258,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI that contains the `Timeline`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 245](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L245) |
 
 ---
 
@@ -253,6 +271,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The PrimaryToolbar element.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 322](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L322) |
 
 ---
 
@@ -265,6 +284,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the top group UI as a `hs.axuielement` object.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 162](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L162) |
 
 ---
 
@@ -277,6 +297,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `axuielement` for the window. May be `nil` if not currently available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 74](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L74) |
 
 ---
 
@@ -289,6 +310,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI that contains the `Viewer`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 238](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L238) |
 
 ---
 
@@ -301,6 +323,7 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Window` instance.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 67](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L67) |
 
 ---
 
@@ -317,6 +340,8 @@ Primary Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The app instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L54) |
 
 ---
 
@@ -331,6 +356,8 @@ Primary Window Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua line 259](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/PrimaryWindow.lua#L259) |
 
 ---
 

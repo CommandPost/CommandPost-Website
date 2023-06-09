@@ -42,6 +42,8 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>element - The element you want to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is the Browser Marker Popover otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 26](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L26) |
 
 ---
 
@@ -58,6 +60,8 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
 | **Returns**                                 | <ul><li>The new `BrowserMarkerPopover` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 39](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L39) |
 
 ---
 
@@ -72,6 +76,7 @@ Browser Marker Popup.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Chapter" Marker button.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 133](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L133) |
 
 ---
 
@@ -86,6 +91,7 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 172](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L172) |
 
 ---
 
@@ -100,6 +106,7 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 157](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L157) |
 
 ---
 
@@ -114,6 +121,7 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `Button` object.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 142](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L142) |
 
 ---
 
@@ -128,6 +136,7 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `TextField` object.</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 187](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L187) |
 
 ---
 
@@ -140,6 +149,7 @@ Browser Marker Popup.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Standard" Marker button.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 115](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L115) |
 
 ---
 
@@ -152,6 +162,7 @@ Browser Marker Popup.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "To Do" Marker button.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L124) |
 
 ---
 
@@ -168,6 +179,8 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 81](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L81) |
 
 ---
 
@@ -182,6 +195,8 @@ Browser Marker Popup.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>BrowserMarkerPopover object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/main/BrowserMarkerPopover.lua#L65) |
 
 ---
 

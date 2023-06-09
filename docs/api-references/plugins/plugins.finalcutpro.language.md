@@ -26,6 +26,8 @@ Final Cut Pro Language Plugin.
 | **Parameters**                              | <ul><li>locale - The `cp.i18n.localeID` or locale string you want to change to.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/language/init.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/language/init.lua#L18) |
 
 ---
 

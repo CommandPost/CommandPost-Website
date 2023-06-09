@@ -53,6 +53,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`id`      - The unique ID of the action handler.</li><li>`group`   - The group the handler belongs to.</li><li>`label`   - An optional label for the handler (over-riding a supplied i18n value)</li></ul> |
 | **Returns**                                 | <ul><li>The new action handler instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L29) |
 
 ---
 
@@ -67,6 +69,7 @@ containing the details of the action to execute if the choice is selected.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true` (the default), any choices created will be cached until [reset] is called.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 131](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L131) |
 
 ---
 
@@ -79,6 +82,7 @@ containing the details of the action to execute if the choice is selected.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides `cp.choices` instance for the handler. May be watched/monitored/etc.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L141) |
 
 ---
 
@@ -95,6 +99,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 189](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L189) |
 
 ---
 
@@ -109,6 +115,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`action`      - A table of details about the action.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the execution succeeded.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 215](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L215) |
 
 ---
 
@@ -123,6 +131,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Group as string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L92) |
 
 ---
 
@@ -137,6 +147,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L105) |
 
 ---
 
@@ -151,6 +163,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L118) |
 
 ---
 
@@ -165,6 +179,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`actionFn`    - The function with a signature of `function(action) -> string`</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 78](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L78) |
 
 ---
 
@@ -179,6 +195,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`choicesFn`       - The function with the signature of `function(choices) -> nothing`</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 64](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L64) |
 
 ---
 
@@ -193,6 +211,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`executeFn`       - The function to call when executing.</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L50) |
 
 ---
 
@@ -207,6 +227,8 @@ containing the details of the action to execute if the choice is selected.
 | **Parameters**                              | <ul><li>`updateNow`   - (optional) If `true`, the choices will update immediately, otherwise they will update when the choices are next requested.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/action/manager/handler.lua line 231](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/action/manager/handler.lua#L231) |
 
 ---
 

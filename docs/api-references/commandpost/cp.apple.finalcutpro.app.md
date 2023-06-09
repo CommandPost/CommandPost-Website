@@ -28,6 +28,7 @@ if only the trial version of FCPX is installed and use that instead.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The [app](cp.app.md) for Final Cut Pro.                                                                     |
 | **Notes**                                   | <ul><li>All values from [app](cp.app.md) can be accessed directly from the `finalcutpro` instance.</li></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 153](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L153) |
 
 ---
 
@@ -42,6 +43,7 @@ if only the trial version of FCPX is installed and use that instead.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for Final Cut Pro, or `nil` if it's not running.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/init.lua line 256](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/init.lua#L256) |
 
 ---
 

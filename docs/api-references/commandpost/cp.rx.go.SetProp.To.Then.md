@@ -32,6 +32,7 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp.To`, which should be created via `SetProp:To(...):Then(...)`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L130) |
 
 ---
 
@@ -48,6 +49,8 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 | **Parameters**                              | <ul><li>...  - The list of `resolveable` values to process for the successful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>local foo = prop.THIS("foo")</li><li>SetProp(foo):To("bar") -- `foo` is updated to "bar"</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:ThenReset() -- `foo` is back to "foo" now</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/rx/go/SetProp.lua line 179](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/SetProp.lua#L179) |
 
 ---
 

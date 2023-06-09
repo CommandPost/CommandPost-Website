@@ -60,6 +60,7 @@ Inspector
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of supported Inspector Tabs                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 38](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L38) |
 
 ---
 
@@ -76,6 +77,8 @@ Inspector
 | **Parameters**                              | <ul><li>element - axuielementObject</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 54](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L54) |
 
 ---
 
@@ -92,6 +95,8 @@ Inspector
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>The Inspector object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L70) |
 
 ---
 
@@ -106,6 +111,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [AudioInspector](cp.apple.finalcutpro.inspector.AudioInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 609](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L609) |
 
 ---
 
@@ -118,6 +124,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the bottom bar `axuielement` for the Inspector.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 169](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L169) |
 
 ---
 
@@ -130,6 +137,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ColorInspector](cp.apple.finalcutpro.inspector.ColorInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 635](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L635) |
 
 ---
 
@@ -142,6 +150,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [GeneratorInspector](package.GeneratorInspector.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 537](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L537) |
 
 ---
 
@@ -154,6 +163,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The  [InfoInspector](cp.apple.finalcutpro.inspector.InfoInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 550](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L550) |
 
 ---
 
@@ -166,6 +176,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the Inspector is full height.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 201](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L201) |
 
 ---
 
@@ -178,6 +189,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the Inspector is showing otherwise `false`                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L191) |
 
 ---
 
@@ -190,6 +202,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for text label at the top of the Inspector.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 181](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L181) |
 
 ---
 
@@ -202,6 +215,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the central panel `axuielement` for the Inspector.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L130) |
 
 ---
 
@@ -214,6 +228,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The  [InfoProjectInspector](cp.apple.finalcutpro.inspector.InfoProjectInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 557](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L557) |
 
 ---
 
@@ -226,6 +241,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the properties `axuielement` for the Inspector. This contains the rows of property values.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 151](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L151) |
 
 ---
 
@@ -238,6 +254,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ShareInspector](cp.apple.finalcutpro.inspector.ShareInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 622](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L622) |
 
 ---
 
@@ -250,6 +267,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextzInspector](cp.apple.finalcutpro.inspector.TextzInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 570](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L570) |
 
 ---
 
@@ -262,6 +280,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TitleInspector](cp.apple.finalcutpro.inspector.TitleInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 583](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L583) |
 
 ---
 
@@ -274,6 +293,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the "top bar" `axuielement` for the Inspector.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 118](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L118) |
 
 ---
 
@@ -286,6 +306,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TransitionInspector](cp.apple.finalcutpro.inspector.TransitionInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 596](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L596) |
 
 ---
 
@@ -298,6 +319,7 @@ Inspector
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [VideoInspector](cp.apple.finalcutpro.inspector.VideoInspector.md).                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 524](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L524) |
 
 ---
 
@@ -314,6 +336,8 @@ Inspector
 | **Parameters**                              | <ul><li>type - the type of the button to return. (e.g. "Video")</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute.</li></ul>          |
 | **Notes**                                   | <ul><li>Valid strings for `type` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li><li>Not all button types are available in all contexts.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 368](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L368) |
 
 ---
 
@@ -328,6 +352,8 @@ Inspector
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the Inspector was hidden successfully, or an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L303) |
 
 ---
 
@@ -342,6 +368,8 @@ Inspector
 | **Parameters**                              | <ul><li>title     - The title of the tab to select.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 408](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L408) |
 
 ---
 
@@ -356,6 +384,8 @@ Inspector
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the Inspector was shown successfully, or an error if not.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 268](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L268) |
 
 ---
 
@@ -370,6 +400,8 @@ Inspector
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Inspector` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 285](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L285) |
 
 ---
 
@@ -384,6 +416,8 @@ Inspector
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the selected tab, otherwise `nil` if the Inspector is closed or an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>The tab strings can be:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 475](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L475) |
 
 ---
 
@@ -398,6 +432,8 @@ Inspector
 | **Parameters**                              | <ul><li>tab - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>A string of the selected tab, otherwise `nil` if an error occurred.</li></ul>          |
 | **Notes**                                   | <ul><li>This method will open the Inspector if it's closed, and leave it open.</li><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 319](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L319) |
 
 ---
 
@@ -412,6 +448,8 @@ Inspector
 | **Parameters**                              | <ul><li>[tab] - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>The `Inspector` instance.</li></ul>          |
 | **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 225](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L225) |
 
 ---
 
@@ -426,6 +464,8 @@ Inspector
 | **Parameters**                              | <ul><li>tab - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>`true` if available otherwise `false`.</li></ul>          |
 | **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua line 430](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/Inspector.lua#L430) |
 
 ---
 

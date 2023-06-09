@@ -29,6 +29,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Ignore Card Plugin                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 141](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L141) |
 
 ---
 
@@ -45,6 +46,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L42) |
 
 ---
 
@@ -59,6 +62,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 105](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L105) |
 
 ---
 
@@ -73,6 +78,8 @@ Ignore Final Cut Pro's Media Import Window.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/import/ignorecard.lua line 124](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/import/ignorecard.lua#L124) |
 
 ---
 

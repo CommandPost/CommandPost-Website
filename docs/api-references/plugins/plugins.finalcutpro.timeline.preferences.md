@@ -27,6 +27,7 @@ Final Cut Pro Timeline Preferences.
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Background Render enabled?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/preferences.lua line 13](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/preferences.lua#L13) |
 
 ---
 
@@ -43,6 +44,8 @@ Final Cut Pro Timeline Preferences.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>'FFAutoRenderDelay' value as number.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/timeline/preferences.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/timeline/preferences.lua#L18) |
 
 ---
 

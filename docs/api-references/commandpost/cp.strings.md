@@ -49,6 +49,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>context      - The initial context.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.strings`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 198](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L198) |
 
 ---
 
@@ -65,6 +67,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>context   - A table with values which may be used by the source.</li></ul> |
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
 | **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>string:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 34](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L34) |
 
 ---
 
@@ -79,6 +83,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`key`        - The key to retrieve from the file.</li><li>`context`    - Optional table with additional/alternate context.</li><li>`quiet`      - Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 130](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L130) |
 
 ---
 
@@ -93,6 +99,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>context      - The intial context to use.</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 185](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L185) |
 
 ---
 
@@ -107,6 +115,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`key`        - The key to retrieve from the file.</li><li>`context`    - Optional table with additional/alternate context.</li><li>`quiet`      - Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 92](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L92) |
 
 ---
 
@@ -121,6 +131,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>value      - The value to search for.</li><li>context    - The language code to look for (e.g. `"en"`, or `"fr"`).</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul><li>Not recommended in production code, as it will potentially be very inefficient.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 167](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L167) |
 
 ---
 
@@ -135,6 +147,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`value`      - The value to search for.</li><li>`context`    - Optional additional context for the request.</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 111](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L111) |
 
 ---
 
@@ -149,6 +163,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`source`		- The source to add.</li></ul> |
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 63](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L63) |
 
 ---
 
@@ -163,6 +179,8 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Parameters**                              | <ul><li>`pathPattern` - The path to load from. May contain a special `${language}` marker which will be replace with the provided langauge when searching.</li></ul> |
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/strings/init.lua line 79](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/strings/init.lua#L79) |
 
 ---
 

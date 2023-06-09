@@ -32,6 +32,8 @@ iMessage Notifications Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/imessage.lua line 69](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/imessage.lua#L69) |
 
 ---
 
@@ -46,6 +48,8 @@ iMessage Notifications Plugin.
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/imessage.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/imessage.lua#L53) |
 
 ---
 
@@ -60,6 +64,8 @@ iMessage Notifications Plugin.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/imessage.lua line 18](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/imessage.lua#L18) |
 
 ---
 
@@ -74,6 +80,7 @@ iMessage Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/imessage.lua line 43](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/imessage.lua#L43) |
 
 ---
 
@@ -86,6 +93,7 @@ iMessage Notifications Plugin.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A string containing a mobile number or Apple ID                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finalcutpro/notifications/imessage.lua line 48](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/notifications/imessage.lua#L48) |
 
 ---
 

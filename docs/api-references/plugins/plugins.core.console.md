@@ -35,6 +35,8 @@ Search Console
 | **Parameters**                              | <ul><li>bundleID - The bundle ID of the application</li><li>activatorFn - A function that returns an activator.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/console/console.lua line 23](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L23) |
 
 ---
 
@@ -49,6 +51,8 @@ Search Console
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/core/console/console.lua line 37](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/console/console.lua#L37) |
 
 ---
 

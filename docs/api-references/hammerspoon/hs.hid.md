@@ -35,6 +35,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/hid/hid.lua line 16](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L16) |
 
 ---
 
@@ -49,6 +51,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Parameters**                              | <ul><li>state - A boolean indicating desired state</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/hid/hid.lua line 42](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L42) |
 
 ---
 
@@ -63,6 +67,8 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/hid/hid.lua line 29](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hid/hid.lua#L29) |
 
 ---
 

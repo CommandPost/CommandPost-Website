@@ -26,6 +26,8 @@ Provides an Error message, which can be thrown via the `error` function.
 | **Parameters**                              | <ul><li>other - An object to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Error.lua line 9](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Error.lua#L9) |
 
 ---
 

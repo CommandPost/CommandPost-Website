@@ -55,6 +55,8 @@ These work on all UI elements, including windows.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The element the watcher is watching.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement_watcher.m line 57](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement_watcher.m#L57) |
 
 ---
 
@@ -69,6 +71,8 @@ These work on all UI elements, including windows.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The PID of the element being watched</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/libuielement_watcher.m line 40](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/libuielement_watcher.m#L40) |
 
 ---
 
@@ -83,6 +87,8 @@ These work on all UI elements, including windows.
 | **Parameters**                              | <ul><li>An array of events to be watched for.</li></ul> |
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
 | **Notes**                                   | <ul><li>See hs.uielement.watcher for a list of events. You may also specify arbitrary event names as strings.</li><li>Does nothing if the watcher has already been started. To start with different events, stop it first.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/uielement.lua line 114](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/uielement.lua#L114) |
 
 ---
 
@@ -97,6 +103,8 @@ These work on all UI elements, including windows.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
 | **Notes**                                   | <ul><li>This is automatically called if the element is destroyed.</li></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [extensions/uielement/uielement.lua line 148](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/uielement/uielement.lua#L148) |
 
 ---
 

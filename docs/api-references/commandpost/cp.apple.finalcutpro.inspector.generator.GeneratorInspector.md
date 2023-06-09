@@ -26,6 +26,8 @@ Generator Inspector Module. This appears for both Generators and Titles.
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A GeneratorInspector object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua line 14](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/inspector/generator/GeneratorInspector.lua#L14) |
 
 ---
 

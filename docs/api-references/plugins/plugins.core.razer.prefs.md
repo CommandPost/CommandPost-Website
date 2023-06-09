@@ -31,6 +31,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we change bank on hardware when changing in preferences?                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 75](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L75) |
 
 ---
 
@@ -43,6 +44,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 60](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L60) |
 
 ---
 
@@ -55,6 +57,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control ID used in the Preferences Panel.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 70](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L70) |
 
 ---
 
@@ -67,6 +70,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control Type used in the Preferences Panel.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 65](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L65) |
 
 ---
 
@@ -79,6 +83,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 50](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L50) |
 
 ---
 
@@ -91,6 +96,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 85](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L85) |
 
 ---
 
@@ -103,6 +109,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 80](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L80) |
 
 ---
 
@@ -115,6 +122,7 @@ Razer Preferences Panel
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/core/razer/prefs/init.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/core/razer/prefs/init.lua#L45) |
 
 ---
 

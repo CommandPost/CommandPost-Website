@@ -50,6 +50,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>instance - The instance to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a `Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 31](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L31) |
 
 ---
 
@@ -66,6 +68,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>name - The name os the specification.</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.spec.Specification` object</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 44](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L44) |
 
 ---
 
@@ -82,6 +86,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>afterEachFn - The function to run after each child runs.</li></ul> |
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L72) |
 
 ---
 
@@ -96,6 +102,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>beforeEachFn - The function to run before each child runs.</li></ul> |
 | **Returns**                                 | <ul><li>The same `cp.spec.Specification` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 58](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L58) |
 
 ---
 
@@ -110,6 +118,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md) instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 86](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L86) |
 
 ---
 
@@ -124,6 +134,8 @@ return describe "a specification" {
 | **Parameters**                              | <ul><li>... - the [definitions](cp.spec.Definition.md) to add.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Specification` instance, with the definitions added.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/spec/Specification.lua line 135](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Specification.lua#L135) |
 
 ---
 

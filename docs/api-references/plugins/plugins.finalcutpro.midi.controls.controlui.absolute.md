@@ -27,6 +27,8 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Parameters**                              | <ul><li>metadata - table of metadata from the MIDI callback</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/absolute.lua line 45](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/absolute.lua#L45) |
 
 ---
 
@@ -41,6 +43,8 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The module</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finalcutpro/midi/controls/controlui/absolute.lua line 191](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finalcutpro/midi/controls/controlui/absolute.lua#L191) |
 
 ---
 

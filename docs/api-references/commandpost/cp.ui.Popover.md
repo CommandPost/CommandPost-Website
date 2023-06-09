@@ -33,6 +33,8 @@ UI Group.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 12](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L12) |
 
 ---
 
@@ -49,6 +51,8 @@ UI Group.
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Popover` object.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 25](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L25) |
 
 ---
 
@@ -65,6 +69,8 @@ UI Group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 53](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L53) |
 
 ---
 
@@ -79,6 +85,8 @@ UI Group.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/ui/Popover.lua line 36](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/ui/Popover.lua#L36) |
 
 ---
 

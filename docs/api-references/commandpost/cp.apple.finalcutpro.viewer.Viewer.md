@@ -67,6 +67,7 @@ Viewer Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Lists the possible background values: `BLACK`, `WHITE`, `CHECKERBOARD`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 472](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L472) |
 
 ---
 
@@ -79,6 +80,7 @@ Viewer Module.
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Lists the possible playback modes for the viewer: `ORIGINAL_BETTER_QUALITY`, `ORIGINAL_BETTER_PERFORMANCE`, `PROXY_PREFERRED`, `PROXY_ONLY`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 383](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L383) |
 
 ---
 
@@ -95,6 +97,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 101](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L101) |
 
 ---
 
@@ -111,6 +115,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>app           - The FCP application.</li><li>eventViewer   - If `true`, the viewer is the Event Viewer.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Viewer` instance.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 121](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L121) |
 
 ---
 
@@ -125,6 +131,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The viewer background mode. See `Viewer.BACKGROUND` for options.                                                                     |
 | **Notes**                                   | <ul><li>sets the background for all viewers.</li></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 481](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L481) |
 
 ---
 
@@ -137,6 +144,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the viewer is using playing with better quality (`true`) or performance (`false).                                                                     |
 | **Notes**                                   | <ul><li>Use `playbackMode` to change modes between original/proxy/quality/performance.</li></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 457](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L457) |
 
 ---
 
@@ -149,6 +157,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the `axuielement` for the media contents of the Viewer, or `nil` if not available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 252](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L252) |
 
 ---
 
@@ -161,6 +170,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md) for this `Viewer`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 295](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L295) |
 
 ---
 
@@ -173,6 +183,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the current frame for the viewer, or `nil` if it is not available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 242](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L242) |
 
 ---
 
@@ -185,6 +196,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the framerate as a number, or nil if not available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 498](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L498) |
 
 ---
 
@@ -197,6 +209,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the format text value, or `nil` if none is available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 491](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L491) |
 
 ---
 
@@ -209,6 +222,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the viewer has Player Controls visible.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 318](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L318) |
 
 ---
 
@@ -221,6 +235,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the [InfoBar](cp.apple.finalcutpro.viewer.InfoBar.md) for this `Viewer`.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 287](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L287) |
 
 ---
 
@@ -233,6 +248,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if this is the Event Viewer.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 518](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L518) |
 
 ---
 
@@ -245,6 +261,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if this is the main Viewer.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 511](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L511) |
 
 ---
 
@@ -257,6 +274,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Viewer is showing on the Primary Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 232](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L232) |
 
 ---
 
@@ -269,6 +287,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Viewer is showing on the Secondary Window.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 222](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L222) |
 
 ---
 
@@ -281,6 +300,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and allows modification of the current playback mode.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 393](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L393) |
 
 ---
 
@@ -295,6 +315,7 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Button</li></ul>          |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 713](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L713) |
 
 ---
 
@@ -307,6 +328,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current timecode value, with the format "hh:mm:ss:ff". Setting also supports "hh:mm:ss;ff".                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 310](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L310) |
 
 ---
 
@@ -319,6 +341,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [StaticText](cp.ui.StaticText.md) containing the timecode value.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 303](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L303) |
 
 ---
 
@@ -331,6 +354,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the Title of the clip in the Viewer as a [StaticText](cp.ui.StaticText.md)                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 325](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L325) |
 
 ---
 
@@ -343,6 +367,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the viewer is using Proxies (`true`) or Optimized/Original media (`false`).                                                                     |
 | **Notes**                                   | <ul><li>Use `playbackMode` to change modes between original/proxy/quality/performance.</li></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 443](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L443) |
 
 ---
 
@@ -355,6 +380,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Image` for the video content.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 280](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L280) |
 
 ---
 
@@ -367,6 +393,7 @@ Viewer Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the `axuielement` for video image within the Viewer, or `nil` if not available.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 267](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L267) |
 
 ---
 
@@ -383,6 +410,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The application.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 209](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L209) |
 
 ---
 
@@ -397,6 +426,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `PrimaryWindow` or the `SecondaryWindow`.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 531](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L531) |
 
 ---
 
@@ -411,6 +442,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true`, or sends an error.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 684](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L684) |
 
 ---
 
@@ -425,6 +458,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 359](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L359) |
 
 ---
 
@@ -439,6 +474,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 344](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L344) |
 
 ---
 
@@ -453,6 +490,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves to `true`, or sends an error message.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 578](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L578) |
 
 ---
 
@@ -467,6 +506,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true`, or sending an error message.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 630](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L630) |
 
 ---
 
@@ -481,6 +522,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 656](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L656) |
 
 ---
 
@@ -495,6 +538,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 726](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L726) |
 
 ---
 
@@ -509,6 +554,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 548](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L548) |
 
 ---
 
@@ -523,6 +570,8 @@ Viewer Module.
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua line 604](https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/apple/finalcutpro/viewer/Viewer.lua#L604) |
 
 ---
 

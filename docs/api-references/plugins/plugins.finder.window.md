@@ -36,6 +36,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | An integer specifying how many gridparts the screen should be divided into. Defaults to 30.                                                                     |
 | **Notes**                                   | - None |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 72](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L72) |
 
 ---
 
@@ -52,6 +53,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 42](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L42) |
 
 ---
 
@@ -66,6 +69,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 16](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L16) |
 
 ---
 
@@ -80,6 +85,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 29](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L29) |
 
 ---
 
@@ -94,6 +101,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>option - A string specifying the option, valid strings are: `halfleft`, `halfright`, `halfup`, `halfdown`, `cornerNW`, `cornerSW`, `cornerNE`, `cornerSE`, `center`, `fullscreen`, `expand`, `shrink`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 182](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L182) |
 
 ---
 
@@ -108,6 +117,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`, `next`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 237](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L237) |
 
 ---
 
@@ -122,6 +133,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 77](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L77) |
 
 ---
 
@@ -136,6 +149,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 128](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L128) |
 
 ---
 
@@ -150,6 +165,8 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
 | **Notes**                                   | <ul></ul> |
+| **Examples**                                | <ul></ul> |
+| **Source**                                  | [src/plugins/finder/window/window.lua line 106](https://github.com/CommandPost/CommandPost/blob/develop/src/plugins/finder/window/window.lua#L106) |
 
 ---
 
