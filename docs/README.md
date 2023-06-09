@@ -125,6 +125,9 @@ CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplifi
 
 ### Powered by Lua
 
+> _“ CommandPost is the first thing you should install If you like to tinker. This genius app extends Final Cut Pro in all kinds of ways, enabling advanced workflows, automation, and even integration with external hardware such as MIDI controllers. Recommended. ”_<br />
+> **[Iain Anderson](https://iain-anderson.com){target="_blank"}** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
+
 Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
 
 Every part of CommandPost can be easily modified and enhanced in a simple text editor. All the interfaces are built in plain HTML.
