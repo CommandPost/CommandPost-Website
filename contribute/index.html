@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739663780672">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739664843836">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.3.739663780672" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.739664843836" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739663780672" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739664843836" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739663780672" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739664843836" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -441,6 +441,12 @@
 </doc-anchor-target>
 <p>To create the fastest website possible, CommandPost is what&#x27;s called a &quot;static site&quot;. It just a collection of HTML files in a folder - nothing fancy.</p>
 <p>However, to make sure the website is super easy to update and improve, we use <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a> to &quot;do stuff&quot; to our markdown files whenever we submit a pull request.</p>
+<p>For example, each time you make a pull request, our <a href="https://github.com/CommandPost/CommandPost-Website/blob/main/.github/workflows/retype-action.yml" target="_blank">fancy GitHub Action</a> does the following:</p>
+<ul>
+<li>Pulls all the latest <a href="https://github.com/CommandPost/CommandPost/issues" target="_blank">GitHub issues</a> and populates the <a href="/wish-list/">Wish List</a> and <a href="../bugtracker/">Bug Tracker</a> pages.</li>
+<li>Looks at all the individual <strong>Snippets</strong> in <a href="https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets" target="_blank">this folder</a>, and generates an alphabetical list of them for the <a href="../scripting/snippets-library/">Snippets Library page</a>.</li>
+</ul>
+<p>This means, if you want to add a Snippet to the <a href="../scripting/snippets-library/">Snippets Library</a>, you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.</p>
 <hr />
 <doc-anchor-target id="how-to-edit-pages">
     <h3>
