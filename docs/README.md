@@ -22,7 +22,7 @@ It's been used for projects for **Netflix**, **Pixar** and the **BBC**. Even App
 ### Built for Professionals
 
 > Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters.<br />
-> _[Sam Pluemacher](https://www.imdb.com/name/nm10223233/) (assistant editor on Netflix's Blood Red Sky)_
+> _[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (assistant editor on Netflix's Blood Red Sky)_
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
@@ -31,6 +31,9 @@ It's been used for projects for **Netflix**, **Pixar** and the **BBC**. Even App
 ---
 
 ### Where Technology Meets Creativity
+
+> CommandPost and FCP are so intertwined on my day to day that I see them as one app.<br />
+> _[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}_
 
 CommandPost has been **built by filmmakers, for filmmakers**.
 
@@ -41,6 +44,9 @@ However, it's also used by developers, scientists and macOS power users all over
 ---
 
 ### Experience Unparalleled Control
+
+> As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable.
+> _[Oli Frost](https://olifro.st/){target="_blank"}_
 
 CommandPost has deep support for a wide range of control surfaces.
 
