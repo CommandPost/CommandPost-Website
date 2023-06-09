@@ -87,6 +87,9 @@ CommandPost can do complex things with a single keystroke, such as exporting you
 
 ### Powerful Search Console Redefines Navigation
 
+> _“ Search Console is like Spotlight on steroids. It can find any obscure command on a glance, NLE and OS-wide, fire up keyboard makros (scripts), and especially, find and place Effects and Effect Templates, directly onto selected clips in my FCP timeline. It constantly saves me clicks ”._<br />
+> **[Florian Duffe](https://florian-duffe.de/en/flow-en/){target="_blank"} (Editor)**
+
 CommandPost has an insanely powerful **Search Console** that allows you to trigger all of CommandPost's actions.
 
 Like Spotlight, this is accessible system-wide, and is also used to quickly assign actions to control surfaces buttons and knobs.
