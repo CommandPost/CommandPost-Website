@@ -1,10 +1,3 @@
-<style>
-    @media (max-width: 959px) {
-        img.rightLogo {
-            display: none !important;
-        }
-    }
-</style>
 <img class="rightLogo" src="https://commandpost.io/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # CommandPost
@@ -15,14 +8,14 @@ CommandPost is a **free** and [open source](https://github.com/CommandPost/Comma
 
 It’s been downloaded over [168 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}, and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"} in our [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
 
-It's been used for projects for **Netflix**, **Pixar** and the **BBC**. Even Apple employees also use it for lots of things!
+It's been used for projects for **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple** and **Adobe** use it daily.
 
 ---
 
 ### Built for Professionals
 
-> Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters.<br />
-> _[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (assistant editor on Netflix's Blood Red Sky)_
+> _“Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters.”_<br />
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (assistant editor on Netflix's Blood Red Sky)**
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
@@ -32,8 +25,8 @@ It's been used for projects for **Netflix**, **Pixar** and the **BBC**. Even App
 
 ### Where Technology Meets Creativity
 
-> CommandPost and FCP are so intertwined on my day to day that I see them as one app.<br />
-> _[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}_
+> _“CommandPost and FCP are so intertwined on my day to day that I see them as one app”._<br />
+> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}**
 
 CommandPost has been **built by filmmakers, for filmmakers**.
 
@@ -45,14 +38,16 @@ However, it's also used by developers, scientists and macOS power users all over
 
 ### Experience Unparalleled Control
 
-> As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable.
-> _[Oli Frost](https://olifro.st/){target="_blank"}_
+> _“As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable”._
+> **[Oli Frost](https://olifro.st/){target="_blank"}**
 
-CommandPost has deep support for a wide range of control surfaces.
+CommandPost has deep support for a wide range of **control surfaces**.
 
-It even brings back **Razer** keypad support to the Mac!
+It even brings back **[Razer](/control-surfaces/razer/)** keypad support to the Mac!
 
-You can basically control ANYTHING in Final Cut Pro with a huge range of control surfaces.
+You can basically control **ANYTHING** in Final Cut Pro with a huge range of control surfaces.
+
+**[Tangent](/control-surfaces/tangent/)**, **[Monogram](/control-surfaces/monogram/)** and **[Loupedeck](](/control-surfaces/tangent/))** all officially rely on CommandPost for Final Cut Pro support.
 
 ![](../static/homepage-control-surface.png)
 
@@ -62,6 +57,7 @@ You can basically control ANYTHING in Final Cut Pro with a huge range of control
 
 CommandPost allows you to do things in Final Cut Pro that are otherwise not possible, such as **Highlight Browser Playhead** and **Scrolling Timeline**.
 
+There's literally hundreds of actions in CommandPost for controlling Final Cut Pro in almost unlimited ways.
 
 ![](../static/homepage-final-cut-pro.png)
 
@@ -69,7 +65,7 @@ CommandPost allows you to do things in Final Cut Pro that are otherwise not poss
 
 ### Say Goodbye to Complexity
 
-CommandPost can do complex things with a single keystroke, such as exporting your Final Cut Pro Timeline Index and Browser Contents to a CSV!
+CommandPost can do complex things with a single keystroke, such as exporting your Final Cut Pro **Timeline Index and Browser Contents to a CSV**.
 
 ![](../static/homepage-csv.png)
 
@@ -77,9 +73,9 @@ CommandPost can do complex things with a single keystroke, such as exporting you
 
 ### Powerful Search Console Redefines Navigation
 
-CommandPost has an insanely powerful Search Console that allows you to trigger all of CommandPost's actions.
+CommandPost has an insanely powerful **Search Console** that allows you to trigger all of CommandPost's actions.
 
-This is accessible from every application, as is used to assign actions to control surfaces.
+Like Spotlight, this is accessible system-wide, and is also used to quickly assign actions to control surfaces buttons and knobs.
 
 ![](../static/homepage-search-console.png)
 
@@ -87,9 +83,11 @@ This is accessible from every application, as is used to assign actions to contr
 
 ### Diversify Your Creativity
 
-Whilst CommandPost was originally designed with Final Cut Pro in mind, it can control ANY Mac application.
+Whilst CommandPost was originally designed with Final Cut Pro in mind, it can actually control **ANY** Mac application.
 
-It's also always growing and expanding, for example it can scan After Effects so that you can trigger any effect from a control surface!
+It's also always growing and expanding, for example it can scan After Effects so that you can trigger any effect from a control surface.
+
+The Search Console will also list all your [Keyboard Maestro](https://www.keyboardmaestro.com/){target="_blank"} macros, macOS Shortcuts and even AppleScript's!
 
 ![](../static/homepage-after-effects.png)
 
@@ -110,3 +108,7 @@ Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the
 It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"}.
 
 ![](../static/homepage-lua.png)
+
+---
+
+[Download now](/download) for **free** and accelerate your post production workflow!
