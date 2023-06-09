@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -441,6 +441,10 @@ Additional submodules which may address this limitation as well as provide addit
 <td><strong>Notes</strong></td>
 <td><ul><li>This list was generated from the output of <code v-pre>avahi-browse -b</code> and <code v-pre>avahi-browse -bk</code> from the avahi-daemon/stable,now 0.7-4+b1 armhf package under Raspbian GNU/Linux 10.</li><li>This list is by no means complete and is provided solely for the purposes of providing examples. Additional service types can be discovered quite easily using Google or other search engines.</li><li>You can view the contents of this table in the Hammerspoon Console by entering <code v-pre>require(&quot;hs.bonjour&quot;).serviceTypes</code> into the input field.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L248">extensions/bonjour/bonjour.lua line 248</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -490,6 +494,14 @@ Additional submodules which may address this limitation as well as provide addit
 <td><strong>Notes</strong></td>
 <td><ul><li>If the name specified is not unique on the network for the service type specified, then a number will be appended to the end of the name. This behavior cannot be overridden and can only be detected by checking <doc-anchor-trigger to="#name">hs.bonjour.service:name</doc-anchor-trigger> after <doc-anchor-trigger to="#publish">hs.bonjour.service:publish</doc-anchor-trigger> is invoked to see if the name has been changed from what you originally assigned.</li><li></li><li>The service will not be advertised until <doc-anchor-trigger to="#publish">hs.bonjour.service:publish</doc-anchor-trigger> is invoked on the serviceObject returned.</li><li></li><li>If you do not specify the <code v-pre>domain</code> parameter, your default domain, usually &quot;local&quot; will be used.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L108">extensions/bonjour/bonjour.lua line 108</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -532,6 +544,14 @@ Additional submodules which may address this limitation as well as provide addit
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>In general you should not need to use this constructor, as they will be created automatically for you in the callbacks to <code v-pre>hs.bonjour:findServices</code>.</li><li>This method can be used, however, when you already know that a specific service should exist on the network and you wish to resolve its current IP addresses or text records.</li><li></li><li>Resolution of the service ip address, hostname, port, and current text records will not occur until <doc-anchor-trigger to="#publish">hs.bonjour.service:publish</doc-anchor-trigger> is invoked on the serviceObject returned.</li><li></li><li>The macOS API specifies that an empty domain string (i.e. specifying the <code v-pre>domain</code> parameter as &quot;&quot; or leaving it off completely) should result in using the default domain for the computer; in my experience this results in an error when attempting to resolve the serviceObject&#x27;s ip addresses if I don&#x27;t specify &quot;local&quot; explicitly. In general this shouldn&#x27;t be an issue if you limit your use of remote serviceObjects to those returned by <code v-pre>hs.bonjour:findServices</code> as the domain of discovery will be included in the object for you automatically. If you do try to create these objects independently yourself, be aware that attempting to use the &quot;default domain&quot; rather than specifying it explicitly will probably not work as expected.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L138">extensions/bonjour/bonjour.lua line 138</a></td>
 </tr>
 </tbody>
 </table>
@@ -582,6 +602,14 @@ Additional submodules which may address this limitation as well as provide addit
 <td><strong>Notes</strong></td>
 <td><ul><li>for remote serviceObjects, the table will be empty if this method is invoked before <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger>.</li><li>for local (published) serviceObjects, this table will always be empty.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L213">extensions/bonjour/libbonjour_service.m line 213</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -624,6 +652,14 @@ Additional submodules which may address this limitation as well as provide addit
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>for remote serviceObjects, this domain will be the domain the service was discovered in.</li><li>for local (published) serviceObjects, this domain will be the domain the service is published in; if you did not specify a domain with <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger> then this will be an empty string until <doc-anchor-trigger to="#publish">hs.bonjour.service:publish</doc-anchor-trigger> is invoked.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L248">extensions/bonjour/libbonjour_service.m line 248</a></td>
 </tr>
 </tbody>
 </table>
@@ -668,6 +704,14 @@ Additional submodules which may address this limitation as well as provide addit
 <td><strong>Notes</strong></td>
 <td><ul><li>for remote serviceObjects, this will be nil if this method is invoked before <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger>.</li><li>for local (published) serviceObjects, this method will always return nil.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L286">extensions/bonjour/libbonjour_service.m line 286</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -711,6 +755,14 @@ Additional submodules which may address this limitation as well as provide addit
 <td><strong>Notes</strong></td>
 <td><ul><li>if you are changing the value of this property, you must call this method before invoking [hs.bonjour.service:publish](#publish] or <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger>, or after stopping publishing or resolving with <doc-anchor-trigger to="#stop">hs.bonjour.service:stop</doc-anchor-trigger>.</li><li></li><li>for remote serviceObjects, this flag determines if resolution and text record monitoring should occur over peer-to-peer network interfaces.</li><li>for local (published) serviceObjects, this flag determines if advertising should occur over peer-to-peer network interfaces.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L400">extensions/bonjour/libbonjour_service.m line 400</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -731,7 +783,9 @@ the serviceObject userdata
 the string &quot;txtRecord&quot;
 a table containing key-value pairs specifying the new text records for the service</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the serviceObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>When monitoring is active, <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger> will return the most recent text records observed. If this is the only method by which you check the text records, but you wish to ensure you have the most recent values, you should invoke this method without specifying a callback.</li><li></li><li>When <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger> is invoked, the text records at the time of resolution are captured for retrieval with <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger>. Subsequent changes to the text records will not be reflected by <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger> unless this method has been invoked (with or without a callback function) and is currently active.</li><li></li><li>You <em>can</em> monitor for text changes on local serviceObjects that were created by <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger> and that you are publishing. This can be used to invoke a callback when one portion of your code makes changes to the text records you are publishing and you need another portion of your code to be aware of this change.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>When monitoring is active, <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger> will return the most recent text records observed. If this is the only method by which you check the text records, but you wish to ensure you have the most recent values, you should invoke this method without specifying a callback.</li><li></li><li>When <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger> is invoked, the text records at the time of resolution are captured for retrieval with <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger>. Subsequent changes to the text records will not be reflected by <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger> unless this method has been invoked (with or without a callback function) and is currently active.</li><li></li><li>You <em>can</em> monitor for text changes on local serviceObjects that were created by <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger> and that you are publishing. This can be used to invoke a callback when one portion of your code makes changes to the text records you are publishing and you need another portion of your code to be aware of this change.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L552">extensions/bonjour/libbonjour_service.m line 552</a> |</p>
 <hr />
 <doc-anchor-target id="name">
     <h3>
@@ -771,6 +825,14 @@ a table containing key-value pairs specifying the new text records for the servi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L269">extensions/bonjour/libbonjour_service.m line 269</a></td>
 </tr>
 </tbody>
 </table>
@@ -815,6 +877,14 @@ a table containing key-value pairs specifying the new text records for the servi
 <td><strong>Notes</strong></td>
 <td><ul><li>for remote serviceObjects, this will be -1 if this method is invoked before <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger>.</li><li>for local (published) serviceObjects, this method will always return the number specified when the serviceObject was created with the <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger> constructor.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L324">extensions/bonjour/libbonjour_service.m line 324</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -834,7 +904,9 @@ a table containing key-value pairs specifying the new text records for the servi
 on successful publishing:the serviceObject userdatathe string &quot;published&quot;
 if an error occurs during publishing:the serviceObject userdatathe string &quot;error&quot;a string specifying the specific error that occurred</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the serviceObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>this method should only be called on serviceObjects which were created with <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger>.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>this method should only be called on serviceObjects which were created with <doc-anchor-trigger to="#new">hs.bonjour.service.new</doc-anchor-trigger>.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L430">extensions/bonjour/libbonjour_service.m line 430</a> |</p>
 <hr />
 <doc-anchor-target id="resolve">
     <h3>
@@ -852,7 +924,9 @@ on successful resolution:the serviceObject userdatathe string &quot;resolved&quo
 if an error occurs during resolution:the serviceObject userdatathe string &quot;error&quot;a string specifying the specific error that occurred
 if <code v-pre>timeout</code> is specified and is any number other than 0.0, the following will be sent to the callback when the timeout has been reached:the serviceObject userdatathe string &quot;stop&quot;</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the serviceObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>this method should only be called on serviceObjects which were returned by an <code v-pre>hs.bonjour</code> browserObject or created with <doc-anchor-trigger to="#remote">hs.bonjour.service.remote</doc-anchor-trigger>.</li><li></li><li>For a remote service, this method must be called in order to retrieve the <doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger>, the <doc-anchor-trigger to="#port">port</doc-anchor-trigger>, the <doc-anchor-trigger to="#hostname">hostname</doc-anchor-trigger>, and any the associated <doc-anchor-trigger to="#txtRecord">text records</doc-anchor-trigger> for the service.</li><li>To reduce the usage of system resources, you should generally specify a timeout value or make sure to invoke <doc-anchor-trigger to="#stop">hs.bonjour.service:stop</doc-anchor-trigger> after you have verified that you have received the details you require.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>this method should only be called on serviceObjects which were returned by an <code v-pre>hs.bonjour</code> browserObject or created with <doc-anchor-trigger to="#remote">hs.bonjour.service.remote</doc-anchor-trigger>.</li><li></li><li>For a remote service, this method must be called in order to retrieve the <doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger>, the <doc-anchor-trigger to="#port">port</doc-anchor-trigger>, the <doc-anchor-trigger to="#hostname">hostname</doc-anchor-trigger>, and any the associated <doc-anchor-trigger to="#txtRecord">text records</doc-anchor-trigger> for the service.</li><li>To reduce the usage of system resources, you should generally specify a timeout value or make sure to invoke <doc-anchor-trigger to="#stop">hs.bonjour.service:stop</doc-anchor-trigger> after you have verified that you have received the details you require.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L486">extensions/bonjour/libbonjour_service.m line 486</a> |</p>
 <hr />
 <doc-anchor-target id="stop">
     <h3>
@@ -892,6 +966,14 @@ if <code v-pre>timeout</code> is specified and is any number other than 0.0, the
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this method will stop the advertising of a service which has been published with <doc-anchor-trigger to="#publish">hs.bonjour.service:publish</doc-anchor-trigger> or is being resolved with <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger>.</li><li></li><li>To reduce the usage of system resources, you should make sure to use this method when resolving a remote service if you did not specify a timeout for <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger> or specified a timeout of 0.0 once you have verified that you have the details you need.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L588">extensions/bonjour/libbonjour_service.m line 588</a></td>
 </tr>
 </tbody>
 </table>
@@ -936,6 +1018,14 @@ if <code v-pre>timeout</code> is specified and is any number other than 0.0, the
 <td><strong>Notes</strong></td>
 <td><ul><li>This method will stop updating <doc-anchor-trigger to="#txtRecord">hs.bonjour.service:txtRecord</doc-anchor-trigger> and invoking the callback, if any, assigned with <doc-anchor-trigger to="#monitor">hs.bonjour.service:monitor</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L612">extensions/bonjour/libbonjour_service.m line 612</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -979,6 +1069,14 @@ if <code v-pre>timeout</code> is specified and is any number other than 0.0, the
 <td><strong>Notes</strong></td>
 <td><ul><li>for remote serviceObjects, this method will return nil if invoked before <doc-anchor-trigger to="#resolve">hs.bonjour.service:resolve</doc-anchor-trigger></li><li>setting the text record for a service replaces the existing records for the serviceObject. If the serviceObject is remote, this change is only visible on the local machine. For a service you are advertising, this change will be advertised to other machines.</li><li></li><li>Text records are usually used to provide additional information concerning the service and their purpose and meanings are service dependant; for example, when advertising an <code v-pre>_http._tcp.</code> service, you can specify a specific path on the server by specifying a table of text records containing the &quot;path&quot; key.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L345">extensions/bonjour/libbonjour_service.m line 345</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1021,6 +1119,14 @@ if <code v-pre>timeout</code> is specified and is any number other than 0.0, the
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjour_service.m#L307">extensions/bonjour/libbonjour_service.m line 307</a></td>
 </tr>
 </tbody>
 </table>

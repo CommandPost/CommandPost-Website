@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -449,6 +449,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this function may not work for all clients implementing multicast DNS; it has been successfully tested with macOS and Linux targets running the Avahi Daemon service, but has generally returned an error when used with minimalist implementations found in common IOT devices and embedded electronics.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L214">extensions/bonjour/bonjour.lua line 214</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -491,6 +499,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is a convenience wrapper to <doc-anchor-trigger to="#findServices">hs.bonjour:findServices</doc-anchor-trigger> which collects the results from multiple callbacks made to <code v-pre>findServices</code> and returns them all at once to the callback function provided as an argument to this function.</li><li></li><li>Because this function collects the results of multiple callbacks before invoking its own callback, the <code v-pre>timeout</code> value specified indicates the maximum number of seconds to wait after the latest value received by <code v-pre>findServices</code> unless the macOS specifies that it believes there are no more service types to identify.</li><li>  This is a best guess made by the macOS which may not always be accurate if your local network is particularly slow or if there are machines on your network which are slow to respond.</li><li>  See <doc-anchor-trigger to="#findServices">hs.bonjour:findServices</doc-anchor-trigger> for more details if you need to create your own query which can persist for longer periods of time or require termination logic that ignores the macOS&#x27;s best guess.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L168">extensions/bonjour/bonjour.lua line 168</a></td>
 </tr>
 </tbody>
 </table>
@@ -541,6 +557,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjoir.m#L138">extensions/bonjour/libbonjoir.m line 138</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -566,7 +590,9 @@
 <code v-pre>browserObject</code>    - the userdata object for the browserObject which initiated the search
 <code v-pre>type</code>             - a string which will be &#x27;domain&#x27; or &#x27;error&#x27;if <code v-pre>type</code> == &#x27;domain&#x27;, the remaining arguments will be:<code v-pre>added</code>        - a boolean value indicating whether this callback invocation represents a newly discovered or added domain (true) or that the domain has been removed from the network (false)<code v-pre>domain</code>       - a string specifying the name of the domain discovered or removed<code v-pre>moreExpected</code> - a boolean value indicating whether or not the browser expects to discover additional domains or not.if <code v-pre>type</code> == &#x27;error&#x27;, the remaining arguments will be:<code v-pre>errorString</code>  - a string specifying the error which has occurred</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the browserObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This method returns domains which are visible to your machine; however, your machine may or may not be able to access or publish records within the returned domains. See  <doc-anchor-trigger to="#findRegistrationDomains">hs.bonjour:findRegistrationDomains</doc-anchor-trigger></li><li></li><li>For most non-corporate network users, it is likely that the callback will only be invoked once for the <code v-pre>local</code> domain. This is normal. Corporate networks or networks including Linux machines using additional domains defined with Avahi may see additional domains as well, though most Avahi installations now use only &#x27;local&#x27; by default unless specifically configured to do otherwise.</li><li></li><li>When <code v-pre>moreExpected</code> becomes false, it is the macOS&#x27;s best guess as to whether additional records are available.</li><li>  Generally macOS is fairly accurate in this regard concerning domain searches, so to reduce the impact on system resources, it is recommended that you use <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> when this parameter is false</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This method returns domains which are visible to your machine; however, your machine may or may not be able to access or publish records within the returned domains. See  <doc-anchor-trigger to="#findRegistrationDomains">hs.bonjour:findRegistrationDomains</doc-anchor-trigger></li><li></li><li>For most non-corporate network users, it is likely that the callback will only be invoked once for the <code v-pre>local</code> domain. This is normal. Corporate networks or networks including Linux machines using additional domains defined with Avahi may see additional domains as well, though most Avahi installations now use only &#x27;local&#x27; by default unless specifically configured to do otherwise.</li><li></li><li>When <code v-pre>moreExpected</code> becomes false, it is the macOS&#x27;s best guess as to whether additional records are available.</li><li>  Generally macOS is fairly accurate in this regard concerning domain searches, so to reduce the impact on system resources, it is recommended that you use <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> when this parameter is false</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjoir.m#L186">extensions/bonjour/libbonjoir.m line 186</a> |</p>
 <hr />
 <doc-anchor-target id="findregistrationdomains">
     <h3>
@@ -583,7 +609,9 @@
 <code v-pre>browserObject</code>    - the userdata object for the browserObject which initiated the search
 <code v-pre>type</code>             - a string which will be &#x27;domain&#x27; or &#x27;error&#x27;if <code v-pre>type</code> == &#x27;domain&#x27;, the remaining arguments will be:<code v-pre>added</code>        - a boolean value indicating whether this callback invocation represents a newly discovered or added domain (true) or that the domain has been removed from the network (false)<code v-pre>domain</code>       - a string specifying the name of the domain discovered or removed<code v-pre>moreExpected</code> - a boolean value indicating whether or not the browser expects to discover additional domains or not.if <code v-pre>type</code> == &#x27;error&#x27;, the remaining arguments will be:<code v-pre>errorString</code>  - a string specifying the error which has occurred</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the browserObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This is the preferred method for accessing domains as it guarantees that the host machine can connect to services in the returned domains. Access to domains outside this list may be more limited. See also <doc-anchor-trigger to="#findBrowsableDomains">hs.bonjour:findBrowsableDomains</doc-anchor-trigger></li><li></li><li>For most non-corporate network users, it is likely that the callback will only be invoked once for the <code v-pre>local</code> domain. This is normal. Corporate networks or networks including Linux machines using additional domains defined with Avahi may see additional domains as well, though most Avahi installations now use only &#x27;local&#x27; by default unless specifically configured to do otherwise.</li><li></li><li>When <code v-pre>moreExpected</code> becomes false, it is the macOS&#x27;s best guess as to whether additional records are available.</li><li>  Generally macOS is fairly accurate in this regard concerning domain searches, so to reduce the impact on system resources, it is recommended that you use <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> when this parameter is false</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This is the preferred method for accessing domains as it guarantees that the host machine can connect to services in the returned domains. Access to domains outside this list may be more limited. See also <doc-anchor-trigger to="#findBrowsableDomains">hs.bonjour:findBrowsableDomains</doc-anchor-trigger></li><li></li><li>For most non-corporate network users, it is likely that the callback will only be invoked once for the <code v-pre>local</code> domain. This is normal. Corporate networks or networks including Linux machines using additional domains defined with Avahi may see additional domains as well, though most Avahi installations now use only &#x27;local&#x27; by default unless specifically configured to do otherwise.</li><li></li><li>When <code v-pre>moreExpected</code> becomes false, it is the macOS&#x27;s best guess as to whether additional records are available.</li><li>  Generally macOS is fairly accurate in this regard concerning domain searches, so to reduce the impact on system resources, it is recommended that you use <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> when this parameter is false</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjoir.m#L224">extensions/bonjour/libbonjoir.m line 224</a> |</p>
 <hr />
 <doc-anchor-target id="findservices">
     <h3>
@@ -600,7 +628,9 @@
 if a service is discovered or advertising for the service is terminated, the arguments will be:the browserObjectthe string &quot;domain&quot;a boolean indicating whether the service is being advertised (true) or should be removed because advertisements for the service are being terminated (false)the serviceObject for the specific advertisement (see <code v-pre>hs.bonjour.service</code>)a boolean indicating if more advertisements are expected (true) or if the macOS believes that there are no more advertisements to be discovered (false).
 if an error occurs, the callback arguments will be:the browserObjectthe string &quot;error&quot;a string specifying the specific error that occurred</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the browserObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>macOS will indicate when it believes there are no more advertisements of the type specified by <code v-pre>type</code> in <code v-pre>domain</code> by marking the last argument to your callback function as false. This is a best guess and may not always be accurate if your network is slow or some servers on your network are particularly slow to respond.</li><li>In addition, if you leave the browser running this method, you will get future updates when services are removed because of server shutdowns or added because of new servers being booted up.</li><li>Leaving the browser running does consume some system resources though, so you will have to determine, based upon your specific requirements, if this is a concern for your specific task or not. To terminate the browser when you have retrieved all of the information you require, you can use the <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> method.</li><li></li><li>The special type &quot;_services._dns-sd._udp.&quot; can be used to discover the types of services being advertised on your network. The <code v-pre>hs.bonjour.service</code> objects returned to the callback function cannot actually be resolved, but you can use the <code v-pre>hs.bonjour.service:name</code> method to create a list of services that are currently present and being advertised.</li><li>  this special type is used by the shortcut function <doc-anchor-trigger to="#networkServices">hs.bonjour.networkServices</doc-anchor-trigger> for this specific purpose.</li><li></li><li>The special domain &quot;dns-sd.org.&quot; can be specified to find services advertised through Wide-Area Service Discovery as described at <a href="http://www.dns-sd.org">http://www.dns-sd.org</a>. This can be used to discover a limited number of globally available sites on the internet, especially with a service type of <code v-pre>_http._tcp.</code>.</li><li>  In theory, with additional software, you may be able to publish services on your machine for Wide-Area Service discovery using this domain with <code v-pre>hs.bonjour.service.new</code> but the local dns server requirements and security implications of doing so are beyond the scope of this documentation. You should refer to <a href="http://www.dns-sd.org">http://www.dns-sd.org</a> and your local DNS Server administrator or provider for more details.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>macOS will indicate when it believes there are no more advertisements of the type specified by <code v-pre>type</code> in <code v-pre>domain</code> by marking the last argument to your callback function as false. This is a best guess and may not always be accurate if your network is slow or some servers on your network are particularly slow to respond.</li><li>In addition, if you leave the browser running this method, you will get future updates when services are removed because of server shutdowns or added because of new servers being booted up.</li><li>Leaving the browser running does consume some system resources though, so you will have to determine, based upon your specific requirements, if this is a concern for your specific task or not. To terminate the browser when you have retrieved all of the information you require, you can use the <doc-anchor-trigger to="#stop">hs.bonjour:stop</doc-anchor-trigger> method.</li><li></li><li>The special type &quot;_services._dns-sd._udp.&quot; can be used to discover the types of services being advertised on your network. The <code v-pre>hs.bonjour.service</code> objects returned to the callback function cannot actually be resolved, but you can use the <code v-pre>hs.bonjour.service:name</code> method to create a list of services that are currently present and being advertised.</li><li>  this special type is used by the shortcut function <doc-anchor-trigger to="#networkServices">hs.bonjour.networkServices</doc-anchor-trigger> for this specific purpose.</li><li></li><li>The special domain &quot;dns-sd.org.&quot; can be specified to find services advertised through Wide-Area Service Discovery as described at <a href="http://www.dns-sd.org">http://www.dns-sd.org</a>. This can be used to discover a limited number of globally available sites on the internet, especially with a service type of <code v-pre>_http._tcp.</code>.</li><li>  In theory, with additional software, you may be able to publish services on your machine for Wide-Area Service discovery using this domain with <code v-pre>hs.bonjour.service.new</code> but the local dns server requirements and security implications of doing so are beyond the scope of this documentation. You should refer to <a href="http://www.dns-sd.org">http://www.dns-sd.org</a> and your local DNS Server administrator or provider for more details.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/bonjour.lua#L65">extensions/bonjour/bonjour.lua line 65</a> |</p>
 <hr />
 <doc-anchor-target id="includespeertopeer">
     <h3>
@@ -640,6 +670,14 @@ if an error occurs, the callback arguments will be:the browserObjectthe string &
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This property must be set before initiating a search to have an effect.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjoir.m#L161">extensions/bonjour/libbonjoir.m line 161</a></td>
 </tr>
 </tbody>
 </table>
@@ -683,6 +721,14 @@ if an error occurs, the callback arguments will be:the browserObjectthe string &
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should be invoked when you have identified the services or hosts you require to reduce the consumption of system resources.</li><li>Invoking this method on an already idle browser will do nothing</li><li></li><li>In general, when your callback function for <doc-anchor-trigger to="#findBrowsableDomains">hs.bonjour:findBrowsableDomains</doc-anchor-trigger>, <doc-anchor-trigger to="#findRegistrationDomains">hs.bonjour:findRegistrationDomains</doc-anchor-trigger>, or <doc-anchor-trigger to="#findServices">hs.bonjour:findServices</doc-anchor-trigger> receives false for the <code v-pre>moreExpected</code> parameter, you should invoke this method on the browserObject unless there are specific reasons not to. Possible reasons you might want to extend the life of the browserObject are documented within each method.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/bonjour/libbonjoir.m#L292">extensions/bonjour/libbonjoir.m line 292</a></td>
 </tr>
 </tbody>
 </table>

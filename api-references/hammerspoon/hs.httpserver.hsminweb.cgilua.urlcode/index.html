@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -429,6 +429,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>the string will be of the form: &quot;key1=value1&amp;key2=value2...&quot; where all of the keys and values are properly escaped using <doc-anchor-trigger to="#escape">cgilua.urlcode.escape</doc-anchor-trigger>.  If you are crafting a URL by hand, the result of this function should be appended to the end of the URL after a &quot;?&quot; character to specify where the query string begins.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/cgilua_compatibility_functions.lua#L462">extensions/httpserver/cgilua_compatibility_functions.lua line 462</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -471,6 +479,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this function assumes that the provided string is a single component and URL encodes <em>all</em> non-alphanumeric characters.  Do not use this function to generate a URL query string -- use <doc-anchor-trigger to="#encodetable">cgilua.urlcode.encodetable</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/cgilua_compatibility_functions.lua#L432">extensions/httpserver/cgilua_compatibility_functions.lua line 432</a></td>
 </tr>
 </tbody>
 </table>
@@ -515,6 +531,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If the key already exists in the table, its value is converted to a table (if it isn&#x27;t already) and the new value is added to the end of the array of values for the key.</li><li>This function is used internally by <doc-anchor-trigger to="#parsequery">cgilua.urlcode.parsequery</doc-anchor-trigger> or can be used to prepare a table of key-value pairs for <doc-anchor-trigger to="#encodetable">cgilua.urlcode.encodetable</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/cgilua_compatibility_functions.lua#L486">extensions/httpserver/cgilua_compatibility_functions.lua line 486</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -558,6 +582,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The specification allows for the same key to be assigned multiple values in an encoded string, but does not specify the behavior; by convention, web servers assign these multiple values to the same key in an array (table).  This function follows that convention.  This is most commonly used by forms which allow selecting multiple options via check boxes or in a selection list.</li><li>This function uses <doc-anchor-trigger to="#insertfield">cgilua.urlcode.insertfield</doc-anchor-trigger> to build the key-value table.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/cgilua_compatibility_functions.lua#L517">extensions/httpserver/cgilua_compatibility_functions.lua line 517</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -600,6 +632,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/cgilua_compatibility_functions.lua#L448">extensions/httpserver/cgilua_compatibility_functions.lua line 448</a></td>
 </tr>
 </tbody>
 </table>

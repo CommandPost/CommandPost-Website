@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -419,7 +419,9 @@ one or more interface names, separated by a comma
 if the first argument is a table, it is assumes to be a table containing a list of interfaces and this list is used instead, ignoring any additional arguments that may be provided
 if no arguments are specified, then the results of <doc-anchor-trigger to="#interfaces">hs.network.interfaces</doc-anchor-trigger> is used.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A table containing a list of the IP addresses for the interfaces as determined by the arguments provided.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The order of the IP addresses returned is undefined.</li><li>If no arguments are provided, then this function returns the same results as <code v-pre>hs.host.addresses</code>, but does not block.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>The order of the IP addresses returned is undefined.</li><li>If no arguments are provided, then this function returns the same results as <code v-pre>hs.host.addresses</code>, but does not block.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L145">extensions/network/network.lua line 145</a> |</p>
 <hr />
 <doc-anchor-target id="interfacedetails">
     <h3>
@@ -459,6 +461,14 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>When determining the primary interface, the <code v-pre>favorIPv6</code> flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L69">extensions/network/network.lua line 69</a></td>
 </tr>
 </tbody>
 </table>
@@ -503,6 +513,14 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 <td><strong>Notes</strong></td>
 <td><ul><li>Only interfaces which show up in the System Preferences Network panel will have a user defined name.</li><li></li><li>When determining the primary interface, the <code v-pre>favorIPv6</code> flag only determines interface search order.  If you specify true for this flag, but no primary IPv6 interface exists (i.e. your DHCP server only provides an IPv4 address an IPv6 is limited to local only traffic), then the primary IPv4 interface will be used instead.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L190">extensions/network/network.lua line 190</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -546,6 +564,14 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 <td><strong>Notes</strong></td>
 <td><ul><li>The names of the interfaces returned by this function correspond to the interface&#x27;s BSD name, not the user defined name that shows up in the System Preferences&#x27;s Network panel.</li><li>This function returns <em>all</em> interfaces, even ones used by the system that are not directly manageable by the user.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L38">extensions/network/network.lua line 38</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -588,6 +614,14 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The IPv4 and IPv6 interface names are often, but not always, the same.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network.lua#L115">extensions/network/network.lua line 115</a></td>
 </tr>
 </tbody>
 </table>

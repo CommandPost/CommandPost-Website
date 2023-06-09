@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -539,6 +539,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>While you can customize the default windowfilter, it&#x27;s usually advisable to make your customizations on a local copy via <code v-pre>mywf=hs.window.filter.new()</code>;</li><li>   the default windowfilter can potentially be used in several Hammerspoon modules and changing it might have unintended consequences.</li><li>   Common customizations:</li><li>  to exclude fullscreen windows: <code v-pre>nofs_wf=hs.window.filter.new():setOverrideFilter{fullscreen=false}</code></li><li>  to include invisible windows: <code v-pre>inv_wf=windowfilter.new():setDefaultFilter{}</code></li><li>If you still want to alter the default windowfilter:</li><li>  you should probably apply your customizations at the top of your <code v-pre>init.lua</code>, or at any rate before instantiating any other windowfilter; this</li><li>     way copies created via <code v-pre>hs.window.filter.new(nil,...)</code> will inherit your modifications</li><li>  to list the known exclusions: <code v-pre>hs.inspect(hs.window.filter.default:getFilters())</code> from the console</li><li>  to add an exclusion: <code v-pre>hs.window.filter.default:rejectApp'Cool New Launcher'</code></li><li>  to add an app-specific rule: <code v-pre>hs.window.filter.default:setAppFilter('My IDE',1)</code>; ignore tooltips/code completion (empty title) in My IDE</li><li>  to remove an exclusion (e.g. if you want to have access to Spotlight windows): <code v-pre>hs.window.filter.default:allowApp'Spotlight'</code>;</li><li>     for specialized uses you can make a specific windowfilter with <code v-pre>myfilter=hs.window.filter.new'Spotlight'</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L742">extensions/window/window_filter.lua line 742</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -573,6 +577,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This windowfilter will inherit customizations to the default windowfilter if they&#x27;re performed <em>before</em> referencing this</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L763">extensions/window/window_filter.lua line 763</a></td>
 </tr>
 </tbody>
 </table>
@@ -609,6 +617,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>callbacks for this event will receive (as the first argument) the last window that was allowed (and is now rejected)</li><li>this pseudo-event won&#x27;t trigger again until after the windowfilter allows at least one window</li><li>this pseudo-event will be emitted <em>after</em> the <em>actual</em> event(s) (e.g. <code v-pre>windowDestroyed</code>) that caused the window to be rejected</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L915">extensions/window/window_filter.lua line 915</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -643,6 +655,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>callbacks for this event will receive (as the first argument) the window that is now allowed</li><li>this pseudo-event won&#x27;t trigger again until after the windowfilter reverts to rejecting all windows</li><li>this pseudo-event will be emitted <em>after</em> the <em>actual</em> event(s) (e.g. <code v-pre>windowCreated</code>) that caused a window to be allowed</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L906">extensions/window/window_filter.lua line 906</a></td>
 </tr>
 </tbody>
 </table>
@@ -679,6 +695,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1759">extensions/window/window_filter.lua line 1759</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -713,6 +733,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1755">extensions/window/window_filter.lua line 1755</a></td>
 </tr>
 </tbody>
 </table>
@@ -749,6 +773,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1751">extensions/window/window_filter.lua line 1751</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -783,6 +811,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li> This is the default sort order for all windowfilters</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1744">extensions/window/window_filter.lua line 1744</a></td>
 </tr>
 </tbody>
 </table>
@@ -819,6 +851,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>this pseudo-event will be emitted <em>before</em> the <em>actual</em> event(s) (e.g. <code v-pre>windowCreated</code>) that caused the window to be allowed</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L892">extensions/window/window_filter.lua line 892</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -853,6 +889,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L814">extensions/window/window_filter.lua line 814</a></td>
 </tr>
 </tbody>
 </table>
@@ -889,6 +929,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L818">extensions/window/window_filter.lua line 818</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -923,6 +967,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L880">extensions/window/window_filter.lua line 880</a></td>
 </tr>
 </tbody>
 </table>
@@ -959,6 +1007,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L826">extensions/window/window_filter.lua line 826</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -993,6 +1045,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L846">extensions/window/window_filter.lua line 846</a></td>
 </tr>
 </tbody>
 </table>
@@ -1029,6 +1085,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L860">extensions/window/window_filter.lua line 860</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1063,6 +1123,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L834">extensions/window/window_filter.lua line 834</a></td>
 </tr>
 </tbody>
 </table>
@@ -1099,6 +1163,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L822">extensions/window/window_filter.lua line 822</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1133,6 +1201,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L865">extensions/window/window_filter.lua line 865</a></td>
 </tr>
 </tbody>
 </table>
@@ -1169,6 +1241,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L875">extensions/window/window_filter.lua line 875</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1203,6 +1279,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L855">extensions/window/window_filter.lua line 855</a></td>
 </tr>
 </tbody>
 </table>
@@ -1239,6 +1319,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L870">extensions/window/window_filter.lua line 870</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1273,6 +1357,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this pseudo-event will be emitted <em>after</em> the <em>actual</em> event(s) (e.g. <code v-pre>windowDestroyed</code>) that caused the window to be rejected</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L899">extensions/window/window_filter.lua line 899</a></td>
 </tr>
 </tbody>
 </table>
@@ -1309,6 +1397,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>callbacks for this event will receive (as the first argument) either a random window among the currently allowed ones,</li><li>   or nil if the windowfilter is rejecting all windows</li><li>similarly, the second argument passed to callbacks (window&#x27;s app name) will be nil if the windowfilter is rejecting all windows</li><li>this pseudo-event will be emitted <em>after</em> the <em>actual</em> event(s) that caused the list of allowed windows to change</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L924">extensions/window/window_filter.lua line 924</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1343,6 +1435,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L888">extensions/window/window_filter.lua line 888</a></td>
 </tr>
 </tbody>
 </table>
@@ -1379,6 +1475,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L884">extensions/window/window_filter.lua line 884</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1413,6 +1513,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L830">extensions/window/window_filter.lua line 830</a></td>
 </tr>
 </tbody>
 </table>
@@ -1449,6 +1553,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L842">extensions/window/window_filter.lua line 842</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1484,6 +1592,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L838">extensions/window/window_filter.lua line 838</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1518,6 +1630,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L850">extensions/window/window_filter.lua line 850</a></td>
 </tr>
 </tbody>
 </table>
@@ -1560,6 +1676,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>You can have fine grained control of allowed window roles via the <code v-pre>setAppFilter</code>, <code v-pre>setDefaultFilter</code>, <code v-pre>setOverrideFilter</code> methods.</li><li>If you know what you&#x27;re doing you can override the allowed window roles globally by changing this variable, but this is discouraged.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L179">extensions/window/window_filter.lua line 179</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1595,6 +1715,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>If you defined one or more Spaces-aware windowfilters (i.e. when the <code v-pre>currentSpace</code> field of a filter is present), windows need refreshing at every space change anyway, so this variable is ignored</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1510">extensions/window/window_filter.lua line 1510</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1629,6 +1753,10 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>As the name implies, even the empty, &quot;allow all&quot; windowfilter will ignore these apps.</li><li>You don&#x27;t <em>need</em> to keep this table up to date, since non GUI apps will simply never show up anywhere; this table is just used as a &quot;root&quot; filter to gain a (very small) performance improvement.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L103">extensions/window/window_filter.lua line 103</a></td>
 </tr>
 </tbody>
 </table>
@@ -1679,6 +1807,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.filter.defaultCurrentSpace:focusWindowEast(nil,nil,true)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2241">extensions/window/window_filter.lua line 2241</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1721,6 +1857,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.filter.defaultCurrentSpace:focusWindowNorth(nil,nil,true)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2280">extensions/window/window_filter.lua line 2280</a></td>
 </tr>
 </tbody>
 </table>
@@ -1765,6 +1909,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.filter.defaultCurrentSpace:focusWindowSouth(nil,nil,true)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2267">extensions/window/window_filter.lua line 2267</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1807,6 +1959,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.filter.defaultCurrentSpace:focusWindowWest(nil,nil,true)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2254">extensions/window/window_filter.lua line 2254</a></td>
 </tr>
 </tbody>
 </table>
@@ -1851,6 +2011,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L771">extensions/window/window_filter.lua line 771</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1893,6 +2061,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Only use this function if &quot;Displays have separate Spaces&quot; and &quot;Automatically rearrange Spaces&quot; are OFF in System Preferences&gt;Mission Control</li><li>Calling this function will set <code v-pre>hs.window.filter.forceRefreshOnSpaceChange</code> to <code v-pre>false</code></li><li>If you defined one or more Spaces-aware windowfilters (i.e. when the <code v-pre>currentSpace</code> field of a filter is present), windows need refreshing at every space change anyway, so using this callback will not result in improved performance</li><li>See <code v-pre>hs.window.filter.forceRefreshOnSpaceChange</code> for an overview of Spaces limitations in Hammerspoon. If you often (or always) change Space via the &quot;numbered&quot; Mission Control keyboard shortcuts (by default, <code v-pre>ctrl-1</code> etc.), you can call this function from your <code v-pre>init.lua</code> when intercepting these shortcuts; for example:</li><li> <code v-pre>&lt;/li&gt;&lt;li&gt; hs.hotkey.bind('ctrl','1',nil,function()hs.window.filter.switchedToSpace(1)end)&lt;/li&gt;&lt;li&gt; hs.hotkey.bind('ctrl','2',nil,function()hs.window.filter.switchedToSpace(2)end)&lt;/li&gt;&lt;li&gt; -- etc.&lt;/li&gt;&lt;li&gt; </code></li><li>* Using this callback results in slightly better performance than setting <code v-pre>forceRefreshOnSpaceChange</code> to <code v-pre>true</code>, since already visited Spaces are remembered and no refreshing is necessary when switching back to those.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1471">extensions/window/window_filter.lua line 1471</a></td>
 </tr>
 </tbody>
 </table>
@@ -1943,6 +2119,14 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L724">extensions/window/window_filter.lua line 724</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1966,7 +2150,9 @@ if a string or table of strings, returns a windowfilter that only allows visible
 if a table, you can fully define a windowfilter without having to call any methods after construction; the table must be structured as per <code v-pre>hs.window.filter:setFilters()</code>; if not specified in the table, the default filter in the new windowfilter will reject all windows
 otherwise it must be a function that accepts an <code v-pre>hs.window</code> object and returns <code v-pre>true</code> if the window is allowed or <code v-pre>false</code> otherwise; this way you can define a fully custom windowfilter</li><li>logname - (optional) name of the <code v-pre>hs.logger</code> instance for the new windowfilter; if omitted, the class logger will be used</li><li>loglevel - (optional) log level for the <code v-pre>hs.logger</code> instance for the new windowfilter</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a new windowfilter instance</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L672">extensions/window/window_filter.lua line 672</a> |</p>
 <hr />
 <doc-anchor-target id="methods">
     <h4>
@@ -2013,6 +2199,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul><li>this is just a convenience wrapper for <code v-pre>windowfilter:setAppFilter(appname,{visible=true})</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L342">extensions/window/window_filter.lua line 342</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2055,6 +2249,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.focusWindowEast(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2173">extensions/window/window_filter.lua line 2173</a></td>
 </tr>
 </tbody>
 </table>
@@ -2099,6 +2301,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.focusWindowNorth(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2223">extensions/window/window_filter.lua line 2223</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2141,6 +2351,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.focusWindowSouth(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2206">extensions/window/window_filter.lua line 2206</a></td>
 </tr>
 </tbody>
 </table>
@@ -2185,6 +2403,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that performs <code v-pre>hs.window.focusWindowWest(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2190">extensions/window/window_filter.lua line 2190</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2227,6 +2453,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L641">extensions/window/window_filter.lua line 641</a></td>
 </tr>
 </tbody>
 </table>
@@ -2271,6 +2505,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1813">extensions/window/window_filter.lua line 1813</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2313,6 +2555,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L312">extensions/window/window_filter.lua line 312</a></td>
 </tr>
 </tbody>
 </table>
@@ -2357,6 +2607,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L192">extensions/window/window_filter.lua line 192</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2399,6 +2657,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2042">extensions/window/window_filter.lua line 2042</a></td>
 </tr>
 </tbody>
 </table>
@@ -2443,6 +2709,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul><li>this is just a convenience wrapper for <code v-pre>windowfilter:setAppFilter(appname,false)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L326">extensions/window/window_filter.lua line 326</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2486,6 +2760,14 @@ otherwise it must be a function that accepts an <code v-pre>hs.window</code> obj
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2027">extensions/window/window_filter.lua line 2027</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2516,7 +2798,9 @@ allowScreens - a valid argument for <code v-pre>hs.screen.find()</code>, or a li
 rejectScreens - a valid argument for <code v-pre>hs.screen.find()</code>, or a list of them, indicating one (or more) screen(s): reject windows that (mostly) lie on (one of) the screen(s); if omitted, this rule is ignored
 allowRolesif a string or table of strings, only allow these window roles as per <code v-pre>hs.window:subrole()</code>if the special string <code v-pre>'*'</code>, this rule is ignored (i.e. all window roles, including empty ones, are allowed)if omitted, use the default allowed roles (defined in <code v-pre>hs.window.filter.allowedWindowRoles</code>)</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the <code v-pre>hs.window.filter</code> object for method chaining</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>Passing <code v-pre>focused=true</code> in <code v-pre>filter</code> will (naturally) result in the windowfilter ever allowing 1 window at most</li><li>If you want to allow <em>all</em> windows for an app, including invisible ones, pass an empty table for <code v-pre>filter</code></li><li>Spaces-aware windowfilters might experience a (sometimes significant) delay after every Space switch, since (due to OS X limitations) they must re-query for the list of all windows in the current Space every time.</li><li>If System Preferences&gt;Mission Control&gt;Displays have separate Spaces is <em>on</em>, the <em>current Space</em> is defined as the union of all the Spaces that are currently visible</li><li>This table explains the effects of different combinations of <code v-pre>visible</code> and <code v-pre>currentSpace</code>, showing which windows will be allowed:</li><li><code v-pre>&lt;/li&gt;&lt;li&gt;             |visible=         nil                      |             true             |     false    |&lt;/li&gt;&lt;li&gt;|currentSpace|------------------------------------------|------------------------------|--------------|&lt;/li&gt;&lt;li&gt;|     nil    |all                                       |visible in ANY space          |min and hidden|&lt;/li&gt;&lt;li&gt;|    true    |visible in CURRENT space+min and hidden   |visible in CURRENT space      |min and hidden|&lt;/li&gt;&lt;li&gt;|    false   |visible in OTHER space only+min and hidden|visible in OTHER space only   |none          |&lt;/li&gt;&lt;li&gt;</code></li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>Passing <code v-pre>focused=true</code> in <code v-pre>filter</code> will (naturally) result in the windowfilter ever allowing 1 window at most</li><li>If you want to allow <em>all</em> windows for an app, including invisible ones, pass an empty table for <code v-pre>filter</code></li><li>Spaces-aware windowfilters might experience a (sometimes significant) delay after every Space switch, since (due to OS X limitations) they must re-query for the list of all windows in the current Space every time.</li><li>If System Preferences&gt;Mission Control&gt;Displays have separate Spaces is <em>on</em>, the <em>current Space</em> is defined as the union of all the Spaces that are currently visible</li><li>This table explains the effects of different combinations of <code v-pre>visible</code> and <code v-pre>currentSpace</code>, showing which windows will be allowed:</li><li><code v-pre>&lt;/li&gt;&lt;li&gt;             |visible=         nil                      |             true             |     false    |&lt;/li&gt;&lt;li&gt;|currentSpace|------------------------------------------|------------------------------|--------------|&lt;/li&gt;&lt;li&gt;|     nil    |all                                       |visible in ANY space          |min and hidden|&lt;/li&gt;&lt;li&gt;|    true    |visible in CURRENT space+min and hidden   |visible in CURRENT space      |min and hidden|&lt;/li&gt;&lt;li&gt;|    false   |visible in OTHER space only+min and hidden|visible in OTHER space only   |none          |&lt;/li&gt;&lt;li&gt;</code></li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L440">extensions/window/window_filter.lua line 440</a> |</p>
 <hr />
 <doc-anchor-target id="setcurrentspace">
     <h3>
@@ -2556,6 +2840,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is just a convenience wrapper for setting the <code v-pre>currentSpace</code> field in the <code v-pre>override</code> filter (other</li><li>   fields will be left untouched); per-app filters will maintain their <code v-pre>currentSpace</code> field, if present, as is</li><li>Spaces-aware windowfilters might experience a (sometimes significant) delay after every Space switch, since</li><li>   (due to OS X limitations) they must re-query for the list of all windows in the current Space every time.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L381">extensions/window/window_filter.lua line 381</a></td>
 </tr>
 </tbody>
 </table>
@@ -2600,6 +2892,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L357">extensions/window/window_filter.lua line 357</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2642,6 +2942,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>every filter definition in <code v-pre>filters</code> will overwrite the preexisting one for the relevant application, if present;</li><li>   this also applies to the special default and override filters, if included</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L601">extensions/window/window_filter.lua line 601</a></td>
 </tr>
 </tbody>
 </table>
@@ -2686,6 +2994,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L369">extensions/window/window_filter.lua line 369</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2728,6 +3044,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is just a convenience wrapper for setting the <code v-pre>allowRegions</code> field in the <code v-pre>override</code> filter (other fields will be left untouched); per-app filters will maintain their <code v-pre>allowRegions</code> and <code v-pre>rejectRegions</code> fields, if present</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L403">extensions/window/window_filter.lua line 403</a></td>
 </tr>
 </tbody>
 </table>
@@ -2772,6 +3096,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <td><strong>Notes</strong></td>
 <td><ul><li>This is just a convenience wrapper for setting the <code v-pre>allowScreens</code> field in the <code v-pre>override</code> filter (other</li><li>   fields will be left untouched); per-app filters will maintain their <code v-pre>allowScreens</code> and <code v-pre>rejectScreens</code> fields, if present</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L421">extensions/window/window_filter.lua line 421</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2815,6 +3147,14 @@ allowRolesif a string or table of strings, only allow these window roles as per 
 <td><strong>Notes</strong></td>
 <td><ul><li> The default sort order for all windowfilters (that is, until changed by this method) is <code v-pre>hs.window.filter.sortByFocusedLast</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1773">extensions/window/window_filter.lua line 1773</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2835,7 +3175,9 @@ a <code v-pre>hs.window</code> object referring to the event&#x27;s window
 a string containing the application name (<code v-pre>window:application():name()</code>) for convenience
 a string containing the event that caused the callback, i.e. (one of) the event(s) you subscribed to</li><li>immediate - (optional) if <code v-pre>true</code>, also call all the callbacks immediately for windows that satisfy the event(s) criteria</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the <code v-pre>hs.window.filter</code> object for method chaining</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>Passing lists means that <em>all</em> the <code v-pre>fn</code>s will be called when <em>any</em> of the <code v-pre>event</code>s fires, so it&#x27;s <em>not</em> a shortcut for subscribing distinct callbacks to distinct events; use a map or chained <code v-pre>:subscribe</code> calls for that.</li><li>Use caution with <code v-pre>immediate</code>: if for example you&#x27;re subscribing to <code v-pre>hs.window.filter.windowUnfocused</code>, <code v-pre>fn</code>(s) will be called for <em>all</em> the windows except the currently focused one.</li><li>If the windowfilter was paused with <code v-pre>hs.window.filter:pause()</code>, calling this will resume it.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>Passing lists means that <em>all</em> the <code v-pre>fn</code>s will be called when <em>any</em> of the <code v-pre>event</code>s fires, so it&#x27;s <em>not</em> a shortcut for subscribing distinct callbacks to distinct events; use a map or chained <code v-pre>:subscribe</code> calls for that.</li><li>Use caution with <code v-pre>immediate</code>: if for example you&#x27;re subscribing to <code v-pre>hs.window.filter.windowUnfocused</code>, <code v-pre>fn</code>(s) will be called for <em>all</em> the windows except the currently focused one.</li><li>If the windowfilter was paused with <code v-pre>hs.window.filter:pause()</code>, calling this will resume it.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1867">extensions/window/window_filter.lua line 1867</a> |</p>
 <hr />
 <doc-anchor-target id="unsubscribe">
     <h3>
@@ -2875,6 +3217,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You must pass at least one of <code v-pre>event</code> or <code v-pre>fn</code></li><li>If calling this on the default (or any other shared use) windowfilter, do not pass events, as that would remove</li><li>   <em>all</em> the callbacks for the events including ones subscribed elsewhere that you might not be aware of. You should</li><li>   instead keep references to your functions and pass in those.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L1944">extensions/window/window_filter.lua line 1944</a></td>
 </tr>
 </tbody>
 </table>
@@ -2919,6 +3269,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <td><strong>Notes</strong></td>
 <td><ul><li>You should not use this on the default windowfilter or other shared-use windowfilters</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2008">extensions/window/window_filter.lua line 2008</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2961,6 +3319,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that returns <code v-pre>hs.window.windowsToEast(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call (or just use</li><li>   <code v-pre>hs.window.filter.defaultCurrentSpace</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2102">extensions/window/window_filter.lua line 2102</a></td>
 </tr>
 </tbody>
 </table>
@@ -3005,6 +3371,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that returns <code v-pre>hs.window.windowsToNorth(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call (or just use</li><li>   <code v-pre>hs.window.filter.defaultCurrentSpace</code>)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2136">extensions/window/window_filter.lua line 2136</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3048,6 +3422,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that returns <code v-pre>hs.window.windowsToSouth(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call (or just use</li><li>   <code v-pre>hs.window.filter.defaultCurrentSpace</code>)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2154">extensions/window/window_filter.lua line 2154</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3090,6 +3472,14 @@ a string containing the event that caused the callback, i.e. (one of) the event(
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a convenience wrapper that returns <code v-pre>hs.window.windowsToWest(window,self:getWindows(),...)</code></li><li>You&#x27;ll likely want to add <code v-pre>:setCurrentSpace(true)</code> to the windowfilter used for this method call (or just use <code v-pre>hs.window.filter.defaultCurrentSpace</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window_filter.lua#L2120">extensions/window/window_filter.lua line 2120</a></td>
 </tr>
 </tbody>
 </table>

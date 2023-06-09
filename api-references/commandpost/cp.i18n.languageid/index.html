@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -449,6 +449,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L32">src/extensions/cp/i18n/languageID.lua line 32</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -491,6 +499,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Parses a <code v-pre>language ID</code> into three possible string components:</li><li>  ** The ISO 693-1 language code</li><li>  ** The ISO 15924 script code</li><li>  ** The ISO 3166-1 region code</li><li>This is one of the following patterns:</li><li>  ** <code v-pre>[language]</code> - eg. <code v-pre>&quot;en&quot;</code>, or <code v-pre>&quot;fr&quot;</code>. The covers the language across all languages and scripts.</li><li>  ** <code v-pre>[language]-[script]</code> - eg. &quot;az-Arab&quot; for Azerbaijani in Arabic script, &quot;az-Latn&quot; for Azerbaijani in Latin script.</li><li>  ** <code v-pre>[language]-[region]</code> - eg. &quot;en-AU&quot; for Australian English, &quot;fr-CA&quot; for Canadian French, etc.</li><li>It will then return the matched component in three return values: language, script, region.</li><li>If a script is specified, the <code v-pre>region</code> will be <code v-pre>nil</code>. Eg.:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local lang, scrpt, rgn, scrpt = languageID.parse(&quot;en-AU&quot;) -- results in &quot;en&quot;, nil, &quot;AU&quot;&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L45">src/extensions/cp/i18n/languageID.lua line 45</a></td>
 </tr>
 </tbody>
 </table>
@@ -541,6 +557,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td><ul><li>If the code can&#x27;t be parsed, or if the actual language/region/script codes don&#x27;t exist, <code v-pre>nil</code> is returned.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L148">src/extensions/cp/i18n/languageID.lua line 148</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -583,6 +607,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Language IDs can only have either a script or a region, so if the locale has both, this will priortise the <code v-pre>region</code> by default. You can set <code v-pre>prioritiseScript</code> to <code v-pre>true</code> to use script instead.</li><li>If only one or the other is set in the locale, <code v-pre>prioritiseScript</code> is ignored.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L165">src/extensions/cp/i18n/languageID.lua line 165</a></td>
 </tr>
 </tbody>
 </table>
@@ -627,6 +659,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L84">src/extensions/cp/i18n/languageID.lua line 84</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -668,6 +708,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L217">src/extensions/cp/i18n/languageID.lua line 217</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -702,6 +746,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L221">src/extensions/cp/i18n/languageID.lua line 221</a></td>
 </tr>
 </tbody>
 </table>
@@ -738,6 +786,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L225">src/extensions/cp/i18n/languageID.lua line 225</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -772,6 +824,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L229">src/extensions/cp/i18n/languageID.lua line 229</a></td>
 </tr>
 </tbody>
 </table>
@@ -821,6 +877,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/languageID.lua#L195">src/extensions/cp/i18n/languageID.lua line 195</a></td>
 </tr>
 </tbody>
 </table>

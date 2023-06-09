@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -424,6 +424,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/alert/alert.lua#L17">extensions/alert/alert.lua line 17</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -473,6 +477,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/alert/alert.lua#L284">extensions/alert/alert.lua line 284</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -515,6 +527,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Use this function to close an alert which is indefinite or close an alert with a long duration early.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/alert/alert.lua#L300">extensions/alert/alert.lua line 300</a></td>
 </tr>
 </tbody>
 </table>
@@ -559,6 +579,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>For convenience, you can call this function as <code v-pre>hs.alert(...)</code></li><li>This function effectively calls <code v-pre>hs.alert.showWithImage(msg, nil, ...)</code>. As such, all the same rules apply regarding argument processing</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/alert/alert.lua#L263">extensions/alert/alert.lua line 263</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -601,6 +629,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The optional parameters are parsed in the order presented as follows:</li><li>  if the argument is a table and <code v-pre>style</code> has not previously been set, then the table is assigned to <code v-pre>style</code></li><li>  if the argument is a userdata and <code v-pre>screen</code> has not previously been set, then the userdata is assigned to <code v-pre>screen</code></li><li>  if <code v-pre>duration</code> has not been set, then it is assigned the value of the argument</li><li>  if all of these conditions fail for a given argument, then an error is returned</li><li>The reason for this logic is to support the creation of persistent alerts as was previously handled by the module: If you specify a non-number value for <code v-pre>seconds</code> you will need to store the string identifier returned by this function so that you can close it manually with <code v-pre>hs.alert.closeSpecific</code> when the alert should be removed.</li><li>Any style element which is not specified in the <code v-pre>style</code> argument table will use the value currently defined in the <doc-anchor-trigger to="#defaultStyle">hs.alert.defaultStyle</doc-anchor-trigger> table.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/alert/alert.lua#L220">extensions/alert/alert.lua line 220</a></td>
 </tr>
 </tbody>
 </table>

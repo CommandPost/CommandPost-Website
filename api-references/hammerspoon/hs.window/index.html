@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -511,6 +511,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L21">extensions/window/window.lua line 21</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -545,6 +549,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L392">extensions/window/window.lua line 392</a></td>
 </tr>
 </tbody>
 </table>
@@ -595,6 +603,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>visibleWindows()</code>, <code v-pre>orderedWindows()</code>, <code v-pre>get()</code>, <code v-pre>find()</code>, and several more functions and methods in this and other</li><li>    modules make use of this function, so it is important to understand its limitations</li><li>This function queries all applications for their windows every time it is invoked; if you need to call it a lot and</li><li>   performance is not acceptable consider using the <code v-pre>hs.window.filter</code> module</li><li>This function can only return windows in the current Mission Control Space; if you need to address windows across</li><li>   different Spaces you can use the <code v-pre>hs.window.filter</code> module</li><li>   - if <code v-pre>Displays have separate Spaces</code> is <em>on</em> (in System Preferences&gt;Mission Control) the current Space is defined</li><li>     as the union of all currently visible Spaces</li><li>   - minimized windows and hidden windows (i.e. belonging to hidden apps, e.g. via cmd-h) are always considered</li><li>     to be in the current Space</li><li>This function filters out the desktop &quot;window&quot;; use <code v-pre>hs.window.desktop()</code> to address it. (Note however that</li><li>   <code v-pre>hs.application.get'Finder':allWindows()</code> <em>will</em> include the desktop in the returned list)</li><li>Beside the limitations discussed above, this function will return <em>all</em> windows as reported by OSX, including some</li><li>   &quot;windows&quot; that one wouldn&#x27;t expect: for example, every Google Chrome (actual) window has a companion window for its</li><li>   status bar; therefore you might get unexpected results  - in the Chrome example, calling <code v-pre>hs.window.focusWindowSouth()</code></li><li>   from a Chrome window would end up &quot;focusing&quot; its status bar, and therefore the proper window itself, seemingly resulting</li><li>   in a no-op. In order to avoid such surprises you can use the <code v-pre>hs.window.filter</code> module, and more specifically</li><li>   the default windowfilter (<code v-pre>hs.window.filter.default</code>) which filters out known cases of not-actual-windows</li><li>Some windows will not be reported by OSX - e.g. things that are on different Spaces, or things that are Full Screen</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L54">extensions/window/window.lua line 54</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -637,6 +653,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The desktop belongs to Finder.app: when Finder is the active application, you can focus the desktop by cycling</li><li>   through windows via cmd-<code v-pre>&lt;/li&gt;&lt;li&gt;The desktop window has no id, a role of </code>AXScrollArea<code v-pre>and no subrole&lt;/li&gt;&lt;li&gt;The desktop is filtered out from</code>hs.window.allWindows()&#x60; (and downstream uses)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L33">extensions/window/window.lua line 33</a></td>
 </tr>
 </tbody>
 </table>
@@ -681,6 +705,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L139">extensions/window/window.lua line 139</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -723,6 +755,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This allows you to get window information without Accessibility Permissions.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L21">extensions/window/libwindow.m line 21</a></td>
 </tr>
 </tbody>
 </table>
@@ -767,6 +807,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L156">extensions/window/window.lua line 156</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -809,6 +857,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L173">extensions/window/window.lua line 173</a></td>
 </tr>
 </tbody>
 </table>
@@ -853,6 +909,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function uses a private, undocumented OS X API call, so it is not guaranteed to work in any future OS X release</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L563">extensions/window/libwindow.m line 563</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -895,6 +959,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See also method <code v-pre>hs.window:snapshot()</code></li><li>Because the window ID cannot always be dynamically determined, this function will allow you to provide the ID of a window that was cached earlier.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L589">extensions/window/libwindow.m line 589</a></td>
 </tr>
 </tbody>
 </table>
@@ -939,6 +1011,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L65">extensions/window/libwindow.m line 65</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -981,6 +1061,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L122">extensions/window/window.lua line 122</a></td>
 </tr>
 </tbody>
 </table>
@@ -1031,6 +1119,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>for convenience you can call this as <code v-pre>hs.window(hint)</code></li><li>see also <code v-pre>hs.window.get</code></li><li>for more sophisticated use cases and/or for better performance if you call this a lot, consider using <code v-pre>hs.window.filter</code></li><li></li><li>Usage:</li><li><code v-pre>&lt;/li&gt;&lt;li&gt;-- by id&lt;/li&gt;&lt;li&gt;hs.window(8812):title() --&gt; Hammerspoon Console&lt;/li&gt;&lt;li&gt;-- by title&lt;/li&gt;&lt;li&gt;hs.window'bash':application():name() --&gt; Terminal&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L208">extensions/window/window.lua line 208</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1073,6 +1169,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L94">extensions/window/libwindow.m line 94</a></td>
 </tr>
 </tbody>
 </table>
@@ -1117,6 +1221,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L748">extensions/window/window.lua line 748</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1159,6 +1271,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>see also <code v-pre>hs.window.find</code> and <code v-pre>hs.application:getWindow()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L189">extensions/window/window.lua line 189</a></td>
 </tr>
 </tbody>
 </table>
@@ -1209,6 +1329,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L482">extensions/window/libwindow.m line 482</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1251,6 +1379,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Make a window become the main window does not transfer focus to the application. See <code v-pre>hs.window.focus()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L500">extensions/window/libwindow.m line 500</a></td>
 </tr>
 </tbody>
 </table>
@@ -1295,6 +1431,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L864">extensions/window/window.lua line 864</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1337,6 +1481,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L324">extensions/window/libwindow.m line 324</a></td>
 </tr>
 </tbody>
 </table>
@@ -1381,6 +1533,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L508">extensions/window/window.lua line 508</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1423,6 +1583,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method works with document tab groups and some app tabs, like Chrome and Safari.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L341">extensions/window/libwindow.m line 341</a></td>
 </tr>
 </tbody>
 </table>
@@ -1467,6 +1635,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included</li><li>   (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in</li><li>   <code v-pre>hs.window.filter</code> instead</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L783">extensions/window/window.lua line 783</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1509,6 +1685,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included</li><li>   (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in</li><li>   <code v-pre>hs.window.filter</code> instead</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L823">extensions/window/window.lua line 823</a></td>
 </tr>
 </tbody>
 </table>
@@ -1553,6 +1737,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included</li><li>   (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in</li><li>   <code v-pre>hs.window.filter</code> instead</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L843">extensions/window/window.lua line 843</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1595,6 +1787,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows</li><li>   every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included</li><li>   (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in</li><li>   <code v-pre>hs.window.filter</code> instead</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L803">extensions/window/window.lua line 803</a></td>
 </tr>
 </tbody>
 </table>
@@ -1639,6 +1839,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L430">extensions/window/window.lua line 430</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1681,6 +1889,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L546">extensions/window/libwindow.m line 546</a></td>
 </tr>
 </tbody>
 </table>
@@ -1725,6 +1941,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L400">extensions/window/libwindow.m line 400</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1767,6 +1991,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L296">extensions/window/libwindow.m line 296</a></td>
 </tr>
 </tbody>
 </table>
@@ -1811,6 +2043,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L456">extensions/window/libwindow.m line 456</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1853,6 +2093,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>&quot;Standard window&quot; means that this is not an unusual popup window, a modal dialog, a floating window, etc.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L164">extensions/window/libwindow.m line 164</a></td>
 </tr>
 </tbody>
 </table>
@@ -1897,6 +2145,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This does not mean the user can see the window - it may be obscured by other windows, or it may be off the edge of the screen</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L243">extensions/window/window.lua line 243</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1939,6 +2195,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The window will be resized as large as possible, without obscuring the dock/menu</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L581">extensions/window/window.lua line 581</a></td>
 </tr>
 </tbody>
 </table>
@@ -1983,6 +2247,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method will always animate per your system settings and is not affected by <code v-pre>hs.window.animationDuration</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L417">extensions/window/libwindow.m line 417</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2025,6 +2297,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L930">extensions/window/window.lua line 930</a></td>
 </tr>
 </tbody>
 </table>
@@ -2069,6 +2349,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L969">extensions/window/window.lua line 969</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2111,6 +2399,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L995">extensions/window/window.lua line 995</a></td>
 </tr>
 </tbody>
 </table>
@@ -2155,6 +2451,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L1009">extensions/window/window.lua line 1009</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2197,6 +2501,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L982">extensions/window/window.lua line 982</a></td>
 </tr>
 </tbody>
 </table>
@@ -2241,6 +2553,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L904">extensions/window/window.lua line 904</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2283,6 +2603,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>An example, which would make a window fill the top-left quarter of the screen: <code v-pre>win:moveToUnit'[0.0,0.0,0.5,0.5]'</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L887">extensions/window/window.lua line 887</a></td>
 </tr>
 </tbody>
 </table>
@@ -2327,6 +2655,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L493">extensions/window/window.lua line 493</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2369,6 +2705,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L479">extensions/window/window.lua line 479</a></td>
 </tr>
 </tbody>
 </table>
@@ -2413,6 +2757,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L521">extensions/window/libwindow.m line 521</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2455,6 +2807,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L147">extensions/window/libwindow.m line 147</a></td>
 </tr>
 </tbody>
 </table>
@@ -2499,6 +2859,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>While windows can be dragged to span multiple screens, part of the window will disappear when the mouse is released. The screen returned by this method will be the part of the window that remains visible.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L618">extensions/window/window.lua line 618</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2541,6 +2909,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Due to the way this method works and OSX limitations, calling this method when you have a lot of randomly overlapping (as opposed to neatly tiled) windows might be visually jarring, and take a fair amount of time to complete. So if you don&#x27;t use orderly layouts, or if you have a lot of windows in general, you&#x27;re probably better off using <code v-pre>hs.application:hide()</code> (or simply <code v-pre>cmd-h</code>)</li><li>This method works by focusing all overlapping windows behind this one, front to back. If called on the focused window, this method will switch focus to the topmost window under this one; otherwise, the currently focused window will regain focus after this window has been sent to the back.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L539">extensions/window/window.lua line 539</a></td>
 </tr>
 </tbody>
 </table>
@@ -2585,6 +2961,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L368">extensions/window/window.lua line 368</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2627,6 +3011,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L412">extensions/window/window.lua line 412</a></td>
 </tr>
 </tbody>
 </table>
@@ -2671,6 +3063,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L380">extensions/window/window.lua line 380</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2713,6 +3113,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L382">extensions/window/libwindow.m line 382</a></td>
 </tr>
 </tbody>
 </table>
@@ -2757,6 +3165,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L239">extensions/window/libwindow.m line 239</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2799,6 +3215,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L218">extensions/window/libwindow.m line 218</a></td>
 </tr>
 </tbody>
 </table>
@@ -2843,6 +3267,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L201">extensions/window/libwindow.m line 201</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2885,6 +3317,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See also function <code v-pre>hs.window.snapshotForID()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L611">extensions/window/libwindow.m line 611</a></td>
 </tr>
 </tbody>
 </table>
@@ -2929,6 +3369,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This typically helps to determine if a window is a special kind of window - such as a modal window, or a floating window</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L127">extensions/window/libwindow.m line 127</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2971,6 +3419,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Intended for use with the focusTab method, if this returns a number, then focusTab can switch between that many tabs.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L362">extensions/window/libwindow.m line 362</a></td>
 </tr>
 </tbody>
 </table>
@@ -3015,6 +3471,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L110">extensions/window/libwindow.m line 110</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3057,6 +3521,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Not all windows support being full-screened</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L597">extensions/window/window.lua line 597</a></td>
 </tr>
 </tbody>
 </table>
@@ -3101,6 +3573,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L257">extensions/window/libwindow.m line 257</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3143,6 +3623,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L184">extensions/window/libwindow.m line 184</a></td>
 </tr>
 </tbody>
 </table>
@@ -3187,6 +3675,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L438">extensions/window/libwindow.m line 438</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3229,6 +3725,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in <code v-pre>hs.window.filter</code> instead</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L688">extensions/window/window.lua line 688</a></td>
 </tr>
 </tbody>
 </table>
@@ -3273,6 +3777,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in <code v-pre>hs.window.filter</code> instead</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L718">extensions/window/window.lua line 718</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3315,6 +3827,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in <code v-pre>hs.window.filter</code> instead</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L733">extensions/window/window.lua line 733</a></td>
 </tr>
 </tbody>
 </table>
@@ -3359,6 +3879,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If you don&#x27;t pass <code v-pre>candidateWindows</code>, Hammerspoon will query for the list of all visible windows every time this method is called; this can be slow, and some undesired &quot;windows&quot; could be included (see the notes for <code v-pre>hs.window.allWindows()</code>); consider using the equivalent methods in <code v-pre>hs.window.filter</code> instead</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/window.lua#L703">extensions/window/window.lua line 703</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3401,6 +3929,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The co-ordinates in the rect-table (i.e. the <code v-pre>x</code> and <code v-pre>y</code> values) are in absolute co-ordinates, not relative to the window the button is part of, or the screen the window is on</li><li>Although not perfect as such, this method can provide a useful way to find a region of the titlebar suitable for simulating mouse click events on, with <code v-pre>hs.eventtap</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/window/libwindow.m#L275">extensions/window/libwindow.m line 275</a></td>
 </tr>
 </tbody>
 </table>

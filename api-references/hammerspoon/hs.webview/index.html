@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -522,6 +522,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L346">extensions/webview/webview.lua line 346</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -556,6 +560,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L269">extensions/webview/webview.lua line 269</a></td>
 </tr>
 </tbody>
 </table>
@@ -600,6 +608,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>see the notes for <code v-pre>hs.drawing.windowLevels</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L282">extensions/webview/webview.lua line 282</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -641,6 +653,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2572">extensions/webview/libwebview.m line 2572</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -675,6 +691,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2530">extensions/webview/libwebview.m line 2530</a></td>
 </tr>
 </tbody>
 </table>
@@ -725,6 +745,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>See also <doc-anchor-trigger to="#windowStyle">hs.webview:windowStyle</doc-anchor-trigger> and <doc-anchor-trigger to="#windowMasks">hs.webview.windowMasks</doc-anchor-trigger>.</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window&#x27;s title (&quot;visible&quot;) or in the window&#x27;s title bar itself, as seen in applications like Safari (&quot;hidden&quot;). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with <code v-pre>hs.webview.toolbar:displayMode</code>.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with <code v-pre>hs.webview:attachedToolbar():inTitleBar(boolean)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2181">extensions/webview/libwebview.m line 2181</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -754,7 +782,9 @@
 <code v-pre>suppressesIncrementalRendering</code>        - suppresses content rendering until fully loaded into memory (default false)
 The following additional preferences may also be set under OS X 10.11 or later (they will be ignored with a warning printed if used under OS X 10.10):<code v-pre>applicationName</code>                       - a string specifying an application name to be listed at the end of the browser&#x27;s USER-AGENT header.  Note that this is only appended to the default user agent string; if you set a custom one with <doc-anchor-trigger to="#userAgent">hs.webview:userAgent</doc-anchor-trigger>, this value is ignored.<code v-pre>allowsAirPlay</code>                         - a boolean specifying whether media playback within the webview can play through AirPlay devices.<code v-pre>datastore</code>                             - an <code v-pre>hs.webview.datastore</code> object specifying where website data such as cookies, cacheable content, etc. is to be stored.<code v-pre>privateBrowsing</code>                       - a boolean (default false) specifying that the datastore should be set to a new, empty and non-persistent datastore.  Note that this will override the <code v-pre>datastore</code> key if both are specified and this is set to true.</li><li><code v-pre>userContentController</code> - an optional <code v-pre>hs.webview.usercontent</code> object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>To set the initial URL, use the <code v-pre>hs.webview:url</code> method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple&#x27;s documentation, but is included in the WebKit2 documentation.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>To set the initial URL, use the <code v-pre>hs.webview:url</code> method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple&#x27;s documentation, but is included in the WebKit2 documentation.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1800">extensions/webview/libwebview.m line 1800</a> |</p>
 <hr />
 <doc-anchor-target id="newbrowser">
     <h3>
@@ -794,6 +824,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The parameters are the same as for <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> -- check there for more details</li><li>This constructor is just a short-hand for <code v-pre>hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)</code>, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> and the following for more details:</li><li> <doc-anchor-trigger to="#allowGestures">hs.webview:allowGestures</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#allowTextEntry">hs.webview:allowTextEntry</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#windowStyle">hs.webview:windowStyle</doc-anchor-trigger></li><li> <doc-anchor-trigger to="#windowMasks">hs.webview.windowMasks</doc-anchor-trigger></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L80">extensions/webview/webview.lua line 80</a></td>
 </tr>
 </tbody>
 </table>
@@ -844,6 +882,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a shorthand method for getting or setting both <code v-pre>hs.webview:allowMagnificationGestures</code> and <code v-pre>hs.webview:allowNavigationGestures</code>.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if <em>both</em> gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L166">extensions/webview/webview.lua line 166</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -886,6 +932,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1275">extensions/webview/libwebview.m line 1275</a></td>
 </tr>
 </tbody>
 </table>
@@ -930,6 +984,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1365">extensions/webview/libwebview.m line 1365</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -972,6 +1034,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting &quot;Open in a New Window&quot;, JavaScript pop-ups, links with the target of &quot;__blank&quot;, etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks <em>all</em> methods.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1299">extensions/webview/libwebview.m line 1299</a></td>
 </tr>
 </tbody>
 </table>
@@ -1016,6 +1086,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1994">extensions/webview/libwebview.m line 1994</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1058,6 +1136,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2322">extensions/webview/libwebview.m line 2322</a></td>
 </tr>
 </tbody>
 </table>
@@ -1102,6 +1188,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>this method is a convenience wrapper for the <code v-pre>hs.webview.toolbar.attachToolbar</code> function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see <code v-pre>hs.webview.toolbar:copy</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L107">extensions/webview/webview.lua line 107</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1144,6 +1238,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See <code v-pre>hs.drawing.windowBehaviors</code> for more information.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2447">extensions/webview/libwebview.m line 2447</a></td>
 </tr>
 </tbody>
 </table>
@@ -1188,6 +1290,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See <code v-pre>hs.drawing.windowBehaviors</code> for more information.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L299">extensions/webview/webview.lua line 299</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1230,6 +1340,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2286">extensions/webview/libwebview.m line 2286</a></td>
 </tr>
 </tbody>
 </table>
@@ -1274,6 +1392,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of &quot;date&quot; -- e.g. &quot;2.5.29.24&quot; (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua <code v-pre>os.date</code> command.</li><li>For OIDs which are known to represent a date, but specify its type as a &quot;number&quot; -- e.g. &quot;2.16.840.1.113741.2.1.1.1.7&quot; (X509V1ValidityNotAfter) or &quot;2.16.840.1.113741.2.1.1.1.6&quot; (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  <code v-pre>os.date(&quot;%c&quot;, value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1008">extensions/webview/libwebview.m line 1008</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1316,6 +1442,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L856">extensions/webview/libwebview.m line 856</a></td>
 </tr>
 </tbody>
 </table>
@@ -1360,6 +1494,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2073">extensions/webview/libwebview.m line 2073</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1402,6 +1544,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2042">extensions/webview/libwebview.m line 2042</a></td>
 </tr>
 </tbody>
 </table>
@@ -1446,6 +1596,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L189">extensions/webview/webview.lua line 189</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1488,6 +1646,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see <code v-pre>hs.webview.windowStyle</code>).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the &quot;newWindow&quot; action.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2016">extensions/webview/libwebview.m line 2016</a></td>
 </tr>
 </tbody>
 </table>
@@ -1532,6 +1698,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1137">extensions/webview/libwebview.m line 1137</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1551,7 +1725,9 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <code v-pre>result</code> - the result of the executed JavaScript code or nil if there was no result or an error occurred.
 <code v-pre>error</code>  - an NSError table describing any error that occurred during the JavaScript execution or nil if no error occurred.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1678">extensions/webview/libwebview.m line 1678</a> |</p>
 <hr />
 <doc-anchor-target id="examineinvalidcertificates">
     <h3>
@@ -1591,6 +1767,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>In order for this setting to have any effect, you must also register an ssl callback function with <doc-anchor-trigger to="#sslCallback">hs.webview:sslCallback</doc-anchor-trigger> which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback <em>must</em> be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate&#x27;s common name is <a href="http://www.site.com">www.site.com</a>, but it is being used for something else, possibly just <a href="https://site.com">https://site.com</a>, possibly something else entirely</li><li>  some corporate proxy servers don&#x27;t handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by <code v-pre>hs.httpserver</code> uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1327">extensions/webview/libwebview.m line 1327</a></td>
 </tr>
 </tbody>
 </table>
@@ -1635,6 +1819,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys <code v-pre>x</code>  and <code v-pre>y</code>) and the new size (keys <code v-pre>h</code> and <code v-pre>w</code>).  The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L216">extensions/webview/webview.lua line 216</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1677,6 +1869,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1197">extensions/webview/libwebview.m line 1197</a></td>
 </tr>
 </tbody>
 </table>
@@ -1721,6 +1921,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1177">extensions/webview/libwebview.m line 1177</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1763,6 +1971,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1968">extensions/webview/libwebview.m line 1968</a></td>
 </tr>
 </tbody>
 </table>
@@ -1807,6 +2023,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1655">extensions/webview/libwebview.m line 1655</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1849,6 +2073,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>hs.window:minimize only works if the webview is minimizable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:setSize only works if the webview is resizable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:close only works if the webview is closable (see <code v-pre>hs.webview.windowStyle</code>)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see <code v-pre>hs.webview.windowStyle</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2100">extensions/webview/libwebview.m line 2100</a></td>
 </tr>
 </tbody>
 </table>
@@ -1893,6 +2125,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1423">extensions/webview/libwebview.m line 1423</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1935,6 +2175,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1157">extensions/webview/libwebview.m line 1157</a></td>
 </tr>
 </tbody>
 </table>
@@ -1979,6 +2227,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2128">extensions/webview/libwebview.m line 2128</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2021,6 +2277,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>see the notes for <code v-pre>hs.drawing.windowLevels</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2252">extensions/webview/libwebview.m line 2252</a></td>
 </tr>
 </tbody>
 </table>
@@ -2065,6 +2329,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1091">extensions/webview/libwebview.m line 1091</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2108,6 +2380,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1389">extensions/webview/libwebview.m line 1389</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2129,7 +2409,9 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <code v-pre>navID</code>   - a navigation identifier which can be used to link this event back to a specific request made by a <code v-pre>hs.webview:url</code>, <code v-pre>hs.webview:html</code>, or <code v-pre>hs.webview:reload</code> method.
 <code v-pre>error</code>   - a table which will only be provided when <code v-pre>action</code> is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If provided, it will contain at leas some of the following keys, possibly others as well:<code v-pre>code</code>        - a numerical value indicating the type of error code.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>domain</code>      - a string indicating the error domain of the error.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>description</code> - a string describing the condition or problem that has occurred.<code v-pre>reason</code>      - if available, more information about what may have caused the problem to occur.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The return value of the callback function is ignored except when the <code v-pre>action</code> argument is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>The return value of the callback function is ignored except when the <code v-pre>action</code> argument is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1458">extensions/webview/libwebview.m line 1458</a> |</p>
 <hr />
 <doc-anchor-target id="navigationid">
     <h3>
@@ -2169,6 +2451,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see <code v-pre>hs.webview.navigationCallback</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1069">extensions/webview/libwebview.m line 1069</a></td>
 </tr>
 </tbody>
 </table>
@@ -2213,6 +2503,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.webview.level</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2390">extensions/webview/libwebview.m line 2390</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2255,6 +2553,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.webview.level</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2406">extensions/webview/libwebview.m line 2406</a></td>
 </tr>
 </tbody>
 </table>
@@ -2299,6 +2605,14 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L879">extensions/webview/libwebview.m line 879</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2324,7 +2638,9 @@ The callback function should return <code v-pre>true</code> if the new window sh
 <code v-pre>authenticationChallenge</code>:  This applies to a web page which requires a log in credential for HTTPBasic or HTTPDigest authentication.the second argument will be the webview this request originates from.the third argument will be a table containing the challenge details and may contain any of the following keys:<code v-pre>previousFailureCount</code> - an integer indicating the number of previously failed login attempts.  This will be 0 for the first try.<code v-pre>failureResponse</code>      - the response data as described for <code v-pre>navigationResponse</code> above for the last authentication failureResponse<code v-pre>proposedCredential</code>   - a table containing the previously failed credential containing any of the following keys:<code v-pre>hasPassword</code>          - a boolean value indicating if a password was provided with this credential<code v-pre>persistence</code>          - a string value identifying the persistence of this credential.  This value will be one of the following:None                 - the credential is for this URL request only and no other<code v-pre>session</code>              - the credential is for this session and will be forgotten once the webview is deleted<code v-pre>permanent</code>            - the credential is stored in the user&#x27;s keychain<code v-pre>synchronized</code>         - the credential is stored in the user&#x27;s keychain and may be shared with other devices with the same owning Apple ID.<code v-pre>user</code>                 - the username of the failed credential<code v-pre>password</code>             - the password of the failed credential<code v-pre>protectionSpace</code>      - a table describing the realm for the authentication and may contain any of the following keys:<code v-pre>port</code>                       - the port of the server with which communication for this request is occurring<code v-pre>receivesCredentialSecurely</code> - a boolean value indicating whether or not the credential can be sent to the server securely<code v-pre>authenticationMethod</code>       - a string indicating the authentication type: default, HTTPBasic, or HTTPDigest.  Other types exists but are not currently supported with this module or do not apply to webview activities.<code v-pre>host</code>                       - the host name of the server with which communication for this request is occurring<code v-pre>protocol</code>                   - the protocol for which the authentication is occurring<code v-pre>isProxy</code>                    - a boolean indicating whether or not the authentication is occurring with a proxy server<code v-pre>proxyType</code>                  - a string representing the type of proxy server: http, https, ftp, or socks.<code v-pre>realm</code>                      - a string representing the realm name for the authentication.
 The callback function should return true if the user should be prompted for the username and password credentials, a table with the keys <code v-pre>user</code> and <code v-pre>password</code> containing the username and password to log in with, or false if the login request should be cancelled.  Note that if your function returns a table and fails to authenticate three times, the user will be prompted anyways to prevent loops.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>With the <code v-pre>newWindow</code> action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>With the <code v-pre>newWindow</code> action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1505">extensions/webview/libwebview.m line 1505</a> |</p>
 <hr />
 <doc-anchor-target id="privatebrowsing">
     <h3>
@@ -2364,6 +2680,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See <code v-pre>hs.webview.datastore</code> and <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> for more information.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L821">extensions/webview/libwebview.m line 821</a></td>
 </tr>
 </tbody>
 </table>
@@ -2408,6 +2732,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1217">extensions/webview/libwebview.m line 1217</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2450,6 +2782,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2304">extensions/webview/libwebview.m line 2304</a></td>
 </tr>
 </tbody>
 </table>
@@ -2494,6 +2834,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2346">extensions/webview/libwebview.m line 2346</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2536,6 +2884,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1942">extensions/webview/libwebview.m line 1942</a></td>
 </tr>
 </tbody>
 </table>
@@ -2580,6 +2936,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul><li>a size-table is a table with key-value pairs specifying the size (keys <code v-pre>h</code> and <code v-pre>w</code>) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1767">extensions/webview/libwebview.m line 1767</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2606,7 +2970,9 @@ The callback function should return true if the user should be prompted for the 
 <code v-pre>realm</code>                      - a string representing the realm name for the authentication.
 <code v-pre>certificates</code> - an array of tables, each table describing a certificate in the SSL certificate chain provided by the server responding to the webview&#x27;s request.  Each table will contain the following keys:<code v-pre>commonName</code> - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate&#x27;s purpose.<code v-pre>values</code>     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in <doc-anchor-trigger to="#certificateOIDs">hs.webview.certificateOIDs</doc-anchor-trigger>. The value for each key will be a table with the following keys:<code v-pre>label</code>           - a description or label for the entry<code v-pre>localized label</code> - a localized version of <code v-pre>label``type</code>            - a description of the data type for this value<code v-pre>value</code>           - the value</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns <code v-pre>true</code>, the certificate will only be granted an exception if <doc-anchor-trigger to="#examineInvalidCertificates">hs.webview:examineInvalidCertificates</doc-anchor-trigger> has also been set to <code v-pre>true</code>.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns <code v-pre>true</code>, the certificate will only be granted an exception if <doc-anchor-trigger to="#examineInvalidCertificates">hs.webview:examineInvalidCertificates</doc-anchor-trigger> has also been set to <code v-pre>true</code>.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1602">extensions/webview/libwebview.m line 1602</a> |</p>
 <hr />
 <doc-anchor-target id="stoploading">
     <h3>
@@ -2646,6 +3012,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if <doc-anchor-trigger to="#loading">hs.webview:loading</doc-anchor-trigger> would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1111">extensions/webview/libwebview.m line 1111</a></td>
 </tr>
 </tbody>
 </table>
@@ -2690,6 +3064,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1050">extensions/webview/libwebview.m line 1050</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2732,6 +3114,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys <code v-pre>x</code>  and <code v-pre>y</code>). The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1735">extensions/webview/libwebview.m line 1735</a></td>
 </tr>
 </tbody>
 </table>
@@ -2776,6 +3166,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul><li>When enabled, the webview&#x27;s background color is equal to the body&#x27;s <code v-pre>background-color</code> (transparent by default)</li><li>Setting <code v-pre>background-color:rgba(0, 225, 0, 0.3)</code> on <code v-pre>&lt;body&gt;</code> will give a translucent green webview background</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L1247">extensions/webview/libwebview.m line 1247</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2803,7 +3201,9 @@ The callback function should return true if the user should be prompted for the 
 <code v-pre>networkServiceType</code>      - a string value representing the network service type of the request.  It should match one of the following:<code v-pre>default</code>                 - (default) standard network traffic.  You should rarely use a value other than this as it can affect the responsiveness of your computer and other applications.<code v-pre>VoIP</code>                    - with the VoIP service type, the kernel continues to listen for incoming traffic while your app is in the background, then wakes up your app whenever new data arrives. This should be used only for connections that are used to communicate with a VoIP service.<code v-pre>video</code>                   - specifies that this is video traffic<code v-pre>background</code>              - use this for data if your are performing a download that was not requested by the user — for example, prefetching content so that it will be available when the user chooses to view it.<code v-pre>voice</code>                   - specifies that this is voice traffic
 <code v-pre>HTTPHeaderFields</code>        - a table containing key-value pairs corresponding to additional headers you wish to include in your request.  Because the HTTP specification requires that both keys and values are strings, any key which is not a string is ignored, and any value which is not a string or number is also ignored.  In addition, the following keys are handled automatically behind the scenes and will be ignored if you specify them:<code v-pre>Authorization``Connection``Host``WWW-Authenticate``Content-Length</code></li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system&#x27;s ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system&#x27;s ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L902">extensions/webview/libwebview.m line 902</a> |</p>
 <hr />
 <doc-anchor-target id="urlparts">
     <h3>
@@ -2843,6 +3243,14 @@ The callback function should return true if the user should be prompted for the 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is a wrapper to the <code v-pre>hs.http.urlParts</code> function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the <code v-pre>hs.httpserver.hsminweb.urlParts</code> function for a version more consistent with RFC 3986.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L252">extensions/webview/webview.lua line 252</a></td>
 </tr>
 </tbody>
 </table>
@@ -2887,6 +3295,14 @@ The callback function should return true if the user should be prompted for the 
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)&quot;</li><li>By default, this method will return the empty string (&quot;&quot;) when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to &quot;&quot; with this method (e.g. <code v-pre>hs.webview:userAgent(&quot;&quot;)</code>).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at <a href="http://www.useragentstring.com/pages/useragentstring.php">http://www.useragentstring.com/pages/useragentstring.php</a>.</li><li></li><li>If you have set the user agent application name with the <code v-pre>applicationName</code> parameter to the <doc-anchor-trigger to="#new">hs.webview.new</doc-anchor-trigger> constructor, it will be ignored unless this value is &quot;&quot;, i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L964">extensions/webview/libwebview.m line 964</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2907,7 +3323,9 @@ The callback function should return true if the user should be prompted for the 
 &quot;focusChange&quot;, webview, state - indicates that the webview window has either become or stopped being the focused window<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>state</code>   - a boolean, true if the webview has become the focused window, or false if it has lost focus
 &quot;frameChange&quot;, webview, frame - indicates that the webview window has been moved or resized<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>frame</code>   - a rect-table containing the new co-ordinates and size of the webview window</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2488">extensions/webview/libwebview.m line 2488</a> |</p>
 <hr />
 <doc-anchor-target id="windowstyle">
     <h3>
@@ -2925,7 +3343,9 @@ integer - a number representing the style which can be created by combining valu
 string  - a single key from <code v-pre>hs.webview.windowMasks</code> which will be toggled in the current window style.
 table   - a list of keys from <code v-pre>hs.webview.windowMasks</code> which will be combined to make the final style by combining their values with the logical or operator.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview.lua#L123">extensions/webview/webview.lua line 123</a> |</p>
 <hr />
 <doc-anchor-target id="windowtitle">
     <h3>
@@ -2965,6 +3385,14 @@ table   - a list of keys from <code v-pre>hs.webview.windowMasks</code> which wi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The title will be hidden unless the window style includes the &quot;titled&quot; style (see <code v-pre>hs.webview.windowStyle</code> and <code v-pre>hs.webview.windowMasks</code>)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview.m#L2149">extensions/webview/libwebview.m line 2149</a></td>
 </tr>
 </tbody>
 </table>

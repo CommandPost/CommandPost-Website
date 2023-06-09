@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -456,6 +456,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>alt</code>                     - toggles the &#x27;ALT&#x27; function.</li><li><code v-pre>nextKnobBank</code>            - switches to the next knob bank.</li><li><code v-pre>prevKnobBank</code>            - switches to the previous knob bank.</li><li><code v-pre>nextButtonBank</code>          - switches to the next button bank.</li><li><code v-pre>prevBasketBank</code>          - switches to the previous button bank.</li><li><code v-pre>nextTrackerballBank</code>     - switches to the next trackerball bank.</li><li><code v-pre>prevTrackerballBank</code>     - switches to the previous trackerball bank.</li><li><code v-pre>nextMode</code>                - switches to the next mode.</li><li><code v-pre>prevMode</code>                - switches to the previous mode.</li><li><code v-pre>goToMode</code>                - switches to the specified mode, requiring a Argument with the mode ID.</li><li><code v-pre>toggleJogShuttle</code>        - toggles jog/shuttle mode.</li><li><code v-pre>toggleMouseEmulation</code>    - toggles mouse emulation.</li><li><code v-pre>fakeKeypress</code>            - generates a keypress, requiring an Argument with the key code.</li><li><code v-pre>showHUD</code>                 - shows the HUD on screen.</li><li><code v-pre>goToKnobBank</code>            - goes to the specific knob bank, requiring an Argument with the bank number.</li><li><code v-pre>goToButtonBank</code>          - goes to the specific button bank, requiring an Argument with the bank number.</li><li><code v-pre>goToTrackerballBank</code>     - goes to the specific trackerball bank, requiring an Argument with the bank number.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L109">extensions/tangent/tangent.lua line 109</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -490,6 +494,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>connected</code>                       - a connection is established with the Hub.</li><li><code v-pre>disconnected</code>                    - the connection is dropped with the Hub.</li><li><code v-pre>initiateComms</code>                   - sent when the Hub wants to initiate communications.</li><li><code v-pre>parameterChange</code>                 - a parameter was incremented.</li><li><code v-pre>parameterReset</code>                  - a parameter was reset.</li><li><code v-pre>parameterValueRequest</code>           - the Hub wants the current value of the parameter.</li><li><code v-pre>menuChange</code>                      - The menu was changed, <code v-pre>+1</code> or <code v-pre>-1</code>.</li><li><code v-pre>menuReset</code>                       - The menu was reset.</li><li><code v-pre>menuStringRequest</code>               - The application should send a <code v-pre>menuString</code> with the current value.</li><li><code v-pre>actionOn</code>                        - An action button was pressed.</li><li><code v-pre>actionOff</code>                       - An action button was released.</li><li><code v-pre>modeChange</code>                      - The current mode was changed.</li><li><code v-pre>transport</code>                       - The transport.</li><li><code v-pre>unmanagedPanelCapabilities</code>      - Send by the Hub to advertise an unmanaged panel.</li><li><code v-pre>unmanagedButtonDown</code>             - A button on an unmanaged panel was pressed.</li><li><code v-pre>unmanagedButtonUp</code>               - A button on an unmanaged panel was released.</li><li><code v-pre>unmanagedEncoderChange</code>          - An encoder (dial/wheel) on an unmanaged panel changed.</li><li><code v-pre>unmanagedDisplayRefresh</code>         - Triggered when an unmanaged panel&#x27;s display needs to update.</li><li><code v-pre>panelConnectionState</code>            - A panel&#x27;s connection state changed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L37">extensions/tangent/tangent.lua line 37</a></td>
 </tr>
 </tbody>
 </table>
@@ -526,6 +534,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L169">extensions/tangent/tangent.lua line 169</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -561,6 +573,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>transportRing</code>           - transport ring.</li><li><code v-pre>fakeKeypress</code>            - sends a fake keypress.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L152">extensions/tangent/tangent.lua line 152</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -595,6 +611,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L90">extensions/tangent/tangent.lua line 90</a></td>
 </tr>
 </tbody>
 </table>
@@ -637,6 +657,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1008">extensions/tangent/tangent.lua line 1008</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -672,6 +696,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L998">extensions/tangent/tangent.lua line 998</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -706,6 +734,10 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1003">extensions/tangent/tangent.lua line 1003</a></td>
 </tr>
 </tbody>
 </table>
@@ -756,6 +788,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>Full documentation for the Tangent API can be downloaded <a href="http://www.tangentwave.co.uk/download/developer-support-pack/">here</a>.</li><li>The callback function should expect 1 argument and should not return anything.</li><li>The 1 argument will be a table, which can contain one or many commands. Each command is it&#x27;s own table with the following contents:</li><li>  id - the message ID of the incoming message</li><li>  metadata - A table of data for the Tangent command (see below).</li><li>The metadata table will return the following, depending on the <code v-pre>id</code> for the callback:</li><li>  <code v-pre>connected</code> - Connection to Tangent Hub successfully established.</li><li>  <code v-pre>disconnected</code> - The connection to Tangent Hub was dropped.</li><li>  <code v-pre>initiateComms</code> - Initiates communication between the Hub and the application.</li><li>    <code v-pre>protocolRev</code> - The revision number of the protocol.</li><li>    <code v-pre>numPanels</code> - The number of panels connected.</li><li>    <code v-pre>panels</code></li><li>      <code v-pre>panelID</code> - The ID of the panel.</li><li>      <code v-pre>panelType</code> - The type of panel connected.</li><li>    <code v-pre>data</code> - The raw data from the Tangent Hub</li><li>  <code v-pre>parameterChange</code> - Requests that the application increment a parameter.</li><li>    <code v-pre>paramID</code> - The ID value of the parameter.</li><li>    <code v-pre>increment</code> - The incremental value which should be applied to the parameter.</li><li>  <code v-pre>parameterReset</code> - Requests that the application changes a parameter to its reset value.</li><li>    <code v-pre>paramID</code> - The ID value of the parameter.</li><li>  <code v-pre>parameterValueRequest</code> - Requests that the application sends a <code v-pre>ParameterValue (0x82)</code> command to the Hub.</li><li>    <code v-pre>paramID</code> - The ID value of the parameter.</li><li>  <code v-pre>menuChange</code> - Requests the application change a menu index by +1 or -1.</li><li>    <code v-pre>menuID</code> - The ID value of the menu.</li><li>    <code v-pre>increment</code> - The incremental amount by which the menu index should be changed which will always be an integer value of +1 or -1.</li><li>  <code v-pre>menuReset</code> - Requests that the application changes a menu to its reset value.</li><li>    <code v-pre>menuID</code> - The ID value of the menu.</li><li>  <code v-pre>menuStringRequest</code> - Requests that the application sends a <code v-pre>MenuString (0x83)</code> command to the Hub.</li><li>    <code v-pre>menuID</code> - The ID value of the menu.</li><li>  <code v-pre>actionOn</code> - Requests that the application performs the specified action.</li><li>    <code v-pre>actionID</code> - The ID value of the action.</li><li>  <code v-pre>modeChange</code> - Requests that the application changes to the specified mode.</li><li>    <code v-pre>modeID</code> - The ID value of the mode.</li><li>  <code v-pre>transport</code> - Requests the application to move the currently active transport.</li><li>    <code v-pre>jogValue</code> - The number of jog steps to move the transport.</li><li>    <code v-pre>shuttleValue</code> - An incremental value to add to the shuttle speed.</li><li>  <code v-pre>actionOff</code> - Requests that the application cancels the specified action.</li><li>    <code v-pre>actionID</code> - The ID value of the action.</li><li>  <code v-pre>unmanagedPanelCapabilities</code> - Only used when working in Unmanaged panel mode. Sent in response to a <code v-pre>UnmanagedPanelCapabilitiesRequest (0xA0)</code> command.</li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>    <code v-pre>numButtons</code> - The number of buttons on the panel.</li><li>    <code v-pre>numEncoders</code> - The number of encoders on the panel.</li><li>    <code v-pre>numDisplays</code> - The number of displays on the panel.</li><li>    <code v-pre>numDisplayLines</code> - The number of lines for each display on the panel.</li><li>    <code v-pre>numDisplayChars</code> - The number of characters on each line of each display on the panel.</li><li>  <code v-pre>unmanagedButtonDown</code> - Only used when working in Unmanaged panel mode. Issued when a button has been pressed.</li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>    <code v-pre>buttonID</code> - The hardware ID of the button</li><li>  <code v-pre>unmanagedButtonUp</code> - Only used when working in Unmanaged panel mode. Issued when a button has been released.</li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>    <code v-pre>buttonID</code> - The hardware ID of the button.</li><li>  <code v-pre>unmanagedEncoderChange</code> - Only used when working in Unmanaged panel mode. Issued when an encoder has been moved.</li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>    <code v-pre>paramID</code> - The hardware ID of the encoder.</li><li>    <code v-pre>increment</code> - The incremental value.</li><li>  <code v-pre>unmanagedDisplayRefresh</code> - Only used when working in Unmanaged panel mode. Issued when a panel has been connected or the focus of the panel has been returned to your application.</li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>  <code v-pre>panelConnectionState</code></li><li>    <code v-pre>panelID</code> - The ID of the panel as reported in the <code v-pre>InitiateComms</code> command.</li><li>    <code v-pre>state</code> - The connected state of the panel, <code v-pre>true</code> if connected, <code v-pre>false</code> if disconnected.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1044">extensions/tangent/tangent.lua line 1044</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -798,6 +838,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1726">extensions/tangent/tangent.lua line 1726</a></td>
 </tr>
 </tbody>
 </table>
@@ -842,6 +890,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1128">extensions/tangent/tangent.lua line 1128</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -884,6 +940,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1657">extensions/tangent/tangent.lua line 1657</a></td>
 </tr>
 </tbody>
 </table>
@@ -928,6 +992,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1027">extensions/tangent/tangent.lua line 1027</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -970,6 +1042,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This should be a full encoded string for the command you want to send, withouth the leading &#x27;size&#x27; section, which the function will calculate automatically.</li><li>In general, you should use the more specific functions that package the command for you, such as <code v-pre>sendParameterValue(...)</code>. This function can be used to send a message that this API doesn&#x27;t yet support.</li><li>Full documentation for the Tangent API can be downloaded <a href="http://www.tangentwave.co.uk/download/developer-support-pack/">here</a>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1141">extensions/tangent/tangent.lua line 1141</a></td>
 </tr>
 </tbody>
 </table>
@@ -1014,6 +1094,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>The Hub responds by requesting all the current values of software-controls it is currently controlling.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1295">extensions/tangent/tangent.lua line 1295</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1056,6 +1144,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If no details are provided the ones stored in the module are used.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1168">extensions/tangent/tangent.lua line 1168</a></td>
 </tr>
 </tbody>
 </table>
@@ -1100,6 +1196,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>Strings may either be 32 character, single height or 16 character double-height. They will be displayed in the order received; the first string displayed at the top of the display.</li><li>If a string is not defined as double-height then it will occupy the next line.</li><li>If a string is defined as double-height then it will occupy the next 2 lines.</li><li>The maximum number of lines which will be used by the application must be indicated in the Controls XML file.</li><li>Text which exceeds 32 (single-height) or 16 (double-height) characters will be truncated.</li><li>If all text is single-height, the <code v-pre>doubleHeight</code> table can be omitted.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;hs.tangent.sendDisplayText(&lt;/li&gt;&lt;li&gt;    { &quot;Single Height&quot;, &quot;Double Height&quot; }, {false, true}&lt;/li&gt;&lt;li&gt;)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1342">extensions/tangent/tangent.lua line 1342</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1142,6 +1246,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>When applied to Modes, buttons which are mapped to the reserved &quot;Go To Mode&quot; action for this particular mode will highlight.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1544">extensions/tangent/tangent.lua line 1544</a></td>
 </tr>
 </tbody>
 </table>
@@ -1186,6 +1298,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>This indicator is driven by the <code v-pre>atDefault</code> argument for Parameters and Menus. This command therefore only applies to controls mapped to Actions and Modes.</li><li>When applied to Modes, buttons which are mapped to the reserved &quot;Go To Mode&quot; action for this particular mode will have their indicator set.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1574">extensions/tangent/tangent.lua line 1574</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1228,6 +1348,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The Hub then updates the displays of any panels which are currently showing the menu.</li><li>If a value of <code v-pre>nil</code> is sent then the Hub will not attempt to display a value for the menu. However the <code v-pre>atDefault</code> flag will still be recognised.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1256">extensions/tangent/tangent.lua line 1256</a></td>
 </tr>
 </tbody>
 </table>
@@ -1272,6 +1400,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>The Hub then changes mode and requests all the current values of software-controls it is controlling.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1315">extensions/tangent/tangent.lua line 1315</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1314,6 +1450,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>A single request may result in multiple state responses.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1607">extensions/tangent/tangent.lua line 1607</a></td>
 </tr>
 </tbody>
 </table>
@@ -1358,6 +1502,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>The Hub then updates the displays of any panels which are currently showing the parameter value.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1218">extensions/tangent/tangent.lua line 1218</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1400,6 +1552,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The string supplied will replace the normal text which has been derived from the Controls XML file.</li><li>To remove any existing replacement name set <code v-pre>newName</code> to <code v-pre>&quot;&quot;</code>, this will remove any renaming and return the system to the normal display text</li><li>When applied to Modes, the string displayed on buttons which mapped to the reserved &quot;Go To Mode&quot; action for this particular mode will also change.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1507">extensions/tangent/tangent.lua line 1507</a></td>
 </tr>
 </tbody>
 </table>
@@ -1444,6 +1604,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>Only used when working in Unmanaged panel mode.</li><li>If the most significant bit of any individual text character in <code v-pre>message</code> is set it will be displayed as inversed with dark text on a light background.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1452">extensions/tangent/tangent.lua line 1452</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1487,6 +1655,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>Only used when working in Unmanaged panel mode</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1425">extensions/tangent/tangent.lua line 1425</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1529,6 +1705,14 @@ future panels produced by Tangent via the TUBE Hub.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/tangent/tangent.lua#L1013">extensions/tangent/tangent.lua line 1013</a></td>
 </tr>
 </tbody>
 </table>

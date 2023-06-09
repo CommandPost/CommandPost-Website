@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -453,6 +453,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This callback should accept two parameters:</li><li> An <code v-pre>hs.chooser</code> object</li><li> A string containing the name of the event to handle. Possible values are:</li><li>  <code v-pre>willOpen</code> - An hs.chooser is about to be shown on screen</li><li>  <code v-pre>didClose</code> - An hs.chooser has just been removed from the screen</li><li>There is a default global callback that uses the <code v-pre>willOpen</code> event to remember which window has focus, and the <code v-pre>didClose</code> event to restore focus back to the original window. If you want to use this in addition to your own callback, you can call it as <code v-pre>hs.chooser._defaultGlobalCallback(event)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/chooser.lua#L29">extensions/chooser/chooser.lua line 29</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -501,6 +505,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.chooser</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L14">extensions/chooser/libchooser.m line 14</a></td>
 </tr>
 </tbody>
 </table>
@@ -551,6 +563,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this method is a convenience wrapper for the <code v-pre>hs.webview.toolbar.attachToolbar</code> function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the chooser.  If you wish to attach the same toolbar to multiple chooser objects, see <code v-pre>hs.webview.toolbar:copy</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/chooser.lua#L13">extensions/chooser/chooser.lua line 13</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -593,6 +613,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The text colors will not automatically change when you toggle the darkness of the chooser window, you should also set appropriate colors with <code v-pre>hs.chooser:fgColor()</code> and <code v-pre>hs.chooser:subTextColor()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L539">extensions/chooser/libchooser.m line 539</a></td>
 </tr>
 </tbody>
 </table>
@@ -637,6 +665,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L805">extensions/chooser/libchooser.m line 805</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -679,6 +715,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The table of choices (be it provided statically, or returned by the callback) must contain at least the following keys for each choice:</li><li> text - A string or hs.styledtext object that will be shown as the main text of the choice</li><li>Each choice may also optionally contain the following keys:</li><li> subText - A string or hs.styledtext object that will be shown underneath the main text of the choice</li><li> image - An <code v-pre>hs.image</code> image object that will be displayed next to the choice</li><li> valid - A boolean that defaults to <code v-pre>true</code>, if set to <code v-pre>false</code> selecting the choice will invoke the <code v-pre>invalidCallback</code> method instead of dismissing the chooser</li><li>Any other keys/values in each choice table will be retained by the chooser and returned to the completion callback when a choice is made. This is useful for storing UUIDs or other non-user-facing information, however, it is important to note that you should not store userdata objects in the table - it is run through internal conversion functions, so only basic Lua types should be stored.</li><li>If a function is given, it will be called once, when the chooser window is displayed. The results are then cached until this method is called again, or <code v-pre>hs.chooser:refreshChoicesCallback()</code> is called.</li><li>If you&#x27;re using a hs.styledtext object for text or subText choices, make sure you specify a color, otherwise your text could appear transparent depending on the bgDark setting.</li><li></li><li>Example:</li><li> <code v-pre>lua&lt;/li&gt;&lt;li&gt;local choices = {&lt;/li&gt;&lt;li&gt; {&lt;/li&gt;&lt;li&gt;  [&quot;text&quot;] = &quot;First Choice&quot;,&lt;/li&gt;&lt;li&gt;  [&quot;subText&quot;] = &quot;This is the subtext of the first choice&quot;,&lt;/li&gt;&lt;li&gt;  [&quot;uuid&quot;] = &quot;0001&quot;&lt;/li&gt;&lt;li&gt; },&lt;/li&gt;&lt;li&gt; { [&quot;text&quot;] = &quot;Second Option&quot;,&lt;/li&gt;&lt;li&gt;   [&quot;subText&quot;] = &quot;I wonder what I should type here?&quot;,&lt;/li&gt;&lt;li&gt;   [&quot;uuid&quot;] = &quot;Bbbb&quot;&lt;/li&gt;&lt;li&gt; },&lt;/li&gt;&lt;li&gt; { [&quot;text&quot;] = hs.styledtext.new(&quot;Third Possibility&quot;, {font={size=18}, color=hs.drawing.color.definedCollections.hammerspoon.green}),&lt;/li&gt;&lt;li&gt;   [&quot;subText&quot;] = &quot;What a lot of choosing there is going on here!&quot;,&lt;/li&gt;&lt;li&gt;   [&quot;uuid&quot;] = &quot;III3&quot;&lt;/li&gt;&lt;li&gt; },&lt;/li&gt;&lt;li&gt;}</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L110">extensions/chooser/libchooser.m line 110</a></td>
 </tr>
 </tbody>
 </table>
@@ -723,6 +767,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L444">extensions/chooser/libchooser.m line 444</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -765,6 +817,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This should be used before a chooser has been displayed</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L584">extensions/chooser/libchooser.m line 584</a></td>
 </tr>
 </tbody>
 </table>
@@ -809,6 +869,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L461">extensions/chooser/libchooser.m line 461</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -851,6 +919,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L70">extensions/chooser/libchooser.m line 70</a></td>
 </tr>
 </tbody>
 </table>
@@ -895,6 +971,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This callback is called <em>after</em> the chooser is hidden.</li><li>This callback is called <em>after</em> hs.chooser.globalCallback.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L199">extensions/chooser/libchooser.m line 199</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -937,6 +1021,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li> The callback may accept one argument, it will be a table containing whatever information you supplied for the item the user chose.</li><li> To display a context menu, see <code v-pre>hs.menubar</code>, specifically the <code v-pre>:popupMenu()</code> method</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L415">extensions/chooser/libchooser.m line 415</a></td>
 </tr>
 </tbody>
 </table>
@@ -981,6 +1073,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L91">extensions/chooser/libchooser.m line 91</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1023,6 +1123,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L331">extensions/chooser/libchooser.m line 331</a></td>
 </tr>
 </tbody>
 </table>
@@ -1067,6 +1175,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>You can provide an explicit nil or empty string to clear the current query string.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L290">extensions/chooser/libchooser.m line 290</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1109,6 +1225,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>As the user is typing, the callback function will be called for every keypress. You may wish to do filtering on each call, or you may wish to use a delayed <code v-pre>hs.timer</code> object to only react when they have finished typing.</li><li>The callback function should accept a single argument:</li><li> A string containing the new search query</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L356">extensions/chooser/libchooser.m line 356</a></td>
 </tr>
 </tbody>
 </table>
@@ -1153,6 +1277,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method will do nothing if you have not set a function with <code v-pre>hs.chooser:choices()</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L256">extensions/chooser/libchooser.m line 256</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1195,6 +1327,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li> The callback may accept one argument, the row the right click occurred in or 0 if there is currently no selectable row where the right click occurred. To determine the location of the mouse pointer at the right click, see <code v-pre>hs.mouse</code>.</li><li> To display a context menu, see <code v-pre>hs.menubar</code>, specifically the <code v-pre>:popupMenu()</code> method</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L386">extensions/chooser/libchooser.m line 386</a></td>
 </tr>
 </tbody>
 </table>
@@ -1239,6 +1379,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L695">extensions/chooser/libchooser.m line 695</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1281,6 +1429,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This should be used before a chooser has been displayed</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L621">extensions/chooser/libchooser.m line 621</a></td>
 </tr>
 </tbody>
 </table>
@@ -1325,6 +1481,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L781">extensions/chooser/libchooser.m line 781</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1367,6 +1531,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L729">extensions/chooser/libchooser.m line 729</a></td>
 </tr>
 </tbody>
 </table>
@@ -1411,6 +1583,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L758">extensions/chooser/libchooser.m line 758</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1453,6 +1633,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L43">extensions/chooser/libchooser.m line 43</a></td>
 </tr>
 </tbody>
 </table>
@@ -1497,6 +1685,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This callback is called <em>after</em> the chooser is shown. To execute code just before it&#x27;s shown (and/or after it&#x27;s removed) see <code v-pre>hs.chooser.globalCallback</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L228">extensions/chooser/libchooser.m line 228</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1540,6 +1736,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L500">extensions/chooser/libchooser.m line 500</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1582,6 +1786,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This should be used before a chooser has been displayed</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/chooser/libchooser.m#L658">extensions/chooser/libchooser.m line 658</a></td>
 </tr>
 </tbody>
 </table>

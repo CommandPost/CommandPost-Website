@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -452,6 +452,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This constructor returns a lower-level object than the <code v-pre>hs.network.ping.ping</code> constructor and is more difficult to use. It is recommended that you use this constructor only if <code v-pre>hs.network.ping.ping</code> is not sufficient for your needs.</li><li></li><li>For convenience, you can call this constructor as <code v-pre>hs.network.ping.echoRequest(server)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L229">extensions/network/ping/libnetwork_ping.m line 229</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -501,6 +509,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Setting this value to &quot;IPv6&quot; or &quot;IPv4&quot; will cause the echoRequestObject to attempt to resolve the server&#x27;s name into an IPv6 address or an IPv4 address and communicate via ICMPv6 or ICMP(v4) when the <doc-anchor-trigger to="#start">hs.network.ping.echoRequest:start</doc-anchor-trigger> method is invoked.  A callback with the message &quot;didFail&quot; will occur if the server could not be resolved to an address in the specified family.</li><li>If this value is set to &quot;any&quot;, then the first address which is discovered for the server&#x27;s name will determine whether ICMPv6 or ICMP(v4) is used, based upon the family of the address.</li><li></li><li>Setting a value with this method will have no immediate effect on an echoRequestObject which has already been started with <doc-anchor-trigger to="#start">hs.network.ping.echoRequest:start</doc-anchor-trigger>. You must first stop and then restart the object for any change to have an effect.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L384">extensions/network/ping/libnetwork_ping.m line 384</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -543,6 +559,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L495">extensions/network/ping/libnetwork_ping.m line 495</a></td>
 </tr>
 </tbody>
 </table>
@@ -587,6 +611,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L560">extensions/network/ping/libnetwork_ping.m line 560</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -629,6 +661,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L325">extensions/network/ping/libnetwork_ping.m line 325</a></td>
 </tr>
 </tbody>
 </table>
@@ -673,6 +713,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>ICMP Echo Replies which include this identifier will generate a &quot;receivedPacket&quot; message to the object callback, while replies which include a different identifier will generate a &quot;receivedUnexpectedPacket&quot; message.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L342">extensions/network/ping/libnetwork_ping.m line 342</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -715,6 +763,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L476">extensions/network/ping/libnetwork_ping.m line 476</a></td>
 </tr>
 </tbody>
 </table>
@@ -759,6 +815,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>ICMP Echo Replies which are expected by this object should always be less than this number, with the caveat that this number is a 16-bit integer which will wrap around to 0 after sending a packet with the sequence number 65535.</li><li>Because of this wrap around effect, this module will generate a &quot;receivedPacket&quot; message to the object callback whenever the received packet has a sequence number that is within the last 120 sequence numbers we&#x27;ve sent and a &quot;receivedUnexpectedPacket&quot; otherwise.</li><li>  Per the comments in Apple&#x27;s SimplePing.m file: Why 120?  Well, if we send one ping per second, 120 is 2 minutes, which is the standard &quot;max time a packet can bounce around the Internet&quot; value.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L362">extensions/network/ping/libnetwork_ping.m line 362</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -801,6 +865,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The nature of ICMP packet reception is such that all listeners receive all ICMP packets, even those which belong to another process or echoRequestObject.</li><li>  By default, a valid packet (i.e. with a valid checksum) which does not contain our identifier is ignored since it was not intended for our receiver.  Only corrupt or packets with our identifier but that were otherwise unexpected will generate a &quot;receivedUnexpectedPacket&quot; callback message.</li><li>  This method optionally allows the echoRequestObject to receive <em>all</em> incoming packets, even ones which are expected by another process or echoRequestObject.</li><li>If you wish to examine ICMPv6 router advertisement and neighbor discovery packets, you should set this property to true. Note that this module does not provide the necessary tools to decode these packets at present, so you will have to decode them yourself if you wish to examine their contents.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L595">extensions/network/ping/libnetwork_ping.m line 595</a></td>
 </tr>
 </tbody>
 </table>
@@ -845,6 +917,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>By convention, unless you are trying to test for specific network fragmentation or congestion problems, ICMP Echo Requests are generally 64 bytes in length (this includes the 8 byte header, giving 56 bytes of payload data).  If you do not specify a payload, a default payload which will result in a packet size of 64 bytes is constructed.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L522">extensions/network/ping/libnetwork_ping.m line 522</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -887,6 +967,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should expect between 3 and 5 arguments and return none. The possible arguments which are sent will be one of the following:</li><li></li><li>  &quot;didStart&quot; - indicates that the object has resolved the address of the server and is ready to begin sending and receiving ICMP Echo packets.</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;didStart&quot;</li><li>    <code v-pre>address</code> - a string representation of the IPv4 or IPv6 address of the server specified to the constructor.</li><li></li><li>  &quot;didFail&quot; - indicates that the object has failed, either because the address could not be resolved or a network error has occurred.</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;didFail&quot;</li><li>    <code v-pre>error</code>   - a string describing the error that occurred.</li><li>  Notes:</li><li>    When this message is received, you do not need to call <doc-anchor-trigger to="#stop">hs.network.ping.echoRequest:stop</doc-anchor-trigger> -- the object will already have been stopped.</li><li></li><li>  &quot;sendPacket&quot; - indicates that the object has sent an ICMP Echo Request packet.</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;sendPacket&quot;</li><li>    <code v-pre>icmp</code>    - an ICMP packet table representing the packet which has been sent as described in the header of this module&#x27;s documentation.</li><li>    <code v-pre>seq</code>     - the sequence number for this packet. Sequence numbers always start at 0 and increase by 1 every time the <doc-anchor-trigger to="#sendPayload">hs.network.ping.echoRequest:sendPayload</doc-anchor-trigger> method is called.</li><li></li><li>  &quot;sendPacketFailed&quot; - indicates that the object failed to send the ICMP Echo Request packet.</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;sendPacketFailed&quot;</li><li>    <code v-pre>icmp</code>    - an ICMP packet table representing the packet which was to be sent.</li><li>    <code v-pre>seq</code>     - the sequence number for this packet.</li><li>    <code v-pre>error</code>   - a string describing the error that occurred.</li><li>  Notes:</li><li>    Unlike &quot;didFail&quot;, the echoRequestObject is not stopped when this message occurs; you can try to send another payload if you wish without restarting the object first.</li><li></li><li>  &quot;receivedPacket&quot; - indicates that an expected ICMP Echo Reply packet has been received by the object.</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;receivedPacket&quot;</li><li>    <code v-pre>icmp</code>    - an ICMP packet table representing the packet received.</li><li>    <code v-pre>seq</code>     - the sequence number for this packet.</li><li></li><li>  &quot;receivedUnexpectedPacket&quot; - indicates that an unexpected ICMP packet was received</li><li>    <code v-pre>object</code>  - the echoRequestObject itself</li><li>    <code v-pre>message</code> - the message to the callback, in this case &quot;receivedUnexpectedPacket&quot;</li><li>    <code v-pre>icmp</code>    - an ICMP packet table representing the packet received.</li><li>  Notes:</li><li>    This message can occur for a variety of reasons, the most common being:</li><li>      the ICMP packet is corrupt or truncated and cannot be parsed</li><li>      the ICMP Identifier does not match ours and the sequence number is not one we have sent</li><li>      the ICMP type does not match an ICMP Echo Reply</li><li>      When using IPv6, this is especially common because IPv6 uses ICMP for network management functions like Router Advertisement and Neighbor Discovery.</li><li>    In general, it is reasonably safe to ignore these messages, unless you are having problems receiving anything else, in which case it could indicate problems on your network that need addressing.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L253">extensions/network/ping/libnetwork_ping.m line 253</a></td>
 </tr>
 </tbody>
 </table>
@@ -931,6 +1019,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L427">extensions/network/ping/libnetwork_ping.m line 427</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -973,6 +1069,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/ping/libnetwork_ping.m#L452">extensions/network/ping/libnetwork_ping.m line 452</a></td>
 </tr>
 </tbody>
 </table>

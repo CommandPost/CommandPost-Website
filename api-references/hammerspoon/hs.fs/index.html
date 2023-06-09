@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -462,6 +462,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function uses <code v-pre>stat()</code> internally thus if the given filepath is a symbolic link, it is followed (if it points to another link the chain is followed recursively) and the information is about the file it refers to. To obtain information about the link itself, see function <code v-pre>hs.fs.symlinkAttributes()</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L742">extensions/fs/libfs.m line 742</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -504,6 +512,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L127">extensions/fs/libfs.m line 127</a></td>
 </tr>
 </tbody>
 </table>
@@ -548,6 +564,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L155">extensions/fs/libfs.m line 155</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -590,6 +614,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Unlike most functions in this module, <code v-pre>hs.fs.dir</code> will throw a Lua error if the supplied path cannot be iterated.</li><li></li><li>The simplest way to use this function is with a <code v-pre>for</code> loop. When used in this manner, the <code v-pre>for</code> loop itself will take care of closing the directory stream for us, even if we break out of the loop early.</li><li>   <code v-pre>&lt;/li&gt;&lt;li&gt;      for file in hs.fs.dir(&quot;/Users/Guest/Documents&quot;) do&lt;/li&gt;&lt;li&gt;          print(file)&lt;/li&gt;&lt;li&gt;      end&lt;/li&gt;&lt;li&gt;   </code></li><li></li><li>It is also possible to use the dir_obj directly if you wish:</li><li>   <code v-pre>&lt;/li&gt;&lt;li&gt;      local iterFn, dirObj = hs.fs.dir(&quot;/Users/Guest/Documents&quot;)&lt;/li&gt;&lt;li&gt;      local file = dirObj:next() -- get the first file in the directory&lt;/li&gt;&lt;li&gt;      while (file) do&lt;/li&gt;&lt;li&gt;          print(file)&lt;/li&gt;&lt;li&gt;          file = dirObj:next() -- get the next file in the directory&lt;/li&gt;&lt;li&gt;      end&lt;/li&gt;&lt;li&gt;      dirObj:close() -- necessary to make sure that the directory stream is closed&lt;/li&gt;&lt;li&gt;   </code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L473">extensions/fs/libfs.m line 473</a></td>
 </tr>
 </tbody>
 </table>
@@ -634,6 +666,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1026">extensions/fs/libfs.m line 1026</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -677,6 +717,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L938">extensions/fs/libfs.m line 938</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -697,7 +745,9 @@
 <code v-pre>pasteboard</code> - as an NSPasteboard type (see <code v-pre>hs.pasteboard</code>).
 <code v-pre>ostype</code>     - four character file type, most common pre OS X, but still used in some legacy APIs.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the file UTI in the alternate format or nil if the UTI does not have an alternate of the specified type.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L962">extensions/fs/libfs.m line 962</a> |</p>
 <hr />
 <doc-anchor-target id="getfindercomments">
     <h3>
@@ -737,6 +787,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function uses <code v-pre>hs.osascript</code> to access the file comments through AppleScript</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L68">extensions/fs/fs.lua line 68</a></td>
 </tr>
 </tbody>
 </table>
@@ -781,6 +839,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L346">extensions/fs/libfs.m line 346</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -823,6 +889,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L209">extensions/fs/libfs.m line 209</a></td>
 </tr>
 </tbody>
 </table>
@@ -867,6 +941,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This is not a low level OS feature, the lock is actually a file created in the path, called <code v-pre>lockfile.lfs</code>, so the directory must be writable for this function to succeed</li><li>The returned lock object can be freed with <code v-pre>lock:free()</code></li><li>If the lock already exists and is not stale, the error string returned will be &quot;File exists&quot;</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L241">extensions/fs/libfs.m line 241</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -909,6 +991,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L382">extensions/fs/libfs.m line 382</a></td>
 </tr>
 </tbody>
 </table>
@@ -953,6 +1043,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>A bookmark provides a persistent reference to a file-system resource.</li><li>   When you resolve a bookmark, you obtain a URL to the resource’s current location.</li><li>   A bookmark’s association with a file-system resource (typically a file or folder)</li><li>   usually continues to work if the user moves or renames the resource, or if the</li><li>   user relaunches your app or restarts the system.</li><li>No volumes are mounted during the resolution of the bookmark data.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1078">extensions/fs/libfs.m line 1078</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -995,6 +1093,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L999">extensions/fs/libfs.m line 999</a></td>
 </tr>
 </tbody>
 </table>
@@ -1039,6 +1145,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1047">extensions/fs/libfs.m line 1047</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1081,6 +1195,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L411">extensions/fs/libfs.m line 411</a></td>
 </tr>
 </tbody>
 </table>
@@ -1125,6 +1247,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function uses <code v-pre>hs.osascript</code> to access the file comments through AppleScript</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L95">extensions/fs/fs.lua line 95</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1167,6 +1297,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The return values for this function are identical to those provided by <code v-pre>hs.fs.attributes()</code> with the following addition: the attribute name &quot;target&quot; is added and specifies a string containing the absolute path that the symlink points to.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/fs.lua#L127">extensions/fs/fs.lua line 127</a></td>
 </tr>
 </tbody>
 </table>
@@ -1211,6 +1349,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L857">extensions/fs/libfs.m line 857</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1253,6 +1399,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L825">extensions/fs/libfs.m line 825</a></td>
 </tr>
 </tbody>
 </table>
@@ -1297,6 +1451,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L901">extensions/fs/libfs.m line 901</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1339,6 +1501,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L880">extensions/fs/libfs.m line 880</a></td>
 </tr>
 </tbody>
 </table>
@@ -1383,6 +1553,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L924">extensions/fs/libfs.m line 924</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1425,6 +1603,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L599">extensions/fs/libfs.m line 599</a></td>
 </tr>
 </tbody>
 </table>
@@ -1469,6 +1655,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L315">extensions/fs/libfs.m line 315</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1511,6 +1705,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/fs/libfs.m#L1130">extensions/fs/libfs.m line 1130</a></td>
 </tr>
 </tbody>
 </table>

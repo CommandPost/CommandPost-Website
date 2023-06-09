@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -421,7 +421,9 @@ if value is <code v-pre>false</code>, then the HTML output will never be inverte
 if value is <code v-pre>nil</code>, then the output will be inverted only when the OS X theme is set to Dark mode
 if the value is a number between 0 and 100, the number specifies the inversion ratio, where 0 means no inversion, 100 means full inversion, and 50 is completely unreadable because the foreground and background are equally adjusted.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the current, possibly new, value</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>Inversion is applied through the use of CSS filtering, so while numeric values other than 0 (false) and 100 (true) are allowed, the result is generally not what is desired.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.invertDocs&quot; and will persist through a reload or restart of Hammerspoon.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>Inversion is applied through the use of CSS filtering, so while numeric values other than 0 (false) and 100 (true) are allowed, the result is generally not what is desired.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.invertDocs&quot; and will persist through a reload or restart of Hammerspoon.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L635">extensions/doc/hsdocs/init.lua line 635</a> |</p>
 <hr />
 <doc-anchor-target id="browserframe">
     <h3>
@@ -461,6 +463,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If <doc-anchor-trigger to="#trackBrowserFrame">hs.doc.hsdocs.trackBrowserFrame</doc-anchor-trigger> is false or nil (the default), then you can use this function to specify the initial position of the documentation browser.</li><li>If <doc-anchor-trigger to="#trackBrowserFrame">hs.doc.hsdocs.trackBrowserFrame</doc-anchor-trigger> is true, then this any value set with this function will be overwritten whenever the browser window is moved or resized.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.browserFrame&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L567">extensions/doc/hsdocs/init.lua line 567</a></td>
 </tr>
 </tbody>
 </table>
@@ -505,6 +515,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <td><strong>Notes</strong></td>
 <td><ul><li>If this value is set to true, help requests invoked by <doc-anchor-trigger to="#help">hs.doc.hsdocs.help</doc-anchor-trigger> will be invoked by your system&#x27;s default handler for the <code v-pre>http</code> scheme.</li><li>If this value is set to a string, the string specifies the bundle ID of an application which will be used to handle the url request for the documentation.  The string should match one of the items returned by <code v-pre>hs.urlevent.getAllHandlersForScheme(&quot;http&quot;)</code>.</li><li></li><li>This behavior is triggered automatically, regardless of this setting, if you are running with a version of OS X prior to 10.10, since <code v-pre>hs.webview</code> requires OS X 10.10 or later.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.forceExternalBrowser&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L663">extensions/doc/hsdocs/init.lua line 663</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -547,6 +565,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L532">extensions/doc/hsdocs/init.lua line 532</a></td>
 </tr>
 </tbody>
 </table>
@@ -591,6 +617,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <td><strong>Notes</strong></td>
 <td><ul><li>See <code v-pre>hs.httpserver.setInterface</code> for a description of valid values that can be specified as the <code v-pre>interface</code> argument to this function.</li><li>A change to the interface can only occur when the documentation server is not running. If the server is currently active when you call this function with an argument, the server will be temporarily stopped and then restarted after the interface has been changed.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.interface&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L409">extensions/doc/hsdocs/init.lua line 409</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -633,6 +667,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is experimental and is disabled by default. It was inspired by a Userscript written by krasnovpro.  The original can be found at <a href="https://openuserjs.org/scripts/krasnovpro/hammerspoon.org_Documentation/source">https://openuserjs.org/scripts/krasnovpro/hammerspoon.org_Documentation/source</a>.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.entitiesInSidebar&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L613">extensions/doc/hsdocs/init.lua line 613</a></td>
 </tr>
 </tbody>
 </table>
@@ -677,6 +719,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <td><strong>Notes</strong></td>
 <td><ul><li>The default port number is 12345.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.serverPort&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L453">extensions/doc/hsdocs/init.lua line 453</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -719,6 +769,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is automatically called, if necessary, when <doc-anchor-trigger to="#help">hs.doc.hsdocs.help</doc-anchor-trigger> is invoked.</li><li>The documentation web server can be viewed from a web browser by visiting &quot;http://localhost:port&quot; where <code v-pre>port</code> is the port the server is running on, 12345 by default -- see <doc-anchor-trigger to="#port">hs.doc.hsdocs.port</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L479">extensions/doc/hsdocs/init.lua line 479</a></td>
 </tr>
 </tbody>
 </table>
@@ -763,6 +821,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L513">extensions/doc/hsdocs/init.lua line 513</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -805,6 +871,14 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.trackBrowserFrameChanges&quot; and will persist through a reload or restart of Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/hsdocs/init.lua#L593">extensions/doc/hsdocs/init.lua line 593</a></td>
 </tr>
 </tbody>
 </table>

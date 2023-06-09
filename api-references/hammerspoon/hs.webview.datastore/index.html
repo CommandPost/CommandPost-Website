@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -441,6 +441,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>As of the writing of this module, the following data types are defined and returned by this function:</li><li>  <code v-pre>WKWebsiteDataTypeDiskCache</code>                  - On-disk caches.</li><li>  <code v-pre>WKWebsiteDataTypeOfflineWebApplicationCache</code> - HTML offline web application caches.</li><li>  <code v-pre>WKWebsiteDataTypeMemoryCache</code>                - In-memory caches.</li><li>  <code v-pre>WKWebsiteDataTypeLocalStorage</code>               - HTML local storage.</li><li>  <code v-pre>WKWebsiteDataTypeCookies</code>                    - Cookies.</li><li>  <code v-pre>WKWebsiteDataTypeSessionStorage</code>             - HTML session storage.</li><li>  <code v-pre>WKWebsiteDataTypeIndexedDBDatabases</code>         - WebSQL databases.</li><li>  <code v-pre>WKWebsiteDataTypeWebSQLDatabases</code>            - IndexedDB databases.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L20">extensions/webview/libwebview_datastore.m line 20</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -490,6 +498,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this is the datastore used unless otherwise specified when creating an <code v-pre>hs.webview</code> instance.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L47">extensions/webview/libwebview_datastore.m line 47</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -532,6 +548,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>When running on a system with OS X 10.11 or later, this method will also be added to the metatable for <code v-pre>hs.webview</code> objects so that you can retrieve a webview&#x27;s datastore with <code v-pre>hs.webview:datastore()</code>.</li><li></li><li>This method can be used to identify the datastore in use for a webview if you wish to create a new instance using the same datastore.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L87">extensions/webview/libwebview_datastore.m line 87</a></td>
 </tr>
 </tbody>
 </table>
@@ -576,6 +600,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The datastore represented by this object will be initially empty.  You can use this function to create a non-persistent datastore that you wish to share among multiple <code v-pre>hs.webview</code> instances.  Once a datastore is created, you assign it to a <code v-pre>hs.webview</code> instance by including the <code v-pre>datastore</code> key in the <code v-pre>hs.webview.new</code> constructor&#x27;s preferences table and setting it equal to this key.  All webview instances created with this datastore object will share web caches, cookies, etc. but will still be isolated from the default datastore and it will be purged from memory when the webviews are deleted, or Hammerspoon is restarted.</li><li></li><li>Using the <code v-pre>datastore</code> key in the webview&#x27;s constructor differs from the <code v-pre>private</code> key -- use of the <code v-pre>private</code> key will override the <code v-pre>datastore</code> key and will create a separate non-persistent datastore for the webview instance.  See <code v-pre>hs.webview.new</code> for more information.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L66">extensions/webview/libwebview_datastore.m line 66</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -601,7 +633,9 @@
 <code v-pre>displayName</code> - a string containing the site&#x27;s display name.  Typically, the display name is the domain name with suffix taken from the resource’s security origin (website name).
 <code v-pre>dataTypes</code>   - a table containing strings representing the types of data stored for the website specified by <code v-pre>displayName</code>.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the datastore object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>only those sites with one or more of the specified data types are returned</li><li>for the sites returned, only those data types that were present in the query will be included in the list, even if the site has data of another type in the datastore.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>only those sites with one or more of the specified data types are returned</li><li>for the sites returned, only those data types that were present in the query will be included in the list, even if the site has data of another type in the datastore.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L117">extensions/webview/libwebview_datastore.m line 117</a> |</p>
 <hr />
 <doc-anchor-target id="persistent">
     <h3>
@@ -641,6 +675,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Note that this value is the inverse of <code v-pre>hs.webview:privateBrowsing()</code>, since private browsing uses a non-persistent datastore.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L381">extensions/webview/libwebview_datastore.m line 381</a></td>
 </tr>
 </tbody>
 </table>
@@ -685,6 +727,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Yes, you read the description correctly -- removes data <em>newer</em> then the date specified.  I&#x27;ve not yet found a way to remove data <em>older</em> then the date specified (to expire old data, for example) but updates or suggestions are welcome in the Hammerspoon Google group or GitHub web site.</li><li></li><li>to specify that all data types that qualify should be removed, specify the function  <doc-anchor-trigger to="#websiteDataTypes">hs.webview.datastore.websiteDataTypes()</doc-anchor-trigger>. as the second argument.</li><li></li><li>For example, to purge the Hammerspoon default datastore of all data, you can do the following:</li><li><sub><del></li><li>hs.webview.datastore.default():removeRecordsAfter(0, hs.webview.datastore.websiteDataTypes())</li><li></del></sub></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L287">extensions/webview/libwebview_datastore.m line 287</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -727,6 +777,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>to specify that all data types that qualify should be removed, specify the function  <doc-anchor-trigger to="#websiteDataTypes">hs.webview.datastore.websiteDataTypes()</doc-anchor-trigger>. as the second argument.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_datastore.m#L186">extensions/webview/libwebview_datastore.m line 186</a></td>
 </tr>
 </tbody>
 </table>

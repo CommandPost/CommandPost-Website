@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -436,6 +436,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This table has a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.utf8.registeredKeys</code>.</li><li>For parity with <code v-pre>hs.utf8.registeredLabels</code>, this can also invoked as a function, i.e. <code v-pre>hs.utf8.registeredKeys[&quot;cmd&quot;]</code> is equivalent to <code v-pre>hs.utf8.registeredKeys(&quot;cmd&quot;)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L188">extensions/utf8/utf8.lua line 188</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -485,6 +489,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Because Unicode characters outside of the basic ascii alphabet are multi-byte characters, any UTF8 or other Unicode encoded character will be broken up into their individual bytes and likely escaped by this function.</li><li>This function is useful for displaying binary data in a human readable way that might otherwise be inexpressible in the Hammerspoon console or other destination.  For example:</li><li>  <code v-pre>utf8.charpattern</code>, which contains the regular expression for matching valid UTF8 encoded sequences, results in <code v-pre>(null)</code> in the Hammerspoon console, but <code v-pre>hs.utf8.asciiOnly(utf8.charpattern)</code> will display <code v-pre>[\x00-\x7F\xC2-\xF4][\x80-\xBF]*</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L296">extensions/utf8/utf8.lua line 296</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -527,6 +539,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Valid codepoint values are from 0x0000 - 0x10FFFF (0 - 1114111)</li><li>If the codepoint provided is a string that starts with U+, then the &#x27;U+&#x27; is converted to a &#x27;0x&#x27; so that lua can properly treat the value as numeric.</li><li>Invalid codepoints are returned as the Unicode Replacement Character (U+FFFD)</li><li>  This includes out of range codepoints as well as the Unicode Surrogate codepoints (U+D800 - U+DFFF)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L72">extensions/utf8/utf8.lua line 72</a></td>
 </tr>
 </tbody>
 </table>
@@ -571,6 +591,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is a slight modification to code found at <a href="http://notebook.kulchenko.com/programming/fixing-malformed-utf8-in-lua">http://notebook.kulchenko.com/programming/fixing-malformed-utf8-in-lua</a>.</li><li>If <code v-pre>replacementChar</code> is a multi-byte character (like U+FFFD) or multi character string, then the string length of <code v-pre>outString</code> will be longer than the string length of <code v-pre>inString</code>.  The character positions in <code v-pre>posTable</code> will reflect these new positions in <code v-pre>outString</code>.</li><li>To calculate the character position of the invalid characters in <code v-pre>inString</code>, use something like the following:</li><li></li><li>      outString, outErrors = hs.utf8.fixUTF8(inString, replacement)</li><li>      inErrors = </li><li>      for i,p in ipairs(outErrors) do</li><li>          table.insert(inErrors, p - ((i - 1)string.length(replacement) - 1))</li><li>      end</li><li></li><li>   Where replacement is <code v-pre>utf8.char(0xFFFD)</code>, if you leave it out of the <code v-pre>hs.utf8.fixUTF8</code> function in the first line.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L121">extensions/utf8/utf8.lua line 121</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -613,6 +641,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Like hs.utf8.asciiOnly, this function will break up Unicode characters into their individual bytes.</li><li>As an example:</li><li>     <code v-pre>hs.utf8.hexDump(utf8.charpattern)</code> will return</li><li>     <code v-pre>00 : 5B 00 2D 7F C2 2D F4 5D 5B 80 2D BF 5D 2A        : [.-..-.][.-.]*</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L328">extensions/utf8/utf8.lua line 328</a></td>
 </tr>
 </tbody>
 </table>
@@ -657,6 +693,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If a codepoint label was previously registered, this will overwrite the previous value with a new one.  Because many of the special keys you may want to register have different variants, this allows you to easily modify the existing predefined defaults to suite your preferences.</li><li>The return value is merely syntactic sugar and you do not need to save it locally; it can be safely ignored -- future access to the pre-converted codepoint should be retrieved as <code v-pre>hs.utf8.registeredKeys[label]</code> in your code.  It looks good when invoked from the console, though ☺.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L169">extensions/utf8/utf8.lua line 169</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -699,6 +743,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>For parity with <code v-pre>hs.utf8.registeredKeys</code>, this can also be invoked as if it were an array: i.e. <code v-pre>hs.utf8.registeredLabels(char)</code> is equivalent to <code v-pre>hs.utf8.registeredLabels[char]</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/utf8/utf8.lua#L46">extensions/utf8/utf8.lua line 46</a></td>
 </tr>
 </tbody>
 </table>

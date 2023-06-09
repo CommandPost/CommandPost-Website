@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -494,6 +494,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This table has a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.drawing.windowBehaviors</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L690">extensions/drawing/drawing.lua line 690</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -528,6 +532,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This table has a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.drawing.windowLevels</code>.</li><li>These key names map to the constants used in CoreGraphics to specify window levels and may not actually be used for what the name might suggest. For example, tests suggest that an active screen saver actually runs at a level of 2002, rather than at 1000, which is the window level corresponding to kCGScreenSaverWindowLevelKey.</li><li>Each drawing level is sorted separately and <code v-pre>hs.drawing:orderAbove(...)</code> and hs.drawing:orderBelow(...)<code v-pre>only arrange windows within the same level.&lt;/li&gt;&lt;li&gt;If you use Dock hiding (or in 10.11, Menubar hiding) please note that when the Dock (or Menubar) is popped up, it is done so with an implicit orderAbove, which will place it above any items you may also draw at the Dock (or MainMenu) level.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;A drawing object with a [hs.drawing:setClickCallback](#setClickCallback) function can only reliably receive mouse click events when its window level is at</code>hs.drawing.windowLevels.desktopIcon&#x60; + 1 or higher.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L707">extensions/drawing/drawing.lua line 707</a></td>
 </tr>
 </tbody>
 </table>
@@ -578,6 +586,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method returns the default font, size, color, and paragraphStyle used by <code v-pre>hs.drawing</code> for text objects.  If you modify a drawing object&#x27;s defaults with <code v-pre>hs.drawing:setColor</code>, <code v-pre>hs.drawing:setTextFont</code>, or <code v-pre>hs.drawing:setTextSize</code>, the changes will not be reflected by this function.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L774">extensions/drawing/drawing.lua line 774</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -620,6 +636,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method can be used to allow multiple changes which are being made to the users display appear as if they all occur simultaneously by holding off on updating the screen on the regular schedule.</li><li>This method should always be balanced with a call to <doc-anchor-trigger to="#enableScreenUpdates">hs.drawing.enableScreenUpdates</doc-anchor-trigger> when your updates have been completed.  Failure to do so will be logged in the system logs.</li><li>The window server will only allow you to pause updates for up to 1 second.  This prevents a rogue or hung process from locking the systems display completely.  Updates will be resumed when <doc-anchor-trigger to="#enableScreenUpdates">hs.drawing.enableScreenUpdates</doc-anchor-trigger> is encountered or after 1 second, whichever comes first.</li><li>The underlying OS function for disabling screen updates is deprecated.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L85">extensions/drawing/drawing.lua line 85</a></td>
 </tr>
 </tbody>
 </table>
@@ -664,6 +688,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>In conjunction with <doc-anchor-trigger to="#disableScreenUpdates">hs.drawing.disableScreenUpdates</doc-anchor-trigger>, this method can be used to allow multiple changes which are being made to the users display appear as if they all occur simultaneously by holding off on updating the screen on the regular schedule.</li><li>The window server will only allow you to pause updates for up to 1 second.  This prevents a rogue or hung process from locking the systems display completely.  Updates will be resumed when this function is encountered  or after 1 second, whichever comes first.</li><li>The underlying OS function for enabling screen updates is deprecated.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L101">extensions/drawing/drawing.lua line 101</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -706,6 +738,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function assumes the default values specified for any key which is not included in the provided textStyle.</li><li>The size returned is an approximation and may return a width that is off by about 4 points.  Use the returned size as a minimum starting point. Sometimes using the &quot;clip&quot; or &quot;truncateMiddle&quot; lineBreak modes or &quot;justified&quot; alignment will fit, but its safest to add in your own buffer if you have the space in your layout.</li><li>Multi-line text (separated by a newline or return) is supported.  The height will be for the multiple lines and the width returned will be for the longest line.</li><li>The following simplified style format is supported for use with <code v-pre>hs.drawing:setText</code> and <code v-pre>hs.drawing.setTextStyle</code>.</li><li> theText   - the text which is to be displayed.</li><li> textStyle - a table containing one or more of the following keys to set for the text of the drawing object (if textStyle is nil or missing, the <code v-pre>hs.drawing</code> defaults are used):</li><li>   font      - the name of the font to use (default: the system font)</li><li>   size      - the font point size to use (default: 27.0)</li><li>   color     - ignored, but accepted for compatibility with <code v-pre>hs.drawing:setTextStyle()</code></li><li>   alignment - a string of one of the following indicating the texts alignment within the drawing objects frame:</li><li>     &quot;left&quot;      - the text is visually left aligned.</li><li>     &quot;right&quot;     - the text is visually right aligned.</li><li>     &quot;center&quot;    - the text is visually center aligned.</li><li>     &quot;justified&quot; - the text is justified</li><li>     &quot;natural&quot;   - (default) the natural alignment of the text’s script</li><li>   lineBreak - a string of one of the following indicating how to wrap text which exceeds the drawing object&#x27;s frame:</li><li>     &quot;wordWrap&quot;       - (default) wrap at word boundaries, unless the word itself doesn’t fit on a single line</li><li>     &quot;charWrap&quot;       - wrap before the first character that doesn’t fit</li><li>     &quot;clip&quot;           - do not draw past the edge of the drawing object frame</li><li>     &quot;truncateHead&quot;   - the line is displayed so that the end fits in the frame and the missing text at the beginning of the line is indicated by an ellipsis</li><li>     &quot;truncateTail&quot;   - the line is displayed so that the beginning fits in the frame and the missing text at the end of the line is indicated by an ellipsis</li><li>     &quot;truncateMiddle&quot; - the line is displayed so that the beginning and end fit in the frame and the missing text in the middle is indicated by an ellipsis</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L787">extensions/drawing/drawing.lua line 787</a></td>
 </tr>
 </tbody>
 </table>
@@ -756,6 +796,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L38">extensions/drawing/drawing.lua line 38</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -798,6 +846,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This constructor is actually a wrapper for the <code v-pre>hs.drawing.ellipticalArc</code> constructor.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L69">extensions/drawing/drawing.lua line 69</a></td>
 </tr>
 </tbody>
 </table>
@@ -842,6 +898,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L116">extensions/drawing/drawing.lua line 116</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -885,6 +949,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L126">extensions/drawing/drawing.lua line 126</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -905,7 +977,9 @@ An <code v-pre>hs.image</code> object
 A string containing a path to an image file
 A string beginning with <code v-pre>ASCII:</code> which signifies that the rest of the string is interpreted as a special form of ASCII diagram, which will be rendered to an image. See the notes below for information about the special format of ASCII diagram.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.drawing</code> object, or nil if an error occurs</li><li>Paths relative to the PWD of Hammerspoon (typically ~/.hammerspoon/) will work, but paths relative to the UNIX homedir character, <code v-pre>~</code> will not</li><li>Animated GIFs are supported. They&#x27;re not super friendly on your CPU, but they work</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>To use the ASCII diagram image support, see <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/">http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/</a> and be sure to preface your ASCII diagram with the special string <code v-pre>ASCII:</code></li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>To use the ASCII diagram image support, see <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/">http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/</a> and be sure to preface your ASCII diagram with the special string <code v-pre>ASCII:</code></li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L170">extensions/drawing/drawing.lua line 170</a> |</p>
 <hr />
 <doc-anchor-target id="line">
     <h3>
@@ -945,6 +1019,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L148">extensions/drawing/drawing.lua line 148</a></td>
 </tr>
 </tbody>
 </table>
@@ -989,6 +1071,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L138">extensions/drawing/drawing.lua line 138</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1031,6 +1121,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L159">extensions/drawing/drawing.lua line 159</a></td>
 </tr>
 </tbody>
 </table>
@@ -1081,6 +1179,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L650">extensions/drawing/drawing.lua line 650</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1123,6 +1229,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L754">extensions/drawing/drawing.lua line 754</a></td>
 </tr>
 </tbody>
 </table>
@@ -1167,6 +1281,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L59">extensions/drawing/drawing.lua line 59</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1209,6 +1331,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.drawing</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L627">extensions/drawing/drawing.lua line 627</a></td>
 </tr>
 </tbody>
 </table>
@@ -1253,6 +1383,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul><li>Setting this to false changes a drawing object&#x27;s AXsubrole value and may affect the results of filters defined for hs.window.filter, depending upon how they are defined.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L567">extensions/drawing/drawing.lua line 567</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1295,6 +1433,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method can be used to specify the area of the display where this drawing should be visible.  If any portion of the drawing extends beyond this rectangle, the image is clipped so that only the portion within this rectangle is visible.</li><li>The rectangle defined by this method is independent of the drawing&#x27;s actual frame -- if you move the drawing with <doc-anchor-trigger to="#setFrame">hs.drawing:setFrame</doc-anchor-trigger> or <doc-anchor-trigger to="#setTopLeft">hs.drawing:setTopLeft</doc-anchor-trigger>, this rectangle retains its current value.</li><li></li><li>This method does not work for image objects at present.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L284">extensions/drawing/drawing.lua line 284</a></td>
 </tr>
 </tbody>
 </table>
@@ -1339,6 +1485,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul><li>This method immediately destroys the drawing object. If you want it to fade out, use <code v-pre>:hide()</code> first, with some suitable time, and <code v-pre>hs.timer.doAfter()</code> to schedule the <code v-pre>:delete()</code> call</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L614">extensions/drawing/drawing.lua line 614</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1381,6 +1535,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L310">extensions/drawing/drawing.lua line 310</a></td>
 </tr>
 </tbody>
 </table>
@@ -1425,6 +1587,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on text drawing objects</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L216">extensions/drawing/drawing.lua line 216</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1468,6 +1638,14 @@ A string beginning with <code v-pre>ASCII:</code> which signifies that the rest 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L604">extensions/drawing/drawing.lua line 604</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1494,7 +1672,9 @@ bottomLeft   - the image&#x27;s bottom left corner will match the drawing frame&
 bottom       - the image&#x27;s bottom match the drawing frame&#x27;s bottom and will be centered horizontally
 bottomRight  - the image&#x27;s bottom right corner will match the drawing frame&#x27;s bottom right corner</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L548">extensions/drawing/drawing.lua line 548</a> |</p>
 <hr />
 <doc-anchor-target id="imageanimates">
     <h3>
@@ -1535,6 +1715,14 @@ bottomRight  - the image&#x27;s bottom right corner will match the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L520">extensions/drawing/drawing.lua line 520</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1557,7 +1745,9 @@ bezel  - a gray, concave bezel with no background that makes the image look sunk
 groove - a thin groove with a gray background that looks etched around the image.
 button - a convex bezel with a gray background that makes the image stand out in relief, like a button.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>Apple considers the photo, groove, and button style frames &quot;stylistically obsolete&quot; and if a frame is required, recommend that you use the bezel style or draw your own to more closely match the OS look and feel.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>Apple considers the photo, groove, and button style frames &quot;stylistically obsolete&quot; and if a frame is required, recommend that you use the bezel style or draw your own to more closely match the OS look and feel.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L530">extensions/drawing/drawing.lua line 530</a> |</p>
 <hr />
 <doc-anchor-target id="imagescaling">
     <h3>
@@ -1576,7 +1766,9 @@ scaleToFit          - shrink or expand the image to fully fill the drawing frame
 none                - perform no scaling or resizing of the image.
 scaleProportionally - shrink or expand the image to fully fill the drawing frame, preserving the aspect ration.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a setting value is provided, the drawing object is returned; if no argument is provided, the current setting is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L506">extensions/drawing/drawing.lua line 506</a> |</p>
 <hr />
 <doc-anchor-target id="orderabove">
     <h3>
@@ -1616,6 +1808,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L670">extensions/drawing/drawing.lua line 670</a></td>
 </tr>
 </tbody>
 </table>
@@ -1660,6 +1860,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L680">extensions/drawing/drawing.lua line 680</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1702,6 +1910,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>* This method works by rotating the image view within its drawing window.  This means that an image which completely fills its viewing area will most likely be cropped in some places.  Best results are achieved with images that have clear space around their edges or with <code v-pre>hs.drawing.imageScaling</code> set to &quot;none&quot;.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L493">extensions/drawing/drawing.lua line 493</a></td>
 </tr>
 </tbody>
 </table>
@@ -1746,6 +1962,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L640">extensions/drawing/drawing.lua line 640</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1788,6 +2012,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L660">extensions/drawing/drawing.lua line 660</a></td>
 </tr>
 </tbody>
 </table>
@@ -1832,6 +2064,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on arc drawing objects</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L377">extensions/drawing/drawing.lua line 377</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1874,6 +2114,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L764">extensions/drawing/drawing.lua line 764</a></td>
 </tr>
 </tbody>
 </table>
@@ -1918,6 +2166,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L49">extensions/drawing/drawing.lua line 49</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1960,6 +2216,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>No distinction is made between the left, right, or other mouse buttons -- they all invoke the same up or down function.  If you need to determine which specific button was pressed, use <code v-pre>hs.eventtap.checkMouseButtons()</code> within your callback to check.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L580">extensions/drawing/drawing.lua line 580</a></td>
 </tr>
 </tbody>
 </table>
@@ -2004,6 +2268,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L444">extensions/drawing/drawing.lua line 444</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2047,6 +2319,14 @@ scaleProportionally - shrink or expand the image to fully fill the drawing frame
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on rectangle, circle, or arc drawing objects</li><li>Calling this method will remove any gradient fill colors previously set with <code v-pre>hs.drawing:setFillGradient()</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L363">extensions/drawing/drawing.lua line 363</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2072,7 +2352,9 @@ green (default 0.0)
 blue (default 0.0)
 alpha (default 1.0)</li><li>angle - A number representing the angle of the gradient, measured in degrees, counter-clockwise, from the left of the drawing object</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The drawing object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This method should only be used on rectangle, circle, or arc drawing objects</li><li>Calling this method will remove any fill color previously set with <code v-pre>hs.drawing:setFillColor()</code></li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This method should only be used on rectangle, circle, or arc drawing objects</li><li>Calling this method will remove any fill color previously set with <code v-pre>hs.drawing:setFillColor()</code></li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L391">extensions/drawing/drawing.lua line 391</a> |</p>
 <hr />
 <doc-anchor-target id="setframe">
     <h3>
@@ -2112,6 +2394,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L300">extensions/drawing/drawing.lua line 300</a></td>
 </tr>
 </tbody>
 </table>
@@ -2156,6 +2446,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L483">extensions/drawing/drawing.lua line 483</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2198,6 +2496,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>To use the ASCII diagram image support, see <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring">http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring</a></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L25">extensions/drawing/drawing.lua line 25</a></td>
 </tr>
 </tbody>
 </table>
@@ -2242,6 +2548,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on an image drawing object</li><li>Paths relative to the PWD of Hammerspoon (typically ~/.hammerspoon/) will work, but paths relative to the UNIX homedir character, <code v-pre>~</code> will not</li><li>Animated GIFs are supported. They&#x27;re not super friendly on your CPU, but they work</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L10">extensions/drawing/drawing.lua line 10</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2284,6 +2598,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>see the notes for <code v-pre>hs.drawing.windowLevels</code></li><li>These levels may be unable to explicitly place drawing objects around full-screen macOS windows</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L740">extensions/drawing/drawing.lua line 740</a></td>
 </tr>
 </tbody>
 </table>
@@ -2328,6 +2650,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on rectangle drawing objects</li><li>If either radius value is greater than half the width/height (as appropriate) of the rectangle, the value will be clamped at half the width/height</li><li>If either (or both) radius values are 0, the rectangle will be drawn without rounded corners</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L428">extensions/drawing/drawing.lua line 428</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2370,6 +2700,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If this is called on an <code v-pre>hs.drawing.text</code> object, only its window will be resized. If you also want to change the font size, use <code v-pre>:setTextSize()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L271">extensions/drawing/drawing.lua line 271</a></td>
 </tr>
 </tbody>
 </table>
@@ -2414,6 +2752,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L457">extensions/drawing/drawing.lua line 457</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2456,6 +2802,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L415">extensions/drawing/drawing.lua line 415</a></td>
 </tr>
 </tbody>
 </table>
@@ -2500,6 +2854,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on line, rectangle, circle, or arc drawing objects</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L470">extensions/drawing/drawing.lua line 470</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2542,6 +2904,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on text drawing objects</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L203">extensions/drawing/drawing.lua line 203</a></td>
 </tr>
 </tbody>
 </table>
@@ -2586,6 +2956,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on text drawing objects</li><li>If the text of the drawing object is emptied (i.e. &quot;&quot;) then style changes may be lost.  Use a placeholder such as a space (&quot; &quot;) or hide the object if style changes need to be saved but the text should disappear for a while.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L189">extensions/drawing/drawing.lua line 189</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2628,6 +3006,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be called on text drawing objects</li><li>This method changes the font color for portions of an <code v-pre>hs.drawing</code> text object which do not have a specific font set in their attributes list (see <code v-pre>hs.styledtext</code> for more details).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L348">extensions/drawing/drawing.lua line 348</a></td>
 </tr>
 </tbody>
 </table>
@@ -2672,6 +3058,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on text drawing objects</li><li>This method changes the font for portions of an <code v-pre>hs.drawing</code> text object which do not have a specific font set in their attributes list (see <code v-pre>hs.styledtext</code> for more details).</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L320">extensions/drawing/drawing.lua line 320</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2715,6 +3109,14 @@ alpha (default 1.0)</li><li>angle - A number representing the angle of the gradi
 <td><strong>Notes</strong></td>
 <td><ul><li>This method should only be used on text drawing objects</li><li>This method changes the font size for portions of an <code v-pre>hs.drawing</code> text object which do not have a specific font set in their attributes list (see <code v-pre>hs.styledtext</code> for more details).</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L334">extensions/drawing/drawing.lua line 334</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2737,7 +3139,9 @@ color     - a color table as described in <code v-pre>hs.drawing.color</code>
 alignment - a string of one of the following indicating the texts alignment within the drawing objects frame:&quot;left&quot;      - the text is visually left aligned.&quot;right&quot;     - the text is visually right aligned.&quot;center&quot;    - the text is visually center aligned.&quot;justified&quot; - the text is justified&quot;natural&quot;   - (default) the natural alignment of the text’s script
 lineBreak - a string of one of the following indicating how to wrap text which exceeds the drawing object&#x27;s frame:&quot;wordWrap&quot;       - (default) wrap at word boundaries, unless the word itself doesn’t fit on a single line&quot;charWrap&quot;       - wrap before the first character that doesn’t fit&quot;clip&quot;           - do not draw past the edge of the drawing object frame&quot;truncateHead&quot;   - the line is displayed so that the end fits in the frame and the missing text at the beginning of the line is indicated by an ellipsis&quot;truncateTail&quot;   - the line is displayed so that the beginning fits in the frame and the missing text at the end of the line is indicated by an ellipsis&quot;truncateMiddle&quot; - the line is displayed so that the beginning and end fit in the frame and the missing text in the middle is indicated by an ellipsis</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The drawing object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This method should only be used on text drawing objects</li><li>If the text of the drawing object is currently empty (i.e. &quot;&quot;) then style changes may be lost.  Use a placeholder such as a space (&quot; &quot;) or hide the object if style changes need to be saved but the text should disappear for a while.</li><li>Only the keys specified are changed.  To reset an object to all of its defaults, call this method with an explicit nil as its only parameter (e.g. <code v-pre>hs.drawing:setTextStyle(nil)</code></li><li>The font, font size, and font color can also be set by their individual specific methods as well; this method is provided so that style components can be stored and applied collectively, as well as used by <code v-pre>hs.drawing.getTextDrawingSize()</code> to determine the proper rectangle size for a textual drawing object.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This method should only be used on text drawing objects</li><li>If the text of the drawing object is currently empty (i.e. &quot;&quot;) then style changes may be lost.  Use a placeholder such as a space (&quot; &quot;) or hide the object if style changes need to be saved but the text should disappear for a while.</li><li>Only the keys specified are changed.  To reset an object to all of its defaults, call this method with an explicit nil as its only parameter (e.g. <code v-pre>hs.drawing:setTextStyle(nil)</code></li><li>The font, font size, and font color can also be set by their individual specific methods as well; this method is provided so that style components can be stored and applied collectively, as well as used by <code v-pre>hs.drawing.getTextDrawingSize()</code> to determine the proper rectangle size for a textual drawing object.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L229">extensions/drawing/drawing.lua line 229</a> |</p>
 <hr />
 <doc-anchor-target id="settopleft">
     <h3>
@@ -2777,6 +3181,14 @@ lineBreak - a string of one of the following indicating how to wrap text which e
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L261">extensions/drawing/drawing.lua line 261</a></td>
 </tr>
 </tbody>
 </table>
@@ -2820,6 +3232,14 @@ lineBreak - a string of one of the following indicating how to wrap text which e
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/drawing/drawing.lua#L594">extensions/drawing/drawing.lua line 594</a></td>
 </tr>
 </tbody>
 </table>

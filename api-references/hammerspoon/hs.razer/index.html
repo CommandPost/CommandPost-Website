@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -457,7 +457,9 @@ for additional Razer devices later down the line, if there&#x27;s interest.</p>
 A boolean, true if a device was connected, false if a device was disconnected
 An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L48">extensions/razer/librazer.m line 48</a> |</p>
 <hr />
 <doc-anchor-target id="getdevice">
     <h3>
@@ -498,6 +500,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L92">extensions/razer/librazer.m line 92</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -517,7 +527,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 A boolean, true if a device was connected, false if a device was disconnected
 An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L23">extensions/razer/librazer.m line 23</a> |</p>
 <hr />
 <doc-anchor-target id="numdevices">
     <h3>
@@ -557,6 +569,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L75">extensions/razer/librazer.m line 75</a></td>
 </tr>
 </tbody>
 </table>
@@ -600,6 +620,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Because <code v-pre>hs.razer</code> relies on a physical device to</li><li>   be connected for testing, this method exists so that</li><li>   Hammerspoon developers can test the extension outside</li><li>   of the usual GitHub tests. It can also be used for</li><li>   user troubleshooting.</li><li>This feature currently only works on the Razer Tartarus V2.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L87">extensions/razer/razer.lua line 87</a></td>
 </tr>
 </tbody>
 </table>
@@ -650,6 +678,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>If neither <code v-pre>color</code> nor <code v-pre>secondaryColor</code> is provided, then random colors will be used.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L844">extensions/razer/librazer.m line 844</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -692,6 +728,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The order is top to bottom, left to right. You can use <code v-pre>nil</code> for any buttons you don&#x27;t want to light up.</li><li>Example usage: <code v-pre>lua&lt;/li&gt;&lt;li&gt;  hs.razer.new(0):backlightsCustom({hs.drawing.color.red, nil, hs.drawing.color.green, hs.drawing.color.blue})&lt;/li&gt;&lt;li&gt;  </code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L891">extensions/razer/librazer.m line 891</a></td>
 </tr>
 </tbody>
 </table>
@@ -736,6 +780,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L555">extensions/razer/librazer.m line 555</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -778,6 +830,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L630">extensions/razer/librazer.m line 630</a></td>
 </tr>
 </tbody>
 </table>
@@ -822,6 +882,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L744">extensions/razer/librazer.m line 744</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -864,6 +932,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L712">extensions/razer/librazer.m line 712</a></td>
 </tr>
 </tbody>
 </table>
@@ -908,6 +984,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>If neither <code v-pre>color</code> nor <code v-pre>secondaryColor</code> is provided, then random colors will be used.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L787">extensions/razer/librazer.m line 787</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -950,6 +1034,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L596">extensions/razer/librazer.m line 596</a></td>
 </tr>
 </tbody>
 </table>
@@ -994,6 +1086,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L662">extensions/razer/librazer.m line 662</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1010,7 +1110,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Type</strong>                                    | Method                                                                     |
 | <strong>Description</strong>                             | Gets or sets the blue status light.                                                                     |
 | <strong>Parameters</strong>                              | <ul><li>value - <code v-pre>true</code> for on, <code v-pre>false</code> for off<code v-pre>&lt;/li&gt;&lt;/ul&gt; | | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The </code>hs.razer<code v-pre> object.&lt;/li&gt;&lt;li&gt;</code>true<code v-pre>for on,</code>false<code v-pre> for off</code>, or <code v-pre>nil</code> if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L443">extensions/razer/librazer.m line 443</a> |</p>
 <hr />
 <doc-anchor-target id="brightness">
     <h3>
@@ -1050,6 +1152,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L221">extensions/razer/librazer.m line 221</a></td>
 </tr>
 </tbody>
 </table>
@@ -1094,6 +1204,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  <code v-pre>razerObject</code> - The serial port object that triggered the callback.</li><li>  <code v-pre>buttonName</code> - The name of the button as a string.</li><li>  <code v-pre>buttonAction</code> - A string containing &quot;pressed&quot;, &quot;released&quot;, &quot;up&quot; or &quot;down&quot;.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L147">extensions/razer/librazer.m line 147</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1137,6 +1255,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/razer.lua#L52">extensions/razer/razer.lua line 52</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1153,7 +1279,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Type</strong>                                    | Method                                                                     |
 | <strong>Description</strong>                             | Gets or sets the green status light.                                                                     |
 | <strong>Parameters</strong>                              | <ul><li>value - <code v-pre>true</code> for on, <code v-pre>false</code> for off<code v-pre>&lt;/li&gt;&lt;/ul&gt; | | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The </code>hs.razer<code v-pre> object.&lt;/li&gt;&lt;li&gt;</code>true<code v-pre>for on,</code>false<code v-pre> for off</code>, or <code v-pre>nil</code> if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L388">extensions/razer/librazer.m line 388</a> |</p>
 <hr />
 <doc-anchor-target id="name">
     <h3>
@@ -1194,6 +1322,14 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L125">extensions/razer/librazer.m line 125</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1210,7 +1346,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Type</strong>                                    | Method                                                                     |
 | <strong>Description</strong>                             | Gets or sets the orange status light.                                                                     |
 | <strong>Parameters</strong>                              | <ul><li>value - <code v-pre>true</code> for on, <code v-pre>false</code> for off<code v-pre>&lt;/li&gt;&lt;/ul&gt; | | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The </code>hs.razer<code v-pre> object.&lt;/li&gt;&lt;li&gt;</code>true<code v-pre>for on,</code>false<code v-pre> for off</code>, or <code v-pre>nil</code> if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L278">extensions/razer/librazer.m line 278</a> |</p>
 <hr />
 <doc-anchor-target id="redstatuslight">
     <h3>
@@ -1224,7 +1362,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Type</strong>                                    | Method                                                                     |
 | <strong>Description</strong>                             | Gets or sets the red status light.                                                                     |
 | <strong>Parameters</strong>                              | <ul><li>value - <code v-pre>true</code> for on, <code v-pre>false</code> for off<code v-pre>&lt;/li&gt;&lt;/ul&gt; | | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The </code>hs.razer<code v-pre> object.&lt;/li&gt;&lt;li&gt;</code>true<code v-pre>for on,</code>false<code v-pre> for off</code>, or <code v-pre>nil</code> if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L498">extensions/razer/librazer.m line 498</a> |</p>
 <hr />
 <doc-anchor-target id="yellowstatuslight">
     <h3>
@@ -1238,7 +1378,9 @@ An hs.razer object, being the device that was connected/disconnected</li></ul> |
 | <strong>Type</strong>                                    | Method                                                                     |
 | <strong>Description</strong>                             | Gets or sets the orange status light.                                                                     |
 | <strong>Parameters</strong>                              | <ul><li>value - <code v-pre>true</code> for on, <code v-pre>false</code> for off<code v-pre>&lt;/li&gt;&lt;/ul&gt; | | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The </code>hs.razer<code v-pre> object.&lt;/li&gt;&lt;li&gt;</code>true<code v-pre>for on,</code>false<code v-pre> for off</code>, or <code v-pre>nil</code> if something has gone wrong</li><li>A plain text error message if not successful.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/razer/librazer.m#L333">extensions/razer/librazer.m line 333</a> |</p>
 <hr />
 <hr />
 <script src="https://giscus.app/client.js"

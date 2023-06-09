@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -451,6 +451,10 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1511">extensions/midi/libmidi.m line 1511</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -500,6 +504,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should expect 2 argument and should not return anything:</li><li>  <code v-pre>devices</code> - A table containing the names of any physically connected MIDI devices as strings.</li><li>  <code v-pre>virtualDevices</code> - A table containing the names of any virtual MIDI devices as strings.</li><li>Example Usage:</li><li>   <code v-pre>lua&lt;/li&gt;&lt;li&gt;   hs.midi.deviceCallback(function(devices, virtualDevices)&lt;/li&gt;&lt;li&gt;        print(hs.inspect(devices))&lt;/li&gt;&lt;li&gt;        print(hs.inspect(virtualDevices))&lt;/li&gt;&lt;li&gt;   end)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L341">extensions/midi/libmidi.m line 341</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -543,6 +555,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L299">extensions/midi/libmidi.m line 299</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -585,6 +605,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L320">extensions/midi/libmidi.m line 320</a></td>
 </tr>
 </tbody>
 </table>
@@ -635,6 +663,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>Example Usage:</li><li>   <code v-pre>hs.midi.new(hs.midi.devices()[1])</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L390">extensions/midi/libmidi.m line 390</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -677,6 +713,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Example Usage:</li><li>   <code v-pre>hs.midi.newVirtualSource(hs.midi.virtualSources()[1])</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L417">extensions/midi/libmidi.m line 417</a></td>
 </tr>
 </tbody>
 </table>
@@ -727,6 +771,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>Most MIDI keyboards produce a <code v-pre>noteOn</code> when you press a key, then <code v-pre>noteOff</code> when you release. However, some MIDI keyboards will return a <code v-pre>noteOn</code> with 0 <code v-pre>velocity</code> instead of <code v-pre>noteOff</code>, so you will receive two <code v-pre>noteOn</code> commands for every key press/release.</li><li>The callback function should expect 5 arguments and should not return anything:</li><li>  <code v-pre>object</code>       - The <code v-pre>hs.midi</code> object.</li><li>  <code v-pre>deviceName</code>   - The device name as a string.</li><li>  <code v-pre>commandType</code>  - Type of MIDI message as defined as a string. See <code v-pre>hs.midi.commandTypes[]</code> for a list of possibilities.</li><li>  <code v-pre>description</code>  - Description of the event as a string. This is only really useful for debugging.</li><li>  <code v-pre>metadata</code>     - A table of data for the MIDI command (see below).</li><li></li><li>The <code v-pre>metadata</code> table will return the following, depending on the <code v-pre>commandType</code> for the callback:</li><li></li><li>  <code v-pre>noteOff</code> - Note off command:</li><li>    note                - The note number for the command. Must be between 0 and 127.</li><li>    velocity            - The velocity for the command. Must be between 0 and 127.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>noteOn</code> - Note on command:</li><li>    note                - The note number for the command. Must be between 0 and 127.</li><li>    velocity            - The velocity for the command. Must be between 0 and 127.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>polyphonicKeyPressure</code> - Polyphonic key pressure command:</li><li>    note                - The note number for the command. Must be between 0 and 127.</li><li>    pressure            - Key pressure of the polyphonic key pressure message. In the range 0-127.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>controlChange</code> - Control change command. This is the most common command sent by MIDI controllers:</li><li>    controllerNumber    - The MIDI control number for the command.</li><li>    controllerValue     - The controllerValue of the command. Only the lower 7-bits of this are used.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    fourteenBitValue    - The 14-bit value of the command.</li><li>    fourteenBitCommand  - <code v-pre>true</code> if the command contains 14-bit value data otherwise, <code v-pre>false</code>.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>programChange</code> - Program change command:</li><li>    programNumber       - The program (aka patch) number. From 0-127.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>channelPressure</code> - Channel pressure command:</li><li>    pressure            - Key pressure of the channel pressure message. In the range 0-127.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>pitchWheelChange</code> - Pitch wheel change command:</li><li>    pitchChange         -  A 14-bit value indicating the pitch bend. Center is 0x2000 (8192). Valid range is from 0-16383.</li><li>    channel             - The channel for the command. Must be a number between 15.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemMessage</code> - System message command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemExclusive</code> - System message command:</li><li>    manufacturerID      - The manufacturer ID for the command. This is used by devices to determine if the message is one they support.</li><li>    sysexChannel        - The channel of the message. Only valid for universal exclusive messages, will always be 0 for non-universal messages.</li><li>    sysexData           - The system exclusive data for the message. For universal messages subID&#x27;s are included in sysexData, for non-universal messages, any device specific information (such as modelID, versionID or whatever manufactures decide to include) will be included in sysexData.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemTimecodeQuarterFrame</code> - System exclusive (SysEx) command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemSongPositionPointer</code> - System song position pointer command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemSongSelect</code> - System song select command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemTuneRequest</code> - System tune request command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemTimingClock</code> - System timing clock command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemStartSequence</code> - System timing clock command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemContinueSequence</code> - System start sequence command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemStopSequence</code> -  System continue sequence command:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>  <code v-pre>systemKeepAlive</code> - System keep alive message:</li><li>    dataByte1           - Data Byte 1 as integer.</li><li>    dataByte2           - Data Byte 2 as integer.</li><li>    timestamp           - The timestamp for the command as a string.</li><li>    data                - Raw MIDI Data as Hex String.</li><li>    isVirtual           - <code v-pre>true</code> if Virtual MIDI Source otherwise <code v-pre>false</code>.</li><li></li><li>Example Usage:</li><li>   <code v-pre>lua&lt;/li&gt;&lt;li&gt;   midiDevice = hs.midi.new(hs.midi.devices()[3])&lt;/li&gt;&lt;li&gt;   midiDevice:callback(function(object, deviceName, commandType, description, metadata)&lt;/li&gt;&lt;li&gt;              print(&quot;object: &quot; .. tostring(object))&lt;/li&gt;&lt;li&gt;              print(&quot;deviceName: &quot; .. deviceName)&lt;/li&gt;&lt;li&gt;              print(&quot;commandType: &quot; .. commandType)&lt;/li&gt;&lt;li&gt;              print(&quot;description: &quot; .. description)&lt;/li&gt;&lt;li&gt;              print(&quot;metadata: &quot; .. hs.inspect(metadata))&lt;/li&gt;&lt;li&gt;              end)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L446">extensions/midi/libmidi.m line 446</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -769,6 +821,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1421">extensions/midi/libmidi.m line 1421</a></td>
 </tr>
 </tbody>
 </table>
@@ -813,6 +873,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>Example Usage:</li><li>  <code v-pre>lua&lt;/li&gt;&lt;li&gt;  midiDevice = hs.midi.new(hs.midi.devices()[3])&lt;/li&gt;&lt;li&gt;  midiDevice:callback(function(object, deviceName, commandType, description, metadata)&lt;/li&gt;&lt;li&gt;                        print(&quot;object: &quot; .. tostring(object))&lt;/li&gt;&lt;li&gt;                        print(&quot;deviceName: &quot; .. deviceName)&lt;/li&gt;&lt;li&gt;                        print(&quot;commandType: &quot; .. commandType)&lt;/li&gt;&lt;li&gt;                        print(&quot;description: &quot; .. description)&lt;/li&gt;&lt;li&gt;                        print(&quot;metadata: &quot; .. hs.inspect(metadata))&lt;/li&gt;&lt;li&gt;                      end)&lt;/li&gt;&lt;li&gt;  midiDevice:identityRequest()</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1341">extensions/midi/libmidi.m line 1341</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -855,6 +923,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1475">extensions/midi/libmidi.m line 1475</a></td>
 </tr>
 </tbody>
 </table>
@@ -899,6 +975,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1492">extensions/midi/libmidi.m line 1492</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -941,6 +1025,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1457">extensions/midi/libmidi.m line 1457</a></td>
 </tr>
 </tbody>
 </table>
@@ -985,6 +1077,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1439">extensions/midi/libmidi.m line 1439</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1027,6 +1127,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1403">extensions/midi/libmidi.m line 1403</a></td>
 </tr>
 </tbody>
 </table>
@@ -1071,6 +1179,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>metadata</code> table can accept following, depending on the <code v-pre>commandType</code> supplied:</li><li></li><li>  <code v-pre>noteOff</code> - Note off command:</li><li>    note                - The note number for the command. Must be between 0 and 127. Defaults to 0.</li><li>    velocity            - The velocity for the command. Must be between 0 and 127. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>  <code v-pre>noteOn</code> - Note on command:</li><li>    note                - The note number for the command. Must be between 0 and 127. Defaults to 0.</li><li>    velocity            - The velocity for the command. Must be between 0 and 127. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>  <code v-pre>polyphonicKeyPressure</code> - Polyphonic key pressure command:</li><li>    note                - The note number for the command. Must be between 0 and 127. Defaults to 0.</li><li>    pressure            - Key pressure of the polyphonic key pressure message. In the range 0-127. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>  <code v-pre>controlChange</code> - Control change command. This is the most common command sent by MIDI controllers:</li><li>    controllerNumber    - The MIDI control number for the command. Defaults to 0.</li><li>    controllerValue     - The controllerValue of the command. Only the lower 7-bits of this are used. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li>    fourteenBitValue    - The 14-bit value of the command. Must be between 0 and 16383. Defaults to 0. <code v-pre>fourteenBitCommand</code> must be <code v-pre>true</code>.</li><li>    fourteenBitCommand  - <code v-pre>true</code> if the command contains 14-bit value data otherwise, <code v-pre>false</code>. <code v-pre>controllerValue</code> will be ignored if this is set to <code v-pre>true</code>.</li><li></li><li>  <code v-pre>programChange</code> - Program change command:</li><li>    programNumber       - The program (aka patch) number. From 0-127. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>  <code v-pre>channelPressure</code> - Channel pressure command:</li><li>    pressure            - Key pressure of the channel pressure message. In the range 0-127. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>  <code v-pre>pitchWheelChange</code> - Pitch wheel change command:</li><li>    pitchChange         -  A 14-bit value indicating the pitch bend. Center is 0x2000 (8192). Valid range is from 0-16383. Defaults to 0.</li><li>    channel             - The channel for the command. Must be a number between 0 and 16. Defaults to 0, which sends the command to All Channels.</li><li></li><li>Example Usage:</li><li>    <code v-pre>lua&lt;/li&gt;&lt;li&gt;    midiDevice = hs.midi.new(hs.midi.devices()[1])&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;noteOn&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;note&quot;] = 72,&lt;/li&gt;&lt;li&gt;        [&quot;velocity&quot;] = 50,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })&lt;/li&gt;&lt;li&gt;    hs.timer.usleep(500000)&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;noteOn&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;note&quot;] = 74,&lt;/li&gt;&lt;li&gt;        [&quot;velocity&quot;] = 50,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })&lt;/li&gt;&lt;li&gt;    hs.timer.usleep(500000)&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;noteOn&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;note&quot;] = 76,&lt;/li&gt;&lt;li&gt;        [&quot;velocity&quot;] = 50,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;pitchWheelChange&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;pitchChange&quot;] = 1000,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })&lt;/li&gt;&lt;li&gt;    hs.timer.usleep(100000)&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;pitchWheelChange&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;pitchChange&quot;] = 2000,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })&lt;/li&gt;&lt;li&gt;    hs.timer.usleep(100000)&lt;/li&gt;&lt;li&gt;    midiDevice:sendCommand(&quot;pitchWheelChange&quot;, {&lt;/li&gt;&lt;li&gt;        [&quot;pitchChange&quot;] = 3000,&lt;/li&gt;&lt;li&gt;        [&quot;channel&quot;] = 0,&lt;/li&gt;&lt;li&gt;    })</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1031">extensions/midi/libmidi.m line 1031</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1114,6 +1230,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <td><strong>Notes</strong></td>
 <td><ul><li>Example Usage:</li><li>   <code v-pre>lua&lt;/li&gt;&lt;li&gt;   midiDevice:sendSysex(&quot;f07e7f06 01f7&quot;)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1009">extensions/midi/libmidi.m line 1009</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1156,6 +1280,14 @@ Original author: <a href="https://github.com/armadsen">Andrew R. Madsen</a> (<a 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/midi/libmidi.m#L1375">extensions/midi/libmidi.m line 1375</a></td>
 </tr>
 </tbody>
 </table>

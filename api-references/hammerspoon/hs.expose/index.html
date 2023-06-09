@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -455,6 +455,10 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L248">extensions/expose/expose.lua line 248</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -503,6 +507,14 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li> by default expose will show invisible windows and (unlike the OSX expose) windows from other spaces; use</li><li>    <code v-pre>hs.expose.ui</code> or the <code v-pre>uiPrefs</code> parameter to change these behaviours.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L1020">extensions/expose/expose.lua line 1020</a></td>
 </tr>
 </tbody>
 </table>
@@ -553,6 +565,14 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 <td><strong>Notes</strong></td>
 <td><ul><li>Call this function if you need to make sure the modal is exited without waiting for the user to press <code v-pre>esc</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L603">extensions/expose/expose.lua line 603</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -596,6 +616,14 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 <td><strong>Notes</strong></td>
 <td><ul><li>passing <code v-pre>true</code> for <code v-pre>activeApplication</code> will simply hide hints/thumbnails for applications other</li><li>   than the active one, without recalculating the hints layout; conversely, setting <code v-pre>onlyActiveApplication=true</code></li><li>   for an expose instance&#x27;s <code v-pre>ui</code> will calculate an optimal layout for the current active application&#x27;s windows</li><li>Completing a hint will exit the expose and focus the selected window.</li><li>Pressing esc will exit the expose and with no action taken.</li><li>If shift is being held when a hint is completed (the background will be red), the selected</li><li>   window will be closed. If it&#x27;s the last window of an application, the application will be closed.</li><li>If alt is being held when a hint is completed (the background will be blue), the selected</li><li>   window will be minimized (if visible) or unminimized/unhidden (if minimized or hidden).</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L618">extensions/expose/expose.lua line 618</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -638,6 +666,14 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>passing <code v-pre>true</code> for <code v-pre>activeApplication</code> will simply hide hints/thumbnails for applications other than the active one, without recalculating the hints layout; conversely, setting <code v-pre>onlyActiveApplication=true</code> for an expose instance&#x27;s <code v-pre>ui</code> will calculate an optimal layout for the current active application&#x27;s windows</li><li>Completing a hint will exit the expose and focus the selected window.</li><li>Pressing esc will exit the expose and with no action taken.</li><li>If shift is being held when a hint is completed (the background will be red), the selected window will be closed. If it&#x27;s the last window of an application, the application will be closed.</li><li>If alt is being held when a hint is completed (the background will be blue), the selected  window will be minimized (if visible) or unminimized/unhidden (if minimized or hidden).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/expose/expose.lua#L581">extensions/expose/expose.lua line 581</a></td>
 </tr>
 </tbody>
 </table>

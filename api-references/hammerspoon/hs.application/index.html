@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -479,6 +479,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>a <code v-pre>__tostring</code> metamethod is provided for this table so you can view its current contents by typing <code v-pre>hs.application.menuGlyphs</code> into the Hammerspoon console.</li><li>This table is provided as a variable so that you can change any representation if you feel you know of a better or more appropriate one for you usage at runtime.</li><li></li><li>The glyphs provided are defined in the Carbon framework headers in the Menus.h file, located (as of 10.11) at /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Menus.h.</li><li>The following constants are defined in Menus.h, but do not seem to correspond to a visible UTF8 character or well defined representation that I could discover.  If you believe that you know of a (preferably sanctioned by Apple) proper visual representation, please submit an issue detailing it at the Hammerspoon repository on GitHub.</li><li>  kMenuNullGlyph, 0x00, Null (always glyph 1)</li><li>  kMenuNonmarkingReturnGlyph, 0x0D, Nonmarking return key</li><li>  kMenuParagraphKoreanGlyph, 0x15, Unassigned (paragraph in Korean)</li><li>  kMenuTrademarkJapaneseGlyph, 0x1F, Unassigned (trademark in Japanese)</li><li>  kMenuAppleLogoOutlineGlyph, 0x6C, Apple logo key (outline)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L239">extensions/application/application.lua line 239</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -528,6 +532,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L54">extensions/application/libapplication.m line 54</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -570,6 +582,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L71">extensions/application/libapplication.m line 71</a></td>
 </tr>
 </tbody>
 </table>
@@ -614,6 +634,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L215">extensions/application/libapplication.m line 215</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -656,6 +684,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This setting is persistent across reloading and restarting Hammerspoon.</li><li>If this was set to true and you set it to true again, it will purge the alternate name map and rebuild it from scratch.</li><li>You can disable Spotlight alternate name mapping by setting this value to false or nil. If you set this to false, then the notifications indicating that more results might be possible if Spotlight is enabled will be suppressed.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L429">extensions/application/application.lua line 429</a></td>
 </tr>
 </tbody>
 </table>
@@ -700,6 +736,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L21">extensions/application/libapplication.m line 21</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -742,6 +786,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L119">extensions/application/libapplication.m line 119</a></td>
 </tr>
 </tbody>
 </table>
@@ -786,6 +838,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L199">extensions/application/libapplication.m line 199</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -828,6 +888,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The name parameter should match the name of the application on disk, e.g. &quot;IntelliJ IDEA&quot;, rather than &quot;IntelliJ&quot;</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1092">extensions/application/libapplication.m line 1092</a></td>
 </tr>
 </tbody>
 </table>
@@ -872,6 +940,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Bundle identifiers typically take the form of <code v-pre>com.company.ApplicationName</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1111">extensions/application/libapplication.m line 1111</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -914,6 +990,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L167">extensions/application/libapplication.m line 167</a></td>
 </tr>
 </tbody>
 </table>
@@ -958,6 +1042,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L183">extensions/application/libapplication.m line 183</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1000,6 +1092,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L87">extensions/application/libapplication.m line 87</a></td>
 </tr>
 </tbody>
 </table>
@@ -1044,6 +1144,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L103">extensions/application/libapplication.m line 103</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1086,6 +1194,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L135">extensions/application/libapplication.m line 135</a></td>
 </tr>
 </tbody>
 </table>
@@ -1130,6 +1246,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L151">extensions/application/libapplication.m line 151</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1172,6 +1296,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L37">extensions/application/libapplication.m line 37</a></td>
 </tr>
 </tbody>
 </table>
@@ -1222,6 +1354,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If multiple results are found, this function will return multiple values. See <a href="https://www.lua.org/pil/5.1.html">https://www.lua.org/pil/5.1.html</a> for more information on how to work with this</li><li>for convenience you can call this as <code v-pre>hs.application(hint)</code></li><li>use this function when you don&#x27;t know the exact name of an application you&#x27;re interested in, i.e.</li><li>   from the console: <code v-pre>hs.application'term' --&gt; hs.application: iTerm2 (0x61000025fb88)  hs.application: Terminal (0x618000447588)</code>.</li><li>   But be careful when using it in your <code v-pre>init.lua</code>: <code v-pre>terminal=hs.application'term'</code> will assign either &quot;Terminal&quot; or &quot;iTerm2&quot; arbitrarily (or even,</li><li>   if neither are running, any other app with a window that happens to have &quot;term&quot; in its title); to make sure you get the right app in your scripts,</li><li>   use <code v-pre>hs.application.get</code> with the exact name: <code v-pre>terminal=hs.application.get'Terminal' --&gt; &quot;Terminal&quot; app, or nil if it's not running</code></li><li></li><li>Usage:</li><li>-- by pid</li><li>hs.application(42):name() --&gt; Finder</li><li>-- by bundle id</li><li>hs.application&#x27;com.apple.Safari&#x27;:name() --&gt; Safari</li><li>-- by name</li><li>hs.application&#x27;chrome&#x27;:name() --&gt; Google Chrome</li><li>-- by window title</li><li>hs.application&#x27;bash&#x27;:name() --&gt; Terminal</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L106">extensions/application/application.lua line 106</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1265,6 +1405,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>see also <code v-pre>hs.application.find</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L87">extensions/application/application.lua line 87</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1307,6 +1455,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the <code v-pre>wait</code> parameter will <em>block all Hammerspoon activity</em> in order to return the application object &quot;synchronously&quot;; only use it if you</li><li>   a) have no time-critical event processing happening elsewhere in your <code v-pre>init.lua</code> and b) need to act on the application object, or on</li><li>   its window(s), right away</li><li>when launching a &quot;windowless&quot; app (background daemon, menulet, etc.) make sure to omit <code v-pre>waitForFirstWindow</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L202">extensions/application/application.lua line 202</a></td>
 </tr>
 </tbody>
 </table>
@@ -1357,6 +1513,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L62">extensions/application/application.lua line 62</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1399,6 +1563,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function can only return windows in the current Mission Control Space; if you need to address windows across</li><li>   different Spaces you can use the <code v-pre>hs.window.filter</code> module</li><li>   - if <code v-pre>Displays have separate Spaces</code> is <em>on</em> (in System Preferences&gt;Mission Control) the current Space is defined</li><li>     as the union of all currently visible Spaces</li><li>   - minimized windows and hidden windows (i.e. belonging to hidden apps, e.g. via cmd-h) are always considered</li><li>     to be in the current Space</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L246">extensions/application/libapplication.m line 246</a></td>
 </tr>
 </tbody>
 </table>
@@ -1443,6 +1615,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L349">extensions/application/libapplication.m line 349</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1485,6 +1665,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This can only search for menu items that don&#x27;t have children - i.e. you can&#x27;t search for the name of a submenu</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L764">extensions/application/libapplication.m line 764</a></td>
 </tr>
 </tbody>
 </table>
@@ -1529,6 +1717,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L175">extensions/application/application.lua line 175</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1571,6 +1767,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L289">extensions/application/libapplication.m line 289</a></td>
 </tr>
 </tbody>
 </table>
@@ -1615,6 +1819,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>In some applications, this can take a little while to complete, because quite a large number of round trips are required to the source application, to get the information. When this method is invoked without a callback function, Hammerspoon will block while creating the menu structure table.  When invoked with a callback function, the menu structure is built in a background thread.</li><li></li><li>The table is nested with the same structure as the menus of the application. Each item has several keys containing information about the menu item. Not all keys will appear for all items. The possible keys are:</li><li> AXTitle - A string containing the text of the menu item (entries which have no title are menu separators)</li><li> AXEnabled - A boolean, 1 if the menu item is clickable, 0 if not</li><li> AXRole - A string containing the role of the menu item - this will be either AXMenuBarItem for a top level menu, or AXMenuItem for an item in a menu</li><li> AXMenuItemMarkChar - A string containing the &quot;mark&quot; character for a menu item. This is for toggleable menu items and will usually be an empty string or a Unicode tick character (✓)</li><li> AXMenuItemCmdModifiers - A table containing string representations of the keyboard modifiers for the menu item&#x27;s keyboard shortcut, or nil if no modifiers are present</li><li> AXMenuItemCmdChar - A string containing the key for the menu item&#x27;s keyboard shortcut, or an empty string if no shortcut is present</li><li> AXMenuItemCmdGlyph - An integer, corresponding to one of the defined glyphs in <code v-pre>hs.application.menuGlyphs</code> if the keyboard shortcut is a special character usually represented by a pictorial representation (think arrow keys, return, etc), or an empty string if no glyph is used in presenting the keyboard shortcut.</li><li>Using <code v-pre>hs.inspect()</code> on these tables, while useful for exploration, can be extremely slow, taking several minutes to correctly render very complex menus</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L1025">extensions/application/libapplication.m line 1025</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1657,6 +1869,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L189">extensions/application/application.lua line 189</a></td>
 </tr>
 </tbody>
 </table>
@@ -1701,6 +1921,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L421">extensions/application/libapplication.m line 421</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1743,6 +1971,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L490">extensions/application/libapplication.m line 490</a></td>
 </tr>
 </tbody>
 </table>
@@ -1787,6 +2023,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L473">extensions/application/libapplication.m line 473</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1829,6 +2073,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If an application is terminated and re-launched, this method will still return false, as <code v-pre>hs.application</code> objects are tied to a specific instance of an application (i.e. its PID)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L383">extensions/application/libapplication.m line 383</a></td>
 </tr>
 </tbody>
 </table>
@@ -1873,6 +2125,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L439">extensions/application/libapplication.m line 439</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1915,6 +2175,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L456">extensions/application/libapplication.m line 456</a></td>
 </tr>
 </tbody>
 </table>
@@ -1959,6 +2227,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L547">extensions/application/libapplication.m line 547</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2001,6 +2277,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L272">extensions/application/libapplication.m line 272</a></td>
 </tr>
 </tbody>
 </table>
@@ -2045,6 +2329,10 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L82">extensions/application/application.lua line 82</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2087,6 +2375,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L366">extensions/application/libapplication.m line 366</a></td>
 </tr>
 </tbody>
 </table>
@@ -2131,6 +2427,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L530">extensions/application/libapplication.m line 530</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2173,6 +2477,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Depending on the type of menu item involved, this will either activate or tick/untick the menu item</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L855">extensions/application/libapplication.m line 855</a></td>
 </tr>
 </tbody>
 </table>
@@ -2217,6 +2529,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L507">extensions/application/libapplication.m line 507</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2259,6 +2579,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L332">extensions/application/libapplication.m line 332</a></td>
 </tr>
 </tbody>
 </table>
@@ -2303,6 +2631,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/libapplication.m#L403">extensions/application/libapplication.m line 403</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2345,6 +2681,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/application/application.lua#L46">extensions/application/application.lua line 46</a></td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -483,6 +483,10 @@ System Preferences-&gt;Displays-&gt;Arrangement). The origin <code v-pre>0,0</co
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L343">extensions/screen/screen.lua line 343</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -532,6 +536,14 @@ System Preferences-&gt;Displays-&gt;Arrangement). The origin <code v-pre>0,0</co
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1337">extensions/screen/libscreen.m line 1337</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -555,7 +567,9 @@ an hs.geometry <em>point</em> object, or constructor argument, with the <em>x an
 an hs.geometry <em>size</em> object, or constructor argument, with the <em>resolution</em> of the screen as per <code v-pre>hs.screen:fullFrame()</code>
 an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary rect in absolute coordinates; the screen containing the largest part of the rect will be returned</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>one or more hs.screen objects that match the supplied search criterion, or <code v-pre>nil</code> if none found</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>for convenience you call this as <code v-pre>hs.screen(hint)</code></li><li></li><li>Example:</li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;hs.screen(724562417) --&gt; Color LCD - by id&lt;/li&gt;&lt;li&gt;hs.screen'Dell'      --&gt; DELL U2414M - by name&lt;/li&gt;&lt;li&gt;hs.screen'Built%-in' --&gt; Built-in Retina Display, note the % to escape the hyphen repetition character&lt;/li&gt;&lt;li&gt;hs.screen'0,0'       --&gt; PHL BDM4065 - by position, same as hs.screen.primaryScreen()&lt;/li&gt;&lt;li&gt;hs.screen{x=-1,y=0}  --&gt; DELL U2414M - by position, screen to the immediate left of the primary screen&lt;/li&gt;&lt;li&gt;hs.screen'3840x2160' --&gt; PHL BDM4065 - by screen resolution&lt;/li&gt;&lt;li&gt;hs.screen'-500,240 700x1300' --&gt; DELL U2414M, by arbitrary rect&lt;/li&gt;&lt;li&gt;</code></li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>for convenience you call this as <code v-pre>hs.screen(hint)</code></li><li></li><li>Example:</li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;hs.screen(724562417) --&gt; Color LCD - by id&lt;/li&gt;&lt;li&gt;hs.screen'Dell'      --&gt; DELL U2414M - by name&lt;/li&gt;&lt;li&gt;hs.screen'Built%-in' --&gt; Built-in Retina Display, note the % to escape the hyphen repetition character&lt;/li&gt;&lt;li&gt;hs.screen'0,0'       --&gt; PHL BDM4065 - by position, same as hs.screen.primaryScreen()&lt;/li&gt;&lt;li&gt;hs.screen{x=-1,y=0}  --&gt; DELL U2414M - by position, screen to the immediate left of the primary screen&lt;/li&gt;&lt;li&gt;hs.screen'3840x2160' --&gt; PHL BDM4065 - by screen resolution&lt;/li&gt;&lt;li&gt;hs.screen'-500,240 700x1300' --&gt; DELL U2414M, by arbitrary rect&lt;/li&gt;&lt;li&gt;</code></li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L43">extensions/screen/screen.lua line 43</a> |</p>
 <hr />
 <doc-anchor-target id="restoregamma">
     <h3>
@@ -595,6 +609,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This returns all displays to the gamma tables specified by the user&#x27;s selected ColorSync display profiles</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L294">extensions/screen/libscreen.m line 294</a></td>
 </tr>
 </tbody>
 </table>
@@ -638,6 +660,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>grid-like arrangements of same-sized screens should behave consistently; but there&#x27;s no guarantee of a consistent result for more &quot;exotic&quot; screen arrangements</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L124">extensions/screen/screen.lua line 124</a></td>
 </tr>
 </tbody>
 </table>
@@ -688,6 +718,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L907">extensions/screen/libscreen.m line 907</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -731,6 +769,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L932">extensions/screen/libscreen.m line 932</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -773,6 +819,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L30">extensions/screen/screen.lua line 30</a></td>
 </tr>
 </tbody>
 </table>
@@ -823,6 +877,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L259">extensions/screen/screen.lua line 259</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -865,6 +927,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Prior to 0.9.83, only 32-bit colour modes would be returned, but now all colour depths are returned. This has necessitated changing the naming of the modes in the returned table.</li><li>&quot;points&quot; are not necessarily the same as pixels, because they take the scale factor into account (e.g. &quot;<a href="mailto:1440x900@2x">1440x900@2x</a>&quot; is a 2880x1800 screen resolution, with a scaling factor of 2, i.e. with HiDPI pixel-doubled rendering enabled), however, they are far more useful to work with than native pixel modes, when a Retina screen is involved. For non-retina screens, points and pixels are equivalent.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L174">extensions/screen/libscreen.m line 174</a></td>
 </tr>
 </tbody>
 </table>
@@ -909,6 +979,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L125">extensions/screen/libscreen.m line 125</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -951,6 +1029,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the user has set a folder of pictures to be alternated as the desktop background, the path to that folder will be returned.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1295">extensions/screen/libscreen.m line 1295</a></td>
 </tr>
 </tbody>
 </table>
@@ -995,6 +1081,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L198">extensions/screen/screen.lua line 198</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1037,6 +1131,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this method is just a convenience wrapper for <code v-pre>hs.geometry.fromUnitRect(unitrect,this_screen:frame())</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L214">extensions/screen/screen.lua line 214</a></td>
 </tr>
 </tbody>
 </table>
@@ -1081,6 +1183,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L182">extensions/screen/screen.lua line 182</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1123,6 +1233,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L629">extensions/screen/libscreen.m line 629</a></td>
 </tr>
 </tbody>
 </table>
@@ -1167,6 +1285,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L774">extensions/screen/libscreen.m line 774</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1209,6 +1335,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L316">extensions/screen/libscreen.m line 316</a></td>
 </tr>
 </tbody>
 </table>
@@ -1253,6 +1387,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L740">extensions/screen/libscreen.m line 740</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1295,6 +1437,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L812">extensions/screen/libscreen.m line 812</a></td>
 </tr>
 </tbody>
 </table>
@@ -1339,6 +1489,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L711">extensions/screen/libscreen.m line 711</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1381,6 +1539,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L45">extensions/screen/libscreen.m line 45</a></td>
 </tr>
 </tbody>
 </table>
@@ -1425,6 +1591,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L246">extensions/screen/screen.lua line 246</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1467,6 +1641,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1145">extensions/screen/libscreen.m line 1145</a></td>
 </tr>
 </tbody>
 </table>
@@ -1511,6 +1693,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1178">extensions/screen/libscreen.m line 1178</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1553,6 +1743,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L64">extensions/screen/libscreen.m line 64</a></td>
 </tr>
 </tbody>
 </table>
@@ -1597,6 +1795,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L272">extensions/screen/screen.lua line 272</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1639,6 +1845,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L166">extensions/screen/screen.lua line 166</a></td>
 </tr>
 </tbody>
 </table>
@@ -1683,6 +1897,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L289">extensions/screen/screen.lua line 289</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1704,7 +1926,9 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 180
 270</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If the rotation is being set, a boolean, true if the operation succeeded, otherwise false. If the rotation is being queried, a number will be returned</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1023">extensions/screen/libscreen.m line 1023</a> |</p>
 <hr />
 <doc-anchor-target id="setbrightness">
     <h3>
@@ -1744,6 +1968,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L676">extensions/screen/libscreen.m line 676</a></td>
 </tr>
 </tbody>
 </table>
@@ -1788,6 +2020,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L793">extensions/screen/libscreen.m line 793</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1811,7 +2051,9 @@ red
 green
 blue</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A boolean, true if the gamma settings were applied, false if an error occurred</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If the whitepoint and blackpoint specified, are very similar, it will be impossible to read the screen. You should exercise caution, and may wish to bind a hotkey to <code v-pre>hs.screen.restoreGamma()</code> when experimenting</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If the whitepoint and blackpoint specified, are very similar, it will be impossible to read the screen. You should exercise caution, and may wish to bind a hotkey to <code v-pre>hs.screen.restoreGamma()</code> when experimenting</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L512">extensions/screen/libscreen.m line 512</a> |</p>
 <hr />
 <doc-anchor-target id="setinvertedpolarity">
     <h3>
@@ -1851,6 +2093,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L831">extensions/screen/libscreen.m line 831</a></td>
 </tr>
 </tbody>
 </table>
@@ -1895,6 +2145,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>The available widths/heights/scales can be seen in the output of <code v-pre>hs.screen:availableModes()</code>, however, it should be noted that the CoreGraphics subsystem seems to list more modes for a given screen than it is actually prepared to set, so you may find that seemingly valid modes still return false. It is not currently understood why this is so!</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L246">extensions/screen/libscreen.m line 246</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1937,6 +2195,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1102">extensions/screen/libscreen.m line 1102</a></td>
 </tr>
 </tbody>
 </table>
@@ -1981,6 +2247,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L950">extensions/screen/libscreen.m line 950</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2023,6 +2297,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L410">extensions/screen/screen.lua line 410</a></td>
 </tr>
 </tbody>
 </table>
@@ -2067,6 +2349,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L395">extensions/screen/screen.lua line 395</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2109,6 +2399,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/libscreen.m#L1270">extensions/screen/libscreen.m line 1270</a></td>
 </tr>
 </tbody>
 </table>
@@ -2153,6 +2451,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L348">extensions/screen/screen.lua line 348</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2195,6 +2501,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L370">extensions/screen/screen.lua line 370</a></td>
 </tr>
 </tbody>
 </table>
@@ -2239,6 +2553,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L381">extensions/screen/screen.lua line 381</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2282,6 +2604,14 @@ blue</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>this method is just a convenience wrapper for <code v-pre>hs.geometry.toUnitRect(rect,this_screen:frame())</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L230">extensions/screen/screen.lua line 230</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2324,6 +2654,14 @@ blue</li></ul> |
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/screen/screen.lua#L359">extensions/screen/screen.lua line 359</a></td>
 </tr>
 </tbody>
 </table>

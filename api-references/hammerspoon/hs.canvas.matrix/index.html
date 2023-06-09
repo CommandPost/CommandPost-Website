@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -445,6 +445,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The identity matrix can be thought of as &quot;apply no transformations at all&quot; or &quot;render as specified&quot;.</li><li>Mathematically this is represented as:</li><li><sub><del></li><li>[ 1,  0,  0 ]</li><li>[ 0,  1,  0 ]</li><li>[ 0,  0,  1 ]</li><li></del></sub></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L15">extensions/canvas/libcanvas_matrix.m line 15</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -494,6 +502,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Mathematically this method multiples the original matrix by the new one and returns the result of the multiplication.</li><li>You can use this method to &quot;stack&quot; additional transformations on top of existing transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L66">extensions/canvas/libcanvas_matrix.m line 66</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -536,6 +552,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Inverting a matrix which represents a series of transformations has the effect of reversing or undoing the original transformations.</li><li>This is useful when used with <doc-anchor-trigger to="#append">hs.canvas.matrix.append</doc-anchor-trigger> to undo a previously applied transformation without actually replacing all of the transformations which may have been applied to a canvas element.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L43">extensions/canvas/libcanvas_matrix.m line 43</a></td>
 </tr>
 </tbody>
 </table>
@@ -580,6 +604,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Mathematically this method multiples the new matrix by the original one and returns the result of the multiplication.</li><li>You can use this method to apply a transformation <em>before</em> the currently applied transformations, without having to know what the existing transformations in effect for the canvas element are.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L91">extensions/canvas/libcanvas_matrix.m line 91</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -622,6 +654,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The rotation of an element this matrix is applied to will be rotated about the origin (zero point).  To rotate an object about another point (its center for example), prepend a translation to the point to rotate about, and append a translation reversing the initial translation.</li><li>  e.g. <code v-pre>hs.canvas.matrix.translate(x, y):rotate(angle):translate(-x, -y)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L116">extensions/canvas/libcanvas_matrix.m line 116</a></td>
 </tr>
 </tbody>
 </table>
@@ -666,6 +706,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L148">extensions/canvas/libcanvas_matrix.m line 148</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -709,6 +757,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L181">extensions/canvas/libcanvas_matrix.m line 181</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -751,6 +807,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas_matrix.m#L220">extensions/canvas/libcanvas_matrix.m line 220</a></td>
 </tr>
 </tbody>
 </table>

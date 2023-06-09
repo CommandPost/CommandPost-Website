@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -463,6 +463,10 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/sharing.lua#L34">extensions/sharing/sharing.lua line 34</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -512,6 +516,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>this function is a wrapper to <doc-anchor-trigger to="#URL">hs.sharing.URL</doc-anchor-trigger> which sets the second argument to <code v-pre>true</code> for you.</li><li>see <doc-anchor-trigger to="#URL">hs.sharing.URL</doc-anchor-trigger> for more information about the table format returned by this function.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/sharing.lua#L41">extensions/sharing/sharing.lua line 41</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -555,6 +567,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>this function is intended to be used to determine the identifiers for sharing services available on your computer and that may not be included in the <doc-anchor-trigger to="#builtinSharingServices">hs.sharing.builtinSharingServices</doc-anchor-trigger> table.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L102">extensions/sharing/libsharing.m line 102</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -597,6 +617,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the URL is specified as a table, it is expected to contain a <code v-pre>url</code> key with a string value specifying a proper schema and resource locator.</li><li></li><li>Because macOS requires URLs to be represented as a specific object type which has no exact equivalent in Lua, Hammerspoon uses a table with specific keys to allow proper identification of a URL when included as an argument or result type.  Use this function or the <doc-anchor-trigger to="#fileURL">hs.sharing.fileURL</doc-anchor-trigger> wrapper function when specifying a URL to ensure that the proper keys are defined.</li><li>At present, the following keys are defined for a URL table (additional keys may be added in the future if future Hammerspoon modules require them to more completely utilize the macOS NSURL class, but these will not change):</li><li>  url           - a string containing the URL with a proper schema and resource locator</li><li>  filePath      = a string specifying the actual path to the file in case the url is a file reference URL.  Note that setting this field with this method will be silently ignored; the field is automatically inserted if appropriate when returning an NSURL object to lua.</li><li>  __luaSkinType - a string specifying the macOS type this table represents when converted into an Objective-C type</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L146">extensions/sharing/libsharing.m line 146</a></td>
 </tr>
 </tbody>
 </table>
@@ -647,6 +675,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L80">extensions/sharing/libsharing.m line 80</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -696,6 +732,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>According to the Apple API documentation, only the Twitter and Sina Weibo sharing services will set this property, but this has not been fully tested.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L361">extensions/sharing/libsharing.m line 361</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -738,6 +782,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L470">extensions/sharing/libsharing.m line 470</a></td>
 </tr>
 </tbody>
 </table>
@@ -782,6 +834,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>not all sharing services will set a value for this property.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L341">extensions/sharing/libsharing.m line 341</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -824,6 +884,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the callback should expect 3 or 4 arguments and return no results.  The arguments will be as follows:</li><li>  the sharingObject itself</li><li>  the callback message, which will be a string equal to one of the following:</li><li>    &quot;didFail&quot;   - an error occurred while attempting to share the items</li><li>    &quot;didShare&quot;  - the sharing service has finished sharing the items</li><li>    &quot;willShare&quot; - the sharing service is about to start sharing the items; occurs before sharing actually begins</li><li>  an array (table) containing the items being shared; if the message is &quot;didFail&quot; or &quot;didShare&quot;, the items may be in a different order or converted to a different internal type to facilitate sharing.</li><li>  if the message is &quot;didFail&quot;, the fourth argument will be a localized description of the error that occurred.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L239">extensions/sharing/libsharing.m line 239</a></td>
 </tr>
 </tbody>
 </table>
@@ -868,6 +936,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L216">extensions/sharing/libsharing.m line 216</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -910,6 +986,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L487">extensions/sharing/libsharing.m line 487</a></td>
 </tr>
 </tbody>
 </table>
@@ -954,6 +1038,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>not all sharing services will set a value for this property.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L381">extensions/sharing/libsharing.m line 381</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -996,6 +1088,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>not all sharing services will set a value for this property.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L450">extensions/sharing/libsharing.m line 450</a></td>
 </tr>
 </tbody>
 </table>
@@ -1040,6 +1140,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>not all sharing services will make use of the value set by this method.</li><li>the individual recipients should be specified as strings in the format expected by the sharing service; e.g. for items being shared in an email, the recipients should be email address, etc.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L272">extensions/sharing/libsharing.m line 272</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1082,6 +1190,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this string will match the identifier used to create the sharing service object with <doc-anchor-trigger to="#newShare">hs.sharing.newShare</doc-anchor-trigger></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L421">extensions/sharing/libsharing.m line 421</a></td>
 </tr>
 </tbody>
 </table>
@@ -1126,6 +1242,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>You can check to see if all of your items can be shared with the <doc-anchor-trigger to="#canShareItems">hs.sharing:canShareItems</doc-anchor-trigger> method.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L185">extensions/sharing/libsharing.m line 185</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1169,6 +1293,14 @@ mailer:shareItems({ [[
 <td><strong>Notes</strong></td>
 <td><ul><li>not all sharing services will make use of the value set by this method.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L315">extensions/sharing/libsharing.m line 315</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1211,6 +1343,14 @@ mailer:shareItems({ [[
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this string differs from the identifier used to create the sharing service object with <doc-anchor-trigger to="#newShare">hs.sharing.newShare</doc-anchor-trigger> and is intended to provide a more friendly label for the service if you need to list or refer to it elsewhere.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/sharing/libsharing.m#L401">extensions/sharing/libsharing.m line 401</a></td>
 </tr>
 </tbody>
 </table>

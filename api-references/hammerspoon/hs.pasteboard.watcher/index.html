@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -436,6 +436,14 @@ macOS doesn&#x27;t offer any API for getting Pasteboard notifications, so this e
 <td><strong>Notes</strong></td>
 <td><ul><li>This only affects new watchers, not existing/running ones.</li><li>The default value is 0.25.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L249">extensions/pasteboard/libpasteboard_watcher.m line 249</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -489,6 +497,14 @@ macOS doesn&#x27;t offer any API for getting Pasteboard notifications, so this e
 <td><strong>Notes</strong></td>
 <td><ul><li>Internally this extension uses a single <code v-pre>NSTimer</code> to check for changes to the pasteboard count every half a second.</li><li>Example usage:</li><li> <code v-pre>lua&lt;/li&gt;&lt;li&gt; generalPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format(&quot;General Pasteboard Contents: %s&quot;, v)) end)&lt;/li&gt;&lt;li&gt; specialPBWatcher = hs.pasteboard.watcher.new(function(v) print(string.format(&quot;Special Pasteboard Contents: %s&quot;, v)) end, &quot;special&quot;)&lt;/li&gt;&lt;li&gt; hs.pasteboard.writeObjects(&quot;This is on the general pasteboard.&quot;)&lt;/li&gt;&lt;li&gt; hs.pasteboard.writeObjects(&quot;This is on the special pasteboard.&quot;, &quot;special&quot;)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L143">extensions/pasteboard/libpasteboard_watcher.m line 143</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -538,6 +554,14 @@ macOS doesn&#x27;t offer any API for getting Pasteboard notifications, so this e
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L209">extensions/pasteboard/libpasteboard_watcher.m line 209</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -581,6 +605,14 @@ macOS doesn&#x27;t offer any API for getting Pasteboard notifications, so this e
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L187">extensions/pasteboard/libpasteboard_watcher.m line 187</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -623,6 +655,14 @@ macOS doesn&#x27;t offer any API for getting Pasteboard notifications, so this e
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard_watcher.m#L228">extensions/pasteboard/libpasteboard_watcher.m line 228</a></td>
 </tr>
 </tbody>
 </table>

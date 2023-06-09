@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -451,6 +451,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If provided, the receiver function will be called when the shortcut has been configured, and passed the new</li><li>  shortcut. The result of that function will be returned to the next stage.</li><li>  If no <code v-pre>receiverFn</code> is provided, the shortcut will be returned directly.</li><li></li><li>  The builder is additive. You can create a complex keystroke combo by</li><li>  chaining the shortcut names together.</li><li></li><li>  For example:</li><li></li><li>    <code v-pre>local myShortcut = shortcut.build():cmd():alt(&quot;x&quot;)</code></li><li></li><li>  Alternately, provide a <code v-pre>receiver</code> function and it will get passed the shortcut instead:</li><li></li><li>    <code v-pre>shortcut.build(function(shortcut) self._myShortcut = shortcut end):cmd():alt(&quot;x&quot;)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L69">src/extensions/cp/commands/shortcut.lua line 69</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -494,6 +502,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L51">src/extensions/cp/commands/shortcut.lua line 51</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -534,6 +550,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L124">src/extensions/cp/commands/shortcut.lua line 124</a></td>
 </tr>
 </tbody>
 </table>
@@ -584,6 +604,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If the shortcut is enabled, the hotkey will also be enabled at this point.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L169">src/extensions/cp/commands/shortcut.lua line 169</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -626,6 +654,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L231">src/extensions/cp/commands/shortcut.lua line 231</a></td>
 </tr>
 </tbody>
 </table>
@@ -670,6 +706,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L155">src/extensions/cp/commands/shortcut.lua line 155</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -712,6 +756,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L141">src/extensions/cp/commands/shortcut.lua line 141</a></td>
 </tr>
 </tbody>
 </table>
@@ -756,6 +808,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L111">src/extensions/cp/commands/shortcut.lua line 111</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -798,6 +858,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L98">src/extensions/cp/commands/shortcut.lua line 98</a></td>
 </tr>
 </tbody>
 </table>
@@ -842,6 +910,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L244">src/extensions/cp/commands/shortcut.lua line 244</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -884,6 +960,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/shortcut.lua#L212">src/extensions/cp/commands/shortcut.lua line 212</a></td>
 </tr>
 </tbody>
 </table>

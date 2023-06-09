@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -507,6 +507,10 @@ limitations under the License.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L93">extensions/blackmagic/blackmagic.lua line 93</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -541,6 +545,10 @@ limitations under the License.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L85">extensions/blackmagic/blackmagic.lua line 85</a></td>
 </tr>
 </tbody>
 </table>
@@ -577,6 +585,10 @@ limitations under the License.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L223">extensions/blackmagic/blackmagic.lua line 223</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -612,6 +624,10 @@ limitations under the License.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/blackmagic.lua#L189">extensions/blackmagic/blackmagic.lua line 189</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -637,7 +653,9 @@ limitations under the License.</p>
 A boolean, true if a device was connected, false if a device was disconnected.
 An <code v-pre>hs.blackmagic</code> object, being the device that was connected/disconnected.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L53">extensions/blackmagic/libblackmagic.m line 53</a> |</p>
 <hr />
 <doc-anchor-target id="getdevice">
     <h3>
@@ -678,6 +696,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L94">extensions/blackmagic/libblackmagic.m line 94</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -697,7 +723,9 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 A boolean, <code v-pre>true</code> if a device was connected, <code v-pre>false</code> if a device was disconnected.
 An <code v-pre>hs.blackmagic</code> object, being the device that was connected/disconnected.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L27">extensions/blackmagic/libblackmagic.m line 27</a> |</p>
 <hr />
 <doc-anchor-target id="numdevices">
     <h3>
@@ -737,6 +765,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L77">extensions/blackmagic/libblackmagic.m line 77</a></td>
 </tr>
 </tbody>
 </table>
@@ -787,6 +823,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L183">extensions/blackmagic/libblackmagic.m line 183</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -829,6 +873,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L125">extensions/blackmagic/libblackmagic.m line 125</a></td>
 </tr>
 </tbody>
 </table>
@@ -873,6 +925,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L235">extensions/blackmagic/libblackmagic.m line 235</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -915,6 +975,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You can use <code v-pre>hs.blackmagic.jogModeNames[deviceType]</code> to get a table of possible values.</li><li>&quot;RELATIVE&quot; - Returns a “relative” position - a positive number if turning right, and a negative number if turning left. The faster you turn, the higher the number. One step is 360.</li><li>&quot;ABSOLUTE&quot; - Returns an “absolute” position, based on when the mode was set. It has a range of -4096 (left of 0) to 4096 (right of 0). On the Editor Keyboard it has mechanical hard stops at -4096 and 4096, meaning you only use one half of the wheel.</li><li>&quot;ABSOLUTE ZERO&quot; - The same as &quot;ABSOLUTE&quot;, but has a small dead zone around 0 - which mechincally &quot;snaps&quot; to zero on a Editor Keyboard.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L257">extensions/blackmagic/libblackmagic.m line 257</a></td>
 </tr>
 </tbody>
 </table>
@@ -959,6 +1027,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <td><strong>Notes</strong></td>
 <td><ul><li>You can also use <code v-pre>hs.blackmagic.ledNames[deviceType]</code> to get a table of possible values.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L156">extensions/blackmagic/libblackmagic.m line 156</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1001,6 +1077,14 @@ An <code v-pre>hs.blackmagic</code> object, being the device that was connected/
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The serial number is the unique identifier from the USB Device, and not the product serial number that&#x27;s on the sticker on the back of the Blackmagic device.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/blackmagic/libblackmagic.m#L210">extensions/blackmagic/libblackmagic.m line 210</a></td>
 </tr>
 </tbody>
 </table>

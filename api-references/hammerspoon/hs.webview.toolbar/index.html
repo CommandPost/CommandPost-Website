@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -489,6 +489,10 @@ t.attachToolbar(a)</code></pre>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1938">extensions/webview/libwebview_toolbar.m line 1938</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -524,6 +528,10 @@ t.attachToolbar(a)</code></pre>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1926">extensions/webview/libwebview_toolbar.m line 1926</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -551,7 +559,9 @@ if one argument is provided and it is a toolbarObject or nil, this function will
 if one argument is provided and it is an hs.webview or hs.chooser object, this function will return the current toolbarObject for the object, or nil if one is not attached.
 if two arguments are provided and the first is an hs.webview or hs.chooser object and the second is a toolbarObject or nil, this function will attach or detach a toolbarObject to/from the object.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if the function is used to attach/detach a toolbar, then the first object provided (the target) will be returned ; if this function is used to get the current toolbar object for a webview, chooser, or console, then the toolbarObject or nil will be returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This function is not expected to be used directly (though it can be) -- it is added to the <code v-pre>hs.webview</code> and <code v-pre>hs.chooser</code> object metatables so that it may be invoked as <code v-pre>hs.webview:attachedToolbar([toolbarObject | nil])</code>/<code v-pre>hs.chooser:attachedToolbar([toolbarObject | nil])</code> and to the <code v-pre>hs.console</code> module so that it may be invoked as <code v-pre>hs.console.toolbar([toolbarObject | nil])</code>.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the new one specified by this function.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This function is not expected to be used directly (though it can be) -- it is added to the <code v-pre>hs.webview</code> and <code v-pre>hs.chooser</code> object metatables so that it may be invoked as <code v-pre>hs.webview:attachedToolbar([toolbarObject | nil])</code>/<code v-pre>hs.chooser:attachedToolbar([toolbarObject | nil])</code> and to the <code v-pre>hs.console</code> module so that it may be invoked as <code v-pre>hs.console.toolbar([toolbarObject | nil])</code>.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the new one specified by this function.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L863">extensions/webview/libwebview_toolbar.m line 863</a> |</p>
 <hr />
 <doc-anchor-target id="intitlebar">
     <h3>
@@ -591,6 +601,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>When this value is true, the toolbar, when visible, will appear in the window&#x27;s title bar similar to the toolbar as seen in applications like Safari.  In this state, the toolbar will set the display of the toolbar items to icons without labels, ignoring changes made with <doc-anchor-trigger to="#displayMode">hs.webview.toolbar:displayMode</doc-anchor-trigger>.</li><li></li><li>* This method is only valid when the toolbar is attached to a webview, chooser, or the console.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L986">extensions/webview/libwebview_toolbar.m line 986</a></td>
 </tr>
 </tbody>
 </table>
@@ -634,6 +652,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L846">extensions/webview/libwebview_toolbar.m line 846</a></td>
 </tr>
 </tbody>
 </table>
@@ -684,6 +710,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>Toolbar names must be unique, but a toolbar may be copied with <doc-anchor-trigger to="#copy">hs.webview.toolbar:copy</doc-anchor-trigger> if you wish to attach it to multiple windows (webview, chooser, or console).</li><li>See <doc-anchor-trigger to="#addItems">hs.webview.toolbar:addItems</doc-anchor-trigger> for a description of the format for <code v-pre>toolbarTable</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L809">extensions/webview/libwebview_toolbar.m line 809</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -733,6 +767,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>* Each toolbar item is defined as a table of key-value pairs.  The following list describes the valid keys used when describing a toolbar item for this method, the constructor <doc-anchor-trigger to="#new">hs.webview.toolbar.new</doc-anchor-trigger>, and the <doc-anchor-trigger to="#modifyItem">hs.webview.toolbar:modifyItem</doc-anchor-trigger> method.  Note that the <code v-pre>id</code> field is <strong>required</strong> for all three uses.</li><li> <code v-pre>id</code>           - A unique string identifier required for each toolbar item and group.  This key cannot be changed after an item has been created.</li><li> <code v-pre>allowedAlone</code> - a boolean value, default true, specifying whether or not the toolbar item can be added to the toolbar, programmatically or through the customization panel, (true) or whether it can only be added as a member of a group (false).</li><li> <code v-pre>default</code>      - a boolean value, default matching the value of <code v-pre>allowedAlone</code> for this item, indicating whether or not this toolbar item or group should be displayed in the toolbar by default, unless overridden by user customization or a saved configuration (when such options are enabled).</li><li> <code v-pre>enable</code>       - a boolean value, default true, indicating whether or not the toolbar item is active (and can be clicked on) or inactive and greyed out.  This field is ignored when applied to a toolbar group; apply it to the group members instead.</li><li> <code v-pre>fn</code>           - a callback function, or false to remove, specific to the toolbar item. This property is ignored if assigned to the button group. This function will override the toolbar callback defined with <doc-anchor-trigger to="#setCallback">hs.webview.toolbar:setCallback</doc-anchor-trigger> for this specific item. The function should expect three (four, if the item is a <code v-pre>searchfield</code>) arguments and return none.  See <doc-anchor-trigger to="#setCallback">hs.webview.toolbar:setCallback</doc-anchor-trigger> for information about the callback&#x27;s arguments.</li><li> <code v-pre>groupMembers</code> - an array (table) of strings specifying the toolbar item ids that are members of this toolbar item group.  If set to false, this field is removed and the item is reset back to being a regular toolbar item.  Note that you cannot change a currently visible toolbar item to or from being a group; it must first be removed from active toolbar with <doc-anchor-trigger to="#removeItem">hs.webview.toolbar:removeItem</doc-anchor-trigger>.</li><li> <code v-pre>image</code>        - an <code v-pre>hs.image</code> object, or false to remove, specifying the image to use as the toolbar item&#x27;s icon when icon&#x27;s are displayed in the toolbar or customization panel. This key is ignored for a toolbar item group, but not for it&#x27;s individual members.</li><li> <code v-pre>label</code>        - a string label, or false to remove, for the toolbar item or group when text is displayed in the toolbar or in the customization panel. For a toolbar item, the default is the <code v-pre>id</code> string; for a group, the default is <code v-pre>false</code>. If a group has a label assigned to it, the group label will be displayed for the group of items it contains. If a group does not have a label, the individual items which make up the group will each display their individual labels.</li><li> <code v-pre>priority</code>     - an integer value used to determine toolbar item order and which items are displayed or put into the overflow menu when the number of items in the toolbar exceed the width of the window in which the toolbar is attached. Some example values are provided in the <doc-anchor-trigger to="#itemPriorities">hs.webview.toolbar.itemPriorities</doc-anchor-trigger> table. If a toolbar item is in a group, it&#x27;s priority is ignored and the item group is ordered by the item group&#x27;s priority.</li><li> <code v-pre>searchfield</code>  - a boolean (default false) specifying whether or not this toolbar item is a search field. If true, the following additional keys are allowed:</li><li>   <code v-pre>searchHistory</code>                - an array (table) of strings, specifying previous searches to automatically include in the search field menu, if <code v-pre>searchPredefinedMenuTitle</code> is not false</li><li>   <code v-pre>searchHistoryAutosaveName</code>    - a string specifying the key name to save search history with in the application defaults (accessible through <code v-pre>hs.settings</code>). If this value is set, search history will be maintained through restarts of Hammerspoon.</li><li>   <code v-pre>searchHistoryLimit</code>           - the maximum number of items to store in the search field history.</li><li>   <code v-pre>searchPredefinedMenuTitle</code>    - a string or boolean specifying how a predefined list of search field &quot;response&quot; should be included in the search field menu. If this item is <code v-pre>true</code>, this list of items specified for <code v-pre>searchPredefinedSearches</code> will be displayed in a submenu with the title &quot;Predefined Searches&quot;. If this item is a string, the list of items will be displayed in a submenu with the title specified by this string value. If this item is <code v-pre>false</code>, then the search field menu will only contain the items specified in <code v-pre>searchPredefinedSearches</code> and no search history will be included in the menu.</li><li>   <code v-pre>searchPredefinedSearches</code>     - an array (table) of strings specifying the items to be listed in the predefined search submenu. If set to false, any existing menu will be removed and the search field menu will be reset to the default.</li><li>   <code v-pre>searchReleaseFocusOnCallback</code> - a boolean, default false, specifying whether or not focus leaves the search field text box when the callback is invoked. Setting this to true can be useful if you want subsequent keypresses to be caught by the webview after reacting to the value entered into the search field by the user.</li><li>   <code v-pre>searchText</code>                   - a string specifying the text to display in the search field.</li><li>   <code v-pre>searchWidth</code>                  - the width of the search field text entry box.</li><li> <code v-pre>selectable</code>   - a boolean value, default false, indicating whether or not this toolbar item is selectable (i.e. highlights, like a selected tab) when clicked on. Only one selectable toolbar item can be highlighted at a time, and you can get or set/reset the selected item with <doc-anchor-trigger to="#selectedItem">hs.webview.toolbar:selectedItem</doc-anchor-trigger>.</li><li> <code v-pre>tag</code>          - an integer value which can be used for own purposes; has no affect on the visual aspect of the item or its behavior.</li><li> <code v-pre>tooltip</code>      - a string label, or false to remove, which is displayed as a tool tip when the user hovers the mouse over the button or button group. If a button is in a group, it&#x27;s tooltip is ignored in favor of the group tooltip.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview_toolbar.lua#L53">extensions/webview/webview_toolbar.lua line 53</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -775,6 +817,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1657">extensions/webview/libwebview_toolbar.m line 1657</a></td>
 </tr>
 </tbody>
 </table>
@@ -819,6 +869,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>If the toolbar is set to autosave, then a user-defaults entry is created in org.hammerspoon.Hammerspoon domain with the key &quot;NSToolbar Configuration XXX&quot; where XXX is the toolbar identifier specified when the toolbar was created.</li><li>The information saved for the toolbar consists of the following:</li><li>  the default item identifiers that are displayed when the toolbar is first created or when the user drags the default set from the customization panel.</li><li>  the current display mode (icon, text, both)</li><li>  the current size mode (regular, small)</li><li>  whether or not the toolbar is currently visible</li><li>  the currently shown identifiers and their order</li><li>* Note that the labels, icons, callback functions, etc. are not saved -- these are determined at toolbar creation time, by the <doc-anchor-trigger to="#addItems">hs.webview.toolbar:addItems</doc-anchor-trigger>, or by the <doc-anchor-trigger to="#modifyItem">hs.webview.toolbar:modifyItem</doc-anchor-trigger> method and can differ between invocations of toolbars with the same identifier and button identifiers.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1853">extensions/webview/libwebview_toolbar.m line 1853</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -861,6 +919,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the customization panel can be pulled up by right-clicking on the toolbar or by invoking <doc-anchor-trigger to="#customizePanel">hs.webview.toolbar:customizePanel</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1827">extensions/webview/libwebview_toolbar.m line 1827</a></td>
 </tr>
 </tbody>
 </table>
@@ -905,6 +971,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1040">extensions/webview/libwebview_toolbar.m line 1040</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -947,6 +1021,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1792">extensions/webview/libwebview_toolbar.m line 1792</a></td>
 </tr>
 </tbody>
 </table>
@@ -991,6 +1073,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L2066">extensions/webview/libwebview_toolbar.m line 2066</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1033,6 +1123,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method completely removes the toolbar item from the toolbar&#x27;s definition dictionary, thus removing it from active use in the toolbar as well as removing it from the customization panel, if supported.  If you only want to remove a toolbar item from the active toolbar, consider <doc-anchor-trigger to="#removeItem">hs.webview.toolbar:removeItem</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1557">extensions/webview/libwebview_toolbar.m line 1557</a></td>
 </tr>
 </tbody>
 </table>
@@ -1077,6 +1175,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1281">extensions/webview/libwebview_toolbar.m line 1281</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1119,6 +1225,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1775">extensions/webview/libwebview_toolbar.m line 1775</a></td>
 </tr>
 </tbody>
 </table>
@@ -1163,6 +1277,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>the toolbar position must be between 1 and the number of currently active toolbar items.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1177">extensions/webview/libwebview_toolbar.m line 1177</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1205,6 +1327,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1023">extensions/webview/libwebview_toolbar.m line 1023</a></td>
 </tr>
 </tbody>
 </table>
@@ -1249,6 +1379,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1810">extensions/webview/libwebview_toolbar.m line 1810</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1291,6 +1429,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>For a list of the most of the possible toolbar item attribute keys, see <doc-anchor-trigger to="#addItems">hs.webview.toolbar:addItems</doc-anchor-trigger>.</li><li>The table will also include <code v-pre>privateCallback</code> which will be a boolean indicating whether or not this toolbar item has a private callback function assigned (true) or uses the toolbar&#x27;s general callback function (false).</li><li>The returned table may also contain the following keys, if the item is currently assigned to a toolbar:</li><li>  <code v-pre>toolbar</code>  - the toolbar object the item belongs to</li><li>  <code v-pre>subItems</code> - if the toolbar item is actually a group, this will contain a table with basic information about the members of the group.  If you wish to get the full details for each sub-member, you may iterate on the identifiers provided in <code v-pre>groupMembers</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1593">extensions/webview/libwebview_toolbar.m line 1593</a></td>
 </tr>
 </tbody>
 </table>
@@ -1335,6 +1481,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1674">extensions/webview/libwebview_toolbar.m line 1674</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1377,6 +1531,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You cannot change a toolbar item&#x27;s <code v-pre>id</code></li><li>For a list of the possible toolbar item attribute keys, see <doc-anchor-trigger to="#addItems">hs.webview.toolbar:addItems</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1414">extensions/webview/libwebview_toolbar.m line 1414</a></td>
 </tr>
 </tbody>
 </table>
@@ -1421,6 +1583,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1155">extensions/webview/libwebview_toolbar.m line 1155</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1463,6 +1633,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the toolbar position must be between 1 and the number of currently active toolbar items.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/webview_toolbar.lua#L97">extensions/webview/webview_toolbar.lua line 97</a></td>
 </tr>
 </tbody>
 </table>
@@ -1507,6 +1685,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>If the toolbar is set to autosave, then a user-defaults entry is created in org.hammerspoon.Hammerspoon domain with the key &quot;NSToolbar Configuration XXX&quot; where XXX is the toolbar identifier specified when the toolbar was created.</li><li>This method is provided if you do not wish for changes to the toolbar to be autosaved for every change, but may wish to save it programmatically under specific conditions.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1090">extensions/webview/libwebview_toolbar.m line 1090</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1549,6 +1735,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Only toolbar items which were defined as <code v-pre>selectable</code> when created with <doc-anchor-trigger to="#new">hs.webview.toolbar.new</doc-anchor-trigger> can be selected with this method.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1708">extensions/webview/libwebview_toolbar.m line 1708</a></td>
 </tr>
 </tbody>
 </table>
@@ -1593,6 +1787,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>if there is current text in the searchfield, it will be selected so that any subsequent typing by the user will replace the current value in the searchfield.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1741">extensions/webview/libwebview_toolbar.m line 1741</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1635,6 +1837,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1111">extensions/webview/libwebview_toolbar.m line 1111</a></td>
 </tr>
 </tbody>
 </table>
@@ -1679,6 +1889,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>the global callback function is invoked for a toolbar button item that does not have a specific function assigned directly to it.</li><li>if <doc-anchor-trigger to="#notifyOnChange">hs.webview.toolbar:notifyOnChange</doc-anchor-trigger> is set to true, then this callback function will also be invoked when a toolbar item is added or removed from the toolbar either programmatically with <doc-anchor-trigger to="#insertItem">hs.webview.toolbar:insertItem</doc-anchor-trigger> and <doc-anchor-trigger to="#removeItem">hs.webview.toolbar:removeItem</doc-anchor-trigger> or under user control with <doc-anchor-trigger to="#customizePanel">hs.webview.toolbar:customizePanel</doc-anchor-trigger> and the callback function will receive a string of &quot;add&quot; or &quot;remove&quot; as a fourth argument.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1062">extensions/webview/libwebview_toolbar.m line 1062</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1721,6 +1939,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1234">extensions/webview/libwebview_toolbar.m line 1234</a></td>
 </tr>
 </tbody>
 </table>
@@ -1765,6 +1991,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul><li>This is only available for macOS 11.0+. Will return <code v-pre>nil</code> if getting on an earlier version of macOS.</li><li><code v-pre>automatic</code> - A style indicating that the system determines the toolbar’s appearance and location.</li><li><code v-pre>expanded</code> - A style indicating that the toolbar appears below the window title.</li><li><code v-pre>preference</code> - A style indicating that the toolbar appears below the window title with toolbar items centered in the toolbar.</li><li><code v-pre>unified</code> - A style indicating that the toolbar appears next to the window title.</li><li><code v-pre>unifiedCompact</code> - A style indicating that the toolbar appears next to the window title and with reduced margins to allow more focus on the window’s contents.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1333">extensions/webview/libwebview_toolbar.m line 1333</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1808,6 +2042,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1133">extensions/webview/libwebview_toolbar.m line 1133</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1850,6 +2092,14 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/webview/libwebview_toolbar.m#L1691">extensions/webview/libwebview_toolbar.m line 1691</a></td>
 </tr>
 </tbody>
 </table>

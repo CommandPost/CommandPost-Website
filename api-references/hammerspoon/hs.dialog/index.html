@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -439,6 +439,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The optional values must be entered in order (i.e. you can&#x27;t supply <code v-pre>style</code> without also supplying <code v-pre>buttonOne</code> and <code v-pre>buttonTwo</code>).</li><li>[style] can be &quot;warning&quot;, &quot;informational&quot; or &quot;critical&quot;. If something other than these string values is given, it will use &quot;informational&quot;.</li><li>Example:</li><li>     <code v-pre>lua&lt;/li&gt;&lt;li&gt;     testCallbackFn = function(result) print(&quot;Callback Result: &quot; .. result) end&lt;/li&gt;&lt;li&gt;     hs.dialog.alert(100, 100, testCallbackFn, &quot;Message&quot;, &quot;Informative Text&quot;, &quot;Button One&quot;, &quot;Button Two&quot;, &quot;NSCriticalAlertStyle&quot;)&lt;/li&gt;&lt;li&gt;     hs.dialog.alert(200, 200, testCallbackFn, &quot;Message&quot;, &quot;Informative Text&quot;, &quot;Single Button&quot;)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/dialog.lua#L20">extensions/dialog/dialog.lua line 20</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -481,6 +489,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The optional values must be entered in order (i.e. you can&#x27;t supply <code v-pre>style</code> without also supplying <code v-pre>buttonOne</code> and <code v-pre>buttonTwo</code>).</li><li>[style] can be &quot;warning&quot;, &quot;informational&quot; or &quot;critical&quot;. If something other than these string values is given, it will use &quot;warning&quot;.</li><li>Example:</li><li>     <code v-pre>hs.dialog.blockAlert(&quot;Message&quot;, &quot;Informative Text&quot;, &quot;Button One&quot;, &quot;Button Two&quot;, &quot;critical&quot;)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L564">extensions/dialog/libdialog.m line 564</a></td>
 </tr>
 </tbody>
 </table>
@@ -525,6 +541,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The optional values must be entered in order (i.e. you can&#x27;t supply <code v-pre>allowsMultipleSelection</code> without also supplying <code v-pre>canChooseFiles</code> and <code v-pre>canChooseDirectories</code>).</li><li>Example:</li><li>     <code v-pre>hs.inspect(hs.dialog.chooseFileOrFolder(&quot;Please select a file:&quot;, &quot;~/Desktop&quot;, true, false, true, {&quot;jpeg&quot;, &quot;pdf&quot;}, true))</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L327">extensions/dialog/libdialog.m line 327</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -568,6 +592,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>buttonOne</code> defaults to &quot;OK&quot; if no value is supplied.</li><li><code v-pre>buttonOne</code> will also be triggered by pressing <code v-pre>ENTER</code>, whereas <code v-pre>buttonTwo</code> will be triggered by pressing <code v-pre>ESC</code>.</li><li>Examples:</li><li>     <code v-pre>hs.dialog.textPrompt(&quot;Main message.&quot;, &quot;Please enter something:&quot;)</code></li><li>     <code v-pre>hs.dialog.textPrompt(&quot;Main message.&quot;, &quot;Please enter something:&quot;, &quot;Default Value&quot;, &quot;OK&quot;)</code></li><li>     <code v-pre>hs.dialog.textPrompt(&quot;Main message.&quot;, &quot;Please enter something:&quot;, &quot;Default Value&quot;, &quot;OK&quot;, &quot;Cancel&quot;)</code></li><li>     <code v-pre>hs.dialog.textPrompt(&quot;Main message.&quot;, &quot;Please enter something:&quot;, &quot;&quot;, &quot;OK&quot;, &quot;Cancel&quot;, true)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L665">extensions/dialog/libdialog.m line 665</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -610,6 +642,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This alert is will prevent the user from interacting with the <code v-pre>hs.webview</code> until a button is pressed on the alert.</li><li>The optional values must be entered in order (i.e. you can&#x27;t supply <code v-pre>style</code> without also supplying <code v-pre>buttonOne</code> and <code v-pre>buttonTwo</code>).</li><li>[style] can be &quot;warning&quot;, &quot;informational&quot; or &quot;critical&quot;. If something other than these string values is given, it will use &quot;informational&quot;.</li><li>Example:</li><li>     <code v-pre>lua&lt;/li&gt;&lt;li&gt;     testCallbackFn = function(result) print(&quot;Callback Result: &quot; .. result) end&lt;/li&gt;&lt;li&gt;     testWebviewA = hs.webview.newBrowser(hs.geometry.rect(250, 250, 250, 250)):show()&lt;/li&gt;&lt;li&gt;     testWebviewB = hs.webview.newBrowser(hs.geometry.rect(450, 450, 450, 450)):show()&lt;/li&gt;&lt;li&gt;     hs.dialog.webviewAlert(testWebviewA, testCallbackFn, &quot;Message&quot;, &quot;Informative Text&quot;, &quot;Button One&quot;, &quot;Button Two&quot;, &quot;warning&quot;)&lt;/li&gt;&lt;li&gt;     hs.dialog.webviewAlert(testWebviewB, testCallbackFn, &quot;Message&quot;, &quot;Informative Text&quot;, &quot;Single Button&quot;)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/dialog/libdialog.m#L440">extensions/dialog/libdialog.m line 440</a></td>
 </tr>
 </tbody>
 </table>

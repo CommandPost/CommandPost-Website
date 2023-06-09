@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -450,6 +450,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L36">src/extensions/cp/i18n/localeID.lua line 36</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -492,6 +500,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function will first attempt to determine the language, script and region by using <code v-pre>hs.host.locale.details()</code>. If that fails, it will use Lua patterns as described below.</li><li> Parses a <code v-pre>language ID</code> into three possible string components:</li><li>  ** The ISO 693-1 language code</li><li>  ** The ISO 15924 script code</li><li>  ** The ISO 3166-1 region code</li><li>This is one of the following patterns:</li><li>  ** <code v-pre>[language]</code> - eg. <code v-pre>&quot;en&quot;</code>, or <code v-pre>&quot;fr&quot;</code>. This covers the language across all languages and scripts. We also allow the full name (eg. &quot;English&quot; or &quot;French&quot;) since this seems common in Apple&#x27;s I18N management.</li><li>  ** <code v-pre>[language]_[region]</code> - eg. &quot;en_AU&quot; for Australian English, &quot;fr_CA&quot; for Canadian French, etc.</li><li>  ** <code v-pre>[language]-[script]</code> - eg. &quot;az-Arab&quot; for Azerbaijani in Arabic script, &quot;az-Latn&quot; for Azerbaijani in Latin script.</li><li>  ** <code v-pre>[language]-[script]_[region]</code> - eg. &quot;en-Latin-AU&quot;</li><li>It will then return the matched component in three return values: language, script, region.</li><li>If a <code v-pre>region</code> is specified, the <code v-pre>script</code> will be <code v-pre>nil</code>. Eg.:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local lang, scrpt, rgn = localeID.parse(&quot;en_AU&quot;) -- results in &quot;en&quot;, nil, &quot;AU&quot;&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L49">src/extensions/cp/i18n/localeID.lua line 49</a></td>
 </tr>
 </tbody>
 </table>
@@ -542,6 +558,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td><ul><li>If the code can&#x27;t be parsed, or if the actual language/region/script codes don&#x27;t exist, <code v-pre>nil</code> is returned.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L105">src/extensions/cp/i18n/localeID.lua line 105</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -583,6 +607,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L240">src/extensions/cp/i18n/localeID.lua line 240</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -617,6 +645,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L252">src/extensions/cp/i18n/localeID.lua line 252</a></td>
 </tr>
 </tbody>
 </table>
@@ -653,6 +685,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L248">src/extensions/cp/i18n/localeID.lua line 248</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -687,6 +723,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L244">src/extensions/cp/i18n/localeID.lua line 244</a></td>
 </tr>
 </tbody>
 </table>
@@ -723,6 +763,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L256">src/extensions/cp/i18n/localeID.lua line 256</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -757,6 +801,10 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L260">src/extensions/cp/i18n/localeID.lua line 260</a></td>
 </tr>
 </tbody>
 </table>
@@ -806,6 +854,14 @@ or <code v-pre>cp.i18n.script</code> tables. These contain the full details for 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>It will be a value between <code v-pre>0</code> and <code v-pre>3</code>. The <code v-pre>script</code> and <code v-pre>region</code> in any locale are optional, and if they are not provided, they are considered &quot;open&quot; and will match with another locale which has the script or region defined. However, it is considered to be a weaker match.</li><li>For example:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local l = localeID.forCode&lt;/li&gt;&lt;li&gt;local en, en_AU, en_Latn, en_Latn_AU, en_NZ, de = l(&quot;en&quot;), l(&quot;en_AU&quot;), l(&quot;en-Latn&quot;), l(&quot;en-Latn_AU&quot;), l(&quot;en_NZ&quot;), l(&quot;de&quot;)&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;en:matches(de)              == 0    -- no match - different language&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;en:matches(en)              == 3    -- language, script, and region match exactly&lt;/li&gt;&lt;li&gt;en:matches(en_AU)           == 2.5  -- language and script match, region half-match with one side &quot;open&quot;.&lt;/li&gt;&lt;li&gt;en:matches(en_Latn)         == 2.5  -- language and region match, script half-match with one side &quot;open&quot;.&lt;/li&gt;&lt;li&gt;en:matches(en_Latn_AU)      == 2    -- language matches, two half-matches for script and region.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;en_AU:matches(en_AU)        == 3    -- exact match&lt;/li&gt;&lt;li&gt;en_AU:matches(en)           == 2.5  -- language and script match, region half-match with a `nil` on one side.&lt;/li&gt;&lt;li&gt;en_AU:matches(en_NZ)        == 2    -- language and script match, but no match between specific regions.&lt;/li&gt;&lt;li&gt;en_AU:matches(en_Latn_AU)   == 2.5  -- language and region match exactly, and the optional `script` value is different.&lt;/li&gt;&lt;li&gt;</code></li><li></li><li>The higher the match value, the closer they are to matching. If selecting a from multiple locales which match you will generally want the highest-ranking match.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/i18n/localeID.lua#L187">src/extensions/cp/i18n/localeID.lua line 187</a></td>
 </tr>
 </tbody>
 </table>

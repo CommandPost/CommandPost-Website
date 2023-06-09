@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -495,6 +495,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3728">extensions/canvas/libcanvas.m line 3728</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -530,6 +534,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3757">extensions/canvas/libcanvas.m line 3757</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -564,6 +572,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>These key names map to the constants used in CoreGraphics to specify window levels and may not actually be used for what the name might suggest. For example, tests suggest that an active screen saver actually runs at a level of 2002, rather than at 1000, which is the window level corresponding to kCGScreenSaverWindowLevelKey.</li><li>Each window level is sorted separately and <doc-anchor-trigger to="#orderAbove">hs.canvas:orderAbove</doc-anchor-trigger> and <doc-anchor-trigger to="#orderBelow">hs.canvas:orderBelow</doc-anchor-trigger> only arrange windows within the same level.</li><li>If you use Dock hiding (or in 10.11, Menubar hiding) please note that when the Dock (or Menubar) is popped up, it is done so with an implicit orderAbove, which will place it above any items you may also draw at the Dock (or MainMenu) level.</li><li></li><li>A canvas object with a <doc-anchor-trigger to="#draggingCallback">hs.canvas:draggingCallback</doc-anchor-trigger> function can only accept drag-and-drop items when its window level is at <code v-pre>hs.canvas.windowLevels.dragging</code> or lower.</li><li>A canvas object with a <doc-anchor-trigger to="#mouseCallback">hs.canvas:mouseCallback</doc-anchor-trigger> function can only reliably receive mouse click events when its window level is at <code v-pre>hs.canvas.windowLevels.desktopIcon</code> + 1 or higher.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3816">extensions/canvas/libcanvas.m line 3816</a></td>
 </tr>
 </tbody>
 </table>
@@ -614,6 +626,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is intended to be used in conjunction with <code v-pre>hs.styledtext</code> to create styledtext objects that are based on, or a slight variation of, the defaults used by <code v-pre>hs.canvas</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2395">extensions/canvas/libcanvas.m line 2395</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -656,6 +676,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is primarily for debugging purposes and may be removed in the future.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2376">extensions/canvas/libcanvas.m line 2376</a></td>
 </tr>
 </tbody>
 </table>
@@ -700,6 +728,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L716">extensions/canvas/canvas.lua line 716</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -742,6 +778,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Under some conditions, it has been observed that Hammerspoon&#x27;s <code v-pre>hs.window.filter</code> module will misidentify Canvas and Drawing objects as windows of the Hammerspoon application that it should consider when evaluating its filters. To eliminate this, <code v-pre>hs.canvas</code> objects (and previously <code v-pre>hs.drawing</code> objects, which are now deprecated and pass through to <code v-pre>hs.canvas</code>) were given a nonstandard accessibility subrole to prevent them from being included. This has caused some issues with third party tools, like Yabai, which also use the accessibility subroles for determining what actions it may take with Hammerspoon windows.</li><li></li><li>By passing <code v-pre>false</code> to this function, all canvas objects will revert to specifying the standard subrole for the containing windows by default and should work as expected with third party tools. Note that this may cause issues or slowdowns if you are also using <code v-pre>hs.window.filter</code>; a more permanent solution is being considered.</li><li></li><li>If you need to control the subrole of canvas objects more specifically, or only for some canvas objects, see <doc-anchor-trigger to="#_accessibilitySubrole">hs.canvas:_accessibilitySubrole</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2316">extensions/canvas/libcanvas.m line 2316</a></td>
 </tr>
 </tbody>
 </table>
@@ -792,6 +836,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The size of the canvas defines the visible area of the canvas -- any portion of a canvas element which extends past the canvas&#x27;s edges will be clipped.</li><li>a rect-table is a table with key-value pairs specifying the top-left coordinate on the screen for the canvas (keys <code v-pre>x</code>  and <code v-pre>y</code>) and the size (keys <code v-pre>h</code> and <code v-pre>w</code>) of the canvas. The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2343">extensions/canvas/libcanvas.m line 2343</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -833,6 +885,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>* <code v-pre>type</code> - specifies the type of canvas element the table represents. This attribute has no default and must be specified for each element in the canvas array. Valid type strings are:</li><li> <code v-pre>arc</code>           - an arc inscribed on a circle, defined by <code v-pre>radius</code>, <code v-pre>center</code>, <code v-pre>startAngle</code>, and <code v-pre>endAngle</code>.</li><li> <code v-pre>canvas</code>        - an independent canvas object, displayed as an element within the specified frame. Defined by <code v-pre>canvas</code> and <code v-pre>frame</code>.</li><li> <code v-pre>circle</code>        - a circle, defined by <code v-pre>radius</code> and <code v-pre>center</code>.</li><li> <code v-pre>ellipticalArc</code> - an arc inscribed on an oval, defined by <code v-pre>frame</code>, <code v-pre>startAngle</code>, and <code v-pre>endAngle</code>.</li><li> <code v-pre>image</code>         - an image as defined by one of the <code v-pre>hs.image</code> constructors.</li><li> <code v-pre>oval</code>          - an oval, defined by <code v-pre>frame</code></li><li> <code v-pre>points</code>        - a list of points defined in <code v-pre>coordinates</code>.</li><li> <code v-pre>rectangle</code>     - a rectangle, optionally with rounded corners, defined by <code v-pre>frame</code>.</li><li> <code v-pre>resetClip</code>     - a special type -- indicates that the current clipping shape should be reset to the canvas default (the full canvas area).  See <code v-pre>Clipping Example</code>.  All other attributes, except <code v-pre>action</code> are ignored.</li><li> <code v-pre>segments</code>      - a list of line segments or bezier curves with control points, defined in <code v-pre>coordinates</code>.</li><li> <code v-pre>text</code>          - a string or <code v-pre>hs.styledtext</code> object, defined by <code v-pre>text</code> and <code v-pre>frame</code>.</li><li></li><li>* The following is a list of all valid attributes.  Not all attributes apply to every type, but you can set them for any type.</li><li> <code v-pre>action</code>              - Default <code v-pre>strokeAndFill</code>. A string specifying the action to take for the element in the array.  The following actions are recognized:</li><li>   <code v-pre>clip</code>          - append the shape to the current clipping region for the canvas. Ignored for <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> types.</li><li>   <code v-pre>build</code>         - do not render the element -- its shape is preserved and the next element in the canvas array is appended to it.  This can be used to create complex shapes or clipping regions. The stroke and fill settings for a complex object created in this manner will be those of the final object of the group. Ignored for <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> types.</li><li>   <code v-pre>fill</code>          - fill the canvas element, if it is a shape, or display it normally if it is a <code v-pre>canvas</code>, <code v-pre>image</code> or <code v-pre>text</code>.  Ignored for <code v-pre>resetClip</code>.</li><li>   <code v-pre>skip</code>          - ignore this element or its effects.  Can be used to temporarily &quot;remove&quot; an object from the canvas.</li><li>   <code v-pre>stroke</code>        - stroke (outline) the canvas element, if it is a shape, or display it normally if it is a <code v-pre>canvas</code>, <code v-pre>image</code> or <code v-pre>text</code>.  Ignored for <code v-pre>resetClip</code>.</li><li>   <code v-pre>strokeAndFill</code> - stroke and fill the canvas element, if it is a shape, or display it normally if it is a <code v-pre>canvas</code>, <code v-pre>image</code> or <code v-pre>text</code>.  Ignored for <code v-pre>resetClip</code>.</li><li> <code v-pre>absolutePosition</code>    - Default <code v-pre>true</code>. If false, numeric location and size attributes (<code v-pre>frame</code>, <code v-pre>center</code>, <code v-pre>radius</code>, and <code v-pre>coordinates</code>) will be automatically adjusted when the canvas is resized with <doc-anchor-trigger to="#size">hs.canvas:size</doc-anchor-trigger> or <doc-anchor-trigger to="#frame">hs.canvas:frame</doc-anchor-trigger> so that the element remains in the same relative position in the canvas.</li><li> <code v-pre>absoluteSize</code>        - Default <code v-pre>true</code>. If false, numeric location and size attributes (<code v-pre>frame</code>, <code v-pre>center</code>, <code v-pre>radius</code>, and <code v-pre>coordinates</code>) will be automatically adjusted when the canvas is resized with <doc-anchor-trigger to="#size">hs.canvas:size</doc-anchor-trigger> or <doc-anchor-trigger to="#frame">hs.canvas:frame</doc-anchor-trigger> so that the element maintains the same relative size in the canvas.</li><li> <code v-pre>antialias</code>           - Default <code v-pre>true</code>.  Indicates whether or not antialiasing should be enabled for the element.</li><li> <code v-pre>arcRadii</code>            - Default <code v-pre>true</code>. Used by the <code v-pre>arc</code> and <code v-pre>ellipticalArc</code> types to specify whether or not line segments from the element&#x27;s center to the start and end angles should be included in the element&#x27;s visible portion.  This affects whether the object&#x27;s stroke is a pie-shape or an arc with a chord from the start angle to the end angle.</li><li> <code v-pre>arcClockwise</code>        - Default <code v-pre>true</code>.  Used by the <code v-pre>arc</code> and <code v-pre>ellipticalArc</code> types to specify whether the arc should be drawn from the start angle to the end angle in a clockwise (true) direction or in a counter-clockwise (false) direction.</li><li> <code v-pre>canvas</code>                - Defaults to nil. A separate canvas object which is to be displayed as an element in this canvas.  The object must not currently belong to a visible window.  Assign nil to this property to release a previously assigned object for use elsewhere as an element or on its own.</li><li> <code v-pre>canvasAlpha</code>           - Default <code v-pre>1.0</code>.  Specifies the alpha value to apply to the independent canvas element.</li><li> <code v-pre>compositeRule</code>       - A string, default &quot;sourceOver&quot;, specifying how this element should be combined with earlier elements of the canvas.  See <doc-anchor-trigger to="#compositeTypes">hs.canvas.compositeTypes</doc-anchor-trigger> for a list of valid strings and their descriptions.</li><li> <code v-pre>center</code>              - Default <code v-pre>{ x = &quot;50%&quot;, y = &quot;50%&quot; }</code>.  Used by the <code v-pre>circle</code> and <code v-pre>arc</code> types to specify the center of the canvas element.  The <code v-pre>x</code> and <code v-pre>y</code> fields can be specified as numbers or as a string. When specified as a string, the value is treated as a percentage of the canvas size.  See the section on <doc-anchor-trigger to="#percentages">percentages</doc-anchor-trigger> for more information.</li><li> <code v-pre>clipToPath</code>          - Default <code v-pre>false</code>.   Specifies whether the clipping regions should be temporarily limited to the element&#x27;s shape while rendering this element or not.  This can be used to produce crisper edges, as seen with <code v-pre>hs.drawing</code> but reduces stroke width granularity for widths less than 1.0 and causes occasional &quot;missing&quot; lines with the <code v-pre>segments</code> element type. Ignored for the <code v-pre>canvas</code>, <code v-pre>image</code>, <code v-pre>point</code>, and <code v-pre>text</code> types.</li><li> <code v-pre>closed</code>              - Default <code v-pre>false</code>.  Used by the <code v-pre>segments</code> type to specify whether or not the shape defined by the lines and curves defined should be closed (true) or open (false).  When an object is closed, an implicit line is stroked from the final point back to the initial point of the coordinates listed.</li><li> <code v-pre>coordinates</code>         - An array containing coordinates used by the <code v-pre>segments</code> and <code v-pre>points</code> types to define the lines and curves or points that make up the canvas element.  The following keys are recognized and may be specified as numbers or strings (see the section on <doc-anchor-trigger to="#percentages">percentages</doc-anchor-trigger>).</li><li>   <code v-pre>x</code>   - required for <code v-pre>segments</code> and <code v-pre>points</code>, specifying the x coordinate of a point.</li><li>   <code v-pre>y</code>   - required for <code v-pre>segments</code> and <code v-pre>points</code>, specifying the y coordinate of a point.</li><li>   <code v-pre>c1x</code> - optional for <code v-pre>segments, specifying the x coordinate of the first control point used to draw a bezier curve between this point and the previous point.  Ignored for </code>points<code v-pre>and if present in the first coordinate in the</code>coordinates<code v-pre>array.&lt;/li&gt;&lt;li&gt;  </code>c1y<code v-pre>- optional for</code>segments, specifying the y coordinate of the first control point used to draw a bezier curve between this point and the previous point.  Ignored for <code v-pre>points</code> and if present in the first coordinate in the <code v-pre>coordinates</code> array.</li><li>   <code v-pre>c2x</code> - optional for <code v-pre>segments, specifying the x coordinate of the second control point used to draw a bezier curve between this point and the previous point.  Ignored for </code>points<code v-pre>and if present in the first coordinate in the</code>coordinates<code v-pre>array.&lt;/li&gt;&lt;li&gt;  </code>c2y<code v-pre>- optional for</code>segments, specifying the y coordinate of the second control point used to draw a bezier curve between this point and the previous point.  Ignored for <code v-pre>points</code> and if present in the first coordinate in the <code v-pre>coordinates</code> array.</li><li> <code v-pre>endAngle</code>            - Default <code v-pre>360.0</code>. Used by the <code v-pre>arc</code> and <code v-pre>ellipticalArc</code> to specify the ending angle position for the inscribed arc.</li><li> <code v-pre>fillColor</code>           - Default <code v-pre>{ red = 1.0 }</code>.  Specifies the color used to fill the canvas element when the <code v-pre>action</code> is set to <code v-pre>fill</code> or <code v-pre>strokeAndFill</code> and <code v-pre>fillGradient</code> is equal to <code v-pre>none</code>.  Ignored for the <code v-pre>canvas</code>, <code v-pre>image</code>, <code v-pre>points</code>, and <code v-pre>text</code> types.</li><li> <code v-pre>fillGradient</code>        - Default &quot;none&quot;.  A string specifying whether a fill gradient should be used instead of the fill color when the action is <code v-pre>fill</code> or <code v-pre>strokeAndFill</code>.  May be &quot;none&quot;, &quot;linear&quot;, or &quot;radial&quot;.</li><li> <code v-pre>fillGradientAngle</code>   - Default 0.0.  Specifies the direction of a linear gradient when <code v-pre>fillGradient</code> is linear.</li><li> <code v-pre>fillGradientCenter</code>  - Default <code v-pre>{ x = 0.0, y = 0.0 }</code>. Specifies the relative center point within the elements bounds of a radial gradient when <code v-pre>fillGradient</code> is <code v-pre>radial</code>.  The <code v-pre>x</code> and <code v-pre>y</code> fields must both be between -1.0 and 1.0 inclusive.</li><li> <code v-pre>fillGradientColors</code>  - Default <code v-pre>{ { white = 0.0 }, { white = 1.0 } }</code>.  Specifies the colors to use for the gradient when <code v-pre>fillGradient</code> is not <code v-pre>none</code>.  You must specify at least two colors, each of which must be convertible into the RGB color space (i.e. they cannot be an image being used as a color pattern).  The gradient will blend from the first to the next, and so on until the last color.  If more than two colors are specified, the &quot;color stops&quot; will be placed at evenly spaced intervals within the element.</li><li> <code v-pre>flatness</code>            - Default <code v-pre>0.6</code>.  A number which specifies the accuracy (or smoothness) with which curves are rendered. It is also the maximum error tolerance (measured in pixels) for rendering curves, where smaller numbers give smoother curves at the expense of more computation.</li><li> <code v-pre>flattenPath</code>         - Default <code v-pre>false</code>. Specifies whether curved line segments should be converted into straight line approximations. The granularity of the approximations is controlled by the path&#x27;s current flatness value.</li><li> <code v-pre>frame</code>               - Default <code v-pre>{ x = &quot;0%&quot;, y = &quot;0%&quot;, h = &quot;100%&quot;, w = &quot;100%&quot; }</code>.  Used by the <code v-pre>rectangle</code>, <code v-pre>oval</code>, <code v-pre>ellipticalArc</code>, <code v-pre>text</code>, <code v-pre>canvas</code> and <code v-pre>image</code> types to specify the element&#x27;s position and size.  When the key value for <code v-pre>x</code>, <code v-pre>y</code>, <code v-pre>h</code>, or <code v-pre>w</code> are specified as a string, the value is treated as a percentage of the canvas size.  See the section on <doc-anchor-trigger to="#percentages">percentages</doc-anchor-trigger> for more information.</li><li> <code v-pre>id</code>                  - An optional string or number which is included in mouse callbacks to identify the element which was the target of the mouse event.  If this is not specified for an element, it&#x27;s index position is used instead.</li><li> <code v-pre>image</code>               - Defaults to a blank image.  Used by the <code v-pre>image</code> type to specify an <code v-pre>hs.image</code> object to display as an image.</li><li> <code v-pre>imageAlpha</code>          - Defaults to <code v-pre>1.0</code>.  A number between 0.0 and 1.0 specifying the alpha value to be applied to the image specified by <code v-pre>image</code>.  Note that if an image is a template image, then this attribute will internally default to <code v-pre>0.5</code> unless explicitly set for the element.</li><li> <code v-pre>imageAlignment</code>      - Default &quot;center&quot;. A string specifying the alignment of the image within the canvas element&#x27;s frame.  Valid values for this attribute are &quot;center&quot;, &quot;bottom&quot;, &quot;topLeft&quot;, &quot;bottomLeft&quot;, &quot;bottomRight&quot;, &quot;left&quot;, &quot;right&quot;, &quot;top&quot;, and &quot;topRight&quot;.</li><li> <code v-pre>imageAnimationFrame</code> - Default <code v-pre>0</code>. An integer specifying the image frame to display when the image is from an animated GIF.  This attribute is ignored for other image types.  May be specified as a negative integer indicating that the image frame should be calculated from the last frame and calculated backwards (i.e. specifying <code v-pre>-1</code> selects the last frame for the GIF.)</li><li> <code v-pre>imageAnimates</code>       - Default <code v-pre>false</code>. A boolean specifying whether or not an animated GIF should be animated or if only a single frame should be shown.  Ignored for other image types.</li><li> <code v-pre>imageScaling</code>        - Default &quot;scaleProportionally&quot;.  A string specifying how the image should be scaled within the canvas element&#x27;s frame.  Valid values for this attribute are:</li><li>   <code v-pre>scaleToFit</code>          - shrink the image, preserving the aspect ratio, to fit the drawing frame only if the image is larger than the drawing frame.</li><li>   <code v-pre>shrinkToFit</code>         - shrink or expand the image to fully fill the drawing frame.  This does not preserve the aspect ratio.</li><li>   <code v-pre>none</code>                - perform no scaling or resizing of the image.</li><li>   <code v-pre>scaleProportionally</code> - shrink or expand the image to fully fill the drawing frame, preserving the aspect ration.</li><li> <code v-pre>miterLimit</code>          - Default <code v-pre>10.0</code>. The limit at which miter joins are converted to bevel join when <code v-pre>strokeJoinStyle</code> is <code v-pre>miter</code>.  The miter limit helps you avoid spikes at the junction of two line segments.  When the ratio of the miter length—the diagonal length of the miter join—to the line thickness exceeds the miter limit, the joint is converted to a bevel join. Ignored for the <code v-pre>canvas</code>, <code v-pre>text</code>, and <code v-pre>image</code> types.</li><li> <code v-pre>padding</code>             - Default <code v-pre>0.0</code>. When an element specifies position information by percentage (i.e. as a string), the actual frame used for calculating position values is inset from the canvas frame on all sides by this amount. If you are using shadows with your elements, the shadow position is not included in the element&#x27;s size and position specification; this attribute can be used to provide extra space for the shadow to be fully rendered within the canvas.</li><li> <code v-pre>radius</code>              - Default &quot;50%&quot;. Used by the <code v-pre>arc</code> and <code v-pre>circle</code> types to specify the radius of the circle for the element. May be specified as a string or a number.  When specified as a string, the value is treated as a percentage of the canvas size.  See the section on <doc-anchor-trigger to="#percentages">percentages</doc-anchor-trigger> for more information.</li><li> <code v-pre>reversePath</code>         - Default <code v-pre>false</code>.  Specifies drawing direction for the canvas element.  By default, canvas elements are drawn from the point nearest the origin (top left corner) in a clockwise direction.  Setting this to true causes the element to be drawn in a counter-clockwise direction. This will mostly affect fill and stroke dash patterns, but can also be used with clipping regions to create cut-outs.  Ignored for <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> types.</li><li> <code v-pre>roundedRectRadii</code>    - Default <code v-pre>{ xRadius = 0.0, yRadius = 0.0 }</code>.</li><li> <code v-pre>shadow</code>              - Default <code v-pre>{ blurRadius = 5.0, color = { alpha = 1/3 }, offset = { h = -5.0, w = 5.0 } }</code>.  Specifies the shadow blurring, color, and offset to be added to an element which has <code v-pre>withShadow</code> set to true.</li><li> <code v-pre>startAngle</code>          - Default <code v-pre>0.0</code>. Used by the <code v-pre>arc</code> and <code v-pre>ellipticalArc</code> to specify the starting angle position for the inscribed arc.</li><li> <code v-pre>strokeCapStyle</code>      - Default &quot;butt&quot;. A string which specifies the shape of the endpoints of an open path when stroked.  Primarily noticeable for lines rendered with the <code v-pre>segments</code> type.  Valid values for this attribute are &quot;butt&quot;, &quot;round&quot;, and &quot;square&quot;.</li><li> <code v-pre>strokeColor</code>         - Default <code v-pre>{ white = 0 }</code>.  Specifies the stroke (outline) color for a canvas element when the action is set to <code v-pre>stroke</code> or <code v-pre>strokeAndFill</code>.  Ignored for the <code v-pre>canvas</code>, <code v-pre>text</code>, and <code v-pre>image</code> types.</li><li> <code v-pre>strokeDashPattern</code>   - Default <code v-pre>{}</code>.  Specifies an array of numbers specifying a dash pattern for stroked lines when an element&#x27;s <code v-pre>action</code> attribute is set to <code v-pre>stroke</code> or <code v-pre>strokeAndFill</code>.  The numbers in the array alternate with the first element specifying a dash length in points, the second specifying a gap length in points, the third a dash length, etc.  The array repeats to fully stroke the element.  Ignored for the <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> types.</li><li> <code v-pre>strokeDashPhase</code>     - Default <code v-pre>0.0</code>.  Specifies an offset, in points, where the dash pattern specified by <code v-pre>strokeDashPattern</code> should start. Ignored for the <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> types.</li><li> <code v-pre>strokeJoinStyle</code>     - Default &quot;miter&quot;.  A string which specifies the shape of the joints between connected segments of a stroked path.  Valid values for this attribute are &quot;miter&quot;, &quot;round&quot;, and &quot;bevel&quot;.  Ignored for element types of <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code>.</li><li> <code v-pre>strokeWidth</code>         - Default <code v-pre>1.0</code>.  Specifies the width of stroked lines when an element&#x27;s action is set to <code v-pre>stroke</code> or <code v-pre>strokeAndFill</code>.  Ignored for the <code v-pre>canvas</code>, <code v-pre>image</code>, and <code v-pre>text</code> element types.</li><li> <code v-pre>text</code>                - Default <code v-pre>&quot;&quot;</code>.  Specifies the text to display for a <code v-pre>text</code> element.  This may be specified as a string, or as an <code v-pre>hs.styledtext</code> object.</li><li> <code v-pre>textAlignment</code>       - Default <code v-pre>natural</code>. A string specifying the alignment of the text within a canvas element of type <code v-pre>text</code>.  This field is ignored if the text is specified as an <code v-pre>hs.styledtext</code> object.  Valid values for this attributes are:</li><li>   <code v-pre>left</code>      - the text is visually left aligned.</li><li>   <code v-pre>right</code>     - the text is visually right aligned.</li><li>   <code v-pre>center</code>    - the text is visually center aligned.</li><li>   <code v-pre>justified</code> - the text is justified</li><li>   <code v-pre>natural</code>   - the natural alignment of the text’s script</li><li> <code v-pre>textColor</code>           - Default <code v-pre>{ white = 1.0 }</code>.  Specifies the color to use when displaying the <code v-pre>text</code> element type, if the text is specified as a string.  This field is ignored if the text is specified as an <code v-pre>hs.styledtext</code> object.</li><li> <code v-pre>textFont</code>            - Defaults to the default system font.  A string specifying the name of the font to use when displaying the <code v-pre>text</code> element type, if the text is specified as a string.  This field is ignored if the text is specified as an <code v-pre>hs.styledtext</code> object.</li><li> <code v-pre>textLineBreak</code>       - Default <code v-pre>wordWrap</code>. A string specifying how to wrap text which exceeds the canvas element&#x27;s frame for an element of type <code v-pre>text</code>.  This field is ignored if the text is specified as an <code v-pre>hs.styledtext</code> object.  Valid values for this attribute are:</li><li>   <code v-pre>wordWrap</code>       - wrap at word boundaries, unless the word itself doesn’t fit on a single line</li><li>   <code v-pre>charWrap</code>       - wrap before the first character that doesn’t fit</li><li>   <code v-pre>clip</code>           - do not draw past the edge of the drawing object frame</li><li>   <code v-pre>truncateHead</code>   - the line is displayed so that the end fits in the frame and the missing text at the beginning of the line is indicated by an ellipsis</li><li>   <code v-pre>truncateTail</code>   - the line is displayed so that the beginning fits in the frame and the missing text at the end of the line is indicated by an ellipsis</li><li>   <code v-pre>truncateMiddle</code> - the line is displayed so that the beginning and end fit in the frame and the missing text in the middle is indicated by an ellipsis</li><li> <code v-pre>textSize</code>            - Default <code v-pre>27.0</code>.  Specifies the font size to use when displaying the <code v-pre>text</code> element type, if the text is specified as a string.  This field is ignored if the text is specified as an <code v-pre>hs.styledtext</code> object.</li><li> <code v-pre>trackMouseByBounds</code>  - Default <code v-pre>false</code>. If true, mouse events are based on the element&#x27;s bounds (smallest rectangle which completely contains the element); otherwise, mouse events are based on the visible portion of the canvas element.</li><li> <code v-pre>trackMouseEnterExit</code> - Default <code v-pre>false</code>.  Generates a callback when the mouse enters or exits the canvas element.  For <code v-pre>canvas</code> and <code v-pre>text</code> types, the <code v-pre>frame</code> of the element defines the boundaries of the tracking area.</li><li> <code v-pre>trackMouseDown</code>      - Default <code v-pre>false</code>.  Generates a callback when mouse button is clicked down while the cursor is within the canvas element.  For <code v-pre>canvas</code> and <code v-pre>text</code> types, the <code v-pre>frame</code> of the element defines the boundaries of the tracking area.</li><li> <code v-pre>trackMouseUp</code>        - Default <code v-pre>false</code>.  Generates a callback when mouse button is released while the cursor is within the canvas element.  For <code v-pre>canvas</code> and <code v-pre>text</code> types, the <code v-pre>frame</code> of the element defines the boundaries of the tracking area.</li><li> <code v-pre>trackMouseMove</code>      - Default <code v-pre>false</code>.  Generates a callback when the mouse cursor moves within the canvas element.  For <code v-pre>canvas</code> and <code v-pre>text</code> types, the <code v-pre>frame</code> of the element defines the boundaries of the tracking area.</li><li> <code v-pre>transformation</code>      - Default <code v-pre>{ m11 = 1.0, m12 = 0.0, m21 = 0.0, m22 = 1.0, tX = 0.0, tY = 0.0 }</code>. Specifies a matrix transformation to apply to the element before displaying it.  Transformations may include rotation, translation, scaling, skewing, etc.</li><li> <code v-pre>windingRule</code>         - Default &quot;nonZero&quot;.  A string specifying the winding rule in effect for the canvas element. May be &quot;nonZero&quot; or &quot;evenOdd&quot;.  The winding rule determines which portions of an element to fill. This setting will only have a visible effect on compound elements (built with the <code v-pre>build</code> action) or elements of type <code v-pre>segments</code> when the object is made from lines which cross.</li><li> <code v-pre>withShadow</code>          - Default <code v-pre>false</code>. Specifies whether a shadow effect should be applied to the canvas element.  Ignored for the <code v-pre>text</code> type.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L15">extensions/canvas/canvas.lua line 15</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -868,6 +924,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Metamethods are assigned to the canvas object so that you can refer to individual elements of the canvas as if the canvas object was an array.  Each element is represented by a table of key-value pairs, where each key represents an attribute for that element.  Valid index numbers range from 1 to <doc-anchor-trigger to="#elementCount">hs.canvas:elementCount()</doc-anchor-trigger> when getting an element or getting or setting one of its attributes, and from 1 to <doc-anchor-trigger to="#elementCount">hs.canvas:elementCount()</doc-anchor-trigger> + 1 when assign an element table to an index in the canvas.  For example:</li><li></li><li><sub><del>lua</li><li>c = require(&quot;hs.canvas&quot;)</li><li>a = c.new:show()</li><li>a:insertElement({ type = &quot;rectangle&quot;, id = &quot;part1&quot;, fillColor =  })</li><li>a:insertElement({ type = &quot;circle&quot;, id = &quot;part2&quot;, fillColor =  })</li><li></del></sub></li><li>can also be expressed as:</li><li><sub><del>lua</li><li>c = require(&quot;hs.canvas&quot;)</li><li>a = c.new:show()</li><li>a[1] = { type = &quot;rectangle&quot;, id = &quot;part1&quot;, fillColor =  }</li><li>a[2] = { type = &quot;circle&quot;, id = &quot;part2&quot;, fillColor =  }</li><li></del></sub></li><li></li><li>You can change a canvas element&#x27;s attributes using this same style: <code v-pre>a[2].fillColor.alpha = .5</code> will adjust the alpha value for element 2 of the canvas without adjusting any of the other color fields.  To replace the color entirely, assign it like this: <code v-pre>a[2].fillColor = { white = .5, alpha = .25 }</code></li><li></li><li>The canvas defaults can also be accessed with the <code v-pre>_default</code> field like this: <code v-pre>a._default.strokeWidth = 5</code>.</li><li></li><li>Attributes which have a string specified as their <code v-pre>id</code> attribute can also be accessed as if the <code v-pre>id</code> where a <code v-pre>key</code> in the table-like canvas: e.g. <code v-pre>a.part2.action = &quot;skip&quot;</code></li><li></li><li>It is important to note that these methods are a convenience and that the canvas object is not a true table.  The tables are generated dynamically as needed; as such <code v-pre>hs.inspect</code> cannot properly display them; however, you can just type in the element or element attribute you wish to see expanded in the Hammerspoon console (or in a <code v-pre>print</code> command) to see the assigned attributes, e.g. <code v-pre>a[1]</code> or <code v-pre>a[2].fillColor</code>, and an inspect-like output will be provided.</li><li></li><li>Attributes which allow using a string to specify a percentage (see <doc-anchor-trigger to="#percentages">percentages</doc-anchor-trigger>) can also be retrieved as their actual number for the canvas&#x27;s current size by appending <code v-pre>_raw</code> to the attribute name, e.g. <code v-pre>a[2].frame_raw</code>.</li><li></li><li>Because the canvas object is actually a Lua userdata, and not a real table, you cannot use the <code v-pre>table.insert</code> and <code v-pre>table.remove</code> functions on it.  For inserting or removing an element in any position except at the end of the canvas, you must still use <doc-anchor-trigger to="#insertElement">hs.canvas:insertElement</doc-anchor-trigger> and <doc-anchor-trigger to="#removeElement">hs.canvas:removeElement</doc-anchor-trigger>.</li><li></li><li>You can, however, remove the last element with <code v-pre>a[#a] = nil</code>.</li><li></li><li>To print out all of the elements in the canvas with: <code v-pre>for i, v in ipairs(a) do print(v) end</code>.  The <code v-pre>pairs</code> iterator will also work, and will work on element sub-tables (transformations, fillColor and strokeColor, etc.), but this iterator does not guarantee order.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L603">extensions/canvas/canvas.lua line 603</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -902,6 +962,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Percentages may be assigned to the following attributes:</li><li><code v-pre>frame</code>       - the frame used by the <code v-pre>rectangle</code>, <code v-pre>oval</code>, <code v-pre>ellipticalArc</code>, <code v-pre>text</code>, and <code v-pre>image</code> types.  The <code v-pre>x</code> and <code v-pre>w</code> fields will be a percentage of the canvas&#x27;s width, and the <code v-pre>y</code> and <code v-pre>h</code> fields will be a percentage of the canvas&#x27;s height.</li><li><code v-pre>center</code>      - the center point for the <code v-pre>circle</code> and <code v-pre>arc</code> types.  The <code v-pre>x</code> field will be a percentage of the canvas&#x27;s width and the <code v-pre>y</code> field will be a percentage of the canvas&#x27;s height.</li><li><code v-pre>radius</code>      - the radius for the <code v-pre>circle</code> and <code v-pre>arc</code> types.  The radius will be a percentage of the canvas&#x27;s width.</li><li><code v-pre>coordinates</code> - the point coordinates used by the <code v-pre>segments</code> and <code v-pre>points</code> types.  X coordinates (fields <code v-pre>x</code>, <code v-pre>c1x</code>, and <code v-pre>c2x</code>) will be a percentage of the canvas&#x27;s width, and Y coordinates (fields <code v-pre>y</code>, <code v-pre>c1y</code>, and <code v-pre>c2y</code>) will be a percentage of the canvas&#x27;s height.</li><li></li><li>Percentages are assigned to these fields as a string.  If the number in the string ends with a percent sign (%), then the percentage is the whole number which precedes the percent sign.  If no percent sign is present, the percentage is expected in decimal format (e.g. &quot;1.0&quot; is the same as &quot;100%&quot;).</li><li></li><li>Because a shadow applied to a canvas element is not considered as part of the element&#x27;s bounds, you can also set the <code v-pre>padding</code> attribute to a positive number of points to inset the calculated values by from each edge of the canvas&#x27;s frame so that the shadow will be fully visible within the canvas, even when an element is set to a width and height of &quot;100%&quot;.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L734">extensions/canvas/canvas.lua line 734</a></td>
 </tr>
 </tbody>
 </table>
@@ -952,6 +1016,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Most people will probably not need to use this method; See <doc-anchor-trigger to="#useCustomAccessibilitySubrole">hs.canvas.useCustomAccessibilitySubrole</doc-anchor-trigger> for a discussion as to why this method may be of use when Hammerspoon is being controlled through the accessibility framework by other applications.</li><li></li><li>If a non empty string is specified as the argument to this method, the string will be returned whenever the canvas object&#x27;s containing window is queried for its accessibility subrole.</li><li>The other possible values depend upon the value registered with <doc-anchor-trigger to="#useCustomAccessibilitySubrole">hs.canvas.useCustomAccessibilitySubrole</doc-anchor-trigger>:</li><li>  If <code v-pre>useCustomAccessibilitySubrole</code> is set to true (the default):</li><li>    If an explicit <code v-pre>nil</code> (the default) is specified for this method, the string returned when the canvas object&#x27;s accessibility is queried will be the default macOS subrole for the canvas&#x27;s window with the string &quot;.Hammerspoon<code v-pre>appended to it.&lt;/li&gt;&lt;li&gt;    If the empty string is specified (e.g.</code><cite><code v-pre>), then the default macOS subrole for the canvas's window will be returned.&lt;/li&gt;&lt;li&gt;  If </code>useCustomAccessibilitySubrole<code v-pre>is set to false:&lt;/li&gt;&lt;li&gt;    If an explicit</code>nil<code v-pre>(the default) is specified for this method, then the default macOS subrole for the canvas's window will be returned.&lt;/li&gt;&lt;li&gt;    If the empty string is specified (e.g.</code></cite><code v-pre>), the string returned when the canvas object's accessibility is queried will be the default macOS subrole for the canvas's window with the string &quot;.Hammerspoon</code> appended to it.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2474">extensions/canvas/libcanvas.m line 2474</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -994,6 +1066,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2986">extensions/canvas/libcanvas.m line 2986</a></td>
 </tr>
 </tbody>
 </table>
@@ -1038,6 +1118,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>You can also specify multiple elements in a table as an array, where each index in the table contains an element table, and use the array as a single argument to this method if this style works better in your code.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L348">extensions/canvas/canvas.lua line 348</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1081,6 +1169,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>When the index specified is the canvas element count + 1, the behavior of this method is the same as <doc-anchor-trigger to="#insertElement">hs.canvas:insertElement</doc-anchor-trigger>; i.e. it adds the new element to the end of the currently defined element list.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3664">extensions/canvas/libcanvas.m line 3664</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1101,7 +1197,9 @@ integer - a number representing the behavior which can be created by combining v
 string  - a single key from <doc-anchor-trigger to="#windowBehaviors">hs.canvas.windowBehaviors</doc-anchor-trigger> which will be toggled in the current window behavior.
 table   - a list of keys from <doc-anchor-trigger to="#windowBehaviors">hs.canvas.windowBehaviors</doc-anchor-trigger> which will be combined to make the final behavior by combining their values with the logical or operator.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if an argument is provided, then the canvasObject is returned; otherwise the current behavior value is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L160">extensions/canvas/canvas.lua line 160</a> |</p>
 <hr />
 <doc-anchor-target id="behavioraslabels">
     <h3>
@@ -1142,6 +1240,14 @@ table   - a list of keys from <doc-anchor-trigger to="#windowBehaviors">hs.canva
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L204">extensions/canvas/canvas.lua line 204</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1161,7 +1267,9 @@ table   - a list of keys from <doc-anchor-trigger to="#windowBehaviors">hs.canva
 if true, place the canvas on top of all windows (including the dock and menubar and fullscreen windows).
 if false, place the canvas above normal windows, but below the dock, menubar and fullscreen windows.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The canvas object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.canvas</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.canvas</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L286">extensions/canvas/canvas.lua line 286</a> |</p>
 <hr />
 <doc-anchor-target id="canvasdefaultfor">
     <h3>
@@ -1201,6 +1309,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Not all keys will apply to all element types.</li><li>Currently set and built-in defaults may be retrieved in a table with <doc-anchor-trigger to="#canvasDefaults">hs.canvas:canvasDefaults</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3272">extensions/canvas/libcanvas.m line 3272</a></td>
 </tr>
 </tbody>
 </table>
@@ -1245,6 +1361,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3566">extensions/canvas/libcanvas.m line 3566</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1287,6 +1411,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Not all keys will apply to all element types.</li><li>To change the defaults for the canvas, use <doc-anchor-trigger to="#canvasDefaultFor">hs.canvas:canvasDefaultFor</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3533">extensions/canvas/libcanvas.m line 3533</a></td>
 </tr>
 </tbody>
 </table>
@@ -1331,6 +1463,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3594">extensions/canvas/libcanvas.m line 3594</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1373,6 +1513,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Each value that you wish to set must be provided in the order given above, but you may specify a position as <code v-pre>nil</code> to indicate that whatever it&#x27;s current state, no change should be applied.  For example, to activate a callback for entering and exiting the canvas without changing the current callback status for up or down button clicks, you could use: <code v-pre>hs.canvas:canvasMouseTracking(nil, nil, true)</code>.</li><li></li><li>Use <doc-anchor-trigger to="#mouseCallback">hs.canvas:mouseCallback</doc-anchor-trigger> to set the callback function.  The identifier field in the callback&#x27;s argument list will be &quot;<em>canvas</em>&quot;, but otherwise identical to those specified in <doc-anchor-trigger to="#mouseCallback">hs.canvas:mouseCallback</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2777">extensions/canvas/libcanvas.m line 2777</a></td>
 </tr>
 </tbody>
 </table>
@@ -1417,6 +1565,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>Setting this to false changes a canvas object&#x27;s AXsubrole value and may affect the results of filters used with <code v-pre>hs.window.filter</code>, depending upon how they are defined.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2742">extensions/canvas/libcanvas.m line 2742</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1459,6 +1615,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The copy of the canvas will be identical in all respects except:</li><li>  The new canvas will not have a callback function assigned, even if the original canvas does.</li><li>  The new canvas will not initially be visible, even if the original is.</li><li>The new canvas is an independent entity -- any subsequent changes to either canvas will not be reflected in the other canvas.</li><li></li><li>This method allows you to display a canvas in multiple places or use it as a canvas element multiple times.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L431">extensions/canvas/canvas.lua line 431</a></td>
 </tr>
 </tbody>
 </table>
@@ -1503,6 +1667,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3170">extensions/canvas/libcanvas.m line 3170</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1545,6 +1717,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should expect 3 arguments and optionally return 1: the canvas object itself, a message specifying the type of dragging event, and a table containing details about the item(s) being dragged.  The key-value pairs of the details table will be the following:</li><li>  <code v-pre>pasteboard</code> - the name of the pasteboard that contains the items being dragged</li><li>  <code v-pre>sequence</code>   - an integer that uniquely identifies the dragging session.</li><li>  <code v-pre>mouse</code>      - a point table containing the location of the mouse pointer within the canvas corresponding to when the callback occurred.</li><li>  <code v-pre>operation</code>  - a table containing string descriptions of the type of dragging the source application supports. Potentially useful for determining if your callback function should accept the dragged item or not.</li><li></li><li>* The possible messages the callback function may receive are as follows:</li><li>  &quot;enter&quot;   - the user has dragged an item into the canvas.  When your callback receives this message, you can optionally return false to indicate that you do not wish to accept the item being dragged.</li><li>  &quot;exit&quot;    - the user has moved the item out of the canvas; if the previous &quot;enter&quot; callback returned false, this message will also occur when the user finally releases the items being dragged.</li><li>  &quot;receive&quot; - indicates that the user has released the dragged object while it is still within the canvas frame.  When your callback receives this message, you can optionally return false to indicate to the sending application that you do not want to accept the dragged item -- this may affect the animations provided by the sending application.</li><li></li><li>You can use the sequence number in the details table to match up an &quot;enter&quot; with an &quot;exit&quot; or &quot;receive&quot; message.</li><li></li><li>You should capture the details you require from the drag-and-drop operation during the callback for &quot;receive&quot; by using the pasteboard field of the details table and the <code v-pre>hs.pasteboard</code> module.  Because of the nature of &quot;promised items&quot;, it is not guaranteed that the items will still be on the pasteboard after your callback completes handling this message.</li><li></li><li>A canvas object can only accept drag-and-drop items when its window level is at <doc-anchor-trigger to="#windowLevels">hs.canvas.windowLevels.dragging</doc-anchor-trigger> or lower.</li><li>a canvas object can only accept drag-and-drop items when it accepts mouse events.  You must define a <doc-anchor-trigger to="#mouseCallback">hs.canvas:mouseCallback</doc-anchor-trigger> function, even if it is only a placeholder, e.g. <code v-pre>hs.canvas:mouseCallback(function() end)</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2428">extensions/canvas/libcanvas.m line 2428</a></td>
 </tr>
 </tbody>
 </table>
@@ -1589,6 +1769,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3411">extensions/canvas/libcanvas.m line 3411</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1631,6 +1819,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>For many elements, this will be the same as the element frame.  For items without a frame (e.g. <code v-pre>segments</code>, <code v-pre>circle</code>, etc.) this will be the smallest rectangle which can fully contain the canvas element as specified by it&#x27;s attributes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3612">extensions/canvas/libcanvas.m line 3612</a></td>
 </tr>
 </tbody>
 </table>
@@ -1675,6 +1871,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3516">extensions/canvas/libcanvas.m line 3516</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1717,6 +1921,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Any attribute which has been explicitly set for the element will be included in the key list (even if it is ignored for the element type).  If the <code v-pre>optional</code> flag is set to true, the <em>additional</em> attribute names added to the list will only include those which are relevant to the element type.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3475">extensions/canvas/libcanvas.m line 3475</a></td>
 </tr>
 </tbody>
 </table>
@@ -1761,6 +1973,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the canvas (keys <code v-pre>x</code>  and <code v-pre>y</code>) and the new size (keys <code v-pre>h</code> and <code v-pre>w</code>).  The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li><li></li><li>elements in the canvas that have the <code v-pre>absolutePosition</code> attribute set to false will be moved so that their relative position within the canvas remains the same with respect to the new size.</li><li>elements in the canvas that have the <code v-pre>absoluteSize</code> attribute set to false will be resized so that their relative size with respect to the canvas remains the same with respect to the new size.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L247">extensions/canvas/canvas.lua line 247</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1803,6 +2023,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2655">extensions/canvas/libcanvas.m line 2655</a></td>
 </tr>
 </tbody>
 </table>
@@ -1847,6 +2075,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>The canvas does not have to be visible in order for an image to be generated from it.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2867">extensions/canvas/libcanvas.m line 2867</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1889,6 +2125,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>see also <doc-anchor-trigger to="#assignElement">hs.canvas:assignElement</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3329">extensions/canvas/libcanvas.m line 3329</a></td>
 </tr>
 </tbody>
 </table>
@@ -1933,6 +2177,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>If any part of the canvas is visible (even if that portion of the canvas does not contain any canvas elements), then the canvas is not considered occluded.</li><li>a canvas which is completely covered by one or more opaque windows is considered occluded; however, if the windows covering the canvas are not opaque, then the canvas is not occluded.</li><li>a canvas that is currently hidden or with a height of 0 or a width of 0 is considered occluded.</li><li>See also <doc-anchor-trigger to="#isShowing">hs.canvas:isShowing</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3242">extensions/canvas/libcanvas.m line 3242</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1975,6 +2227,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method only determines whether or not the canvas is being shown or is hidden -- it does not indicate whether or not the canvas is currently off screen or is occluded by other objects.</li><li>See also <doc-anchor-trigger to="#isOccluded">hs.canvas:isOccluded</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3214">extensions/canvas/libcanvas.m line 3214</a></td>
 </tr>
 </tbody>
 </table>
@@ -2019,6 +2279,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>This is syntactic sugar for <code v-pre>not hs.canvas:isOccluded()</code>.</li><li>See <doc-anchor-trigger to="#isOccluded">hs.canvas:isOccluded</doc-anchor-trigger> for more details.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L333">extensions/canvas/canvas.lua line 333</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2061,6 +2329,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3055">extensions/canvas/libcanvas.m line 3055</a></td>
 </tr>
 </tbody>
 </table>
@@ -2105,6 +2381,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>Multi-line text (separated by a newline or return) is supported.  The height will be for the multiple lines and the width returned will be for the longest line.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2510">extensions/canvas/libcanvas.m line 2510</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2147,6 +2431,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should expect 5 arguments: the canvas object itself, a message specifying the type of mouse event, the canvas element <code v-pre>id</code> (or index position in the canvas if the <code v-pre>id</code> attribute is not set for the element), the x position of the mouse when the event was triggered within the rendered portion of the canvas element, and the y position of the mouse when the event was triggered within the rendered portion of the canvas element.</li><li>See also <doc-anchor-trigger to="#canvasMouseEvents">hs.canvas:canvasMouseEvents</doc-anchor-trigger> for tracking mouse events in regions of the canvas not covered by an element with mouse tracking enabled.</li><li></li><li>The following mouse attributes may be set to true for a canvas element and will invoke the callback with the specified message:</li><li>  <code v-pre>trackMouseDown</code>      - indicates that a callback should be invoked when a mouse button is clicked down on the canvas element.  The message will be &quot;mouseDown&quot;.</li><li>  <code v-pre>trackMouseUp</code>        - indicates that a callback should be invoked when a mouse button has been released over the canvas element.  The message will be &quot;mouseUp&quot;.</li><li>  <code v-pre>trackMouseEnterExit</code> - indicates that a callback should be invoked when the mouse pointer enters or exits the  canvas element.  The message will be &quot;mouseEnter&quot; or &quot;mouseExit&quot;.</li><li>  <code v-pre>trackMouseMove</code>      - indicates that a callback should be invoked when the mouse pointer moves within the canvas element.  The message will be &quot;mouseMove&quot;.</li><li></li><li>The callback mechanism uses reverse z-indexing to determine which element will receive the callback -- the topmost element of the canvas which has enabled callbacks for the specified message will be invoked.</li><li></li><li>No distinction is made between the left, right, or other mouse buttons. If you need to determine which specific button was pressed, use <code v-pre>hs.eventtap.checkMouseButtons()</code> within your callback to check.</li><li></li><li>The hit point detection occurs by comparing the mouse pointer location to the rendered content of each individual canvas object... if an object which obscures a lower object does not have mouse tracking enabled, the lower object will still receive the event if it does have tracking enabled.</li><li></li><li>Clipping regions which remove content from the visible area of a rendered object are ignored for the purposes of element hit-detection.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2691">extensions/canvas/libcanvas.m line 2691</a></td>
 </tr>
 </tbody>
 </table>
@@ -2191,6 +2483,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>If the canvas object and canvas2 are not at the same presentation level, this method will move the canvas object as close to the desired relationship as possible without changing the canvas object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.canvas.level</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3023">extensions/canvas/libcanvas.m line 3023</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2233,6 +2533,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the canvas object and canvas2 are not at the same presentation level, this method will move the canvas object as close to the desired relationship as possible without changing the canvas object&#x27;s presentation level. See <doc-anchor-trigger to="#level">hs.canvas.level</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3039">extensions/canvas/libcanvas.m line 3039</a></td>
 </tr>
 </tbody>
 </table>
@@ -2277,6 +2585,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3378">extensions/canvas/libcanvas.m line 3378</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2319,6 +2635,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You can also specify multiple elements in a table as an array, where each index in the table contains an element table, and use the array as a single argument to this method if this style works better in your code.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L367">extensions/canvas/canvas.lua line 367</a></td>
 </tr>
 </tbody>
 </table>
@@ -2363,6 +2687,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>a point-table is a table with key-value pairs specifying a coordinate in the canvas (keys <code v-pre>x</code>  and <code v-pre>y</code>). The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li><li>The center of the object is determined by getting the element&#x27;s bounds with <doc-anchor-trigger to="#elementBounds">hs.canvas:elementBounds</doc-anchor-trigger>.</li><li>If the third argument is a boolean value, the <code v-pre>point</code> argument is assumed to be the element&#x27;s center and the boolean value is used as the <code v-pre>append</code> argument.</li><li></li><li>This method uses <a href="matrix.md">hs.canvas.matrix</a> to generate the rotation transformation and provides a wrapper for <code v-pre>hs.canvas.matrix.translate(x, y):rotate(angle):translate(-x, -y)</code> which is then assigned or appended to the element&#x27;s existing <code v-pre>transformation</code> attribute.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L387">extensions/canvas/canvas.lua line 387</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2405,6 +2737,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/canvas.lua#L314">extensions/canvas/canvas.lua line 314</a></td>
 </tr>
 </tbody>
 </table>
@@ -2449,6 +2789,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>if the canvas is in use as an element in another canvas, this method will result in an error.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2617">extensions/canvas/libcanvas.m line 2617</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2491,6 +2839,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>a size-table is a table with key-value pairs specifying the size (keys <code v-pre>h</code> and <code v-pre>w</code>) the canvas should be resized to. The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li><li></li><li>elements in the canvas that have the <code v-pre>absolutePosition</code> attribute set to false will be moved so that their relative position within the canvas remains the same with respect to the new size.</li><li>elements in the canvas that have the <code v-pre>absoluteSize</code> attribute set to false will be resized so that their relative size with respect to the canvas remains the same with respect to the new size.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2892">extensions/canvas/libcanvas.m line 2892</a></td>
 </tr>
 </tbody>
 </table>
@@ -2535,6 +2891,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the canvas (keys <code v-pre>x</code>  and <code v-pre>y</code>). The table may be crafted by any method which includes these keys, including the use of an <code v-pre>hs.geometry</code> object.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2830">extensions/canvas/libcanvas.m line 2830</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2578,6 +2942,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <td><strong>Notes</strong></td>
 <td><ul><li>An example use for this method would be to change the canvas&#x27;s origin point  from the lower left corner of the canvas to somewhere else, like the middle of the canvas.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L2588">extensions/canvas/libcanvas.m line 2588</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2620,6 +2992,14 @@ if false, place the canvas above normal windows, but below the dock, menubar and
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method can help smooth the display of small text objects on non-Retina monitors.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/canvas/libcanvas.m#L3105">extensions/canvas/libcanvas.m line 3105</a></td>
 </tr>
 </tbody>
 </table>

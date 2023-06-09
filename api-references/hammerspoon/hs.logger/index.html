@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -446,6 +446,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L203">extensions/logger/logger.lua line 203</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -495,6 +499,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L94">extensions/logger/logger.lua line 94</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -537,6 +549,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>if you change history size (other than from 0) after creating any logger instances, things will likely break</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L69">extensions/logger/logger.lua line 69</a></td>
 </tr>
 </tbody>
 </table>
@@ -581,6 +601,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>the logger instance created by this method is not a regular object, but a plain table with &quot;static&quot; functions;</li><li>   therefore, do not use the colon syntax for so-called &quot;methods&quot; in this module (as in <code v-pre>mylogger.setLogLevel(3)</code>);</li><li>   you must instead use the regular dot syntax: <code v-pre>mylogger.setLogLevel(3)</code></li><li></li><li>Example:</li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local log = hs.logger.new('mymodule','debug')&lt;/li&gt;&lt;li&gt;log.i('Initializing') -- will print &quot;[mymodule] Initializing&quot; to the console</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L211">extensions/logger/logger.lua line 211</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -623,6 +651,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L139">extensions/logger/logger.lua line 139</a></td>
 </tr>
 </tbody>
 </table>
@@ -667,6 +703,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L30">extensions/logger/logger.lua line 30</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -710,6 +754,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function only affects <em>module</em>-level loggers, object instances with their own loggers (e.g. windowfilters) won&#x27;t be affected;</li><li>   you can use <code v-pre>hs.logger.setGlobalLogLevel()</code> for those</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L46">extensions/logger/logger.lua line 46</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -750,6 +802,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L285">extensions/logger/logger.lua line 285</a></td>
 </tr>
 </tbody>
 </table>
@@ -800,6 +856,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L352">extensions/logger/logger.lua line 352</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -842,6 +906,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L362">extensions/logger/logger.lua line 362</a></td>
 </tr>
 </tbody>
 </table>
@@ -886,6 +958,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L289">extensions/logger/logger.lua line 289</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -928,6 +1008,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L299">extensions/logger/logger.lua line 299</a></td>
 </tr>
 </tbody>
 </table>
@@ -972,6 +1060,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L341">extensions/logger/logger.lua line 341</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1014,6 +1110,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L275">extensions/logger/logger.lua line 275</a></td>
 </tr>
 </tbody>
 </table>
@@ -1058,6 +1162,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L331">extensions/logger/logger.lua line 331</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1100,6 +1212,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L265">extensions/logger/logger.lua line 265</a></td>
 </tr>
 </tbody>
 </table>
@@ -1144,6 +1264,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L373">extensions/logger/logger.lua line 373</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1186,6 +1314,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L383">extensions/logger/logger.lua line 383</a></td>
 </tr>
 </tbody>
 </table>
@@ -1230,6 +1366,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L310">extensions/logger/logger.lua line 310</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1272,6 +1416,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/logger/logger.lua#L320">extensions/logger/logger.lua line 320</a></td>
 </tr>
 </tbody>
 </table>

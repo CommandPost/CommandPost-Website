@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -431,7 +431,9 @@ task - The hs.task object or nil if this is the final output of the completed ta
 stdOut - A string containing the standard output received since the last call to this callback
 stdErr - A string containing the standard error output received since the last call to this callback</li><li>arguments - An optional table of command line argument strings for the executable</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.task</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The arguments are not processed via a shell, so you do not need to do any quoting or escaping. They are passed to the executable exactly as provided.</li><li>When using a stream callback, the callback may be invoked one last time after the termination callback has already been invoked. In this case, the <code v-pre>task</code> argument to the stream callback will be <code v-pre>nil</code> rather than the task userdata object and the return value of the stream callback will be ignored.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>The arguments are not processed via a shell, so you do not need to do any quoting or escaping. They are passed to the executable exactly as provided.</li><li>When using a stream callback, the callback may be invoked one last time after the termination callback has already been invoked. In this case, the <code v-pre>task</code> argument to the stream callback will be <code v-pre>nil</code> rather than the task userdata object and the return value of the stream callback will be ignored.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L176">extensions/task/libtask.m line 176</a> |</p>
 <hr />
 <doc-anchor-target id="methods">
     <h4>
@@ -478,6 +480,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>This should only be called on tasks with a streaming callback - tasks without it will automatically close stdin when any data supplied via <code v-pre>hs.task:setInput()</code> has been written</li><li>This is primarily useful for sending EOF to long-running tasks</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L323">extensions/task/libtask.m line 323</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -520,6 +530,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>if you have not yet set an environment table with the <code v-pre>hs.task:setEnvironment</code> method, this method will return a copy of the Hammerspoon environment table, as this is what the task will inherit by default.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L745">extensions/task/libtask.m line 745</a></td>
 </tr>
 </tbody>
 </table>
@@ -564,6 +582,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>This will send SIGINT to the process</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L535">extensions/task/libtask.m line 535</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -606,6 +632,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>A task which has not yet been started yet will also return false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L683">extensions/task/libtask.m line 683</a></td>
 </tr>
 </tbody>
 </table>
@@ -650,6 +684,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>If the task is not paused, the error message will be printed to the Hammerspoon Console</li><li>This method can be called multiple times, but a matching number of <code v-pre>hs.task:resume()</code> calls will be required to allow the process to continue</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L563">extensions/task/libtask.m line 563</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -692,6 +734,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The PID will still be returned if the task has already completed and the process terminated</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L433">extensions/task/libtask.m line 433</a></td>
 </tr>
 </tbody>
 </table>
@@ -736,6 +786,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>If the task is not resumed successfully, the error message will be printed to the Hammerspoon Console</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L596">extensions/task/libtask.m line 596</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -778,6 +836,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L254">extensions/task/libtask.m line 254</a></td>
 </tr>
 </tbody>
 </table>
@@ -822,6 +888,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>If you do not set an environment table with this method, the task will inherit the environment variables of the Hammerspoon application.  Set this to an empty table if you wish for no variables to be set for the task.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L770">extensions/task/libtask.m line 770</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -864,6 +938,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method can be called before the task has been started, to prepare some input for it (particularly if it is not a streaming task)</li><li>If this method is called multiple times, any input that has not been passed to the task already, is discarded (for streaming tasks, the data is generally consumed very quickly, but for now there is no way to synchronize this)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L278">extensions/task/libtask.m line 278</a></td>
 </tr>
 </tbody>
 </table>
@@ -908,6 +990,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>For information about the requirements of the callback function, see <code v-pre>hs.task.new()</code></li><li>If a callback is removed without it previously having returned false, any further stdout/stderr output from the task will be silently discarded</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L351">extensions/task/libtask.m line 351</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -950,6 +1040,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You can only set the working directory if the task has not already been started.</li><li>This will only set the directory that the task starts in.  The task itself can change the directory while it is running.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L401">extensions/task/libtask.m line 401</a></td>
 </tr>
 </tbody>
 </table>
@@ -994,6 +1092,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>If the task does not start successfully, the error message will be printed to the Hammerspoon Console</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L454">extensions/task/libtask.m line 454</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1036,6 +1142,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This will send SIGTERM to the process</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L507">extensions/task/libtask.m line 507</a></td>
 </tr>
 </tbody>
 </table>
@@ -1080,6 +1194,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L710">extensions/task/libtask.m line 710</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1122,6 +1244,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L652">extensions/task/libtask.m line 652</a></td>
 </tr>
 </tbody>
 </table>
@@ -1166,6 +1296,14 @@ stdErr - A string containing the standard error output received since the last c
 <td><strong>Notes</strong></td>
 <td><ul><li>All Lua and Hammerspoon activity will be blocked by this method. Its use is highly discouraged.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L628">extensions/task/libtask.m line 628</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1208,6 +1346,14 @@ stdErr - A string containing the standard error output received since the last c
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This only returns the directory that the task starts in.  If the task changes the directory itself, this value will not reflect that change.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/task/libtask.m#L379">extensions/task/libtask.m line 379</a></td>
 </tr>
 </tbody>
 </table>

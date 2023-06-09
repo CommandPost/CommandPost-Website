@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -763,6 +763,10 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1402">src/extensions/cp/prop/init.lua line 1402</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -812,6 +816,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you are binding multiple <code v-pre>cp.prop</code> values that are dependent on other <code v-pre>cp.prop</code> values on the same owner (e.g. via <code v-pre>mutate</code> or a boolean join), you</li><li>  will have to break it up into multiple <code v-pre>prop.bind(...) {...}</code> calls, so that the dependent property can access the bound property.</li><li>If a <code v-pre>cp.prop</code> provided as bindings already has a bound owner, it will be wrapped instead of bound directly.</li><li>To use, do something like this:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local o = {}&lt;/li&gt;&lt;li&gt;prop.bind(o) {&lt;/li&gt;&lt;li&gt;    foo = prop.TRUE(),&lt;/li&gt;&lt;li&gt;    bar = prop.THIS(&quot;Hello world&quot;),&lt;/li&gt;&lt;li&gt;}&lt;/li&gt;&lt;li&gt;</code></li><li></li><li>This is equivalent to the following:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local o = {}&lt;/li&gt;&lt;li&gt;o.foo = prop.TRUE():bind(o):label(&quot;foo&quot;)&lt;/li&gt;&lt;li&gt;-- alternately...&lt;/li&gt;&lt;li&gt;prop.THIS(&quot;Hello world&quot;):bind(o, &quot;bar&quot;)&lt;/li&gt;&lt;li&gt;</code></li><li></li><li>It has the added benefit of checking that the target properties (&#x27;foo&#x27; and &#x27;bar&#x27; in this case) have not already been assigned a value.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1714">src/extensions/cp/prop/init.lua line 1714</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -855,6 +867,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1692">src/extensions/cp/prop/init.lua line 1692</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -897,6 +917,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L345">src/extensions/cp/prop/init.lua line 345</a></td>
 </tr>
 </tbody>
 </table>
@@ -947,6 +975,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>The value of this instance will resolve by lazily checking the <code v-pre>value</code> of the contained <code v-pre>cp.prop</code> instances in the order provided. The first <code v-pre>falsy</code> value will be returned. Otherwise the last <code v-pre>truthy</code> value is returned.</li><li>The instance is <strong>immutable</strong>.</li><li>Once you have created an &#x27;AND&#x27;, you cannot &#x27;OR&#x27; as a method. Eg, this will fail: <code v-pre>prop.TRUE():AND(prop:FALSE()):OR(prop.TRUE())</code>. This is to avoid ambiguity as to whether the &#x27;AND&#x27; or &#x27;OR&#x27; takes precedence. Is it <code v-pre>(true and false) or true</code> or <code v-pre>true and (false or true)</code>?.</li><li>To combine &#x27;AND&#x27; and &#x27;OR&#x27; values, group them together when combining. Eg:</li><li> <code v-pre>(true and false) or true</code>: <code v-pre>prop.OR( prop.TRUE():AND(prop.FALSE()), prop.TRUE() )</code></li><li> <code v-pre>true and (false or true)</code>: <code v-pre>prop.TRUE():AND( prop.FALSE():OR(prop.TRUE()) )</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1530">src/extensions/cp/prop/init.lua line 1530</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -989,6 +1025,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1440">src/extensions/cp/prop/init.lua line 1440</a></td>
 </tr>
 </tbody>
 </table>
@@ -1033,6 +1077,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>If it&#x27;s already a <code v-pre>cp.prop</code>, it will be returned directly.</li><li>If it&#x27;s a function, it will be treated as a <code v-pre>get</code> function.</li><li>Otherwise, it will be returned as <doc-anchor-trigger to="#THIS">THIS</doc-anchor-trigger></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1338">src/extensions/cp/prop/init.lua line 1338</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1075,6 +1127,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The original <code v-pre>propValue</code> can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1384">src/extensions/cp/prop/init.lua line 1384</a></td>
 </tr>
 </tbody>
 </table>
@@ -1119,6 +1179,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li><code v-pre>getFn</code> signature: <code v-pre>function([owner]) -&gt; anything</code></li><li> <code v-pre>owner</code>     - If this is attached as a method, the owner table is passed in.</li><li><code v-pre>setFn</code> signature: <code v-pre>function(newValue[, owner])</code></li><li> <code v-pre>newValue</code>  - The new value to store.</li><li> <code v-pre>owner</code>     - If this is attached as a method, the owner table is passed in.</li><li><code v-pre>cloneFn</code> signature: <code v-pre>function(prop) -&gt; new cp.prop</code></li><li>This can also be executed by calling the module directly. E.g. <code v-pre>require('cp.prop')(myGetFunction)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1305">src/extensions/cp/prop/init.lua line 1305</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1161,6 +1229,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the <code v-pre>propValue</code> is mutable, you can set the <code v-pre>NOT</code> property value and the underlying value</li><li>    will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  <code v-pre>boolean</code>    - Switch between <code v-pre>true</code> and <code v-pre>false</code></li><li>  <code v-pre>nil</code>        - Switches to <code v-pre>true</code></li><li>  <other>  - Switches to <code v-pre>nil</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1466">src/extensions/cp/prop/init.lua line 1466</a></td>
 </tr>
 </tbody>
 </table>
@@ -1205,6 +1281,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>The value of this instance will resolve by lazily checking the <code v-pre>value</code> of the contained <code v-pre>cp.prop</code> instances in the order provided. If any return <code v-pre>true</code>, no further instances will be checked.</li><li>The instance is immutable, since there is no realy way to flip the component values of an &#x27;OR&#x27; in a way that makes sense.</li><li>Once you have created an &#x27;OR&#x27;, you cannot &#x27;AND&#x27; as a method. Eg, this will fail: <code v-pre>prop.TRUE():OR(prop:FALSE()):AND(prop.TRUE())</code>. This is to avoid ambiguity as to whether the &#x27;OR&#x27; or &#x27;AND&#x27; takes precedence. Is it <code v-pre>(true or false) and true</code> or <code v-pre>true or (false and true)</code>?.</li><li>To combine &#x27;AND&#x27; and &#x27;OR&#x27; values, group them together when combining. Eg:</li><li> <code v-pre>(true or false) and true</code>: <code v-pre>prop.AND( prop.TRUE():OR(prop.FALSE()), prop.TRUE() )</code></li><li> <code v-pre>true or (false and true)</code>: <code v-pre>prop.TRUE():OR( prop.FALSE():AND(prop.TRUE()) )</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1585">src/extensions/cp/prop/init.lua line 1585</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1247,6 +1331,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1362">src/extensions/cp/prop/init.lua line 1362</a></td>
 </tr>
 </tbody>
 </table>
@@ -1291,6 +1383,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1427">src/extensions/cp/prop/init.lua line 1427</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1331,6 +1431,10 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//app.lua#L472">src/extensions/cp//app.lua line 472</a></td>
 </tr>
 </tbody>
 </table>
@@ -1381,6 +1485,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1155">src/extensions/cp/prop/init.lua line 1155</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1423,6 +1535,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See the <doc-anchor-trigger to="#and">AND Function</doc-anchor-trigger> for more details</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1571">src/extensions/cp/prop/init.lua line 1571</a></td>
 </tr>
 </tbody>
 </table>
@@ -1467,6 +1587,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1201">src/extensions/cp/prop/init.lua line 1201</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1509,6 +1637,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1178">src/extensions/cp/prop/init.lua line 1178</a></td>
 </tr>
 </tbody>
 </table>
@@ -1553,6 +1689,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1132">src/extensions/cp/prop/init.lua line 1132</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1595,6 +1739,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Throws an <code v-pre>error</code> if the new owner is <code v-pre>nil</code>.</li><li>Throws an <code v-pre>error</code> if the owner already has a property with the name provided in <code v-pre>key</code>.</li><li>Throws an <code v-pre>error</code> if the <code v-pre>key</code> is not a string value.</li><li>Optionally, a key can be provided which will assign the <code v-pre>cp.prop</code> to the owner using that key.</li><li>If the <code v-pre>cp.prop</code> does not have a label, the key will be used as the label.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L551">src/extensions/cp/prop/init.lua line 551</a></td>
 </tr>
 </tbody>
 </table>
@@ -1639,6 +1791,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>This can help with performance, but if there are other ways of modifying the original value outside the prop, it will potentially return stale values.</li><li>You can force a reload via the <doc-anchor-trigger to="#update">update</doc-anchor-trigger> method.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L446">src/extensions/cp/prop/init.lua line 446</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1681,6 +1841,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L538">src/extensions/cp/prop/init.lua line 538</a></td>
 </tr>
 </tbody>
 </table>
@@ -1725,6 +1893,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L904">src/extensions/cp/prop/init.lua line 904</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1767,6 +1943,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See <doc-anchor-trigger to="#shallowTable">shallowTable</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L393">src/extensions/cp/prop/init.lua line 393</a></td>
 </tr>
 </tbody>
 </table>
@@ -1811,6 +1995,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1087">src/extensions/cp/prop/init.lua line 1087</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1853,6 +2045,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L491">src/extensions/cp/prop/init.lua line 491</a></td>
 </tr>
 </tbody>
 </table>
@@ -1897,6 +2097,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L707">src/extensions/cp/prop/init.lua line 707</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1939,6 +2147,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L362">src/extensions/cp/prop/init.lua line 362</a></td>
 </tr>
 </tbody>
 </table>
@@ -1983,6 +2199,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>The original property can still be modified (if appropriate) and watchers of the immutable value will be notified when it changes.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1413">src/extensions/cp/prop/init.lua line 1413</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2025,6 +2249,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1064">src/extensions/cp/prop/init.lua line 1064</a></td>
 </tr>
 </tbody>
 </table>
@@ -2069,6 +2301,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1098">src/extensions/cp/prop/init.lua line 1098</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2111,6 +2351,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L375">src/extensions/cp/prop/init.lua line 375</a></td>
 </tr>
 </tbody>
 </table>
@@ -2155,6 +2403,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1046">src/extensions/cp/prop/init.lua line 1046</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2197,6 +2453,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L833">src/extensions/cp/prop/init.lua line 833</a></td>
 </tr>
 </tbody>
 </table>
@@ -2241,6 +2505,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L607">src/extensions/cp/prop/init.lua line 607</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2283,6 +2555,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Watchers of the mutant will be if a change in the current prop causes</li><li>the mutation to be a new value.</li><li></li><li>The <code v-pre>getFn</code> is a function with the following signature:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;function(original, owner, prop) --&gt; mutantValue&lt;/li&gt;&lt;li&gt;</code></li><li></li><li><code v-pre>originalProp</code>   - The original <code v-pre>cp.prop</code> being mutated.</li><li><code v-pre>owner</code>          - The owner of the mutator property, if it has been bound.</li><li><code v-pre>mutantProp</code>     - The mutant property.</li><li><code v-pre>mutantValue</code>    - The new value based off the original.</li><li></li><li>You can ignore any parameters that you don&#x27;t need. Most simply use the <code v-pre>original</code> prop.</li><li></li><li>The <code v-pre>setFn</code> is optional, and is a function with the following signature:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;function(mutantValue, original, owner, prop) --&gt; nil&lt;/li&gt;&lt;li&gt;</code></li><li></li><li><code v-pre>mutantValue</code>    - The new value being sent in.</li><li><code v-pre>originalProp</code>   - The original property being mutated.</li><li><code v-pre>owner</code>          - The owner of the mutant property, if it has been bound.</li><li><code v-pre>mutantProp</code>     - The mutant property.</li><li></li><li>Again, you can ignore any parameters that you don&#x27;t need.</li><li>If you want to set a new value to the <code v-pre>original</code> property, you can do so.</li><li>It&#x27;s recommended that you use <code v-pre>original:set(...)</code>, which will allow setting <code v-pre>nil</code> values.</li><li></li><li>For example:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;anyNumber   = prop.THIS(1)&lt;/li&gt;&lt;li&gt;isEven      = anyNumber:mutate(function(original) return original() % 2 == 0 end)&lt;/li&gt;&lt;li&gt;    :watch(function(even)&lt;/li&gt;&lt;li&gt;        if even() then&lt;/li&gt;&lt;li&gt;            print &quot;even&quot;&lt;/li&gt;&lt;li&gt;        else&lt;/li&gt;&lt;li&gt;            print &quot;odd&quot;&lt;/li&gt;&lt;li&gt;        end&lt;/li&gt;&lt;li&gt;    end)&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;isEven:update()     -- prints &quot;odd&quot;&lt;/li&gt;&lt;li&gt;anyNumber(10)       -- prints &quot;even&quot;&lt;/li&gt;&lt;li&gt;isEven() == true    -- no printing&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L929">src/extensions/cp/prop/init.lua line 929</a></td>
 </tr>
 </tbody>
 </table>
@@ -2327,6 +2607,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1121">src/extensions/cp/prop/init.lua line 1121</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2369,6 +2657,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If this property is mutable, you can set the <code v-pre>NOT</code> property value and this property will be set to the negated value. Be aware that the same negation rules apply when setting as when getting.</li><li>Values are negated as follows:</li><li>  ** <code v-pre>boolean</code>    - Switch between <code v-pre>true</code> and <code v-pre>false</code></li><li>  ** <code v-pre>nil</code>        - Switches to <code v-pre>true</code></li><li>  ** <other>  - Switches to <code v-pre>nil</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1494">src/extensions/cp/prop/init.lua line 1494</a></td>
 </tr>
 </tbody>
 </table>
@@ -2413,6 +2709,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>See <doc-anchor-trigger to="#or">OR Function</doc-anchor-trigger> for more details.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1626">src/extensions/cp/prop/init.lua line 1626</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2455,6 +2759,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L594">src/extensions/cp/prop/init.lua line 594</a></td>
 </tr>
 </tbody>
 </table>
@@ -2499,6 +2811,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>This allows configuration, typically for watching other events, but only if anything is actually watching this property value.</li><li>If the prop already has watchers, this function will be called imediately.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L721">src/extensions/cp/prop/init.lua line 721</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2541,6 +2861,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L509">src/extensions/cp/prop/init.lua line 509</a></td>
 </tr>
 </tbody>
 </table>
@@ -2585,6 +2913,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>See <doc-anchor-trigger to="#deepTable">deepTable</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L419">src/extensions/cp/prop/init.lua line 419</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2627,6 +2963,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the value is immutable, an error will be thrown.</li><li>If you toggle a non-boolean parameter twice, it will end up set to <code v-pre>true</code>.</li><li>Values are modified as follows:</li><li>  ** <code v-pre>boolean</code>    - Switch between <code v-pre>true</code> and <code v-pre>false</code></li><li>  ** <code v-pre>nil</code>        - Switches to <code v-pre>true</code></li><li>  ** <other>  - Switches to <code v-pre>nil</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L643">src/extensions/cp/prop/init.lua line 643</a></td>
 </tr>
 </tbody>
 </table>
@@ -2671,6 +3015,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>It will only emit <code v-pre>onNext</code> events, never an <code v-pre>onError</code> or <code v-pre>onCompleted</code> event.</li><li>This will trigger an <code v-pre>update</code> each time it is called.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L779">src/extensions/cp/prop/init.lua line 779</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2713,6 +3065,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>An example of adding and removing a watch:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local prop, watcher = prop.TRUE():watch(function(value) print tostring(value) end)&lt;/li&gt;&lt;li&gt;prop:unwatch(watcher) == true&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L758">src/extensions/cp/prop/init.lua line 758</a></td>
 </tr>
 </tbody>
 </table>
@@ -2757,6 +3117,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L864">src/extensions/cp/prop/init.lua line 864</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2799,6 +3167,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If you need to set the property to <code v-pre>nil</code>, use the <doc-anchor-trigger to="#set">set method</doc-anchor-trigger>, otherwise it will be ignored.</li><li>This method can also be called directly on the property, like so:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;local foo = prop.TRUE()&lt;/li&gt;&lt;li&gt;foo() == foo:value()&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L465">src/extensions/cp/prop/init.lua line 465</a></td>
 </tr>
 </tbody>
 </table>
@@ -2843,6 +3219,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>You can watch immutable values. Wrapped <code v-pre>cp.prop</code> instances may not be immutable, and any changes to them will cause watchers to be notified up the chain.</li><li>The function should have the following signature:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;function(value, owner, prop)&lt;/li&gt;&lt;li&gt;</code></li><li><code v-pre>value</code>  - The new value of the property</li><li><code v-pre>owner</code>  - The property owner. May be <code v-pre>nil</code>.</li><li><code v-pre>prop</code>   - The property itself.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L667">src/extensions/cp/prop/init.lua line 667</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2885,6 +3269,14 @@ deepProp().b.c      == 4    -- unmodified after the last update</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/prop/init.lua#L1011">src/extensions/cp/prop/init.lua line 1011</a></td>
 </tr>
 </tbody>
 </table>

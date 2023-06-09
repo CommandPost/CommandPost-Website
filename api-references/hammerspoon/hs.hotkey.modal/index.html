@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -407,6 +407,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   &quot;shift&quot; or &quot;⇧&quot;&lt;/li&gt;&lt;li&gt;key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number&lt;/li&gt;&lt;li&gt;message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;A new `hs.hotkey.modal` object&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;li&gt;If `key` is nil, no global hotkey will be registered (all other parameters will be ignored)&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 552](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L552) |
 
 ---
 
@@ -427,6 +429,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   &quot;shift&quot; or &quot;⇧&quot;&lt;/li&gt;&lt;li&gt;key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number&lt;/li&gt;&lt;li&gt;message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert&lt;/li&gt;&lt;li&gt;pressedfn - A function that will be called when the hotkey has been pressed, or nil&lt;/li&gt;&lt;li&gt;releasedfn - A function that will be called when the hotkey has been released, or nil&lt;/li&gt;&lt;li&gt;repeatfn - A function that will be called when a pressed hotkey is repeating, or nil&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The `hs.hotkey.modal` object for method chaining&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 482](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L482) |
 
 ---
 
@@ -441,6 +445,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 580](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L580) |
 
 ---
 
@@ -455,6 +461,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The `hs.hotkey.modal` object for method chaining&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;li&gt;This method will enable all of the hotkeys defined in the modal state via `hs.hotkey.modal:bind()`,&lt;/li&gt;&lt;li&gt;   and disable the hotkey that entered the modal state (if one was defined)&lt;/li&gt;&lt;li&gt;If the modal state was created with a keyboard combination, this method will be called automatically&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 506](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L506) |
 
 ---
 
@@ -469,6 +477,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;li&gt;This is a preexisting function that you should override if you need to use it; the default implementation does nothing.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 452](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L452) |
 
 ---
 
@@ -483,6 +493,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;The `hs.hotkey.modal` object for method chaining&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;li&gt;This method will disable all of the hotkeys defined in the modal state, and enable the hotkey for entering the modal state (if one was defined)&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 530](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L530) |
 
 ---
 
@@ -497,6 +509,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Parameters**                              | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt; |
 | **Returns**                                 | &lt;ul&gt;&lt;li&gt;None&lt;/li&gt;&lt;/ul&gt;          |
 | **Notes**                                   | &lt;ul&gt;&lt;li&gt;This is a preexisting function that you should override if you need to use it; the default implementation does nothing.&lt;/li&gt;&lt;/ul&gt; |
+| **Examples**                                | &lt;ul&gt;&lt;/ul&gt; |
+| **Source**                                  | [extensions/hotkey/hotkey.lua line 467](https://github.com/CommandPost/CommandPost-App/blob/master/extensions/hotkey/hotkey.lua#L467) |
 
 ---
 

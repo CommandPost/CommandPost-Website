@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -447,6 +447,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>the functions are defined within the HIServices framework which is part of the ApplicationServices framework, so it is expected that the necessary functions will always be available; however, if you ever receive an error message from a function or method within this submodule of the form &quot;CF function AX... undefined&quot;, please see the submodule heading documentation for a description of the information, including that which this function provides, that should be included in any error report you submit.</li><li>This is for debugging purposes and is not expected to be used often.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L143">extensions/axuielement/axtextmarker.m line 143</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -489,6 +497,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the string will likely contain invalid UTF8 code sequences or unprintable ascii values; to see the data in decimal or hexadecimal form you can use:</li><li>    string.byte(hs.axuielement.axtextmarker:bytes(), 1, hs.axuielement.axtextmarker:length())</li><li>    -- or</li><li>    hs.utf8.hexDump(hs.axuielement.axtextmarker:bytes())</li><li>As the data is application specific, it is unlikely that you will use this method often; it is included primarily for testing and debugging purposes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L174">extensions/axuielement/axtextmarker.m line 174</a></td>
 </tr>
 </tbody>
 </table>
@@ -533,6 +549,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L248">extensions/axuielement/axtextmarker.m line 248</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -576,6 +600,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>As the data is application specific, it is unlikely that you will use this method often; it is included primarily for testing and debugging purposes.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L200">extensions/axuielement/axtextmarker.m line 200</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -618,6 +650,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L221">extensions/axuielement/axtextmarker.m line 221</a></td>
 </tr>
 </tbody>
 </table>
@@ -668,6 +708,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is included primarily for testing and debugging purposes -- in general you will probably never use this constructor; AXTextMarker objects appear to be mostly application dependant and have no meaning external to the application from which it was created.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L43">extensions/axuielement/axtextmarker.m line 43</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -710,6 +758,14 @@ hs.host.operatingSystemVersionString()</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this constructor can be used to create a range from axTextMarkerObjects obtained from an application to specify a new range for a parameterized attribute. As a simple example (it is hoped that more will be added to the Hammerspoon wiki shortly):</li><li>    <code v-pre>lua&lt;/li&gt;&lt;li&gt;    s = hs.axuielement.applicationElement(hs.application(&quot;Safari&quot;))&lt;/li&gt;&lt;li&gt;    -- for a window displaying the DuckDuckGo main search page, this gets the&lt;/li&gt;&lt;li&gt;    -- primary display area. Other pages may vary and you should build your&lt;/li&gt;&lt;li&gt;    -- object as necessary for your target.&lt;/li&gt;&lt;li&gt;    c = s(&quot;AXMainWindow&quot;)(&quot;AXSections&quot;)[1].SectionObject[1][1]&lt;/li&gt;&lt;li&gt;    start = c(&quot;AXStartTextMarker&quot;) -- get the text marker for the start of this element&lt;/li&gt;&lt;li&gt;    ending = c(&quot;AXNextLineEndTextMarkerForTextMarker&quot;, start) -- get the next end of line marker&lt;/li&gt;&lt;li&gt;    print(c(&quot;AXStringForTextMarkerRange&quot;, hs.axuielement.axtextmarker.newRange(start, ending)))&lt;/li&gt;&lt;li&gt;    -- outputs &quot;Privacy, simplified.&quot; to the Hammerspoon console</code></li><li>The specific attributes and parameterized attributes supported by a given application differ and can be discovered with the <code v-pre>hs.axuielement:getAttributeNames</code> and <code v-pre>hs.axuielement:getParameterizedAttributeNames</code> methods.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/axuielement/axtextmarker.m#L73">extensions/axuielement/axtextmarker.m line 73</a></td>
 </tr>
 </tbody>
 </table>

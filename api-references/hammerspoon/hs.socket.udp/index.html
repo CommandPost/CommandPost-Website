@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -529,6 +529,10 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>New <doc-anchor-trigger to="#new"><code v-pre>hs.socket.udp</code></doc-anchor-trigger> objects will be created with this timeout value, but can individually change it with the <doc-anchor-trigger to="#setTimeout"><code v-pre>hs.socket.udp:setTimeout</code></doc-anchor-trigger> method.</li><li></li><li>If the timeout value is negative, the operations will not use a timeout. The default value is <code v-pre>-1</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L173">extensions/socket/socket.lua line 173</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -577,6 +581,10 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L184">extensions/socket/socket.lua line 184</a></td>
 </tr>
 </tbody>
 </table>
@@ -627,6 +635,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L111">extensions/socket/libsocket_udp.m line 111</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -669,6 +685,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L208">extensions/socket/socket.lua line 208</a></td>
 </tr>
 </tbody>
 </table>
@@ -719,6 +743,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>By default, the underlying socket in the OS will not allow you to send broadcast messages.</li><li>In order to send broadcast messages, you need to enable this functionality in the socket.</li><li>A broadcast is a UDP message to addresses like &quot;192.168.255.255&quot; or &quot;255.255.255.255&quot; that is delivered to every host on the network.</li><li>The reason this is generally disabled by default (by the OS) is to prevent accidental broadcast messages from flooding the network.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L418">extensions/socket/libsocket_udp.m line 418</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -761,6 +793,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L222">extensions/socket/libsocket_udp.m line 222</a></td>
 </tr>
 </tbody>
 </table>
@@ -805,6 +845,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>UDP sockets are typically meant to be connectionless.</li><li>Sending a packet anywhere, regardless of whether or not the destination receives it, opens the socket until it is explicitly closed.</li><li>An active listening socket will not be closed, but will not be &#x27;connected&#x27; unless the <doc-anchor-trigger to="#connect"><code v-pre>hs.socket.udp:connect</code></doc-anchor-trigger> method has been called.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L675">extensions/socket/libsocket_udp.m line 675</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -847,6 +895,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>* By design, UDP is a connectionless protocol, and connecting is not needed.</li><li>* Choosing to connect to a specific host/port has the following effect:</li><li> You will only be able to send data to the connected host/port;</li><li> You will only be able to receive data from the connected host/port;</li><li> You will receive ICMP messages that come from the connected host/port, such as &quot;connection refused&quot;.</li><li>* The actual process of connecting a UDP socket does not result in any communication on the socket, it simply changes the internal state of the socket.</li><li>* You cannot bind a socket for listening after it has been connected.</li><li>* You can only connect a socket once.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L145">extensions/socket/libsocket_udp.m line 145</a></td>
 </tr>
 </tbody>
 </table>
@@ -891,6 +947,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>UDP sockets are typically meant to be connectionless.</li><li>This method will only return <code v-pre>true</code> if the <doc-anchor-trigger to="#connect"><code v-pre>hs.socket.udp:connect</code></doc-anchor-trigger> method has been explicitly called.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L652">extensions/socket/libsocket_udp.m line 652</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -933,6 +997,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Must be called before binding the socket. If you want to create an IPv6-only server, do something like:</li><li>  <code v-pre>hs.socket.udp.new(callback):enableIPv(4, false):listen(port):receive()</code></li><li>The convenience constructor <doc-anchor-trigger to="#server"><code v-pre>hs.socket.server</code></doc-anchor-trigger> will automatically bind the socket and requires closing and relistening to use this method.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L486">extensions/socket/libsocket_udp.m line 486</a></td>
 </tr>
 </tbody>
 </table>
@@ -977,6 +1049,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L699">extensions/socket/libsocket_udp.m line 699</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1019,6 +1099,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L192">extensions/socket/libsocket_udp.m line 192</a></td>
 </tr>
 </tbody>
 </table>
@@ -1063,6 +1151,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>Call one of the receive methods to resume.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L243">extensions/socket/libsocket_udp.m line 243</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1105,6 +1201,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If a DNS lookup returns only IPv4 results, the socket will automatically use IPv4.</li><li>If a DNS lookup returns only IPv6 results, the socket will automatically use IPv6.</li><li>If a DNS lookup returns both IPv4 and IPv6 results, then the protocol used depends on the configured preference.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L523">extensions/socket/libsocket_udp.m line 523</a></td>
 </tr>
 </tbody>
 </table>
@@ -1149,6 +1253,10 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L237">extensions/socket/socket.lua line 237</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1191,6 +1299,10 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L243">extensions/socket/socket.lua line 243</a></td>
 </tr>
 </tbody>
 </table>
@@ -1235,6 +1347,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>Results are passed to the <doc-anchor-trigger to="#setCallback">callback function</doc-anchor-trigger>, which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time &amp; continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in one-at-a-time mode, calling this method will switch it to continuous mode.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L295">extensions/socket/libsocket_udp.m line 295</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1277,6 +1397,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Results are passed to the <doc-anchor-trigger to="#setCallback">callback function</doc-anchor-trigger>, which must be set to use this method.</li><li>There are two modes of operation for receiving packets: one-at-a-time &amp; continuous.</li><li>In one-at-a-time mode, you call receiveOne every time you are ready process an incoming UDP packet.</li><li>Receiving packets one-at-a-time may be better suited for implementing certain state machine code where your state machine may not always be ready to process incoming packets.</li><li>In continuous mode, the callback is invoked immediately every time incoming udp packets are received.</li><li>Receiving packets continuously is better suited to real-time streaming applications.</li><li>You may switch back and forth between one-at-a-time mode and continuous mode.</li><li>If the socket is currently in continuous mode, calling this method will switch it to one-at-a-time mode</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L321">extensions/socket/libsocket_udp.m line 321</a></td>
 </tr>
 </tbody>
 </table>
@@ -1321,6 +1449,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>By default, only one socket can be bound to a given IP address &amp; port at a time.</li><li>To enable multiple processes to simultaneously bind to the same address &amp; port, you need to enable this functionality in the socket.</li><li>All processes that wish to use the address &amp; port simultaneously must all enable reuse port on the socket bound to that port.</li><li>Must be called before binding the socket.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L452">extensions/socket/libsocket_udp.m line 452</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1363,6 +1499,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>For non-connected sockets, the remote destination is specified for each packet.</li><li>If the socket has been explicitly connected with <doc-anchor-trigger to="#connect"><code v-pre>connect</code></doc-anchor-trigger>, only the message parameter and an optional tag and/or write callback can be supplied.</li><li>Recall that connecting is optional for a UDP socket.</li><li>For connected sockets, data can only be sent to the connected address.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L347">extensions/socket/libsocket_udp.m line 347</a></td>
 </tr>
 </tbody>
 </table>
@@ -1407,6 +1551,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <td><strong>Notes</strong></td>
 <td><ul><li>The default maximum size is 9216 bytes.</li><li>The theoretical maximum size of any IPv4 UDP packet is <code v-pre>UINT16_MAX = 65535</code>.</li><li>The theoretical maximum size of any IPv6 UDP packet is <code v-pre>UINT32_MAX = 4294967295</code>.</li><li>Since the OS notifies us of the size of each received UDP packet, the actual allocated buffer size for each packet is exact.</li><li>In practice the size of UDP packets is generally much smaller than the max. Most protocols will send and receive packets of only a few bytes, or will set a limit on the size of packets to prevent fragmentation in the IP layer.</li><li>If you set the buffer size too small, the sockets API in the OS will silently discard any extra data.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L555">extensions/socket/libsocket_udp.m line 555</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1426,7 +1578,9 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <code v-pre>data</code> - The data read from the socket as a string.
 <code v-pre>sockaddr</code> - The sending address as a binary socket address structure. See <doc-anchor-trigger to="#parseAddress"><code v-pre>parseAddress</code></doc-anchor-trigger>.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The <doc-anchor-trigger to="#new"><code v-pre>hs.socket.udp</code></doc-anchor-trigger> object.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>A callback must be set in order to read data from the socket.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L597">extensions/socket/libsocket_udp.m line 597</a> |</p>
 <hr />
 <doc-anchor-target id="settimeout">
     <h3>
@@ -1466,6 +1620,14 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li> If the timeout value is negative, the operations will not use a timeout, which is the default.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/libsocket_udp.m#L628">extensions/socket/libsocket_udp.m line 628</a></td>
 </tr>
 </tbody>
 </table>
@@ -1509,6 +1671,10 @@ from host: 192.168.0.3 port: 53057</code></pre>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/socket/socket.lua#L249">extensions/socket/socket.lua line 249</a></td>
 </tr>
 </tbody>
 </table>

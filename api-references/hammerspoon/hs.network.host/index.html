@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -433,6 +433,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string &quot;addresses&quot;, indicating that an address resolution occurred, and a table containing the IP addresses identified.</li><li>Generates an error if network access is currently disabled or the hostname is invalid.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L268">extensions/network/libnetwork_host.m line 268</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -475,6 +483,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string &quot;names&quot;, indicating that hostname resolution occurred, and a table containing the hostnames identified.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L287">extensions/network/libnetwork_host.m line 287</a></td>
 </tr>
 </tbody>
 </table>
@@ -519,6 +535,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string &quot;reachability&quot;, indicating that reachability was determined, and the numeric representation of the address reachability status.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li><li>The numeric representation is made up from a combination of the flags defined in <code v-pre>hs.network.reachability.flags</code>.</li><li>Performs the same reachability test as <code v-pre>hs.network.reachability.forAddress</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L306">extensions/network/libnetwork_host.m line 306</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -561,6 +585,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If no callback function is provided, the resolution occurs in a blocking manner which may be noticeable when network access is slow or erratic.</li><li>If a callback function is provided, this function acts as a constructor, returning a host object and the callback function will be invoked when resolution is complete.  The callback function should take two parameters: the string &quot;reachability&quot;, indicating that reachability was determined, and the numeric representation of the hostname reachability status.</li><li>Generates an error if network access is currently disabled or the IP address is invalid.</li><li>The numeric representation is made up from a combination of the flags defined in <code v-pre>hs.network.reachability.flags</code>.</li><li>Performs the same reachability test as <code v-pre>hs.network.reachability.forHostName</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L327">extensions/network/libnetwork_host.m line 327</a></td>
 </tr>
 </tbody>
 </table>
@@ -611,6 +643,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method has no effect if the resolution has already completed.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L367">extensions/network/libnetwork_host.m line 367</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -653,6 +693,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_host.m#L350">extensions/network/libnetwork_host.m line 350</a></td>
 </tr>
 </tbody>
 </table>

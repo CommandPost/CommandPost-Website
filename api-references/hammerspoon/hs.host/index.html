@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -453,6 +453,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The results will include IPv4 and IPv6 addresses</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L12">extensions/host/libhost.m line 12</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -472,7 +480,9 @@
 If <code v-pre>callback</code> is not provided, this is an optional integer, default 100000, specifying the number of microseconds to block between samples collected.  Note that Hammerspoon will block for this period of time during execution of this function.
 If <code v-pre>callback</code> is provided, this is an optional number, default 1.0, specifying the number of seconds between samples collected.  Hammerspoon will <em>not</em> block during this time period.</li><li><code v-pre>callback</code> - an optional callback function which will receive the cpu usage statistics in a table, described below, as its sole argument.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a callback function is not provided, this function will return a table containing the following:</li><li>  Individual tables, indexed by the core number, for each CPU core with the following keys in each subtable:</li><li>    user   -- percentage of CPU time occupied by user level processes.</li><li>    system -- percentage of CPU time occupied by system (kernel) level processes.</li><li>    nice   -- percentage of CPU time occupied by user level processes with a positive nice value. (See notes below)</li><li>    active -- For convenience, when you just want the total CPU usage, this is the sum of user, system, and nice.</li><li>    idle   -- percentage of CPU time spent idle</li><li>  The key <code v-pre>overall</code> containing the same keys as described above but based upon the average of all cores combined.</li><li>  The key <code v-pre>n</code> containing the number of cores detected.</li><li>If a callback function is provided, this function will return a placeholder table with the following metamethods:</li><li>  <code v-pre>hs.host.cpuUsage:finished()</code> - returns a boolean indicating if the second CPU sample has been collected yet (true) or not (false).</li><li>  <code v-pre>hs.host.cpuUsage:stop()</code>     - abort the sample collection.  The callback function will not be invoked.</li><li>  The results of the cpu statistics will be submitted as a table, described above, to the callback function.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If no callback function is provided, Hammerspoon will block (i.e. no other Hammerspoon activity can occur) during execution of this function for <code v-pre>period</code> microseconds (1 second = 1,000,000 microseconds).  The default period is 1/10 of a second. If <code v-pre>period</code> is too small, it is possible that some of the CPU statistics may result in <code v-pre>nan</code> (not-a-number).</li><li></li><li>For reference, the <code v-pre>top</code> command has a default period between samples of 1 second.</li><li></li><li>The subtables for each core and <code v-pre>overall</code> have a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.host.cpuUsage()[#]</code> where # is the core you are interested in or the string &quot;overall&quot;.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If no callback function is provided, Hammerspoon will block (i.e. no other Hammerspoon activity can occur) during execution of this function for <code v-pre>period</code> microseconds (1 second = 1,000,000 microseconds).  The default period is 1/10 of a second. If <code v-pre>period</code> is too small, it is possible that some of the CPU statistics may result in <code v-pre>nan</code> (not-a-number).</li><li></li><li>For reference, the <code v-pre>top</code> command has a default period between samples of 1 second.</li><li></li><li>The subtables for each core and <code v-pre>overall</code> have a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.host.cpuUsage()[#]</code> where # is the core you are interested in or the string &quot;overall&quot;.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/host.lua#L34">extensions/host/host.lua line 34</a> |</p>
 <hr />
 <doc-anchor-target id="cpuusageticks">
     <h3>
@@ -512,6 +522,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>CPU mode ticks are updated during system interrupts and are incremented based upon the mode the CPU is in at the time of the interrupt. By its nature, this is always going to be approximate, and a single call to this function will return the current tick values since the system was last rebooted.</li><li>To generate a snapshot of the system&#x27;s usage &quot;at this moment&quot;, you must take two samples and calculate the difference between them.  The <doc-anchor-trigger to="#cpuUsage">hs.host.cpuUsage</doc-anchor-trigger> function is a wrapper which does this for you and returns the cpu usage statistics as a percentage of the total number of ticks which occurred during the sample period you specify when invoking <code v-pre>hs.host.cpuUsage</code>.</li><li></li><li>Historically on Unix based systems, the <code v-pre>nice</code> cpu state represents processes for which the execution priority has been reduced to allow other higher priority processes access to more system resources.  The source code for the version of the <a href="https://opensource.apple.com/source/xnu/xnu-3789.41.3/">XNU Kernel</a> currently provided by Apple (for macOS 10.12.3) shows this value as returned by the <code v-pre>host_processor_info</code> as hardcoded to 0.  For completeness, this value <em>is</em> included in the statistics returned by this function, but unless Apple makes a change in the future, it is not expected to provide any useful information.</li><li></li><li>Adapted primarily from code found at <a href="http://stackoverflow.com/questions/6785069/get-cpu-percent-usage">http://stackoverflow.com/questions/6785069/get-cpu-percent-usage</a></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L193">extensions/host/libhost.m line 193</a></td>
 </tr>
 </tbody>
 </table>
@@ -556,6 +574,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul><li>See also <code v-pre>hs.host.uuid</code></li><li>The global unique identifier for a process includes the host name, process ID, and a time stamp, which ensures that the ID is unique for the network. This property generates a new string each time it is invoked, and it uses a counter to guarantee that strings are unique.</li><li>This is often used as a file or directory name in conjunction with <code v-pre>hs.host.temporaryDirectory()</code> when creating temporary files.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L490">extensions/host/libhost.m line 490</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -598,6 +624,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If your GPU reports -1.0 as the memory size, please submit an issue to the Hammerspoon github repository and include any information that you can which may be relevant, such as: Macintosh model, macOS version, is the GPU built in or a third party expansion card, the GPU model and VRAM as best you can determine (see the System Information application in the Utilities folder and look at the Graphics/Display section) and anything else that you think might be important.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L644">extensions/host/libhost.m line 644</a></td>
 </tr>
 </tbody>
 </table>
@@ -642,6 +676,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul><li>Idle time is defined as no mouse move nor keyboard entry, etc. and is determined by querying the HID (Human Interface Device) subsystem.</li><li>This code is directly inspired by code found at <a href="http://www.xs-labs.com/en/archives/articles/iokit-idle-time">http://www.xs-labs.com/en/archives/articles/iokit-idle-time</a></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L509">extensions/host/libhost.m line 509</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -684,6 +726,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>As of OS X 10.10.4, other than the default style, only &quot;Dark&quot; is recognized as a valid style.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L454">extensions/host/libhost.m line 454</a></td>
 </tr>
 </tbody>
 </table>
@@ -728,6 +778,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L72">extensions/host/libhost.m line 72</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -770,6 +828,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function should be used sparingly, as it may involve blocking network access to resolve hostnames</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L42">extensions/host/libhost.m line 42</a></td>
 </tr>
 </tbody>
 </table>
@@ -814,6 +880,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul><li>Prior to 10.10 (Yosemite), there was no definitive way to reliably get an exact OS X version number without either mapping it to the Darwin kernel version, mapping it to the AppKitVersionNumber (the recommended method), or parsing the result of NSProcessingInfo&#x27;s <code v-pre>operatingSystemVersionString</code> selector, which Apple states is not guaranteed to be reliably parsable.</li><li>  for OS X versions prior to 10.10, the version number is approximately determined by evaluating the AppKitVersionNumber.  For these operating systems, the <code v-pre>approximate</code> key is defined and set to true, as the exact patch level cannot be definitively determined.</li><li>  for OS X Versions starting at 10.10 and going forward, an exact value for the version number can be determined with NSProcessingInfo&#x27;s <code v-pre>operatingSystemVersion</code> selector and the <code v-pre>exact</code> key is defined and set to true if this method is used.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L342">extensions/host/libhost.m line 342</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -856,6 +930,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>According to the OS X Developer documentation, &quot;The operating system version string is human readable, localized, and is appropriate for displaying to the user. This string is not appropriate for parsing.&quot;</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L282">extensions/host/libhost.m line 282</a></td>
 </tr>
 </tbody>
 </table>
@@ -900,6 +982,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L300">extensions/host/libhost.m line 300</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -942,6 +1032,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See also <code v-pre>hs.host.globallyUniqueString</code></li><li>UUIDs (Universally Unique Identifiers), also known as GUIDs (Globally Unique Identifiers) or IIDs (Interface Identifiers), are 128-bit values. UUIDs created by NSUUID conform to RFC 4122 version 4 and are created with random bytes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L471">extensions/host/libhost.m line 471</a></td>
 </tr>
 </tbody>
 </table>
@@ -986,6 +1084,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <td><strong>Notes</strong></td>
 <td><ul><li>The table returned has a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.host.vmStats()</code>.</li><li>Except for the addition of cacheHits, cacheLookups, pageSize and memSize, the results for this function should be identical to the OS X command <code v-pre>vm_stat</code>.</li><li>Adapted primarily from the source code to Apple&#x27;s vm_stat command located at <a href="http://www.opensource.apple.com/source/system_cmds/system_cmds-643.1.1/vm_stat.tproj/vm_stat.c">http://www.opensource.apple.com/source/system_cmds/system_cmds-643.1.1/vm_stat.tproj/vm_stat.c</a></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L86">extensions/host/libhost.m line 86</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1028,6 +1134,14 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The possible keys in the table are:</li><li> NSURLVolumeTotalCapacityKey - Size of the volume in bytes</li><li> NSURLVolumeAvailableCapacityKey - Available space on the volume in bytes</li><li> NSURLVolumeIsAutomountedKey - Boolean indicating if the volume was automounted</li><li> NSURLVolumeIsBrowsableKey - Boolean indicating if the volume can be browsed</li><li> NSURLVolumeIsEjectableKey - Boolean indicating if the volume should be ejected before its media is removed</li><li> NSURLVolumeIsInternalKey - Boolean indicating if the volume is an internal drive or an external drive</li><li> NSURLVolumeIsLocalKey - Boolean indicating if the volume is a local or remote drive</li><li> NSURLVolumeIsReadOnlyKey - Boolean indicating if the volume is read only</li><li> NSURLVolumeIsRemovableKey - Boolean indicating if the volume&#x27;s media can be physically ejected from the drive (e.g. a DVD)</li><li> NSURLVolumeMaximumFileSizeKey - Maximum file size the volume can support, in bytes</li><li> NSURLVolumeUUIDStringKey - The UUID of volume&#x27;s filesystem</li><li> NSURLVolumeURLForRemountingKey - For remote volumes, the network URL of the volume</li><li> NSURLVolumeLocalizedNameKey - Localized version of the volume&#x27;s name</li><li> NSURLVolumeNameKey - The volume&#x27;s name</li><li> NSURLVolumeLocalizedFormatDescriptionKey - Localized description of the volume</li><li>* Not all keys will be present for all volumes</li><li>* The meanings of NSURLVolumeIsEjectableKey and NSURLVolumeIsRemovableKey are not generally useful for determining if a drive is removable in the modern sense (e.g. a USB drive) as much of this terminology dates back to when USB didn&#x27;t exist and removable drives were things like Floppy/DVD drives. If you&#x27;re trying to determine if a drive is not fixed into the computer, you may need to use a combination of these keys, but which exact combination you should use, is not consistent across macOS versions.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L571">extensions/host/libhost.m line 571</a></td>
 </tr>
 </tbody>
 </table>

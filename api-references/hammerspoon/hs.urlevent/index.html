@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -436,6 +436,10 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <td><strong>Notes</strong></td>
 <td><ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URL scheme (i.e. &quot;http&quot;)</li><li> host - A string containing the host requested (e.g. &quot;www.commandpost.org&quot;)</li><li> params - A table containing the key/value pairs of all the URL parameters</li><li> fullURL - A string containing the full, original URL</li><li> senderPID - An integer containing the PID of the application that opened the URL, if available (otherwise -1)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L21">extensions/urlevent/urlevent.lua line 21</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -470,6 +474,10 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The function should handle four arguments:</li><li> scheme - A string containing the URI scheme (i.e. &quot;mailto&quot;)</li><li> host - A string containing the host requested (typically nil)</li><li> params - A table containing the key/value pairs of all the URL parameters, typically empty</li><li> fullURL - A string containing the full, original URI</li><li> senderPID - An integer containing the PID of the application that opened the URI, if available (otherwise -1)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L34">extensions/urlevent/urlevent.lua line 34</a></td>
 </tr>
 </tbody>
 </table>
@@ -520,6 +528,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should accept two parameters:</li><li> eventName - A string containing the name of the event</li><li> params - A table containing key/value string pairs containing any URL parameters that were specified in the URL</li><li> senderPID - An integer containing the PID of the sending application, if available (otherwise -1)</li><li>Given the URL <code v-pre>commandpost://doThingA?value=1</code> The event name is <code v-pre>doThingA</code> and the callback&#x27;s <code v-pre>params</code> argument will be a table containing <code v-pre>{[&quot;value&quot;] = &quot;1&quot;}</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L88">extensions/urlevent/urlevent.lua line 88</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -562,6 +578,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L269">extensions/urlevent/liburlevent.m line 269</a></td>
 </tr>
 </tbody>
 </table>
@@ -606,6 +630,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L244">extensions/urlevent/liburlevent.m line 244</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -648,6 +680,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/urlevent.lua#L109">extensions/urlevent/urlevent.lua line 109</a></td>
 </tr>
 </tbody>
 </table>
@@ -692,6 +732,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L300">extensions/urlevent/liburlevent.m line 300</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -735,6 +783,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <td><strong>Notes</strong></td>
 <td><ul><li>Changing the default handler for http/https URLs will display a system prompt asking the user to confirm the change</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L196">extensions/urlevent/liburlevent.m line 196</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -777,6 +833,14 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You don&#x27;t have to call this function if you want CommandPost to permanently be your default handler. Only use this if you want the handler to be automatically reverted to something else when CommandPost exits/reloads.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/urlevent/liburlevent.m#L173">extensions/urlevent/liburlevent.m line 173</a></td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -457,6 +457,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L328">extensions/network/libnetwork_reachability.m line 328</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -506,6 +510,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this object will reflect reachability status for any interface available on the computer.  To check for reachability from a specific interface, use <doc-anchor-trigger to="#addressPair">hs.network.reachability.forAddressPair</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L74">extensions/network/libnetwork_reachability.m line 74</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -548,6 +560,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>this object will reflect reachability status for a specific interface on the computer.  To check for reachability from any interface, use <doc-anchor-trigger to="#address">hs.network.reachability.forAddress</doc-anchor-trigger>.</li><li>this constructor can be used to test for a specific local network.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L105">extensions/network/libnetwork_reachability.m line 105</a></td>
 </tr>
 </tbody>
 </table>
@@ -592,6 +612,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this object will reflect reachability status for any interface available on the computer.</li><li>this constructor relies on the hostname being resolvable, possibly through DNS, Bonjour, locally defined, etc.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L150">extensions/network/libnetwork_reachability.m line 150</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -635,6 +663,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This is equivalent to <code v-pre>hs.network.reachability.forAddress(&quot;0.0.0.0&quot;)</code></li><li>This constructor assumes that a default route for IPv4 traffic is sufficient to determine internet access.  If you are on an IPv6 only network which does not also provide IPv4 route mapping, you should probably use something along the lines of <code v-pre>hs.network.reachability.forAddress(&quot;::&quot;)</code> instead.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network_reachability.lua#L45">extensions/network/network_reachability.lua line 45</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -677,6 +713,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is equivalent to <code v-pre>hs.network.reachability.forAddress(&quot;169.254.0.0&quot;)</code></li><li>You can use this to determine if any interface has an IPv4 link local address (i.e. zero conf or local only networking) by checking the &quot;isDirect&quot; flag:</li><li>  <code v-pre>hs.network.reachability.linklocal():status() &amp; hs.network.reachability.flags.isDirect</code></li><li>If the internet is reachable, then this network will also be reachable by default -- use the isDirect flag to ensure that the route is local.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/network_reachability.lua#L63">extensions/network/network_reachability.lua line 63</a></td>
 </tr>
 </tbody>
 </table>
@@ -727,6 +771,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function will be invoked each time the status for the given reachability object changes.  The callback function should expect 2 arguments, the reachability object itself and a numeric representation of the reachability flags, and should not return anything.</li><li>This method just sets the callback function.  You can start or stop the watcher with <doc-anchor-trigger to="#start">hs.network.reachability:start</doc-anchor-trigger> or <doc-anchor-trigger to="#stop">hs.network.reachability:stop</doc-anchor-trigger></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L237">extensions/network/libnetwork_reachability.m line 237</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -770,6 +822,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback function should be specified with <doc-anchor-trigger to="#setCallback">hs.network.reachability:setCallback</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L272">extensions/network/libnetwork_reachability.m line 272</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -812,6 +872,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The numeric representation is made up from a combination of the flags defined in <doc-anchor-trigger to="#flags">hs.network.reachability.flags</doc-anchor-trigger>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L176">extensions/network/libnetwork_reachability.m line 176</a></td>
 </tr>
 </tbody>
 </table>
@@ -912,6 +980,30 @@
 <td>&#x27;-&#x27; indicates if the destination is actually a local address</li><li>  &#x27;d&#x27;</td>
 <td>&#x27;-&#x27; indicates if the destination is directly connected</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L202">extensions/network/libnetwork_reachability.m line 202</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -954,6 +1046,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/network/libnetwork_reachability.m#L306">extensions/network/libnetwork_reachability.m line 306</a></td>
 </tr>
 </tbody>
 </table>

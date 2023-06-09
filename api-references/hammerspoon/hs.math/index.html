@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -461,6 +461,10 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <td><strong>Notes</strong></td>
 <td><ul><li>Because specifying a delay of 0 to <code v-pre>hs.timer.doAfter</code> results in the event not triggering, use this value to indicate that the action should occur as soon as possible after the current code block has completed execution.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L96">extensions/math/math.lua line 96</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -510,6 +514,14 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <td><strong>Notes</strong></td>
 <td><ul><li>This function returns true if the value is a number and both <doc-anchor-trigger to="#isNaN">hs.math.isNaN</doc-anchor-trigger> and <doc-anchor-trigger to="#isInfinite">hs.math.isInfinite</doc-anchor-trigger> return false.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L78">extensions/math/math.lua line 78</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -552,6 +564,14 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function specifically checks if the <code v-pre>value</code> is equivalent to positive or negative infinity --- it does not do type checking. If <code v-pre>value</code> is not a numeric value (e.g. a string), it <em>cannot</em> be equivalent to positive or negative infinity and will return false.</li><li>Because lua treats any value other than <code v-pre>nil</code> and <code v-pre>false</code> as <code v-pre>true</code>, the return value of this function can be safely used in conditionals when you don&#x27;t care about the sign of the infinite value.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L61">extensions/math/math.lua line 61</a></td>
 </tr>
 </tbody>
 </table>
@@ -596,6 +616,14 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <td><strong>Notes</strong></td>
 <td><ul><li>Mathematical <code v-pre>NaN</code> represents an impossible value, usually the result of a calculation, yet is still considered within the domain of mathematics. The most common case is the result of <code v-pre>n / 0</code> as division by 0 is considered undefined or &quot;impossible&quot;.</li><li>This function specifically checks if the <code v-pre>value</code> is <code v-pre>NaN</code> --- it does not do type checking. If <code v-pre>value</code> is not a numeric value (e.g. a string), it <em>cannot</em> be equivalent to <code v-pre>NaN</code> and this function will return false.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/math.lua#L44">extensions/math/math.lua line 44</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -639,6 +667,14 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/libmath.m#L6">extensions/math/libmath.m line 6</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -681,6 +717,14 @@ local n = math.sin(math.minFloat) -- works even though they're both from differe
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/math/libmath.m#L26">extensions/math/libmath.m line 26</a></td>
 </tr>
 </tbody>
 </table>

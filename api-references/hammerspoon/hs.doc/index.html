@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -462,6 +462,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is mainly for runtime API help while using Hammerspoon&#x27;s Console</li><li></li><li>Documentation files registered with <doc-anchor-trigger to="#registerJSONFile">hs.doc.registerJSONFile</doc-anchor-trigger> or <doc-anchor-trigger to="#preloadSpoonDocs">hs.doc.preloadSpoonDocs</doc-anchor-trigger> that have not yet been actually loaded will be loaded when this command is invoked in any of the forms described below.</li><li></li><li>You can also access the results of this function by the following methods from the console:</li><li>  help(&quot;prefix.path&quot;) -- quotes are required, e.g. <code v-pre>help(&quot;hs.reload&quot;)</code></li><li>  help.prefix.path -- no quotes are required, e.g. <code v-pre>help.hs.reload</code></li><li>    <code v-pre>prefix</code> can be one of the following:</li><li>      <code v-pre>hs</code>    - provides documentation for Hammerspoon&#x27;s builtin commands and modules</li><li>      <code v-pre>spoon</code> - provides documentation for the Spoons installed on your system</li><li>      <code v-pre>lua</code>   - provides documentation for the version of lua Hammerspoon is using, currently 5.3</li><li>        <code v-pre>lua._man</code> - provides the table of contents for the Lua 5.3 manual.  You can pull up a specific section of the lua manual by including the chapter (and subsection) like this: <code v-pre>lua._man._3_4_8</code>.</li><li>        <code v-pre>lua._C</code>   - provides documentation specifically about the Lua C API for use when developing modules which require external libraries.</li><li>    <code v-pre>path</code> is one or more components, separated by a period specifying the module, submodule, function, or method you wish to view documentation for.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/doc.lua#L139">extensions/doc/doc.lua line 139</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -504,6 +512,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The JSON should be named &#x27;docs.json&#x27; and located in the same directory as the <code v-pre>lua</code> or <code v-pre>so</code> file which is used when the module is loaded via <code v-pre>require</code>.</li><li></li><li>The documentation for core modules is stored in the JSON file specified by the <code v-pre>hs.docstrings_json_file</code> variable; this function is intended for use in locating the documentation file for third party modules and Spoons.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/doc.lua#L171">extensions/doc/doc.lua line 171</a></td>
 </tr>
 </tbody>
 </table>
@@ -548,6 +564,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/doc.lua#L216">extensions/doc/doc.lua line 216</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -590,6 +614,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The table returned by this function has a metatable including a __tostring method which allows you to see the list of registered files by simply typing <code v-pre>hs.doc.registeredFiles()</code> in the Hammerspoon Console.</li><li></li><li>By default, the internal core documentation and portions of the Lua 5.3 manual, located at <a href="http://www.lua.org/manual/5.3/manual.html">http://www.lua.org/manual/5.3/manual.html</a>, are already registered for inclusion within this documentation object.</li><li></li><li>You can unregister these defaults if you wish to start with a clean slate with the following commands:</li><li>  <code v-pre>hs.doc.unregisterJSONFile(hs.docstrings_json_file)</code> -- to unregister the Hammerspoon API docs</li><li>  <code v-pre>hs.doc.unregisterJSONFile((hs.docstrings_json_file:gsub(&quot;/docs.json$&quot;,&quot;/lua.json&quot;)))</code> -- to unregister the Lua 5.3 Documentation.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/doc.lua#L109">extensions/doc/doc.lua line 109</a></td>
 </tr>
 </tbody>
 </table>
@@ -634,6 +666,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>this function just registers the documentation file; it won&#x27;t actually be loaded and parsed until <doc-anchor-trigger to="#help">hs.doc.help</doc-anchor-trigger> is invoked.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/libdoc.m#L264">extensions/doc/libdoc.m line 264</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -676,6 +716,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function requires the rebuilding of the entire documentation tree for all remaining registered files, so the next time help is queried with <doc-anchor-trigger to="#help">hs.doc.help</doc-anchor-trigger>, there may be a slight one-time delay.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/doc/libdoc.m#L303">extensions/doc/libdoc.m line 303</a></td>
 </tr>
 </tbody>
 </table>

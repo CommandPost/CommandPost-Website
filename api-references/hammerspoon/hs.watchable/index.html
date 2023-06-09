@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -437,6 +437,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This constructor is used by code which wishes to share state information which other code may register to watch.</li><li></li><li>You may specify any string name as a path, but it must be unique -- an error will occur if the path name has already been registered.</li><li>All key-value pairs stored within this table are potentially watchable by external code -- if you wish to keep some data private, do not store it in this table.</li><li><code v-pre>externalChanges</code> will apply to <em>all</em> keys within this table -- if you wish to only allow some keys to be externally modifiable, you will need to register separate paths.</li><li>If external changes are enabled, you will need to register your own watcher with <doc-anchor-trigger to="#watch">hs.watchable.watch</doc-anchor-trigger> if action is required when external changes occur.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L188">extensions/watchable/watchable.lua line 188</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -459,7 +467,9 @@
 <code v-pre>old</code>     - the old value for this key, may be nil
 <code v-pre>new</code>     - the new value for this key, may be nil</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a watchableObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This constructor is used by code which wishes to watch state information which is being shared by other code.</li><li></li><li>The callback function is invoked after the new value has already been set -- the callback is a &quot;didChange&quot; notification, not a &quot;willChange&quot; notification.</li><li></li><li>If the key (specified as a separate argument or as the final component of path) is &quot;*&quot;, then all key-value pair changes that occur for the table specified by the path will invoke a callback.  This is a shortcut for watching an entire table, rather than just a specific key-value pair of the table.</li><li>It is possible to register a watcher for a path that has not been registered with <doc-anchor-trigger to="#new">hs.watchable.new</doc-anchor-trigger> yet. Retrieving the current value with <doc-anchor-trigger to="#value">hs.watchable:value</doc-anchor-trigger> in such a case will return nil.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>This constructor is used by code which wishes to watch state information which is being shared by other code.</li><li></li><li>The callback function is invoked after the new value has already been set -- the callback is a &quot;didChange&quot; notification, not a &quot;willChange&quot; notification.</li><li></li><li>If the key (specified as a separate argument or as the final component of path) is &quot;*&quot;, then all key-value pair changes that occur for the table specified by the path will invoke a callback.  This is a shortcut for watching an entire table, rather than just a specific key-value pair of the table.</li><li>It is possible to register a watcher for a path that has not been registered with <doc-anchor-trigger to="#new">hs.watchable.new</doc-anchor-trigger> yet. Retrieving the current value with <doc-anchor-trigger to="#value">hs.watchable:value</doc-anchor-trigger> in such a case will return nil.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L220">extensions/watchable/watchable.lua line 220</a> |</p>
 <hr />
 <doc-anchor-target id="methods">
     <h4>
@@ -506,6 +516,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>see <doc-anchor-trigger to="#watch">hs.watchable.watch</doc-anchor-trigger> for a description of the arguments the callback function should expect.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L100">extensions/watchable/watchable.lua line 100</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -548,6 +566,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>if external changes are not allowed for the specified path, this method generates an error</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L144">extensions/watchable/watchable.lua line 144</a></td>
 </tr>
 </tbody>
 </table>
@@ -592,6 +618,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L61">extensions/watchable/watchable.lua line 61</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -634,6 +668,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L81">extensions/watchable/watchable.lua line 81</a></td>
 </tr>
 </tbody>
 </table>
@@ -678,6 +720,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L71">extensions/watchable/watchable.lua line 71</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -720,6 +770,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/watchable/watchable.lua#L125">extensions/watchable/watchable.lua line 125</a></td>
 </tr>
 </tbody>
 </table>

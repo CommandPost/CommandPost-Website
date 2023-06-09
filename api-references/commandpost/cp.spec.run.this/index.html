@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -443,6 +443,10 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>States include:</li><li> running     - The Run is currently running and will terminate at the end of the function (synchrnonous).</li><li> waiting     - The Run is waiting, and will terminate when <doc-anchor-trigger to="#done">done()</doc-anchor-trigger> is called. (asynchronous).</li><li> done        - The Run is done.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L31">src/extensions/cp/spec/Run.lua line 31</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -491,6 +495,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L48">src/extensions/cp/spec/Run.lua line 48</a></td>
 </tr>
 </tbody>
 </table>
@@ -541,6 +553,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L64">src/extensions/cp/spec/Run.lua line 64</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -590,6 +610,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L403">src/extensions/cp/spec/Run.lua line 403</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -632,6 +660,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L489">src/extensions/cp/spec/Run.lua line 489</a></td>
 </tr>
 </tbody>
 </table>
@@ -676,6 +712,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L346">src/extensions/cp/spec/Run.lua line 346</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -718,6 +762,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>When this is expected, it doesn&#x27;t log the problem as a &#x27;fail&#x27;. In fact, if the it doesn&#x27;t occur at some point during the run, it will raise a failure at the end of the run.</li><li>The <code v-pre>messagePattern</code> can be used to ensure it&#x27;s the fail you expect.</li><li>This should be called before the actual abort/<code v-pre>error</code> would occur.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L207">src/extensions/cp/spec/Run.lua line 207</a></td>
 </tr>
 </tbody>
 </table>
@@ -762,6 +814,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>When this is expected, it doesn&#x27;t log the problem as a &#x27;fail&#x27;. In fact, if the fail doesn&#x27;t occur, it will raise a failure at the end of the run.</li><li>The <code v-pre>messagePattern</code> can be used to ensure it&#x27;s the fail you expect.</li><li>This should be called before the actual assert/fail would occur.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L120">src/extensions/cp/spec/Run.lua line 120</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -804,6 +864,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L427">src/extensions/cp/spec/Run.lua line 427</a></td>
 </tr>
 </tbody>
 </table>
@@ -848,6 +916,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L295">src/extensions/cp/spec/Run.lua line 295</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -890,6 +966,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L390">src/extensions/cp/spec/Run.lua line 390</a></td>
 </tr>
 </tbody>
 </table>
@@ -934,6 +1018,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L333">src/extensions/cp/spec/Run.lua line 333</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -976,6 +1068,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L713">src/extensions/cp/spec/Run.lua line 713</a></td>
 </tr>
 </tbody>
 </table>
@@ -1020,6 +1120,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L477">src/extensions/cp/spec/Run.lua line 477</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1062,6 +1170,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L86">src/extensions/cp/spec/Run.lua line 86</a></td>
 </tr>
 </tbody>
 </table>
@@ -1106,6 +1222,14 @@ will complete asynchronously.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>If the <code v-pre>onNext</code>/<code v-pre>onError</code>/<code v-pre>onCompleted</code> functions are</li><li>not provided, then it will provide defaults. <code v-pre>onNext</code> will be logged, <code v-pre>onError</code> will throw an error,</li><li>and <code v-pre>onCompleted</code> will trigger <doc-anchor-trigger to="#done">done</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L272">src/extensions/cp/spec/Run.lua line 272</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1148,6 +1272,14 @@ will complete asynchronously.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If not provided, <doc-anchor-trigger to="#defaultTimeout">Run.This.defaultTimeout()</doc-anchor-trigger> is used.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/spec/Run.lua#L308">src/extensions/cp/spec/Run.lua line 308</a></td>
 </tr>
 </tbody>
 </table>

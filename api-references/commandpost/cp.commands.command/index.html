@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -451,6 +451,10 @@
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L38">src/extensions/cp/commands/command.lua line 38</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -485,6 +489,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L33">src/extensions/cp/commands/command.lua line 33</a></td>
 </tr>
 </tbody>
 </table>
@@ -535,6 +543,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>getFn</code> function should have no arguments.</li><li>The <code v-pre>setFn</code> function can have two optional arguments:</li><li>  <code v-pre>clear</code> - A boolean that defines whether or not the value should be cleared.</li><li>  <code v-pre>completionFn</code> - An optional completion function callback.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L95">src/extensions/cp/commands/command.lua line 95</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -577,6 +593,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L493">src/extensions/cp/commands/command.lua line 493</a></td>
 </tr>
 </tbody>
 </table>
@@ -621,6 +645,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method can be called multiple times, and multiple key combinations will be registered for the command.</li><li>To remove existing key combinations, call the <code v-pre>command:deleteShortcuts()</code> method.</li><li>  ** If the <code v-pre>keyCode</code> is provided, no modifiers need to be pressed to activate and the <code v-pre>command</code> is returned.</li><li>  ** If the <code v-pre>modifiers</code> and <code v-pre>keyCode</code> are provided, the combination is created and the <code v-pre>command</code> is returned.</li><li>  ** If no <code v-pre>keyCode</code> is provided, a <code v-pre>modifier</code> is returned, which lets you specify keyboard combinations.</li><li>For example:</li><li></li><li><code v-pre>&lt;/li&gt;&lt;li&gt;local global    	= commands.collection(&quot;global&quot;)&lt;/li&gt;&lt;li&gt;local pressA 		= global:add(&quot;commandA&quot;):activatedBy(&quot;a&quot;)&lt;/li&gt;&lt;li&gt;local pressShiftA	= global:add(&quot;commandShiftA&quot;):activatedBy({&quot;shift&quot;}, &quot;a&quot;)&lt;/li&gt;&lt;li&gt;local pressCmdA		= global:add(&quot;commandCmdA&quot;):activatedBy():command(&quot;a&quot;)&lt;/li&gt;&lt;li&gt;local pressOptCmdA	= global:add(&quot;commandOptCmdA&quot;):activatedBy():option():command(&quot;a&quot;)&lt;/li&gt;&lt;li&gt;global:enable()&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L253">src/extensions/cp/commands/command.lua line 253</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -663,6 +695,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L334">src/extensions/cp/commands/command.lua line 334</a></td>
 </tr>
 </tbody>
 </table>
@@ -707,6 +747,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L300">src/extensions/cp/commands/command.lua line 300</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -749,6 +797,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L526">src/extensions/cp/commands/command.lua line 526</a></td>
 </tr>
 </tbody>
 </table>
@@ -793,6 +849,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L512">src/extensions/cp/commands/command.lua line 512</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -835,6 +899,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L117">src/extensions/cp/commands/command.lua line 117</a></td>
 </tr>
 </tbody>
 </table>
@@ -879,6 +951,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L372">src/extensions/cp/commands/command.lua line 372</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -921,6 +1001,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L240">src/extensions/cp/commands/command.lua line 240</a></td>
 </tr>
 </tbody>
 </table>
@@ -965,6 +1053,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L210">src/extensions/cp/commands/command.lua line 210</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1007,6 +1103,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L359">src/extensions/cp/commands/command.lua line 359</a></td>
 </tr>
 </tbody>
 </table>
@@ -1051,6 +1155,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L179">src/extensions/cp/commands/command.lua line 179</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1093,6 +1205,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L144">src/extensions/cp/commands/command.lua line 144</a></td>
 </tr>
 </tbody>
 </table>
@@ -1137,6 +1257,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This is different to the command group/parent value.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L223">src/extensions/cp/commands/command.lua line 223</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1179,6 +1307,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L131">src/extensions/cp/commands/command.lua line 131</a></td>
 </tr>
 </tbody>
 </table>
@@ -1223,6 +1359,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L55">src/extensions/cp/commands/command.lua line 55</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1265,6 +1409,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L196">src/extensions/cp/commands/command.lua line 196</a></td>
 </tr>
 </tbody>
 </table>
@@ -1309,6 +1461,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L16">src/extensions/cp/commands/command.lua line 16</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1351,6 +1511,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L68">src/extensions/cp/commands/command.lua line 68</a></td>
 </tr>
 </tbody>
 </table>
@@ -1395,6 +1563,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L443">src/extensions/cp/commands/command.lua line 443</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1437,6 +1613,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L457">src/extensions/cp/commands/command.lua line 457</a></td>
 </tr>
 </tbody>
 </table>
@@ -1481,6 +1665,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L471">src/extensions/cp/commands/command.lua line 471</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1523,6 +1715,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L317">src/extensions/cp/commands/command.lua line 317</a></td>
 </tr>
 </tbody>
 </table>
@@ -1567,6 +1767,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>By default, it will look up the <code v-pre>&lt;ID&gt;_subtitle</code> value.</li><li>Anything set here will override it in all langauges.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L161">src/extensions/cp/commands/command.lua line 161</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1609,6 +1817,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L81">src/extensions/cp/commands/command.lua line 81</a></td>
 </tr>
 </tbody>
 </table>
@@ -1653,6 +1869,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This is a shortcut for calling <code v-pre>whenPressed(...)</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L385">src/extensions/cp/commands/command.lua line 385</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1695,6 +1919,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L401">src/extensions/cp/commands/command.lua line 401</a></td>
 </tr>
 </tbody>
 </table>
@@ -1739,6 +1971,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L415">src/extensions/cp/commands/command.lua line 415</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1781,6 +2021,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/commands/command.lua#L429">src/extensions/cp/commands/command.lua line 429</a></td>
 </tr>
 </tbody>
 </table>

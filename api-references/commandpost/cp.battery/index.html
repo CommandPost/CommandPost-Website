@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -454,6 +454,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>A number containing the amount of current flowing through the battery. The value may be:</li><li> ** Less than zero if the battery is being discharged (i.e. the computer is running on battery power)</li><li> ** Zero if the battery is being neither charged nor discharded</li><li> ** Greater than zero if the bettery is being charged</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L19">src/extensions/cp//battery.lua line 19</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -488,6 +492,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is the measure of how charged the battery is, vs the value of <code v-pre>cp.battery.maxCapacity()</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L29">src/extensions/cp//battery.lua line 29</a></td>
 </tr>
 </tbody>
 </table>
@@ -524,6 +532,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>One cycle is a full discharge of the battery, followed by a full charge. This may also be an aggregate of many smaller discharge-then-charge cycles (e.g. 10 iterations of discharging the battery from 100% to 90% and then charging back to 100% each time, is considered to be one cycle).</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L36">src/extensions/cp//battery.lua line 36</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -558,6 +570,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L43">src/extensions/cp//battery.lua line 43</a></td>
 </tr>
 </tbody>
 </table>
@@ -594,6 +610,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L47">src/extensions/cp//battery.lua line 47</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -628,6 +648,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L52">src/extensions/cp//battery.lua line 52</a></td>
 </tr>
 </tbody>
 </table>
@@ -664,6 +688,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L59">src/extensions/cp//battery.lua line 59</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -698,6 +726,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L63">src/extensions/cp//battery.lua line 63</a></td>
 </tr>
 </tbody>
 </table>
@@ -734,6 +766,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L67">src/extensions/cp//battery.lua line 67</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -768,6 +804,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This may exceed the value of <code v-pre>cp.battery.designCapacity()</code> due to small variations in the production chemistry vs the design.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L72">src/extensions/cp//battery.lua line 72</a></td>
 </tr>
 </tbody>
 </table>
@@ -804,6 +844,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L79">src/extensions/cp//battery.lua line 79</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -838,6 +882,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L83">src/extensions/cp//battery.lua line 83</a></td>
 </tr>
 </tbody>
 </table>
@@ -874,6 +922,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L87">src/extensions/cp//battery.lua line 87</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -908,6 +960,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The return value may be:</li><li> ** Greater than zero to indicate the number of minutes remaining.</li><li> ** <code v-pre>-1</code> if the remaining batttery life is being calculated.</li><li> ** <code v-pre>-2</code> if there is unlimited time remaining (i.e. the system is on AC power).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L91">src/extensions/cp//battery.lua line 91</a></td>
 </tr>
 </tbody>
 </table>
@@ -944,6 +1000,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L101">src/extensions/cp//battery.lua line 101</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -979,6 +1039,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td>- None</td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L105">src/extensions/cp//battery.lua line 105</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1013,6 +1077,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L109">src/extensions/cp//battery.lua line 109</a></td>
 </tr>
 </tbody>
 </table>
@@ -1054,6 +1122,10 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L133">src/extensions/cp//battery.lua line 133</a></td>
 </tr>
 </tbody>
 </table>
@@ -1104,6 +1176,14 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L147">src/extensions/cp//battery.lua line 147</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1146,6 +1226,14 @@ the <code v-pre>cp.prop</code> watchers to trigger.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp//battery.lua#L160">src/extensions/cp//battery.lua line 160</a></td>
 </tr>
 </tbody>
 </table>

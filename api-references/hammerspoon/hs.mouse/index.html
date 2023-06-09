@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -457,6 +457,14 @@ misrepresented as being the original software.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>If no parameters are supplied, the current position will be returned. If a point table parameter is supplied, the mouse pointer position will be set and the new co-ordinates returned</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L202">extensions/mouse/libmouse.m line 202</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -499,6 +507,14 @@ misrepresented as being the original software.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function leverages code from <a href="http://icculus.org/manymouse/">ManyMouse</a>.</li><li>This function considers any mouse labelled as &quot;Apple Internal Keyboard / Trackpad&quot; to be an internal mouse.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L154">extensions/mouse/libmouse.m line 154</a></td>
 </tr>
 </tbody>
 </table>
@@ -543,6 +559,14 @@ misrepresented as being the original software.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>Possible values include: arrowCursor, contextualMenuCursor, closedHandCursor, crosshairCursor, disappearingItemCursor, dragCopyCursor, dragLinkCursor, IBeamCursor, operationNotAllowedCursor, pointingHandCursor, resizeDownCursor, resizeLeftCursor, resizeLeftRightCursor, resizeRightCursor, resizeUpCursor, resizeUpDownCursor, IBeamCursorForVerticalLayout or unknown if the cursor type cannot be determined.</li><li>This function can also return daVinciResolveHorizontalArrows, when hovering over mouse-draggable text-boxes in DaVinci Resolve. This is determined using the &quot;hotspot&quot; value of the cursor.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L274">extensions/mouse/libmouse.m line 274</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -585,6 +609,14 @@ misrepresented as being the original software.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function is a wrapper to <code v-pre>hs.eventtap.checkMouseButtons</code></li><li>This is an instantaneous poll of the current mouse buttons, not a callback.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L154">extensions/mouse/mouse.lua line 154</a></td>
 </tr>
 </tbody>
 </table>
@@ -629,6 +661,14 @@ misrepresented as being the original software.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L140">extensions/mouse/mouse.lua line 140</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -671,6 +711,14 @@ misrepresented as being the original software.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The co-ordinates returned by this function are relative to the top left pixel of the screen the mouse is on (see <code v-pre>hs.mouse.getAbsolutePosition</code> if you need the location in the full desktop space)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L84">extensions/mouse/mouse.lua line 84</a></td>
 </tr>
 </tbody>
 </table>
@@ -715,6 +763,14 @@ misrepresented as being the original software.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function leverages code from <a href="http://icculus.org/manymouse/">ManyMouse</a>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L182">extensions/mouse/libmouse.m line 182</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -757,6 +813,14 @@ misrepresented as being the original software.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L257">extensions/mouse/libmouse.m line 257</a></td>
 </tr>
 </tbody>
 </table>
@@ -801,6 +865,14 @@ misrepresented as being the original software.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/mouse.lua#L112">extensions/mouse/mouse.lua line 112</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -843,6 +915,14 @@ misrepresented as being the original software.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is represented in the System Preferences as the &quot;Tracking speed&quot; setting for mice</li><li>Note that not all values will work, they should map to the steps defined in the System Preferences app, which are:</li><li>  0.0, 0.125, 0.5, 0.6875, 0.875, 1.0, 1.5, 2.0, 2.5, 3.0</li><li>Note that changes to this value will not be noticed immediately by macOS</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/mouse/libmouse.m#L227">extensions/mouse/libmouse.m line 227</a></td>
 </tr>
 </tbody>
 </table>

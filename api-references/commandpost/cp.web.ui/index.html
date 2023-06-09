@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -440,6 +440,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following fields:</li><li> ** <code v-pre>text</code>      - The string (or function) containing the text of the heading.</li><li> ** <code v-pre>level</code>         - The heading level (or function) (1-7). Defaults to 3.</li><li> ** <code v-pre>class</code>     - The CSS class (or function) for the heading tag.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L91">src/extensions/cp/web/ui.lua line 91</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -482,6 +490,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>src</code>       - The source of the image. If this points to a local file, it will be encoded as Base64.</li><li> ** <code v-pre>class</code>     - A string, (or function returning a string) with the CSS class for the element.</li><li> ** <code v-pre>width</code>     - The width of the image.</li><li> ** <code v-pre>height</code>    - The height of the image.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L326">src/extensions/cp/web/ui.lua line 326</a></td>
 </tr>
 </tbody>
 </table>
@@ -526,6 +542,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <td><strong>Notes</strong></td>
 <td><ul><li>The script is self-contained and only has access to global variables. Any local <code v-pre>var</code> values will not be available to other scripts.</li><li>The script will be evaluated as a <code v-pre>resty.template</code>, and variables can be injected from the <code v-pre>context</code> table. For example, this will create a script that will display an alert saying &quot;Hello world!&quot;:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;ui.javascript([[ alert(&quot;&quot;) ]], { message = &quot;Hello world!&quot;})&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L35">src/extensions/cp/web/ui.lua line 35</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -568,6 +592,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>id</code>                - The unique ID for the textbox.</li><li> ** <code v-pre>name</code>          - The name of the textbox field.</li><li> ** <code v-pre>class</code>         - The CSS classname.</li><li> ** <code v-pre>placeholder</code>   - Placeholder text</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L156">src/extensions/cp/web/ui.lua line 156</a></td>
 </tr>
 </tbody>
 </table>
@@ -612,6 +644,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>id</code>        - a string (or function) the unique ID for the select.</li><li> ** <code v-pre>value</code>     - a string, number, or boolean (or function) with the value of the select. May be <code v-pre>nil</code>.</li><li> ** <code v-pre>options</code>   - an array (or function returning an array) of option tables, with the following keys:</li><li> *** <code v-pre>value</code>    - the value of the option.</li><li> *** <code v-pre>label</code>    - (optional) the label for the option. If not set, the <code v-pre>value</code> is used.</li><li> *** <code v-pre>disabled</code> - (optional) if the option is disabled.</li><li> ** <code v-pre>required</code>  - (optional) if <code v-pre>true</code>, there will not be a &#x27;blank&#x27; option at the top of the list.</li><li> ** <code v-pre>blankLabel</code>    - (optional) if specified, the value will be used for the &#x27;blank&#x27; option label.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L252">src/extensions/cp/web/ui.lua line 252</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -654,6 +694,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>rules</code> will be evaluated as a <code v-pre>resty.template</code>, and variables can be injected from the <code v-pre>context</code> table. For example, this will create a set of rules that injects the provided color:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;ui.style([[ body { color: ; } ]], { bodyColor = &quot;#FFFFFF&quot;})&lt;/li&gt;&lt;li&gt;</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L67">src/extensions/cp/web/ui.lua line 67</a></td>
 </tr>
 </tbody>
 </table>
@@ -698,6 +746,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>view</code>      - The file path to the template, or the template content itself. Required.</li><li> ** <code v-pre>context</code>   - The table containing the context to execute the template in.</li><li> ** <code v-pre>unescaped</code> - If true, the template will not be escaped before outputting.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L115">src/extensions/cp/web/ui.lua line 115</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -740,6 +796,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>id</code>                - The unique ID for the textbox.</li><li> ** <code v-pre>name</code>          - The name of the textbox field.</li><li> ** <code v-pre>class</code>         - The CSS classname.</li><li> ** <code v-pre>placeholder</code>   - Placeholder text.</li><li> ** <code v-pre>value</code>         - The default value of the textbox.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L135">src/extensions/cp/web/ui.lua line 135</a></td>
 </tr>
 </tbody>
 </table>
@@ -790,6 +854,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> can contain the following fields:</li><li> ** <code v-pre>value</code>     - The value of the button.</li><li> ** <code v-pre>label</code>     - The text label for the button. Defaults to the <code v-pre>value</code> if not provided.</li><li> ** <code v-pre>width</code>     - The width of the button in pixels.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L214">src/extensions/cp/web/ui.lua line 214</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -832,6 +904,14 @@ and if functions are provided, they are re-evaluated every time the element is g
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The <code v-pre>params</code> table has the following supported fields:</li><li> ** <code v-pre>value</code>     - a string (or function) with the value of the checkbox. If not specified, the title is used.</li><li> ** <code v-pre>checked</code>   - a boolean (or function) set to <code v-pre>true</code> or <code v-pre>false</code>, depending on if the checkbox is checked.</li><li> ** <code v-pre>disabled</code>  - a boolean (or function) set to <code v-pre>true</code> or <code v-pre>false</code>, depending on if the checkbox is disabled.</li><li> ** <code v-pre>id</code>        - (optional) a string (or function) with the unique ID for the checkbox.</li><li> ** <code v-pre>name</code>      - (optional) a unique name for the checkbox field.</li><li> ** <code v-pre>class</code>     - (optional) the CSS class list.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/web/ui.lua#L176">src/extensions/cp/web/ui.lua line 176</a></td>
 </tr>
 </tbody>
 </table>

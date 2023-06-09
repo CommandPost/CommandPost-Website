@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -471,6 +471,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Count starts at zero. (implemented in Objective-C)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1315">extensions/notify/libnotify.m line 1315</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -505,6 +509,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1503">extensions/notify/libnotify.m line 1503</a></td>
 </tr>
 </tbody>
 </table>
@@ -547,6 +555,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This table should not be modified directly. Use the <code v-pre>hs.notify.register(tag, fn)</code> and <code v-pre>hs.notify.unregister(id)</code> functions.</li><li>This table has a __tostring metamethod so you can see the list of registered function tags in the console by typing <code v-pre>hs.notify.registry</code></li><li>See <doc-anchor-trigger to="#warnAboutMissingFunctionTag">hs.notify.warnAboutMissingFunctionTag</doc-anchor-trigger> for determining the behavior when a notification attempts to perform a callback to a function tag which is not present in this table. This occurrence is most common with notifications which are acted upon by the user after Hammerspoon has been reloaded.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L253">extensions/notify/notify.lua line 253</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -581,6 +593,10 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td>- None</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L50">extensions/notify/notify.lua line 50</a></td>
 </tr>
 </tbody>
 </table>
@@ -631,6 +647,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Only notifications which have been presented but not cleared, either by the user clicking on the <doc-anchor-trigger to="#otherButtonTitle">hs.notify:otherButtonTitle</doc-anchor-trigger> or through auto-withdrawal (see <doc-anchor-trigger to="#autoWithdraw">hs.notify:autoWithdraw</doc-anchor-trigger> for more details), will be in the array returned.</li><li></li><li>You can use this function along with <doc-anchor-trigger to="#getFunctionTag">hs.notify:getFunctionTag</doc-anchor-trigger> to re=register necessary callback functions with <doc-anchor-trigger to="#register">hs.notify.register</doc-anchor-trigger> when Hammerspoon is restarted.</li><li></li><li>Since notifications which the user has closed (or cancelled) do not trigger a callback, you can check this table with a timer to see if the user has cleared a notification, e.g.</li><li><sub><del>lua</li><li>myNotification = hs.notify.new():send()</li><li>clearCheck = hs.timer.doEvery(10, function()</li><li>    if not hs.fnutils.contains(hs.notify.deliveredNotifications(), myNotification) then</li><li>        if myNotification:activationType() == hs.notify.activationTypes.none then</li><li>            print(&quot;You dismissed me!&quot;)</li><li>        else</li><li>            print(&quot;A regular action occurred, so callback (if any) was invoked&quot;)</li><li>        end</li><li>        clearCheck:stop() -- either way, no need to keep polling</li><li>        clearCheck = nil</li><li>    end</li><li>end)</li><li></del></sub></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L212">extensions/notify/libnotify.m line 212</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -673,6 +697,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If a function is already registered with the specified tag, it is replaced by with the new one.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L178">extensions/notify/notify.lua line 178</a></td>
 </tr>
 </tbody>
 </table>
@@ -717,6 +749,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>Once a notification has been delivered, it is moved to <doc-anchor-trigger to="#deliveredNotifications">hs.notify.deliveredNotifications</doc-anchor-trigger> or removed, depending upon the users action.</li><li></li><li>You can use this function along with <doc-anchor-trigger to="#getFunctionTag">hs.notify:getFunctionTag</doc-anchor-trigger> to re=register necessary callback functions with <doc-anchor-trigger to="#register">hs.notify.register</doc-anchor-trigger> when Hammerspoon is restarted.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L259">extensions/notify/libnotify.m line 259</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -759,6 +799,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L212">extensions/notify/notify.lua line 212</a></td>
 </tr>
 </tbody>
 </table>
@@ -803,6 +851,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This does not remove the notifications from the User Notification Center, it just removes their callback function for when the user interacts with them. To remove all notifications, see <doc-anchor-trigger to="#withdrawAll">hs.notify.withdrawAll</doc-anchor-trigger> and <doc-anchor-trigger to="#withdrawAllScheduled">hs.notify.withdrawAllScheduled</doc-anchor-trigger></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L239">extensions/notify/notify.lua line 239</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -845,6 +901,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This will withdraw all notifications for Hammerspoon, including those not sent by this module or that linger from a previous load of Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L177">extensions/notify/libnotify.m line 177</a></td>
 </tr>
 </tbody>
 </table>
@@ -889,6 +953,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L196">extensions/notify/libnotify.m line 196</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -930,7 +1002,9 @@ responsePlaceholder         - see <doc-anchor-trigger to="#responsePlaceholder">
 alwaysShowAdditionalActions - see <doc-anchor-trigger to="#alwaysShowAdditionalActions">hs.notify:alwaysShowAdditionalActions</doc-anchor-trigger>
 withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.notify:withdrawAfter</doc-anchor-trigger></li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A notification object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>A function-tag is a string key which corresponds to a function stored in the <doc-anchor-trigger to="#registry">hs.notify.registry</doc-anchor-trigger> table with the <code v-pre>hs.notify.register()</code> function.</li><li>If a notification does not have a <code v-pre>title</code> attribute set, OS X will not display it, so by default it will be set to &quot;Notification&quot;. You can use the <code v-pre>title</code> key in the attributes table, or call <code v-pre>hs.notify:title()</code> before displaying the notification to change this.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>A function-tag is a string key which corresponds to a function stored in the <doc-anchor-trigger to="#registry">hs.notify.registry</doc-anchor-trigger> table with the <code v-pre>hs.notify.register()</code> function.</li><li>If a notification does not have a <code v-pre>title</code> attribute set, OS X will not display it, so by default it will be set to &quot;Notification&quot;. You can use the <code v-pre>title</code> key in the attributes table, or call <code v-pre>hs.notify:title()</code> before displaying the notification to change this.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L60">extensions/notify/notify.lua line 60</a> |</p>
 <hr />
 <doc-anchor-target id="show">
     <h3>
@@ -970,6 +1044,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>All three textual parameters are required, though they can be empty strings</li><li>This function is really a shorthand for <code v-pre>hs.notify.new(...):send()</code></li><li>Notifications created using this function will inherit the default <code v-pre>withdrawAfter</code> value, which is 5 seconds. To produce persistent notifications you should use <code v-pre>hs.notify.new()</code> with a <code v-pre>withdrawAfter</code> attribute of 0.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L140">extensions/notify/notify.lua line 140</a></td>
 </tr>
 </tbody>
 </table>
@@ -1020,6 +1102,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>The affects of this method only apply if the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences</li><li>This value is ignored if <doc-anchor-trigger to="#hasReplyButton">hs.notify:hasReplyButton</doc-anchor-trigger> is true.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L555">extensions/notify/libnotify.m line 555</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1062,6 +1152,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1255">extensions/notify/libnotify.m line 1255</a></td>
 </tr>
 </tbody>
 </table>
@@ -1106,6 +1204,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>You can turn epoch times into a human readable string or a table of date elements with the <code v-pre>os.date()</code> function.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1273">extensions/notify/libnotify.m line 1273</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1148,6 +1254,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The additional items will be listed in a pop-up menu when the user clicks and holds down the mouse button in the action button of the alert.</li><li>If the user selects one of the additional actions, <doc-anchor-trigger to="#activationType">hs.notify:activationType</doc-anchor-trigger> will equal <code v-pre>hs.notify.activationTypes.additionalActionClicked</code></li><li>See also <doc-anchor-trigger to="#additionalActivationAction">hs.notify:additionalActivationAction</doc-anchor-trigger></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1104">extensions/notify/libnotify.m line 1104</a></td>
 </tr>
 </tbody>
 </table>
@@ -1192,6 +1306,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>If the user selects one of the additional actions, <doc-anchor-trigger to="#activationType">hs.notify:activationType</doc-anchor-trigger> will equal <code v-pre>hs.notify.activationTypes.additionalActionClicked</code></li><li>See also <doc-anchor-trigger to="#additionalActions">hs.notify:additionalActions</doc-anchor-trigger></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1165">extensions/notify/libnotify.m line 1165</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1234,6 +1356,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This does not affect the return value of <code v-pre>hs.notify:presented()</code> -- that will still reflect the decision of the Notification Center</li><li>Examples of why the users Notification Center would choose not to display a notification would be if Hammerspoon is the currently focussed application, being attached to a projector, or the user having set Do Not Disturb.</li><li></li><li>if the notification was not created by this module, this method will return nil</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L673">extensions/notify/libnotify.m line 673</a></td>
 </tr>
 </tbody>
 </table>
@@ -1278,6 +1408,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>This method has no effect unless the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences.</li><li><doc-anchor-trigger to="#additionalActions">hs.notify:additionalActions</doc-anchor-trigger> must also be used for this method to have any effect.</li><li><strong>WARNING:</strong> This method uses a private API. It could break at any time. Please file an issue if it does.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L950">extensions/notify/libnotify.m line 950</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1320,6 +1458,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method has no effect if the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences: clicking on either the action or other button will clear the notification automatically.</li><li>If a notification which was created before your last reload (or restart) of Hammerspoon and is clicked upon before hs.notify has been loaded into memory, this setting will not be honored because the initial application delegate is not aware of this option and is set to automatically withdraw all notifications which are acted upon.</li><li></li><li>if the notification was not created by this module, this method will return nil</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L767">extensions/notify/libnotify.m line 767</a></td>
 </tr>
 </tbody>
 </table>
@@ -1364,6 +1510,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>See hs.image for details on how to specify or define an image</li><li>This method is only supported in OS X 10.9 or greater. A warning will be displayed in the console and the method will be treated as a no-op if used on an unsupported system.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L273">extensions/notify/notify.lua line 273</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1406,6 +1560,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1213">extensions/notify/libnotify.m line 1213</a></td>
 </tr>
 </tbody>
 </table>
@@ -1450,6 +1612,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>This tag should correspond to a function in <doc-anchor-trigger to="#registry">hs.notify.registry</doc-anchor-trigger> and can be used to either add a replacement with <code v-pre>hs.notify.register(...)</code> or remove it with <code v-pre>hs.notify.unregister(...)</code></li><li></li><li>if the notification was not created by this module, this method will return nil</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L737">extensions/notify/libnotify.m line 737</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1492,6 +1662,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The affects of this method only apply if the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L637">extensions/notify/libnotify.m line 637</a></td>
 </tr>
 </tbody>
 </table>
@@ -1536,6 +1714,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>This method has no effect unless the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences.</li><li><doc-anchor-trigger to="#hasActionButton">hs.notify:hasActionButton</doc-anchor-trigger> must also be true or the &quot;Reply&quot; button will not be displayed.</li><li>If this is set to true, the action button will be &quot;Reply&quot; even if you have set another one with <doc-anchor-trigger to="#actionButtonTitle">hs.notify:actionButtonTitle</doc-anchor-trigger>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L912">extensions/notify/libnotify.m line 912</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1578,6 +1764,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L518">extensions/notify/libnotify.m line 518</a></td>
 </tr>
 </tbody>
 </table>
@@ -1622,6 +1816,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>The affects of this method only apply if the user has set Hammerspoon notifications to <code v-pre>Alert</code> in the Notification Center pane of System Preferences</li><li>Due to OSX limitations, it is NOT possible to get a callback for this button.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L596">extensions/notify/libnotify.m line 596</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1664,6 +1866,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Examples of why the users Notification Center would choose not to display a notification would be if Hammerspoon is the currently focussed application, being attached to a projector, or the user having set Do Not Disturb.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1192">extensions/notify/libnotify.m line 1192</a></td>
 </tr>
 </tbody>
 </table>
@@ -1708,6 +1918,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li><doc-anchor-trigger to="#activationType">hs.notify:activationType</doc-anchor-trigger> will equal <code v-pre>hs.notify.activationTypes.replied</code> if the user clicked on the Reply button and then clicks on Send.</li><li>See also <doc-anchor-trigger to="#hasReplyButton">hs.notify:hasReplyButton</doc-anchor-trigger></li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1076">extensions/notify/libnotify.m line 1076</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1750,6 +1968,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>In macOS 10.13, this text appears so light that it is almost unreadable; so far no workaround has been found.</li><li>See also <doc-anchor-trigger to="#hasReplyButton">hs.notify:hasReplyButton</doc-anchor-trigger></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L1035">extensions/notify/libnotify.m line 1035</a></td>
 </tr>
 </tbody>
 </table>
@@ -1794,6 +2020,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>See also hs.notify:send()</li><li>hs.settings.dateFormat specifies a lua format string which can be used with <code v-pre>os.date()</code> to properly present the date and time as a string for use with this method.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L346">extensions/notify/libnotify.m line 346</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1836,6 +2070,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>See also hs.notify:schedule()</li><li>If a notification has been modified, then this will resend it.</li><li>You can invoke this multiple times if you wish to repeat the same notification.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L312">extensions/notify/libnotify.m line 312</a></td>
 </tr>
 </tbody>
 </table>
@@ -1880,6 +2122,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul><li>See hs.image for details on how to specify or define an image</li><li><strong>WARNING</strong>: This method uses a private API. It could break at any time. Please file an issue if it does</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/notify.lua#L309">extensions/notify/notify.lua line 309</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1922,6 +2172,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Sounds will first be matched against the names of system sounds. If no matches can be found, they will then be searched for in the following paths, in order:</li><li> <code v-pre>~/Library/Sounds</code></li><li> <code v-pre>/Library/Sounds</code></li><li> <code v-pre>/Network/Sounds</code></li><li> <code v-pre>/System/Library/Sounds</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L811">extensions/notify/libnotify.m line 811</a></td>
 </tr>
 </tbody>
 </table>
@@ -1966,6 +2224,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L481">extensions/notify/libnotify.m line 481</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2008,6 +2274,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L444">extensions/notify/libnotify.m line 444</a></td>
 </tr>
 </tbody>
 </table>
@@ -2052,6 +2326,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L406">extensions/notify/libnotify.m line 406</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2094,6 +2376,14 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>While this setting applies to both Banner and Alert styles of notifications, it is functionally meaningless for Banner styles</li><li>A value of 0 will disable auto-withdrawal</li><li></li><li>if the notification was not created by this module, this method will return nil</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/notify/libnotify.m#L992">extensions/notify/libnotify.m line 992</a></td>
 </tr>
 </tbody>
 </table>

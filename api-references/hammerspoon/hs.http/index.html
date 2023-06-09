@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -432,6 +432,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This list is likely not complete.  It is based on the list of common entities described at <a href="http://www.freeformatter.com/html-entities.html">http://www.freeformatter.com/html-entities.html</a>.</li><li>Additional entities can be temporarily added via the <code v-pre>hs.http.registerEntity(...)</code> function.  If you feel you have a more official list of entities which contains items which are currently not included by default, please open up an issue at <a href="https://github.com/Hammerspoon/hammerspoon">https://github.com/Hammerspoon/hammerspoon</a> and your link will be considered.</li><li>To see a list of the currently defined entities, a __tostring meta-method is included so that referencing the table directly as a string will return the current definitions.</li><li>  For reference, this meta-method is essentially the following:</li><li></li><li>     for i,v in hs.fnutils.sortByKeys(hs.http.htmlEntities) do print(string.format(&quot;%-10s %-10s %s\n&quot;, i, &quot;&amp;#&quot;..tostring(hs.utf8.codepoint(v))..&quot;;&quot;, v)) end</li><li></li><li>  Note that this list will not include the numeric conversion of entities (e.g. A), as this is handled by an __index metamethod to allow for all possible numeric values.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L144">extensions/http/http.lua line 144</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -458,7 +462,9 @@ A number containing the HTTP response status
 A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L76">extensions/http/http.lua line 76</a> |</p>
 <hr />
 <doc-anchor-target id="asyncpost">
     <h3>
@@ -476,7 +482,9 @@ A number containing the HTTP response status
 A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L98">extensions/http/http.lua line 98</a> |</p>
 <hr />
 <doc-anchor-target id="asyncput">
     <h3>
@@ -494,7 +502,9 @@ A number containing the HTTP response status
 A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L121">extensions/http/http.lua line 121</a> |</p>
 <hr />
 <doc-anchor-target id="converthtmlentities">
     <h3>
@@ -535,6 +545,14 @@ A table containing the response headers</li></ul> |
 <td><strong>Notes</strong></td>
 <td><ul><li>Recognized HTML Entities are those registered in <code v-pre>hs.http.htmlEntities</code> or numeric entity sequences: &amp;#n; where <code v-pre>n</code> can be any integer number.</li><li>This function is especially useful as a post-filter to data retrieved by the <code v-pre>hs.http.get</code> and <code v-pre>hs.http.asyncGet</code> functions.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L444">extensions/http/http.lua line 444</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -555,7 +573,9 @@ code - A number containing the HTTP response code
 body - A string containing the body of the response
 headers - A table containing the HTTP headers of the response</li><li>cachePolicy - An optional string containing the cache policy (&quot;protocolCachePolicy&quot;, &quot;ignoreLocalCache&quot;, &quot;ignoreLocalAndRemoteCache&quot;, &quot;returnCacheOrLoad&quot;, &quot;returnCacheDontLoad&quot; or &quot;reloadRevalidatingCache&quot;). Defaults to <code v-pre>protocolCachePolicy</code>.</li><li>enableRedirect - An optional boolean to indicate whether to redirect the http request. Defaults to true.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the Content-Type response header begins <code v-pre>text/</code> then the response body return value is a UTF8 string. Any other content type passes the response body, unaltered, as a stream of bytes.</li><li>If enableRedirect is set to true, response body will be empty string. Http body will be dropped even though response has the body. This seems the limitation of &#x27;connection:willSendRequest:redirectResponse&#x27; method.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the Content-Type response header begins <code v-pre>text/</code> then the response body return value is a UTF8 string. Any other content type passes the response body, unaltered, as a stream of bytes.</li><li>If enableRedirect is set to true, response body will be empty string. Http body will be dropped even though response has the body. This seems the limitation of &#x27;connection:willSendRequest:redirectResponse&#x27; method.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/libhttp.m#L201">extensions/http/libhttp.m line 201</a> |</p>
 <hr />
 <doc-anchor-target id="dorequest">
     <h3>
@@ -595,6 +615,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li></li><li>This function is synchronous and will therefore block all Lua execution until it completes. You are encouraged to use the asynchronous functions.</li><li>If you attempt to connect to a local Hammerspoon server created with <code v-pre>hs.httpserver</code>, then Hammerspoon will block until the connection times out (60 seconds), return a failed result due to the timeout, and then the <code v-pre>hs.httpserver</code> callback function will be invoked (so any side effects of the function will occur, but it&#x27;s results will be lost).  Use <doc-anchor-trigger to="#doAsyncRequest">hs.http.doAsyncRequest</doc-anchor-trigger> to avoid this.</li><li>If the Content-Type response header begins <code v-pre>text/</code> then the response body return value is a UTF8 string. Any other content type passes the response body, unaltered, as a stream of bytes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/libhttp.m#L264">extensions/http/libhttp.m line 264</a></td>
 </tr>
 </tbody>
 </table>
@@ -639,6 +667,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <td><strong>Notes</strong></td>
 <td><ul><li>The intent of this function is to provide a valid key or a valid value for a query string, not to validate the entire query string.  For this reason, ?, =, +, and &amp; are included in the converted characters.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L461">extensions/http/http.lua line 461</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -681,6 +717,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>This function is synchronous and will therefore block all other Lua execution while the request is in progress, you are encouraged to use the asynchronous functions</li><li>If you attempt to connect to a local Hammerspoon server created with <code v-pre>hs.httpserver</code>, then Hammerspoon will block until the connection times out (60 seconds), return a failed result due to the timeout, and then the <code v-pre>hs.httpserver</code> callback function will be invoked (so any side effects of the function will occur, but it&#x27;s results will be lost).  Use <doc-anchor-trigger to="#asyncGet">hs.http.asyncGet</doc-anchor-trigger> to avoid this.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L11">extensions/http/http.lua line 11</a></td>
 </tr>
 </tbody>
 </table>
@@ -725,6 +769,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <td><strong>Notes</strong></td>
 <td><ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>This function is synchronous and will therefore block all other Lua execution while the request is in progress, you are encouraged to use the asynchronous functions</li><li>If you attempt to connect to a local Hammerspoon server created with <code v-pre>hs.httpserver</code>, then Hammerspoon will block until the connection times out (60 seconds), return a failed result due to the timeout, and then the <code v-pre>hs.httpserver</code> callback function will be invoked (so any side effects of the function will occur, but it&#x27;s results will be lost).  Use <doc-anchor-trigger to="#asyncPost">hs.http.asyncPost</doc-anchor-trigger> to avoid this.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L32">extensions/http/http.lua line 32</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -767,6 +819,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>This function is synchronous and will therefore block all other Lua execution while the request is in progress, you are encouraged to use the asynchronous functions</li><li>If you attempt to connect to a local Hammerspoon server created with <code v-pre>hs.httpserver</code>, then Hammerspoon will block until the connection times out (60 seconds), return a failed result due to the timeout, and then the <code v-pre>hs.httpserver</code> callback function will be invoked (so any side effects of the function will occur, but it&#x27;s results will be lost).  Use <doc-anchor-trigger to="#asyncPost">hs.http.asyncPost</doc-anchor-trigger> to avoid this.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L54">extensions/http/http.lua line 54</a></td>
 </tr>
 </tbody>
 </table>
@@ -811,6 +871,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <td><strong>Notes</strong></td>
 <td><ul><li>If an entity label was previously registered, this will overwrite the previous value with a new one.</li><li>The return value is merely syntactic sugar and you do not need to save it locally; it can be safely ignored -- future access to the pre-converted entity should be retrieved as <code v-pre>hs.http.htmlEntities[entity]</code> in your code.  It looks good when invoked from the console, though ☺.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/http.lua#L419">extensions/http/http.lua line 419</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -853,6 +921,14 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function assumes that the URL conforms to RFC 1808.  If the URL is malformed or does not conform to RFC1808, then many of these fields may be missing.</li><li></li><li>A contrived example for the url <code v-pre>http://user:password@host.site.com:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment</code>:</li><li></li><li>    &gt; hs.inspect(hs.http.urlParts(&quot;http://user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;))</li><li>     {</li><li>       absoluteString = &quot;http://user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;,</li><li>       absoluteURL = &quot;http://user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;,</li><li>       fileSystemRepresentation = &quot;/path/to a/../file.txt&quot;,</li><li>       fragment = &quot;fragment&quot;,</li><li>       host = &quot;host.site.com&quot;,</li><li>       isFileURL = false,</li><li>       lastPathComponent = &quot;file.txt&quot;,</li><li>       parameterString = &quot;parameter&quot;,</li><li>       password = &quot;password&quot;,</li><li>       path = &quot;/path/to a/../file.txt&quot;,</li><li>       pathComponents = { &quot;/&quot;, &quot;path&quot;, &quot;to a&quot;, &quot;..&quot;, &quot;file.txt&quot; },</li><li>       pathExtension = &quot;txt&quot;,</li><li>       port = 80,</li><li>       query = &quot;query1=1&amp;query2=a%28&quot;,</li><li>       queryItems = { {</li><li>           query1 = &quot;1&quot;</li><li>         }, {</li><li>           query2 = &quot;a(&quot;</li><li>         } },</li><li>       relativePath = &quot;/path/to a/../file.txt&quot;,</li><li>       relativeString = &quot;http://user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;,</li><li>       resourceSpecifier = &quot;//user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/to%20a/../file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;,</li><li>       scheme = &quot;http&quot;,</li><li>       standardizedURL = &quot;http://user:<a href="mailto:password@host.site.com">password@host.site.com</a>:80/path/file.txt;parameter?query1=1&amp;query2=a%28#fragment&quot;,</li><li>       user = &quot;user&quot;</li><li>     }</li><li></li><li>Because it is valid for a query key-value pair to be missing either the key or the value or both, the following conventions are used:</li><li>  a missing key (e.g. &#x27;=value&#x27;) will be represented as { &quot;&quot; = value }</li><li>  a missing value (e.g. &#x27;key=&#x27;) will be represented as </li><li>  a missing value with no = (e.g. &#x27;key&#x27;) will be represented as </li><li>  a missing key and value (e.g. &#x27;=&#x27;) will be represented as { &quot;&quot; = &quot;&quot; }</li><li>  an empty query item (e.g. a query ending in &#x27;&amp;&#x27; or a query containing &amp;&amp; between two other query items) will be represented as { &quot;&quot; }</li><li></li><li>At present Hammerspoon does not provide a way to represent a URL as a true Objective-C object within the OS X API.  This affects the following keys:</li><li>  relative URLs are not possible to express properly so baseURL will always be nil and relativePath and relativeString will always match path and absoluteString.</li><li>  These limitations may change in a future update if the need for a more fully compliant URL treatment is determined to be necessary.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/http/libhttp.m#L332">extensions/http/libhttp.m line 332</a></td>
 </tr>
 </tbody>
 </table>

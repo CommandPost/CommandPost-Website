@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739651328939" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -511,6 +511,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>The factory function has no arguments provided and must return a new <code v-pre>Observer</code> instance.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L384">src/extensions/cp/rx/go/Statement.lua line 384</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -553,6 +561,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L364">src/extensions/cp/rx/go/Statement.lua line 364</a></td>
 </tr>
 </tbody>
 </table>
@@ -597,6 +613,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>It converts the following:</li><li></li><li><code v-pre>Observable</code>          - Returned unchanged.</li><li><code v-pre>cp.rx.go.Statement</code>  - Returns the result of the <code v-pre>toObservable()</code> method. Note: this will cancel any scheduled executions for the Statement.</li><li><code v-pre>cp.prop</code>             - Returns the <code v-pre>cp.prop:toObservable()</code> value.</li><li><code v-pre>function</code>            - Executes the function, passing in the <code v-pre>params</code> as a list of values, returning the results converted to an <code v-pre>Observable</code>.</li><li>Other values          - Returned via <code v-pre>Observable.of(thing)</code>.</li><li></li><li>Note that with <code v-pre>functions</code>, the function is not executed immediately, but it will be passed the params as</li><li>a list when the resulting <code v-pre>Observable</code> is subscribed to. For example:</li><li></li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;-- set up the function&lt;/li&gt;&lt;li&gt;multiply = toObservable(function(one, two) return onetwo end, {2, 3})&lt;/li&gt;&lt;li&gt;-- nothing has happened yet&lt;/li&gt;&lt;li&gt;multiply:subscribe(function(result) print(result) end)&lt;/li&gt;&lt;li&gt;-- now the function has been executed&lt;/li&gt;&lt;li&gt;</code></li><li>This results in printing <code v-pre>6</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L99">src/extensions/cp/rx/go/Statement.lua line 99</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -639,6 +663,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li></li><li>For example:</li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;result = toObservables({1, 2, 3})&lt;/li&gt;&lt;li&gt;for _,o in ipairs(results) do&lt;/li&gt;&lt;li&gt;    o:subscribe(function(x) print x end)&lt;/li&gt;&lt;li&gt;end&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;If any of the things are `function`s, then the `params` table is unpacked to a list&lt;/li&gt;&lt;li&gt;and passed into the function when it is called. For example:&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;</code>lua</li><li>toObservables({function(x) return x2 end}, {3})</li><li>    :subscribe(function(x) print end) -- outputs 6</li><li>&#x60;&#x60;&#x60;</li><li></li><li>Any type supported by <doc-anchor-trigger to="#toObservable">toObservable</doc-anchor-trigger> can be included in the <code v-pre>things</code> array.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L158">src/extensions/cp/rx/go/Statement.lua line 158</a></td>
 </tr>
 </tbody>
 </table>
@@ -689,6 +721,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L351">src/extensions/cp/rx/go/Statement.lua line 351</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -738,6 +778,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L657">src/extensions/cp/rx/go/Statement.lua line 657</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -780,6 +828,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The function will receive the error signal and the returned value will be pass onwards.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L501">src/extensions/cp/rx/go/Statement.lua line 501</a></td>
 </tr>
 </tbody>
 </table>
@@ -824,6 +880,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L468">src/extensions/cp/rx/go/Statement.lua line 468</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -866,6 +930,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The original signal will be passed on without modification. This will trigger after any <doc-anchor-trigger to="#Catch">Catch</doc-anchor-trigger> handler, so will be affected by the results of that.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L483">src/extensions/cp/rx/go/Statement.lua line 483</a></td>
 </tr>
 </tbody>
 </table>
@@ -910,6 +982,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L422">src/extensions/cp/rx/go/Statement.lua line 422</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -952,6 +1032,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L452">src/extensions/cp/rx/go/Statement.lua line 452</a></td>
 </tr>
 </tbody>
 </table>
@@ -996,6 +1084,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L405">src/extensions/cp/rx/go/Statement.lua line 405</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1038,6 +1134,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L631">src/extensions/cp/rx/go/Statement.lua line 631</a></td>
 </tr>
 </tbody>
 </table>
@@ -1082,6 +1186,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L531">src/extensions/cp/rx/go/Statement.lua line 531</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1124,6 +1236,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L518">src/extensions/cp/rx/go/Statement.lua line 518</a></td>
 </tr>
 </tbody>
 </table>
@@ -1168,6 +1288,14 @@ may get resolved before the user intends.</p>
 <td><strong>Notes</strong></td>
 <td><ul><li>This can be called multiple times before the statement is executed, and the most recent configuration will be used at that time.</li><li>The <code v-pre>next</code> value may be either a string to send as the error, or a <code v-pre>resolvable</code> value to pass on instead of failing. If nothing is provided, a default error message is output.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L545">src/extensions/cp/rx/go/Statement.lua line 545</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1210,6 +1338,14 @@ may get resolved before the user intends.</p>
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost/blob/develop/src/extensions/cp/rx/go/Statement.lua#L569">src/extensions/cp/rx/go/Statement.lua line 569</a></td>
 </tr>
 </tbody>
 </table>

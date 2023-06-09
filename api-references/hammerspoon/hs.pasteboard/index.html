@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -461,6 +461,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L256">extensions/pasteboard/libpasteboard.m line 256</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -503,6 +511,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function can be used to capture the results of a copy operation issued programmatically with <code v-pre>hs.application:selectMenuItem</code> or <code v-pre>hs.eventtap.keyStroke</code> without resorting to creating your own timers:</li><li> ~~~</li><li>     hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;, 0) -- or whatever method you want to trigger the copy</li><li>     hs.pasteboard.callbackWhenChanged(5, function(state)</li><li>         if state then</li><li>             local contents = hs.pasteboard.getContents()</li><li>             -- do what you want with contents</li><li>         else</li><li>             error(&quot;copy timeout&quot;) -- or whatever fallback you want when it times out</li><li>         end</li><li>     end)</li><li> ~~~</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/pasteboard.lua#L64">extensions/pasteboard/pasteboard.lua line 64</a></td>
 </tr>
 </tbody>
 </table>
@@ -547,6 +563,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This is useful for seeing if the pasteboard has been updated by another process</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L209">extensions/pasteboard/libpasteboard.m line 209</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -589,6 +613,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L149">extensions/pasteboard/libpasteboard.m line 149</a></td>
 </tr>
 </tbody>
 </table>
@@ -633,6 +665,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L185">extensions/pasteboard/libpasteboard.m line 185</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -675,6 +715,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>You can not delete the system pasteboard, this function should only be called on custom pasteboards you have created</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L226">extensions/pasteboard/libpasteboard.m line 226</a></td>
 </tr>
 </tbody>
 </table>
@@ -719,6 +767,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L56">extensions/pasteboard/libpasteboard.m line 56</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -761,6 +817,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L165">extensions/pasteboard/libpasteboard.m line 165</a></td>
 </tr>
 </tbody>
 </table>
@@ -805,6 +869,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/pasteboard.lua#L21">extensions/pasteboard/pasteboard.lua line 21</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -847,6 +919,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>NSKeyedArchiver specifies an architecture-independent format that is often used in OS X applications to store and transmit objects between applications and when storing data to a file. It works by recording information about the object types and key-value pairs which make up the objects being stored.</li><li>Only objects which have conversion functions built into Hammerspoon can be converted. A string representation describing unrecognized types wil be returned. If you find a common data type that you believe may be of interest to Hammerspoon users, feel free to contribute a conversion function or make a request in the Hammerspoon Google group or GitHub site.</li><li>Some applications may define their own classes which can be archived.  Hammerspoon will be unable to recognize these types if the application does not make the object type available in one of its frameworks.  You <em>may</em> be able to load the necessary framework with <code v-pre>package.loadlib(&quot;/Applications/appname.app/Contents/Frameworks/frameworkname.framework/frameworkname&quot;, &quot;*&quot;)</code> before retrieving the data, but a full representation of the data in Hammerspoon is probably not possible without support from the Application&#x27;s developers.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L413">extensions/pasteboard/libpasteboard.m line 413</a></td>
 </tr>
 </tbody>
 </table>
@@ -891,6 +971,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L820">extensions/pasteboard/libpasteboard.m line 820</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -933,6 +1021,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The UTI&#x27;s of the items on the pasteboard can be determined with the <doc-anchor-trigger to="#allContentTypes">hs.pasteboard.allContentTypes</doc-anchor-trigger> and <doc-anchor-trigger to="#contentTypes">hs.pasteboard.contentTypes</doc-anchor-trigger> functions.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L331">extensions/pasteboard/libpasteboard.m line 331</a></td>
 </tr>
 </tbody>
 </table>
@@ -977,6 +1073,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L732">extensions/pasteboard/libpasteboard.m line 732</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1019,6 +1123,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The UTI&#x27;s of the items on the pasteboard can be determined with the <doc-anchor-trigger to="#allContentTypes">hs.pasteboard.allContentTypes</doc-anchor-trigger> and <doc-anchor-trigger to="#contentTypes">hs.pasteboard.contentTypes</doc-anchor-trigger> functions.</li><li>Property lists consist only of certain types of data: tables, strings, numbers, dates, binary data, and Boolean values.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L371">extensions/pasteboard/libpasteboard.m line 371</a></td>
 </tr>
 </tbody>
 </table>
@@ -1063,6 +1175,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L688">extensions/pasteboard/libpasteboard.m line 688</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1105,6 +1225,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>almost all string and styledText objects are internally convertible and will be available with this method as well as <doc-anchor-trigger to="#readStyledText">hs.pasteboard.readStyledText</doc-anchor-trigger>. If the item is actually an <code v-pre>hs.styledtext</code> object, the string will be just the text of the object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L284">extensions/pasteboard/libpasteboard.m line 284</a></td>
 </tr>
 </tbody>
 </table>
@@ -1149,6 +1277,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>almost all string and styledText objects are internally convertible and will be available with this method as well as <doc-anchor-trigger to="#readString">hs.pasteboard.readString</doc-anchor-trigger>. If the item on the clipboard is actually just a string, the <code v-pre>hs.styledtext</code> object representation will have no attributes set</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L641">extensions/pasteboard/libpasteboard.m line 641</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1191,6 +1327,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L776">extensions/pasteboard/libpasteboard.m line 776</a></td>
 </tr>
 </tbody>
 </table>
@@ -1235,6 +1379,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L91">extensions/pasteboard/libpasteboard.m line 91</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1277,6 +1429,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>almost all string and styledText objects are internally convertible and will return true for both keys</li><li>  if the item on the clipboard is actually just a string, the <code v-pre>hs.styledtext</code> object representation will have no attributes set</li><li>  if the item is actually an <code v-pre>hs.styledtext</code> object, the string representation will be the text without any attributes.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L974">extensions/pasteboard/libpasteboard.m line 974</a></td>
 </tr>
 </tbody>
 </table>
@@ -1321,6 +1481,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>to properly manage system resources, you should release the created pasteboard with <doc-anchor-trigger to="#deletePasteboard">hs.pasteboard.deletePasteboard</doc-anchor-trigger> when you are certain that it is no longer necessary.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L955">extensions/pasteboard/libpasteboard.m line 955</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1363,6 +1531,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/pasteboard.lua#L38">extensions/pasteboard/pasteboard.lua line 38</a></td>
 </tr>
 </tbody>
 </table>
@@ -1407,6 +1583,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>NSKeyedArchiver specifies an architecture-independent format that is often used in OS X applications to store and transmit objects between applications and when storing data to a file. It works by recording information about the object types and key-value pairs which make up the objects being stored.</li><li>Only objects which have conversion functions built into Hammerspoon can be converted.</li><li>A full list of NSObjects supported directly by Hammerspoon is planned in a future Wiki article.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L458">extensions/pasteboard/libpasteboard.m line 458</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1450,6 +1634,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The UTI&#x27;s of the items on the pasteboard can be determined with the <doc-anchor-trigger to="#allContentTypes">hs.pasteboard.allContentTypes</doc-anchor-trigger> and <doc-anchor-trigger to="#contentTypes">hs.pasteboard.contentTypes</doc-anchor-trigger> functions.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L521">extensions/pasteboard/libpasteboard.m line 521</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1474,7 +1666,9 @@ a table with the <code v-pre>url</code> key and value representing a file or res
 a table with keys as described in <code v-pre>hs.drawing.color</code> to represent a color, which can be received by most applications that can accept a raw NSColor object
 an array of one or more of the above objects, allowing you to place more than one object onto the clipboard.</li><li>name - an optional string indicating the pasteboard name.  If nil or not present, defaults to the system pasteboard.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>true or false indicating whether or not the clipboard contents were updated.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>Most applications can only receive the first item on the clipboard.  Multiple items on a clipboard are most often used for intra-application communication where the sender and receiver are specifically written with multiple objects in mind.</li></ul> |</p>
+| <strong>Notes</strong>                                   | <ul><li>Most applications can only receive the first item on the clipboard.  Multiple items on a clipboard are most often used for intra-application communication where the sender and receiver are specifically written with multiple objects in mind.</li></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L895">extensions/pasteboard/libpasteboard.m line 895</a> |</p>
 <hr />
 <doc-anchor-target id="writeplistforuti">
     <h3>
@@ -1514,6 +1708,14 @@ an array of one or more of the above objects, allowing you to place more than on
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The UTI&#x27;s of the items on the pasteboard can be determined with the <doc-anchor-trigger to="#allContentTypes">hs.pasteboard.allContentTypes</doc-anchor-trigger> and <doc-anchor-trigger to="#contentTypes">hs.pasteboard.contentTypes</doc-anchor-trigger> functions.</li><li>Property lists consist only of certain types of data: tables, strings, numbers, dates, binary data, and Boolean values.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/pasteboard/libpasteboard.m#L580">extensions/pasteboard/libpasteboard.m line 580</a></td>
 </tr>
 </tbody>
 </table>

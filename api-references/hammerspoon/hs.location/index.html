@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -492,6 +492,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The first time you use a function which requires Location Services, you will be prompted to grant Hammerspoon access. If you wish to change this permission after the initial prompt, you may do so from the Location Services section of the Security &amp; Privacy section in the System Preferences application.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L207">extensions/location/liblocation.m line 207</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -534,6 +542,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function does not require Location Services to be enabled for Hammerspoon.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L245">extensions/location/liblocation.m line 245</a></td>
 </tr>
 </tbody>
 </table>
@@ -578,6 +594,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This value is derived from the currently configured system timezone, it does not use Location Services</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L307">extensions/location/liblocation.m line 307</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -620,6 +644,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If access to Location Services is enabled for Hammerspoon, this function will return the most recent cached data for the computer&#x27;s location.</li><li>  Internally, the Location Services cache is updated whenever additional WiFi networks are detected or lost (not necessarily joined). When update tracking is enabled with the <doc-anchor-trigger to="#start">hs.location.start</doc-anchor-trigger> function, calculations based upon the RSSI of all currently seen networks are preformed more often to provide a more precise fix, but it&#x27;s still based on the WiFi networks near you.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L282">extensions/location/liblocation.m line 282</a></td>
 </tr>
 </tbody>
 </table>
@@ -664,6 +696,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L139">extensions/location/location.lua line 139</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -706,6 +746,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L192">extensions/location/liblocation.m line 192</a></td>
 </tr>
 </tbody>
 </table>
@@ -750,6 +798,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L179">extensions/location/location.lua line 179</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -792,6 +848,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L201">extensions/location/location.lua line 201</a></td>
 </tr>
 </tbody>
 </table>
@@ -836,6 +900,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>You can turn the return value into a more useful structure, with <code v-pre>os.date(&quot;*t&quot;, returnvalue)</code></li><li>For compatibility with the locationTable object returned by <doc-anchor-trigger to="#get">hs.location.get</doc-anchor-trigger>, this function can also be invoked as <code v-pre>hs.location.sunrise(locationTable, offset[, date])</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L503">extensions/location/liblocation.m line 503</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -879,6 +951,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>You can turn the return value into a more useful structure, with <code v-pre>os.date(&quot;*t&quot;, returnvalue)</code></li><li>For compatibility with the locationTable object returned by <doc-anchor-trigger to="#get">hs.location.get</doc-anchor-trigger>, this function can also be invoked as <code v-pre>hs.location.sunset(locationTable, offset[, date])</code>.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/liblocation.m#L526">extensions/location/liblocation.m line 526</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -921,6 +1001,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L166">extensions/location/location.lua line 166</a></td>
 </tr>
 </tbody>
 </table>
@@ -971,6 +1059,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The locationObject created will receive callbacks independent of all other locationObjects and the legacy callback functions created with <doc-anchor-trigger to="#register">hs.location.register</doc-anchor-trigger>.  It can also receive callbacks for region changes which are not available through the legacy callback mechanism.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L221">extensions/location/location.lua line 221</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1020,6 +1116,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If the <code v-pre>identifier</code> key is not provided, a new UUID string is generated and used as the identifier.</li><li>If the <code v-pre>identifier</code> key matches an already monitored region, this region will replace the existing one.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L358">extensions/location/location.lua line 358</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1039,7 +1143,9 @@
 the locationObject itself
 a string specifying the message generated by the locationObject:&quot;didChangeAuthorizationStatus&quot; - the user has changed the authorization status for Hammerspoon&#x27;s use of Location Services.  The third argument will be a string as described in the <doc-anchor-trigger to="#authorizationStatus">hs.location.authorizationStatus</doc-anchor-trigger> function.&quot;didUpdateLocations&quot;           - the current location has changed or been refined.  This message will only occur if location tracking has been enabled with <doc-anchor-trigger to="#startTracking">hs.location:startTracking</doc-anchor-trigger>. The third argument will be a table containing one or more locationTables as array elements.  The most recent location update is contained in the last element of the array.&quot;didFailWithError&quot;             - there was an error retrieving location information. The third argument will be a string describing the error that occurred.&quot;didStartMonitoringForRegion&quot;  - a new region has successfully been added to the regions being monitored.  The third argument will be the regionTable for the region which was just added.&quot;monitoringDidFailForRegion&quot;   - an error occurred while trying to add a new region to the list of monitored regions. The third argument will be the regionTable for the region that could not be added, and the fourth argument will be a string containing an error message describing why monitoring for the region failed.&quot;didEnterRegion&quot;               - the current location has entered a region with the <code v-pre>notifyOnEntry</code> field set to true specified with the <doc-anchor-trigger to="#addMonitoredRegion">hs.location:addMonitoredRegion</doc-anchor-trigger> method. The third argument will be the regionTable for the region entered.&quot;didExitRegion&quot;                - the current location has exited a region with the <code v-pre>notifyOnExit</code> field set to true specified with the <doc-anchor-trigger to="#addMonitoredRegion">hs.location:addMonitoredRegion</doc-anchor-trigger> method. The third argument will be the regionTable for the region exited.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the locationObject</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul> |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |
+| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L461">extensions/location/location.lua line 461</a> |</p>
 <hr />
 <doc-anchor-target id="currentregion">
     <h3>
@@ -1079,6 +1185,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L436">extensions/location/location.lua line 436</a></td>
 </tr>
 </tbody>
 </table>
@@ -1123,6 +1237,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <td><strong>Notes</strong></td>
 <td><ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L300">extensions/location/location.lua line 300</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1165,6 +1287,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If access to Location Services is enabled for Hammerspoon, this function will return the most recent cached data for the computer&#x27;s location.</li><li>  Internally, the Location Services cache is updated whenever additional WiFi networks are detected or lost (not necessarily joined). When update tracking is enabled with the <doc-anchor-trigger to="#start">hs.location.start</doc-anchor-trigger> function, calculations based upon the RSSI of all currently seen networks are preformed more often to provide a more precise fix, but it&#x27;s still based on the WiFi networks near you.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L495">extensions/location/location.lua line 495</a></td>
 </tr>
 </tbody>
 </table>
@@ -1209,6 +1339,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <td><strong>Notes</strong></td>
 <td><ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L321">extensions/location/location.lua line 321</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1251,6 +1389,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This method activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li><li>If the <code v-pre>identifier</code> key is not provided, a new UUID string is generated and used as the identifier.</li><li>If the <code v-pre>identifier</code> key matches an already monitored region, this region will replace the existing one.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L406">extensions/location/location.lua line 406</a></td>
 </tr>
 </tbody>
 </table>
@@ -1295,6 +1441,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <td><strong>Notes</strong></td>
 <td><ul><li>This function activates Location Services for Hammerspoon, so the first time you call this, you may be prompted to authorise Hammerspoon to use Location Services.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L260">extensions/location/location.lua line 260</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1337,6 +1491,14 @@ a string specifying the message generated by the locationObject:&quot;didChangeA
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/location/location.lua#L281">extensions/location/location.lua line 281</a></td>
 </tr>
 </tbody>
 </table>

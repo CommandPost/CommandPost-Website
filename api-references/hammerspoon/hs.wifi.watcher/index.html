@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -427,6 +427,10 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>The following events are available for monitoring:</li><li> &quot;SSIDChange&quot;                   - monitor when the associated network for the Wi-Fi interface changes</li><li> &quot;BSSIDChange&quot;                  - monitor when the base station the Wi-Fi interface is connected to changes</li><li> &quot;countryCodeChange&quot;            - monitor when the adopted country code of the Wi-Fi interface changes</li><li> &quot;linkChange&quot;                   - monitor when the link state for the Wi-Fi interface changes</li><li> &quot;linkQualityChange&quot;            - monitor when the RSSI or transmit rate for the Wi-Fi interface changes</li><li> &quot;modeChange&quot;                   - monitor when the operating mode of the Wi-Fi interface changes</li><li> &quot;powerChange&quot;                  - monitor when the power state of the Wi-Fi interface changes</li><li> &quot;scanCacheUpdated&quot;             - monitor when the scan cache of the Wi-Fi interface is updated with new information</li></ul></td>
 </tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/wifi/libwifi_watcher.m#L364">extensions/wifi/libwifi_watcher.m line 364</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -475,6 +479,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>For backwards compatibility, only &quot;SSIDChange&quot; is watched for by default, so existing code can continue to ignore the callback function arguments unless you add or change events with the <doc-anchor-trigger to="#watchingFor">hs.wifi.watcher:watchingFor</doc-anchor-trigger>.</li><li>The callback function should expect between 3 and 5 arguments, depending upon the events being watched.  The possible arguments are as follows:</li><li>  <code v-pre>watcher</code>, &quot;SSIDChange&quot;, <code v-pre>interface</code> - occurs when the associated network for the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;SSIDChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  Use <code v-pre>hs.wifi.currentNetwork([interface])</code> to identify the new network, which may be nil when you leave a network.</li><li>  <code v-pre>watcher</code>, &quot;BSSIDChange&quot;, <code v-pre>interface</code> - occurs when the base station the Wi-Fi interface is connected to changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;BSSIDChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  <code v-pre>watcher</code>, &quot;countryCodeChange&quot;, <code v-pre>interface</code> - occurs when the adopted country code of the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;countryCodeChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  <code v-pre>watcher</code>, &quot;linkChange&quot;, <code v-pre>interface</code> - occurs when the link state for the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;linkChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  <code v-pre>watcher</code>, &quot;linkQualityChange&quot;, <code v-pre>interface</code> - occurs when the RSSI or transmit rate for the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;linkQualityChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>    <code v-pre>rssi</code>      - the RSSI value for the currently associated network on the Wi-Fi interface</li><li>    <code v-pre>rate</code>      - the transmit rate for the currently associated network on the Wi-Fi interface</li><li>  <code v-pre>watcher</code>, &quot;modeChange&quot;, <code v-pre>interface</code> - occurs when the operating mode of the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;modeChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  <code v-pre>watcher</code>, &quot;powerChange&quot;, <code v-pre>interface</code> - occurs when the power state of the Wi-Fi interface changes</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;powerChange&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li><li>  <code v-pre>watcher</code>, &quot;scanCacheUpdated&quot;, <code v-pre>interface</code> - occurs when the scan cache of the Wi-Fi interface is updated with new information</li><li>    <code v-pre>watcher</code>   - the watcher object itself</li><li>    <code v-pre>message</code>   - the message specifying the event, in this case &quot;scanCacheUpdated&quot;</li><li>    <code v-pre>interface</code> - the name of the interface for which the event occurred</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/wifi/libwifi_watcher.m#L215">extensions/wifi/libwifi_watcher.m line 215</a></td>
 </tr>
 </tbody>
 </table>
@@ -525,6 +537,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/wifi/libwifi_watcher.m#L282">extensions/wifi/libwifi_watcher.m line 282</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -568,6 +588,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/wifi/libwifi_watcher.m#L300">extensions/wifi/libwifi_watcher.m line 300</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -610,6 +638,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>the possible values for this method are described in <doc-anchor-trigger to="#eventTypes">hs.wifi.watcher.eventTypes</doc-anchor-trigger>.</li><li>the special string &quot;all&quot; specifies that all event types should be watched for.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/wifi/libwifi_watcher.m#L318">extensions/wifi/libwifi_watcher.m line 318</a></td>
 </tr>
 </tbody>
 </table>

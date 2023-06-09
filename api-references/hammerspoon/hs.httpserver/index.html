@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -456,6 +456,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>By default, the server will start on a random TCP port and advertise itself with Bonjour. You can check the port with <code v-pre>hs.httpserver:getPort()</code></li><li>By default, the server will listen on all network interfaces. You can override this with <code v-pre>hs.httpserver:setInterface()</code> before starting the server</li><li>Currently, in HTTPS mode, the server will use a self-signed certificate, which most browsers will warn about. If you want/need to be able to use <code v-pre>hs.httpserver</code> with a certificate signed by a trusted Certificate Authority, please file an bug on Hammerspoon requesting support for this.</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L374">extensions/httpserver/libhttpserver.m line 374</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -505,6 +513,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L647">extensions/httpserver/libhttpserver.m line 647</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -547,6 +563,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is not the hostname of the server, just its name in Bonjour service lists (e.g. Safari&#x27;s Bonjour bookmarks menu)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L689">extensions/httpserver/libhttpserver.m line 689</a></td>
 </tr>
 </tbody>
 </table>
@@ -591,6 +615,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L616">extensions/httpserver/libhttpserver.m line 616</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -633,6 +665,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>Because the Hammerspoon http server processes incoming requests completely in memory, this method puts a limit on the maximum size for a POST or PUT request.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L513">extensions/httpserver/libhttpserver.m line 513</a></td>
 </tr>
 </tbody>
 </table>
@@ -677,6 +717,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L446">extensions/httpserver/libhttpserver.m line 446</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -719,6 +767,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback will be passed four arguments:</li><li> A string containing the type of request (i.e. <code v-pre>GET</code>/<code v-pre>POST</code>/<code v-pre>DELETE</code>/etc)</li><li> A string containing the path element of the request (e.g. <code v-pre>/index.html</code>)</li><li> A table containing the request headers</li><li> A string containing the raw contents of the request body, or the empty string if no body is included in the request.</li><li>The callback <em>must</em> return three values:</li><li> A string containing the body of the response</li><li> An integer containing the response code (e.g. 200 for a successful request)</li><li> A table containing additional HTTP headers to set (or an empty table, <code v-pre>{}</code>, if no extra headers are required)</li><li></li><li>A POST request, often used by HTML forms, will store the contents of the form in the body of the request.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L466">extensions/httpserver/libhttpserver.m line 466</a></td>
 </tr>
 </tbody>
 </table>
@@ -763,6 +819,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>As well as real interface names (e.g. <code v-pre>en0</code>) the following values are valid:</li><li> An IP address of one of your interfaces</li><li> localhost</li><li> loopback</li><li> nil (which means all interfaces, and is the default)</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L662">extensions/httpserver/libhttpserver.m line 662</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -805,6 +869,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>This is not the hostname of the server, just its name in Bonjour service lists (e.g. Safari&#x27;s Bonjour bookmarks menu)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L707">extensions/httpserver/libhttpserver.m line 707</a></td>
 </tr>
 </tbody>
 </table>
@@ -849,6 +921,14 @@
 <td><strong>Notes</strong></td>
 <td><ul><li>It is not currently possible to set multiple passwords for different users, or passwords only on specific paths</li></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L539">extensions/httpserver/libhttpserver.m line 539</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -891,6 +971,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L631">extensions/httpserver/libhttpserver.m line 631</a></td>
 </tr>
 </tbody>
 </table>
@@ -935,6 +1023,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L573">extensions/httpserver/libhttpserver.m line 573</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -978,6 +1074,14 @@
 <td><strong>Notes</strong></td>
 <td><ul></ul></td>
 </tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L599">extensions/httpserver/libhttpserver.m line 599</a></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1020,6 +1124,14 @@
 <tr>
 <td><strong>Notes</strong></td>
 <td><ul><li>The callback is passed one string parameter containing the received message</li><li>The callback must return a string containing the response message</li><li>Given a path &#x27;/mysock&#x27; and a port of 8000, the websocket URL is as follows:</li><li> ws://localhost:8000/mysock</li><li> wss://localhost:8000/mysock (if SSL enabled)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Examples</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/httpserver/libhttpserver.m#L415">extensions/httpserver/libhttpserver.m line 415</a></td>
 </tr>
 </tbody>
 </table>
