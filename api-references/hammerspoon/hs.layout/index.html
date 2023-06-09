@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651328939">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651924915">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739651328939" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739651924915" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651924915" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651328939" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651924915" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -430,7 +430,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -469,7 +469,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -508,7 +508,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -547,7 +547,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -586,7 +586,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -625,7 +625,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -664,7 +664,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -703,7 +703,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -742,7 +742,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -781,7 +781,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -820,7 +820,7 @@
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td>- None</td>
+<td><ul><li>None</li></ul></td>
 </tr>
 <tr>
 <td><strong>Source</strong></td>
@@ -859,7 +859,7 @@ layoutWindowTitle: The window title string (second field) specified in each elem
 Optionally a final element, the key &quot;options&quot; and a table value that can contain the following keys:<code v-pre>absolute_x</code>: A boolean indicating that the x value in a frame rect above, is an absolute co-ordinate (ie useful for negative absolute co-ordinates)<code v-pre>absolute_y</code>: A boolean indicating that the y value in a frame rect above, is an absolute co-ordinate (ie useful for negative absolute co-ordinates)</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If the application name argument is nil, window titles will be matched regardless of which app they belong to</li><li>If the window title argument is nil, all windows of the specified application will be matched</li><li>If the window title argument is a function, the function will be called with the application name argument (which may be nil), and should return a table of <code v-pre>hs.window</code> objects (even if there is only one window it must be in a table)</li><li>You can specify both application name and window title if you want to match only one window of a particular application</li><li>If you specify neither application name or window title, no windows will be matched :)</li><li>Monitor name is a string, as found in <code v-pre>hs.screen:name()</code> or <code v-pre>hs.screen:getUUID()</code>. You can also pass an <code v-pre>hs.screen</code> object, or a function that returns an <code v-pre>hs.screen</code> object. If you pass nil, the first screen will be selected</li><li>The final three arguments use <code v-pre>hs.geometry.rect()</code> objects to describe the desired position and size of matched windows:</li><li>  Unit rect will be passed to <code v-pre>hs.window.moveToUnit()</code></li><li>  Frame rect will be passed to <code v-pre>hs.window.setFrame()</code> (including menubar and dock)</li><li>  Full-frame rect will be passed to <code v-pre>hs.window.setFrame()</code> (ignoring menubar and dock)</li><li>If either the x or y components of frame/full-frame rect are negative, they will be applied as offsets against the opposite edge of the screen (e.g. If x is -100 then the left edge of the window will be 100 pixels from the right edge of the screen)</li><li>Only one of the rect arguments will apply to any matched windows. If you specify more than one, the first will win</li><li>An example usage:</li><li></li><li>    <code v-pre>lua&lt;/li&gt;&lt;li&gt;      layout1 = {&lt;/li&gt;&lt;li&gt;        {&quot;Mail&quot;, nil, &quot;Color LCD&quot;, hs.layout.maximized, nil, nil},&lt;/li&gt;&lt;li&gt;        {&quot;Safari&quot;, nil, &quot;Thunderbolt Display&quot;, hs.layout.maximized, nil, nil},&lt;/li&gt;&lt;li&gt;        {&quot;iTunes&quot;, &quot;iTunes&quot;, &quot;Color LCD&quot;, hs.layout.maximized, nil, nil},&lt;/li&gt;&lt;li&gt;        {&quot;iTunes&quot;, &quot;MiniPlayer&quot;, &quot;Color LCD&quot;, nil, nil, hs.geometry.rect(0, -48, 400, 48)},&lt;/li&gt;&lt;li&gt;      }</code></li><li>An example of a function that works well as a <code v-pre>windowTitleComparator</code> is the Lua built-in <code v-pre>string.match</code>, which uses Lua Patterns to match strings</li></ul> |
-| <strong>Examples</strong>                                | <ul></ul> |
+| <strong>Examples</strong>                                | <ul><li>None</li></ul> |
 | <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/layout/layout.lua#L69">extensions/layout/layout.lua line 69</a> |</p>
 <hr />
 <hr />
