@@ -18,6 +18,10 @@ It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at
 
 ### Built for Professionals
 
+We developed new CommandPost features especially for **[Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/){target="_blank"}**, edited by [David Tillman](https://twitter.com/davidtillman){target="_blank"}.
+
+We've also built custom tools for Denmark’s second largest production company, **[Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake){target="_blank"}**.
+
 > _“ Titles to keywords is a huge timesaver when editing complex scenes. Couldn’t live  without it anymore. And directors love that every delivery of any line from any take I just one click away. ”_<br />
 > **[Knut Hake](http://www.knuthake.de){target="_blank"} (Editor on Netflix's Blood Red Sky)**
 
@@ -27,8 +31,6 @@ It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
 [![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw){target="_blank"}
-
-We also developed specific features for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/){target="_blank"}, edited by [David Tillman](https://twitter.com/davidtillman){target="_blank"} and Denmark’s second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake){target="_blank"}.
 
 ---
 
