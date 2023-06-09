@@ -1,4 +1,4 @@
 label: After Effects
-icon: gear
+#icon: gear
 order: 95
 image: ../static/thumbnail.png

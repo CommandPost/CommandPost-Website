@@ -1,4 +1,4 @@
 label: Finder
-icon: gear
+#icon: gear
 order: 99
 image: ../static/thumbnail.png

@@ -4,28 +4,28 @@ The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to u
 
 This gives you incredible freedom, to programatically make the icons appear however you want.
 
-CommandPost is also compatible with Hammerspoon, so you can also use helpful extensions such as [`hs.canvas`](http://www.hammerspoon.org/docs/hs.canvas.html).
+CommandPost is also compatible with Hammerspoon, so you can also use helpful extensions such as [`hs.canvas`](../api-references/hammerspoon/hs.canvas/).
 
-Both the [CommandPost API](https://dev.commandpost.io/commandpost-api/cp) and [Hammerspoon API](http://www.hammerspoon.org/docs/index.html) are insanely powerful and flexible, so you can basically do anything and everything.
+Both the [CommandPost API](../api-references/commandpost/cp/) and [Hammerspoon API](http://www.hammerspoon.org/docs/index.html) are insanely powerful and flexible, so you can basically do anything and everything.
 
-Essentially all you need to do in your Snippet is return a [`hs.image`](http://www.hammerspoon.org/docs/hs.image.html) object.
+Essentially all you need to do in your Snippet is return a [`hs.image`](../api-references/hammerspoon/hs.image/) object.
 
-Some useful functions to generate a [`hs.image`](http://www.hammerspoon.org/docs/hs.image.html) include:
+Some useful functions to generate a [`hs.image`](../api-references/hammerspoon/hs.image/) include:
 
- - [`hs.image.iconForFile()`](http://www.hammerspoon.org/docs/hs.image.html#iconForFile)
- - [`hs.image.iconForFileType()`](http://www.hammerspoon.org/docs/hs.image.html#iconForFileType)
- - [`hs.image.imageFromAppBundle()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromAppBundle)
- - [`hs.image.imageFromASCII()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromASCII)
- - [`hs.image.imageFromMediaFile()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromMediaFile)
- - [`hs.image.imageFromName()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromName)
- - [`hs.image.imageFromPath()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromPath)
- - [`hs.image.imageFromURL()`](http://www.hammerspoon.org/docs/hs.image.html#imageFromURL)
+ - [`hs.image.iconForFile()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.iconForFileType()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromAppBundle()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromASCII()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromMediaFile()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromName()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromPath()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.imageFromURL()`](../api-references/hammerspoon/hs.image/)
 
-You can also use [`hs.canvas`](http://www.hammerspoon.org/docs/hs.canvas.html) to programatically draw things.
+You can also use [`hs.canvas`](../api-references/hammerspoon/hs.canvas/) to programatically draw things.
 
-There's some more complex [`hs.canvas`](http://www.hammerspoon.org/docs/hs.canvas.html) examples [here](https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples).
+There's some more complex [`hs.canvas`](/api-references/hammerspoon/hs.canvas/) examples [here](https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples){target="_blank"}.
 
-You can learn more about Lua on the [CommandPost Developers site](https://dev.commandpost.io/lua/lua-overview).
+You can learn more about Lua [here](../developer/lua-overview/).
 
 ---
 

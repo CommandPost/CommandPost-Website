@@ -1,4 +1,4 @@
 label: Menubar
-icon: gear
+#icon: gear
 order: 98
 image: ../static/thumbnail.png

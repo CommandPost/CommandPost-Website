@@ -6,16 +6,16 @@ By using our site and products, you consent to this privacy policy.
 
 ### Important Notes
 
-* Starting in CommandPost 1.0.7-beta.11 (11 Aug 2020) we switch from [Crashlytics](https://fabric.io) to [Sentry](https://sentry.io).
-* You can view our previous privacy policy [here](https://github.com/CommandPost/CommandPost-UserGuide/blob/54fe4b0358fb1fdbbce898eafa7637626cfa5931/privacy_credits/privacy_policy/README.md).
+* Starting in CommandPost 1.0.7-beta.11 (11 Aug 2020) we switch from [Crashlytics](https://fabric.io){target="_blank"} to [Sentry](https://sentry.io){target="_blank"}.
+* You can view our previous privacy policy [here](https://github.com/CommandPost/CommandPost-UserGuide/blob/54fe4b0358fb1fdbbce898eafa7637626cfa5931/privacy_credits/privacy_policy/README.md){target="_blank"}.
 
 ---
 
 ### Facts
 
-* CommandPost uses [Sentry](https://sentry.io) to collect information about crashes in the application and extensions (hereafter known as `Crash Data`).
-* You can read the Sentry Privacy Policy on [their website](https://sentry.io/privacy/).
-* This feature is enabled by default, however users can opt-out using the CommandPost preferences window.
+* CommandPost uses [Sentry](https://sentry.io){target="_blank"} to collect information about crashes in the application and extensions (hereafter known as `Crash Data`).
+* You can read the Sentry Privacy Policy on [their website](https://sentry.io/privacy/){target="_blank"}.
+* This feature is **enabled by default**, however users can opt-out using the CommandPost preferences window.
 * Crash Data is uploaded securely to the Sentry servers.
 * No personally identifying data is collected or transmitted by CommandPost, with the possible exception of path names. If you run CommandPost from a path that contains your name (e.g. `/Users/MyRealNameIsBobAnderson/Applications/CommandPost.app` then your name would be included in Crash Data.
 * No Sentry features have been enabled that collect or transmit any personal information about the user.
@@ -23,9 +23,9 @@ By using our site and products, you consent to this privacy policy.
 * The location of the CommandPost app bundle in your filesystem, is collected (e.g. `/Applications/CommandPost.app`).
 * The location of the CommandPost extensions you use, is collected (e.g. `/Applications/CommandPost.app/Contents/Resources/extensions/ipc/internal-ipc.so`).
 * User-created CommandPost scripts/plugins are not collected or transmitted, nor is any personal data that may be stored by CommandPost (e.g. the contents of your clipboard, or the contents of Lua variables).
-* When you "Provide Feedback" via the CommandPost menu bar, you can optionally supply your full name and email - however you have the choice of submitting anonymously. Submitting feedback will email your message to the CommandPost Developers.
-* Our website is hosted by GitHub. You can read GitHub's Privacy Policy [here](https://help.github.com/articles/github-privacy-statement/).
-* Our User Guide & Developers Guide is hosted by GitBook. You can read GitBook's Privacy Policy [here](https://legacy.gitbook.com/privacy).
+* When you **Provide Feedback** via the CommandPost menu bar, you can **OPTIONALLY** supply your full name, email and a screenshot of your current screen - however you have the choice of submitting anonymously. Submitting feedback will **email** your message to the CommandPost Developers.
+* Our website is hosted by GitHub. You can read GitHub's Privacy Policy [here](https://help.github.com/articles/github-privacy-statement/){target="_blank"}.
+* Our User Guide & Developers Guide is hosted by GitBook. You can read GitBook's Privacy Policy [here](https://legacy.gitbook.com/privacy){target="_blank"}.
 
 ---
 
@@ -47,7 +47,7 @@ By using our site and products, you consent to this privacy policy.
 
 ### If you do not want to upload Crash Data
 
-* Click on the CommandPost menubar icon and choose `Preferences`, untick `Send crash data`, quit CommandPost and re-open it. The Crashlytics framework will no longer be initialised.
+* Click on the CommandPost menubar icon and choose `Preferences`, untick `Send crash data`, quit CommandPost and re-open it. The Sentry or Crashlytics framework will no longer be initialised.
 
 ---
 
@@ -65,12 +65,12 @@ By using our site and products, you consent to this privacy policy.
 
 ### Do we use cookies?
 
-* Yes. Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognise your browser and capture and remember certain information.
-* Our website is hosted by GitHub, which makes use of cookies. You can read GitHub's Privacy Policy [here](https://help.github.com/articles/github-privacy-statement/).
+* No, we don't use cookies or any third-party analytics on this website.
+* Our website is hosted by GitHub. You can read GitHub's Privacy Policy [here](https://help.github.com/articles/github-privacy-statement/){target="_blank"}.
 
 ---
 
 ### Contact Us
 
 * If you have concerns about the way CommandPost is handling your User Personal Information, please let us know immediately. We want to help.
-* If there are any questions regarding this privacy policy you may contact us via email (team@commandpost.io) or [file an issue on GitHub](https://github.com/CommandPost/CommandPost/issues). We will respond promptly.
+* If there are any questions regarding this privacy policy you may contact us via email (support@latenitefilms.com) or [file an issue on GitHub](https://github.com/CommandPost/CommandPost/issues){target="_blank"}. We will respond promptly.

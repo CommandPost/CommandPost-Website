@@ -1,2 +1,3 @@
 label: Prevent Mac from Sleeping
-icon: browser
+#icon: browser
+image: ../static/thumbnail.png

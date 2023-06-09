@@ -4,7 +4,7 @@
 
 Inside the CommandPost DMG package is an uninstall application:
 
-![Package Contents](static/commandpost-dmg.png)
+![](static/commandpost-dmg.png)
 
 By running this Uninstall application it will remove everything related to CommandPost, including your Preferences and Settings.
 

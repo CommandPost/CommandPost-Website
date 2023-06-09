@@ -1,4 +1,4 @@
 label: Settings
-icon: gear
+#icon: gear
 order: 91
 image: ../static/thumbnail.png

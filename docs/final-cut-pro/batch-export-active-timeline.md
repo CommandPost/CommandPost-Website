@@ -6,11 +6,11 @@ Note that the way CommandPost achieves the batch export is by taking control of 
 
 To use Batch Export Active Timeline, first open your timeline and select the clips. Then access the Batch export Active Timeline from the CommandPost Menubar while Final Cut Pro is in focused.
 
-![Batch Export Active Timeline](/static/batch-export-active-timeline-1.png)
+![](../static/batch-export-active-timeline-1.png)
 
 You will be presented with the Batch Export Active Timeline Settings.
 
-![Batch Export Active Timeline Settings](/static/batch-export-active-timeline-2.png)
+![](../static/batch-export-active-timeline-2.png)
 
 This is where you can configure the behaviour of the batch export to:
 
@@ -26,12 +26,12 @@ This is where you can configure the behaviour of the batch export to:
 
 Pressing Perform Batch Export will present you with a final warning before you must let CommandPost take over your computer.
 
-![Batch Export Active Timeline Warning](/static/batch-export-active-timeline-3.png)
+![](../static/batch-export-active-timeline-3.png)
 
 You can still, however, resist CommandPost's control by hiding Final Cut Pro and it will present you with a warning about CommandPost aborting the batch export.
 
-![Batch Export Active Timeline Warning](/static/batch-export-active-timeline-4.png)
+![](../static/batch-export-active-timeline-4.png)
 
 You should be presented with the completion message when all the clips in your selection has been added to the export queue, and you can then resume to use your computer.
 
-![Batch Export Active Timeline Warning](/static/batch-export-active-timeline-5.png)
+![](../static/batch-export-active-timeline-5.png)

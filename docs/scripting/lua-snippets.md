@@ -1,5 +1,4 @@
 # Snippets
----
 
 CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost's Search Console.
 
@@ -9,33 +8,27 @@ For example, to launch Final Cut Pro, you can use this simple Lua code:
 
 `cp.apple.finalcutpro:launch()`
 
-CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the Hammerspoon website:
+CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/){target="_blank"}.
 
-[http://www.hammerspoon.org/go/](http://www.hammerspoon.org/go/)
+You can learn more about Lua [here](../developer/lua-overview/)
 
-You can learn more about Lua here:
-
-[https://dev.commandpost.io/lua/lua-overview](https://dev.commandpost.io/lua/lua-overview)
-
-Here's a link to Hammerspoon's API reference:
-
-[http://www.hammerspoon.org/docs/index.html](http://www.hammerspoon.org/docs/index.html)
+You can find the Hammerspoon API reference [here](../api-references/hammerspoon/hs/).
 
 Here's some direct links to some useful Hammerspoon functions:
 
-- [`hs.timer.usleep(microsecs)`](http://www.hammerspoon.org/docs/hs.timer.html#usleep) - Add a delay
-- [`hs.eventtap.keyStroke(modifiers, character[, delay, application])`](http://www.hammerspoon.org/docs/hs.eventtap.html#keyStroke) - Trigger a virtual key stroke
-- [`hs.application:selectMenuItem(menuitem[, isRegex])`](http://www.hammerspoon.org/docs/hs.application.html#selectMenuItem) - Trigger an application menu item
+- [`hs.timer.usleep(microsecs)`](../api-references/hammerspoon/hs.timer/) - **Add a delay**
+- [`hs.eventtap.keyStroke(modifiers, character[, delay, application])`](../api-references/hammerspoon/hs.eventtap/) - **Trigger a virtual key stroke**
+- [`hs.application:selectMenuItem(menuitem[, isRegex])`](../api-references/hammerspoon/hs.application/) - **Trigger an application menu item**
 
 Here's some direct links to some useful CommandPost functions:
 
-- [`cp.tools`](https://dev.commandpost.io/commandpost-api/cp.tools)
+- [`cp.tools`](../api-references/commandpost/cp.tools/)
 
 ---
 
-# Examples
+## Examples
 
-## Press "CMD+C"
+### Press "CMD+C"
 
 ```lua
 hs.eventtap.keyStroke({"cmd"}, "c")
@@ -43,7 +36,7 @@ hs.eventtap.keyStroke({"cmd"}, "c")
 
 ---
 
-## Type "test"
+### Type "test"
 
 ```lua
 hs.eventtap.keyStrokes("test")
@@ -51,7 +44,7 @@ hs.eventtap.keyStrokes("test")
 
 ---
 
-## Trigger Shortcuts with Delay's in-between
+### Trigger Shortcuts with Delay's in-between
 
 ```lua
 -- Type "t"
@@ -66,7 +59,7 @@ hs.eventtap.keyStroke({}, "e")
 
 ---
 
-## Forcefully restart an application by its bundle identifier
+### Forcefully restart an application by its bundle identifier
 
 ```lua
 local bundleID = "com.logitech.manager.daemon"
@@ -79,7 +72,7 @@ hs.application.launchOrFocusByBundleID(bundleID)
 
 ---
 
-## Select all even clips in a timeline
+### Select all even clips in a timeline
 
 ```lua
 cp.apple.finalcutpro:launch()
@@ -96,7 +89,7 @@ cp.apple.finalcutpro:timeline():contents():selectClips(evenClips)
 
 ---
 
-## Go back 500 frames and play
+### Go back 500 frames and play
 
 ```lua
 hs.eventtap.keyStroke({}, "-", 0)
@@ -110,7 +103,8 @@ cp.apple.finalcutpro:doShortcut("JogForward"):Now()
 
 ---
 
-## Audio Cross Dissolve Backward (J-Cut)
+### Audio Cross Dissolve Backward (J-Cut)
+
 ```lua
 hs.eventtap.keyStroke({"shift"}, "]", 0)
 hs.eventtap.keyStroke({}, "-", 0)
@@ -130,7 +124,8 @@ hs.eventtap.keyStroke({"ctrl"}, "s", 0)
 
 ---
 
-## Audio Cross Dissolve Centre
+### Audio Cross Dissolve Centre
+
 ```lua
 hs.eventtap.keyStroke({"shift"}, "]", 0)
 hs.eventtap.keyStroke({}, "-", 0)
@@ -159,7 +154,7 @@ hs.eventtap.keyStroke({"ctrl"}, "s")
 
 ---
 
-## Audio Cross Dissolve Forward (L-Cut)
+### Audio Cross Dissolve Forward (L-Cut)
 ```lua
 hs.eventtap.keyStroke({"shift"}, "[", 0)
 hs.eventtap.keyStroke({"shift"}, "=", 0)

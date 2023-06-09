@@ -1,2 +1,3 @@
 label: Sending Apple Feedback
-icon: browser
+#icon: browser
+image: ../static/thumbnail.png

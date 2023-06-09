@@ -1,4 +1,4 @@
 label: Notifications
-icon: gear
+#icon: gear
 order: 97
 image: ../static/thumbnail.png

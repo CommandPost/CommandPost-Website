@@ -9,7 +9,8 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 When requesting technical support, we recommend including the following information:
 
 - macOS Version
-- Final Cut Pro Version
+- CommandPost Version
+- Final Cut Pro Version (if installed)
 - A screenshot of the **About This Mac** screen so we can see your system specs
 
 You can also email us: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=CommandPost)

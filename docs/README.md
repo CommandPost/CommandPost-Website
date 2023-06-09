@@ -2,24 +2,33 @@
 
 # CommandPost
 
-**Workflow Toolkit for Post Production Professionals**
+**The Swiss Army Knife for Post Production Professionals**
 
-CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that bridges between control surfaces and software that doesn’t support them natively, such as Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} and Adobe’s [After Effects](https://www.adobe.com/products/aftereffects.html){target="_blank"}.
+CommandPost is a **free** and [open source](https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md){target="_blank"} macOS application that makes your post production and editing life faster and more fun.
 
-It’s been downloaded over [168 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}, and there are over [2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"} in our [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
+It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} to make it even better and more enjoyable to edit with.
 
-It's been used for projects for **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple** and **Adobe** use it daily.
+It has **extensive** control surface support - allowing you to control your Mac anyway you want.
+
+It's been downloaded over **[168 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}**, and there are over **[2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"}** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
+
+It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
 ---
 
 ### Built for Professionals
 
+> “Titles to keywords is a huge timesaver when editing complex scenes. Couldn’t live  without it anymore. And directors love that every delivery of any line from any take I just one click away.”_<br />
+> **[Knut Hake*](http://www.knuthake.de){target="_blank"} (Editor on Netflix's Blood Red Sky)**
+
 > _“Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters.”_<br />
-> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (assistant editor on Netflix's Blood Red Sky)**
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (Assistant Editor on Netflix's Blood Red Sky)**
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
 
 [![](/static/blood-and-gold.jpg)](https://www.youtube.com/watch?v=mqNzrsUerYw){target="_blank"}
+
+We also developed specific features for [Apollo: Missions to the Moon](https://www.imdb.com/title/tt9782756/){target="_blank"}, edited by [David Tillman](https://twitter.com/davidtillman){target="_blank"} and Denmark’s second largest production company, [Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake){target="_blank"}.
 
 ---
 

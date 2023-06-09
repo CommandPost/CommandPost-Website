@@ -1,2 +1,3 @@
 label: Shared Pasteboard History
-icon: device-camera-video
+#icon: device-camera-video
+image: ../static/thumbnail.png

@@ -1,2 +1,3 @@
 label: Debug Console
-icon: browser
+#icon: browser
+image: ../static/thumbnail.png
