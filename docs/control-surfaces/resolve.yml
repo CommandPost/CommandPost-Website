@@ -1,3 +1,4 @@
 label: Resolve
-icon: plug
+#icon: plug
 order: 97
+image: static/thumbnail.png

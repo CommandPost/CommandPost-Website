@@ -1,3 +1,4 @@
 label: AudioSwift
-icon: plug
+#icon: plug
 order: 91
+image: static/thumbnail.png

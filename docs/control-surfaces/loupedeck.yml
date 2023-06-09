@@ -1,3 +1,4 @@
 label: Loupedeck
-icon: plug
+#icon: plug
 order: 92
+image: static/thumbnail.png

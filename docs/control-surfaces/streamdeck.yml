@@ -1,3 +1,4 @@
 label: Stream Deck
-icon: plug
+#icon: plug
 order: 98
+image: static/thumbnail.png

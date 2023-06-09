@@ -1,3 +1,4 @@
 label: Tangent
-icon: plug
+#icon: plug
 order: 96
+image: static/thumbnail.png
