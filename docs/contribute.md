@@ -61,6 +61,13 @@ To create the fastest website possible, CommandPost is what's called a "static s
 
 However, to make sure the website is super easy to update and improve, we use [GitHub Actions](https://github.com/features/actions){target="_blank"} to "do stuff" to our markdown files whenever we submit a pull request.
 
+For example, each time you make a pull request, our [fancy GitHub Action](https://github.com/CommandPost/CommandPost-Website/blob/main/.github/workflows/retype-action.yml){target="_blank"} does the following:
+
+- Pulls all the latest [GitHub issues](https://github.com/CommandPost/CommandPost/issues){target="_blank"} and populates the [Wish List](/wish-list/) and [Bug Tracker](/bugtracker/) pages.
+- Looks at all the individual **Snippets** in [this folder](https://github.com/CommandPost/CommandPost-Website/tree/main/docs/_includes/snippets){target="_blank"}, and generates an alphabetical list of them for the [Snippets Library page](/scripting/snippets-library/).
+
+This means, if you want to add a Snippet to the [Snippets Library](/scripting/snippets-library/), you can just add a new markdown file in that folder, and once the pull request is approved, everything will be updated automagically.
+
 ---
 
 ### How to Edit Pages
