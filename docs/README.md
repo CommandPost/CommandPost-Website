@@ -14,6 +14,8 @@ It's been downloaded over **[168 thousand times](https://hanadigital.github.io/g
 
 It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
+![](../static/commandpost-hero.png)
+
 ---
 
 ### Built for Professionals
@@ -45,9 +47,6 @@ However, it's also used by developers, scientists and macOS power users all over
 ---
 
 ### Experience Unparalleled Control
-
-> _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable! ”_<br />
-> **[Oli Frost](https://olifro.st/){target="_blank"}** <font size="2">- _Editor_</font>
 
 > _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
 > **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
@@ -102,6 +101,9 @@ CommandPost can do complex things with a single keystroke, such as exporting you
 ---
 
 ### Diversify Your Creativity
+
+> _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable! ”_<br />
+> **[Oli Frost](https://olifro.st/){target="_blank"}** <font size="2">- _Editor_</font>
 
 Whilst CommandPost was originally designed with Final Cut Pro in mind, it can actually control **ANY** Mac application.
 
