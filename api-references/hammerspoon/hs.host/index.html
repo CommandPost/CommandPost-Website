@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739651924915">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739652160152">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739651924915" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739652160152" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739651924915" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739652160152" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739651924915" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739652160152" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -459,7 +459,7 @@
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L12">extensions/host/libhost.m line 12</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L12" target="_blank">extensions/host/libhost.m line 12</a></td>
 </tr>
 </tbody>
 </table>
@@ -482,7 +482,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 | <strong>Returns</strong>                                 | <ul><li>If a callback function is not provided, this function will return a table containing the following:</li><li>  Individual tables, indexed by the core number, for each CPU core with the following keys in each subtable:</li><li>    user   -- percentage of CPU time occupied by user level processes.</li><li>    system -- percentage of CPU time occupied by system (kernel) level processes.</li><li>    nice   -- percentage of CPU time occupied by user level processes with a positive nice value. (See notes below)</li><li>    active -- For convenience, when you just want the total CPU usage, this is the sum of user, system, and nice.</li><li>    idle   -- percentage of CPU time spent idle</li><li>  The key <code v-pre>overall</code> containing the same keys as described above but based upon the average of all cores combined.</li><li>  The key <code v-pre>n</code> containing the number of cores detected.</li><li>If a callback function is provided, this function will return a placeholder table with the following metamethods:</li><li>  <code v-pre>hs.host.cpuUsage:finished()</code> - returns a boolean indicating if the second CPU sample has been collected yet (true) or not (false).</li><li>  <code v-pre>hs.host.cpuUsage:stop()</code>     - abort the sample collection.  The callback function will not be invoked.</li><li>  The results of the cpu statistics will be submitted as a table, described above, to the callback function.</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If no callback function is provided, Hammerspoon will block (i.e. no other Hammerspoon activity can occur) during execution of this function for <code v-pre>period</code> microseconds (1 second = 1,000,000 microseconds).  The default period is 1/10 of a second. If <code v-pre>period</code> is too small, it is possible that some of the CPU statistics may result in <code v-pre>nan</code> (not-a-number).</li><li></li><li>For reference, the <code v-pre>top</code> command has a default period between samples of 1 second.</li><li></li><li>The subtables for each core and <code v-pre>overall</code> have a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.host.cpuUsage()[#]</code> where # is the core you are interested in or the string &quot;overall&quot;.</li></ul> |
 | <strong>Examples</strong>                                | <ul><li>None</li></ul> |
-| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/host.lua#L34">extensions/host/host.lua line 34</a> |</p>
+| <strong>Source</strong>                                  | <a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/host.lua#L34" target="_blank">extensions/host/host.lua line 34</a> |</p>
 <hr />
 <doc-anchor-target id="cpuusageticks">
     <h3>
@@ -529,7 +529,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L193">extensions/host/libhost.m line 193</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L193" target="_blank">extensions/host/libhost.m line 193</a></td>
 </tr>
 </tbody>
 </table>
@@ -580,7 +580,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L490">extensions/host/libhost.m line 490</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L490" target="_blank">extensions/host/libhost.m line 490</a></td>
 </tr>
 </tbody>
 </table>
@@ -631,7 +631,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L644">extensions/host/libhost.m line 644</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L644" target="_blank">extensions/host/libhost.m line 644</a></td>
 </tr>
 </tbody>
 </table>
@@ -682,7 +682,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L509">extensions/host/libhost.m line 509</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L509" target="_blank">extensions/host/libhost.m line 509</a></td>
 </tr>
 </tbody>
 </table>
@@ -733,7 +733,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L454">extensions/host/libhost.m line 454</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L454" target="_blank">extensions/host/libhost.m line 454</a></td>
 </tr>
 </tbody>
 </table>
@@ -784,7 +784,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L72">extensions/host/libhost.m line 72</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L72" target="_blank">extensions/host/libhost.m line 72</a></td>
 </tr>
 </tbody>
 </table>
@@ -835,7 +835,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L42">extensions/host/libhost.m line 42</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L42" target="_blank">extensions/host/libhost.m line 42</a></td>
 </tr>
 </tbody>
 </table>
@@ -886,7 +886,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L342">extensions/host/libhost.m line 342</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L342" target="_blank">extensions/host/libhost.m line 342</a></td>
 </tr>
 </tbody>
 </table>
@@ -937,7 +937,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L282">extensions/host/libhost.m line 282</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L282" target="_blank">extensions/host/libhost.m line 282</a></td>
 </tr>
 </tbody>
 </table>
@@ -988,7 +988,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L300">extensions/host/libhost.m line 300</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L300" target="_blank">extensions/host/libhost.m line 300</a></td>
 </tr>
 </tbody>
 </table>
@@ -1039,7 +1039,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L471">extensions/host/libhost.m line 471</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L471" target="_blank">extensions/host/libhost.m line 471</a></td>
 </tr>
 </tbody>
 </table>
@@ -1090,7 +1090,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L86">extensions/host/libhost.m line 86</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L86" target="_blank">extensions/host/libhost.m line 86</a></td>
 </tr>
 </tbody>
 </table>
@@ -1141,7 +1141,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tr>
 <tr>
 <td><strong>Source</strong></td>
-<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L571">extensions/host/libhost.m line 571</a></td>
+<td><a href="https://github.com/CommandPost/CommandPost-App/blob/master/extensions/host/libhost.m#L571" target="_blank">extensions/host/libhost.m line 571</a></td>
 </tr>
 </tbody>
 </table>
