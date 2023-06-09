@@ -1,4 +1,4 @@
 label: Auto Sequence
 #icon: tools
 order: 500
-image: static/thumbnail.png
+image: ../static/thumbnail.png

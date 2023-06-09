@@ -1,3 +1,4 @@
 label: Installation & Setup
-icon: file-code
+#icon: file-code
 order: 99
+image: ../static/thumbnail.png

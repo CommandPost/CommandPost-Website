@@ -1,4 +1,4 @@
 label: TourBox
 #icon: plug
 order: 95
-image: static/thumbnail.png
+image: ../static/thumbnail.png

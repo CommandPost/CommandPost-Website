@@ -1,4 +1,4 @@
 label: Shot Data
 #icon: tools
 order: 600
-image: static/thumbnail.png
+image: ../static/thumbnail.png

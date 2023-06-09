@@ -1,3 +1,4 @@
 label: Plugins
-icon: file-code
+#icon: file-code
 order: 93
+image: ../static/thumbnail.png

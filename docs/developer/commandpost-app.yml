@@ -1,3 +1,4 @@
 label: CommandPost-App
-icon: file-code
+#icon: file-code
 order: 95
+image: ../static/thumbnail.png

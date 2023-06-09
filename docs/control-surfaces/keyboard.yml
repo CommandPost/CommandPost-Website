@@ -1,4 +1,4 @@
 label: Keyboard
 #icon: plug
 order: 100
-image: static/thumbnail.png
+image: ../static/thumbnail.png

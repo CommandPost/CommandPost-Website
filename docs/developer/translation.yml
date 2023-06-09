@@ -1,3 +1,4 @@
 label: Translation
-icon: file-code
+#icon: file-code
 order: 91
+image: ../static/thumbnail.png

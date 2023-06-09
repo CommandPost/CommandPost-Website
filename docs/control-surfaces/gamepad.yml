@@ -1,4 +1,4 @@
 label: Gamepad
 #icon: plug
 order: 90
-image: static/thumbnail.png
+image: ../static/thumbnail.png
