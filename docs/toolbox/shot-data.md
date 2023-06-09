@@ -1,4 +1,4 @@
-# Shot Data User Guide
+# Shot Data
 
 ![](../static/SDCover.gif)
 
