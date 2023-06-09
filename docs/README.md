@@ -23,11 +23,11 @@ We developed new CommandPost features especially for **[Apollo: Missions to the 
 We've also built custom tools for Denmark’s second largest production company, **[Metronome Productions](http://www.fcp.co/final-cut-pro/news/867-metronome-celebrate-a-documentary-series-cut-on-fcpx-with-a-birthday-cake){target="_blank"}**.
 
 > _“ Titles to keywords is a huge timesaver when editing complex scenes. Couldn’t live  without it anymore. And directors love that every delivery of any line from any take I just one click away. ”_<br />
-> **[Knut Hake](http://www.knuthake.de){target="_blank"}**
+> **[Knut Hake](http://www.knuthake.de){target="_blank"}**<br />
 > **(Editor on Netflix's Blood Red Sky)**
 
 > _“ Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters. ”_<br />
-> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}**
+> **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"}**<br />
 > **(Assistant Editor on Netflix's Blood Red Sky)**
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
@@ -39,7 +39,7 @@ We've also built custom tools for Denmark’s second largest production company,
 ### Where Technology Meets Creativity
 
 > _“ CommandPost and FCP are so intertwined on my day to day that I see them as one app ”._<br />
-> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}**
+> **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}**<br />
 > **(Editor on Netflix's Turn of the Tide)**
 
 CommandPost has been **built by filmmakers, for filmmakers**.
@@ -53,7 +53,7 @@ However, it's also used by developers, scientists and macOS power users all over
 ### Experience Unparalleled Control
 
 > _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._<br />
-> **[Oli Frost](https://olifro.st/){target="_blank"}**
+> **[Oli Frost](https://olifro.st/){target="_blank"}**<br />
 > **(Editor)**
 
 > _“ CommandPost supports my Loupedeck, Stream Deck and Razer devices with advanced Final Cut Pro integrations. Eliminating the need for multiple apps and reducing complexity. ”_<br />
@@ -75,7 +75,7 @@ You can basically control **ANYTHING** in Final Cut Pro with a huge range of con
 ### Powerful Search Console Redefines Navigation
 
 > _“ Search Console is like Spotlight on steroids. It can find any obscure command on a glance, NLE and OS-wide, fire up keyboard makros (scripts), and especially, find and place Effects and Effect Templates, directly onto selected clips in my FCP timeline. It constantly saves me clicks ”._<br />
-> **[Florian Duffe](https://florian-duffe.de/en/flow-en/){target="_blank"}**
+> **[Florian Duffe](https://florian-duffe.de/en/flow-en/){target="_blank"}**<br />
 > **(Editor)**
 
 CommandPost has an insanely powerful **Search Console** that allows you to trigger all of CommandPost's actions.
