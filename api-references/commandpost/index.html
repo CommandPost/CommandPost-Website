@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739594806642">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>CommandPost</title>
+    <meta name="title" content="CommandPost">
+    <meta name="description" content="Module" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-references/commandpost/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-references/commandpost/">
+    <meta property="og:title" content="CommandPost">
+    <meta property="og:description" content="Module">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-references/commandpost/">
+    <meta property="twitter:title" content="CommandPost">
+    <meta property="twitter:description" content="Module">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=3.0.3.739594806642" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="commandpost" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commandpost">#</doc-anchor-trigger>
+        <span>CommandPost</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Module</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="cp/">cp</a></td>
+<td>Core CommandPost functionality.</td>
+</tr>
+<tr>
+<td><a href="cp.18n/">cp.18n</a></td>
+<td>CommandPost&#x27;s Internationalisation &amp; Localisation Manger.</td>
+</tr>
+<tr>
+<td><a href="cp.adobe.aftereffects/">cp.adobe.aftereffects</a></td>
+<td>Adobe After Effects Extension</td>
+</tr>
+<tr>
+<td><a href="cp.adobe.aftereffects.app/">cp.adobe.aftereffects.app</a></td>
+<td>The <code v-pre>cp.app</code> for Adobe After Effects.</td>
+</tr>
+<tr>
+<td><a href="cp.adobe.aftereffects.shortcuts/">cp.adobe.aftereffects.shortcuts</a></td>
+<td>Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.</td>
+</tr>
+<tr>
+<td><a href="cp.app/">cp.app</a></td>
+<td>This class assists with working with macOS apps. It provides functions for</td>
+</tr>
+<tr>
+<td><a href="cp.app.menu/">cp.app.menu</a></td>
+<td>Represents an app&#x27;s menu bar, providing multi-lingual access to find and</td>
+</tr>
+<tr>
+<td><a href="cp.app.prefs/">cp.app.prefs</a></td>
+<td>Provides access to application preferences, typically stored via <code v-pre>NSUserDefaults</code> or <code v-pre>CFProperties</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.commandeditor/">cp.apple.commandeditor</a></td>
+<td>Functions to control and manage Apple&#x27;s Command Editor - used in Final Cut Pro,</td>
+</tr>
+<tr>
+<td><a href="cp.apple.compressor/">cp.apple.compressor</a></td>
+<td>Represents the Compressor application, providing functions that allow different tasks to be accomplished.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.compressor.app/">cp.apple.compressor.app</a></td>
+<td>The <code v-pre>cp.app</code> for Apple&#x27;s Compressor.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.fcpxml/">cp.apple.fcpxml</a></td>
+<td>A collection of tools for handling FCPXML Documents.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.fcpxml.time/">cp.apple.fcpxml.time</a></td>
+<td>Allows you to convert time string values found in a FCPXML document into Lua objects,</td>
+</tr>
+<tr>
+<td><a href="cp.apple.fcpxml.timecode/">cp.apple.fcpxml.timecode</a></td>
+<td>Functions for working with timecode in Final Cut Pro XML. Note that</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro/">cp.apple.finalcutpro</a></td>
+<td>Represents the Final Cut Pro application, providing functions that allow different tasks to be accomplished.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.app/">cp.apple.finalcutpro.app</a></td>
+<td>The <a href="cp.app/">cp.app</a> for Final Cut Pro. Will automatically determine</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.browser.appearanceandfiltering/">cp.apple.finalcutpro.browser.AppearanceAndFiltering</a></td>
+<td>Clip Appearance &amp; Filtering Menu Popover</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.browser.columns/">cp.apple.finalcutpro.browser.Columns</a></td>
+<td>Final Cut Pro Browser List View Columns</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commanddetail/">cp.apple.finalcutpro.cmd.CommandDetail</a></td>
+<td>This class provides a UI for displaying the details of a command when it is selected on the <code v-pre>CommandList</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commandeditor/">cp.apple.finalcutpro.cmd.CommandEditor</a></td>
+<td>Command Editor Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commandgroups/">cp.apple.finalcutpro.cmd.CommandGroups</a></td>
+<td>Represents the list of Command Groups in the <a href="cp.apple.finalcutpro.cmd.commandlist/">CommandList</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commandlist/">cp.apple.finalcutpro.cmd.CommandList</a></td>
+<td>A list of commands available in the <a href="cp.apple.finalcutpro.cmd.commandeditor/">CommandEditor</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commands/">cp.apple.finalcutpro.cmd.Commands</a></td>
+<td>The list of available commands (depending on search and/or <a href="cp.apple.finalcutpro.cmd.commandgroups.md">CommandGroup</a></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commands.header/">cp.apple.finalcutpro.cmd.Commands.Header</a></td>
+<td>The header of the Commands.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.commands.row/">cp.apple.finalcutpro.cmd.Commands.Row</a></td>
+<td>Commands Row.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.cmd.keydetail/">cp.apple.finalcutpro.cmd.KeyDetail</a></td>
+<td>This class provides a UI for displaying the details of a key when it is selected on the keyboard layout.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.content.clip/">cp.apple.finalcutpro.content.Clip</a></td>
+<td>Represents a clip of media inside FCP.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.export.destinations/">cp.apple.finalcutpro.export.destinations</a></td>
+<td>Provides access to the list of Share Destinations configured for the user.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.export.exportdialog/">cp.apple.finalcutpro.export.ExportDialog</a></td>
+<td>Export Dialog Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.export.gotoprompt/">cp.apple.finalcutpro.export.GoToPrompt</a></td>
+<td>Go To Prompt.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.export.replacealert/">cp.apple.finalcutpro.export.ReplaceAlert</a></td>
+<td>Replace Alert</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.export.savesheet/">cp.apple.finalcutpro.export.SaveSheet</a></td>
+<td>Save Sheet</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.import.mediaimport/">cp.apple.finalcutpro.import.MediaImport</a></td>
+<td>Media Import</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.audio.audiocomponent/">cp.apple.finalcutpro.inspector.audio.AudioComponent</a></td>
+<td>The Audio Configuration section of the Audio Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.audio.audioconfiguration/">cp.apple.finalcutpro.inspector.audio.AudioConfiguration</a></td>
+<td>The Audio Configuration section of the Audio Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.audio.audioinspector/">cp.apple.finalcutpro.inspector.audio.AudioInspector</a></td>
+<td>Audio Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.audio.mainproperties/">cp.apple.finalcutpro.inspector.audio.MainProperties</a></td>
+<td>The MainProperties UI for the <a href="cp.apple.finalcutpro.inspector.audio.audioinspector/">AudioInspector</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.audio.topproperties/">cp.apple.finalcutpro.inspector.audio.TopProperties</a></td>
+<td>The <code v-pre>TopProperties</code> class is used to represent the top properties group of the Audio Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.basemotionpanel/">cp.apple.finalcutpro.inspector.BaseMotionPanel</a></td>
+<td>A base class for <a href="cp.apple.finalcutpro.inspector.inspector/">Inspector</a> panels</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.basepanel/">cp.apple.finalcutpro.inspector.BasePanel</a></td>
+<td>A base class for the different panels in the <a href="cp.apple.finalcutpro.inspector.inspector/">Inspector</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorboard/">cp.apple.finalcutpro.inspector.color.ColorBoard</a></td>
+<td>Color Board Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorboardaspect/">cp.apple.finalcutpro.inspector.color.ColorBoardAspect</a></td>
+<td>Represents a particular aspect of the color board (Color/Saturation/Exposure).</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorcurve/">cp.apple.finalcutpro.inspector.color.ColorCurve</a></td>
+<td>A ColorCurve <a href="cp.ui.element/">Element</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorcurves/">cp.apple.finalcutpro.inspector.color.ColorCurves</a></td>
+<td>Color Curves Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorinspector/">cp.apple.finalcutpro.inspector.color.ColorInspector</a></td>
+<td>Color Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorpuck/">cp.apple.finalcutpro.inspector.color.ColorPuck</a></td>
+<td>Color ColorPuck Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorwell/">cp.apple.finalcutpro.inspector.color.ColorWell</a></td>
+<td>Represents a single Color Well in the Color Wheels Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorwheel/">cp.apple.finalcutpro.inspector.color.ColorWheel</a></td>
+<td>Represents a single Color Well in the Color Wheels Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.colorwheels/">cp.apple.finalcutpro.inspector.color.ColorWheels</a></td>
+<td>Color Wheels Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.correctionsbar/">cp.apple.finalcutpro.inspector.color.CorrectionsBar</a></td>
+<td>The Correction selection/management bar at the top of the ColorInspector</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.huesaturationcurve/">cp.apple.finalcutpro.inspector.color.HueSaturationCurve</a></td>
+<td>A HueSaturationCurve <a href="cp.ui.element/">Element</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.huesaturationcurves/">cp.apple.finalcutpro.inspector.color.HueSaturationCurves</a></td>
+<td>Color Curves Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.color.valueindicator/">cp.apple.finalcutpro.inspector.color.ValueIndicator</a></td>
+<td>ValueIndicator Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.generator.generatorinspector/">cp.apple.finalcutpro.inspector.generator.GeneratorInspector</a></td>
+<td>Generator Inspector Module. This appears for both Generators and Titles.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.info.infoinspector/">cp.apple.finalcutpro.inspector.info.InfoInspector</a></td>
+<td>Video Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.info.infoprojectinspector/">cp.apple.finalcutpro.inspector.info.InfoProjectInspector</a></td>
+<td>Info Inspector Module when a Project is selected.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.inspector/">cp.apple.finalcutpro.inspector.Inspector</a></td>
+<td>Inspector</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.inspectorproperty/">cp.apple.finalcutpro.inspector.InspectorProperty</a></td>
+<td><code v-pre>InspectorProperty</code> contains helper functions for handling common property</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.share.shareinspector/">cp.apple.finalcutpro.inspector.share.ShareInspector</a></td>
+<td>Share Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.text.textinspector/">cp.apple.finalcutpro.inspector.text.TextInspector</a></td>
+<td>Text Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.title.titleinspector/">cp.apple.finalcutpro.inspector.title.TitleInspector</a></td>
+<td>Title Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.transition.transitioninspector/">cp.apple.finalcutpro.inspector.transition.TransitionInspector</a></td>
+<td>Transition Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.inspector.video.videoinspector/">cp.apple.finalcutpro.inspector.video.VideoInspector</a></td>
+<td>Video Inspector Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.backgroundtasksdialog/">cp.apple.finalcutpro.main.BackgroundTasksDialog</a></td>
+<td>Represents the Background Tasks warning dialog.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.browser/">cp.apple.finalcutpro.main.Browser</a></td>
+<td>Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.browser.browsermarkerpopover/">cp.apple.finalcutpro.main.Browser.BrowserMarkerPopover</a></td>
+<td>Browser Marker Popup.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.effectsbrowser/">cp.apple.finalcutpro.main.EffectsBrowser</a></td>
+<td>Effects Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.findandreplacetitletext/">cp.apple.finalcutpro.main.FindAndReplaceTitleText</a></td>
+<td>Represents a &quot;Find and Replace Title Text&quot; dialogue box.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.fullscreenplayer/">cp.apple.finalcutpro.main.FullScreenPlayer</a></td>
+<td>Full Screen Window Player.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.generatorsbrowser/">cp.apple.finalcutpro.main.GeneratorsBrowser</a></td>
+<td>Generators Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.keywordeditor/">cp.apple.finalcutpro.main.KeywordEditor</a></td>
+<td>Keyword Editor Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.keywordfield/">cp.apple.finalcutpro.main.KeywordField</a></td>
+<td>Keyword Text Field Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.librariesbrowser/">cp.apple.finalcutpro.main.LibrariesBrowser</a></td>
+<td>Libraries Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.librariesfilmstrip/">cp.apple.finalcutpro.main.LibrariesFilmstrip</a></td>
+<td>Libraries Filmstrip Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.librarieslist/">cp.apple.finalcutpro.main.LibrariesList</a></td>
+<td>Libraries List Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.librariessidebar/">cp.apple.finalcutpro.main.LibrariesSidebar</a></td>
+<td>Libraries Sidebar Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.mediabrowser/">cp.apple.finalcutpro.main.MediaBrowser</a></td>
+<td>Media Browser Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.playhead/">cp.apple.finalcutpro.main.Playhead</a></td>
+<td>Playhead Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.primarytoolbar/">cp.apple.finalcutpro.main.PrimaryToolbar</a></td>
+<td>Timeline Toolbar.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.primarywindow/">cp.apple.finalcutpro.main.PrimaryWindow</a></td>
+<td>Primary Window Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.secondarywindow/">cp.apple.finalcutpro.main.SecondaryWindow</a></td>
+<td>Secondary Window Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.main.transcodemedia/">cp.apple.finalcutpro.main.TranscodeMedia</a></td>
+<td>Represents the Transcode Media sheet.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.menu/">cp.apple.finalcutpro.menu</a></td>
+<td>Final Cut Pro Menu Helper Functions.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.plugins/">cp.apple.finalcutpro.plugins</a></td>
+<td>Scans an entire system for Final Cut Pro Effects, Generators, Titles &amp; Transitions.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.plugins.guiscan/">cp.apple.finalcutpro.plugins.guiscan</a></td>
+<td>Final Cut Pro GUI Plugin Scanner.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.editingpanel/">cp.apple.finalcutpro.prefs.EditingPanel</a></td>
+<td>Editing Panel Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.generalpanel/">cp.apple.finalcutpro.prefs.GeneralPanel</a></td>
+<td>General Panel Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.importpanel/">cp.apple.finalcutpro.prefs.ImportPanel</a></td>
+<td>Import Panel Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.panel/">cp.apple.finalcutpro.prefs.Panel</a></td>
+<td>Preferences Panel.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.playbackpanel/">cp.apple.finalcutpro.prefs.PlaybackPanel</a></td>
+<td>Playback Panel Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.prefs.preferenceswindow/">cp.apple.finalcutpro.prefs.PreferencesWindow</a></td>
+<td>Preferences Window Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.strings/">cp.apple.finalcutpro.strings</a></td>
+<td>The <code v-pre>cp.strings</code> for I18N lookups related to Final Cut Pro.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.appearance/">cp.apple.finalcutpro.timeline.Appearance</a></td>
+<td>Timeline Appearance Popup module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.audiorole/">cp.apple.finalcutpro.timeline.AudioRole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.audiosubrole/">cp.apple.finalcutpro.timeline.AudioSubrole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.captionsrole/">cp.apple.finalcutpro.timeline.CaptionsRole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.captionssubrole/">cp.apple.finalcutpro.timeline.CaptionsSubrole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.contents/">cp.apple.finalcutpro.timeline.Contents</a></td>
+<td>Timeline Contents Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.index/">cp.apple.finalcutpro.timeline.Index</a></td>
+<td>Timeline Index Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexcaptions/">cp.apple.finalcutpro.timeline.IndexCaptions</a></td>
+<td>Provides access to the &#x27;Captions&#x27; section of the <a href="cp.apple.finalcutpro.timeline.index/">Timeline Index</a></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexclips/">cp.apple.finalcutpro.timeline.IndexClips</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.indexsection/">IndexSection</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexclips.type/">cp.apple.finalcutpro.timeline.IndexClips.Type</a></td>
+<td>The collection of <a href="cp.ui.radiobutton/">RadioButtons</a> that allow filtering by Video/Audio/Title.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexmode/">cp.apple.finalcutpro.timeline.IndexMode</a></td>
+<td>Timeline Index Mode Radio Group Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexroles/">cp.apple.finalcutpro.timeline.IndexRoles</a></td>
+<td>Provides access to the &#x27;Roles&#x27; section of the <a href="cp.apple.finalcutpro.timeline.index/">Timeline Index</a></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexrolesarea/">cp.apple.finalcutpro.timeline.IndexRolesArea</a></td>
+<td>Represents the list of Roles in the <a href="cp.apple.finalcutpro.timeline.indexroles/">IndexRoles</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexroleslist/">cp.apple.finalcutpro.timeline.IndexRolesList</a></td>
+<td>Timeline Index Roles List.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indexsection/">cp.apple.finalcutpro.timeline.IndexSection</a></td>
+<td>An abstract base class for sections inside the <a href="cp.apple.finalcutpro.timeline.index/">Index</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indextags/">cp.apple.finalcutpro.timeline.IndexTags</a></td>
+<td>Provides access to the &#x27;Tags&#x27; section of the <a href="cp.apple.finalcutpro.timeline.index/">Timeline Index</a></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.indextags.type/">cp.apple.finalcutpro.timeline.IndexTags.Type</a></td>
+<td>The collection of <a href="cp.ui.radiobutton/">RadioButtons</a> that allow filtering by Video/Audio/Title.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.role/">cp.apple.finalcutpro.timeline.Role</a></td>
+<td><em>Extends <a href="cp.ui.oldrow/">Row</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.speedpopover/">cp.apple.finalcutpro.timeline.SpeedPopover</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.md">Timeline</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.timeline/">cp.apple.finalcutpro.timeline.Timeline</a></td>
+<td>Timeline Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.toolbar/">cp.apple.finalcutpro.timeline.Toolbar</a></td>
+<td>Timeline Toolbar</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.toolbar.browser/">cp.apple.finalcutpro.timeline.Toolbar.Browser</a></td>
+<td>A <a href="cp.ui.radiogroup/">RadioGroup</a> that contains buttons to show or hide the Effects and Transitions Browsers.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.toolbar.clip/">cp.apple.finalcutpro.timeline.Toolbar.Clip</a></td>
+<td>Provides access to clip options such as skimming, audio skimming, soloing and snap.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.toolpalette/">cp.apple.finalcutpro.timeline.ToolPalette</a></td>
+<td>Represents the Tool Palette Menu Button in the Timeline.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.videorole/">cp.apple.finalcutpro.timeline.VideoRole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.timeline.videosubrole/">cp.apple.finalcutpro.timeline.VideoSubrole</a></td>
+<td><em>Extends <a href="cp.apple.finalcutpro.timeline.role/">Role</a></em></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.viewer.controlbar/">cp.apple.finalcutpro.viewer.ControlBar</a></td>
+<td>Represents the bottom &quot;control&quot; bar on a <a href="cp.apple.finalcutpro.viewer.viewer/">Viewer</a></td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.viewer.infobar/">cp.apple.finalcutpro.viewer.InfoBar</a></td>
+<td>Represents the bar of information about the <a href="cp.apple.finalcutpro.viewer.viewer/">Viewer</a> (format, title, viewing options).</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.viewer.viewer/">cp.apple.finalcutpro.viewer.Viewer</a></td>
+<td>Viewer Module.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.finalcutpro.workflowextensions.commandpostwindow/">cp.apple.finalcutpro.workflowextensions.CommandPostWindow</a></td>
+<td>The CommandPost Workflow Extension Window.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.motion/">cp.apple.motion</a></td>
+<td>Represents the Motion application, providing functions that allow different tasks to be accomplished.</td>
+</tr>
+<tr>
+<td><a href="cp.apple.motion.app/">cp.apple.motion.app</a></td>
+<td>The <code v-pre>cp.app</code> for Apple&#x27;s Motion.</td>
+</tr>
+<tr>
+<td><a href="cp.battery/">cp.battery</a></td>
+<td>Provides access to various properties of the battery. Each of these properties</td>
+</tr>
+<tr>
+<td><a href="cp.bench/">cp.bench</a></td>
+<td>Benchmarking Tool.</td>
+</tr>
+<tr>
+<td><a href="cp.blackmagic.resolve/">cp.blackmagic.resolve</a></td>
+<td>The Blackmagic DaVinci Resolve Extension.</td>
+</tr>
+<tr>
+<td><a href="cp.blackmagic.resolve.app/">cp.blackmagic.resolve.app</a></td>
+<td>The <code v-pre>cp.app</code> for Blackmagic DaVinci Resolve.</td>
+</tr>
+<tr>
+<td><a href="cp.blackmagic.resolve.color.color/">cp.blackmagic.resolve.color.Color</a></td>
+<td>Color Module.</td>
+</tr>
+<tr>
+<td><a href="cp.blackmagic.resolve.color.tracker/">cp.blackmagic.resolve.color.Tracker</a></td>
+<td>Tracker</td>
+</tr>
+<tr>
+<td><a href="cp.blackmagic.resolve.main.primarywindow/">cp.blackmagic.resolve.main.PrimaryWindow</a></td>
+<td>Primary Window Module.</td>
+</tr>
+<tr>
+<td><a href="cp.buffer/">cp.buffer</a></td>
+<td>Internal byte buffer type. Allows additional chunks of bytes</td>
+</tr>
+<tr>
+<td><a href="cp.choices/">cp.choices</a></td>
+<td>Choices Module.</td>
+</tr>
+<tr>
+<td><a href="cp.choices.builder/">cp.choices.builder</a></td>
+<td>Choices Builder Module.</td>
+</tr>
+<tr>
+<td><a href="cp.collect.lazylist/">cp.collect.LazyList</a></td>
+<td>A LazyList is a list that is lazily evaluated. It will dynamically create items on demand,</td>
+</tr>
+<tr>
+<td><a href="cp.collect.list/">cp.collect.List</a></td>
+<td>Lists are similar <code v-pre>tables</code> which can contain <code v-pre>nil</code> items without shortening the length.</td>
+</tr>
+<tr>
+<td><a href="cp.collect.queue/">cp.collect.Queue</a></td>
+<td>A &quot;double-ended queue&quot; implementation. This allows pushing and popping</td>
+</tr>
+<tr>
+<td><a href="cp.collect.set/">cp.collect.Set</a></td>
+<td>An implementation of a logical <code v-pre>set</code>, which contains a single unique</td>
+</tr>
+<tr>
+<td><a href="cp.commands/">cp.commands</a></td>
+<td>Commands Module.</td>
+</tr>
+<tr>
+<td><a href="cp.commands.command/">cp.commands.command</a></td>
+<td>Commands Module.</td>
+</tr>
+<tr>
+<td><a href="cp.commands.englishkeycodes/">cp.commands.englishKeyCodes</a></td>
+<td>Returns a table of all the English Key Codes.</td>
+</tr>
+<tr>
+<td><a href="cp.commands.shortcut/">cp.commands.shortcut</a></td>
+<td>Shortcut Commands</td>
+</tr>
+<tr>
+<td><a href="cp.commands.shortcut.builder/">cp.commands.shortcut.builder</a></td>
+<td>Shortcut Commands Builder Module.</td>
+</tr>
+<tr>
+<td><a href="cp.config/">cp.config</a></td>
+<td>Manage CommandPost&#x27;s constants and settings.</td>
+</tr>
+<tr>
+<td><a href="cp.config.dockiconclickcallback/">cp.config.dockIconClickCallback</a></td>
+<td>Callback which triggers when the CommandPost Dock Icon is clicked</td>
+</tr>
+<tr>
+<td><a href="cp.config.filedroppedtodockiconcallback/">cp.config.fileDroppedToDockIconCallback</a></td>
+<td>File Dropped to Dock Icon Callback</td>
+</tr>
+<tr>
+<td><a href="cp.config.shutdowncallback/">cp.config.shutdownCallback</a></td>
+<td>Shutdown Callback Module.</td>
+</tr>
+<tr>
+<td><a href="cp.config.textdroppedtodockiconcallback/">cp.config.textDroppedToDockIconCallback</a></td>
+<td>Text Dropped to Dock Icon Callback</td>
+</tr>
+<tr>
+<td><a href="cp.console.history/">cp.console.history</a></td>
+<td>Console History Manager.</td>
+</tr>
+<tr>
+<td><a href="cp.deferred/">cp.deferred</a></td>
+<td>This extension makes it simple to defer multiple actions after a delay from the initial execution.</td>
+</tr>
+<tr>
+<td><a href="cp.delegator/">cp.delegator</a></td>
+<td><code v-pre>cp.delegator</code> is a <a href="https://github.com/kikito/middleclass">middleclass</a> &quot;mix-in&quot; that allows for</td>
+</tr>
+<tr>
+<td><a href="cp.dev/">cp.dev</a></td>
+<td>A set of handy developer tools for CommandPost.</td>
+</tr>
+<tr>
+<td><a href="cp.dialog/">cp.dialog</a></td>
+<td>A collection of handy Dialog tools for CommandPost.</td>
+</tr>
+<tr>
+<td><a href="cp.disk/">cp.disk</a></td>
+<td>Provides provides details about disk devices attached to the system.</td>
+</tr>
+<tr>
+<td><a href="cp.docs/">cp.docs</a></td>
+<td>Documentation Tools.</td>
+</tr>
+<tr>
+<td><a href="cp.feedback/">cp.feedback</a></td>
+<td>Feedback Form.</td>
+</tr>
+<tr>
+<td><a href="cp.fn/">cp.fn</a></td>
+<td>A collection of functions that are useful for working with functions.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.args/">cp.fn.args</a></td>
+<td>Functions for working with function arguments.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.ax/">cp.fn.ax</a></td>
+<td>A collection of useful functions for working with AX.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.prop/">cp.fn.prop</a></td>
+<td>A module of free-standing functions for working with <a href="cp.prop/">cp.prop</a> values.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.string/">cp.fn.string</a></td>
+<td>String-related functional programming helpers.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.table/">cp.fn.table</a></td>
+<td>Table-related functions.</td>
+</tr>
+<tr>
+<td><a href="cp.fn.value/">cp.fn.value</a></td>
+<td>A collection of functions for working with values.</td>
+</tr>
+<tr>
+<td><a href="cp.highland2/">cp.highland2</a></td>
+<td>Highland 2 support.</td>
+</tr>
+<tr>
+<td><a href="cp.highland2.app/">cp.highland2.app</a></td>
+<td>The <a href="cp.app/">cp.app</a> for Highland 2.</td>
+</tr>
+<tr>
+<td><a href="cp.highland2.document/">cp.highland2.Document</a></td>
+<td>Highland 2 Document <a href="cp.ui.window/">Window</a> extension.</td>
+</tr>
+<tr>
+<td><a href="cp.highland2.sidebar/">cp.highland2.Sidebar</a></td>
+<td>Represents the sidebar for a document opened in Highland.</td>
+</tr>
+<tr>
+<td><a href="cp.i18n.language/">cp.i18n.language</a></td>
+<td>Provides the set of ISO 693-1/2/3 language codes and names.</td>
+</tr>
+<tr>
+<td><a href="cp.i18n.languageid/">cp.i18n.languageID</a></td>
+<td>As per <a href="https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html#//apple_ref/doc/uid/10000171i-CH15-SW6">Apple&#x27;s documentation</a>,</td>
+</tr>
+<tr>
+<td><a href="cp.i18n.localeid/">cp.i18n.localeID</a></td>
+<td>As per <a href="https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html#//apple_ref/doc/uid/10000171i-CH15-SW6">Apple&#x27;s documentation</a>,</td>
+</tr>
+<tr>
+<td><a href="cp.i18n.region/">cp.i18n.region</a></td>
+<td>Provides the set of ISO 3166-1 region codes and names.</td>
+</tr>
+<tr>
+<td><a href="cp.i18n.script/">cp.i18n.script</a></td>
+<td>Provides the set of ISO 15924 language scripts.</td>
+</tr>
+<tr>
+<td><a href="cp.idle/">cp.idle</a></td>
+<td>This library allows tasks to be queue for execution when the computer has</td>
+</tr>
+<tr>
+<td><a href="cp.ids/">cp.ids</a></td>
+<td>Allows managing values/IDs which can vary between versions.</td>
+</tr>
+<tr>
+<td><a href="cp.interpolate/">cp.interpolate</a></td>
+<td>Provides a function that will interpolate values into a string.</td>
+</tr>
+<tr>
+<td><a href="cp.is/">cp.is</a></td>
+<td>A simple class that lets you test if a value <code v-pre>is</code> a particular type.</td>
+</tr>
+<tr>
+<td><a href="cp.json/">cp.json</a></td>
+<td>A collection of handy JSON tools.</td>
+</tr>
+<tr>
+<td><a href="cp.just/">cp.just</a></td>
+<td>This module provides functions to help with performing tasks which may be</td>
+</tr>
+<tr>
+<td><a href="cp.lazy/">cp.lazy</a></td>
+<td><code v-pre>cp.lazy</code> is a <a href="https://github.com/kikito/middleclass">middleclass</a> &quot;mix-in&quot; that allows for</td>
+</tr>
+<tr>
+<td><a href="cp.localized/">cp.localized</a></td>
+<td>Helps look up localized names for folders.</td>
+</tr>
+<tr>
+<td><a href="cp.nib/">cp.nib</a></td>
+<td>Provides support for NIB files.</td>
+</tr>
+<tr>
+<td><a href="cp.nib.archiver/">cp.nib.archiver</a></td>
+<td>Provides support for loading NIB files stored in the <code v-pre>NIBArchive</code> format.</td>
+</tr>
+<tr>
+<td><a href="cp.nib.type.nsstring/">cp.nib.type.NSString</a></td>
+<td>A metatype for unarchived <code v-pre>NSString</code> objects.</td>
+</tr>
+<tr>
+<td><a href="cp.nib.types/">cp.nib.types</a></td>
+<td>A registry of supported object types for unarchived values.</td>
+</tr>
+<tr>
+<td><a href="cp.pattern/">cp.pattern</a></td>
+<td>Contains pattern matching utility functions.</td>
+</tr>
+<tr>
+<td><a href="cp.plist/">cp.plist</a></td>
+<td>Reads &amp; Writes plist data.</td>
+</tr>
+<tr>
+<td><a href="cp.plist.archiver/">cp.plist.archiver</a></td>
+<td>Supports &#x27;defrosting&#x27; a table which is made up from an &#x27;NSKeyArchiver&#x27; record.</td>
+</tr>
+<tr>
+<td><a href="cp.plist.plistparser/">cp.plist.plistParser</a></td>
+<td>plistParser (<a href="https://codea.io/talk/discussion/1269/code-plist-parser">https://codea.io/talk/discussion/1269/code-plist-parser</a>)</td>
+</tr>
+<tr>
+<td><a href="cp.plugins/">cp.plugins</a></td>
+<td>This is a simple plugin manager.</td>
+</tr>
+<tr>
+<td><a href="cp.plugins.env/">cp.plugins.env</a></td>
+<td>Provides access to resources in the plugin environment. In generally, this will be files stored in a Complex Plugin&#x27;s folder.</td>
+</tr>
+<tr>
+<td><a href="cp.plugins.plugin/">cp.plugins.plugin</a></td>
+<td>CommandPost Plugin.</td>
+</tr>
+<tr>
+<td><a href="cp.prop/">cp.prop</a></td>
+<td>This is a utility library for helping keep track of single-value property states. Each property provides access to a single value. Must be readable, but may be read-only. It works by creating a table which has a <code v-pre>get</code> and (optionally) a <code v-pre>set</code> function which are called when changing the state.</td>
+</tr>
+<tr>
+<td><a href="cp.protect/">cp.protect</a></td>
+<td>Utility function for protecting a table from being modified.</td>
+</tr>
+<tr>
+<td><a href="cp.result/">cp.result</a></td>
+<td>Represents the result of an operation which may end in <code v-pre>success</code> or <code v-pre>failure</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx/">cp.rx</a></td>
+<td>Reactive Extensions for Lua.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.asyncsubject/">cp.rx.AsyncSubject</a></td>
+<td><code v-pre>AsyncSubjects</code> are subjects that produce either no values or a single value.  If</td>
+</tr>
+<tr>
+<td><a href="cp.rx.behaviorsubject/">cp.rx.BehaviorSubject</a></td>
+<td>A <a href="cp.rx.subject/">Subject</a> that tracks its current value. Provides an accessor to retrieve the most</td>
+</tr>
+<tr>
+<td><a href="cp.rx.cooperativescheduler/">cp.rx.CooperativeScheduler</a></td>
+<td>Manages <a href="cp.rx.observer/">Observables</a> using <code v-pre>coroutines</code> and a virtual clock that must be updated</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go/">cp.rx.go</a></td>
+<td>Defines <a href="cp.rx.go.statement/">Statements</a> to make processing of</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.do/">cp.rx.go.Do</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> that will execute the provided <code v-pre>resolvable</code> values.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.do.then/">cp.rx.go.Do.Then</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> of <a href="cp.rx.go.do/">Do</a></td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.done/">cp.rx.go.Done</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> that will complete without sending any values.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.first/">cp.rx.go.First</a></td>
+<td><em>Extends:</em> <a href="cp.rx.go.statement/">Statement</a></td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.given/">cp.rx.go.Given</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> that will execute the provided <code v-pre>resolvable</code> values.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.given.then/">cp.rx.go.Given.Then</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> of <a href="cp.rx.go.given/">Given</a></td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if/">cp.rx.go.If</a></td>
+<td>A <code v-pre>Statement</code> that will check if a <code v-pre>resolvable</code> matches a predicate, then executes other <code v-pre>resolvables</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.are/">cp.rx.go.If.Are</a></td>
+<td>A [Statement.Modifier] of <a href="cp.rx.go.if/">If</a> that sets the values to match.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.arenot/">cp.rx.go.If.AreNot</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> for <a href="cp.rx.go.if/">If</a> that sets the values to <em>not</em> match.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.is/">cp.rx.go.If.Is</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> for <a href="cp.rx.go.if/">If</a> that sets a specific value to match.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.isnot/">cp.rx.go.If.IsNot</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> for <a href="cp.rx.go.if/">If</a> that sets a specific value to <em>not</em> match.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.matches/">cp.rx.go.If.Matches</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> for <a href="cp.rx.go.if/">If</a> that sets a predicate check values against.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.then/">cp.rx.go.If.Then</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that defines what happens when an <code v-pre>If</code> matches.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.then.otherwise/">cp.rx.go.If.Then.Otherwise</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> of <a href="cp.rx.go.if/">If</a>, which should be created via <code v-pre>If:Then(...):Otherwise(...)</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.if.then.otherwise.then/">cp.rx.go.If.Then.Otherwise.Then</a></td>
+<td>Each <a href="cp.rx.go.if.then.otherwise/">Otherwise</a> can have a subsequent <code v-pre>Then</code> which will be executed after the previous one resolves.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.last/">cp.rx.go.Last</a></td>
+<td>A <code v-pre>Statement</code> that will complete after the only the last result resolves.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.list/">cp.rx.go.List</a></td>
+<td><em>Extends:</em> <a href="cp.rx.go.statement/">Statement</a></td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.list.sorted/">cp.rx.go.List.Sorted</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that specifies the list should be sorted by its &#x27;natural&#x27; order - that is <code v-pre>a &lt; b</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.list.sortedby/">cp.rx.go.List.SortedBy</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that specifies the list should be sorted by the specified <code v-pre>function</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require/">cp.rx.go.Require</a></td>
+<td>A <code v-pre>Statement</code> that will require that the <code v-pre>resolvable</code> value matches a predicate,</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require.are/">cp.rx.go.Require.Are</a></td>
+<td>Specifies that the <code v-pre>Require</code>d values <code v-pre>Are</code> a specific value.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require.arenot/">cp.rx.go.Require.AreNot</a></td>
+<td>Specifies that the <code v-pre>Require</code>d values <code v-pre>AreNot</code> a specific value.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require.is/">cp.rx.go.Require.Is</a></td>
+<td>Specifies that the <code v-pre>Require</code>d value <code v-pre>Is</code> a specific value.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require.isnot/">cp.rx.go.Require.IsNot</a></td>
+<td>Specifies that the <code v-pre>Require</code>d value <code v-pre>IsNot</code> a specific value.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.require.matches/">cp.rx.go.Require.Matches</a></td>
+<td>Specifies that the <code v-pre>Require</code>d value <code v-pre>Matches</code> a function predicate.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.retry/">cp.rx.go.Retry</a></td>
+<td><em>Extends:</em> <a href="cp.rx.go.statement/">Statement</a></td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.setprop/">cp.rx.go.SetProp</a></td>
+<td>A <code v-pre>Statement</code> that will update a <code v-pre>cp.prop</code> value, then optionally execute other <code v-pre>resolvables</code>, and optionally reset the <code v-pre>cp.prop</code> to its previous value.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.setprop.to/">cp.rx.go.SetProp.To</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that defines what value to set a <code v-pre>cp.prop</code> to.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.setprop.to.then/">cp.rx.go.SetProp.To.Then</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that defines what happens when after <code v-pre>SetProp.To</code> is executed.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.setprop.to.then.thenreset/">cp.rx.go.SetProp.To.Then.ThenReset</a></td>
+<td>A <code v-pre>Statement.Modifier</code> that specifies that the <code v-pre>cp.prop</code> is reset to its original value once execution completes.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.statement/">cp.rx.go.Statement</a></td>
+<td>A <code v-pre>Statement</code> is defined to enable processing of asynchronous <code v-pre>resolvable</code> values such</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.statement.definition/">cp.rx.go.Statement.Definition</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> is defined before being executable.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.statement.modifier/">cp.rx.go.Statement.Modifier</a></td>
+<td>A <code v-pre>Statement.Modifier</code> is an extension to a <a href="cp.rx.go.statement/">Statement</a> that provides additional configuration details.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.statement.modifier.definition/">cp.rx.go.Statement.Modifier.Definition</a></td>
+<td>A <a href="cp.rx.go.statement.modifier/">Statement.Modifier</a> is defined before being executable.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.throw/">cp.rx.go.Throw</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> that will throw the provided message.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.go.waituntil/">cp.rx.go.WaitUntil</a></td>
+<td>A <a href="cp.rx.go.statement/">Statement</a> that will wait for the first value from a <code v-pre>resolveable</code> that matches the predicate.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.immediatescheduler/">cp.rx.ImmediateScheduler</a></td>
+<td>Schedules <code v-pre>Observables</code> by running all operations immediately.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.observable/">cp.rx.Observable</a></td>
+<td>Observables push values to <a href="cp.rx.observer/">Observers</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.observer/">cp.rx.Observer</a></td>
+<td>Observers are simple objects that receive values from <a href="cp.rx.observable/">Observables</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.rx.reference/">cp.rx.Reference</a></td>
+<td>A handle representing the link between an <a href="cp.rx.observer/">Observer</a> and an <a href="cp.rx.observable/">Observable</a>, as well as any</td>
+</tr>
+<tr>
+<td><a href="cp.rx.relaysubject/">cp.rx.RelaySubject</a></td>
+<td>A <a href="cp.rx.subject/">Subject</a> that provides new <a href="cp.rx.observer/">Observers</a> with some or all of the most recently</td>
+</tr>
+<tr>
+<td><a href="cp.rx.subject/">cp.rx.Subject</a></td>
+<td><code v-pre>Subjects</code> function both as an <a href="cp.rs.observer.md">Observer</a> and as an <a href="cp.rx.observable/">Observable</a>. Subjects inherit all</td>
+</tr>
+<tr>
+<td><a href="cp.rx.timeoutscheduler/">cp.rx.TimeoutScheduler</a></td>
+<td>A scheduler that uses the <code v-pre>hs.timer</code> library to schedule events on an event loop.</td>
+</tr>
+<tr>
+<td><a href="cp.sourcewatcher/">cp.sourcewatcher</a></td>
+<td>Watches folders for specific file extensions and reloads the app if they change.</td>
+</tr>
+<tr>
+<td><a href="cp.spec/">cp.spec</a></td>
+<td>An synchronous/asynchronous test library for Lua.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.defaulthandler/">cp.spec.DefaultHandler</a></td>
+<td>Default implementation of <a href="cp.spec.handler/">Handler</a>, which</td>
+</tr>
+<tr>
+<td><a href="cp.spec.definition/">cp.spec.Definition</a></td>
+<td>A <a href="cp.spec.definition/">Definition</a> is a superclass for a &quot;runnable&quot; specification.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.error/">cp.spec.Error</a></td>
+<td>Provides an Error message, which can be thrown via the <code v-pre>error</code> function.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.expect/">cp.spec.expect</a></td>
+<td>Provides a way of checking values match expected results. At it&#x27;s core, it uses <code v-pre>assert</code> to make the check.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.handled/">cp.spec.Handled</a></td>
+<td>An synchronous/asynchronous test library for Lua.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.handler/">cp.spec.Handler</a></td>
+<td>Subclasses of this can customise how reports are handled.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.message/">cp.spec.Message</a></td>
+<td>Provides an Message message, which can be thrown via the <code v-pre>error</code> function.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.report/">cp.spec.Report</a></td>
+<td>The results of a test <a href="cp.spec.run/">run</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.run/">cp.spec.Run</a></td>
+<td>An individual run of a test <a href="cp.spec.definition/">Definition</a> or <a href="cp.spec.specification/">Specification</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.run.this/">cp.spec.Run.This</a></td>
+<td>A token passed to test functions to allow them to indicate if a test <a href="cp.spec.run/">run</a></td>
+</tr>
+<tr>
+<td><a href="cp.spec.scenario/">cp.spec.Scenario</a></td>
+<td>A <a href="cp.spec.definition/">Definition</a> which describes a specific scenario.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.specification/">cp.spec.Specification</a></td>
+<td>A Specification is a list of <a href="cp.spec.definition/">definitions</a> which</td>
+</tr>
+<tr>
+<td><a href="cp.spec.testcase/">cp.spec.TestCase</a></td>
+<td>Wraps <a href="cp.test/">cp.test</a> into a subclass of <a href="cp.spec.scenario/">Scenario</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.testsuite/">cp.spec.TestSuite</a></td>
+<td>Test Suite.</td>
+</tr>
+<tr>
+<td><a href="cp.spec.where/">cp.spec.Where</a></td>
+<td>Created via <a href="cp.spec.scenario/#where">Scenario:where(...)</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.strings/">cp.strings</a></td>
+<td>Provides strings from (potentially) multiple sources, with support for loading from multiple languages.</td>
+</tr>
+<tr>
+<td><a href="cp.strings.source.plist/">cp.strings.source.plist</a></td>
+<td>Loads strings from a <code v-pre>plist</code> with allowing for a given language variation. Eg:</td>
+</tr>
+<tr>
+<td><a href="cp.strings.source.table/">cp.strings.source.table</a></td>
+<td>Loads strings from provided tables, allowing for a given language variation. Eg:</td>
+</tr>
+<tr>
+<td><a href="cp.test/">cp.test</a></td>
+<td>CommandPost Test Scripts.</td>
+</tr>
+<tr>
+<td><a href="cp.text/">cp.text</a></td>
+<td>This module provides support for loading, manipulating, and comparing unicode text data.</td>
+</tr>
+<tr>
+<td><a href="cp.text.matcher/">cp.text.matcher</a></td>
+<td>Adapted from &#x27;utf8.lua&#x27; (<a href="https://github.com/Stepets/utf8.lua">https://github.com/Stepets/utf8.lua</a>)</td>
+</tr>
+<tr>
+<td><a href="cp.time.flicks/">cp.time.flicks</a></td>
+<td>Provides support for measuring time in <code v-pre>flicks</code>, a base unit of time useful for</td>
+</tr>
+<tr>
+<td><a href="cp.tools/">cp.tools</a></td>
+<td>A collection of handy miscellaneous tools for Lua development.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.alert/">cp.ui.Alert</a></td>
+<td>Alert UI Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.axutils/">cp.ui.axutils</a></td>
+<td>Utility functions to support <code v-pre>hs.axuielement</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.axutils.compare/">cp.ui.axutils.compare</a></td>
+<td>Contains functions for comparing <code v-pre>axuielement</code>s.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.axutils.match/">cp.ui.axutils.match</a></td>
+<td>Contains common <code v-pre>hs.axuielement</code> matching functions.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.builder/">cp.ui.Builder</a></td>
+<td>A utility class, which provides support for allowing creation of <a href="cp.ui.element/">Element</a> instances in a &quot;builder&quot; style.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.button/">cp.ui.Button</a></td>
+<td>The <code v-pre>Button</code> type extends <a href="cp.ui.element/">Element</a> and includes all its</td>
+</tr>
+<tr>
+<td><a href="cp.ui.cell/">cp.ui.Cell</a></td>
+<td>Represents an <code v-pre>AXCell</code> <code v-pre>axuielement</code>. This can be used directly, or can be subclassed to provide more specific access to the cell contents.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.checkbox/">cp.ui.CheckBox</a></td>
+<td>Check Box UI Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.colorwell/">cp.ui.ColorWell</a></td>
+<td>UI ColorWell.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.column/">cp.ui.Column</a></td>
+<td>Represents a Column in a Table.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.combobox/">cp.ui.ComboBox</a></td>
+<td>Combo Box Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.dialog/">cp.ui.Dialog</a></td>
+<td>Represents a <a href="cp.ui.window/">Window</a> which has a <code v-pre>AXSubrole</code> of <code v-pre>AXDialog</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.disclosuretriangle/">cp.ui.DisclosureTriangle</a></td>
+<td>Disclosure Triangle UI Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.element/">cp.ui.Element</a></td>
+<td>A support class for <code v-pre>hs.axuielement</code> management.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.elementcache/">cp.ui.ElementCache</a></td>
+<td>Provides caching for <a href="cp.ui.element/">Element</a> subclasses that want to cache children.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.gridelement/">cp.ui.GridElement</a></td>
+<td>Abstract base class for <code v-pre>AX</code> elements which form a grid, such as <a href="cp.ui.gridelement/">GridElement</a> and <a href="cp.ui.outline/">Outline</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.gridelement.builder/">cp.ui.GridElement.Builder</a></td>
+<td>A <code v-pre>Builder</code> for <code v-pre>GridElement</code>s.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.gridelement.ofrows/">cp.ui.GridElement.OfRows</a></td>
+<td>Processes the contents of the GridElement as a list of rows.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.group/">cp.ui.Group</a></td>
+<td>UI Group.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.group.builder/">cp.ui.Group.Builder</a></td>
+<td>Defines a <code v-pre>Group</code> builder.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.image/">cp.ui.Image</a></td>
+<td>Represents an <code v-pre>AXImage</code> <code v-pre>axuielement</code> value.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.list/">cp.ui.List</a></td>
+<td>Represents an <code v-pre>AXList</code> <code v-pre>axuielement</code> value.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.menu/">cp.ui.Menu</a></td>
+<td>UI for AXMenus.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.menubutton/">cp.ui.MenuButton</a></td>
+<td>Menu Button Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.notifier/">cp.ui.notifier</a></td>
+<td>Supports long-lived &#x27;AX&#x27; notifiers. Configure the application to watch, the</td>
+</tr>
+<tr>
+<td><a href="cp.ui.oldoutline/">cp.ui.OldOutline</a></td>
+<td>Represents an <code v-pre>AXOutline</code> <code v-pre>axuielement</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.oldrow/">cp.ui.OldRow</a></td>
+<td>Represents an <code v-pre>AXRow</code> <code v-pre>axuielement</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.oldtable/">cp.ui.OldTable</a></td>
+<td>Represents an AXTable in the Apple Accessibility UX API.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.outline/">cp.ui.Outline</a></td>
+<td>A Outline UI element. It extends <a href="cp.ui.gridelement/">GridElement</a>, so will inherit all of its properties and methods.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.popover/">cp.ui.Popover</a></td>
+<td>UI Group.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.popupbutton/">cp.ui.PopUpButton</a></td>
+<td>Pop Up Button Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.propertyrow/">cp.ui.PropertyRow</a></td>
+<td>Represents a single property row, typically in a Property Inspector.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.radiobutton/">cp.ui.RadioButton</a></td>
+<td>Radio Button Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.radiogroup/">cp.ui.RadioGroup</a></td>
+<td>Represents an <code v-pre>AXRadioGroup</code>, providing utility methods.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.row/">cp.ui.Row</a></td>
+<td>Represents an <code v-pre>AXRow</code> <code v-pre>axuielement</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.row.builder/">cp.ui.Row.Builder</a></td>
+<td>Defines a <code v-pre>Row</code> builder.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.scrollarea/">cp.ui.ScrollArea</a></td>
+<td>A <code v-pre>ScrollArea</code> represents an <code v-pre>AXScrollArea</code>. They primarily function as a &quot;portal&quot;</td>
+</tr>
+<tr>
+<td><a href="cp.ui.scrollarea.builder/">cp.ui.ScrollArea.Builder</a></td>
+<td><a href="cp.ui.builder/">Builder</a> class for <a href="cp.ui.ScrollArea.lua">ScrollArea</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.scrollbar/">cp.ui.ScrollBar</a></td>
+<td>Provides access to <code v-pre>AXScrollBar</code> <code v-pre>axuielement</code> values.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.searchfield/">cp.ui.SearchField</a></td>
+<td>A <a href="cp.ui.textfield/">TextField</a> with a subrole of <code v-pre>AXSearchField</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.sheet/">cp.ui.Sheet</a></td>
+<td>Sheet UI Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.slider/">cp.ui.Slider</a></td>
+<td>Slider Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.splitgroup/">cp.ui.SplitGroup</a></td>
+<td>Split Group UI. A SplitGroup is a container that can be split into multiple sections.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.splitter/">cp.ui.Splitter</a></td>
+<td>Represents an <code v-pre>AXSplitter</code>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.statictext/">cp.ui.StaticText</a></td>
+<td>Static Text Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.table/">cp.ui.Table</a></td>
+<td>A Table UI element. It extends <a href="cp.ui.gridelement/">GridElement</a>, so will inherit all of its properties and methods.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.textarea/">cp.ui.TextArea</a></td>
+<td>UI Text Area.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.textfield/">cp.ui.TextField</a></td>
+<td>Text Field Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.textfield.builder/">cp.ui.TextField.Builder</a></td>
+<td>Defines a <code v-pre>TextField</code> <a href="cp.ui.builder/">Builder</a>.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.toolbar/">cp.ui.Toolbar</a></td>
+<td>Toolbar Module.</td>
+</tr>
+<tr>
+<td><a href="cp.ui.window/">cp.ui.Window</a></td>
+<td>A Window UI element.</td>
+</tr>
+<tr>
+<td><a href="cp.utf16/">cp.utf16</a></td>
+<td>A pure-LUA implementation of UTF-16 decoding</td>
+</tr>
+<tr>
+<td><a href="cp.utf16.be/">cp.utf16.be</a></td>
+<td>A pure-LUA implementation of UTF-16 decoding with big-endian ordering.</td>
+</tr>
+<tr>
+<td><a href="cp.utf16.le/">cp.utf16.le</a></td>
+<td>A pure-LUA implementation of UTF-16 decoding with little-endian ordering.</td>
+</tr>
+<tr>
+<td><a href="cp.watcher/">cp.watcher</a></td>
+<td>This extension provides support for setting up &#x27;event watchers&#x27;.</td>
+</tr>
+<tr>
+<td><a href="cp.web.block/">cp.web.block</a></td>
+<td>Block.</td>
+</tr>
+<tr>
+<td><a href="cp.web.generate/">cp.web.generate</a></td>
+<td>Functions for Generating HTML UI Items</td>
+</tr>
+<tr>
+<td><a href="cp.web.html/">cp.web.html</a></td>
+<td>Functions for Generating HTML markup.</td>
+</tr>
+<tr>
+<td><a href="cp.web.text/">cp.web.text</a></td>
+<td>Functions for managing text on the web.</td>
+</tr>
+<tr>
+<td><a href="cp.web.ui/">cp.web.ui</a></td>
+<td>This extension contains functions which simplify the creation of standard UI events</td>
+</tr>
+<tr>
+<td><a href="cp.web.xml/">cp.web.xml</a></td>
+<td>Functions for Generating XML markup.</td>
+</tr>
+<tr>
+<td><a href="cp.websocket.event/">cp.websocket.event</a></td>
+<td>The set of event types received from websocket connections.</td>
+</tr>
+<tr>
+<td><a href="cp.websocket.frame/">cp.websocket.frame</a></td>
+<td>Implementation of <a href="https://tools.ietf.org/html/rfc6455">RFC-6455</a>, Section 5</td>
+</tr>
+<tr>
+<td><a href="cp.websocket.http/">cp.websocket.http</a></td>
+<td>Provides a full HTTP-based websocket implementation.</td>
+</tr>
+<tr>
+<td><a href="cp.websocket.serial/">cp.websocket.serial</a></td>
+<td>A partial implementation of the websocket API communicating</td>
+</tr>
+<tr>
+<td><a href="cp.websocket.status/">cp.websocket.status</a></td>
+<td>A <code v-pre>table</code> of statuses used by both <code v-pre>cp.websocket.serial</code> and <code v-pre>cp.websocket.http</code> to describe the connection status.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../developer/translation/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Translation</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../api-references/commandpost/cp/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">cp</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "CommandPost", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

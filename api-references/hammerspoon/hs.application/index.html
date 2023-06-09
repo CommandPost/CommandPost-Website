@@ -1,0 +1,2022 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739594806642">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>hs.application</title>
+    <meta name="title" content="hs.application">
+    <meta name="description" content="Manipulate running applications" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-references/hammerspoon/hs.application/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-references/hammerspoon/hs.application/">
+    <meta property="og:title" content="hs.application">
+    <meta property="og:description" content="Manipulate running applications">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-references/hammerspoon/hs.application/">
+    <meta property="twitter:title" content="hs.application">
+    <meta property="twitter:description" content="Manipulate running applications">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.0.3.739594806642" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="hsapplication" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hsapplication">#</doc-anchor-trigger>
+        <span>hs.application</span>
+    </h1>
+</doc-anchor-target>
+<p>Manipulate running applications</p>
+<doc-anchor-target id="submodules">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#submodules">#</doc-anchor-trigger>
+        <span>Submodules</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="../hs.application.watcher/">hs.application.watcher</a></li>
+</ul>
+<doc-anchor-target id="api-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
+        <span>API Overview</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Variables - Configurable values</li>
+<li><doc-anchor-trigger to="#menuGlyphs">menuGlyphs</doc-anchor-trigger></li>
+<li>Functions - API calls offered directly by the extension</li>
+<li><doc-anchor-trigger to="#applicationForPID">applicationForPID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#applicationsForBundleID">applicationsForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#defaultAppForUTI">defaultAppForUTI</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#enableSpotlightForNameSearches">enableSpotlightForNameSearches</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#frontmostApplication">frontmostApplication</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#infoForBundleID">infoForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#infoForBundlePath">infoForBundlePath</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#launchOrFocus">launchOrFocus</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#launchOrFocusByBundleID">launchOrFocusByBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#localizationsForBundleID">localizationsForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#localizationsForBundlePath">localizationsForBundlePath</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#nameForBundleID">nameForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#pathForBundleID">pathForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#preferredLocalizationsForBundleID">preferredLocalizationsForBundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#preferredLocalizationsForBundlePath">preferredLocalizationsForBundlePath</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#runningApplications">runningApplications</doc-anchor-trigger></li>
+<li>Constructors - API calls which return an object, typically one that offers API methods</li>
+<li><doc-anchor-trigger to="#find">find</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#get">get</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#open">open</doc-anchor-trigger></li>
+<li>Methods - API calls which can only be made on an object returned by a constructor</li>
+<li><doc-anchor-trigger to="#activate">activate</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#allWindows">allWindows</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#bundleID">bundleID</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#findMenuItem">findMenuItem</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#findWindow">findWindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#focusedWindow">focusedWindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getMenuItems">getMenuItems</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getWindow">getWindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#hide">hide</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isFrontmost">isFrontmost</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isHidden">isHidden</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isRunning">isRunning</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#kill">kill</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#kill9">kill9</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#kind">kind</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#mainWindow">mainWindow</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#name">name</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#path">path</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#pid">pid</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#selectMenuItem">selectMenuItem</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setFrontmost">setFrontmost</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#title">title</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#unhide">unhide</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#visibleWindows">visibleWindows</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="variables">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
+        <span>Variables</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#menuGlyphs">menuGlyphs</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.menuGlyphs</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Variable</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table containing UTF8 representations of the defined key glyphs used in Menus for keyboard shortcuts which are presented pictorially rather than as text (arrow keys, return key, etc.)</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>a <code v-pre>__tostring</code> metamethod is provided for this table so you can view its current contents by typing <code v-pre>hs.application.menuGlyphs</code> into the Hammerspoon console.</li><li>This table is provided as a variable so that you can change any representation if you feel you know of a better or more appropriate one for you usage at runtime.</li><li></li><li>The glyphs provided are defined in the Carbon framework headers in the Menus.h file, located (as of 10.11) at /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/Menus.h.</li><li>The following constants are defined in Menus.h, but do not seem to correspond to a visible UTF8 character or well defined representation that I could discover.  If you believe that you know of a (preferably sanctioned by Apple) proper visual representation, please submit an issue detailing it at the Hammerspoon repository on GitHub.</li><li>  kMenuNullGlyph, 0x00, Null (always glyph 1)</li><li>  kMenuNonmarkingReturnGlyph, 0x0D, Nonmarking return key</li><li>  kMenuParagraphKoreanGlyph, 0x15, Unassigned (paragraph in Korean)</li><li>  kMenuTrademarkJapaneseGlyph, 0x1F, Unassigned (trademark in Japanese)</li><li>  kMenuAppleLogoOutlineGlyph, 0x6C, Apple logo key (outline)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="functions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
+        <span>Functions</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#applicationForPID">applicationForPID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.applicationForPID(pid) -&gt; hs.application object or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the running app for the given pid, if it exists.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>pid - a UNIX process id (i.e. a number)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An hs.application object if one can be found, otherwise nil</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#applicationsForBundleID">applicationsForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.applicationsForBundleID(bundleID) -&gt; list of hs.application objects</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns any running apps that have the given bundleID.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - An OSX application bundle identifier</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table of zero or more hs.application objects that match the given identifier</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#defaultAppForUTI">defaultAppForUTI</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.defaultAppForUTI(uti) -&gt; string or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the bundle ID of the default application for a given UTI</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>uti - A string containing a UTI</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing a bundle ID, or nil if none could be found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#enableSpotlightForNameSearches">enableSpotlightForNameSearches</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.enableSpotlightForNameSearches([state]) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get or set whether Spotlight should be used to find alternate names for applications.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>state</code> - an optional boolean specifying whether or not Spotlight should be used to try and determine alternate application names for <code v-pre>hs.application.find</code> and similar functions.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the current, possibly changed, state</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This setting is persistent across reloading and restarting Hammerspoon.</li><li>If this was set to true and you set it to true again, it will purge the alternate name map and rebuild it from scratch.</li><li>You can disable Spotlight alternate name mapping by setting this value to false or nil. If you set this to false, then the notifications indicating that more results might be possible if Spotlight is enabled will be suppressed.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#frontmostApplication">frontmostApplication</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.frontmostApplication() -&gt; hs.application object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the application object for the frontmost (active) application.  This is the application which currently receives input events.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An hs.application object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#infoForBundleID">infoForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.infoForBundleID(bundleID) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the metadata of an application from its bundle identifier</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing an application bundle identifier (e.g. &quot;com.apple.Safari&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing information about the application, or nil if the bundle identifier could not be located</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#infoForBundlePath">infoForBundlePath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.infoForBundlePath(bundlePath) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the metadata of an application from its path on disk</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundlePath - A string containing the path to an application bundle (e.g. &quot;/Applications/Safari.app&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing information about the application, or nil if the bundle could not be located</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#launchOrFocus">launchOrFocus</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.launchOrFocus(name) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Launches the app with the given name, or activates it if it&#x27;s already running</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>name - A string containing the name of the application to either launch or focus. This can also be the full path to an application (including the <code v-pre>.app</code> suffix) if you need to uniquely distinguish between applications in different locations that share the same name</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the application was either launched or focused, otherwise false (e.g. if the application doesn&#x27;t exist)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>The name parameter should match the name of the application on disk, e.g. &quot;IntelliJ IDEA&quot;, rather than &quot;IntelliJ&quot;</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#launchOrFocusByBundleID">launchOrFocusByBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.launchOrFocusByBundleID(bundleID) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Launches the app with the given bundle ID, or activates it if it&#x27;s already running</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing the bundle ID of the application to either launch or focus.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the application was either launched or focused, otherwise false (e.g. if the application doesn&#x27;t exist)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Bundle identifiers typically take the form of <code v-pre>com.company.ApplicationName</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#localizationsForBundleID">localizationsForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.localizationsForBundleID(bundleID) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets a list of all the localizations contained in the bundle.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing an application bundle identifier (e.g. &quot;com.apple.Safari&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing language IDs for all the localizations contained in the bundle.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#localizationsForBundlePath">localizationsForBundlePath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.localizationsForBundlePath(bundlePath) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets a list of all the localizations contained in the bundle.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundlePath - A string containing the path to an application bundle (e.g. &quot;/Applications/Safari.app&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing language IDs for all the localizations contained in the bundle.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#nameForBundleID">nameForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.nameForBundleID(bundleID) -&gt; string or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the name of an application from its bundle identifier</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing an application bundle identifier (e.g. &quot;com.apple.Safari&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the application name, or nil if the bundle identifier could not be located</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#pathForBundleID">pathForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.pathForBundleID(bundleID) -&gt; string or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the filesystem path of an application from its bundle identifier</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing an application bundle identifier (e.g. &quot;com.apple.Safari&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the app bundle&#x27;s filesystem path, or nil if the bundle identifier could not be located</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#preferredLocalizationsForBundleID">preferredLocalizationsForBundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.preferredLocalizationsForBundleID(bundleID) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets an ordered list of preferred localizations contained in a bundle</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundleID - A string containing an application bundle identifier (e.g. &quot;com.apple.Safari&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing language IDs for localizations in the bundle. The strings are ordered according to the user&#x27;s language preferences and available localizations.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#preferredLocalizationsForBundlePath">preferredLocalizationsForBundlePath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.preferredLocalizationsForBundlePath(bundlePath) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets an ordered list of preferred localizations contained in a bundle</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>bundlePath - A string containing the path to an application bundle (e.g. &quot;/Applications/Safari.app&quot;)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing language IDs for localizations in the bundle. The strings are ordered according to the user&#x27;s language preferences and available localizations.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#runningApplications">runningApplications</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.runningApplications() -&gt; list of hs.application objects</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns all running apps.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing zero or more hs.application objects currently running on the system</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="constructors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
+        <span>Constructors</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#find">find</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.find(hint, exact, stringLiteral) -&gt; hs.application object(s)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Finds running applications</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>hint - search criterion for the desired application(s); it can be: - a pid number as per <code v-pre>hs.application:pid()</code> - a bundle ID string as per <code v-pre>hs.application:bundleID()</code> - a string pattern that matches (via <code v-pre>string.find</code>) the application name as per <code v-pre>hs.application:name()</code> (for convenience, the matching will be done on lowercased strings) - a string pattern that matches (via <code v-pre>string.find</code>) the application&#x27;s window title per <code v-pre>hs.window:title()</code> (for convenience, the matching will be done on lowercased strings)</li><li>exact - a boolean, true to check application names for exact matches, false to use Lua&#x27;s string:find() method. Defaults to false</li><li>stringLiteral - a boolean, true to interpret the hint string literally, false to interpret it as a Lua Pattern. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>one or more hs.application objects for running applications that match the supplied search criterion, or <code v-pre>nil</code> if none found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If multiple results are found, this function will return multiple values. See <a href="https://www.lua.org/pil/5.1.html">https://www.lua.org/pil/5.1.html</a> for more information on how to work with this</li><li>for convenience you can call this as <code v-pre>hs.application(hint)</code></li><li>use this function when you don&#x27;t know the exact name of an application you&#x27;re interested in, i.e.</li><li>   from the console: <code v-pre>hs.application'term' --&gt; hs.application: iTerm2 (0x61000025fb88)  hs.application: Terminal (0x618000447588)</code>.</li><li>   But be careful when using it in your <code v-pre>init.lua</code>: <code v-pre>terminal=hs.application'term'</code> will assign either &quot;Terminal&quot; or &quot;iTerm2&quot; arbitrarily (or even,</li><li>   if neither are running, any other app with a window that happens to have &quot;term&quot; in its title); to make sure you get the right app in your scripts,</li><li>   use <code v-pre>hs.application.get</code> with the exact name: <code v-pre>terminal=hs.application.get'Terminal' --&gt; &quot;Terminal&quot; app, or nil if it's not running</code></li><li></li><li>Usage:</li><li>-- by pid</li><li>hs.application(42):name() --&gt; Finder</li><li>-- by bundle id</li><li>hs.application&#x27;com.apple.Safari&#x27;:name() --&gt; Safari</li><li>-- by name</li><li>hs.application&#x27;chrome&#x27;:name() --&gt; Google Chrome</li><li>-- by window title</li><li>hs.application&#x27;bash&#x27;:name() --&gt; Terminal</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#get">get</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.get(hint) -&gt; hs.application object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets a running application</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>hint - search criterion for the desired application; it can be: - a pid number as per <code v-pre>hs.application:pid()</code> - a bundle ID string as per <code v-pre>hs.application:bundleID()</code> - an application name string as per <code v-pre>hs.application:name()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an hs.application object for a running application that matches the supplied search criterion, or <code v-pre>nil</code> if not found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>see also <code v-pre>hs.application.find</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#open">open</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application.open(app[, wait, [waitForFirstWindow]]) -&gt; hs.application object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Launches an application, or activates it if it&#x27;s already running</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>app - a string describing the application to open; it can be: - the application&#x27;s name as per <code v-pre>hs.application:name()</code> - the full path to an application on disk (including the <code v-pre>.app</code> suffix) - the application&#x27;s bundle ID as per <code v-pre>hs.application:bundleID()</code></li><li>wait - (optional) the maximum number of seconds to wait for the app to be launched, if not already running; if omitted, defaults to 0; if the app takes longer than this to launch, this function will return <code v-pre>nil</code>, but the app will still launch</li><li>waitForFirstWindow - (optional) if <code v-pre>true</code>, additionally wait until the app has spawned its first window (which usually takes a bit longer)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the <code v-pre>hs.application</code> object for the launched or activated application; <code v-pre>nil</code> if not found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>the <code v-pre>wait</code> parameter will <em>block all Hammerspoon activity</em> in order to return the application object &quot;synchronously&quot;; only use it if you</li><li>   a) have no time-critical event processing happening elsewhere in your <code v-pre>init.lua</code> and b) need to act on the application object, or on</li><li>   its window(s), right away</li><li>when launching a &quot;windowless&quot; app (background daemon, menulet, etc.) make sure to omit <code v-pre>waitForFirstWindow</code></li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="methods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
+        <span>Methods</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#activate">activate</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:activate([allWindows]) -&gt; bool</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Tries to activate the app (make its key window focused) and returns whether it succeeded; if allWindows is true, all windows of the application are brought forward as well.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>allWindows - If true, all windows of the application will be brought to the front. Otherwise, only the application&#x27;s key window will. Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean value indicating whether or not the application could be activated</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#allWindows">allWindows</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:allWindows() -&gt; list of hs.window objects</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns all open windows owned by the given app.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table of zero or more hs.window objects owned by the application</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This function can only return windows in the current Mission Control Space; if you need to address windows across</li><li>   different Spaces you can use the <code v-pre>hs.window.filter</code> module</li><li>   - if <code v-pre>Displays have separate Spaces</code> is <em>on</em> (in System Preferences&gt;Mission Control) the current Space is defined</li><li>     as the union of all currently visible Spaces</li><li>   - minimized windows and hidden windows (i.e. belonging to hidden apps, e.g. via cmd-h) are always considered</li><li>     to be in the current Space</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#bundleID">bundleID</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:bundleID() -&gt; string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the bundle identifier of the app.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the bundle identifier of the application</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#findMenuItem">findMenuItem</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:findMenuItem(menuItem[, isRegex]) -&gt; table or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Searches the application for a menu item</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>menuItem - This can either be a string containing the text of a menu item (e.g. <code v-pre>&quot;Messages&quot;</code>) or a table representing the hierarchical path of a menu item (e.g. <code v-pre>{&quot;File&quot;, &quot;Share&quot;, &quot;Messages&quot;}</code>). In the string case, all of the application&#x27;s menus will be searched until a match is found (with no specified behaviour if multiple menu items exist with the same name). In the table case, the whole menu structure will not be searched, because a precise path has been specified.</li><li>isRegex - An optional boolean, defaulting to false, which is only used if <code v-pre>menuItem</code> is a string. If set to true, <code v-pre>menuItem</code> will be treated as a regular expression rather than a strict string to match against</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>Returns nil if the menu item cannot be found. If it does exist, returns a table with two keys:</li><li> enabled - whether the menu item can be selected/ticked. This will always be false if the application is not currently focussed</li><li> ticked - whether the menu item is ticked or not (obviously this value is meaningless for menu items that can&#x27;t be ticked)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>This can only search for menu items that don&#x27;t have children - i.e. you can&#x27;t search for the name of a submenu</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#findWindow">findWindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:findWindow(titlePattern) -&gt; hs.window object(s)</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Finds windows from this application</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>titlePattern - a string pattern that matches (via <code v-pre>string.find</code>) the window title(s) as per <code v-pre>hs.window:title()</code> (for convenience, the matching will be done on lowercased strings)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>one or more hs.window objects belonging to this application that match the supplied search criterion, or <code v-pre>nil</code> if none found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#focusedWindow">focusedWindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:focusedWindow() -&gt; hs.window object or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the currently focused window of the application, or nil</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An hs.window object representing the window of the application that currently has focus, or nil if there are none</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getMenuItems">getMenuItems</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:getMenuItems([fn]) -&gt; table or nil | hs.application object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets the menu structure of the application</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>fn - an optional callback function.  If provided, the function will receive a single argument and return none.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If no argument is provided, returns a table containing the menu structure of the application, or nil if an error occurred. If a callback function is provided, the callback function will receive this table (or nil) and this method will return the application object this method was invoked on.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>In some applications, this can take a little while to complete, because quite a large number of round trips are required to the source application, to get the information. When this method is invoked without a callback function, Hammerspoon will block while creating the menu structure table.  When invoked with a callback function, the menu structure is built in a background thread.</li><li></li><li>The table is nested with the same structure as the menus of the application. Each item has several keys containing information about the menu item. Not all keys will appear for all items. The possible keys are:</li><li> AXTitle - A string containing the text of the menu item (entries which have no title are menu separators)</li><li> AXEnabled - A boolean, 1 if the menu item is clickable, 0 if not</li><li> AXRole - A string containing the role of the menu item - this will be either AXMenuBarItem for a top level menu, or AXMenuItem for an item in a menu</li><li> AXMenuItemMarkChar - A string containing the &quot;mark&quot; character for a menu item. This is for toggleable menu items and will usually be an empty string or a Unicode tick character (✓)</li><li> AXMenuItemCmdModifiers - A table containing string representations of the keyboard modifiers for the menu item&#x27;s keyboard shortcut, or nil if no modifiers are present</li><li> AXMenuItemCmdChar - A string containing the key for the menu item&#x27;s keyboard shortcut, or an empty string if no shortcut is present</li><li> AXMenuItemCmdGlyph - An integer, corresponding to one of the defined glyphs in <code v-pre>hs.application.menuGlyphs</code> if the keyboard shortcut is a special character usually represented by a pictorial representation (think arrow keys, return, etc), or an empty string if no glyph is used in presenting the keyboard shortcut.</li><li>Using <code v-pre>hs.inspect()</code> on these tables, while useful for exploration, can be extremely slow, taking several minutes to correctly render very complex menus</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getWindow">getWindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:getWindow(title) -&gt; hs.window object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Gets a specific window from this application</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>title - the desired window&#x27;s title string as per <code v-pre>hs.window:title()</code></li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>the desired hs.window object belonging to this application, or <code v-pre>nil</code> if not found</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#hide">hide</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:hide() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Hides the app (and all its windows).</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean indicating whether the application was successfully hidden</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isFrontmost">isFrontmost</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:isFrontmost() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns whether the app is the frontmost (i.e. is the currently active application)</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the application is the frontmost application, otherwise false</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isHidden">isHidden</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:isHidden() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns whether the app is currently hidden.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean indicating whether the application is hidden or not</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isRunning">isRunning</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:isRunning() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks if the application is still running</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, true if the application is running, false if not</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>If an application is terminated and re-launched, this method will still return false, as <code v-pre>hs.application</code> objects are tied to a specific instance of an application (i.e. its PID)</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#kill">kill</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:kill()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Tries to terminate the app gracefully.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#kill9">kill9</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:kill9()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Tries to terminate the app forcefully.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#kind">kind</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:kind() -&gt; number</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Identify the application&#x27;s GUI state</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A number that is either 1 if the app is in the dock, 0 if it is not, or -1 if the application is prohibited from having GUI elements</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#mainWindow">mainWindow</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:mainWindow() -&gt; hs.window object or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the main window of the given app, or nil.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>An hs.window object representing the main window of the application, or nil if it has no windows</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#name">name</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:name()</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Alias for <doc-anchor-trigger to="#title"><code v-pre>hs.application:title()</code></doc-anchor-trigger></td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#path">path</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:path() -&gt; string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the filesystem path of the app.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the filesystem path of the application or nil if the path could not be determined (e.g. if the application has terminated).</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#pid">pid</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:pid() -&gt; number</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the app&#x27;s process identifier.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The UNIX process identifier of the application (i.e. a number)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#selectMenuItem">selectMenuItem</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:selectMenuItem(menuitem[, isRegex]) -&gt; true or nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Selects a menu item (i.e. simulates clicking on the menu item)</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>menuitem - The menu item to select, specified as either a string or a table. See the <code v-pre>menuitem</code> parameter of <code v-pre>hs.application:findMenuItem()</code> for more information.</li><li>isRegex - An optional boolean, defaulting to false, which is only used if <code v-pre>menuItem</code> is a string. If set to true, <code v-pre>menuItem</code> will be treated as a regular expression rather than a strict string to match against</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>True if the menu item was found and selected, or nil if it wasn&#x27;t (e.g. because the menu item couldn&#x27;t be found)</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Depending on the type of menu item involved, this will either activate or tick/untick the menu item</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setFrontmost">setFrontmost</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:setFrontmost([allWindows]) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Sets the app to the frontmost (i.e. currently active) application</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>allWindows - An optional boolean, true to bring all windows of the application to the front. Defaults to false</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean, true if the operation was successful, otherwise false</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#title">title</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:title() -&gt; string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the localized name of the app (in UTF8).</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A string containing the name of the application</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#unhide">unhide</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:unhide() -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Unhides the app (and all its windows) if it&#x27;s hidden.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A boolean indicating whether the application was successfully unhidden</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#visibleWindows">visibleWindows</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.application:visibleWindows() -&gt; win[]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns only the app&#x27;s windows that are visible.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>A table containing zero or more hs.window objects</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../api-references/hammerspoon/hs.applescript/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">hs.​applescript</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../api-references/hammerspoon/hs.application.watcher/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">hs.​application.​watcher</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "hs.application", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>

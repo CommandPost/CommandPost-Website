@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739594806642">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.0.3">
+
+    <!-- Primary Meta Tags -->
+    <title>hs.styledtext</title>
+    <meta name="title" content="hs.styledtext">
+    <meta name="description" content="This module adds support for controlling the style of the text in Hammerspoon." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://commandpost.io/api-references/hammerspoon/hs.styledtext/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://commandpost.io/api-references/hammerspoon/hs.styledtext/">
+    <meta property="og:title" content="hs.styledtext">
+    <meta property="og:description" content="This module adds support for controlling the style of the text in Hammerspoon.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://commandpost.io/api-references/hammerspoon/hs.styledtext/">
+    <meta property="twitter:title" content="hs.styledtext">
+    <meta property="twitter:description" content="This module adds support for controlling the style of the text in Hammerspoon.">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.0.3.739594806642" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739594806642" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">CommandPost</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Download</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discussions</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>FCP Cafe</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Chris on Twitter</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>LateNite</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../download/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Download</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/issues" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Zm9.5 2a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 14Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/commandpost/commandpost/discussions" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discussions</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>FCP Cafe</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Chris on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>LateNite</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="hsstyledtext" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hsstyledtext">#</doc-anchor-trigger>
+        <span>hs.styledtext</span>
+    </h1>
+</doc-anchor-target>
+<p>This module adds support for controlling the style of the text in Hammerspoon.</p>
+<p>More detailed documentation is being worked on and will be provided in the Hammerspoon Wiki at <a href="https://github.com/Hammerspoon/hammerspoon/wiki">https://github.com/Hammerspoon/hammerspoon/wiki</a>.  The documentation here is a condensed version provided for use within the Hammerspoon Dash docset and the inline help provided by the <code v-pre>help</code> console command within Hammerspoon.</p>
+<p>The following list of attributes key-value pairs are recognized by this module and can be adjusted, set, or removed for objects by the various methods provided by this module.  The list of attributes is provided here for reference; anywhere in the documentation you see a reference to the <code v-pre>attributes key-value pairs</code>, refer back to here for specifics:</p>
+<ul>
+<li><code v-pre>font</code>               - A table containing the font name and size, specified by the keys <code v-pre>name</code> and <code v-pre>size</code>.  Default is the System Font at 27 points for <code v-pre>hs.drawing</code> text objects; otherwise the default is Helvetica at 12 points.  You may also specify this as a string, which will be taken as the font named in the string at the default size, when setting this attribute.</li>
+<li><code v-pre>color</code>              - A table indicating the color of the text as described in <code v-pre>hs.drawing.color</code>.  Default is white for hs.drawing text objects; otherwise the default is black.</li>
+<li><code v-pre>backgroundColor</code>    - Default nil, no background color (transparent).</li>
+<li><code v-pre>underlineColor</code>     - Default nil, same as <code v-pre>color</code>.</li>
+<li><code v-pre>strikethroughColor</code> - Default nil, same as <code v-pre>color</code>.</li>
+<li><code v-pre>strokeColor</code>        - Default nil, same as <code v-pre>color</code>.</li>
+<li><code v-pre>strokeWidth</code>        - Default 0, no stroke; positive, stroke alone; negative, stroke and fill (a typical value for outlined text would be 3.0)</li>
+<li><code v-pre>paragraphStyle</code>     - A table containing the paragraph style.  This table may contain any number of the following keys:
+<ul>
+<li><code v-pre>alignment</code>                     - A string indicating the texts alignment.  The string may contain a value of &quot;left&quot;, &quot;right&quot;, &quot;center&quot;, &quot;justified&quot;, or &quot;natural&quot;. Default is &quot;natural&quot;.</li>
+<li><code v-pre>lineBreak</code>                     - A string indicating how text that doesn&#x27;t fit into the drawingObjects rectangle should be handled.  The string may be one of &quot;wordWrap&quot;, &quot;charWrap&quot;, &quot;clip&quot;, &quot;truncateHead&quot;, &quot;truncateTail&quot;, or &quot;truncateMiddle&quot;.  Default is &quot;wordWrap&quot;.</li>
+<li><code v-pre>baseWritingDirection</code>          - A string indicating the base writing direction for the lines of text.  The string may be one of &quot;natural&quot;, &quot;leftToRight&quot;, or &quot;rightToLeft&quot;.  Default is &quot;natural&quot;.</li>
+<li><code v-pre>tabStops</code>                      - An array of defined tab stops.  Default is an array of 12 left justified tab stops 28 points apart.  Each element of the array may contain the following keys:
+<ul>
+<li><code v-pre>location</code>                      - A floating point number indicating the number of points the tab stap is located from the line&#x27;s starting margin (see baseWritingDirection).</li>
+<li><code v-pre>tabStopType</code>                   - A string indicating the type of the tab stop: &quot;left&quot;, &quot;right&quot;, &quot;center&quot;, or &quot;decimal&quot;</li>
+</ul>
+</li>
+<li><code v-pre>defaultTabInterval</code>            - A positive floating point number specifying the default tab stop distance in points after the last assigned stop in the tabStops field.</li>
+<li><code v-pre>firstLineHeadIndent</code>           - A positive floating point number specifying the distance, in points, from the leading margin of a frame to the beginning of the paragraph&#x27;s first line.  Default 0.0.</li>
+<li><code v-pre>headIndent</code>                    - A positive floating point number specifying the distance, in points, from the leading margin of a text container to the beginning of lines other than the first.  Default 0.0.</li>
+<li><code v-pre>tailIndent</code>                    - A floating point number specifying the distance, in points, from the margin of a frame to the end of lines. If positive, this value is the distance from the leading margin (for example, the left margin in left-to-right text). If 0 or negative, it&#x27;s the distance from the trailing margin.  Default 0.0.</li>
+<li><code v-pre>maximumLineHeight</code>             - A positive floating point number specifying the maximum height that any line in the frame will occupy, regardless of the font size. Glyphs exceeding this height will overlap neighboring lines. A maximum height of 0 implies no line height limit. Default 0.0.</li>
+<li><code v-pre>minimumLineHeight</code>             - A positive floating point number specifying the minimum height that any line in the frame will occupy, regardless of the font size.  Default 0.0.</li>
+<li><code v-pre>lineSpacing</code>                   - A positive floating point number specifying the space in points added between lines within the paragraph (commonly known as leading). Default 0.0.</li>
+<li><code v-pre>paragraphSpacing</code>              - A positive floating point number specifying the space added at the end of the paragraph to separate it from the following paragraph.  Default 0.0.</li>
+<li><code v-pre>paragraphSpacingBefore</code>        - A positive floating point number specifying the distance between the paragraph&#x27;s top and the beginning of its text content.  Default 0.0.</li>
+<li><code v-pre>lineHeightMultiple</code>            - A positive floating point number specifying the line height multiple. The natural line height of the receiver is multiplied by this factor (if not 0) before being constrained by minimum and maximum line height.  Default 0.0.</li>
+<li><code v-pre>hyphenationFactor</code>             - The hyphenation factor, a value ranging from 0.0 to 1.0 that controls when hyphenation is attempted. By default, the value is 0.0, meaning hyphenation is off. A factor of 1.0 causes hyphenation to be attempted always.</li>
+<li><code v-pre>tighteningFactorForTruncation</code> - A floating point number.  When the line break mode specifies truncation, the system attempts to tighten inter character spacing as an alternative to truncation, provided that the ratio of the text width to the line fragment width does not exceed 1.0 + the value of tighteningFactorForTruncation. Otherwise the text is truncated at a location determined by the line break mode. The default value is 0.05.</li>
+<li><code v-pre>allowsTighteningForTruncation</code> - A boolean indicating whether the system may tighten inter-character spacing before truncating text. Only available in macOS 10.11 or newer. Default true.</li>
+<li><code v-pre>headerLevel</code>                   - An integer number from 0 to 6 inclusive which specifies whether the paragraph is to be treated as a header, and at what level, for purposes of HTML generation.  Defaults to 0.</li>
+</ul>
+</li>
+<li><code v-pre>superscript</code>        - An integer indicating if the text is to be displayed as a superscript (positive) or a subscript (negative) or normal (0).</li>
+<li><code v-pre>ligature</code>           - An integer. Default 1, standard ligatures; 0, no ligatures; 2, all ligatures.</li>
+<li><code v-pre>strikethroughStyle</code> - An integer representing the strike-through line style.  See <code v-pre>hs.styledtext.lineStyles</code>, <code v-pre>hs.styledtext.linePatterns</code> and <code v-pre>hs.styledtext.lineAppliesTo</code>.</li>
+<li><code v-pre>underlineStyle</code>     - An integer representing the underline style.  See <code v-pre>hs.styledtext.lineStyles</code>, <code v-pre>hs.styledtext.linePatterns</code> and <code v-pre>hs.styledtext.lineAppliesTo</code>.</li>
+<li><code v-pre>baselineOffset</code>     - A floating point value, as points offset from baseline. Default 0.0.</li>
+<li><code v-pre>kerning</code>            - A floating point value, as points by which to modify default kerning.  Default nil to use default kerning specified in font file; 0.0, kerning off; non-zero, points by which to modify default kerning.</li>
+<li><code v-pre>obliqueness</code>        - A floating point value, as skew to be applied to glyphs.  Default 0.0, no skew.</li>
+<li><code v-pre>expansion</code>          - A floating point value, as log of expansion factor to be applied to glyphs.  Default 0.0, no expansion.</li>
+<li><code v-pre>shadow</code>             - Default nil, indicating no drop shadow.  A table describing the drop shadow effect for the text.  The table may contain any of the following keys:
+<ul>
+<li><code v-pre>offset</code>             - A table with <code v-pre>h</code> and <code v-pre>w</code> keys (a size structure) which specify horizontal and vertical offsets respectively for the shadow.  Positive values always extend down and to the right from the user&#x27;s perspective.</li>
+<li><code v-pre>blurRadius</code>         - A floating point value specifying the shadow&#x27;s blur radius.  A value of 0 indicates no blur, while larger values produce correspondingly larger blurring. The default value is 0.</li>
+<li><code v-pre>color</code>              - The default shadow color is black with an alpha of 1/3. If you set this property to nil, the shadow is not drawn.</li>
+</ul>
+</li>
+</ul>
+<p>To make the <code v-pre>hs.styledtext</code> objects easier to use, in addition to the module specific functions and methods defined, some of the Lua String library has been reproduced to perform similar functions on these objects.  See the help section for each method for more information on their use:</p>
+<ul>
+<li><code v-pre>hs.styledtext:byte</code></li>
+<li><code v-pre>hs.styledtext:find</code></li>
+<li><code v-pre>hs.styledtext:gmatch</code></li>
+<li><code v-pre>hs.styledtext:len</code></li>
+<li><code v-pre>hs.styledtext:lower</code></li>
+<li><code v-pre>hs.styledtext:match</code></li>
+<li><code v-pre>hs.styledtext:rep</code></li>
+<li><code v-pre>hs.styledtext:sub</code></li>
+<li><code v-pre>hs.styledtext:upper</code></li>
+</ul>
+<p>In addition, the following metamethods have been included:</p>
+<ul>
+<li>concat:
+<ul>
+<li><code v-pre>string</code>..<code v-pre>object</code> yields the string values concatenated</li>
+<li><code v-pre>object</code>..<code v-pre>string</code> yields a new <code v-pre>hs.styledtext</code> object with <code v-pre>string</code> appended</li>
+<li>two <code v-pre>hs.styledtext</code> objects yields a new <code v-pre>hs.styledtext</code> object containing the concatenation of the two objects</li>
+</ul>
+</li>
+<li>len:     #object yields the length of the text contained in the object</li>
+<li>eq:      object ==/~= object yields a boolean indicating if the text of the two objects is equal or not.  Use <code v-pre>hs.styledtext:isIdentical</code> if you need to compare attributes as well.</li>
+<li>lt, le:  allows &lt;, &gt;, &lt;=, and &gt;= comparisons between objects and strings in which the text of an object is compared with the text of another or a Lua string.</li>
+</ul>
+<p>Note that due to differences in the way Lua determines when to use metamethods for equality comparisons versus relative-position comparisons, ==/<sub>= cannot compare an object to a Lua string (it will always return false because the types are different).  You must use object:getString() ==/</sub>= <code v-pre>string</code>.  (see <code v-pre>hs.styledtext:getString</code>)</p>
+<doc-anchor-target id="api-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-overview">#</doc-anchor-trigger>
+        <span>API Overview</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Constants - Useful values which cannot be changed</li>
+<li><doc-anchor-trigger to="#defaultFonts">defaultFonts</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontTraits">fontTraits</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#lineAppliesTo">lineAppliesTo</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#linePatterns">linePatterns</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#lineStyles">lineStyles</doc-anchor-trigger></li>
+<li>Functions - API calls offered directly by the extension</li>
+<li><doc-anchor-trigger to="#convertFont">convertFont</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontFamilies">fontFamilies</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontInfo">fontInfo</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontNames">fontNames</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontNamesWithTraits">fontNamesWithTraits</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontPath">fontPath</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#fontsForFamily">fontsForFamily</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#loadFont">loadFont</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#validFont">validFont</doc-anchor-trigger></li>
+<li>Constructors - API calls which return an object, typically one that offers API methods</li>
+<li><doc-anchor-trigger to="#ansi">ansi</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getStyledTextFromData">getStyledTextFromData</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getStyledTextFromFile">getStyledTextFromFile</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#new">new</doc-anchor-trigger></li>
+<li>Methods - API calls which can only be made on an object returned by a constructor</li>
+<li><doc-anchor-trigger to="#asTable">asTable</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#byte">byte</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#convert">convert</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#find">find</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#getString">getString</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#gmatch">gmatch</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#isIdentical">isIdentical</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#len">len</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#lower">lower</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#match">match</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#removeStyle">removeStyle</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#rep">rep</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setString">setString</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#setStyle">setStyle</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#sub">sub</doc-anchor-trigger></li>
+<li><doc-anchor-trigger to="#upper">upper</doc-anchor-trigger></li>
+</ul>
+<doc-anchor-target id="api-documentation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-documentation">#</doc-anchor-trigger>
+        <span>API Documentation</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="constants">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
+        <span>Constants</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#defaultFonts">defaultFonts</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.defaultFonts</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table containing the system default fonts and sizes.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>These are useful when defining a styled text object which should be similar to or based on a specific system element type.</li><li></li><li>Because the user can change font defaults while Hammerspoon is running, this table is actually generated dynamically on request.  This should not affect of your use of this constant as a table; however, you can generate a static table if desired by invoking <code v-pre>hs.styledtext._defaultFonts()</code> directly instead.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontTraits">fontTraits</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontTraits -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table for containing Font Trait masks for use with <code v-pre>hs.styledtext.fontNamesWithTraits(...)</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#lineAppliesTo">lineAppliesTo</doc-anchor-trigger></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.lineAppliesTo</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table of values indicating how the line for underlining or strike-through are applied to the text.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Valid keys are as follows:</li><li>  line - the underline or strike-through is applied to an entire line of text</li><li>  word - the underline or strike-through is only applied to words and not the spaces in a line of text</li><li></li><li>When specifying a line type for underlining or strike-through, you can combine one entry from each of the following tables:</li><li>  hs.styledtext.lineStyles</li><li>  hs.styledtext.linePatterns</li><li>  hs.styledtext.lineAppliesTo</li><li></li><li>The entries chosen should be combined with the <code v-pre>or</code> operator to provide a single value. for example:</li><li>  hs.styledtext.lineStyles.single</td>
+<td>hs.styledtext.linePatterns.dash</td>
+<td>hs.styledtext.lineAppliesToWord</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#linePatterns">linePatterns</doc-anchor-trigger></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.linePatterns</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table of patterns which apply to the line for underlining or strike-through.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Valid line pattern keys are as follows:</li><li>  solid      - a solid line</li><li>  dot        - a dotted line</li><li>  dash       - a dashed line</li><li>  dashDot    - a pattern of a dash followed by a dot</li><li>  dashDotDot - a pattern of a dash followed by two dots</li><li></li><li>When specifying a line type for underlining or strike-through, you can combine one entry from each of the following tables:</li><li>  hs.styledtext.lineStyles</li><li>  hs.styledtext.linePatterns</li><li>  hs.styledtext.lineAppliesTo</li><li></li><li>The entries chosen should be combined with the <code v-pre>or</code> operator to provide a single value. for example:</li><li>  hs.styledtext.lineStyles.single</td>
+<td>hs.styledtext.linePatterns.dash</td>
+<td>hs.styledtext.lineAppliesToWord</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#lineStyles">lineStyles</doc-anchor-trigger></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.lineStyles</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constant</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A table of styles which apply to the line for underlining or strike-through.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Valid line style keys are as follows:</li><li>  none   - no line style</li><li>  single - a single thin line</li><li>  thick  - a single thick line (usually double the single line&#x27;s thickness)</li><li>  double - double think lines</li><li></li><li>When specifying a line type for underlining or strike-through, you can combine one entry from each of the following tables:</li><li>  hs.styledtext.lineStyles</li><li>  hs.styledtext.linePatterns</li><li>  hs.styledtext.lineAppliesTo</li><li></li><li>The entries chosen should be combined with the <code v-pre>or</code> operator to provide a single value. for example:</li><li>  hs.styledtext.lineStyles.single</td>
+<td>hs.styledtext.linePatterns.dash</td>
+<td>hs.styledtext.lineAppliesToWord</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="functions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
+        <span>Functions</span>
+    </h3>
+</doc-anchor-target>
+<p>| <doc-anchor-trigger to="#convertFont">convertFont</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.styledtext.convertFont(fontTable, trait) -&gt; table</code>                                                                    |
+| <strong>Type</strong>                                    | Function                                                                     |
+| <strong>Description</strong>                             | Returns the font which most closely matches the given font and the trait change requested.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>font - a string or a table which specifies a font.  If a string is given, the default system font size is assumed.  If a table is provided, it should contain the following keys:
+name - the name of the font (defaults to the system font)
+size - the point size of the font (defaults to the default system font size)</li><li>trait - a number corresponding to a trait listed in <code v-pre>hs.styledtext.fontTraits</code> you wish to add or remove (unboldFont and unitalicFont) from the given font, or a boolean indicating whether you want a heavier version (true) or a lighter version (false).</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>a table containing the name and size of the font which most closely matches the specified font and the trait change requested.  If no such font is available, then the original font is returned unchanged.</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontFamilies">fontFamilies</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontFamilies() -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the names of all font families installed for the system.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing the names of every font family installed for the system.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#fontInfo">fontInfo</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.styledtext.fontInfo(font) -&gt; table</code>                                                                    |
+| <strong>Type</strong>                                    | Function                                                                     |
+| <strong>Description</strong>                             | Get information about the font Specified in the attributes table.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>font - a string or a table which specifies a font.  If a string is given, the default system font size is assumed.  If a table is provided, it should contain the following keys:
+name - the name of the font (defaults to the system font)
+size - the point size of the font (defaults to the default system font size)</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>a table containing the following keys:</li><li>  fontName           - The font&#x27;s internally recognized name.</li><li>  familyName         - The font&#x27;s family name.</li><li>  displayName        - The font’s display name is typically localized for the user’s language.</li><li>  fixedPitch         - A boolean value indicating whether all glyphs in the font have the same advancement.</li><li>  ascender           - The top y-coordinate, offset from the baseline, of the font’s longest ascender.</li><li>  boundingRect       - A table containing the font’s bounding rectangle, scaled to the font’s size.  This rectangle is the union of the bounding rectangles of every glyph in the font.</li><li>  capHeight          - The cap height of the font.</li><li>  descender          - The bottom y-coordinate, offset from the baseline, of the font’s longest descender.</li><li>  italicAngle        - The number of degrees that the font is slanted counterclockwise from the vertical. (read-only)</li><li>  leading            - The leading value of the font.</li><li>  maximumAdvancement - A table containing the maximum advance of any of the font’s glyphs.</li><li>  numberOfGlyphs     - The number of glyphs in the font.</li><li>  pointSize          - The point size of the font.</li><li>  underlinePosition  - The baseline offset to use when drawing underlines with the font.</li><li>  underlineThickness - The thickness to use when drawing underlines with the font.</li><li>  xHeight            - The x-height of the font.</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontNames">fontNames</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontNames() -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the names of all installed fonts for the system.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing the names of every font installed for the system.  The individual names are strings which can be used in the <code v-pre>hs.drawing:setTextFont(fontname)</code> method.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontNamesWithTraits">fontNamesWithTraits</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontNamesWithTraits(fontTraitMask) -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the names of all installed fonts for the system with the specified traits.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>traits - a number, specifying the fontTraitMask, or a table containing traits listed in <code v-pre>hs.styledtext.fontTraits</code> which are logically &#x27;OR&#x27;ed together to create the fontTraitMask used.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing the names of every font installed for the system which matches the fontTraitMask specified.  The individual names are strings which can be used in the <code v-pre>hs.drawing:setTextFont(fontname)</code> method.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>specifying 0 or an empty table will match all fonts that are neither italic nor bold.  This would be the same list as you&#x27;d get with { hs.styledtext.fontTraits.unBold, hs.styledtext.fontTraits.unItalic } as the parameter.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontPath">fontPath</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontPath(font) -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Get the path of a font.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>font - a string containing the name of the font you want to check.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>The path to the font or <code v-pre>nil</code> if the font name is not valid.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#fontsForFamily">fontsForFamily</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.fontsForFamily(familyName) -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an array containing fonts available for the specified font family or nil if no fonts for the specified family are present.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>familyName</code> - a string specifying the font family to return available fonts for. The strings should be one of the values returned by the <doc-anchor-trigger to="#fontFamilies">hs.styledtext.fontFamilies</doc-anchor-trigger> function.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table containing an array of available fonts for the specified family. Each array entry will be a table, also as an array, in the following order:</li><li>  a string specifying the font name which can be used in the <code v-pre>hs.drawing:setTextFont(fontname)</code> method.</li><li>  a string specifying the basic style of the font (e.g. Bold, Italic, Roman, etc.)</li><li>  a table containing one or more strings specifying common names for the weight of the font. ISO equivalent names are preceded with &quot;ISO:&quot;. Possible values are:</li><li>            <code v-pre>{ &quot;ultralight&quot; }</code></li><li>            <code v-pre>{ &quot;thin&quot;, &quot;ISO:ultralight&quot; }</code></li><li>            <code v-pre>{ &quot;light&quot;, &quot;extralight&quot;, &quot;ISO:extralight&quot; }</code></li><li>            <code v-pre>{ &quot;book&quot;, &quot;ISO:light&quot; }</code></li><li>            <code v-pre>{ &quot;regular&quot;, &quot;plain&quot;, &quot;display&quot;, &quot;roman&quot;, &quot;ISO:semilight&quot; }</code></li><li>            <code v-pre>{ &quot;medium&quot;, &quot;ISO:medium&quot; }</code></li><li>            <code v-pre>{ &quot;demi&quot;, &quot;demibold&quot; }</code></li><li>            <code v-pre>{ &quot;semi&quot;, &quot;semibold&quot;, &quot;ISO:semibold&quot; }</code></li><li>            <code v-pre>{ &quot;bold&quot;, &quot;ISO:bold&quot; }</code></li><li>            <code v-pre>{ &quot;extra&quot;, &quot;extrabold&quot;, &quot;ISO:extrabold&quot; }</code></li><li>            <code v-pre>{ &quot;heavy&quot;, &quot;heavyface&quot; }</code></li><li>            <code v-pre>{ &quot;black&quot;, &quot;super&quot;, &quot;ISO:ultrabold&quot; }</code></li><li>            <code v-pre>{ &quot;ultra&quot;, &quot;ultrablack&quot;, &quot;fat&quot; }</code></li><li>            <code v-pre>{ &quot;extrablack&quot;, &quot;obese&quot;, &quot;nord&quot; }</code></li><li>  a table specifying zero or more traits for the font as defined in the <doc-anchor-trigger to="#fontTraits">hs.styledtext.fontTraits</doc-anchor-trigger> table. A field with the key <code v-pre>_numeric</code> is also set which specified the numeric value corresponding to the traits for easy use with the <doc-anchor-trigger to="#convertFont">hs.styledtext.convertFont</doc-anchor-trigger> function.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#loadFont">loadFont</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.loadFont(path) -&gt; boolean[, string]</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Loads a font from a file at the specified path.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li><code v-pre>path</code> - the path and filename of the font file to attempt to load</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>If the font can be registered returns <code v-pre>true</code>, otherwise <code v-pre>false</code> and an error message as string.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#validFont">validFont</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.validFont(font) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Function</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Checks to see if a font is valid.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>font - a string containing the name of the font you want to check.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li><code v-pre>true</code> if valid, otherwise <code v-pre>false</code>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="constructors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
+        <span>Constructors</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#ansi">ansi</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.ansi(string, [attributes]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Create an <code v-pre>hs.styledtext</code> object from the string provided, converting ANSI SGR color and some font sequences into the appropriate attributes.  Attributes to apply to the resulting string may also be optionally provided.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>string     - The string containing the text with ANSI SGR sequences to be converted.</li><li>attributes - an optional table containing attribute key-value pairs to apply to the entire <code v-pre>hs.styledtext</code> object to be returned.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an <code v-pre>hs.styledtext</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Because a font is required for the SGR sequences indicating Bold and Italic, the base font is determined using the following logic:</li><li>* if no <code v-pre>attributes</code> table is provided, the font is assumed to be the default for <code v-pre>hs.drawing</code> as returned by the <code v-pre>hs.drawing.defaultTextStyle</code> function</li><li>* if an <code v-pre>attributes</code> table is provided and it defines a <code v-pre>font</code> attribute, this font is used.</li><li>* if an <code v-pre>attributes</code> table is provided, but it does not provide a <code v-pre>font</code> attribute, the NSAttributedString default of Helvetica at 12 points is used.</li><li>As the most common use of this constructor is likely to be from the output of a terminal shell command, you will most likely want to specify a fixed-pitch (monospace) font.  You can get a list of installed fixed-pitch fonts by typing <code v-pre>hs.styledtext.fontNamesWithTraits(hs.styledtext.fontTraits.fixedPitchFont)</code> into the Hammerspoon console.</li><li></li><li>See the module description documentation (<code v-pre>help.hs.styledtext</code>) for a description of the attributes table format which can be provided for the optional second argument.</li><li></li><li>This function was modeled after the ANSIEscapeHelper.m file at <a href="https://github.com/balthamos/geektool-3">https://github.com/balthamos/geektool-3</a> in the /NerdTool/classes directory.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#getStyledTextFromData">getStyledTextFromData</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.styledtext.getStyledTextFromData(data, [type]) -&gt; styledText object</code>                                                                    |
+| <strong>Type</strong>                                    | Constructor                                                                     |
+| <strong>Description</strong>                             | Converts the provided data into a styled text string.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>data          - the data, as a lua string, which contains the raw data to be converted to a styledText object</li><li>type          - a string indicating the format of the contents in <code v-pre>data</code>.  Defaults to &quot;html&quot;.  The string may be one of the following (not all formats may be fully representable as a simple string container - see also <code v-pre>hs.styledtext.setTextFromFile</code>):
+&quot;text&quot;      - Plain text document.
+&quot;rtf&quot;        - Rich text format document.
+&quot;rtfd&quot;       - Rich text format with attachments document.
+&quot;simpleText&quot; - Macintosh SimpleText document.
+&quot;html&quot;       - Hypertext Markup Language (HTML) document.
+&quot;word&quot;       - Microsoft Word document.
+&quot;wordXML&quot;    - Microsoft Word XML (WordML schema) document.
+&quot;webArchive&quot; - Web Kit WebArchive document.
+&quot;openXML&quot;    - ECMA Office Open XML text document format.
+&quot;open&quot;       - OASIS Open Document text document format.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>the styledText object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>See also <code v-pre>hs.styledtext.getStyledTextFromFile</code></li></ul>                |</p>
+<p>| <doc-anchor-trigger to="#getStyledTextFromFile">getStyledTextFromFile</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.styledtext.getStyledTextFromFile(file, [type]) -&gt; styledText object</code>                                                                    |
+| <strong>Type</strong>                                    | Constructor                                                                     |
+| <strong>Description</strong>                             | Converts the data in the specified file into a styled text string.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>file          - the path to the file to use as the source for the data to convert into a styledText object</li><li>type          - a string indicating the format of the contents in <code v-pre>data</code>.  Defaults to &quot;html&quot;.  The string may be one of the following (not all formats may be fully representable as a simple string container - see also <code v-pre>hs.styledtext.setTextFromFile</code>):
+&quot;text&quot;      - Plain text document.
+&quot;rtf&quot;        - Rich text format document.
+&quot;rtfd&quot;       - Rich text format with attachments document.
+&quot;simpleText&quot; - Macintosh SimpleText document.
+&quot;html&quot;       - Hypertext Markup Language (HTML) document.
+&quot;word&quot;       - Microsoft Word document.
+&quot;wordXML&quot;    - Microsoft Word XML (WordML schema) document.
+&quot;webArchive&quot; - Web Kit WebArchive document.
+&quot;openXML&quot;    - ECMA Office Open XML text document format.
+&quot;open&quot;       - OASIS Open Document text document format.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>the styledText object</li></ul>          |
+| <strong>Notes</strong>                                   | <ul><li>See also <code v-pre>hs.styledtext.getStyledTextFromData</code></li></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#new">new</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext.new(string, [attributes]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Constructor</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Create an <code v-pre>hs.styledtext</code> object from the string or table representation provided.  Attributes to apply to the resulting string may also be optionally provided.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>string     - a string, table, or <code v-pre>hs.styledtext</code> object to create a new <code v-pre>hs.styledtext</code> object from.</li><li>attributes - an optional table containing attribute key-value pairs to apply to the entire <code v-pre>hs.styledtext</code> object to be returned.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an <code v-pre>hs.styledtext</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>See <code v-pre>hs.styledtext:asTable</code> for a description of the table representation of an <code v-pre>hs.styledtext</code> object</li><li>See the module description documentation (<code v-pre>help.hs.styledtext</code>) for a description of the attributes table format which can be provided for the optional second argument.</li><li></li><li>Passing an <code v-pre>hs.styledtext</code> object as the first parameter without specifying an <code v-pre>attributes</code> table is the equivalent of invoking <code v-pre>hs.styledtext:copy</code>.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="methods">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
+        <span>Methods</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#asTable">asTable</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:asTable([starts], [ends]) -&gt; table</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the table representation of the <code v-pre>hs.styledtext</code> object or its specified substring.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>starts - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to return the table for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to return the table for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a table representing the <code v-pre>hs.styledtext</code> object.  The table will be an array with the following structure:</li><li>  index 1             - the text of the <code v-pre>hs.styledtext</code> object as a Lua String.</li><li>  index 2+            - a table with the following keys:</li><li>    starts            - the index position in the original styled text object where this list of attributes is first applied</li><li>    ends              - the index position in the original styled text object where the application of this list of attributes ends</li><li>    attributes        - a table of attribute key-value pairs that apply to the string between the positions of <code v-pre>starts</code> and <code v-pre>ends</code></li><li>    unsupportedFields - this field only exists, and will be set to <code v-pre>true</code> when an attribute that was included in the attributes table that this module cannot modify.  A best effort will be made to render the attributes assigned value in the attributes table, but modifying the attribute and re-applying it with <code v-pre>hs.styledtext:setStyle</code> will be silently ignored.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li><li>The attribute which contains an attachment (image) for a converted RTFD or other document is known to set the <code v-pre>unsupportedFields</code> flag.</li><li></li><li>The indexes in the table returned are relative to their position in the original <code v-pre>hs.styledtext</code> object.  If you want the table version of a substring which does not start at index position 1 that can be safely fed as a &quot;proper&quot; table version of an <code v-pre>hs.styledtext</code> object into another function or constructor, the proper way to generate it is <code v-pre>destination = object:sub(i,j):asTable().&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;See the module description documentation (</code>help.hs.styledtext&#x60;) for a description of the attributes table format</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#byte">byte</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:byte([starts], [ends]) -&gt; integer, ...</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the internal numerical representation of the characters in the <code v-pre>hs.styledtext</code> object specified by the given indices.  Mimics the Lua <code v-pre>string.byte</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>starts - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to return numerical values for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to return numerical values for.  Defaults to the value of <code v-pre>starts</code>.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a list of integers representing the internal numeric representation of the characters in the <code v-pre>hs.styledtext</code> object specified by the given indices.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>| <doc-anchor-trigger to="#convert">convert</doc-anchor-trigger>         |                                                                                     |
+| --------------------------------------------|-------------------------------------------------------------------------------------|
+| <strong>Signature</strong>                               | <code v-pre>hs.styledtext:convert([type]) -&gt; string</code>                                                                    |
+| <strong>Type</strong>                                    | Method                                                                     |
+| <strong>Description</strong>                             | Converts the styledtext object into the data format specified.                                                                     |
+| <strong>Parameters</strong>                              | <ul><li>type          - a string indicating the format to convert the styletext object into.  Defaults to &quot;html&quot;.  The string may be one of the following:
+&quot;text&quot;      - Plain text document.
+&quot;rtf&quot;        - Rich text format document.
+&quot;rtfd&quot;       - Rich text format with attachments document.
+&quot;html&quot;       - Hypertext Markup Language (HTML) document.
+&quot;word&quot;       - Microsoft Word document.
+&quot;wordXML&quot;    - Microsoft Word XML (WordML schema) document.
+&quot;webArchive&quot; - Web Kit WebArchive document.
+&quot;openXML&quot;    - ECMA Office Open XML text document format.
+&quot;open&quot;       - OASIS Open Document text document format.</li></ul> |
+| <strong>Returns</strong>                                 | <ul><li>a string containing the converted data</li></ul>          |
+| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:copy(styledText) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Create a copy of the <code v-pre>hs.styledtext</code> object.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>styledText - an <code v-pre>hs.styledtext</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the styledText object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#find">find</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:find(pattern, [init, [plain]]) -&gt; start, end, ... | nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the indices of the first occurrence of the specified pattern in the text of the <code v-pre>hs.styledtext</code> object.  Mimics the Lua <code v-pre>string.find</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (<code v-pre>help.lua._man._6_4_1</code>) for more details.</li><li>init     - an optional integer specifying the location within the text to start the pattern search</li><li>plain    - an optional boolean specifying whether or not to treat the pattern as plain text (i.e. an exact match).  Defaults to false.  If you wish to specify this argument, you must also specify init.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a match is found, <code v-pre>start</code> and <code v-pre>end</code> will be the indices where the pattern was first located.  If captures were specified in the pattern, they will also be returned as additional arguments after <code v-pre>start</code> and <code v-pre>end</code>.  If the pattern was not found in the text, then this method returns nil.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Any captures returned are returned as Lua Strings, not as <code v-pre>hs.styledtext</code> objects.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#getString">getString</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:getString([starts], [ends]) -&gt; string</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the text of the <code v-pre>hs.styledtext</code> object as a Lua String</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>starts - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to return the string for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to return the string for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a string containing the text of the <code v-pre>hs.styledtext</code> object specified</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#gmatch">gmatch</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:gmatch(pattern) -&gt; iterator-function</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an iterator function which will return the captures (or the entire pattern) of the next match of the specified pattern in the text of the <code v-pre>hs.styledtext</code> object each time it is called.  Mimics the Lua <code v-pre>string.gmatch</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (<code v-pre>help.lua._man._6_4_1</code>) for more details.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an iterator function which will return the captures (or the entire pattern) of the next match of the specified pattern in the text of the <code v-pre>hs.styledtext</code> object each time it is called.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Any captures (or the entire pattern) returned by the iterator are returned as Lua Strings, not as <code v-pre>hs.styledtext</code> objects.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#isIdentical">isIdentical</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:isIdentical(styledText) -&gt; boolean</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Determine if the <code v-pre>styledText</code> object is identical to the one specified.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>styledText - an <code v-pre>hs.styledtext</code> object</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a boolean value indicating whether or not the styled text objects are identical, both in text content and attributes specified.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>comparing two <code v-pre>hs.styledtext</code> objects with the <code v-pre>==</code> operator only compares whether or not the string values are identical.  This method also compares their attributes.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#len">len</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:len() -&gt; integer</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the length of the text of the <code v-pre>hs.styledtext</code> object.  Mimics the Lua <code v-pre>string.len</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an integer which is the length of the text of the <code v-pre>hs.styledtext</code> object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#lower">lower</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:lower() -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the <code v-pre>hs.styledtext</code> object with all alpha characters converted to lower case.  Mimics the Lua <code v-pre>string.lower</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the <code v-pre>hs.styledtext</code> object with all alpha characters converted to lower case</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#match">match</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:match(pattern, [init]) -&gt; match ... | nil</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns the first occurrence of the captures in the specified pattern (or the complete pattern, if no captures are specified) in the text of the <code v-pre>hs.styledtext</code> object.  Mimics the Lua <code v-pre>string.match</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>pattern  - a string containing the pattern to locate.  See the Lua manual, section 6.4.1 (<code v-pre>help.lua._man._6_4_1</code>) for more details.</li><li>init     - an optional integer specifying the location within the text to start the pattern search</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>if a match is found, the captures in the specified pattern (or the complete pattern, if no captures are specified).  If the pattern was not found in the text, then this method returns nil.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li>Any captures (or the entire pattern) returned are returned as Lua Strings, not as <code v-pre>hs.styledtext</code> objects.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#removeStyle">removeStyle</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:removeStyle(attributes, [starts], [ends]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Return a copy of the <code v-pre>hs.styledtext</code> object containing the changes to its attributes specified in the <code v-pre>attributes</code> table.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>attributes - an array of attribute labels to remove (set to <code v-pre>nil</code>) from the <code v-pre>hs.styledtext</code> object.</li><li>starts     - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to remove attributes for.  Defaults to 1, the beginning of the object&#x27;s text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to remove attributes for.  Defaults to the length of the object&#x27;s text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the <code v-pre>hs.styledtext</code> object with the attributes specified removed from the given range of the original object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li><li></li><li>See the module description documentation (<code v-pre>help.hs.styledtext</code>) for a list of officially recognized attribute label names.</li><li>The officially recognized attribute labels were chosen for brevity or for consistency with conventions used in Hammerspoon&#x27;s other modules.  If you know the Objective-C name for an attribute, you can list it instead of an officially recognized label, allowing the removal of attributes which this module cannot manipulate in other ways.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#rep">rep</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:rep(n, [separator]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns an <code v-pre>hs.styledtext</code> object which contains <code v-pre>n</code> repetitions of the <code v-pre>hs.styledtext</code> object, optionally with <code v-pre>separator</code> between each repetition.  Mimics the Lua <code v-pre>string.rep</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>n         - the number of times to repeat the <code v-pre>hs.styledtext</code> object.</li><li>separator - an optional string or <code v-pre>hs.styledtext</code> object to insert between repetitions.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an <code v-pre>hs.styledtext</code> object which contains <code v-pre>n</code> repetitions of the object, including <code v-pre>separator</code> between repetitions, if it is specified.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setString">setString</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:setString(string, [starts], [ends], [clear]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Return a copy of the <code v-pre>hs.styledtext</code> object containing the changes to its attributes specified in the <code v-pre>attributes</code> table.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>string     - a string, table, or <code v-pre>hs.styledtext</code> object to insert or replace the substring specified.</li><li>starts     - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the destination for the specified string.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of destination for the specified string.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.  If this number is 0, then the substring is inserted at the index specified by <code v-pre>starts</code> rather than replacing it.</li><li>clear      - an optional boolean indicating whether or not the attributes of the new string should be included (true) or whether the new substring should inherit the attributes of the first character replaced (false).  Defaults to false if <code v-pre>string</code> is a Lua String or number; otherwise defaults to true.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the <code v-pre>hs.styledtext</code> object with the specified substring replacement to the original object, or nil if an error occurs</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function except that <code v-pre>starts</code> must refer to an index preceding or equal to <code v-pre>ends</code>, even after negative and out-of-bounds indices are adjusted for.</li><li></li><li>See the module description documentation (<code v-pre>help.hs.styledtext</code>) for a description of the attributes table format</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#setStyle">setStyle</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:setStyle(attributes, [starts], [ends], [clear]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Return a copy of the <code v-pre>hs.styledtext</code> object containing the changes to its attributes specified in the <code v-pre>attributes</code> table.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>attributes - a table of attribute key-value pairs to apply to the object between the positions of <code v-pre>starts</code> and <code v-pre>ends</code></li><li>starts     - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to set attributes for.  Defaults to 1, the beginning of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends       - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to set attributes for.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li><li>clear      - an optional boolean indicating whether or not the attributes specified should completely replace the existing attributes (true) or be added to/modify them (false).  Defaults to false.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the <code v-pre>hs.styledtext</code> object with the attributes specified applied to the given range of the original object.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li><li></li><li>See the module description documentation (<code v-pre>help.hs.styledtext</code>) for a description of the attributes table format</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#sub">sub</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:sub(starts, [ends]) -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a substring, including the style attributes, specified by the given indices from the <code v-pre>hs.styledtext</code> object.  Mimics the Lua <code v-pre>string.sub</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>starts - the index position within the text of the <code v-pre>hs.styledtext</code> object indicating the beginning of the substring to return.  If this number is negative, it is counted backwards from the end of the object&#x27;s text (i.e. -1 would be the last character position).</li><li>ends   - an optional index position within the text of the <code v-pre>hs.styledtext</code> object indicating the end of the substring to return.  Defaults to the length of the objects text.  If this number is negative, it is counted backwards from the end of the object&#x27;s text.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>an <code v-pre>hs.styledtext</code> object containing the specified substring.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul><li><code v-pre>starts</code> and <code v-pre>ends</code> follow the conventions of <code v-pre>i</code> and <code v-pre>j</code> for Lua&#x27;s <code v-pre>string.sub</code> function.</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th><doc-anchor-trigger to="#upper">upper</doc-anchor-trigger></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature</strong></td>
+<td><code v-pre>hs.styledtext:upper() -&gt; styledText object</code></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Method</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>Returns a copy of the <code v-pre>hs.styledtext</code> object with all alpha characters converted to upper case.  Mimics the Lua <code v-pre>string.upper</code> function.</td>
+</tr>
+<tr>
+<td><strong>Parameters</strong></td>
+<td><ul><li>None</li></ul></td>
+</tr>
+<tr>
+<td><strong>Returns</strong></td>
+<td><ul><li>a copy of the <code v-pre>hs.styledtext</code> object with all alpha characters converted to upper case</li></ul></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../api-references/hammerspoon/hs.streamdeck/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">hs.​streamdeck</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../api-references/hammerspoon/hs.tabs/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">hs.​tabs</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023 LateNite Films Pty Ltd. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "hs.styledtext", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
