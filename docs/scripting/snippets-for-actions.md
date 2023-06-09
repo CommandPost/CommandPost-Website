@@ -1,4 +1,4 @@
-# Snippets
+# Snippets for Actions
 
 CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost's Search Console.
 
@@ -10,15 +10,15 @@ For example, to launch Final Cut Pro, you can use this simple Lua code:
 
 CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the [Hammerspoon website](http://www.hammerspoon.org/go/){target="_blank"}.
 
-You can learn more about Lua [here](../developer/lua-overview/)
+You can learn more about Lua [here](../developer/lua-overview/).
 
 You can find the Hammerspoon API reference [here](../api-references/hammerspoon/hs/).
 
 Here's some direct links to some useful Hammerspoon functions:
 
-- [`hs.timer.usleep(microsecs)`](../api-references/hammerspoon/hs.timer/) - **Add a delay**
-- [`hs.eventtap.keyStroke(modifiers, character[, delay, application])`](../api-references/hammerspoon/hs.eventtap/) - **Trigger a virtual key stroke**
-- [`hs.application:selectMenuItem(menuitem[, isRegex])`](../api-references/hammerspoon/hs.application/) - **Trigger an application menu item**
+- [`hs.timer.usleep(microsecs)`](../api-references/hammerspoon/hs.timer/#usleep) - **Add a delay**
+- [`hs.eventtap.keyStroke(modifiers, character[, delay, application])`](../api-references/hammerspoon/hs.eventtap/#keystrokes) - **Trigger a virtual key stroke**
+- [`hs.application:selectMenuItem(menuitem[, isRegex])`](../api-references/hammerspoon/hs.application/#selectmenuitem) - **Trigger an application menu item**
 
 Here's some direct links to some useful CommandPost functions:
 

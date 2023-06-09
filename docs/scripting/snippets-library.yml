@@ -1,3 +1,4 @@
-label: Lua Snippets
+label: Snippets Library
 #icon: terminal
+order: 99999
 image: ../static/thumbnail.png

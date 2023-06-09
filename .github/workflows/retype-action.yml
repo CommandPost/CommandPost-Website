@@ -1,13 +1,73 @@
-name: Publish Retype powered website to GitHub Pages
+name: Update CommandPost Website & Publish to GitHub Pages
 on:
   workflow_dispatch:
   push:
     branches:
       - main
+    tags:
+      - '*'
+  pull_request:
+    types: [closed]
+  issues:
+    types: [opened, closed, labeled, unlabeled]
+  release:
+    types: [created]
 
 jobs:
+  generate_markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Generate Bug Tracker Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-bug-tracker.js
+
+      - name: Generate Wish List Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-wishlist.js
+
+      - name: Generate Snippets Markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_NAME: ${{ github.repository }}
+        run: node .github/scripts/generate-snippets.js
+
+      - name: Commit and push if it's necessary
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git diff --quiet && git diff --staged --quiet || (
+            git stash --include-untracked
+            git pull --rebase origin main
+            git stash pop
+            git add docs/_includes/*
+            git commit -m "Update Generated Markdown Files"
+            git push
+          )
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: docs/
+
   publish:
     name: Publish to retype branch
+    needs: [generate_markdown]
 
     runs-on: ubuntu-latest
 

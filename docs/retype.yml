@@ -12,10 +12,13 @@ links:
   link: /download
   icon: desktop-download
 
-- text: Issues
-  link: https://github.com/commandpost/commandpost/issues
-  icon: issue-opened
-  target: blank
+- text: Wish List
+  link: /wishlist
+  icon: thumbsup
+
+- text: Bug Tracker
+  link: /bugtracker
+  icon: bug
 
 - text: Discussions
   link: https://github.com/commandpost/commandpost/discussions

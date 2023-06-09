@@ -1,6 +1,6 @@
 # Snippets for LED Colors
 
-The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use Lua Snippets to set what color you want an LED button to use.
+The Loupedeck and Razer Preferences panels have the ability to use Lua Snippets to set what color you want an LED button to use.
 
 The Snippet should return a [`hs.drawing.color`](../api-references/hammerspoon/hs.drawing.color/) object.
 
@@ -8,9 +8,9 @@ You can learn more about Lua [here](../developer/lua-overview/).
 
 ---
 
-# Examples
+## Examples
 
-## Set LED to Red
+### Set LED to Red
 
 ```lua
 return hs.drawing.color.asRGB({hex="#FF0000"})
@@ -18,7 +18,7 @@ return hs.drawing.color.asRGB({hex="#FF0000"})
 
 ---
 
-## Set LED to random color
+### Set LED to random color
 
 ```lua
 local a = hs.math.randomFromRange(0, 9)

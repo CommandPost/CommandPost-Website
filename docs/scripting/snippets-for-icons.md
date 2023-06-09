@@ -1,25 +1,25 @@
 # Snippets for Icons
 
-The Loupedeck CT and Loupedeck Live Preferences panels now have the ability to use **Lua Snippets** to programatically generate icons for the Loupedeck CT and Loupedeck Live panels.
+The Loupedeck & Stream Deck Preferences panels have the ability to use **Lua Snippets** to programatically generate icons for the panels with screens.
 
 This gives you incredible freedom, to programatically make the icons appear however you want.
 
 CommandPost is also compatible with Hammerspoon, so you can also use helpful extensions such as [`hs.canvas`](../api-references/hammerspoon/hs.canvas/).
 
-Both the [CommandPost API](../api-references/commandpost/cp/) and [Hammerspoon API](http://www.hammerspoon.org/docs/index.html) are insanely powerful and flexible, so you can basically do anything and everything.
+Both the [CommandPost API](../api-references/commandpost/) and [Hammerspoon API](../api-references/hammerspoon/) are insanely powerful and flexible, so you can basically do anything and everything.
 
 Essentially all you need to do in your Snippet is return a [`hs.image`](../api-references/hammerspoon/hs.image/) object.
 
 Some useful functions to generate a [`hs.image`](../api-references/hammerspoon/hs.image/) include:
 
- - [`hs.image.iconForFile()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.iconForFileType()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromAppBundle()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromASCII()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromMediaFile()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromName()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromPath()`](../api-references/hammerspoon/hs.image/)
- - [`hs.image.imageFromURL()`](../api-references/hammerspoon/hs.image/)
+ - [`hs.image.iconForFile()`](../api-references/hammerspoon/hs.image/#iconforfile)
+ - [`hs.image.iconForFileType()`](../api-references/hammerspoon/hs.image/#iconforfiletype)
+ - [`hs.image.imageFromAppBundle()`](../api-references/hammerspoon/hs.image/#imagefromappbundle)
+ - [`hs.image.imageFromASCII()`](../api-references/hammerspoon/hs.image/#imagefromascii)
+ - [`hs.image.imageFromMediaFile()`](../api-references/hammerspoon/hs.image/#imagefrommediafile)
+ - [`hs.image.imageFromName()`](../api-references/hammerspoon/hs.image/#imagefromname)
+ - [`hs.image.imageFromPath()`](../api-references/hammerspoon/hs.image/#imagefrompath)
+ - [`hs.image.imageFromURL()`](../api-references/hammerspoon/hs.image/#imagefromurl)
 
 You can also use [`hs.canvas`](../api-references/hammerspoon/hs.canvas/) to programatically draw things.
 
@@ -29,9 +29,9 @@ You can learn more about Lua [here](../developer/lua-overview/).
 
 ---
 
-# Examples:
+## Examples:
 
-## Display a built-in system icon
+### Display a built-in system icon
 
 ```lua
 return hs.image.imageFromName("NSAdvanced")
@@ -39,7 +39,7 @@ return hs.image.imageFromName("NSAdvanced")
 
 ---
 
-## Display the first Final Cut Pro Keyword Shortcut Value
+### Display the first Final Cut Pro Keyword Shortcut Value
 
 ```lua
 -- Create a new Canvas:
@@ -76,7 +76,7 @@ return icon
 
 ---
 
-## Display the current Spotify Track
+### Display the current Spotify Track
 
 ```lua
 -- Create a new Canvas:
@@ -111,7 +111,7 @@ return icon
 
 ---
 
-## Display the current System Volume
+### Display the current System Volume
 
 ```lua
 -- Create a new Canvas:
