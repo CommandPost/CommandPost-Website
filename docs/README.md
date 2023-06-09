@@ -8,7 +8,7 @@ CommandPost is a **free** and [open source](https://github.com/CommandPost/Comma
 
 It adds **hundreds** of features to Apple’s [Final Cut Pro](https://www.apple.com/final-cut-pro/){target="_blank"} to make it even better and more enjoyable to edit with.
 
-It has **extensive** control surface support - allowing you to control your Mac anyway you want.
+It has **extensive** control surface support - allowing you to control your Mac anyway you want. It's also fully **native on Apple Silicon**.
 
 It's been downloaded over **[168 thousand times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost){target="_blank"}**, and there are over **[2.6 thousands members](https://www.facebook.com/groups/commandpost/members){target="_blank"}** in our active [Facebook Community](https://www.facebook.com/groups/commandpost/){target="_blank"}.
 
@@ -119,10 +119,12 @@ CommandPost has been translated into Arabic, Bengali, Catalan, Chinese (Simplifi
 
 Powered by [Lua](https://dev.commandpost.io/lua/overview/){target="_blank"} (the same scripting language used by [Blackmagic Fusion](https://www.blackmagicdesign.com/products/fusion/){target="_blank"}, [Adobe Lightroom](https://www.adobe.com/au/products/photoshop-lightroom.html){target="_blank"} and even parts of [Apple iOS](https://twitter.com/_inside/status/1026173832527265792){target="_blank"}), it's insanely customisable and powerful.
 
-It runs natively on Apple Silicon and is fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"}.
+Every part of CommandPost can be easily modified and enhanced in a simple text editor. All the interfaces are built in plain HTML.
+
+It's also fully compatible with [Hammerspoon](http://www.hammerspoon.org){target="_blank"} Lua scripts.
 
 ![](../static/homepage-lua.png)
 
 ---
 
-[Download now](/download) for **free** and accelerate your post production workflow!
+[Download now](/download) for **free** and accelerate your post production workflow...
