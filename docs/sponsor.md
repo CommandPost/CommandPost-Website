@@ -17,8 +17,4 @@ Alternatively, you can also make a contribution via **[PayPal](https://www.paypa
 
 If you're in Australia, we can also generate a **tax invoice** with GST for you - just [contact us](mailto:support@latenitefilms.com?subject=CommandPost).
 
-You can also show your support by purchasing one of our paid apps on the Mac App Store:
-
-- [BRAW Toolbox: Import Blackmagic RAW files directly into Final Cut Pro without transcoding](https://brawtoolbox.io){target="_blank"}
-- [Gyroflow Toolbox: Import Gyroflow Projects into Apple's Final Cut Pro](https://gyroflowtoolbox.io){target="_blank"}
-- [Marker Toolbox: Import Vimeo CSV & Email Comments into Apple's Final Cut Pro](https://markertoolbox.io){target="_blank"}
+You can also show your support by [purchasing one of our paid apps](/latenite-technology/).
