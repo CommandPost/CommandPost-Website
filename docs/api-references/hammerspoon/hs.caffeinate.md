@@ -9,18 +9,18 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [currentAssertions](#currentAssertions)
- * [declareUserActivity](#declareUserActivity)
- * [fastUserSwitch](#fastUserSwitch)
+ * [currentAssertions](#currentassertions)
+ * [declareUserActivity](#declareuseractivity)
+ * [fastUserSwitch](#fastuserswitch)
  * [get](#get)
- * [lockScreen](#lockScreen)
- * [logOut](#logOut)
- * [restartSystem](#restartSystem)
- * [sessionProperties](#sessionProperties)
+ * [lockScreen](#lockscreen)
+ * [logOut](#logout)
+ * [restartSystem](#restartsystem)
+ * [sessionProperties](#sessionproperties)
  * [set](#set)
- * [shutdownSystem](#shutdownSystem)
- * [startScreensaver](#startScreensaver)
- * [systemSleep](#systemSleep)
+ * [shutdownSystem](#shutdownsystem)
+ * [startScreensaver](#startscreensaver)
+ * [systemSleep](#systemsleep)
  * [toggle](#toggle)
 
 ## API Documentation
@@ -28,7 +28,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 ### Functions
 
 
-### [currentAssertions](#currentAssertions)
+### [currentAssertions](#currentassertions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [declareUserActivity](#declareUserActivity)
+### [declareUserActivity](#declareuseractivity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [fastUserSwitch](#fastUserSwitch)
+### [fastUserSwitch](#fastuserswitch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [lockScreen](#lockScreen)
+### [lockScreen](#lockscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [logOut](#logOut)
+### [logOut](#logout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [restartSystem](#restartSystem)
+### [restartSystem](#restartsystem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [sessionProperties](#sessionProperties)
+### [sessionProperties](#sessionproperties)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [shutdownSystem](#shutdownSystem)
+### [shutdownSystem](#shutdownsystem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [startScreensaver](#startScreensaver)
+### [startScreensaver](#startscreensaver)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 ---
 
-### [systemSleep](#systemSleep)
+### [systemSleep](#systemsleep)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

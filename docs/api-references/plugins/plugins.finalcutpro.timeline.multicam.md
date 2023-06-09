@@ -4,14 +4,14 @@ Multicam Tools.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [doCutAndSwitchMulticam](#doCutAndSwitchMulticam)
+ * [doCutAndSwitchMulticam](#docutandswitchmulticam)
 
 ## API Documentation
 
 ### Functions
 
 
-### [doCutAndSwitchMulticam](#doCutAndSwitchMulticam)
+### [doCutAndSwitchMulticam](#docutandswitchmulticam)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

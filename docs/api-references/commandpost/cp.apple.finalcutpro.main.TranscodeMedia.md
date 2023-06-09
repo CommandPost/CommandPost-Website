@@ -5,8 +5,8 @@ Represents the Transcode Media sheet.
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cancel](#cancel)
- * [createOptimizedMedia](#createOptimizedMedia)
- * [createProxyMedia](#createProxyMedia)
+ * [createOptimizedMedia](#createoptimizedmedia)
+ * [createProxyMedia](#createproxymedia)
  * [ok](#ok)
 
 ## API Documentation
@@ -24,7 +24,7 @@ Represents the Transcode Media sheet.
 
 ---
 
-### [createOptimizedMedia](#createOptimizedMedia)
+### [createOptimizedMedia](#createoptimizedmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Represents the Transcode Media sheet.
 
 ---
 
-### [createProxyMedia](#createProxyMedia)
+### [createProxyMedia](#createproxymedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

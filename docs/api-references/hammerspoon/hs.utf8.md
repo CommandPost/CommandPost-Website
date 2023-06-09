@@ -16,21 +16,21 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ## API Overview
 * Variables - Configurable values
- * [registeredKeys](#registeredKeys)
+ * [registeredKeys](#registeredkeys)
 * Functions - API calls offered directly by the extension
- * [asciiOnly](#asciiOnly)
- * [codepointToUTF8](#codepointToUTF8)
- * [fixUTF8](#fixUTF8)
- * [hexDump](#hexDump)
- * [registerCodepoint](#registerCodepoint)
- * [registeredLabels](#registeredLabels)
+ * [asciiOnly](#asciionly)
+ * [codepointToUTF8](#codepointtoutf8)
+ * [fixUTF8](#fixutf8)
+ * [hexDump](#hexdump)
+ * [registerCodepoint](#registercodepoint)
+ * [registeredLabels](#registeredlabels)
 
 ## API Documentation
 
 ### Variables
 
 
-### [registeredKeys](#registeredKeys)
+### [registeredKeys](#registeredkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 ### Functions
 
 
-### [asciiOnly](#asciiOnly)
+### [asciiOnly](#asciionly)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ---
 
-### [codepointToUTF8](#codepointToUTF8)
+### [codepointToUTF8](#codepointtoutf8)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ---
 
-### [fixUTF8](#fixUTF8)
+### [fixUTF8](#fixutf8)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ---
 
-### [hexDump](#hexDump)
+### [hexDump](#hexdump)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ---
 
-### [registerCodepoint](#registerCodepoint)
+### [registerCodepoint](#registercodepoint)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
 
 ---
 
-### [registeredLabels](#registeredLabels)
+### [registeredLabels](#registeredlabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

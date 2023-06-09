@@ -14,9 +14,9 @@ Functional programming utility functions
  * [ieach](#ieach)
  * [ifilter](#ifilter)
  * [imap](#imap)
- * [indexOf](#indexOf)
+ * [indexOf](#indexof)
  * [map](#map)
- * [mapCat](#mapCat)
+ * [mapCat](#mapcat)
  * [reduce](#reduce)
  * [some](#some)
  * [split](#split)
@@ -24,8 +24,8 @@ Functional programming utility functions
  * [cycle](#cycle)
  * [partial](#partial)
  * [sequence](#sequence)
- * [sortByKeys](#sortByKeys)
- * [sortByKeyValues](#sortByKeyValues)
+ * [sortByKeys](#sortbykeys)
+ * [sortByKeyValues](#sortbykeyvalues)
 
 ## API Documentation
 
@@ -162,7 +162,7 @@ Functional programming utility functions
 
 ---
 
-### [indexOf](#indexOf)
+### [indexOf](#indexof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Functional programming utility functions
 
 ---
 
-### [mapCat](#mapCat)
+### [mapCat](#mapcat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ Functional programming utility functions
 
 ---
 
-### [sortByKeys](#sortByKeys)
+### [sortByKeys](#sortbykeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -294,7 +294,7 @@ Functional programming utility functions
 
 ---
 
-### [sortByKeyValues](#sortByKeyValues)
+### [sortByKeyValues](#sortbykeyvalues)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

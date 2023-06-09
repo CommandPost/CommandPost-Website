@@ -14,23 +14,23 @@ The intent of this sub-module is to provide as close a rendering of the same doc
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [browserDarkMode](#browserDarkMode)
- * [browserFrame](#browserFrame)
- * [forceExternalBrowser](#forceExternalBrowser)
+ * [browserDarkMode](#browserdarkmode)
+ * [browserFrame](#browserframe)
+ * [forceExternalBrowser](#forceexternalbrowser)
  * [help](#help)
  * [interface](#interface)
- * [moduleEntitiesInSidebar](#moduleEntitiesInSidebar)
+ * [moduleEntitiesInSidebar](#moduleentitiesinsidebar)
  * [port](#port)
  * [start](#start)
  * [stop](#stop)
- * [trackBrowserFrame](#trackBrowserFrame)
+ * [trackBrowserFrame](#trackbrowserframe)
 
 ## API Documentation
 
 ### Functions
 
 
-### [browserDarkMode](#browserDarkMode)
+### [browserDarkMode](#browserdarkmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ The intent of this sub-module is to provide as close a rendering of the same doc
 
 ---
 
-### [browserFrame](#browserFrame)
+### [browserFrame](#browserframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ The intent of this sub-module is to provide as close a rendering of the same doc
 
 ---
 
-### [forceExternalBrowser](#forceExternalBrowser)
+### [forceExternalBrowser](#forceexternalbrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ The intent of this sub-module is to provide as close a rendering of the same doc
 
 ---
 
-### [moduleEntitiesInSidebar](#moduleEntitiesInSidebar)
+### [moduleEntitiesInSidebar](#moduleentitiesinsidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ The intent of this sub-module is to provide as close a rendering of the same doc
 
 ---
 
-### [trackBrowserFrame](#trackBrowserFrame)
+### [trackBrowserFrame](#trackbrowserframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

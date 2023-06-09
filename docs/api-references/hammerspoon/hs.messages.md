@@ -6,15 +6,15 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [iMessage](#iMessage)
- * [SMS](#SMS)
+ * [iMessage](#imessage)
+ * [SMS](#sms)
 
 ## API Documentation
 
 ### Functions
 
 
-### [iMessage](#iMessage)
+### [iMessage](#imessage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Note: This extension works by controlling the OS X "Messages" app via AppleScrip
 
 ---
 
-### [SMS](#SMS)
+### [SMS](#sms)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

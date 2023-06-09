@@ -4,26 +4,26 @@ Load/play/manipulate sound files
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [getAudioEffectNames](#getAudioEffectNames)
- * [soundFileTypes](#soundFileTypes)
- * [soundTypes](#soundTypes)
- * [systemSounds](#systemSounds)
+ * [getAudioEffectNames](#getaudioeffectnames)
+ * [soundFileTypes](#soundfiletypes)
+ * [soundTypes](#soundtypes)
+ * [systemSounds](#systemsounds)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [getByFile](#getByFile)
- * [getByName](#getByName)
+ * [getByFile](#getbyfile)
+ * [getByName](#getbyname)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [currentTime](#currentTime)
+ * [currentTime](#currenttime)
  * [device](#device)
  * [duration](#duration)
- * [isPlaying](#isPlaying)
- * [loopSound](#loopSound)
+ * [isPlaying](#isplaying)
+ * [loopSound](#loopsound)
  * [name](#name)
  * [pause](#pause)
  * [play](#play)
  * [resume](#resume)
- * [setCallback](#setCallback)
+ * [setCallback](#setcallback)
  * [stop](#stop)
- * [stopOnReload](#stopOnReload)
+ * [stopOnReload](#stoponreload)
  * [volume](#volume)
 
 ## API Documentation
@@ -31,7 +31,7 @@ Load/play/manipulate sound files
 ### Functions
 
 
-### [getAudioEffectNames](#getAudioEffectNames)
+### [getAudioEffectNames](#getaudioeffectnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [soundFileTypes](#soundFileTypes)
+### [soundFileTypes](#soundfiletypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [soundTypes](#soundTypes)
+### [soundTypes](#soundtypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [systemSounds](#systemSounds)
+### [systemSounds](#systemsounds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Load/play/manipulate sound files
 ### Constructors
 
 
-### [getByFile](#getByFile)
+### [getByFile](#getbyfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [getByName](#getByName)
+### [getByName](#getbyname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Load/play/manipulate sound files
 ### Methods
 
 
-### [currentTime](#currentTime)
+### [currentTime](#currenttime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [loopSound](#loopSound)
+### [loopSound](#loopsound)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ Load/play/manipulate sound files
 
 ---
 
-### [stopOnReload](#stopOnReload)
+### [stopOnReload](#stoponreload)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

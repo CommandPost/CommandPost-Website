@@ -178,7 +178,7 @@ cp.spec "*" ()
  * [describe](#describe)
  * [find](#find)
  * [it](#it)
- * [setSearchPath](#setSearchPath)
+ * [setSearchPath](#setsearchpath)
  * [spec](#spec)
  * [test](#test)
 
@@ -226,7 +226,7 @@ cp.spec "*" ()
 
 ---
 
-### [setSearchPath](#setSearchPath)
+### [setSearchPath](#setsearchpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

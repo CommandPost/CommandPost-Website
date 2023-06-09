@@ -27,16 +27,16 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Do](#Do)
+ * [Do](#do)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Then](#Then)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [Do](#Do)
+### [Do](#do)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 ### Methods
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

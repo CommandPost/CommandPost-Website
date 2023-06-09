@@ -7,15 +7,15 @@ Extends:
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [OPTIONS](#OPTIONS)
+ * [OPTIONS](#options)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [isBlade](#isBlade)
- * [isHand](#isHand)
- * [isPosition](#isPosition)
- * [isRange](#isRange)
- * [isSelect](#isSelect)
- * [isTrim](#isTrim)
- * [isZoom](#isZoom)
+ * [isBlade](#isblade)
+ * [isHand](#ishand)
+ * [isPosition](#isposition)
+ * [isRange](#isrange)
+ * [isSelect](#isselect)
+ * [isTrim](#istrim)
+ * [isZoom](#iszoom)
  * [value](#value)
 
 ## API Documentation
@@ -23,7 +23,7 @@ Extends:
 ### Constants
 
 
-### [OPTIONS](#OPTIONS)
+### [OPTIONS](#options)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ Extends:
 ### Fields
 
 
-### [isBlade](#isBlade)
+### [isBlade](#isblade)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Extends:
 
 ---
 
-### [isHand](#isHand)
+### [isHand](#ishand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Extends:
 
 ---
 
-### [isPosition](#isPosition)
+### [isPosition](#isposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Extends:
 
 ---
 
-### [isRange](#isRange)
+### [isRange](#isrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Extends:
 
 ---
 
-### [isSelect](#isSelect)
+### [isSelect](#isselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Extends:
 
 ---
 
-### [isTrim](#isTrim)
+### [isTrim](#istrim)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Extends:
 
 ---
 
-### [isZoom](#isZoom)
+### [isZoom](#iszoom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

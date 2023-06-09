@@ -4,44 +4,44 @@ Generators Browser Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [TITLE](#TITLE)
+ * [TITLE](#title)
 * Variables - Configurable values
- * [isShowing](#isShowing)
+ * [isShowing](#isshowing)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [GeneratorsBrowser](#GeneratorsBrowser)
+ * [GeneratorsBrowser](#generatorsbrowser)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [contents](#contents)
  * [group](#group)
- * [mainGroupUI](#mainGroupUI)
+ * [mainGroupUI](#maingroupui)
  * [search](#search)
  * [sidebar](#sidebar)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [applyItem](#applyItem)
- * [currentItemsUI](#currentItemsUI)
- * [getCurrentTitles](#getCurrentTitles)
- * [getGeneratorsRowLabel](#getGeneratorsRowLabel)
- * [getTitlesRowLabel](#getTitlesRowLabel)
+ * [applyItem](#applyitem)
+ * [currentItemsUI](#currentitemsui)
+ * [getCurrentTitles](#getcurrenttitles)
+ * [getGeneratorsRowLabel](#getgeneratorsrowlabel)
+ * [getTitlesRowLabel](#gettitlesrowlabel)
  * [hide](#hide)
- * [itemIsSelected](#itemIsSelected)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [selectedItemsUI](#selectedItemsUI)
+ * [itemIsSelected](#itemisselected)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [selectedItemsUI](#selecteditemsui)
  * [show](#show)
- * [showAllGenerators](#showAllGenerators)
- * [showAllTitles](#showAllTitles)
- * [showGeneratorsCategory](#showGeneratorsCategory)
- * [showInstalledGenerators](#showInstalledGenerators)
- * [showInstalledTitles](#showInstalledTitles)
- * [showSidebar](#showSidebar)
- * [showTitlesCategory](#showTitlesCategory)
- * [topCategoriesUI](#topCategoriesUI)
+ * [showAllGenerators](#showallgenerators)
+ * [showAllTitles](#showalltitles)
+ * [showGeneratorsCategory](#showgeneratorscategory)
+ * [showInstalledGenerators](#showinstalledgenerators)
+ * [showInstalledTitles](#showinstalledtitles)
+ * [showSidebar](#showsidebar)
+ * [showTitlesCategory](#showtitlescategory)
+ * [topCategoriesUI](#topcategoriesui)
 
 ## API Documentation
 
 ### Constants
 
 
-### [TITLE](#TITLE)
+### [TITLE](#title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Generators Browser Module.
 ### Variables
 
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Generators Browser Module.
 ### Constructors
 
 
-### [GeneratorsBrowser](#GeneratorsBrowser)
+### [GeneratorsBrowser](#generatorsbrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Generators Browser Module.
 
 ---
 
-### [mainGroupUI](#mainGroupUI)
+### [mainGroupUI](#maingroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Generators Browser Module.
 ### Methods
 
 
-### [applyItem](#applyItem)
+### [applyItem](#applyitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Generators Browser Module.
 
 ---
 
-### [currentItemsUI](#currentItemsUI)
+### [currentItemsUI](#currentitemsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ Generators Browser Module.
 
 ---
 
-### [getCurrentTitles](#getCurrentTitles)
+### [getCurrentTitles](#getcurrenttitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Generators Browser Module.
 
 ---
 
-### [getGeneratorsRowLabel](#getGeneratorsRowLabel)
+### [getGeneratorsRowLabel](#getgeneratorsrowlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Generators Browser Module.
 
 ---
 
-### [getTitlesRowLabel](#getTitlesRowLabel)
+### [getTitlesRowLabel](#gettitlesrowlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Generators Browser Module.
 
 ---
 
-### [itemIsSelected](#itemIsSelected)
+### [itemIsSelected](#itemisselected)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ Generators Browser Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ Generators Browser Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ Generators Browser Module.
 
 ---
 
-### [selectedItemsUI](#selectedItemsUI)
+### [selectedItemsUI](#selecteditemsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ Generators Browser Module.
 
 ---
 
-### [showAllGenerators](#showAllGenerators)
+### [showAllGenerators](#showallgenerators)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ Generators Browser Module.
 
 ---
 
-### [showAllTitles](#showAllTitles)
+### [showAllTitles](#showalltitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ Generators Browser Module.
 
 ---
 
-### [showGeneratorsCategory](#showGeneratorsCategory)
+### [showGeneratorsCategory](#showgeneratorscategory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ Generators Browser Module.
 
 ---
 
-### [showInstalledGenerators](#showInstalledGenerators)
+### [showInstalledGenerators](#showinstalledgenerators)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ Generators Browser Module.
 
 ---
 
-### [showInstalledTitles](#showInstalledTitles)
+### [showInstalledTitles](#showinstalledtitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ Generators Browser Module.
 
 ---
 
-### [showSidebar](#showSidebar)
+### [showSidebar](#showsidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ Generators Browser Module.
 
 ---
 
-### [showTitlesCategory](#showTitlesCategory)
+### [showTitlesCategory](#showtitlescategory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -366,7 +366,7 @@ Generators Browser Module.
 
 ---
 
-### [topCategoriesUI](#topCategoriesUI)
+### [topCategoriesUI](#topcategoriesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

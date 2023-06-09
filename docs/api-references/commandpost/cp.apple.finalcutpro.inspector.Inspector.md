@@ -4,46 +4,46 @@ Inspector
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [INSPECTOR_TABS](#INSPECTOR_TABS)
+ * [INSPECTOR_TABS](#inspector_tabs)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Inspector](#Inspector)
+ * [Inspector](#inspector)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [audio](#audio)
- * [bottomBarUI](#bottomBarUI)
+ * [bottomBarUI](#bottombarui)
  * [color](#color)
  * [generator](#generator)
  * [info](#info)
- * [isFullHeight](#isFullHeight)
- * [isShowing](#isShowing)
- * [labelUI](#labelUI)
- * [panelUI](#panelUI)
- * [projectInfo](#projectInfo)
- * [propertiesUI](#propertiesUI)
+ * [isFullHeight](#isfullheight)
+ * [isShowing](#isshowing)
+ * [labelUI](#labelui)
+ * [panelUI](#panelui)
+ * [projectInfo](#projectinfo)
+ * [propertiesUI](#propertiesui)
  * [share](#share)
  * [text](#text)
  * [title](#title)
- * [topBarUI](#topBarUI)
+ * [topBarUI](#topbarui)
  * [transition](#transition)
  * [video](#video)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doFindTabButton](#doFindTabButton)
- * [doHide](#doHide)
- * [doSelectTab](#doSelectTab)
- * [doShow](#doShow)
+ * [doFindTabButton](#dofindtabbutton)
+ * [doHide](#dohide)
+ * [doSelectTab](#doselecttab)
+ * [doShow](#doshow)
  * [hide](#hide)
- * [selectedTab](#selectedTab)
- * [selectTab](#selectTab)
+ * [selectedTab](#selectedtab)
+ * [selectTab](#selecttab)
  * [show](#show)
- * [tabAvailable](#tabAvailable)
+ * [tabAvailable](#tabavailable)
 
 ## API Documentation
 
 ### Constants
 
 
-### [INSPECTOR_TABS](#INSPECTOR_TABS)
+### [INSPECTOR_TABS](#inspector_tabs)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Inspector
 ### Constructors
 
 
-### [Inspector](#Inspector)
+### [Inspector](#inspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Inspector
 
 ---
 
-### [bottomBarUI](#bottomBarUI)
+### [bottomBarUI](#bottombarui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Inspector
 
 ---
 
-### [isFullHeight](#isFullHeight)
+### [isFullHeight](#isfullheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Inspector
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Inspector
 
 ---
 
-### [labelUI](#labelUI)
+### [labelUI](#labelui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Inspector
 
 ---
 
-### [panelUI](#panelUI)
+### [panelUI](#panelui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Inspector
 
 ---
 
-### [projectInfo](#projectInfo)
+### [projectInfo](#projectinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Inspector
 
 ---
 
-### [propertiesUI](#propertiesUI)
+### [propertiesUI](#propertiesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -225,7 +225,7 @@ Inspector
 
 ---
 
-### [topBarUI](#topBarUI)
+### [topBarUI](#topbarui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -257,7 +257,7 @@ Inspector
 ### Methods
 
 
-### [doFindTabButton](#doFindTabButton)
+### [doFindTabButton](#dofindtabbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -270,7 +270,7 @@ Inspector
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ Inspector
 
 ---
 
-### [doSelectTab](#doSelectTab)
+### [doSelectTab](#doselecttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -296,7 +296,7 @@ Inspector
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -322,7 +322,7 @@ Inspector
 
 ---
 
-### [selectedTab](#selectedTab)
+### [selectedTab](#selectedtab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -335,7 +335,7 @@ Inspector
 
 ---
 
-### [selectTab](#selectTab)
+### [selectTab](#selecttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -361,7 +361,7 @@ Inspector
 
 ---
 
-### [tabAvailable](#tabAvailable)
+### [tabAvailable](#tabavailable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -7,11 +7,11 @@ methods, fields and other properties.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Button](#Button)
+ * [Button](#button)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [title](#title)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doPress](#doPress)
+ * [doPress](#dopress)
  * [press](#press)
 
 ## API Documentation
@@ -34,7 +34,7 @@ methods, fields and other properties.
 ### Constructors
 
 
-### [Button](#Button)
+### [Button](#button)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ methods, fields and other properties.
 ### Methods
 
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

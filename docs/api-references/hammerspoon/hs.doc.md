@@ -32,11 +32,11 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [help](#help)
- * [locateJSONFile](#locateJSONFile)
- * [preloadSpoonDocs](#preloadSpoonDocs)
- * [registeredFiles](#registeredFiles)
- * [registerJSONFile](#registerJSONFile)
- * [unregisterJSONFile](#unregisterJSONFile)
+ * [locateJSONFile](#locatejsonfile)
+ * [preloadSpoonDocs](#preloadspoondocs)
+ * [registeredFiles](#registeredfiles)
+ * [registerJSONFile](#registerjsonfile)
+ * [unregisterJSONFile](#unregisterjsonfile)
 
 ## API Documentation
 
@@ -56,7 +56,7 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ---
 
-### [locateJSONFile](#locateJSONFile)
+### [locateJSONFile](#locatejsonfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ---
 
-### [preloadSpoonDocs](#preloadSpoonDocs)
+### [preloadSpoonDocs](#preloadspoondocs)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ---
 
-### [registeredFiles](#registeredFiles)
+### [registeredFiles](#registeredfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ---
 
-### [registerJSONFile](#registerJSONFile)
+### [registerJSONFile](#registerjsonfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
 
 ---
 
-### [unregisterJSONFile](#unregisterJSONFile)
+### [unregisterJSONFile](#unregisterjsonfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

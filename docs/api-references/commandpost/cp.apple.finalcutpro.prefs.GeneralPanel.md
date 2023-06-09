@@ -4,18 +4,18 @@ General Panel Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [TIME_DISPLAY](#TIME_DISPLAY)
+ * [TIME_DISPLAY](#time_display)
 * Functions - API calls offered directly by the extension
- * [timeDisplay](#timeDisplay)
+ * [timeDisplay](#timedisplay)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [GeneralPanel](#GeneralPanel)
+ * [GeneralPanel](#generalpanel)
 
 ## API Documentation
 
 ### Constants
 
 
-### [TIME_DISPLAY](#TIME_DISPLAY)
+### [TIME_DISPLAY](#time_display)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ General Panel Module.
 ### Functions
 
 
-### [timeDisplay](#timeDisplay)
+### [timeDisplay](#timedisplay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ General Panel Module.
 ### Constructors
 
 
-### [GeneralPanel](#GeneralPanel)
+### [GeneralPanel](#generalpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

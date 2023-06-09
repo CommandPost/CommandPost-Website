@@ -4,8 +4,8 @@ Watch for system level audio hardware events
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [isRunning](#isRunning)
- * [setCallback](#setCallback)
+ * [isRunning](#isrunning)
+ * [setCallback](#setcallback)
  * [start](#start)
  * [stop](#stop)
 
@@ -14,7 +14,7 @@ Watch for system level audio hardware events
 ### Functions
 
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Watch for system level audio hardware events
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,17 +4,17 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [KEY_PRESS](#KEY_PRESS)
+ * [KEY_PRESS](#key_press)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorWell](#ColorWell)
+ * [ColorWell](#colorwell)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [center](#center)
- * [colorOrientation](#colorOrientation)
- * [colorPosition](#colorPosition)
+ * [colorOrientation](#colororientation)
+ * [colorPosition](#colorposition)
  * [focused](#focused)
- * [puckPosition](#puckPosition)
+ * [puckPosition](#puckposition)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [nudge](#nudge)
  * [reset](#reset)
@@ -25,7 +25,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 ### Constants
 
 
-### [KEY_PRESS](#KEY_PRESS)
+### [KEY_PRESS](#key_press)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 ### Constructors
 
 
-### [ColorWell](#ColorWell)
+### [ColorWell](#colorwell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorOrientation](#colorOrientation)
+### [colorOrientation](#colororientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorPosition](#colorPosition)
+### [colorPosition](#colorposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [puckPosition](#puckPosition)
+### [puckPosition](#puckposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

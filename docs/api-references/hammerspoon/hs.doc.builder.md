@@ -12,16 +12,16 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [genComments](#genComments)
- * [genJSON](#genJSON)
- * [genSQL](#genSQL)
+ * [genComments](#gencomments)
+ * [genJSON](#genjson)
+ * [genSQL](#gensql)
 
 ## API Documentation
 
 ### Functions
 
 
-### [genComments](#genComments)
+### [genComments](#gencomments)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 
 ---
 
-### [genJSON](#genJSON)
+### [genJSON](#genjson)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Most of this submodule should be considered at the "Proof of Concept" stage and 
 
 ---
 
-### [genSQL](#genSQL)
+### [genSQL](#gensql)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

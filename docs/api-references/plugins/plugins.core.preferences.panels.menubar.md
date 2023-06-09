@@ -4,18 +4,18 @@ Menubar Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [displayMenubarAsIcon](#displayMenubarAsIcon)
- * [lastGroup](#lastGroup)
- * [lastIconPath](#lastIconPath)
- * [menubarLabel](#menubarLabel)
- * [showSectionHeadingsInMenubar](#showSectionHeadingsInMenubar)
+ * [displayMenubarAsIcon](#displaymenubarasicon)
+ * [lastGroup](#lastgroup)
+ * [lastIconPath](#lasticonpath)
+ * [menubarLabel](#menubarlabel)
+ * [showSectionHeadingsInMenubar](#showsectionheadingsinmenubar)
 
 ## API Documentation
 
 ### Fields
 
 
-### [displayMenubarAsIcon](#displayMenubarAsIcon)
+### [displayMenubarAsIcon](#displaymenubarasicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Menubar Preferences Panel
 
 ---
 
-### [lastGroup](#lastGroup)
+### [lastGroup](#lastgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Menubar Preferences Panel
 
 ---
 
-### [lastIconPath](#lastIconPath)
+### [lastIconPath](#lasticonpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Menubar Preferences Panel
 
 ---
 
-### [menubarLabel](#menubarLabel)
+### [menubarLabel](#menubarlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Menubar Preferences Panel
 
 ---
 
-### [showSectionHeadingsInMenubar](#showSectionHeadingsInMenubar)
+### [showSectionHeadingsInMenubar](#showsectionheadingsinmenubar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,14 +4,14 @@ Caption Tools
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [doPasteTextAsCaption](#doPasteTextAsCaption)
+ * [doPasteTextAsCaption](#dopastetextascaption)
 
 ## API Documentation
 
 ### Functions
 
 
-### [doPasteTextAsCaption](#doPasteTextAsCaption)
+### [doPasteTextAsCaption](#dopastetextascaption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

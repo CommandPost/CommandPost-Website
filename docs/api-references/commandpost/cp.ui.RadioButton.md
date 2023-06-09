@@ -25,15 +25,15 @@ myButton(false) == false	-- now false
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [checked](#checked)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doCheck](#doCheck)
- * [doLayout](#doLayout)
- * [doPress](#doPress)
- * [doToggle](#doToggle)
- * [doUncheck](#doUncheck)
- * [loadLayout](#loadLayout)
+ * [doCheck](#docheck)
+ * [doLayout](#dolayout)
+ * [doPress](#dopress)
+ * [doToggle](#dotoggle)
+ * [doUncheck](#douncheck)
+ * [loadLayout](#loadlayout)
  * [press](#press)
- * [RadioButton](#RadioButton)
- * [saveLayout](#saveLayout)
+ * [RadioButton](#radiobutton)
+ * [saveLayout](#savelayout)
  * [toggle](#toggle)
 
 ## API Documentation
@@ -68,7 +68,7 @@ myButton(false) == false	-- now false
 ### Methods
 
 
-### [doCheck](#doCheck)
+### [doCheck](#docheck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doToggle](#doToggle)
+### [doToggle](#dotoggle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doUncheck](#doUncheck)
+### [doUncheck](#douncheck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [RadioButton](#RadioButton)
+### [RadioButton](#radiobutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,33 +4,33 @@ Stream Deck Preferences Panel
 
 ## API Overview
 * Variables - Configurable values
- * [defaultIconPath](#defaultIconPath)
- * [supportedExtensions](#supportedExtensions)
+ * [defaultIconPath](#defaulticonpath)
+ * [supportedExtensions](#supportedextensions)
 * Functions - API calls offered directly by the extension
- * [buildIconFromLabel](#buildIconFromLabel)
- * [processEncodedIcon](#processEncodedIcon)
+ * [buildIconFromLabel](#buildiconfromlabel)
+ * [processEncodedIcon](#processencodedicon)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [automaticallyApplyIconFromAction](#automaticallyApplyIconFromAction)
- * [backgroundColour](#backgroundColour)
- * [iconHistory](#iconHistory)
- * [lastDevice](#lastDevice)
- * [lastExportPath](#lastExportPath)
- * [lastIconPath](#lastIconPath)
- * [lastImportPath](#lastImportPath)
- * [lastUnit](#lastUnit)
+ * [automaticallyApplyIconFromAction](#automaticallyapplyiconfromaction)
+ * [backgroundColour](#backgroundcolour)
+ * [iconHistory](#iconhistory)
+ * [lastDevice](#lastdevice)
+ * [lastExportPath](#lastexportpath)
+ * [lastIconPath](#lasticonpath)
+ * [lastImportPath](#lastimportpath)
+ * [lastUnit](#lastunit)
  * [pasteboard](#pasteboard)
- * [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
- * [resizeImagesOnImport](#resizeImagesOnImport)
- * [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+ * [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
+ * [resizeImagesOnImport](#resizeimagesonimport)
+ * [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [setItem](#setItem)
+ * [setItem](#setitem)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultIconPath](#defaultIconPath)
+### [defaultIconPath](#defaulticonpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [supportedExtensions](#supportedExtensions)
+### [supportedExtensions](#supportedextensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Stream Deck Preferences Panel
 ### Functions
 
 
-### [buildIconFromLabel](#buildIconFromLabel)
+### [buildIconFromLabel](#buildiconfromlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [processEncodedIcon](#processEncodedIcon)
+### [processEncodedIcon](#processencodedicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Stream Deck Preferences Panel
 ### Fields
 
 
-### [automaticallyApplyIconFromAction](#automaticallyApplyIconFromAction)
+### [automaticallyApplyIconFromAction](#automaticallyapplyiconfromaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [backgroundColour](#backgroundColour)
+### [backgroundColour](#backgroundcolour)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [iconHistory](#iconHistory)
+### [iconHistory](#iconhistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [lastDevice](#lastDevice)
+### [lastDevice](#lastdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [lastIconPath](#lastIconPath)
+### [lastIconPath](#lasticonpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [lastUnit](#lastUnit)
+### [lastUnit](#lastunit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
+### [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [resizeImagesOnImport](#resizeImagesOnImport)
+### [resizeImagesOnImport](#resizeimagesonimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Stream Deck Preferences Panel
 
 ---
 
-### [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+### [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ Stream Deck Preferences Panel
 ### Methods
 
 
-### [setItem](#setItem)
+### [setItem](#setitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

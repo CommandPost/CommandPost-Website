@@ -9,7 +9,7 @@ that appear in Final Cut Pro.
  * [strings](#strings)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [find](#find)
- * [findKeys](#findKeys)
+ * [findKeys](#findkeys)
 
 ## API Documentation
 
@@ -41,7 +41,7 @@ that appear in Final Cut Pro.
 
 ---
 
-### [findKeys](#findKeys)
+### [findKeys](#findkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

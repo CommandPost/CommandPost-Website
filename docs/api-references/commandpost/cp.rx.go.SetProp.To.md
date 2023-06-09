@@ -7,14 +7,14 @@ A `Statement.Modifier` that defines what value to set a `cp.prop` to.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Then](#Then)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Methods
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

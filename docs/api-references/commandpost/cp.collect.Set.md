@@ -45,23 +45,23 @@ a + b | c ~= a + (b | c)
  * [has](#has)
  * [intersection](#intersection)
  * [is](#is)
- * [isComplement](#isComplement)
+ * [isComplement](#iscomplement)
  * [size](#size)
- * [symetricDifference](#symetricDifference)
+ * [symetricDifference](#symetricdifference)
  * [union](#union)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [clone](#clone)
- * [fromList](#fromList)
- * [fromMap](#fromMap)
+ * [fromList](#fromlist)
+ * [fromMap](#frommap)
  * [of](#of)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [complement](#complement)
  * [difference](#difference)
  * [has](#has)
  * [intersection](#intersection)
- * [isComplement](#isComplement)
+ * [isComplement](#iscomplement)
  * [size](#size)
- * [symetricDifference](#symetricDifference)
+ * [symetricDifference](#symetricdifference)
  * [union](#union)
 
 ## API Documentation
@@ -156,7 +156,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [isComplement](#isComplement)
+### [isComplement](#iscomplement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [symetricDifference](#symetricDifference)
+### [symetricDifference](#symetricdifference)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [fromList](#fromList)
+### [fromList](#fromlist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [fromMap](#fromMap)
+### [fromMap](#frommap)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -316,7 +316,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [isComplement](#isComplement)
+### [isComplement](#iscomplement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -342,7 +342,7 @@ a + b | c ~= a + (b | c)
 
 ---
 
-### [symetricDifference](#symetricDifference)
+### [symetricDifference](#symetricdifference)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

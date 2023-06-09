@@ -4,33 +4,33 @@ Pasteboard Manager.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NUMBER_OF_PASTEBOARD_BUFFERS](#NUMBER_OF_PASTEBOARD_BUFFERS)
- * [RESTART_DELAY](#RESTART_DELAY)
+ * [NUMBER_OF_PASTEBOARD_BUFFERS](#number_of_pasteboard_buffers)
+ * [RESTART_DELAY](#restart_delay)
 * Variables - Configurable values
- * [excludedClassnames](#excludedClassnames)
- * [WATCHER_FREQUENCY](#WATCHER_FREQUENCY)
+ * [excludedClassnames](#excludedclassnames)
+ * [WATCHER_FREQUENCY](#watcher_frequency)
 * Functions - API calls offered directly by the extension
- * [copyWithCustomClipName](#copyWithCustomClipName)
- * [doDecodeBuffer](#doDecodeBuffer)
- * [doRestoreFromBuffer](#doRestoreFromBuffer)
- * [doSaveToBuffer](#doSaveToBuffer)
- * [doWaitForData](#doWaitForData)
- * [doWaitForFreshData](#doWaitForFreshData)
- * [getClassname](#getClassname)
- * [isTimelineClip](#isTimelineClip)
- * [ninjaPasteboardCopy](#ninjaPasteboardCopy)
- * [overrideNextClipName](#overrideNextClipName)
- * [processArray](#processArray)
- * [processContent](#processContent)
- * [processObject](#processObject)
- * [readFCPXData](#readFCPXData)
- * [startWatching](#startWatching)
- * [stopWatching](#stopWatching)
- * [supportsContainedItems](#supportsContainedItems)
- * [unarchiveFCPXData](#unarchiveFCPXData)
+ * [copyWithCustomClipName](#copywithcustomclipname)
+ * [doDecodeBuffer](#dodecodebuffer)
+ * [doRestoreFromBuffer](#dorestorefrombuffer)
+ * [doSaveToBuffer](#dosavetobuffer)
+ * [doWaitForData](#dowaitfordata)
+ * [doWaitForFreshData](#dowaitforfreshdata)
+ * [getClassname](#getclassname)
+ * [isTimelineClip](#istimelineclip)
+ * [ninjaPasteboardCopy](#ninjapasteboardcopy)
+ * [overrideNextClipName](#overridenextclipname)
+ * [processArray](#processarray)
+ * [processContent](#processcontent)
+ * [processObject](#processobject)
+ * [readFCPXData](#readfcpxdata)
+ * [startWatching](#startwatching)
+ * [stopWatching](#stopwatching)
+ * [supportsContainedItems](#supportscontaineditems)
+ * [unarchiveFCPXData](#unarchivefcpxdata)
  * [unwatch](#unwatch)
  * [watch](#watch)
- * [writeFCPXData](#writeFCPXData)
+ * [writeFCPXData](#writefcpxdata)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [buffer](#buffer)
  * [watching](#watching)
@@ -40,7 +40,7 @@ Pasteboard Manager.
 ### Constants
 
 
-### [NUMBER_OF_PASTEBOARD_BUFFERS](#NUMBER_OF_PASTEBOARD_BUFFERS)
+### [NUMBER_OF_PASTEBOARD_BUFFERS](#number_of_pasteboard_buffers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Pasteboard Manager.
 
 ---
 
-### [RESTART_DELAY](#RESTART_DELAY)
+### [RESTART_DELAY](#restart_delay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Pasteboard Manager.
 ### Variables
 
 
-### [excludedClassnames](#excludedClassnames)
+### [excludedClassnames](#excludedclassnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Pasteboard Manager.
 
 ---
 
-### [WATCHER_FREQUENCY](#WATCHER_FREQUENCY)
+### [WATCHER_FREQUENCY](#watcher_frequency)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Pasteboard Manager.
 ### Functions
 
 
-### [copyWithCustomClipName](#copyWithCustomClipName)
+### [copyWithCustomClipName](#copywithcustomclipname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Pasteboard Manager.
 
 ---
 
-### [doDecodeBuffer](#doDecodeBuffer)
+### [doDecodeBuffer](#dodecodebuffer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Pasteboard Manager.
 
 ---
 
-### [doRestoreFromBuffer](#doRestoreFromBuffer)
+### [doRestoreFromBuffer](#dorestorefrombuffer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ Pasteboard Manager.
 
 ---
 
-### [doSaveToBuffer](#doSaveToBuffer)
+### [doSaveToBuffer](#dosavetobuffer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ Pasteboard Manager.
 
 ---
 
-### [doWaitForData](#doWaitForData)
+### [doWaitForData](#dowaitfordata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Pasteboard Manager.
 
 ---
 
-### [doWaitForFreshData](#doWaitForFreshData)
+### [doWaitForFreshData](#dowaitforfreshdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ Pasteboard Manager.
 
 ---
 
-### [getClassname](#getClassname)
+### [getClassname](#getclassname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Pasteboard Manager.
 
 ---
 
-### [isTimelineClip](#isTimelineClip)
+### [isTimelineClip](#istimelineclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Pasteboard Manager.
 
 ---
 
-### [ninjaPasteboardCopy](#ninjaPasteboardCopy)
+### [ninjaPasteboardCopy](#ninjapasteboardcopy)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -201,7 +201,7 @@ Pasteboard Manager.
 
 ---
 
-### [overrideNextClipName](#overrideNextClipName)
+### [overrideNextClipName](#overridenextclipname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ Pasteboard Manager.
 
 ---
 
-### [processArray](#processArray)
+### [processArray](#processarray)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ Pasteboard Manager.
 
 ---
 
-### [processContent](#processContent)
+### [processContent](#processcontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Pasteboard Manager.
 
 ---
 
-### [processObject](#processObject)
+### [processObject](#processobject)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ Pasteboard Manager.
 
 ---
 
-### [readFCPXData](#readFCPXData)
+### [readFCPXData](#readfcpxdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ Pasteboard Manager.
 
 ---
 
-### [startWatching](#startWatching)
+### [startWatching](#startwatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ Pasteboard Manager.
 
 ---
 
-### [stopWatching](#stopWatching)
+### [stopWatching](#stopwatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ Pasteboard Manager.
 
 ---
 
-### [supportsContainedItems](#supportsContainedItems)
+### [supportsContainedItems](#supportscontaineditems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ Pasteboard Manager.
 
 ---
 
-### [unarchiveFCPXData](#unarchiveFCPXData)
+### [unarchiveFCPXData](#unarchivefcpxdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -344,7 +344,7 @@ Pasteboard Manager.
 
 ---
 
-### [writeFCPXData](#writeFCPXData)
+### [writeFCPXData](#writefcpxdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

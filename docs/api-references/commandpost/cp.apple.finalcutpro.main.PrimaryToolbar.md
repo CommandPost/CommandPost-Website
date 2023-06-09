@@ -6,16 +6,16 @@ Timeline Toolbar.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PrimaryToolbar](#PrimaryToolbar)
+ * [PrimaryToolbar](#primarytoolbar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [backgroundTasksWindow](#backgroundTasksWindow)
- * [browserShowing](#browserShowing)
+ * [backgroundTasksWindow](#backgroundtaskswindow)
+ * [browserShowing](#browsershowing)
  * [extensions](#extensions)
- * [inspectorShowing](#inspectorShowing)
- * [keywordEditor](#keywordEditor)
- * [mediaImport](#mediaImport)
- * [shareButton](#shareButton)
- * [timelineShowing](#timelineShowing)
+ * [inspectorShowing](#inspectorshowing)
+ * [keywordEditor](#keywordeditor)
+ * [mediaImport](#mediaimport)
+ * [shareButton](#sharebutton)
+ * [timelineShowing](#timelineshowing)
 
 ## API Documentation
 
@@ -37,7 +37,7 @@ Timeline Toolbar.
 ### Constructors
 
 
-### [PrimaryToolbar](#PrimaryToolbar)
+### [PrimaryToolbar](#primarytoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Timeline Toolbar.
 ### Fields
 
 
-### [backgroundTasksWindow](#backgroundTasksWindow)
+### [backgroundTasksWindow](#backgroundtaskswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Timeline Toolbar.
 
 ---
 
-### [browserShowing](#browserShowing)
+### [browserShowing](#browsershowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Timeline Toolbar.
 
 ---
 
-### [inspectorShowing](#inspectorShowing)
+### [inspectorShowing](#inspectorshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Timeline Toolbar.
 
 ---
 
-### [keywordEditor](#keywordEditor)
+### [keywordEditor](#keywordeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Timeline Toolbar.
 
 ---
 
-### [mediaImport](#mediaImport)
+### [mediaImport](#mediaimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Timeline Toolbar.
 
 ---
 
-### [shareButton](#shareButton)
+### [shareButton](#sharebutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Timeline Toolbar.
 
 ---
 
-### [timelineShowing](#timelineShowing)
+### [timelineShowing](#timelineshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

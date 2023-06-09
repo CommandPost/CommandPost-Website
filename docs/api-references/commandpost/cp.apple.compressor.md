@@ -7,15 +7,15 @@ Represents the Compressor application, providing functions that allow different 
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [ALLOWED_IMPORT_ALL_EXTENSIONS](#ALLOWED_IMPORT_ALL_EXTENSIONS)
- * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
- * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
- * [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
- * [BUNDLE_ID](#BUNDLE_ID)
- * [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+ * [ALLOWED_IMPORT_ALL_EXTENSIONS](#allowed_import_all_extensions)
+ * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
+ * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
+ * [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
+ * [BUNDLE_ID](#bundle_id)
+ * [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [bundleID](#bundleID)
- * [doRestart](#doRestart)
+ * [bundleID](#bundleid)
+ * [doRestart](#dorestart)
  * [hide](#hide)
  * [launch](#launch)
  * [notifier](#notifier)
@@ -28,7 +28,7 @@ Represents the Compressor application, providing functions that allow different 
 ### Constants
 
 
-### [ALLOWED_IMPORT_ALL_EXTENSIONS](#ALLOWED_IMPORT_ALL_EXTENSIONS)
+### [ALLOWED_IMPORT_ALL_EXTENSIONS](#allowed_import_all_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
+### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
+### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
+### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [BUNDLE_ID](#BUNDLE_ID)
+### [BUNDLE_ID](#bundle_id)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Represents the Compressor application, providing functions that allow different 
 ### Methods
 
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ---
 
-### [doRestart](#doRestart)
+### [doRestart](#dorestart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

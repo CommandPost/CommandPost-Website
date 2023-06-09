@@ -13,16 +13,16 @@ Notes:
 * Functions - API calls offered directly by the extension
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [getInterface](#getInterface)
- * [getName](#getName)
- * [getPort](#getPort)
- * [maxBodySize](#maxBodySize)
+ * [getInterface](#getinterface)
+ * [getName](#getname)
+ * [getPort](#getport)
+ * [maxBodySize](#maxbodysize)
  * [send](#send)
- * [setCallback](#setCallback)
- * [setInterface](#setInterface)
- * [setName](#setName)
- * [setPassword](#setPassword)
- * [setPort](#setPort)
+ * [setCallback](#setcallback)
+ * [setInterface](#setinterface)
+ * [setName](#setname)
+ * [setPassword](#setpassword)
+ * [setPort](#setport)
  * [start](#start)
  * [stop](#stop)
  * [websocket](#websocket)
@@ -47,7 +47,7 @@ Notes:
 ### Methods
 
 
-### [getInterface](#getInterface)
+### [getInterface](#getinterface)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Notes:
 
 ---
 
-### [getName](#getName)
+### [getName](#getname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Notes:
 
 ---
 
-### [getPort](#getPort)
+### [getPort](#getport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Notes:
 
 ---
 
-### [maxBodySize](#maxBodySize)
+### [maxBodySize](#maxbodysize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Notes:
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Notes:
 
 ---
 
-### [setInterface](#setInterface)
+### [setInterface](#setinterface)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Notes:
 
 ---
 
-### [setName](#setName)
+### [setName](#setname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Notes:
 
 ---
 
-### [setPassword](#setPassword)
+### [setPassword](#setpassword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Notes:
 
 ---
 
-### [setPort](#setPort)
+### [setPort](#setport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

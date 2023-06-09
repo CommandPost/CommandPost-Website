@@ -4,20 +4,20 @@ Watch for changes to the associated wifi network
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [eventTypes](#eventTypes)
+ * [eventTypes](#eventtypes)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [start](#start)
  * [stop](#stop)
- * [watchingFor](#watchingFor)
+ * [watchingFor](#watchingfor)
 
 ## API Documentation
 
 ### Constants
 
 
-### [eventTypes](#eventTypes)
+### [eventTypes](#eventtypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Watch for changes to the associated wifi network
 
 ---
 
-### [watchingFor](#watchingFor)
+### [watchingFor](#watchingfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

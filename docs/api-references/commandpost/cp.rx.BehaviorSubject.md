@@ -6,8 +6,8 @@ recent pushed value, and all subscribers immediately receive the latest value.
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
  * [create](#create)
- * [getValue](#getValue)
- * [onNext](#onNext)
+ * [getValue](#getvalue)
+ * [onNext](#onnext)
  * [subscribe](#subscribe)
 
 ## API Documentation
@@ -28,7 +28,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 
 ---
 
-### [getValue](#getValue)
+### [getValue](#getvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ recent pushed value, and all subscribers immediately receive the latest value.
 
 ---
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

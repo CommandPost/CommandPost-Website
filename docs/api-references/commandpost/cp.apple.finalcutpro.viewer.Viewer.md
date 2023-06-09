@@ -4,53 +4,53 @@ Viewer Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [BACKGROUND](#BACKGROUND)
- * [PLAYBACK_MODE](#PLAYBACK_MODE)
+ * [BACKGROUND](#background)
+ * [PLAYBACK_MODE](#playback_mode)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Viewer](#Viewer)
+ * [Viewer](#viewer)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [background](#background)
- * [betterQuality](#betterQuality)
- * [contentsUI](#contentsUI)
- * [controlBar](#controlBar)
+ * [betterQuality](#betterquality)
+ * [contentsUI](#contentsui)
+ * [controlBar](#controlbar)
  * [frame](#frame)
  * [framerate](#framerate)
- * [getFormat](#getFormat)
- * [hasPlayerControls](#hasPlayerControls)
- * [infoBar](#infoBar)
- * [isEventViewer](#isEventViewer)
- * [isMainViewer](#isMainViewer)
- * [isOnPrimary](#isOnPrimary)
- * [isOnSecondary](#isOnSecondary)
- * [playbackMode](#playbackMode)
- * [playButton](#playButton)
+ * [getFormat](#getformat)
+ * [hasPlayerControls](#hasplayercontrols)
+ * [infoBar](#infobar)
+ * [isEventViewer](#iseventviewer)
+ * [isMainViewer](#ismainviewer)
+ * [isOnPrimary](#isonprimary)
+ * [isOnSecondary](#isonsecondary)
+ * [playbackMode](#playbackmode)
+ * [playButton](#playbutton)
  * [timecode](#timecode)
- * [timecodeField](#timecodeField)
+ * [timecodeField](#timecodefield)
  * [title](#title)
- * [usingProxies](#usingProxies)
- * [videoImage](#videoImage)
- * [videoImageUI](#videoImageUI)
+ * [usingProxies](#usingproxies)
+ * [videoImage](#videoimage)
+ * [videoImageUI](#videoimageui)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [currentWindow](#currentWindow)
- * [doHide](#doHide)
- * [doPause](#doPause)
- * [doPlay](#doPlay)
- * [doShowOnPrimary](#doShowOnPrimary)
- * [doShowOnSecondary](#doShowOnSecondary)
+ * [currentWindow](#currentwindow)
+ * [doHide](#dohide)
+ * [doPause](#dopause)
+ * [doPlay](#doplay)
+ * [doShowOnPrimary](#doshowonprimary)
+ * [doShowOnSecondary](#doshowonsecondary)
  * [hide](#hide)
  * [notifier](#notifier)
- * [showOnPrimary](#showOnPrimary)
- * [showOnSecondary](#showOnSecondary)
+ * [showOnPrimary](#showonprimary)
+ * [showOnSecondary](#showonsecondary)
 
 ## API Documentation
 
 ### Constants
 
 
-### [BACKGROUND](#BACKGROUND)
+### [BACKGROUND](#background)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Viewer Module.
 
 ---
 
-### [PLAYBACK_MODE](#PLAYBACK_MODE)
+### [PLAYBACK_MODE](#playback_mode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Viewer Module.
 ### Constructors
 
 
-### [Viewer](#Viewer)
+### [Viewer](#viewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Viewer Module.
 
 ---
 
-### [betterQuality](#betterQuality)
+### [betterQuality](#betterquality)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Viewer Module.
 
 ---
 
-### [contentsUI](#contentsUI)
+### [contentsUI](#contentsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Viewer Module.
 
 ---
 
-### [controlBar](#controlBar)
+### [controlBar](#controlbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Viewer Module.
 
 ---
 
-### [getFormat](#getFormat)
+### [getFormat](#getformat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Viewer Module.
 
 ---
 
-### [hasPlayerControls](#hasPlayerControls)
+### [hasPlayerControls](#hasplayercontrols)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Viewer Module.
 
 ---
 
-### [infoBar](#infoBar)
+### [infoBar](#infobar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ Viewer Module.
 
 ---
 
-### [isEventViewer](#isEventViewer)
+### [isEventViewer](#iseventviewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ Viewer Module.
 
 ---
 
-### [isMainViewer](#isMainViewer)
+### [isMainViewer](#ismainviewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ Viewer Module.
 
 ---
 
-### [isOnPrimary](#isOnPrimary)
+### [isOnPrimary](#isonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ Viewer Module.
 
 ---
 
-### [isOnSecondary](#isOnSecondary)
+### [isOnSecondary](#isonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -234,7 +234,7 @@ Viewer Module.
 
 ---
 
-### [playbackMode](#playbackMode)
+### [playbackMode](#playbackmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -244,7 +244,7 @@ Viewer Module.
 
 ---
 
-### [playButton](#playButton)
+### [playButton](#playbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ Viewer Module.
 
 ---
 
-### [timecodeField](#timecodeField)
+### [timecodeField](#timecodefield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ Viewer Module.
 
 ---
 
-### [usingProxies](#usingProxies)
+### [usingProxies](#usingproxies)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ Viewer Module.
 
 ---
 
-### [videoImage](#videoImage)
+### [videoImage](#videoimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -307,7 +307,7 @@ Viewer Module.
 
 ---
 
-### [videoImageUI](#videoImageUI)
+### [videoImageUI](#videoimageui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -332,7 +332,7 @@ Viewer Module.
 
 ---
 
-### [currentWindow](#currentWindow)
+### [currentWindow](#currentwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -345,7 +345,7 @@ Viewer Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -358,7 +358,7 @@ Viewer Module.
 
 ---
 
-### [doPause](#doPause)
+### [doPause](#dopause)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -371,7 +371,7 @@ Viewer Module.
 
 ---
 
-### [doPlay](#doPlay)
+### [doPlay](#doplay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ Viewer Module.
 
 ---
 
-### [doShowOnPrimary](#doShowOnPrimary)
+### [doShowOnPrimary](#doshowonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -397,7 +397,7 @@ Viewer Module.
 
 ---
 
-### [doShowOnSecondary](#doShowOnSecondary)
+### [doShowOnSecondary](#doshowonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -436,7 +436,7 @@ Viewer Module.
 
 ---
 
-### [showOnPrimary](#showOnPrimary)
+### [showOnPrimary](#showonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -449,7 +449,7 @@ Viewer Module.
 
 ---
 
-### [showOnSecondary](#showOnSecondary)
+### [showOnSecondary](#showonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

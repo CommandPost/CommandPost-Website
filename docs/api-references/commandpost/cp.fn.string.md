@@ -4,7 +4,7 @@ String-related functional programming helpers.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [isEmpty](#isEmpty)
+ * [isEmpty](#isempty)
  * [match](#match)
 
 ## API Documentation
@@ -12,7 +12,7 @@ String-related functional programming helpers.
 ### Functions
 
 
-### [isEmpty](#isEmpty)
+### [isEmpty](#isempty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

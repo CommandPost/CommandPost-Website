@@ -57,17 +57,17 @@ Core CommandPost functionality.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [imageBase64](#imageBase64)
+ * [imageBase64](#imagebase64)
  * [init](#init)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [connectClip](#connectClip)
+ * [connectClip](#connectclip)
 
 ## API Documentation
 
 ### Functions
 
 
-### [imageBase64](#imageBase64)
+### [imageBase64](#imagebase64)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Core CommandPost functionality.
 ### Fields
 
 
-### [connectClip](#connectClip)
+### [connectClip](#connectclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -44,9 +44,9 @@ Note that `text` values are not in any specific encoding, since they are stored 
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [char](#char)
- * [fromCodepoints](#fromCodepoints)
- * [fromFile](#fromFile)
- * [fromString](#fromString)
+ * [fromCodepoints](#fromcodepoints)
+ * [fromFile](#fromfile)
+ * [fromString](#fromstring)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [encode](#encode)
  * [find](#find)
@@ -100,7 +100,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 
 ---
 
-### [fromCodepoints](#fromCodepoints)
+### [fromCodepoints](#fromcodepoints)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 
 ---
 
-### [fromFile](#fromFile)
+### [fromFile](#fromfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 
 ---
 
-### [fromString](#fromString)
+### [fromString](#fromstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

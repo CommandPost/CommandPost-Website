@@ -21,18 +21,18 @@ the `cp.prop` watchers to trigger.
  * [amperage](#amperage)
  * [capacity](#capacity)
  * [cycles](#cycles)
- * [designCapacity](#designCapacity)
+ * [designCapacity](#designcapacity)
  * [health](#health)
- * [healthCondition](#healthCondition)
- * [isCharged](#isCharged)
- * [isCharging](#isCharging)
- * [isFinishingCharge](#isFinishingCharge)
- * [maxCapacity](#maxCapacity)
- * [otherBatteryInfo](#otherBatteryInfo)
+ * [healthCondition](#healthcondition)
+ * [isCharged](#ischarged)
+ * [isCharging](#ischarging)
+ * [isFinishingCharge](#isfinishingcharge)
+ * [maxCapacity](#maxcapacity)
+ * [otherBatteryInfo](#otherbatteryinfo)
  * [percentage](#percentage)
- * [psuSerial](#psuSerial)
- * [timeRemaining](#timeRemaining)
- * [timeToFullCharge](#timeToFullCharge)
+ * [psuSerial](#psuserial)
+ * [timeRemaining](#timeremaining)
+ * [timeToFullCharge](#timetofullcharge)
  * [voltage](#voltage)
  * [watts](#watts)
 * Variables - Configurable values
@@ -79,7 +79,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [designCapacity](#designCapacity)
+### [designCapacity](#designcapacity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [healthCondition](#healthCondition)
+### [healthCondition](#healthcondition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [isCharged](#isCharged)
+### [isCharged](#ischarged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [isCharging](#isCharging)
+### [isCharging](#ischarging)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [isFinishingCharge](#isFinishingCharge)
+### [isFinishingCharge](#isfinishingcharge)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [maxCapacity](#maxCapacity)
+### [maxCapacity](#maxcapacity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [otherBatteryInfo](#otherBatteryInfo)
+### [otherBatteryInfo](#otherbatteryinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [psuSerial](#psuSerial)
+### [psuSerial](#psuserial)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [timeRemaining](#timeRemaining)
+### [timeRemaining](#timeremaining)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ the `cp.prop` watchers to trigger.
 
 ---
 
-### [timeToFullCharge](#timeToFullCharge)
+### [timeToFullCharge](#timetofullcharge)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

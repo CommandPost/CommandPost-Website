@@ -6,9 +6,9 @@ Fullscreen Shortcuts
 * Variables - Configurable values
  * [enabled](#enabled)
 * Functions - API calls offered directly by the extension
- * [checkCommand](#checkCommand)
- * [ninjaKeyStroke](#ninjaKeyStroke)
- * [performCommand](#performCommand)
+ * [checkCommand](#checkcommand)
+ * [ninjaKeyStroke](#ninjakeystroke)
+ * [performCommand](#performcommand)
  * [update](#update)
 
 ## API Documentation
@@ -28,7 +28,7 @@ Fullscreen Shortcuts
 ### Functions
 
 
-### [checkCommand](#checkCommand)
+### [checkCommand](#checkcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Fullscreen Shortcuts
 
 ---
 
-### [ninjaKeyStroke](#ninjaKeyStroke)
+### [ninjaKeyStroke](#ninjakeystroke)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Fullscreen Shortcuts
 
 ---
 
-### [performCommand](#performCommand)
+### [performCommand](#performcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

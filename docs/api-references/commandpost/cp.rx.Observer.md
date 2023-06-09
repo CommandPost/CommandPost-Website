@@ -8,9 +8,9 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 * Constructors - API calls which return an object, typically one that offers API methods
  * [create](#create)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [onCompleted](#onCompleted)
- * [onError](#onError)
- * [onNext](#onNext)
+ * [onCompleted](#oncompleted)
+ * [onError](#onerror)
+ * [onNext](#onnext)
 
 ## API Documentation
 
@@ -47,7 +47,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 ### Methods
 
 
-### [onCompleted](#onCompleted)
+### [onCompleted](#oncompleted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 
 ---
 
-### [onError](#onError)
+### [onError](#onerror)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 
 ---
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

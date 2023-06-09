@@ -34,16 +34,16 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 * Constants - Useful values which cannot be changed
  * [flags](#flags)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [forAddress](#forAddress)
- * [forAddressPair](#forAddressPair)
- * [forHostName](#forHostName)
+ * [forAddress](#foraddress)
+ * [forAddressPair](#foraddresspair)
+ * [forHostName](#forhostname)
  * [internet](#internet)
- * [linkLocal](#linkLocal)
+ * [linkLocal](#linklocal)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [setCallback](#setCallback)
+ * [setCallback](#setcallback)
  * [start](#start)
  * [status](#status)
- * [statusString](#statusString)
+ * [statusString](#statusstring)
  * [stop](#stop)
 
 ## API Documentation
@@ -63,7 +63,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 ### Constructors
 
 
-### [forAddress](#forAddress)
+### [forAddress](#foraddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 
 ---
 
-### [forAddressPair](#forAddressPair)
+### [forAddressPair](#foraddresspair)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 
 ---
 
-### [forHostName](#forHostName)
+### [forHostName](#forhostname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 
 ---
 
-### [linkLocal](#linkLocal)
+### [linkLocal](#linklocal)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 ### Methods
 
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ A specific test for determining if an OpenVPN network is available.  This exampl
 
 ---
 
-### [statusString](#statusString)
+### [statusString](#statusstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

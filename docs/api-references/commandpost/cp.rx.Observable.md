@@ -9,11 +9,11 @@ Observables push values to [Observers](cp.rx.Observer.md).
  * [create](#create)
  * [defer](#defer)
  * [empty](#empty)
- * [firstEmitting](#firstEmitting)
- * [fromCoroutine](#fromCoroutine)
- * [fromFileByLine](#fromFileByLine)
- * [fromRange](#fromRange)
- * [fromTable](#fromTable)
+ * [firstEmitting](#firstemitting)
+ * [fromCoroutine](#fromcoroutine)
+ * [fromFileByLine](#fromfilebyline)
+ * [fromRange](#fromrange)
+ * [fromTable](#fromtable)
  * [never](#never)
  * [of](#of)
  * [replicate](#replicate)
@@ -24,26 +24,26 @@ Observables push values to [Observers](cp.rx.Observer.md).
  * [average](#average)
  * [buffer](#buffer)
  * [catch](#catch)
- * [combineLatest](#combineLatest)
+ * [combineLatest](#combinelatest)
  * [compact](#compact)
  * [concat](#concat)
  * [contains](#contains)
  * [count](#count)
  * [debounce](#debounce)
- * [defaultIfEmpty](#defaultIfEmpty)
+ * [defaultIfEmpty](#defaultifempty)
  * [delay](#delay)
  * [distinct](#distinct)
- * [distinctUntilChanged](#distinctUntilChanged)
+ * [distinctUntilChanged](#distinctuntilchanged)
  * [dump](#dump)
- * [elementAt](#elementAt)
+ * [elementAt](#elementat)
  * [filter](#filter)
  * [finalize](#finalize)
  * [find](#find)
  * [first](#first)
- * [flatMap](#flatMap)
- * [flatMapLatest](#flatMapLatest)
+ * [flatMap](#flatmap)
+ * [flatMapLatest](#flatmaplatest)
  * [flatten](#flatten)
- * [ignoreElements](#ignoreElements)
+ * [ignoreElements](#ignoreelements)
  * [last](#last)
  * [map](#map)
  * [max](#max)
@@ -55,22 +55,22 @@ Observables push values to [Observers](cp.rx.Observer.md).
  * [reduce](#reduce)
  * [reject](#reject)
  * [retry](#retry)
- * [retryWithDelay](#retryWithDelay)
+ * [retryWithDelay](#retrywithdelay)
  * [sample](#sample)
  * [scan](#scan)
  * [skip](#skip)
- * [skipLast](#skipLast)
- * [skipUntil](#skipUntil)
- * [skipWhile](#skipWhile)
- * [startWith](#startWith)
+ * [skipLast](#skiplast)
+ * [skipUntil](#skipuntil)
+ * [skipWhile](#skipwhile)
+ * [startWith](#startwith)
  * [subscribe](#subscribe)
  * [sum](#sum)
  * [switch](#switch)
- * [switchIfEmpty](#switchIfEmpty)
+ * [switchIfEmpty](#switchifempty)
  * [take](#take)
- * [takeLast](#takeLast)
- * [takeUntil](#takeUntil)
- * [takeWhile](#takeWhile)
+ * [takeLast](#takelast)
+ * [takeUntil](#takeuntil)
+ * [takeWhile](#takewhile)
  * [tap](#tap)
  * [timeout](#timeout)
  * [unpack](#unpack)
@@ -136,7 +136,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [firstEmitting](#firstEmitting)
+### [firstEmitting](#firstemitting)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [fromCoroutine](#fromCoroutine)
+### [fromCoroutine](#fromcoroutine)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [fromFileByLine](#fromFileByLine)
+### [fromFileByLine](#fromfilebyline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [fromRange](#fromRange)
+### [fromRange](#fromrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [fromTable](#fromTable)
+### [fromTable](#fromtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -320,7 +320,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [combineLatest](#combineLatest)
+### [combineLatest](#combinelatest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -398,7 +398,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [defaultIfEmpty](#defaultIfEmpty)
+### [defaultIfEmpty](#defaultifempty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -437,7 +437,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [distinctUntilChanged](#distinctUntilChanged)
+### [distinctUntilChanged](#distinctuntilchanged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -463,7 +463,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [elementAt](#elementAt)
+### [elementAt](#elementat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -528,7 +528,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [flatMap](#flatMap)
+### [flatMap](#flatmap)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -541,7 +541,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [flatMapLatest](#flatMapLatest)
+### [flatMapLatest](#flatmaplatest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -567,7 +567,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [ignoreElements](#ignoreElements)
+### [ignoreElements](#ignoreelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -723,7 +723,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [retryWithDelay](#retryWithDelay)
+### [retryWithDelay](#retrywithdelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -775,7 +775,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [skipLast](#skipLast)
+### [skipLast](#skiplast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -788,7 +788,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [skipUntil](#skipUntil)
+### [skipUntil](#skipuntil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -801,7 +801,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [skipWhile](#skipWhile)
+### [skipWhile](#skipwhile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -814,7 +814,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [startWith](#startWith)
+### [startWith](#startwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -866,7 +866,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [switchIfEmpty](#switchIfEmpty)
+### [switchIfEmpty](#switchifempty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -892,7 +892,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [takeLast](#takeLast)
+### [takeLast](#takelast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -905,7 +905,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [takeUntil](#takeUntil)
+### [takeUntil](#takeuntil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -918,7 +918,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
 
 ---
 
-### [takeWhile](#takeWhile)
+### [takeWhile](#takewhile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

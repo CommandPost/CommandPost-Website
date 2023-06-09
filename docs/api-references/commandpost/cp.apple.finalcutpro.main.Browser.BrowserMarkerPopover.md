@@ -6,7 +6,7 @@ Browser Marker Popup.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [BrowserMarkerPopover](#BrowserMarkerPopover)
+ * [BrowserMarkerPopover](#browsermarkerpopover)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [chapter](#chapter)
  * [completed](#completed)
@@ -14,7 +14,7 @@ Browser Marker Popup.
  * [done](#done)
  * [name](#name)
  * [standard](#standard)
- * [toDo](#toDo)
+ * [toDo](#todo)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
  * [show](#show)
@@ -39,7 +39,7 @@ Browser Marker Popup.
 ### Constructors
 
 
-### [BrowserMarkerPopover](#BrowserMarkerPopover)
+### [BrowserMarkerPopover](#browsermarkerpopover)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Browser Marker Popup.
 
 ---
 
-### [toDo](#toDo)
+### [toDo](#todo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

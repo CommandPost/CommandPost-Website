@@ -4,26 +4,26 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [TYPE](#TYPE)
+ * [TYPE](#type)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorWheel](#ColorWheel)
+ * [ColorWheel](#colorwheel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [brightnessValue](#brightnessValue)
- * [colorOrientation](#colorOrientation)
- * [colorPosition](#colorPosition)
- * [colorValue](#colorValue)
- * [puckPosition](#puckPosition)
+ * [brightnessValue](#brightnessvalue)
+ * [colorOrientation](#colororientation)
+ * [colorPosition](#colorposition)
+ * [colorValue](#colorvalue)
+ * [puckPosition](#puckposition)
  * [reset](#reset)
- * [saturationValue](#saturationValue)
+ * [saturationValue](#saturationvalue)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [brightness](#brightness)
- * [colorWell](#colorWell)
- * [doNudgeColor](#doNudgeColor)
- * [doSelect](#doSelect)
- * [doShow](#doShow)
- * [nudgeColor](#nudgeColor)
+ * [colorWell](#colorwell)
+ * [doNudgeColor](#donudgecolor)
+ * [doSelect](#doselect)
+ * [doShow](#doshow)
+ * [nudgeColor](#nudgecolor)
  * [saturation](#saturation)
  * [select](#select)
  * [show](#show)
@@ -33,7 +33,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 ### Constants
 
 
-### [TYPE](#TYPE)
+### [TYPE](#type)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 ### Constructors
 
 
-### [ColorWheel](#ColorWheel)
+### [ColorWheel](#colorwheel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 ### Fields
 
 
-### [brightnessValue](#brightnessValue)
+### [brightnessValue](#brightnessvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorOrientation](#colorOrientation)
+### [colorOrientation](#colororientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorPosition](#colorPosition)
+### [colorPosition](#colorposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorValue](#colorValue)
+### [colorValue](#colorvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [puckPosition](#puckPosition)
+### [puckPosition](#puckposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [saturationValue](#saturationValue)
+### [saturationValue](#saturationvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [colorWell](#colorWell)
+### [colorWell](#colorwell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [doNudgeColor](#doNudgeColor)
+### [doNudgeColor](#donudgecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -186,7 +186,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [doSelect](#doSelect)
+### [doSelect](#doselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -212,7 +212,7 @@ Represents a single Color Well in the Color Wheels Inspector.
 
 ---
 
-### [nudgeColor](#nudgeColor)
+### [nudgeColor](#nudgecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

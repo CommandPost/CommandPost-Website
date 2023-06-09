@@ -8,19 +8,19 @@ Represents the Speed Popover.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [SpeedPopover](#SpeedPopover)
+ * [SpeedPopover](#speedpopover)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [byDuration](#byDuration)
- * [byRate](#byRate)
+ * [byDuration](#byduration)
+ * [byRate](#byrate)
  * [direction](#direction)
  * [duration](#duration)
  * [forward](#forward)
  * [rate](#rate)
  * [reverse](#reverse)
  * [ripple](#ripple)
- * [setSpeed](#setSpeed)
+ * [setSpeed](#setspeed)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
 
 ## API Documentation
 
@@ -42,7 +42,7 @@ Represents the Speed Popover.
 ### Constructors
 
 
-### [SpeedPopover](#SpeedPopover)
+### [SpeedPopover](#speedpopover)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Represents the Speed Popover.
 ### Fields
 
 
-### [byDuration](#byDuration)
+### [byDuration](#byduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Represents the Speed Popover.
 
 ---
 
-### [byRate](#byRate)
+### [byRate](#byrate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Represents the Speed Popover.
 
 ---
 
-### [setSpeed](#setSpeed)
+### [setSpeed](#setspeed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Represents the Speed Popover.
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

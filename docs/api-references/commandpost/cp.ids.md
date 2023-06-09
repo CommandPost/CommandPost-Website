@@ -6,11 +6,11 @@ Allows managing values/IDs which can vary between versions.
 * Functions - API calls offered directly by the extension
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [currentVersion](#currentVersion)
+ * [currentVersion](#currentversion)
  * [load](#load)
  * [of](#of)
- * [ofCurrent](#ofCurrent)
- * [previousVersion](#previousVersion)
+ * [ofCurrent](#ofcurrent)
+ * [previousVersion](#previousversion)
  * [versions](#versions)
 
 ## API Documentation
@@ -33,7 +33,7 @@ Allows managing values/IDs which can vary between versions.
 ### Methods
 
 
-### [currentVersion](#currentVersion)
+### [currentVersion](#currentversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Allows managing values/IDs which can vary between versions.
 
 ---
 
-### [ofCurrent](#ofCurrent)
+### [ofCurrent](#ofcurrent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Allows managing values/IDs which can vary between versions.
 
 ---
 
-### [previousVersion](#previousVersion)
+### [previousVersion](#previousversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

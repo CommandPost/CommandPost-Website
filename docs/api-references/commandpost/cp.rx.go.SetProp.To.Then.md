@@ -7,16 +7,16 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [Then](#Then)
+ * [Then](#then)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [ThenReset](#ThenReset)
+ * [ThenReset](#thenreset)
 
 ## API Documentation
 
 ### Constants
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ A `Statement.Modifier` that defines what happens when after `SetProp.To` is exec
 ### Methods
 
 
-### [ThenReset](#ThenReset)
+### [ThenReset](#thenreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,31 +4,31 @@ Elgato Stream Deck Manager Plugin.
 
 ## API Overview
 * Variables - Configurable values
- * [defaultLayout](#defaultLayout)
- * [imageCache](#imageCache)
- * [repeatTimers](#repeatTimers)
+ * [defaultLayout](#defaultlayout)
+ * [imageCache](#imagecache)
+ * [repeatTimers](#repeattimers)
 * Functions - API calls offered directly by the extension
- * [buttonCallback](#buttonCallback)
- * [discoveryCallback](#discoveryCallback)
- * [encoderCallback](#encoderCallback)
- * [getDeviceType](#getDeviceType)
- * [getSnippetImage](#getSnippetImage)
- * [screenCallback](#screenCallback)
+ * [buttonCallback](#buttoncallback)
+ * [discoveryCallback](#discoverycallback)
+ * [encoderCallback](#encodercallback)
+ * [getDeviceType](#getdevicetype)
+ * [getSnippetImage](#getsnippetimage)
+ * [screenCallback](#screencallback)
  * [start](#start)
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeBanks](#activeBanks)
- * [automaticallySwitchApplications](#automaticallySwitchApplications)
+ * [activeBanks](#activebanks)
+ * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [enabled](#enabled)
- * [lastApplication](#lastApplication)
- * [lastBundleID](#lastBundleID)
+ * [lastApplication](#lastapplication)
+ * [lastBundleID](#lastbundleid)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultLayout](#defaultLayout)
+### [defaultLayout](#defaultlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [imageCache](#imageCache)
+### [imageCache](#imagecache)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [repeatTimers](#repeatTimers)
+### [repeatTimers](#repeattimers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Elgato Stream Deck Manager Plugin.
 ### Functions
 
 
-### [buttonCallback](#buttonCallback)
+### [buttonCallback](#buttoncallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [discoveryCallback](#discoveryCallback)
+### [discoveryCallback](#discoverycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [encoderCallback](#encoderCallback)
+### [encoderCallback](#encodercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [getDeviceType](#getDeviceType)
+### [getDeviceType](#getdevicetype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [getSnippetImage](#getSnippetImage)
+### [getSnippetImage](#getsnippetimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [screenCallback](#screenCallback)
+### [screenCallback](#screencallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Elgato Stream Deck Manager Plugin.
 ### Fields
 
 
-### [activeBanks](#activeBanks)
+### [activeBanks](#activebanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [automaticallySwitchApplications](#automaticallySwitchApplications)
+### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Elgato Stream Deck Manager Plugin.
 
 ---
 
-### [lastBundleID](#lastBundleID)
+### [lastBundleID](#lastbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

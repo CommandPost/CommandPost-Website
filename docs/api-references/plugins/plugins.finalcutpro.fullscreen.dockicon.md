@@ -8,15 +8,15 @@ our drawing/canvas images will not display correctly.
 
 ## API Overview
 * Variables - Configurable values
- * [dockIconEnabled](#dockIconEnabled)
- * [fcpActiveFullScreen](#fcpActiveFullScreen)
+ * [dockIconEnabled](#dockiconenabled)
+ * [fcpActiveFullScreen](#fcpactivefullscreen)
 
 ## API Documentation
 
 ### Variables
 
 
-### [dockIconEnabled](#dockIconEnabled)
+### [dockIconEnabled](#dockiconenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ our drawing/canvas images will not display correctly.
 
 ---
 
-### [fcpActiveFullScreen](#fcpActiveFullScreen)
+### [fcpActiveFullScreen](#fcpactivefullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

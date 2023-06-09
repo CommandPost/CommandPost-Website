@@ -4,14 +4,14 @@ Adds correct timecode from Sony cameras in a FCPXML.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastExportPath](#lastExportPath)
+ * [lastExportPath](#lastexportpath)
 
 ## API Documentation
 
 ### Fields
 
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

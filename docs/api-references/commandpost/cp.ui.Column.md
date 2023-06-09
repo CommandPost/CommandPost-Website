@@ -10,7 +10,7 @@ Represents a Column in a Table.
  * [selected](#selected)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [rows](#rows)
- * [visibleRows](#visibleRows)
+ * [visibleRows](#visiblerows)
 
 ## API Documentation
 
@@ -67,7 +67,7 @@ Represents a Column in a Table.
 
 ---
 
-### [visibleRows](#visibleRows)
+### [visibleRows](#visiblerows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

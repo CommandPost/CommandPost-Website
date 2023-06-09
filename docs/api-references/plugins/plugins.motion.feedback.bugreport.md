@@ -4,9 +4,9 @@ Sends Apple a Bug Report or Feature Request for Motion.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_TITLE](#DEFAULT_TITLE)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_TITLE](#default_title)
+ * [DEFAULT_WIDTH](#default_width)
 * Functions - API calls offered directly by the extension
  * [open](#open)
 * Fields - Variables which can only be accessed from an object returned by a constructor
@@ -17,7 +17,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 
 ---
 
-### [DEFAULT_TITLE](#DEFAULT_TITLE)
+### [DEFAULT_TITLE](#default_title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Sends Apple a Bug Report or Feature Request for Motion.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

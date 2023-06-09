@@ -273,55 +273,55 @@ So, a little bit tricky. The general rule of thumb is:
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NIL](#NIL)
+ * [NIL](#nil)
 * Functions - API calls offered directly by the extension
  * [bind](#bind)
  * [extend](#extend)
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [AND](#AND)
- * [FALSE](#FALSE)
- * [FROM](#FROM)
- * [IMMUTABLE](#IMMUTABLE)
+ * [AND](#and)
+ * [FALSE](#false)
+ * [FROM](#from)
+ * [IMMUTABLE](#immutable)
  * [new](#new)
- * [NOT](#NOT)
- * [OR](#OR)
- * [THIS](#THIS)
- * [TRUE](#TRUE)
+ * [NOT](#not)
+ * [OR](#or)
+ * [THIS](#this)
+ * [TRUE](#true)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [mainWindow](#mainWindow)
+ * [mainWindow](#mainwindow)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [ABOVE](#ABOVE)
- * [AND](#AND)
- * [ATLEAST](#ATLEAST)
- * [ATMOST](#ATMOST)
- * [BELOW](#BELOW)
+ * [ABOVE](#above)
+ * [AND](#and)
+ * [ATLEAST](#atleast)
+ * [ATMOST](#atmost)
+ * [BELOW](#below)
  * [bind](#bind)
  * [cached](#cached)
  * [clear](#clear)
  * [clone](#clone)
- * [deepTable](#deepTable)
- * [EQ](#EQ)
+ * [deepTable](#deeptable)
+ * [EQ](#eq)
  * [get](#get)
- * [hasWatchers](#hasWatchers)
+ * [hasWatchers](#haswatchers)
  * [id](#id)
- * [IMMUTABLE](#IMMUTABLE)
- * [IS](#IS)
- * [ISNOT](#ISNOT)
+ * [IMMUTABLE](#immutable)
+ * [IS](#is)
+ * [ISNOT](#isnot)
  * [label](#label)
  * [mirror](#mirror)
  * [monitor](#monitor)
  * [mutable](#mutable)
  * [mutate](#mutate)
- * [NEQ](#NEQ)
- * [NOT](#NOT)
- * [OR](#OR)
+ * [NEQ](#neq)
+ * [NOT](#not)
+ * [OR](#or)
  * [owner](#owner)
- * [preWatch](#preWatch)
+ * [preWatch](#prewatch)
  * [set](#set)
- * [shallowTable](#shallowTable)
+ * [shallowTable](#shallowtable)
  * [toggle](#toggle)
- * [toObservable](#toObservable)
+ * [toObservable](#toobservable)
  * [unwatch](#unwatch)
  * [update](#update)
  * [value](#value)
@@ -333,7 +333,7 @@ So, a little bit tricky. The general rule of thumb is:
 ### Constants
 
 
-### [NIL](#NIL)
+### [NIL](#nil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -388,7 +388,7 @@ So, a little bit tricky. The general rule of thumb is:
 ### Constructors
 
 
-### [AND](#AND)
+### [AND](#and)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -401,7 +401,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [FALSE](#FALSE)
+### [FALSE](#false)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -414,7 +414,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [FROM](#FROM)
+### [FROM](#from)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -427,7 +427,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [IMMUTABLE](#IMMUTABLE)
+### [IMMUTABLE](#immutable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -453,7 +453,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [NOT](#NOT)
+### [NOT](#not)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -466,7 +466,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [OR](#OR)
+### [OR](#or)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -479,7 +479,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [THIS](#THIS)
+### [THIS](#this)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -492,7 +492,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [TRUE](#TRUE)
+### [TRUE](#true)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -507,7 +507,7 @@ So, a little bit tricky. The general rule of thumb is:
 ### Fields
 
 
-### [mainWindow](#mainWindow)
+### [mainWindow](#mainwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -519,7 +519,7 @@ So, a little bit tricky. The general rule of thumb is:
 ### Methods
 
 
-### [ABOVE](#ABOVE)
+### [ABOVE](#above)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -532,7 +532,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [AND](#AND)
+### [AND](#and)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -545,7 +545,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [ATLEAST](#ATLEAST)
+### [ATLEAST](#atleast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -558,7 +558,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [ATMOST](#ATMOST)
+### [ATMOST](#atmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -571,7 +571,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [BELOW](#BELOW)
+### [BELOW](#below)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -636,7 +636,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [deepTable](#deepTable)
+### [deepTable](#deeptable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -649,7 +649,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [EQ](#EQ)
+### [EQ](#eq)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -675,7 +675,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [hasWatchers](#hasWatchers)
+### [hasWatchers](#haswatchers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -701,7 +701,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [IMMUTABLE](#IMMUTABLE)
+### [IMMUTABLE](#immutable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -714,7 +714,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [IS](#IS)
+### [IS](#is)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -727,7 +727,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [ISNOT](#ISNOT)
+### [ISNOT](#isnot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -805,7 +805,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [NEQ](#NEQ)
+### [NEQ](#neq)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -818,7 +818,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [NOT](#NOT)
+### [NOT](#not)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -831,7 +831,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [OR](#OR)
+### [OR](#or)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -857,7 +857,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [preWatch](#preWatch)
+### [preWatch](#prewatch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -883,7 +883,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [shallowTable](#shallowTable)
+### [shallowTable](#shallowtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -909,7 +909,7 @@ So, a little bit tricky. The general rule of thumb is:
 
 ---
 
-### [toObservable](#toObservable)
+### [toObservable](#toobservable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -42,15 +42,15 @@ Except where specified above to indicate the color model being used, any key whi
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [definedCollections](#definedCollections)
+ * [definedCollections](#definedcollections)
 * Variables - Configurable values
- * [ansiTerminalColors](#ansiTerminalColors)
+ * [ansiTerminalColors](#ansiterminalcolors)
  * [hammerspoon](#hammerspoon)
  * [x11](#x11)
 * Functions - API calls offered directly by the extension
- * [asHSB](#asHSB)
- * [asRGB](#asRGB)
- * [colorsFor](#colorsFor)
+ * [asHSB](#ashsb)
+ * [asRGB](#asrgb)
+ * [colorsFor](#colorsfor)
  * [lists](#lists)
 
 ## API Documentation
@@ -58,7 +58,7 @@ Except where specified above to indicate the color model being used, any key whi
 ### Constants
 
 
-### [definedCollections](#definedCollections)
+### [definedCollections](#definedcollections)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Except where specified above to indicate the color model being used, any key whi
 ### Variables
 
 
-### [ansiTerminalColors](#ansiTerminalColors)
+### [ansiTerminalColors](#ansiterminalcolors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Except where specified above to indicate the color model being used, any key whi
 ### Functions
 
 
-### [asHSB](#asHSB)
+### [asHSB](#ashsb)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Except where specified above to indicate the color model being used, any key whi
 
 ---
 
-### [asRGB](#asRGB)
+### [asRGB](#asrgb)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Except where specified above to indicate the color model being used, any key whi
 
 ---
 
-### [colorsFor](#colorsFor)
+### [colorsFor](#colorsfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,15 +4,15 @@ Loupedeck CT Manager Plugin.
 
 ## API Overview
 * Variables - Configurable values
- * [defaultLayout](#defaultLayout)
+ * [defaultLayout](#defaultlayout)
 * Functions - API calls offered directly by the extension
- * [connectToTourBox](#connectToTourBox)
+ * [connectToTourBox](#connecttotourbox)
  * [reset](#reset)
- * [resetTimers](#resetTimers)
+ * [resetTimers](#resettimers)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeBanks](#activeBanks)
- * [automaticallySwitchApplications](#automaticallySwitchApplications)
- * [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+ * [activeBanks](#activebanks)
+ * [automaticallySwitchApplications](#automaticallyswitchapplications)
+ * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
  * [enabled](#enabled)
  * [items](#items)
 
@@ -21,7 +21,7 @@ Loupedeck CT Manager Plugin.
 ### Variables
 
 
-### [defaultLayout](#defaultLayout)
+### [defaultLayout](#defaultlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Loupedeck CT Manager Plugin.
 ### Functions
 
 
-### [connectToTourBox](#connectToTourBox)
+### [connectToTourBox](#connecttotourbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Loupedeck CT Manager Plugin.
 
 ---
 
-### [resetTimers](#resetTimers)
+### [resetTimers](#resettimers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Loupedeck CT Manager Plugin.
 ### Fields
 
 
-### [activeBanks](#activeBanks)
+### [activeBanks](#activebanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Loupedeck CT Manager Plugin.
 
 ---
 
-### [automaticallySwitchApplications](#automaticallySwitchApplications)
+### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Loupedeck CT Manager Plugin.
 
 ---
 
-### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -9,7 +9,7 @@ outputs via the standard `print` function.
  * [failed](#failed)
  * [filter](#filter)
  * [printf](#printf)
- * [printSpacer](#printSpacer)
+ * [printSpacer](#printspacer)
  * [start](#start)
  * [stop](#stop)
  * [summary](#summary)
@@ -72,7 +72,7 @@ outputs via the standard `print` function.
 
 ---
 
-### [printSpacer](#printSpacer)
+### [printSpacer](#printspacer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -39,9 +39,9 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 * Constructors - API calls which return an object, typically one that offers API methods
  * [failure](#failure)
  * [from](#from)
- * [okValue](#okValue)
+ * [okValue](#okvalue)
  * [success](#success)
- * [valueErr](#valueErr)
+ * [valueErr](#valueerr)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [get](#get)
  * [log](#log)
@@ -92,7 +92,7 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 
 ---
 
-### [okValue](#okValue)
+### [okValue](#okvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ If you want to perform other tasks, check for `.failure` or `.success` and perfo
 
 ---
 
-### [valueErr](#valueErr)
+### [valueErr](#valueerr)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

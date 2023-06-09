@@ -21,14 +21,14 @@ containing the details of the action to execute if the choice is selected.
  * [cached](#cached)
  * [choices](#choices)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [actionId](#actionId)
+ * [actionId](#actionid)
  * [execute](#execute)
  * [group](#group)
  * [id](#id)
  * [label](#label)
- * [onActionId](#onActionId)
- * [onChoices](#onChoices)
- * [onExecute](#onExecute)
+ * [onActionId](#onactionid)
+ * [onChoices](#onchoices)
+ * [onExecute](#onexecute)
  * [reset](#reset)
 
 ## API Documentation
@@ -73,7 +73,7 @@ containing the details of the action to execute if the choice is selected.
 ### Methods
 
 
-### [actionId](#actionId)
+### [actionId](#actionid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ containing the details of the action to execute if the choice is selected.
 
 ---
 
-### [onActionId](#onActionId)
+### [onActionId](#onactionid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ containing the details of the action to execute if the choice is selected.
 
 ---
 
-### [onChoices](#onChoices)
+### [onChoices](#onchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ containing the details of the action to execute if the choice is selected.
 
 ---
 
-### [onExecute](#onExecute)
+### [onExecute](#onexecute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -9,31 +9,31 @@ Browser Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Browser](#Browser)
+ * [Browser](#browser)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [generators](#generators)
- * [generatorsShowing](#generatorsShowing)
- * [isOnPrimary](#isOnPrimary)
- * [isOnSecondary](#isOnSecondary)
+ * [generatorsShowing](#generatorsshowing)
+ * [isOnPrimary](#isonprimary)
+ * [isOnSecondary](#isonsecondary)
  * [libraries](#libraries)
- * [librariesShowing](#librariesShowing)
- * [markerPopover](#markerPopover)
+ * [librariesShowing](#librariesshowing)
+ * [markerPopover](#markerpopover)
  * [media](#media)
- * [mediaShowing](#mediaShowing)
- * [showGenerators](#showGenerators)
- * [showLibraries](#showLibraries)
- * [showMedia](#showMedia)
+ * [mediaShowing](#mediashowing)
+ * [showGenerators](#showgenerators)
+ * [showLibraries](#showlibraries)
+ * [showMedia](#showmedia)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [appearanceAndFiltering](#appearanceAndFiltering)
- * [doHide](#doHide)
- * [doShow](#doShow)
- * [doShowOnPrimary](#doShowOnPrimary)
- * [doShowOnSecondary](#doShowOnSecondary)
+ * [appearanceAndFiltering](#appearanceandfiltering)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
+ * [doShowOnPrimary](#doshowonprimary)
+ * [doShowOnSecondary](#doshowonsecondary)
  * [hide](#hide)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [showOnPrimary](#showOnPrimary)
- * [showOnSecondary](#showOnSecondary)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [showOnPrimary](#showonprimary)
+ * [showOnSecondary](#showonsecondary)
 
 ## API Documentation
 
@@ -55,7 +55,7 @@ Browser Module.
 ### Constructors
 
 
-### [Browser](#Browser)
+### [Browser](#browser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Browser Module.
 
 ---
 
-### [generatorsShowing](#generatorsShowing)
+### [generatorsShowing](#generatorsshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Browser Module.
 
 ---
 
-### [isOnPrimary](#isOnPrimary)
+### [isOnPrimary](#isonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Browser Module.
 
 ---
 
-### [isOnSecondary](#isOnSecondary)
+### [isOnSecondary](#isonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Browser Module.
 
 ---
 
-### [librariesShowing](#librariesShowing)
+### [librariesShowing](#librariesshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Browser Module.
 
 ---
 
-### [markerPopover](#markerPopover)
+### [markerPopover](#markerpopover)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ Browser Module.
 
 ---
 
-### [mediaShowing](#mediaShowing)
+### [mediaShowing](#mediashowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ Browser Module.
 
 ---
 
-### [showGenerators](#showGenerators)
+### [showGenerators](#showgenerators)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Browser Module.
 
 ---
 
-### [showLibraries](#showLibraries)
+### [showLibraries](#showlibraries)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ Browser Module.
 
 ---
 
-### [showMedia](#showMedia)
+### [showMedia](#showmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ Browser Module.
 ### Methods
 
 
-### [appearanceAndFiltering](#appearanceAndFiltering)
+### [appearanceAndFiltering](#appearanceandfiltering)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ Browser Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Browser Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ Browser Module.
 
 ---
 
-### [doShowOnPrimary](#doShowOnPrimary)
+### [doShowOnPrimary](#doshowonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -246,7 +246,7 @@ Browser Module.
 
 ---
 
-### [doShowOnSecondary](#doShowOnSecondary)
+### [doShowOnSecondary](#doshowonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -272,7 +272,7 @@ Browser Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -285,7 +285,7 @@ Browser Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -298,7 +298,7 @@ Browser Module.
 
 ---
 
-### [showOnPrimary](#showOnPrimary)
+### [showOnPrimary](#showonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -311,7 +311,7 @@ Browser Module.
 
 ---
 
-### [showOnSecondary](#showOnSecondary)
+### [showOnSecondary](#showonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

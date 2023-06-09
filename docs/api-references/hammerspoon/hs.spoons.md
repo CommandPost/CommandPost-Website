@@ -6,13 +6,13 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [bindHotkeysToSpec](#bindHotkeysToSpec)
- * [isInstalled](#isInstalled)
- * [isLoaded](#isLoaded)
+ * [bindHotkeysToSpec](#bindhotkeystospec)
+ * [isInstalled](#isinstalled)
+ * [isLoaded](#isloaded)
  * [list](#list)
- * [newSpoon](#newSpoon)
- * [resourcePath](#resourcePath)
- * [scriptPath](#scriptPath)
+ * [newSpoon](#newspoon)
+ * [resourcePath](#resourcepath)
+ * [scriptPath](#scriptpath)
  * [use](#use)
 
 ## API Documentation
@@ -20,7 +20,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 ### Functions
 
 
-### [bindHotkeysToSpec](#bindHotkeysToSpec)
+### [bindHotkeysToSpec](#bindhotkeystospec)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ---
 
-### [isInstalled](#isInstalled)
+### [isInstalled](#isinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ---
 
-### [isLoaded](#isLoaded)
+### [isLoaded](#isloaded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ---
 
-### [newSpoon](#newSpoon)
+### [newSpoon](#newspoon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ---
 
-### [resourcePath](#resourcePath)
+### [resourcePath](#resourcepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ See https://www.hammerspoon.org/Spoons/ for more information
 
 ---
 
-### [scriptPath](#scriptPath)
+### [scriptPath](#scriptpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

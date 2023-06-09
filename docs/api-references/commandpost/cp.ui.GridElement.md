@@ -9,37 +9,37 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
- * [withColumnsOf](#withColumnsOf)
- * [withHeaderOf](#withHeaderOf)
- * [withRowsOf](#withRowsOf)
+ * [withColumnsOf](#withcolumnsof)
+ * [withHeaderOf](#withheaderof)
+ * [withRowsOf](#withrowsof)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [GridElement](#GridElement)
+ * [GridElement](#gridelement)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [columns](#columns)
- * [columnsUI](#columnsUI)
- * [firstRow](#firstRow)
+ * [columnsUI](#columnsui)
+ * [firstRow](#firstrow)
  * [header](#header)
- * [headerUI](#headerUI)
- * [lastRow](#lastRow)
- * [rowsUI](#rowsUI)
- * [selectedColumns](#selectedColumns)
- * [selectedColumnsUI](#selectedColumnsUI)
- * [selectedRows](#selectedRows)
- * [selectedRowsUI](#selectedRowsUI)
- * [visibleColumns](#visibleColumns)
- * [visibleColumnsUI](#visibleColumnsUI)
- * [visibleRows](#visibleRows)
- * [visibleRowsUI](#visibleRowsUI)
+ * [headerUI](#headerui)
+ * [lastRow](#lastrow)
+ * [rowsUI](#rowsui)
+ * [selectedColumns](#selectedcolumns)
+ * [selectedColumnsUI](#selectedcolumnsui)
+ * [selectedRows](#selectedrows)
+ * [selectedRowsUI](#selectedrowsui)
+ * [visibleColumns](#visiblecolumns)
+ * [visibleColumnsUI](#visiblecolumnsui)
+ * [visibleRows](#visiblerows)
+ * [visibleRowsUI](#visiblerowsui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doSelectRow](#doSelectRow)
- * [fetchColumn](#fetchColumn)
- * [findCell](#findCell)
- * [findColumnIndex](#findColumnIndex)
+ * [doSelectRow](#doselectrow)
+ * [fetchColumn](#fetchcolumn)
+ * [findCell](#findcell)
+ * [findColumnIndex](#findcolumnindex)
  * [row](#row)
- * [selectRow](#selectRow)
- * [selectRowAt](#selectRowAt)
- * [selectRows](#selectRows)
- * [visitRow](#visitRow)
+ * [selectRow](#selectrow)
+ * [selectRowAt](#selectrowat)
+ * [selectRows](#selectrows)
+ * [visitRow](#visitrow)
 
 ## API Documentation
 
@@ -59,7 +59,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [withColumnsOf](#withColumnsOf)
+### [withColumnsOf](#withcolumnsof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [withHeaderOf](#withHeaderOf)
+### [withHeaderOf](#withheaderof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [withRowsOf](#withRowsOf)
+### [withRowsOf](#withrowsof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 ### Constructors
 
 
-### [GridElement](#GridElement)
+### [GridElement](#gridelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [columnsUI](#columnsUI)
+### [columnsUI](#columnsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [firstRow](#firstRow)
+### [firstRow](#firstrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [headerUI](#headerUI)
+### [headerUI](#headerui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [lastRow](#lastRow)
+### [lastRow](#lastrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [rowsUI](#rowsUI)
+### [rowsUI](#rowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectedColumns](#selectedColumns)
+### [selectedColumns](#selectedcolumns)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectedColumnsUI](#selectedColumnsUI)
+### [selectedColumnsUI](#selectedcolumnsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectedRows](#selectedRows)
+### [selectedRows](#selectedrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectedRowsUI](#selectedRowsUI)
+### [selectedRowsUI](#selectedrowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [visibleColumns](#visibleColumns)
+### [visibleColumns](#visiblecolumns)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [visibleColumnsUI](#visibleColumnsUI)
+### [visibleColumnsUI](#visiblecolumnsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [visibleRows](#visibleRows)
+### [visibleRows](#visiblerows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -257,7 +257,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [visibleRowsUI](#visibleRowsUI)
+### [visibleRowsUI](#visiblerowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 ### Methods
 
 
-### [doSelectRow](#doSelectRow)
+### [doSelectRow](#doselectrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [fetchColumn](#fetchColumn)
+### [fetchColumn](#fetchcolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [findCell](#findCell)
+### [findCell](#findcell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [findColumnIndex](#findColumnIndex)
+### [findColumnIndex](#findcolumnindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -334,7 +334,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectRow](#selectRow)
+### [selectRow](#selectrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectRowAt](#selectRowAt)
+### [selectRowAt](#selectrowat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -360,7 +360,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [selectRows](#selectRows)
+### [selectRows](#selectrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -373,7 +373,7 @@ Abstract base class for `AX` elements which form a grid, such as [GridElement](c
 
 ---
 
-### [visitRow](#visitRow)
+### [visitRow](#visitrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

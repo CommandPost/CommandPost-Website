@@ -4,40 +4,40 @@ Timeline Contents Module.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [clipsUI](#clipsUI)
+ * [clipsUI](#clipsui)
  * [matches](#matches)
- * [playheadClipsUI](#playheadClipsUI)
- * [positionClipsUI](#positionClipsUI)
- * [skimmingPlayheadClipsUI](#skimmingPlayheadClipsUI)
+ * [playheadClipsUI](#playheadclipsui)
+ * [positionClipsUI](#positionclipsui)
+ * [skimmingPlayheadClipsUI](#skimmingplayheadclipsui)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Contents](#Contents)
+ * [Contents](#contents)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [children](#children)
- * [isLoaded](#isLoaded)
+ * [isLoaded](#isloaded)
  * [playhead](#playhead)
- * [scrollArea](#scrollArea)
- * [scrollAreaUI](#scrollAreaUI)
- * [selectedChildren](#selectedChildren)
- * [skimmingPlayhead](#skimmingPlayhead)
- * [viewFrame](#viewFrame)
+ * [scrollArea](#scrollarea)
+ * [scrollAreaUI](#scrollareaui)
+ * [selectedChildren](#selectedchildren)
+ * [skimmingPlayhead](#skimmingplayhead)
+ * [viewFrame](#viewframe)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [activePlayhead](#activePlayhead)
- * [doFocus](#doFocus)
- * [doHide](#doHide)
- * [doSelectClip](#doSelectClip)
- * [doSelectClips](#doSelectClips)
- * [doSelectNone](#doSelectNone)
- * [doSelectTopClip](#doSelectTopClip)
- * [doShow](#doShow)
- * [rangeSelectionUI](#rangeSelectionUI)
- * [selectedClipsUI](#selectedClipsUI)
+ * [activePlayhead](#activeplayhead)
+ * [doFocus](#dofocus)
+ * [doHide](#dohide)
+ * [doSelectClip](#doselectclip)
+ * [doSelectClips](#doselectclips)
+ * [doSelectNone](#doselectnone)
+ * [doSelectTopClip](#doselecttopclip)
+ * [doShow](#doshow)
+ * [rangeSelectionUI](#rangeselectionui)
+ * [selectedClipsUI](#selectedclipsui)
 
 ## API Documentation
 
 ### Functions
 
 
-### [clipsUI](#clipsUI)
+### [clipsUI](#clipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Timeline Contents Module.
 
 ---
 
-### [playheadClipsUI](#playheadClipsUI)
+### [playheadClipsUI](#playheadclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Timeline Contents Module.
 
 ---
 
-### [positionClipsUI](#positionClipsUI)
+### [positionClipsUI](#positionclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Timeline Contents Module.
 
 ---
 
-### [skimmingPlayheadClipsUI](#skimmingPlayheadClipsUI)
+### [skimmingPlayheadClipsUI](#skimmingplayheadclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Timeline Contents Module.
 ### Constructors
 
 
-### [Contents](#Contents)
+### [Contents](#contents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Timeline Contents Module.
 
 ---
 
-### [isLoaded](#isLoaded)
+### [isLoaded](#isloaded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Timeline Contents Module.
 
 ---
 
-### [scrollArea](#scrollArea)
+### [scrollArea](#scrollarea)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Timeline Contents Module.
 
 ---
 
-### [scrollAreaUI](#scrollAreaUI)
+### [scrollAreaUI](#scrollareaui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Timeline Contents Module.
 
 ---
 
-### [selectedChildren](#selectedChildren)
+### [selectedChildren](#selectedchildren)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Timeline Contents Module.
 
 ---
 
-### [skimmingPlayhead](#skimmingPlayhead)
+### [skimmingPlayhead](#skimmingplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Timeline Contents Module.
 
 ---
 
-### [viewFrame](#viewFrame)
+### [viewFrame](#viewframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -201,7 +201,7 @@ Timeline Contents Module.
 ### Methods
 
 
-### [activePlayhead](#activePlayhead)
+### [activePlayhead](#activeplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ Timeline Contents Module.
 
 ---
 
-### [doFocus](#doFocus)
+### [doFocus](#dofocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ Timeline Contents Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Timeline Contents Module.
 
 ---
 
-### [doSelectClip](#doSelectClip)
+### [doSelectClip](#doselectclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ Timeline Contents Module.
 
 ---
 
-### [doSelectClips](#doSelectClips)
+### [doSelectClips](#doselectclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ Timeline Contents Module.
 
 ---
 
-### [doSelectNone](#doSelectNone)
+### [doSelectNone](#doselectnone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ Timeline Contents Module.
 
 ---
 
-### [doSelectTopClip](#doSelectTopClip)
+### [doSelectTopClip](#doselecttopclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ Timeline Contents Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ Timeline Contents Module.
 
 ---
 
-### [rangeSelectionUI](#rangeSelectionUI)
+### [rangeSelectionUI](#rangeselectionui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -318,7 +318,7 @@ Timeline Contents Module.
 
 ---
 
-### [selectedClipsUI](#selectedClipsUI)
+### [selectedClipsUI](#selectedclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

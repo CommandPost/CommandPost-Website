@@ -23,18 +23,18 @@ myButton(false) == false	-- now false
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [CheckBox](#CheckBox)
+ * [CheckBox](#checkbox)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [checked](#checked)
  * [title](#title)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [click](#click)
- * [doCheck](#doCheck)
- * [doPress](#doPress)
- * [doUncheck](#doUncheck)
- * [loadLayout](#loadLayout)
+ * [doCheck](#docheck)
+ * [doPress](#dopress)
+ * [doUncheck](#douncheck)
+ * [loadLayout](#loadlayout)
  * [press](#press)
- * [saveLayout](#saveLayout)
+ * [saveLayout](#savelayout)
  * [toggle](#toggle)
 
 ## API Documentation
@@ -57,7 +57,7 @@ myButton(false) == false	-- now false
 ### Constructors
 
 
-### [CheckBox](#CheckBox)
+### [CheckBox](#checkbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doCheck](#doCheck)
+### [doCheck](#docheck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doUncheck](#doUncheck)
+### [doUncheck](#douncheck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

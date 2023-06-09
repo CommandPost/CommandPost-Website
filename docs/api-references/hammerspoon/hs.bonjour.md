@@ -9,15 +9,15 @@ This module will allow you to discover services advertised on your network throu
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [machineServices](#machineServices)
- * [networkServices](#networkServices)
+ * [machineServices](#machineservices)
+ * [networkServices](#networkservices)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [findBrowsableDomains](#findBrowsableDomains)
- * [findRegistrationDomains](#findRegistrationDomains)
- * [findServices](#findServices)
- * [includesPeerToPeer](#includesPeerToPeer)
+ * [findBrowsableDomains](#findbrowsabledomains)
+ * [findRegistrationDomains](#findregistrationdomains)
+ * [findServices](#findservices)
+ * [includesPeerToPeer](#includespeertopeer)
  * [stop](#stop)
 
 ## API Documentation
@@ -25,7 +25,7 @@ This module will allow you to discover services advertised on your network throu
 ### Functions
 
 
-### [machineServices](#machineServices)
+### [machineServices](#machineservices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ This module will allow you to discover services advertised on your network throu
 
 ---
 
-### [networkServices](#networkServices)
+### [networkServices](#networkservices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ This module will allow you to discover services advertised on your network throu
 ### Methods
 
 
-### [findBrowsableDomains](#findBrowsableDomains)
+### [findBrowsableDomains](#findbrowsabledomains)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ This module will allow you to discover services advertised on your network throu
 
 ---
 
-### [findRegistrationDomains](#findRegistrationDomains)
+### [findRegistrationDomains](#findregistrationdomains)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ This module will allow you to discover services advertised on your network throu
 
 ---
 
-### [findServices](#findServices)
+### [findServices](#findservices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ This module will allow you to discover services advertised on your network throu
 
 ---
 
-### [includesPeerToPeer](#includesPeerToPeer)
+### [includesPeerToPeer](#includespeertopeer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

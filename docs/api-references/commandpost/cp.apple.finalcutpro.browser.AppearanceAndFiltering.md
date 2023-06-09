@@ -4,21 +4,21 @@ Clip Appearance & Filtering Menu Popover
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DURATION](#DURATION)
+ * [DURATION](#duration)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [AppearanceAndFiltering](#AppearanceAndFiltering)
+ * [AppearanceAndFiltering](#appearanceandfiltering)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [button](#button)
- * [clipHeight](#clipHeight)
- * [continuousPlayback](#continuousPlayback)
+ * [clipHeight](#clipheight)
+ * [continuousPlayback](#continuousplayback)
  * [duration](#duration)
- * [groupBy](#groupBy)
- * [sortBy](#sortBy)
+ * [groupBy](#groupby)
+ * [sortBy](#sortby)
  * [waveforms](#waveforms)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -26,7 +26,7 @@ Clip Appearance & Filtering Menu Popover
 ### Constants
 
 
-### [DURATION](#DURATION)
+### [DURATION](#duration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Clip Appearance & Filtering Menu Popover
 ### Constructors
 
 
-### [AppearanceAndFiltering](#AppearanceAndFiltering)
+### [AppearanceAndFiltering](#appearanceandfiltering)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Clip Appearance & Filtering Menu Popover
 
 ---
 
-### [clipHeight](#clipHeight)
+### [clipHeight](#clipheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ Clip Appearance & Filtering Menu Popover
 
 ---
 
-### [continuousPlayback](#continuousPlayback)
+### [continuousPlayback](#continuousplayback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Clip Appearance & Filtering Menu Popover
 
 ---
 
-### [groupBy](#groupBy)
+### [groupBy](#groupby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Clip Appearance & Filtering Menu Popover
 
 ---
 
-### [sortBy](#sortBy)
+### [sortBy](#sortby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Clip Appearance & Filtering Menu Popover
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

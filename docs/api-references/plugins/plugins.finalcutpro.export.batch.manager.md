@@ -7,29 +7,29 @@ Manager for the Batch Export Window.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
- * [lastTab](#lastTab)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_WIDTH](#default_width)
+ * [lastTab](#lasttab)
  * [position](#position)
- * [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+ * [WEBVIEW_LABEL](#webview_label)
 * Variables - Configurable values
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [addPanel](#addPanel)
- * [disabledPanels](#disabledPanels)
- * [getHandler](#getHandler)
- * [getLabel](#getLabel)
- * [getWebview](#getWebview)
+ * [addHandler](#addhandler)
+ * [addPanel](#addpanel)
+ * [disabledPanels](#disabledpanels)
+ * [getHandler](#gethandler)
+ * [getLabel](#getlabel)
+ * [getWebview](#getwebview)
  * [hide](#hide)
  * [init](#init)
- * [injectScript](#injectScript)
- * [maxPanelHeight](#maxPanelHeight)
+ * [injectScript](#injectscript)
+ * [maxPanelHeight](#maxpanelheight)
  * [new](#new)
  * [refresh](#refresh)
- * [selectPanel](#selectPanel)
- * [setPanelRenderer](#setPanelRenderer)
+ * [selectPanel](#selectpanel)
+ * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
 
 ## API Documentation
@@ -37,7 +37,7 @@ Manager for the Batch Export Window.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [lastTab](#lastTab)
+### [lastTab](#lasttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+### [WEBVIEW_LABEL](#webview_label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Manager for the Batch Export Window.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [disabledPanels](#disabledPanels)
+### [disabledPanels](#disabledpanels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [getWebview](#getWebview)
+### [getWebview](#getwebview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [maxPanelHeight](#maxPanelHeight)
+### [maxPanelHeight](#maxpanelheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [selectPanel](#selectPanel)
+### [selectPanel](#selectpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ Manager for the Batch Export Window.
 
 ---
 
-### [setPanelRenderer](#setPanelRenderer)
+### [setPanelRenderer](#setpanelrenderer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

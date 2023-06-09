@@ -41,20 +41,20 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [minFloat](#minFloat)
+ * [minFloat](#minfloat)
 * Functions - API calls offered directly by the extension
- * [isFinite](#isFinite)
- * [isInfinite](#isInfinite)
- * [isNaN](#isNaN)
- * [randomFloat](#randomFloat)
- * [randomFromRange](#randomFromRange)
+ * [isFinite](#isfinite)
+ * [isInfinite](#isinfinite)
+ * [isNaN](#isnan)
+ * [randomFloat](#randomfloat)
+ * [randomFromRange](#randomfromrange)
 
 ## API Documentation
 
 ### Constants
 
 
-### [minFloat](#minFloat)
+### [minFloat](#minfloat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 ### Functions
 
 
-### [isFinite](#isFinite)
+### [isFinite](#isfinite)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ---
 
-### [isInfinite](#isInfinite)
+### [isInfinite](#isinfinite)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ---
 
-### [isNaN](#isNaN)
+### [isNaN](#isnan)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ---
 
-### [randomFloat](#randomFloat)
+### [randomFloat](#randomfloat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Additional functions and values that are specific to Hammerspoon which provide e
 
 ---
 
-### [randomFromRange](#randomFromRange)
+### [randomFromRange](#randomfromrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

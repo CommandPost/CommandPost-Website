@@ -6,24 +6,24 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [bytesRequired](#bytesRequired)
- * [fromBuffer](#fromBuffer)
- * [fromBytes](#fromBytes)
- * [fromHex](#fromHex)
- * [isValid](#isValid)
+ * [bytesRequired](#bytesrequired)
+ * [fromBuffer](#frombuffer)
+ * [fromBytes](#frombytes)
+ * [fromHex](#fromhex)
+ * [isValid](#isvalid)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isControlFrame](#isControlFrame)
- * [isNonControlFrame](#isNonControlFrame)
- * [toBytes](#toBytes)
+ * [isControlFrame](#iscontrolframe)
+ * [isNonControlFrame](#isnoncontrolframe)
+ * [toBytes](#tobytes)
 
 ## API Documentation
 
 ### Functions
 
 
-### [bytesRequired](#bytesRequired)
+### [bytesRequired](#bytesrequired)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [fromBuffer](#fromBuffer)
+### [fromBuffer](#frombuffer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [fromBytes](#fromBytes)
+### [fromBytes](#frombytes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [fromHex](#fromHex)
+### [fromHex](#fromhex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [isValid](#isValid)
+### [isValid](#isvalid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 ### Methods
 
 
-### [isControlFrame](#isControlFrame)
+### [isControlFrame](#iscontrolframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [isNonControlFrame](#isNonControlFrame)
+### [isNonControlFrame](#isnoncontrolframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Reads and writes data to and from websocket frame wire protocol data.
 
 ---
 
-### [toBytes](#toBytes)
+### [toBytes](#tobytes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -20,7 +20,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 * Functions - API calls offered directly by the extension
  * [start](#start)
  * [stop](#stop)
- * [toggleIsolate](#toggleIsolate)
+ * [toggleIsolate](#toggleisolate)
 
 ## API Documentation
 
@@ -65,7 +65,7 @@ or automatically by passing an appropriate windowfilter (or a list of apps) to `
 
 ---
 
-### [toggleIsolate](#toggleIsolate)
+### [toggleIsolate](#toggleisolate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

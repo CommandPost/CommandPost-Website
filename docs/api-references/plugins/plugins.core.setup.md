@@ -7,26 +7,26 @@ Manager for the CommandPost Setup Screen.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_TITLE](#DEFAULT_TITLE)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_TITLE](#default_title)
+ * [DEFAULT_WIDTH](#default_width)
  * [enabled](#enabled)
- * [FIRST_PRIORITY](#FIRST_PRIORITY)
- * [LAST_PRIORITY](#LAST_PRIORITY)
+ * [FIRST_PRIORITY](#first_priority)
+ * [LAST_PRIORITY](#last_priority)
  * [visible](#visible)
 * Variables - Configurable values
- * [onboardingRequired](#onboardingRequired)
+ * [onboardingRequired](#onboardingrequired)
  * [position](#position)
 * Functions - API calls offered directly by the extension
- * [addPanel](#addPanel)
- * [currentPanel](#currentPanel)
+ * [addPanel](#addpanel)
+ * [currentPanel](#currentpanel)
  * [delete](#delete)
  * [focus](#focus)
- * [getLabel](#getLabel)
- * [injectScript](#injectScript)
+ * [getLabel](#getlabel)
+ * [injectScript](#injectscript)
  * [new](#new)
- * [nextPanel](#nextPanel)
- * [setPanelRenderer](#setPanelRenderer)
+ * [nextPanel](#nextpanel)
+ * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
  * [update](#update)
 
@@ -35,7 +35,7 @@ Manager for the CommandPost Setup Screen.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [DEFAULT_TITLE](#DEFAULT_TITLE)
+### [DEFAULT_TITLE](#default_title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [FIRST_PRIORITY](#FIRST_PRIORITY)
+### [FIRST_PRIORITY](#first_priority)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [LAST_PRIORITY](#LAST_PRIORITY)
+### [LAST_PRIORITY](#last_priority)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Manager for the CommandPost Setup Screen.
 ### Variables
 
 
-### [onboardingRequired](#onboardingRequired)
+### [onboardingRequired](#onboardingrequired)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Manager for the CommandPost Setup Screen.
 ### Functions
 
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [currentPanel](#currentPanel)
+### [currentPanel](#currentpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -181,7 +181,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [nextPanel](#nextPanel)
+### [nextPanel](#nextpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ Manager for the CommandPost Setup Screen.
 
 ---
 
-### [setPanelRenderer](#setPanelRenderer)
+### [setPanelRenderer](#setpanelrenderer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

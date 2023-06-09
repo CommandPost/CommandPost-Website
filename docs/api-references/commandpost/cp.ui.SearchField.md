@@ -4,16 +4,16 @@ A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [matchesSearch](#matchesSearch)
+ * [matchesSearch](#matchessearch)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [SearchField](#SearchField)
+ * [SearchField](#searchfield)
 
 ## API Documentation
 
 ### Functions
 
 
-### [matchesSearch](#matchesSearch)
+### [matchesSearch](#matchessearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ A [TextField](cp.ui.TextField.md) with a subrole of `AXSearchField`.
 ### Methods
 
 
-### [SearchField](#SearchField)
+### [SearchField](#searchfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

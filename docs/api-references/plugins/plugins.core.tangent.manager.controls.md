@@ -11,7 +11,7 @@ Represents a Tangent Group
 * Methods - API calls which can only be made on an object returned by a constructor
  * [action](#action)
  * [controls](#controls)
- * [findByID](#findByID)
+ * [findByID](#findbyid)
  * [group](#group)
  * [menu](#menu)
  * [parameter](#parameter)
@@ -89,7 +89,7 @@ Represents a Tangent Group
 
 ---
 
-### [findByID](#findByID)
+### [findByID](#findbyid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -7,32 +7,32 @@ Timeline Batch Export Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_CUSTOM_FILENAME](#DEFAULT_CUSTOM_FILENAME)
+ * [DEFAULT_CUSTOM_FILENAME](#default_custom_filename)
 * Functions - API calls offered directly by the extension
- * [batchExport](#batchExport)
- * [batchExportTimelineClips](#batchExportTimelineClips)
- * [changeCustomFilename](#changeCustomFilename)
- * [changeExportDestinationFolder](#changeExportDestinationFolder)
- * [changeExportDestinationPreset](#changeExportDestinationPreset)
- * [getDestinationFolder](#getDestinationFolder)
- * [getDestinationPreset](#getDestinationPreset)
- * [performBatchExport](#performBatchExport)
+ * [batchExport](#batchexport)
+ * [batchExportTimelineClips](#batchexporttimelineclips)
+ * [changeCustomFilename](#changecustomfilename)
+ * [changeExportDestinationFolder](#changeexportdestinationfolder)
+ * [changeExportDestinationPreset](#changeexportdestinationpreset)
+ * [getDestinationFolder](#getdestinationfolder)
+ * [getDestinationPreset](#getdestinationpreset)
+ * [performBatchExport](#performbatchexport)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [customFilename](#customFilename)
- * [destinationPreset](#destinationPreset)
- * [ignoreBackgroundTasks](#ignoreBackgroundTasks)
- * [ignoreInvalidCaptions](#ignoreInvalidCaptions)
- * [ignoreMissingEffects](#ignoreMissingEffects)
- * [ignoreProxies](#ignoreProxies)
- * [replaceExistingFiles](#replaceExistingFiles)
- * [useCustomFilename](#useCustomFilename)
+ * [customFilename](#customfilename)
+ * [destinationPreset](#destinationpreset)
+ * [ignoreBackgroundTasks](#ignorebackgroundtasks)
+ * [ignoreInvalidCaptions](#ignoreinvalidcaptions)
+ * [ignoreMissingEffects](#ignoremissingeffects)
+ * [ignoreProxies](#ignoreproxies)
+ * [replaceExistingFiles](#replaceexistingfiles)
+ * [useCustomFilename](#usecustomfilename)
 
 ## API Documentation
 
 ### Constants
 
 
-### [DEFAULT_CUSTOM_FILENAME](#DEFAULT_CUSTOM_FILENAME)
+### [DEFAULT_CUSTOM_FILENAME](#default_custom_filename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Timeline Batch Export Plugin.
 ### Functions
 
 
-### [batchExport](#batchExport)
+### [batchExport](#batchexport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [batchExportTimelineClips](#batchExportTimelineClips)
+### [batchExportTimelineClips](#batchexporttimelineclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [changeCustomFilename](#changeCustomFilename)
+### [changeCustomFilename](#changecustomfilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [changeExportDestinationFolder](#changeExportDestinationFolder)
+### [changeExportDestinationFolder](#changeexportdestinationfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [changeExportDestinationPreset](#changeExportDestinationPreset)
+### [changeExportDestinationPreset](#changeexportdestinationpreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [getDestinationFolder](#getDestinationFolder)
+### [getDestinationFolder](#getdestinationfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [getDestinationPreset](#getDestinationPreset)
+### [getDestinationPreset](#getdestinationpreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [performBatchExport](#performBatchExport)
+### [performBatchExport](#performbatchexport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Timeline Batch Export Plugin.
 ### Fields
 
 
-### [customFilename](#customFilename)
+### [customFilename](#customfilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [destinationPreset](#destinationPreset)
+### [destinationPreset](#destinationpreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [ignoreBackgroundTasks](#ignoreBackgroundTasks)
+### [ignoreBackgroundTasks](#ignorebackgroundtasks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [ignoreInvalidCaptions](#ignoreInvalidCaptions)
+### [ignoreInvalidCaptions](#ignoreinvalidcaptions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [ignoreMissingEffects](#ignoreMissingEffects)
+### [ignoreMissingEffects](#ignoremissingeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [ignoreProxies](#ignoreProxies)
+### [ignoreProxies](#ignoreproxies)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [replaceExistingFiles](#replaceExistingFiles)
+### [replaceExistingFiles](#replaceexistingfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Timeline Batch Export Plugin.
 
 ---
 
-### [useCustomFilename](#useCustomFilename)
+### [useCustomFilename](#usecustomfilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

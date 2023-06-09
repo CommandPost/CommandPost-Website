@@ -6,11 +6,11 @@ Registers itself with the `core.action.manager`.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [execute](#execute)
- * [getId](#getId)
- * [getId](#getId)
+ * [getId](#getid)
+ * [getId](#getid)
  * [init](#init)
- * [onChoices](#onChoices)
- * [onExecute](#onExecute)
+ * [onChoices](#onchoices)
+ * [onExecute](#onexecute)
  * [reset](#reset)
 
 ## API Documentation
@@ -31,7 +31,7 @@ Registers itself with the `core.action.manager`.
 
 ---
 
-### [getId](#getId)
+### [getId](#getid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Registers itself with the `core.action.manager`.
 
 ---
 
-### [getId](#getId)
+### [getId](#getid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Registers itself with the `core.action.manager`.
 
 ---
 
-### [onChoices](#onChoices)
+### [onChoices](#onchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Registers itself with the `core.action.manager`.
 
 ---
 
-### [onExecute](#onExecute)
+### [onExecute](#onexecute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

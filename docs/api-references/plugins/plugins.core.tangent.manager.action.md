@@ -7,11 +7,11 @@ Represents a Tangent Action
  * [action](#action)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [active](#active)
- * [localActive](#localActive)
+ * [localActive](#localactive)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [is](#is)
- * [onPress](#onPress)
- * [onRelease](#onRelease)
+ * [onPress](#onpress)
+ * [onRelease](#onrelease)
  * [xml](#xml)
 
 ## API Documentation
@@ -44,7 +44,7 @@ Represents a Tangent Action
 
 ---
 
-### [localActive](#localActive)
+### [localActive](#localactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Represents a Tangent Action
 
 ---
 
-### [onPress](#onPress)
+### [onPress](#onpress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Represents a Tangent Action
 
 ---
 
-### [onRelease](#onRelease)
+### [onRelease](#onrelease)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

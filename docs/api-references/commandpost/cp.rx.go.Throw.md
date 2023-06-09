@@ -10,14 +10,14 @@ Throw("There was an error: %s", errorMessage)
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Throw](#Throw)
+ * [Throw](#throw)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [Throw](#Throw)
+### [Throw](#throw)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

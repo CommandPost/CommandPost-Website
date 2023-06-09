@@ -6,17 +6,17 @@ Watch Folder Panel Manager.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addButton](#addButton)
- * [addCheckbox](#addCheckbox)
- * [addContent](#addContent)
- * [addHandler](#addHandler)
- * [addHeading](#addHeading)
- * [addParagraph](#addParagraph)
- * [addPassword](#addPassword)
- * [addSelect](#addSelect)
- * [addTextbox](#addTextbox)
- * [generateContent](#generateContent)
- * [getToolbarItem](#getToolbarItem)
+ * [addButton](#addbutton)
+ * [addCheckbox](#addcheckbox)
+ * [addContent](#addcontent)
+ * [addHandler](#addhandler)
+ * [addHeading](#addheading)
+ * [addParagraph](#addparagraph)
+ * [addPassword](#addpassword)
+ * [addSelect](#addselect)
+ * [addTextbox](#addtextbox)
+ * [generateContent](#generatecontent)
+ * [getToolbarItem](#gettoolbaritem)
 
 ## API Documentation
 
@@ -38,7 +38,7 @@ Watch Folder Panel Manager.
 ### Methods
 
 
-### [addButton](#addButton)
+### [addButton](#addbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addCheckbox](#addCheckbox)
+### [addCheckbox](#addcheckbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addContent](#addContent)
+### [addContent](#addcontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addHeading](#addHeading)
+### [addHeading](#addheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addParagraph](#addParagraph)
+### [addParagraph](#addparagraph)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addPassword](#addPassword)
+### [addPassword](#addpassword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addSelect](#addSelect)
+### [addSelect](#addselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [addTextbox](#addTextbox)
+### [addTextbox](#addtextbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [generateContent](#generateContent)
+### [generateContent](#generatecontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -168,7 +168,7 @@ Watch Folder Panel Manager.
 
 ---
 
-### [getToolbarItem](#getToolbarItem)
+### [getToolbarItem](#gettoolbaritem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

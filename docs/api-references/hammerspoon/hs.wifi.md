@@ -8,16 +8,16 @@ Inspect WiFi networks
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [associate](#associate)
- * [availableNetworks](#availableNetworks)
- * [currentNetwork](#currentNetwork)
+ * [availableNetworks](#availablenetworks)
+ * [currentNetwork](#currentnetwork)
  * [disassociate](#disassociate)
- * [interfaceDetails](#interfaceDetails)
+ * [interfaceDetails](#interfacedetails)
  * [interfaces](#interfaces)
- * [setPower](#setPower)
+ * [setPower](#setpower)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [backgroundScan](#backgroundScan)
+ * [backgroundScan](#backgroundscan)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isDone](#isDone)
+ * [isDone](#isdone)
 
 ## API Documentation
 
@@ -37,7 +37,7 @@ Inspect WiFi networks
 
 ---
 
-### [availableNetworks](#availableNetworks)
+### [availableNetworks](#availablenetworks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Inspect WiFi networks
 
 ---
 
-### [currentNetwork](#currentNetwork)
+### [currentNetwork](#currentnetwork)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Inspect WiFi networks
 
 ---
 
-### [interfaceDetails](#interfaceDetails)
+### [interfaceDetails](#interfacedetails)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Inspect WiFi networks
 
 ---
 
-### [setPower](#setPower)
+### [setPower](#setpower)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Inspect WiFi networks
 ### Constructors
 
 
-### [backgroundScan](#backgroundScan)
+### [backgroundScan](#backgroundscan)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Inspect WiFi networks
 ### Methods
 
 
-### [isDone](#isDone)
+### [isDone](#isdone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

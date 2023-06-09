@@ -4,20 +4,20 @@ Loupedeck Plugin Manager Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+ * [NUMBER_OF_FAVOURITES](#number_of_favourites)
 * Variables - Configurable values
  * [favourites](#favourites)
- * [performAction](#performAction)
+ * [performAction](#performaction)
 * Functions - API calls offered directly by the extension
- * [installPlugin](#installPlugin)
- * [registerAction](#registerAction)
- * [removePlugin](#removePlugin)
- * [requestKeywordShortcuts](#requestKeywordShortcuts)
- * [sendMessage](#sendMessage)
- * [setEnabled](#setEnabled)
- * [startWebSocketClient](#startWebSocketClient)
- * [stopWebSocketClient](#stopWebSocketClient)
- * [updatePlugin](#updatePlugin)
+ * [installPlugin](#installplugin)
+ * [registerAction](#registeraction)
+ * [removePlugin](#removeplugin)
+ * [requestKeywordShortcuts](#requestkeywordshortcuts)
+ * [sendMessage](#sendmessage)
+ * [setEnabled](#setenabled)
+ * [startWebSocketClient](#startwebsocketclient)
+ * [stopWebSocketClient](#stopwebsocketclient)
+ * [updatePlugin](#updateplugin)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
 
@@ -26,7 +26,7 @@ Loupedeck Plugin Manager Plugin.
 ### Constants
 
 
-### [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+### [NUMBER_OF_FAVOURITES](#number_of_favourites)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [performAction](#performAction)
+### [performAction](#performaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Loupedeck Plugin Manager Plugin.
 ### Functions
 
 
-### [installPlugin](#installPlugin)
+### [installPlugin](#installplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [registerAction](#registerAction)
+### [registerAction](#registeraction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [removePlugin](#removePlugin)
+### [removePlugin](#removeplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [requestKeywordShortcuts](#requestKeywordShortcuts)
+### [requestKeywordShortcuts](#requestkeywordshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [sendMessage](#sendMessage)
+### [sendMessage](#sendmessage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [setEnabled](#setEnabled)
+### [setEnabled](#setenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [startWebSocketClient](#startWebSocketClient)
+### [startWebSocketClient](#startwebsocketclient)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [stopWebSocketClient](#stopWebSocketClient)
+### [stopWebSocketClient](#stopwebsocketclient)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Loupedeck Plugin Manager Plugin.
 
 ---
 
-### [updatePlugin](#updatePlugin)
+### [updatePlugin](#updateplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

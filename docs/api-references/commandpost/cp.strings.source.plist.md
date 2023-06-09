@@ -12,15 +12,15 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [defaultCacheSeconds](#defaultCacheSeconds)
+ * [defaultCacheSeconds](#defaultcacheseconds)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [context](#context)
  * [find](#find)
- * [findKeys](#findKeys)
- * [loadFile](#loadFile)
- * [pathToAbsolute](#pathToAbsolute)
+ * [findKeys](#findkeys)
+ * [loadFile](#loadfile)
+ * [pathToAbsolute](#pathtoabsolute)
  * [reset](#reset)
 
 ## API Documentation
@@ -28,7 +28,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 ### Constants
 
 
-### [defaultCacheSeconds](#defaultCacheSeconds)
+### [defaultCacheSeconds](#defaultcacheseconds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [findKeys](#findKeys)
+### [findKeys](#findkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [loadFile](#loadFile)
+### [loadFile](#loadfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [pathToAbsolute](#pathToAbsolute)
+### [pathToAbsolute](#pathtoabsolute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,18 +4,18 @@ Match Frame Tools for Final Cut Pro.
 
 ## API Overview
 * Variables - Configurable values
- * [hiddenKeywords](#hiddenKeywords)
+ * [hiddenKeywords](#hiddenkeywords)
 * Functions - API calls offered directly by the extension
- * [getMulticamAngleFromSelectedClip](#getMulticamAngleFromSelectedClip)
- * [matchFrame](#matchFrame)
- * [multicamMatchFrame](#multicamMatchFrame)
+ * [getMulticamAngleFromSelectedClip](#getmulticamanglefromselectedclip)
+ * [matchFrame](#matchframe)
+ * [multicamMatchFrame](#multicammatchframe)
 
 ## API Documentation
 
 ### Variables
 
 
-### [hiddenKeywords](#hiddenKeywords)
+### [hiddenKeywords](#hiddenkeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Match Frame Tools for Final Cut Pro.
 ### Functions
 
 
-### [getMulticamAngleFromSelectedClip](#getMulticamAngleFromSelectedClip)
+### [getMulticamAngleFromSelectedClip](#getmulticamanglefromselectedclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Match Frame Tools for Final Cut Pro.
 
 ---
 
-### [matchFrame](#matchFrame)
+### [matchFrame](#matchframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Match Frame Tools for Final Cut Pro.
 
 ---
 
-### [multicamMatchFrame](#multicamMatchFrame)
+### [multicamMatchFrame](#multicammatchframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -5,15 +5,15 @@ Save Sheet
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
- * [SaveSheet](#SaveSheet)
+ * [SaveSheet](#savesheet)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cancel](#cancel)
  * [filename](#filename)
- * [goToPrompt](#goToPrompt)
- * [replaceAlert](#replaceAlert)
+ * [goToPrompt](#gotoprompt)
+ * [replaceAlert](#replacealert)
  * [save](#save)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [setPath](#setPath)
+ * [setPath](#setpath)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ Save Sheet
 
 ---
 
-### [SaveSheet](#SaveSheet)
+### [SaveSheet](#savesheet)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Save Sheet
 
 ---
 
-### [goToPrompt](#goToPrompt)
+### [goToPrompt](#gotoprompt)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Save Sheet
 
 ---
 
-### [replaceAlert](#replaceAlert)
+### [replaceAlert](#replacealert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Save Sheet
 ### Methods
 
 
-### [setPath](#setPath)
+### [setPath](#setpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,17 +4,17 @@ Contains functions for comparing `axuielement`s.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [bottomToTop](#bottomToTop)
- * [leftToRight](#leftToRight)
- * [rightToLeft](#rightToLeft)
- * [topToBottom](#topToBottom)
+ * [bottomToTop](#bottomtotop)
+ * [leftToRight](#lefttoright)
+ * [rightToLeft](#righttoleft)
+ * [topToBottom](#toptobottom)
 
 ## API Documentation
 
 ### Functions
 
 
-### [bottomToTop](#bottomToTop)
+### [bottomToTop](#bottomtotop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Contains functions for comparing `axuielement`s.
 
 ---
 
-### [leftToRight](#leftToRight)
+### [leftToRight](#lefttoright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Contains functions for comparing `axuielement`s.
 
 ---
 
-### [rightToLeft](#rightToLeft)
+### [rightToLeft](#righttoleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Contains functions for comparing `axuielement`s.
 
 ---
 
-### [topToBottom](#topToBottom)
+### [topToBottom](#toptobottom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

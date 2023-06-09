@@ -43,21 +43,21 @@ audio:stabilization():smoothing():show():value(1.5)
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [EQ_MODES](#EQ_MODES)
- * [PAN_MODES](#PAN_MODES)
+ * [EQ_MODES](#eq_modes)
+ * [PAN_MODES](#pan_modes)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [AudioInspector](#AudioInspector)
+ * [AudioInspector](#audioinspector)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [audioConfiguration](#audioConfiguration)
+ * [audioConfiguration](#audioconfiguration)
 
 ## API Documentation
 
 ### Constants
 
 
-### [EQ_MODES](#EQ_MODES)
+### [EQ_MODES](#eq_modes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ audio:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [PAN_MODES](#PAN_MODES)
+### [PAN_MODES](#pan_modes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ audio:stabilization():smoothing():show():value(1.5)
 ### Constructors
 
 
-### [AudioInspector](#AudioInspector)
+### [AudioInspector](#audioinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ audio:stabilization():smoothing():show():value(1.5)
 ### Fields
 
 
-### [audioConfiguration](#audioConfiguration)
+### [audioConfiguration](#audioconfiguration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

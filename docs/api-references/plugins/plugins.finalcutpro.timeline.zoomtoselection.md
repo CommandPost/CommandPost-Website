@@ -4,16 +4,16 @@ Zoom the Timeline to fit the currently-selected clips.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [toggleZoomToFit](#toggleZoomToFit)
- * [toggleZoomToSelection](#toggleZoomToSelection)
- * [zoomToSelection](#zoomToSelection)
+ * [toggleZoomToFit](#togglezoomtofit)
+ * [toggleZoomToSelection](#togglezoomtoselection)
+ * [zoomToSelection](#zoomtoselection)
 
 ## API Documentation
 
 ### Methods
 
 
-### [toggleZoomToFit](#toggleZoomToFit)
+### [toggleZoomToFit](#togglezoomtofit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Zoom the Timeline to fit the currently-selected clips.
 
 ---
 
-### [toggleZoomToSelection](#toggleZoomToSelection)
+### [toggleZoomToSelection](#togglezoomtoselection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Zoom the Timeline to fit the currently-selected clips.
 
 ---
 
-### [zoomToSelection](#zoomToSelection)
+### [zoomToSelection](#zoomtoselection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

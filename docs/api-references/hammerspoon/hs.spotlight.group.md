@@ -10,7 +10,7 @@ For each spotlightGroupObject you can identify the attribute and value the group
 * Methods - API calls which can only be made on an object returned by a constructor
  * [attribute](#attribute)
  * [count](#count)
- * [resultAtIndex](#resultAtIndex)
+ * [resultAtIndex](#resultatindex)
  * [subgroups](#subgroups)
  * [value](#value)
 
@@ -45,7 +45,7 @@ For each spotlightGroupObject you can identify the attribute and value the group
 
 ---
 
-### [resultAtIndex](#resultAtIndex)
+### [resultAtIndex](#resultatindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -5,18 +5,18 @@ Batch Rename Panel for the Final Cut Pro HUD.
 ## API Overview
 * Variables - Configurable values
  * [code](#code)
- * [codeProcessing](#codeProcessing)
+ * [codeProcessing](#codeprocessing)
  * [find](#find)
- * [keepOriginal](#keepOriginal)
+ * [keepOriginal](#keeporiginal)
  * [padding](#padding)
  * [prefix](#prefix)
  * [replace](#replace)
  * [sequence](#sequence)
- * [startWith](#startWith)
- * [stepValue](#stepValue)
+ * [startWith](#startwith)
+ * [stepValue](#stepvalue)
  * [suffix](#suffix)
 * Functions - API calls offered directly by the extension
- * [updateInfo](#updateInfo)
+ * [updateInfo](#updateinfo)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ---
 
-### [codeProcessing](#codeProcessing)
+### [codeProcessing](#codeprocessing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ---
 
-### [keepOriginal](#keepOriginal)
+### [keepOriginal](#keeporiginal)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ---
 
-### [startWith](#startWith)
+### [startWith](#startwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ---
 
-### [stepValue](#stepValue)
+### [stepValue](#stepvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 ### Functions
 
 
-### [updateInfo](#updateInfo)
+### [updateInfo](#updateinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

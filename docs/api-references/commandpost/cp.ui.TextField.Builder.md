@@ -4,15 +4,15 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [convertingGet](#convertingGet)
- * [convertingSet](#convertingSet)
+ * [convertingGet](#convertingget)
+ * [convertingSet](#convertingset)
 
 ## API Documentation
 
 ### Methods
 
 
-### [convertingGet](#convertingGet)
+### [convertingGet](#convertingget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Defines a `TextField` [Builder](cp.ui.Builder.md).
 
 ---
 
-### [convertingSet](#convertingSet)
+### [convertingSet](#convertingset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

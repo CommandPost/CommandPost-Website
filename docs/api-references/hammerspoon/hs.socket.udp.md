@@ -89,7 +89,7 @@ from host: 192.168.0.3 port: 53057
 * Variables - Configurable values
  * [timeout](#timeout)
 * Functions - API calls offered directly by the extension
- * [parseAddress](#parseAddress)
+ * [parseAddress](#parseaddress)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
  * [server](#server)
@@ -99,20 +99,20 @@ from host: 192.168.0.3 port: 53057
  * [closed](#closed)
  * [connect](#connect)
  * [connected](#connected)
- * [enableIPv](#enableIPv)
+ * [enableIPv](#enableipv)
  * [info](#info)
  * [listen](#listen)
  * [pause](#pause)
- * [preferIPv](#preferIPv)
+ * [preferIPv](#preferipv)
  * [read](#read)
- * [readOne](#readOne)
+ * [readOne](#readone)
  * [receive](#receive)
- * [receiveOne](#receiveOne)
- * [reusePort](#reusePort)
+ * [receiveOne](#receiveone)
+ * [reusePort](#reuseport)
  * [send](#send)
- * [setBufferSize](#setBufferSize)
- * [setCallback](#setCallback)
- * [setTimeout](#setTimeout)
+ * [setBufferSize](#setbuffersize)
+ * [setCallback](#setcallback)
+ * [setTimeout](#settimeout)
  * [write](#write)
 
 ## API Documentation
@@ -133,7 +133,7 @@ from host: 192.168.0.3 port: 53057
 ### Functions
 
 
-### [parseAddress](#parseAddress)
+### [parseAddress](#parseaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [enableIPv](#enableIPv)
+### [enableIPv](#enableipv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -293,7 +293,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [preferIPv](#preferIPv)
+### [preferIPv](#preferipv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -319,7 +319,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [readOne](#readOne)
+### [readOne](#readone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -345,7 +345,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [receiveOne](#receiveOne)
+### [receiveOne](#receiveone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -358,7 +358,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [reusePort](#reusePort)
+### [reusePort](#reuseport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [setBufferSize](#setBufferSize)
+### [setBufferSize](#setbuffersize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -397,7 +397,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -412,7 +412,7 @@ from host: 192.168.0.3 port: 53057
 
 ---
 
-### [setTimeout](#setTimeout)
+### [setTimeout](#settimeout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -69,20 +69,20 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ## API Overview
 * Variables - Configurable values
- * [applyDelay](#applyDelay)
- * [screensChangedDelay](#screensChangedDelay)
+ * [applyDelay](#applydelay)
+ * [screensChangedDelay](#screenschangeddelay)
 * Functions - API calls offered directly by the extension
- * [applyLayout](#applyLayout)
- * [pauseAllInstances](#pauseAllInstances)
- * [resumeAllInstances](#resumeAllInstances)
+ * [applyLayout](#applylayout)
+ * [pauseAllInstances](#pauseallinstances)
+ * [resumeAllInstances](#resumeallinstances)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [apply](#apply)
- * [getRules](#getRules)
+ * [getRules](#getrules)
  * [pause](#pause)
  * [resume](#resume)
- * [setScreenConfiguration](#setScreenConfiguration)
+ * [setScreenConfiguration](#setscreenconfiguration)
  * [start](#start)
  * [stop](#stop)
 
@@ -91,7 +91,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 ### Variables
 
 
-### [applyDelay](#applyDelay)
+### [applyDelay](#applydelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ---
 
-### [screensChangedDelay](#screensChangedDelay)
+### [screensChangedDelay](#screenschangeddelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 ### Functions
 
 
-### [applyLayout](#applyLayout)
+### [applyLayout](#applylayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ---
 
-### [pauseAllInstances](#pauseAllInstances)
+### [pauseAllInstances](#pauseallinstances)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ---
 
-### [resumeAllInstances](#resumeAllInstances)
+### [resumeAllInstances](#resumeallinstances)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ---
 
-### [getRules](#getRules)
+### [getRules](#getrules)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
 
 ---
 
-### [setScreenConfiguration](#setScreenConfiguration)
+### [setScreenConfiguration](#setscreenconfiguration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

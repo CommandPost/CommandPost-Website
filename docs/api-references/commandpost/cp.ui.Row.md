@@ -9,16 +9,16 @@ Represents an `AXRow` `axuielement`.
 * Functions - API calls offered directly by the extension
  * [containing](#containing)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Row](#Row)
+ * [Row](#row)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [childrenUI](#childrenUI)
+ * [childrenUI](#childrenui)
  * [disclosing](#disclosing)
- * [disclosureLevel](#disclosureLevel)
+ * [disclosureLevel](#disclosurelevel)
  * [index](#index)
  * [selected](#selected)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [disclosedByRow](#disclosedByRow)
- * [disclosedRows](#disclosedRows)
+ * [disclosedByRow](#disclosedbyrow)
+ * [disclosedRows](#disclosedrows)
  * [matches](#matches)
 
 ## API Documentation
@@ -41,7 +41,7 @@ Represents an `AXRow` `axuielement`.
 ### Constructors
 
 
-### [Row](#Row)
+### [Row](#row)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Represents an `AXRow` `axuielement`.
 ### Fields
 
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Represents an `AXRow` `axuielement`.
 
 ---
 
-### [disclosureLevel](#disclosureLevel)
+### [disclosureLevel](#disclosurelevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Represents an `AXRow` `axuielement`.
 ### Methods
 
 
-### [disclosedByRow](#disclosedByRow)
+### [disclosedByRow](#disclosedbyrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Represents an `AXRow` `axuielement`.
 
 ---
 
-### [disclosedRows](#disclosedRows)
+### [disclosedRows](#disclosedrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

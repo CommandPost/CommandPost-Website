@@ -4,15 +4,15 @@ Preferences for the Search Console.
 
 ## API Overview
 * Variables - Configurable values
- * [scanRunningApplicationMenubarsOnStartup](#scanRunningApplicationMenubarsOnStartup)
- * [scanTheMenubarsOfTheActiveApplication](#scanTheMenubarsOfTheActiveApplication)
+ * [scanRunningApplicationMenubarsOnStartup](#scanrunningapplicationmenubarsonstartup)
+ * [scanTheMenubarsOfTheActiveApplication](#scanthemenubarsoftheactiveapplication)
 
 ## API Documentation
 
 ### Variables
 
 
-### [scanRunningApplicationMenubarsOnStartup](#scanRunningApplicationMenubarsOnStartup)
+### [scanRunningApplicationMenubarsOnStartup](#scanrunningapplicationmenubarsonstartup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ Preferences for the Search Console.
 
 ---
 
-### [scanTheMenubarsOfTheActiveApplication](#scanTheMenubarsOfTheActiveApplication)
+### [scanTheMenubarsOfTheActiveApplication](#scanthemenubarsoftheactiveapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -9,7 +9,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [IndexClips](#IndexClips)
+ * [IndexClips](#indexclips)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [activate](#activate)
  * [all](#all)
@@ -19,25 +19,25 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
  * [type](#type)
  * [video](#video)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doFindAuditions](#doFindAuditions)
- * [doFindClipsContaining](#doFindClipsContaining)
- * [doFindCompoundClips](#doFindCompoundClips)
- * [doFindMissingMedia](#doFindMissingMedia)
- * [doFindMulticams](#doFindMulticams)
- * [doFindSynchronized](#doFindSynchronized)
- * [doLayout](#doLayout)
- * [doShowAll](#doShowAll)
- * [doShowAudio](#doShowAudio)
- * [doShowTitles](#doShowTitles)
- * [doShowVideo](#doShowVideo)
- * [saveLayout](#saveLayout)
+ * [doFindAuditions](#dofindauditions)
+ * [doFindClipsContaining](#dofindclipscontaining)
+ * [doFindCompoundClips](#dofindcompoundclips)
+ * [doFindMissingMedia](#dofindmissingmedia)
+ * [doFindMulticams](#dofindmulticams)
+ * [doFindSynchronized](#dofindsynchronized)
+ * [doLayout](#dolayout)
+ * [doShowAll](#doshowall)
+ * [doShowAudio](#doshowaudio)
+ * [doShowTitles](#doshowtitles)
+ * [doShowVideo](#doshowvideo)
+ * [saveLayout](#savelayout)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [IndexClips](#IndexClips)
+### [IndexClips](#indexclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 ### Methods
 
 
-### [doFindAuditions](#doFindAuditions)
+### [doFindAuditions](#dofindauditions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFindClipsContaining](#doFindClipsContaining)
+### [doFindClipsContaining](#dofindclipscontaining)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFindCompoundClips](#doFindCompoundClips)
+### [doFindCompoundClips](#dofindcompoundclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFindMissingMedia](#doFindMissingMedia)
+### [doFindMissingMedia](#dofindmissingmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFindMulticams](#doFindMulticams)
+### [doFindMulticams](#dofindmulticams)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFindSynchronized](#doFindSynchronized)
+### [doFindSynchronized](#dofindsynchronized)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowAll](#doShowAll)
+### [doShowAll](#doshowall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowAudio](#doShowAudio)
+### [doShowAudio](#doshowaudio)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowTitles](#doShowTitles)
+### [doShowTitles](#doshowtitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowVideo](#doShowVideo)
+### [doShowVideo](#doshowvideo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

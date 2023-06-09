@@ -4,30 +4,30 @@ Manager for the CommandPost Toolbox Window.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
- * [lastTab](#lastTab)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_WIDTH](#default_width)
+ * [lastTab](#lasttab)
  * [position](#position)
- * [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+ * [WEBVIEW_LABEL](#webview_label)
 * Variables - Configurable values
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [addPanel](#addPanel)
- * [currentPanelID](#currentPanelID)
+ * [addHandler](#addhandler)
+ * [addPanel](#addpanel)
+ * [currentPanelID](#currentpanelid)
  * [focus](#focus)
- * [getHandler](#getHandler)
- * [getLabel](#getLabel)
- * [getWebview](#getWebview)
+ * [getHandler](#gethandler)
+ * [getLabel](#getlabel)
+ * [getWebview](#getwebview)
  * [hide](#hide)
  * [init](#init)
- * [injectScript](#injectScript)
- * [maxPanelHeight](#maxPanelHeight)
+ * [injectScript](#injectscript)
+ * [maxPanelHeight](#maxpanelheight)
  * [new](#new)
  * [refresh](#refresh)
- * [selectPanel](#selectPanel)
- * [setPanelRenderer](#setPanelRenderer)
+ * [selectPanel](#selectpanel)
+ * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
 
 ## API Documentation
@@ -35,7 +35,7 @@ Manager for the CommandPost Toolbox Window.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [lastTab](#lastTab)
+### [lastTab](#lasttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+### [WEBVIEW_LABEL](#webview_label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Manager for the CommandPost Toolbox Window.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [currentPanelID](#currentPanelID)
+### [currentPanelID](#currentpanelid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [getWebview](#getWebview)
+### [getWebview](#getwebview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -226,7 +226,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -239,7 +239,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [maxPanelHeight](#maxPanelHeight)
+### [maxPanelHeight](#maxpanelheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -278,7 +278,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [selectPanel](#selectPanel)
+### [selectPanel](#selectpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -291,7 +291,7 @@ Manager for the CommandPost Toolbox Window.
 
 ---
 
-### [setPanelRenderer](#setPanelRenderer)
+### [setPanelRenderer](#setpanelrenderer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

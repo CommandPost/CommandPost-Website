@@ -12,21 +12,21 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [If](#If)
+ * [If](#if)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Are](#Are)
- * [AreNot](#AreNot)
- * [Is](#Is)
- * [IsNot](#IsNot)
- * [Matches](#Matches)
- * [Then](#Then)
+ * [Are](#are)
+ * [AreNot](#arenot)
+ * [Is](#is)
+ * [IsNot](#isnot)
+ * [Matches](#matches)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [If](#If)
+### [If](#if)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 ### Methods
 
 
-### [Are](#Are)
+### [Are](#are)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ---
 
-### [AreNot](#AreNot)
+### [AreNot](#arenot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ---
 
-### [Is](#Is)
+### [Is](#is)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ---
 
-### [IsNot](#IsNot)
+### [IsNot](#isnot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ---
 
-### [Matches](#Matches)
+### [Matches](#matches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ---
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

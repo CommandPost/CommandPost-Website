@@ -6,28 +6,28 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [activate](#activate)
  * [area](#area)
- * [collapseSubroles](#collapseSubroles)
- * [editRoles](#editRoles)
- * [hideAudioLanes](#hideAudioLanes)
+ * [collapseSubroles](#collapsesubroles)
+ * [editRoles](#editroles)
+ * [hideAudioLanes](#hideaudiolanes)
  * [list](#list)
- * [showAudioLanes](#showAudioLanes)
+ * [showAudioLanes](#showaudiolanes)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [allRoles](#allRoles)
- * [audioRoles](#audioRoles)
- * [captionRoles](#captionRoles)
- * [doActivate](#doActivate)
- * [doCollapseSubroles](#doCollapseSubroles)
- * [doDeactivate](#doDeactivate)
- * [doFocusInTimeline](#doFocusInTimeline)
- * [doHideAudioLanes](#doHideAudioLanes)
- * [doHideSubroleLanes](#doHideSubroleLanes)
- * [doLayout](#doLayout)
- * [doShowAudioLanes](#doShowAudioLanes)
- * [doShowSubroleLanes](#doShowSubroleLanes)
- * [doUnfocusInTimeline](#doUnfocusInTimeline)
- * [fineRoleTitled](#fineRoleTitled)
- * [saveLayout](#saveLayout)
- * [videoRoles](#videoRoles)
+ * [allRoles](#allroles)
+ * [audioRoles](#audioroles)
+ * [captionRoles](#captionroles)
+ * [doActivate](#doactivate)
+ * [doCollapseSubroles](#docollapsesubroles)
+ * [doDeactivate](#dodeactivate)
+ * [doFocusInTimeline](#dofocusintimeline)
+ * [doHideAudioLanes](#dohideaudiolanes)
+ * [doHideSubroleLanes](#dohidesubrolelanes)
+ * [doLayout](#dolayout)
+ * [doShowAudioLanes](#doshowaudiolanes)
+ * [doShowSubroleLanes](#doshowsubrolelanes)
+ * [doUnfocusInTimeline](#dounfocusintimeline)
+ * [fineRoleTitled](#fineroletitled)
+ * [saveLayout](#savelayout)
+ * [videoRoles](#videoroles)
 
 ## API Documentation
 
@@ -54,7 +54,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [collapseSubroles](#collapseSubroles)
+### [collapseSubroles](#collapsesubroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [editRoles](#editRoles)
+### [editRoles](#editroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [hideAudioLanes](#hideAudioLanes)
+### [hideAudioLanes](#hideaudiolanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [showAudioLanes](#showAudioLanes)
+### [showAudioLanes](#showaudiolanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 ### Methods
 
 
-### [allRoles](#allRoles)
+### [allRoles](#allroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [audioRoles](#audioRoles)
+### [audioRoles](#audioroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [captionRoles](#captionRoles)
+### [captionRoles](#captionroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doActivate](#doActivate)
+### [doActivate](#doactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doCollapseSubroles](#doCollapseSubroles)
+### [doCollapseSubroles](#docollapsesubroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doDeactivate](#doDeactivate)
+### [doDeactivate](#dodeactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doFocusInTimeline](#doFocusInTimeline)
+### [doFocusInTimeline](#dofocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doHideAudioLanes](#doHideAudioLanes)
+### [doHideAudioLanes](#dohideaudiolanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doHideSubroleLanes](#doHideSubroleLanes)
+### [doHideSubroleLanes](#dohidesubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowAudioLanes](#doShowAudioLanes)
+### [doShowAudioLanes](#doshowaudiolanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doShowSubroleLanes](#doShowSubroleLanes)
+### [doShowSubroleLanes](#doshowsubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -262,7 +262,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [doUnfocusInTimeline](#doUnfocusInTimeline)
+### [doUnfocusInTimeline](#dounfocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [fineRoleTitled](#fineRoleTitled)
+### [fineRoleTitled](#fineroletitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ---
 
-### [videoRoles](#videoRoles)
+### [videoRoles](#videoroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

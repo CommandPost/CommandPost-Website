@@ -11,11 +11,11 @@ into whole seconds (for example, 5s).
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [ONE](#ONE)
+ * [ONE](#one)
 * Functions - API calls offered directly by the extension
  * [add](#add)
  * [div](#div)
- * [doesIntersect](#doesIntersect)
+ * [doesIntersect](#doesintersect)
  * [eq](#eq)
  * [gcd](#gcd)
  * [lt](#lt)
@@ -34,7 +34,7 @@ into whole seconds (for example, 5s).
 ### Constants
 
 
-### [ONE](#ONE)
+### [ONE](#one)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ into whole seconds (for example, 5s).
 
 ---
 
-### [doesIntersect](#doesIntersect)
+### [doesIntersect](#doesintersect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

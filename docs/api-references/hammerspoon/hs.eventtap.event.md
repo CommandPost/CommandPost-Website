@@ -26,40 +26,40 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ## API Overview
 * Constants - Useful values which cannot be changed
  * [properties](#properties)
- * [rawFlagMasks](#rawFlagMasks)
+ * [rawFlagMasks](#rawflagmasks)
  * [types](#types)
 * Functions - API calls offered directly by the extension
- * [newKeyEventSequence](#newKeyEventSequence)
+ * [newKeyEventSequence](#newkeyeventsequence)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [copy](#copy)
- * [newEvent](#newEvent)
- * [newEventFromData](#newEventFromData)
- * [newGesture](#newGesture)
- * [newKeyEvent](#newKeyEvent)
- * [newMouseEvent](#newMouseEvent)
- * [newScrollEvent](#newScrollEvent)
- * [newSystemKeyEvent](#newSystemKeyEvent)
+ * [newEvent](#newevent)
+ * [newEventFromData](#neweventfromdata)
+ * [newGesture](#newgesture)
+ * [newKeyEvent](#newkeyevent)
+ * [newMouseEvent](#newmouseevent)
+ * [newScrollEvent](#newscrollevent)
+ * [newSystemKeyEvent](#newsystemkeyevent)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [asData](#asData)
- * [getButtonState](#getButtonState)
- * [getCharacters](#getCharacters)
- * [getFlags](#getFlags)
- * [getKeyCode](#getKeyCode)
- * [getProperty](#getProperty)
- * [getRawEventData](#getRawEventData)
- * [getTouchDetails](#getTouchDetails)
- * [getTouches](#getTouches)
- * [getType](#getType)
- * [getUnicodeString](#getUnicodeString)
+ * [asData](#asdata)
+ * [getButtonState](#getbuttonstate)
+ * [getCharacters](#getcharacters)
+ * [getFlags](#getflags)
+ * [getKeyCode](#getkeycode)
+ * [getProperty](#getproperty)
+ * [getRawEventData](#getraweventdata)
+ * [getTouchDetails](#gettouchdetails)
+ * [getTouches](#gettouches)
+ * [getType](#gettype)
+ * [getUnicodeString](#getunicodestring)
  * [location](#location)
  * [post](#post)
- * [rawFlags](#rawFlags)
- * [setFlags](#setFlags)
- * [setKeyCode](#setKeyCode)
- * [setProperty](#setProperty)
- * [setType](#setType)
- * [setUnicodeString](#setUnicodeString)
- * [systemKey](#systemKey)
+ * [rawFlags](#rawflags)
+ * [setFlags](#setflags)
+ * [setKeyCode](#setkeycode)
+ * [setProperty](#setproperty)
+ * [setType](#settype)
+ * [setUnicodeString](#setunicodestring)
+ * [systemKey](#systemkey)
  * [timestamp](#timestamp)
 
 ## API Documentation
@@ -78,7 +78,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [rawFlagMasks](#rawFlagMasks)
+### [rawFlagMasks](#rawflagmasks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ### Functions
 
 
-### [newKeyEventSequence](#newKeyEventSequence)
+### [newKeyEventSequence](#newkeyeventsequence)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newEvent](#newEvent)
+### [newEvent](#newevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newEventFromData](#newEventFromData)
+### [newEventFromData](#neweventfromdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newGesture](#newGesture)
+### [newGesture](#newgesture)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newKeyEvent](#newKeyEvent)
+### [newKeyEvent](#newkeyevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newMouseEvent](#newMouseEvent)
+### [newMouseEvent](#newmouseevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newScrollEvent](#newScrollEvent)
+### [newScrollEvent](#newscrollevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [newSystemKeyEvent](#newSystemKeyEvent)
+### [newSystemKeyEvent](#newsystemkeyevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ### Methods
 
 
-### [asData](#asData)
+### [asData](#asdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getButtonState](#getButtonState)
+### [getButtonState](#getbuttonstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getCharacters](#getCharacters)
+### [getCharacters](#getcharacters)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -299,7 +299,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getFlags](#getFlags)
+### [getFlags](#getflags)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getKeyCode](#getKeyCode)
+### [getKeyCode](#getkeycode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -325,7 +325,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getProperty](#getProperty)
+### [getProperty](#getproperty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -338,7 +338,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getRawEventData](#getRawEventData)
+### [getRawEventData](#getraweventdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -351,7 +351,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getTouchDetails](#getTouchDetails)
+### [getTouchDetails](#gettouchdetails)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getTouches](#getTouches)
+### [getTouches](#gettouches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -377,7 +377,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getType](#getType)
+### [getType](#gettype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -390,7 +390,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [getUnicodeString](#getUnicodeString)
+### [getUnicodeString](#getunicodestring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -429,7 +429,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [rawFlags](#rawFlags)
+### [rawFlags](#rawflags)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -442,7 +442,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [setFlags](#setFlags)
+### [setFlags](#setflags)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -460,7 +460,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [setKeyCode](#setKeyCode)
+### [setKeyCode](#setkeycode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -473,7 +473,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [setProperty](#setProperty)
+### [setProperty](#setproperty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -486,7 +486,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [setType](#setType)
+### [setType](#settype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -499,7 +499,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [setUnicodeString](#setUnicodeString)
+### [setUnicodeString](#setunicodestring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -512,7 +512,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ---
 
-### [systemKey](#systemKey)
+### [systemKey](#systemkey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

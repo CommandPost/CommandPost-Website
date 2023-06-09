@@ -4,17 +4,17 @@ Timeline Appearance Popup module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Appearance](#Appearance)
+ * [Appearance](#appearance)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [angles](#angles)
- * [clipHeight](#clipHeight)
- * [clipNames](#clipNames)
- * [clipRoles](#clipRoles)
- * [clipWaveformHeight](#clipWaveformHeight)
- * [laneHeaders](#laneHeaders)
- * [zoomAmount](#zoomAmount)
+ * [clipHeight](#clipheight)
+ * [clipNames](#clipnames)
+ * [clipRoles](#cliproles)
+ * [clipWaveformHeight](#clipwaveformheight)
+ * [laneHeaders](#laneheaders)
+ * [zoomAmount](#zoomamount)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -22,7 +22,7 @@ Timeline Appearance Popup module.
 ### Constructors
 
 
-### [Appearance](#Appearance)
+### [Appearance](#appearance)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [clipHeight](#clipHeight)
+### [clipHeight](#clipheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [clipNames](#clipNames)
+### [clipNames](#clipnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [clipRoles](#clipRoles)
+### [clipRoles](#cliproles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [clipWaveformHeight](#clipWaveformHeight)
+### [clipWaveformHeight](#clipwaveformheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [laneHeaders](#laneHeaders)
+### [laneHeaders](#laneheaders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Timeline Appearance Popup module.
 
 ---
 
-### [zoomAmount](#zoomAmount)
+### [zoomAmount](#zoomamount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Timeline Appearance Popup module.
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

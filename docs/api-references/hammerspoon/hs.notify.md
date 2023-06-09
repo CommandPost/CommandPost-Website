@@ -12,56 +12,56 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [activationTypes](#activationTypes)
- * [defaultNotificationSound](#defaultNotificationSound)
+ * [activationTypes](#activationtypes)
+ * [defaultNotificationSound](#defaultnotificationsound)
 * Variables - Configurable values
  * [registry](#registry)
- * [warnAboutMissingFunctionTag](#warnAboutMissingFunctionTag)
+ * [warnAboutMissingFunctionTag](#warnaboutmissingfunctiontag)
 * Functions - API calls offered directly by the extension
- * [deliveredNotifications](#deliveredNotifications)
+ * [deliveredNotifications](#deliverednotifications)
  * [register](#register)
- * [scheduledNotifications](#scheduledNotifications)
+ * [scheduledNotifications](#schedulednotifications)
  * [unregister](#unregister)
  * [unregisterall](#unregisterall)
- * [withdrawAll](#withdrawAll)
- * [withdrawAllScheduled](#withdrawAllScheduled)
+ * [withdrawAll](#withdrawall)
+ * [withdrawAllScheduled](#withdrawallscheduled)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
  * [show](#show)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [actionButtonTitle](#actionButtonTitle)
- * [activationType](#activationType)
- * [actualDeliveryDate](#actualDeliveryDate)
- * [additionalActions](#additionalActions)
- * [additionalActivationAction](#additionalActivationAction)
- * [alwaysPresent](#alwaysPresent)
- * [alwaysShowAdditionalActions](#alwaysShowAdditionalActions)
- * [autoWithdraw](#autoWithdraw)
- * [contentImage](#contentImage)
+ * [actionButtonTitle](#actionbuttontitle)
+ * [activationType](#activationtype)
+ * [actualDeliveryDate](#actualdeliverydate)
+ * [additionalActions](#additionalactions)
+ * [additionalActivationAction](#additionalactivationaction)
+ * [alwaysPresent](#alwayspresent)
+ * [alwaysShowAdditionalActions](#alwaysshowadditionalactions)
+ * [autoWithdraw](#autowithdraw)
+ * [contentImage](#contentimage)
  * [delivered](#delivered)
- * [getFunctionTag](#getFunctionTag)
- * [hasActionButton](#hasActionButton)
- * [hasReplyButton](#hasReplyButton)
- * [informativeText](#informativeText)
- * [otherButtonTitle](#otherButtonTitle)
+ * [getFunctionTag](#getfunctiontag)
+ * [hasActionButton](#hasactionbutton)
+ * [hasReplyButton](#hasreplybutton)
+ * [informativeText](#informativetext)
+ * [otherButtonTitle](#otherbuttontitle)
  * [presented](#presented)
  * [response](#response)
- * [responsePlaceholder](#responsePlaceholder)
+ * [responsePlaceholder](#responseplaceholder)
  * [schedule](#schedule)
  * [send](#send)
- * [setIdImage](#setIdImage)
- * [soundName](#soundName)
- * [subTitle](#subTitle)
+ * [setIdImage](#setidimage)
+ * [soundName](#soundname)
+ * [subTitle](#subtitle)
  * [title](#title)
  * [withdraw](#withdraw)
- * [withdrawAfter](#withdrawAfter)
+ * [withdrawAfter](#withdrawafter)
 
 ## API Documentation
 
 ### Constants
 
 
-### [activationTypes](#activationTypes)
+### [activationTypes](#activationtypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [defaultNotificationSound](#defaultNotificationSound)
+### [defaultNotificationSound](#defaultnotificationsound)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [warnAboutMissingFunctionTag](#warnAboutMissingFunctionTag)
+### [warnAboutMissingFunctionTag](#warnaboutmissingfunctiontag)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 ### Functions
 
 
-### [deliveredNotifications](#deliveredNotifications)
+### [deliveredNotifications](#deliverednotifications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [scheduledNotifications](#scheduledNotifications)
+### [scheduledNotifications](#schedulednotifications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [withdrawAll](#withdrawAll)
+### [withdrawAll](#withdrawall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [withdrawAllScheduled](#withdrawAllScheduled)
+### [withdrawAllScheduled](#withdrawallscheduled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -246,7 +246,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 ### Methods
 
 
-### [actionButtonTitle](#actionButtonTitle)
+### [actionButtonTitle](#actionbuttontitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -259,7 +259,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [activationType](#activationType)
+### [activationType](#activationtype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -272,7 +272,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [actualDeliveryDate](#actualDeliveryDate)
+### [actualDeliveryDate](#actualdeliverydate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -285,7 +285,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [additionalActions](#additionalActions)
+### [additionalActions](#additionalactions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -298,7 +298,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [additionalActivationAction](#additionalActivationAction)
+### [additionalActivationAction](#additionalactivationaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -311,7 +311,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [alwaysPresent](#alwaysPresent)
+### [alwaysPresent](#alwayspresent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -324,7 +324,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [alwaysShowAdditionalActions](#alwaysShowAdditionalActions)
+### [alwaysShowAdditionalActions](#alwaysshowadditionalactions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [autoWithdraw](#autoWithdraw)
+### [autoWithdraw](#autowithdraw)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -350,7 +350,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [contentImage](#contentImage)
+### [contentImage](#contentimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -376,7 +376,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [getFunctionTag](#getFunctionTag)
+### [getFunctionTag](#getfunctiontag)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -389,7 +389,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [hasActionButton](#hasActionButton)
+### [hasActionButton](#hasactionbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -402,7 +402,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [hasReplyButton](#hasReplyButton)
+### [hasReplyButton](#hasreplybutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -415,7 +415,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [informativeText](#informativeText)
+### [informativeText](#informativetext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -428,7 +428,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [otherButtonTitle](#otherButtonTitle)
+### [otherButtonTitle](#otherbuttontitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -467,7 +467,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [responsePlaceholder](#responsePlaceholder)
+### [responsePlaceholder](#responseplaceholder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -506,7 +506,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [setIdImage](#setIdImage)
+### [setIdImage](#setidimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -519,7 +519,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [soundName](#soundName)
+### [soundName](#soundname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -532,7 +532,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [subTitle](#subTitle)
+### [subTitle](#subtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -571,7 +571,7 @@ This module is based in part on code from the previous incarnation of Mjolnir by
 
 ---
 
-### [withdrawAfter](#withdrawAfter)
+### [withdrawAfter](#withdrawafter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

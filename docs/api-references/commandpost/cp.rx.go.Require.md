@@ -12,23 +12,23 @@ and if not, it will send an error.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [OrThrow](#OrThrow)
+ * [OrThrow](#orthrow)
 * Functions - API calls offered directly by the extension
- * [Require](#Require)
+ * [Require](#require)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Are](#Are)
- * [AreNot](#AreNot)
- * [Is](#Is)
- * [IsNot](#IsNot)
- * [Matches](#Matches)
- * [OrThrow](#OrThrow)
+ * [Are](#are)
+ * [AreNot](#arenot)
+ * [Is](#is)
+ * [IsNot](#isnot)
+ * [Matches](#matches)
+ * [OrThrow](#orthrow)
 
 ## API Documentation
 
 ### Constants
 
 
-### [OrThrow](#OrThrow)
+### [OrThrow](#orthrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ and if not, it will send an error.
 ### Functions
 
 
-### [Require](#Require)
+### [Require](#require)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ and if not, it will send an error.
 ### Methods
 
 
-### [Are](#Are)
+### [Are](#are)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ and if not, it will send an error.
 
 ---
 
-### [AreNot](#AreNot)
+### [AreNot](#arenot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ and if not, it will send an error.
 
 ---
 
-### [Is](#Is)
+### [Is](#is)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ and if not, it will send an error.
 
 ---
 
-### [IsNot](#IsNot)
+### [IsNot](#isnot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ and if not, it will send an error.
 
 ---
 
-### [Matches](#Matches)
+### [Matches](#matches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ and if not, it will send an error.
 
 ---
 
-### [OrThrow](#OrThrow)
+### [OrThrow](#orthrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

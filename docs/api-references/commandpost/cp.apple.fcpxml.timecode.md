@@ -15,20 +15,20 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [fromFFSSMMHH](#fromFFSSMMHH)
- * [fromHH_MM_SS_FF](#fromHH_MM_SS_FF)
+ * [fromFFSSMMHH](#fromffssmmhh)
+ * [fromHH_MM_SS_FF](#fromhh_mm_ss_ff)
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [__tostring](#__tostring)
- * [timeWithFrameDuration](#timeWithFrameDuration)
- * [totalFramesWithFPS](#totalFramesWithFPS)
+ * [timeWithFrameDuration](#timewithframeduration)
+ * [totalFramesWithFPS](#totalframeswithfps)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [fromFFSSMMHH](#fromFFSSMMHH)
+### [fromFFSSMMHH](#fromffssmmhh)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ---
 
-### [fromHH_MM_SS_FF](#fromHH_MM_SS_FF)
+### [fromHH_MM_SS_FF](#fromhh_mm_ss_ff)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ---
 
-### [timeWithFrameDuration](#timeWithFrameDuration)
+### [timeWithFrameDuration](#timewithframeduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ---
 
-### [totalFramesWithFPS](#totalFramesWithFPS)
+### [totalFramesWithFPS](#totalframeswithfps)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

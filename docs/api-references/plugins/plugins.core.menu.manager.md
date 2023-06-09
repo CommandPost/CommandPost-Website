@@ -7,25 +7,25 @@ Menu Manager Plugin.
 
 ## API Overview
 * Variables - Configurable values
- * [rootSection](#rootSection)
- * [titleSuffix](#titleSuffix)
+ * [rootSection](#rootsection)
+ * [titleSuffix](#titlesuffix)
 * Functions - API calls offered directly by the extension
- * [addSection](#addSection)
- * [addTitleSuffix](#addTitleSuffix)
+ * [addSection](#addsection)
+ * [addTitleSuffix](#addtitlesuffix)
  * [disable](#disable)
  * [enable](#enable)
- * [generateMenuTable](#generateMenuTable)
+ * [generateMenuTable](#generatemenutable)
  * [init](#init)
- * [updateMenubarIcon](#updateMenubarIcon)
+ * [updateMenubarIcon](#updatemenubaricon)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [displayMenubarAsIcon](#displayMenubarAsIcon)
+ * [displayMenubarAsIcon](#displaymenubarasicon)
 
 ## API Documentation
 
 ### Variables
 
 
-### [rootSection](#rootSection)
+### [rootSection](#rootsection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Menu Manager Plugin.
 
 ---
 
-### [titleSuffix](#titleSuffix)
+### [titleSuffix](#titlesuffix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Menu Manager Plugin.
 ### Functions
 
 
-### [addSection](#addSection)
+### [addSection](#addsection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Menu Manager Plugin.
 
 ---
 
-### [addTitleSuffix](#addTitleSuffix)
+### [addTitleSuffix](#addtitlesuffix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Menu Manager Plugin.
 
 ---
 
-### [generateMenuTable](#generateMenuTable)
+### [generateMenuTable](#generatemenutable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Menu Manager Plugin.
 
 ---
 
-### [updateMenubarIcon](#updateMenubarIcon)
+### [updateMenubarIcon](#updatemenubaricon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Menu Manager Plugin.
 ### Fields
 
 
-### [displayMenubarAsIcon](#displayMenubarAsIcon)
+### [displayMenubarAsIcon](#displaymenubarasicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

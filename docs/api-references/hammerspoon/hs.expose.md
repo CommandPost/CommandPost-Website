@@ -43,7 +43,7 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
  * [show](#show)
- * [toggleShow](#toggleShow)
+ * [toggleShow](#toggleshow)
 
 ## API Documentation
 
@@ -103,7 +103,7 @@ hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow
 
 ---
 
-### [toggleShow](#toggleShow)
+### [toggleShow](#toggleshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

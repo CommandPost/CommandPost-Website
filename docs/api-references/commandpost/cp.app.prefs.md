@@ -18,7 +18,7 @@ end
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [bundleID](#bundleID)
+ * [bundleID](#bundleid)
  * [get](#get)
  * [is](#is)
  * [prop](#prop)
@@ -31,7 +31,7 @@ end
 ### Functions
 
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

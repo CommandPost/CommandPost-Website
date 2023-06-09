@@ -9,8 +9,8 @@ Represents a Tangent Mode
  * [mode](#mode)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [activate](#activate)
- * [onActivate](#onActivate)
- * [onDeactivate](#onDeactivate)
+ * [onActivate](#onactivate)
+ * [onDeactivate](#ondeactivate)
  * [xml](#xml)
 
 ## API Documentation
@@ -61,7 +61,7 @@ Represents a Tangent Mode
 
 ---
 
-### [onActivate](#onActivate)
+### [onActivate](#onactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Represents a Tangent Mode
 
 ---
 
-### [onDeactivate](#onDeactivate)
+### [onDeactivate](#ondeactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

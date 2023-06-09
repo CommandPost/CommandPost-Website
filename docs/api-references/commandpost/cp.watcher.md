@@ -35,7 +35,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [events](#events)
- * [getCount](#getCount)
+ * [getCount](#getcount)
  * [notify](#notify)
  * [unwatch](#unwatch)
  * [watch](#watch)
@@ -73,7 +73,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 
 ---
 
-### [getCount](#getCount)
+### [getCount](#getcount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

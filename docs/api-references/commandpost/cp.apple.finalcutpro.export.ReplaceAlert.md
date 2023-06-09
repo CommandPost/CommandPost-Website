@@ -6,9 +6,9 @@ Replace Alert
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ReplaceAlert](#ReplaceAlert)
+ * [ReplaceAlert](#replacealert)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [pressReplace](#pressReplace)
+ * [pressReplace](#pressreplace)
 
 ## API Documentation
 
@@ -30,7 +30,7 @@ Replace Alert
 ### Constructors
 
 
-### [ReplaceAlert](#ReplaceAlert)
+### [ReplaceAlert](#replacealert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Replace Alert
 ### Methods
 
 
-### [pressReplace](#pressReplace)
+### [pressReplace](#pressreplace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

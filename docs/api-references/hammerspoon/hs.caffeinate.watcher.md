@@ -7,18 +7,18 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [screensaverDidStart](#screensaverDidStart)
- * [screensaverDidStop](#screensaverDidStop)
- * [screensaverWillStop](#screensaverWillStop)
- * [screensDidLock](#screensDidLock)
- * [screensDidSleep](#screensDidSleep)
- * [screensDidUnlock](#screensDidUnlock)
- * [screensDidWake](#screensDidWake)
- * [sessionDidBecomeActive](#sessionDidBecomeActive)
- * [sessionDidResignActive](#sessionDidResignActive)
- * [systemDidWake](#systemDidWake)
- * [systemWillPowerOff](#systemWillPowerOff)
- * [systemWillSleep](#systemWillSleep)
+ * [screensaverDidStart](#screensaverdidstart)
+ * [screensaverDidStop](#screensaverdidstop)
+ * [screensaverWillStop](#screensaverwillstop)
+ * [screensDidLock](#screensdidlock)
+ * [screensDidSleep](#screensdidsleep)
+ * [screensDidUnlock](#screensdidunlock)
+ * [screensDidWake](#screensdidwake)
+ * [sessionDidBecomeActive](#sessiondidbecomeactive)
+ * [sessionDidResignActive](#sessiondidresignactive)
+ * [systemDidWake](#systemdidwake)
+ * [systemWillPowerOff](#systemwillpoweroff)
+ * [systemWillSleep](#systemwillsleep)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -30,7 +30,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ### Constants
 
 
-### [screensaverDidStart](#screensaverDidStart)
+### [screensaverDidStart](#screensaverdidstart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensaverDidStop](#screensaverDidStop)
+### [screensaverDidStop](#screensaverdidstop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensaverWillStop](#screensaverWillStop)
+### [screensaverWillStop](#screensaverwillstop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensDidLock](#screensDidLock)
+### [screensDidLock](#screensdidlock)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensDidSleep](#screensDidSleep)
+### [screensDidSleep](#screensdidsleep)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensDidUnlock](#screensDidUnlock)
+### [screensDidUnlock](#screensdidunlock)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [screensDidWake](#screensDidWake)
+### [screensDidWake](#screensdidwake)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [sessionDidBecomeActive](#sessionDidBecomeActive)
+### [sessionDidBecomeActive](#sessiondidbecomeactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [sessionDidResignActive](#sessionDidResignActive)
+### [sessionDidResignActive](#sessiondidresignactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [systemDidWake](#systemDidWake)
+### [systemDidWake](#systemdidwake)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [systemWillPowerOff](#systemWillPowerOff)
+### [systemWillPowerOff](#systemwillpoweroff)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [systemWillSleep](#systemWillSleep)
+### [systemWillSleep](#systemwillsleep)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -8,7 +8,7 @@ Extends [Element](cp.ui.Element.md).
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [List](#List)
+ * [List](#list)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [items](#items)
 
@@ -32,7 +32,7 @@ Extends [Element](cp.ui.Element.md).
 ### Constructors
 
 
-### [List](#List)
+### [List](#list)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,19 +4,19 @@ Final Cut Pro Proxy Icon Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [procyMenuIconEnabled](#procyMenuIconEnabled)
+ * [procyMenuIconEnabled](#procymenuiconenabled)
 * Functions - API calls offered directly by the extension
- * [generateProxyTitle](#generateProxyTitle)
+ * [generateProxyTitle](#generateproxytitle)
  * [init](#init)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [usingProxies](#usingProxies)
+ * [usingProxies](#usingproxies)
 
 ## API Documentation
 
 ### Constants
 
 
-### [procyMenuIconEnabled](#procyMenuIconEnabled)
+### [procyMenuIconEnabled](#procymenuiconenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Final Cut Pro Proxy Icon Plugin.
 ### Functions
 
 
-### [generateProxyTitle](#generateProxyTitle)
+### [generateProxyTitle](#generateproxytitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Final Cut Pro Proxy Icon Plugin.
 ### Fields
 
 
-### [usingProxies](#usingProxies)
+### [usingProxies](#usingproxies)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

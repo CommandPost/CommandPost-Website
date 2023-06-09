@@ -7,23 +7,23 @@ Manager for the CommandPost Watch Folders Panel.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_TITLE](#DEFAULT_TITLE)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
- * [DEFAULT_WINDOW_STYLE](#DEFAULT_WINDOW_STYLE)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_TITLE](#default_title)
+ * [DEFAULT_WIDTH](#default_width)
+ * [DEFAULT_WINDOW_STYLE](#default_window_style)
  * [position](#position)
- * [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+ * [WEBVIEW_LABEL](#webview_label)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [addPanel](#addPanel)
- * [getHandler](#getHandler)
- * [getLabel](#getLabel)
+ * [addHandler](#addhandler)
+ * [addPanel](#addpanel)
+ * [getHandler](#gethandler)
+ * [getLabel](#getlabel)
  * [hide](#hide)
  * [init](#init)
- * [injectScript](#injectScript)
- * [maxPanelHeight](#maxPanelHeight)
- * [selectPanel](#selectPanel)
- * [setPanelRenderer](#setPanelRenderer)
+ * [injectScript](#injectscript)
+ * [maxPanelHeight](#maxpanelheight)
+ * [selectPanel](#selectpanel)
+ * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
 
 ## API Documentation
@@ -31,7 +31,7 @@ Manager for the CommandPost Watch Folders Panel.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [DEFAULT_TITLE](#DEFAULT_TITLE)
+### [DEFAULT_TITLE](#default_title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [DEFAULT_WINDOW_STYLE](#DEFAULT_WINDOW_STYLE)
+### [DEFAULT_WINDOW_STYLE](#default_window_style)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+### [WEBVIEW_LABEL](#webview_label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Manager for the CommandPost Watch Folders Panel.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [maxPanelHeight](#maxPanelHeight)
+### [maxPanelHeight](#maxpanelheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [selectPanel](#selectPanel)
+### [selectPanel](#selectpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ---
 
-### [setPanelRenderer](#setPanelRenderer)
+### [setPanelRenderer](#setpanelrenderer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

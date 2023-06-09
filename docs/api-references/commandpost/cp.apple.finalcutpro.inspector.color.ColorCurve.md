@@ -6,7 +6,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorCurve](#ColorCurve)
+ * [ColorCurve](#colorcurve)
 
 ## API Documentation
 
@@ -28,7 +28,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 ### Constructors
 
 
-### [ColorCurve](#ColorCurve)
+### [ColorCurve](#colorcurve)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

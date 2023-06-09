@@ -8,16 +8,16 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [AudioRole](#AudioRole)
+ * [AudioRole](#audiorole)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [focusedInTimeline](#focusedInTimeline)
- * [subroleLanes](#subroleLanes)
- * [subrolesExpanded](#subrolesExpanded)
+ * [focusedInTimeline](#focusedintimeline)
+ * [subroleLanes](#subrolelanes)
+ * [subrolesExpanded](#subrolesexpanded)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doFocusInTimeline](#doFocusInTimeline)
- * [doHideSubroleLanes](#doHideSubroleLanes)
- * [doShowSubroleLanes](#doShowSubroleLanes)
- * [doUnfocusInTimeline](#doUnfocusInTimeline)
+ * [doFocusInTimeline](#dofocusintimeline)
+ * [doHideSubroleLanes](#dohidesubrolelanes)
+ * [doShowSubroleLanes](#doshowsubrolelanes)
+ * [doUnfocusInTimeline](#dounfocusintimeline)
 
 ## API Documentation
 
@@ -39,7 +39,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 ### Constructors
 
 
-### [AudioRole](#AudioRole)
+### [AudioRole](#audiorole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 ### Fields
 
 
-### [focusedInTimeline](#focusedInTimeline)
+### [focusedInTimeline](#focusedintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ---
 
-### [subroleLanes](#subroleLanes)
+### [subroleLanes](#subrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ---
 
-### [subrolesExpanded](#subrolesExpanded)
+### [subrolesExpanded](#subrolesexpanded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 ### Methods
 
 
-### [doFocusInTimeline](#doFocusInTimeline)
+### [doFocusInTimeline](#dofocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ---
 
-### [doHideSubroleLanes](#doHideSubroleLanes)
+### [doHideSubroleLanes](#dohidesubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ---
 
-### [doShowSubroleLanes](#doShowSubroleLanes)
+### [doShowSubroleLanes](#doshowsubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ---
 
-### [doUnfocusInTimeline](#doUnfocusInTimeline)
+### [doUnfocusInTimeline](#dounfocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

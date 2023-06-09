@@ -23,8 +23,8 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 * Variables - Configurable values
  * [ui](#ui)
 * Functions - API calls offered directly by the extension
- * [nextWindow](#nextWindow)
- * [previousWindow](#previousWindow)
+ * [nextWindow](#nextwindow)
+ * [previousWindow](#previouswindow)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -48,7 +48,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 ### Functions
 
 
-### [nextWindow](#nextWindow)
+### [nextWindow](#nextwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow
 
 ---
 
-### [previousWindow](#previousWindow)
+### [previousWindow](#previouswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

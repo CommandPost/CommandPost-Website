@@ -11,15 +11,15 @@ Represents a Tangent Parameter control.
 * Methods - API calls which can only be made on an object returned by a constructor
  * [change](#change)
  * [get](#get)
- * [maxValue](#maxValue)
- * [minValue](#minValue)
- * [onChange](#onChange)
- * [onGet](#onGet)
- * [onReset](#onReset)
+ * [maxValue](#maxvalue)
+ * [minValue](#minvalue)
+ * [onChange](#onchange)
+ * [onGet](#onget)
+ * [onReset](#onreset)
  * [press](#press)
  * [release](#release)
  * [reset](#reset)
- * [stepSize](#stepSize)
+ * [stepSize](#stepsize)
  * [xml](#xml)
 
 ## API Documentation
@@ -96,7 +96,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [maxValue](#maxValue)
+### [maxValue](#maxvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [minValue](#minValue)
+### [minValue](#minvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [onChange](#onChange)
+### [onChange](#onchange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [onGet](#onGet)
+### [onGet](#onget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [onReset](#onReset)
+### [onReset](#onreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Represents a Tangent Parameter control.
 
 ---
 
-### [stepSize](#stepSize)
+### [stepSize](#stepsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

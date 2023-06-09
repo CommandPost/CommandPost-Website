@@ -6,14 +6,14 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ## API Overview
 * Variables - Configurable values
- * [defaultLogLevel](#defaultLogLevel)
+ * [defaultLogLevel](#defaultloglevel)
 * Functions - API calls offered directly by the extension
  * [history](#history)
- * [historySize](#historySize)
+ * [historySize](#historysize)
  * [new](#new)
- * [printHistory](#printHistory)
- * [setGlobalLogLevel](#setGlobalLogLevel)
- * [setModulesLogLevel](#setModulesLogLevel)
+ * [printHistory](#printhistory)
+ * [setGlobalLogLevel](#setgloballoglevel)
+ * [setModulesLogLevel](#setmodulesloglevel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [level](#level)
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -22,9 +22,9 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
  * [e](#e)
  * [ef](#ef)
  * [f](#f)
- * [getLogLevel](#getLogLevel)
+ * [getLogLevel](#getloglevel)
  * [i](#i)
- * [setLogLevel](#setLogLevel)
+ * [setLogLevel](#setloglevel)
  * [v](#v)
  * [vf](#vf)
  * [w](#w)
@@ -35,7 +35,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 ### Variables
 
 
-### [defaultLogLevel](#defaultLogLevel)
+### [defaultLogLevel](#defaultloglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [historySize](#historySize)
+### [historySize](#historysize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [printHistory](#printHistory)
+### [printHistory](#printhistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [setGlobalLogLevel](#setGlobalLogLevel)
+### [setGlobalLogLevel](#setgloballoglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [setModulesLogLevel](#setModulesLogLevel)
+### [setModulesLogLevel](#setmodulesloglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [getLogLevel](#getLogLevel)
+### [getLogLevel](#getloglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ---
 
-### [setLogLevel](#setLogLevel)
+### [setLogLevel](#setloglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

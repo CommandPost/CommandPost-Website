@@ -10,14 +10,14 @@ Shortcut Commands
  * [build](#build)
  * [new](#new)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [isEnabled](#isEnabled)
+ * [isEnabled](#isenabled)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [bind](#bind)
  * [delete](#delete)
  * [disable](#disable)
  * [enable](#enable)
- * [getKeyCode](#getKeyCode)
- * [getModifiers](#getModifiers)
+ * [getKeyCode](#getkeycode)
+ * [getModifiers](#getmodifiers)
  * [trigger](#trigger)
  * [unbind](#unbind)
 
@@ -54,7 +54,7 @@ Shortcut Commands
 ### Fields
 
 
-### [isEnabled](#isEnabled)
+### [isEnabled](#isenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Shortcut Commands
 
 ---
 
-### [getKeyCode](#getKeyCode)
+### [getKeyCode](#getkeycode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Shortcut Commands
 
 ---
 
-### [getModifiers](#getModifiers)
+### [getModifiers](#getmodifiers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

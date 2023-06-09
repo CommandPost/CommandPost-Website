@@ -4,16 +4,16 @@ Add Note Plugin.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [addNoteToSelectedClip](#addNoteToSelectedClip)
+ * [addNoteToSelectedClip](#addnotetoselectedclip)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [recentNotes](#recentNotes)
+ * [recentNotes](#recentnotes)
 
 ## API Documentation
 
 ### Functions
 
 
-### [addNoteToSelectedClip](#addNoteToSelectedClip)
+### [addNoteToSelectedClip](#addnotetoselectedclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Add Note Plugin.
 ### Fields
 
 
-### [recentNotes](#recentNotes)
+### [recentNotes](#recentnotes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

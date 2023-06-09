@@ -5,23 +5,23 @@ Libraries Filmstrip Module.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [clips](#clips)
- * [clipsUI](#clipsUI)
- * [deselectAll](#deselectAll)
- * [indexOfClip](#indexOfClip)
- * [selectAll](#selectAll)
- * [selectClip](#selectClip)
- * [selectClipAt](#selectClipAt)
- * [selectClipTitled](#selectClipTitled)
- * [selectedClips](#selectedClips)
- * [selectedClipsUI](#selectedClipsUI)
- * [showClip](#showClip)
- * [showClipAt](#showClipAt)
- * [sortClips](#sortClips)
+ * [clipsUI](#clipsui)
+ * [deselectAll](#deselectall)
+ * [indexOfClip](#indexofclip)
+ * [selectAll](#selectall)
+ * [selectClip](#selectclip)
+ * [selectClipAt](#selectclipat)
+ * [selectClipTitled](#selectcliptitled)
+ * [selectedClips](#selectedclips)
+ * [selectedClipsUI](#selectedclipsui)
+ * [showClip](#showclip)
+ * [showClipAt](#showclipat)
+ * [sortClips](#sortclips)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [playhead](#playhead)
- * [skimmingPlayhead](#skimmingPlayhead)
+ * [skimmingPlayhead](#skimmingplayhead)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [show](#show)
 
@@ -43,7 +43,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [clipsUI](#clipsUI)
+### [clipsUI](#clipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [indexOfClip](#indexOfClip)
+### [indexOfClip](#indexofclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectAll](#selectAll)
+### [selectAll](#selectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectClip](#selectClip)
+### [selectClip](#selectclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectClipAt](#selectClipAt)
+### [selectClipAt](#selectclipat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectClipTitled](#selectClipTitled)
+### [selectClipTitled](#selectcliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectedClips](#selectedClips)
+### [selectedClips](#selectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [selectedClipsUI](#selectedClipsUI)
+### [selectedClipsUI](#selectedclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [showClip](#showClip)
+### [showClip](#showclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [showClipAt](#showClipAt)
+### [showClipAt](#showclipat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -186,7 +186,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [sortClips](#sortClips)
+### [sortClips](#sortclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -226,7 +226,7 @@ Libraries Filmstrip Module.
 
 ---
 
-### [skimmingPlayhead](#skimmingPlayhead)
+### [skimmingPlayhead](#skimmingplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

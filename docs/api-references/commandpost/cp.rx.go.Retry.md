@@ -7,20 +7,20 @@ It can be limited to a set number of retries, and have a delay added between ret
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DelayedBy](#DelayedBy)
- * [UpTo](#UpTo)
+ * [DelayedBy](#delayedby)
+ * [UpTo](#upto)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Retry](#Retry)
+ * [Retry](#retry)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [DelayedBy](#DelayedBy)
- * [UpTo](#UpTo)
+ * [DelayedBy](#delayedby)
+ * [UpTo](#upto)
 
 ## API Documentation
 
 ### Constants
 
 
-### [DelayedBy](#DelayedBy)
+### [DelayedBy](#delayedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 
 ---
 
-### [UpTo](#UpTo)
+### [UpTo](#upto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 ### Constructors
 
 
-### [Retry](#Retry)
+### [Retry](#retry)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 ### Methods
 
 
-### [DelayedBy](#DelayedBy)
+### [DelayedBy](#delayedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ It can be limited to a set number of retries, and have a delay added between ret
 
 ---
 
-### [UpTo](#UpTo)
+### [UpTo](#upto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

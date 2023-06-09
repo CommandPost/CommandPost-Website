@@ -9,10 +9,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 * Functions - API calls offered directly by the extension
  * [default](#default)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Handler](#Handler)
+ * [Handler](#handler)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [aborted](#aborted)
- * [checkVerbose](#checkVerbose)
+ * [checkVerbose](#checkverbose)
  * [failed](#failed)
  * [filter](#filter)
  * [passed](#passed)
@@ -42,7 +42,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 ### Constructors
 
 
-### [Handler](#Handler)
+### [Handler](#handler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 
 ---
 
-### [checkVerbose](#checkVerbose)
+### [checkVerbose](#checkverbose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

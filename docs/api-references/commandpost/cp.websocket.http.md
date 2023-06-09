@@ -7,7 +7,7 @@ Provides a full HTTP-based websocket implementation.
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [close](#close)
- * [isOpen](#isOpen)
+ * [isOpen](#isopen)
  * [open](#open)
  * [send](#send)
  * [status](#status)
@@ -45,7 +45,7 @@ Provides a full HTTP-based websocket implementation.
 
 ---
 
-### [isOpen](#isOpen)
+### [isOpen](#isopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

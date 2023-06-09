@@ -6,7 +6,7 @@ UI ColorWell.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorWell](#ColorWell)
+ * [ColorWell](#colorwell)
 
 ## API Documentation
 
@@ -28,7 +28,7 @@ UI ColorWell.
 ### Constructors
 
 
-### [ColorWell](#ColorWell)
+### [ColorWell](#colorwell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -21,36 +21,36 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [dateFormatString](#dateFormatString)
- * [statusCodes](#statusCodes)
+ * [dateFormatString](#dateformatstring)
+ * [statusCodes](#statuscodes)
 * Variables - Configurable values
- * [_accessLog](#_accessLog)
- * [_errorHandlers](#_errorHandlers)
- * [_serverAdmin](#_serverAdmin)
- * [_supportMethods](#_supportMethods)
+ * [_accessLog](#_accesslog)
+ * [_errorHandlers](#_errorhandlers)
+ * [_serverAdmin](#_serveradmin)
+ * [_supportMethods](#_supportmethods)
  * [log](#log)
 * Functions - API calls offered directly by the extension
- * [formattedDate](#formattedDate)
- * [urlParts](#urlParts)
+ * [formattedDate](#formatteddate)
+ * [urlParts](#urlparts)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [accessList](#accessList)
- * [allowDirectory](#allowDirectory)
+ * [accessList](#accesslist)
+ * [allowDirectory](#allowdirectory)
  * [bonjour](#bonjour)
- * [cgiEnabled](#cgiEnabled)
- * [cgiExtensions](#cgiExtensions)
- * [directoryIndex](#directoryIndex)
- * [dnsLookup](#dnsLookup)
- * [documentRoot](#documentRoot)
+ * [cgiEnabled](#cgienabled)
+ * [cgiExtensions](#cgiextensions)
+ * [directoryIndex](#directoryindex)
+ * [dnsLookup](#dnslookup)
+ * [documentRoot](#documentroot)
  * [interface](#interface)
- * [luaTemplateExtension](#luaTemplateExtension)
- * [maxBodySize](#maxBodySize)
+ * [luaTemplateExtension](#luatemplateextension)
+ * [maxBodySize](#maxbodysize)
  * [name](#name)
  * [password](#password)
  * [port](#port)
- * [queryLogging](#queryLogging)
- * [scriptTimeout](#scriptTimeout)
+ * [queryLogging](#querylogging)
+ * [scriptTimeout](#scripttimeout)
  * [ssl](#ssl)
  * [start](#start)
  * [stop](#stop)
@@ -60,7 +60,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 ### Constants
 
 
-### [dateFormatString](#dateFormatString)
+### [dateFormatString](#dateformatstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [statusCodes](#statusCodes)
+### [statusCodes](#statuscodes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 ### Variables
 
 
-### [_accessLog](#_accessLog)
+### [_accessLog](#_accesslog)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [_errorHandlers](#_errorHandlers)
+### [_errorHandlers](#_errorhandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [_serverAdmin](#_serverAdmin)
+### [_serverAdmin](#_serveradmin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [_supportMethods](#_supportMethods)
+### [_supportMethods](#_supportmethods)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 ### Functions
 
 
-### [formattedDate](#formattedDate)
+### [formattedDate](#formatteddate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [urlParts](#urlParts)
+### [urlParts](#urlparts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 ### Methods
 
 
-### [accessList](#accessList)
+### [accessList](#accesslist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [allowDirectory](#allowDirectory)
+### [allowDirectory](#allowdirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [cgiEnabled](#cgiEnabled)
+### [cgiEnabled](#cgienabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [cgiExtensions](#cgiExtensions)
+### [cgiExtensions](#cgiextensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [directoryIndex](#directoryIndex)
+### [directoryIndex](#directoryindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [dnsLookup](#dnsLookup)
+### [dnsLookup](#dnslookup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [documentRoot](#documentRoot)
+### [documentRoot](#documentroot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [luaTemplateExtension](#luaTemplateExtension)
+### [luaTemplateExtension](#luatemplateextension)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [maxBodySize](#maxBodySize)
+### [maxBodySize](#maxbodysize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -360,7 +360,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [queryLogging](#queryLogging)
+### [queryLogging](#querylogging)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -373,7 +373,7 @@ You can start this web server by typing the following into your Hammerspoon cons
 
 ---
 
-### [scriptTimeout](#scriptTimeout)
+### [scriptTimeout](#scripttimeout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

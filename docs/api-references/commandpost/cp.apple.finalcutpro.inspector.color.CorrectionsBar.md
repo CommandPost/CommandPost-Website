@@ -6,17 +6,17 @@ Requires Final Cut Pro 10.4 or later.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [CorrectionsBar](#CorrectionsBar)
+ * [CorrectionsBar](#correctionsbar)
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [correction](#correction)
- * [menuButton](#menuButton)
+ * [menuButton](#menubutton)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [activate](#activate)
  * [add](#add)
- * [doActivate](#doActivate)
- * [doShow](#doShow)
- * [findCorrectionLabel](#findCorrectionLabel)
+ * [doActivate](#doactivate)
+ * [doShow](#doshow)
+ * [findCorrectionLabel](#findcorrectionlabel)
  * [show](#show)
 
 ## API Documentation
@@ -24,7 +24,7 @@ Requires Final Cut Pro 10.4 or later.
 ### Functions
 
 
-### [CorrectionsBar](#CorrectionsBar)
+### [CorrectionsBar](#correctionsbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [menuButton](#menuButton)
+### [menuButton](#menubutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [doActivate](#doActivate)
+### [doActivate](#doactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [findCorrectionLabel](#findCorrectionLabel)
+### [findCorrectionLabel](#findcorrectionlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

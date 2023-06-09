@@ -70,40 +70,40 @@ approximations, and leave it at that!
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [perFrame100](#perFrame100)
- * [perFrame120](#perFrame120)
- * [perFrame120NTSC](#perFrame120NTSC)
- * [perFrame24](#perFrame24)
- * [perFrame24NTSC](#perFrame24NTSC)
- * [perFrame25](#perFrame25)
- * [perFrame30](#perFrame30)
- * [perFrame30NTSC](#perFrame30NTSC)
- * [perFrame44100](#perFrame44100)
- * [perFrame48](#perFrame48)
- * [perFrame48000](#perFrame48000)
- * [perFrame50](#perFrame50)
- * [perFrame60](#perFrame60)
- * [perFrame60NTSC](#perFrame60NTSC)
- * [perFrame90](#perFrame90)
- * [perHour](#perHour)
- * [perMinutes](#perMinutes)
- * [perSecond](#perSecond)
+ * [perFrame100](#perframe100)
+ * [perFrame120](#perframe120)
+ * [perFrame120NTSC](#perframe120ntsc)
+ * [perFrame24](#perframe24)
+ * [perFrame24NTSC](#perframe24ntsc)
+ * [perFrame25](#perframe25)
+ * [perFrame30](#perframe30)
+ * [perFrame30NTSC](#perframe30ntsc)
+ * [perFrame44100](#perframe44100)
+ * [perFrame48](#perframe48)
+ * [perFrame48000](#perframe48000)
+ * [perFrame50](#perframe50)
+ * [perFrame60](#perframe60)
+ * [perFrame60NTSC](#perframe60ntsc)
+ * [perFrame90](#perframe90)
+ * [perHour](#perhour)
+ * [perMinutes](#perminutes)
+ * [perSecond](#persecond)
 * Functions - API calls offered directly by the extension
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
  * [parse](#parse)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [toFrames](#toFrames)
- * [toSeconds](#toSeconds)
- * [toTimecode](#toTimecode)
+ * [toFrames](#toframes)
+ * [toSeconds](#toseconds)
+ * [toTimecode](#totimecode)
 
 ## API Documentation
 
 ### Constants
 
 
-### [perFrame100](#perFrame100)
+### [perFrame100](#perframe100)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame120](#perFrame120)
+### [perFrame120](#perframe120)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame120NTSC](#perFrame120NTSC)
+### [perFrame120NTSC](#perframe120ntsc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame24](#perFrame24)
+### [perFrame24](#perframe24)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame24NTSC](#perFrame24NTSC)
+### [perFrame24NTSC](#perframe24ntsc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame25](#perFrame25)
+### [perFrame25](#perframe25)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame30](#perFrame30)
+### [perFrame30](#perframe30)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame30NTSC](#perFrame30NTSC)
+### [perFrame30NTSC](#perframe30ntsc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame44100](#perFrame44100)
+### [perFrame44100](#perframe44100)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame48](#perFrame48)
+### [perFrame48](#perframe48)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame48000](#perFrame48000)
+### [perFrame48000](#perframe48000)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -213,7 +213,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame50](#perFrame50)
+### [perFrame50](#perframe50)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame60](#perFrame60)
+### [perFrame60](#perframe60)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame60NTSC](#perFrame60NTSC)
+### [perFrame60NTSC](#perframe60ntsc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perFrame90](#perFrame90)
+### [perFrame90](#perframe90)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perHour](#perHour)
+### [perHour](#perhour)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perMinutes](#perMinutes)
+### [perMinutes](#perminutes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ approximations, and leave it at that!
 
 ---
 
-### [perSecond](#perSecond)
+### [perSecond](#persecond)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -328,7 +328,7 @@ approximations, and leave it at that!
 ### Methods
 
 
-### [toFrames](#toFrames)
+### [toFrames](#toframes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -341,7 +341,7 @@ approximations, and leave it at that!
 
 ---
 
-### [toSeconds](#toSeconds)
+### [toSeconds](#toseconds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -354,7 +354,7 @@ approximations, and leave it at that!
 
 ---
 
-### [toTimecode](#toTimecode)
+### [toTimecode](#totimecode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

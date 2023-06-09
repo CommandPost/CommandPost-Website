@@ -17,7 +17,7 @@ as described below.
 * Methods - API calls which can only be made on an object returned by a constructor
  * [controls](#controls)
  * [name](#name)
- * [nameX](#nameX)
+ * [nameX](#namex)
  * [parent](#parent)
  * [tangent](#tangent)
 
@@ -117,7 +117,7 @@ as described below.
 
 ---
 
-### [nameX](#nameX)
+### [nameX](#namex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

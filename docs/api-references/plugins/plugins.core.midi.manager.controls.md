@@ -6,10 +6,10 @@ MIDI Manager Controls.
 * Variables - Configurable values
  * [controls](#controls)
 * Functions - API calls offered directly by the extension
- * [allGroups](#allGroups)
+ * [allGroups](#allgroups)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [get](#get)
- * [getAll](#getAll)
+ * [getAll](#getall)
  * [id](#id)
  * [new](#new)
  * [params](#params)
@@ -31,7 +31,7 @@ MIDI Manager Controls.
 ### Functions
 
 
-### [allGroups](#allGroups)
+### [allGroups](#allgroups)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ MIDI Manager Controls.
 
 ---
 
-### [getAll](#getAll)
+### [getAll](#getall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

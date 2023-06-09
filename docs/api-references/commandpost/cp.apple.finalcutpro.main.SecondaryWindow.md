@@ -6,19 +6,19 @@ Secondary Window Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [SecondaryWindow](#SecondaryWindow)
+ * [SecondaryWindow](#secondarywindow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [browserGroupUI](#browserGroupUI)
+ * [browserGroupUI](#browsergroupui)
  * [frame](#frame)
- * [hsWindow](#hsWindow)
- * [isFullScreen](#isFullScreen)
- * [isShowing](#isShowing)
- * [rootGroupUI](#rootGroupUI)
- * [timelineGroupUI](#timelineGroupUI)
- * [viewerGroupUI](#viewerGroupUI)
+ * [hsWindow](#hswindow)
+ * [isFullScreen](#isfullscreen)
+ * [isShowing](#isshowing)
+ * [rootGroupUI](#rootgroupui)
+ * [timelineGroupUI](#timelinegroupui)
+ * [viewerGroupUI](#viewergroupui)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -41,7 +41,7 @@ Secondary Window Module.
 ### Constructors
 
 
-### [SecondaryWindow](#SecondaryWindow)
+### [SecondaryWindow](#secondarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Secondary Window Module.
 ### Fields
 
 
-### [browserGroupUI](#browserGroupUI)
+### [browserGroupUI](#browsergroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Secondary Window Module.
 
 ---
 
-### [hsWindow](#hsWindow)
+### [hsWindow](#hswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Secondary Window Module.
 
 ---
 
-### [isFullScreen](#isFullScreen)
+### [isFullScreen](#isfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Secondary Window Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Secondary Window Module.
 
 ---
 
-### [rootGroupUI](#rootGroupUI)
+### [rootGroupUI](#rootgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Secondary Window Module.
 
 ---
 
-### [timelineGroupUI](#timelineGroupUI)
+### [timelineGroupUI](#timelinegroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Secondary Window Module.
 
 ---
 
-### [viewerGroupUI](#viewerGroupUI)
+### [viewerGroupUI](#viewergroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Secondary Window Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

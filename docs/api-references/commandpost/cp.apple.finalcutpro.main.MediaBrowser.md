@@ -4,40 +4,40 @@ Media Browser Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [GARAGE_BAND](#GARAGE_BAND)
- * [ITUNES](#ITUNES)
- * [LEGACY_TITLE](#LEGACY_TITLE)
- * [MAX_SECTIONS](#MAX_SECTIONS)
- * [PHOTOS](#PHOTOS)
- * [SOUND_EFFECTS](#SOUND_EFFECTS)
- * [TITLE](#TITLE)
+ * [GARAGE_BAND](#garage_band)
+ * [ITUNES](#itunes)
+ * [LEGACY_TITLE](#legacy_title)
+ * [MAX_SECTIONS](#max_sections)
+ * [PHOTOS](#photos)
+ * [SOUND_EFFECTS](#sound_effects)
+ * [TITLE](#title)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [MediaBrowser](#MediaBrowser)
+ * [MediaBrowser](#mediabrowser)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [group](#group)
- * [isShowing](#isShowing)
- * [mainGroupUI](#mainGroupUI)
+ * [isShowing](#isshowing)
+ * [mainGroupUI](#maingroupui)
  * [search](#search)
  * [sidebar](#sidebar)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
  * [show](#show)
- * [showGarageBand](#showGarageBand)
- * [showITunes](#showITunes)
- * [showPhotos](#showPhotos)
- * [showSection](#showSection)
- * [showSidebar](#showSidebar)
- * [showSoundEffects](#showSoundEffects)
- * [topCategoriesUI](#topCategoriesUI)
+ * [showGarageBand](#showgarageband)
+ * [showITunes](#showitunes)
+ * [showPhotos](#showphotos)
+ * [showSection](#showsection)
+ * [showSidebar](#showsidebar)
+ * [showSoundEffects](#showsoundeffects)
+ * [topCategoriesUI](#topcategoriesui)
 
 ## API Documentation
 
 ### Constants
 
 
-### [GARAGE_BAND](#GARAGE_BAND)
+### [GARAGE_BAND](#garage_band)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Media Browser Module.
 
 ---
 
-### [ITUNES](#ITUNES)
+### [ITUNES](#itunes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Media Browser Module.
 
 ---
 
-### [LEGACY_TITLE](#LEGACY_TITLE)
+### [LEGACY_TITLE](#legacy_title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Media Browser Module.
 
 ---
 
-### [MAX_SECTIONS](#MAX_SECTIONS)
+### [MAX_SECTIONS](#max_sections)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Media Browser Module.
 
 ---
 
-### [PHOTOS](#PHOTOS)
+### [PHOTOS](#photos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Media Browser Module.
 
 ---
 
-### [SOUND_EFFECTS](#SOUND_EFFECTS)
+### [SOUND_EFFECTS](#sound_effects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Media Browser Module.
 
 ---
 
-### [TITLE](#TITLE)
+### [TITLE](#title)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Media Browser Module.
 ### Constructors
 
 
-### [MediaBrowser](#MediaBrowser)
+### [MediaBrowser](#mediabrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Media Browser Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Media Browser Module.
 
 ---
 
-### [mainGroupUI](#mainGroupUI)
+### [mainGroupUI](#maingroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Media Browser Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ Media Browser Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ Media Browser Module.
 
 ---
 
-### [showGarageBand](#showGarageBand)
+### [showGarageBand](#showgarageband)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ Media Browser Module.
 
 ---
 
-### [showITunes](#showITunes)
+### [showITunes](#showitunes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ Media Browser Module.
 
 ---
 
-### [showPhotos](#showPhotos)
+### [showPhotos](#showphotos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ Media Browser Module.
 
 ---
 
-### [showSection](#showSection)
+### [showSection](#showsection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ Media Browser Module.
 
 ---
 
-### [showSidebar](#showSidebar)
+### [showSidebar](#showsidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -293,7 +293,7 @@ Media Browser Module.
 
 ---
 
-### [showSoundEffects](#showSoundEffects)
+### [showSoundEffects](#showsoundeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -306,7 +306,7 @@ Media Browser Module.
 
 ---
 
-### [topCategoriesUI](#topCategoriesUI)
+### [topCategoriesUI](#topcategoriesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

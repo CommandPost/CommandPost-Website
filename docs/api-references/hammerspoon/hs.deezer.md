@@ -10,26 +10,26 @@ Heavily inspired by 'hs.spotify', credits to the original author.
  * [state_playing](#state_playing)
  * [state_stopped](#state_stopped)
 * Functions - API calls offered directly by the extension
- * [displayCurrentTrack](#displayCurrentTrack)
+ * [displayCurrentTrack](#displaycurrenttrack)
  * [ff](#ff)
- * [getCurrentAlbum](#getCurrentAlbum)
- * [getCurrentArtist](#getCurrentArtist)
- * [getCurrentTrack](#getCurrentTrack)
- * [getPlaybackState](#getPlaybackState)
- * [getPosition](#getPosition)
- * [getVolume](#getVolume)
- * [isPlaying](#isPlaying)
- * [isRunning](#isRunning)
+ * [getCurrentAlbum](#getcurrentalbum)
+ * [getCurrentArtist](#getcurrentartist)
+ * [getCurrentTrack](#getcurrenttrack)
+ * [getPlaybackState](#getplaybackstate)
+ * [getPosition](#getposition)
+ * [getVolume](#getvolume)
+ * [isPlaying](#isplaying)
+ * [isRunning](#isrunning)
  * [next](#next)
  * [pause](#pause)
  * [play](#play)
  * [playpause](#playpause)
  * [previous](#previous)
  * [rw](#rw)
- * [setPosition](#setPosition)
- * [setVolume](#setVolume)
- * [volumeDown](#volumeDown)
- * [volumeUp](#volumeUp)
+ * [setPosition](#setposition)
+ * [setVolume](#setvolume)
+ * [volumeDown](#volumedown)
+ * [volumeUp](#volumeup)
 
 ## API Documentation
 
@@ -68,7 +68,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 ### Functions
 
 
-### [displayCurrentTrack](#displayCurrentTrack)
+### [displayCurrentTrack](#displaycurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getCurrentAlbum](#getCurrentAlbum)
+### [getCurrentAlbum](#getcurrentalbum)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getCurrentArtist](#getCurrentArtist)
+### [getCurrentArtist](#getcurrentartist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getCurrentTrack](#getCurrentTrack)
+### [getCurrentTrack](#getcurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getPlaybackState](#getPlaybackState)
+### [getPlaybackState](#getplaybackstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getPosition](#getPosition)
+### [getPosition](#getposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [getVolume](#getVolume)
+### [getVolume](#getvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [setPosition](#setPosition)
+### [setPosition](#setposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [setVolume](#setVolume)
+### [setVolume](#setvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [volumeDown](#volumeDown)
+### [volumeDown](#volumedown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -315,7 +315,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ---
 
-### [volumeUp](#volumeUp)
+### [volumeUp](#volumeup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -11,10 +11,10 @@ Represents a clip of media inside FCP.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [getTitle](#getTitle)
- * [getType](#getType)
- * [setTitle](#setTitle)
- * [UI](#UI)
+ * [getTitle](#gettitle)
+ * [getType](#gettype)
+ * [setTitle](#settitle)
+ * [UI](#ui)
 
 ## API Documentation
 
@@ -73,7 +73,7 @@ Represents a clip of media inside FCP.
 ### Methods
 
 
-### [getTitle](#getTitle)
+### [getTitle](#gettitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Represents a clip of media inside FCP.
 
 ---
 
-### [getType](#getType)
+### [getType](#gettype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Represents a clip of media inside FCP.
 
 ---
 
-### [setTitle](#setTitle)
+### [setTitle](#settitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Represents a clip of media inside FCP.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

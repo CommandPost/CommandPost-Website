@@ -8,10 +8,10 @@ A collection of tools for handling FCPXML Documents.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [HAS_OFFSET_ATTRIBUTE](#HAS_OFFSET_ATTRIBUTE)
+ * [HAS_OFFSET_ATTRIBUTE](#has_offset_attribute)
 * Functions - API calls offered directly by the extension
- * [latestDTDVersion](#latestDTDVersion)
- * [supportedDTDs](#supportedDTDs)
+ * [latestDTDVersion](#latestdtdversion)
+ * [supportedDTDs](#supporteddtds)
  * [valid](#valid)
 
 ## API Documentation
@@ -19,7 +19,7 @@ A collection of tools for handling FCPXML Documents.
 ### Constants
 
 
-### [HAS_OFFSET_ATTRIBUTE](#HAS_OFFSET_ATTRIBUTE)
+### [HAS_OFFSET_ATTRIBUTE](#has_offset_attribute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ A collection of tools for handling FCPXML Documents.
 ### Functions
 
 
-### [latestDTDVersion](#latestDTDVersion)
+### [latestDTDVersion](#latestdtdversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ A collection of tools for handling FCPXML Documents.
 
 ---
 
-### [supportedDTDs](#supportedDTDs)
+### [supportedDTDs](#supporteddtds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

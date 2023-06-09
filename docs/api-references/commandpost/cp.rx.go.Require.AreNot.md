@@ -4,16 +4,16 @@ Specifies that the `Require`d values `AreNot` a specific value.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [AreNot](#AreNot)
+ * [AreNot](#arenot)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [OrThrow](#OrThrow)
+ * [OrThrow](#orthrow)
 
 ## API Documentation
 
 ### Constants
 
 
-### [AreNot](#AreNot)
+### [AreNot](#arenot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Specifies that the `Require`d values `AreNot` a specific value.
 ### Methods
 
 
-### [OrThrow](#OrThrow)
+### [OrThrow](#orthrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

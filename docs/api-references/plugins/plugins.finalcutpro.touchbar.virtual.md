@@ -4,12 +4,12 @@ Virtual Touch Bar Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [LOCATION_TIMELINE](#LOCATION_TIMELINE)
- * [VISIBILITY_ALWAYS](#VISIBILITY_ALWAYS)
- * [VISIBILITY_DEFAULT](#VISIBILITY_DEFAULT)
- * [VISIBILITY_FCP](#VISIBILITY_FCP)
+ * [LOCATION_TIMELINE](#location_timeline)
+ * [VISIBILITY_ALWAYS](#visibility_always)
+ * [VISIBILITY_DEFAULT](#visibility_default)
+ * [VISIBILITY_FCP](#visibility_fcp)
 * Functions - API calls offered directly by the extension
- * [updateLocation](#updateLocation)
+ * [updateLocation](#updatelocation)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
  * [location](#location)
@@ -20,7 +20,7 @@ Virtual Touch Bar Plugin.
 ### Constants
 
 
-### [LOCATION_TIMELINE](#LOCATION_TIMELINE)
+### [LOCATION_TIMELINE](#location_timeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Virtual Touch Bar Plugin.
 
 ---
 
-### [VISIBILITY_ALWAYS](#VISIBILITY_ALWAYS)
+### [VISIBILITY_ALWAYS](#visibility_always)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Virtual Touch Bar Plugin.
 
 ---
 
-### [VISIBILITY_DEFAULT](#VISIBILITY_DEFAULT)
+### [VISIBILITY_DEFAULT](#visibility_default)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Virtual Touch Bar Plugin.
 
 ---
 
-### [VISIBILITY_FCP](#VISIBILITY_FCP)
+### [VISIBILITY_FCP](#visibility_fcp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Virtual Touch Bar Plugin.
 ### Functions
 
 
-### [updateLocation](#updateLocation)
+### [updateLocation](#updatelocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

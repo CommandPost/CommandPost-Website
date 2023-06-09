@@ -5,8 +5,8 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 ## API Overview
 * Variables - Configurable values
  * [active](#active)
- * [hasWidgets](#hasWidgets)
- * [updateInterval](#updateInterval)
+ * [hasWidgets](#haswidgets)
+ * [updateInterval](#updateinterval)
 * Functions - API calls offered directly by the extension
  * [init](#init)
  * [start](#start)
@@ -27,7 +27,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 
 ---
 
-### [hasWidgets](#hasWidgets)
+### [hasWidgets](#haswidgets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 
 ---
 
-### [updateInterval](#updateInterval)
+### [updateInterval](#updateinterval)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,7 +6,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 * Constants - Useful values which cannot be changed
  * [ids](#ids)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorBoardAspect](#ColorBoardAspect)
+ * [ColorBoardAspect](#colorboardaspect)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [highlights](#highlights)
  * [master](#master)
@@ -14,8 +14,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
  * [selected](#selected)
  * [shadows](#shadows)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
- * [hasAngle](#hasAngle)
+ * [doShow](#doshow)
+ * [hasAngle](#hasangle)
  * [id](#id)
  * [index](#index)
  * [reset](#reset)
@@ -38,7 +38,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 ### Constructors
 
 
-### [ColorBoardAspect](#ColorBoardAspect)
+### [ColorBoardAspect](#colorboardaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
 
 ---
 
-### [hasAngle](#hasAngle)
+### [hasAngle](#hasangle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,17 +6,17 @@ Controls for VOX music player
 * Functions - API calls offered directly by the extension
  * [addurl](#addurl)
  * [backward](#backward)
- * [decreaseVolume](#decreaseVolume)
- * [fastBackward](#fastBackward)
- * [fastForward](#fastForward)
+ * [decreaseVolume](#decreasevolume)
+ * [fastBackward](#fastbackward)
+ * [fastForward](#fastforward)
  * [forward](#forward)
- * [getAlbumArtist](#getAlbumArtist)
- * [getCurrentAlbum](#getCurrentAlbum)
- * [getCurrentArtist](#getCurrentArtist)
- * [getPlayerState](#getPlayerState)
- * [getUniqueID](#getUniqueID)
- * [increaseVolume](#increaseVolume)
- * [isRunning](#isRunning)
+ * [getAlbumArtist](#getalbumartist)
+ * [getCurrentAlbum](#getcurrentalbum)
+ * [getCurrentArtist](#getcurrentartist)
+ * [getPlayerState](#getplayerstate)
+ * [getUniqueID](#getuniqueid)
+ * [increaseVolume](#increasevolume)
+ * [isRunning](#isrunning)
  * [next](#next)
  * [pause](#pause)
  * [play](#play)
@@ -24,8 +24,8 @@ Controls for VOX music player
  * [playurl](#playurl)
  * [previous](#previous)
  * [shuffle](#shuffle)
- * [togglePlaylist](#togglePlaylist)
- * [trackInfo](#trackInfo)
+ * [togglePlaylist](#toggleplaylist)
+ * [trackInfo](#trackinfo)
 
 ## API Documentation
 
@@ -58,7 +58,7 @@ Controls for VOX music player
 
 ---
 
-### [decreaseVolume](#decreaseVolume)
+### [decreaseVolume](#decreasevolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Controls for VOX music player
 
 ---
 
-### [fastBackward](#fastBackward)
+### [fastBackward](#fastbackward)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Controls for VOX music player
 
 ---
 
-### [fastForward](#fastForward)
+### [fastForward](#fastforward)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Controls for VOX music player
 
 ---
 
-### [getAlbumArtist](#getAlbumArtist)
+### [getAlbumArtist](#getalbumartist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ Controls for VOX music player
 
 ---
 
-### [getCurrentAlbum](#getCurrentAlbum)
+### [getCurrentAlbum](#getcurrentalbum)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ Controls for VOX music player
 
 ---
 
-### [getCurrentArtist](#getCurrentArtist)
+### [getCurrentArtist](#getcurrentartist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Controls for VOX music player
 
 ---
 
-### [getPlayerState](#getPlayerState)
+### [getPlayerState](#getplayerstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ Controls for VOX music player
 
 ---
 
-### [getUniqueID](#getUniqueID)
+### [getUniqueID](#getuniqueid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Controls for VOX music player
 
 ---
 
-### [increaseVolume](#increaseVolume)
+### [increaseVolume](#increasevolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Controls for VOX music player
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ Controls for VOX music player
 
 ---
 
-### [togglePlaylist](#togglePlaylist)
+### [togglePlaylist](#toggleplaylist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ Controls for VOX music player
 
 ---
 
-### [trackInfo](#trackInfo)
+### [trackInfo](#trackinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

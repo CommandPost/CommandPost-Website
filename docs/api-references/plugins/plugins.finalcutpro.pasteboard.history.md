@@ -4,13 +4,13 @@ Pasteboard History
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [FILE_NAME](#FILE_NAME)
- * [FOLDER_NAME](#FOLDER_NAME)
- * [HISTORY_MAXIMUM_SIZE](#HISTORY_MAXIMUM_SIZE)
+ * [FILE_NAME](#file_name)
+ * [FOLDER_NAME](#folder_name)
+ * [HISTORY_MAXIMUM_SIZE](#history_maximum_size)
 * Functions - API calls offered directly by the extension
- * [addHistoryItem](#addHistoryItem)
- * [clearHistory](#clearHistory)
- * [doPasteHistoryItem](#doPasteHistoryItem)
+ * [addHistoryItem](#addhistoryitem)
+ * [clearHistory](#clearhistory)
+ * [doPasteHistoryItem](#dopastehistoryitem)
  * [init](#init)
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
@@ -22,7 +22,7 @@ Pasteboard History
 ### Constants
 
 
-### [FILE_NAME](#FILE_NAME)
+### [FILE_NAME](#file_name)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Pasteboard History
 
 ---
 
-### [FOLDER_NAME](#FOLDER_NAME)
+### [FOLDER_NAME](#folder_name)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ Pasteboard History
 
 ---
 
-### [HISTORY_MAXIMUM_SIZE](#HISTORY_MAXIMUM_SIZE)
+### [HISTORY_MAXIMUM_SIZE](#history_maximum_size)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Pasteboard History
 ### Functions
 
 
-### [addHistoryItem](#addHistoryItem)
+### [addHistoryItem](#addhistoryitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Pasteboard History
 
 ---
 
-### [clearHistory](#clearHistory)
+### [clearHistory](#clearhistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Pasteboard History
 
 ---
 
-### [doPasteHistoryItem](#doPasteHistoryItem)
+### [doPasteHistoryItem](#dopastehistoryitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -11,30 +11,30 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [_report](#_report)
- * [adapterSerialNumber](#adapterSerialNumber)
+ * [adapterSerialNumber](#adapterserialnumber)
  * [amperage](#amperage)
- * [batterySerialNumber](#batterySerialNumber)
- * [batteryType](#batteryType)
+ * [batterySerialNumber](#batteryserialnumber)
+ * [batteryType](#batterytype)
  * [capacity](#capacity)
  * [cycles](#cycles)
- * [designCapacity](#designCapacity)
- * [getAll](#getAll)
+ * [designCapacity](#designcapacity)
+ * [getAll](#getall)
  * [health](#health)
- * [healthCondition](#healthCondition)
- * [isCharged](#isCharged)
- * [isCharging](#isCharging)
- * [isFinishingCharge](#isFinishingCharge)
- * [maxCapacity](#maxCapacity)
+ * [healthCondition](#healthcondition)
+ * [isCharged](#ischarged)
+ * [isCharging](#ischarging)
+ * [isFinishingCharge](#isfinishingcharge)
+ * [maxCapacity](#maxcapacity)
  * [name](#name)
- * [otherBatteryInfo](#otherBatteryInfo)
+ * [otherBatteryInfo](#otherbatteryinfo)
  * [percentage](#percentage)
- * [powerSource](#powerSource)
- * [powerSourceType](#powerSourceType)
- * [privateBluetoothBatteryInfo](#privateBluetoothBatteryInfo)
- * [timeRemaining](#timeRemaining)
- * [timeToFullCharge](#timeToFullCharge)
+ * [powerSource](#powersource)
+ * [powerSourceType](#powersourcetype)
+ * [privateBluetoothBatteryInfo](#privatebluetoothbatteryinfo)
+ * [timeRemaining](#timeremaining)
+ * [timeToFullCharge](#timetofullcharge)
  * [voltage](#voltage)
- * [warningLevel](#warningLevel)
+ * [warningLevel](#warninglevel)
  * [watts](#watts)
 
 ## API Documentation
@@ -55,7 +55,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [adapterSerialNumber](#adapterSerialNumber)
+### [adapterSerialNumber](#adapterserialnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [batterySerialNumber](#batterySerialNumber)
+### [batterySerialNumber](#batteryserialnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [batteryType](#batteryType)
+### [batteryType](#batterytype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [designCapacity](#designCapacity)
+### [designCapacity](#designcapacity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [getAll](#getAll)
+### [getAll](#getall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [healthCondition](#healthCondition)
+### [healthCondition](#healthcondition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isCharged](#isCharged)
+### [isCharged](#ischarged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isCharging](#isCharging)
+### [isCharging](#ischarging)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isFinishingCharge](#isFinishingCharge)
+### [isFinishingCharge](#isfinishingcharge)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [maxCapacity](#maxCapacity)
+### [maxCapacity](#maxcapacity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [otherBatteryInfo](#otherBatteryInfo)
+### [otherBatteryInfo](#otherbatteryinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [powerSource](#powerSource)
+### [powerSource](#powersource)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [powerSourceType](#powerSourceType)
+### [powerSourceType](#powersourcetype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [privateBluetoothBatteryInfo](#privateBluetoothBatteryInfo)
+### [privateBluetoothBatteryInfo](#privatebluetoothbatteryinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -315,7 +315,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [timeRemaining](#timeRemaining)
+### [timeRemaining](#timeremaining)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -328,7 +328,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [timeToFullCharge](#timeToFullCharge)
+### [timeToFullCharge](#timetofullcharge)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -354,7 +354,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [warningLevel](#warningLevel)
+### [warningLevel](#warninglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

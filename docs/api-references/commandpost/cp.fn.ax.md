@@ -6,42 +6,42 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [areAligned](#areAligned)
+ * [areAligned](#arealigned)
  * [attribute](#attribute)
- * [bottomToTop](#bottomToTop)
- * [bottomUp](#bottomUp)
+ * [bottomToTop](#bottomtotop)
+ * [bottomUp](#bottomup)
  * [cache](#cache)
- * [childMatching](#childMatching)
+ * [childMatching](#childmatching)
  * [children](#children)
- * [childrenMatching](#childrenMatching)
- * [childrenTopDown](#childrenTopDown)
- * [childWith](#childWith)
- * [hasAttributeValue](#hasAttributeValue)
- * [hasRole](#hasRole)
+ * [childrenMatching](#childrenmatching)
+ * [childrenTopDown](#childrentopdown)
+ * [childWith](#childwith)
+ * [hasAttributeValue](#hasattributevalue)
+ * [hasRole](#hasrole)
  * [init](#init)
- * [initElements](#initElements)
- * [isUIElement](#isUIElement)
- * [isValid](#isValid)
- * [leftToRight](#leftToRight)
- * [matchesIf](#matchesIf)
- * [narrowToWide](#narrowToWide)
- * [performAction](#performAction)
+ * [initElements](#initelements)
+ * [isUIElement](#isuielement)
+ * [isValid](#isvalid)
+ * [leftToRight](#lefttoright)
+ * [matchesIf](#matchesif)
+ * [narrowToWide](#narrowtowide)
+ * [performAction](#performaction)
  * [prop](#prop)
- * [rightToLeft](#rightToLeft)
- * [setAttribute](#setAttribute)
- * [shortToTall](#shortToTall)
- * [topDown](#topDown)
- * [topToBottom](#topToBottom)
- * [topToBottomBaseAligned](#topToBottomBaseAligned)
+ * [rightToLeft](#righttoleft)
+ * [setAttribute](#setattribute)
+ * [shortToTall](#shorttotall)
+ * [topDown](#topdown)
+ * [topToBottom](#toptobottom)
+ * [topToBottomBaseAligned](#toptobottombasealigned)
  * [uielement](#uielement)
- * [uielementList](#uielementList)
+ * [uielementList](#uielementlist)
 
 ## API Documentation
 
 ### Functions
 
 
-### [areAligned](#areAligned)
+### [areAligned](#arealigned)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [bottomToTop](#bottomToTop)
+### [bottomToTop](#bottomtotop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [bottomUp](#bottomUp)
+### [bottomUp](#bottomup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [childMatching](#childMatching)
+### [childMatching](#childmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [childrenMatching](#childrenMatching)
+### [childrenMatching](#childrenmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [childrenTopDown](#childrenTopDown)
+### [childrenTopDown](#childrentopdown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [childWith](#childWith)
+### [childWith](#childwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [hasAttributeValue](#hasAttributeValue)
+### [hasAttributeValue](#hasattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [hasRole](#hasRole)
+### [hasRole](#hasrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [initElements](#initElements)
+### [initElements](#initelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [isUIElement](#isUIElement)
+### [isUIElement](#isuielement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [isValid](#isValid)
+### [isValid](#isvalid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [leftToRight](#leftToRight)
+### [leftToRight](#lefttoright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -262,7 +262,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [matchesIf](#matchesIf)
+### [matchesIf](#matchesif)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [narrowToWide](#narrowToWide)
+### [narrowToWide](#narrowtowide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [performAction](#performAction)
+### [performAction](#performaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [rightToLeft](#rightToLeft)
+### [rightToLeft](#righttoleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [setAttribute](#setAttribute)
+### [setAttribute](#setattribute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [shortToTall](#shortToTall)
+### [shortToTall](#shorttotall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [topDown](#topDown)
+### [topDown](#topdown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -366,7 +366,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [topToBottom](#topToBottom)
+### [topToBottom](#toptobottom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -379,7 +379,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [topToBottomBaseAligned](#topToBottomBaseAligned)
+### [topToBottomBaseAligned](#toptobottombasealigned)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -405,7 +405,7 @@ You may also find functions in [cp.fn](cp.fn.md) and [cp.fn.table](cp.fn.table.m
 
 ---
 
-### [uielementList](#uielementList)
+### [uielementList](#uielementlist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

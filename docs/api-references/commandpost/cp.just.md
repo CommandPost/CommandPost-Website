@@ -5,8 +5,8 @@ delayed, up to a finite number of loops.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [doUntil](#doUntil)
- * [doWhile](#doWhile)
+ * [doUntil](#dountil)
+ * [doWhile](#dowhile)
  * [wait](#wait)
 
 ## API Documentation
@@ -14,7 +14,7 @@ delayed, up to a finite number of loops.
 ### Functions
 
 
-### [doUntil](#doUntil)
+### [doUntil](#dountil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ delayed, up to a finite number of loops.
 
 ---
 
-### [doWhile](#doWhile)
+### [doWhile](#dowhile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,11 +4,11 @@ Virtual Touch Bar Manager
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [LOCATION_DEFAULT_VALUE](#LOCATION_DEFAULT_VALUE)
- * [LOCATION_DRAGGABLE](#LOCATION_DRAGGABLE)
- * [LOCATION_MOUSE](#LOCATION_MOUSE)
+ * [LOCATION_DEFAULT_VALUE](#location_default_value)
+ * [LOCATION_DRAGGABLE](#location_draggable)
+ * [LOCATION_MOUSE](#location_mouse)
 * Variables - Configurable values
- * [updateLocationCallback](#updateLocationCallback)
+ * [updateLocationCallback](#updatelocationcallback)
 * Functions - API calls offered directly by the extension
  * [callback](#callback)
  * [hide](#hide)
@@ -20,9 +20,9 @@ Virtual Touch Bar Manager
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
- * [isActive](#isActive)
- * [lastLocation](#lastLocation)
- * [macOSVersionSupported](#macOSVersionSupported)
+ * [isActive](#isactive)
+ * [lastLocation](#lastlocation)
+ * [macOSVersionSupported](#macosversionsupported)
  * [supported](#supported)
 
 ## API Documentation
@@ -30,7 +30,7 @@ Virtual Touch Bar Manager
 ### Constants
 
 
-### [LOCATION_DEFAULT_VALUE](#LOCATION_DEFAULT_VALUE)
+### [LOCATION_DEFAULT_VALUE](#location_default_value)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Virtual Touch Bar Manager
 
 ---
 
-### [LOCATION_DRAGGABLE](#LOCATION_DRAGGABLE)
+### [LOCATION_DRAGGABLE](#location_draggable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Virtual Touch Bar Manager
 
 ---
 
-### [LOCATION_MOUSE](#LOCATION_MOUSE)
+### [LOCATION_MOUSE](#location_mouse)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Virtual Touch Bar Manager
 ### Variables
 
 
-### [updateLocationCallback](#updateLocationCallback)
+### [updateLocationCallback](#updatelocationcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Virtual Touch Bar Manager
 
 ---
 
-### [isActive](#isActive)
+### [isActive](#isactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Virtual Touch Bar Manager
 
 ---
 
-### [lastLocation](#lastLocation)
+### [lastLocation](#lastlocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Virtual Touch Bar Manager
 
 ---
 
-### [macOSVersionSupported](#macOSVersionSupported)
+### [macOSVersionSupported](#macosversionsupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

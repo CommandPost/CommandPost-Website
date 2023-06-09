@@ -10,23 +10,23 @@ The datastore for a webview contains various types of data including cookies, di
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [websiteDataTypes](#websiteDataTypes)
+ * [websiteDataTypes](#websitedatatypes)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [default](#default)
- * [fromWebview](#fromWebview)
- * [newPrivate](#newPrivate)
+ * [fromWebview](#fromwebview)
+ * [newPrivate](#newprivate)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [fetchRecords](#fetchRecords)
+ * [fetchRecords](#fetchrecords)
  * [persistent](#persistent)
- * [removeRecordsAfter](#removeRecordsAfter)
- * [removeRecordsFor](#removeRecordsFor)
+ * [removeRecordsAfter](#removerecordsafter)
+ * [removeRecordsFor](#removerecordsfor)
 
 ## API Documentation
 
 ### Functions
 
 
-### [websiteDataTypes](#websiteDataTypes)
+### [websiteDataTypes](#websitedatatypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ The datastore for a webview contains various types of data including cookies, di
 
 ---
 
-### [fromWebview](#fromWebview)
+### [fromWebview](#fromwebview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ The datastore for a webview contains various types of data including cookies, di
 
 ---
 
-### [newPrivate](#newPrivate)
+### [newPrivate](#newprivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ The datastore for a webview contains various types of data including cookies, di
 ### Methods
 
 
-### [fetchRecords](#fetchRecords)
+### [fetchRecords](#fetchrecords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ The datastore for a webview contains various types of data including cookies, di
 
 ---
 
-### [removeRecordsAfter](#removeRecordsAfter)
+### [removeRecordsAfter](#removerecordsafter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ The datastore for a webview contains various types of data including cookies, di
 
 ---
 
-### [removeRecordsFor](#removeRecordsFor)
+### [removeRecordsFor](#removerecordsfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

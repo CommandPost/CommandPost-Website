@@ -32,23 +32,23 @@ misrepresented as being the original software.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [absolutePosition](#absolutePosition)
+ * [absolutePosition](#absoluteposition)
  * [count](#count)
- * [currentCursorType](#currentCursorType)
- * [getButtons](#getButtons)
- * [getCurrentScreen](#getCurrentScreen)
- * [getRelativePosition](#getRelativePosition)
+ * [currentCursorType](#currentcursortype)
+ * [getButtons](#getbuttons)
+ * [getCurrentScreen](#getcurrentscreen)
+ * [getRelativePosition](#getrelativeposition)
  * [names](#names)
- * [scrollDirection](#scrollDirection)
- * [setRelativePosition](#setRelativePosition)
- * [trackingSpeed](#trackingSpeed)
+ * [scrollDirection](#scrolldirection)
+ * [setRelativePosition](#setrelativeposition)
+ * [trackingSpeed](#trackingspeed)
 
 ## API Documentation
 
 ### Functions
 
 
-### [absolutePosition](#absolutePosition)
+### [absolutePosition](#absoluteposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ misrepresented as being the original software.
 
 ---
 
-### [currentCursorType](#currentCursorType)
+### [currentCursorType](#currentcursortype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ misrepresented as being the original software.
 
 ---
 
-### [getButtons](#getButtons)
+### [getButtons](#getbuttons)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ misrepresented as being the original software.
 
 ---
 
-### [getCurrentScreen](#getCurrentScreen)
+### [getCurrentScreen](#getcurrentscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ misrepresented as being the original software.
 
 ---
 
-### [getRelativePosition](#getRelativePosition)
+### [getRelativePosition](#getrelativeposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ misrepresented as being the original software.
 
 ---
 
-### [scrollDirection](#scrollDirection)
+### [scrollDirection](#scrolldirection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ misrepresented as being the original software.
 
 ---
 
-### [setRelativePosition](#setRelativePosition)
+### [setRelativePosition](#setrelativeposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ misrepresented as being the original software.
 
 ---
 
-### [trackingSpeed](#trackingSpeed)
+### [trackingSpeed](#trackingspeed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

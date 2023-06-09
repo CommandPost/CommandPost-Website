@@ -10,8 +10,8 @@ Info Inspector Module when a Project is selected.
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [modify](#modify)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
- * [propertiesUI](#propertiesUI)
+ * [doShow](#doshow)
+ * [propertiesUI](#propertiesui)
 
 ## API Documentation
 
@@ -60,7 +60,7 @@ Info Inspector Module when a Project is selected.
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Info Inspector Module when a Project is selected.
 
 ---
 
-### [propertiesUI](#propertiesUI)
+### [propertiesUI](#propertiesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

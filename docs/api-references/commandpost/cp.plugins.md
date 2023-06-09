@@ -151,37 +151,37 @@ These modules will not be accessible to other plugins or to the main application
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [CACHE](#CACHE)
- * [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+ * [CACHE](#cache)
+ * [SETTINGS_DISABLED](#settings_disabled)
 * Variables - Configurable values
- * [IDS](#IDS)
+ * [IDS](#ids)
 * Functions - API calls offered directly by the extension
- * [addDependent](#addDependent)
+ * [addDependent](#adddependent)
  * [disable](#disable)
  * [enable](#enable)
- * [getDependents](#getDependents)
- * [getPlugin](#getPlugin)
- * [getPluginIds](#getPluginIds)
- * [getPluginModule](#getPluginModule)
- * [getPlugins](#getPlugins)
+ * [getDependents](#getdependents)
+ * [getPlugin](#getplugin)
+ * [getPluginIds](#getpluginids)
+ * [getPluginModule](#getpluginmodule)
+ * [getPlugins](#getplugins)
  * [init](#init)
- * [initPlugin](#initPlugin)
- * [initPlugins](#initPlugins)
- * [isDisabled](#isDisabled)
- * [loadComplexPlugin](#loadComplexPlugin)
- * [loadDependencies](#loadDependencies)
- * [loadSimplePlugin](#loadSimplePlugin)
- * [postInitPlugin](#postInitPlugin)
- * [postInitPlugins](#postInitPlugins)
- * [scanDirectory](#scanDirectory)
- * [watchPluginPaths](#watchPluginPaths)
+ * [initPlugin](#initplugin)
+ * [initPlugins](#initplugins)
+ * [isDisabled](#isdisabled)
+ * [loadComplexPlugin](#loadcomplexplugin)
+ * [loadDependencies](#loaddependencies)
+ * [loadSimplePlugin](#loadsimpleplugin)
+ * [postInitPlugin](#postinitplugin)
+ * [postInitPlugins](#postinitplugins)
+ * [scanDirectory](#scandirectory)
+ * [watchPluginPaths](#watchpluginpaths)
 
 ## API Documentation
 
 ### Constants
 
 
-### [CACHE](#CACHE)
+### [CACHE](#cache)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+### [SETTINGS_DISABLED](#settings_disabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ These modules will not be accessible to other plugins or to the main application
 ### Variables
 
 
-### [IDS](#IDS)
+### [IDS](#ids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ These modules will not be accessible to other plugins or to the main application
 ### Functions
 
 
-### [addDependent](#addDependent)
+### [addDependent](#adddependent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [getDependents](#getDependents)
+### [getDependents](#getdependents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [getPlugin](#getPlugin)
+### [getPlugin](#getplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [getPluginIds](#getPluginIds)
+### [getPluginIds](#getpluginids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -293,7 +293,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [getPluginModule](#getPluginModule)
+### [getPluginModule](#getpluginmodule)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -306,7 +306,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [getPlugins](#getPlugins)
+### [getPlugins](#getplugins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -332,7 +332,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [initPlugin](#initPlugin)
+### [initPlugin](#initplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -345,7 +345,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [initPlugins](#initPlugins)
+### [initPlugins](#initplugins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -358,7 +358,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [isDisabled](#isDisabled)
+### [isDisabled](#isdisabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -371,7 +371,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [loadComplexPlugin](#loadComplexPlugin)
+### [loadComplexPlugin](#loadcomplexplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [loadDependencies](#loadDependencies)
+### [loadDependencies](#loaddependencies)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -397,7 +397,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [loadSimplePlugin](#loadSimplePlugin)
+### [loadSimplePlugin](#loadsimpleplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -410,7 +410,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [postInitPlugin](#postInitPlugin)
+### [postInitPlugin](#postinitplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -423,7 +423,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [postInitPlugins](#postInitPlugins)
+### [postInitPlugins](#postinitplugins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -436,7 +436,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [scanDirectory](#scanDirectory)
+### [scanDirectory](#scandirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -449,7 +449,7 @@ These modules will not be accessible to other plugins or to the main application
 
 ---
 
-### [watchPluginPaths](#watchPluginPaths)
+### [watchPluginPaths](#watchpluginpaths)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

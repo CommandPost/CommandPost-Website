@@ -4,18 +4,18 @@ Shortcut for changing Final Cut Pro's Timeline Height
 
 ## API Overview
 * Variables - Configurable values
- * [changeTimelineClipHeightAlreadyInProgress](#changeTimelineClipHeightAlreadyInProgress)
+ * [changeTimelineClipHeightAlreadyInProgress](#changetimelineclipheightalreadyinprogress)
 * Functions - API calls offered directly by the extension
- * [changeTimelineClipHeight](#changeTimelineClipHeight)
- * [changeTimelineClipHeightRelease](#changeTimelineClipHeightRelease)
- * [shiftClipHeight](#shiftClipHeight)
+ * [changeTimelineClipHeight](#changetimelineclipheight)
+ * [changeTimelineClipHeightRelease](#changetimelineclipheightrelease)
+ * [shiftClipHeight](#shiftclipheight)
 
 ## API Documentation
 
 ### Variables
 
 
-### [changeTimelineClipHeightAlreadyInProgress](#changeTimelineClipHeightAlreadyInProgress)
+### [changeTimelineClipHeightAlreadyInProgress](#changetimelineclipheightalreadyinprogress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Shortcut for changing Final Cut Pro's Timeline Height
 ### Functions
 
 
-### [changeTimelineClipHeight](#changeTimelineClipHeight)
+### [changeTimelineClipHeight](#changetimelineclipheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Shortcut for changing Final Cut Pro's Timeline Height
 
 ---
 
-### [changeTimelineClipHeightRelease](#changeTimelineClipHeightRelease)
+### [changeTimelineClipHeightRelease](#changetimelineclipheightrelease)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Shortcut for changing Final Cut Pro's Timeline Height
 
 ---
 
-### [shiftClipHeight](#shiftClipHeight)
+### [shiftClipHeight](#shiftclipheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

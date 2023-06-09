@@ -4,14 +4,14 @@ Helps look up localized names for folders.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [getLocalizedName](#getLocalizedName)
+ * [getLocalizedName](#getlocalizedname)
 
 ## API Documentation
 
 ### Functions
 
 
-### [getLocalizedName](#getLocalizedName)
+### [getLocalizedName](#getlocalizedname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

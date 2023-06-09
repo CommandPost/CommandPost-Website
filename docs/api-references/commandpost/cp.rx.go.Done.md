@@ -10,14 +10,14 @@ Done()
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Done](#Done)
+ * [Done](#done)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [Done](#Done)
+### [Done](#done)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

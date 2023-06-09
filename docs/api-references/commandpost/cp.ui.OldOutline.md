@@ -6,19 +6,19 @@ Represents an `AXOutline` `axuielement`.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [OldOutline](#OldOutline)
+ * [OldOutline](#oldoutline)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [childrenUI](#childrenUI)
+ * [childrenUI](#childrenui)
  * [columns](#columns)
- * [columnsUI](#columnsUI)
- * [createColumn](#createColumn)
- * [createRow](#createRow)
- * [fetchColumn](#fetchColumn)
- * [fetchRow](#fetchRow)
- * [fetchRows](#fetchRows)
- * [filterRows](#filterRows)
+ * [columnsUI](#columnsui)
+ * [createColumn](#createcolumn)
+ * [createRow](#createrow)
+ * [fetchColumn](#fetchcolumn)
+ * [fetchRow](#fetchrow)
+ * [fetchRows](#fetchrows)
+ * [filterRows](#filterrows)
  * [rows](#rows)
- * [rowsUI](#rowsUI)
+ * [rowsUI](#rowsui)
 
 ## API Documentation
 
@@ -40,7 +40,7 @@ Represents an `AXOutline` `axuielement`.
 ### Constructors
 
 
-### [OldOutline](#OldOutline)
+### [OldOutline](#oldoutline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Represents an `AXOutline` `axuielement`.
 ### Methods
 
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [columnsUI](#columnsUI)
+### [columnsUI](#columnsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [createColumn](#createColumn)
+### [createColumn](#createcolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [createRow](#createRow)
+### [createRow](#createrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [fetchColumn](#fetchColumn)
+### [fetchColumn](#fetchcolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [fetchRow](#fetchRow)
+### [fetchRow](#fetchrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [fetchRows](#fetchRows)
+### [fetchRows](#fetchrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [filterRows](#filterRows)
+### [filterRows](#filterrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Represents an `AXOutline` `axuielement`.
 
 ---
 
-### [rowsUI](#rowsUI)
+### [rowsUI](#rowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

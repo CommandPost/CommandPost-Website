@@ -6,18 +6,18 @@ Represents an `AXRadioGroup`, providing utility methods.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [RadioGroup](#RadioGroup)
+ * [RadioGroup](#radiogroup)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [optionCount](#optionCount)
+ * [optionCount](#optioncount)
  * [options](#options)
- * [optionsUI](#optionsUI)
- * [selectedOption](#selectedOption)
+ * [optionsUI](#optionsui)
+ * [selectedOption](#selectedoption)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doNextOption](#doNextOption)
- * [doPreviousOption](#doPreviousOption)
- * [doSelectOption](#doSelectOption)
- * [nextOption](#nextOption)
- * [previousOption](#previousOption)
+ * [doNextOption](#donextoption)
+ * [doPreviousOption](#dopreviousoption)
+ * [doSelectOption](#doselectoption)
+ * [nextOption](#nextoption)
+ * [previousOption](#previousoption)
 
 ## API Documentation
 
@@ -39,7 +39,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 ### Constructors
 
 
-### [RadioGroup](#RadioGroup)
+### [RadioGroup](#radiogroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 ### Fields
 
 
-### [optionCount](#optionCount)
+### [optionCount](#optioncount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [optionsUI](#optionsUI)
+### [optionsUI](#optionsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [selectedOption](#selectedOption)
+### [selectedOption](#selectedoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 ### Methods
 
 
-### [doNextOption](#doNextOption)
+### [doNextOption](#donextoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [doPreviousOption](#doPreviousOption)
+### [doPreviousOption](#dopreviousoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [doSelectOption](#doSelectOption)
+### [doSelectOption](#doselectoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [nextOption](#nextOption)
+### [nextOption](#nextoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Represents an `AXRadioGroup`, providing utility methods.
 
 ---
 
-### [previousOption](#previousOption)
+### [previousOption](#previousoption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

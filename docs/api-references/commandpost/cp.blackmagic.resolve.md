@@ -9,32 +9,32 @@ The Blackmagic DaVinci Resolve Extension.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+ * [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
  * [preferences](#preferences)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [Color](#Color)
- * [currentLocale](#currentLocale)
- * [isFrontmost](#isFrontmost)
- * [isInstalled](#isInstalled)
- * [isModalDialogOpen](#isModalDialogOpen)
- * [isRunning](#isRunning)
- * [isShowing](#isShowing)
- * [isSupported](#isSupported)
- * [isUnsupported](#isUnsupported)
- * [primaryWindow](#primaryWindow)
- * [supportedLocales](#supportedLocales)
- * [UI](#UI)
+ * [Color](#color)
+ * [currentLocale](#currentlocale)
+ * [isFrontmost](#isfrontmost)
+ * [isInstalled](#isinstalled)
+ * [isModalDialogOpen](#ismodaldialogopen)
+ * [isRunning](#isrunning)
+ * [isShowing](#isshowing)
+ * [isSupported](#issupported)
+ * [isUnsupported](#isunsupported)
+ * [primaryWindow](#primarywindow)
+ * [supportedLocales](#supportedlocales)
+ * [UI](#ui)
  * [version](#version)
- * [versionString](#versionString)
- * [windowsUI](#windowsUI)
+ * [versionString](#versionstring)
+ * [windowsUI](#windowsui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [bundleID](#bundleID)
- * [doHide](#doHide)
- * [doLaunch](#doLaunch)
- * [doQuit](#doQuit)
- * [doRestart](#doRestart)
- * [doShow](#doShow)
- * [getPath](#getPath)
+ * [bundleID](#bundleid)
+ * [doHide](#dohide)
+ * [doLaunch](#dolaunch)
+ * [doQuit](#doquit)
+ * [doRestart](#dorestart)
+ * [doShow](#doshow)
+ * [getPath](#getpath)
  * [hide](#hide)
  * [launch](#launch)
  * [notifier](#notifier)
@@ -46,7 +46,7 @@ The Blackmagic DaVinci Resolve Extension.
 ### Constants
 
 
-### [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ The Blackmagic DaVinci Resolve Extension.
 ### Fields
 
 
-### [Color](#Color)
+### [Color](#color)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [currentLocale](#currentLocale)
+### [currentLocale](#currentlocale)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isFrontmost](#isFrontmost)
+### [isFrontmost](#isfrontmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isInstalled](#isInstalled)
+### [isInstalled](#isinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isModalDialogOpen](#isModalDialogOpen)
+### [isModalDialogOpen](#ismodaldialogopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isSupported](#isSupported)
+### [isSupported](#issupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [isUnsupported](#isUnsupported)
+### [isUnsupported](#isunsupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [primaryWindow](#primaryWindow)
+### [primaryWindow](#primarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [supportedLocales](#supportedLocales)
+### [supportedLocales](#supportedlocales)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [versionString](#versionString)
+### [versionString](#versionstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -212,7 +212,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [windowsUI](#windowsUI)
+### [windowsUI](#windowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ The Blackmagic DaVinci Resolve Extension.
 ### Methods
 
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [doLaunch](#doLaunch)
+### [doLaunch](#dolaunch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [doQuit](#doQuit)
+### [doQuit](#doquit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [doRestart](#doRestart)
+### [doRestart](#dorestart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ---
 
-### [getPath](#getPath)
+### [getPath](#getpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

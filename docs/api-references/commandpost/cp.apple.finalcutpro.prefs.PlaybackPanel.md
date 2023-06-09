@@ -4,27 +4,27 @@ Playback Panel Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PlaybackPanel](#PlaybackPanel)
+ * [PlaybackPanel](#playbackpanel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [avOutput](#avOutput)
- * [backgroundRender](#backgroundRender)
- * [backgroundRenderDelay](#backgroundRenderDelay)
- * [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)
- * [playerBackground](#playerBackground)
- * [postRollDuration](#postRollDuration)
- * [preRollDuration](#preRollDuration)
- * [renderShareGPU](#renderShareGPU)
- * [showHDRAsToneMapped](#showHDRAsToneMapped)
- * [warnAfterPlaybackOnDiskFrameDrop](#warnAfterPlaybackOnDiskFrameDrop)
- * [warnAfterPlaybackOnVRFrameDrop](#warnAfterPlaybackOnVRFrameDrop)
- * [warnOnFrameDrop](#warnOnFrameDrop)
+ * [avOutput](#avoutput)
+ * [backgroundRender](#backgroundrender)
+ * [backgroundRenderDelay](#backgroundrenderdelay)
+ * [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
+ * [playerBackground](#playerbackground)
+ * [postRollDuration](#postrollduration)
+ * [preRollDuration](#prerollduration)
+ * [renderShareGPU](#rendersharegpu)
+ * [showHDRAsToneMapped](#showhdrastonemapped)
+ * [warnAfterPlaybackOnDiskFrameDrop](#warnafterplaybackondiskframedrop)
+ * [warnAfterPlaybackOnVRFrameDrop](#warnafterplaybackonvrframedrop)
+ * [warnOnFrameDrop](#warnonframedrop)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [PlaybackPanel](#PlaybackPanel)
+### [PlaybackPanel](#playbackpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Playback Panel Module.
 ### Fields
 
 
-### [avOutput](#avOutput)
+### [avOutput](#avoutput)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Playback Panel Module.
 
 ---
 
-### [backgroundRender](#backgroundRender)
+### [backgroundRender](#backgroundrender)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Playback Panel Module.
 
 ---
 
-### [backgroundRenderDelay](#backgroundRenderDelay)
+### [backgroundRenderDelay](#backgroundrenderdelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Playback Panel Module.
 
 ---
 
-### [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)
+### [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Playback Panel Module.
 
 ---
 
-### [playerBackground](#playerBackground)
+### [playerBackground](#playerbackground)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Playback Panel Module.
 
 ---
 
-### [postRollDuration](#postRollDuration)
+### [postRollDuration](#postrollduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Playback Panel Module.
 
 ---
 
-### [preRollDuration](#preRollDuration)
+### [preRollDuration](#prerollduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Playback Panel Module.
 
 ---
 
-### [renderShareGPU](#renderShareGPU)
+### [renderShareGPU](#rendersharegpu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Playback Panel Module.
 
 ---
 
-### [showHDRAsToneMapped](#showHDRAsToneMapped)
+### [showHDRAsToneMapped](#showhdrastonemapped)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Playback Panel Module.
 
 ---
 
-### [warnAfterPlaybackOnDiskFrameDrop](#warnAfterPlaybackOnDiskFrameDrop)
+### [warnAfterPlaybackOnDiskFrameDrop](#warnafterplaybackondiskframedrop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Playback Panel Module.
 
 ---
 
-### [warnAfterPlaybackOnVRFrameDrop](#warnAfterPlaybackOnVRFrameDrop)
+### [warnAfterPlaybackOnVRFrameDrop](#warnafterplaybackonvrframedrop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Playback Panel Module.
 
 ---
 
-### [warnOnFrameDrop](#warnOnFrameDrop)
+### [warnOnFrameDrop](#warnonframedrop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,20 +6,20 @@ Sheet UI Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Sheet](#Sheet)
+ * [Sheet](#sheet)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cancel](#cancel)
  * [default](#default)
  * [title](#title)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [containsText](#containsText)
- * [doCancel](#doCancel)
- * [doDefault](#doDefault)
- * [doHide](#doHide)
- * [doPress](#doPress)
+ * [containsText](#containstext)
+ * [doCancel](#docancel)
+ * [doDefault](#dodefault)
+ * [doHide](#dohide)
+ * [doPress](#dopress)
  * [hide](#hide)
- * [pressCancel](#pressCancel)
- * [pressDefault](#pressDefault)
+ * [pressCancel](#presscancel)
+ * [pressDefault](#pressdefault)
 
 ## API Documentation
 
@@ -41,7 +41,7 @@ Sheet UI Module.
 ### Constructors
 
 
-### [Sheet](#Sheet)
+### [Sheet](#sheet)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ Sheet UI Module.
 ### Methods
 
 
-### [containsText](#containsText)
+### [containsText](#containstext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ Sheet UI Module.
 
 ---
 
-### [doCancel](#doCancel)
+### [doCancel](#docancel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Sheet UI Module.
 
 ---
 
-### [doDefault](#doDefault)
+### [doDefault](#dodefault)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Sheet UI Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Sheet UI Module.
 
 ---
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Sheet UI Module.
 
 ---
 
-### [pressCancel](#pressCancel)
+### [pressCancel](#presscancel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Sheet UI Module.
 
 ---
 
-### [pressDefault](#pressDefault)
+### [pressDefault](#pressdefault)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

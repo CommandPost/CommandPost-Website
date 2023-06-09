@@ -4,13 +4,13 @@ Action Manager Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [handlerIds](#handlerIds)
+ * [handlerIds](#handlerids)
  * [handlers](#handlers)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [getActivator](#getActivator)
- * [getHandler](#getHandler)
- * [getURL](#getURL)
+ * [addHandler](#addhandler)
+ * [getActivator](#getactivator)
+ * [getHandler](#gethandler)
+ * [getURL](#geturl)
  * [init](#init)
 
 ## API Documentation
@@ -18,7 +18,7 @@ Action Manager Module.
 ### Constants
 
 
-### [handlerIds](#handlerIds)
+### [handlerIds](#handlerids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Action Manager Module.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Action Manager Module.
 
 ---
 
-### [getActivator](#getActivator)
+### [getActivator](#getactivator)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Action Manager Module.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Action Manager Module.
 
 ---
 
-### [getURL](#getURL)
+### [getURL](#geturl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

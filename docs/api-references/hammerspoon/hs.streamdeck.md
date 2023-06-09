@@ -21,30 +21,30 @@ This module would not have been possible without standing on the shoulders of ot
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [discoveryCallback](#discoveryCallback)
- * [getDevice](#getDevice)
+ * [discoveryCallback](#discoverycallback)
+ * [getDevice](#getdevice)
  * [init](#init)
- * [numDevices](#numDevices)
+ * [numDevices](#numdevices)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [buttonCallback](#buttonCallback)
- * [buttonLayout](#buttonLayout)
- * [encoderCallback](#encoderCallback)
- * [firmwareVersion](#firmwareVersion)
- * [imageSize](#imageSize)
+ * [buttonCallback](#buttoncallback)
+ * [buttonLayout](#buttonlayout)
+ * [encoderCallback](#encodercallback)
+ * [firmwareVersion](#firmwareversion)
+ * [imageSize](#imagesize)
  * [reset](#reset)
- * [screenCallback](#screenCallback)
- * [serialNumber](#serialNumber)
- * [setBrightness](#setBrightness)
- * [setButtonColor](#setButtonColor)
- * [setButtonImage](#setButtonImage)
- * [setScreenImage](#setScreenImage)
+ * [screenCallback](#screencallback)
+ * [serialNumber](#serialnumber)
+ * [setBrightness](#setbrightness)
+ * [setButtonColor](#setbuttoncolor)
+ * [setButtonImage](#setbuttonimage)
+ * [setScreenImage](#setscreenimage)
 
 ## API Documentation
 
 ### Functions
 
 
-### [discoveryCallback](#discoveryCallback)
+### [discoveryCallback](#discoverycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [getDevice](#getDevice)
+### [getDevice](#getdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [numDevices](#numDevices)
+### [numDevices](#numdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ This module would not have been possible without standing on the shoulders of ot
 ### Methods
 
 
-### [buttonCallback](#buttonCallback)
+### [buttonCallback](#buttoncallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [buttonLayout](#buttonLayout)
+### [buttonLayout](#buttonlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [encoderCallback](#encoderCallback)
+### [encoderCallback](#encodercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [firmwareVersion](#firmwareVersion)
+### [firmwareVersion](#firmwareversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [imageSize](#imageSize)
+### [imageSize](#imagesize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [screenCallback](#screenCallback)
+### [screenCallback](#screencallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [serialNumber](#serialNumber)
+### [serialNumber](#serialnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [setBrightness](#setBrightness)
+### [setBrightness](#setbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [setButtonColor](#setButtonColor)
+### [setButtonColor](#setbuttoncolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -246,7 +246,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [setButtonImage](#setButtonImage)
+### [setButtonImage](#setbuttonimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -259,7 +259,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ---
 
-### [setScreenImage](#setScreenImage)
+### [setScreenImage](#setscreenimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

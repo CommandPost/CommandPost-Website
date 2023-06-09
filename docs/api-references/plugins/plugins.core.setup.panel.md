@@ -4,34 +4,34 @@ CommandPost Setup Window Panel.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+ * [WEBVIEW_LABEL](#webview_label)
 * Functions - API calls offered directly by the extension
- * [panelCount](#panelCount)
- * [panelNumber](#panelNumber)
- * [panelQueue](#panelQueue)
+ * [panelCount](#panelcount)
+ * [panelNumber](#panelnumber)
+ * [panelQueue](#panelqueue)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addButton](#addButton)
- * [addCheckbox](#addCheckbox)
- * [addContent](#addContent)
- * [addFooter](#addFooter)
- * [addHandler](#addHandler)
- * [addHeading](#addHeading)
- * [addIcon](#addIcon)
- * [addParagraph](#addParagraph)
- * [addPassword](#addPassword)
- * [addSelect](#addSelect)
- * [addSubHeading](#addSubHeading)
- * [addTextbox](#addTextbox)
- * [getHandler](#getHandler)
+ * [addButton](#addbutton)
+ * [addCheckbox](#addcheckbox)
+ * [addContent](#addcontent)
+ * [addFooter](#addfooter)
+ * [addHandler](#addhandler)
+ * [addHeading](#addheading)
+ * [addIcon](#addicon)
+ * [addParagraph](#addparagraph)
+ * [addPassword](#addpassword)
+ * [addSelect](#addselect)
+ * [addSubHeading](#addsubheading)
+ * [addTextbox](#addtextbox)
+ * [getHandler](#gethandler)
 
 ## API Documentation
 
 ### Constants
 
 
-### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+### [WEBVIEW_LABEL](#webview_label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ CommandPost Setup Window Panel.
 ### Functions
 
 
-### [panelCount](#panelCount)
+### [panelCount](#panelcount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [panelNumber](#panelNumber)
+### [panelNumber](#panelnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [panelQueue](#panelQueue)
+### [panelQueue](#panelqueue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ CommandPost Setup Window Panel.
 ### Methods
 
 
-### [addButton](#addButton)
+### [addButton](#addbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addCheckbox](#addCheckbox)
+### [addCheckbox](#addcheckbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addContent](#addContent)
+### [addContent](#addcontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addFooter](#addFooter)
+### [addFooter](#addfooter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addHeading](#addHeading)
+### [addHeading](#addheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addIcon](#addIcon)
+### [addIcon](#addicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addParagraph](#addParagraph)
+### [addParagraph](#addparagraph)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addPassword](#addPassword)
+### [addPassword](#addpassword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addSelect](#addSelect)
+### [addSelect](#addselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addSubHeading](#addSubHeading)
+### [addSubHeading](#addsubheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [addTextbox](#addTextbox)
+### [addTextbox](#addtextbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ CommandPost Setup Window Panel.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

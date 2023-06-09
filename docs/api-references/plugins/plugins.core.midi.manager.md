@@ -7,38 +7,38 @@ MIDI Manager Plugin.
 
 ## API Overview
 * Variables - Configurable values
- * [defaultLayout](#defaultLayout)
- * [defaultLoupedeckLayout](#defaultLoupedeckLayout)
- * [defaultLoupedeckPlusLayout](#defaultLoupedeckPlusLayout)
- * [lastActiveBundleID](#lastActiveBundleID)
- * [learningMode](#learningMode)
- * [maxItems](#maxItems)
+ * [defaultLayout](#defaultlayout)
+ * [defaultLoupedeckLayout](#defaultloupedecklayout)
+ * [defaultLoupedeckPlusLayout](#defaultloupedeckpluslayout)
+ * [lastActiveBundleID](#lastactivebundleid)
+ * [learningMode](#learningmode)
+ * [maxItems](#maxitems)
 * Functions - API calls offered directly by the extension
  * [devices](#devices)
- * [getDevice](#getDevice)
- * [getItem](#getItem)
+ * [getDevice](#getdevice)
+ * [getItem](#getitem)
  * [start](#start)
  * [stop](#stop)
  * [update](#update)
- * [virtualDevices](#virtualDevices)
+ * [virtualDevices](#virtualdevices)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeBanks](#activeBanks)
- * [activeLoupedeckBanks](#activeLoupedeckBanks)
- * [activeLoupedeckPlusBanks](#activeLoupedeckPlusBanks)
- * [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+ * [activeBanks](#activebanks)
+ * [activeLoupedeckBanks](#activeloupedeckbanks)
+ * [activeLoupedeckPlusBanks](#activeloupedeckplusbanks)
+ * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
  * [enabled](#enabled)
- * [enabledLoupedeck](#enabledLoupedeck)
- * [enabledLoupedeckPlus](#enabledLoupedeckPlus)
- * [ignoreEverySecondControlDialCommand](#ignoreEverySecondControlDialCommand)
- * [ignoreEverySecondP1ToP8WheelCommand](#ignoreEverySecondP1ToP8WheelCommand)
- * [numberOfMidiDevices](#numberOfMidiDevices)
+ * [enabledLoupedeck](#enabledloupedeck)
+ * [enabledLoupedeckPlus](#enabledloupedeckplus)
+ * [ignoreEverySecondControlDialCommand](#ignoreeverysecondcontroldialcommand)
+ * [ignoreEverySecondP1ToP8WheelCommand](#ignoreeverysecondp1top8wheelcommand)
+ * [numberOfMidiDevices](#numberofmididevices)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultLayout](#defaultLayout)
+### [defaultLayout](#defaultlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [defaultLoupedeckLayout](#defaultLoupedeckLayout)
+### [defaultLoupedeckLayout](#defaultloupedecklayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [defaultLoupedeckPlusLayout](#defaultLoupedeckPlusLayout)
+### [defaultLoupedeckPlusLayout](#defaultloupedeckpluslayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [lastActiveBundleID](#lastActiveBundleID)
+### [lastActiveBundleID](#lastactivebundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [learningMode](#learningMode)
+### [learningMode](#learningmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [maxItems](#maxItems)
+### [maxItems](#maxitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [getDevice](#getDevice)
+### [getDevice](#getdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [getItem](#getItem)
+### [getItem](#getitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [virtualDevices](#virtualDevices)
+### [virtualDevices](#virtualdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ MIDI Manager Plugin.
 ### Fields
 
 
-### [activeBanks](#activeBanks)
+### [activeBanks](#activebanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [activeLoupedeckBanks](#activeLoupedeckBanks)
+### [activeLoupedeckBanks](#activeloupedeckbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -213,7 +213,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [activeLoupedeckPlusBanks](#activeLoupedeckPlusBanks)
+### [activeLoupedeckPlusBanks](#activeloupedeckplusbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [enabledLoupedeck](#enabledLoupedeck)
+### [enabledLoupedeck](#enabledloupedeck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [enabledLoupedeckPlus](#enabledLoupedeckPlus)
+### [enabledLoupedeckPlus](#enabledloupedeckplus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [ignoreEverySecondControlDialCommand](#ignoreEverySecondControlDialCommand)
+### [ignoreEverySecondControlDialCommand](#ignoreeverysecondcontroldialcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [ignoreEverySecondP1ToP8WheelCommand](#ignoreEverySecondP1ToP8WheelCommand)
+### [ignoreEverySecondP1ToP8WheelCommand](#ignoreeverysecondp1top8wheelcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ MIDI Manager Plugin.
 
 ---
 
-### [numberOfMidiDevices](#numberOfMidiDevices)
+### [numberOfMidiDevices](#numberofmididevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

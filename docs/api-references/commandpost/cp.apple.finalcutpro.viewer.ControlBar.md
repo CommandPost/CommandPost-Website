@@ -7,7 +7,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ControlBar](#ControlBar)
+ * [ControlBar](#controlbar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [timecode](#timecode)
 
@@ -31,7 +31,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 ### Constructors
 
 
-### [ControlBar](#ControlBar)
+### [ControlBar](#controlbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

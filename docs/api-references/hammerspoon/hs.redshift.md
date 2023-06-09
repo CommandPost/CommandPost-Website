@@ -17,23 +17,23 @@ Note:
 
 ## API Overview
 * Variables - Configurable values
- * [COLORRAMP](#COLORRAMP)
+ * [COLORRAMP](#colorramp)
 * Functions - API calls offered directly by the extension
- * [invertSubscribe](#invertSubscribe)
- * [invertUnsubscribe](#invertUnsubscribe)
- * [isInverted](#isInverted)
- * [requestInvert](#requestInvert)
+ * [invertSubscribe](#invertsubscribe)
+ * [invertUnsubscribe](#invertunsubscribe)
+ * [isInverted](#isinverted)
+ * [requestInvert](#requestinvert)
  * [start](#start)
  * [stop](#stop)
  * [toggle](#toggle)
- * [toggleInvert](#toggleInvert)
+ * [toggleInvert](#toggleinvert)
 
 ## API Documentation
 
 ### Variables
 
 
-### [COLORRAMP](#COLORRAMP)
+### [COLORRAMP](#colorramp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Note:
 ### Functions
 
 
-### [invertSubscribe](#invertSubscribe)
+### [invertSubscribe](#invertsubscribe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Note:
 
 ---
 
-### [invertUnsubscribe](#invertUnsubscribe)
+### [invertUnsubscribe](#invertunsubscribe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Note:
 
 ---
 
-### [isInverted](#isInverted)
+### [isInverted](#isinverted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Note:
 
 ---
 
-### [requestInvert](#requestInvert)
+### [requestInvert](#requestinvert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Note:
 
 ---
 
-### [toggleInvert](#toggleInvert)
+### [toggleInvert](#toggleinvert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,32 +4,32 @@ Manager for the Final Cut Pro HUD.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
- * [lastTab](#lastTab)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_WIDTH](#default_width)
+ * [lastTab](#lasttab)
  * [position](#position)
 * Variables - Configurable values
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [addPanel](#addPanel)
- * [currentPanelID](#currentPanelID)
+ * [addHandler](#addhandler)
+ * [addPanel](#addpanel)
+ * [currentPanelID](#currentpanelid)
  * [delete](#delete)
- * [getHandler](#getHandler)
- * [getLabel](#getLabel)
- * [getWebview](#getWebview)
+ * [getHandler](#gethandler)
+ * [getLabel](#getlabel)
+ * [getWebview](#getwebview)
  * [hide](#hide)
- * [injectScript](#injectScript)
- * [maxPanelHeight](#maxPanelHeight)
+ * [injectScript](#injectscript)
+ * [maxPanelHeight](#maxpanelheight)
  * [new](#new)
  * [refresh](#refresh)
  * [resize](#resize)
- * [selectPanel](#selectPanel)
+ * [selectPanel](#selectpanel)
  * [show](#show)
  * [update](#update)
- * [updatePosition](#updatePosition)
- * [updateVisibility](#updateVisibility)
+ * [updatePosition](#updateposition)
+ * [updateVisibility](#updatevisibility)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
 
@@ -38,7 +38,7 @@ Manager for the Final Cut Pro HUD.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [lastTab](#lastTab)
+### [lastTab](#lasttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Manager for the Final Cut Pro HUD.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [currentPanelID](#currentPanelID)
+### [currentPanelID](#currentpanelid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [getWebview](#getWebview)
+### [getWebview](#getwebview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [maxPanelHeight](#maxPanelHeight)
+### [maxPanelHeight](#maxpanelheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [selectPanel](#selectPanel)
+### [selectPanel](#selectpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -310,7 +310,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [updatePosition](#updatePosition)
+### [updatePosition](#updateposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -323,7 +323,7 @@ Manager for the Final Cut Pro HUD.
 
 ---
 
-### [updateVisibility](#updateVisibility)
+### [updateVisibility](#updatevisibility)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

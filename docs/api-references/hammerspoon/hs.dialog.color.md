@@ -11,7 +11,7 @@ A panel that allows users to select a color.
  * [hide](#hide)
  * [mode](#mode)
  * [show](#show)
- * [showsAlpha](#showsAlpha)
+ * [showsAlpha](#showsalpha)
 
 ## API Documentation
 
@@ -109,7 +109,7 @@ A panel that allows users to select a color.
 
 ---
 
-### [showsAlpha](#showsAlpha)
+### [showsAlpha](#showsalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -11,14 +11,14 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Then](#Then)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Methods
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

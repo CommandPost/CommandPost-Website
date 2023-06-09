@@ -9,9 +9,9 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [BaseMotionPanel](#BaseMotionPanel)
+ * [BaseMotionPanel](#basemotionpanel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
  * [published](#published)
 
 ## API Documentation
@@ -34,7 +34,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 ### Constructors
 
 
-### [BaseMotionPanel](#BaseMotionPanel)
+### [BaseMotionPanel](#basemotionpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

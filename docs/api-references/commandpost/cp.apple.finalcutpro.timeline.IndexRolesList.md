@@ -4,24 +4,24 @@ Timeline Index Roles List.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [allRoles](#allRoles)
- * [audioRoles](#audioRoles)
- * [doActivate](#doActivate)
- * [doDeactivate](#doDeactivate)
- * [doFocusInTimeline](#doFocusInTimeline)
- * [doHideSubroleLanes](#doHideSubroleLanes)
- * [doShowSubroleLanes](#doShowSubroleLanes)
- * [doUnfocusInTimeline](#doUnfocusInTimeline)
- * [filterRoles](#filterRoles)
- * [findRoleTitled](#findRoleTitled)
- * [videoRoles](#videoRoles)
+ * [allRoles](#allroles)
+ * [audioRoles](#audioroles)
+ * [doActivate](#doactivate)
+ * [doDeactivate](#dodeactivate)
+ * [doFocusInTimeline](#dofocusintimeline)
+ * [doHideSubroleLanes](#dohidesubrolelanes)
+ * [doShowSubroleLanes](#doshowsubrolelanes)
+ * [doUnfocusInTimeline](#dounfocusintimeline)
+ * [filterRoles](#filterroles)
+ * [findRoleTitled](#findroletitled)
+ * [videoRoles](#videoroles)
 
 ## API Documentation
 
 ### Methods
 
 
-### [allRoles](#allRoles)
+### [allRoles](#allroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Timeline Index Roles List.
 
 ---
 
-### [audioRoles](#audioRoles)
+### [audioRoles](#audioroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doActivate](#doActivate)
+### [doActivate](#doactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doDeactivate](#doDeactivate)
+### [doDeactivate](#dodeactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doFocusInTimeline](#doFocusInTimeline)
+### [doFocusInTimeline](#dofocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doHideSubroleLanes](#doHideSubroleLanes)
+### [doHideSubroleLanes](#dohidesubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doShowSubroleLanes](#doShowSubroleLanes)
+### [doShowSubroleLanes](#doshowsubrolelanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Timeline Index Roles List.
 
 ---
 
-### [doUnfocusInTimeline](#doUnfocusInTimeline)
+### [doUnfocusInTimeline](#dounfocusintimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Timeline Index Roles List.
 
 ---
 
-### [filterRoles](#filterRoles)
+### [filterRoles](#filterroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Timeline Index Roles List.
 
 ---
 
-### [findRoleTitled](#findRoleTitled)
+### [findRoleTitled](#findroletitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Timeline Index Roles List.
 
 ---
 
-### [videoRoles](#videoRoles)
+### [videoRoles](#videoroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

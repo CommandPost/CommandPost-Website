@@ -45,10 +45,10 @@ text:stabilization():smoothing():show():value(1.5)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [TextInspector](#TextInspector)
+ * [TextInspector](#textinspector)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doHide](#doHide)
- * [doShow](#doShow)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -71,7 +71,7 @@ text:stabilization():smoothing():show():value(1.5)
 ### Constructors
 
 
-### [TextInspector](#TextInspector)
+### [TextInspector](#textinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ text:stabilization():smoothing():show():value(1.5)
 ### Methods
 
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ text:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

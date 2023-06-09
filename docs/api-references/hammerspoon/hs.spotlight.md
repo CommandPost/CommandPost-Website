@@ -22,35 +22,35 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [commonAttributeKeys](#commonAttributeKeys)
- * [definedSearchScopes](#definedSearchScopes)
+ * [commonAttributeKeys](#commonattributekeys)
+ * [definedSearchScopes](#definedsearchscopes)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
- * [newWithin](#newWithin)
+ * [newWithin](#newwithin)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [callbackMessages](#callbackMessages)
+ * [callbackMessages](#callbackmessages)
  * [count](#count)
- * [groupedResults](#groupedResults)
- * [groupingAttributes](#groupingAttributes)
- * [isGathering](#isGathering)
- * [isRunning](#isRunning)
- * [queryString](#queryString)
- * [resultAtIndex](#resultAtIndex)
- * [searchScopes](#searchScopes)
- * [setCallback](#setCallback)
- * [sortDescriptors](#sortDescriptors)
+ * [groupedResults](#groupedresults)
+ * [groupingAttributes](#groupingattributes)
+ * [isGathering](#isgathering)
+ * [isRunning](#isrunning)
+ * [queryString](#querystring)
+ * [resultAtIndex](#resultatindex)
+ * [searchScopes](#searchscopes)
+ * [setCallback](#setcallback)
+ * [sortDescriptors](#sortdescriptors)
  * [start](#start)
  * [stop](#stop)
- * [updateInterval](#updateInterval)
- * [valueListAttributes](#valueListAttributes)
- * [valueLists](#valueLists)
+ * [updateInterval](#updateinterval)
+ * [valueListAttributes](#valuelistattributes)
+ * [valueLists](#valuelists)
 
 ## API Documentation
 
 ### Constants
 
 
-### [commonAttributeKeys](#commonAttributeKeys)
+### [commonAttributeKeys](#commonattributekeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [definedSearchScopes](#definedSearchScopes)
+### [definedSearchScopes](#definedsearchscopes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [newWithin](#newWithin)
+### [newWithin](#newwithin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 ### Methods
 
 
-### [callbackMessages](#callbackMessages)
+### [callbackMessages](#callbackmessages)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [groupedResults](#groupedResults)
+### [groupedResults](#groupedresults)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [groupingAttributes](#groupingAttributes)
+### [groupingAttributes](#groupingattributes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [isGathering](#isGathering)
+### [isGathering](#isgathering)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [queryString](#queryString)
+### [queryString](#querystring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [resultAtIndex](#resultAtIndex)
+### [resultAtIndex](#resultatindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [searchScopes](#searchScopes)
+### [searchScopes](#searchscopes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [sortDescriptors](#sortDescriptors)
+### [sortDescriptors](#sortdescriptors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [updateInterval](#updateInterval)
+### [updateInterval](#updateinterval)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [valueListAttributes](#valueListAttributes)
+### [valueListAttributes](#valuelistattributes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ You can access the individual results of the query with the [hs.spotlight:result
 
 ---
 
-### [valueLists](#valueLists)
+### [valueLists](#valuelists)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

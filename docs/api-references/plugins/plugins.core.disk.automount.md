@@ -4,18 +4,18 @@ Automatic Disk Mounting & Unmounting.
 
 ## API Overview
 * Variables - Configurable values
- * [autoMountOnAC](#autoMountOnAC)
- * [autoUnmountOnBattery](#autoUnmountOnBattery)
+ * [autoMountOnAC](#automountonac)
+ * [autoUnmountOnBattery](#autounmountonbattery)
 * Functions - API calls offered directly by the extension
- * [mountPhysicalDrives](#mountPhysicalDrives)
- * [unmountPhysicalDrives](#unmountPhysicalDrives)
+ * [mountPhysicalDrives](#mountphysicaldrives)
+ * [unmountPhysicalDrives](#unmountphysicaldrives)
 
 ## API Documentation
 
 ### Variables
 
 
-### [autoMountOnAC](#autoMountOnAC)
+### [autoMountOnAC](#automountonac)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Automatic Disk Mounting & Unmounting.
 
 ---
 
-### [autoUnmountOnBattery](#autoUnmountOnBattery)
+### [autoUnmountOnBattery](#autounmountonbattery)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Automatic Disk Mounting & Unmounting.
 ### Functions
 
 
-### [mountPhysicalDrives](#mountPhysicalDrives)
+### [mountPhysicalDrives](#mountphysicaldrives)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Automatic Disk Mounting & Unmounting.
 
 ---
 
-### [unmountPhysicalDrives](#unmountPhysicalDrives)
+### [unmountPhysicalDrives](#unmountphysicaldrives)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -5,7 +5,7 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [app](#app)
- * [commandEditor](#commandEditor)
+ * [commandEditor](#commandeditor)
 
 ## API Documentation
 
@@ -25,7 +25,7 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 
 ---
 
-### [commandEditor](#commandEditor)
+### [commandEditor](#commandeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

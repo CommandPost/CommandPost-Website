@@ -8,10 +8,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [CaptionsRole](#CaptionsRole)
+ * [CaptionsRole](#captionsrole)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [subrolesExpanded](#subrolesExpanded)
- * [visibleInViewer](#visibleInViewer)
+ * [subrolesExpanded](#subrolesexpanded)
+ * [visibleInViewer](#visibleinviewer)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 ### Constructors
 
 
-### [CaptionsRole](#CaptionsRole)
+### [CaptionsRole](#captionsrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 ### Fields
 
 
-### [subrolesExpanded](#subrolesExpanded)
+### [subrolesExpanded](#subrolesexpanded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 
 ---
 
-### [visibleInViewer](#visibleInViewer)
+### [visibleInViewer](#visibleinviewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

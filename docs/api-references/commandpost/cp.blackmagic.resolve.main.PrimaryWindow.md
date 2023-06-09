@@ -6,9 +6,9 @@ Primary Window Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PrimaryWindow](#PrimaryWindow)
+ * [PrimaryWindow](#primarywindow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [resolve](#resolve)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [show](#show)
@@ -33,7 +33,7 @@ Primary Window Module.
 ### Constructors
 
 
-### [PrimaryWindow](#PrimaryWindow)
+### [PrimaryWindow](#primarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Primary Window Module.
 ### Fields
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

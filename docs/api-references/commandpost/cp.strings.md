@@ -19,12 +19,12 @@ Notes: This will load the file on each request. To have values cached, use the `
 * Methods - API calls which can only be made on an object returned by a constructor
  * [context](#context)
  * [find](#find)
- * [findAllKeys](#findAllKeys)
- * [findInSources](#findInSources)
- * [findKeys](#findKeys)
- * [findKeysInSources](#findKeysInSources)
+ * [findAllKeys](#findallkeys)
+ * [findInSources](#findinsources)
+ * [findKeys](#findkeys)
+ * [findKeysInSources](#findkeysinsources)
  * [from](#from)
- * [fromPlist](#fromPlist)
+ * [fromPlist](#fromplist)
 
 ## API Documentation
 
@@ -72,7 +72,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [findAllKeys](#findAllKeys)
+### [findAllKeys](#findallkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [findInSources](#findInSources)
+### [findInSources](#findinsources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [findKeys](#findKeys)
+### [findKeys](#findkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [findKeysInSources](#findKeysInSources)
+### [findKeysInSources](#findkeysinsources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ---
 
-### [fromPlist](#fromPlist)
+### [fromPlist](#fromplist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

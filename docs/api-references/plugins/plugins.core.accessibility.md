@@ -10,12 +10,12 @@ Accessibility Plugin.
 * Constants - Useful values which cannot be changed
  * [enabled](#enabled)
 * Variables - Configurable values
- * [shouldWeTryCloseSystemPreferences](#shouldWeTryCloseSystemPreferences)
- * [systemPreferencesAlreadyOpen](#systemPreferencesAlreadyOpen)
+ * [shouldWeTryCloseSystemPreferences](#shouldwetryclosesystempreferences)
+ * [systemPreferencesAlreadyOpen](#systempreferencesalreadyopen)
 * Functions - API calls offered directly by the extension
- * [completeSetupPanel](#completeSetupPanel)
+ * [completeSetupPanel](#completesetuppanel)
  * [init](#init)
- * [showSetupPanel](#showSetupPanel)
+ * [showSetupPanel](#showsetuppanel)
 
 ## API Documentation
 
@@ -34,7 +34,7 @@ Accessibility Plugin.
 ### Variables
 
 
-### [shouldWeTryCloseSystemPreferences](#shouldWeTryCloseSystemPreferences)
+### [shouldWeTryCloseSystemPreferences](#shouldwetryclosesystempreferences)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Accessibility Plugin.
 
 ---
 
-### [systemPreferencesAlreadyOpen](#systemPreferencesAlreadyOpen)
+### [systemPreferencesAlreadyOpen](#systempreferencesalreadyopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Accessibility Plugin.
 ### Functions
 
 
-### [completeSetupPanel](#completeSetupPanel)
+### [completeSetupPanel](#completesetuppanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Accessibility Plugin.
 
 ---
 
-### [showSetupPanel](#showSetupPanel)
+### [showSetupPanel](#showsetuppanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -8,26 +8,26 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)
+ * [SECONDS_UNTIL_DELETE](#seconds_until_delete)
 * Variables - Configurable values
- * [automaticallyImport](#automaticallyImport)
- * [deleteAfterImport](#deleteAfterImport)
- * [insertIntoTimeline](#insertIntoTimeline)
+ * [automaticallyImport](#automaticallyimport)
+ * [deleteAfterImport](#deleteafterimport)
+ * [insertIntoTimeline](#insertintotimeline)
 * Functions - API calls offered directly by the extension
- * [addMediaFolder](#addMediaFolder)
- * [hasMediaFolder](#hasMediaFolder)
+ * [addMediaFolder](#addmediafolder)
+ * [hasMediaFolder](#hasmediafolder)
  * [init](#init)
- * [loadMediaFolders](#loadMediaFolders)
- * [mediaFolders](#mediaFolders)
- * [removeMediaFolder](#removeMediaFolder)
- * [saveMediaFolders](#saveMediaFolders)
+ * [loadMediaFolders](#loadmediafolders)
+ * [mediaFolders](#mediafolders)
+ * [removeMediaFolder](#removemediafolder)
+ * [saveMediaFolders](#savemediafolders)
 
 ## API Documentation
 
 ### Constants
 
 
-### [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)
+### [SECONDS_UNTIL_DELETE](#seconds_until_delete)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Final Cut Pro Media Watch Folder Plugin.
 ### Variables
 
 
-### [automaticallyImport](#automaticallyImport)
+### [automaticallyImport](#automaticallyimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [deleteAfterImport](#deleteAfterImport)
+### [deleteAfterImport](#deleteafterimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [insertIntoTimeline](#insertIntoTimeline)
+### [insertIntoTimeline](#insertintotimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Final Cut Pro Media Watch Folder Plugin.
 ### Functions
 
 
-### [addMediaFolder](#addMediaFolder)
+### [addMediaFolder](#addmediafolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [hasMediaFolder](#hasMediaFolder)
+### [hasMediaFolder](#hasmediafolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [loadMediaFolders](#loadMediaFolders)
+### [loadMediaFolders](#loadmediafolders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [mediaFolders](#mediaFolders)
+### [mediaFolders](#mediafolders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [removeMediaFolder](#removeMediaFolder)
+### [removeMediaFolder](#removemediafolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [saveMediaFolders](#saveMediaFolders)
+### [saveMediaFolders](#savemediafolders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

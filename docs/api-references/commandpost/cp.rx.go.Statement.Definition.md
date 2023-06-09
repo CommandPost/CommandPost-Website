@@ -8,8 +8,8 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
  * [is](#is)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [define](#define)
- * [onInit](#onInit)
- * [onObservable](#onObservable)
+ * [onInit](#oninit)
+ * [onObservable](#onobservable)
 
 ## API Documentation
 
@@ -44,7 +44,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 
 ---
 
-### [onInit](#onInit)
+### [onInit](#oninit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 
 ---
 
-### [onObservable](#onObservable)
+### [onObservable](#onobservable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

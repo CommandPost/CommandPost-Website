@@ -23,7 +23,7 @@ update()
  * [action](#action)
  * [delay](#delay)
  * [run](#run)
- * [secondsRemaining](#secondsRemaining)
+ * [secondsRemaining](#secondsremaining)
  * [stop](#stop)
  * [waiting](#waiting)
 
@@ -86,7 +86,7 @@ update()
 
 ---
 
-### [secondsRemaining](#secondsRemaining)
+### [secondsRemaining](#secondsremaining)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

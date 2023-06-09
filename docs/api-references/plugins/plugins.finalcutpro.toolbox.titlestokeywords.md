@@ -4,28 +4,28 @@ Converts Titles to Keywords
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [addSpaceAfterSequence](#addSpaceAfterSequence)
+ * [addSpaceAfterSequence](#addspaceaftersequence)
  * [duration](#duration)
- * [mergeWithExistingEvent](#mergeWithExistingEvent)
+ * [mergeWithExistingEvent](#mergewithexistingevent)
  * [padding](#padding)
  * [prefix](#prefix)
- * [removeProjectFromEvent](#removeProjectFromEvent)
- * [replaceCommasWithAlternativeCommas](#replaceCommasWithAlternativeCommas)
- * [startOrEnd](#startOrEnd)
- * [startWith](#startWith)
- * [stepValue](#stepValue)
+ * [removeProjectFromEvent](#removeprojectfromevent)
+ * [replaceCommasWithAlternativeCommas](#replacecommaswithalternativecommas)
+ * [startOrEnd](#startorend)
+ * [startWith](#startwith)
+ * [stepValue](#stepvalue)
  * [suffix](#suffix)
- * [textEditor](#textEditor)
- * [textEditorTwo](#textEditorTwo)
- * [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatFavoriteAndRejectAsRatingsInsteadOfKeywords)
- * [useTitleContentsInsteadOfTitleName](#useTitleContentsInsteadOfTitleName)
+ * [textEditor](#texteditor)
+ * [textEditorTwo](#texteditortwo)
+ * [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatfavoriteandrejectasratingsinsteadofkeywords)
+ * [useTitleContentsInsteadOfTitleName](#usetitlecontentsinsteadoftitlename)
 
 ## API Documentation
 
 ### Fields
 
 
-### [addSpaceAfterSequence](#addSpaceAfterSequence)
+### [addSpaceAfterSequence](#addspaceaftersequence)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Converts Titles to Keywords
 
 ---
 
-### [mergeWithExistingEvent](#mergeWithExistingEvent)
+### [mergeWithExistingEvent](#mergewithexistingevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Converts Titles to Keywords
 
 ---
 
-### [removeProjectFromEvent](#removeProjectFromEvent)
+### [removeProjectFromEvent](#removeprojectfromevent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Converts Titles to Keywords
 
 ---
 
-### [replaceCommasWithAlternativeCommas](#replaceCommasWithAlternativeCommas)
+### [replaceCommasWithAlternativeCommas](#replacecommaswithalternativecommas)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Converts Titles to Keywords
 
 ---
 
-### [startOrEnd](#startOrEnd)
+### [startOrEnd](#startorend)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Converts Titles to Keywords
 
 ---
 
-### [startWith](#startWith)
+### [startWith](#startwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ Converts Titles to Keywords
 
 ---
 
-### [stepValue](#stepValue)
+### [stepValue](#stepvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Converts Titles to Keywords
 
 ---
 
-### [textEditor](#textEditor)
+### [textEditor](#texteditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Converts Titles to Keywords
 
 ---
 
-### [textEditorTwo](#textEditorTwo)
+### [textEditorTwo](#texteditortwo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Converts Titles to Keywords
 
 ---
 
-### [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatFavoriteAndRejectAsRatingsInsteadOfKeywords)
+### [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatfavoriteandrejectasratingsinsteadofkeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Converts Titles to Keywords
 
 ---
 
-### [useTitleContentsInsteadOfTitleName](#useTitleContentsInsteadOfTitleName)
+### [useTitleContentsInsteadOfTitleName](#usetitlecontentsinsteadoftitlename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

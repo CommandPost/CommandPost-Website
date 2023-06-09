@@ -8,11 +8,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 * Functions - API calls offered directly by the extension
  * [bounce](#bounce)
  * [hide](#hide)
- * [setBadge](#setBadge)
+ * [setBadge](#setbadge)
  * [show](#show)
- * [tileCanvas](#tileCanvas)
- * [tileSize](#tileSize)
- * [tileUpdate](#tileUpdate)
+ * [tileCanvas](#tilecanvas)
+ * [tileSize](#tilesize)
+ * [tileUpdate](#tileupdate)
  * [visible](#visible)
 
 ## API Documentation
@@ -46,7 +46,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setBadge](#setBadge)
+### [setBadge](#setbadge)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [tileCanvas](#tileCanvas)
+### [tileCanvas](#tilecanvas)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [tileSize](#tileSize)
+### [tileSize](#tilesize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [tileUpdate](#tileUpdate)
+### [tileUpdate](#tileupdate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

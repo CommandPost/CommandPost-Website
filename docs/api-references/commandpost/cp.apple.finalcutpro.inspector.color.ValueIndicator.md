@@ -6,14 +6,14 @@ ValueIndicator Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ValueIndicator](#ValueIndicator)
+ * [ValueIndicator](#valueindicator)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [decrement](#decrement)
  * [increment](#increment)
- * [isShowing](#isShowing)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [shiftValue](#shiftValue)
+ * [isShowing](#isshowing)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [shiftValue](#shiftvalue)
 
 ## API Documentation
 
@@ -35,7 +35,7 @@ ValueIndicator Module.
 ### Constructors
 
 
-### [ValueIndicator](#ValueIndicator)
+### [ValueIndicator](#valueindicator)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ ValueIndicator Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ ValueIndicator Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ ValueIndicator Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ ValueIndicator Module.
 
 ---
 
-### [shiftValue](#shiftValue)
+### [shiftValue](#shiftvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

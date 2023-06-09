@@ -4,16 +4,16 @@ Place the windows of an application into tabs drawn on its titlebar
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [enableForApp](#enableForApp)
- * [focusTab](#focusTab)
- * [tabWindows](#tabWindows)
+ * [enableForApp](#enableforapp)
+ * [focusTab](#focustab)
+ * [tabWindows](#tabwindows)
 
 ## API Documentation
 
 ### Functions
 
 
-### [enableForApp](#enableForApp)
+### [enableForApp](#enableforapp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Place the windows of an application into tabs drawn on its titlebar
 
 ---
 
-### [focusTab](#focusTab)
+### [focusTab](#focustab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Place the windows of an application into tabs drawn on its titlebar
 
 ---
 
-### [tabWindows](#tabWindows)
+### [tabWindows](#tabwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

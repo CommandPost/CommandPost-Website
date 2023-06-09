@@ -46,28 +46,28 @@ This is a subclass of [Element](cp.ui.Element.md).
  * [containing](#containing)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ScrollArea](#ScrollArea)
+ * [ScrollArea](#scrollarea)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [contents](#contents)
- * [contentsUI](#contentsUI)
- * [horizontalScrollBar](#horizontalScrollBar)
- * [selectedChildrenUI](#selectedChildrenUI)
- * [verticalScrollBar](#verticalScrollBar)
- * [viewFrame](#viewFrame)
+ * [contentsUI](#contentsui)
+ * [horizontalScrollBar](#horizontalscrollbar)
+ * [selectedChildrenUI](#selectedchildrenui)
+ * [verticalScrollBar](#verticalscrollbar)
+ * [viewFrame](#viewframe)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [childrenUI](#childrenUI)
- * [deselectAll](#deselectAll)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [selectAll](#selectAll)
- * [selectChild](#selectChild)
- * [selectChildAt](#selectChildAt)
- * [shiftHorizontalBy](#shiftHorizontalBy)
- * [shiftHorizontalTo](#shiftHorizontalTo)
- * [shiftVerticalBy](#shiftVerticalBy)
- * [shiftVerticalTo](#shiftVerticalTo)
- * [showChild](#showChild)
- * [showChildAt](#showChildAt)
+ * [childrenUI](#childrenui)
+ * [deselectAll](#deselectall)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [selectAll](#selectall)
+ * [selectChild](#selectchild)
+ * [selectChildAt](#selectchildat)
+ * [shiftHorizontalBy](#shifthorizontalby)
+ * [shiftHorizontalTo](#shifthorizontalto)
+ * [shiftVerticalBy](#shiftverticalby)
+ * [shiftVerticalTo](#shiftverticalto)
+ * [showChild](#showchild)
+ * [showChildAt](#showchildat)
 
 ## API Documentation
 
@@ -102,7 +102,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 ### Constructors
 
 
-### [ScrollArea](#ScrollArea)
+### [ScrollArea](#scrollarea)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [contentsUI](#contentsUI)
+### [contentsUI](#contentsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [horizontalScrollBar](#horizontalScrollBar)
+### [horizontalScrollBar](#horizontalscrollbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [selectedChildrenUI](#selectedChildrenUI)
+### [selectedChildrenUI](#selectedchildrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [verticalScrollBar](#verticalScrollBar)
+### [verticalScrollBar](#verticalscrollbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [viewFrame](#viewFrame)
+### [viewFrame](#viewframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 ### Methods
 
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -218,7 +218,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -231,7 +231,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [selectAll](#selectAll)
+### [selectAll](#selectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -244,7 +244,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [selectChild](#selectChild)
+### [selectChild](#selectchild)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -257,7 +257,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [selectChildAt](#selectChildAt)
+### [selectChildAt](#selectchildat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -270,7 +270,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [shiftHorizontalBy](#shiftHorizontalBy)
+### [shiftHorizontalBy](#shifthorizontalby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [shiftHorizontalTo](#shiftHorizontalTo)
+### [shiftHorizontalTo](#shifthorizontalto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -296,7 +296,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [shiftVerticalBy](#shiftVerticalBy)
+### [shiftVerticalBy](#shiftverticalby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -309,7 +309,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [shiftVerticalTo](#shiftVerticalTo)
+### [shiftVerticalTo](#shiftverticalto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -322,7 +322,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [showChild](#showChild)
+### [showChild](#showchild)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -335,7 +335,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [showChildAt](#showChildAt)
+### [showChildAt](#showchildat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

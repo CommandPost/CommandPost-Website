@@ -11,16 +11,16 @@ point other results from values are ignored.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Given](#Given)
+ * [Given](#given)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Then](#Then)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [Given](#Given)
+### [Given](#given)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ point other results from values are ignored.
 ### Methods
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

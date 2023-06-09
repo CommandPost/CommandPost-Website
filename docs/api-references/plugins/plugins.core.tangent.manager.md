@@ -21,31 +21,31 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [APPLICATION_NAME_SUFFIX](#APPLICATION_NAME_SUFFIX)
- * [MAXIMUM_CONNECTIONS](#MAXIMUM_CONNECTIONS)
- * [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
- * [USER_CONTROL_MAPS_FOLDER](#USER_CONTROL_MAPS_FOLDER)
+ * [APPLICATION_NAME_SUFFIX](#application_name_suffix)
+ * [MAXIMUM_CONNECTIONS](#maximum_connections)
+ * [NUMBER_OF_FAVOURITES](#number_of_favourites)
+ * [USER_CONTROL_MAPS_FOLDER](#user_control_maps_folder)
 * Variables - Configurable values
- * [applicationNameToGroupID](#applicationNameToGroupID)
- * [customApplications](#customApplications)
+ * [applicationNameToGroupID](#applicationnametogroupid)
+ * [customApplications](#customapplications)
  * [enabled](#enabled)
- * [tangentHubInstalled](#tangentHubInstalled)
- * [tangentMapperInstalled](#tangentMapperInstalled)
+ * [tangentHubInstalled](#tangenthubinstalled)
+ * [tangentMapperInstalled](#tangentmapperinstalled)
 * Functions - API calls offered directly by the extension
- * [applicationNames](#applicationNames)
- * [getConnection](#getConnection)
- * [launchTangentMapper](#launchTangentMapper)
- * [newConnection](#newConnection)
- * [registerCustomApplication](#registerCustomApplication)
- * [removeCustomApplication](#removeCustomApplication)
- * [setupCustomApplications](#setupCustomApplications)
+ * [applicationNames](#applicationnames)
+ * [getConnection](#getconnection)
+ * [launchTangentMapper](#launchtangentmapper)
+ * [newConnection](#newconnection)
+ * [registerCustomApplication](#registercustomapplication)
+ * [removeCustomApplication](#removecustomapplication)
+ * [setupCustomApplications](#setupcustomapplications)
 
 ## API Documentation
 
 ### Constants
 
 
-### [APPLICATION_NAME_SUFFIX](#APPLICATION_NAME_SUFFIX)
+### [APPLICATION_NAME_SUFFIX](#application_name_suffix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [MAXIMUM_CONNECTIONS](#MAXIMUM_CONNECTIONS)
+### [MAXIMUM_CONNECTIONS](#maximum_connections)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+### [NUMBER_OF_FAVOURITES](#number_of_favourites)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [USER_CONTROL_MAPS_FOLDER](#USER_CONTROL_MAPS_FOLDER)
+### [USER_CONTROL_MAPS_FOLDER](#user_control_maps_folder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ here: http://www.tangentwave.co.uk/developer-support
 ### Variables
 
 
-### [applicationNameToGroupID](#applicationNameToGroupID)
+### [applicationNameToGroupID](#applicationnametogroupid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [customApplications](#customApplications)
+### [customApplications](#customapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [tangentHubInstalled](#tangentHubInstalled)
+### [tangentHubInstalled](#tangenthubinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [tangentMapperInstalled](#tangentMapperInstalled)
+### [tangentMapperInstalled](#tangentmapperinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ here: http://www.tangentwave.co.uk/developer-support
 ### Functions
 
 
-### [applicationNames](#applicationNames)
+### [applicationNames](#applicationnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [getConnection](#getConnection)
+### [getConnection](#getconnection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [launchTangentMapper](#launchTangentMapper)
+### [launchTangentMapper](#launchtangentmapper)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [newConnection](#newConnection)
+### [newConnection](#newconnection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [registerCustomApplication](#registerCustomApplication)
+### [registerCustomApplication](#registercustomapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [removeCustomApplication](#removeCustomApplication)
+### [removeCustomApplication](#removecustomapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ---
 
-### [setupCustomApplications](#setupCustomApplications)
+### [setupCustomApplications](#setupcustomapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

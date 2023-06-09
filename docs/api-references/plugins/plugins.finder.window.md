@@ -8,13 +8,13 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 * Variables - Configurable values
  * [gridparts](#gridparts)
 * Functions - API calls offered directly by the extension
- * [centerCursor](#centerCursor)
+ * [centerCursor](#centercursor)
  * [grid](#grid)
  * [hints](#hints)
- * [moveAndResize](#moveAndResize)
- * [moveToScreen](#moveToScreen)
- * [stepMove](#stepMove)
- * [stepResize](#stepResize)
+ * [moveAndResize](#moveandresize)
+ * [moveToScreen](#movetoscreen)
+ * [stepMove](#stepmove)
+ * [stepResize](#stepresize)
  * [undo](#undo)
 
 ## API Documentation
@@ -34,7 +34,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 ### Functions
 
 
-### [centerCursor](#centerCursor)
+### [centerCursor](#centercursor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ---
 
-### [moveAndResize](#moveAndResize)
+### [moveAndResize](#moveandresize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ---
 
-### [moveToScreen](#moveToScreen)
+### [moveToScreen](#movetoscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ---
 
-### [stepMove](#stepMove)
+### [stepMove](#stepmove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ---
 
-### [stepResize](#stepResize)
+### [stepResize](#stepresize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

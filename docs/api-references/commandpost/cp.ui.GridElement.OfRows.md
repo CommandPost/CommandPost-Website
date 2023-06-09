@@ -5,17 +5,17 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [OfRows](#OfRows)
+ * [OfRows](#ofrows)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [createRow](#createRow)
- * [createRows](#createRows)
+ * [createRow](#createrow)
+ * [createRows](#createrows)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [OfRows](#OfRows)
+### [OfRows](#ofrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 ### Methods
 
 
-### [createRow](#createRow)
+### [createRow](#createrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 
 ---
 
-### [createRows](#createRows)
+### [createRows](#createrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

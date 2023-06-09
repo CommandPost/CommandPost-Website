@@ -5,40 +5,40 @@ A module for capturing and manipulating image objects from other modules for use
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [additionalImageNames](#additionalImageNames)
- * [systemImageNames](#systemImageNames)
+ * [additionalImageNames](#additionalimagenames)
+ * [systemImageNames](#systemimagenames)
 * Functions - API calls offered directly by the extension
- * [getExifFromPath](#getExifFromPath)
+ * [getExifFromPath](#getexiffrompath)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [iconForFile](#iconForFile)
- * [iconForFileType](#iconForFileType)
- * [imageFromAppBundle](#imageFromAppBundle)
- * [imageFromASCII](#imageFromASCII)
- * [imageFromMediaFile](#imageFromMediaFile)
- * [imageFromName](#imageFromName)
- * [imageFromPath](#imageFromPath)
- * [imageFromURL](#imageFromURL)
+ * [iconForFile](#iconforfile)
+ * [iconForFileType](#iconforfiletype)
+ * [imageFromAppBundle](#imagefromappbundle)
+ * [imageFromASCII](#imagefromascii)
+ * [imageFromMediaFile](#imagefrommediafile)
+ * [imageFromName](#imagefromname)
+ * [imageFromPath](#imagefrompath)
+ * [imageFromURL](#imagefromurl)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [bitmapRepresentation](#bitmapRepresentation)
- * [colorAt](#colorAt)
+ * [bitmapRepresentation](#bitmaprepresentation)
+ * [colorAt](#colorat)
  * [copy](#copy)
- * [croppedCopy](#croppedCopy)
- * [encodeAsURLString](#encodeAsURLString)
- * [getLoupedeckArray](#getLoupedeckArray)
+ * [croppedCopy](#croppedcopy)
+ * [encodeAsURLString](#encodeasurlstring)
+ * [getLoupedeckArray](#getloupedeckarray)
  * [name](#name)
- * [saveToFile](#saveToFile)
- * [setName](#setName)
- * [setSize](#setSize)
+ * [saveToFile](#savetofile)
+ * [setName](#setname)
+ * [setSize](#setsize)
  * [size](#size)
  * [template](#template)
- * [toASCII](#toASCII)
+ * [toASCII](#toascii)
 
 ## API Documentation
 
 ### Constants
 
 
-### [additionalImageNames](#additionalImageNames)
+### [additionalImageNames](#additionalimagenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [systemImageNames](#systemImageNames)
+### [systemImageNames](#systemimagenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ A module for capturing and manipulating image objects from other modules for use
 ### Functions
 
 
-### [getExifFromPath](#getExifFromPath)
+### [getExifFromPath](#getexiffrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ A module for capturing and manipulating image objects from other modules for use
 ### Constructors
 
 
-### [iconForFile](#iconForFile)
+### [iconForFile](#iconforfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [iconForFileType](#iconForFileType)
+### [iconForFileType](#iconforfiletype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromAppBundle](#imageFromAppBundle)
+### [imageFromAppBundle](#imagefromappbundle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromASCII](#imageFromASCII)
+### [imageFromASCII](#imagefromascii)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromMediaFile](#imageFromMediaFile)
+### [imageFromMediaFile](#imagefrommediafile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromName](#imageFromName)
+### [imageFromName](#imagefromname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromPath](#imageFromPath)
+### [imageFromPath](#imagefrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [imageFromURL](#imageFromURL)
+### [imageFromURL](#imagefromurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ A module for capturing and manipulating image objects from other modules for use
 ### Methods
 
 
-### [bitmapRepresentation](#bitmapRepresentation)
+### [bitmapRepresentation](#bitmaprepresentation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [colorAt](#colorAt)
+### [colorAt](#colorat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [croppedCopy](#croppedCopy)
+### [croppedCopy](#croppedcopy)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [encodeAsURLString](#encodeAsURLString)
+### [encodeAsURLString](#encodeasurlstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [getLoupedeckArray](#getLoupedeckArray)
+### [getLoupedeckArray](#getloupedeckarray)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [saveToFile](#saveToFile)
+### [saveToFile](#savetofile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -299,7 +299,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [setName](#setName)
+### [setName](#setname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [setSize](#setSize)
+### [setSize](#setsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -351,7 +351,7 @@ A module for capturing and manipulating image objects from other modules for use
 
 ---
 
-### [toASCII](#toASCII)
+### [toASCII](#toascii)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

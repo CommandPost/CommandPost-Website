@@ -4,25 +4,25 @@ Commands Module.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [isActive](#isActive)
- * [isEnabled](#isEnabled)
+ * [isActive](#isactive)
+ * [isEnabled](#isenabled)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [action](#action)
  * [activated](#activated)
- * [activatedBy](#activatedBy)
- * [addShortcut](#addShortcut)
- * [deleteShortcuts](#deleteShortcuts)
+ * [activatedBy](#activatedby)
+ * [addShortcut](#addshortcut)
+ * [deleteShortcuts](#deleteshortcuts)
  * [disable](#disable)
  * [enable](#enable)
- * [getAction](#getAction)
- * [getFirstShortcut](#getFirstShortcut)
- * [getGroup](#getGroup)
- * [getImage](#getImage)
- * [getShortcuts](#getShortcuts)
- * [getSubtitle](#getSubtitle)
- * [getTitle](#getTitle)
- * [groupedBy](#groupedBy)
- * [hasAction](#hasAction)
+ * [getAction](#getaction)
+ * [getFirstShortcut](#getfirstshortcut)
+ * [getGroup](#getgroup)
+ * [getImage](#getimage)
+ * [getShortcuts](#getshortcuts)
+ * [getSubtitle](#getsubtitle)
+ * [getTitle](#gettitle)
+ * [groupedBy](#groupedby)
+ * [hasAction](#hasaction)
  * [id](#id)
  * [image](#image)
  * [new](#new)
@@ -30,20 +30,20 @@ Commands Module.
  * [pressed](#pressed)
  * [released](#released)
  * [repeated](#repeated)
- * [setShortcuts](#setShortcuts)
+ * [setShortcuts](#setshortcuts)
  * [subtitled](#subtitled)
  * [titled](#titled)
- * [whenActivated](#whenActivated)
- * [whenPressed](#whenPressed)
- * [whenReleased](#whenReleased)
- * [whenRepeated](#whenRepeated)
+ * [whenActivated](#whenactivated)
+ * [whenPressed](#whenpressed)
+ * [whenReleased](#whenreleased)
+ * [whenRepeated](#whenrepeated)
 
 ## API Documentation
 
 ### Fields
 
 
-### [isActive](#isActive)
+### [isActive](#isactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Commands Module.
 
 ---
 
-### [isEnabled](#isEnabled)
+### [isEnabled](#isenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Commands Module.
 
 ---
 
-### [activatedBy](#activatedBy)
+### [activatedBy](#activatedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Commands Module.
 
 ---
 
-### [addShortcut](#addShortcut)
+### [addShortcut](#addshortcut)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Commands Module.
 
 ---
 
-### [deleteShortcuts](#deleteShortcuts)
+### [deleteShortcuts](#deleteshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Commands Module.
 
 ---
 
-### [getAction](#getAction)
+### [getAction](#getaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Commands Module.
 
 ---
 
-### [getFirstShortcut](#getFirstShortcut)
+### [getFirstShortcut](#getfirstshortcut)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ Commands Module.
 
 ---
 
-### [getGroup](#getGroup)
+### [getGroup](#getgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ Commands Module.
 
 ---
 
-### [getImage](#getImage)
+### [getImage](#getimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -208,7 +208,7 @@ Commands Module.
 
 ---
 
-### [getShortcuts](#getShortcuts)
+### [getShortcuts](#getshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ Commands Module.
 
 ---
 
-### [getSubtitle](#getSubtitle)
+### [getSubtitle](#getsubtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -234,7 +234,7 @@ Commands Module.
 
 ---
 
-### [getTitle](#getTitle)
+### [getTitle](#gettitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ Commands Module.
 
 ---
 
-### [groupedBy](#groupedBy)
+### [groupedBy](#groupedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Commands Module.
 
 ---
 
-### [hasAction](#hasAction)
+### [hasAction](#hasaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ Commands Module.
 
 ---
 
-### [setShortcuts](#setShortcuts)
+### [setShortcuts](#setshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -403,7 +403,7 @@ Commands Module.
 
 ---
 
-### [whenActivated](#whenActivated)
+### [whenActivated](#whenactivated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -416,7 +416,7 @@ Commands Module.
 
 ---
 
-### [whenPressed](#whenPressed)
+### [whenPressed](#whenpressed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -429,7 +429,7 @@ Commands Module.
 
 ---
 
-### [whenReleased](#whenReleased)
+### [whenReleased](#whenreleased)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -442,7 +442,7 @@ Commands Module.
 
 ---
 
-### [whenRepeated](#whenRepeated)
+### [whenRepeated](#whenrepeated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

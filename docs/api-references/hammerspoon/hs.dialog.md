@@ -8,10 +8,10 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [alert](#alert)
- * [blockAlert](#blockAlert)
- * [chooseFileOrFolder](#chooseFileOrFolder)
- * [textPrompt](#textPrompt)
- * [webviewAlert](#webviewAlert)
+ * [blockAlert](#blockalert)
+ * [chooseFileOrFolder](#choosefileorfolder)
+ * [textPrompt](#textprompt)
+ * [webviewAlert](#webviewalert)
 
 ## API Documentation
 
@@ -31,7 +31,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 
 ---
 
-### [blockAlert](#blockAlert)
+### [blockAlert](#blockalert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 
 ---
 
-### [chooseFileOrFolder](#chooseFileOrFolder)
+### [chooseFileOrFolder](#choosefileorfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 
 ---
 
-### [textPrompt](#textPrompt)
+### [textPrompt](#textprompt)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ A collection of useful dialog boxes, alerts and panels for user interaction.
 
 ---
 
-### [webviewAlert](#webviewAlert)
+### [webviewAlert](#webviewalert)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

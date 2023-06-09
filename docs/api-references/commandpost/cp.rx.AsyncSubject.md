@@ -10,9 +10,9 @@ the `Observer` will immediately receive the value or the error.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [create](#create)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [onCompleted](#onCompleted)
- * [onError](#onError)
- * [onNext](#onNext)
+ * [onCompleted](#oncompleted)
+ * [onError](#onerror)
+ * [onNext](#onnext)
  * [subscribe](#subscribe)
 
 ## API Documentation
@@ -35,7 +35,7 @@ the `Observer` will immediately receive the value or the error.
 ### Methods
 
 
-### [onCompleted](#onCompleted)
+### [onCompleted](#oncompleted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ the `Observer` will immediately receive the value or the error.
 
 ---
 
-### [onError](#onError)
+### [onError](#onerror)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ the `Observer` will immediately receive the value or the error.
 
 ---
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

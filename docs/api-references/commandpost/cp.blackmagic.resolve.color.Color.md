@@ -4,14 +4,14 @@ Color Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Color](#Color)
+ * [Color](#color)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [Color](#Color)
+### [Color](#color)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

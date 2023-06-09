@@ -9,7 +9,7 @@ Choices Builder Module.
  * [id](#id)
  * [image](#image)
  * [params](#params)
- * [subText](#subText)
+ * [subText](#subtext)
  * [text](#text)
 
 ## API Documentation
@@ -71,7 +71,7 @@ Choices Builder Module.
 
 ---
 
-### [subText](#subText)
+### [subText](#subtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,9 +4,9 @@ Libraries Sidebar Browser Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [LibrariesSidebar](#LibrariesSidebar)
+ * [LibrariesSidebar](#librariessidebar)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [selectActiveLibrary](#selectActiveLibrary)
+ * [selectActiveLibrary](#selectactivelibrary)
  * [show](#show)
 
 ## API Documentation
@@ -14,7 +14,7 @@ Libraries Sidebar Browser Module.
 ### Constructors
 
 
-### [LibrariesSidebar](#LibrariesSidebar)
+### [LibrariesSidebar](#librariessidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Libraries Sidebar Browser Module.
 ### Methods
 
 
-### [selectActiveLibrary](#selectActiveLibrary)
+### [selectActiveLibrary](#selectactivelibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

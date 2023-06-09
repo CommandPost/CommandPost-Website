@@ -6,9 +6,9 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [nextTrigger](#nextTrigger)
+ * [nextTrigger](#nexttrigger)
  * [running](#running)
- * [setDelay](#setDelay)
+ * [setDelay](#setdelay)
  * [start](#start)
  * [stop](#stop)
 
@@ -32,7 +32,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 ### Methods
 
 
-### [nextTrigger](#nextTrigger)
+### [nextTrigger](#nexttrigger)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Specialized timer objects to coalesce processing of unpredictable asynchronous e
 
 ---
 
-### [setDelay](#setDelay)
+### [setDelay](#setdelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

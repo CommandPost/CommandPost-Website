@@ -5,7 +5,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [actionId](#actionId)
+ * [actionId](#actionid)
  * [init](#init)
 
 ## API Documentation
@@ -13,7 +13,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 ### Functions
 
 
-### [actionId](#actionId)
+### [actionId](#actionid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

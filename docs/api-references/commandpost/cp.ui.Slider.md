@@ -6,21 +6,21 @@ Slider Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Slider](#Slider)
+ * [Slider](#slider)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [maxValue](#maxValue)
- * [minValue](#minValue)
+ * [maxValue](#maxvalue)
+ * [minValue](#minvalue)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [decrement](#decrement)
- * [getMaxValue](#getMaxValue)
- * [getMinValue](#getMinValue)
- * [getValue](#getValue)
+ * [getMaxValue](#getmaxvalue)
+ * [getMinValue](#getminvalue)
+ * [getValue](#getvalue)
  * [increment](#increment)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [setValue](#setValue)
- * [shiftValue](#shiftValue)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [setValue](#setvalue)
+ * [shiftValue](#shiftvalue)
 
 ## API Documentation
 
@@ -42,7 +42,7 @@ Slider Module.
 ### Constructors
 
 
-### [Slider](#Slider)
+### [Slider](#slider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Slider Module.
 ### Fields
 
 
-### [maxValue](#maxValue)
+### [maxValue](#maxvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Slider Module.
 
 ---
 
-### [minValue](#minValue)
+### [minValue](#minvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Slider Module.
 
 ---
 
-### [getMaxValue](#getMaxValue)
+### [getMaxValue](#getmaxvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ Slider Module.
 
 ---
 
-### [getMinValue](#getMinValue)
+### [getMinValue](#getminvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ Slider Module.
 
 ---
 
-### [getValue](#getValue)
+### [getValue](#getvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Slider Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Slider Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Slider Module.
 
 ---
 
-### [setValue](#setValue)
+### [setValue](#setvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ Slider Module.
 
 ---
 
-### [shiftValue](#shiftValue)
+### [shiftValue](#shiftvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,63 +4,63 @@ Final Cut Pro Viewer Overlays.
 
 ## API Overview
 * Variables - Configurable values
- * [activeMemory](#activeMemory)
- * [basicGridEnabled](#basicGridEnabled)
+ * [activeMemory](#activememory)
+ * [basicGridEnabled](#basicgridenabled)
  * [capslock](#capslock)
- * [crossHairAlpha](#crossHairAlpha)
- * [crossHairColor](#crossHairColor)
- * [crossHairEnabled](#crossHairEnabled)
- * [customCrossHairColor](#customCrossHairColor)
- * [customGridColor](#customGridColor)
- * [customGuideColor](#customGuideColor)
+ * [crossHairAlpha](#crosshairalpha)
+ * [crossHairColor](#crosshaircolor)
+ * [crossHairEnabled](#crosshairenabled)
+ * [customCrossHairColor](#customcrosshaircolor)
+ * [customGridColor](#customgridcolor)
+ * [customGuideColor](#customguidecolor)
  * [disabled](#disabled)
- * [draggableGuideEnabled](#draggableGuideEnabled)
- * [enableViewerRightClick](#enableViewerRightClick)
- * [gridAlpha](#gridAlpha)
- * [gridColor](#gridColor)
- * [gridSpacing](#gridSpacing)
- * [guideAlpha](#guideAlpha)
- * [guideColor](#guideColor)
- * [guidePosition](#guidePosition)
- * [letterboxEnabled](#letterboxEnabled)
- * [letterboxHeight](#letterboxHeight)
- * [stillsLayout](#stillsLayout)
+ * [draggableGuideEnabled](#draggableguideenabled)
+ * [enableViewerRightClick](#enableviewerrightclick)
+ * [gridAlpha](#gridalpha)
+ * [gridColor](#gridcolor)
+ * [gridSpacing](#gridspacing)
+ * [guideAlpha](#guidealpha)
+ * [guideColor](#guidecolor)
+ * [guidePosition](#guideposition)
+ * [letterboxEnabled](#letterboxenabled)
+ * [letterboxHeight](#letterboxheight)
+ * [stillsLayout](#stillslayout)
 * Functions - API calls offered directly by the extension
- * [deleteMemory](#deleteMemory)
- * [disableAllDraggableGuides](#disableAllDraggableGuides)
- * [draggableGuidesEnabled](#draggableGuidesEnabled)
- * [enableAllDraggableGuides](#enableAllDraggableGuides)
- * [getCustomGuideColor](#getCustomGuideColor)
- * [getDraggableGuideEnabled](#getDraggableGuideEnabled)
- * [getGuideAlpha](#getGuideAlpha)
- * [getGuideColor](#getGuideColor)
- * [getGuidePosition](#getGuidePosition)
- * [getMemory](#getMemory)
- * [getStillsFolderPath](#getStillsFolderPath)
+ * [deleteMemory](#deletememory)
+ * [disableAllDraggableGuides](#disablealldraggableguides)
+ * [draggableGuidesEnabled](#draggableguidesenabled)
+ * [enableAllDraggableGuides](#enablealldraggableguides)
+ * [getCustomGuideColor](#getcustomguidecolor)
+ * [getDraggableGuideEnabled](#getdraggableguideenabled)
+ * [getGuideAlpha](#getguidealpha)
+ * [getGuideColor](#getguidecolor)
+ * [getGuidePosition](#getguideposition)
+ * [getMemory](#getmemory)
+ * [getStillsFolderPath](#getstillsfolderpath)
  * [hide](#hide)
- * [importMemory](#importMemory)
- * [resetDraggableGuide](#resetDraggableGuide)
- * [resetOverlays](#resetOverlays)
- * [saveMemory](#saveMemory)
- * [setCustomCrossHairColor](#setCustomCrossHairColor)
- * [setCustomGridColor](#setCustomGridColor)
- * [setCustomGuideColor](#setCustomGuideColor)
- * [setGridAlpha](#setGridAlpha)
- * [setGridColor](#setGridColor)
- * [setGridSpacing](#setGridSpacing)
- * [setGuideAlpha](#setGuideAlpha)
- * [setGuideColor](#setGuideColor)
+ * [importMemory](#importmemory)
+ * [resetDraggableGuide](#resetdraggableguide)
+ * [resetOverlays](#resetoverlays)
+ * [saveMemory](#savememory)
+ * [setCustomCrossHairColor](#setcustomcrosshaircolor)
+ * [setCustomGridColor](#setcustomgridcolor)
+ * [setCustomGuideColor](#setcustomguidecolor)
+ * [setGridAlpha](#setgridalpha)
+ * [setGridColor](#setgridcolor)
+ * [setGridSpacing](#setgridspacing)
+ * [setGuideAlpha](#setguidealpha)
+ * [setGuideColor](#setguidecolor)
  * [show](#show)
- * [toggleDraggableGuide](#toggleDraggableGuide)
+ * [toggleDraggableGuide](#toggledraggableguide)
  * [update](#update)
- * [viewMemory](#viewMemory)
+ * [viewMemory](#viewmemory)
 
 ## API Documentation
 
 ### Variables
 
 
-### [activeMemory](#activeMemory)
+### [activeMemory](#activememory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [basicGridEnabled](#basicGridEnabled)
+### [basicGridEnabled](#basicgridenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [crossHairAlpha](#crossHairAlpha)
+### [crossHairAlpha](#crosshairalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [crossHairColor](#crossHairColor)
+### [crossHairColor](#crosshaircolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [crossHairEnabled](#crossHairEnabled)
+### [crossHairEnabled](#crosshairenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [customCrossHairColor](#customCrossHairColor)
+### [customCrossHairColor](#customcrosshaircolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [customGridColor](#customGridColor)
+### [customGridColor](#customgridcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [customGuideColor](#customGuideColor)
+### [customGuideColor](#customguidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [draggableGuideEnabled](#draggableGuideEnabled)
+### [draggableGuideEnabled](#draggableguideenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [enableViewerRightClick](#enableViewerRightClick)
+### [enableViewerRightClick](#enableviewerrightclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [gridAlpha](#gridAlpha)
+### [gridAlpha](#gridalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [gridColor](#gridColor)
+### [gridColor](#gridcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [gridSpacing](#gridSpacing)
+### [gridSpacing](#gridspacing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [guideAlpha](#guideAlpha)
+### [guideAlpha](#guidealpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [guideColor](#guideColor)
+### [guideColor](#guidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [guidePosition](#guidePosition)
+### [guidePosition](#guideposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [letterboxEnabled](#letterboxEnabled)
+### [letterboxEnabled](#letterboxenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [letterboxHeight](#letterboxHeight)
+### [letterboxHeight](#letterboxheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [stillsLayout](#stillsLayout)
+### [stillsLayout](#stillslayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -272,7 +272,7 @@ Final Cut Pro Viewer Overlays.
 ### Functions
 
 
-### [deleteMemory](#deleteMemory)
+### [deleteMemory](#deletememory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -285,7 +285,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [disableAllDraggableGuides](#disableAllDraggableGuides)
+### [disableAllDraggableGuides](#disablealldraggableguides)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -298,7 +298,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [draggableGuidesEnabled](#draggableGuidesEnabled)
+### [draggableGuidesEnabled](#draggableguidesenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -311,7 +311,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [enableAllDraggableGuides](#enableAllDraggableGuides)
+### [enableAllDraggableGuides](#enablealldraggableguides)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -324,7 +324,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getCustomGuideColor](#getCustomGuideColor)
+### [getCustomGuideColor](#getcustomguidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getDraggableGuideEnabled](#getDraggableGuideEnabled)
+### [getDraggableGuideEnabled](#getdraggableguideenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -350,7 +350,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getGuideAlpha](#getGuideAlpha)
+### [getGuideAlpha](#getguidealpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -363,7 +363,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getGuideColor](#getGuideColor)
+### [getGuideColor](#getguidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -376,7 +376,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getGuidePosition](#getGuidePosition)
+### [getGuidePosition](#getguideposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -389,7 +389,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getMemory](#getMemory)
+### [getMemory](#getmemory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -402,7 +402,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [getStillsFolderPath](#getStillsFolderPath)
+### [getStillsFolderPath](#getstillsfolderpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -428,7 +428,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [importMemory](#importMemory)
+### [importMemory](#importmemory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -441,7 +441,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [resetDraggableGuide](#resetDraggableGuide)
+### [resetDraggableGuide](#resetdraggableguide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -454,7 +454,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [resetOverlays](#resetOverlays)
+### [resetOverlays](#resetoverlays)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -467,7 +467,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [saveMemory](#saveMemory)
+### [saveMemory](#savememory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -480,7 +480,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setCustomCrossHairColor](#setCustomCrossHairColor)
+### [setCustomCrossHairColor](#setcustomcrosshaircolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -493,7 +493,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setCustomGridColor](#setCustomGridColor)
+### [setCustomGridColor](#setcustomgridcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -506,7 +506,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setCustomGuideColor](#setCustomGuideColor)
+### [setCustomGuideColor](#setcustomguidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -519,7 +519,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setGridAlpha](#setGridAlpha)
+### [setGridAlpha](#setgridalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -532,7 +532,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setGridColor](#setGridColor)
+### [setGridColor](#setgridcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -545,7 +545,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setGridSpacing](#setGridSpacing)
+### [setGridSpacing](#setgridspacing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -558,7 +558,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setGuideAlpha](#setGuideAlpha)
+### [setGuideAlpha](#setguidealpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -571,7 +571,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [setGuideColor](#setGuideColor)
+### [setGuideColor](#setguidecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -597,7 +597,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [toggleDraggableGuide](#toggleDraggableGuide)
+### [toggleDraggableGuide](#toggledraggableguide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -623,7 +623,7 @@ Final Cut Pro Viewer Overlays.
 
 ---
 
-### [viewMemory](#viewMemory)
+### [viewMemory](#viewmemory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

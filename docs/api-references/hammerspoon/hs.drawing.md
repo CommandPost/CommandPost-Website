@@ -9,18 +9,18 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [windowBehaviors](#windowBehaviors)
- * [windowLevels](#windowLevels)
+ * [windowBehaviors](#windowbehaviors)
+ * [windowLevels](#windowlevels)
 * Functions - API calls offered directly by the extension
- * [defaultTextStyle](#defaultTextStyle)
- * [disableScreenUpdates](#disableScreenUpdates)
- * [enableScreenUpdates](#enableScreenUpdates)
- * [getTextDrawingSize](#getTextDrawingSize)
+ * [defaultTextStyle](#defaulttextstyle)
+ * [disableScreenUpdates](#disablescreenupdates)
+ * [enableScreenUpdates](#enablescreenupdates)
+ * [getTextDrawingSize](#gettextdrawingsize)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [appImage](#appImage)
+ * [appImage](#appimage)
  * [arc](#arc)
  * [circle](#circle)
- * [ellipticalArc](#ellipticalArc)
+ * [ellipticalArc](#ellipticalarc)
  * [image](#image)
  * [line](#line)
  * [rectangle](#rectangle)
@@ -28,47 +28,47 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 * Methods - API calls which can only be made on an object returned by a constructor
  * [alpha](#alpha)
  * [behavior](#behavior)
- * [behaviorAsLabels](#behaviorAsLabels)
- * [bringToFront](#bringToFront)
- * [clickCallbackActivating](#clickCallbackActivating)
- * [clippingRectangle](#clippingRectangle)
+ * [behaviorAsLabels](#behavioraslabels)
+ * [bringToFront](#bringtofront)
+ * [clickCallbackActivating](#clickcallbackactivating)
+ * [clippingRectangle](#clippingrectangle)
  * [delete](#delete)
  * [frame](#frame)
- * [getStyledText](#getStyledText)
+ * [getStyledText](#getstyledtext)
  * [hide](#hide)
- * [imageAlignment](#imageAlignment)
- * [imageAnimates](#imageAnimates)
- * [imageFrame](#imageFrame)
- * [imageScaling](#imageScaling)
- * [orderAbove](#orderAbove)
- * [orderBelow](#orderBelow)
- * [rotateImage](#rotateImage)
- * [sendToBack](#sendToBack)
- * [setAlpha](#setAlpha)
- * [setArcAngles](#setArcAngles)
- * [setBehavior](#setBehavior)
- * [setBehaviorByLabels](#setBehaviorByLabels)
- * [setClickCallback](#setClickCallback)
- * [setFill](#setFill)
- * [setFillColor](#setFillColor)
- * [setFillGradient](#setFillGradient)
- * [setFrame](#setFrame)
- * [setImage](#setImage)
- * [setImageASCII](#setImageASCII)
- * [setImageFromPath](#setImageFromPath)
- * [setLevel](#setLevel)
- * [setRoundedRectRadii](#setRoundedRectRadii)
- * [setSize](#setSize)
- * [setStroke](#setStroke)
- * [setStrokeColor](#setStrokeColor)
- * [setStrokeWidth](#setStrokeWidth)
- * [setStyledText](#setStyledText)
- * [setText](#setText)
- * [setTextColor](#setTextColor)
- * [setTextFont](#setTextFont)
- * [setTextSize](#setTextSize)
- * [setTextStyle](#setTextStyle)
- * [setTopLeft](#setTopLeft)
+ * [imageAlignment](#imagealignment)
+ * [imageAnimates](#imageanimates)
+ * [imageFrame](#imageframe)
+ * [imageScaling](#imagescaling)
+ * [orderAbove](#orderabove)
+ * [orderBelow](#orderbelow)
+ * [rotateImage](#rotateimage)
+ * [sendToBack](#sendtoback)
+ * [setAlpha](#setalpha)
+ * [setArcAngles](#setarcangles)
+ * [setBehavior](#setbehavior)
+ * [setBehaviorByLabels](#setbehaviorbylabels)
+ * [setClickCallback](#setclickcallback)
+ * [setFill](#setfill)
+ * [setFillColor](#setfillcolor)
+ * [setFillGradient](#setfillgradient)
+ * [setFrame](#setframe)
+ * [setImage](#setimage)
+ * [setImageASCII](#setimageascii)
+ * [setImageFromPath](#setimagefrompath)
+ * [setLevel](#setlevel)
+ * [setRoundedRectRadii](#setroundedrectradii)
+ * [setSize](#setsize)
+ * [setStroke](#setstroke)
+ * [setStrokeColor](#setstrokecolor)
+ * [setStrokeWidth](#setstrokewidth)
+ * [setStyledText](#setstyledtext)
+ * [setText](#settext)
+ * [setTextColor](#settextcolor)
+ * [setTextFont](#settextfont)
+ * [setTextSize](#settextsize)
+ * [setTextStyle](#settextstyle)
+ * [setTopLeft](#settopleft)
  * [show](#show)
 
 ## API Documentation
@@ -76,7 +76,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 ### Constants
 
 
-### [windowBehaviors](#windowBehaviors)
+### [windowBehaviors](#windowbehaviors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [windowLevels](#windowLevels)
+### [windowLevels](#windowlevels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 ### Functions
 
 
-### [defaultTextStyle](#defaultTextStyle)
+### [defaultTextStyle](#defaulttextstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [disableScreenUpdates](#disableScreenUpdates)
+### [disableScreenUpdates](#disablescreenupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [enableScreenUpdates](#enableScreenUpdates)
+### [enableScreenUpdates](#enablescreenupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [getTextDrawingSize](#getTextDrawingSize)
+### [getTextDrawingSize](#gettextdrawingsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 ### Constructors
 
 
-### [appImage](#appImage)
+### [appImage](#appimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [ellipticalArc](#ellipticalArc)
+### [ellipticalArc](#ellipticalarc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [behaviorAsLabels](#behaviorAsLabels)
+### [behaviorAsLabels](#behavioraslabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [bringToFront](#bringToFront)
+### [bringToFront](#bringtofront)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -315,7 +315,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [clickCallbackActivating](#clickCallbackActivating)
+### [clickCallbackActivating](#clickcallbackactivating)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -328,7 +328,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [clippingRectangle](#clippingRectangle)
+### [clippingRectangle](#clippingrectangle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -367,7 +367,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [getStyledText](#getStyledText)
+### [getStyledText](#getstyledtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -393,7 +393,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [imageAlignment](#imageAlignment)
+### [imageAlignment](#imagealignment)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -415,7 +415,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [imageAnimates](#imageAnimates)
+### [imageAnimates](#imageanimates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -428,7 +428,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [imageFrame](#imageFrame)
+### [imageFrame](#imageframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -446,7 +446,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [imageScaling](#imageScaling)
+### [imageScaling](#imagescaling)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -463,7 +463,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [orderAbove](#orderAbove)
+### [orderAbove](#orderabove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -476,7 +476,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [orderBelow](#orderBelow)
+### [orderBelow](#orderbelow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -489,7 +489,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [rotateImage](#rotateImage)
+### [rotateImage](#rotateimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -502,7 +502,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [sendToBack](#sendToBack)
+### [sendToBack](#sendtoback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -515,7 +515,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setAlpha](#setAlpha)
+### [setAlpha](#setalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -528,7 +528,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setArcAngles](#setArcAngles)
+### [setArcAngles](#setarcangles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -541,7 +541,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setBehavior](#setBehavior)
+### [setBehavior](#setbehavior)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -554,7 +554,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setBehaviorByLabels](#setBehaviorByLabels)
+### [setBehaviorByLabels](#setbehaviorbylabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -567,7 +567,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setClickCallback](#setClickCallback)
+### [setClickCallback](#setclickcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -580,7 +580,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setFill](#setFill)
+### [setFill](#setfill)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -593,7 +593,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setFillColor](#setFillColor)
+### [setFillColor](#setfillcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -606,7 +606,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setFillGradient](#setFillGradient)
+### [setFillGradient](#setfillgradient)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -627,7 +627,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setFrame](#setFrame)
+### [setFrame](#setframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -640,7 +640,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setImage](#setImage)
+### [setImage](#setimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -653,7 +653,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setImageASCII](#setImageASCII)
+### [setImageASCII](#setimageascii)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -666,7 +666,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setImageFromPath](#setImageFromPath)
+### [setImageFromPath](#setimagefrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -679,7 +679,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setLevel](#setLevel)
+### [setLevel](#setlevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -692,7 +692,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setRoundedRectRadii](#setRoundedRectRadii)
+### [setRoundedRectRadii](#setroundedrectradii)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -705,7 +705,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setSize](#setSize)
+### [setSize](#setsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -718,7 +718,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setStroke](#setStroke)
+### [setStroke](#setstroke)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -731,7 +731,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setStrokeColor](#setStrokeColor)
+### [setStrokeColor](#setstrokecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -744,7 +744,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setStrokeWidth](#setStrokeWidth)
+### [setStrokeWidth](#setstrokewidth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -757,7 +757,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setStyledText](#setStyledText)
+### [setStyledText](#setstyledtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -770,7 +770,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setText](#setText)
+### [setText](#settext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -783,7 +783,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setTextColor](#setTextColor)
+### [setTextColor](#settextcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -796,7 +796,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setTextFont](#setTextFont)
+### [setTextFont](#settextfont)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -809,7 +809,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setTextSize](#setTextSize)
+### [setTextSize](#settextsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -822,7 +822,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setTextStyle](#setTextStyle)
+### [setTextStyle](#settextstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -840,7 +840,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
 
 ---
 
-### [setTopLeft](#setTopLeft)
+### [setTopLeft](#settopleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

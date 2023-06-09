@@ -16,23 +16,23 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ## API Overview
 * Variables - Configurable values
- * [httpCallback](#httpCallback)
- * [mailtoCallback](#mailtoCallback)
+ * [httpCallback](#httpcallback)
+ * [mailtoCallback](#mailtocallback)
 * Functions - API calls offered directly by the extension
  * [bind](#bind)
- * [getAllHandlersForScheme](#getAllHandlersForScheme)
- * [getDefaultHandler](#getDefaultHandler)
- * [openURL](#openURL)
- * [openURLWithBundle](#openURLWithBundle)
- * [setDefaultHandler](#setDefaultHandler)
- * [setRestoreHandler](#setRestoreHandler)
+ * [getAllHandlersForScheme](#getallhandlersforscheme)
+ * [getDefaultHandler](#getdefaulthandler)
+ * [openURL](#openurl)
+ * [openURLWithBundle](#openurlwithbundle)
+ * [setDefaultHandler](#setdefaulthandler)
+ * [setRestoreHandler](#setrestorehandler)
 
 ## API Documentation
 
 ### Variables
 
 
-### [httpCallback](#httpCallback)
+### [httpCallback](#httpcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [mailtoCallback](#mailtoCallback)
+### [mailtoCallback](#mailtocallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [getAllHandlersForScheme](#getAllHandlersForScheme)
+### [getAllHandlersForScheme](#getallhandlersforscheme)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [getDefaultHandler](#getDefaultHandler)
+### [getDefaultHandler](#getdefaulthandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [openURL](#openURL)
+### [openURL](#openurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [openURLWithBundle](#openURLWithBundle)
+### [openURLWithBundle](#openurlwithbundle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [setDefaultHandler](#setDefaultHandler)
+### [setDefaultHandler](#setdefaulthandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
 
 ---
 
-### [setRestoreHandler](#setRestoreHandler)
+### [setRestoreHandler](#setrestorehandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

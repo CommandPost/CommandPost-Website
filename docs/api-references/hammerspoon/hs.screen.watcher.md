@@ -10,7 +10,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
- * [newWithActiveScreen](#newWithActiveScreen)
+ * [newWithActiveScreen](#newwithactivescreen)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [start](#start)
  * [stop](#stop)
@@ -33,7 +33,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [newWithActiveScreen](#newWithActiveScreen)
+### [newWithActiveScreen](#newwithactivescreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

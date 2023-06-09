@@ -9,7 +9,7 @@ Functions for Generating HTML UI Items
  * [dropdown](#dropdown)
  * [heading](#heading)
  * [javascript](#javascript)
- * [setWebviewLabel](#setWebviewLabel)
+ * [setWebviewLabel](#setwebviewlabel)
  * [text](#text)
 
 ## API Documentation
@@ -82,7 +82,7 @@ Functions for Generating HTML UI Items
 
 ---
 
-### [setWebviewLabel](#setWebviewLabel)
+### [setWebviewLabel](#setwebviewlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

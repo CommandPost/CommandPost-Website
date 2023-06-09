@@ -8,10 +8,10 @@ This submodule allows you to create observers for accessibility elements and be 
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addWatcher](#addWatcher)
+ * [addWatcher](#addwatcher)
  * [callback](#callback)
- * [isRunning](#isRunning)
- * [removeWatcher](#removeWatcher)
+ * [isRunning](#isrunning)
+ * [removeWatcher](#removewatcher)
  * [start](#start)
  * [stop](#stop)
  * [watching](#watching)
@@ -49,7 +49,7 @@ This submodule allows you to create observers for accessibility elements and be 
 ### Methods
 
 
-### [addWatcher](#addWatcher)
+### [addWatcher](#addwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ This submodule allows you to create observers for accessibility elements and be 
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ This submodule allows you to create observers for accessibility elements and be 
 
 ---
 
-### [removeWatcher](#removeWatcher)
+### [removeWatcher](#removewatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

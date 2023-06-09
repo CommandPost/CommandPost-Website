@@ -11,10 +11,10 @@ This module provides functions for inquiring about and monitoring changes to the
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [addresses](#addresses)
- * [interfaceDetails](#interfaceDetails)
- * [interfaceName](#interfaceName)
+ * [interfaceDetails](#interfacedetails)
+ * [interfaceName](#interfacename)
  * [interfaces](#interfaces)
- * [primaryInterfaces](#primaryInterfaces)
+ * [primaryInterfaces](#primaryinterfaces)
 
 ## API Documentation
 
@@ -37,7 +37,7 @@ This module provides functions for inquiring about and monitoring changes to the
 
 ---
 
-### [interfaceDetails](#interfaceDetails)
+### [interfaceDetails](#interfacedetails)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ This module provides functions for inquiring about and monitoring changes to the
 
 ---
 
-### [interfaceName](#interfaceName)
+### [interfaceName](#interfacename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ This module provides functions for inquiring about and monitoring changes to the
 
 ---
 
-### [primaryInterfaces](#primaryInterfaces)
+### [primaryInterfaces](#primaryinterfaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

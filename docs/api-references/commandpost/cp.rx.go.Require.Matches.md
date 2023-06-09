@@ -4,16 +4,16 @@ Specifies that the `Require`d value `Matches` a function predicate.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [Matches](#Matches)
+ * [Matches](#matches)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [OrThrow](#OrThrow)
+ * [OrThrow](#orthrow)
 
 ## API Documentation
 
 ### Constants
 
 
-### [Matches](#Matches)
+### [Matches](#matches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Specifies that the `Require`d value `Matches` a function predicate.
 ### Methods
 
 
-### [OrThrow](#OrThrow)
+### [OrThrow](#orthrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

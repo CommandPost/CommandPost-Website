@@ -47,45 +47,45 @@ ParameterizedAttributes:
  * [actions](#actions)
  * [attributes](#attributes)
  * [orientations](#orientations)
- * [parameterizedAttributes](#parameterizedAttributes)
+ * [parameterizedAttributes](#parameterizedattributes)
  * [roles](#roles)
- * [rulerMarkers](#rulerMarkers)
- * [sortDirections](#sortDirections)
+ * [rulerMarkers](#rulermarkers)
+ * [sortDirections](#sortdirections)
  * [subroles](#subroles)
  * [units](#units)
 * Functions - API calls offered directly by the extension
- * [searchCriteriaFunction](#searchCriteriaFunction)
+ * [searchCriteriaFunction](#searchcriteriafunction)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [applicationElement](#applicationElement)
- * [applicationElementForPID](#applicationElementForPID)
- * [systemElementAtPosition](#systemElementAtPosition)
- * [systemWideElement](#systemWideElement)
- * [windowElement](#windowElement)
+ * [applicationElement](#applicationelement)
+ * [applicationElementForPID](#applicationelementforpid)
+ * [systemElementAtPosition](#systemelementatposition)
+ * [systemWideElement](#systemwideelement)
+ * [windowElement](#windowelement)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [actionDescription](#actionDescription)
- * [actionNames](#actionNames)
- * [allAttributeValues](#allAttributeValues)
- * [allDescendantElements](#allDescendantElements)
- * [asHSApplication](#asHSApplication)
- * [asHSWindow](#asHSWindow)
- * [attributeNames](#attributeNames)
- * [attributeValue](#attributeValue)
- * [attributeValueCount](#attributeValueCount)
- * [buildTree](#buildTree)
- * [childrenWithRole](#childrenWithRole)
+ * [actionDescription](#actiondescription)
+ * [actionNames](#actionnames)
+ * [allAttributeValues](#allattributevalues)
+ * [allDescendantElements](#alldescendantelements)
+ * [asHSApplication](#ashsapplication)
+ * [asHSWindow](#ashswindow)
+ * [attributeNames](#attributenames)
+ * [attributeValue](#attributevalue)
+ * [attributeValueCount](#attributevaluecount)
+ * [buildTree](#buildtree)
+ * [childrenWithRole](#childrenwithrole)
  * [copy](#copy)
- * [elementAtPosition](#elementAtPosition)
- * [elementSearch](#elementSearch)
- * [isAttributeSettable](#isAttributeSettable)
- * [isValid](#isValid)
- * [matchesCriteria](#matchesCriteria)
- * [parameterizedAttributeNames](#parameterizedAttributeNames)
- * [parameterizedAttributeValue](#parameterizedAttributeValue)
+ * [elementAtPosition](#elementatposition)
+ * [elementSearch](#elementsearch)
+ * [isAttributeSettable](#isattributesettable)
+ * [isValid](#isvalid)
+ * [matchesCriteria](#matchescriteria)
+ * [parameterizedAttributeNames](#parameterizedattributenames)
+ * [parameterizedAttributeValue](#parameterizedattributevalue)
  * [path](#path)
- * [performAction](#performAction)
+ * [performAction](#performaction)
  * [pid](#pid)
- * [setAttributeValue](#setAttributeValue)
- * [setTimeout](#setTimeout)
+ * [setAttributeValue](#setattributevalue)
+ * [setTimeout](#settimeout)
 
 ## API Documentation
 
@@ -125,7 +125,7 @@ ParameterizedAttributes:
 
 ---
 
-### [parameterizedAttributes](#parameterizedAttributes)
+### [parameterizedAttributes](#parameterizedattributes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ ParameterizedAttributes:
 
 ---
 
-### [rulerMarkers](#rulerMarkers)
+### [rulerMarkers](#rulermarkers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ ParameterizedAttributes:
 
 ---
 
-### [sortDirections](#sortDirections)
+### [sortDirections](#sortdirections)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ ParameterizedAttributes:
 ### Functions
 
 
-### [searchCriteriaFunction](#searchCriteriaFunction)
+### [searchCriteriaFunction](#searchcriteriafunction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -208,7 +208,7 @@ ParameterizedAttributes:
 ### Constructors
 
 
-### [applicationElement](#applicationElement)
+### [applicationElement](#applicationelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ ParameterizedAttributes:
 
 ---
 
-### [applicationElementForPID](#applicationElementForPID)
+### [applicationElementForPID](#applicationelementforpid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -234,7 +234,7 @@ ParameterizedAttributes:
 
 ---
 
-### [systemElementAtPosition](#systemElementAtPosition)
+### [systemElementAtPosition](#systemelementatposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ ParameterizedAttributes:
 
 ---
 
-### [systemWideElement](#systemWideElement)
+### [systemWideElement](#systemwideelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ ParameterizedAttributes:
 
 ---
 
-### [windowElement](#windowElement)
+### [windowElement](#windowelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ ParameterizedAttributes:
 ### Methods
 
 
-### [actionDescription](#actionDescription)
+### [actionDescription](#actiondescription)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ ParameterizedAttributes:
 
 ---
 
-### [actionNames](#actionNames)
+### [actionNames](#actionnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ ParameterizedAttributes:
 
 ---
 
-### [allAttributeValues](#allAttributeValues)
+### [allAttributeValues](#allattributevalues)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ ParameterizedAttributes:
 
 ---
 
-### [allDescendantElements](#allDescendantElements)
+### [allDescendantElements](#alldescendantelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ ParameterizedAttributes:
 
 ---
 
-### [asHSApplication](#asHSApplication)
+### [asHSApplication](#ashsapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ ParameterizedAttributes:
 
 ---
 
-### [asHSWindow](#asHSWindow)
+### [asHSWindow](#ashswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ ParameterizedAttributes:
 
 ---
 
-### [attributeNames](#attributeNames)
+### [attributeNames](#attributenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -366,7 +366,7 @@ ParameterizedAttributes:
 
 ---
 
-### [attributeValue](#attributeValue)
+### [attributeValue](#attributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -379,7 +379,7 @@ ParameterizedAttributes:
 
 ---
 
-### [attributeValueCount](#attributeValueCount)
+### [attributeValueCount](#attributevaluecount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -392,7 +392,7 @@ ParameterizedAttributes:
 
 ---
 
-### [buildTree](#buildTree)
+### [buildTree](#buildtree)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -405,7 +405,7 @@ ParameterizedAttributes:
 
 ---
 
-### [childrenWithRole](#childrenWithRole)
+### [childrenWithRole](#childrenwithrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -431,7 +431,7 @@ ParameterizedAttributes:
 
 ---
 
-### [elementAtPosition](#elementAtPosition)
+### [elementAtPosition](#elementatposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -444,7 +444,7 @@ ParameterizedAttributes:
 
 ---
 
-### [elementSearch](#elementSearch)
+### [elementSearch](#elementsearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -460,7 +460,7 @@ ParameterizedAttributes:
 
 ---
 
-### [isAttributeSettable](#isAttributeSettable)
+### [isAttributeSettable](#isattributesettable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -473,7 +473,7 @@ ParameterizedAttributes:
 
 ---
 
-### [isValid](#isValid)
+### [isValid](#isvalid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -486,7 +486,7 @@ ParameterizedAttributes:
 
 ---
 
-### [matchesCriteria](#matchesCriteria)
+### [matchesCriteria](#matchescriteria)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -499,7 +499,7 @@ ParameterizedAttributes:
 
 ---
 
-### [parameterizedAttributeNames](#parameterizedAttributeNames)
+### [parameterizedAttributeNames](#parameterizedattributenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -512,7 +512,7 @@ ParameterizedAttributes:
 
 ---
 
-### [parameterizedAttributeValue](#parameterizedAttributeValue)
+### [parameterizedAttributeValue](#parameterizedattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -538,7 +538,7 @@ ParameterizedAttributes:
 
 ---
 
-### [performAction](#performAction)
+### [performAction](#performaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -564,7 +564,7 @@ ParameterizedAttributes:
 
 ---
 
-### [setAttributeValue](#setAttributeValue)
+### [setAttributeValue](#setattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -577,7 +577,7 @@ ParameterizedAttributes:
 
 ---
 
-### [setTimeout](#setTimeout)
+### [setTimeout](#settimeout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

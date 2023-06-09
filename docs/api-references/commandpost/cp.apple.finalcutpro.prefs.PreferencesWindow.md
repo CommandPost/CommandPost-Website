@@ -4,15 +4,15 @@ Preferences Window Module.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [editingPanel](#editingPanel)
- * [generalPanel](#generalPanel)
- * [importPanel](#importPanel)
- * [playbackPanel](#playbackPanel)
+ * [editingPanel](#editingpanel)
+ * [generalPanel](#generalpanel)
+ * [importPanel](#importpanel)
+ * [playbackPanel](#playbackpanel)
  * [title](#title)
  * [toolbar](#toolbar)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doHide](#doHide)
- * [doShow](#doShow)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
  * [hide](#hide)
  * [show](#show)
 
@@ -21,7 +21,7 @@ Preferences Window Module.
 ### Fields
 
 
-### [editingPanel](#editingPanel)
+### [editingPanel](#editingpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Preferences Window Module.
 
 ---
 
-### [generalPanel](#generalPanel)
+### [generalPanel](#generalpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Preferences Window Module.
 
 ---
 
-### [importPanel](#importPanel)
+### [importPanel](#importpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ Preferences Window Module.
 
 ---
 
-### [playbackPanel](#playbackPanel)
+### [playbackPanel](#playbackpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Preferences Window Module.
 ### Methods
 
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Preferences Window Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

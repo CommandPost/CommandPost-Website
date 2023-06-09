@@ -8,27 +8,27 @@ Controls for iTunes music player
  * [state_playing](#state_playing)
  * [state_stopped](#state_stopped)
 * Functions - API calls offered directly by the extension
- * [displayCurrentTrack](#displayCurrentTrack)
+ * [displayCurrentTrack](#displaycurrenttrack)
  * [ff](#ff)
- * [getCurrentAlbum](#getCurrentAlbum)
- * [getCurrentArtist](#getCurrentArtist)
- * [getCurrentTrack](#getCurrentTrack)
- * [getDuration](#getDuration)
- * [getPlaybackState](#getPlaybackState)
- * [getPosition](#getPosition)
- * [getVolume](#getVolume)
- * [isPlaying](#isPlaying)
- * [isRunning](#isRunning)
+ * [getCurrentAlbum](#getcurrentalbum)
+ * [getCurrentArtist](#getcurrentartist)
+ * [getCurrentTrack](#getcurrenttrack)
+ * [getDuration](#getduration)
+ * [getPlaybackState](#getplaybackstate)
+ * [getPosition](#getposition)
+ * [getVolume](#getvolume)
+ * [isPlaying](#isplaying)
+ * [isRunning](#isrunning)
  * [next](#next)
  * [pause](#pause)
  * [play](#play)
  * [playpause](#playpause)
  * [previous](#previous)
  * [rw](#rw)
- * [setPosition](#setPosition)
- * [setVolume](#setVolume)
- * [volumeDown](#volumeDown)
- * [volumeUp](#volumeUp)
+ * [setPosition](#setposition)
+ * [setVolume](#setvolume)
+ * [volumeDown](#volumedown)
+ * [volumeUp](#volumeup)
 
 ## API Documentation
 
@@ -67,7 +67,7 @@ Controls for iTunes music player
 ### Functions
 
 
-### [displayCurrentTrack](#displayCurrentTrack)
+### [displayCurrentTrack](#displaycurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Controls for iTunes music player
 
 ---
 
-### [getCurrentAlbum](#getCurrentAlbum)
+### [getCurrentAlbum](#getcurrentalbum)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Controls for iTunes music player
 
 ---
 
-### [getCurrentArtist](#getCurrentArtist)
+### [getCurrentArtist](#getcurrentartist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Controls for iTunes music player
 
 ---
 
-### [getCurrentTrack](#getCurrentTrack)
+### [getCurrentTrack](#getcurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Controls for iTunes music player
 
 ---
 
-### [getDuration](#getDuration)
+### [getDuration](#getduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Controls for iTunes music player
 
 ---
 
-### [getPlaybackState](#getPlaybackState)
+### [getPlaybackState](#getplaybackstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ Controls for iTunes music player
 
 ---
 
-### [getPosition](#getPosition)
+### [getPosition](#getposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Controls for iTunes music player
 
 ---
 
-### [getVolume](#getVolume)
+### [getVolume](#getvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Controls for iTunes music player
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Controls for iTunes music player
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ Controls for iTunes music player
 
 ---
 
-### [setPosition](#setPosition)
+### [setPosition](#setposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ Controls for iTunes music player
 
 ---
 
-### [setVolume](#setVolume)
+### [setVolume](#setvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ Controls for iTunes music player
 
 ---
 
-### [volumeDown](#volumeDown)
+### [volumeDown](#volumedown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ Controls for iTunes music player
 
 ---
 
-### [volumeUp](#volumeUp)
+### [volumeUp](#volumeup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

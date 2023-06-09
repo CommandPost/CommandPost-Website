@@ -4,14 +4,14 @@ Export Dialog Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ExportDialogTitleText](#ExportDialogTitleText)
+ * [ExportDialogTitleText](#exportdialogtitletext)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [fileExtension](#fileExtension)
- * [saveSheet](#saveSheet)
+ * [fileExtension](#fileextension)
+ * [saveSheet](#savesheet)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
- * [pressCancel](#pressCancel)
- * [pressNext](#pressNext)
+ * [pressCancel](#presscancel)
+ * [pressNext](#pressnext)
  * [show](#show)
 
 ## API Documentation
@@ -19,7 +19,7 @@ Export Dialog Module.
 ### Constructors
 
 
-### [ExportDialogTitleText](#ExportDialogTitleText)
+### [ExportDialogTitleText](#exportdialogtitletext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Export Dialog Module.
 ### Fields
 
 
-### [fileExtension](#fileExtension)
+### [fileExtension](#fileextension)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Export Dialog Module.
 
 ---
 
-### [saveSheet](#saveSheet)
+### [saveSheet](#savesheet)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Export Dialog Module.
 
 ---
 
-### [pressCancel](#pressCancel)
+### [pressCancel](#presscancel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Export Dialog Module.
 
 ---
 
-### [pressNext](#pressNext)
+### [pressNext](#pressnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

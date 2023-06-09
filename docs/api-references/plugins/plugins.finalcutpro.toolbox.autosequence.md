@@ -4,14 +4,14 @@ Orders clips on a timeline by timecode.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [removeGaps](#removeGaps)
+ * [removeGaps](#removegaps)
 
 ## API Documentation
 
 ### Fields
 
 
-### [removeGaps](#removeGaps)
+### [removeGaps](#removegaps)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

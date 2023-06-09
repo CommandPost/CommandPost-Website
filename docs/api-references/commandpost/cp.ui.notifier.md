@@ -16,27 +16,27 @@ o:start()
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [notifiersForBundleID](#notifiersForBundleID)
+ * [notifiersForBundleID](#notifiersforbundleid)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [bundleID](#bundleID)
- * [currentElement](#currentElement)
+ * [bundleID](#bundleid)
+ * [currentElement](#currentelement)
  * [debugging](#debugging)
  * [pid](#pid)
  * [reset](#reset)
  * [start](#start)
  * [update](#update)
- * [watchAll](#watchAll)
- * [watchFor](#watchFor)
+ * [watchAll](#watchall)
+ * [watchFor](#watchfor)
 
 ## API Documentation
 
 ### Functions
 
 
-### [notifiersForBundleID](#notifiersForBundleID)
+### [notifiersForBundleID](#notifiersforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ o:start()
 
 ---
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ o:start()
 
 ---
 
-### [currentElement](#currentElement)
+### [currentElement](#currentelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ o:start()
 
 ---
 
-### [watchAll](#watchAll)
+### [watchAll](#watchall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ o:start()
 
 ---
 
-### [watchFor](#watchFor)
+### [watchFor](#watchfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

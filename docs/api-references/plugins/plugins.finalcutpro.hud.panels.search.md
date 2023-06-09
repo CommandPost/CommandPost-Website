@@ -4,24 +4,24 @@ Ten Panel for the Final Cut Pro HUD.
 
 ## API Overview
 * Variables - Configurable values
- * [exactMatch](#exactMatch)
- * [filterBrowserBeforeSearch](#filterBrowserBeforeSearch)
+ * [exactMatch](#exactmatch)
+ * [filterBrowserBeforeSearch](#filterbrowserbeforesearch)
  * [history](#history)
- * [lastColumn](#lastColumn)
- * [lastValue](#lastValue)
- * [loopSearch](#loopSearch)
- * [matchCase](#matchCase)
- * [openProject](#openProject)
- * [playAfterFind](#playAfterFind)
- * [searchEntireLibrary](#searchEntireLibrary)
- * [wholeWords](#wholeWords)
+ * [lastColumn](#lastcolumn)
+ * [lastValue](#lastvalue)
+ * [loopSearch](#loopsearch)
+ * [matchCase](#matchcase)
+ * [openProject](#openproject)
+ * [playAfterFind](#playafterfind)
+ * [searchEntireLibrary](#searchentirelibrary)
+ * [wholeWords](#wholewords)
 
 ## API Documentation
 
 ### Variables
 
 
-### [exactMatch](#exactMatch)
+### [exactMatch](#exactmatch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [filterBrowserBeforeSearch](#filterBrowserBeforeSearch)
+### [filterBrowserBeforeSearch](#filterbrowserbeforesearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [lastColumn](#lastColumn)
+### [lastColumn](#lastcolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [lastValue](#lastValue)
+### [lastValue](#lastvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [loopSearch](#loopSearch)
+### [loopSearch](#loopsearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [matchCase](#matchCase)
+### [matchCase](#matchcase)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [openProject](#openProject)
+### [openProject](#openproject)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [playAfterFind](#playAfterFind)
+### [playAfterFind](#playafterfind)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [searchEntireLibrary](#searchEntireLibrary)
+### [searchEntireLibrary](#searchentirelibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ---
 
-### [wholeWords](#wholeWords)
+### [wholeWords](#wholewords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

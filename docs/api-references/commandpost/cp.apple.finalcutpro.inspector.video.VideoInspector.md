@@ -43,27 +43,27 @@ video:stabilization():smoothing():show():value(1.5)
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [BLEND_MODES](#BLEND_MODES)
- * [CROP_TYPES](#CROP_TYPES)
- * [ROLLING_SHUTTER_AMOUNTS](#ROLLING_SHUTTER_AMOUNTS)
- * [SPATIAL_CONFORM_TYPES](#SPATIAL_CONFORM_TYPES)
- * [STABILIZATION_METHODS](#STABILIZATION_METHODS)
+ * [BLEND_MODES](#blend_modes)
+ * [CROP_TYPES](#crop_types)
+ * [ROLLING_SHUTTER_AMOUNTS](#rolling_shutter_amounts)
+ * [SPATIAL_CONFORM_TYPES](#spatial_conform_types)
+ * [STABILIZATION_METHODS](#stabilization_methods)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
- * [selectedEffectCheckBox](#selectedEffectCheckBox)
+ * [selectedEffectCheckBox](#selectedeffectcheckbox)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [VideoInspector](#VideoInspector)
+ * [VideoInspector](#videoinspector)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [effectCheckBoxes](#effectCheckBoxes)
+ * [effectCheckBoxes](#effectcheckboxes)
 
 ## API Documentation
 
 ### Constants
 
 
-### [BLEND_MODES](#BLEND_MODES)
+### [BLEND_MODES](#blend_modes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [CROP_TYPES](#CROP_TYPES)
+### [CROP_TYPES](#crop_types)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [ROLLING_SHUTTER_AMOUNTS](#ROLLING_SHUTTER_AMOUNTS)
+### [ROLLING_SHUTTER_AMOUNTS](#rolling_shutter_amounts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [SPATIAL_CONFORM_TYPES](#SPATIAL_CONFORM_TYPES)
+### [SPATIAL_CONFORM_TYPES](#spatial_conform_types)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [STABILIZATION_METHODS](#STABILIZATION_METHODS)
+### [STABILIZATION_METHODS](#stabilization_methods)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ---
 
-### [selectedEffectCheckBox](#selectedEffectCheckBox)
+### [selectedEffectCheckBox](#selectedeffectcheckbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ video:stabilization():smoothing():show():value(1.5)
 ### Constructors
 
 
-### [VideoInspector](#VideoInspector)
+### [VideoInspector](#videoinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ video:stabilization():smoothing():show():value(1.5)
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ video:stabilization():smoothing():show():value(1.5)
 ### Methods
 
 
-### [effectCheckBoxes](#effectCheckBoxes)
+### [effectCheckBoxes](#effectcheckboxes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

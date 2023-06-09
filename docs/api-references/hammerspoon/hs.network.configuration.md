@@ -6,18 +6,18 @@ This sub-module provides access to the current location set configuration settin
 * Constructors - API calls which return an object, typically one that offers API methods
  * [open](#open)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [computerName](#computerName)
- * [consoleUser](#consoleUser)
+ * [computerName](#computername)
+ * [consoleUser](#consoleuser)
  * [contents](#contents)
- * [dhcpInfo](#dhcpInfo)
+ * [dhcpInfo](#dhcpinfo)
  * [hostname](#hostname)
  * [keys](#keys)
  * [location](#location)
  * [locations](#locations)
- * [monitorKeys](#monitorKeys)
+ * [monitorKeys](#monitorkeys)
  * [proxies](#proxies)
- * [setCallback](#setCallback)
- * [setLocation](#setLocation)
+ * [setCallback](#setcallback)
+ * [setLocation](#setlocation)
  * [start](#start)
  * [stop](#stop)
 
@@ -41,7 +41,7 @@ This sub-module provides access to the current location set configuration settin
 ### Methods
 
 
-### [computerName](#computerName)
+### [computerName](#computername)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ This sub-module provides access to the current location set configuration settin
 
 ---
 
-### [consoleUser](#consoleUser)
+### [consoleUser](#consoleuser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ This sub-module provides access to the current location set configuration settin
 
 ---
 
-### [dhcpInfo](#dhcpInfo)
+### [dhcpInfo](#dhcpinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ This sub-module provides access to the current location set configuration settin
 
 ---
 
-### [monitorKeys](#monitorKeys)
+### [monitorKeys](#monitorkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ This sub-module provides access to the current location set configuration settin
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ This sub-module provides access to the current location set configuration settin
 
 ---
 
-### [setLocation](#setLocation)
+### [setLocation](#setlocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

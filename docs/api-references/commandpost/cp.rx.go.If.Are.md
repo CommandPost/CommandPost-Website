@@ -4,14 +4,14 @@ A [Statement.Modifier] of [If](cp.rx.go.If.md) that sets the values to match.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Then](#Then)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Methods
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -7,60 +7,60 @@ Manipulate running applications
 
 ## API Overview
 * Variables - Configurable values
- * [menuGlyphs](#menuGlyphs)
+ * [menuGlyphs](#menuglyphs)
 * Functions - API calls offered directly by the extension
- * [applicationForPID](#applicationForPID)
- * [applicationsForBundleID](#applicationsForBundleID)
- * [defaultAppForUTI](#defaultAppForUTI)
- * [enableSpotlightForNameSearches](#enableSpotlightForNameSearches)
- * [frontmostApplication](#frontmostApplication)
- * [infoForBundleID](#infoForBundleID)
- * [infoForBundlePath](#infoForBundlePath)
- * [launchOrFocus](#launchOrFocus)
- * [launchOrFocusByBundleID](#launchOrFocusByBundleID)
- * [localizationsForBundleID](#localizationsForBundleID)
- * [localizationsForBundlePath](#localizationsForBundlePath)
- * [nameForBundleID](#nameForBundleID)
- * [pathForBundleID](#pathForBundleID)
- * [preferredLocalizationsForBundleID](#preferredLocalizationsForBundleID)
- * [preferredLocalizationsForBundlePath](#preferredLocalizationsForBundlePath)
- * [runningApplications](#runningApplications)
+ * [applicationForPID](#applicationforpid)
+ * [applicationsForBundleID](#applicationsforbundleid)
+ * [defaultAppForUTI](#defaultappforuti)
+ * [enableSpotlightForNameSearches](#enablespotlightfornamesearches)
+ * [frontmostApplication](#frontmostapplication)
+ * [infoForBundleID](#infoforbundleid)
+ * [infoForBundlePath](#infoforbundlepath)
+ * [launchOrFocus](#launchorfocus)
+ * [launchOrFocusByBundleID](#launchorfocusbybundleid)
+ * [localizationsForBundleID](#localizationsforbundleid)
+ * [localizationsForBundlePath](#localizationsforbundlepath)
+ * [nameForBundleID](#nameforbundleid)
+ * [pathForBundleID](#pathforbundleid)
+ * [preferredLocalizationsForBundleID](#preferredlocalizationsforbundleid)
+ * [preferredLocalizationsForBundlePath](#preferredlocalizationsforbundlepath)
+ * [runningApplications](#runningapplications)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [find](#find)
  * [get](#get)
  * [open](#open)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [activate](#activate)
- * [allWindows](#allWindows)
- * [bundleID](#bundleID)
- * [findMenuItem](#findMenuItem)
- * [findWindow](#findWindow)
- * [focusedWindow](#focusedWindow)
- * [getMenuItems](#getMenuItems)
- * [getWindow](#getWindow)
+ * [allWindows](#allwindows)
+ * [bundleID](#bundleid)
+ * [findMenuItem](#findmenuitem)
+ * [findWindow](#findwindow)
+ * [focusedWindow](#focusedwindow)
+ * [getMenuItems](#getmenuitems)
+ * [getWindow](#getwindow)
  * [hide](#hide)
- * [isFrontmost](#isFrontmost)
- * [isHidden](#isHidden)
- * [isRunning](#isRunning)
+ * [isFrontmost](#isfrontmost)
+ * [isHidden](#ishidden)
+ * [isRunning](#isrunning)
  * [kill](#kill)
  * [kill9](#kill9)
  * [kind](#kind)
- * [mainWindow](#mainWindow)
+ * [mainWindow](#mainwindow)
  * [name](#name)
  * [path](#path)
  * [pid](#pid)
- * [selectMenuItem](#selectMenuItem)
- * [setFrontmost](#setFrontmost)
+ * [selectMenuItem](#selectmenuitem)
+ * [setFrontmost](#setfrontmost)
  * [title](#title)
  * [unhide](#unhide)
- * [visibleWindows](#visibleWindows)
+ * [visibleWindows](#visiblewindows)
 
 ## API Documentation
 
 ### Variables
 
 
-### [menuGlyphs](#menuGlyphs)
+### [menuGlyphs](#menuglyphs)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Manipulate running applications
 ### Functions
 
 
-### [applicationForPID](#applicationForPID)
+### [applicationForPID](#applicationforpid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Manipulate running applications
 
 ---
 
-### [applicationsForBundleID](#applicationsForBundleID)
+### [applicationsForBundleID](#applicationsforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Manipulate running applications
 
 ---
 
-### [defaultAppForUTI](#defaultAppForUTI)
+### [defaultAppForUTI](#defaultappforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Manipulate running applications
 
 ---
 
-### [enableSpotlightForNameSearches](#enableSpotlightForNameSearches)
+### [enableSpotlightForNameSearches](#enablespotlightfornamesearches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Manipulate running applications
 
 ---
 
-### [frontmostApplication](#frontmostApplication)
+### [frontmostApplication](#frontmostapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Manipulate running applications
 
 ---
 
-### [infoForBundleID](#infoForBundleID)
+### [infoForBundleID](#infoforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Manipulate running applications
 
 ---
 
-### [infoForBundlePath](#infoForBundlePath)
+### [infoForBundlePath](#infoforbundlepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Manipulate running applications
 
 ---
 
-### [launchOrFocus](#launchOrFocus)
+### [launchOrFocus](#launchorfocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ Manipulate running applications
 
 ---
 
-### [launchOrFocusByBundleID](#launchOrFocusByBundleID)
+### [launchOrFocusByBundleID](#launchorfocusbybundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Manipulate running applications
 
 ---
 
-### [localizationsForBundleID](#localizationsForBundleID)
+### [localizationsForBundleID](#localizationsforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ Manipulate running applications
 
 ---
 
-### [localizationsForBundlePath](#localizationsForBundlePath)
+### [localizationsForBundlePath](#localizationsforbundlepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ Manipulate running applications
 
 ---
 
-### [nameForBundleID](#nameForBundleID)
+### [nameForBundleID](#nameforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Manipulate running applications
 
 ---
 
-### [pathForBundleID](#pathForBundleID)
+### [pathForBundleID](#pathforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ Manipulate running applications
 
 ---
 
-### [preferredLocalizationsForBundleID](#preferredLocalizationsForBundleID)
+### [preferredLocalizationsForBundleID](#preferredlocalizationsforbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ Manipulate running applications
 
 ---
 
-### [preferredLocalizationsForBundlePath](#preferredLocalizationsForBundlePath)
+### [preferredLocalizationsForBundlePath](#preferredlocalizationsforbundlepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -268,7 +268,7 @@ Manipulate running applications
 
 ---
 
-### [runningApplications](#runningApplications)
+### [runningApplications](#runningapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ Manipulate running applications
 
 ---
 
-### [allWindows](#allWindows)
+### [allWindows](#allwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -350,7 +350,7 @@ Manipulate running applications
 
 ---
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -363,7 +363,7 @@ Manipulate running applications
 
 ---
 
-### [findMenuItem](#findMenuItem)
+### [findMenuItem](#findmenuitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -376,7 +376,7 @@ Manipulate running applications
 
 ---
 
-### [findWindow](#findWindow)
+### [findWindow](#findwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -389,7 +389,7 @@ Manipulate running applications
 
 ---
 
-### [focusedWindow](#focusedWindow)
+### [focusedWindow](#focusedwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -402,7 +402,7 @@ Manipulate running applications
 
 ---
 
-### [getMenuItems](#getMenuItems)
+### [getMenuItems](#getmenuitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -415,7 +415,7 @@ Manipulate running applications
 
 ---
 
-### [getWindow](#getWindow)
+### [getWindow](#getwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -441,7 +441,7 @@ Manipulate running applications
 
 ---
 
-### [isFrontmost](#isFrontmost)
+### [isFrontmost](#isfrontmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -454,7 +454,7 @@ Manipulate running applications
 
 ---
 
-### [isHidden](#isHidden)
+### [isHidden](#ishidden)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -467,7 +467,7 @@ Manipulate running applications
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -519,7 +519,7 @@ Manipulate running applications
 
 ---
 
-### [mainWindow](#mainWindow)
+### [mainWindow](#mainwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -571,7 +571,7 @@ Manipulate running applications
 
 ---
 
-### [selectMenuItem](#selectMenuItem)
+### [selectMenuItem](#selectmenuitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -584,7 +584,7 @@ Manipulate running applications
 
 ---
 
-### [setFrontmost](#setFrontmost)
+### [setFrontmost](#setfrontmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -623,7 +623,7 @@ Manipulate running applications
 
 ---
 
-### [visibleWindows](#visibleWindows)
+### [visibleWindows](#visiblewindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,21 +4,21 @@ Watch Folder Media Panel.
 
 ## API Overview
 * Variables - Configurable values
- * [watchFolderTableID](#watchFolderTableID)
+ * [watchFolderTableID](#watchfoldertableid)
 * Functions - API calls offered directly by the extension
- * [addWatchFolder](#addWatchFolder)
- * [controllerCallback](#controllerCallback)
- * [generateTable](#generateTable)
+ * [addWatchFolder](#addwatchfolder)
+ * [controllerCallback](#controllercallback)
+ * [generateTable](#generatetable)
  * [init](#init)
- * [refreshTable](#refreshTable)
- * [styleSheet](#styleSheet)
+ * [refreshTable](#refreshtable)
+ * [styleSheet](#stylesheet)
 
 ## API Documentation
 
 ### Variables
 
 
-### [watchFolderTableID](#watchFolderTableID)
+### [watchFolderTableID](#watchfoldertableid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Watch Folder Media Panel.
 ### Functions
 
 
-### [addWatchFolder](#addWatchFolder)
+### [addWatchFolder](#addwatchfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Watch Folder Media Panel.
 
 ---
 
-### [controllerCallback](#controllerCallback)
+### [controllerCallback](#controllercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Watch Folder Media Panel.
 
 ---
 
-### [generateTable](#generateTable)
+### [generateTable](#generatetable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Watch Folder Media Panel.
 
 ---
 
-### [refreshTable](#refreshTable)
+### [refreshTable](#refreshtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Watch Folder Media Panel.
 
 ---
 
-### [styleSheet](#styleSheet)
+### [styleSheet](#stylesheet)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

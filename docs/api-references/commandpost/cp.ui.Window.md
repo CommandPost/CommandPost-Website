@@ -4,29 +4,29 @@ A Window UI element.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [findSectionUI](#findSectionUI)
+ * [findSectionUI](#findsectionui)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Window](#Window)
+ * [Window](#window)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [alert](#alert)
  * [exists](#exists)
  * [focused](#focused)
  * [frame](#frame)
- * [hsWindow](#hsWindow)
+ * [hsWindow](#hswindow)
  * [id](#id)
- * [isFullScreen](#isFullScreen)
- * [isShowing](#isShowing)
+ * [isFullScreen](#isfullscreen)
+ * [isShowing](#isshowing)
  * [minimized](#minimized)
  * [position](#position)
  * [size](#size)
- * [UI](#UI)
+ * [UI](#ui)
  * [visible](#visible)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [close](#close)
- * [doClose](#doClose)
- * [doFocus](#doFocus)
- * [findSectionUI](#findSectionUI)
+ * [doClose](#doclose)
+ * [doFocus](#dofocus)
+ * [findSectionUI](#findsectionui)
  * [focus](#focus)
  * [notifier](#notifier)
  * [snapshot](#snapshot)
@@ -36,7 +36,7 @@ A Window UI element.
 ### Functions
 
 
-### [findSectionUI](#findSectionUI)
+### [findSectionUI](#findsectionui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ A Window UI element.
 ### Constructors
 
 
-### [Window](#Window)
+### [Window](#window)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ A Window UI element.
 
 ---
 
-### [hsWindow](#hsWindow)
+### [hsWindow](#hswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ A Window UI element.
 
 ---
 
-### [isFullScreen](#isFullScreen)
+### [isFullScreen](#isfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ A Window UI element.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ A Window UI element.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ A Window UI element.
 
 ---
 
-### [doClose](#doClose)
+### [doClose](#doclose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ A Window UI element.
 
 ---
 
-### [doFocus](#doFocus)
+### [doFocus](#dofocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ A Window UI element.
 
 ---
 
-### [findSectionUI](#findSectionUI)
+### [findSectionUI](#findsectionui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

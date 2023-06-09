@@ -9,7 +9,7 @@ For convenience, metamethods have been added to the spotlightItemObjects as a sh
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
  * [attributes](#attributes)
- * [valueForAttribute](#valueForAttribute)
+ * [valueForAttribute](#valueforattribute)
 
 ## API Documentation
 
@@ -29,7 +29,7 @@ For convenience, metamethods have been added to the spotlightItemObjects as a sh
 
 ---
 
-### [valueForAttribute](#valueForAttribute)
+### [valueForAttribute](#valueforattribute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

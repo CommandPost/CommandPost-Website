@@ -4,13 +4,13 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ElementCache](#ElementCache)
+ * [ElementCache](#elementcache)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [cachedElement](#cachedElement)
- * [cacheElement](#cacheElement)
+ * [cachedElement](#cachedelement)
+ * [cacheElement](#cacheelement)
  * [clean](#clean)
- * [fetchElement](#fetchElement)
- * [fetchElements](#fetchElements)
+ * [fetchElement](#fetchelement)
+ * [fetchElements](#fetchelements)
  * [reset](#reset)
 
 ## API Documentation
@@ -18,7 +18,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 ### Constructors
 
 
-### [ElementCache](#ElementCache)
+### [ElementCache](#elementcache)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 ### Methods
 
 
-### [cachedElement](#cachedElement)
+### [cachedElement](#cachedelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 
 ---
 
-### [cacheElement](#cacheElement)
+### [cacheElement](#cacheelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 
 ---
 
-### [fetchElement](#fetchElement)
+### [fetchElement](#fetchelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
 
 ---
 
-### [fetchElements](#fetchElements)
+### [fetchElements](#fetchelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

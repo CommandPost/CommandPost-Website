@@ -8,12 +8,12 @@ The speech recognizer functions and methods provide a way to add commands which 
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [blocksOtherRecognizers](#blocksOtherRecognizers)
+ * [blocksOtherRecognizers](#blocksotherrecognizers)
  * [commands](#commands)
  * [delete](#delete)
- * [foregroundOnly](#foregroundOnly)
- * [isListening](#isListening)
- * [setCallback](#setCallback)
+ * [foregroundOnly](#foregroundonly)
+ * [isListening](#islistening)
+ * [setCallback](#setcallback)
  * [start](#start)
  * [stop](#stop)
  * [title](#title)
@@ -38,7 +38,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 ### Methods
 
 
-### [blocksOtherRecognizers](#blocksOtherRecognizers)
+### [blocksOtherRecognizers](#blocksotherrecognizers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 
 ---
 
-### [foregroundOnly](#foregroundOnly)
+### [foregroundOnly](#foregroundonly)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 
 ---
 
-### [isListening](#isListening)
+### [isListening](#islistening)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ The speech recognizer functions and methods provide a way to add commands which 
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

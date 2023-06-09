@@ -4,12 +4,12 @@ Contains common `hs.axuielement` matching functions.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [emptyList](#emptyList)
+ * [emptyList](#emptylist)
  * [exactly](#exactly)
- * [isAbove](#isAbove)
- * [isBelow](#isBelow)
- * [isLeftOf](#isLeftOf)
- * [isRightOf](#isRightOf)
+ * [isAbove](#isabove)
+ * [isBelow](#isbelow)
+ * [isLeftOf](#isleftof)
+ * [isRightOf](#isrightof)
  * [role](#role)
 
 ## API Documentation
@@ -17,7 +17,7 @@ Contains common `hs.axuielement` matching functions.
 ### Functions
 
 
-### [emptyList](#emptyList)
+### [emptyList](#emptylist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Contains common `hs.axuielement` matching functions.
 
 ---
 
-### [isAbove](#isAbove)
+### [isAbove](#isabove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Contains common `hs.axuielement` matching functions.
 
 ---
 
-### [isBelow](#isBelow)
+### [isBelow](#isbelow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Contains common `hs.axuielement` matching functions.
 
 ---
 
-### [isLeftOf](#isLeftOf)
+### [isLeftOf](#isleftof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Contains common `hs.axuielement` matching functions.
 
 ---
 
-### [isRightOf](#isRightOf)
+### [isRightOf](#isrightof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

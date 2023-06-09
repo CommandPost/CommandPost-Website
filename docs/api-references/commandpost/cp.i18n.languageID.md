@@ -15,16 +15,16 @@ You can also convert the resulting table back to the code via `tostring`, or the
  * [is](#is)
  * [parse](#parse)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [forCode](#forCode)
- * [forLocaleID](#forLocaleID)
- * [forParts](#forParts)
+ * [forCode](#forcode)
+ * [forLocaleID](#forlocaleid)
+ * [forParts](#forparts)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [code](#code)
  * [language](#language)
  * [region](#region)
  * [script](#script)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [toLocaleID](#toLocaleID)
+ * [toLocaleID](#tolocaleid)
 
 ## API Documentation
 
@@ -59,7 +59,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 ### Constructors
 
 
-### [forCode](#forCode)
+### [forCode](#forcode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 
 ---
 
-### [forLocaleID](#forLocaleID)
+### [forLocaleID](#forlocaleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 
 ---
 
-### [forParts](#forParts)
+### [forParts](#forparts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 ### Methods
 
 
-### [toLocaleID](#toLocaleID)
+### [toLocaleID](#tolocaleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

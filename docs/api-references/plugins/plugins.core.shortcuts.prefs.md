@@ -4,20 +4,20 @@ Shortcuts Preferences Panel
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_SHORTCUTS](#DEFAULT_SHORTCUTS)
+ * [DEFAULT_SHORTCUTS](#default_shortcuts)
 * Functions - API calls offered directly by the extension
- * [getGroupEditor](#getGroupEditor)
+ * [getGroupEditor](#getgroupeditor)
  * [init](#init)
- * [setGroupEditor](#setGroupEditor)
+ * [setGroupEditor](#setgroupeditor)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastGroup](#lastGroup)
+ * [lastGroup](#lastgroup)
 
 ## API Documentation
 
 ### Constants
 
 
-### [DEFAULT_SHORTCUTS](#DEFAULT_SHORTCUTS)
+### [DEFAULT_SHORTCUTS](#default_shortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Shortcuts Preferences Panel
 ### Functions
 
 
-### [getGroupEditor](#getGroupEditor)
+### [getGroupEditor](#getgroupeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Shortcuts Preferences Panel
 
 ---
 
-### [setGroupEditor](#setGroupEditor)
+### [setGroupEditor](#setgroupeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Shortcuts Preferences Panel
 ### Fields
 
 
-### [lastGroup](#lastGroup)
+### [lastGroup](#lastgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

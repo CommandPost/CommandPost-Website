@@ -4,20 +4,20 @@ Transition Inspector Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [EASE](#EASE)
- * [FADE_TYPES](#FADE_TYPES)
- * [LOOKS](#LOOKS)
+ * [EASE](#ease)
+ * [FADE_TYPES](#fade_types)
+ * [LOOKS](#looks)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [TransitionInspector](#TransitionInspector)
+ * [TransitionInspector](#transitioninspector)
 
 ## API Documentation
 
 ### Constants
 
 
-### [EASE](#EASE)
+### [EASE](#ease)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Transition Inspector Module.
 
 ---
 
-### [FADE_TYPES](#FADE_TYPES)
+### [FADE_TYPES](#fade_types)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Transition Inspector Module.
 
 ---
 
-### [LOOKS](#LOOKS)
+### [LOOKS](#looks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ Transition Inspector Module.
 ### Constructors
 
 
-### [TransitionInspector](#TransitionInspector)
+### [TransitionInspector](#transitioninspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,19 +4,19 @@ Simple on-screen alerts
 
 ## API Overview
 * Variables - Configurable values
- * [defaultStyle](#defaultStyle)
+ * [defaultStyle](#defaultstyle)
 * Functions - API calls offered directly by the extension
- * [closeAll](#closeAll)
- * [closeSpecific](#closeSpecific)
+ * [closeAll](#closeall)
+ * [closeSpecific](#closespecific)
  * [show](#show)
- * [showWithImage](#showWithImage)
+ * [showWithImage](#showwithimage)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultStyle](#defaultStyle)
+### [defaultStyle](#defaultstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Simple on-screen alerts
 ### Functions
 
 
-### [closeAll](#closeAll)
+### [closeAll](#closeall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Simple on-screen alerts
 
 ---
 
-### [closeSpecific](#closeSpecific)
+### [closeSpecific](#closespecific)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Simple on-screen alerts
 
 ---
 
-### [showWithImage](#showWithImage)
+### [showWithImage](#showwithimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

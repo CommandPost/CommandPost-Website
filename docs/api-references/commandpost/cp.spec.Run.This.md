@@ -7,23 +7,23 @@ will complete asynchronously.
 * Constants - Useful values which cannot be changed
  * [state](#state)
 * Functions - API calls offered directly by the extension
- * [defaultTimeout](#defaultTimeout)
+ * [defaultTimeout](#defaulttimeout)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [This](#This)
+ * [This](#this)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [abort](#abort)
  * [cleanup](#cleanup)
  * [done](#done)
- * [expectAbort](#expectAbort)
- * [expectFail](#expectFail)
+ * [expectAbort](#expectabort)
+ * [expectFail](#expectfail)
  * [fail](#fail)
- * [isActive](#isActive)
- * [isDone](#isDone)
- * [isWaiting](#isWaiting)
+ * [isActive](#isactive)
+ * [isDone](#isdone)
+ * [isWaiting](#iswaiting)
  * [log](#log)
  * [prepare](#prepare)
  * [run](#run)
- * [toObserver](#toObserver)
+ * [toObserver](#toobserver)
  * [wait](#wait)
 
 ## API Documentation
@@ -44,7 +44,7 @@ will complete asynchronously.
 ### Functions
 
 
-### [defaultTimeout](#defaultTimeout)
+### [defaultTimeout](#defaulttimeout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ will complete asynchronously.
 ### Constructors
 
 
-### [This](#This)
+### [This](#this)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ will complete asynchronously.
 
 ---
 
-### [expectAbort](#expectAbort)
+### [expectAbort](#expectabort)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ will complete asynchronously.
 
 ---
 
-### [expectFail](#expectFail)
+### [expectFail](#expectfail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ will complete asynchronously.
 
 ---
 
-### [isActive](#isActive)
+### [isActive](#isactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ will complete asynchronously.
 
 ---
 
-### [isDone](#isDone)
+### [isDone](#isdone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ will complete asynchronously.
 
 ---
 
-### [isWaiting](#isWaiting)
+### [isWaiting](#iswaiting)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ will complete asynchronously.
 
 ---
 
-### [toObserver](#toObserver)
+### [toObserver](#toobserver)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

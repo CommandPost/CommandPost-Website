@@ -12,8 +12,8 @@ require("cp.docs").generate()
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [generate](#generate)
- * [generateExtensionLinks](#generateExtensionLinks)
- * [updateDeveloperGuideSummary](#updateDeveloperGuideSummary)
+ * [generateExtensionLinks](#generateextensionlinks)
+ * [updateDeveloperGuideSummary](#updatedeveloperguidesummary)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ require("cp.docs").generate()
 
 ---
 
-### [generateExtensionLinks](#generateExtensionLinks)
+### [generateExtensionLinks](#generateextensionlinks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ require("cp.docs").generate()
 
 ---
 
-### [updateDeveloperGuideSummary](#updateDeveloperGuideSummary)
+### [updateDeveloperGuideSummary](#updatedeveloperguidesummary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -14,84 +14,84 @@ Notes:
 
 ## API Overview
 * Variables - Configurable values
- * [animationDuration](#animationDuration)
- * [setFrameCorrectness](#setFrameCorrectness)
+ * [animationDuration](#animationduration)
+ * [setFrameCorrectness](#setframecorrectness)
 * Functions - API calls offered directly by the extension
- * [allWindows](#allWindows)
+ * [allWindows](#allwindows)
  * [desktop](#desktop)
- * [invisibleWindows](#invisibleWindows)
+ * [invisibleWindows](#invisiblewindows)
  * [list](#list)
- * [minimizedWindows](#minimizedWindows)
- * [orderedWindows](#orderedWindows)
- * [setShadows](#setShadows)
- * [snapshotForID](#snapshotForID)
+ * [minimizedWindows](#minimizedwindows)
+ * [orderedWindows](#orderedwindows)
+ * [setShadows](#setshadows)
+ * [snapshotForID](#snapshotforid)
  * [timeout](#timeout)
- * [visibleWindows](#visibleWindows)
+ * [visibleWindows](#visiblewindows)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [find](#find)
- * [focusedWindow](#focusedWindow)
- * [frontmostWindow](#frontmostWindow)
+ * [focusedWindow](#focusedwindow)
+ * [frontmostWindow](#frontmostwindow)
  * [get](#get)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [application](#application)
- * [becomeMain](#becomeMain)
- * [centerOnScreen](#centerOnScreen)
+ * [becomeMain](#becomemain)
+ * [centerOnScreen](#centeronscreen)
  * [close](#close)
  * [focus](#focus)
- * [focusTab](#focusTab)
- * [focusWindowEast](#focusWindowEast)
- * [focusWindowNorth](#focusWindowNorth)
- * [focusWindowSouth](#focusWindowSouth)
- * [focusWindowWest](#focusWindowWest)
+ * [focusTab](#focustab)
+ * [focusWindowEast](#focuswindoweast)
+ * [focusWindowNorth](#focuswindownorth)
+ * [focusWindowSouth](#focuswindowsouth)
+ * [focusWindowWest](#focuswindowwest)
  * [frame](#frame)
  * [id](#id)
- * [isFullScreen](#isFullScreen)
- * [isMaximizable](#isMaximizable)
- * [isMinimized](#isMinimized)
- * [isStandard](#isStandard)
- * [isVisible](#isVisible)
+ * [isFullScreen](#isfullscreen)
+ * [isMaximizable](#ismaximizable)
+ * [isMinimized](#isminimized)
+ * [isStandard](#isstandard)
+ * [isVisible](#isvisible)
  * [maximize](#maximize)
  * [minimize](#minimize)
  * [move](#move)
- * [moveOneScreenEast](#moveOneScreenEast)
- * [moveOneScreenNorth](#moveOneScreenNorth)
- * [moveOneScreenSouth](#moveOneScreenSouth)
- * [moveOneScreenWest](#moveOneScreenWest)
- * [moveToScreen](#moveToScreen)
- * [moveToUnit](#moveToUnit)
- * [otherWindowsAllScreens](#otherWindowsAllScreens)
- * [otherWindowsSameScreen](#otherWindowsSameScreen)
+ * [moveOneScreenEast](#moveonescreeneast)
+ * [moveOneScreenNorth](#moveonescreennorth)
+ * [moveOneScreenSouth](#moveonescreensouth)
+ * [moveOneScreenWest](#moveonescreenwest)
+ * [moveToScreen](#movetoscreen)
+ * [moveToUnit](#movetounit)
+ * [otherWindowsAllScreens](#otherwindowsallscreens)
+ * [otherWindowsSameScreen](#otherwindowssamescreen)
  * [raise](#raise)
  * [role](#role)
  * [screen](#screen)
- * [sendToBack](#sendToBack)
- * [setFrame](#setFrame)
- * [setFrameInScreenBounds](#setFrameInScreenBounds)
- * [setFrameWithWorkarounds](#setFrameWithWorkarounds)
- * [setFullScreen](#setFullScreen)
- * [setSize](#setSize)
- * [setTopLeft](#setTopLeft)
+ * [sendToBack](#sendtoback)
+ * [setFrame](#setframe)
+ * [setFrameInScreenBounds](#setframeinscreenbounds)
+ * [setFrameWithWorkarounds](#setframewithworkarounds)
+ * [setFullScreen](#setfullscreen)
+ * [setSize](#setsize)
+ * [setTopLeft](#settopleft)
  * [size](#size)
  * [snapshot](#snapshot)
  * [subrole](#subrole)
- * [tabCount](#tabCount)
+ * [tabCount](#tabcount)
  * [title](#title)
- * [toggleFullScreen](#toggleFullScreen)
- * [toggleZoom](#toggleZoom)
- * [topLeft](#topLeft)
+ * [toggleFullScreen](#togglefullscreen)
+ * [toggleZoom](#togglezoom)
+ * [topLeft](#topleft)
  * [unminimize](#unminimize)
- * [windowsToEast](#windowsToEast)
- * [windowsToNorth](#windowsToNorth)
- * [windowsToSouth](#windowsToSouth)
- * [windowsToWest](#windowsToWest)
- * [zoomButtonRect](#zoomButtonRect)
+ * [windowsToEast](#windowstoeast)
+ * [windowsToNorth](#windowstonorth)
+ * [windowsToSouth](#windowstosouth)
+ * [windowsToWest](#windowstowest)
+ * [zoomButtonRect](#zoombuttonrect)
 
 ## API Documentation
 
 ### Variables
 
 
-### [animationDuration](#animationDuration)
+### [animationDuration](#animationduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ Notes:
 
 ---
 
-### [setFrameCorrectness](#setFrameCorrectness)
+### [setFrameCorrectness](#setframecorrectness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Notes:
 ### Functions
 
 
-### [allWindows](#allWindows)
+### [allWindows](#allwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Notes:
 
 ---
 
-### [invisibleWindows](#invisibleWindows)
+### [invisibleWindows](#invisiblewindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Notes:
 
 ---
 
-### [minimizedWindows](#minimizedWindows)
+### [minimizedWindows](#minimizedwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ Notes:
 
 ---
 
-### [orderedWindows](#orderedWindows)
+### [orderedWindows](#orderedwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ Notes:
 
 ---
 
-### [setShadows](#setShadows)
+### [setShadows](#setshadows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ Notes:
 
 ---
 
-### [snapshotForID](#snapshotForID)
+### [snapshotForID](#snapshotforid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Notes:
 
 ---
 
-### [visibleWindows](#visibleWindows)
+### [visibleWindows](#visiblewindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -258,7 +258,7 @@ Notes:
 
 ---
 
-### [focusedWindow](#focusedWindow)
+### [focusedWindow](#focusedwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ Notes:
 
 ---
 
-### [frontmostWindow](#frontmostWindow)
+### [frontmostWindow](#frontmostwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Notes:
 
 ---
 
-### [becomeMain](#becomeMain)
+### [becomeMain](#becomemain)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -325,7 +325,7 @@ Notes:
 
 ---
 
-### [centerOnScreen](#centerOnScreen)
+### [centerOnScreen](#centeronscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ Notes:
 
 ---
 
-### [focusTab](#focusTab)
+### [focusTab](#focustab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -377,7 +377,7 @@ Notes:
 
 ---
 
-### [focusWindowEast](#focusWindowEast)
+### [focusWindowEast](#focuswindoweast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -390,7 +390,7 @@ Notes:
 
 ---
 
-### [focusWindowNorth](#focusWindowNorth)
+### [focusWindowNorth](#focuswindownorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -403,7 +403,7 @@ Notes:
 
 ---
 
-### [focusWindowSouth](#focusWindowSouth)
+### [focusWindowSouth](#focuswindowsouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -416,7 +416,7 @@ Notes:
 
 ---
 
-### [focusWindowWest](#focusWindowWest)
+### [focusWindowWest](#focuswindowwest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -455,7 +455,7 @@ Notes:
 
 ---
 
-### [isFullScreen](#isFullScreen)
+### [isFullScreen](#isfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -468,7 +468,7 @@ Notes:
 
 ---
 
-### [isMaximizable](#isMaximizable)
+### [isMaximizable](#ismaximizable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -481,7 +481,7 @@ Notes:
 
 ---
 
-### [isMinimized](#isMinimized)
+### [isMinimized](#isminimized)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -494,7 +494,7 @@ Notes:
 
 ---
 
-### [isStandard](#isStandard)
+### [isStandard](#isstandard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -507,7 +507,7 @@ Notes:
 
 ---
 
-### [isVisible](#isVisible)
+### [isVisible](#isvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -559,7 +559,7 @@ Notes:
 
 ---
 
-### [moveOneScreenEast](#moveOneScreenEast)
+### [moveOneScreenEast](#moveonescreeneast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -572,7 +572,7 @@ Notes:
 
 ---
 
-### [moveOneScreenNorth](#moveOneScreenNorth)
+### [moveOneScreenNorth](#moveonescreennorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -585,7 +585,7 @@ Notes:
 
 ---
 
-### [moveOneScreenSouth](#moveOneScreenSouth)
+### [moveOneScreenSouth](#moveonescreensouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -598,7 +598,7 @@ Notes:
 
 ---
 
-### [moveOneScreenWest](#moveOneScreenWest)
+### [moveOneScreenWest](#moveonescreenwest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -611,7 +611,7 @@ Notes:
 
 ---
 
-### [moveToScreen](#moveToScreen)
+### [moveToScreen](#movetoscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -624,7 +624,7 @@ Notes:
 
 ---
 
-### [moveToUnit](#moveToUnit)
+### [moveToUnit](#movetounit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -637,7 +637,7 @@ Notes:
 
 ---
 
-### [otherWindowsAllScreens](#otherWindowsAllScreens)
+### [otherWindowsAllScreens](#otherwindowsallscreens)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -650,7 +650,7 @@ Notes:
 
 ---
 
-### [otherWindowsSameScreen](#otherWindowsSameScreen)
+### [otherWindowsSameScreen](#otherwindowssamescreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -702,7 +702,7 @@ Notes:
 
 ---
 
-### [sendToBack](#sendToBack)
+### [sendToBack](#sendtoback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -715,7 +715,7 @@ Notes:
 
 ---
 
-### [setFrame](#setFrame)
+### [setFrame](#setframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -728,7 +728,7 @@ Notes:
 
 ---
 
-### [setFrameInScreenBounds](#setFrameInScreenBounds)
+### [setFrameInScreenBounds](#setframeinscreenbounds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -741,7 +741,7 @@ Notes:
 
 ---
 
-### [setFrameWithWorkarounds](#setFrameWithWorkarounds)
+### [setFrameWithWorkarounds](#setframewithworkarounds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -754,7 +754,7 @@ Notes:
 
 ---
 
-### [setFullScreen](#setFullScreen)
+### [setFullScreen](#setfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -767,7 +767,7 @@ Notes:
 
 ---
 
-### [setSize](#setSize)
+### [setSize](#setsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -780,7 +780,7 @@ Notes:
 
 ---
 
-### [setTopLeft](#setTopLeft)
+### [setTopLeft](#settopleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -832,7 +832,7 @@ Notes:
 
 ---
 
-### [tabCount](#tabCount)
+### [tabCount](#tabcount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -858,7 +858,7 @@ Notes:
 
 ---
 
-### [toggleFullScreen](#toggleFullScreen)
+### [toggleFullScreen](#togglefullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -871,7 +871,7 @@ Notes:
 
 ---
 
-### [toggleZoom](#toggleZoom)
+### [toggleZoom](#togglezoom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -884,7 +884,7 @@ Notes:
 
 ---
 
-### [topLeft](#topLeft)
+### [topLeft](#topleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -910,7 +910,7 @@ Notes:
 
 ---
 
-### [windowsToEast](#windowsToEast)
+### [windowsToEast](#windowstoeast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -923,7 +923,7 @@ Notes:
 
 ---
 
-### [windowsToNorth](#windowsToNorth)
+### [windowsToNorth](#windowstonorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -936,7 +936,7 @@ Notes:
 
 ---
 
-### [windowsToSouth](#windowsToSouth)
+### [windowsToSouth](#windowstosouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -949,7 +949,7 @@ Notes:
 
 ---
 
-### [windowsToWest](#windowsToWest)
+### [windowsToWest](#windowstowest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -962,7 +962,7 @@ Notes:
 
 ---
 
-### [zoomButtonRect](#zoomButtonRect)
+### [zoomButtonRect](#zoombuttonrect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

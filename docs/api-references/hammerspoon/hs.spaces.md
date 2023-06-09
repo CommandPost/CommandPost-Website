@@ -17,39 +17,39 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ## API Overview
 * Variables - Configurable values
- * [MCwaitTime](#MCwaitTime)
+ * [MCwaitTime](#mcwaittime)
 * Functions - API calls offered directly by the extension
- * [activeSpaceOnScreen](#activeSpaceOnScreen)
- * [activeSpaces](#activeSpaces)
- * [addSpaceToScreen](#addSpaceToScreen)
- * [allSpaces](#allSpaces)
- * [closeMissionControl](#closeMissionControl)
- * [data_managedDisplaySpaces](#data_managedDisplaySpaces)
- * [data_missionControlAXUIElementData](#data_missionControlAXUIElementData)
- * [focusedSpace](#focusedSpace)
- * [gotoSpace](#gotoSpace)
- * [missionControlSpaceNames](#missionControlSpaceNames)
- * [moveWindowToSpace](#moveWindowToSpace)
- * [openMissionControl](#openMissionControl)
- * [removeSpace](#removeSpace)
- * [screensHaveSeparateSpaces](#screensHaveSeparateSpaces)
- * [setDefaultMCwaitTime](#setDefaultMCwaitTime)
- * [spaceDisplay](#spaceDisplay)
- * [spacesForScreen](#spacesForScreen)
- * [spaceType](#spaceType)
- * [toggleAppExpose](#toggleAppExpose)
- * [toggleLaunchPad](#toggleLaunchPad)
- * [toggleMissionControl](#toggleMissionControl)
- * [toggleShowDesktop](#toggleShowDesktop)
- * [windowsForSpace](#windowsForSpace)
- * [windowSpaces](#windowSpaces)
+ * [activeSpaceOnScreen](#activespaceonscreen)
+ * [activeSpaces](#activespaces)
+ * [addSpaceToScreen](#addspacetoscreen)
+ * [allSpaces](#allspaces)
+ * [closeMissionControl](#closemissioncontrol)
+ * [data_managedDisplaySpaces](#data_manageddisplayspaces)
+ * [data_missionControlAXUIElementData](#data_missioncontrolaxuielementdata)
+ * [focusedSpace](#focusedspace)
+ * [gotoSpace](#gotospace)
+ * [missionControlSpaceNames](#missioncontrolspacenames)
+ * [moveWindowToSpace](#movewindowtospace)
+ * [openMissionControl](#openmissioncontrol)
+ * [removeSpace](#removespace)
+ * [screensHaveSeparateSpaces](#screenshaveseparatespaces)
+ * [setDefaultMCwaitTime](#setdefaultmcwaittime)
+ * [spaceDisplay](#spacedisplay)
+ * [spacesForScreen](#spacesforscreen)
+ * [spaceType](#spacetype)
+ * [toggleAppExpose](#toggleappexpose)
+ * [toggleLaunchPad](#togglelaunchpad)
+ * [toggleMissionControl](#togglemissioncontrol)
+ * [toggleShowDesktop](#toggleshowdesktop)
+ * [windowsForSpace](#windowsforspace)
+ * [windowSpaces](#windowspaces)
 
 ## API Documentation
 
 ### Variables
 
 
-### [MCwaitTime](#MCwaitTime)
+### [MCwaitTime](#mcwaittime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 ### Functions
 
 
-### [activeSpaceOnScreen](#activeSpaceOnScreen)
+### [activeSpaceOnScreen](#activespaceonscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [activeSpaces](#activeSpaces)
+### [activeSpaces](#activespaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [addSpaceToScreen](#addSpaceToScreen)
+### [addSpaceToScreen](#addspacetoscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [allSpaces](#allSpaces)
+### [allSpaces](#allspaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [closeMissionControl](#closeMissionControl)
+### [closeMissionControl](#closemissioncontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [data_managedDisplaySpaces](#data_managedDisplaySpaces)
+### [data_managedDisplaySpaces](#data_manageddisplayspaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [data_missionControlAXUIElementData](#data_missionControlAXUIElementData)
+### [data_missionControlAXUIElementData](#data_missioncontrolaxuielementdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [focusedSpace](#focusedSpace)
+### [focusedSpace](#focusedspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [gotoSpace](#gotoSpace)
+### [gotoSpace](#gotospace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [missionControlSpaceNames](#missionControlSpaceNames)
+### [missionControlSpaceNames](#missioncontrolspacenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [moveWindowToSpace](#moveWindowToSpace)
+### [moveWindowToSpace](#movewindowtospace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [openMissionControl](#openMissionControl)
+### [openMissionControl](#openmissioncontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -218,7 +218,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [removeSpace](#removeSpace)
+### [removeSpace](#removespace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -231,7 +231,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [screensHaveSeparateSpaces](#screensHaveSeparateSpaces)
+### [screensHaveSeparateSpaces](#screenshaveseparatespaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -244,7 +244,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [setDefaultMCwaitTime](#setDefaultMCwaitTime)
+### [setDefaultMCwaitTime](#setdefaultmcwaittime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -257,7 +257,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [spaceDisplay](#spaceDisplay)
+### [spaceDisplay](#spacedisplay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -270,7 +270,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [spacesForScreen](#spacesForScreen)
+### [spacesForScreen](#spacesforscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [spaceType](#spaceType)
+### [spaceType](#spacetype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -296,7 +296,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [toggleAppExpose](#toggleAppExpose)
+### [toggleAppExpose](#toggleappexpose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -309,7 +309,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [toggleLaunchPad](#toggleLaunchPad)
+### [toggleLaunchPad](#togglelaunchpad)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -322,7 +322,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [toggleMissionControl](#toggleMissionControl)
+### [toggleMissionControl](#togglemissioncontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -335,7 +335,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [toggleShowDesktop](#toggleShowDesktop)
+### [toggleShowDesktop](#toggleshowdesktop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -348,7 +348,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [windowsForSpace](#windowsForSpace)
+### [windowsForSpace](#windowsforspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -361,7 +361,7 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
 
 ---
 
-### [windowSpaces](#windowSpaces)
+### [windowSpaces](#windowspaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

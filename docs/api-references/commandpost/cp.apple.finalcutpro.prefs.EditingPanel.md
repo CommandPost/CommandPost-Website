@@ -4,21 +4,21 @@ Editing Panel Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [EditingPanel](#EditingPanel)
+ * [EditingPanel](#editingpanel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [audioFadeDuration](#audioFadeDuration)
- * [positionPlayheadAfterEditOperation](#positionPlayheadAfterEditOperation)
- * [showDetailedTrimmingFeedback](#showDetailedTrimmingFeedback)
- * [showReferenceWaveforms](#showReferenceWaveforms)
- * [stillImageDuration](#stillImageDuration)
- * [transitionDuration](#transitionDuration)
+ * [audioFadeDuration](#audiofadeduration)
+ * [positionPlayheadAfterEditOperation](#positionplayheadaftereditoperation)
+ * [showDetailedTrimmingFeedback](#showdetailedtrimmingfeedback)
+ * [showReferenceWaveforms](#showreferencewaveforms)
+ * [stillImageDuration](#stillimageduration)
+ * [transitionDuration](#transitionduration)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [EditingPanel](#EditingPanel)
+### [EditingPanel](#editingpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Editing Panel Module.
 ### Fields
 
 
-### [audioFadeDuration](#audioFadeDuration)
+### [audioFadeDuration](#audiofadeduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Editing Panel Module.
 
 ---
 
-### [positionPlayheadAfterEditOperation](#positionPlayheadAfterEditOperation)
+### [positionPlayheadAfterEditOperation](#positionplayheadaftereditoperation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Editing Panel Module.
 
 ---
 
-### [showDetailedTrimmingFeedback](#showDetailedTrimmingFeedback)
+### [showDetailedTrimmingFeedback](#showdetailedtrimmingfeedback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Editing Panel Module.
 
 ---
 
-### [showReferenceWaveforms](#showReferenceWaveforms)
+### [showReferenceWaveforms](#showreferencewaveforms)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Editing Panel Module.
 
 ---
 
-### [stillImageDuration](#stillImageDuration)
+### [stillImageDuration](#stillimageduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Editing Panel Module.
 
 ---
 
-### [transitionDuration](#transitionDuration)
+### [transitionDuration](#transitionduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

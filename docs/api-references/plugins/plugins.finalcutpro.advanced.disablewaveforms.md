@@ -4,14 +4,14 @@ Disable Waveforms Plugin.
 
 ## API Overview
 * Variables - Configurable values
- * [disableWaveform](#disableWaveform)
+ * [disableWaveform](#disablewaveform)
 
 ## API Documentation
 
 ### Variables
 
 
-### [disableWaveform](#disableWaveform)
+### [disableWaveform](#disablewaveform)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

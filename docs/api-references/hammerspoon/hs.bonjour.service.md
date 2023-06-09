@@ -9,7 +9,7 @@ Additional submodules which may address this limitation as well as provide addit
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [serviceTypes](#serviceTypes)
+ * [serviceTypes](#servicetypes)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
  * [remote](#remote)
@@ -17,15 +17,15 @@ Additional submodules which may address this limitation as well as provide addit
  * [addresses](#addresses)
  * [domain](#domain)
  * [hostname](#hostname)
- * [includesPeerToPeer](#includesPeerToPeer)
+ * [includesPeerToPeer](#includespeertopeer)
  * [monitor](#monitor)
  * [name](#name)
  * [port](#port)
  * [publish](#publish)
  * [resolve](#resolve)
  * [stop](#stop)
- * [stopMonitoring](#stopMonitoring)
- * [txtRecord](#txtRecord)
+ * [stopMonitoring](#stopmonitoring)
+ * [txtRecord](#txtrecord)
  * [type](#type)
 
 ## API Documentation
@@ -33,7 +33,7 @@ Additional submodules which may address this limitation as well as provide addit
 ### Constants
 
 
-### [serviceTypes](#serviceTypes)
+### [serviceTypes](#servicetypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Additional submodules which may address this limitation as well as provide addit
 
 ---
 
-### [includesPeerToPeer](#includesPeerToPeer)
+### [includesPeerToPeer](#includespeertopeer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -212,7 +212,7 @@ Additional submodules which may address this limitation as well as provide addit
 
 ---
 
-### [stopMonitoring](#stopMonitoring)
+### [stopMonitoring](#stopmonitoring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -225,7 +225,7 @@ Additional submodules which may address this limitation as well as provide addit
 
 ---
 
-### [txtRecord](#txtRecord)
+### [txtRecord](#txtrecord)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

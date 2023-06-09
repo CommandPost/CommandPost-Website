@@ -10,28 +10,28 @@ Manage CommandPost's constants and settings.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [appBuild](#appBuild)
- * [appName](#appName)
- * [appVersion](#appVersion)
- * [assetsPath](#assetsPath)
- * [basePath](#basePath)
- * [bundledPluginsPath](#bundledPluginsPath)
- * [bundleID](#bundleID)
- * [cachePath](#cachePath)
- * [configPrefix](#configPrefix)
- * [iconPath](#iconPath)
- * [languagePath](#languagePath)
- * [pluginPaths](#pluginPaths)
- * [privacyPolicyURL](#privacyPolicyURL)
- * [processID](#processID)
- * [scriptPath](#scriptPath)
- * [sourceExtensions](#sourceExtensions)
- * [sourceWatcher](#sourceWatcher)
- * [translationURL](#translationURL)
- * [userConfigRootPath](#userConfigRootPath)
- * [userPluginsPath](#userPluginsPath)
+ * [appBuild](#appbuild)
+ * [appName](#appname)
+ * [appVersion](#appversion)
+ * [assetsPath](#assetspath)
+ * [basePath](#basepath)
+ * [bundledPluginsPath](#bundledpluginspath)
+ * [bundleID](#bundleid)
+ * [cachePath](#cachepath)
+ * [configPrefix](#configprefix)
+ * [iconPath](#iconpath)
+ * [languagePath](#languagepath)
+ * [pluginPaths](#pluginpaths)
+ * [privacyPolicyURL](#privacypolicyurl)
+ * [processID](#processid)
+ * [scriptPath](#scriptpath)
+ * [sourceExtensions](#sourceextensions)
+ * [sourceWatcher](#sourcewatcher)
+ * [translationURL](#translationurl)
+ * [userConfigRootPath](#userconfigrootpath)
+ * [userPluginsPath](#userpluginspath)
 * Variables - Configurable values
- * [automaticScriptReloading](#automaticScriptReloading)
+ * [automaticScriptReloading](#automaticscriptreloading)
  * [watcher](#watcher)
 * Functions - API calls offered directly by the extension
  * [application](#application)
@@ -42,7 +42,7 @@ Manage CommandPost's constants and settings.
  * [unwatch](#unwatch)
  * [watch](#watch)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [developerMode](#developerMode)
+ * [developerMode](#developermode)
  * [frontmost](#frontmost)
 
 ## API Documentation
@@ -50,7 +50,7 @@ Manage CommandPost's constants and settings.
 ### Constants
 
 
-### [appBuild](#appBuild)
+### [appBuild](#appbuild)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [appName](#appName)
+### [appName](#appname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [appVersion](#appVersion)
+### [appVersion](#appversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [assetsPath](#assetsPath)
+### [assetsPath](#assetspath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [basePath](#basePath)
+### [basePath](#basepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [bundledPluginsPath](#bundledPluginsPath)
+### [bundledPluginsPath](#bundledpluginspath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [cachePath](#cachePath)
+### [cachePath](#cachepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [configPrefix](#configPrefix)
+### [configPrefix](#configprefix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [iconPath](#iconPath)
+### [iconPath](#iconpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [languagePath](#languagePath)
+### [languagePath](#languagepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [pluginPaths](#pluginPaths)
+### [pluginPaths](#pluginpaths)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [privacyPolicyURL](#privacyPolicyURL)
+### [privacyPolicyURL](#privacypolicyurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [processID](#processID)
+### [processID](#processid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [scriptPath](#scriptPath)
+### [scriptPath](#scriptpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [sourceExtensions](#sourceExtensions)
+### [sourceExtensions](#sourceextensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [sourceWatcher](#sourceWatcher)
+### [sourceWatcher](#sourcewatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [translationURL](#translationURL)
+### [translationURL](#translationurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [userConfigRootPath](#userConfigRootPath)
+### [userConfigRootPath](#userconfigrootpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Manage CommandPost's constants and settings.
 
 ---
 
-### [userPluginsPath](#userPluginsPath)
+### [userPluginsPath](#userpluginspath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -252,7 +252,7 @@ Manage CommandPost's constants and settings.
 ### Variables
 
 
-### [automaticScriptReloading](#automaticScriptReloading)
+### [automaticScriptReloading](#automaticscriptreloading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -367,7 +367,7 @@ Manage CommandPost's constants and settings.
 ### Fields
 
 
-### [developerMode](#developerMode)
+### [developerMode](#developermode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

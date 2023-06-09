@@ -4,21 +4,21 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [transcodeType](#transcodeType)
+ * [transcodeType](#transcodetype)
 * Functions - API calls offered directly by the extension
- * [doTranscodeSelectedBrowserClips](#doTranscodeSelectedBrowserClips)
- * [doTranscodeSelectedClips](#doTranscodeSelectedClips)
- * [doTranscodeSelectedTimelineClips](#doTranscodeSelectedTimelineClips)
- * [optimizeSelectedClips](#optimizeSelectedClips)
- * [proxySelectedClips](#proxySelectedClips)
- * [transcodeSelectedClips](#transcodeSelectedClips)
+ * [doTranscodeSelectedBrowserClips](#dotranscodeselectedbrowserclips)
+ * [doTranscodeSelectedClips](#dotranscodeselectedclips)
+ * [doTranscodeSelectedTimelineClips](#dotranscodeselectedtimelineclips)
+ * [optimizeSelectedClips](#optimizeselectedclips)
+ * [proxySelectedClips](#proxyselectedclips)
+ * [transcodeSelectedClips](#transcodeselectedclips)
 
 ## API Documentation
 
 ### Constants
 
 
-### [transcodeType](#transcodeType)
+### [transcodeType](#transcodetype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Adds actions that allows you to transcode clips from the timeline.
 ### Functions
 
 
-### [doTranscodeSelectedBrowserClips](#doTranscodeSelectedBrowserClips)
+### [doTranscodeSelectedBrowserClips](#dotranscodeselectedbrowserclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ---
 
-### [doTranscodeSelectedClips](#doTranscodeSelectedClips)
+### [doTranscodeSelectedClips](#dotranscodeselectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ---
 
-### [doTranscodeSelectedTimelineClips](#doTranscodeSelectedTimelineClips)
+### [doTranscodeSelectedTimelineClips](#dotranscodeselectedtimelineclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ---
 
-### [optimizeSelectedClips](#optimizeSelectedClips)
+### [optimizeSelectedClips](#optimizeselectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ---
 
-### [proxySelectedClips](#proxySelectedClips)
+### [proxySelectedClips](#proxyselectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ---
 
-### [transcodeSelectedClips](#transcodeSelectedClips)
+### [transcodeSelectedClips](#transcodeselectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

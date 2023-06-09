@@ -9,14 +9,14 @@ Provides support for NIB files.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [fromBytes](#fromBytes)
+ * [fromBytes](#frombytes)
 
 ## API Documentation
 
 ### Methods
 
 
-### [fromBytes](#fromBytes)
+### [fromBytes](#frombytes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

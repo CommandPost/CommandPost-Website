@@ -7,7 +7,7 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
  * [name](#name)
- * [setDefault](#setDefault)
+ * [setDefault](#setdefault)
 
 ## API Documentation
 
@@ -27,7 +27,7 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 
 ---
 
-### [setDefault](#setDefault)
+### [setDefault](#setdefault)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

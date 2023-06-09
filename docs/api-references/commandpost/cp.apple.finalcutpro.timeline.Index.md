@@ -6,7 +6,7 @@ Timeline Index Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Index](#Index)
+ * [Index](#index)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [captions](#captions)
  * [clips](#clips)
@@ -15,11 +15,11 @@ Timeline Index Module.
  * [search](#search)
  * [tags](#tags)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [activeTab](#activeTab)
- * [doHide](#doHide)
- * [doLayout](#doLayout)
- * [doShow](#doShow)
- * [saveLayout](#saveLayout)
+ * [activeTab](#activetab)
+ * [doHide](#dohide)
+ * [doLayout](#dolayout)
+ * [doShow](#doshow)
+ * [saveLayout](#savelayout)
 
 ## API Documentation
 
@@ -41,7 +41,7 @@ Timeline Index Module.
 ### Constructors
 
 
-### [Index](#Index)
+### [Index](#index)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Timeline Index Module.
 ### Methods
 
 
-### [activeTab](#activeTab)
+### [activeTab](#activetab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Timeline Index Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Timeline Index Module.
 
 ---
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ Timeline Index Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Timeline Index Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

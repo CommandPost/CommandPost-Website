@@ -4,58 +4,58 @@ Effects Browser Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [EFFECTS](#EFFECTS)
- * [TRANSITIONS](#TRANSITIONS)
+ * [EFFECTS](#effects)
+ * [TRANSITIONS](#transitions)
 * Variables - Configurable values
- * [isShowing](#isShowing)
+ * [isShowing](#isshowing)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [EffectsBrowser](#EffectsBrowser)
+ * [EffectsBrowser](#effectsbrowser)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [contents](#contents)
  * [group](#group)
- * [mainGroupUI](#mainGroupUI)
+ * [mainGroupUI](#maingroupui)
  * [search](#search)
  * [sidebar](#sidebar)
- * [sidebarToggle](#sidebarToggle)
- * [toggleButton](#toggleButton)
+ * [sidebarToggle](#sidebartoggle)
+ * [toggleButton](#togglebutton)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [applyItem](#applyItem)
- * [audioCategoryRowsUI](#audioCategoryRowsUI)
- * [currentItemsUI](#currentItemsUI)
- * [doHideSidebar](#doHideSidebar)
- * [doShow](#doShow)
- * [doShowSidebar](#doShowSidebar)
- * [doToggleSidebar](#doToggleSidebar)
- * [getCurrentTitles](#getCurrentTitles)
+ * [applyItem](#applyitem)
+ * [audioCategoryRowsUI](#audiocategoryrowsui)
+ * [currentItemsUI](#currentitemsui)
+ * [doHideSidebar](#dohidesidebar)
+ * [doShow](#doshow)
+ * [doShowSidebar](#doshowsidebar)
+ * [doToggleSidebar](#dotogglesidebar)
+ * [getCurrentTitles](#getcurrenttitles)
  * [hide](#hide)
- * [hideSidebar](#hideSidebar)
- * [itemIsSelected](#itemIsSelected)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [selectedItemsUI](#selectedItemsUI)
+ * [hideSidebar](#hidesidebar)
+ * [itemIsSelected](#itemisselected)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [selectedItemsUI](#selecteditemsui)
  * [show](#show)
- * [showAllAudioEffects](#showAllAudioEffects)
- * [showAllEffects](#showAllEffects)
- * [showAllTransitions](#showAllTransitions)
- * [showAllVideoEffects](#showAllVideoEffects)
- * [showAudioCategory](#showAudioCategory)
- * [showInstalledEffects](#showInstalledEffects)
- * [showInstalledTransitions](#showInstalledTransitions)
- * [showSidebar](#showSidebar)
- * [showTransitionsCategory](#showTransitionsCategory)
- * [showVideoCategory](#showVideoCategory)
- * [toggleSidebar](#toggleSidebar)
+ * [showAllAudioEffects](#showallaudioeffects)
+ * [showAllEffects](#showalleffects)
+ * [showAllTransitions](#showalltransitions)
+ * [showAllVideoEffects](#showallvideoeffects)
+ * [showAudioCategory](#showaudiocategory)
+ * [showInstalledEffects](#showinstalledeffects)
+ * [showInstalledTransitions](#showinstalledtransitions)
+ * [showSidebar](#showsidebar)
+ * [showTransitionsCategory](#showtransitionscategory)
+ * [showVideoCategory](#showvideocategory)
+ * [toggleSidebar](#togglesidebar)
  * [type](#type)
- * [videoCategoryRowsUI](#videoCategoryRowsUI)
+ * [videoCategoryRowsUI](#videocategoryrowsui)
 
 ## API Documentation
 
 ### Constants
 
 
-### [EFFECTS](#EFFECTS)
+### [EFFECTS](#effects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Effects Browser Module.
 
 ---
 
-### [TRANSITIONS](#TRANSITIONS)
+### [TRANSITIONS](#transitions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Effects Browser Module.
 ### Variables
 
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Effects Browser Module.
 ### Constructors
 
 
-### [EffectsBrowser](#EffectsBrowser)
+### [EffectsBrowser](#effectsbrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Effects Browser Module.
 
 ---
 
-### [mainGroupUI](#mainGroupUI)
+### [mainGroupUI](#maingroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Effects Browser Module.
 
 ---
 
-### [sidebarToggle](#sidebarToggle)
+### [sidebarToggle](#sidebartoggle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Effects Browser Module.
 
 ---
 
-### [toggleButton](#toggleButton)
+### [toggleButton](#togglebutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ Effects Browser Module.
 ### Methods
 
 
-### [applyItem](#applyItem)
+### [applyItem](#applyitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ Effects Browser Module.
 
 ---
 
-### [audioCategoryRowsUI](#audioCategoryRowsUI)
+### [audioCategoryRowsUI](#audiocategoryrowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ Effects Browser Module.
 
 ---
 
-### [currentItemsUI](#currentItemsUI)
+### [currentItemsUI](#currentitemsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Effects Browser Module.
 
 ---
 
-### [doHideSidebar](#doHideSidebar)
+### [doHideSidebar](#dohidesidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ Effects Browser Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ Effects Browser Module.
 
 ---
 
-### [doShowSidebar](#doShowSidebar)
+### [doShowSidebar](#doshowsidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ Effects Browser Module.
 
 ---
 
-### [doToggleSidebar](#doToggleSidebar)
+### [doToggleSidebar](#dotogglesidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ Effects Browser Module.
 
 ---
 
-### [getCurrentTitles](#getCurrentTitles)
+### [getCurrentTitles](#getcurrenttitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ Effects Browser Module.
 
 ---
 
-### [hideSidebar](#hideSidebar)
+### [hideSidebar](#hidesidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -321,7 +321,7 @@ Effects Browser Module.
 
 ---
 
-### [itemIsSelected](#itemIsSelected)
+### [itemIsSelected](#itemisselected)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -334,7 +334,7 @@ Effects Browser Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Effects Browser Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -360,7 +360,7 @@ Effects Browser Module.
 
 ---
 
-### [selectedItemsUI](#selectedItemsUI)
+### [selectedItemsUI](#selecteditemsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -386,7 +386,7 @@ Effects Browser Module.
 
 ---
 
-### [showAllAudioEffects](#showAllAudioEffects)
+### [showAllAudioEffects](#showallaudioeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -399,7 +399,7 @@ Effects Browser Module.
 
 ---
 
-### [showAllEffects](#showAllEffects)
+### [showAllEffects](#showalleffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -412,7 +412,7 @@ Effects Browser Module.
 
 ---
 
-### [showAllTransitions](#showAllTransitions)
+### [showAllTransitions](#showalltransitions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -425,7 +425,7 @@ Effects Browser Module.
 
 ---
 
-### [showAllVideoEffects](#showAllVideoEffects)
+### [showAllVideoEffects](#showallvideoeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -438,7 +438,7 @@ Effects Browser Module.
 
 ---
 
-### [showAudioCategory](#showAudioCategory)
+### [showAudioCategory](#showaudiocategory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -451,7 +451,7 @@ Effects Browser Module.
 
 ---
 
-### [showInstalledEffects](#showInstalledEffects)
+### [showInstalledEffects](#showinstalledeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -464,7 +464,7 @@ Effects Browser Module.
 
 ---
 
-### [showInstalledTransitions](#showInstalledTransitions)
+### [showInstalledTransitions](#showinstalledtransitions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -477,7 +477,7 @@ Effects Browser Module.
 
 ---
 
-### [showSidebar](#showSidebar)
+### [showSidebar](#showsidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -490,7 +490,7 @@ Effects Browser Module.
 
 ---
 
-### [showTransitionsCategory](#showTransitionsCategory)
+### [showTransitionsCategory](#showtransitionscategory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -503,7 +503,7 @@ Effects Browser Module.
 
 ---
 
-### [showVideoCategory](#showVideoCategory)
+### [showVideoCategory](#showvideocategory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -516,7 +516,7 @@ Effects Browser Module.
 
 ---
 
-### [toggleSidebar](#toggleSidebar)
+### [toggleSidebar](#togglesidebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -542,7 +542,7 @@ Effects Browser Module.
 
 ---
 
-### [videoCategoryRowsUI](#videoCategoryRowsUI)
+### [videoCategoryRowsUI](#videocategoryrowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

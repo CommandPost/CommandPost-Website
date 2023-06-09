@@ -4,19 +4,19 @@ Shared Pasteboard Plugin.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [copyWithCustomClipName](#copyWithCustomClipName)
- * [copyWithCustomClipNameAndFolder](#copyWithCustomClipNameAndFolder)
- * [doDecodeHistoryItem](#doDecodeHistoryItem)
- * [doPasteHistoryItem](#doPasteHistoryItem)
- * [generateSharedPasteboardMenu](#generateSharedPasteboardMenu)
- * [getFolderNames](#getFolderNames)
- * [getHistory](#getHistory)
- * [getHistoryPath](#getHistoryPath)
- * [getLocalFolderName](#getLocalFolderName)
- * [overrideNextFolderName](#overrideNextFolderName)
- * [setHistory](#setHistory)
+ * [copyWithCustomClipName](#copywithcustomclipname)
+ * [copyWithCustomClipNameAndFolder](#copywithcustomclipnameandfolder)
+ * [doDecodeHistoryItem](#dodecodehistoryitem)
+ * [doPasteHistoryItem](#dopastehistoryitem)
+ * [generateSharedPasteboardMenu](#generatesharedpasteboardmenu)
+ * [getFolderNames](#getfoldernames)
+ * [getHistory](#gethistory)
+ * [getHistoryPath](#gethistorypath)
+ * [getLocalFolderName](#getlocalfoldername)
+ * [overrideNextFolderName](#overridenextfoldername)
+ * [setHistory](#sethistory)
  * [update](#update)
- * [validRootPath](#validRootPath)
+ * [validRootPath](#validrootpath)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
  * [path](#path)
@@ -26,7 +26,7 @@ Shared Pasteboard Plugin.
 ### Functions
 
 
-### [copyWithCustomClipName](#copyWithCustomClipName)
+### [copyWithCustomClipName](#copywithcustomclipname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [copyWithCustomClipNameAndFolder](#copyWithCustomClipNameAndFolder)
+### [copyWithCustomClipNameAndFolder](#copywithcustomclipnameandfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [doDecodeHistoryItem](#doDecodeHistoryItem)
+### [doDecodeHistoryItem](#dodecodehistoryitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [doPasteHistoryItem](#doPasteHistoryItem)
+### [doPasteHistoryItem](#dopastehistoryitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [generateSharedPasteboardMenu](#generateSharedPasteboardMenu)
+### [generateSharedPasteboardMenu](#generatesharedpasteboardmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [getFolderNames](#getFolderNames)
+### [getFolderNames](#getfoldernames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [getHistory](#getHistory)
+### [getHistory](#gethistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [getHistoryPath](#getHistoryPath)
+### [getHistoryPath](#gethistorypath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [getLocalFolderName](#getLocalFolderName)
+### [getLocalFolderName](#getlocalfoldername)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [overrideNextFolderName](#overrideNextFolderName)
+### [overrideNextFolderName](#overridenextfoldername)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [setHistory](#setHistory)
+### [setHistory](#sethistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ Shared Pasteboard Plugin.
 
 ---
 
-### [validRootPath](#validRootPath)
+### [validRootPath](#validrootpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

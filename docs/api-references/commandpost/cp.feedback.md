@@ -4,20 +4,20 @@ Feedback Form.
 
 ## API Overview
 * Variables - Configurable values
- * [defaultHeight](#defaultHeight)
- * [defaultTitle](#defaultTitle)
- * [defaultWidth](#defaultWidth)
+ * [defaultHeight](#defaultheight)
+ * [defaultTitle](#defaulttitle)
+ * [defaultWidth](#defaultwidth)
  * [position](#position)
- * [quitOnComplete](#quitOnComplete)
+ * [quitOnComplete](#quitoncomplete)
 * Functions - API calls offered directly by the extension
- * [showFeedback](#showFeedback)
+ * [showFeedback](#showfeedback)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultHeight](#defaultHeight)
+### [defaultHeight](#defaultheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Feedback Form.
 
 ---
 
-### [defaultTitle](#defaultTitle)
+### [defaultTitle](#defaulttitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Feedback Form.
 
 ---
 
-### [defaultWidth](#defaultWidth)
+### [defaultWidth](#defaultwidth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Feedback Form.
 
 ---
 
-### [quitOnComplete](#quitOnComplete)
+### [quitOnComplete](#quitoncomplete)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Feedback Form.
 ### Functions
 
 
-### [showFeedback](#showFeedback)
+### [showFeedback](#showfeedback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

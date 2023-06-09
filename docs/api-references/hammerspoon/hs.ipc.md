@@ -8,32 +8,32 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ## API Overview
 * Deprecateds - API features which will be removed in an future release
- * [cliGetColors](#cliGetColors)
- * [cliResetColors](#cliResetColors)
- * [cliSetColors](#cliSetColors)
+ * [cliGetColors](#cligetcolors)
+ * [cliResetColors](#cliresetcolors)
+ * [cliSetColors](#clisetcolors)
 * Functions - API calls offered directly by the extension
- * [cliColors](#cliColors)
- * [cliInstall](#cliInstall)
- * [cliSaveHistory](#cliSaveHistory)
- * [cliSaveHistorySize](#cliSaveHistorySize)
- * [cliStatus](#cliStatus)
- * [cliUninstall](#cliUninstall)
+ * [cliColors](#clicolors)
+ * [cliInstall](#cliinstall)
+ * [cliSaveHistory](#clisavehistory)
+ * [cliSaveHistorySize](#clisavehistorysize)
+ * [cliStatus](#clistatus)
+ * [cliUninstall](#cliuninstall)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [localPort](#localPort)
- * [remotePort](#remotePort)
+ * [localPort](#localport)
+ * [remotePort](#remoteport)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [delete](#delete)
- * [isRemote](#isRemote)
- * [isValid](#isValid)
+ * [isRemote](#isremote)
+ * [isValid](#isvalid)
  * [name](#name)
- * [sendMessage](#sendMessage)
+ * [sendMessage](#sendmessage)
 
 ## API Documentation
 
 ### Deprecateds
 
 
-### [cliGetColors](#cliGetColors)
+### [cliGetColors](#cligetcolors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliResetColors](#cliResetColors)
+### [cliResetColors](#cliresetcolors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliSetColors](#cliSetColors)
+### [cliSetColors](#clisetcolors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 ### Functions
 
 
-### [cliColors](#cliColors)
+### [cliColors](#clicolors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliInstall](#cliInstall)
+### [cliInstall](#cliinstall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliSaveHistory](#cliSaveHistory)
+### [cliSaveHistory](#clisavehistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliSaveHistorySize](#cliSaveHistorySize)
+### [cliSaveHistorySize](#clisavehistorysize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliStatus](#cliStatus)
+### [cliStatus](#clistatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [cliUninstall](#cliUninstall)
+### [cliUninstall](#cliuninstall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 ### Constructors
 
 
-### [localPort](#localPort)
+### [localPort](#localport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [remotePort](#remotePort)
+### [remotePort](#remoteport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [isRemote](#isRemote)
+### [isRemote](#isremote)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [isValid](#isValid)
+### [isValid](#isvalid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ This module is based heavily on code from Mjolnir by [Steven Degutis](https://gi
 
 ---
 
-### [sendMessage](#sendMessage)
+### [sendMessage](#sendmessage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

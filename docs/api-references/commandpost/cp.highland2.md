@@ -10,7 +10,7 @@ Highland 2 support.
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [documents](#documents)
- * [focusedDocument](#focusedDocument)
+ * [focusedDocument](#focuseddocument)
 
 ## API Documentation
 
@@ -27,7 +27,7 @@ Highland 2 support.
 
 ---
 
-### [focusedDocument](#focusedDocument)
+### [focusedDocument](#focuseddocument)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

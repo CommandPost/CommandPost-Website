@@ -6,9 +6,9 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [MainProperties](#MainProperties)
+ * [MainProperties](#mainproperties)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
 
 ## API Documentation
 
@@ -30,7 +30,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 ### Constructors
 
 
-### [MainProperties](#MainProperties)
+### [MainProperties](#mainproperties)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

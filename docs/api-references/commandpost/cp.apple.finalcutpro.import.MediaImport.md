@@ -6,10 +6,10 @@ Media Import
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [MediaImport](#MediaImport)
+ * [MediaImport](#mediaimport)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [importAll](#importAll)
- * [stopImport](#stopImport)
+ * [importAll](#importall)
+ * [stopImport](#stopimport)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
  * [show](#show)
@@ -34,7 +34,7 @@ Media Import
 ### Constructors
 
 
-### [MediaImport](#MediaImport)
+### [MediaImport](#mediaimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Media Import
 ### Fields
 
 
-### [importAll](#importAll)
+### [importAll](#importall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Media Import
 
 ---
 
-### [stopImport](#stopImport)
+### [stopImport](#stopimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -8,7 +8,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [AudioSubrole](#AudioSubrole)
+ * [AudioSubrole](#audiosubrole)
 
 ## API Documentation
 
@@ -30,7 +30,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 ### Constructors
 
 
-### [AudioSubrole](#AudioSubrole)
+### [AudioSubrole](#audiosubrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

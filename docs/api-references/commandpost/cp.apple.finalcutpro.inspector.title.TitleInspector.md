@@ -6,14 +6,14 @@ Extends [BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md).
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [TitleInspector](#TitleInspector)
+ * [TitleInspector](#titleinspector)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [TitleInspector](#TitleInspector)
+### [TitleInspector](#titleinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

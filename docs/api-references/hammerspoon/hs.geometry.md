@@ -59,19 +59,19 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
  * [y2](#y2)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [angle](#angle)
- * [angleTo](#angleTo)
+ * [angleTo](#angleto)
  * [distance](#distance)
  * [equals](#equals)
  * [fit](#fit)
  * [floor](#floor)
- * [fromUnitRect](#fromUnitRect)
+ * [fromUnitRect](#fromunitrect)
  * [inside](#inside)
  * [intersect](#intersect)
  * [move](#move)
  * [normalize](#normalize)
- * [rotateCCW](#rotateCCW)
+ * [rotateCCW](#rotateccw)
  * [scale](#scale)
- * [toUnitRect](#toUnitRect)
+ * [toUnitRect](#tounitrect)
  * [type](#type)
  * [union](#union)
  * [vector](#vector)
@@ -353,7 +353,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 
 ---
 
-### [angleTo](#angleTo)
+### [angleTo](#angleto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -418,7 +418,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 
 ---
 
-### [fromUnitRect](#fromUnitRect)
+### [fromUnitRect](#fromunitrect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -483,7 +483,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 
 ---
 
-### [rotateCCW](#rotateCCW)
+### [rotateCCW](#rotateccw)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -509,7 +509,7 @@ You can use any of these anywhere an hs.geometry object is expected in Hammerspo
 
 ---
 
-### [toUnitRect](#toUnitRect)
+### [toUnitRect](#tounitrect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

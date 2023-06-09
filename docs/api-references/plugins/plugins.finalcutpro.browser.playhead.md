@@ -4,25 +4,25 @@ Browser Playhead Plugin.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [changeHighlightColor](#changeHighlightColor)
- * [deleteHighlight](#deleteHighlight)
- * [getHighlightColor](#getHighlightColor)
- * [getHighlightCustomColor](#getHighlightCustomColor)
- * [getHighlightShape](#getHighlightShape)
- * [getHighlightTime](#getHighlightTime)
+ * [changeHighlightColor](#changehighlightcolor)
+ * [deleteHighlight](#deletehighlight)
+ * [getHighlightColor](#gethighlightcolor)
+ * [getHighlightCustomColor](#gethighlightcustomcolor)
+ * [getHighlightShape](#gethighlightshape)
+ * [getHighlightTime](#gethighlighttime)
  * [highlight](#highlight)
- * [highlightFrame](#highlightFrame)
- * [setHighlightColor](#setHighlightColor)
- * [setHighlightCustomColor](#setHighlightCustomColor)
- * [setHighlightShape](#setHighlightShape)
- * [setHighlightTime](#setHighlightTime)
+ * [highlightFrame](#highlightframe)
+ * [setHighlightColor](#sethighlightcolor)
+ * [setHighlightCustomColor](#sethighlightcustomcolor)
+ * [setHighlightShape](#sethighlightshape)
+ * [setHighlightTime](#sethighlighttime)
 
 ## API Documentation
 
 ### Functions
 
 
-### [changeHighlightColor](#changeHighlightColor)
+### [changeHighlightColor](#changehighlightcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [deleteHighlight](#deleteHighlight)
+### [deleteHighlight](#deletehighlight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [getHighlightColor](#getHighlightColor)
+### [getHighlightColor](#gethighlightcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [getHighlightCustomColor](#getHighlightCustomColor)
+### [getHighlightCustomColor](#gethighlightcustomcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [getHighlightShape](#getHighlightShape)
+### [getHighlightShape](#gethighlightshape)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [getHighlightTime](#getHighlightTime)
+### [getHighlightTime](#gethighlighttime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [highlightFrame](#highlightFrame)
+### [highlightFrame](#highlightframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [setHighlightColor](#setHighlightColor)
+### [setHighlightColor](#sethighlightcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [setHighlightCustomColor](#setHighlightCustomColor)
+### [setHighlightCustomColor](#sethighlightcustomcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [setHighlightShape](#setHighlightShape)
+### [setHighlightShape](#sethighlightshape)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Browser Playhead Plugin.
 
 ---
 
-### [setHighlightTime](#setHighlightTime)
+### [setHighlightTime](#sethighlighttime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

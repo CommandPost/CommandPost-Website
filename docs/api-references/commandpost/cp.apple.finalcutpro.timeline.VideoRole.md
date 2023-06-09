@@ -8,9 +8,9 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [VideoRole](#VideoRole)
+ * [VideoRole](#videorole)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [subrolesExpanded](#subrolesExpanded)
+ * [subrolesExpanded](#subrolesexpanded)
 
 ## API Documentation
 
@@ -32,7 +32,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 ### Constructors
 
 
-### [VideoRole](#VideoRole)
+### [VideoRole](#videorole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 ### Fields
 
 
-### [subrolesExpanded](#subrolesExpanded)
+### [subrolesExpanded](#subrolesexpanded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

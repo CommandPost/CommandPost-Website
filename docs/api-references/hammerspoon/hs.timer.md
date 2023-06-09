@@ -11,29 +11,29 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [absoluteTime](#absoluteTime)
+ * [absoluteTime](#absolutetime)
  * [days](#days)
  * [hours](#hours)
- * [localTime](#localTime)
+ * [localTime](#localtime)
  * [minutes](#minutes)
  * [seconds](#seconds)
- * [secondsSinceEpoch](#secondsSinceEpoch)
+ * [secondsSinceEpoch](#secondssinceepoch)
  * [usleep](#usleep)
  * [weeks](#weeks)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [doAfter](#doAfter)
- * [doAt](#doAt)
- * [doEvery](#doEvery)
- * [doUntil](#doUntil)
- * [doWhile](#doWhile)
+ * [doAfter](#doafter)
+ * [doAt](#doat)
+ * [doEvery](#doevery)
+ * [doUntil](#dountil)
+ * [doWhile](#dowhile)
  * [new](#new)
- * [waitUntil](#waitUntil)
- * [waitWhile](#waitWhile)
+ * [waitUntil](#waituntil)
+ * [waitWhile](#waitwhile)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [fire](#fire)
- * [nextTrigger](#nextTrigger)
+ * [nextTrigger](#nexttrigger)
  * [running](#running)
- * [setNextTrigger](#setNextTrigger)
+ * [setNextTrigger](#setnexttrigger)
  * [start](#start)
  * [stop](#stop)
 
@@ -42,7 +42,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 ### Functions
 
 
-### [absoluteTime](#absoluteTime)
+### [absoluteTime](#absolutetime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [localTime](#localTime)
+### [localTime](#localtime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [secondsSinceEpoch](#secondsSinceEpoch)
+### [secondsSinceEpoch](#secondssinceepoch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 ### Constructors
 
 
-### [doAfter](#doAfter)
+### [doAfter](#doafter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [doAt](#doAt)
+### [doAt](#doat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [doEvery](#doEvery)
+### [doEvery](#doevery)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [doUntil](#doUntil)
+### [doUntil](#dountil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [doWhile](#doWhile)
+### [doWhile](#dowhile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [waitUntil](#waitUntil)
+### [waitUntil](#waituntil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [waitWhile](#waitWhile)
+### [waitWhile](#waitwhile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [nextTrigger](#nextTrigger)
+### [nextTrigger](#nexttrigger)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
 
 ---
 
-### [setNextTrigger](#setNextTrigger)
+### [setNextTrigger](#setnexttrigger)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,26 +6,26 @@ Primary Window Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PrimaryWindow](#PrimaryWindow)
+ * [PrimaryWindow](#primarywindow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [alert](#alert)
- * [bottomGroupUI](#bottomGroupUI)
- * [browserGroupUI](#browserGroupUI)
- * [colorBoard](#colorBoard)
- * [doShow](#doShow)
+ * [bottomGroupUI](#bottomgroupui)
+ * [browserGroupUI](#browsergroupui)
+ * [colorBoard](#colorboard)
+ * [doShow](#doshow)
  * [frame](#frame)
- * [hsWindow](#hsWindow)
+ * [hsWindow](#hswindow)
  * [inspector](#inspector)
- * [isFullScreen](#isFullScreen)
- * [isShowing](#isShowing)
- * [leftGroupUI](#leftGroupUI)
- * [rightGroupUI](#rightGroupUI)
- * [rootGroupUI](#rootGroupUI)
- * [timelineGroupUI](#timelineGroupUI)
+ * [isFullScreen](#isfullscreen)
+ * [isShowing](#isshowing)
+ * [leftGroupUI](#leftgroupui)
+ * [rightGroupUI](#rightgroupui)
+ * [rootGroupUI](#rootgroupui)
+ * [timelineGroupUI](#timelinegroupui)
  * [toolbar](#toolbar)
- * [topGroupUI](#topGroupUI)
- * [UI](#UI)
- * [viewerGroupUI](#viewerGroupUI)
+ * [topGroupUI](#topgroupui)
+ * [UI](#ui)
+ * [viewerGroupUI](#viewergroupui)
  * [window](#window)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
@@ -51,7 +51,7 @@ Primary Window Module.
 ### Constructors
 
 
-### [PrimaryWindow](#PrimaryWindow)
+### [PrimaryWindow](#primarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Primary Window Module.
 
 ---
 
-### [bottomGroupUI](#bottomGroupUI)
+### [bottomGroupUI](#bottomgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Primary Window Module.
 
 ---
 
-### [browserGroupUI](#browserGroupUI)
+### [browserGroupUI](#browsergroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Primary Window Module.
 
 ---
 
-### [colorBoard](#colorBoard)
+### [colorBoard](#colorboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Primary Window Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Primary Window Module.
 
 ---
 
-### [hsWindow](#hsWindow)
+### [hsWindow](#hswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ Primary Window Module.
 
 ---
 
-### [isFullScreen](#isFullScreen)
+### [isFullScreen](#isfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ Primary Window Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Primary Window Module.
 
 ---
 
-### [leftGroupUI](#leftGroupUI)
+### [leftGroupUI](#leftgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ Primary Window Module.
 
 ---
 
-### [rightGroupUI](#rightGroupUI)
+### [rightGroupUI](#rightgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Primary Window Module.
 
 ---
 
-### [rootGroupUI](#rootGroupUI)
+### [rootGroupUI](#rootgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Primary Window Module.
 
 ---
 
-### [timelineGroupUI](#timelineGroupUI)
+### [timelineGroupUI](#timelinegroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ Primary Window Module.
 
 ---
 
-### [topGroupUI](#topGroupUI)
+### [topGroupUI](#topgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ Primary Window Module.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ Primary Window Module.
 
 ---
 
-### [viewerGroupUI](#viewerGroupUI)
+### [viewerGroupUI](#viewergroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

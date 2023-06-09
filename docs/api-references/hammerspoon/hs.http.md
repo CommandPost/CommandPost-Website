@@ -4,27 +4,27 @@ Perform HTTP requests
 
 ## API Overview
 * Variables - Configurable values
- * [htmlEntities](#htmlEntities)
+ * [htmlEntities](#htmlentities)
 * Functions - API calls offered directly by the extension
- * [asyncGet](#asyncGet)
- * [asyncPost](#asyncPost)
- * [asyncPut](#asyncPut)
- * [convertHtmlEntities](#convertHtmlEntities)
- * [doAsyncRequest](#doAsyncRequest)
- * [doRequest](#doRequest)
- * [encodeForQuery](#encodeForQuery)
+ * [asyncGet](#asyncget)
+ * [asyncPost](#asyncpost)
+ * [asyncPut](#asyncput)
+ * [convertHtmlEntities](#converthtmlentities)
+ * [doAsyncRequest](#doasyncrequest)
+ * [doRequest](#dorequest)
+ * [encodeForQuery](#encodeforquery)
  * [get](#get)
  * [post](#post)
  * [put](#put)
- * [registerEntity](#registerEntity)
- * [urlParts](#urlParts)
+ * [registerEntity](#registerentity)
+ * [urlParts](#urlparts)
 
 ## API Documentation
 
 ### Variables
 
 
-### [htmlEntities](#htmlEntities)
+### [htmlEntities](#htmlentities)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Perform HTTP requests
 ### Functions
 
 
-### [asyncGet](#asyncGet)
+### [asyncGet](#asyncget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Perform HTTP requests
 
 ---
 
-### [asyncPost](#asyncPost)
+### [asyncPost](#asyncpost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Perform HTTP requests
 
 ---
 
-### [asyncPut](#asyncPut)
+### [asyncPut](#asyncput)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Perform HTTP requests
 
 ---
 
-### [convertHtmlEntities](#convertHtmlEntities)
+### [convertHtmlEntities](#converthtmlentities)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Perform HTTP requests
 
 ---
 
-### [doAsyncRequest](#doAsyncRequest)
+### [doAsyncRequest](#doasyncrequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Perform HTTP requests
 
 ---
 
-### [doRequest](#doRequest)
+### [doRequest](#dorequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Perform HTTP requests
 
 ---
 
-### [encodeForQuery](#encodeForQuery)
+### [encodeForQuery](#encodeforquery)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Perform HTTP requests
 
 ---
 
-### [registerEntity](#registerEntity)
+### [registerEntity](#registerentity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ Perform HTTP requests
 
 ---
 
-### [urlParts](#urlParts)
+### [urlParts](#urlparts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,18 +4,18 @@ Adds actions which allow you to trigger keyboard shortcuts.
 
 ## API Overview
 * Variables - Configurable values
- * [eventTapCount](#eventTapCount)
- * [heldKeys](#heldKeys)
+ * [eventTapCount](#eventtapcount)
+ * [heldKeys](#heldkeys)
 * Functions - API calls offered directly by the extension
- * [startEventTap](#startEventTap)
- * [stopEventTap](#stopEventTap)
+ * [startEventTap](#starteventtap)
+ * [stopEventTap](#stopeventtap)
 
 ## API Documentation
 
 ### Variables
 
 
-### [eventTapCount](#eventTapCount)
+### [eventTapCount](#eventtapcount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 
 ---
 
-### [heldKeys](#heldKeys)
+### [heldKeys](#heldkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 ### Functions
 
 
-### [startEventTap](#startEventTap)
+### [startEventTap](#starteventtap)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 
 ---
 
-### [stopEventTap](#stopEventTap)
+### [stopEventTap](#stopeventtap)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

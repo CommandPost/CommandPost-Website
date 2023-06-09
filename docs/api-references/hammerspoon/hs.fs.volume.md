@@ -6,12 +6,12 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [didMount](#didMount)
- * [didRename](#didRename)
- * [didUnmount](#didUnmount)
- * [willUnmount](#willUnmount)
+ * [didMount](#didmount)
+ * [didRename](#didrename)
+ * [didUnmount](#didunmount)
+ * [willUnmount](#willunmount)
 * Functions - API calls offered directly by the extension
- * [allVolumes](#allVolumes)
+ * [allVolumes](#allvolumes)
  * [eject](#eject)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
@@ -24,7 +24,7 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 ### Constants
 
 
-### [didMount](#didMount)
+### [didMount](#didmount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 
 ---
 
-### [didRename](#didRename)
+### [didRename](#didrename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 
 ---
 
-### [didUnmount](#didUnmount)
+### [didUnmount](#didunmount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 
 ---
 
-### [willUnmount](#willUnmount)
+### [willUnmount](#willunmount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ This is distinct from hs.fs in that hs.fs deals with UNIX filesystem operations,
 ### Functions
 
 
-### [allVolumes](#allVolumes)
+### [allVolumes](#allvolumes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

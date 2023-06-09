@@ -4,9 +4,9 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [callbackFn](#callbackFn)
+ * [callbackFn](#callbackfn)
  * [get](#get)
- * [getAll](#getAll)
+ * [getAll](#getall)
  * [id](#id)
  * [new](#new)
 
@@ -15,7 +15,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 ### Methods
 
 
-### [callbackFn](#callbackFn)
+### [callbackFn](#callbackfn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Callback which triggers when the CommandPost Dock Icon is clicked
 
 ---
 
-### [getAll](#getAll)
+### [getAll](#getall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

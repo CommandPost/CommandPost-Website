@@ -6,7 +6,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 * Methods - API calls which can only be made on an object returned by a constructor
  * [create](#create)
  * [schedule](#schedule)
- * [stopAll](#stopAll)
+ * [stopAll](#stopall)
 
 ## API Documentation
 
@@ -39,7 +39,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 
 ---
 
-### [stopAll](#stopAll)
+### [stopAll](#stopall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

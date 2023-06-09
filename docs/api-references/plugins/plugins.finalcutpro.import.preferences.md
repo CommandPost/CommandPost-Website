@@ -4,17 +4,17 @@ Import Preferences
 
 ## API Overview
 * Variables - Configurable values
- * [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)
- * [createOptimizedMedia](#createOptimizedMedia)
- * [createProxyMedia](#createProxyMedia)
- * [leaveInPlace](#leaveInPlace)
+ * [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
+ * [createOptimizedMedia](#createoptimizedmedia)
+ * [createProxyMedia](#createproxymedia)
+ * [leaveInPlace](#leaveinplace)
 
 ## API Documentation
 
 ### Variables
 
 
-### [createMulticamOptimizedMedia](#createMulticamOptimizedMedia)
+### [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ Import Preferences
 
 ---
 
-### [createOptimizedMedia](#createOptimizedMedia)
+### [createOptimizedMedia](#createoptimizedmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ Import Preferences
 
 ---
 
-### [createProxyMedia](#createProxyMedia)
+### [createProxyMedia](#createproxymedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Import Preferences
 
 ---
 
-### [leaveInPlace](#leaveInPlace)
+### [leaveInPlace](#leaveinplace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

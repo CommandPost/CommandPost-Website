@@ -10,28 +10,28 @@ Table-related functions.
  * [copy](#copy)
  * [filter](#filter)
  * [first](#first)
- * [firstMatching](#firstMatching)
+ * [firstMatching](#firstmatching)
  * [flatten](#flatten)
  * [get](#get)
- * [hasAtLeast](#hasAtLeast)
- * [hasAtMost](#hasAtMost)
- * [hasExactly](#hasExactly)
- * [hasLessThan](#hasLessThan)
- * [hasMoreThan](#hasMoreThan)
- * [hasValue](#hasValue)
+ * [hasAtLeast](#hasatleast)
+ * [hasAtMost](#hasatmost)
+ * [hasExactly](#hasexactly)
+ * [hasLessThan](#haslessthan)
+ * [hasMoreThan](#hasmorethan)
+ * [hasValue](#hasvalue)
  * [imap](#imap)
- * [isEmpty](#isEmpty)
- * [isNotEmpty](#isNotEmpty)
+ * [isEmpty](#isempty)
+ * [isNotEmpty](#isnotempty)
  * [last](#last)
  * [map](#map)
- * [matchesExactItems](#matchesExactItems)
+ * [matchesExactItems](#matchesexactitems)
  * [mutate](#mutate)
  * [set](#set)
  * [size](#size)
  * [sort](#sort)
  * [split](#split)
  * [zip](#zip)
- * [zipAll](#zipAll)
+ * [zipAll](#zipall)
 
 ## API Documentation
 
@@ -102,7 +102,7 @@ Table-related functions.
 
 ---
 
-### [firstMatching](#firstMatching)
+### [firstMatching](#firstmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Table-related functions.
 
 ---
 
-### [hasAtLeast](#hasAtLeast)
+### [hasAtLeast](#hasatleast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Table-related functions.
 
 ---
 
-### [hasAtMost](#hasAtMost)
+### [hasAtMost](#hasatmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Table-related functions.
 
 ---
 
-### [hasExactly](#hasExactly)
+### [hasExactly](#hasexactly)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Table-related functions.
 
 ---
 
-### [hasLessThan](#hasLessThan)
+### [hasLessThan](#haslessthan)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ Table-related functions.
 
 ---
 
-### [hasMoreThan](#hasMoreThan)
+### [hasMoreThan](#hasmorethan)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Table-related functions.
 
 ---
 
-### [hasValue](#hasValue)
+### [hasValue](#hasvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Table-related functions.
 
 ---
 
-### [isEmpty](#isEmpty)
+### [isEmpty](#isempty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Table-related functions.
 
 ---
 
-### [isNotEmpty](#isNotEmpty)
+### [isNotEmpty](#isnotempty)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ Table-related functions.
 
 ---
 
-### [matchesExactItems](#matchesExactItems)
+### [matchesExactItems](#matchesexactitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -375,7 +375,7 @@ Table-related functions.
 
 ---
 
-### [zipAll](#zipAll)
+### [zipAll](#zipall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

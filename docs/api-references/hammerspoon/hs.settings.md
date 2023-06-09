@@ -8,23 +8,23 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [bundleID](#bundleID)
- * [dateFormat](#dateFormat)
+ * [bundleID](#bundleid)
+ * [dateFormat](#dateformat)
 * Functions - API calls offered directly by the extension
  * [clear](#clear)
  * [get](#get)
- * [getKeys](#getKeys)
+ * [getKeys](#getkeys)
  * [set](#set)
- * [setData](#setData)
- * [setDate](#setDate)
- * [watchKey](#watchKey)
+ * [setData](#setdata)
+ * [setDate](#setdate)
+ * [watchKey](#watchkey)
 
 ## API Documentation
 
 ### Constants
 
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [dateFormat](#dateFormat)
+### [dateFormat](#dateformat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [getKeys](#getKeys)
+### [getKeys](#getkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setData](#setData)
+### [setData](#setdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setDate](#setDate)
+### [setDate](#setdate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [watchKey](#watchKey)
+### [watchKey](#watchkey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

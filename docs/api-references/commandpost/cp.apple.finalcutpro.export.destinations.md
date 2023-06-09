@@ -65,7 +65,7 @@ back after you restart FCPX.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [indexOf](#indexOf)
+ * [indexOf](#indexof)
  * [names](#names)
 
 ## API Documentation
@@ -73,7 +73,7 @@ back after you restart FCPX.
 ### Functions
 
 
-### [indexOf](#indexOf)
+### [indexOf](#indexof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -16,11 +16,11 @@ You can also convert the resulting table back to the code via `tostring`, or the
  * [is](#is)
  * [parse](#parse)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [forCode](#forCode)
+ * [forCode](#forcode)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [code](#code)
  * [language](#language)
- * [localName](#localName)
+ * [localName](#localname)
  * [name](#name)
  * [region](#region)
  * [script](#script)
@@ -60,7 +60,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 ### Constructors
 
 
-### [forCode](#forCode)
+### [forCode](#forcode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ You can also convert the resulting table back to the code via `tostring`, or the
 
 ---
 
-### [localName](#localName)
+### [localName](#localname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

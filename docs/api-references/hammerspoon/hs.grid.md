@@ -26,37 +26,37 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ## API Overview
 * Variables - Configurable values
- * [HINTS](#HINTS)
+ * [HINTS](#hints)
  * [ui](#ui)
 * Functions - API calls offered directly by the extension
- * [adjustWindow](#adjustWindow)
+ * [adjustWindow](#adjustwindow)
  * [get](#get)
- * [getCell](#getCell)
- * [getGrid](#getGrid)
- * [getGridFrame](#getGridFrame)
+ * [getCell](#getcell)
+ * [getGrid](#getgrid)
+ * [getGridFrame](#getgridframe)
  * [hide](#hide)
- * [maximizeWindow](#maximizeWindow)
- * [pushWindowDown](#pushWindowDown)
- * [pushWindowLeft](#pushWindowLeft)
- * [pushWindowRight](#pushWindowRight)
- * [pushWindowUp](#pushWindowUp)
- * [resizeWindowShorter](#resizeWindowShorter)
- * [resizeWindowTaller](#resizeWindowTaller)
- * [resizeWindowThinner](#resizeWindowThinner)
- * [resizeWindowWider](#resizeWindowWider)
+ * [maximizeWindow](#maximizewindow)
+ * [pushWindowDown](#pushwindowdown)
+ * [pushWindowLeft](#pushwindowleft)
+ * [pushWindowRight](#pushwindowright)
+ * [pushWindowUp](#pushwindowup)
+ * [resizeWindowShorter](#resizewindowshorter)
+ * [resizeWindowTaller](#resizewindowtaller)
+ * [resizeWindowThinner](#resizewindowthinner)
+ * [resizeWindowWider](#resizewindowwider)
  * [set](#set)
- * [setGrid](#setGrid)
- * [setMargins](#setMargins)
+ * [setGrid](#setgrid)
+ * [setMargins](#setmargins)
  * [show](#show)
  * [snap](#snap)
- * [toggleShow](#toggleShow)
+ * [toggleShow](#toggleshow)
 
 ## API Documentation
 
 ### Variables
 
 
-### [HINTS](#HINTS)
+### [HINTS](#hints)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 ### Functions
 
 
-### [adjustWindow](#adjustWindow)
+### [adjustWindow](#adjustwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [getCell](#getCell)
+### [getCell](#getcell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [getGrid](#getGrid)
+### [getGrid](#getgrid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [getGridFrame](#getGridFrame)
+### [getGridFrame](#getgridframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [maximizeWindow](#maximizeWindow)
+### [maximizeWindow](#maximizewindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [pushWindowDown](#pushWindowDown)
+### [pushWindowDown](#pushwindowdown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [pushWindowLeft](#pushWindowLeft)
+### [pushWindowLeft](#pushwindowleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [pushWindowRight](#pushWindowRight)
+### [pushWindowRight](#pushwindowright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -209,7 +209,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [pushWindowUp](#pushWindowUp)
+### [pushWindowUp](#pushwindowup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [resizeWindowShorter](#resizeWindowShorter)
+### [resizeWindowShorter](#resizewindowshorter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [resizeWindowTaller](#resizeWindowTaller)
+### [resizeWindowTaller](#resizewindowtaller)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -248,7 +248,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [resizeWindowThinner](#resizeWindowThinner)
+### [resizeWindowThinner](#resizewindowthinner)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -261,7 +261,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [resizeWindowWider](#resizeWindowWider)
+### [resizeWindowWider](#resizewindowwider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [setGrid](#setGrid)
+### [setGrid](#setgrid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -300,7 +300,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [setMargins](#setMargins)
+### [setMargins](#setmargins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -339,7 +339,7 @@ After highlighting enough cells, press enter to move/resize the window to the hi
 
 ---
 
-### [toggleShow](#toggleShow)
+### [toggleShow](#toggleshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

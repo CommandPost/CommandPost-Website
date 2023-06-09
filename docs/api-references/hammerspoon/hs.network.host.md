@@ -4,20 +4,20 @@ This sub-module provides functions for acquiring host information, such as hostn
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [addressesForHostname](#addressesForHostname)
- * [hostnamesForAddress](#hostnamesForAddress)
- * [reachabilityForAddress](#reachabilityForAddress)
- * [reachabilityForHostname](#reachabilityForHostname)
+ * [addressesForHostname](#addressesforhostname)
+ * [hostnamesForAddress](#hostnamesforaddress)
+ * [reachabilityForAddress](#reachabilityforaddress)
+ * [reachabilityForHostname](#reachabilityforhostname)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [cancel](#cancel)
- * [isRunning](#isRunning)
+ * [isRunning](#isrunning)
 
 ## API Documentation
 
 ### Functions
 
 
-### [addressesForHostname](#addressesForHostname)
+### [addressesForHostname](#addressesforhostname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 
 ---
 
-### [hostnamesForAddress](#hostnamesForAddress)
+### [hostnamesForAddress](#hostnamesforaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 
 ---
 
-### [reachabilityForAddress](#reachabilityForAddress)
+### [reachabilityForAddress](#reachabilityforaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 
 ---
 
-### [reachabilityForHostname](#reachabilityForHostname)
+### [reachabilityForHostname](#reachabilityforhostname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ This sub-module provides functions for acquiring host information, such as hostn
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

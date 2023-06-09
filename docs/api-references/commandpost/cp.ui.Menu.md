@@ -6,12 +6,12 @@ UI for AXMenus.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Menu](#Menu)
+ * [Menu](#menu)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [cancel](#cancel)
- * [doCancel](#doCancel)
- * [doSelectItem](#doSelectItem)
- * [doSelectValue](#doSelectValue)
+ * [doCancel](#docancel)
+ * [doSelectItem](#doselectitem)
+ * [doSelectValue](#doselectvalue)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ UI for AXMenus.
 ### Constructors
 
 
-### [Menu](#Menu)
+### [Menu](#menu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ UI for AXMenus.
 
 ---
 
-### [doCancel](#doCancel)
+### [doCancel](#docancel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ UI for AXMenus.
 
 ---
 
-### [doSelectItem](#doSelectItem)
+### [doSelectItem](#doselectitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ UI for AXMenus.
 
 ---
 
-### [doSelectValue](#doSelectValue)
+### [doSelectValue](#doselectvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

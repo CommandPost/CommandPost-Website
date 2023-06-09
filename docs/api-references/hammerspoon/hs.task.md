@@ -10,24 +10,24 @@ Notes:
 * Functions - API calls offered directly by the extension
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [closeInput](#closeInput)
+ * [closeInput](#closeinput)
  * [environment](#environment)
  * [interrupt](#interrupt)
- * [isRunning](#isRunning)
+ * [isRunning](#isrunning)
  * [pause](#pause)
  * [pid](#pid)
  * [resume](#resume)
- * [setCallback](#setCallback)
- * [setEnvironment](#setEnvironment)
- * [setInput](#setInput)
- * [setStreamingCallback](#setStreamingCallback)
- * [setWorkingDirectory](#setWorkingDirectory)
+ * [setCallback](#setcallback)
+ * [setEnvironment](#setenvironment)
+ * [setInput](#setinput)
+ * [setStreamingCallback](#setstreamingcallback)
+ * [setWorkingDirectory](#setworkingdirectory)
  * [start](#start)
  * [terminate](#terminate)
- * [terminationReason](#terminationReason)
- * [terminationStatus](#terminationStatus)
- * [waitUntilExit](#waitUntilExit)
- * [workingDirectory](#workingDirectory)
+ * [terminationReason](#terminationreason)
+ * [terminationStatus](#terminationstatus)
+ * [waitUntilExit](#waituntilexit)
+ * [workingDirectory](#workingdirectory)
 
 ## API Documentation
 
@@ -55,7 +55,7 @@ Notes:
 ### Methods
 
 
-### [closeInput](#closeInput)
+### [closeInput](#closeinput)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Notes:
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Notes:
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Notes:
 
 ---
 
-### [setEnvironment](#setEnvironment)
+### [setEnvironment](#setenvironment)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Notes:
 
 ---
 
-### [setInput](#setInput)
+### [setInput](#setinput)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Notes:
 
 ---
 
-### [setStreamingCallback](#setStreamingCallback)
+### [setStreamingCallback](#setstreamingcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ Notes:
 
 ---
 
-### [setWorkingDirectory](#setWorkingDirectory)
+### [setWorkingDirectory](#setworkingdirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ Notes:
 
 ---
 
-### [terminationReason](#terminationReason)
+### [terminationReason](#terminationreason)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ Notes:
 
 ---
 
-### [terminationStatus](#terminationStatus)
+### [terminationStatus](#terminationstatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ Notes:
 
 ---
 
-### [waitUntilExit](#waitUntilExit)
+### [waitUntilExit](#waituntilexit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ Notes:
 
 ---
 
-### [workingDirectory](#workingDirectory)
+### [workingDirectory](#workingdirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

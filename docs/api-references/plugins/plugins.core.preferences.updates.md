@@ -4,14 +4,14 @@ Updates Module.
 
 ## API Overview
 * Variables - Configurable values
- * [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)
+ * [automaticallyCheckForUpdates](#automaticallycheckforupdates)
 
 ## API Documentation
 
 ### Variables
 
 
-### [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)
+### [automaticallyCheckForUpdates](#automaticallycheckforupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

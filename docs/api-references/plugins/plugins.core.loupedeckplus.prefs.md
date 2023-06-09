@@ -4,20 +4,20 @@ Loupedeck+ Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastApplication](#lastApplication)
- * [lastBank](#lastBank)
- * [lastExportPath](#lastExportPath)
- * [lastImportPath](#lastImportPath)
- * [lastIsButton](#lastIsButton)
- * [lastLabel](#lastLabel)
- * [lastNote](#lastNote)
+ * [lastApplication](#lastapplication)
+ * [lastBank](#lastbank)
+ * [lastExportPath](#lastexportpath)
+ * [lastImportPath](#lastimportpath)
+ * [lastIsButton](#lastisbutton)
+ * [lastLabel](#lastlabel)
+ * [lastNote](#lastnote)
 
 ## API Documentation
 
 ### Fields
 
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastBank](#lastBank)
+### [lastBank](#lastbank)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastIsButton](#lastIsButton)
+### [lastIsButton](#lastisbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastLabel](#lastLabel)
+### [lastLabel](#lastlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Loupedeck+ Preferences Panel
 
 ---
 
-### [lastNote](#lastNote)
+### [lastNote](#lastnote)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

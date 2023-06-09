@@ -10,12 +10,12 @@ Adobe After Effects Extension
 * Constants - Useful values which cannot be changed
  * [preferences](#preferences)
 * Functions - API calls offered directly by the extension
- * [allowScriptsToWriteFilesAndAccessNetwork](#allowScriptsToWriteFilesAndAccessNetwork)
- * [preferencesFilePath](#preferencesFilePath)
- * [preferencesPath](#preferencesPath)
- * [refreshPreferences](#refreshPreferences)
- * [shortcutsPreferences](#shortcutsPreferences)
- * [shortcutsPreferencesPath](#shortcutsPreferencesPath)
+ * [allowScriptsToWriteFilesAndAccessNetwork](#allowscriptstowritefilesandaccessnetwork)
+ * [preferencesFilePath](#preferencesfilepath)
+ * [preferencesPath](#preferencespath)
+ * [refreshPreferences](#refreshpreferences)
+ * [shortcutsPreferences](#shortcutspreferences)
+ * [shortcutsPreferencesPath](#shortcutspreferencespath)
 
 ## API Documentation
 
@@ -34,7 +34,7 @@ Adobe After Effects Extension
 ### Functions
 
 
-### [allowScriptsToWriteFilesAndAccessNetwork](#allowScriptsToWriteFilesAndAccessNetwork)
+### [allowScriptsToWriteFilesAndAccessNetwork](#allowscriptstowritefilesandaccessnetwork)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Adobe After Effects Extension
 
 ---
 
-### [preferencesFilePath](#preferencesFilePath)
+### [preferencesFilePath](#preferencesfilepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Adobe After Effects Extension
 
 ---
 
-### [preferencesPath](#preferencesPath)
+### [preferencesPath](#preferencespath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Adobe After Effects Extension
 
 ---
 
-### [refreshPreferences](#refreshPreferences)
+### [refreshPreferences](#refreshpreferences)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Adobe After Effects Extension
 
 ---
 
-### [shortcutsPreferences](#shortcutsPreferences)
+### [shortcutsPreferences](#shortcutspreferences)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Adobe After Effects Extension
 
 ---
 
-### [shortcutsPreferencesPath](#shortcutsPreferencesPath)
+### [shortcutsPreferencesPath](#shortcutspreferencespath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

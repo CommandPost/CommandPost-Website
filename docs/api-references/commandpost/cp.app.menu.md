@@ -5,33 +5,33 @@ trigger menu items.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NIB_FILE](#NIB_FILE)
- * [ROLE](#ROLE)
- * [STORYBOARD_NAME](#STORYBOARD_NAME)
+ * [NIB_FILE](#nib_file)
+ * [ROLE](#role)
+ * [STORYBOARD_NAME](#storyboard_name)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [menu](#menu)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [showing](#showing)
- * [UI](#UI)
+ * [UI](#ui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addMenuFinder](#addMenuFinder)
+ * [addMenuFinder](#addmenufinder)
  * [app](#app)
- * [doFindMenuUI](#doFindMenuUI)
- * [doIsEnabled](#doIsEnabled)
- * [doSelectMenu](#doSelectMenu)
- * [findMenuUI](#findMenuUI)
- * [getMenuTitles](#getMenuTitles)
- * [isChecked](#isChecked)
- * [isEnabled](#isEnabled)
- * [selectMenu](#selectMenu)
- * [visitMenuItems](#visitMenuItems)
+ * [doFindMenuUI](#dofindmenuui)
+ * [doIsEnabled](#doisenabled)
+ * [doSelectMenu](#doselectmenu)
+ * [findMenuUI](#findmenuui)
+ * [getMenuTitles](#getmenutitles)
+ * [isChecked](#ischecked)
+ * [isEnabled](#isenabled)
+ * [selectMenu](#selectmenu)
+ * [visitMenuItems](#visitmenuitems)
 
 ## API Documentation
 
 ### Constants
 
 
-### [NIB_FILE](#NIB_FILE)
+### [NIB_FILE](#nib_file)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ trigger menu items.
 
 ---
 
-### [ROLE](#ROLE)
+### [ROLE](#role)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ trigger menu items.
 
 ---
 
-### [STORYBOARD_NAME](#STORYBOARD_NAME)
+### [STORYBOARD_NAME](#storyboard_name)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ trigger menu items.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ trigger menu items.
 ### Methods
 
 
-### [addMenuFinder](#addMenuFinder)
+### [addMenuFinder](#addmenufinder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ trigger menu items.
 
 ---
 
-### [doFindMenuUI](#doFindMenuUI)
+### [doFindMenuUI](#dofindmenuui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ trigger menu items.
 
 ---
 
-### [doIsEnabled](#doIsEnabled)
+### [doIsEnabled](#doisenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ trigger menu items.
 
 ---
 
-### [doSelectMenu](#doSelectMenu)
+### [doSelectMenu](#doselectmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ trigger menu items.
 
 ---
 
-### [findMenuUI](#findMenuUI)
+### [findMenuUI](#findmenuui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ trigger menu items.
 
 ---
 
-### [getMenuTitles](#getMenuTitles)
+### [getMenuTitles](#getmenutitles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ trigger menu items.
 
 ---
 
-### [isChecked](#isChecked)
+### [isChecked](#ischecked)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ trigger menu items.
 
 ---
 
-### [isEnabled](#isEnabled)
+### [isEnabled](#isenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ trigger menu items.
 
 ---
 
-### [selectMenu](#selectMenu)
+### [selectMenu](#selectmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ trigger menu items.
 
 ---
 
-### [visitMenuItems](#visitMenuItems)
+### [visitMenuItems](#visitmenuitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

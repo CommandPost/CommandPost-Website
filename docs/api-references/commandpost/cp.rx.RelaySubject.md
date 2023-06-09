@@ -7,7 +7,7 @@ produced values upon reference.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [create](#create)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [onNext](#onNext)
+ * [onNext](#onnext)
  * [subscribe](#subscribe)
 
 ## API Documentation
@@ -30,7 +30,7 @@ produced values upon reference.
 ### Methods
 
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

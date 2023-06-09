@@ -4,14 +4,14 @@ Save Timeline Index to CSV
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [saveTimelineIndexToCSV](#saveTimelineIndexToCSV)
+ * [saveTimelineIndexToCSV](#savetimelineindextocsv)
 
 ## API Documentation
 
 ### Functions
 
 
-### [saveTimelineIndexToCSV](#saveTimelineIndexToCSV)
+### [saveTimelineIndexToCSV](#savetimelineindextocsv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

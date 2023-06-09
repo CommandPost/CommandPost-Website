@@ -8,21 +8,21 @@ Represents a Tangent Connection.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [connection](#connection)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addMode](#addMode)
- * [applicationName](#applicationName)
+ * [addMode](#addmode)
+ * [applicationName](#applicationname)
  * [device](#device)
- * [displayName](#displayName)
- * [getControlsXML](#getControlsXML)
- * [getMode](#getMode)
- * [pluginPath](#pluginPath)
- * [setupTangentConnection](#setupTangentConnection)
- * [systemPath](#systemPath)
+ * [displayName](#displayname)
+ * [getControlsXML](#getcontrolsxml)
+ * [getMode](#getmode)
+ * [pluginPath](#pluginpath)
+ * [setupTangentConnection](#setuptangentconnection)
+ * [systemPath](#systempath)
  * [task](#task)
  * [update](#update)
- * [updateControls](#updateControls)
- * [updateFavourites](#updateFavourites)
- * [userPath](#userPath)
- * [writeControlsXML](#writeControlsXML)
+ * [updateControls](#updatecontrols)
+ * [updateFavourites](#updatefavourites)
+ * [userPath](#userpath)
+ * [writeControlsXML](#writecontrolsxml)
 
 ## API Documentation
 
@@ -56,7 +56,7 @@ Represents a Tangent Connection.
 ### Methods
 
 
-### [addMode](#addMode)
+### [addMode](#addmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [applicationName](#applicationName)
+### [applicationName](#applicationname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [displayName](#displayName)
+### [displayName](#displayname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [getControlsXML](#getControlsXML)
+### [getControlsXML](#getcontrolsxml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [getMode](#getMode)
+### [getMode](#getmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [pluginPath](#pluginPath)
+### [pluginPath](#pluginpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [setupTangentConnection](#setupTangentConnection)
+### [setupTangentConnection](#setuptangentconnection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [systemPath](#systemPath)
+### [systemPath](#systempath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [updateControls](#updateControls)
+### [updateControls](#updatecontrols)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -212,7 +212,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [updateFavourites](#updateFavourites)
+### [updateFavourites](#updatefavourites)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -225,7 +225,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [userPath](#userPath)
+### [userPath](#userpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -238,7 +238,7 @@ Represents a Tangent Connection.
 
 ---
 
-### [writeControlsXML](#writeControlsXML)
+### [writeControlsXML](#writecontrolsxml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

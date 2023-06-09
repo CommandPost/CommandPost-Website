@@ -6,20 +6,20 @@ Pop Up Button Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PopUpButton](#PopUpButton)
+ * [PopUpButton](#popupbutton)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [menuUI](#menuUI)
+ * [menuUI](#menuui)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doPress](#doPress)
- * [doSelectItem](#doSelectItem)
- * [doSelectValue](#doSelectValue)
- * [getValue](#getValue)
- * [loadLayout](#loadLayout)
+ * [doPress](#dopress)
+ * [doSelectItem](#doselectitem)
+ * [doSelectValue](#doselectvalue)
+ * [getValue](#getvalue)
+ * [loadLayout](#loadlayout)
  * [press](#press)
- * [saveLayout](#saveLayout)
- * [selectItem](#selectItem)
- * [setValue](#setValue)
+ * [saveLayout](#savelayout)
+ * [selectItem](#selectitem)
+ * [setValue](#setvalue)
 
 ## API Documentation
 
@@ -41,7 +41,7 @@ Pop Up Button Module.
 ### Constructors
 
 
-### [PopUpButton](#PopUpButton)
+### [PopUpButton](#popupbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Pop Up Button Module.
 ### Fields
 
 
-### [menuUI](#menuUI)
+### [menuUI](#menuui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Pop Up Button Module.
 ### Methods
 
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Pop Up Button Module.
 
 ---
 
-### [doSelectItem](#doSelectItem)
+### [doSelectItem](#doselectitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Pop Up Button Module.
 
 ---
 
-### [doSelectValue](#doSelectValue)
+### [doSelectValue](#doselectvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Pop Up Button Module.
 
 ---
 
-### [getValue](#getValue)
+### [getValue](#getvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Pop Up Button Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Pop Up Button Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Pop Up Button Module.
 
 ---
 
-### [selectItem](#selectItem)
+### [selectItem](#selectitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ Pop Up Button Module.
 
 ---
 
-### [setValue](#setValue)
+### [setValue](#setvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,11 +6,11 @@ Provides access to resources in the plugin environment. In generally, this will 
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [compileTemplate](#compileTemplate)
- * [pathToAbsolute](#pathToAbsolute)
- * [pathToURL](#pathToURL)
- * [readResource](#readResource)
- * [renderTemplate](#renderTemplate)
+ * [compileTemplate](#compiletemplate)
+ * [pathToAbsolute](#pathtoabsolute)
+ * [pathToURL](#pathtourl)
+ * [readResource](#readresource)
+ * [renderTemplate](#rendertemplate)
 
 ## API Documentation
 
@@ -32,7 +32,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 ### Methods
 
 
-### [compileTemplate](#compileTemplate)
+### [compileTemplate](#compiletemplate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 
 ---
 
-### [pathToAbsolute](#pathToAbsolute)
+### [pathToAbsolute](#pathtoabsolute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 
 ---
 
-### [pathToURL](#pathToURL)
+### [pathToURL](#pathtourl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 
 ---
 
-### [readResource](#readResource)
+### [readResource](#readresource)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Provides access to resources in the plugin environment. In generally, this will 
 
 ---
 
-### [renderTemplate](#renderTemplate)
+### [renderTemplate](#rendertemplate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

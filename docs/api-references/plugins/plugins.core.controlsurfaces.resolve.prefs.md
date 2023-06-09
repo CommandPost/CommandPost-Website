@@ -4,23 +4,23 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
- * [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
- * [lastDevice](#lastDevice)
- * [lastExportPath](#lastExportPath)
- * [lastImportPath](#lastImportPath)
- * [lastUnit](#lastUnit)
+ * [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
+ * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
+ * [lastDevice](#lastdevice)
+ * [lastExportPath](#lastexportpath)
+ * [lastImportPath](#lastimportpath)
+ * [lastUnit](#lastunit)
  * [pasteboard](#pasteboard)
- * [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+ * [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [setItem](#setItem)
+ * [setItem](#setitem)
 
 ## API Documentation
 
 ### Fields
 
 
-### [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
+### [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [lastDevice](#lastDevice)
+### [lastDevice](#lastdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [lastUnit](#lastUnit)
+### [lastUnit](#lastunit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ---
 
-### [snippetsRefreshFrequency](#snippetsRefreshFrequency)
+### [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 ### Methods
 
 
-### [setItem](#setItem)
+### [setItem](#setitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

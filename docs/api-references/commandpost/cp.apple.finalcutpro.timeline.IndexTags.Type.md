@@ -4,12 +4,12 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [analysisKeywords](#analysisKeywords)
+ * [analysisKeywords](#analysiskeywords)
  * [chapters](#chapters)
- * [completeTodos](#completeTodos)
- * [incompleteTodos](#incompleteTodos)
+ * [completeTodos](#completetodos)
+ * [incompleteTodos](#incompletetodos)
  * [keywords](#keywords)
- * [standardMarkers](#standardMarkers)
+ * [standardMarkers](#standardmarkers)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [matches](#matches)
 
@@ -18,7 +18,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 ### Fields
 
 
-### [analysisKeywords](#analysisKeywords)
+### [analysisKeywords](#analysiskeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ---
 
-### [completeTodos](#completeTodos)
+### [completeTodos](#completetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ---
 
-### [incompleteTodos](#incompleteTodos)
+### [incompleteTodos](#incompletetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ---
 
-### [standardMarkers](#standardMarkers)
+### [standardMarkers](#standardmarkers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

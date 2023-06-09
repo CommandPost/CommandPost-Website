@@ -6,16 +6,16 @@ CommandPost Control Surfaces Panel.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addButton](#addButton)
- * [addCheckbox](#addCheckbox)
- * [addContent](#addContent)
- * [addHandler](#addHandler)
- * [addHeading](#addHeading)
- * [addParagraph](#addParagraph)
- * [addPassword](#addPassword)
- * [addSelect](#addSelect)
- * [addTextbox](#addTextbox)
- * [getToolbarItem](#getToolbarItem)
+ * [addButton](#addbutton)
+ * [addCheckbox](#addcheckbox)
+ * [addContent](#addcontent)
+ * [addHandler](#addhandler)
+ * [addHeading](#addheading)
+ * [addParagraph](#addparagraph)
+ * [addPassword](#addpassword)
+ * [addSelect](#addselect)
+ * [addTextbox](#addtextbox)
+ * [getToolbarItem](#gettoolbaritem)
 
 ## API Documentation
 
@@ -37,7 +37,7 @@ CommandPost Control Surfaces Panel.
 ### Methods
 
 
-### [addButton](#addButton)
+### [addButton](#addbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addCheckbox](#addCheckbox)
+### [addCheckbox](#addcheckbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addContent](#addContent)
+### [addContent](#addcontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addHeading](#addHeading)
+### [addHeading](#addheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addParagraph](#addParagraph)
+### [addParagraph](#addparagraph)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addPassword](#addPassword)
+### [addPassword](#addpassword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addSelect](#addSelect)
+### [addSelect](#addselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [addTextbox](#addTextbox)
+### [addTextbox](#addtextbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ CommandPost Control Surfaces Panel.
 
 ---
 
-### [getToolbarItem](#getToolbarItem)
+### [getToolbarItem](#gettoolbaritem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

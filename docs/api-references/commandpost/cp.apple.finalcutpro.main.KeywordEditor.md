@@ -4,21 +4,21 @@ Keyword Editor Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NUMBER_OF_SHORTCUTS](#NUMBER_OF_SHORTCUTS)
+ * [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [KeywordEditor](#KeywordEditor)
+ * [KeywordEditor](#keywordeditor)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [isShowing](#isShowing)
- * [keyboardShortcuts](#keyboardShortcuts)
+ * [isShowing](#isshowing)
+ * [keyboardShortcuts](#keyboardshortcuts)
  * [keywords](#keywords)
- * [resetButton](#resetButton)
- * [shortcutButtons](#shortcutButtons)
- * [shortcutFields](#shortcutFields)
+ * [resetButton](#resetbutton)
+ * [shortcutButtons](#shortcutbuttons)
+ * [shortcutFields](#shortcutfields)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doHide](#doHide)
- * [doShow](#doShow)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
  * [hide](#hide)
  * [parent](#parent)
  * [show](#show)
@@ -28,7 +28,7 @@ Keyword Editor Module.
 ### Constants
 
 
-### [NUMBER_OF_SHORTCUTS](#NUMBER_OF_SHORTCUTS)
+### [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Keyword Editor Module.
 ### Constructors
 
 
-### [KeywordEditor](#KeywordEditor)
+### [KeywordEditor](#keywordeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Keyword Editor Module.
 ### Fields
 
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Keyword Editor Module.
 
 ---
 
-### [keyboardShortcuts](#keyboardShortcuts)
+### [keyboardShortcuts](#keyboardshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Keyword Editor Module.
 
 ---
 
-### [resetButton](#resetButton)
+### [resetButton](#resetbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Keyword Editor Module.
 
 ---
 
-### [shortcutButtons](#shortcutButtons)
+### [shortcutButtons](#shortcutbuttons)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Keyword Editor Module.
 
 ---
 
-### [shortcutFields](#shortcutFields)
+### [shortcutFields](#shortcutfields)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Keyword Editor Module.
 ### Methods
 
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Keyword Editor Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

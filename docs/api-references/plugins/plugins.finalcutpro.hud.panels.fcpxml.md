@@ -4,14 +4,14 @@ FCPXML Panel for the Final Cut Pro HUD.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastValue](#lastValue)
+ * [lastValue](#lastvalue)
 
 ## API Documentation
 
 ### Fields
 
 
-### [lastValue](#lastValue)
+### [lastValue](#lastvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -65,32 +65,32 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [defaultObserverFactory](#defaultObserverFactory)
+ * [defaultObserverFactory](#defaultobserverfactory)
  * [is](#is)
- * [toObservable](#toObservable)
- * [toObservables](#toObservables)
+ * [toObservable](#toobservable)
+ * [toObservables](#toobservables)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [named](#named)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [After](#After)
- * [Catch](#Catch)
- * [Debug](#Debug)
- * [Finally](#Finally)
- * [fullName](#fullName)
- * [Label](#Label)
+ * [After](#after)
+ * [Catch](#catch)
+ * [Debug](#debug)
+ * [Finally](#finally)
+ * [fullName](#fullname)
+ * [Label](#label)
  * [name](#name)
- * [Now](#Now)
- * [ThenDelay](#ThenDelay)
- * [ThenYield](#ThenYield)
- * [TimeoutAfter](#TimeoutAfter)
- * [toObservable](#toObservable)
+ * [Now](#now)
+ * [ThenDelay](#thendelay)
+ * [ThenYield](#thenyield)
+ * [TimeoutAfter](#timeoutafter)
+ * [toObservable](#toobservable)
 
 ## API Documentation
 
 ### Functions
 
 
-### [defaultObserverFactory](#defaultObserverFactory)
+### [defaultObserverFactory](#defaultobserverfactory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [toObservable](#toObservable)
+### [toObservable](#toobservable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [toObservables](#toObservables)
+### [toObservables](#toobservables)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 ### Methods
 
 
-### [After](#After)
+### [After](#after)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [Catch](#Catch)
+### [Catch](#catch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [Debug](#Debug)
+### [Debug](#debug)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [Finally](#Finally)
+### [Finally](#finally)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [fullName](#fullName)
+### [fullName](#fullname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [Label](#Label)
+### [Label](#label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [Now](#Now)
+### [Now](#now)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [ThenDelay](#ThenDelay)
+### [ThenDelay](#thendelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [ThenYield](#ThenYield)
+### [ThenYield](#thenyield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [TimeoutAfter](#TimeoutAfter)
+### [TimeoutAfter](#timeoutafter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 
 ---
 
-### [toObservable](#toObservable)
+### [toObservable](#toobservable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

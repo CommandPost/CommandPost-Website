@@ -35,25 +35,25 @@ Commands that can be SENT to the Workflow Extension:
 ## API Overview
 * Variables - Configurable values
  * [connected](#connected)
- * [lastPlayheadPosition](#lastPlayheadPosition)
- * [skimmingRestoreTimer](#skimmingRestoreTimer)
- * [wasSkimmingEnabled](#wasSkimmingEnabled)
+ * [lastPlayheadPosition](#lastplayheadposition)
+ * [skimmingRestoreTimer](#skimmingrestoretimer)
+ * [wasSkimmingEnabled](#wasskimmingenabled)
 * Functions - API calls offered directly by the extension
  * [callback](#callback)
  * [connect](#connect)
- * [connectionCallback](#connectionCallback)
- * [decrementPlayhead](#decrementPlayhead)
+ * [connectionCallback](#connectioncallback)
+ * [decrementPlayhead](#decrementplayhead)
  * [disconnect](#disconnect)
- * [forcefullyInstall](#forcefullyInstall)
- * [incrementPlayhead](#incrementPlayhead)
- * [movePlayheadToSeconds](#movePlayheadToSeconds)
+ * [forcefullyInstall](#forcefullyinstall)
+ * [incrementPlayhead](#incrementplayhead)
+ * [movePlayheadToSeconds](#moveplayheadtoseconds)
  * [ping](#ping)
- * [repositionWorkflowExtension](#repositionWorkflowExtension)
- * [sendCommand](#sendCommand)
- * [setupActions](#setupActions)
+ * [repositionWorkflowExtension](#repositionworkflowextension)
+ * [sendCommand](#sendcommand)
+ * [setupActions](#setupactions)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [hasWorkflowExtensionBeenAddedVersion](#hasWorkflowExtensionBeenAddedVersion)
- * [hasWorkflowExtensionBeenMovedVersion](#hasWorkflowExtensionBeenMovedVersion)
+ * [hasWorkflowExtensionBeenAddedVersion](#hasworkflowextensionbeenaddedversion)
+ * [hasWorkflowExtensionBeenMovedVersion](#hasworkflowextensionbeenmovedversion)
 
 ## API Documentation
 
@@ -70,7 +70,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [lastPlayheadPosition](#lastPlayheadPosition)
+### [lastPlayheadPosition](#lastplayheadposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [skimmingRestoreTimer](#skimmingRestoreTimer)
+### [skimmingRestoreTimer](#skimmingrestoretimer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [wasSkimmingEnabled](#wasSkimmingEnabled)
+### [wasSkimmingEnabled](#wasskimmingenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [connectionCallback](#connectionCallback)
+### [connectionCallback](#connectioncallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [decrementPlayhead](#decrementPlayhead)
+### [decrementPlayhead](#decrementplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [forcefullyInstall](#forcefullyInstall)
+### [forcefullyInstall](#forcefullyinstall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [incrementPlayhead](#incrementPlayhead)
+### [incrementPlayhead](#incrementplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [movePlayheadToSeconds](#movePlayheadToSeconds)
+### [movePlayheadToSeconds](#moveplayheadtoseconds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [repositionWorkflowExtension](#repositionWorkflowExtension)
+### [repositionWorkflowExtension](#repositionworkflowextension)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [sendCommand](#sendCommand)
+### [sendCommand](#sendcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [setupActions](#setupActions)
+### [setupActions](#setupactions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Commands that can be SENT to the Workflow Extension:
 ### Fields
 
 
-### [hasWorkflowExtensionBeenAddedVersion](#hasWorkflowExtensionBeenAddedVersion)
+### [hasWorkflowExtensionBeenAddedVersion](#hasworkflowextensionbeenaddedversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -270,7 +270,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ---
 
-### [hasWorkflowExtensionBeenMovedVersion](#hasWorkflowExtensionBeenMovedVersion)
+### [hasWorkflowExtensionBeenMovedVersion](#hasworkflowextensionbeenmovedversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

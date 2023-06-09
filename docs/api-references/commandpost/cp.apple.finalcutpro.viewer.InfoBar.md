@@ -8,15 +8,15 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [InfoBar](#InfoBar)
+ * [InfoBar](#infobar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [format](#format)
- * [formatField](#formatField)
+ * [formatField](#formatfield)
  * [framerate](#framerate)
  * [title](#title)
- * [titleField](#titleField)
- * [viewMenu](#viewMenu)
- * [zoomwMenu](#zoomwMenu)
+ * [titleField](#titlefield)
+ * [viewMenu](#viewmenu)
+ * [zoomwMenu](#zoomwmenu)
 
 ## API Documentation
 
@@ -38,7 +38,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 ### Constructors
 
 
-### [InfoBar](#InfoBar)
+### [InfoBar](#infobar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
 ---
 
-### [formatField](#formatField)
+### [formatField](#formatfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
 ---
 
-### [titleField](#titleField)
+### [titleField](#titlefield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
 ---
 
-### [viewMenu](#viewMenu)
+### [viewMenu](#viewmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
 ---
 
-### [zoomwMenu](#zoomwMenu)
+### [zoomwMenu](#zoomwmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

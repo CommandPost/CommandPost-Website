@@ -4,28 +4,28 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ## API Overview
 * Variables - Configurable values
- * [defaultIconPath](#defaultIconPath)
- * [supportedExtensions](#supportedExtensions)
+ * [defaultIconPath](#defaulticonpath)
+ * [supportedExtensions](#supportedextensions)
 * Functions - API calls offered directly by the extension
- * [buildIconFromLabel](#buildIconFromLabel)
- * [processEncodedIcon](#processEncodedIcon)
- * [updateUI](#updateUI)
+ * [buildIconFromLabel](#buildiconfromlabel)
+ * [processEncodedIcon](#processencodedicon)
+ * [updateUI](#updateui)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [generateContent](#generateContent)
- * [generateKnobImages](#generateKnobImages)
- * [panelCallback](#panelCallback)
- * [refreshDevice](#refreshDevice)
- * [renderPanel](#renderPanel)
- * [setItem](#setItem)
+ * [generateContent](#generatecontent)
+ * [generateKnobImages](#generateknobimages)
+ * [panelCallback](#panelcallback)
+ * [refreshDevice](#refreshdevice)
+ * [renderPanel](#renderpanel)
+ * [setItem](#setitem)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultIconPath](#defaultIconPath)
+### [defaultIconPath](#defaulticonpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [supportedExtensions](#supportedExtensions)
+### [supportedExtensions](#supportedextensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 ### Functions
 
 
-### [buildIconFromLabel](#buildIconFromLabel)
+### [buildIconFromLabel](#buildiconfromlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [processEncodedIcon](#processEncodedIcon)
+### [processEncodedIcon](#processencodedicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [updateUI](#updateUI)
+### [updateUI](#updateui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 ### Methods
 
 
-### [generateContent](#generateContent)
+### [generateContent](#generatecontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [generateKnobImages](#generateKnobImages)
+### [generateKnobImages](#generateknobimages)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [panelCallback](#panelCallback)
+### [panelCallback](#panelcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [refreshDevice](#refreshDevice)
+### [refreshDevice](#refreshdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [renderPanel](#renderPanel)
+### [renderPanel](#renderpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -168,7 +168,7 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
 
 ---
 
-### [setItem](#setItem)
+### [setItem](#setitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

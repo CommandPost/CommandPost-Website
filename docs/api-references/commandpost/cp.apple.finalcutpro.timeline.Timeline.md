@@ -8,34 +8,34 @@ on the `contents` property can be called on the Timeline module.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
- * [matchesMain](#matchesMain)
+ * [matchesMain](#matchesmain)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Timeline](#Timeline)
+ * [Timeline](#timeline)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [contents](#contents)
  * [effects](#effects)
  * [index](#index)
- * [isFocused](#isFocused)
- * [isOnPrimary](#isOnPrimary)
- * [isOnSecondary](#isOnSecondary)
- * [isPlaying](#isPlaying)
- * [isShowing](#isShowing)
- * [mainUI](#mainUI)
- * [rangeSelected](#rangeSelected)
- * [speedPopover](#speedPopover)
+ * [isFocused](#isfocused)
+ * [isOnPrimary](#isonprimary)
+ * [isOnSecondary](#isonsecondary)
+ * [isPlaying](#isplaying)
+ * [isShowing](#isshowing)
+ * [mainUI](#mainui)
+ * [rangeSelected](#rangeselected)
+ * [speedPopover](#speedpopover)
  * [title](#title)
  * [toolbar](#toolbar)
  * [transitions](#transitions)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [doHide](#doHide)
- * [doOpenProject](#doOpenProject)
- * [doShowOnPrimary](#doShowOnPrimary)
- * [doShowOnSecondary](#doShowOnSecondary)
+ * [doHide](#dohide)
+ * [doOpenProject](#doopenproject)
+ * [doShowOnPrimary](#doshowonprimary)
+ * [doShowOnSecondary](#doshowonsecondary)
  * [hide](#hide)
  * [show](#show)
- * [showOnPrimary](#showOnPrimary)
- * [showOnSecondary](#showOnSecondary)
+ * [showOnPrimary](#showonprimary)
+ * [showOnSecondary](#showonsecondary)
 
 ## API Documentation
 
@@ -55,7 +55,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [matchesMain](#matchesMain)
+### [matchesMain](#matchesmain)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ on the `contents` property can be called on the Timeline module.
 ### Constructors
 
 
-### [Timeline](#Timeline)
+### [Timeline](#timeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [isFocused](#isFocused)
+### [isFocused](#isfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [isOnPrimary](#isOnPrimary)
+### [isOnPrimary](#isonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [isOnSecondary](#isOnSecondary)
+### [isOnSecondary](#isonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [mainUI](#mainUI)
+### [mainUI](#mainui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [rangeSelected](#rangeSelected)
+### [rangeSelected](#rangeselected)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [speedPopover](#speedPopover)
+### [speedPopover](#speedpopover)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [doOpenProject](#doOpenProject)
+### [doOpenProject](#doopenproject)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [doShowOnPrimary](#doShowOnPrimary)
+### [doShowOnPrimary](#doshowonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [doShowOnSecondary](#doShowOnSecondary)
+### [doShowOnSecondary](#doshowonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -318,7 +318,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [showOnPrimary](#showOnPrimary)
+### [showOnPrimary](#showonprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -331,7 +331,7 @@ on the `contents` property can be called on the Timeline module.
 
 ---
 
-### [showOnSecondary](#showOnSecondary)
+### [showOnSecondary](#showonsecondary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

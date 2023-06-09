@@ -11,7 +11,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [active](#active)
  * [enabled](#enabled)
- * [localActive](#localActive)
+ * [localActive](#localactive)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [action](#action)
  * [binding](#binding)
@@ -80,7 +80,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 
 ---
 
-### [localActive](#localActive)
+### [localActive](#localactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

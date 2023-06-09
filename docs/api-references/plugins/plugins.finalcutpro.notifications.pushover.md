@@ -5,14 +5,14 @@ Pushover Notifications Plugin.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [init](#init)
- * [sendNotification](#sendNotification)
+ * [sendNotification](#sendnotification)
  * [update](#update)
- * [validateAPIKeys](#validateAPIKeys)
+ * [validateAPIKeys](#validateapikeys)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [apiValidated](#apiValidated)
- * [appAPIKey](#appAPIKey)
+ * [apiValidated](#apivalidated)
+ * [appAPIKey](#appapikey)
  * [enabled](#enabled)
- * [userAPIKey](#userAPIKey)
+ * [userAPIKey](#userapikey)
 
 ## API Documentation
 
@@ -32,7 +32,7 @@ Pushover Notifications Plugin.
 
 ---
 
-### [sendNotification](#sendNotification)
+### [sendNotification](#sendnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Pushover Notifications Plugin.
 
 ---
 
-### [validateAPIKeys](#validateAPIKeys)
+### [validateAPIKeys](#validateapikeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Pushover Notifications Plugin.
 ### Fields
 
 
-### [apiValidated](#apiValidated)
+### [apiValidated](#apivalidated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Pushover Notifications Plugin.
 
 ---
 
-### [appAPIKey](#appAPIKey)
+### [appAPIKey](#appapikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Pushover Notifications Plugin.
 
 ---
 
-### [userAPIKey](#userAPIKey)
+### [userAPIKey](#userapikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

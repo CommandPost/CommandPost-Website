@@ -7,30 +7,30 @@ Manager for the CommandPost Preferences Window.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
- * [lastTab](#lastTab)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_WIDTH](#default_width)
+ * [lastTab](#lasttab)
  * [position](#position)
- * [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+ * [WEBVIEW_LABEL](#webview_label)
 * Variables - Configurable values
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 * Functions - API calls offered directly by the extension
- * [addHandler](#addHandler)
- * [addPanel](#addPanel)
- * [currentPanelID](#currentPanelID)
+ * [addHandler](#addhandler)
+ * [addPanel](#addpanel)
+ * [currentPanelID](#currentpanelid)
  * [focus](#focus)
- * [getHandler](#getHandler)
- * [getLabel](#getLabel)
- * [getWebview](#getWebview)
+ * [getHandler](#gethandler)
+ * [getLabel](#getlabel)
+ * [getWebview](#getwebview)
  * [hide](#hide)
  * [init](#init)
- * [injectScript](#injectScript)
- * [maxPanelHeight](#maxPanelHeight)
+ * [injectScript](#injectscript)
+ * [maxPanelHeight](#maxpanelheight)
  * [new](#new)
  * [refresh](#refresh)
- * [selectPanel](#selectPanel)
- * [setPanelRenderer](#setPanelRenderer)
+ * [selectPanel](#selectpanel)
+ * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
 
 ## API Documentation
@@ -38,7 +38,7 @@ Manager for the CommandPost Preferences Window.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [lastTab](#lastTab)
+### [lastTab](#lasttab)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [WEBVIEW_LABEL](#WEBVIEW_LABEL)
+### [WEBVIEW_LABEL](#webview_label)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Manager for the CommandPost Preferences Window.
 ### Functions
 
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [addPanel](#addPanel)
+### [addPanel](#addpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [currentPanelID](#currentPanelID)
+### [currentPanelID](#currentpanelid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [getHandler](#getHandler)
+### [getHandler](#gethandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [getWebview](#getWebview)
+### [getWebview](#getwebview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [maxPanelHeight](#maxPanelHeight)
+### [maxPanelHeight](#maxpanelheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [selectPanel](#selectPanel)
+### [selectPanel](#selectpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -294,7 +294,7 @@ Manager for the CommandPost Preferences Window.
 
 ---
 
-### [setPanelRenderer](#setPanelRenderer)
+### [setPanelRenderer](#setpanelrenderer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

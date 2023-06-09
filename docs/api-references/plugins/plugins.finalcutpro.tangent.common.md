@@ -4,30 +4,30 @@ Common Final Cut Pro functions for Tangent
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [buttonParameter](#buttonParameter)
- * [checkboxParameter](#checkboxParameter)
- * [checkboxParameterByIndex](#checkboxParameterByIndex)
- * [checkboxSliderParameter](#checkboxSliderParameter)
- * [commandParameter](#commandParameter)
- * [doShowParameter](#doShowParameter)
- * [dynamicPopupSliderParameter](#dynamicPopupSliderParameter)
- * [functionParameter](#functionParameter)
- * [menuParameter](#menuParameter)
- * [popupParameter](#popupParameter)
- * [popupParameters](#popupParameters)
- * [popupSliderParameter](#popupSliderParameter)
- * [radioButtonParameter](#radioButtonParameter)
- * [shortcutParameter](#shortcutParameter)
- * [sliderParameter](#sliderParameter)
- * [volumeSliderParameter](#volumeSliderParameter)
- * [xyParameter](#xyParameter)
+ * [buttonParameter](#buttonparameter)
+ * [checkboxParameter](#checkboxparameter)
+ * [checkboxParameterByIndex](#checkboxparameterbyindex)
+ * [checkboxSliderParameter](#checkboxsliderparameter)
+ * [commandParameter](#commandparameter)
+ * [doShowParameter](#doshowparameter)
+ * [dynamicPopupSliderParameter](#dynamicpopupsliderparameter)
+ * [functionParameter](#functionparameter)
+ * [menuParameter](#menuparameter)
+ * [popupParameter](#popupparameter)
+ * [popupParameters](#popupparameters)
+ * [popupSliderParameter](#popupsliderparameter)
+ * [radioButtonParameter](#radiobuttonparameter)
+ * [shortcutParameter](#shortcutparameter)
+ * [sliderParameter](#sliderparameter)
+ * [volumeSliderParameter](#volumesliderparameter)
+ * [xyParameter](#xyparameter)
 
 ## API Documentation
 
 ### Functions
 
 
-### [buttonParameter](#buttonParameter)
+### [buttonParameter](#buttonparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [checkboxParameter](#checkboxParameter)
+### [checkboxParameter](#checkboxparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [checkboxParameterByIndex](#checkboxParameterByIndex)
+### [checkboxParameterByIndex](#checkboxparameterbyindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [checkboxSliderParameter](#checkboxSliderParameter)
+### [checkboxSliderParameter](#checkboxsliderparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [commandParameter](#commandParameter)
+### [commandParameter](#commandparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [doShowParameter](#doShowParameter)
+### [doShowParameter](#doshowparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [dynamicPopupSliderParameter](#dynamicPopupSliderParameter)
+### [dynamicPopupSliderParameter](#dynamicpopupsliderparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [functionParameter](#functionParameter)
+### [functionParameter](#functionparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [menuParameter](#menuParameter)
+### [menuParameter](#menuparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [popupParameter](#popupParameter)
+### [popupParameter](#popupparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [popupParameters](#popupParameters)
+### [popupParameters](#popupparameters)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [popupSliderParameter](#popupSliderParameter)
+### [popupSliderParameter](#popupsliderparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [radioButtonParameter](#radioButtonParameter)
+### [radioButtonParameter](#radiobuttonparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [shortcutParameter](#shortcutParameter)
+### [shortcutParameter](#shortcutparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -209,7 +209,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [sliderParameter](#sliderParameter)
+### [sliderParameter](#sliderparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [volumeSliderParameter](#volumeSliderParameter)
+### [volumeSliderParameter](#volumesliderparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ Common Final Cut Pro functions for Tangent
 
 ---
 
-### [xyParameter](#xyParameter)
+### [xyParameter](#xyparameter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

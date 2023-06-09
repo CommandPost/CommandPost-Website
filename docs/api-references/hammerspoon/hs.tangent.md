@@ -17,34 +17,34 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 ## API Overview
 * Constants - Useful values which cannot be changed
  * [action](#action)
- * [fromHub](#fromHub)
- * [panelType](#panelType)
+ * [fromHub](#fromhub)
+ * [panelType](#paneltype)
  * [parameter](#parameter)
- * [toHub](#toHub)
+ * [toHub](#tohub)
 * Variables - Configurable values
- * [automaticallySendApplicationDefinition](#automaticallySendApplicationDefinition)
- * [ipAddress](#ipAddress)
+ * [automaticallySendApplicationDefinition](#automaticallysendapplicationdefinition)
+ * [ipAddress](#ipaddress)
  * [port](#port)
 * Functions - API calls offered directly by the extension
  * [callback](#callback)
  * [connect](#connect)
  * [connected](#connected)
  * [disconnect](#disconnect)
- * [isTangentHubInstalled](#isTangentHubInstalled)
+ * [isTangentHubInstalled](#istangenthubinstalled)
  * [send](#send)
- * [sendAllChange](#sendAllChange)
- * [sendApplicationDefinition](#sendApplicationDefinition)
- * [sendDisplayText](#sendDisplayText)
- * [sendHighlightControl](#sendHighlightControl)
- * [sendIndicateControl](#sendIndicateControl)
- * [sendMenuString](#sendMenuString)
- * [sendModeValue](#sendModeValue)
- * [sendPanelConnectionStatesRequest](#sendPanelConnectionStatesRequest)
- * [sendParameterValue](#sendParameterValue)
- * [sendRenameControl](#sendRenameControl)
- * [sendUnmanagedDisplayWrite](#sendUnmanagedDisplayWrite)
- * [sendUnmanagedPanelCapabilitiesRequest](#sendUnmanagedPanelCapabilitiesRequest)
- * [setLogLevel](#setLogLevel)
+ * [sendAllChange](#sendallchange)
+ * [sendApplicationDefinition](#sendapplicationdefinition)
+ * [sendDisplayText](#senddisplaytext)
+ * [sendHighlightControl](#sendhighlightcontrol)
+ * [sendIndicateControl](#sendindicatecontrol)
+ * [sendMenuString](#sendmenustring)
+ * [sendModeValue](#sendmodevalue)
+ * [sendPanelConnectionStatesRequest](#sendpanelconnectionstatesrequest)
+ * [sendParameterValue](#sendparametervalue)
+ * [sendRenameControl](#sendrenamecontrol)
+ * [sendUnmanagedDisplayWrite](#sendunmanageddisplaywrite)
+ * [sendUnmanagedPanelCapabilitiesRequest](#sendunmanagedpanelcapabilitiesrequest)
+ * [setLogLevel](#setloglevel)
 
 ## API Documentation
 
@@ -62,7 +62,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [fromHub](#fromHub)
+### [fromHub](#fromhub)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [panelType](#panelType)
+### [panelType](#paneltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [toHub](#toHub)
+### [toHub](#tohub)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 ### Variables
 
 
-### [automaticallySendApplicationDefinition](#automaticallySendApplicationDefinition)
+### [automaticallySendApplicationDefinition](#automaticallysendapplicationdefinition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [ipAddress](#ipAddress)
+### [ipAddress](#ipaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [isTangentHubInstalled](#isTangentHubInstalled)
+### [isTangentHubInstalled](#istangenthubinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendAllChange](#sendAllChange)
+### [sendAllChange](#sendallchange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendApplicationDefinition](#sendApplicationDefinition)
+### [sendApplicationDefinition](#sendapplicationdefinition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendDisplayText](#sendDisplayText)
+### [sendDisplayText](#senddisplaytext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendHighlightControl](#sendHighlightControl)
+### [sendHighlightControl](#sendhighlightcontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -268,7 +268,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendIndicateControl](#sendIndicateControl)
+### [sendIndicateControl](#sendindicatecontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendMenuString](#sendMenuString)
+### [sendMenuString](#sendmenustring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -294,7 +294,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendModeValue](#sendModeValue)
+### [sendModeValue](#sendmodevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -307,7 +307,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendPanelConnectionStatesRequest](#sendPanelConnectionStatesRequest)
+### [sendPanelConnectionStatesRequest](#sendpanelconnectionstatesrequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -320,7 +320,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendParameterValue](#sendParameterValue)
+### [sendParameterValue](#sendparametervalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -333,7 +333,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendRenameControl](#sendRenameControl)
+### [sendRenameControl](#sendrenamecontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -346,7 +346,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendUnmanagedDisplayWrite](#sendUnmanagedDisplayWrite)
+### [sendUnmanagedDisplayWrite](#sendunmanageddisplaywrite)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -359,7 +359,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [sendUnmanagedPanelCapabilitiesRequest](#sendUnmanagedPanelCapabilitiesRequest)
+### [sendUnmanagedPanelCapabilitiesRequest](#sendunmanagedpanelcapabilitiesrequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -372,7 +372,7 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
 
 ---
 
-### [setLogLevel](#setLogLevel)
+### [setLogLevel](#setloglevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

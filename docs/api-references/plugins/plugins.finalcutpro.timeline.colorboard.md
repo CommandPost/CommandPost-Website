@@ -4,18 +4,18 @@ Color Board Plugins.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [colorBoardMousePuckRelease](#colorBoardMousePuckRelease)
- * [nextAspect](#nextAspect)
- * [startMousePuck](#startMousePuck)
- * [startShiftingPuck](#startShiftingPuck)
- * [stopShiftingPuck](#stopShiftingPuck)
+ * [colorBoardMousePuckRelease](#colorboardmousepuckrelease)
+ * [nextAspect](#nextaspect)
+ * [startMousePuck](#startmousepuck)
+ * [startShiftingPuck](#startshiftingpuck)
+ * [stopShiftingPuck](#stopshiftingpuck)
 
 ## API Documentation
 
 ### Functions
 
 
-### [colorBoardMousePuckRelease](#colorBoardMousePuckRelease)
+### [colorBoardMousePuckRelease](#colorboardmousepuckrelease)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Color Board Plugins.
 
 ---
 
-### [nextAspect](#nextAspect)
+### [nextAspect](#nextaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Color Board Plugins.
 
 ---
 
-### [startMousePuck](#startMousePuck)
+### [startMousePuck](#startmousepuck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Color Board Plugins.
 
 ---
 
-### [startShiftingPuck](#startShiftingPuck)
+### [startShiftingPuck](#startshiftingpuck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Color Board Plugins.
 
 ---
 
-### [stopShiftingPuck](#stopShiftingPuck)
+### [stopShiftingPuck](#stopshiftingpuck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

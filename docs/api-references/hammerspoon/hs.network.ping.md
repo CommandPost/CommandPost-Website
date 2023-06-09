@@ -12,14 +12,14 @@ This module provides a basic ping function which can test host availability. Pin
  * [address](#address)
  * [cancel](#cancel)
  * [count](#count)
- * [isPaused](#isPaused)
- * [isRunning](#isRunning)
+ * [isPaused](#ispaused)
+ * [isRunning](#isrunning)
  * [packets](#packets)
  * [pause](#pause)
  * [resume](#resume)
  * [sent](#sent)
  * [server](#server)
- * [setCallback](#setCallback)
+ * [setCallback](#setcallback)
  * [summary](#summary)
 
 ## API Documentation
@@ -84,7 +84,7 @@ This module provides a basic ping function which can test host availability. Pin
 
 ---
 
-### [isPaused](#isPaused)
+### [isPaused](#ispaused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ This module provides a basic ping function which can test host availability. Pin
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ This module provides a basic ping function which can test host availability. Pin
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

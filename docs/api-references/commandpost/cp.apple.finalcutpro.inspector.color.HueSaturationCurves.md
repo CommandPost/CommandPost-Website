@@ -8,21 +8,21 @@ Requires Final Cut Pro 10.4 or later.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [HueSaturationCurves](#HueSaturationCurves)
+ * [HueSaturationCurves](#huesaturationcurves)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [colorVsSat](#colorVsSat)
- * [contentUI](#contentUI)
- * [hueVsHue](#hueVsHue)
- * [hueVsLuma](#hueVsLuma)
- * [hueVsSat](#hueVsSat)
- * [lumaVsSat](#lumaVsSat)
+ * [colorVsSat](#colorvssat)
+ * [contentUI](#contentui)
+ * [hueVsHue](#huevshue)
+ * [hueVsLuma](#huevsluma)
+ * [hueVsSat](#huevssat)
+ * [lumaVsSat](#lumavssat)
  * [mix](#mix)
- * [mixRow](#mixRow)
- * [mixSlider](#mixSlider)
- * [satVsSat](#satVsSat)
- * [viewingAllCurves](#viewingAllCurves)
- * [viewModeButton](#viewModeButton)
- * [wheelType](#wheelType)
+ * [mixRow](#mixrow)
+ * [mixSlider](#mixslider)
+ * [satVsSat](#satvssat)
+ * [viewingAllCurves](#viewingallcurves)
+ * [viewModeButton](#viewmodebutton)
+ * [wheelType](#wheeltype)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [show](#show)
 
@@ -46,7 +46,7 @@ Requires Final Cut Pro 10.4 or later.
 ### Constructors
 
 
-### [HueSaturationCurves](#HueSaturationCurves)
+### [HueSaturationCurves](#huesaturationcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Requires Final Cut Pro 10.4 or later.
 ### Fields
 
 
-### [colorVsSat](#colorVsSat)
+### [colorVsSat](#colorvssat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [hueVsHue](#hueVsHue)
+### [hueVsHue](#huevshue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [hueVsLuma](#hueVsLuma)
+### [hueVsLuma](#huevsluma)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [hueVsSat](#hueVsSat)
+### [hueVsSat](#huevssat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [lumaVsSat](#lumaVsSat)
+### [lumaVsSat](#lumavssat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [mixRow](#mixRow)
+### [mixRow](#mixrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [mixSlider](#mixSlider)
+### [mixSlider](#mixslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [satVsSat](#satVsSat)
+### [satVsSat](#satvssat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [viewingAllCurves](#viewingAllCurves)
+### [viewingAllCurves](#viewingallcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [viewModeButton](#viewModeButton)
+### [viewModeButton](#viewmodebutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -181,7 +181,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [wheelType](#wheelType)
+### [wheelType](#wheeltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

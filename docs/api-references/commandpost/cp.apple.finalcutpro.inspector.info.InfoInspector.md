@@ -4,23 +4,23 @@ Video Inspector Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [metadataViews](#metadataViews)
+ * [metadataViews](#metadataviews)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [metadataView](#metadataView)
- * [metadataViewButton](#metadataViewButton)
+ * [metadataView](#metadataview)
+ * [metadataViewButton](#metadataviewbutton)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [propertiesUI](#propertiesUI)
+ * [propertiesUI](#propertiesui)
 
 ## API Documentation
 
 ### Constants
 
 
-### [metadataViews](#metadataViews)
+### [metadataViews](#metadataviews)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Video Inspector Module.
 ### Fields
 
 
-### [metadataView](#metadataView)
+### [metadataView](#metadataview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Video Inspector Module.
 
 ---
 
-### [metadataViewButton](#metadataViewButton)
+### [metadataViewButton](#metadataviewbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Video Inspector Module.
 ### Methods
 
 
-### [propertiesUI](#propertiesUI)
+### [propertiesUI](#propertiesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

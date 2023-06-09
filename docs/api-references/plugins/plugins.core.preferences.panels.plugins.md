@@ -4,7 +4,7 @@ Plugins Preferences Panel
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+ * [SETTINGS_DISABLED](#settings_disabled)
 * Functions - API calls offered directly by the extension
  * [init](#init)
 
@@ -13,7 +13,7 @@ Plugins Preferences Panel
 ### Constants
 
 
-### [SETTINGS_DISABLED](#SETTINGS_DISABLED)
+### [SETTINGS_DISABLED](#settings_disabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

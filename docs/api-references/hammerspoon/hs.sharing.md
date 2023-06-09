@@ -25,25 +25,25 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [builtinSharingServices](#builtinSharingServices)
+ * [builtinSharingServices](#builtinsharingservices)
 * Functions - API calls offered directly by the extension
- * [fileURL](#fileURL)
- * [shareTypesFor](#shareTypesFor)
- * [URL](#URL)
+ * [fileURL](#fileurl)
+ * [shareTypesFor](#sharetypesfor)
+ * [URL](#url)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [newShare](#newShare)
+ * [newShare](#newshare)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [accountName](#accountName)
- * [alternateImage](#alternateImage)
+ * [accountName](#accountname)
+ * [alternateImage](#alternateimage)
  * [attachments](#attachments)
  * [callback](#callback)
- * [canShareItems](#canShareItems)
+ * [canShareItems](#canshareitems)
  * [image](#image)
- * [messageBody](#messageBody)
- * [permanentLink](#permanentLink)
+ * [messageBody](#messagebody)
+ * [permanentLink](#permanentlink)
  * [recipients](#recipients)
- * [serviceName](#serviceName)
- * [shareItems](#shareItems)
+ * [serviceName](#servicename)
+ * [shareItems](#shareitems)
  * [subject](#subject)
  * [title](#title)
 
@@ -52,7 +52,7 @@ Common item data types that can be shared with Sharing Services include (but are
 ### Constants
 
 
-### [builtinSharingServices](#builtinSharingServices)
+### [builtinSharingServices](#builtinsharingservices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ Common item data types that can be shared with Sharing Services include (but are
 ### Functions
 
 
-### [fileURL](#fileURL)
+### [fileURL](#fileurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [shareTypesFor](#shareTypesFor)
+### [shareTypesFor](#sharetypesfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [URL](#URL)
+### [URL](#url)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Common item data types that can be shared with Sharing Services include (but are
 ### Constructors
 
 
-### [newShare](#newShare)
+### [newShare](#newshare)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Common item data types that can be shared with Sharing Services include (but are
 ### Methods
 
 
-### [accountName](#accountName)
+### [accountName](#accountname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [alternateImage](#alternateImage)
+### [alternateImage](#alternateimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [canShareItems](#canShareItems)
+### [canShareItems](#canshareitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [messageBody](#messageBody)
+### [messageBody](#messagebody)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [permanentLink](#permanentLink)
+### [permanentLink](#permanentlink)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [serviceName](#serviceName)
+### [serviceName](#servicename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ Common item data types that can be shared with Sharing Services include (but are
 
 ---
 
-### [shareItems](#shareItems)
+### [shareItems](#shareitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

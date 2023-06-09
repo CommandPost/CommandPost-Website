@@ -40,37 +40,37 @@ Special thanks to the authors of these awesome documents & resources:
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [discoveryCallback](#discoveryCallback)
- * [getDevice](#getDevice)
+ * [discoveryCallback](#discoverycallback)
+ * [getDevice](#getdevice)
  * [init](#init)
- * [numDevices](#numDevices)
- * [unitTests](#unitTests)
+ * [numDevices](#numdevices)
+ * [unitTests](#unittests)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [backlightsBreathing](#backlightsBreathing)
- * [backlightsCustom](#backlightsCustom)
- * [backlightsMode](#backlightsMode)
- * [backlightsOff](#backlightsOff)
- * [backlightsReactive](#backlightsReactive)
- * [backlightsSpectrum](#backlightsSpectrum)
- * [backlightsStarlight](#backlightsStarlight)
- * [backlightsStatic](#backlightsStatic)
- * [backlightsWave](#backlightsWave)
- * [blueStatusLight](#blueStatusLight)
+ * [backlightsBreathing](#backlightsbreathing)
+ * [backlightsCustom](#backlightscustom)
+ * [backlightsMode](#backlightsmode)
+ * [backlightsOff](#backlightsoff)
+ * [backlightsReactive](#backlightsreactive)
+ * [backlightsSpectrum](#backlightsspectrum)
+ * [backlightsStarlight](#backlightsstarlight)
+ * [backlightsStatic](#backlightsstatic)
+ * [backlightsWave](#backlightswave)
+ * [blueStatusLight](#bluestatuslight)
  * [brightness](#brightness)
  * [callback](#callback)
- * [defaultKeyboardLayout](#defaultKeyboardLayout)
- * [greenStatusLight](#greenStatusLight)
+ * [defaultKeyboardLayout](#defaultkeyboardlayout)
+ * [greenStatusLight](#greenstatuslight)
  * [name](#name)
- * [orangeStatusLight](#orangeStatusLight)
- * [redStatusLight](#redStatusLight)
- * [yellowStatusLight](#yellowStatusLight)
+ * [orangeStatusLight](#orangestatuslight)
+ * [redStatusLight](#redstatuslight)
+ * [yellowStatusLight](#yellowstatuslight)
 
 ## API Documentation
 
 ### Functions
 
 
-### [discoveryCallback](#discoveryCallback)
+### [discoveryCallback](#discoverycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [getDevice](#getDevice)
+### [getDevice](#getdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [numDevices](#numDevices)
+### [numDevices](#numdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [unitTests](#unitTests)
+### [unitTests](#unittests)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Special thanks to the authors of these awesome documents & resources:
 ### Methods
 
 
-### [backlightsBreathing](#backlightsBreathing)
+### [backlightsBreathing](#backlightsbreathing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsCustom](#backlightsCustom)
+### [backlightsCustom](#backlightscustom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsMode](#backlightsMode)
+### [backlightsMode](#backlightsmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsOff](#backlightsOff)
+### [backlightsOff](#backlightsoff)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsReactive](#backlightsReactive)
+### [backlightsReactive](#backlightsreactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsSpectrum](#backlightsSpectrum)
+### [backlightsSpectrum](#backlightsspectrum)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsStarlight](#backlightsStarlight)
+### [backlightsStarlight](#backlightsstarlight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsStatic](#backlightsStatic)
+### [backlightsStatic](#backlightsstatic)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [backlightsWave](#backlightsWave)
+### [backlightsWave](#backlightswave)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -258,7 +258,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [blueStatusLight](#blueStatusLight)
+### [blueStatusLight](#bluestatuslight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [defaultKeyboardLayout](#defaultKeyboardLayout)
+### [defaultKeyboardLayout](#defaultkeyboardlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -310,7 +310,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [greenStatusLight](#greenStatusLight)
+### [greenStatusLight](#greenstatuslight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -336,7 +336,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [orangeStatusLight](#orangeStatusLight)
+### [orangeStatusLight](#orangestatuslight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -349,7 +349,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [redStatusLight](#redStatusLight)
+### [redStatusLight](#redstatuslight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -362,7 +362,7 @@ Special thanks to the authors of these awesome documents & resources:
 
 ---
 
-### [yellowStatusLight](#yellowStatusLight)
+### [yellowStatusLight](#yellowstatuslight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,37 +4,37 @@ Razer Manager Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [bankLabels](#bankLabels)
- * [supportedDevices](#supportedDevices)
+ * [bankLabels](#banklabels)
+ * [supportedDevices](#supporteddevices)
 * Variables - Configurable values
- * [defaultLayout](#defaultLayout)
+ * [defaultLayout](#defaultlayout)
  * [manager](#manager)
 * Functions - API calls offered directly by the extension
  * [refresh](#refresh)
  * [reset](#reset)
- * [resetTimers](#resetTimers)
+ * [resetTimers](#resettimers)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeBanks](#activeBanks)
- * [automaticallySwitchApplications](#automaticallySwitchApplications)
- * [backlightBrightness](#backlightBrightness)
- * [backlightEffectColorA](#backlightEffectColorA)
- * [backlightEffectColorB](#backlightEffectColorB)
- * [backlightEffectDirection](#backlightEffectDirection)
- * [backlightEffectSpeed](#backlightEffectSpeed)
- * [backlightsMode](#backlightsMode)
- * [delayUntilRepeat](#delayUntilRepeat)
- * [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+ * [activeBanks](#activebanks)
+ * [automaticallySwitchApplications](#automaticallyswitchapplications)
+ * [backlightBrightness](#backlightbrightness)
+ * [backlightEffectColorA](#backlighteffectcolora)
+ * [backlightEffectColorB](#backlighteffectcolorb)
+ * [backlightEffectDirection](#backlighteffectdirection)
+ * [backlightEffectSpeed](#backlighteffectspeed)
+ * [backlightsMode](#backlightsmode)
+ * [delayUntilRepeat](#delayuntilrepeat)
+ * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
  * [enabled](#enabled)
  * [items](#items)
- * [keyRepeat](#keyRepeat)
- * [lastBundleID](#lastBundleID)
+ * [keyRepeat](#keyrepeat)
+ * [lastBundleID](#lastbundleid)
 
 ## API Documentation
 
 ### Constants
 
 
-### [bankLabels](#bankLabels)
+### [bankLabels](#banklabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Razer Manager Plugin.
 
 ---
 
-### [supportedDevices](#supportedDevices)
+### [supportedDevices](#supporteddevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Razer Manager Plugin.
 ### Variables
 
 
-### [defaultLayout](#defaultLayout)
+### [defaultLayout](#defaultlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Razer Manager Plugin.
 
 ---
 
-### [resetTimers](#resetTimers)
+### [resetTimers](#resettimers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Razer Manager Plugin.
 ### Fields
 
 
-### [activeBanks](#activeBanks)
+### [activeBanks](#activebanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Razer Manager Plugin.
 
 ---
 
-### [automaticallySwitchApplications](#automaticallySwitchApplications)
+### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightBrightness](#backlightBrightness)
+### [backlightBrightness](#backlightbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightEffectColorA](#backlightEffectColorA)
+### [backlightEffectColorA](#backlighteffectcolora)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightEffectColorB](#backlightEffectColorB)
+### [backlightEffectColorB](#backlighteffectcolorb)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightEffectDirection](#backlightEffectDirection)
+### [backlightEffectDirection](#backlighteffectdirection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightEffectSpeed](#backlightEffectSpeed)
+### [backlightEffectSpeed](#backlighteffectspeed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Razer Manager Plugin.
 
 ---
 
-### [backlightsMode](#backlightsMode)
+### [backlightsMode](#backlightsmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Razer Manager Plugin.
 
 ---
 
-### [delayUntilRepeat](#delayUntilRepeat)
+### [delayUntilRepeat](#delayuntilrepeat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -209,7 +209,7 @@ Razer Manager Plugin.
 
 ---
 
-### [displayMessageWhenChangingBanks](#displayMessageWhenChangingBanks)
+### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -239,7 +239,7 @@ Razer Manager Plugin.
 
 ---
 
-### [keyRepeat](#keyRepeat)
+### [keyRepeat](#keyrepeat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ Razer Manager Plugin.
 
 ---
 
-### [lastBundleID](#lastBundleID)
+### [lastBundleID](#lastbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

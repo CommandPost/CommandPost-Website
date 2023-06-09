@@ -4,17 +4,17 @@ Supports 'defrosting' a table which is made up from an 'NSKeyArchiver' record.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [isPlist](#isPlist)
+ * [isPlist](#isplist)
  * [unarchive](#unarchive)
- * [unarchiveBase64](#unarchiveBase64)
- * [unarchiveFile](#unarchiveFile)
+ * [unarchiveBase64](#unarchivebase64)
+ * [unarchiveFile](#unarchivefile)
 
 ## API Documentation
 
 ### Functions
 
 
-### [isPlist](#isPlist)
+### [isPlist](#isplist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Supports 'defrosting' a table which is made up from an 'NSKeyArchiver' record.
 
 ---
 
-### [unarchiveBase64](#unarchiveBase64)
+### [unarchiveBase64](#unarchivebase64)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Supports 'defrosting' a table which is made up from an 'NSKeyArchiver' record.
 
 ---
 
-### [unarchiveFile](#unarchiveFile)
+### [unarchiveFile](#unarchivefile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

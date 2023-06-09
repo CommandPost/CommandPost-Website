@@ -7,18 +7,18 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [appFromName](#appFromName)
- * [appFromWindowTitle](#appFromWindowTitle)
- * [appFromWindowTitlePattern](#appFromWindowTitlePattern)
- * [windowFromWindowTitle](#windowFromWindowTitle)
- * [windowFromWindowTitlePattern](#windowFromWindowTitlePattern)
+ * [appFromName](#appfromname)
+ * [appFromWindowTitle](#appfromwindowtitle)
+ * [appFromWindowTitlePattern](#appfromwindowtitlepattern)
+ * [windowFromWindowTitle](#windowfromwindowtitle)
+ * [windowFromWindowTitlePattern](#windowfromwindowtitlepattern)
 
 ## API Documentation
 
 ### Functions
 
 
-### [appFromName](#appFromName)
+### [appFromName](#appfromname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ---
 
-### [appFromWindowTitle](#appFromWindowTitle)
+### [appFromWindowTitle](#appfromwindowtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ---
 
-### [appFromWindowTitlePattern](#appFromWindowTitlePattern)
+### [appFromWindowTitlePattern](#appfromwindowtitlepattern)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ---
 
-### [windowFromWindowTitle](#windowFromWindowTitle)
+### [windowFromWindowTitle](#windowfromwindowtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ This module is *deprecated*; you can use `hs.window.find()`, `hs.window.get()`, 
 
 ---
 
-### [windowFromWindowTitlePattern](#windowFromWindowTitlePattern)
+### [windowFromWindowTitlePattern](#windowfromwindowtitlepattern)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

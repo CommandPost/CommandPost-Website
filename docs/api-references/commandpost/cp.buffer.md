@@ -25,7 +25,7 @@ buff:bytes()     -- "lo world!"
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [clone](#clone)
- * [fromHex](#fromHex)
+ * [fromHex](#fromhex)
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [drop](#drop)
@@ -67,7 +67,7 @@ buff:bytes()     -- "lo world!"
 
 ---
 
-### [fromHex](#fromHex)
+### [fromHex](#fromhex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

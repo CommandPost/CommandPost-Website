@@ -4,10 +4,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [HORIZONTAL_ORIENTATION](#HORIZONTAL_ORIENTATION)
- * [VERTICAL_ORIENTATION](#VERTICAL_ORIENTATION)
+ * [HORIZONTAL_ORIENTATION](#horizontal_orientation)
+ * [VERTICAL_ORIENTATION](#vertical_orientation)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ScrollBar](#ScrollBar)
+ * [ScrollBar](#scrollbar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [hidden](#hidden)
  * [horizontal](#horizontal)
@@ -15,17 +15,17 @@ Provides access to `AXScrollBar` `axuielement` values.
  * [value](#value)
  * [vertical](#vertical)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [loadLayout](#loadLayout)
+ * [loadLayout](#loadlayout)
  * [matches](#matches)
- * [saveLayout](#saveLayout)
- * [shiftValueBy](#shiftValueBy)
+ * [saveLayout](#savelayout)
+ * [shiftValueBy](#shiftvalueby)
 
 ## API Documentation
 
 ### Constants
 
 
-### [HORIZONTAL_ORIENTATION](#HORIZONTAL_ORIENTATION)
+### [HORIZONTAL_ORIENTATION](#horizontal_orientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 
 ---
 
-### [VERTICAL_ORIENTATION](#VERTICAL_ORIENTATION)
+### [VERTICAL_ORIENTATION](#vertical_orientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 ### Constructors
 
 
-### [ScrollBar](#ScrollBar)
+### [ScrollBar](#scrollbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 ### Methods
 
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 
 ---
 
-### [shiftValueBy](#shiftValueBy)
+### [shiftValueBy](#shiftvalueby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

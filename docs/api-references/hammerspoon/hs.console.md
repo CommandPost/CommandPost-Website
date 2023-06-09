@@ -6,32 +6,32 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ## API Overview
 * Deprecateds - API features which will be removed in an future release
- * [asHSDrawing](#asHSDrawing)
- * [asHSWindow](#asHSWindow)
+ * [asHSDrawing](#ashsdrawing)
+ * [asHSWindow](#ashswindow)
 * Constants - Useful values which cannot be changed
- * [defaultToolbar](#defaultToolbar)
+ * [defaultToolbar](#defaulttoolbar)
 * Functions - API calls offered directly by the extension
  * [alpha](#alpha)
- * [behaviorAsLabels](#behaviorAsLabels)
- * [clearConsole](#clearConsole)
- * [consoleCommandColor](#consoleCommandColor)
- * [consoleFont](#consoleFont)
- * [consolePrintColor](#consolePrintColor)
- * [consoleResultColor](#consoleResultColor)
- * [darkMode](#darkMode)
- * [getConsole](#getConsole)
- * [getHistory](#getHistory)
+ * [behaviorAsLabels](#behavioraslabels)
+ * [clearConsole](#clearconsole)
+ * [consoleCommandColor](#consolecommandcolor)
+ * [consoleFont](#consolefont)
+ * [consolePrintColor](#consoleprintcolor)
+ * [consoleResultColor](#consoleresultcolor)
+ * [darkMode](#darkmode)
+ * [getConsole](#getconsole)
+ * [getHistory](#gethistory)
  * [hswindow](#hswindow)
- * [inputBackgroundColor](#inputBackgroundColor)
+ * [inputBackgroundColor](#inputbackgroundcolor)
  * [level](#level)
- * [maxOutputHistory](#maxOutputHistory)
- * [outputBackgroundColor](#outputBackgroundColor)
- * [printStyledtext](#printStyledtext)
- * [setConsole](#setConsole)
- * [setHistory](#setHistory)
- * [smartInsertDeleteEnabled](#smartInsertDeleteEnabled)
- * [titleVisibility](#titleVisibility)
- * [windowBackgroundColor](#windowBackgroundColor)
+ * [maxOutputHistory](#maxoutputhistory)
+ * [outputBackgroundColor](#outputbackgroundcolor)
+ * [printStyledtext](#printstyledtext)
+ * [setConsole](#setconsole)
+ * [setHistory](#sethistory)
+ * [smartInsertDeleteEnabled](#smartinsertdeleteenabled)
+ * [titleVisibility](#titlevisibility)
+ * [windowBackgroundColor](#windowbackgroundcolor)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [behavior](#behavior)
  * [toolbar](#toolbar)
@@ -41,7 +41,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 ### Deprecateds
 
 
-### [asHSDrawing](#asHSDrawing)
+### [asHSDrawing](#ashsdrawing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [asHSWindow](#asHSWindow)
+### [asHSWindow](#ashswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 ### Constants
 
 
-### [defaultToolbar](#defaultToolbar)
+### [defaultToolbar](#defaulttoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [behaviorAsLabels](#behaviorAsLabels)
+### [behaviorAsLabels](#behavioraslabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [clearConsole](#clearConsole)
+### [clearConsole](#clearconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [consoleCommandColor](#consoleCommandColor)
+### [consoleCommandColor](#consolecommandcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [consoleFont](#consoleFont)
+### [consoleFont](#consolefont)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [consolePrintColor](#consolePrintColor)
+### [consolePrintColor](#consoleprintcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [consoleResultColor](#consoleResultColor)
+### [consoleResultColor](#consoleresultcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [darkMode](#darkMode)
+### [darkMode](#darkmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [getConsole](#getConsole)
+### [getConsole](#getconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [getHistory](#getHistory)
+### [getHistory](#gethistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [inputBackgroundColor](#inputBackgroundColor)
+### [inputBackgroundColor](#inputbackgroundcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [maxOutputHistory](#maxOutputHistory)
+### [maxOutputHistory](#maxoutputhistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [outputBackgroundColor](#outputBackgroundColor)
+### [outputBackgroundColor](#outputbackgroundcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [printStyledtext](#printStyledtext)
+### [printStyledtext](#printstyledtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [setConsole](#setConsole)
+### [setConsole](#setconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -299,7 +299,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [setHistory](#setHistory)
+### [setHistory](#sethistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [smartInsertDeleteEnabled](#smartInsertDeleteEnabled)
+### [smartInsertDeleteEnabled](#smartinsertdeleteenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -325,7 +325,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [titleVisibility](#titleVisibility)
+### [titleVisibility](#titlevisibility)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -338,7 +338,7 @@ These functions allow altering the behavior and display of the Hammerspoon conso
 
 ---
 
-### [windowBackgroundColor](#windowBackgroundColor)
+### [windowBackgroundColor](#windowbackgroundcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

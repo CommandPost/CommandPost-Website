@@ -15,58 +15,58 @@ This extension differs from the `hs.application` extension in several ways:
 
 ## API Overview
 * Variables - Configurable values
- * [frontmostApp](#frontmostApp)
+ * [frontmostApp](#frontmostapp)
 * Functions - API calls offered directly by the extension
  * [apps](#apps)
- * [bundleIDs](#bundleIDs)
+ * [bundleIDs](#bundleids)
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [forBundleID](#forBundleID)
+ * [forBundleID](#forbundleid)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [baseLocale](#baseLocale)
- * [baseResourcesPath](#baseResourcesPath)
- * [currentLocale](#currentLocale)
+ * [baseLocale](#baselocale)
+ * [baseResourcesPath](#baseresourcespath)
+ * [currentLocale](#currentlocale)
  * [description](#description)
- * [displayName](#displayName)
- * [focusedWindow](#focusedWindow)
- * [focusedWindowUI](#focusedWindowUI)
+ * [displayName](#displayname)
+ * [focusedWindow](#focusedwindow)
+ * [focusedWindowUI](#focusedwindowui)
  * [frontmost](#frontmost)
- * [hsApplication](#hsApplication)
+ * [hsApplication](#hsapplication)
  * [info](#info)
  * [installed](#installed)
- * [isWindowAnimationEnabled](#isWindowAnimationEnabled)
- * [localeResourcesPath](#localeResourcesPath)
- * [mainWindowUI](#mainWindowUI)
- * [modalDialogOpen](#modalDialogOpen)
+ * [isWindowAnimationEnabled](#iswindowanimationenabled)
+ * [localeResourcesPath](#localeresourcespath)
+ * [mainWindowUI](#mainwindowui)
+ * [modalDialogOpen](#modaldialogopen)
  * [path](#path)
  * [pid](#pid)
  * [preferences](#preferences)
- * [resourcesPath](#resourcesPath)
+ * [resourcesPath](#resourcespath)
  * [running](#running)
  * [showing](#showing)
- * [supportedLocales](#supportedLocales)
- * [UI](#UI)
+ * [supportedLocales](#supportedlocales)
+ * [UI](#ui)
  * [version](#version)
- * [versionString](#versionString)
+ * [versionString](#versionstring)
  * [windows](#windows)
- * [windowsUI](#windowsUI)
+ * [windowsUI](#windowsui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [bestSupportedLocale](#bestSupportedLocale)
- * [bundleID](#bundleID)
- * [doHide](#doHide)
- * [doLaunch](#doLaunch)
- * [doQuit](#doQuit)
- * [doRestart](#doRestart)
- * [doShow](#doShow)
+ * [bestSupportedLocale](#bestsupportedlocale)
+ * [bundleID](#bundleid)
+ * [doHide](#dohide)
+ * [doLaunch](#dolaunch)
+ * [doQuit](#doquit)
+ * [doRestart](#dorestart)
+ * [doShow](#doshow)
  * [hide](#hide)
  * [icon](#icon)
- * [isSupportedLocale](#isSupportedLocale)
- * [keyStroke](#keyStroke)
+ * [isSupportedLocale](#issupportedlocale)
+ * [keyStroke](#keystroke)
  * [launch](#launch)
  * [notifier](#notifier)
  * [quit](#quit)
- * [registerWindowType](#registerWindowType)
- * [searchResources](#searchResources)
+ * [registerWindowType](#registerwindowtype)
+ * [searchResources](#searchresources)
  * [show](#show)
  * [update](#update)
 
@@ -75,7 +75,7 @@ This extension differs from the `hs.application` extension in several ways:
 ### Variables
 
 
-### [frontmostApp](#frontmostApp)
+### [frontmostApp](#frontmostapp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [bundleIDs](#bundleIDs)
+### [bundleIDs](#bundleids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ This extension differs from the `hs.application` extension in several ways:
 ### Constructors
 
 
-### [forBundleID](#forBundleID)
+### [forBundleID](#forbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ This extension differs from the `hs.application` extension in several ways:
 ### Fields
 
 
-### [baseLocale](#baseLocale)
+### [baseLocale](#baselocale)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [baseResourcesPath](#baseResourcesPath)
+### [baseResourcesPath](#baseresourcespath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [currentLocale](#currentLocale)
+### [currentLocale](#currentlocale)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [displayName](#displayName)
+### [displayName](#displayname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [focusedWindow](#focusedWindow)
+### [focusedWindow](#focusedwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [focusedWindowUI](#focusedWindowUI)
+### [focusedWindowUI](#focusedwindowui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [hsApplication](#hsApplication)
+### [hsApplication](#hsapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [isWindowAnimationEnabled](#isWindowAnimationEnabled)
+### [isWindowAnimationEnabled](#iswindowanimationenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [localeResourcesPath](#localeResourcesPath)
+### [localeResourcesPath](#localeresourcespath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [mainWindowUI](#mainWindowUI)
+### [mainWindowUI](#mainwindowui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [modalDialogOpen](#modalDialogOpen)
+### [modalDialogOpen](#modaldialogopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -323,7 +323,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [resourcesPath](#resourcesPath)
+### [resourcesPath](#resourcespath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [supportedLocales](#supportedLocales)
+### [supportedLocales](#supportedlocales)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -363,7 +363,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [versionString](#versionString)
+### [versionString](#versionstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -405,7 +405,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [windowsUI](#windowsUI)
+### [windowsUI](#windowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -417,7 +417,7 @@ This extension differs from the `hs.application` extension in several ways:
 ### Methods
 
 
-### [bestSupportedLocale](#bestSupportedLocale)
+### [bestSupportedLocale](#bestsupportedlocale)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -430,7 +430,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -443,7 +443,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -456,7 +456,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [doLaunch](#doLaunch)
+### [doLaunch](#dolaunch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -469,7 +469,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [doQuit](#doQuit)
+### [doQuit](#doquit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -482,7 +482,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [doRestart](#doRestart)
+### [doRestart](#dorestart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -495,7 +495,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -534,7 +534,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [isSupportedLocale](#isSupportedLocale)
+### [isSupportedLocale](#issupportedlocale)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -547,7 +547,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [keyStroke](#keyStroke)
+### [keyStroke](#keystroke)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -599,7 +599,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [registerWindowType](#registerWindowType)
+### [registerWindowType](#registerwindowtype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -612,7 +612,7 @@ This extension differs from the `hs.application` extension in several ways:
 
 ---
 
-### [searchResources](#searchResources)
+### [searchResources](#searchresources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

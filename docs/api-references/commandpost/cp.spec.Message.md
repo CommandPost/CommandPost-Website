@@ -6,7 +6,7 @@ Provides an Message message, which can be thrown via the `error` function.
 * Functions - API calls offered directly by the extension
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Message](#Message)
+ * [Message](#message)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [traceback](#traceback)
 
@@ -30,7 +30,7 @@ Provides an Message message, which can be thrown via the `error` function.
 ### Constructors
 
 
-### [Message](#Message)
+### [Message](#message)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

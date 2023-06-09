@@ -6,13 +6,13 @@ The CommandPost Workflow Extension Window.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [CommandPostWindow](#CommandPostWindow)
+ * [CommandPostWindow](#commandpostwindow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [reloadButton](#reloadButton)
+ * [reloadButton](#reloadbutton)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doHide](#doHide)
- * [doShow](#doShow)
- * [hasStalled](#hasStalled)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
+ * [hasStalled](#hasstalled)
  * [hide](#hide)
  * [reload](#reload)
  * [show](#show)
@@ -37,7 +37,7 @@ The CommandPost Workflow Extension Window.
 ### Constructors
 
 
-### [CommandPostWindow](#CommandPostWindow)
+### [CommandPostWindow](#commandpostwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ The CommandPost Workflow Extension Window.
 ### Fields
 
 
-### [reloadButton](#reloadButton)
+### [reloadButton](#reloadbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ The CommandPost Workflow Extension Window.
 ### Methods
 
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ The CommandPost Workflow Extension Window.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ The CommandPost Workflow Extension Window.
 
 ---
 
-### [hasStalled](#hasStalled)
+### [hasStalled](#hasstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

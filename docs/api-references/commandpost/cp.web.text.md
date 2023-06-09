@@ -4,15 +4,15 @@ Functions for managing text on the web.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [escapeXML](#escapeXML)
- * [unescapeXML](#unescapeXML)
+ * [escapeXML](#escapexml)
+ * [unescapeXML](#unescapexml)
 
 ## API Documentation
 
 ### Functions
 
 
-### [escapeXML](#escapeXML)
+### [escapeXML](#escapexml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Functions for managing text on the web.
 
 ---
 
-### [unescapeXML](#unescapeXML)
+### [unescapeXML](#unescapexml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

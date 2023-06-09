@@ -6,11 +6,11 @@ Extends [Element](cp.ui.Element.md).
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [BasePanel](#BasePanel)
+ * [BasePanel](#basepanel)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [hide](#hide)
- * [panelType](#panelType)
+ * [panelType](#paneltype)
  * [show](#show)
 
 ## API Documentation
@@ -18,7 +18,7 @@ Extends [Element](cp.ui.Element.md).
 ### Constructors
 
 
-### [BasePanel](#BasePanel)
+### [BasePanel](#basepanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Extends [Element](cp.ui.Element.md).
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Extends [Element](cp.ui.Element.md).
 
 ---
 
-### [panelType](#panelType)
+### [panelType](#paneltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

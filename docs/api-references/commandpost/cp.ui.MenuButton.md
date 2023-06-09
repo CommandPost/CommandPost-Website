@@ -6,25 +6,25 @@ Menu Button Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [MenuButton](#MenuButton)
+ * [MenuButton](#menubutton)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [menuUI](#menuUI)
+ * [menuUI](#menuui)
  * [title](#title)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doPress](#doPress)
- * [doSelectItem](#doSelectItem)
- * [doSelectItemMatching](#doSelectItemMatching)
- * [doSelectValue](#doSelectValue)
- * [doShowMenu](#doShowMenu)
- * [getTitle](#getTitle)
- * [getValue](#getValue)
- * [loadLayout](#loadLayout)
+ * [doPress](#dopress)
+ * [doSelectItem](#doselectitem)
+ * [doSelectItemMatching](#doselectitemmatching)
+ * [doSelectValue](#doselectvalue)
+ * [doShowMenu](#doshowmenu)
+ * [getTitle](#gettitle)
+ * [getValue](#getvalue)
+ * [loadLayout](#loadlayout)
  * [press](#press)
- * [saveLayout](#saveLayout)
- * [selectItem](#selectItem)
- * [selectItemMatching](#selectItemMatching)
- * [setValue](#setValue)
+ * [saveLayout](#savelayout)
+ * [selectItem](#selectitem)
+ * [selectItemMatching](#selectitemmatching)
+ * [setValue](#setvalue)
  * [show](#show)
 
 ## API Documentation
@@ -47,7 +47,7 @@ Menu Button Module.
 ### Constructors
 
 
-### [MenuButton](#MenuButton)
+### [MenuButton](#menubutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Menu Button Module.
 ### Fields
 
 
-### [menuUI](#menuUI)
+### [menuUI](#menuui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Menu Button Module.
 ### Methods
 
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Menu Button Module.
 
 ---
 
-### [doSelectItem](#doSelectItem)
+### [doSelectItem](#doselectitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Menu Button Module.
 
 ---
 
-### [doSelectItemMatching](#doSelectItemMatching)
+### [doSelectItemMatching](#doselectitemmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Menu Button Module.
 
 ---
 
-### [doSelectValue](#doSelectValue)
+### [doSelectValue](#doselectvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Menu Button Module.
 
 ---
 
-### [doShowMenu](#doShowMenu)
+### [doShowMenu](#doshowmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Menu Button Module.
 
 ---
 
-### [getTitle](#getTitle)
+### [getTitle](#gettitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Menu Button Module.
 
 ---
 
-### [getValue](#getValue)
+### [getValue](#getvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Menu Button Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ Menu Button Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -224,7 +224,7 @@ Menu Button Module.
 
 ---
 
-### [selectItem](#selectItem)
+### [selectItem](#selectitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ Menu Button Module.
 
 ---
 
-### [selectItemMatching](#selectItemMatching)
+### [selectItemMatching](#selectitemmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ Menu Button Module.
 
 ---
 
-### [setValue](#setValue)
+### [setValue](#setvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,9 +4,9 @@ Final Cut Pro Font Console
 
 ## API Overview
 * Variables - Configurable values
- * [processedFonts](#processedFonts)
+ * [processedFonts](#processedfonts)
 * Functions - API calls offered directly by the extension
- * [onActivate](#onActivate)
+ * [onActivate](#onactivate)
  * [show](#show)
 
 ## API Documentation
@@ -14,7 +14,7 @@ Final Cut Pro Font Console
 ### Variables
 
 
-### [processedFonts](#processedFonts)
+### [processedFonts](#processedfonts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Final Cut Pro Font Console
 ### Functions
 
 
-### [onActivate](#onActivate)
+### [onActivate](#onactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

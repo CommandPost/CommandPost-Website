@@ -4,28 +4,28 @@ Represents a single property row, typically in a Property Inspector.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [intersectBuffer](#intersectBuffer)
+ * [intersectBuffer](#intersectbuffer)
 * Functions - API calls offered directly by the extension
- * [isParent](#isParent)
+ * [isParent](#isparent)
  * [matches](#matches)
- * [parentUIFinder](#parentUIFinder)
- * [prepareParent](#prepareParent)
+ * [parentUIFinder](#parentuifinder)
+ * [prepareParent](#prepareparent)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [PropertyRow](#PropertyRow)
+ * [PropertyRow](#propertyrow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [label](#label)
- * [labelUI](#labelUI)
- * [propertiesUI](#propertiesUI)
+ * [labelUI](#labelui)
+ * [propertiesUI](#propertiesui)
  * [reset](#reset)
- * [UI](#UI)
+ * [UI](#ui)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
  * [children](#children)
- * [doHide](#doHide)
- * [doShow](#doShow)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
  * [extend](#extend)
  * [hide](#hide)
- * [labelKeys](#labelKeys)
+ * [labelKeys](#labelkeys)
  * [parent](#parent)
  * [show](#show)
 
@@ -34,7 +34,7 @@ Represents a single property row, typically in a Property Inspector.
 ### Constants
 
 
-### [intersectBuffer](#intersectBuffer)
+### [intersectBuffer](#intersectbuffer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Represents a single property row, typically in a Property Inspector.
 ### Functions
 
 
-### [isParent](#isParent)
+### [isParent](#isparent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [parentUIFinder](#parentUIFinder)
+### [parentUIFinder](#parentuifinder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [prepareParent](#prepareParent)
+### [prepareParent](#prepareparent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Represents a single property row, typically in a Property Inspector.
 ### Constructors
 
 
-### [PropertyRow](#PropertyRow)
+### [PropertyRow](#propertyrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [labelUI](#labelUI)
+### [labelUI](#labelui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [propertiesUI](#propertiesUI)
+### [propertiesUI](#propertiesui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -193,7 +193,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Represents a single property row, typically in a Property Inspector.
 
 ---
 
-### [labelKeys](#labelKeys)
+### [labelKeys](#labelkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

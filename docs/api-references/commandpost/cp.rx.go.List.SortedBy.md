@@ -4,14 +4,14 @@ A `Statement.Modifier` that specifies the list should be sorted by the specified
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [SortedBy](#SortedBy)
+ * [SortedBy](#sortedby)
 
 ## API Documentation
 
 ### Constants
 
 
-### [SortedBy](#SortedBy)
+### [SortedBy](#sortedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

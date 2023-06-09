@@ -11,20 +11,20 @@ Notes:
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [addresses](#addresses)
- * [cpuUsage](#cpuUsage)
- * [cpuUsageTicks](#cpuUsageTicks)
- * [globallyUniqueString](#globallyUniqueString)
- * [gpuVRAM](#gpuVRAM)
- * [idleTime](#idleTime)
- * [interfaceStyle](#interfaceStyle)
- * [localizedName](#localizedName)
+ * [cpuUsage](#cpuusage)
+ * [cpuUsageTicks](#cpuusageticks)
+ * [globallyUniqueString](#globallyuniquestring)
+ * [gpuVRAM](#gpuvram)
+ * [idleTime](#idletime)
+ * [interfaceStyle](#interfacestyle)
+ * [localizedName](#localizedname)
  * [names](#names)
- * [operatingSystemVersion](#operatingSystemVersion)
- * [operatingSystemVersionString](#operatingSystemVersionString)
- * [thermalState](#thermalState)
+ * [operatingSystemVersion](#operatingsystemversion)
+ * [operatingSystemVersionString](#operatingsystemversionstring)
+ * [thermalState](#thermalstate)
  * [uuid](#uuid)
- * [vmStat](#vmStat)
- * [volumeInformation](#volumeInformation)
+ * [vmStat](#vmstat)
+ * [volumeInformation](#volumeinformation)
 
 ## API Documentation
 
@@ -44,7 +44,7 @@ Notes:
 
 ---
 
-### [cpuUsage](#cpuUsage)
+### [cpuUsage](#cpuusage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Notes:
 
 ---
 
-### [cpuUsageTicks](#cpuUsageTicks)
+### [cpuUsageTicks](#cpuusageticks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Notes:
 
 ---
 
-### [globallyUniqueString](#globallyUniqueString)
+### [globallyUniqueString](#globallyuniquestring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Notes:
 
 ---
 
-### [gpuVRAM](#gpuVRAM)
+### [gpuVRAM](#gpuvram)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Notes:
 
 ---
 
-### [idleTime](#idleTime)
+### [idleTime](#idletime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Notes:
 
 ---
 
-### [interfaceStyle](#interfaceStyle)
+### [interfaceStyle](#interfacestyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Notes:
 
 ---
 
-### [localizedName](#localizedName)
+### [localizedName](#localizedname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Notes:
 
 ---
 
-### [operatingSystemVersion](#operatingSystemVersion)
+### [operatingSystemVersion](#operatingsystemversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ Notes:
 
 ---
 
-### [operatingSystemVersionString](#operatingSystemVersionString)
+### [operatingSystemVersionString](#operatingsystemversionstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ Notes:
 
 ---
 
-### [thermalState](#thermalState)
+### [thermalState](#thermalstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ Notes:
 
 ---
 
-### [vmStat](#vmStat)
+### [vmStat](#vmstat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ Notes:
 
 ---
 
-### [volumeInformation](#volumeInformation)
+### [volumeInformation](#volumeinformation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

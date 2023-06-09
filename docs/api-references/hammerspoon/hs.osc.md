@@ -19,13 +19,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [newClient](#newClient)
- * [newServer](#newServer)
+ * [newClient](#newclient)
+ * [newServer](#newserver)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [callback](#callback)
  * [host](#host)
- * [isActive](#isActive)
- * [listeningPort](#listeningPort)
+ * [isActive](#isactive)
+ * [listeningPort](#listeningport)
  * [port](#port)
  * [send](#send)
  * [start](#start)
@@ -36,7 +36,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Constructors
 
 
-### [newClient](#newClient)
+### [newClient](#newclient)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [newServer](#newServer)
+### [newServer](#newserver)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [isActive](#isActive)
+### [isActive](#isactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [listeningPort](#listeningPort)
+### [listeningPort](#listeningport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

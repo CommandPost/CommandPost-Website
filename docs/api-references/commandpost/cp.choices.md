@@ -9,7 +9,7 @@ Choices Module.
 * Functions - API calls offered directly by the extension
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [getChoices](#getChoices)
+ * [getChoices](#getchoices)
  * [new](#new)
 
 ## API Documentation
@@ -32,7 +32,7 @@ Choices Module.
 ### Methods
 
 
-### [getChoices](#getChoices)
+### [getChoices](#getchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

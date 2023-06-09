@@ -7,10 +7,10 @@ Represents the Motion application, providing functions that allow different task
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [BUNDLE_ID](#BUNDLE_ID)
+ * [BUNDLE_ID](#bundle_id)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [bundleID](#bundleID)
- * [doRestart](#doRestart)
+ * [bundleID](#bundleid)
+ * [doRestart](#dorestart)
  * [hide](#hide)
  * [launch](#launch)
  * [notifier](#notifier)
@@ -23,7 +23,7 @@ Represents the Motion application, providing functions that allow different task
 ### Constants
 
 
-### [BUNDLE_ID](#BUNDLE_ID)
+### [BUNDLE_ID](#bundle_id)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Represents the Motion application, providing functions that allow different task
 ### Methods
 
 
-### [bundleID](#bundleID)
+### [bundleID](#bundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Represents the Motion application, providing functions that allow different task
 
 ---
 
-### [doRestart](#doRestart)
+### [doRestart](#dorestart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,9 +4,9 @@ Notion Toolbox Panel.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [databaseURL](#databaseURL)
- * [defaultEmoji](#defaultEmoji)
- * [mergeData](#mergeData)
+ * [databaseURL](#databaseurl)
+ * [defaultEmoji](#defaultemoji)
+ * [mergeData](#mergedata)
  * [settings](#settings)
  * [token](#token)
 
@@ -15,7 +15,7 @@ Notion Toolbox Panel.
 ### Fields
 
 
-### [databaseURL](#databaseURL)
+### [databaseURL](#databaseurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Notion Toolbox Panel.
 
 ---
 
-### [defaultEmoji](#defaultEmoji)
+### [defaultEmoji](#defaultemoji)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Notion Toolbox Panel.
 
 ---
 
-### [mergeData](#mergeData)
+### [mergeData](#mergedata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

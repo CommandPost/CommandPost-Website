@@ -8,13 +8,13 @@ resulting in something like `{ Element, Splitter, Element }`.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [SplitGroup](#SplitGroup)
+ * [SplitGroup](#splitgroup)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [children](#children)
- * [childrenUI](#childrenUI)
+ * [childrenUI](#childrenui)
  * [sections](#sections)
  * [splitters](#splitters)
- * [splittersUI](#splittersUI)
+ * [splittersUI](#splittersui)
 
 ## API Documentation
 
@@ -36,7 +36,7 @@ resulting in something like `{ Element, Splitter, Element }`.
 ### Constructors
 
 
-### [SplitGroup](#SplitGroup)
+### [SplitGroup](#splitgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ resulting in something like `{ Element, Splitter, Element }`.
 
 ---
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ resulting in something like `{ Element, Splitter, Element }`.
 
 ---
 
-### [splittersUI](#splittersUI)
+### [splittersUI](#splittersui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

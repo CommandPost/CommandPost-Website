@@ -9,16 +9,16 @@ the value.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [SetProp](#SetProp)
+ * [SetProp](#setprop)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [To](#To)
+ * [To](#to)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [SetProp](#SetProp)
+### [SetProp](#setprop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ the value.
 ### Methods
 
 
-### [To](#To)
+### [To](#to)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

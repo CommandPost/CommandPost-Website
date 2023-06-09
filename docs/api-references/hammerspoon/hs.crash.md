@@ -4,20 +4,20 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [attemptMemoryRelease](#attemptMemoryRelease)
+ * [attemptMemoryRelease](#attemptmemoryrelease)
  * [crash](#crash)
- * [crashKV](#crashKV)
- * [crashLog](#crashLog)
- * [dumpCLIBS](#dumpCLIBS)
- * [residentSize](#residentSize)
- * [throwObjCException](#throwObjCException)
+ * [crashKV](#crashkv)
+ * [crashLog](#crashlog)
+ * [dumpCLIBS](#dumpclibs)
+ * [residentSize](#residentsize)
+ * [throwObjCException](#throwobjcexception)
 
 ## API Documentation
 
 ### Functions
 
 
-### [attemptMemoryRelease](#attemptMemoryRelease)
+### [attemptMemoryRelease](#attemptmemoryrelease)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ---
 
-### [crashKV](#crashKV)
+### [crashKV](#crashkv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ---
 
-### [crashLog](#crashLog)
+### [crashLog](#crashlog)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ---
 
-### [dumpCLIBS](#dumpCLIBS)
+### [dumpCLIBS](#dumpclibs)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ---
 
-### [residentSize](#residentSize)
+### [residentSize](#residentsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Various features/facilities for developers who are working on Hammerspoon itself
 
 ---
 
-### [throwObjCException](#throwObjCException)
+### [throwObjCException](#throwobjcexception)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -5,22 +5,22 @@ Motion and Compressor.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [padKeys](#padKeys)
- * [supportedModifiers](#supportedModifiers)
+ * [padKeys](#padkeys)
+ * [supportedModifiers](#supportedmodifiers)
 * Functions - API calls offered directly by the extension
- * [characterStringToKeyCode](#characterStringToKeyCode)
- * [keypadCharacterToKeyCode](#keypadCharacterToKeyCode)
- * [modifierMaskToModifiers](#modifierMaskToModifiers)
- * [modifierMatch](#modifierMatch)
- * [shortcutsFromCommandSet](#shortcutsFromCommandSet)
- * [translateModifiers](#translateModifiers)
+ * [characterStringToKeyCode](#characterstringtokeycode)
+ * [keypadCharacterToKeyCode](#keypadcharactertokeycode)
+ * [modifierMaskToModifiers](#modifiermasktomodifiers)
+ * [modifierMatch](#modifiermatch)
+ * [shortcutsFromCommandSet](#shortcutsfromcommandset)
+ * [translateModifiers](#translatemodifiers)
 
 ## API Documentation
 
 ### Constants
 
 
-### [padKeys](#padKeys)
+### [padKeys](#padkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Motion and Compressor.
 
 ---
 
-### [supportedModifiers](#supportedModifiers)
+### [supportedModifiers](#supportedmodifiers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ Motion and Compressor.
 ### Functions
 
 
-### [characterStringToKeyCode](#characterStringToKeyCode)
+### [characterStringToKeyCode](#characterstringtokeycode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Motion and Compressor.
 
 ---
 
-### [keypadCharacterToKeyCode](#keypadCharacterToKeyCode)
+### [keypadCharacterToKeyCode](#keypadcharactertokeycode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Motion and Compressor.
 
 ---
 
-### [modifierMaskToModifiers](#modifierMaskToModifiers)
+### [modifierMaskToModifiers](#modifiermasktomodifiers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Motion and Compressor.
 
 ---
 
-### [modifierMatch](#modifierMatch)
+### [modifierMatch](#modifiermatch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Motion and Compressor.
 
 ---
 
-### [shortcutsFromCommandSet](#shortcutsFromCommandSet)
+### [shortcutsFromCommandSet](#shortcutsfromcommandset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Motion and Compressor.
 
 ---
 
-### [translateModifiers](#translateModifiers)
+### [translateModifiers](#translatemodifiers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

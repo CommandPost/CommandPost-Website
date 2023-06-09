@@ -5,7 +5,7 @@ iMessage Notifications Plugin.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [init](#init)
- * [sendNotification](#sendNotification)
+ * [sendNotification](#sendnotification)
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
@@ -29,7 +29,7 @@ iMessage Notifications Plugin.
 
 ---
 
-### [sendNotification](#sendNotification)
+### [sendNotification](#sendnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

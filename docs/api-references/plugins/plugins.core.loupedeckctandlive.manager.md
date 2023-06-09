@@ -4,30 +4,30 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NUMBER_OF_DEVICES](#NUMBER_OF_DEVICES)
+ * [NUMBER_OF_DEVICES](#number_of_devices)
 * Functions - API calls offered directly by the extension
- * [executeAction](#executeAction)
+ * [executeAction](#executeaction)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastApplication](#lastApplication)
- * [lastBank](#lastBank)
- * [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
+ * [lastApplication](#lastapplication)
+ * [lastBank](#lastbank)
+ * [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [callback](#callback)
- * [clearCache](#clearCache)
- * [getFlashDrivePath](#getFlashDrivePath)
+ * [clearCache](#clearcache)
+ * [getFlashDrivePath](#getflashdrivepath)
  * [refresh](#refresh)
- * [refreshItems](#refreshItems)
+ * [refreshItems](#refreshitems)
  * [reset](#reset)
- * [updateBacklightLevel](#updateBacklightLevel)
+ * [updateBacklightLevel](#updatebacklightlevel)
 
 ## API Documentation
 
 ### Constants
 
 
-### [NUMBER_OF_DEVICES](#NUMBER_OF_DEVICES)
+### [NUMBER_OF_DEVICES](#number_of_devices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 ### Functions
 
 
-### [executeAction](#executeAction)
+### [executeAction](#executeaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 ### Fields
 
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [lastBank](#lastBank)
+### [lastBank](#lastbank)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [previewSelectedApplicationAndBankOnHardware](#previewSelectedApplicationAndBankOnHardware)
+### [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [clearCache](#clearCache)
+### [clearCache](#clearcache)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [getFlashDrivePath](#getFlashDrivePath)
+### [getFlashDrivePath](#getflashdrivepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [refreshItems](#refreshItems)
+### [refreshItems](#refreshitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ---
 
-### [updateBacklightLevel](#updateBacklightLevel)
+### [updateBacklightLevel](#updatebacklightlevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

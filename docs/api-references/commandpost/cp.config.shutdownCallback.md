@@ -4,9 +4,9 @@ Shutdown Callback Module.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [callbackFn](#callbackFn)
+ * [callbackFn](#callbackfn)
  * [get](#get)
- * [getAll](#getAll)
+ * [getAll](#getall)
  * [id](#id)
  * [new](#new)
 
@@ -15,7 +15,7 @@ Shutdown Callback Module.
 ### Methods
 
 
-### [callbackFn](#callbackFn)
+### [callbackFn](#callbackfn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Shutdown Callback Module.
 
 ---
 
-### [getAll](#getAll)
+### [getAll](#getall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

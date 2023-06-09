@@ -6,20 +6,20 @@ Locales encapsulate information about linguistic, cultural, and technological co
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [availableLocales](#availableLocales)
+ * [availableLocales](#availablelocales)
  * [current](#current)
  * [details](#details)
- * [localizedString](#localizedString)
- * [preferredLanguages](#preferredLanguages)
- * [registerCallback](#registerCallback)
- * [unregisterCallback](#unregisterCallback)
+ * [localizedString](#localizedstring)
+ * [preferredLanguages](#preferredlanguages)
+ * [registerCallback](#registercallback)
+ * [unregisterCallback](#unregistercallback)
 
 ## API Documentation
 
 ### Functions
 
 
-### [availableLocales](#availableLocales)
+### [availableLocales](#availablelocales)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Locales encapsulate information about linguistic, cultural, and technological co
 
 ---
 
-### [localizedString](#localizedString)
+### [localizedString](#localizedstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Locales encapsulate information about linguistic, cultural, and technological co
 
 ---
 
-### [preferredLanguages](#preferredLanguages)
+### [preferredLanguages](#preferredlanguages)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Locales encapsulate information about linguistic, cultural, and technological co
 
 ---
 
-### [registerCallback](#registerCallback)
+### [registerCallback](#registercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Locales encapsulate information about linguistic, cultural, and technological co
 
 ---
 
-### [unregisterCallback](#unregisterCallback)
+### [unregisterCallback](#unregistercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -5,9 +5,9 @@ Read and write Property List files
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [read](#read)
- * [readString](#readString)
+ * [readString](#readstring)
  * [write](#write)
- * [writeString](#writeString)
+ * [writeString](#writestring)
 
 ## API Documentation
 
@@ -27,7 +27,7 @@ Read and write Property List files
 
 ---
 
-### [readString](#readString)
+### [readString](#readstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Read and write Property List files
 
 ---
 
-### [writeString](#writeString)
+### [writeString](#writestring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

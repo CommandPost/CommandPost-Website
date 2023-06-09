@@ -8,29 +8,29 @@ Controls for Spotify music player
  * [state_playing](#state_playing)
  * [state_stopped](#state_stopped)
 * Functions - API calls offered directly by the extension
- * [displayCurrentTrack](#displayCurrentTrack)
+ * [displayCurrentTrack](#displaycurrenttrack)
  * [ff](#ff)
- * [getCurrentAlbum](#getCurrentAlbum)
- * [getCurrentArtist](#getCurrentArtist)
- * [getCurrentTrack](#getCurrentTrack)
- * [getCurrentTrackId](#getCurrentTrackId)
- * [getDuration](#getDuration)
- * [getPlaybackState](#getPlaybackState)
- * [getPosition](#getPosition)
- * [getVolume](#getVolume)
- * [isPlaying](#isPlaying)
- * [isRunning](#isRunning)
+ * [getCurrentAlbum](#getcurrentalbum)
+ * [getCurrentArtist](#getcurrentartist)
+ * [getCurrentTrack](#getcurrenttrack)
+ * [getCurrentTrackId](#getcurrenttrackid)
+ * [getDuration](#getduration)
+ * [getPlaybackState](#getplaybackstate)
+ * [getPosition](#getposition)
+ * [getVolume](#getvolume)
+ * [isPlaying](#isplaying)
+ * [isRunning](#isrunning)
  * [next](#next)
  * [pause](#pause)
  * [play](#play)
  * [playpause](#playpause)
- * [playTrack](#playTrack)
+ * [playTrack](#playtrack)
  * [previous](#previous)
  * [rw](#rw)
- * [setPosition](#setPosition)
- * [setVolume](#setVolume)
- * [volumeDown](#volumeDown)
- * [volumeUp](#volumeUp)
+ * [setPosition](#setposition)
+ * [setVolume](#setvolume)
+ * [volumeDown](#volumedown)
+ * [volumeUp](#volumeup)
 
 ## API Documentation
 
@@ -69,7 +69,7 @@ Controls for Spotify music player
 ### Functions
 
 
-### [displayCurrentTrack](#displayCurrentTrack)
+### [displayCurrentTrack](#displaycurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Controls for Spotify music player
 
 ---
 
-### [getCurrentAlbum](#getCurrentAlbum)
+### [getCurrentAlbum](#getcurrentalbum)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Controls for Spotify music player
 
 ---
 
-### [getCurrentArtist](#getCurrentArtist)
+### [getCurrentArtist](#getcurrentartist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Controls for Spotify music player
 
 ---
 
-### [getCurrentTrack](#getCurrentTrack)
+### [getCurrentTrack](#getcurrenttrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Controls for Spotify music player
 
 ---
 
-### [getCurrentTrackId](#getCurrentTrackId)
+### [getCurrentTrackId](#getcurrenttrackid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ Controls for Spotify music player
 
 ---
 
-### [getDuration](#getDuration)
+### [getDuration](#getduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Controls for Spotify music player
 
 ---
 
-### [getPlaybackState](#getPlaybackState)
+### [getPlaybackState](#getplaybackstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Controls for Spotify music player
 
 ---
 
-### [getPosition](#getPosition)
+### [getPosition](#getposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -186,7 +186,7 @@ Controls for Spotify music player
 
 ---
 
-### [getVolume](#getVolume)
+### [getVolume](#getvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Controls for Spotify music player
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -212,7 +212,7 @@ Controls for Spotify music player
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -277,7 +277,7 @@ Controls for Spotify music player
 
 ---
 
-### [playTrack](#playTrack)
+### [playTrack](#playtrack)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -316,7 +316,7 @@ Controls for Spotify music player
 
 ---
 
-### [setPosition](#setPosition)
+### [setPosition](#setposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -329,7 +329,7 @@ Controls for Spotify music player
 
 ---
 
-### [setVolume](#setVolume)
+### [setVolume](#setvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -342,7 +342,7 @@ Controls for Spotify music player
 
 ---
 
-### [volumeDown](#volumeDown)
+### [volumeDown](#volumedown)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -355,7 +355,7 @@ Controls for Spotify music player
 
 ---
 
-### [volumeUp](#volumeUp)
+### [volumeUp](#volumeup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

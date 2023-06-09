@@ -6,10 +6,10 @@ This module provides support for injecting custom JavaScript user content into y
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [injectScript](#injectScript)
- * [removeAllScripts](#removeAllScripts)
- * [setCallback](#setCallback)
- * [userScripts](#userScripts)
+ * [injectScript](#injectscript)
+ * [removeAllScripts](#removeallscripts)
+ * [setCallback](#setcallback)
+ * [userScripts](#userscripts)
 
 ## API Documentation
 
@@ -31,7 +31,7 @@ This module provides support for injecting custom JavaScript user content into y
 ### Methods
 
 
-### [injectScript](#injectScript)
+### [injectScript](#injectscript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ This module provides support for injecting custom JavaScript user content into y
 
 ---
 
-### [removeAllScripts](#removeAllScripts)
+### [removeAllScripts](#removeallscripts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ This module provides support for injecting custom JavaScript user content into y
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ This module provides support for injecting custom JavaScript user content into y
 
 ---
 
-### [userScripts](#userScripts)
+### [userScripts](#userscripts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

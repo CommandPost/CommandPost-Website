@@ -29,9 +29,9 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [lookupAddress](#lookupAddress)
- * [lookupAddressNear](#lookupAddressNear)
- * [lookupLocation](#lookupLocation)
+ * [lookupAddress](#lookupaddress)
+ * [lookupAddressNear](#lookupaddressnear)
+ * [lookupLocation](#lookuplocation)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [cancel](#cancel)
  * [geocoding](#geocoding)
@@ -41,7 +41,7 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 ### Constructors
 
 
-### [lookupAddress](#lookupAddress)
+### [lookupAddress](#lookupaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 
 ---
 
-### [lookupAddressNear](#lookupAddressNear)
+### [lookupAddressNear](#lookupaddressnear)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 
 ---
 
-### [lookupLocation](#lookupLocation)
+### [lookupLocation](#lookuplocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

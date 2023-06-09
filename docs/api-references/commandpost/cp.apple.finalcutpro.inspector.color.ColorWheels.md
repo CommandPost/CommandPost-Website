@@ -8,37 +8,37 @@ Extends [Element](cp.ui.Element.md)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorWheels](#ColorWheels)
+ * [ColorWheels](#colorwheels)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
  * [highlights](#highlights)
  * [hue](#hue)
- * [hueRow](#hueRow)
- * [hueSlider](#hueSlider)
- * [hueTextField](#hueTextField)
+ * [hueRow](#huerow)
+ * [hueSlider](#hueslider)
+ * [hueTextField](#huetextfield)
  * [master](#master)
- * [maxValue](#maxValue)
+ * [maxValue](#maxvalue)
  * [midtones](#midtones)
- * [minValue](#minValue)
+ * [minValue](#minvalue)
  * [mix](#mix)
- * [mixRow](#mixRow)
- * [mixSlider](#mixSlider)
- * [mixTextField](#mixTextField)
+ * [mixRow](#mixrow)
+ * [mixSlider](#mixslider)
+ * [mixTextField](#mixtextfield)
  * [shadows](#shadows)
  * [temperature](#temperature)
- * [temperatureRow](#temperatureRow)
- * [temperatureSlider](#temperatureSlider)
- * [temperatureTextField](#temperatureTextField)
+ * [temperatureRow](#temperaturerow)
+ * [temperatureSlider](#temperatureslider)
+ * [temperatureTextField](#temperaturetextfield)
  * [tint](#tint)
- * [tintRow](#tintRow)
- * [tintSlider](#tintSlider)
- * [tintTextField](#tintTextField)
+ * [tintRow](#tintrow)
+ * [tintSlider](#tintslider)
+ * [tintTextField](#tinttextfield)
  * [value](#value)
- * [viewingAllWheels](#viewingAllWheels)
- * [viewMode](#viewMode)
- * [wheelType](#wheelType)
+ * [viewingAllWheels](#viewingallwheels)
+ * [viewMode](#viewmode)
+ * [wheelType](#wheeltype)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -61,7 +61,7 @@ Extends [Element](cp.ui.Element.md)
 ### Constructors
 
 
-### [ColorWheels](#ColorWheels)
+### [ColorWheels](#colorwheels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Extends [Element](cp.ui.Element.md)
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [hueRow](#hueRow)
+### [hueRow](#huerow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [hueSlider](#hueSlider)
+### [hueSlider](#hueslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [hueTextField](#hueTextField)
+### [hueTextField](#huetextfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [maxValue](#maxValue)
+### [maxValue](#maxvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [minValue](#minValue)
+### [minValue](#minvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -186,7 +186,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [mixRow](#mixRow)
+### [mixRow](#mixrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [mixSlider](#mixSlider)
+### [mixSlider](#mixslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [mixTextField](#mixTextField)
+### [mixTextField](#mixtextfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [temperatureRow](#temperatureRow)
+### [temperatureRow](#temperaturerow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -246,7 +246,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [temperatureSlider](#temperatureSlider)
+### [temperatureSlider](#temperatureslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [temperatureTextField](#temperatureTextField)
+### [temperatureTextField](#temperaturetextfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [tintRow](#tintRow)
+### [tintRow](#tintrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [tintSlider](#tintSlider)
+### [tintSlider](#tintslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -296,7 +296,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [tintTextField](#tintTextField)
+### [tintTextField](#tinttextfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -316,7 +316,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [viewingAllWheels](#viewingAllWheels)
+### [viewingAllWheels](#viewingallwheels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -326,7 +326,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [viewMode](#viewMode)
+### [viewMode](#viewmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -336,7 +336,7 @@ Extends [Element](cp.ui.Element.md)
 
 ---
 
-### [wheelType](#wheelType)
+### [wheelType](#wheeltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -348,7 +348,7 @@ Extends [Element](cp.ui.Element.md)
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

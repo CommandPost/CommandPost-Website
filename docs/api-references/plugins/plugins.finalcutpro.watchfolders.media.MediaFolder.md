@@ -9,28 +9,28 @@ Final Cut Pro Media Watch Folder Plugin.
  * [new](#new)
  * [thaw](#thaw)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addIncoming](#addIncoming)
- * [addReady](#addReady)
- * [checkNotifications](#checkNotifications)
+ * [addIncoming](#addincoming)
+ * [addReady](#addready)
+ * [checkNotifications](#checknotifications)
  * [destroy](#destroy)
- * [doDeleteImportedFiles](#doDeleteImportedFiles)
- * [doImportNext](#doImportNext)
- * [doRestoreOriginalPasteboard](#doRestoreOriginalPasteboard)
- * [doRevealInFinder](#doRevealInFinder)
- * [doTagFiles](#doTagFiles)
- * [handleImport](#handleImport)
- * [importAll](#importAll)
- * [importFiles](#importFiles)
- * [importFirst](#importFirst)
- * [importTag](#importTag)
+ * [doDeleteImportedFiles](#dodeleteimportedfiles)
+ * [doImportNext](#doimportnext)
+ * [doRestoreOriginalPasteboard](#dorestoreoriginalpasteboard)
+ * [doRevealInFinder](#dorevealinfinder)
+ * [doTagFiles](#dotagfiles)
+ * [handleImport](#handleimport)
+ * [importAll](#importall)
+ * [importFiles](#importfiles)
+ * [importFirst](#importfirst)
+ * [importTag](#importtag)
  * [init](#init)
- * [processFiles](#processFiles)
- * [removeFile](#removeFile)
+ * [processFiles](#processfiles)
+ * [removeFile](#removefile)
  * [save](#save)
- * [skipAll](#skipAll)
- * [skipOne](#skipOne)
- * [updateIncomingNotification](#updateIncomingNotification)
- * [updateReadyNotification](#updateReadyNotification)
+ * [skipAll](#skipall)
+ * [skipOne](#skipone)
+ * [updateIncomingNotification](#updateincomingnotification)
+ * [updateReadyNotification](#updatereadynotification)
 
 ## API Documentation
 
@@ -80,7 +80,7 @@ Final Cut Pro Media Watch Folder Plugin.
 ### Methods
 
 
-### [addIncoming](#addIncoming)
+### [addIncoming](#addincoming)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [addReady](#addReady)
+### [addReady](#addready)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [checkNotifications](#checkNotifications)
+### [checkNotifications](#checknotifications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [doDeleteImportedFiles](#doDeleteImportedFiles)
+### [doDeleteImportedFiles](#dodeleteimportedfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [doImportNext](#doImportNext)
+### [doImportNext](#doimportnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [doRestoreOriginalPasteboard](#doRestoreOriginalPasteboard)
+### [doRestoreOriginalPasteboard](#dorestoreoriginalpasteboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [doRevealInFinder](#doRevealInFinder)
+### [doRevealInFinder](#dorevealinfinder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [doTagFiles](#doTagFiles)
+### [doTagFiles](#dotagfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [handleImport](#handleImport)
+### [handleImport](#handleimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [importAll](#importAll)
+### [importAll](#importall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [importFiles](#importFiles)
+### [importFiles](#importfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [importFirst](#importFirst)
+### [importFirst](#importfirst)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [importTag](#importTag)
+### [importTag](#importtag)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [processFiles](#processFiles)
+### [processFiles](#processfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [removeFile](#removeFile)
+### [removeFile](#removefile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [skipAll](#skipAll)
+### [skipAll](#skipall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [skipOne](#skipOne)
+### [skipOne](#skipone)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [updateIncomingNotification](#updateIncomingNotification)
+### [updateIncomingNotification](#updateincomingnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ Final Cut Pro Media Watch Folder Plugin.
 
 ---
 
-### [updateReadyNotification](#updateReadyNotification)
+### [updateReadyNotification](#updatereadynotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -8,17 +8,17 @@ This will generally not be created directly, but will be created via subclass su
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [IndexSection](#IndexSection)
+ * [IndexSection](#indexsection)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [activate](#activate)
  * [index](#index)
- * [isShowing](#isShowing)
+ * [isShowing](#isshowing)
  * [search](#search)
- * [UI](#UI)
+ * [UI](#ui)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [doActivateSearch](#doActivateSearch)
- * [doShow](#doShow)
+ * [doActivateSearch](#doactivatesearch)
+ * [doShow](#doshow)
  * [parent](#parent)
 
 ## API Documentation
@@ -26,7 +26,7 @@ This will generally not be created directly, but will be created via subclass su
 ### Constructors
 
 
-### [IndexSection](#IndexSection)
+### [IndexSection](#indexsection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ This will generally not be created directly, but will be created via subclass su
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ This will generally not be created directly, but will be created via subclass su
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ This will generally not be created directly, but will be created via subclass su
 
 ---
 
-### [doActivateSearch](#doActivateSearch)
+### [doActivateSearch](#doactivatesearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ This will generally not be created directly, but will be created via subclass su
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

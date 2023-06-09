@@ -11,61 +11,61 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ## API Overview
 * Variables - Configurable values
- * [strictScreenInDirection](#strictScreenInDirection)
+ * [strictScreenInDirection](#strictscreenindirection)
 * Functions - API calls offered directly by the extension
- * [accessibilitySettings](#accessibilitySettings)
+ * [accessibilitySettings](#accessibilitysettings)
  * [find](#find)
- * [restoreGamma](#restoreGamma)
- * [screenPositions](#screenPositions)
+ * [restoreGamma](#restoregamma)
+ * [screenPositions](#screenpositions)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [allScreens](#allScreens)
- * [mainScreen](#mainScreen)
- * [primaryScreen](#primaryScreen)
+ * [allScreens](#allscreens)
+ * [mainScreen](#mainscreen)
+ * [primaryScreen](#primaryscreen)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [absoluteToLocal](#absoluteToLocal)
- * [availableModes](#availableModes)
- * [currentMode](#currentMode)
- * [desktopImageURL](#desktopImageURL)
+ * [absoluteToLocal](#absolutetolocal)
+ * [availableModes](#availablemodes)
+ * [currentMode](#currentmode)
+ * [desktopImageURL](#desktopimageurl)
  * [frame](#frame)
- * [fromUnitRect](#fromUnitRect)
- * [fullFrame](#fullFrame)
- * [getBrightness](#getBrightness)
- * [getForceToGray](#getForceToGray)
- * [getGamma](#getGamma)
- * [getInfo](#getInfo)
- * [getInvertedPolarity](#getInvertedPolarity)
- * [getUUID](#getUUID)
+ * [fromUnitRect](#fromunitrect)
+ * [fullFrame](#fullframe)
+ * [getBrightness](#getbrightness)
+ * [getForceToGray](#getforcetogray)
+ * [getGamma](#getgamma)
+ * [getInfo](#getinfo)
+ * [getInvertedPolarity](#getinvertedpolarity)
+ * [getUUID](#getuuid)
  * [id](#id)
- * [localToAbsolute](#localToAbsolute)
- * [mirrorOf](#mirrorOf)
- * [mirrorStop](#mirrorStop)
+ * [localToAbsolute](#localtoabsolute)
+ * [mirrorOf](#mirrorof)
+ * [mirrorStop](#mirrorstop)
  * [name](#name)
  * [next](#next)
  * [position](#position)
  * [previous](#previous)
  * [rotate](#rotate)
- * [setBrightness](#setBrightness)
- * [setForceToGray](#setForceToGray)
- * [setGamma](#setGamma)
- * [setInvertedPolarity](#setInvertedPolarity)
- * [setMode](#setMode)
- * [setOrigin](#setOrigin)
- * [setPrimary](#setPrimary)
- * [shotAsJPG](#shotAsJPG)
- * [shotAsPNG](#shotAsPNG)
+ * [setBrightness](#setbrightness)
+ * [setForceToGray](#setforcetogray)
+ * [setGamma](#setgamma)
+ * [setInvertedPolarity](#setinvertedpolarity)
+ * [setMode](#setmode)
+ * [setOrigin](#setorigin)
+ * [setPrimary](#setprimary)
+ * [shotAsJPG](#shotasjpg)
+ * [shotAsPNG](#shotaspng)
  * [snapshot](#snapshot)
- * [toEast](#toEast)
- * [toNorth](#toNorth)
- * [toSouth](#toSouth)
- * [toUnitRect](#toUnitRect)
- * [toWest](#toWest)
+ * [toEast](#toeast)
+ * [toNorth](#tonorth)
+ * [toSouth](#tosouth)
+ * [toUnitRect](#tounitrect)
+ * [toWest](#towest)
 
 ## API Documentation
 
 ### Variables
 
 
-### [strictScreenInDirection](#strictScreenInDirection)
+### [strictScreenInDirection](#strictscreenindirection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 ### Functions
 
 
-### [accessibilitySettings](#accessibilitySettings)
+### [accessibilitySettings](#accessibilitysettings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [restoreGamma](#restoreGamma)
+### [restoreGamma](#restoregamma)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [screenPositions](#screenPositions)
+### [screenPositions](#screenpositions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 ### Constructors
 
 
-### [allScreens](#allScreens)
+### [allScreens](#allscreens)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [mainScreen](#mainScreen)
+### [mainScreen](#mainscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [primaryScreen](#primaryScreen)
+### [primaryScreen](#primaryscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 ### Methods
 
 
-### [absoluteToLocal](#absoluteToLocal)
+### [absoluteToLocal](#absolutetolocal)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [availableModes](#availableModes)
+### [availableModes](#availablemodes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [currentMode](#currentMode)
+### [currentMode](#currentmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [desktopImageURL](#desktopImageURL)
+### [desktopImageURL](#desktopimageurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [fromUnitRect](#fromUnitRect)
+### [fromUnitRect](#fromunitrect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [fullFrame](#fullFrame)
+### [fullFrame](#fullframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getBrightness](#getBrightness)
+### [getBrightness](#getbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getForceToGray](#getForceToGray)
+### [getForceToGray](#getforcetogray)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getGamma](#getGamma)
+### [getGamma](#getgamma)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getInfo](#getInfo)
+### [getInfo](#getinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -321,7 +321,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getInvertedPolarity](#getInvertedPolarity)
+### [getInvertedPolarity](#getinvertedpolarity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -334,7 +334,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [getUUID](#getUUID)
+### [getUUID](#getuuid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -360,7 +360,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [localToAbsolute](#localToAbsolute)
+### [localToAbsolute](#localtoabsolute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -373,7 +373,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [mirrorOf](#mirrorOf)
+### [mirrorOf](#mirrorof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -386,7 +386,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [mirrorStop](#mirrorStop)
+### [mirrorStop](#mirrorstop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -468,7 +468,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setBrightness](#setBrightness)
+### [setBrightness](#setbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -481,7 +481,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setForceToGray](#setForceToGray)
+### [setForceToGray](#setforcetogray)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -494,7 +494,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setGamma](#setGamma)
+### [setGamma](#setgamma)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -513,7 +513,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setInvertedPolarity](#setInvertedPolarity)
+### [setInvertedPolarity](#setinvertedpolarity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -526,7 +526,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setMode](#setMode)
+### [setMode](#setmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -539,7 +539,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setOrigin](#setOrigin)
+### [setOrigin](#setorigin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -552,7 +552,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [setPrimary](#setPrimary)
+### [setPrimary](#setprimary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -565,7 +565,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [shotAsJPG](#shotAsJPG)
+### [shotAsJPG](#shotasjpg)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -578,7 +578,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [shotAsPNG](#shotAsPNG)
+### [shotAsPNG](#shotaspng)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -604,7 +604,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [toEast](#toEast)
+### [toEast](#toeast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -617,7 +617,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [toNorth](#toNorth)
+### [toNorth](#tonorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -630,7 +630,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [toSouth](#toSouth)
+### [toSouth](#tosouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -643,7 +643,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [toUnitRect](#toUnitRect)
+### [toUnitRect](#tounitrect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -656,7 +656,7 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
 
 ---
 
-### [toWest](#toWest)
+### [toWest](#towest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

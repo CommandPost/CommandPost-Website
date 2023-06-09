@@ -9,24 +9,24 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [activate](#activate)
  * [all](#all)
- * [analysisKeywords](#analysisKeywords)
+ * [analysisKeywords](#analysiskeywords)
  * [chapters](#chapters)
- * [completeTodos](#completeTodos)
- * [incompleteTodos](#incompleteTodos)
+ * [completeTodos](#completetodos)
+ * [incompleteTodos](#incompletetodos)
  * [keywords](#keywords)
  * [list](#list)
- * [standardMarkers](#standardMarkers)
+ * [standardMarkers](#standardmarkers)
  * [type](#type)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doLayout](#doLayout)
- * [doShowAll](#doShowAll)
- * [doShowAnalysisKeywords](#doShowAnalysisKeywords)
- * [doShowChapters](#doShowChapters)
- * [doShowCompleteTodos](#doShowCompleteTodos)
- * [doShowIncompleteTodos](#doShowIncompleteTodos)
- * [doShowKeywords](#doShowKeywords)
- * [doShowStandardMarkers](#doShowStandardMarkers)
- * [saveLayout](#saveLayout)
+ * [doLayout](#dolayout)
+ * [doShowAll](#doshowall)
+ * [doShowAnalysisKeywords](#doshowanalysiskeywords)
+ * [doShowChapters](#doshowchapters)
+ * [doShowCompleteTodos](#doshowcompletetodos)
+ * [doShowIncompleteTodos](#doshowincompletetodos)
+ * [doShowKeywords](#doshowkeywords)
+ * [doShowStandardMarkers](#doshowstandardmarkers)
+ * [saveLayout](#savelayout)
 
 ## API Documentation
 
@@ -53,7 +53,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [analysisKeywords](#analysisKeywords)
+### [analysisKeywords](#analysiskeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [completeTodos](#completeTodos)
+### [completeTodos](#completetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [incompleteTodos](#incompleteTodos)
+### [incompleteTodos](#incompletetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [standardMarkers](#standardMarkers)
+### [standardMarkers](#standardmarkers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 ### Methods
 
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowAll](#doShowAll)
+### [doShowAll](#doshowall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowAnalysisKeywords](#doShowAnalysisKeywords)
+### [doShowAnalysisKeywords](#doshowanalysiskeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowChapters](#doShowChapters)
+### [doShowChapters](#doshowchapters)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowCompleteTodos](#doShowCompleteTodos)
+### [doShowCompleteTodos](#doshowcompletetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowIncompleteTodos](#doShowIncompleteTodos)
+### [doShowIncompleteTodos](#doshowincompletetodos)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -213,7 +213,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowKeywords](#doShowKeywords)
+### [doShowKeywords](#doshowkeywords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -226,7 +226,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [doShowStandardMarkers](#doShowStandardMarkers)
+### [doShowStandardMarkers](#doshowstandardmarkers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -239,7 +239,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

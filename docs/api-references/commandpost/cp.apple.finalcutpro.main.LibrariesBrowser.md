@@ -4,53 +4,53 @@ Libraries Browser Module.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [deselectAll](#deselectAll)
- * [indexOfClip](#indexOfClip)
+ * [deselectAll](#deselectall)
+ * [indexOfClip](#indexofclip)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [LibrariesBrowser](#LibrariesBrowser)
+ * [LibrariesBrowser](#librariesbrowser)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [clipFiltering](#clipFiltering)
+ * [clipFiltering](#clipfiltering)
  * [filmstrip](#filmstrip)
- * [isFilmstripView](#isFilmstripView)
- * [isFocused](#isFocused)
- * [isListView](#isListView)
+ * [isFilmstripView](#isfilmstripview)
+ * [isFocused](#isfocused)
+ * [isListView](#islistview)
  * [list](#list)
- * [mainGroupUI](#mainGroupUI)
+ * [mainGroupUI](#maingroupui)
  * [search](#search)
- * [searchToggle](#searchToggle)
- * [toggleViewMode](#toggleViewMode)
+ * [searchToggle](#searchtoggle)
+ * [toggleViewMode](#toggleviewmode)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [clips](#clips)
- * [clipsUI](#clipsUI)
- * [doFindClips](#doFindClips)
- * [doFindClipsTitled](#doFindClipsTitled)
- * [doHide](#doHide)
- * [doOpenClipTitled](#doOpenClipTitled)
- * [doSelectClipTitled](#doSelectClipTitled)
- * [doShow](#doShow)
+ * [clipsUI](#clipsui)
+ * [doFindClips](#dofindclips)
+ * [doFindClipsTitled](#dofindclipstitled)
+ * [doHide](#dohide)
+ * [doOpenClipTitled](#doopencliptitled)
+ * [doSelectClipTitled](#doselectcliptitled)
+ * [doShow](#doshow)
  * [hide](#hide)
- * [loadLayout](#loadLayout)
- * [openClipTitled](#openClipTitled)
+ * [loadLayout](#loadlayout)
+ * [openClipTitled](#opencliptitled)
  * [playhead](#playhead)
- * [saveLayout](#saveLayout)
- * [selectAll](#selectAll)
- * [selectClip](#selectClip)
- * [selectClipAt](#selectClipAt)
- * [selectClipTitled](#selectClipTitled)
- * [selectedClips](#selectedClips)
- * [selectedClipsUI](#selectedClipsUI)
- * [selectLibrary](#selectLibrary)
+ * [saveLayout](#savelayout)
+ * [selectAll](#selectall)
+ * [selectClip](#selectclip)
+ * [selectClipAt](#selectclipat)
+ * [selectClipTitled](#selectcliptitled)
+ * [selectedClips](#selectedclips)
+ * [selectedClipsUI](#selectedclipsui)
+ * [selectLibrary](#selectlibrary)
  * [show](#show)
- * [showClip](#showClip)
+ * [showClip](#showclip)
  * [sidebar](#sidebar)
- * [skimmingPlayhead](#skimmingPlayhead)
+ * [skimmingPlayhead](#skimmingplayhead)
 
 ## API Documentation
 
 ### Functions
 
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Libraries Browser Module.
 
 ---
 
-### [indexOfClip](#indexOfClip)
+### [indexOfClip](#indexofclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Libraries Browser Module.
 ### Constructors
 
 
-### [LibrariesBrowser](#LibrariesBrowser)
+### [LibrariesBrowser](#librariesbrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Libraries Browser Module.
 ### Fields
 
 
-### [clipFiltering](#clipFiltering)
+### [clipFiltering](#clipfiltering)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Libraries Browser Module.
 
 ---
 
-### [isFilmstripView](#isFilmstripView)
+### [isFilmstripView](#isfilmstripview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -123,7 +123,7 @@ Libraries Browser Module.
 
 ---
 
-### [isFocused](#isFocused)
+### [isFocused](#isfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Libraries Browser Module.
 
 ---
 
-### [isListView](#isListView)
+### [isListView](#islistview)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Libraries Browser Module.
 
 ---
 
-### [mainGroupUI](#mainGroupUI)
+### [mainGroupUI](#maingroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Libraries Browser Module.
 
 ---
 
-### [searchToggle](#searchToggle)
+### [searchToggle](#searchtoggle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ Libraries Browser Module.
 
 ---
 
-### [toggleViewMode](#toggleViewMode)
+### [toggleViewMode](#toggleviewmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -208,7 +208,7 @@ Libraries Browser Module.
 
 ---
 
-### [clipsUI](#clipsUI)
+### [clipsUI](#clipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ Libraries Browser Module.
 
 ---
 
-### [doFindClips](#doFindClips)
+### [doFindClips](#dofindclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -234,7 +234,7 @@ Libraries Browser Module.
 
 ---
 
-### [doFindClipsTitled](#doFindClipsTitled)
+### [doFindClipsTitled](#dofindclipstitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ Libraries Browser Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Libraries Browser Module.
 
 ---
 
-### [doOpenClipTitled](#doOpenClipTitled)
+### [doOpenClipTitled](#doopencliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -273,7 +273,7 @@ Libraries Browser Module.
 
 ---
 
-### [doSelectClipTitled](#doSelectClipTitled)
+### [doSelectClipTitled](#doselectcliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ Libraries Browser Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Libraries Browser Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -325,7 +325,7 @@ Libraries Browser Module.
 
 ---
 
-### [openClipTitled](#openClipTitled)
+### [openClipTitled](#opencliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -351,7 +351,7 @@ Libraries Browser Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectAll](#selectAll)
+### [selectAll](#selectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -377,7 +377,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectClip](#selectClip)
+### [selectClip](#selectclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -390,7 +390,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectClipAt](#selectClipAt)
+### [selectClipAt](#selectclipat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -403,7 +403,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectClipTitled](#selectClipTitled)
+### [selectClipTitled](#selectcliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -416,7 +416,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectedClips](#selectedClips)
+### [selectedClips](#selectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -429,7 +429,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectedClipsUI](#selectedClipsUI)
+### [selectedClipsUI](#selectedclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -442,7 +442,7 @@ Libraries Browser Module.
 
 ---
 
-### [selectLibrary](#selectLibrary)
+### [selectLibrary](#selectlibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -468,7 +468,7 @@ Libraries Browser Module.
 
 ---
 
-### [showClip](#showClip)
+### [showClip](#showclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -494,7 +494,7 @@ Libraries Browser Module.
 
 ---
 
-### [skimmingPlayhead](#skimmingPlayhead)
+### [skimmingPlayhead](#skimmingplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

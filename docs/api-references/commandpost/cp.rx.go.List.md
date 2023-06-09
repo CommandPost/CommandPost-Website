@@ -10,17 +10,17 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [List](#List)
+ * [List](#list)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Sorted](#Sorted)
- * [SortedBy](#SortedBy)
+ * [Sorted](#sorted)
+ * [SortedBy](#sortedby)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [List](#List)
+### [List](#list)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 ### Methods
 
 
-### [Sorted](#Sorted)
+### [Sorted](#sorted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 
 ---
 
-### [SortedBy](#SortedBy)
+### [SortedBy](#sortedby)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

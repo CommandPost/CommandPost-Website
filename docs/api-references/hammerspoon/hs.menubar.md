@@ -4,25 +4,25 @@ Create and manage menubar icons
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [imagePositions](#imagePositions)
+ * [imagePositions](#imagepositions)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [autosaveName](#autosaveName)
+ * [autosaveName](#autosavename)
  * [delete](#delete)
  * [frame](#frame)
  * [icon](#icon)
- * [imagePosition](#imagePosition)
- * [isInMenuBar](#isInMenuBar)
- * [popupMenu](#popupMenu)
- * [removeFromMenuBar](#removeFromMenuBar)
- * [returnToMenuBar](#returnToMenuBar)
- * [setClickCallback](#setClickCallback)
- * [setIcon](#setIcon)
- * [setMenu](#setMenu)
- * [setTitle](#setTitle)
- * [setTooltip](#setTooltip)
- * [stateImageSize](#stateImageSize)
+ * [imagePosition](#imageposition)
+ * [isInMenuBar](#isinmenubar)
+ * [popupMenu](#popupmenu)
+ * [removeFromMenuBar](#removefrommenubar)
+ * [returnToMenuBar](#returntomenubar)
+ * [setClickCallback](#setclickcallback)
+ * [setIcon](#seticon)
+ * [setMenu](#setmenu)
+ * [setTitle](#settitle)
+ * [setTooltip](#settooltip)
+ * [stateImageSize](#stateimagesize)
  * [title](#title)
 
 ## API Documentation
@@ -30,7 +30,7 @@ Create and manage menubar icons
 ### Constants
 
 
-### [imagePositions](#imagePositions)
+### [imagePositions](#imagepositions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Create and manage menubar icons
 ### Methods
 
 
-### [autosaveName](#autosaveName)
+### [autosaveName](#autosavename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Create and manage menubar icons
 
 ---
 
-### [imagePosition](#imagePosition)
+### [imagePosition](#imageposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Create and manage menubar icons
 
 ---
 
-### [isInMenuBar](#isInMenuBar)
+### [isInMenuBar](#isinmenubar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Create and manage menubar icons
 
 ---
 
-### [popupMenu](#popupMenu)
+### [popupMenu](#popupmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Create and manage menubar icons
 
 ---
 
-### [removeFromMenuBar](#removeFromMenuBar)
+### [removeFromMenuBar](#removefrommenubar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Create and manage menubar icons
 
 ---
 
-### [returnToMenuBar](#returnToMenuBar)
+### [returnToMenuBar](#returntomenubar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Create and manage menubar icons
 
 ---
 
-### [setClickCallback](#setClickCallback)
+### [setClickCallback](#setclickcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ Create and manage menubar icons
 
 ---
 
-### [setIcon](#setIcon)
+### [setIcon](#seticon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -209,7 +209,7 @@ Create and manage menubar icons
 
 ---
 
-### [setMenu](#setMenu)
+### [setMenu](#setmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Create and manage menubar icons
 
 ---
 
-### [setTitle](#setTitle)
+### [setTitle](#settitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -258,7 +258,7 @@ Create and manage menubar icons
 
 ---
 
-### [setTooltip](#setTooltip)
+### [setTooltip](#settooltip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ Create and manage menubar icons
 
 ---
 
-### [stateImageSize](#stateImageSize)
+### [stateImageSize](#stateimagesize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

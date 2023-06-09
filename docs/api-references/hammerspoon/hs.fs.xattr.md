@@ -20,7 +20,7 @@ Note that the following options did not seem to be valid for the initial tests p
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [get](#get)
- * [getHumanReadable](#getHumanReadable)
+ * [getHumanReadable](#gethumanreadable)
  * [list](#list)
  * [remove](#remove)
  * [set](#set)
@@ -43,7 +43,7 @@ Note that the following options did not seem to be valid for the initial tests p
 
 ---
 
-### [getHumanReadable](#getHumanReadable)
+### [getHumanReadable](#gethumanreadable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

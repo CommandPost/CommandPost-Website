@@ -9,19 +9,19 @@ Text Field Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [convertingGet](#convertingGet)
- * [convertingSet](#convertingSet)
+ * [convertingGet](#convertingget)
+ * [convertingSet](#convertingset)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [clear](#clear)
- * [doConfirm](#doConfirm)
- * [doFocus](#doFocus)
- * [forceFocus](#forceFocus)
- * [getValue](#getValue)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [setValue](#setValue)
- * [TextField](#TextField)
+ * [doConfirm](#doconfirm)
+ * [doFocus](#dofocus)
+ * [forceFocus](#forcefocus)
+ * [getValue](#getvalue)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [setValue](#setvalue)
+ * [TextField](#textfield)
 
 ## API Documentation
 
@@ -43,7 +43,7 @@ Text Field Module.
 ### Fields
 
 
-### [convertingGet](#convertingGet)
+### [convertingGet](#convertingget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Text Field Module.
 
 ---
 
-### [convertingSet](#convertingSet)
+### [convertingSet](#convertingset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Text Field Module.
 
 ---
 
-### [doConfirm](#doConfirm)
+### [doConfirm](#doconfirm)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ Text Field Module.
 
 ---
 
-### [doFocus](#doFocus)
+### [doFocus](#dofocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ Text Field Module.
 
 ---
 
-### [forceFocus](#forceFocus)
+### [forceFocus](#forcefocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ Text Field Module.
 
 ---
 
-### [getValue](#getValue)
+### [getValue](#getvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ Text Field Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Text Field Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ Text Field Module.
 
 ---
 
-### [setValue](#setValue)
+### [setValue](#setvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Text Field Module.
 
 ---
 
-### [TextField](#TextField)
+### [TextField](#textfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

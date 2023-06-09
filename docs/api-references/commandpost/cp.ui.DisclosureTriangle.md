@@ -23,18 +23,18 @@ myButton(false) == false	-- now false
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [DisclosureTriangle](#DisclosureTriangle)
+ * [DisclosureTriangle](#disclosuretriangle)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [opened](#opened)
  * [title](#title)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [click](#click)
- * [doClose](#doClose)
- * [doOpen](#doOpen)
- * [doPress](#doPress)
- * [loadLayout](#loadLayout)
+ * [doClose](#doclose)
+ * [doOpen](#doopen)
+ * [doPress](#dopress)
+ * [loadLayout](#loadlayout)
  * [press](#press)
- * [saveLayout](#saveLayout)
+ * [saveLayout](#savelayout)
  * [toggle](#toggle)
 
 ## API Documentation
@@ -57,7 +57,7 @@ myButton(false) == false	-- now false
 ### Constructors
 
 
-### [DisclosureTriangle](#DisclosureTriangle)
+### [DisclosureTriangle](#disclosuretriangle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doClose](#doClose)
+### [doClose](#doclose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doOpen](#doOpen)
+### [doOpen](#doopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -133,7 +133,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [doPress](#doPress)
+### [doPress](#dopress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -172,7 +172,7 @@ myButton(false) == false	-- now false
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,15 +4,15 @@ Adds preferences for extra FCPXML import and export options.
 
 ## API Overview
 * Variables - Configurable values
- * [exportEnabled](#exportEnabled)
- * [importEnabled](#importEnabled)
+ * [exportEnabled](#exportenabled)
+ * [importEnabled](#importenabled)
 
 ## API Documentation
 
 ### Variables
 
 
-### [exportEnabled](#exportEnabled)
+### [exportEnabled](#exportenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ Adds preferences for extra FCPXML import and export options.
 
 ---
 
-### [importEnabled](#importEnabled)
+### [importEnabled](#importenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

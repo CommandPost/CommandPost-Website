@@ -8,21 +8,21 @@ Requires Final Cut Pro 10.4 or later.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorCurves](#ColorCurves)
+ * [ColorCurves](#colorcurves)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [blue](#blue)
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
  * [green](#green)
  * [luma](#luma)
  * [mix](#mix)
- * [mixRow](#mixRow)
- * [mixSlider](#mixSlider)
- * [preserveLuma](#preserveLuma)
- * [preserveLumaRow](#preserveLumaRow)
+ * [mixRow](#mixrow)
+ * [mixSlider](#mixslider)
+ * [preserveLuma](#preserveluma)
+ * [preserveLumaRow](#preservelumarow)
  * [red](#red)
- * [viewingAllCurves](#viewingAllCurves)
- * [viewModeButton](#viewModeButton)
- * [wheelType](#wheelType)
+ * [viewingAllCurves](#viewingallcurves)
+ * [viewModeButton](#viewmodebutton)
+ * [wheelType](#wheeltype)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [show](#show)
 
@@ -46,7 +46,7 @@ Requires Final Cut Pro 10.4 or later.
 ### Constructors
 
 
-### [ColorCurves](#ColorCurves)
+### [ColorCurves](#colorcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [mixRow](#mixRow)
+### [mixRow](#mixrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [mixSlider](#mixSlider)
+### [mixSlider](#mixslider)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [preserveLuma](#preserveLuma)
+### [preserveLuma](#preserveluma)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [preserveLumaRow](#preserveLumaRow)
+### [preserveLumaRow](#preservelumarow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [viewingAllCurves](#viewingAllCurves)
+### [viewingAllCurves](#viewingallcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [viewModeButton](#viewModeButton)
+### [viewModeButton](#viewmodebutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -181,7 +181,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ---
 
-### [wheelType](#wheelType)
+### [wheelType](#wheeltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

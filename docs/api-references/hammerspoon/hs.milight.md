@@ -4,26 +4,26 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [maxBrightness](#maxBrightness)
- * [minBrightness](#minBrightness)
+ * [maxBrightness](#maxbrightness)
+ * [minBrightness](#minbrightness)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [delete](#delete)
  * [disco](#disco)
  * [send](#send)
- * [zoneBrightness](#zoneBrightness)
- * [zoneColor](#zoneColor)
- * [zoneOff](#zoneOff)
- * [zoneOn](#zoneOn)
- * [zoneWhite](#zoneWhite)
+ * [zoneBrightness](#zonebrightness)
+ * [zoneColor](#zonecolor)
+ * [zoneOff](#zoneoff)
+ * [zoneOn](#zoneon)
+ * [zoneWhite](#zonewhite)
 
 ## API Documentation
 
 ### Constants
 
 
-### [maxBrightness](#maxBrightness)
+### [maxBrightness](#maxbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [minBrightness](#minBrightness)
+### [minBrightness](#minbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [zoneBrightness](#zoneBrightness)
+### [zoneBrightness](#zonebrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [zoneColor](#zoneColor)
+### [zoneColor](#zonecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [zoneOff](#zoneOff)
+### [zoneOff](#zoneoff)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [zoneOn](#zoneOn)
+### [zoneOn](#zoneon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
 
 ---
 
-### [zoneWhite](#zoneWhite)
+### [zoneWhite](#zonewhite)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

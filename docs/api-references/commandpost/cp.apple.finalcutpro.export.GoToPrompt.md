@@ -9,14 +9,14 @@ Go To Prompt.
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cancel](#cancel)
  * [go](#go)
- * [valueCombo](#valueCombo)
- * [valueText](#valueText)
+ * [valueCombo](#valuecombo)
+ * [valueText](#valuetext)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [hide](#hide)
- * [setValue](#setValue)
+ * [setValue](#setvalue)
  * [show](#show)
  * [value](#value)
- * [valueField](#valueField)
+ * [valueField](#valuefield)
 
 ## API Documentation
 
@@ -71,7 +71,7 @@ Go To Prompt.
 
 ---
 
-### [valueCombo](#valueCombo)
+### [valueCombo](#valuecombo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Go To Prompt.
 
 ---
 
-### [valueText](#valueText)
+### [valueText](#valuetext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Go To Prompt.
 
 ---
 
-### [setValue](#setValue)
+### [setValue](#setvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Go To Prompt.
 
 ---
 
-### [valueField](#valueField)
+### [valueField](#valuefield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

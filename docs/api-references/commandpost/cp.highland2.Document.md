@@ -6,15 +6,15 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [documentPath](#documentPath)
- * [doShow](#doShow)
- * [revisionMode](#revisionMode)
+ * [documentPath](#documentpath)
+ * [doShow](#doshow)
+ * [revisionMode](#revisionmode)
  * [sidebar](#sidebar)
  * [splitter](#splitter)
  * [sprint](#sprint)
- * [templatePicker](#templatePicker)
+ * [templatePicker](#templatepicker)
  * [text](#text)
- * [themePicker](#themePicker)
+ * [themePicker](#themepicker)
 
 ## API Documentation
 
@@ -36,7 +36,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 ### Fields
 
 
-### [documentPath](#documentPath)
+### [documentPath](#documentpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 
 ---
 
-### [revisionMode](#revisionMode)
+### [revisionMode](#revisionmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 
 ---
 
-### [templatePicker](#templatePicker)
+### [templatePicker](#templatepicker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 
 ---
 
-### [themePicker](#themePicker)
+### [themePicker](#themepicker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

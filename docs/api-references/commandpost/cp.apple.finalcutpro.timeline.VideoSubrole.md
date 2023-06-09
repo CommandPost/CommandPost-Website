@@ -6,14 +6,14 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [VideoSubrole](#VideoSubrole)
+ * [VideoSubrole](#videosubrole)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [VideoSubrole](#VideoSubrole)
+### [VideoSubrole](#videosubrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

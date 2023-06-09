@@ -4,47 +4,47 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [cellTextValue](#cellTextValue)
- * [cellTextValueIs](#cellTextValueIs)
- * [discloseRow](#discloseRow)
- * [findRow](#findRow)
+ * [cellTextValue](#celltextvalue)
+ * [cellTextValueIs](#celltextvalueis)
+ * [discloseRow](#discloserow)
+ * [findRow](#findrow)
  * [is](#is)
  * [matches](#matches)
- * [matchesContent](#matchesContent)
- * [visitRow](#visitRow)
+ * [matchesContent](#matchescontent)
+ * [visitRow](#visitrow)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [OldTable](#OldTable)
+ * [OldTable](#oldtable)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
- * [horizontalScrollBarUI](#horizontalScrollBarUI)
- * [isFocused](#isFocused)
- * [verticalScrollBarUI](#verticalScrollBarUI)
+ * [contentUI](#contentui)
+ * [horizontalScrollBarUI](#horizontalscrollbarui)
+ * [isFocused](#isfocused)
+ * [verticalScrollBarUI](#verticalscrollbarui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [columnsUI](#columnsUI)
- * [deselectAll](#deselectAll)
- * [deselectRow](#deselectRow)
- * [deselectRowAt](#deselectRowAt)
- * [findCellUI](#findCellUI)
- * [findColumnIndex](#findColumnIndex)
- * [loadLayout](#loadLayout)
- * [rowsUI](#rowsUI)
- * [saveLayout](#saveLayout)
- * [selectAll](#selectAll)
- * [selectedRowsUI](#selectedRowsUI)
- * [selectRow](#selectRow)
- * [selectRowAt](#selectRowAt)
- * [showRow](#showRow)
- * [showRowAt](#showRowAt)
- * [toCSV](#toCSV)
- * [topRowsUI](#topRowsUI)
- * [viewFrame](#viewFrame)
+ * [columnsUI](#columnsui)
+ * [deselectAll](#deselectall)
+ * [deselectRow](#deselectrow)
+ * [deselectRowAt](#deselectrowat)
+ * [findCellUI](#findcellui)
+ * [findColumnIndex](#findcolumnindex)
+ * [loadLayout](#loadlayout)
+ * [rowsUI](#rowsui)
+ * [saveLayout](#savelayout)
+ * [selectAll](#selectall)
+ * [selectedRowsUI](#selectedrowsui)
+ * [selectRow](#selectrow)
+ * [selectRowAt](#selectrowat)
+ * [showRow](#showrow)
+ * [showRowAt](#showrowat)
+ * [toCSV](#tocsv)
+ * [topRowsUI](#toprowsui)
+ * [viewFrame](#viewframe)
 
 ## API Documentation
 
 ### Functions
 
 
-### [cellTextValue](#cellTextValue)
+### [cellTextValue](#celltextvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [cellTextValueIs](#cellTextValueIs)
+### [cellTextValueIs](#celltextvalueis)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [discloseRow](#discloseRow)
+### [discloseRow](#discloserow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [findRow](#findRow)
+### [findRow](#findrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [matchesContent](#matchesContent)
+### [matchesContent](#matchescontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [visitRow](#visitRow)
+### [visitRow](#visitrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 ### Constructors
 
 
-### [OldTable](#OldTable)
+### [OldTable](#oldtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [horizontalScrollBarUI](#horizontalScrollBarUI)
+### [horizontalScrollBarUI](#horizontalscrollbarui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [isFocused](#isFocused)
+### [isFocused](#isfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [verticalScrollBarUI](#verticalScrollBarUI)
+### [verticalScrollBarUI](#verticalscrollbarui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 ### Methods
 
 
-### [columnsUI](#columnsUI)
+### [columnsUI](#columnsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [deselectRow](#deselectRow)
+### [deselectRow](#deselectrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -246,7 +246,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [deselectRowAt](#deselectRowAt)
+### [deselectRowAt](#deselectrowat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -259,7 +259,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [findCellUI](#findCellUI)
+### [findCellUI](#findcellui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -272,7 +272,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [findColumnIndex](#findColumnIndex)
+### [findColumnIndex](#findcolumnindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -285,7 +285,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -298,7 +298,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [rowsUI](#rowsUI)
+### [rowsUI](#rowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -311,7 +311,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -324,7 +324,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [selectAll](#selectAll)
+### [selectAll](#selectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -337,7 +337,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [selectedRowsUI](#selectedRowsUI)
+### [selectedRowsUI](#selectedrowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -350,7 +350,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [selectRow](#selectRow)
+### [selectRow](#selectrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -363,7 +363,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [selectRowAt](#selectRowAt)
+### [selectRowAt](#selectrowat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -376,7 +376,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [showRow](#showRow)
+### [showRow](#showrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -389,7 +389,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [showRowAt](#showRowAt)
+### [showRowAt](#showrowat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -402,7 +402,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [toCSV](#toCSV)
+### [toCSV](#tocsv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -415,7 +415,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [topRowsUI](#topRowsUI)
+### [topRowsUI](#toprowsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -428,7 +428,7 @@ Represents an AXTable in the Apple Accessibility UX API.
 
 ---
 
-### [viewFrame](#viewFrame)
+### [viewFrame](#viewframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

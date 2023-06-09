@@ -17,18 +17,18 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [echoRequest](#echoRequest)
+ * [echoRequest](#echorequest)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [acceptAddressFamily](#acceptAddressFamily)
- * [hostAddress](#hostAddress)
- * [hostAddressFamily](#hostAddressFamily)
- * [hostName](#hostName)
+ * [acceptAddressFamily](#acceptaddressfamily)
+ * [hostAddress](#hostaddress)
+ * [hostAddressFamily](#hostaddressfamily)
+ * [hostName](#hostname)
  * [identifier](#identifier)
- * [isRunning](#isRunning)
- * [nextSequenceNumber](#nextSequenceNumber)
- * [seeAllUnexpectedPackets](#seeAllUnexpectedPackets)
- * [sendPayload](#sendPayload)
- * [setCallback](#setCallback)
+ * [isRunning](#isrunning)
+ * [nextSequenceNumber](#nextsequencenumber)
+ * [seeAllUnexpectedPackets](#seeallunexpectedpackets)
+ * [sendPayload](#sendpayload)
+ * [setCallback](#setcallback)
  * [start](#start)
  * [stop](#stop)
 
@@ -37,7 +37,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 ### Constructors
 
 
-### [echoRequest](#echoRequest)
+### [echoRequest](#echorequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 ### Methods
 
 
-### [acceptAddressFamily](#acceptAddressFamily)
+### [acceptAddressFamily](#acceptaddressfamily)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [hostAddress](#hostAddress)
+### [hostAddress](#hostaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [hostAddressFamily](#hostAddressFamily)
+### [hostAddressFamily](#hostaddressfamily)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [hostName](#hostName)
+### [hostName](#hostname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [nextSequenceNumber](#nextSequenceNumber)
+### [nextSequenceNumber](#nextsequencenumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [seeAllUnexpectedPackets](#seeAllUnexpectedPackets)
+### [seeAllUnexpectedPackets](#seeallunexpectedpackets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [sendPayload](#sendPayload)
+### [sendPayload](#sendpayload)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

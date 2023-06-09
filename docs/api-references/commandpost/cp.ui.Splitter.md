@@ -4,17 +4,17 @@ Represents an `AXSplitter`.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [HORIZONTAL_ORIENTATION](#HORIZONTAL_ORIENTATION)
- * [VERTICAL_ORIENTATION](#VERTICAL_ORIENTATION)
+ * [HORIZONTAL_ORIENTATION](#horizontal_orientation)
+ * [VERTICAL_ORIENTATION](#vertical_orientation)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [horizontal](#horizontal)
- * [maxValue](#maxValue)
- * [minValue](#minValue)
- * [nextContentsUI](#nextContentsUI)
+ * [maxValue](#maxvalue)
+ * [minValue](#minvalue)
+ * [nextContentsUI](#nextcontentsui)
  * [orientation](#orientation)
- * [previousContentsUI](#previousContentsUI)
+ * [previousContentsUI](#previouscontentsui)
  * [vertical](#vertical)
 
 ## API Documentation
@@ -22,7 +22,7 @@ Represents an `AXSplitter`.
 ### Constants
 
 
-### [HORIZONTAL_ORIENTATION](#HORIZONTAL_ORIENTATION)
+### [HORIZONTAL_ORIENTATION](#horizontal_orientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Represents an `AXSplitter`.
 
 ---
 
-### [VERTICAL_ORIENTATION](#VERTICAL_ORIENTATION)
+### [VERTICAL_ORIENTATION](#vertical_orientation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Represents an `AXSplitter`.
 
 ---
 
-### [maxValue](#maxValue)
+### [maxValue](#maxvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Represents an `AXSplitter`.
 
 ---
 
-### [minValue](#minValue)
+### [minValue](#minvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Represents an `AXSplitter`.
 
 ---
 
-### [nextContentsUI](#nextContentsUI)
+### [nextContentsUI](#nextcontentsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Represents an `AXSplitter`.
 
 ---
 
-### [previousContentsUI](#previousContentsUI)
+### [previousContentsUI](#previouscontentsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

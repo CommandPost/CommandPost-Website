@@ -21,10 +21,10 @@ return describe "a specification" {
 * Functions - API calls offered directly by the extension
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Specification](#Specification)
+ * [Specification](#specification)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [onAfterEach](#onAfterEach)
- * [onBeforeEach](#onBeforeEach)
+ * [onAfterEach](#onaftereach)
+ * [onBeforeEach](#onbeforeeach)
  * [run](#run)
  * [with](#with)
 
@@ -48,7 +48,7 @@ return describe "a specification" {
 ### Constructors
 
 
-### [Specification](#Specification)
+### [Specification](#specification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ return describe "a specification" {
 ### Methods
 
 
-### [onAfterEach](#onAfterEach)
+### [onAfterEach](#onaftereach)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ return describe "a specification" {
 
 ---
 
-### [onBeforeEach](#onBeforeEach)
+### [onBeforeEach](#onbeforeeach)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

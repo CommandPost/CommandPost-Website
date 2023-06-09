@@ -6,9 +6,9 @@ The `TopProperties` class is used to represent the top properties group of the A
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [TopProperties](#TopProperties)
+ * [TopProperties](#topproperties)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
 
 ## API Documentation
 
@@ -30,7 +30,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 ### Constructors
 
 
-### [TopProperties](#TopProperties)
+### [TopProperties](#topproperties)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 ### Fields
 
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

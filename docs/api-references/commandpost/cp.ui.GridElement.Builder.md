@@ -4,16 +4,16 @@ A `Builder` for `GridElement`s.
 
 ## API Overview
 * Methods - API calls which can only be made on an object returned by a constructor
- * [withColumnsOf](#withColumnsOf)
- * [withHeaderOf](#withHeaderOf)
- * [withRowsOf](#withRowsOf)
+ * [withColumnsOf](#withcolumnsof)
+ * [withHeaderOf](#withheaderof)
+ * [withRowsOf](#withrowsof)
 
 ## API Documentation
 
 ### Methods
 
 
-### [withColumnsOf](#withColumnsOf)
+### [withColumnsOf](#withcolumnsof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ A `Builder` for `GridElement`s.
 
 ---
 
-### [withHeaderOf](#withHeaderOf)
+### [withHeaderOf](#withheaderof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ A `Builder` for `GridElement`s.
 
 ---
 
-### [withRowsOf](#withRowsOf)
+### [withRowsOf](#withrowsof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

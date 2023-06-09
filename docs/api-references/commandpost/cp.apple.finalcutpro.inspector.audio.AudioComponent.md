@@ -4,14 +4,14 @@ The Audio Configuration section of the Audio Inspector.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [AudioComponent](#AudioComponent)
+ * [AudioComponent](#audiocomponent)
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [channels](#channels)
  * [role](#role)
- * [showAs](#showAs)
+ * [showAs](#showas)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [enabled](#enabled)
  * [show](#show)
 
@@ -20,7 +20,7 @@ The Audio Configuration section of the Audio Inspector.
 ### Functions
 
 
-### [AudioComponent](#AudioComponent)
+### [AudioComponent](#audiocomponent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ The Audio Configuration section of the Audio Inspector.
 
 ---
 
-### [showAs](#showAs)
+### [showAs](#showas)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ The Audio Configuration section of the Audio Inspector.
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

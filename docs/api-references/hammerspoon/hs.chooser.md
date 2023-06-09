@@ -7,34 +7,34 @@ Notes:
 
 ## API Overview
 * Variables - Configurable values
- * [globalCallback](#globalCallback)
+ * [globalCallback](#globalcallback)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [attachedToolbar](#attachedToolbar)
- * [bgDark](#bgDark)
+ * [attachedToolbar](#attachedtoolbar)
+ * [bgDark](#bgdark)
  * [cancel](#cancel)
  * [choices](#choices)
  * [delete](#delete)
- * [enableDefaultForQuery](#enableDefaultForQuery)
- * [fgColor](#fgColor)
+ * [enableDefaultForQuery](#enabledefaultforquery)
+ * [fgColor](#fgcolor)
  * [hide](#hide)
- * [hideCallback](#hideCallback)
- * [invalidCallback](#invalidCallback)
- * [isVisible](#isVisible)
- * [placeholderText](#placeholderText)
+ * [hideCallback](#hidecallback)
+ * [invalidCallback](#invalidcallback)
+ * [isVisible](#isvisible)
+ * [placeholderText](#placeholdertext)
  * [query](#query)
- * [queryChangedCallback](#queryChangedCallback)
- * [refreshChoicesCallback](#refreshChoicesCallback)
- * [rightClickCallback](#rightClickCallback)
+ * [queryChangedCallback](#querychangedcallback)
+ * [refreshChoicesCallback](#refreshchoicescallback)
+ * [rightClickCallback](#rightclickcallback)
  * [rows](#rows)
- * [searchSubText](#searchSubText)
+ * [searchSubText](#searchsubtext)
  * [select](#select)
- * [selectedRow](#selectedRow)
- * [selectedRowContents](#selectedRowContents)
+ * [selectedRow](#selectedrow)
+ * [selectedRowContents](#selectedrowcontents)
  * [show](#show)
- * [showCallback](#showCallback)
- * [subTextColor](#subTextColor)
+ * [showCallback](#showcallback)
+ * [subTextColor](#subtextcolor)
  * [width](#width)
 
 ## API Documentation
@@ -42,7 +42,7 @@ Notes:
 ### Variables
 
 
-### [globalCallback](#globalCallback)
+### [globalCallback](#globalcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Notes:
 ### Methods
 
 
-### [attachedToolbar](#attachedToolbar)
+### [attachedToolbar](#attachedtoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Notes:
 
 ---
 
-### [bgDark](#bgDark)
+### [bgDark](#bgdark)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Notes:
 
 ---
 
-### [enableDefaultForQuery](#enableDefaultForQuery)
+### [enableDefaultForQuery](#enabledefaultforquery)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ Notes:
 
 ---
 
-### [fgColor](#fgColor)
+### [fgColor](#fgcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Notes:
 
 ---
 
-### [hideCallback](#hideCallback)
+### [hideCallback](#hidecallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -187,7 +187,7 @@ Notes:
 
 ---
 
-### [invalidCallback](#invalidCallback)
+### [invalidCallback](#invalidcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Notes:
 
 ---
 
-### [isVisible](#isVisible)
+### [isVisible](#isvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -213,7 +213,7 @@ Notes:
 
 ---
 
-### [placeholderText](#placeholderText)
+### [placeholderText](#placeholdertext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -239,7 +239,7 @@ Notes:
 
 ---
 
-### [queryChangedCallback](#queryChangedCallback)
+### [queryChangedCallback](#querychangedcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -252,7 +252,7 @@ Notes:
 
 ---
 
-### [refreshChoicesCallback](#refreshChoicesCallback)
+### [refreshChoicesCallback](#refreshchoicescallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -265,7 +265,7 @@ Notes:
 
 ---
 
-### [rightClickCallback](#rightClickCallback)
+### [rightClickCallback](#rightclickcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -291,7 +291,7 @@ Notes:
 
 ---
 
-### [searchSubText](#searchSubText)
+### [searchSubText](#searchsubtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -317,7 +317,7 @@ Notes:
 
 ---
 
-### [selectedRow](#selectedRow)
+### [selectedRow](#selectedrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -330,7 +330,7 @@ Notes:
 
 ---
 
-### [selectedRowContents](#selectedRowContents)
+### [selectedRowContents](#selectedrowcontents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -356,7 +356,7 @@ Notes:
 
 ---
 
-### [showCallback](#showCallback)
+### [showCallback](#showcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -369,7 +369,7 @@ Notes:
 
 ---
 
-### [subTextColor](#subTextColor)
+### [subTextColor](#subtextcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

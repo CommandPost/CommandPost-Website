@@ -6,7 +6,7 @@ UI Text Area.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [TextArea](#TextArea)
+ * [TextArea](#textarea)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -33,7 +33,7 @@ UI Text Area.
 ### Constructors
 
 
-### [TextArea](#TextArea)
+### [TextArea](#textarea)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

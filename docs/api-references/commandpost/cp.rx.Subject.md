@@ -8,9 +8,9 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 * Constructors - API calls which return an object, typically one that offers API methods
  * [create](#create)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [onCompleted](#onCompleted)
- * [onError](#onError)
- * [onNext](#onNext)
+ * [onCompleted](#oncompleted)
+ * [onError](#onerror)
+ * [onNext](#onnext)
  * [subscribe](#subscribe)
 
 ## API Documentation
@@ -33,7 +33,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 ### Methods
 
 
-### [onCompleted](#onCompleted)
+### [onCompleted](#oncompleted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 
 ---
 
-### [onError](#onError)
+### [onError](#onerror)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 
 ---
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

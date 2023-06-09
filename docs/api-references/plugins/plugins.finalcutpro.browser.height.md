@@ -4,16 +4,16 @@ Shortcut for changing Final Cut Pro's Browser Height
 
 ## API Overview
 * Variables - Configurable values
- * [changeBrowserClipHeightAlreadyInProgress](#changeBrowserClipHeightAlreadyInProgress)
+ * [changeBrowserClipHeightAlreadyInProgress](#changebrowserclipheightalreadyinprogress)
 * Functions - API calls offered directly by the extension
- * [changeBrowserClipHeight](#changeBrowserClipHeight)
+ * [changeBrowserClipHeight](#changebrowserclipheight)
 
 ## API Documentation
 
 ### Variables
 
 
-### [changeBrowserClipHeightAlreadyInProgress](#changeBrowserClipHeightAlreadyInProgress)
+### [changeBrowserClipHeightAlreadyInProgress](#changebrowserclipheightalreadyinprogress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Shortcut for changing Final Cut Pro's Browser Height
 ### Functions
 
 
-### [changeBrowserClipHeight](#changeBrowserClipHeight)
+### [changeBrowserClipHeight](#changebrowserclipheight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

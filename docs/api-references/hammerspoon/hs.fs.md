@@ -12,30 +12,30 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 * Functions - API calls offered directly by the extension
  * [attributes](#attributes)
  * [chdir](#chdir)
- * [currentDir](#currentDir)
+ * [currentDir](#currentdir)
  * [dir](#dir)
- * [displayName](#displayName)
- * [fileUTI](#fileUTI)
- * [fileUTIalternate](#fileUTIalternate)
- * [getFinderComments](#getFinderComments)
+ * [displayName](#displayname)
+ * [fileUTI](#fileuti)
+ * [fileUTIalternate](#fileutialternate)
+ * [getFinderComments](#getfindercomments)
  * [link](#link)
  * [lock](#lock)
- * [lockDir](#lockDir)
+ * [lockDir](#lockdir)
  * [mkdir](#mkdir)
- * [pathFromBookmark](#pathFromBookmark)
- * [pathToAbsolute](#pathToAbsolute)
- * [pathToBookmark](#pathToBookmark)
+ * [pathFromBookmark](#pathfrombookmark)
+ * [pathToAbsolute](#pathtoabsolute)
+ * [pathToBookmark](#pathtobookmark)
  * [rmdir](#rmdir)
- * [setFinderComments](#setFinderComments)
- * [symlinkAttributes](#symlinkAttributes)
- * [tagsAdd](#tagsAdd)
- * [tagsGet](#tagsGet)
- * [tagsRemove](#tagsRemove)
- * [tagsSet](#tagsSet)
- * [temporaryDirectory](#temporaryDirectory)
+ * [setFinderComments](#setfindercomments)
+ * [symlinkAttributes](#symlinkattributes)
+ * [tagsAdd](#tagsadd)
+ * [tagsGet](#tagsget)
+ * [tagsRemove](#tagsremove)
+ * [tagsSet](#tagsset)
+ * [temporaryDirectory](#temporarydirectory)
  * [touch](#touch)
  * [unlock](#unlock)
- * [urlFromPath](#urlFromPath)
+ * [urlFromPath](#urlfrompath)
 
 ## API Documentation
 
@@ -68,7 +68,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [currentDir](#currentDir)
+### [currentDir](#currentdir)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [displayName](#displayName)
+### [displayName](#displayname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -107,7 +107,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [fileUTI](#fileUTI)
+### [fileUTI](#fileuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -120,7 +120,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [fileUTIalternate](#fileUTIalternate)
+### [fileUTIalternate](#fileutialternate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [getFinderComments](#getFinderComments)
+### [getFinderComments](#getfindercomments)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [lockDir](#lockDir)
+### [lockDir](#lockdir)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -201,7 +201,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [pathFromBookmark](#pathFromBookmark)
+### [pathFromBookmark](#pathfrombookmark)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [pathToAbsolute](#pathToAbsolute)
+### [pathToAbsolute](#pathtoabsolute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [pathToBookmark](#pathToBookmark)
+### [pathToBookmark](#pathtobookmark)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [setFinderComments](#setFinderComments)
+### [setFinderComments](#setfindercomments)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [symlinkAttributes](#symlinkAttributes)
+### [symlinkAttributes](#symlinkattributes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [tagsAdd](#tagsAdd)
+### [tagsAdd](#tagsadd)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [tagsGet](#tagsGet)
+### [tagsGet](#tagsget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [tagsRemove](#tagsRemove)
+### [tagsRemove](#tagsremove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -318,7 +318,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [tagsSet](#tagsSet)
+### [tagsSet](#tagsset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -331,7 +331,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [temporaryDirectory](#temporaryDirectory)
+### [temporaryDirectory](#temporarydirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -370,7 +370,7 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
 
 ---
 
-### [urlFromPath](#urlFromPath)
+### [urlFromPath](#urlfrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

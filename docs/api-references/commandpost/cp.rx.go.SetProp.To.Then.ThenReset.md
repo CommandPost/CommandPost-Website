@@ -4,14 +4,14 @@ A `Statement.Modifier` that specifies that the `cp.prop` is reset to its origina
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [ThenReset](#ThenReset)
+ * [ThenReset](#thenreset)
 
 ## API Documentation
 
 ### Constants
 
 
-### [ThenReset](#ThenReset)
+### [ThenReset](#thenreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

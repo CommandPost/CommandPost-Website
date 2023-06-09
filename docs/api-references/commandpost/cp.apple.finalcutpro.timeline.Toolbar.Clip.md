@@ -4,18 +4,18 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [audioSkimming](#audioSkimming)
+ * [audioSkimming](#audioskimming)
  * [skimming](#skimming)
  * [snapping](#snapping)
  * [solo](#solo)
- * [trimAlignedEdges](#trimAlignedEdges)
+ * [trimAlignedEdges](#trimalignededges)
 
 ## API Documentation
 
 ### Fields
 
 
-### [audioSkimming](#audioSkimming)
+### [audioSkimming](#audioskimming)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 
 ---
 
-### [trimAlignedEdges](#trimAlignedEdges)
+### [trimAlignedEdges](#trimalignededges)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

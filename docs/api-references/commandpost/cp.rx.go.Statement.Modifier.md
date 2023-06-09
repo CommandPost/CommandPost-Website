@@ -13,7 +13,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
  * [is](#is)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [context](#context)
- * [toObservable](#toObservable)
+ * [toObservable](#toobservable)
 
 ## API Documentation
 
@@ -48,7 +48,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 
 ---
 
-### [toObservable](#toObservable)
+### [toObservable](#toobservable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

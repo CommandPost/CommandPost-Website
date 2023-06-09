@@ -8,13 +8,13 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [FullScreenPlayer](#FullScreenPlayer)
+ * [FullScreenPlayer](#fullscreenplayer)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [isFullScreen](#isFullScreen)
- * [rootGroupUI](#rootGroupUI)
- * [viewerGroupUI](#viewerGroupUI)
+ * [isFullScreen](#isfullscreen)
+ * [rootGroupUI](#rootgroupui)
+ * [viewerGroupUI](#viewergroupui)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doShow](#doShow)
+ * [doShow](#doshow)
  * [show](#show)
 
 ## API Documentation
@@ -37,7 +37,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 ### Constructors
 
 
-### [FullScreenPlayer](#FullScreenPlayer)
+### [FullScreenPlayer](#fullscreenplayer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 ### Fields
 
 
-### [isFullScreen](#isFullScreen)
+### [isFullScreen](#isfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 
 ---
 
-### [rootGroupUI](#rootGroupUI)
+### [rootGroupUI](#rootgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 
 ---
 
-### [viewerGroupUI](#viewerGroupUI)
+### [viewerGroupUI](#viewergroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 ### Methods
 
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

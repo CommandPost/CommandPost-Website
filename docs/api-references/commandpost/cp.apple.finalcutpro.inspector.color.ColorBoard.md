@@ -6,29 +6,29 @@ Color Board Module.
 * Constants - Useful values which cannot be changed
  * [aspect](#aspect)
 * Variables - Configurable values
- * [currentAspect](#currentAspect)
+ * [currentAspect](#currentaspect)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorBoard](#ColorBoard)
+ * [ColorBoard](#colorboard)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [aspectGroup](#aspectGroup)
+ * [aspectGroup](#aspectgroup)
  * [color](#color)
- * [contentUI](#contentUI)
+ * [contentUI](#contentui)
  * [exposure](#exposure)
- * [isActive](#isActive)
- * [isShowing](#isShowing)
+ * [isActive](#isactive)
+ * [isShowing](#isshowing)
  * [saturation](#saturation)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [childUI](#childUI)
+ * [childUI](#childui)
  * [current](#current)
- * [doHide](#doHide)
- * [doNextAspect](#doNextAspect)
- * [doResetCurrent](#doResetCurrent)
- * [doSelectAspect](#doSelectAspect)
- * [doShow](#doShow)
+ * [doHide](#dohide)
+ * [doNextAspect](#donextaspect)
+ * [doResetCurrent](#doresetcurrent)
+ * [doSelectAspect](#doselectaspect)
+ * [doShow](#doshow)
  * [hide](#hide)
- * [nextAspect](#nextAspect)
+ * [nextAspect](#nextaspect)
  * [reset](#reset)
  * [show](#show)
 
@@ -49,7 +49,7 @@ Color Board Module.
 ### Variables
 
 
-### [currentAspect](#currentAspect)
+### [currentAspect](#currentaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Color Board Module.
 ### Constructors
 
 
-### [ColorBoard](#ColorBoard)
+### [ColorBoard](#colorboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Color Board Module.
 ### Fields
 
 
-### [aspectGroup](#aspectGroup)
+### [aspectGroup](#aspectgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Color Board Module.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Color Board Module.
 
 ---
 
-### [isActive](#isActive)
+### [isActive](#isactive)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Color Board Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ Color Board Module.
 ### Methods
 
 
-### [childUI](#childUI)
+### [childUI](#childui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Color Board Module.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ Color Board Module.
 
 ---
 
-### [doNextAspect](#doNextAspect)
+### [doNextAspect](#donextaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ Color Board Module.
 
 ---
 
-### [doResetCurrent](#doResetCurrent)
+### [doResetCurrent](#doresetcurrent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ Color Board Module.
 
 ---
 
-### [doSelectAspect](#doSelectAspect)
+### [doSelectAspect](#doselectaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ Color Board Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ Color Board Module.
 
 ---
 
-### [nextAspect](#nextAspect)
+### [nextAspect](#nextaspect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

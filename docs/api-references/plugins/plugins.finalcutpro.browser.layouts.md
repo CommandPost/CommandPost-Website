@@ -36,17 +36,17 @@ file.
 ## API Overview
 * Variables - Configurable values
  * [busy](#busy)
- * [lastCollection](#lastCollection)
+ * [lastCollection](#lastcollection)
 * Functions - API calls offered directly by the extension
- * [getActiveColumnsNames](#getActiveColumnsNames)
- * [getClipNameSize](#getClipNameSize)
- * [getSingleSelectedCollection](#getSingleSelectedCollection)
- * [resetBrowserLayoutForSelectedCollection](#resetBrowserLayoutForSelectedCollection)
- * [restoreBrowserLayoutForSelectedCollection](#restoreBrowserLayoutForSelectedCollection)
- * [restoreLayoutFromTable](#restoreLayoutFromTable)
- * [saveBrowserLayoutForSelectedCollection](#saveBrowserLayoutForSelectedCollection)
- * [saveLayoutToTable](#saveLayoutToTable)
- * [setupWatcher](#setupWatcher)
+ * [getActiveColumnsNames](#getactivecolumnsnames)
+ * [getClipNameSize](#getclipnamesize)
+ * [getSingleSelectedCollection](#getsingleselectedcollection)
+ * [resetBrowserLayoutForSelectedCollection](#resetbrowserlayoutforselectedcollection)
+ * [restoreBrowserLayoutForSelectedCollection](#restorebrowserlayoutforselectedcollection)
+ * [restoreLayoutFromTable](#restorelayoutfromtable)
+ * [saveBrowserLayoutForSelectedCollection](#savebrowserlayoutforselectedcollection)
+ * [saveLayoutToTable](#savelayouttotable)
+ * [setupWatcher](#setupwatcher)
 
 ## API Documentation
 
@@ -63,7 +63,7 @@ file.
 
 ---
 
-### [lastCollection](#lastCollection)
+### [lastCollection](#lastcollection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ file.
 ### Functions
 
 
-### [getActiveColumnsNames](#getActiveColumnsNames)
+### [getActiveColumnsNames](#getactivecolumnsnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ file.
 
 ---
 
-### [getClipNameSize](#getClipNameSize)
+### [getClipNameSize](#getclipnamesize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ file.
 
 ---
 
-### [getSingleSelectedCollection](#getSingleSelectedCollection)
+### [getSingleSelectedCollection](#getsingleselectedcollection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ file.
 
 ---
 
-### [resetBrowserLayoutForSelectedCollection](#resetBrowserLayoutForSelectedCollection)
+### [resetBrowserLayoutForSelectedCollection](#resetbrowserlayoutforselectedcollection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ file.
 
 ---
 
-### [restoreBrowserLayoutForSelectedCollection](#restoreBrowserLayoutForSelectedCollection)
+### [restoreBrowserLayoutForSelectedCollection](#restorebrowserlayoutforselectedcollection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ file.
 
 ---
 
-### [restoreLayoutFromTable](#restoreLayoutFromTable)
+### [restoreLayoutFromTable](#restorelayoutfromtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ file.
 
 ---
 
-### [saveBrowserLayoutForSelectedCollection](#saveBrowserLayoutForSelectedCollection)
+### [saveBrowserLayoutForSelectedCollection](#savebrowserlayoutforselectedcollection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ file.
 
 ---
 
-### [saveLayoutToTable](#saveLayoutToTable)
+### [saveLayoutToTable](#savelayouttotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ file.
 
 ---
 
-### [setupWatcher](#setupWatcher)
+### [setupWatcher](#setupwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

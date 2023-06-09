@@ -6,16 +6,16 @@ Convert between key-strings and key-codes. Also provides functionality for query
 * Constants - Useful values which cannot be changed
  * [map](#map)
 * Functions - API calls offered directly by the extension
- * [currentLayout](#currentLayout)
- * [currentLayoutIcon](#currentLayoutIcon)
- * [currentMethod](#currentMethod)
- * [currentSourceID](#currentSourceID)
- * [iconForLayoutOrMethod](#iconForLayoutOrMethod)
- * [inputSourceChanged](#inputSourceChanged)
+ * [currentLayout](#currentlayout)
+ * [currentLayoutIcon](#currentlayouticon)
+ * [currentMethod](#currentmethod)
+ * [currentSourceID](#currentsourceid)
+ * [iconForLayoutOrMethod](#iconforlayoutormethod)
+ * [inputSourceChanged](#inputsourcechanged)
  * [layouts](#layouts)
  * [methods](#methods)
- * [setLayout](#setLayout)
- * [setMethod](#setMethod)
+ * [setLayout](#setlayout)
+ * [setMethod](#setmethod)
 
 ## API Documentation
 
@@ -35,7 +35,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 ### Functions
 
 
-### [currentLayout](#currentLayout)
+### [currentLayout](#currentlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [currentLayoutIcon](#currentLayoutIcon)
+### [currentLayoutIcon](#currentlayouticon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [currentMethod](#currentMethod)
+### [currentMethod](#currentmethod)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [currentSourceID](#currentSourceID)
+### [currentSourceID](#currentsourceid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [iconForLayoutOrMethod](#iconForLayoutOrMethod)
+### [iconForLayoutOrMethod](#iconforlayoutormethod)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [inputSourceChanged](#inputSourceChanged)
+### [inputSourceChanged](#inputsourcechanged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [setLayout](#setLayout)
+### [setLayout](#setlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ Convert between key-strings and key-codes. Also provides functionality for query
 
 ---
 
-### [setMethod](#setMethod)
+### [setMethod](#setmethod)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

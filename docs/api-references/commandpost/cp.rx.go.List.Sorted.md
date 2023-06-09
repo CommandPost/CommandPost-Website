@@ -4,14 +4,14 @@ A `Statement.Modifier` that specifies the list should be sorted by its 'natural'
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [Sorted](#Sorted)
+ * [Sorted](#sorted)
 
 ## API Documentation
 
 ### Constants
 
 
-### [Sorted](#Sorted)
+### [Sorted](#sorted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,14 +4,14 @@ Controls Final Cut Pro's Lanes.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [selectClipAtLane](#selectClipAtLane)
+ * [selectClipAtLane](#selectclipatlane)
 
 ## API Documentation
 
 ### Functions
 
 
-### [selectClipAtLane](#selectClipAtLane)
+### [selectClipAtLane](#selectclipatlane)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

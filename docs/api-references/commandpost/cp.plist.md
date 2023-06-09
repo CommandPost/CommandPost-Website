@@ -8,26 +8,26 @@ Reads & Writes plist data.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [base64ToTable](#base64ToTable)
- * [binaryFileToTable](#binaryFileToTable)
- * [binaryFileToXML](#binaryFileToXML)
- * [binaryToTable](#binaryToTable)
- * [fileToTable](#fileToTable)
- * [isBinaryPlist](#isBinaryPlist)
- * [isBinaryPlistFile](#isBinaryPlistFile)
- * [isPlist](#isPlist)
- * [isPlistFile](#isPlistFile)
- * [isXMLPlist](#isXMLPlist)
- * [isXMLPlistFile](#isXMLPlistFile)
- * [xmlFileToTable](#xmlFileToTable)
- * [xmlToTable](#xmlToTable)
+ * [base64ToTable](#base64totable)
+ * [binaryFileToTable](#binaryfiletotable)
+ * [binaryFileToXML](#binaryfiletoxml)
+ * [binaryToTable](#binarytotable)
+ * [fileToTable](#filetotable)
+ * [isBinaryPlist](#isbinaryplist)
+ * [isBinaryPlistFile](#isbinaryplistfile)
+ * [isPlist](#isplist)
+ * [isPlistFile](#isplistfile)
+ * [isXMLPlist](#isxmlplist)
+ * [isXMLPlistFile](#isxmlplistfile)
+ * [xmlFileToTable](#xmlfiletotable)
+ * [xmlToTable](#xmltotable)
 
 ## API Documentation
 
 ### Functions
 
 
-### [base64ToTable](#base64ToTable)
+### [base64ToTable](#base64totable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Reads & Writes plist data.
 
 ---
 
-### [binaryFileToTable](#binaryFileToTable)
+### [binaryFileToTable](#binaryfiletotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Reads & Writes plist data.
 
 ---
 
-### [binaryFileToXML](#binaryFileToXML)
+### [binaryFileToXML](#binaryfiletoxml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Reads & Writes plist data.
 
 ---
 
-### [binaryToTable](#binaryToTable)
+### [binaryToTable](#binarytotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Reads & Writes plist data.
 
 ---
 
-### [fileToTable](#fileToTable)
+### [fileToTable](#filetotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isBinaryPlist](#isBinaryPlist)
+### [isBinaryPlist](#isbinaryplist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isBinaryPlistFile](#isBinaryPlistFile)
+### [isBinaryPlistFile](#isbinaryplistfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isPlist](#isPlist)
+### [isPlist](#isplist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isPlistFile](#isPlistFile)
+### [isPlistFile](#isplistfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isXMLPlist](#isXMLPlist)
+### [isXMLPlist](#isxmlplist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ Reads & Writes plist data.
 
 ---
 
-### [isXMLPlistFile](#isXMLPlistFile)
+### [isXMLPlistFile](#isxmlplistfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ Reads & Writes plist data.
 
 ---
 
-### [xmlFileToTable](#xmlFileToTable)
+### [xmlFileToTable](#xmlfiletotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ Reads & Writes plist data.
 
 ---
 
-### [xmlToTable](#xmlToTable)
+### [xmlToTable](#xmltotable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

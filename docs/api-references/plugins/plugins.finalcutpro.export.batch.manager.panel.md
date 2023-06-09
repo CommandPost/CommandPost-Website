@@ -6,17 +6,17 @@ CommandPost Batch Export Panel.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addButton](#addButton)
- * [addCheckbox](#addCheckbox)
- * [addContent](#addContent)
- * [addHandler](#addHandler)
- * [addHeading](#addHeading)
- * [addParagraph](#addParagraph)
- * [addPassword](#addPassword)
- * [addSelect](#addSelect)
- * [addStatus](#addStatus)
- * [addTextbox](#addTextbox)
- * [getToolbarItem](#getToolbarItem)
+ * [addButton](#addbutton)
+ * [addCheckbox](#addcheckbox)
+ * [addContent](#addcontent)
+ * [addHandler](#addhandler)
+ * [addHeading](#addheading)
+ * [addParagraph](#addparagraph)
+ * [addPassword](#addpassword)
+ * [addSelect](#addselect)
+ * [addStatus](#addstatus)
+ * [addTextbox](#addtextbox)
+ * [getToolbarItem](#gettoolbaritem)
 
 ## API Documentation
 
@@ -38,7 +38,7 @@ CommandPost Batch Export Panel.
 ### Methods
 
 
-### [addButton](#addButton)
+### [addButton](#addbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addCheckbox](#addCheckbox)
+### [addCheckbox](#addcheckbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addContent](#addContent)
+### [addContent](#addcontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addHandler](#addHandler)
+### [addHandler](#addhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addHeading](#addHeading)
+### [addHeading](#addheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addParagraph](#addParagraph)
+### [addParagraph](#addparagraph)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addPassword](#addPassword)
+### [addPassword](#addpassword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addSelect](#addSelect)
+### [addSelect](#addselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addStatus](#addStatus)
+### [addStatus](#addstatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [addTextbox](#addTextbox)
+### [addTextbox](#addtextbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -168,7 +168,7 @@ CommandPost Batch Export Panel.
 
 ---
 
-### [getToolbarItem](#getToolbarItem)
+### [getToolbarItem](#gettoolbaritem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

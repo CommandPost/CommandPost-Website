@@ -11,29 +11,29 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [attributesForVoice](#attributesForVoice)
- * [availableVoices](#availableVoices)
- * [defaultVoice](#defaultVoice)
- * [isAnyApplicationSpeaking](#isAnyApplicationSpeaking)
+ * [attributesForVoice](#attributesforvoice)
+ * [availableVoices](#availablevoices)
+ * [defaultVoice](#defaultvoice)
+ * [isAnyApplicationSpeaking](#isanyapplicationspeaking)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [continue](#continue)
- * [isPaused](#isPaused)
- * [isSpeaking](#isSpeaking)
+ * [isPaused](#ispaused)
+ * [isSpeaking](#isspeaking)
  * [modulation](#modulation)
  * [pause](#pause)
  * [phonemes](#phonemes)
- * [phoneticSymbols](#phoneticSymbols)
+ * [phoneticSymbols](#phoneticsymbols)
  * [pitch](#pitch)
  * [rate](#rate)
  * [reset](#reset)
- * [setCallback](#setCallback)
+ * [setCallback](#setcallback)
  * [speak](#speak)
  * [speaking](#speaking)
- * [speakToFile](#speakToFile)
+ * [speakToFile](#speaktofile)
  * [stop](#stop)
- * [usesFeedbackWindow](#usesFeedbackWindow)
+ * [usesFeedbackWindow](#usesfeedbackwindow)
  * [voice](#voice)
  * [volume](#volume)
 
@@ -42,7 +42,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 ### Functions
 
 
-### [attributesForVoice](#attributesForVoice)
+### [attributesForVoice](#attributesforvoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [availableVoices](#availableVoices)
+### [availableVoices](#availablevoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [defaultVoice](#defaultVoice)
+### [defaultVoice](#defaultvoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [isAnyApplicationSpeaking](#isAnyApplicationSpeaking)
+### [isAnyApplicationSpeaking](#isanyapplicationspeaking)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [isPaused](#isPaused)
+### [isPaused](#ispaused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [isSpeaking](#isSpeaking)
+### [isSpeaking](#isspeaking)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [phoneticSymbols](#phoneticSymbols)
+### [phoneticSymbols](#phoneticsymbols)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -244,7 +244,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,7 +283,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [speakToFile](#speakToFile)
+### [speakToFile](#speaktofile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ A discussion concerning the embedding of commands into the text to be spoken can
 
 ---
 
-### [usesFeedbackWindow](#usesFeedbackWindow)
+### [usesFeedbackWindow](#usesfeedbackwindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

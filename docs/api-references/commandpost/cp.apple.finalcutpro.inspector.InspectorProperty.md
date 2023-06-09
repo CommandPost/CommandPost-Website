@@ -9,16 +9,16 @@ other properties.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [checkBox](#checkBox)
- * [hasProperties](#hasProperties)
- * [menuButton](#menuButton)
- * [numberField](#numberField)
- * [popUpButton](#popUpButton)
+ * [checkBox](#checkbox)
+ * [hasProperties](#hasproperties)
+ * [menuButton](#menubutton)
+ * [numberField](#numberfield)
+ * [popUpButton](#popupbutton)
  * [section](#section)
  * [simple](#simple)
  * [slider](#slider)
- * [staticText](#staticText)
- * [textField](#textField)
+ * [staticText](#statictext)
+ * [textField](#textfield)
  * [xy](#xy)
 
 ## API Documentation
@@ -26,7 +26,7 @@ other properties.
 ### Functions
 
 
-### [checkBox](#checkBox)
+### [checkBox](#checkbox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ other properties.
 
 ---
 
-### [hasProperties](#hasProperties)
+### [hasProperties](#hasproperties)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ other properties.
 
 ---
 
-### [menuButton](#menuButton)
+### [menuButton](#menubutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ other properties.
 
 ---
 
-### [numberField](#numberField)
+### [numberField](#numberfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ other properties.
 
 ---
 
-### [popUpButton](#popUpButton)
+### [popUpButton](#popupbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ other properties.
 
 ---
 
-### [staticText](#staticText)
+### [staticText](#statictext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ other properties.
 
 ---
 
-### [textField](#textField)
+### [textField](#textfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

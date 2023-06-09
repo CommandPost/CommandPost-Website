@@ -10,61 +10,61 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [allDevices](#allDevices)
- * [allInputDevices](#allInputDevices)
- * [allOutputDevices](#allOutputDevices)
+ * [allDevices](#alldevices)
+ * [allInputDevices](#allinputdevices)
+ * [allOutputDevices](#alloutputdevices)
  * [current](#current)
- * [defaultEffectDevice](#defaultEffectDevice)
- * [defaultInputDevice](#defaultInputDevice)
- * [defaultOutputDevice](#defaultOutputDevice)
- * [findDeviceByName](#findDeviceByName)
- * [findDeviceByUID](#findDeviceByUID)
- * [findInputByName](#findInputByName)
- * [findInputByUID](#findInputByUID)
- * [findOutputByName](#findOutputByName)
- * [findOutputByUID](#findOutputByUID)
+ * [defaultEffectDevice](#defaulteffectdevice)
+ * [defaultInputDevice](#defaultinputdevice)
+ * [defaultOutputDevice](#defaultoutputdevice)
+ * [findDeviceByName](#finddevicebyname)
+ * [findDeviceByUID](#finddevicebyuid)
+ * [findInputByName](#findinputbyname)
+ * [findInputByUID](#findinputbyuid)
+ * [findOutputByName](#findoutputbyname)
+ * [findOutputByUID](#findoutputbyuid)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [allInputDataSources](#allInputDataSources)
- * [allOutputDataSources](#allOutputDataSources)
+ * [allInputDataSources](#allinputdatasources)
+ * [allOutputDataSources](#alloutputdatasources)
  * [balance](#balance)
- * [currentInputDataSource](#currentInputDataSource)
- * [currentOutputDataSource](#currentOutputDataSource)
- * [inputMuted](#inputMuted)
- * [inputVolume](#inputVolume)
- * [inUse](#inUse)
- * [isInputDevice](#isInputDevice)
- * [isOutputDevice](#isOutputDevice)
- * [jackConnected](#jackConnected)
+ * [currentInputDataSource](#currentinputdatasource)
+ * [currentOutputDataSource](#currentoutputdatasource)
+ * [inputMuted](#inputmuted)
+ * [inputVolume](#inputvolume)
+ * [inUse](#inuse)
+ * [isInputDevice](#isinputdevice)
+ * [isOutputDevice](#isoutputdevice)
+ * [jackConnected](#jackconnected)
  * [muted](#muted)
  * [name](#name)
- * [outputMuted](#outputMuted)
- * [outputVolume](#outputVolume)
- * [setBalance](#setBalance)
- * [setDefaultEffectDevice](#setDefaultEffectDevice)
- * [setDefaultInputDevice](#setDefaultInputDevice)
- * [setDefaultOutputDevice](#setDefaultOutputDevice)
- * [setInputMuted](#setInputMuted)
- * [setInputVolume](#setInputVolume)
- * [setMuted](#setMuted)
- * [setOutputMuted](#setOutputMuted)
- * [setOutputVolume](#setOutputVolume)
- * [setVolume](#setVolume)
- * [supportsInputDataSources](#supportsInputDataSources)
- * [supportsOutputDataSources](#supportsOutputDataSources)
- * [transportType](#transportType)
+ * [outputMuted](#outputmuted)
+ * [outputVolume](#outputvolume)
+ * [setBalance](#setbalance)
+ * [setDefaultEffectDevice](#setdefaulteffectdevice)
+ * [setDefaultInputDevice](#setdefaultinputdevice)
+ * [setDefaultOutputDevice](#setdefaultoutputdevice)
+ * [setInputMuted](#setinputmuted)
+ * [setInputVolume](#setinputvolume)
+ * [setMuted](#setmuted)
+ * [setOutputMuted](#setoutputmuted)
+ * [setOutputVolume](#setoutputvolume)
+ * [setVolume](#setvolume)
+ * [supportsInputDataSources](#supportsinputdatasources)
+ * [supportsOutputDataSources](#supportsoutputdatasources)
+ * [transportType](#transporttype)
  * [uid](#uid)
  * [volume](#volume)
- * [watcherCallback](#watcherCallback)
- * [watcherIsRunning](#watcherIsRunning)
- * [watcherStart](#watcherStart)
- * [watcherStop](#watcherStop)
+ * [watcherCallback](#watchercallback)
+ * [watcherIsRunning](#watcherisrunning)
+ * [watcherStart](#watcherstart)
+ * [watcherStop](#watcherstop)
 
 ## API Documentation
 
 ### Functions
 
 
-### [allDevices](#allDevices)
+### [allDevices](#alldevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [allInputDevices](#allInputDevices)
+### [allInputDevices](#allinputdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [allOutputDevices](#allOutputDevices)
+### [allOutputDevices](#alloutputdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [defaultEffectDevice](#defaultEffectDevice)
+### [defaultEffectDevice](#defaulteffectdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [defaultInputDevice](#defaultInputDevice)
+### [defaultInputDevice](#defaultinputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [defaultOutputDevice](#defaultOutputDevice)
+### [defaultOutputDevice](#defaultoutputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findDeviceByName](#findDeviceByName)
+### [findDeviceByName](#finddevicebyname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -168,7 +168,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findDeviceByUID](#findDeviceByUID)
+### [findDeviceByUID](#finddevicebyuid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -181,7 +181,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findInputByName](#findInputByName)
+### [findInputByName](#findinputbyname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findInputByUID](#findInputByUID)
+### [findInputByUID](#findinputbyuid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findOutputByName](#findOutputByName)
+### [findOutputByName](#findoutputbyname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [findOutputByUID](#findOutputByUID)
+### [findOutputByUID](#findoutputbyuid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ### Methods
 
 
-### [allInputDataSources](#allInputDataSources)
+### [allInputDataSources](#allinputdatasources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -248,7 +248,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [allOutputDataSources](#allOutputDataSources)
+### [allOutputDataSources](#alloutputdatasources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -274,7 +274,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [currentInputDataSource](#currentInputDataSource)
+### [currentInputDataSource](#currentinputdatasource)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [currentOutputDataSource](#currentOutputDataSource)
+### [currentOutputDataSource](#currentoutputdatasource)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -300,7 +300,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [inputMuted](#inputMuted)
+### [inputMuted](#inputmuted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -313,7 +313,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [inputVolume](#inputVolume)
+### [inputVolume](#inputvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -326,7 +326,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [inUse](#inUse)
+### [inUse](#inuse)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -339,7 +339,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isInputDevice](#isInputDevice)
+### [isInputDevice](#isinputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -352,7 +352,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isOutputDevice](#isOutputDevice)
+### [isOutputDevice](#isoutputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -365,7 +365,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [jackConnected](#jackConnected)
+### [jackConnected](#jackconnected)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -404,7 +404,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [outputMuted](#outputMuted)
+### [outputMuted](#outputmuted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -417,7 +417,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [outputVolume](#outputVolume)
+### [outputVolume](#outputvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -430,7 +430,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setBalance](#setBalance)
+### [setBalance](#setbalance)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -443,7 +443,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setDefaultEffectDevice](#setDefaultEffectDevice)
+### [setDefaultEffectDevice](#setdefaulteffectdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -456,7 +456,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setDefaultInputDevice](#setDefaultInputDevice)
+### [setDefaultInputDevice](#setdefaultinputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -469,7 +469,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setDefaultOutputDevice](#setDefaultOutputDevice)
+### [setDefaultOutputDevice](#setdefaultoutputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -482,7 +482,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setInputMuted](#setInputMuted)
+### [setInputMuted](#setinputmuted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -495,7 +495,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setInputVolume](#setInputVolume)
+### [setInputVolume](#setinputvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -508,7 +508,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setMuted](#setMuted)
+### [setMuted](#setmuted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -521,7 +521,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setOutputMuted](#setOutputMuted)
+### [setOutputMuted](#setoutputmuted)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -534,7 +534,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setOutputVolume](#setOutputVolume)
+### [setOutputVolume](#setoutputvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -547,7 +547,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setVolume](#setVolume)
+### [setVolume](#setvolume)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -560,7 +560,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [supportsInputDataSources](#supportsInputDataSources)
+### [supportsInputDataSources](#supportsinputdatasources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -573,7 +573,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [supportsOutputDataSources](#supportsOutputDataSources)
+### [supportsOutputDataSources](#supportsoutputdatasources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -586,7 +586,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [transportType](#transportType)
+### [transportType](#transporttype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -625,7 +625,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [watcherCallback](#watcherCallback)
+### [watcherCallback](#watchercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -654,7 +654,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [watcherIsRunning](#watcherIsRunning)
+### [watcherIsRunning](#watcherisrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -667,7 +667,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [watcherStart](#watcherStart)
+### [watcherStart](#watcherstart)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -680,7 +680,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [watcherStop](#watcherStop)
+### [watcherStop](#watcherstop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

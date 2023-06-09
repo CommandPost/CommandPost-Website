@@ -6,7 +6,7 @@ Combo Box Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [ComboBox](#ComboBox)
+ * [ComboBox](#combobox)
 
 ## API Documentation
 
@@ -28,7 +28,7 @@ Combo Box Module.
 ### Methods
 
 
-### [ComboBox](#ComboBox)
+### [ComboBox](#combobox)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

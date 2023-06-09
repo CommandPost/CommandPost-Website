@@ -6,14 +6,14 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [First](#First)
+ * [First](#first)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [First](#First)
+### [First](#first)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

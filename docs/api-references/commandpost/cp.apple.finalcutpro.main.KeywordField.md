@@ -4,17 +4,17 @@ Keyword Text Field Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [KeywordField](#KeywordField)
+ * [KeywordField](#keywordfield)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addKeyword](#addKeyword)
- * [removeKeyword](#removeKeyword)
+ * [addKeyword](#addkeyword)
+ * [removeKeyword](#removekeyword)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [KeywordField](#KeywordField)
+### [KeywordField](#keywordfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Keyword Text Field Module.
 ### Methods
 
 
-### [addKeyword](#addKeyword)
+### [addKeyword](#addkeyword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ Keyword Text Field Module.
 
 ---
 
-### [removeKeyword](#removeKeyword)
+### [removeKeyword](#removekeyword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

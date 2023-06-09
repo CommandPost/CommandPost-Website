@@ -4,15 +4,15 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [doEditNewLowerThirds](#doEditNewLowerThirds)
- * [doEditNewTitle](#doEditNewTitle)
+ * [doEditNewLowerThirds](#doeditnewlowerthirds)
+ * [doEditNewTitle](#doeditnewtitle)
 
 ## API Documentation
 
 ### Functions
 
 
-### [doEditNewLowerThirds](#doEditNewLowerThirds)
+### [doEditNewLowerThirds](#doeditnewlowerthirds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 
 ---
 
-### [doEditNewTitle](#doEditNewTitle)
+### [doEditNewTitle](#doeditnewtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

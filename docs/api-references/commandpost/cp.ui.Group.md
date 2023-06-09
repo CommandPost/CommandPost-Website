@@ -10,10 +10,10 @@ UI Group.
  * [containing](#containing)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Group](#Group)
+ * [Group](#group)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [children](#children)
- * [childrenUI](#childrenUI)
+ * [childrenUI](#childrenui)
 
 ## API Documentation
 
@@ -48,7 +48,7 @@ UI Group.
 ### Constructors
 
 
-### [Group](#Group)
+### [Group](#group)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ UI Group.
 
 ---
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

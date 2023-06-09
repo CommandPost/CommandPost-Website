@@ -85,119 +85,119 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
- * [ALLOWED_IMPORT_EXTENSIONS](#ALLOWED_IMPORT_EXTENSIONS)
- * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
- * [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
- * [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
- * [EVENT_DESCRIPTION_PATH](#EVENT_DESCRIPTION_PATH)
- * [FLEXO_LANGUAGES](#FLEXO_LANGUAGES)
- * [PASTEBOARD_UTI](#PASTEBOARD_UTI)
+ * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
+ * [ALLOWED_IMPORT_EXTENSIONS](#allowed_import_extensions)
+ * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
+ * [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
+ * [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
+ * [EVENT_DESCRIPTION_PATH](#event_description_path)
+ * [FLEXO_LANGUAGES](#flexo_languages)
+ * [PASTEBOARD_UTI](#pasteboard_uti)
  * [preferences](#preferences)
- * [WORKSPACES_PATH](#WORKSPACES_PATH)
+ * [WORKSPACES_PATH](#workspaces_path)
 * Variables - Configurable values
- * [activeCommandSet](#activeCommandSet)
- * [customWorkspaces](#customWorkspaces)
- * [openAndSavePanelDefaultPath](#openAndSavePanelDefaultPath)
- * [selectedWorkspace](#selectedWorkspace)
+ * [activeCommandSet](#activecommandset)
+ * [customWorkspaces](#customworkspaces)
+ * [openAndSavePanelDefaultPath](#openandsavepaneldefaultpath)
+ * [selectedWorkspace](#selectedworkspace)
 * Functions - API calls offered directly by the extension
- * [commandSet](#commandSet)
+ * [commandSet](#commandset)
  * [matches](#matches)
  * [matches](#matches)
- * [userCommandSetPath](#userCommandSetPath)
- * [workflowExtensionNames](#workflowExtensionNames)
+ * [userCommandSetPath](#usercommandsetpath)
+ * [workflowExtensionNames](#workflowextensionnames)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Color](#Color)
- * [TranscodeMedia](#TranscodeMedia)
+ * [Color](#color)
+ * [TranscodeMedia](#transcodemedia)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeCommandSetPath](#activeCommandSetPath)
+ * [activeCommandSetPath](#activecommandsetpath)
  * [alert](#alert)
- * [audioEnhancements](#audioEnhancements)
- * [audioLanes](#audioLanes)
- * [audioMeters](#audioMeters)
- * [backgroundTasksDialog](#backgroundTasksDialog)
+ * [audioEnhancements](#audioenhancements)
+ * [audioLanes](#audiolanes)
+ * [audioMeters](#audiometers)
+ * [backgroundTasksDialog](#backgroundtasksdialog)
  * [browser](#browser)
- * [changePosition](#changePosition)
+ * [changePosition](#changeposition)
  * [color](#color)
- * [colorBoard](#colorBoard)
- * [colorCorrection](#colorCorrection)
- * [commandDescriptions](#commandDescriptions)
- * [commandEditor](#commandEditor)
- * [commandNames](#commandNames)
- * [commandPostWorkflowExtension](#commandPostWorkflowExtension)
- * [contentUI](#contentUI)
- * [contentUI](#contentUI)
- * [deselectAll](#deselectAll)
+ * [colorBoard](#colorboard)
+ * [colorCorrection](#colorcorrection)
+ * [commandDescriptions](#commanddescriptions)
+ * [commandEditor](#commandeditor)
+ * [commandNames](#commandnames)
+ * [commandPostWorkflowExtension](#commandpostworkflowextension)
+ * [contentUI](#contentui)
+ * [contentUI](#contentui)
+ * [deselectAll](#deselectall)
  * [effects](#effects)
  * [effects](#effects)
- * [eventViewer](#eventViewer)
- * [exportDialog](#exportDialog)
- * [findAndReplaceTitleText](#findAndReplaceTitleText)
- * [fullScreenPlayer](#fullScreenPlayer)
+ * [eventViewer](#eventviewer)
+ * [exportDialog](#exportdialog)
+ * [findAndReplaceTitleText](#findandreplacetitletext)
+ * [fullScreenPlayer](#fullscreenplayer)
  * [generators](#generators)
  * [inspector](#inspector)
- * [inspectorUnits](#inspectorUnits)
- * [isAudioScrubbingEnabled](#isAudioScrubbingEnabled)
- * [isFrontmost](#isFrontmost)
- * [isInstalled](#isInstalled)
- * [isModalDialogOpen](#isModalDialogOpen)
- * [isPlaying](#isPlaying)
- * [isPlaying](#isPlaying)
- * [isRunning](#isRunning)
- * [isShowing](#isShowing)
- * [isSkimmingEnabled](#isSkimmingEnabled)
- * [isSupported](#isSupported)
- * [isUnsupported](#isUnsupported)
- * [keywordEditor](#keywordEditor)
+ * [inspectorUnits](#inspectorunits)
+ * [isAudioScrubbingEnabled](#isaudioscrubbingenabled)
+ * [isFrontmost](#isfrontmost)
+ * [isInstalled](#isinstalled)
+ * [isModalDialogOpen](#ismodaldialogopen)
+ * [isPlaying](#isplaying)
+ * [isPlaying](#isplaying)
+ * [isRunning](#isrunning)
+ * [isShowing](#isshowing)
+ * [isSkimmingEnabled](#isskimmingenabled)
+ * [isSupported](#issupported)
+ * [isUnsupported](#isunsupported)
+ * [keywordEditor](#keywordeditor)
  * [libraries](#libraries)
  * [media](#media)
- * [mediaImport](#mediaImport)
+ * [mediaImport](#mediaimport)
  * [pan](#pan)
- * [playButton](#playButton)
- * [playFullScreen](#playFullScreen)
- * [playImage](#playImage)
- * [preferencesWindow](#preferencesWindow)
+ * [playButton](#playbutton)
+ * [playFullScreen](#playfullscreen)
+ * [playImage](#playimage)
+ * [preferencesWindow](#preferenceswindow)
  * [preset](#preset)
- * [primaryWindow](#primaryWindow)
- * [resetDialogWarnings](#resetDialogWarnings)
- * [secondaryWindow](#secondaryWindow)
- * [textArea](#textArea)
- * [textLayerLeft](#textLayerLeft)
- * [textLayerRight](#textLayerRight)
- * [timecodeField](#timecodeField)
- * [timeDisplay](#timeDisplay)
+ * [primaryWindow](#primarywindow)
+ * [resetDialogWarnings](#resetdialogwarnings)
+ * [secondaryWindow](#secondarywindow)
+ * [textArea](#textarea)
+ * [textLayerLeft](#textlayerleft)
+ * [textLayerRight](#textlayerright)
+ * [timecodeField](#timecodefield)
+ * [timeDisplay](#timedisplay)
  * [timeline](#timeline)
  * [toolbar](#toolbar)
- * [transcodeMedia](#transcodeMedia)
+ * [transcodeMedia](#transcodemedia)
  * [transitions](#transitions)
- * [UI](#UI)
- * [validateAudioUnits](#validateAudioUnits)
+ * [UI](#ui)
+ * [validateAudioUnits](#validateaudiounits)
  * [viewer](#viewer)
  * [volume](#volume)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [activeLibraryPaths](#activeLibraryPaths)
- * [closeLibrary](#closeLibrary)
- * [defaultCommandSetPath](#defaultCommandSetPath)
- * [doShortcut](#doShortcut)
- * [getCommandShortcuts](#getCommandShortcuts)
- * [getPath](#getPath)
- * [importXML](#importXML)
- * [keysWithString](#keysWithString)
- * [openLibrary](#openLibrary)
+ * [activeLibraryPaths](#activelibrarypaths)
+ * [closeLibrary](#closelibrary)
+ * [defaultCommandSetPath](#defaultcommandsetpath)
+ * [doShortcut](#doshortcut)
+ * [getCommandShortcuts](#getcommandshortcuts)
+ * [getPath](#getpath)
+ * [importXML](#importxml)
+ * [keysWithString](#keyswithstring)
+ * [openLibrary](#openlibrary)
  * [plugins](#plugins)
- * [recentLibraryNames](#recentLibraryNames)
- * [recentLibraryPaths](#recentLibraryPaths)
- * [scanPlugins](#scanPlugins)
- * [selectLibrary](#selectLibrary)
+ * [recentLibraryNames](#recentlibrarynames)
+ * [recentLibraryPaths](#recentlibrarypaths)
+ * [scanPlugins](#scanplugins)
+ * [selectLibrary](#selectlibrary)
  * [string](#string)
- * [userCommandSets](#userCommandSets)
+ * [userCommandSets](#usercommandsets)
 
 ## API Documentation
 
 ### Constants
 
 
-### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#ALLOWED_IMPORT_AUDIO_EXTENSIONS)
+### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [ALLOWED_IMPORT_EXTENSIONS](#ALLOWED_IMPORT_EXTENSIONS)
+### [ALLOWED_IMPORT_EXTENSIONS](#allowed_import_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#ALLOWED_IMPORT_IMAGE_EXTENSIONS)
+### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#ALLOWED_IMPORT_VIDEO_EXTENSIONS)
+### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -237,7 +237,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [EARLIEST_SUPPORTED_VERSION](#EARLIEST_SUPPORTED_VERSION)
+### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [EVENT_DESCRIPTION_PATH](#EVENT_DESCRIPTION_PATH)
+### [EVENT_DESCRIPTION_PATH](#event_description_path)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -257,7 +257,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [FLEXO_LANGUAGES](#FLEXO_LANGUAGES)
+### [FLEXO_LANGUAGES](#flexo_languages)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [PASTEBOARD_UTI](#PASTEBOARD_UTI)
+### [PASTEBOARD_UTI](#pasteboard_uti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [WORKSPACES_PATH](#WORKSPACES_PATH)
+### [WORKSPACES_PATH](#workspaces_path)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -299,7 +299,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ### Variables
 
 
-### [activeCommandSet](#activeCommandSet)
+### [activeCommandSet](#activecommandset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -309,7 +309,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [customWorkspaces](#customWorkspaces)
+### [customWorkspaces](#customworkspaces)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -319,7 +319,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [openAndSavePanelDefaultPath](#openAndSavePanelDefaultPath)
+### [openAndSavePanelDefaultPath](#openandsavepaneldefaultpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -329,7 +329,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [selectedWorkspace](#selectedWorkspace)
+### [selectedWorkspace](#selectedworkspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -341,7 +341,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ### Functions
 
 
-### [commandSet](#commandSet)
+### [commandSet](#commandset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -380,7 +380,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [userCommandSetPath](#userCommandSetPath)
+### [userCommandSetPath](#usercommandsetpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -393,7 +393,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [workflowExtensionNames](#workflowExtensionNames)
+### [workflowExtensionNames](#workflowextensionnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -408,7 +408,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ### Constructors
 
 
-### [Color](#Color)
+### [Color](#color)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -421,7 +421,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [TranscodeMedia](#TranscodeMedia)
+### [TranscodeMedia](#transcodemedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -436,7 +436,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ### Fields
 
 
-### [activeCommandSetPath](#activeCommandSetPath)
+### [activeCommandSetPath](#activecommandsetpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -456,7 +456,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [audioEnhancements](#audioEnhancements)
+### [audioEnhancements](#audioenhancements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -466,7 +466,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [audioLanes](#audioLanes)
+### [audioLanes](#audiolanes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -476,7 +476,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [audioMeters](#audioMeters)
+### [audioMeters](#audiometers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -486,7 +486,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [backgroundTasksDialog](#backgroundTasksDialog)
+### [backgroundTasksDialog](#backgroundtasksdialog)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -506,7 +506,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [changePosition](#changePosition)
+### [changePosition](#changeposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -526,7 +526,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [colorBoard](#colorBoard)
+### [colorBoard](#colorboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -536,7 +536,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [colorCorrection](#colorCorrection)
+### [colorCorrection](#colorcorrection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -546,7 +546,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [commandDescriptions](#commandDescriptions)
+### [commandDescriptions](#commanddescriptions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -556,7 +556,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [commandEditor](#commandEditor)
+### [commandEditor](#commandeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -566,7 +566,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [commandNames](#commandNames)
+### [commandNames](#commandnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -576,7 +576,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [commandPostWorkflowExtension](#commandPostWorkflowExtension)
+### [commandPostWorkflowExtension](#commandpostworkflowextension)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -586,7 +586,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -596,7 +596,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -606,7 +606,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -636,7 +636,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [eventViewer](#eventViewer)
+### [eventViewer](#eventviewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -646,7 +646,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [exportDialog](#exportDialog)
+### [exportDialog](#exportdialog)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -656,7 +656,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [findAndReplaceTitleText](#findAndReplaceTitleText)
+### [findAndReplaceTitleText](#findandreplacetitletext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -666,7 +666,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [fullScreenPlayer](#fullScreenPlayer)
+### [fullScreenPlayer](#fullscreenplayer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -696,7 +696,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [inspectorUnits](#inspectorUnits)
+### [inspectorUnits](#inspectorunits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -706,7 +706,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isAudioScrubbingEnabled](#isAudioScrubbingEnabled)
+### [isAudioScrubbingEnabled](#isaudioscrubbingenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -716,7 +716,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isFrontmost](#isFrontmost)
+### [isFrontmost](#isfrontmost)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -726,7 +726,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isInstalled](#isInstalled)
+### [isInstalled](#isinstalled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -736,7 +736,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isModalDialogOpen](#isModalDialogOpen)
+### [isModalDialogOpen](#ismodaldialogopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -746,7 +746,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -756,7 +756,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isPlaying](#isPlaying)
+### [isPlaying](#isplaying)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -766,7 +766,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isRunning](#isRunning)
+### [isRunning](#isrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -776,7 +776,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -786,7 +786,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isSkimmingEnabled](#isSkimmingEnabled)
+### [isSkimmingEnabled](#isskimmingenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -796,7 +796,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isSupported](#isSupported)
+### [isSupported](#issupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -807,7 +807,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [isUnsupported](#isUnsupported)
+### [isUnsupported](#isunsupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -818,7 +818,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [keywordEditor](#keywordEditor)
+### [keywordEditor](#keywordeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -848,7 +848,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [mediaImport](#mediaImport)
+### [mediaImport](#mediaimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -868,7 +868,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [playButton](#playButton)
+### [playButton](#playbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -878,7 +878,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [playFullScreen](#playFullScreen)
+### [playFullScreen](#playfullscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -888,7 +888,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [playImage](#playImage)
+### [playImage](#playimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -898,7 +898,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [preferencesWindow](#preferencesWindow)
+### [preferencesWindow](#preferenceswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -918,7 +918,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [primaryWindow](#primaryWindow)
+### [primaryWindow](#primarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -928,7 +928,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [resetDialogWarnings](#resetDialogWarnings)
+### [resetDialogWarnings](#resetdialogwarnings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -938,7 +938,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [secondaryWindow](#secondaryWindow)
+### [secondaryWindow](#secondarywindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -948,7 +948,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [textArea](#textArea)
+### [textArea](#textarea)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -958,7 +958,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [textLayerLeft](#textLayerLeft)
+### [textLayerLeft](#textlayerleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -968,7 +968,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [textLayerRight](#textLayerRight)
+### [textLayerRight](#textlayerright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -978,7 +978,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [timecodeField](#timecodeField)
+### [timecodeField](#timecodefield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -988,7 +988,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [timeDisplay](#timeDisplay)
+### [timeDisplay](#timedisplay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1018,7 +1018,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [transcodeMedia](#transcodeMedia)
+### [transcodeMedia](#transcodemedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1038,7 +1038,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1048,7 +1048,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [validateAudioUnits](#validateAudioUnits)
+### [validateAudioUnits](#validateaudiounits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1080,7 +1080,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ### Methods
 
 
-### [activeLibraryPaths](#activeLibraryPaths)
+### [activeLibraryPaths](#activelibrarypaths)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1093,7 +1093,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [closeLibrary](#closeLibrary)
+### [closeLibrary](#closelibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1106,7 +1106,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [defaultCommandSetPath](#defaultCommandSetPath)
+### [defaultCommandSetPath](#defaultcommandsetpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1119,7 +1119,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [doShortcut](#doShortcut)
+### [doShortcut](#doshortcut)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1132,7 +1132,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [getCommandShortcuts](#getCommandShortcuts)
+### [getCommandShortcuts](#getcommandshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1145,7 +1145,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [getPath](#getPath)
+### [getPath](#getpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1158,7 +1158,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [importXML](#importXML)
+### [importXML](#importxml)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1171,7 +1171,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [keysWithString](#keysWithString)
+### [keysWithString](#keyswithstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1184,7 +1184,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [openLibrary](#openLibrary)
+### [openLibrary](#openlibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1210,7 +1210,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [recentLibraryNames](#recentLibraryNames)
+### [recentLibraryNames](#recentlibrarynames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1223,7 +1223,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [recentLibraryPaths](#recentLibraryPaths)
+### [recentLibraryPaths](#recentlibrarypaths)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1236,7 +1236,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [scanPlugins](#scanPlugins)
+### [scanPlugins](#scanplugins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1249,7 +1249,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [selectLibrary](#selectLibrary)
+### [selectLibrary](#selectlibrary)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1275,7 +1275,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ---
 
-### [userCommandSets](#userCommandSets)
+### [userCommandSets](#usercommandsets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

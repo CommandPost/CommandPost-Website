@@ -33,12 +33,12 @@ The following labels are used to describe tables which are used by functions and
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [authorizationStatus](#authorizationStatus)
+ * [authorizationStatus](#authorizationstatus)
  * [distance](#distance)
- * [dstOffset](#dstOffset)
+ * [dstOffset](#dstoffset)
  * [get](#get)
  * [register](#register)
- * [servicesEnabled](#servicesEnabled)
+ * [servicesEnabled](#servicesenabled)
  * [start](#start)
  * [stop](#stop)
  * [sunrise](#sunrise)
@@ -47,22 +47,22 @@ The following labels are used to describe tables which are used by functions and
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addMonitoredRegion](#addMonitoredRegion)
+ * [addMonitoredRegion](#addmonitoredregion)
  * [callback](#callback)
- * [currentRegion](#currentRegion)
- * [distanceFrom](#distanceFrom)
+ * [currentRegion](#currentregion)
+ * [distanceFrom](#distancefrom)
  * [location](#location)
- * [monitoredRegions](#monitoredRegions)
- * [removeMonitoredRegion](#removeMonitoredRegion)
- * [startTracking](#startTracking)
- * [stopTracking](#stopTracking)
+ * [monitoredRegions](#monitoredregions)
+ * [removeMonitoredRegion](#removemonitoredregion)
+ * [startTracking](#starttracking)
+ * [stopTracking](#stoptracking)
 
 ## API Documentation
 
 ### Functions
 
 
-### [authorizationStatus](#authorizationStatus)
+### [authorizationStatus](#authorizationstatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [dstOffset](#dstOffset)
+### [dstOffset](#dstoffset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [servicesEnabled](#servicesEnabled)
+### [servicesEnabled](#servicesenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ The following labels are used to describe tables which are used by functions and
 ### Methods
 
 
-### [addMonitoredRegion](#addMonitoredRegion)
+### [addMonitoredRegion](#addmonitoredregion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [currentRegion](#currentRegion)
+### [currentRegion](#currentregion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [distanceFrom](#distanceFrom)
+### [distanceFrom](#distancefrom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -289,7 +289,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [monitoredRegions](#monitoredRegions)
+### [monitoredRegions](#monitoredregions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [removeMonitoredRegion](#removeMonitoredRegion)
+### [removeMonitoredRegion](#removemonitoredregion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -315,7 +315,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [startTracking](#startTracking)
+### [startTracking](#starttracking)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -328,7 +328,7 @@ The following labels are used to describe tables which are used by functions and
 
 ---
 
-### [stopTracking](#stopTracking)
+### [stopTracking](#stoptracking)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,7 +4,7 @@ Tangent Sound Functions.
 
 ## API Overview
 * Variables - Configurable values
- * [currentOutputDevice](#currentOutputDevice)
+ * [currentOutputDevice](#currentoutputdevice)
  * [group](#group)
 * Functions - API calls offered directly by the extension
  * [init](#init)
@@ -14,7 +14,7 @@ Tangent Sound Functions.
 ### Variables
 
 
-### [currentOutputDevice](#currentOutputDevice)
+### [currentOutputDevice](#currentoutputdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

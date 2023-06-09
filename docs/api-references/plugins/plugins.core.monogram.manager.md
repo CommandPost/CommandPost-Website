@@ -4,21 +4,21 @@ Monogram Manager Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+ * [NUMBER_OF_FAVOURITES](#number_of_favourites)
 * Variables - Configurable values
  * [favourites](#favourites)
- * [lastPort](#lastPort)
- * [performAction](#performAction)
+ * [lastPort](#lastport)
+ * [performAction](#performaction)
  * [plugins](#plugins)
 * Functions - API calls offered directly by the extension
- * [changeContext](#changeContext)
- * [launchCreatorBundle](#launchCreatorBundle)
- * [registerAction](#registerAction)
- * [registerPlugin](#registerPlugin)
- * [setEnabled](#setEnabled)
+ * [changeContext](#changecontext)
+ * [launchCreatorBundle](#launchcreatorbundle)
+ * [registerAction](#registeraction)
+ * [registerPlugin](#registerplugin)
+ * [setEnabled](#setenabled)
  * [sign](#sign)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [automaticProfileSwitching](#automaticProfileSwitching)
+ * [automaticProfileSwitching](#automaticprofileswitching)
  * [enabled](#enabled)
 
 ## API Documentation
@@ -26,7 +26,7 @@ Monogram Manager Plugin.
 ### Constants
 
 
-### [NUMBER_OF_FAVOURITES](#NUMBER_OF_FAVOURITES)
+### [NUMBER_OF_FAVOURITES](#number_of_favourites)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [lastPort](#lastPort)
+### [lastPort](#lastport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [performAction](#performAction)
+### [performAction](#performaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Monogram Manager Plugin.
 ### Functions
 
 
-### [changeContext](#changeContext)
+### [changeContext](#changecontext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [launchCreatorBundle](#launchCreatorBundle)
+### [launchCreatorBundle](#launchcreatorbundle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [registerAction](#registerAction)
+### [registerAction](#registeraction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [registerPlugin](#registerPlugin)
+### [registerPlugin](#registerplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Monogram Manager Plugin.
 
 ---
 
-### [setEnabled](#setEnabled)
+### [setEnabled](#setenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Monogram Manager Plugin.
 ### Fields
 
 
-### [automaticProfileSwitching](#automaticProfileSwitching)
+### [automaticProfileSwitching](#automaticprofileswitching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -4,17 +4,17 @@ Application manager.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [defaultSearchConsoleToolbar](#defaultSearchConsoleToolbar)
- * [getApplications](#getApplications)
- * [getSearchConsoleToolbar](#getSearchConsoleToolbar)
- * [registerApplication](#registerApplication)
+ * [defaultSearchConsoleToolbar](#defaultsearchconsoletoolbar)
+ * [getApplications](#getapplications)
+ * [getSearchConsoleToolbar](#getsearchconsoletoolbar)
+ * [registerApplication](#registerapplication)
 
 ## API Documentation
 
 ### Functions
 
 
-### [defaultSearchConsoleToolbar](#defaultSearchConsoleToolbar)
+### [defaultSearchConsoleToolbar](#defaultsearchconsoletoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ Application manager.
 
 ---
 
-### [getApplications](#getApplications)
+### [getApplications](#getapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Application manager.
 
 ---
 
-### [getSearchConsoleToolbar](#getSearchConsoleToolbar)
+### [getSearchConsoleToolbar](#getsearchconsoletoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Application manager.
 
 ---
 
-### [registerApplication](#registerApplication)
+### [registerApplication](#registerapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

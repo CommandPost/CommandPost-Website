@@ -69,7 +69,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Scenario](#Scenario)
+ * [Scenario](#scenario)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [doing](#doing)
  * [run](#run)
@@ -80,7 +80,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 ### Constructors
 
 
-### [Scenario](#Scenario)
+### [Scenario](#scenario)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

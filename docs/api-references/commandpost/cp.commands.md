@@ -9,30 +9,30 @@ Commands Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_EXTENSION](#DEFAULT_EXTENSION)
+ * [DEFAULT_EXTENSION](#default_extension)
 * Functions - API calls offered directly by the extension
- * [getShortcutsPath](#getShortcutsPath)
+ * [getShortcutsPath](#getshortcutspath)
  * [group](#group)
- * [groupIds](#groupIds)
+ * [groupIds](#groupids)
  * [groups](#groups)
- * [loadFromFile](#loadFromFile)
+ * [loadFromFile](#loadfromfile)
  * [new](#new)
- * [saveToFile](#saveToFile)
+ * [saveToFile](#savetofile)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
- * [isEditable](#isEditable)
+ * [isEditable](#iseditable)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [activate](#activate)
  * [add](#add)
  * [clear](#clear)
- * [deleteShortcuts](#deleteShortcuts)
+ * [deleteShortcuts](#deleteshortcuts)
  * [disable](#disable)
  * [enable](#enable)
  * [get](#get)
- * [getAll](#getAll)
+ * [getAll](#getall)
  * [id](#id)
- * [loadShortcuts](#loadShortcuts)
- * [saveShortcuts](#saveShortcuts)
+ * [loadShortcuts](#loadshortcuts)
+ * [saveShortcuts](#saveshortcuts)
  * [watch](#watch)
 
 ## API Documentation
@@ -40,7 +40,7 @@ Commands Module.
 ### Constants
 
 
-### [DEFAULT_EXTENSION](#DEFAULT_EXTENSION)
+### [DEFAULT_EXTENSION](#default_extension)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Commands Module.
 ### Functions
 
 
-### [getShortcutsPath](#getShortcutsPath)
+### [getShortcutsPath](#getshortcutspath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Commands Module.
 
 ---
 
-### [groupIds](#groupIds)
+### [groupIds](#groupids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Commands Module.
 
 ---
 
-### [loadFromFile](#loadFromFile)
+### [loadFromFile](#loadfromfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Commands Module.
 
 ---
 
-### [saveToFile](#saveToFile)
+### [saveToFile](#savetofile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -155,7 +155,7 @@ Commands Module.
 
 ---
 
-### [isEditable](#isEditable)
+### [isEditable](#iseditable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Commands Module.
 
 ---
 
-### [deleteShortcuts](#deleteShortcuts)
+### [deleteShortcuts](#deleteshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -258,7 +258,7 @@ Commands Module.
 
 ---
 
-### [getAll](#getAll)
+### [getAll](#getall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ Commands Module.
 
 ---
 
-### [loadShortcuts](#loadShortcuts)
+### [loadShortcuts](#loadshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ Commands Module.
 
 ---
 
-### [saveShortcuts](#saveShortcuts)
+### [saveShortcuts](#saveshortcuts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

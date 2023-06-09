@@ -6,12 +6,12 @@ Toolbar Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Toolbar](#Toolbar)
+ * [Toolbar](#toolbar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [overflowButton](#overflowButton)
- * [selectedTitle](#selectedTitle)
+ * [overflowButton](#overflowbutton)
+ * [selectedTitle](#selectedtitle)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doSelect](#doSelect)
+ * [doSelect](#doselect)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ Toolbar Module.
 ### Constructors
 
 
-### [Toolbar](#Toolbar)
+### [Toolbar](#toolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Toolbar Module.
 ### Fields
 
 
-### [overflowButton](#overflowButton)
+### [overflowButton](#overflowbutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Toolbar Module.
 
 ---
 
-### [selectedTitle](#selectedTitle)
+### [selectedTitle](#selectedtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Toolbar Module.
 ### Methods
 
 
-### [doSelect](#doSelect)
+### [doSelect](#doselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

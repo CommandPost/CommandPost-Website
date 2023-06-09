@@ -4,15 +4,15 @@ Represents an `AXRow` `axuielement`.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [OldRow](#OldRow)
+ * [OldRow](#oldrow)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [disclosing](#disclosing)
- * [disclosureLevel](#disclosureLevel)
+ * [disclosureLevel](#disclosurelevel)
  * [index](#index)
  * [selected](#selected)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [disclosedByRow](#disclosedByRow)
- * [disclosedRows](#disclosedRows)
+ * [disclosedByRow](#disclosedbyrow)
+ * [disclosedRows](#disclosedrows)
  * [matches](#matches)
 
 ## API Documentation
@@ -20,7 +20,7 @@ Represents an `AXRow` `axuielement`.
 ### Constructors
 
 
-### [OldRow](#OldRow)
+### [OldRow](#oldrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Represents an `AXRow` `axuielement`.
 
 ---
 
-### [disclosureLevel](#disclosureLevel)
+### [disclosureLevel](#disclosurelevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Represents an `AXRow` `axuielement`.
 ### Methods
 
 
-### [disclosedByRow](#disclosedByRow)
+### [disclosedByRow](#disclosedbyrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ Represents an `AXRow` `axuielement`.
 
 ---
 
-### [disclosedRows](#disclosedRows)
+### [disclosedRows](#disclosedrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

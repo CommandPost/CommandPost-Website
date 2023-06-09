@@ -20,16 +20,16 @@ This is a subclass of [Element](cp.ui.Element.md).
  * [matches](#matches)
  * [with](#with)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Cell](#Cell)
+ * [Cell](#cell)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [children](#children)
- * [childrenUI](#childrenUI)
- * [columnIndexRange](#columnIndexRange)
- * [rowIndexRange](#rowIndexRange)
+ * [childrenUI](#childrenui)
+ * [columnIndexRange](#columnindexrange)
+ * [rowIndexRange](#rowindexrange)
  * [selected](#selected)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [textValueIs](#textValueIs)
+ * [textValueIs](#textvalueis)
 
 ## API Documentation
 
@@ -64,7 +64,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 ### Constructors
 
 
-### [Cell](#Cell)
+### [Cell](#cell)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [childrenUI](#childrenUI)
+### [childrenUI](#childrenui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [columnIndexRange](#columnIndexRange)
+### [columnIndexRange](#columnindexrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ---
 
-### [rowIndexRange](#rowIndexRange)
+### [rowIndexRange](#rowindexrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 ### Methods
 
 
-### [textValueIs](#textValueIs)
+### [textValueIs](#textvalueis)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

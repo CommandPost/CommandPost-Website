@@ -4,23 +4,23 @@ FCPXML Titles Toolbox Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [ignoreFirstRow](#ignoreFirstRow)
- * [lastBatchProcessPath](#lastBatchProcessPath)
- * [lastExportCSVPath](#lastExportCSVPath)
- * [lastExportFCPXMLPath](#lastExportFCPXMLPath)
- * [lastFCPXMLPath](#lastFCPXMLPath)
- * [newTitleColumn](#newTitleColumn)
- * [originalTitleColumn](#originalTitleColumn)
- * [removeLineBreaks](#removeLineBreaks)
- * [sentToFinalCutPro](#sentToFinalCutPro)
- * [trimWhiteSpace](#trimWhiteSpace)
+ * [ignoreFirstRow](#ignorefirstrow)
+ * [lastBatchProcessPath](#lastbatchprocesspath)
+ * [lastExportCSVPath](#lastexportcsvpath)
+ * [lastExportFCPXMLPath](#lastexportfcpxmlpath)
+ * [lastFCPXMLPath](#lastfcpxmlpath)
+ * [newTitleColumn](#newtitlecolumn)
+ * [originalTitleColumn](#originaltitlecolumn)
+ * [removeLineBreaks](#removelinebreaks)
+ * [sentToFinalCutPro](#senttofinalcutpro)
+ * [trimWhiteSpace](#trimwhitespace)
 
 ## API Documentation
 
 ### Fields
 
 
-### [ignoreFirstRow](#ignoreFirstRow)
+### [ignoreFirstRow](#ignorefirstrow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [lastBatchProcessPath](#lastBatchProcessPath)
+### [lastBatchProcessPath](#lastbatchprocesspath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [lastExportCSVPath](#lastExportCSVPath)
+### [lastExportCSVPath](#lastexportcsvpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [lastExportFCPXMLPath](#lastExportFCPXMLPath)
+### [lastExportFCPXMLPath](#lastexportfcpxmlpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [lastFCPXMLPath](#lastFCPXMLPath)
+### [lastFCPXMLPath](#lastfcpxmlpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [newTitleColumn](#newTitleColumn)
+### [newTitleColumn](#newtitlecolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [originalTitleColumn](#originalTitleColumn)
+### [originalTitleColumn](#originaltitlecolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [removeLineBreaks](#removeLineBreaks)
+### [removeLineBreaks](#removelinebreaks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [sentToFinalCutPro](#sentToFinalCutPro)
+### [sentToFinalCutPro](#senttofinalcutpro)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ FCPXML Titles Toolbox Panel
 
 ---
 
-### [trimWhiteSpace](#trimWhiteSpace)
+### [trimWhiteSpace](#trimwhitespace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

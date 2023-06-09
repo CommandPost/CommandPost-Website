@@ -4,32 +4,32 @@ Import Panel Module.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ImportPanel](#ImportPanel)
+ * [ImportPanel](#importpanel)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [analyzeAudioProblems](#analyzeAudioProblems)
- * [analyzeBalanceColor](#analyzeBalanceColor)
- * [assignAudioRole](#assignAudioRole)
- * [copyToLibraryStorageLocation](#copyToLibraryStorageLocation)
- * [createOptimizedMedia](#createOptimizedMedia)
- * [createProxyMedia](#createProxyMedia)
- * [findPeople](#findPeople)
- * [findPeopleConsolidatedResults](#findPeopleConsolidatedResults)
- * [findPeopleSmartCollections](#findPeopleSmartCollections)
- * [iXMLRoles](#iXMLRoles)
- * [keywordsFromFinderTags](#keywordsFromFinderTags)
- * [keywordsFromFolders](#keywordsFromFolders)
- * [leaveFilesInPlace](#leaveFilesInPlace)
- * [removeSilentChannels](#removeSilentChannels)
- * [separateMonoGroupStereoAudio](#separateMonoGroupStereoAudio)
+ * [analyzeAudioProblems](#analyzeaudioproblems)
+ * [analyzeBalanceColor](#analyzebalancecolor)
+ * [assignAudioRole](#assignaudiorole)
+ * [copyToLibraryStorageLocation](#copytolibrarystoragelocation)
+ * [createOptimizedMedia](#createoptimizedmedia)
+ * [createProxyMedia](#createproxymedia)
+ * [findPeople](#findpeople)
+ * [findPeopleConsolidatedResults](#findpeopleconsolidatedresults)
+ * [findPeopleSmartCollections](#findpeoplesmartcollections)
+ * [iXMLRoles](#ixmlroles)
+ * [keywordsFromFinderTags](#keywordsfromfindertags)
+ * [keywordsFromFolders](#keywordsfromfolders)
+ * [leaveFilesInPlace](#leavefilesinplace)
+ * [removeSilentChannels](#removesilentchannels)
+ * [separateMonoGroupStereoAudio](#separatemonogroupstereoaudio)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [toggleMediaLocation](#toggleMediaLocation)
+ * [toggleMediaLocation](#togglemedialocation)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [ImportPanel](#ImportPanel)
+### [ImportPanel](#importpanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Import Panel Module.
 ### Fields
 
 
-### [analyzeAudioProblems](#analyzeAudioProblems)
+### [analyzeAudioProblems](#analyzeaudioproblems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Import Panel Module.
 
 ---
 
-### [analyzeBalanceColor](#analyzeBalanceColor)
+### [analyzeBalanceColor](#analyzebalancecolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ Import Panel Module.
 
 ---
 
-### [assignAudioRole](#assignAudioRole)
+### [assignAudioRole](#assignaudiorole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Import Panel Module.
 
 ---
 
-### [copyToLibraryStorageLocation](#copyToLibraryStorageLocation)
+### [copyToLibraryStorageLocation](#copytolibrarystoragelocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Import Panel Module.
 
 ---
 
-### [createOptimizedMedia](#createOptimizedMedia)
+### [createOptimizedMedia](#createoptimizedmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Import Panel Module.
 
 ---
 
-### [createProxyMedia](#createProxyMedia)
+### [createProxyMedia](#createproxymedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Import Panel Module.
 
 ---
 
-### [findPeople](#findPeople)
+### [findPeople](#findpeople)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Import Panel Module.
 
 ---
 
-### [findPeopleConsolidatedResults](#findPeopleConsolidatedResults)
+### [findPeopleConsolidatedResults](#findpeopleconsolidatedresults)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Import Panel Module.
 
 ---
 
-### [findPeopleSmartCollections](#findPeopleSmartCollections)
+### [findPeopleSmartCollections](#findpeoplesmartcollections)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ Import Panel Module.
 
 ---
 
-### [iXMLRoles](#iXMLRoles)
+### [iXMLRoles](#ixmlroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Import Panel Module.
 
 ---
 
-### [keywordsFromFinderTags](#keywordsFromFinderTags)
+### [keywordsFromFinderTags](#keywordsfromfindertags)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Import Panel Module.
 
 ---
 
-### [keywordsFromFolders](#keywordsFromFolders)
+### [keywordsFromFolders](#keywordsfromfolders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Import Panel Module.
 
 ---
 
-### [leaveFilesInPlace](#leaveFilesInPlace)
+### [leaveFilesInPlace](#leavefilesinplace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Import Panel Module.
 
 ---
 
-### [removeSilentChannels](#removeSilentChannels)
+### [removeSilentChannels](#removesilentchannels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Import Panel Module.
 
 ---
 
-### [separateMonoGroupStereoAudio](#separateMonoGroupStereoAudio)
+### [separateMonoGroupStereoAudio](#separatemonogroupstereoaudio)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Import Panel Module.
 ### Methods
 
 
-### [toggleMediaLocation](#toggleMediaLocation)
+### [toggleMediaLocation](#togglemedialocation)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

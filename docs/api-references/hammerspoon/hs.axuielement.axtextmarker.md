@@ -18,21 +18,21 @@ As this submodule utilizes private and undocumented functions in the HIServices 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [_functionCheck](#_functionCheck)
+ * [_functionCheck](#_functioncheck)
  * [bytes](#bytes)
- * [endMarker](#endMarker)
+ * [endMarker](#endmarker)
  * [length](#length)
- * [startMarker](#startMarker)
+ * [startMarker](#startmarker)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [newMarker](#newMarker)
- * [newRange](#newRange)
+ * [newMarker](#newmarker)
+ * [newRange](#newrange)
 
 ## API Documentation
 
 ### Functions
 
 
-### [_functionCheck](#_functionCheck)
+### [_functionCheck](#_functioncheck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ As this submodule utilizes private and undocumented functions in the HIServices 
 
 ---
 
-### [endMarker](#endMarker)
+### [endMarker](#endmarker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ As this submodule utilizes private and undocumented functions in the HIServices 
 
 ---
 
-### [startMarker](#startMarker)
+### [startMarker](#startmarker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ As this submodule utilizes private and undocumented functions in the HIServices 
 ### Constructors
 
 
-### [newMarker](#newMarker)
+### [newMarker](#newmarker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ As this submodule utilizes private and undocumented functions in the HIServices 
 
 ---
 
-### [newRange](#newRange)
+### [newRange](#newrange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

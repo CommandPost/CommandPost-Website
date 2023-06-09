@@ -10,29 +10,29 @@ Timeline Toolbar
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Toolbar](#Toolbar)
+ * [Toolbar](#toolbar)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [appearance](#appearance)
- * [appearanceToggle](#appearanceToggle)
- * [appendClip](#appendClip)
- * [audioSkimming](#audioSkimming)
+ * [appearanceToggle](#appearancetoggle)
+ * [appendClip](#appendclip)
+ * [audioSkimming](#audioskimming)
  * [back](#back)
  * [browser](#browser)
  * [clip](#clip)
- * [clipMedia](#clipMedia)
+ * [clipMedia](#clipmedia)
  * [duration](#duration)
  * [effects](#effects)
  * [forward](#forward)
  * [index](#index)
- * [insertClip](#insertClip)
- * [overwriteClip](#overwriteClip)
+ * [insertClip](#insertclip)
+ * [overwriteClip](#overwriteclip)
  * [skimming](#skimming)
  * [snapping](#snapping)
  * [solo](#solo)
  * [title](#title)
  * [tool](#tool)
  * [transitions](#transitions)
- * [trimAlignedEdges](#trimAlignedEdges)
+ * [trimAlignedEdges](#trimalignededges)
 
 ## API Documentation
 
@@ -54,7 +54,7 @@ Timeline Toolbar
 ### Constructors
 
 
-### [Toolbar](#Toolbar)
+### [Toolbar](#toolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Timeline Toolbar
 
 ---
 
-### [appearanceToggle](#appearanceToggle)
+### [appearanceToggle](#appearancetoggle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Timeline Toolbar
 
 ---
 
-### [appendClip](#appendClip)
+### [appendClip](#appendclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Timeline Toolbar
 
 ---
 
-### [audioSkimming](#audioSkimming)
+### [audioSkimming](#audioskimming)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Timeline Toolbar
 
 ---
 
-### [clipMedia](#clipMedia)
+### [clipMedia](#clipmedia)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ Timeline Toolbar
 
 ---
 
-### [insertClip](#insertClip)
+### [insertClip](#insertclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Timeline Toolbar
 
 ---
 
-### [overwriteClip](#overwriteClip)
+### [overwriteClip](#overwriteclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ Timeline Toolbar
 
 ---
 
-### [trimAlignedEdges](#trimAlignedEdges)
+### [trimAlignedEdges](#trimalignededges)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

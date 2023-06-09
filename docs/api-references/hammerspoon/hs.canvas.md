@@ -17,14 +17,14 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [compositeTypes](#compositeTypes)
- * [windowBehaviors](#windowBehaviors)
- * [windowLevels](#windowLevels)
+ * [compositeTypes](#compositetypes)
+ * [windowBehaviors](#windowbehaviors)
+ * [windowLevels](#windowlevels)
 * Functions - API calls offered directly by the extension
- * [defaultTextStyle](#defaultTextStyle)
- * [elementSpec](#elementSpec)
+ * [defaultTextStyle](#defaulttextstyle)
+ * [elementSpec](#elementspec)
  * [help](#help)
- * [useCustomAccessibilitySubrole](#useCustomAccessibilitySubrole)
+ * [useCustomAccessibilitySubrole](#usecustomaccessibilitysubrole)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Fields - Variables which can only be accessed from an object returned by a constructor
@@ -32,54 +32,54 @@ Some examples of how to use this module can be found at https://github.com/asmag
  * [object](#object)
  * [percentages](#percentages)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [_accessibilitySubrole](#_accessibilitySubrole)
+ * [_accessibilitySubrole](#_accessibilitysubrole)
  * [alpha](#alpha)
- * [appendElements](#appendElements)
- * [assignElement](#assignElement)
+ * [appendElements](#appendelements)
+ * [assignElement](#assignelement)
  * [behavior](#behavior)
- * [behaviorAsLabels](#behaviorAsLabels)
- * [bringToFront](#bringToFront)
- * [canvasDefaultFor](#canvasDefaultFor)
- * [canvasDefaultKeys](#canvasDefaultKeys)
- * [canvasDefaults](#canvasDefaults)
- * [canvasElements](#canvasElements)
- * [canvasMouseEvents](#canvasMouseEvents)
- * [clickActivating](#clickActivating)
+ * [behaviorAsLabels](#behavioraslabels)
+ * [bringToFront](#bringtofront)
+ * [canvasDefaultFor](#canvasdefaultfor)
+ * [canvasDefaultKeys](#canvasdefaultkeys)
+ * [canvasDefaults](#canvasdefaults)
+ * [canvasElements](#canvaselements)
+ * [canvasMouseEvents](#canvasmouseevents)
+ * [clickActivating](#clickactivating)
  * [copy](#copy)
  * [delete](#delete)
- * [draggingCallback](#draggingCallback)
- * [elementAttribute](#elementAttribute)
- * [elementBounds](#elementBounds)
- * [elementCount](#elementCount)
- * [elementKeys](#elementKeys)
+ * [draggingCallback](#draggingcallback)
+ * [elementAttribute](#elementattribute)
+ * [elementBounds](#elementbounds)
+ * [elementCount](#elementcount)
+ * [elementKeys](#elementkeys)
  * [frame](#frame)
  * [hide](#hide)
- * [imageFromCanvas](#imageFromCanvas)
- * [insertElement](#insertElement)
- * [isOccluded](#isOccluded)
- * [isShowing](#isShowing)
- * [isVisible](#isVisible)
+ * [imageFromCanvas](#imagefromcanvas)
+ * [insertElement](#insertelement)
+ * [isOccluded](#isoccluded)
+ * [isShowing](#isshowing)
+ * [isVisible](#isvisible)
  * [level](#level)
- * [minimumTextSize](#minimumTextSize)
- * [mouseCallback](#mouseCallback)
- * [orderAbove](#orderAbove)
- * [orderBelow](#orderBelow)
- * [removeElement](#removeElement)
- * [replaceElements](#replaceElements)
- * [rotateElement](#rotateElement)
- * [sendToBack](#sendToBack)
+ * [minimumTextSize](#minimumtextsize)
+ * [mouseCallback](#mousecallback)
+ * [orderAbove](#orderabove)
+ * [orderBelow](#orderbelow)
+ * [removeElement](#removeelement)
+ * [replaceElements](#replaceelements)
+ * [rotateElement](#rotateelement)
+ * [sendToBack](#sendtoback)
  * [show](#show)
  * [size](#size)
- * [topLeft](#topLeft)
+ * [topLeft](#topleft)
  * [transformation](#transformation)
- * [wantsLayer](#wantsLayer)
+ * [wantsLayer](#wantslayer)
 
 ## API Documentation
 
 ### Constants
 
 
-### [compositeTypes](#compositeTypes)
+### [compositeTypes](#compositetypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [windowBehaviors](#windowBehaviors)
+### [windowBehaviors](#windowbehaviors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [windowLevels](#windowLevels)
+### [windowLevels](#windowlevels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 ### Functions
 
 
-### [defaultTextStyle](#defaultTextStyle)
+### [defaultTextStyle](#defaulttextstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [elementSpec](#elementSpec)
+### [elementSpec](#elementspec)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [useCustomAccessibilitySubrole](#useCustomAccessibilitySubrole)
+### [useCustomAccessibilitySubrole](#usecustomaccessibilitysubrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 ### Methods
 
 
-### [_accessibilitySubrole](#_accessibilitySubrole)
+### [_accessibilitySubrole](#_accessibilitysubrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [appendElements](#appendElements)
+### [appendElements](#appendelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [assignElement](#assignElement)
+### [assignElement](#assignelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [behaviorAsLabels](#behaviorAsLabels)
+### [behaviorAsLabels](#behavioraslabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [bringToFront](#bringToFront)
+### [bringToFront](#bringtofront)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [canvasDefaultFor](#canvasDefaultFor)
+### [canvasDefaultFor](#canvasdefaultfor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -325,7 +325,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [canvasDefaultKeys](#canvasDefaultKeys)
+### [canvasDefaultKeys](#canvasdefaultkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -338,7 +338,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [canvasDefaults](#canvasDefaults)
+### [canvasDefaults](#canvasdefaults)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -351,7 +351,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [canvasElements](#canvasElements)
+### [canvasElements](#canvaselements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [canvasMouseEvents](#canvasMouseEvents)
+### [canvasMouseEvents](#canvasmouseevents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -377,7 +377,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [clickActivating](#clickActivating)
+### [clickActivating](#clickactivating)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -416,7 +416,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [draggingCallback](#draggingCallback)
+### [draggingCallback](#draggingcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -429,7 +429,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [elementAttribute](#elementAttribute)
+### [elementAttribute](#elementattribute)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -442,7 +442,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [elementBounds](#elementBounds)
+### [elementBounds](#elementbounds)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -455,7 +455,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [elementCount](#elementCount)
+### [elementCount](#elementcount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -468,7 +468,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [elementKeys](#elementKeys)
+### [elementKeys](#elementkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -507,7 +507,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [imageFromCanvas](#imageFromCanvas)
+### [imageFromCanvas](#imagefromcanvas)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -520,7 +520,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [insertElement](#insertElement)
+### [insertElement](#insertelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -533,7 +533,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [isOccluded](#isOccluded)
+### [isOccluded](#isoccluded)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -546,7 +546,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -559,7 +559,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [isVisible](#isVisible)
+### [isVisible](#isvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -585,7 +585,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [minimumTextSize](#minimumTextSize)
+### [minimumTextSize](#minimumtextsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -598,7 +598,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [mouseCallback](#mouseCallback)
+### [mouseCallback](#mousecallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -611,7 +611,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [orderAbove](#orderAbove)
+### [orderAbove](#orderabove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -624,7 +624,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [orderBelow](#orderBelow)
+### [orderBelow](#orderbelow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -637,7 +637,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [removeElement](#removeElement)
+### [removeElement](#removeelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -650,7 +650,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [replaceElements](#replaceElements)
+### [replaceElements](#replaceelements)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -663,7 +663,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [rotateElement](#rotateElement)
+### [rotateElement](#rotateelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -676,7 +676,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [sendToBack](#sendToBack)
+### [sendToBack](#sendtoback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -715,7 +715,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [topLeft](#topLeft)
+### [topLeft](#topleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -741,7 +741,7 @@ Some examples of how to use this module can be found at https://github.com/asmag
 
 ---
 
-### [wantsLayer](#wantsLayer)
+### [wantsLayer](#wantslayer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -7,20 +7,20 @@ A generalized framework for working with OSX UI elements
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [focusedElement](#focusedElement)
+ * [focusedElement](#focusedelement)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isApplication](#isApplication)
- * [isWindow](#isWindow)
- * [newWatcher](#newWatcher)
+ * [isApplication](#isapplication)
+ * [isWindow](#iswindow)
+ * [newWatcher](#newwatcher)
  * [role](#role)
- * [selectedText](#selectedText)
+ * [selectedText](#selectedtext)
 
 ## API Documentation
 
 ### Functions
 
 
-### [focusedElement](#focusedElement)
+### [focusedElement](#focusedelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ A generalized framework for working with OSX UI elements
 ### Methods
 
 
-### [isApplication](#isApplication)
+### [isApplication](#isapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ A generalized framework for working with OSX UI elements
 
 ---
 
-### [isWindow](#isWindow)
+### [isWindow](#iswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ A generalized framework for working with OSX UI elements
 
 ---
 
-### [newWatcher](#newWatcher)
+### [newWatcher](#newwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ A generalized framework for working with OSX UI elements
 
 ---
 
-### [selectedText](#selectedText)
+### [selectedText](#selectedtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

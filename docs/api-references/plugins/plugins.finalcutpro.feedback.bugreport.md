@@ -4,8 +4,8 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
- * [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+ * [DEFAULT_HEIGHT](#default_height)
+ * [DEFAULT_WIDTH](#default_width)
 * Functions - API calls offered directly by the extension
  * [open](#open)
 * Fields - Variables which can only be accessed from an object returned by a constructor
@@ -16,7 +16,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 ### Constants
 
 
-### [DEFAULT_HEIGHT](#DEFAULT_HEIGHT)
+### [DEFAULT_HEIGHT](#default_height)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Sends Apple a Bug Report or Feature Request for Final Cut Pro.
 
 ---
 
-### [DEFAULT_WIDTH](#DEFAULT_WIDTH)
+### [DEFAULT_WIDTH](#default_width)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

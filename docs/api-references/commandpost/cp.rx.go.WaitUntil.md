@@ -4,26 +4,26 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [Are](#Are)
- * [AreNot](#AreNot)
- * [Is](#Is)
- * [IsNot](#IsNot)
- * [Matches](#Matches)
+ * [Are](#are)
+ * [AreNot](#arenot)
+ * [Is](#is)
+ * [IsNot](#isnot)
+ * [Matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [WaitUntil](#WaitUntil)
+ * [WaitUntil](#waituntil)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Are](#Are)
- * [AreNot](#AreNot)
- * [Is](#Is)
- * [IsNot](#IsNot)
- * [Matches](#Matches)
+ * [Are](#are)
+ * [AreNot](#arenot)
+ * [Is](#is)
+ * [IsNot](#isnot)
+ * [Matches](#matches)
 
 ## API Documentation
 
 ### Constants
 
 
-### [Are](#Are)
+### [Are](#are)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [AreNot](#AreNot)
+### [AreNot](#arenot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [Is](#Is)
+### [Is](#is)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [IsNot](#IsNot)
+### [IsNot](#isnot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [Matches](#Matches)
+### [Matches](#matches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 ### Constructors
 
 
-### [WaitUntil](#WaitUntil)
+### [WaitUntil](#waituntil)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 ### Methods
 
 
-### [Are](#Are)
+### [Are](#are)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [AreNot](#AreNot)
+### [AreNot](#arenot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [Is](#Is)
+### [Is](#is)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [IsNot](#IsNot)
+### [IsNot](#isnot)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ---
 
-### [Matches](#Matches)
+### [Matches](#matches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

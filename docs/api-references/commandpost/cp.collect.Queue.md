@@ -24,25 +24,25 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 * Functions - API calls offered directly by the extension
  * [contains](#contains)
  * [len](#len)
- * [peekLeft](#peekLeft)
- * [peekRight](#peekRight)
- * [popLeft](#popLeft)
- * [popRight](#popRight)
- * [pushLeft](#pushLeft)
- * [pushRight](#pushRight)
- * [removeItem](#removeItem)
- * [removeItem](#removeItem)
+ * [peekLeft](#peekleft)
+ * [peekRight](#peekright)
+ * [popLeft](#popleft)
+ * [popRight](#popright)
+ * [pushLeft](#pushleft)
+ * [pushRight](#pushright)
+ * [removeItem](#removeitem)
+ * [removeItem](#removeitem)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [contains](#contains)
  * [len](#len)
- * [peekLeft](#peekLeft)
- * [peekRight](#peekRight)
- * [popLeft](#popLeft)
- * [popRight](#popRight)
- * [pushLeft](#pushLeft)
- * [pushRight](#pushRight)
+ * [peekLeft](#peekleft)
+ * [peekRight](#peekright)
+ * [popLeft](#popleft)
+ * [popRight](#popright)
+ * [pushLeft](#pushleft)
+ * [pushRight](#pushright)
 
 ## API Documentation
 
@@ -75,7 +75,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [peekLeft](#peekLeft)
+### [peekLeft](#peekleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [peekRight](#peekRight)
+### [peekRight](#peekright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [popLeft](#popLeft)
+### [popLeft](#popleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [popRight](#popRight)
+### [popRight](#popright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [pushLeft](#pushLeft)
+### [pushLeft](#pushleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [pushRight](#pushRight)
+### [pushRight](#pushright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [removeItem](#removeItem)
+### [removeItem](#removeitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [removeItem](#removeItem)
+### [removeItem](#removeitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [peekLeft](#peekLeft)
+### [peekLeft](#peekleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [peekRight](#peekRight)
+### [peekRight](#peekright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -248,7 +248,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [popLeft](#popLeft)
+### [popLeft](#popleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -261,7 +261,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [popRight](#popRight)
+### [popRight](#popright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -274,7 +274,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [pushLeft](#pushLeft)
+### [pushLeft](#pushleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ---
 
-### [pushRight](#pushRight)
+### [pushRight](#pushright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

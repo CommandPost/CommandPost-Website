@@ -4,24 +4,24 @@ Touch Bar Preferences Panel
 
 ## API Overview
 * Variables - Configurable values
- * [defaultIconPath](#defaultIconPath)
- * [maxItems](#maxItems)
- * [supportedExtensions](#supportedExtensions)
+ * [defaultIconPath](#defaulticonpath)
+ * [maxItems](#maxitems)
+ * [supportedExtensions](#supportedextensions)
 * Functions - API calls offered directly by the extension
- * [getGroupEditor](#getGroupEditor)
+ * [getGroupEditor](#getgroupeditor)
  * [init](#init)
- * [setGroupEditor](#setGroupEditor)
+ * [setGroupEditor](#setgroupeditor)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
- * [lastGroup](#lastGroup)
- * [scrollBarPosition](#scrollBarPosition)
+ * [lastGroup](#lastgroup)
+ * [scrollBarPosition](#scrollbarposition)
 
 ## API Documentation
 
 ### Variables
 
 
-### [defaultIconPath](#defaultIconPath)
+### [defaultIconPath](#defaulticonpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Touch Bar Preferences Panel
 
 ---
 
-### [maxItems](#maxItems)
+### [maxItems](#maxitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Touch Bar Preferences Panel
 
 ---
 
-### [supportedExtensions](#supportedExtensions)
+### [supportedExtensions](#supportedextensions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Touch Bar Preferences Panel
 ### Functions
 
 
-### [getGroupEditor](#getGroupEditor)
+### [getGroupEditor](#getgroupeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Touch Bar Preferences Panel
 
 ---
 
-### [setGroupEditor](#setGroupEditor)
+### [setGroupEditor](#setgroupeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Touch Bar Preferences Panel
 
 ---
 
-### [lastGroup](#lastGroup)
+### [lastGroup](#lastgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Touch Bar Preferences Panel
 
 ---
 
-### [scrollBarPosition](#scrollBarPosition)
+### [scrollBarPosition](#scrollbarposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

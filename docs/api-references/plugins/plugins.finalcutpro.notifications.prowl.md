@@ -5,12 +5,12 @@ Prowl Notifications Plugin.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [init](#init)
- * [sendNotification](#sendNotification)
+ * [sendNotification](#sendnotification)
  * [update](#update)
- * [validateAPIKey](#validateAPIKey)
+ * [validateAPIKey](#validateapikey)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [apiKey](#apiKey)
- * [apiValidated](#apiValidated)
+ * [apiKey](#apikey)
+ * [apiValidated](#apivalidated)
  * [enabled](#enabled)
 
 ## API Documentation
@@ -31,7 +31,7 @@ Prowl Notifications Plugin.
 
 ---
 
-### [sendNotification](#sendNotification)
+### [sendNotification](#sendnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Prowl Notifications Plugin.
 
 ---
 
-### [validateAPIKey](#validateAPIKey)
+### [validateAPIKey](#validateapikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Prowl Notifications Plugin.
 ### Fields
 
 
-### [apiKey](#apiKey)
+### [apiKey](#apikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Prowl Notifications Plugin.
 
 ---
 
-### [apiValidated](#apiValidated)
+### [apiValidated](#apivalidated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

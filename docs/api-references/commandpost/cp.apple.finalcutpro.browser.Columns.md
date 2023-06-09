@@ -4,11 +4,11 @@ Final Cut Pro Browser List View Columns
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Columns](#Columns)
+ * [Columns](#columns)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [menu](#menu)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isMenuShowing](#isMenuShowing)
+ * [isMenuShowing](#ismenushowing)
  * [show](#show)
 
 ## API Documentation
@@ -16,7 +16,7 @@ Final Cut Pro Browser List View Columns
 ### Constructors
 
 
-### [Columns](#Columns)
+### [Columns](#columns)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Final Cut Pro Browser List View Columns
 ### Methods
 
 
-### [isMenuShowing](#isMenuShowing)
+### [isMenuShowing](#ismenushowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

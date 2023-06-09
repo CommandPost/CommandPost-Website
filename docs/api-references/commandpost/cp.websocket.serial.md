@@ -14,7 +14,7 @@ Note that it does not support any websocket extensions.
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [close](#close)
- * [isOpen](#isOpen)
+ * [isOpen](#isopen)
  * [open](#open)
  * [send](#send)
  * [status](#status)
@@ -52,7 +52,7 @@ Note that it does not support any websocket extensions.
 
 ---
 
-### [isOpen](#isOpen)
+### [isOpen](#isopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -20,25 +20,25 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [commandTypes](#commandTypes)
+ * [commandTypes](#commandtypes)
 * Functions - API calls offered directly by the extension
- * [deviceCallback](#deviceCallback)
+ * [deviceCallback](#devicecallback)
  * [devices](#devices)
- * [virtualSources](#virtualSources)
+ * [virtualSources](#virtualsources)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
- * [newVirtualSource](#newVirtualSource)
+ * [newVirtualSource](#newvirtualsource)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [callback](#callback)
- * [displayName](#displayName)
- * [identityRequest](#identityRequest)
- * [isOnline](#isOnline)
- * [isVirtual](#isVirtual)
+ * [displayName](#displayname)
+ * [identityRequest](#identityrequest)
+ * [isOnline](#isonline)
+ * [isVirtual](#isvirtual)
  * [manufacturer](#manufacturer)
  * [model](#model)
  * [name](#name)
- * [sendCommand](#sendCommand)
- * [sendSysex](#sendSysex)
+ * [sendCommand](#sendcommand)
+ * [sendSysex](#sendsysex)
  * [synthesize](#synthesize)
 
 ## API Documentation
@@ -46,7 +46,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Constants
 
 
-### [commandTypes](#commandTypes)
+### [commandTypes](#commandtypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Functions
 
 
-### [deviceCallback](#deviceCallback)
+### [deviceCallback](#devicecallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [virtualSources](#virtualSources)
+### [virtualSources](#virtualsources)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [newVirtualSource](#newVirtualSource)
+### [newVirtualSource](#newvirtualsource)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [displayName](#displayName)
+### [displayName](#displayname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [identityRequest](#identityRequest)
+### [identityRequest](#identityrequest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [isOnline](#isOnline)
+### [isOnline](#isonline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [isVirtual](#isVirtual)
+### [isVirtual](#isvirtual)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -231,7 +231,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [sendCommand](#sendCommand)
+### [sendCommand](#sendcommand)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -244,7 +244,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [sendSysex](#sendSysex)
+### [sendSysex](#sendsysex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

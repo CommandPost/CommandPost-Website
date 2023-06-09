@@ -7,17 +7,17 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [Then](#Then)
+ * [Then](#then)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [Otherwise](#Otherwise)
- * [Then](#Then)
+ * [Otherwise](#otherwise)
+ * [Then](#then)
 
 ## API Documentation
 
 ### Constants
 
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 ### Methods
 
 
-### [Otherwise](#Otherwise)
+### [Otherwise](#otherwise)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 
 ---
 
-### [Then](#Then)
+### [Then](#then)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,14 +6,14 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 
 ## API Overview
 * Variables - Configurable values
- * [customModifier](#customModifier)
+ * [customModifier](#custommodifier)
  * [enabled](#enabled)
- * [numberOfTouchDevices](#numberOfTouchDevices)
+ * [numberOfTouchDevices](#numberoftouchdevices)
  * [offset](#offset)
  * [sensitivity](#sensitivity)
  * [threshold](#threshold)
 * Functions - API calls offered directly by the extension
- * [findMagicMouses](#findMagicMouses)
+ * [findMagicMouses](#findmagicmouses)
  * [start](#start)
  * [stop](#stop)
  * [update](#update)
@@ -23,7 +23,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 ### Variables
 
 
-### [customModifier](#customModifier)
+### [customModifier](#custommodifier)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 
 ---
 
-### [numberOfTouchDevices](#numberOfTouchDevices)
+### [numberOfTouchDevices](#numberoftouchdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 ### Functions
 
 
-### [findMagicMouses](#findMagicMouses)
+### [findMagicMouses](#findmagicmouses)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -7,7 +7,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Run](#Run)
+ * [Run](#run)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [phase](#phase)
  * [report](#report)
@@ -16,15 +16,15 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
  * [source](#source)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [debug](#debug)
- * [expectAbort](#expectAbort)
- * [expectFail](#expectFail)
- * [isDebugging](#isDebugging)
- * [isExpectingAbort](#isExpectingAbort)
- * [isExpectingFail](#isExpectingFail)
+ * [expectAbort](#expectabort)
+ * [expectFail](#expectfail)
+ * [isDebugging](#isdebugging)
+ * [isExpectingAbort](#isexpectingabort)
+ * [isExpectingFail](#isexpectingfail)
  * [log](#log)
- * [onBefore](#onBefore)
- * [onBfter](#onBfter)
- * [onRunning](#onRunning)
+ * [onBefore](#onbefore)
+ * [onBfter](#onbfter)
+ * [onRunning](#onrunning)
  * [parent](#parent)
  * [verbose](#verbose)
 
@@ -33,7 +33,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 ### Constructors
 
 
-### [Run](#Run)
+### [Run](#run)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [expectAbort](#expectAbort)
+### [expectAbort](#expectabort)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [expectFail](#expectFail)
+### [expectFail](#expectfail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [isDebugging](#isDebugging)
+### [isDebugging](#isdebugging)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [isExpectingAbort](#isExpectingAbort)
+### [isExpectingAbort](#isexpectingabort)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [isExpectingFail](#isExpectingFail)
+### [isExpectingFail](#isexpectingfail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [onBefore](#onBefore)
+### [onBefore](#onbefore)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -204,7 +204,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [onBfter](#onBfter)
+### [onBfter](#onbfter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
 
 ---
 
-### [onRunning](#onRunning)
+### [onRunning](#onrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

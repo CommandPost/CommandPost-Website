@@ -8,7 +8,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 * Functions - API calls offered directly by the extension
  * [is](#is)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Definition](#Definition)
+ * [Definition](#definition)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [run](#run)
 
@@ -32,7 +32,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 ### Constructors
 
 
-### [Definition](#Definition)
+### [Definition](#definition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

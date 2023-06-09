@@ -4,25 +4,25 @@ Color Inspector Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [CORRECTION_TYPES](#CORRECTION_TYPES)
+ * [CORRECTION_TYPES](#correction_types)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [colorBoard](#colorBoard)
- * [colorCurves](#colorCurves)
- * [colorWheels](#colorWheels)
+ * [colorBoard](#colorboard)
+ * [colorCurves](#colorcurves)
+ * [colorWheels](#colorwheels)
  * [corrections](#corrections)
- * [correctorUI](#correctorUI)
- * [hueSaturationCurves](#hueSaturationCurves)
- * [topBarUI](#topBarUI)
+ * [correctorUI](#correctorui)
+ * [hueSaturationCurves](#huesaturationcurves)
+ * [topBarUI](#topbarui)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [activateCorrection](#activateCorrection)
- * [addCorrection](#addCorrection)
- * [ColorInspector](#ColorInspector)
- * [doActivateCorrection](#doActivateCorrection)
- * [doAddCorrection](#doAddCorrection)
- * [doShow](#doShow)
+ * [activateCorrection](#activatecorrection)
+ * [addCorrection](#addcorrection)
+ * [ColorInspector](#colorinspector)
+ * [doActivateCorrection](#doactivatecorrection)
+ * [doAddCorrection](#doaddcorrection)
+ * [doShow](#doshow)
  * [hide](#hide)
  * [show](#show)
 
@@ -31,7 +31,7 @@ Color Inspector Module.
 ### Constants
 
 
-### [CORRECTION_TYPES](#CORRECTION_TYPES)
+### [CORRECTION_TYPES](#correction_types)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Color Inspector Module.
 ### Fields
 
 
-### [colorBoard](#colorBoard)
+### [colorBoard](#colorboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Color Inspector Module.
 
 ---
 
-### [colorCurves](#colorCurves)
+### [colorCurves](#colorcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Color Inspector Module.
 
 ---
 
-### [colorWheels](#colorWheels)
+### [colorWheels](#colorwheels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Color Inspector Module.
 
 ---
 
-### [correctorUI](#correctorUI)
+### [correctorUI](#correctorui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ Color Inspector Module.
 
 ---
 
-### [hueSaturationCurves](#hueSaturationCurves)
+### [hueSaturationCurves](#huesaturationcurves)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Color Inspector Module.
 
 ---
 
-### [topBarUI](#topBarUI)
+### [topBarUI](#topbarui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Color Inspector Module.
 ### Methods
 
 
-### [activateCorrection](#activateCorrection)
+### [activateCorrection](#activatecorrection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Color Inspector Module.
 
 ---
 
-### [addCorrection](#addCorrection)
+### [addCorrection](#addcorrection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Color Inspector Module.
 
 ---
 
-### [ColorInspector](#ColorInspector)
+### [ColorInspector](#colorinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Color Inspector Module.
 
 ---
 
-### [doActivateCorrection](#doActivateCorrection)
+### [doActivateCorrection](#doactivatecorrection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ Color Inspector Module.
 
 ---
 
-### [doAddCorrection](#doAddCorrection)
+### [doAddCorrection](#doaddcorrection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Color Inspector Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

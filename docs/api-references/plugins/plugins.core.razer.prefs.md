@@ -4,13 +4,13 @@ Razer Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
- * [lastApplication](#lastApplication)
- * [lastControlID](#lastControlID)
- * [lastControlType](#lastControlType)
- * [lastDevice](#lastDevice)
- * [lastExportPath](#lastExportPath)
- * [lastImportPath](#lastImportPath)
+ * [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
+ * [lastApplication](#lastapplication)
+ * [lastControlID](#lastcontrolid)
+ * [lastControlType](#lastcontroltype)
+ * [lastDevice](#lastdevice)
+ * [lastExportPath](#lastexportpath)
+ * [lastImportPath](#lastimportpath)
  * [pasteboard](#pasteboard)
 
 ## API Documentation
@@ -18,7 +18,7 @@ Razer Preferences Panel
 ### Fields
 
 
-### [changeBankOnHardwareWhenChangingHere](#changeBankOnHardwareWhenChangingHere)
+### [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastControlID](#lastControlID)
+### [lastControlID](#lastcontrolid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastControlType](#lastControlType)
+### [lastControlType](#lastcontroltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastDevice](#lastDevice)
+### [lastDevice](#lastdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -68,7 +68,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -78,7 +78,7 @@ Razer Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

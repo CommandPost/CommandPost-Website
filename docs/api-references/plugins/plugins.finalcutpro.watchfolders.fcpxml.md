@@ -4,37 +4,37 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)
+ * [SECONDS_UNTIL_DELETE](#seconds_until_delete)
 * Variables - Configurable values
- * [automaticallyImport](#automaticallyImport)
- * [deleteAfterImport](#deleteAfterImport)
- * [disableImport](#disableImport)
- * [filesInTransit](#filesInTransit)
+ * [automaticallyImport](#automaticallyimport)
+ * [deleteAfterImport](#deleteafterimport)
+ * [disableImport](#disableimport)
+ * [filesInTransit](#filesintransit)
  * [notifications](#notifications)
- * [savedNotifications](#savedNotifications)
- * [watchFolders](#watchFolders)
- * [watchFolderTableID](#watchFolderTableID)
+ * [savedNotifications](#savednotifications)
+ * [watchFolders](#watchfolders)
+ * [watchFolderTableID](#watchfoldertableid)
 * Functions - API calls offered directly by the extension
- * [addWatchFolder](#addWatchFolder)
- * [controllerCallback](#controllerCallback)
- * [createNotification](#createNotification)
- * [generateTable](#generateTable)
- * [importFile](#importFile)
+ * [addWatchFolder](#addwatchfolder)
+ * [controllerCallback](#controllercallback)
+ * [createNotification](#createnotification)
+ * [generateTable](#generatetable)
+ * [importFile](#importfile)
  * [init](#init)
- * [insertFilesIntoFinalCutPro](#insertFilesIntoFinalCutPro)
- * [newWatcher](#newWatcher)
- * [refreshTable](#refreshTable)
- * [removeWatcher](#removeWatcher)
- * [setupWatchers](#setupWatchers)
- * [styleSheet](#styleSheet)
- * [watchFolderTriggered](#watchFolderTriggered)
+ * [insertFilesIntoFinalCutPro](#insertfilesintofinalcutpro)
+ * [newWatcher](#newwatcher)
+ * [refreshTable](#refreshtable)
+ * [removeWatcher](#removewatcher)
+ * [setupWatchers](#setupwatchers)
+ * [styleSheet](#stylesheet)
+ * [watchFolderTriggered](#watchfoldertriggered)
 
 ## API Documentation
 
 ### Constants
 
 
-### [SECONDS_UNTIL_DELETE](#SECONDS_UNTIL_DELETE)
+### [SECONDS_UNTIL_DELETE](#seconds_until_delete)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 ### Variables
 
 
-### [automaticallyImport](#automaticallyImport)
+### [automaticallyImport](#automaticallyimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [deleteAfterImport](#deleteAfterImport)
+### [deleteAfterImport](#deleteafterimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [disableImport](#disableImport)
+### [disableImport](#disableimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [filesInTransit](#filesInTransit)
+### [filesInTransit](#filesintransit)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [savedNotifications](#savedNotifications)
+### [savedNotifications](#savednotifications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [watchFolders](#watchFolders)
+### [watchFolders](#watchfolders)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -116,7 +116,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [watchFolderTableID](#watchFolderTableID)
+### [watchFolderTableID](#watchfoldertableid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 ### Functions
 
 
-### [addWatchFolder](#addWatchFolder)
+### [addWatchFolder](#addwatchfolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -141,7 +141,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [controllerCallback](#controllerCallback)
+### [controllerCallback](#controllercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [createNotification](#createNotification)
+### [createNotification](#createnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [generateTable](#generateTable)
+### [generateTable](#generatetable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [importFile](#importFile)
+### [importFile](#importfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -206,7 +206,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [insertFilesIntoFinalCutPro](#insertFilesIntoFinalCutPro)
+### [insertFilesIntoFinalCutPro](#insertfilesintofinalcutpro)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [newWatcher](#newWatcher)
+### [newWatcher](#newwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [refreshTable](#refreshTable)
+### [refreshTable](#refreshtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [removeWatcher](#removeWatcher)
+### [removeWatcher](#removewatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -258,7 +258,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [setupWatchers](#setupWatchers)
+### [setupWatchers](#setupwatchers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [styleSheet](#styleSheet)
+### [styleSheet](#stylesheet)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ---
 
-### [watchFolderTriggered](#watchFolderTriggered)
+### [watchFolderTriggered](#watchfoldertriggered)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

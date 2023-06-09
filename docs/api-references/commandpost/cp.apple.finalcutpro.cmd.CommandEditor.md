@@ -6,31 +6,31 @@ Command Editor Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [CommandEditor](#CommandEditor)
+ * [CommandEditor](#commandeditor)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [closeButton](#closeButton)
+ * [closeButton](#closebutton)
  * [command](#command)
- * [commandDetail](#commandDetail)
- * [commandGroups](#commandGroups)
- * [commandList](#commandList)
+ * [commandDetail](#commanddetail)
+ * [commandGroups](#commandgroups)
+ * [commandList](#commandlist)
  * [commands](#commands)
- * [commandSet](#commandSet)
+ * [commandSet](#commandset)
  * [control](#control)
  * [keyboard](#keyboard)
- * [keyboardToggle](#keyboardToggle)
- * [keyDetail](#keyDetail)
+ * [keyboardToggle](#keyboardtoggle)
+ * [keyDetail](#keydetail)
  * [modifiers](#modifiers)
  * [option](#option)
  * [save](#save)
  * [search](#search)
  * [shift](#shift)
- * [UI](#UI)
+ * [UI](#ui)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [doClose](#doClose)
- * [doFindCommandID](#doFindCommandID)
- * [doSave](#doSave)
- * [doShow](#doShow)
+ * [doClose](#doclose)
+ * [doFindCommandID](#dofindcommandid)
+ * [doSave](#dosave)
+ * [doShow](#doshow)
  * [hide](#hide)
  * [show](#show)
 
@@ -54,7 +54,7 @@ Command Editor Module.
 ### Constructors
 
 
-### [CommandEditor](#CommandEditor)
+### [CommandEditor](#commandeditor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Command Editor Module.
 ### Fields
 
 
-### [closeButton](#closeButton)
+### [closeButton](#closebutton)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ Command Editor Module.
 
 ---
 
-### [commandDetail](#commandDetail)
+### [commandDetail](#commanddetail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Command Editor Module.
 
 ---
 
-### [commandGroups](#commandGroups)
+### [commandGroups](#commandgroups)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Command Editor Module.
 
 ---
 
-### [commandList](#commandList)
+### [commandList](#commandlist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Command Editor Module.
 
 ---
 
-### [commandSet](#commandSet)
+### [commandSet](#commandset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ Command Editor Module.
 
 ---
 
-### [keyboardToggle](#keyboardToggle)
+### [keyboardToggle](#keyboardtoggle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Command Editor Module.
 
 ---
 
-### [keyDetail](#keyDetail)
+### [keyDetail](#keydetail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Command Editor Module.
 
 ---
 
-### [UI](#UI)
+### [UI](#ui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ Command Editor Module.
 
 ---
 
-### [doClose](#doClose)
+### [doClose](#doclose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ Command Editor Module.
 
 ---
 
-### [doFindCommandID](#doFindCommandID)
+### [doFindCommandID](#dofindcommandid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ Command Editor Module.
 
 ---
 
-### [doSave](#doSave)
+### [doSave](#dosave)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -293,7 +293,7 @@ Command Editor Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

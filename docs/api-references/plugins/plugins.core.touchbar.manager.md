@@ -7,39 +7,39 @@ Touch Bar Manager Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_GROUP](#DEFAULT_GROUP)
- * [FILE_NAME](#FILE_NAME)
- * [FOLDER_NAME](#FOLDER_NAME)
+ * [DEFAULT_GROUP](#default_group)
+ * [FILE_NAME](#file_name)
+ * [FOLDER_NAME](#folder_name)
 * Variables - Configurable values
- * [maxItems](#maxItems)
- * [numberOfSubGroups](#numberOfSubGroups)
+ * [maxItems](#maxitems)
+ * [numberOfSubGroups](#numberofsubgroups)
 * Functions - API calls offered directly by the extension
- * [activeGroup](#activeGroup)
- * [activeSubGroup](#activeSubGroup)
+ * [activeGroup](#activegroup)
+ * [activeSubGroup](#activesubgroup)
  * [clear](#clear)
- * [forceGroupChange](#forceGroupChange)
- * [getAction](#getAction)
- * [getActionHandlerID](#getActionHandlerID)
- * [getActionTitle](#getActionTitle)
- * [getBankLabel](#getBankLabel)
- * [getIcon](#getIcon)
- * [getLabel](#getLabel)
- * [gotoSubGroup](#gotoSubGroup)
- * [groupStatus](#groupStatus)
- * [incrementActiveSubGroup](#incrementActiveSubGroup)
+ * [forceGroupChange](#forcegroupchange)
+ * [getAction](#getaction)
+ * [getActionHandlerID](#getactionhandlerid)
+ * [getActionTitle](#getactiontitle)
+ * [getBankLabel](#getbanklabel)
+ * [getIcon](#geticon)
+ * [getLabel](#getlabel)
+ * [gotoSubGroup](#gotosubgroup)
+ * [groupStatus](#groupstatus)
+ * [incrementActiveSubGroup](#incrementactivesubgroup)
  * [init](#init)
- * [nextSubGroup](#nextSubGroup)
- * [previousSubGroup](#previousSubGroup)
+ * [nextSubGroup](#nextsubgroup)
+ * [previousSubGroup](#previoussubgroup)
  * [start](#start)
  * [stop](#stop)
  * [toggle](#toggle)
  * [touchbar](#touchbar)
  * [update](#update)
- * [updateAction](#updateAction)
- * [updateBankLabel](#updateBankLabel)
- * [updateIcon](#updateIcon)
- * [updateLabel](#updateLabel)
- * [updateOrder](#updateOrder)
+ * [updateAction](#updateaction)
+ * [updateBankLabel](#updatebanklabel)
+ * [updateIcon](#updateicon)
+ * [updateLabel](#updatelabel)
+ * [updateOrder](#updateorder)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [buttons](#buttons)
  * [enabled](#enabled)
@@ -50,7 +50,7 @@ Touch Bar Manager Plugin.
 ### Constants
 
 
-### [DEFAULT_GROUP](#DEFAULT_GROUP)
+### [DEFAULT_GROUP](#default_group)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [FILE_NAME](#FILE_NAME)
+### [FILE_NAME](#file_name)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [FOLDER_NAME](#FOLDER_NAME)
+### [FOLDER_NAME](#folder_name)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Touch Bar Manager Plugin.
 ### Variables
 
 
-### [maxItems](#maxItems)
+### [maxItems](#maxitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [numberOfSubGroups](#numberOfSubGroups)
+### [numberOfSubGroups](#numberofsubgroups)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Touch Bar Manager Plugin.
 ### Functions
 
 
-### [activeGroup](#activeGroup)
+### [activeGroup](#activegroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [activeSubGroup](#activeSubGroup)
+### [activeSubGroup](#activesubgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [forceGroupChange](#forceGroupChange)
+### [forceGroupChange](#forcegroupchange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getAction](#getAction)
+### [getAction](#getaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -169,7 +169,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getActionHandlerID](#getActionHandlerID)
+### [getActionHandlerID](#getactionhandlerid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -182,7 +182,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getActionTitle](#getActionTitle)
+### [getActionTitle](#getactiontitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getBankLabel](#getBankLabel)
+### [getBankLabel](#getbanklabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -208,7 +208,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getIcon](#getIcon)
+### [getIcon](#geticon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -221,7 +221,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [getLabel](#getLabel)
+### [getLabel](#getlabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -234,7 +234,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [gotoSubGroup](#gotoSubGroup)
+### [gotoSubGroup](#gotosubgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -247,7 +247,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [groupStatus](#groupStatus)
+### [groupStatus](#groupstatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -260,7 +260,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [incrementActiveSubGroup](#incrementActiveSubGroup)
+### [incrementActiveSubGroup](#incrementactivesubgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -286,7 +286,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [nextSubGroup](#nextSubGroup)
+### [nextSubGroup](#nextsubgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -299,7 +299,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [previousSubGroup](#previousSubGroup)
+### [previousSubGroup](#previoussubgroup)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -377,7 +377,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [updateAction](#updateAction)
+### [updateAction](#updateaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -390,7 +390,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [updateBankLabel](#updateBankLabel)
+### [updateBankLabel](#updatebanklabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -403,7 +403,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [updateIcon](#updateIcon)
+### [updateIcon](#updateicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -416,7 +416,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [updateLabel](#updateLabel)
+### [updateLabel](#updatelabel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -429,7 +429,7 @@ Touch Bar Manager Plugin.
 
 ---
 
-### [updateOrder](#updateOrder)
+### [updateOrder](#updateorder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

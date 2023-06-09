@@ -4,14 +4,14 @@ Contains pattern matching utility functions.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [doesMatch](#doesMatch)
+ * [doesMatch](#doesmatch)
 
 ## API Documentation
 
 ### Functions
 
 
-### [doesMatch](#doesMatch)
+### [doesMatch](#doesmatch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

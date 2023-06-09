@@ -73,42 +73,42 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [defaultFonts](#defaultFonts)
- * [fontTraits](#fontTraits)
- * [lineAppliesTo](#lineAppliesTo)
- * [linePatterns](#linePatterns)
- * [lineStyles](#lineStyles)
+ * [defaultFonts](#defaultfonts)
+ * [fontTraits](#fonttraits)
+ * [lineAppliesTo](#lineappliesto)
+ * [linePatterns](#linepatterns)
+ * [lineStyles](#linestyles)
 * Functions - API calls offered directly by the extension
- * [convertFont](#convertFont)
- * [fontFamilies](#fontFamilies)
- * [fontInfo](#fontInfo)
- * [fontNames](#fontNames)
- * [fontNamesWithTraits](#fontNamesWithTraits)
- * [fontPath](#fontPath)
- * [fontsForFamily](#fontsForFamily)
- * [loadFont](#loadFont)
- * [validFont](#validFont)
+ * [convertFont](#convertfont)
+ * [fontFamilies](#fontfamilies)
+ * [fontInfo](#fontinfo)
+ * [fontNames](#fontnames)
+ * [fontNamesWithTraits](#fontnameswithtraits)
+ * [fontPath](#fontpath)
+ * [fontsForFamily](#fontsforfamily)
+ * [loadFont](#loadfont)
+ * [validFont](#validfont)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [ansi](#ansi)
- * [getStyledTextFromData](#getStyledTextFromData)
- * [getStyledTextFromFile](#getStyledTextFromFile)
+ * [getStyledTextFromData](#getstyledtextfromdata)
+ * [getStyledTextFromFile](#getstyledtextfromfile)
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [asTable](#asTable)
+ * [asTable](#astable)
  * [byte](#byte)
  * [convert](#convert)
  * [copy](#copy)
  * [find](#find)
- * [getString](#getString)
+ * [getString](#getstring)
  * [gmatch](#gmatch)
- * [isIdentical](#isIdentical)
+ * [isIdentical](#isidentical)
  * [len](#len)
  * [lower](#lower)
  * [match](#match)
- * [removeStyle](#removeStyle)
+ * [removeStyle](#removestyle)
  * [rep](#rep)
- * [setString](#setString)
- * [setStyle](#setStyle)
+ * [setString](#setstring)
+ * [setStyle](#setstyle)
  * [sub](#sub)
  * [upper](#upper)
 
@@ -117,7 +117,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 ### Constants
 
 
-### [defaultFonts](#defaultFonts)
+### [defaultFonts](#defaultfonts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -128,7 +128,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontTraits](#fontTraits)
+### [fontTraits](#fonttraits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [lineAppliesTo](#lineAppliesTo)
+### [lineAppliesTo](#lineappliesto)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [linePatterns](#linePatterns)
+### [linePatterns](#linepatterns)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [lineStyles](#lineStyles)
+### [lineStyles](#linestyles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 ### Functions
 
 
-### [convertFont](#convertFont)
+### [convertFont](#convertfont)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontFamilies](#fontFamilies)
+### [fontFamilies](#fontfamilies)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -201,7 +201,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontInfo](#fontInfo)
+### [fontInfo](#fontinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontNames](#fontNames)
+### [fontNames](#fontnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontNamesWithTraits](#fontNamesWithTraits)
+### [fontNamesWithTraits](#fontnameswithtraits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontPath](#fontPath)
+### [fontPath](#fontpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [fontsForFamily](#fontsForFamily)
+### [fontsForFamily](#fontsforfamily)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -268,7 +268,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [loadFont](#loadFont)
+### [loadFont](#loadfont)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [validFont](#validFont)
+### [validFont](#validfont)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -309,7 +309,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [getStyledTextFromData](#getStyledTextFromData)
+### [getStyledTextFromData](#getstyledtextfromdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -332,7 +332,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [getStyledTextFromFile](#getStyledTextFromFile)
+### [getStyledTextFromFile](#getstyledtextfromfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -370,7 +370,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 ### Methods
 
 
-### [asTable](#asTable)
+### [asTable](#astable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -444,7 +444,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [getString](#getString)
+### [getString](#getstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -470,7 +470,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [isIdentical](#isIdentical)
+### [isIdentical](#isidentical)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -522,7 +522,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [removeStyle](#removeStyle)
+### [removeStyle](#removestyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -548,7 +548,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [setString](#setString)
+### [setString](#setstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -561,7 +561,7 @@ Note that due to differences in the way Lua determines when to use metamethods f
 
 ---
 
-### [setStyle](#setStyle)
+### [setStyle](#setstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

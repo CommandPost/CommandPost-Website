@@ -4,19 +4,19 @@ Inspect the system's camera devices
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [allCameras](#allCameras)
- * [isWatcherRunning](#isWatcherRunning)
- * [setWatcherCallback](#setWatcherCallback)
- * [startWatcher](#startWatcher)
- * [stopWatcher](#stopWatcher)
+ * [allCameras](#allcameras)
+ * [isWatcherRunning](#iswatcherrunning)
+ * [setWatcherCallback](#setwatchercallback)
+ * [startWatcher](#startwatcher)
+ * [stopWatcher](#stopwatcher)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [connectionID](#connectionID)
- * [isInUse](#isInUse)
- * [isPropertyWatcherRunning](#isPropertyWatcherRunning)
+ * [connectionID](#connectionid)
+ * [isInUse](#isinuse)
+ * [isPropertyWatcherRunning](#ispropertywatcherrunning)
  * [name](#name)
- * [setPropertyWatcherCallback](#setPropertyWatcherCallback)
- * [startPropertyWatcher](#startPropertyWatcher)
- * [stopPropertyWatcher](#stopPropertyWatcher)
+ * [setPropertyWatcherCallback](#setpropertywatchercallback)
+ * [startPropertyWatcher](#startpropertywatcher)
+ * [stopPropertyWatcher](#stoppropertywatcher)
  * [uid](#uid)
 
 ## API Documentation
@@ -24,7 +24,7 @@ Inspect the system's camera devices
 ### Functions
 
 
-### [allCameras](#allCameras)
+### [allCameras](#allcameras)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Inspect the system's camera devices
 
 ---
 
-### [isWatcherRunning](#isWatcherRunning)
+### [isWatcherRunning](#iswatcherrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Inspect the system's camera devices
 
 ---
 
-### [setWatcherCallback](#setWatcherCallback)
+### [setWatcherCallback](#setwatchercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Inspect the system's camera devices
 
 ---
 
-### [startWatcher](#startWatcher)
+### [startWatcher](#startwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Inspect the system's camera devices
 
 ---
 
-### [stopWatcher](#stopWatcher)
+### [stopWatcher](#stopwatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Inspect the system's camera devices
 ### Methods
 
 
-### [connectionID](#connectionID)
+### [connectionID](#connectionid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Inspect the system's camera devices
 
 ---
 
-### [isInUse](#isInUse)
+### [isInUse](#isinuse)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Inspect the system's camera devices
 
 ---
 
-### [isPropertyWatcherRunning](#isPropertyWatcherRunning)
+### [isPropertyWatcherRunning](#ispropertywatcherrunning)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ Inspect the system's camera devices
 
 ---
 
-### [setPropertyWatcherCallback](#setPropertyWatcherCallback)
+### [setPropertyWatcherCallback](#setpropertywatchercallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ Inspect the system's camera devices
 
 ---
 
-### [startPropertyWatcher](#startPropertyWatcher)
+### [startPropertyWatcher](#startpropertywatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ Inspect the system's camera devices
 
 ---
 
-### [stopPropertyWatcher](#stopPropertyWatcher)
+### [stopPropertyWatcher](#stoppropertywatcher)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

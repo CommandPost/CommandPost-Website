@@ -4,18 +4,18 @@ TourBox Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastApplication](#lastApplication)
- * [lastControlType](#lastControlType)
- * [lastExportPath](#lastExportPath)
- * [lastImportPath](#lastImportPath)
- * [lastPage](#lastPage)
+ * [lastApplication](#lastapplication)
+ * [lastControlType](#lastcontroltype)
+ * [lastExportPath](#lastexportpath)
+ * [lastImportPath](#lastimportpath)
+ * [lastPage](#lastpage)
 
 ## API Documentation
 
 ### Fields
 
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ TourBox Preferences Panel
 
 ---
 
-### [lastControlType](#lastControlType)
+### [lastControlType](#lastcontroltype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ TourBox Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ TourBox Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ TourBox Preferences Panel
 
 ---
 
-### [lastPage](#lastPage)
+### [lastPage](#lastpage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

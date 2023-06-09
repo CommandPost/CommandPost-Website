@@ -4,15 +4,15 @@ The results of a test [run](cp.spec.Run.md).
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Report](#Report)
+ * [Report](#report)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [aborts](#aborts)
  * [failures](#failures)
  * [passes](#passes)
  * [run](#run)
- * [startTime](#startTime)
- * [stopTime](#stopTime)
- * [totalTime](#totalTime)
+ * [startTime](#starttime)
+ * [stopTime](#stoptime)
+ * [totalTime](#totaltime)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [aborted](#aborted)
  * [add](#add)
@@ -28,7 +28,7 @@ The results of a test [run](cp.spec.Run.md).
 ### Constructors
 
 
-### [Report](#Report)
+### [Report](#report)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ The results of a test [run](cp.spec.Run.md).
 
 ---
 
-### [startTime](#startTime)
+### [startTime](#starttime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ The results of a test [run](cp.spec.Run.md).
 
 ---
 
-### [stopTime](#stopTime)
+### [stopTime](#stoptime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ The results of a test [run](cp.spec.Run.md).
 
 ---
 
-### [totalTime](#totalTime)
+### [totalTime](#totaltime)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

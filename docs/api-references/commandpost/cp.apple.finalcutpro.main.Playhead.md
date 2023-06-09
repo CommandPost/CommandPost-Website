@@ -7,12 +7,12 @@ Playhead Module.
  * [find](#find)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Playhead](#Playhead)
+ * [Playhead](#playhead)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [center](#center)
- * [currentViewer](#currentViewer)
+ * [currentViewer](#currentviewer)
  * [frame](#frame)
- * [isPersistent](#isPersistent)
+ * [isPersistent](#ispersistent)
  * [position](#position)
  * [timecode](#timecode)
 * Methods - API calls which can only be made on an object returned by a constructor
@@ -52,7 +52,7 @@ Playhead Module.
 ### Constructors
 
 
-### [Playhead](#Playhead)
+### [Playhead](#playhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Playhead Module.
 
 ---
 
-### [currentViewer](#currentViewer)
+### [currentViewer](#currentviewer)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ Playhead Module.
 
 ---
 
-### [isPersistent](#isPersistent)
+### [isPersistent](#ispersistent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

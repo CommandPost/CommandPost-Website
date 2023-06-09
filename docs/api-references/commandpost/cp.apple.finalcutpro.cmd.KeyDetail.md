@@ -6,7 +6,7 @@ This class provides a UI for displaying the details of a key when it is selected
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [contentGroupUI](#contentGroupUI)
+ * [contentGroupUI](#contentgroupui)
  * [contents](#contents)
  * [detail](#detail)
  * [key](#key)
@@ -32,7 +32,7 @@ This class provides a UI for displaying the details of a key when it is selected
 ### Fields
 
 
-### [contentGroupUI](#contentGroupUI)
+### [contentGroupUI](#contentgroupui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

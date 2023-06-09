@@ -82,29 +82,29 @@ limitations under the License.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [buttonNames](#buttonNames)
- * [deviceTypes](#deviceTypes)
- * [jogModeNames](#jogModeNames)
- * [ledNames](#ledNames)
+ * [buttonNames](#buttonnames)
+ * [deviceTypes](#devicetypes)
+ * [jogModeNames](#jogmodenames)
+ * [ledNames](#lednames)
 * Functions - API calls offered directly by the extension
- * [discoveryCallback](#discoveryCallback)
- * [getDevice](#getDevice)
+ * [discoveryCallback](#discoverycallback)
+ * [getDevice](#getdevice)
  * [init](#init)
- * [numDevices](#numDevices)
+ * [numDevices](#numdevices)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [battery](#battery)
  * [callback](#callback)
- * [deviceType](#deviceType)
- * [jogMode](#jogMode)
+ * [deviceType](#devicetype)
+ * [jogMode](#jogmode)
  * [led](#led)
- * [serialNumber](#serialNumber)
+ * [serialNumber](#serialnumber)
 
 ## API Documentation
 
 ### Constants
 
 
-### [buttonNames](#buttonNames)
+### [buttonNames](#buttonnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ limitations under the License.
 
 ---
 
-### [deviceTypes](#deviceTypes)
+### [deviceTypes](#devicetypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ limitations under the License.
 
 ---
 
-### [jogModeNames](#jogModeNames)
+### [jogModeNames](#jogmodenames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ limitations under the License.
 
 ---
 
-### [ledNames](#ledNames)
+### [ledNames](#lednames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -146,7 +146,7 @@ limitations under the License.
 ### Functions
 
 
-### [discoveryCallback](#discoveryCallback)
+### [discoveryCallback](#discoverycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@ limitations under the License.
 
 ---
 
-### [getDevice](#getDevice)
+### [getDevice](#getdevice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ limitations under the License.
 
 ---
 
-### [numDevices](#numDevices)
+### [numDevices](#numdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ limitations under the License.
 
 ---
 
-### [deviceType](#deviceType)
+### [deviceType](#devicetype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ limitations under the License.
 
 ---
 
-### [jogMode](#jogMode)
+### [jogMode](#jogmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ limitations under the License.
 
 ---
 
-### [serialNumber](#serialNumber)
+### [serialNumber](#serialnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

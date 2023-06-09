@@ -4,13 +4,13 @@ Shot Data Toolbox Panel.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [automaticallyUploadCSV](#automaticallyUploadCSV)
- * [databaseURL](#databaseURL)
- * [defaultEmoji](#defaultEmoji)
- * [destinationPath](#destinationPath)
- * [lastOpenPath](#lastOpenPath)
- * [lastUploadPath](#lastUploadPath)
- * [mergeData](#mergeData)
+ * [automaticallyUploadCSV](#automaticallyuploadcsv)
+ * [databaseURL](#databaseurl)
+ * [defaultEmoji](#defaultemoji)
+ * [destinationPath](#destinationpath)
+ * [lastOpenPath](#lastopenpath)
+ * [lastUploadPath](#lastuploadpath)
+ * [mergeData](#mergedata)
  * [settings](#settings)
  * [token](#token)
 
@@ -19,7 +19,7 @@ Shot Data Toolbox Panel.
 ### Fields
 
 
-### [automaticallyUploadCSV](#automaticallyUploadCSV)
+### [automaticallyUploadCSV](#automaticallyuploadcsv)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [databaseURL](#databaseURL)
+### [databaseURL](#databaseurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [defaultEmoji](#defaultEmoji)
+### [defaultEmoji](#defaultemoji)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [destinationPath](#destinationPath)
+### [destinationPath](#destinationpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [lastOpenPath](#lastOpenPath)
+### [lastOpenPath](#lastopenpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [lastUploadPath](#lastUploadPath)
+### [lastUploadPath](#lastuploadpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Shot Data Toolbox Panel.
 
 ---
 
-### [mergeData](#mergeData)
+### [mergeData](#mergedata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

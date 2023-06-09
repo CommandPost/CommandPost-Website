@@ -4,15 +4,15 @@ Info Panel for the Final Cut Pro HUD.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [updateInfo](#updateInfo)
- * [updateWatchers](#updateWatchers)
+ * [updateInfo](#updateinfo)
+ * [updateWatchers](#updatewatchers)
 
 ## API Documentation
 
 ### Functions
 
 
-### [updateInfo](#updateInfo)
+### [updateInfo](#updateinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Info Panel for the Final Cut Pro HUD.
 
 ---
 
-### [updateWatchers](#updateWatchers)
+### [updateWatchers](#updatewatchers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

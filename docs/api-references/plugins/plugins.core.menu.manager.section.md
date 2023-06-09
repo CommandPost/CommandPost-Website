@@ -4,30 +4,30 @@ Controls sections for the CommandPost menu.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_PRIORITY](#DEFAULT_PRIORITY)
- * [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#SECTION_DISABLED_PREFERENCES_KEY_PREFIX)
+ * [DEFAULT_PRIORITY](#default_priority)
+ * [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#section_disabled_preferences_key_prefix)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addApplicationHeading](#addApplicationHeading)
- * [addHeading](#addHeading)
- * [addItem](#addItem)
- * [addItems](#addItems)
- * [addMenu](#addMenu)
- * [addSection](#addSection)
- * [addSeparator](#addSeparator)
- * [generateTable](#generateTable)
- * [getDisabledPreferenceKey](#getDisabledPreferenceKey)
- * [isApplicationHeading](#isApplicationHeading)
- * [isDisabled](#isDisabled)
+ * [addApplicationHeading](#addapplicationheading)
+ * [addHeading](#addheading)
+ * [addItem](#additem)
+ * [addItems](#additems)
+ * [addMenu](#addmenu)
+ * [addSection](#addsection)
+ * [addSeparator](#addseparator)
+ * [generateTable](#generatetable)
+ * [getDisabledPreferenceKey](#getdisabledpreferencekey)
+ * [isApplicationHeading](#isapplicationheading)
+ * [isDisabled](#isdisabled)
  * [new](#new)
- * [setDisabledFn](#setDisabledFn)
- * [setDisabledPreferenceKey](#setDisabledPreferenceKey)
+ * [setDisabledFn](#setdisabledfn)
+ * [setDisabledPreferenceKey](#setdisabledpreferencekey)
 
 ## API Documentation
 
 ### Constants
 
 
-### [DEFAULT_PRIORITY](#DEFAULT_PRIORITY)
+### [DEFAULT_PRIORITY](#default_priority)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#SECTION_DISABLED_PREFERENCES_KEY_PREFIX)
+### [SECTION_DISABLED_PREFERENCES_KEY_PREFIX](#section_disabled_preferences_key_prefix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Controls sections for the CommandPost menu.
 ### Methods
 
 
-### [addApplicationHeading](#addApplicationHeading)
+### [addApplicationHeading](#addapplicationheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addHeading](#addHeading)
+### [addHeading](#addheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addItem](#addItem)
+### [addItem](#additem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addItems](#addItems)
+### [addItems](#additems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addMenu](#addMenu)
+### [addMenu](#addmenu)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addSection](#addSection)
+### [addSection](#addsection)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [addSeparator](#addSeparator)
+### [addSeparator](#addseparator)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -140,7 +140,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [generateTable](#generateTable)
+### [generateTable](#generatetable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [getDisabledPreferenceKey](#getDisabledPreferenceKey)
+### [getDisabledPreferenceKey](#getdisabledpreferencekey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -166,7 +166,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [isApplicationHeading](#isApplicationHeading)
+### [isApplicationHeading](#isapplicationheading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -179,7 +179,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [isDisabled](#isDisabled)
+### [isDisabled](#isdisabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [setDisabledFn](#setDisabledFn)
+### [setDisabledFn](#setdisabledfn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -218,7 +218,7 @@ Controls sections for the CommandPost menu.
 
 ---
 
-### [setDisabledPreferenceKey](#setDisabledPreferenceKey)
+### [setDisabledPreferenceKey](#setdisabledpreferencekey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

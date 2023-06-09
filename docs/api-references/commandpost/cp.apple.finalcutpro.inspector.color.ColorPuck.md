@@ -4,14 +4,14 @@ Color ColorPuck Module.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_ANGLES](#DEFAULT_ANGLES)
- * [ELASTICITY](#ELASTICITY)
- * [NATURAL_LENGTH](#NATURAL_LENGTH)
- * [RANGE](#RANGE)
+ * [DEFAULT_ANGLES](#default_angles)
+ * [ELASTICITY](#elasticity)
+ * [NATURAL_LENGTH](#natural_length)
+ * [RANGE](#range)
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [ColorPuck](#ColorPuck)
+ * [ColorPuck](#colorpuck)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [angle](#angle)
  * [label](#label)
@@ -21,22 +21,22 @@ Color ColorPuck Module.
 * Methods - API calls which can only be made on an object returned by a constructor
  * [accumulate](#accumulate)
  * [cleanup](#cleanup)
- * [colorMarker](#colorMarker)
- * [contentUI](#contentUI)
- * [doReset](#doReset)
- * [doSelect](#doSelect)
- * [doShiftPercent](#doShiftPercent)
- * [doShow](#doShow)
- * [drawMarker](#drawMarker)
- * [getArc](#getArc)
- * [getBrightness](#getBrightness)
- * [hasAngle](#hasAngle)
+ * [colorMarker](#colormarker)
+ * [contentUI](#contentui)
+ * [doReset](#doreset)
+ * [doSelect](#doselect)
+ * [doShiftPercent](#doshiftpercent)
+ * [doShow](#doshow)
+ * [drawMarker](#drawmarker)
+ * [getArc](#getarc)
+ * [getBrightness](#getbrightness)
+ * [hasAngle](#hasangle)
  * [index](#index)
  * [loop](#loop)
  * [reset](#reset)
  * [select](#select)
- * [shiftAngle](#shiftAngle)
- * [shiftPercent](#shiftPercent)
+ * [shiftAngle](#shiftangle)
+ * [shiftPercent](#shiftpercent)
  * [show](#show)
  * [start](#start)
  * [stop](#stop)
@@ -46,7 +46,7 @@ Color ColorPuck Module.
 ### Constants
 
 
-### [DEFAULT_ANGLES](#DEFAULT_ANGLES)
+### [DEFAULT_ANGLES](#default_angles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Color ColorPuck Module.
 
 ---
 
-### [ELASTICITY](#ELASTICITY)
+### [ELASTICITY](#elasticity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ Color ColorPuck Module.
 
 ---
 
-### [NATURAL_LENGTH](#NATURAL_LENGTH)
+### [NATURAL_LENGTH](#natural_length)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ Color ColorPuck Module.
 
 ---
 
-### [RANGE](#RANGE)
+### [RANGE](#range)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ Color ColorPuck Module.
 ### Constructors
 
 
-### [ColorPuck](#ColorPuck)
+### [ColorPuck](#colorpuck)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ Color ColorPuck Module.
 
 ---
 
-### [colorMarker](#colorMarker)
+### [colorMarker](#colormarker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -209,7 +209,7 @@ Color ColorPuck Module.
 
 ---
 
-### [contentUI](#contentUI)
+### [contentUI](#contentui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ Color ColorPuck Module.
 
 ---
 
-### [doReset](#doReset)
+### [doReset](#doreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -235,7 +235,7 @@ Color ColorPuck Module.
 
 ---
 
-### [doSelect](#doSelect)
+### [doSelect](#doselect)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -248,7 +248,7 @@ Color ColorPuck Module.
 
 ---
 
-### [doShiftPercent](#doShiftPercent)
+### [doShiftPercent](#doshiftpercent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -261,7 +261,7 @@ Color ColorPuck Module.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -274,7 +274,7 @@ Color ColorPuck Module.
 
 ---
 
-### [drawMarker](#drawMarker)
+### [drawMarker](#drawmarker)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ Color ColorPuck Module.
 
 ---
 
-### [getArc](#getArc)
+### [getArc](#getarc)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -300,7 +300,7 @@ Color ColorPuck Module.
 
 ---
 
-### [getBrightness](#getBrightness)
+### [getBrightness](#getbrightness)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -313,7 +313,7 @@ Color ColorPuck Module.
 
 ---
 
-### [hasAngle](#hasAngle)
+### [hasAngle](#hasangle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -378,7 +378,7 @@ Color ColorPuck Module.
 
 ---
 
-### [shiftAngle](#shiftAngle)
+### [shiftAngle](#shiftangle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -391,7 +391,7 @@ Color ColorPuck Module.
 
 ---
 
-### [shiftPercent](#shiftPercent)
+### [shiftPercent](#shiftpercent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

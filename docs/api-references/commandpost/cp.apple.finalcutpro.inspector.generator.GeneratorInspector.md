@@ -4,14 +4,14 @@ Generator Inspector Module. This appears for both Generators and Titles.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [GeneratorInspector](#GeneratorInspector)
+ * [GeneratorInspector](#generatorinspector)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [GeneratorInspector](#GeneratorInspector)
+### [GeneratorInspector](#generatorinspector)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

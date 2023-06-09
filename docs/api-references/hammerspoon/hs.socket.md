@@ -65,7 +65,7 @@ The document has moved
 * Variables - Configurable values
  * [timeout](#timeout)
 * Functions - API calls offered directly by the extension
- * [parseAddress](#parseAddress)
+ * [parseAddress](#parseaddress)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
  * [server](#server)
@@ -79,9 +79,9 @@ The document has moved
  * [read](#read)
  * [receive](#receive)
  * [send](#send)
- * [setCallback](#setCallback)
- * [setTimeout](#setTimeout)
- * [startTLS](#startTLS)
+ * [setCallback](#setcallback)
+ * [setTimeout](#settimeout)
+ * [startTLS](#starttls)
  * [write](#write)
 
 ## API Documentation
@@ -102,7 +102,7 @@ The document has moved
 ### Functions
 
 
-### [parseAddress](#parseAddress)
+### [parseAddress](#parseaddress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -262,7 +262,7 @@ The document has moved
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -277,7 +277,7 @@ The document has moved
 
 ---
 
-### [setTimeout](#setTimeout)
+### [setTimeout](#settimeout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -290,7 +290,7 @@ The document has moved
 
 ---
 
-### [startTLS](#startTLS)
+### [startTLS](#starttls)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

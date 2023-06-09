@@ -6,7 +6,7 @@ Timeline Index Mode Radio Group Module.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [IndexMode](#IndexMode)
+ * [IndexMode](#indexmode)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [captions](#captions)
  * [clips](#clips)
@@ -33,7 +33,7 @@ Timeline Index Mode Radio Group Module.
 ### Constructors
 
 
-### [IndexMode](#IndexMode)
+### [IndexMode](#indexmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

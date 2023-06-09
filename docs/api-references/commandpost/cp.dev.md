@@ -4,16 +4,16 @@ A set of handy developer tools for CommandPost.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [elementAtMouse](#elementAtMouse)
- * [findUnusedLanguageStrings](#findUnusedLanguageStrings)
+ * [elementAtMouse](#elementatmouse)
+ * [findUnusedLanguageStrings](#findunusedlanguagestrings)
  * [highlight](#highlight)
- * [highlightFrame](#highlightFrame)
- * [highlightPoint](#highlightPoint)
+ * [highlightFrame](#highlightframe)
+ * [highlightPoint](#highlightpoint)
  * [hotkey](#hotkey)
  * [inspect](#inspect)
- * [inspectAtMouse](#inspectAtMouse)
- * [inspectElement](#inspectElement)
- * [inspectElementAtMousePath](#inspectElementAtMousePath)
+ * [inspectAtMouse](#inspectatmouse)
+ * [inspectElement](#inspectelement)
+ * [inspectElementAtMousePath](#inspectelementatmousepath)
  * [test](#test)
  * [which](#which)
 
@@ -22,7 +22,7 @@ A set of handy developer tools for CommandPost.
 ### Functions
 
 
-### [elementAtMouse](#elementAtMouse)
+### [elementAtMouse](#elementatmouse)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [findUnusedLanguageStrings](#findUnusedLanguageStrings)
+### [findUnusedLanguageStrings](#findunusedlanguagestrings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [highlightFrame](#highlightFrame)
+### [highlightFrame](#highlightframe)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [highlightPoint](#highlightPoint)
+### [highlightPoint](#highlightpoint)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [inspectAtMouse](#inspectAtMouse)
+### [inspectAtMouse](#inspectatmouse)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [inspectElement](#inspectElement)
+### [inspectElement](#inspectelement)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ A set of handy developer tools for CommandPost.
 
 ---
 
-### [inspectElementAtMousePath](#inspectElementAtMousePath)
+### [inspectElementAtMousePath](#inspectelementatmousepath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

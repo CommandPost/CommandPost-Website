@@ -6,7 +6,7 @@ Represents the Background Tasks warning dialog.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [BackgroundTasksDialog](#BackgroundTasksDialog)
+ * [BackgroundTasksDialog](#backgroundtasksdialog)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cancel](#cancel)
  * [continue](#continue)
@@ -31,7 +31,7 @@ Represents the Background Tasks warning dialog.
 ### Constructors
 
 
-### [BackgroundTasksDialog](#BackgroundTasksDialog)
+### [BackgroundTasksDialog](#backgroundtasksdialog)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

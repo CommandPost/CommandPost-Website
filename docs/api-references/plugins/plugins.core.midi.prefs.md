@@ -4,18 +4,18 @@ MIDI Preferences Panel
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [lastApplication](#lastApplication)
- * [lastBank](#lastBank)
- * [lastExportPath](#lastExportPath)
- * [lastImportPath](#lastImportPath)
- * [scrollBarPosition](#scrollBarPosition)
+ * [lastApplication](#lastapplication)
+ * [lastBank](#lastbank)
+ * [lastExportPath](#lastexportpath)
+ * [lastImportPath](#lastimportpath)
+ * [scrollBarPosition](#scrollbarposition)
 
 ## API Documentation
 
 ### Fields
 
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ MIDI Preferences Panel
 
 ---
 
-### [lastBank](#lastBank)
+### [lastBank](#lastbank)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ MIDI Preferences Panel
 
 ---
 
-### [lastExportPath](#lastExportPath)
+### [lastExportPath](#lastexportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ MIDI Preferences Panel
 
 ---
 
-### [lastImportPath](#lastImportPath)
+### [lastImportPath](#lastimportpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ MIDI Preferences Panel
 
 ---
 
-### [scrollBarPosition](#scrollBarPosition)
+### [scrollBarPosition](#scrollbarposition)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

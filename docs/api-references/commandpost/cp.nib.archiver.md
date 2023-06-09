@@ -4,20 +4,20 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [SIGNATURE](#SIGNATURE)
+ * [SIGNATURE](#signature)
 * Functions - API calls offered directly by the extension
- * [isSupported](#isSupported)
+ * [isSupported](#issupported)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [fromFile](#fromFile)
+ * [fromFile](#fromfile)
 
 ## API Documentation
 
 ### Constants
 
 
-### [SIGNATURE](#SIGNATURE)
+### [SIGNATURE](#signature)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 ### Functions
 
 
-### [isSupported](#isSupported)
+### [isSupported](#issupported)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 ### Methods
 
 
-### [fromFile](#fromFile)
+### [fromFile](#fromfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

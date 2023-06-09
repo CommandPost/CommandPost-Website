@@ -6,7 +6,7 @@ Adds text pasteboard history actions to the Search Console.
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [enabled](#enabled)
  * [history](#history)
- * [historySize](#historySize)
+ * [historySize](#historysize)
 
 ## API Documentation
 
@@ -33,7 +33,7 @@ Adds text pasteboard history actions to the Search Console.
 
 ---
 
-### [historySize](#historySize)
+### [historySize](#historysize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

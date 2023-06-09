@@ -9,38 +9,38 @@ Utility functions to support `hs.axuielement`.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [cache](#cache)
- * [childAtIndex](#childAtIndex)
- * [childFromBottom](#childFromBottom)
- * [childFromLeft](#childFromLeft)
- * [childFromRight](#childFromRight)
- * [childFromTop](#childFromTop)
- * [childInColumn](#childInColumn)
- * [childIndex](#childIndex)
- * [childMatching](#childMatching)
+ * [childAtIndex](#childatindex)
+ * [childFromBottom](#childfrombottom)
+ * [childFromLeft](#childfromleft)
+ * [childFromRight](#childfromright)
+ * [childFromTop](#childfromtop)
+ * [childInColumn](#childincolumn)
+ * [childIndex](#childindex)
+ * [childMatching](#childmatching)
  * [children](#children)
- * [childrenAbove](#childrenAbove)
- * [childrenBelow](#childrenBelow)
- * [childrenInColumn](#childrenInColumn)
- * [childrenInLine](#childrenInLine)
- * [childrenInNextLine](#childrenInNextLine)
- * [childrenMatching](#childrenMatching)
- * [childrenWith](#childrenWith)
- * [childrenWithRole](#childrenWithRole)
- * [childWith](#childWith)
- * [childWithDescription](#childWithDescription)
- * [childWithID](#childWithID)
- * [childWithRole](#childWithRole)
- * [childWithTitle](#childWithTitle)
- * [hasAttributeValue](#hasAttributeValue)
- * [hasChild](#hasChild)
- * [isValid](#isValid)
+ * [childrenAbove](#childrenabove)
+ * [childrenBelow](#childrenbelow)
+ * [childrenInColumn](#childrenincolumn)
+ * [childrenInLine](#childreninline)
+ * [childrenInNextLine](#childreninnextline)
+ * [childrenMatching](#childrenmatching)
+ * [childrenWith](#childrenwith)
+ * [childrenWithRole](#childrenwithrole)
+ * [childWith](#childwith)
+ * [childWithDescription](#childwithdescription)
+ * [childWithID](#childwithid)
+ * [childWithRole](#childwithrole)
+ * [childWithTitle](#childwithtitle)
+ * [hasAttributeValue](#hasattributevalue)
+ * [hasChild](#haschild)
+ * [isValid](#isvalid)
  * [prop](#prop)
  * [snapshot](#snapshot)
- * [valueOf](#valueOf)
- * [withAttributeValue](#withAttributeValue)
- * [withRole](#withRole)
- * [withTitle](#withTitle)
- * [withValue](#withValue)
+ * [valueOf](#valueof)
+ * [withAttributeValue](#withattributevalue)
+ * [withRole](#withrole)
+ * [withTitle](#withtitle)
+ * [withValue](#withvalue)
 
 ## API Documentation
 
@@ -60,7 +60,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childAtIndex](#childAtIndex)
+### [childAtIndex](#childatindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childFromBottom](#childFromBottom)
+### [childFromBottom](#childfrombottom)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childFromLeft](#childFromLeft)
+### [childFromLeft](#childfromleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childFromRight](#childFromRight)
+### [childFromRight](#childfromright)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childFromTop](#childFromTop)
+### [childFromTop](#childfromtop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childInColumn](#childInColumn)
+### [childInColumn](#childincolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childIndex](#childIndex)
+### [childIndex](#childindex)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childMatching](#childMatching)
+### [childMatching](#childmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -177,7 +177,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenAbove](#childrenAbove)
+### [childrenAbove](#childrenabove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenBelow](#childrenBelow)
+### [childrenBelow](#childrenbelow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenInColumn](#childrenInColumn)
+### [childrenInColumn](#childrenincolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -216,7 +216,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenInLine](#childrenInLine)
+### [childrenInLine](#childreninline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenInNextLine](#childrenInNextLine)
+### [childrenInNextLine](#childreninnextline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenMatching](#childrenMatching)
+### [childrenMatching](#childrenmatching)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenWith](#childrenWith)
+### [childrenWith](#childrenwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -268,7 +268,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childrenWithRole](#childrenWithRole)
+### [childrenWithRole](#childrenwithrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -281,7 +281,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childWith](#childWith)
+### [childWith](#childwith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -294,7 +294,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childWithDescription](#childWithDescription)
+### [childWithDescription](#childwithdescription)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -307,7 +307,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childWithID](#childWithID)
+### [childWithID](#childwithid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -320,7 +320,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childWithRole](#childWithRole)
+### [childWithRole](#childwithrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -333,7 +333,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [childWithTitle](#childWithTitle)
+### [childWithTitle](#childwithtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -346,7 +346,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [hasAttributeValue](#hasAttributeValue)
+### [hasAttributeValue](#hasattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -359,7 +359,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [hasChild](#hasChild)
+### [hasChild](#haschild)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -372,7 +372,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [isValid](#isValid)
+### [isValid](#isvalid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -411,7 +411,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [valueOf](#valueOf)
+### [valueOf](#valueof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -424,7 +424,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [withAttributeValue](#withAttributeValue)
+### [withAttributeValue](#withattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -437,7 +437,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [withRole](#withRole)
+### [withRole](#withrole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -450,7 +450,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [withTitle](#withTitle)
+### [withTitle](#withtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -463,7 +463,7 @@ Utility functions to support `hs.axuielement`.
 
 ---
 
-### [withValue](#withValue)
+### [withValue](#withvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

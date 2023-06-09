@@ -9,9 +9,9 @@ Static Text Module.
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [clear](#clear)
- * [loadLayout](#loadLayout)
- * [saveLayout](#saveLayout)
- * [StaticText](#StaticText)
+ * [loadLayout](#loadlayout)
+ * [saveLayout](#savelayout)
+ * [StaticText](#statictext)
 
 ## API Documentation
 
@@ -58,7 +58,7 @@ Static Text Module.
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Static Text Module.
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Static Text Module.
 
 ---
 
-### [StaticText](#StaticText)
+### [StaticText](#statictext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

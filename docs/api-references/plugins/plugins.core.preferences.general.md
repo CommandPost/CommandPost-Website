@@ -4,24 +4,24 @@ General Preferences Panel.
 
 ## API Overview
 * Variables - Configurable values
- * [dragAndDropFileActions](#dragAndDropFileActions)
- * [dragAndDropTextActions](#dragAndDropTextActions)
- * [openDebugConsoleOnDockClick](#openDebugConsoleOnDockClick)
+ * [dragAndDropFileActions](#draganddropfileactions)
+ * [dragAndDropTextActions](#draganddroptextactions)
+ * [openDebugConsoleOnDockClick](#opendebugconsoleondockclick)
 * Functions - API calls offered directly by the extension
- * [registerDragAndDropFileAction](#registerDragAndDropFileAction)
- * [registerDragAndDropTextAction](#registerDragAndDropTextAction)
+ * [registerDragAndDropFileAction](#registerdraganddropfileaction)
+ * [registerDragAndDropTextAction](#registerdraganddroptextaction)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [autoLaunch](#autoLaunch)
- * [dockIcon](#dockIcon)
- * [dragAndDropFileAction](#dragAndDropFileAction)
- * [dragAndDropTextAction](#dragAndDropTextAction)
+ * [autoLaunch](#autolaunch)
+ * [dockIcon](#dockicon)
+ * [dragAndDropFileAction](#draganddropfileaction)
+ * [dragAndDropTextAction](#draganddroptextaction)
 
 ## API Documentation
 
 ### Variables
 
 
-### [dragAndDropFileActions](#dragAndDropFileActions)
+### [dragAndDropFileActions](#draganddropfileactions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ General Preferences Panel.
 
 ---
 
-### [dragAndDropTextActions](#dragAndDropTextActions)
+### [dragAndDropTextActions](#draganddroptextactions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ General Preferences Panel.
 
 ---
 
-### [openDebugConsoleOnDockClick](#openDebugConsoleOnDockClick)
+### [openDebugConsoleOnDockClick](#opendebugconsoleondockclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ General Preferences Panel.
 ### Functions
 
 
-### [registerDragAndDropFileAction](#registerDragAndDropFileAction)
+### [registerDragAndDropFileAction](#registerdraganddropfileaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ General Preferences Panel.
 
 ---
 
-### [registerDragAndDropTextAction](#registerDragAndDropTextAction)
+### [registerDragAndDropTextAction](#registerdraganddroptextaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ General Preferences Panel.
 ### Fields
 
 
-### [autoLaunch](#autoLaunch)
+### [autoLaunch](#autolaunch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ General Preferences Panel.
 
 ---
 
-### [dockIcon](#dockIcon)
+### [dockIcon](#dockicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ General Preferences Panel.
 
 ---
 
-### [dragAndDropFileAction](#dragAndDropFileAction)
+### [dragAndDropFileAction](#draganddropfileaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ General Preferences Panel.
 
 ---
 
-### [dragAndDropTextAction](#dragAndDropTextAction)
+### [dragAndDropTextAction](#draganddroptextaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

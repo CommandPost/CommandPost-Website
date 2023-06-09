@@ -7,7 +7,7 @@ manually.
 * Constructors - API calls which return an object, typically one that offers API methods
  * [create](#create)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isEmpth](#isEmpth)
+ * [isEmpth](#isempth)
  * [schedule](#schedule)
  * [update](#update)
 
@@ -31,7 +31,7 @@ manually.
 ### Methods
 
 
-### [isEmpth](#isEmpth)
+### [isEmpth](#isempth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

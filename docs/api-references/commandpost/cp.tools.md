@@ -4,101 +4,101 @@ A collection of handy miscellaneous tools for Lua development.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [appleScriptViaTask](#appleScriptViaTask)
+ * [appleScriptViaTask](#applescriptviatask)
  * [between](#between)
- * [camelCase](#camelCase)
+ * [camelCase](#camelcase)
  * [centre](#centre)
- * [characterToPercentEncodedString](#characterToPercentEncodedString)
- * [cleanupButtonText](#cleanupButtonText)
- * [contentsInsideBrackets](#contentsInsideBrackets)
- * [convertSingleHexStringToDecimalString](#convertSingleHexStringToDecimalString)
- * [desktopPath](#desktopPath)
- * [dirFiles](#dirFiles)
- * [doesDirectoryExist](#doesDirectoryExist)
- * [doesFileExist](#doesFileExist)
- * [doubleLeftClick](#doubleLeftClick)
- * [encodeURI](#encodeURI)
- * [encodeURIComponent](#encodeURIComponent)
- * [endsWith](#endsWith)
- * [ensureDirectoryExists](#ensureDirectoryExists)
- * [escapeTilda](#escapeTilda)
- * [exactMatch](#exactMatch)
- * [executeWithAdministratorPrivileges](#executeWithAdministratorPrivileges)
- * [fileLinesBackward](#fileLinesBackward)
- * [findCommonWordWithinTwoStrings](#findCommonWordWithinTwoStrings)
- * [firstToUpper](#firstToUpper)
- * [getEmail](#getEmail)
- * [getExternalDevices](#getExternalDevices)
- * [getFileExtensionFromPath](#getFileExtensionFromPath)
- * [getFilenameFromPath](#getFilenameFromPath)
- * [getFullname](#getFullname)
- * [getKeysSortedByValue](#getKeysSortedByValue)
- * [getmacOSVersion](#getmacOSVersion)
- * [getModelName](#getModelName)
- * [getRAMSize](#getRAMSize)
- * [getScreenshotsAsBase64](#getScreenshotsAsBase64)
- * [getThunderboltDevices](#getThunderboltDevices)
- * [getUSBDevices](#getUSBDevices)
- * [getVRAMSize](#getVRAMSize)
- * [hexStringToString](#hexStringToString)
- * [iconFallback](#iconFallback)
- * [incrementFilename](#incrementFilename)
- * [incrementFilenameInPath](#incrementFilenameInPath)
- * [isColor](#isColor)
- * [isImage](#isImage)
- * [isNumberString](#isNumberString)
- * [isOffScreen](#isOffScreen)
- * [keyStroke](#keyStroke)
- * [leftClick](#leftClick)
+ * [characterToPercentEncodedString](#charactertopercentencodedstring)
+ * [cleanupButtonText](#cleanupbuttontext)
+ * [contentsInsideBrackets](#contentsinsidebrackets)
+ * [convertSingleHexStringToDecimalString](#convertsinglehexstringtodecimalstring)
+ * [desktopPath](#desktoppath)
+ * [dirFiles](#dirfiles)
+ * [doesDirectoryExist](#doesdirectoryexist)
+ * [doesFileExist](#doesfileexist)
+ * [doubleLeftClick](#doubleleftclick)
+ * [encodeURI](#encodeuri)
+ * [encodeURIComponent](#encodeuricomponent)
+ * [endsWith](#endswith)
+ * [ensureDirectoryExists](#ensuredirectoryexists)
+ * [escapeTilda](#escapetilda)
+ * [exactMatch](#exactmatch)
+ * [executeWithAdministratorPrivileges](#executewithadministratorprivileges)
+ * [fileLinesBackward](#filelinesbackward)
+ * [findCommonWordWithinTwoStrings](#findcommonwordwithintwostrings)
+ * [firstToUpper](#firsttoupper)
+ * [getEmail](#getemail)
+ * [getExternalDevices](#getexternaldevices)
+ * [getFileExtensionFromPath](#getfileextensionfrompath)
+ * [getFilenameFromPath](#getfilenamefrompath)
+ * [getFullname](#getfullname)
+ * [getKeysSortedByValue](#getkeyssortedbyvalue)
+ * [getmacOSVersion](#getmacosversion)
+ * [getModelName](#getmodelname)
+ * [getRAMSize](#getramsize)
+ * [getScreenshotsAsBase64](#getscreenshotsasbase64)
+ * [getThunderboltDevices](#getthunderboltdevices)
+ * [getUSBDevices](#getusbdevices)
+ * [getVRAMSize](#getvramsize)
+ * [hexStringToString](#hexstringtostring)
+ * [iconFallback](#iconfallback)
+ * [incrementFilename](#incrementfilename)
+ * [incrementFilenameInPath](#incrementfilenameinpath)
+ * [isColor](#iscolor)
+ * [isImage](#isimage)
+ * [isNumberString](#isnumberstring)
+ * [isOffScreen](#isoffscreen)
+ * [keyStroke](#keystroke)
+ * [leftClick](#leftclick)
  * [lines](#lines)
  * [lower](#lower)
- * [macOSVersion](#macOSVersion)
- * [mergeTable](#mergeTable)
- * [ninjaDoubleClick](#ninjaDoubleClick)
- * [ninjaMouseAction](#ninjaMouseAction)
- * [ninjaMouseClick](#ninjaMouseClick)
- * [ninjaRightMouseClick](#ninjaRightMouseClick)
- * [numberToWord](#numberToWord)
- * [optionPressed](#optionPressed)
- * [playErrorSound](#playErrorSound)
- * [pressSystemKey](#pressSystemKey)
- * [readFromFile](#readFromFile)
- * [removeFilenameFromPath](#removeFilenameFromPath)
- * [removeFromTable](#removeFromTable)
+ * [macOSVersion](#macosversion)
+ * [mergeTable](#mergetable)
+ * [ninjaDoubleClick](#ninjadoubleclick)
+ * [ninjaMouseAction](#ninjamouseaction)
+ * [ninjaMouseClick](#ninjamouseclick)
+ * [ninjaRightMouseClick](#ninjarightmouseclick)
+ * [numberToWord](#numbertoword)
+ * [optionPressed](#optionpressed)
+ * [playErrorSound](#playerrorsound)
+ * [pressSystemKey](#presssystemkey)
+ * [readFromFile](#readfromfile)
+ * [removeFilenameFromPath](#removefilenamefrompath)
+ * [removeFromTable](#removefromtable)
  * [replace](#replace)
  * [rescale](#rescale)
- * [rightClick](#rightClick)
+ * [rightClick](#rightclick)
  * [rmdir](#rmdir)
  * [round](#round)
- * [safeFilename](#safeFilename)
- * [secureInputApplicationTitle](#secureInputApplicationTitle)
- * [shiftPressed](#shiftPressed)
+ * [safeFilename](#safefilename)
+ * [secureInputApplicationTitle](#secureinputapplicationtitle)
+ * [shiftPressed](#shiftpressed)
  * [spairs](#spairs)
  * [split](#split)
- * [splitOnColumn](#splitOnColumn)
- * [startsWith](#startsWith)
- * [stringMaxLength](#stringMaxLength)
- * [stringToHexString](#stringToHexString)
- * [tableContains](#tableContains)
- * [tableCount](#tableCount)
- * [tableFilter](#tableFilter)
- * [tableMatch](#tableMatch)
- * [toRegionalNumber](#toRegionalNumber)
- * [toRegionalNumberString](#toRegionalNumberString)
+ * [splitOnColumn](#splitoncolumn)
+ * [startsWith](#startswith)
+ * [stringMaxLength](#stringmaxlength)
+ * [stringToHexString](#stringtohexstring)
+ * [tableContains](#tablecontains)
+ * [tableCount](#tablecount)
+ * [tableFilter](#tablefilter)
+ * [tableMatch](#tablematch)
+ * [toRegionalNumber](#toregionalnumber)
+ * [toRegionalNumberString](#toregionalnumberstring)
  * [trim](#trim)
  * [unescape](#unescape)
  * [upper](#upper)
- * [urlQueryStringDecode](#urlQueryStringDecode)
- * [urlToFilename](#urlToFilename)
- * [volumeFormat](#volumeFormat)
- * [writeToFile](#writeToFile)
+ * [urlQueryStringDecode](#urlquerystringdecode)
+ * [urlToFilename](#urltofilename)
+ * [volumeFormat](#volumeformat)
+ * [writeToFile](#writetofile)
 
 ## API Documentation
 
 ### Functions
 
 
-### [appleScriptViaTask](#appleScriptViaTask)
+### [appleScriptViaTask](#applescriptviatask)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [camelCase](#camelCase)
+### [camelCase](#camelcase)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [characterToPercentEncodedString](#characterToPercentEncodedString)
+### [characterToPercentEncodedString](#charactertopercentencodedstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [cleanupButtonText](#cleanupButtonText)
+### [cleanupButtonText](#cleanupbuttontext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -176,7 +176,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [contentsInsideBrackets](#contentsInsideBrackets)
+### [contentsInsideBrackets](#contentsinsidebrackets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [convertSingleHexStringToDecimalString](#convertSingleHexStringToDecimalString)
+### [convertSingleHexStringToDecimalString](#convertsinglehexstringtodecimalstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -202,7 +202,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [desktopPath](#desktopPath)
+### [desktopPath](#desktoppath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -215,7 +215,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [dirFiles](#dirFiles)
+### [dirFiles](#dirfiles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -228,7 +228,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [doesDirectoryExist](#doesDirectoryExist)
+### [doesDirectoryExist](#doesdirectoryexist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [doesFileExist](#doesFileExist)
+### [doesFileExist](#doesfileexist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -254,7 +254,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [doubleLeftClick](#doubleLeftClick)
+### [doubleLeftClick](#doubleleftclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -267,7 +267,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [encodeURI](#encodeURI)
+### [encodeURI](#encodeuri)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -280,7 +280,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [encodeURIComponent](#encodeURIComponent)
+### [encodeURIComponent](#encodeuricomponent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -293,7 +293,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [endsWith](#endsWith)
+### [endsWith](#endswith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -306,7 +306,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [ensureDirectoryExists](#ensureDirectoryExists)
+### [ensureDirectoryExists](#ensuredirectoryexists)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -319,7 +319,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [escapeTilda](#escapeTilda)
+### [escapeTilda](#escapetilda)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -332,7 +332,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [exactMatch](#exactMatch)
+### [exactMatch](#exactmatch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -345,7 +345,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [executeWithAdministratorPrivileges](#executeWithAdministratorPrivileges)
+### [executeWithAdministratorPrivileges](#executewithadministratorprivileges)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -358,7 +358,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [fileLinesBackward](#fileLinesBackward)
+### [fileLinesBackward](#filelinesbackward)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -371,7 +371,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [findCommonWordWithinTwoStrings](#findCommonWordWithinTwoStrings)
+### [findCommonWordWithinTwoStrings](#findcommonwordwithintwostrings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [firstToUpper](#firstToUpper)
+### [firstToUpper](#firsttoupper)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -397,7 +397,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getEmail](#getEmail)
+### [getEmail](#getemail)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -410,7 +410,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getExternalDevices](#getExternalDevices)
+### [getExternalDevices](#getexternaldevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -423,7 +423,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getFileExtensionFromPath](#getFileExtensionFromPath)
+### [getFileExtensionFromPath](#getfileextensionfrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -436,7 +436,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getFilenameFromPath](#getFilenameFromPath)
+### [getFilenameFromPath](#getfilenamefrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -449,7 +449,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getFullname](#getFullname)
+### [getFullname](#getfullname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -462,7 +462,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getKeysSortedByValue](#getKeysSortedByValue)
+### [getKeysSortedByValue](#getkeyssortedbyvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -475,7 +475,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getmacOSVersion](#getmacOSVersion)
+### [getmacOSVersion](#getmacosversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getModelName](#getModelName)
+### [getModelName](#getmodelname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -501,7 +501,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getRAMSize](#getRAMSize)
+### [getRAMSize](#getramsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -514,7 +514,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getScreenshotsAsBase64](#getScreenshotsAsBase64)
+### [getScreenshotsAsBase64](#getscreenshotsasbase64)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -527,7 +527,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getThunderboltDevices](#getThunderboltDevices)
+### [getThunderboltDevices](#getthunderboltdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -540,7 +540,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getUSBDevices](#getUSBDevices)
+### [getUSBDevices](#getusbdevices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -553,7 +553,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [getVRAMSize](#getVRAMSize)
+### [getVRAMSize](#getvramsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -566,7 +566,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [hexStringToString](#hexStringToString)
+### [hexStringToString](#hexstringtostring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -579,7 +579,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [iconFallback](#iconFallback)
+### [iconFallback](#iconfallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -592,7 +592,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [incrementFilename](#incrementFilename)
+### [incrementFilename](#incrementfilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -605,7 +605,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [incrementFilenameInPath](#incrementFilenameInPath)
+### [incrementFilenameInPath](#incrementfilenameinpath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -618,7 +618,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [isColor](#isColor)
+### [isColor](#iscolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -631,7 +631,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [isImage](#isImage)
+### [isImage](#isimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -644,7 +644,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [isNumberString](#isNumberString)
+### [isNumberString](#isnumberstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -657,7 +657,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [isOffScreen](#isOffScreen)
+### [isOffScreen](#isoffscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -670,7 +670,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [keyStroke](#keyStroke)
+### [keyStroke](#keystroke)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -683,7 +683,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [leftClick](#leftClick)
+### [leftClick](#leftclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -722,7 +722,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [macOSVersion](#macOSVersion)
+### [macOSVersion](#macosversion)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -735,7 +735,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [mergeTable](#mergeTable)
+### [mergeTable](#mergetable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -748,7 +748,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [ninjaDoubleClick](#ninjaDoubleClick)
+### [ninjaDoubleClick](#ninjadoubleclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -761,7 +761,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [ninjaMouseAction](#ninjaMouseAction)
+### [ninjaMouseAction](#ninjamouseaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -774,7 +774,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [ninjaMouseClick](#ninjaMouseClick)
+### [ninjaMouseClick](#ninjamouseclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -787,7 +787,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [ninjaRightMouseClick](#ninjaRightMouseClick)
+### [ninjaRightMouseClick](#ninjarightmouseclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -800,7 +800,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [numberToWord](#numberToWord)
+### [numberToWord](#numbertoword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -813,7 +813,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [optionPressed](#optionPressed)
+### [optionPressed](#optionpressed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -826,7 +826,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [playErrorSound](#playErrorSound)
+### [playErrorSound](#playerrorsound)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -839,7 +839,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [pressSystemKey](#pressSystemKey)
+### [pressSystemKey](#presssystemkey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -852,7 +852,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [readFromFile](#readFromFile)
+### [readFromFile](#readfromfile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -865,7 +865,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [removeFilenameFromPath](#removeFilenameFromPath)
+### [removeFilenameFromPath](#removefilenamefrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -878,7 +878,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [removeFromTable](#removeFromTable)
+### [removeFromTable](#removefromtable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -917,7 +917,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [rightClick](#rightClick)
+### [rightClick](#rightclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -956,7 +956,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [safeFilename](#safeFilename)
+### [safeFilename](#safefilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -969,7 +969,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [secureInputApplicationTitle](#secureInputApplicationTitle)
+### [secureInputApplicationTitle](#secureinputapplicationtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -982,7 +982,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [shiftPressed](#shiftPressed)
+### [shiftPressed](#shiftpressed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1021,7 +1021,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [splitOnColumn](#splitOnColumn)
+### [splitOnColumn](#splitoncolumn)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1034,7 +1034,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [startsWith](#startsWith)
+### [startsWith](#startswith)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1047,7 +1047,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [stringMaxLength](#stringMaxLength)
+### [stringMaxLength](#stringmaxlength)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1060,7 +1060,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [stringToHexString](#stringToHexString)
+### [stringToHexString](#stringtohexstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1073,7 +1073,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [tableContains](#tableContains)
+### [tableContains](#tablecontains)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1086,7 +1086,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [tableCount](#tableCount)
+### [tableCount](#tablecount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1099,7 +1099,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [tableFilter](#tableFilter)
+### [tableFilter](#tablefilter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1112,7 +1112,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [tableMatch](#tableMatch)
+### [tableMatch](#tablematch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1125,7 +1125,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [toRegionalNumber](#toRegionalNumber)
+### [toRegionalNumber](#toregionalnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1138,7 +1138,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [toRegionalNumberString](#toRegionalNumberString)
+### [toRegionalNumberString](#toregionalnumberstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1190,7 +1190,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [urlQueryStringDecode](#urlQueryStringDecode)
+### [urlQueryStringDecode](#urlquerystringdecode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1203,7 +1203,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [urlToFilename](#urlToFilename)
+### [urlToFilename](#urltofilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1216,7 +1216,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [volumeFormat](#volumeFormat)
+### [volumeFormat](#volumeformat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -1229,7 +1229,7 @@ A collection of handy miscellaneous tools for Lua development.
 
 ---
 
-### [writeToFile](#writeToFile)
+### [writeToFile](#writetofile)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

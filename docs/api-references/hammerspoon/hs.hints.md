@@ -4,22 +4,22 @@ Switch focus with a transient per-application keyboard shortcut
 
 ## API Overview
 * Variables - Configurable values
- * [fontName](#fontName)
- * [fontSize](#fontSize)
- * [hintChars](#hintChars)
- * [iconAlpha](#iconAlpha)
- * [showTitleThresh](#showTitleThresh)
+ * [fontName](#fontname)
+ * [fontSize](#fontsize)
+ * [hintChars](#hintchars)
+ * [iconAlpha](#iconalpha)
+ * [showTitleThresh](#showtitlethresh)
  * [style](#style)
- * [titleMaxSize](#titleMaxSize)
+ * [titleMaxSize](#titlemaxsize)
 * Functions - API calls offered directly by the extension
- * [windowHints](#windowHints)
+ * [windowHints](#windowhints)
 
 ## API Documentation
 
 ### Variables
 
 
-### [fontName](#fontName)
+### [fontName](#fontname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ Switch focus with a transient per-application keyboard shortcut
 
 ---
 
-### [fontSize](#fontSize)
+### [fontSize](#fontsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Switch focus with a transient per-application keyboard shortcut
 
 ---
 
-### [hintChars](#hintChars)
+### [hintChars](#hintchars)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Switch focus with a transient per-application keyboard shortcut
 
 ---
 
-### [iconAlpha](#iconAlpha)
+### [iconAlpha](#iconalpha)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Switch focus with a transient per-application keyboard shortcut
 
 ---
 
-### [showTitleThresh](#showTitleThresh)
+### [showTitleThresh](#showtitlethresh)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Switch focus with a transient per-application keyboard shortcut
 
 ---
 
-### [titleMaxSize](#titleMaxSize)
+### [titleMaxSize](#titlemaxsize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Switch focus with a transient per-application keyboard shortcut
 ### Functions
 
 
-### [windowHints](#windowHints)
+### [windowHints](#windowhints)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

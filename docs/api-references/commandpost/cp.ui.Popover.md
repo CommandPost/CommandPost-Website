@@ -6,9 +6,9 @@ UI Group.
 * Functions - API calls offered directly by the extension
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Popover](#Popover)
+ * [Popover](#popover)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doHide](#doHide)
+ * [doHide](#dohide)
  * [hide](#hide)
 
 ## API Documentation
@@ -31,7 +31,7 @@ UI Group.
 ### Constructors
 
 
-### [Popover](#Popover)
+### [Popover](#popover)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ UI Group.
 ### Methods
 
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

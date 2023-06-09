@@ -14,38 +14,38 @@ Usage:
 * Constants - Useful values which cannot be changed
  * [types](#types)
 * Functions - API calls offered directly by the extension
- * [clearCaches](#clearCaches)
+ * [clearCaches](#clearcaches)
  * [new](#new)
  * [scan](#scan)
- * [scanAppEffectsPresets](#scanAppEffectsPresets)
+ * [scanAppEffectsPresets](#scanappeffectspresets)
  * [scanned](#scanned)
- * [scanSystemAudioUnits](#scanSystemAudioUnits)
- * [scanUserColorPresets](#scanUserColorPresets)
- * [scanUserEffectsPresets](#scanUserEffectsPresets)
+ * [scanSystemAudioUnits](#scansystemaudiounits)
+ * [scanUserColorPresets](#scanusercolorpresets)
+ * [scanUserEffectsPresets](#scanusereffectspresets)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [audioEffects](#audioEffects)
- * [effectBundleStrings](#effectBundleStrings)
- * [effectStrings](#effectStrings)
+ * [audioEffects](#audioeffects)
+ * [effectBundleStrings](#effectbundlestrings)
+ * [effectStrings](#effectstrings)
  * [generators](#generators)
- * [ofType](#ofType)
- * [registerPlugin](#registerPlugin)
+ * [ofType](#oftype)
+ * [registerPlugin](#registerplugin)
  * [reset](#reset)
- * [scanAll](#scanAll)
- * [scanAppAudioEffectBundles](#scanAppAudioEffectBundles)
- * [scanAppBuiltInPlugins](#scanAppBuiltInPlugins)
- * [scanAppEdelEffects](#scanAppEdelEffects)
- * [scanAppMotionTemplates](#scanAppMotionTemplates)
- * [scanPluginCategoryDirectory](#scanPluginCategoryDirectory)
- * [scanPluginsDirectory](#scanPluginsDirectory)
- * [scanPluginThemeDirectory](#scanPluginThemeDirectory)
- * [scanSystemMotionTemplates](#scanSystemMotionTemplates)
- * [scanUserMotionTemplates](#scanUserMotionTemplates)
+ * [scanAll](#scanall)
+ * [scanAppAudioEffectBundles](#scanappaudioeffectbundles)
+ * [scanAppBuiltInPlugins](#scanappbuiltinplugins)
+ * [scanAppEdelEffects](#scanappedeleffects)
+ * [scanAppMotionTemplates](#scanappmotiontemplates)
+ * [scanPluginCategoryDirectory](#scanplugincategorydirectory)
+ * [scanPluginsDirectory](#scanpluginsdirectory)
+ * [scanPluginThemeDirectory](#scanpluginthemedirectory)
+ * [scanSystemMotionTemplates](#scansystemmotiontemplates)
+ * [scanUserMotionTemplates](#scanusermotiontemplates)
  * [titles](#titles)
  * [transitions](#transitions)
- * [translateEffectBundle](#translateEffectBundle)
+ * [translateEffectBundle](#translateeffectbundle)
  * [unwatch](#unwatch)
- * [videoEffects](#videoEffects)
+ * [videoEffects](#videoeffects)
  * [watch](#watch)
 
 ## API Documentation
@@ -65,7 +65,7 @@ Usage:
 ### Functions
 
 
-### [clearCaches](#clearCaches)
+### [clearCaches](#clearcaches)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Usage:
 
 ---
 
-### [scanAppEffectsPresets](#scanAppEffectsPresets)
+### [scanAppEffectsPresets](#scanappeffectspresets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Usage:
 
 ---
 
-### [scanSystemAudioUnits](#scanSystemAudioUnits)
+### [scanSystemAudioUnits](#scansystemaudiounits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ Usage:
 
 ---
 
-### [scanUserColorPresets](#scanUserColorPresets)
+### [scanUserColorPresets](#scanusercolorpresets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -156,7 +156,7 @@ Usage:
 
 ---
 
-### [scanUserEffectsPresets](#scanUserEffectsPresets)
+### [scanUserEffectsPresets](#scanusereffectspresets)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Usage:
 
 ---
 
-### [audioEffects](#audioEffects)
+### [audioEffects](#audioeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Usage:
 
 ---
 
-### [effectBundleStrings](#effectBundleStrings)
+### [effectBundleStrings](#effectbundlestrings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ Usage:
 
 ---
 
-### [effectStrings](#effectStrings)
+### [effectStrings](#effectstrings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ Usage:
 
 ---
 
-### [ofType](#ofType)
+### [ofType](#oftype)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ Usage:
 
 ---
 
-### [registerPlugin](#registerPlugin)
+### [registerPlugin](#registerplugin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ Usage:
 
 ---
 
-### [scanAll](#scanAll)
+### [scanAll](#scanall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ Usage:
 
 ---
 
-### [scanAppAudioEffectBundles](#scanAppAudioEffectBundles)
+### [scanAppAudioEffectBundles](#scanappaudioeffectbundles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ Usage:
 
 ---
 
-### [scanAppBuiltInPlugins](#scanAppBuiltInPlugins)
+### [scanAppBuiltInPlugins](#scanappbuiltinplugins)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ Usage:
 
 ---
 
-### [scanAppEdelEffects](#scanAppEdelEffects)
+### [scanAppEdelEffects](#scanappedeleffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ Usage:
 
 ---
 
-### [scanAppMotionTemplates](#scanAppMotionTemplates)
+### [scanAppMotionTemplates](#scanappmotiontemplates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ Usage:
 
 ---
 
-### [scanPluginCategoryDirectory](#scanPluginCategoryDirectory)
+### [scanPluginCategoryDirectory](#scanplugincategorydirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ Usage:
 
 ---
 
-### [scanPluginsDirectory](#scanPluginsDirectory)
+### [scanPluginsDirectory](#scanpluginsdirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -366,7 +366,7 @@ Usage:
 
 ---
 
-### [scanPluginThemeDirectory](#scanPluginThemeDirectory)
+### [scanPluginThemeDirectory](#scanpluginthemedirectory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -379,7 +379,7 @@ Usage:
 
 ---
 
-### [scanSystemMotionTemplates](#scanSystemMotionTemplates)
+### [scanSystemMotionTemplates](#scansystemmotiontemplates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -392,7 +392,7 @@ Usage:
 
 ---
 
-### [scanUserMotionTemplates](#scanUserMotionTemplates)
+### [scanUserMotionTemplates](#scanusermotiontemplates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -431,7 +431,7 @@ Usage:
 
 ---
 
-### [translateEffectBundle](#translateEffectBundle)
+### [translateEffectBundle](#translateeffectbundle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -457,7 +457,7 @@ Usage:
 
 ---
 
-### [videoEffects](#videoEffects)
+### [videoEffects](#videoeffects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

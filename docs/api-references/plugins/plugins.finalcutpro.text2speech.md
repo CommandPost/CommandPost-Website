@@ -4,28 +4,28 @@ Text to Speech Plugin.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [copyToMediaFolder](#copyToMediaFolder)
+ * [copyToMediaFolder](#copytomediafolder)
 * Variables - Configurable values
- * [addCaption](#addCaption)
- * [addCustomKeyword](#addCustomKeyword)
- * [addKeywordForVoiceName](#addKeywordForVoiceName)
- * [addTextToNotesFieldAfterImport](#addTextToNotesFieldAfterImport)
- * [assignClipAudioRoleToVoiceName](#assignClipAudioRoleToVoiceName)
- * [currentIncrementalNumber](#currentIncrementalNumber)
- * [customPrefix](#customPrefix)
- * [deleteFileAfterImport](#deleteFileAfterImport)
- * [enableCustomPrefix](#enableCustomPrefix)
- * [includeTextInFilename](#includeTextInFilename)
- * [insertIntoTimeline](#insertIntoTimeline)
+ * [addCaption](#addcaption)
+ * [addCustomKeyword](#addcustomkeyword)
+ * [addKeywordForVoiceName](#addkeywordforvoicename)
+ * [addTextToNotesFieldAfterImport](#addtexttonotesfieldafterimport)
+ * [assignClipAudioRoleToVoiceName](#assignclipaudioroletovoicename)
+ * [currentIncrementalNumber](#currentincrementalnumber)
+ * [customPrefix](#customprefix)
+ * [deleteFileAfterImport](#deletefileafterimport)
+ * [enableCustomPrefix](#enablecustomprefix)
+ * [includeTextInFilename](#includetextinfilename)
+ * [insertIntoTimeline](#insertintotimeline)
  * [path](#path)
- * [recentText](#recentText)
- * [replaceSpaceWithUnderscore](#replaceSpaceWithUnderscore)
+ * [recentText](#recenttext)
+ * [replaceSpaceWithUnderscore](#replacespacewithunderscore)
  * [tag](#tag)
- * [useUnderscore](#useUnderscore)
+ * [useUnderscore](#useunderscore)
  * [voice](#voice)
 * Functions - API calls offered directly by the extension
- * [chooseFolder](#chooseFolder)
- * [insertFromPasteboard](#insertFromPasteboard)
+ * [chooseFolder](#choosefolder)
+ * [insertFromPasteboard](#insertfrompasteboard)
  * [show](#show)
 
 ## API Documentation
@@ -33,7 +33,7 @@ Text to Speech Plugin.
 ### Constants
 
 
-### [copyToMediaFolder](#copyToMediaFolder)
+### [copyToMediaFolder](#copytomediafolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Text to Speech Plugin.
 ### Variables
 
 
-### [addCaption](#addCaption)
+### [addCaption](#addcaption)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Text to Speech Plugin.
 
 ---
 
-### [addCustomKeyword](#addCustomKeyword)
+### [addCustomKeyword](#addcustomkeyword)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Text to Speech Plugin.
 
 ---
 
-### [addKeywordForVoiceName](#addKeywordForVoiceName)
+### [addKeywordForVoiceName](#addkeywordforvoicename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Text to Speech Plugin.
 
 ---
 
-### [addTextToNotesFieldAfterImport](#addTextToNotesFieldAfterImport)
+### [addTextToNotesFieldAfterImport](#addtexttonotesfieldafterimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Text to Speech Plugin.
 
 ---
 
-### [assignClipAudioRoleToVoiceName](#assignClipAudioRoleToVoiceName)
+### [assignClipAudioRoleToVoiceName](#assignclipaudioroletovoicename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ Text to Speech Plugin.
 
 ---
 
-### [currentIncrementalNumber](#currentIncrementalNumber)
+### [currentIncrementalNumber](#currentincrementalnumber)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Text to Speech Plugin.
 
 ---
 
-### [customPrefix](#customPrefix)
+### [customPrefix](#customprefix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ Text to Speech Plugin.
 
 ---
 
-### [deleteFileAfterImport](#deleteFileAfterImport)
+### [deleteFileAfterImport](#deletefileafterimport)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Text to Speech Plugin.
 
 ---
 
-### [enableCustomPrefix](#enableCustomPrefix)
+### [enableCustomPrefix](#enablecustomprefix)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ Text to Speech Plugin.
 
 ---
 
-### [includeTextInFilename](#includeTextInFilename)
+### [includeTextInFilename](#includetextinfilename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ Text to Speech Plugin.
 
 ---
 
-### [insertIntoTimeline](#insertIntoTimeline)
+### [insertIntoTimeline](#insertintotimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ Text to Speech Plugin.
 
 ---
 
-### [recentText](#recentText)
+### [recentText](#recenttext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ Text to Speech Plugin.
 
 ---
 
-### [replaceSpaceWithUnderscore](#replaceSpaceWithUnderscore)
+### [replaceSpaceWithUnderscore](#replacespacewithunderscore)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ Text to Speech Plugin.
 
 ---
 
-### [useUnderscore](#useUnderscore)
+### [useUnderscore](#useunderscore)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ Text to Speech Plugin.
 ### Functions
 
 
-### [chooseFolder](#chooseFolder)
+### [chooseFolder](#choosefolder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ Text to Speech Plugin.
 
 ---
 
-### [insertFromPasteboard](#insertFromPasteboard)
+### [insertFromPasteboard](#insertfrompasteboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -6,10 +6,10 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [activate](#activate)
  * [list](#list)
- * [viewErrors](#viewErrors)
+ * [viewErrors](#viewerrors)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doLayout](#doLayout)
- * [saveLayout](#saveLayout)
+ * [doLayout](#dolayout)
+ * [saveLayout](#savelayout)
 
 ## API Documentation
 
@@ -36,7 +36,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 
 ---
 
-### [viewErrors](#viewErrors)
+### [viewErrors](#viewerrors)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 ### Methods
 
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Provides access to the 'Captions' section of the [Timeline Index](cp.apple.final
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

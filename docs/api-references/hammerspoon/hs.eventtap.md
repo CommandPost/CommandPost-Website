@@ -10,23 +10,23 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [checkKeyboardModifiers](#checkKeyboardModifiers)
- * [checkMouseButtons](#checkMouseButtons)
- * [doubleClickInterval](#doubleClickInterval)
- * [isSecureInputEnabled](#isSecureInputEnabled)
- * [keyRepeatDelay](#keyRepeatDelay)
- * [keyRepeatInterval](#keyRepeatInterval)
- * [keyStroke](#keyStroke)
- * [keyStrokes](#keyStrokes)
- * [leftClick](#leftClick)
- * [middleClick](#middleClick)
- * [otherClick](#otherClick)
- * [rightClick](#rightClick)
- * [scrollWheel](#scrollWheel)
+ * [checkKeyboardModifiers](#checkkeyboardmodifiers)
+ * [checkMouseButtons](#checkmousebuttons)
+ * [doubleClickInterval](#doubleclickinterval)
+ * [isSecureInputEnabled](#issecureinputenabled)
+ * [keyRepeatDelay](#keyrepeatdelay)
+ * [keyRepeatInterval](#keyrepeatinterval)
+ * [keyStroke](#keystroke)
+ * [keyStrokes](#keystrokes)
+ * [leftClick](#leftclick)
+ * [middleClick](#middleclick)
+ * [otherClick](#otherclick)
+ * [rightClick](#rightclick)
+ * [scrollWheel](#scrollwheel)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [isEnabled](#isEnabled)
+ * [isEnabled](#isenabled)
  * [start](#start)
  * [stop](#stop)
 
@@ -35,7 +35,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ### Functions
 
 
-### [checkKeyboardModifiers](#checkKeyboardModifiers)
+### [checkKeyboardModifiers](#checkkeyboardmodifiers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [checkMouseButtons](#checkMouseButtons)
+### [checkMouseButtons](#checkmousebuttons)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [doubleClickInterval](#doubleClickInterval)
+### [doubleClickInterval](#doubleclickinterval)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [isSecureInputEnabled](#isSecureInputEnabled)
+### [isSecureInputEnabled](#issecureinputenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [keyRepeatDelay](#keyRepeatDelay)
+### [keyRepeatDelay](#keyrepeatdelay)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [keyRepeatInterval](#keyRepeatInterval)
+### [keyRepeatInterval](#keyrepeatinterval)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [keyStroke](#keyStroke)
+### [keyStroke](#keystroke)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [keyStrokes](#keyStrokes)
+### [keyStrokes](#keystrokes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [leftClick](#leftClick)
+### [leftClick](#leftclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [middleClick](#middleClick)
+### [middleClick](#middleclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [otherClick](#otherClick)
+### [otherClick](#otherclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [rightClick](#rightClick)
+### [rightClick](#rightclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [scrollWheel](#scrollWheel)
+### [scrollWheel](#scrollwheel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -226,7 +226,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 ### Methods
 
 
-### [isEnabled](#isEnabled)
+### [isEnabled](#isenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

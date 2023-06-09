@@ -9,39 +9,39 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [allContentTypes](#allContentTypes)
- * [callbackWhenChanged](#callbackWhenChanged)
- * [changeCount](#changeCount)
- * [clearContents](#clearContents)
- * [contentTypes](#contentTypes)
- * [deletePasteboard](#deletePasteboard)
- * [getContents](#getContents)
- * [pasteboardTypes](#pasteboardTypes)
- * [readAllData](#readAllData)
- * [readArchiverDataForUTI](#readArchiverDataForUTI)
- * [readColor](#readColor)
- * [readDataForUTI](#readDataForUTI)
- * [readImage](#readImage)
- * [readPListForUTI](#readPListForUTI)
- * [readSound](#readSound)
- * [readString](#readString)
- * [readStyledText](#readStyledText)
- * [readURL](#readURL)
- * [setContents](#setContents)
- * [typesAvailable](#typesAvailable)
- * [uniquePasteboard](#uniquePasteboard)
- * [writeAllData](#writeAllData)
- * [writeArchiverDataForUTI](#writeArchiverDataForUTI)
- * [writeDataForUTI](#writeDataForUTI)
- * [writeObjects](#writeObjects)
- * [writePListForUTI](#writePListForUTI)
+ * [allContentTypes](#allcontenttypes)
+ * [callbackWhenChanged](#callbackwhenchanged)
+ * [changeCount](#changecount)
+ * [clearContents](#clearcontents)
+ * [contentTypes](#contenttypes)
+ * [deletePasteboard](#deletepasteboard)
+ * [getContents](#getcontents)
+ * [pasteboardTypes](#pasteboardtypes)
+ * [readAllData](#readalldata)
+ * [readArchiverDataForUTI](#readarchiverdataforuti)
+ * [readColor](#readcolor)
+ * [readDataForUTI](#readdataforuti)
+ * [readImage](#readimage)
+ * [readPListForUTI](#readplistforuti)
+ * [readSound](#readsound)
+ * [readString](#readstring)
+ * [readStyledText](#readstyledtext)
+ * [readURL](#readurl)
+ * [setContents](#setcontents)
+ * [typesAvailable](#typesavailable)
+ * [uniquePasteboard](#uniquepasteboard)
+ * [writeAllData](#writealldata)
+ * [writeArchiverDataForUTI](#writearchiverdataforuti)
+ * [writeDataForUTI](#writedataforuti)
+ * [writeObjects](#writeobjects)
+ * [writePListForUTI](#writeplistforuti)
 
 ## API Documentation
 
 ### Functions
 
 
-### [allContentTypes](#allContentTypes)
+### [allContentTypes](#allcontenttypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [callbackWhenChanged](#callbackWhenChanged)
+### [callbackWhenChanged](#callbackwhenchanged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [changeCount](#changeCount)
+### [changeCount](#changecount)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [clearContents](#clearContents)
+### [clearContents](#clearcontents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [contentTypes](#contentTypes)
+### [contentTypes](#contenttypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [deletePasteboard](#deletePasteboard)
+### [deletePasteboard](#deletepasteboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [getContents](#getContents)
+### [getContents](#getcontents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [pasteboardTypes](#pasteboardTypes)
+### [pasteboardTypes](#pasteboardtypes)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readAllData](#readAllData)
+### [readAllData](#readalldata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readArchiverDataForUTI](#readArchiverDataForUTI)
+### [readArchiverDataForUTI](#readarchiverdataforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -171,7 +171,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readColor](#readColor)
+### [readColor](#readcolor)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readDataForUTI](#readDataForUTI)
+### [readDataForUTI](#readdataforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readImage](#readImage)
+### [readImage](#readimage)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readPListForUTI](#readPListForUTI)
+### [readPListForUTI](#readplistforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readSound](#readSound)
+### [readSound](#readsound)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -236,7 +236,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readString](#readString)
+### [readString](#readstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -249,7 +249,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readStyledText](#readStyledText)
+### [readStyledText](#readstyledtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -262,7 +262,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [readURL](#readURL)
+### [readURL](#readurl)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -275,7 +275,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [setContents](#setContents)
+### [setContents](#setcontents)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -288,7 +288,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [typesAvailable](#typesAvailable)
+### [typesAvailable](#typesavailable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -301,7 +301,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [uniquePasteboard](#uniquePasteboard)
+### [uniquePasteboard](#uniquepasteboard)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -314,7 +314,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [writeAllData](#writeAllData)
+### [writeAllData](#writealldata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -327,7 +327,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [writeArchiverDataForUTI](#writeArchiverDataForUTI)
+### [writeArchiverDataForUTI](#writearchiverdataforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -340,7 +340,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [writeDataForUTI](#writeDataForUTI)
+### [writeDataForUTI](#writedataforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [writeObjects](#writeObjects)
+### [writeObjects](#writeobjects)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -373,7 +373,7 @@ This module is based partially on code from the previous incarnation of Mjolnir 
 
 ---
 
-### [writePListForUTI](#writePListForUTI)
+### [writePListForUTI](#writeplistforuti)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

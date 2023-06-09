@@ -4,8 +4,8 @@ Manages features relating to the Timeline Playhead.
 
 ## API Overview
 * Variables - Configurable values
- * [alwaysCentered](#alwaysCentered)
- * [scrollingTimeline](#scrollingTimeline)
+ * [alwaysCentered](#alwayscentered)
+ * [scrollingTimeline](#scrollingtimeline)
  * [tracking](#tracking)
 
 ## API Documentation
@@ -13,7 +13,7 @@ Manages features relating to the Timeline Playhead.
 ### Variables
 
 
-### [alwaysCentered](#alwaysCentered)
+### [alwaysCentered](#alwayscentered)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -23,7 +23,7 @@ Manages features relating to the Timeline Playhead.
 
 ---
 
-### [scrollingTimeline](#scrollingTimeline)
+### [scrollingTimeline](#scrollingtimeline)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

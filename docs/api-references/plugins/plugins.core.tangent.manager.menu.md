@@ -12,10 +12,10 @@ list of options.
 * Methods - API calls which can only be made on an object returned by a constructor
  * [get](#get)
  * [next](#next)
- * [onGet](#onGet)
- * [onNext](#onNext)
- * [onPrev](#onPrev)
- * [onReset](#onReset)
+ * [onGet](#onget)
+ * [onNext](#onnext)
+ * [onPrev](#onprev)
+ * [onReset](#onreset)
  * [prev](#prev)
  * [reset](#reset)
  * [update](#update)
@@ -82,7 +82,7 @@ list of options.
 
 ---
 
-### [onGet](#onGet)
+### [onGet](#onget)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ list of options.
 
 ---
 
-### [onNext](#onNext)
+### [onNext](#onnext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -108,7 +108,7 @@ list of options.
 
 ---
 
-### [onPrev](#onPrev)
+### [onPrev](#onprev)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ list of options.
 
 ---
 
-### [onReset](#onReset)
+### [onReset](#onreset)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

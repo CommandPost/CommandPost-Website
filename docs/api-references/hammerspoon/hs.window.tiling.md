@@ -12,14 +12,14 @@ The `tileWindows` function in this module is primarily meant for use by `hs.wind
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [tileWindows](#tileWindows)
+ * [tileWindows](#tilewindows)
 
 ## API Documentation
 
 ### Functions
 
 
-### [tileWindows](#tileWindows)
+### [tileWindows](#tilewindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

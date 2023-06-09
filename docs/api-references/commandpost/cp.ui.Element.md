@@ -9,50 +9,50 @@ See:
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [isTypeOf](#isTypeOf)
+ * [isTypeOf](#istypeof)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Element](#Element)
+ * [Element](#element)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [frame](#frame)
  * [identifier](#identifier)
- * [isEnabled](#isEnabled)
- * [isFocused](#isFocused)
- * [isShowing](#isShowing)
+ * [isEnabled](#isenabled)
+ * [isFocused](#isfocused)
+ * [isShowing](#isshowing)
  * [position](#position)
  * [role](#role)
  * [size](#size)
  * [subrole](#subrole)
- * [textValue](#textValue)
+ * [textValue](#textvalue)
  * [title](#title)
  * [value](#value)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [app](#app)
- * [attributeValue](#attributeValue)
- * [defineBuilder](#defineBuilder)
- * [doFocus](#doFocus)
- * [doHighlight](#doHighlight)
- * [doLayout](#doLayout)
- * [doPerformAction](#doPerformAction)
- * [doSetAttributeValue](#doSetAttributeValue)
- * [doShow](#doShow)
+ * [attributeValue](#attributevalue)
+ * [defineBuilder](#definebuilder)
+ * [doFocus](#dofocus)
+ * [doHighlight](#dohighlight)
+ * [doLayout](#dolayout)
+ * [doPerformAction](#doperformaction)
+ * [doSetAttributeValue](#dosetattributevalue)
+ * [doShow](#doshow)
  * [focus](#focus)
  * [highlight](#highlight)
- * [loadLayout](#loadLayout)
+ * [loadLayout](#loadlayout)
  * [parent](#parent)
- * [performAction](#performAction)
- * [saveLayout](#saveLayout)
- * [setAttributeValue](#setAttributeValue)
+ * [performAction](#performaction)
+ * [saveLayout](#savelayout)
+ * [setAttributeValue](#setattributevalue)
  * [show](#show)
  * [snapshot](#snapshot)
- * [valueIs](#valueIs)
+ * [valueIs](#valueis)
 
 ## API Documentation
 
 ### Functions
 
 
-### [isTypeOf](#isTypeOf)
+### [isTypeOf](#istypeof)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ See:
 ### Constructors
 
 
-### [Element](#Element)
+### [Element](#element)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@ See:
 
 ---
 
-### [isEnabled](#isEnabled)
+### [isEnabled](#isenabled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ See:
 
 ---
 
-### [isFocused](#isFocused)
+### [isFocused](#isfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -135,7 +135,7 @@ See:
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ See:
 
 ---
 
-### [textValue](#textValue)
+### [textValue](#textvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -230,7 +230,7 @@ See:
 
 ---
 
-### [attributeValue](#attributeValue)
+### [attributeValue](#attributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ See:
 
 ---
 
-### [defineBuilder](#defineBuilder)
+### [defineBuilder](#definebuilder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -256,7 +256,7 @@ See:
 
 ---
 
-### [doFocus](#doFocus)
+### [doFocus](#dofocus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ See:
 
 ---
 
-### [doHighlight](#doHighlight)
+### [doHighlight](#dohighlight)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ See:
 
 ---
 
-### [doLayout](#doLayout)
+### [doLayout](#dolayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ See:
 
 ---
 
-### [doPerformAction](#doPerformAction)
+### [doPerformAction](#doperformaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ See:
 
 ---
 
-### [doSetAttributeValue](#doSetAttributeValue)
+### [doSetAttributeValue](#dosetattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -321,7 +321,7 @@ See:
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -360,7 +360,7 @@ See:
 
 ---
 
-### [loadLayout](#loadLayout)
+### [loadLayout](#loadlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -386,7 +386,7 @@ See:
 
 ---
 
-### [performAction](#performAction)
+### [performAction](#performaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -399,7 +399,7 @@ See:
 
 ---
 
-### [saveLayout](#saveLayout)
+### [saveLayout](#savelayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -412,7 +412,7 @@ See:
 
 ---
 
-### [setAttributeValue](#setAttributeValue)
+### [setAttributeValue](#setattributevalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -451,7 +451,7 @@ See:
 
 ---
 
-### [valueIs](#valueIs)
+### [valueIs](#valueis)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

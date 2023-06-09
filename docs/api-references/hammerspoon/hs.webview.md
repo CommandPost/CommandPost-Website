@@ -20,79 +20,79 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ## API Overview
 * Deprecateds - API features which will be removed in an future release
- * [asHSDrawing](#asHSDrawing)
- * [asHSWindow](#asHSWindow)
- * [setLevel](#setLevel)
+ * [asHSDrawing](#ashsdrawing)
+ * [asHSWindow](#ashswindow)
+ * [setLevel](#setlevel)
 * Constants - Useful values which cannot be changed
- * [certificateOIDs](#certificateOIDs)
- * [windowMasks](#windowMasks)
+ * [certificateOIDs](#certificateoids)
+ * [windowMasks](#windowmasks)
 * Functions - API calls offered directly by the extension
- * [titleVisibility](#titleVisibility)
+ * [titleVisibility](#titlevisibility)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
- * [newBrowser](#newBrowser)
+ * [newBrowser](#newbrowser)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [allowGestures](#allowGestures)
- * [allowMagnificationGestures](#allowMagnificationGestures)
- * [allowNavigationGestures](#allowNavigationGestures)
- * [allowNewWindows](#allowNewWindows)
- * [allowTextEntry](#allowTextEntry)
+ * [allowGestures](#allowgestures)
+ * [allowMagnificationGestures](#allowmagnificationgestures)
+ * [allowNavigationGestures](#allownavigationgestures)
+ * [allowNewWindows](#allownewwindows)
+ * [allowTextEntry](#allowtextentry)
  * [alpha](#alpha)
- * [attachedToolbar](#attachedToolbar)
+ * [attachedToolbar](#attachedtoolbar)
  * [behavior](#behavior)
- * [behaviorAsLabels](#behaviorAsLabels)
- * [bringToFront](#bringToFront)
- * [certificateChain](#certificateChain)
+ * [behaviorAsLabels](#behavioraslabels)
+ * [bringToFront](#bringtofront)
+ * [certificateChain](#certificatechain)
  * [children](#children)
- * [closeOnEscape](#closeOnEscape)
- * [darkMode](#darkMode)
+ * [closeOnEscape](#closeonescape)
+ * [darkMode](#darkmode)
  * [delete](#delete)
- * [deleteOnClose](#deleteOnClose)
- * [estimatedProgress](#estimatedProgress)
- * [evaluateJavaScript](#evaluateJavaScript)
- * [examineInvalidCertificates](#examineInvalidCertificates)
+ * [deleteOnClose](#deleteonclose)
+ * [estimatedProgress](#estimatedprogress)
+ * [evaluateJavaScript](#evaluatejavascript)
+ * [examineInvalidCertificates](#examineinvalidcertificates)
  * [frame](#frame)
- * [goBack](#goBack)
- * [goForward](#goForward)
+ * [goBack](#goback)
+ * [goForward](#goforward)
  * [hide](#hide)
- * [historyList](#historyList)
+ * [historyList](#historylist)
  * [hswindow](#hswindow)
  * [html](#html)
- * [isOnlySecureContent](#isOnlySecureContent)
- * [isVisible](#isVisible)
+ * [isOnlySecureContent](#isonlysecurecontent)
+ * [isVisible](#isvisible)
  * [level](#level)
  * [loading](#loading)
  * [magnification](#magnification)
- * [navigationCallback](#navigationCallback)
- * [navigationID](#navigationID)
- * [orderAbove](#orderAbove)
- * [orderBelow](#orderBelow)
+ * [navigationCallback](#navigationcallback)
+ * [navigationID](#navigationid)
+ * [orderAbove](#orderabove)
+ * [orderBelow](#orderbelow)
  * [parent](#parent)
- * [policyCallback](#policyCallback)
- * [privateBrowsing](#privateBrowsing)
+ * [policyCallback](#policycallback)
+ * [privateBrowsing](#privatebrowsing)
  * [reload](#reload)
- * [sendToBack](#sendToBack)
+ * [sendToBack](#sendtoback)
  * [shadow](#shadow)
  * [show](#show)
  * [size](#size)
- * [sslCallback](#sslCallback)
- * [stopLoading](#stopLoading)
+ * [sslCallback](#sslcallback)
+ * [stopLoading](#stoploading)
  * [title](#title)
- * [topLeft](#topLeft)
+ * [topLeft](#topleft)
  * [transparent](#transparent)
  * [url](#url)
- * [urlParts](#urlParts)
- * [userAgent](#userAgent)
- * [windowCallback](#windowCallback)
- * [windowStyle](#windowStyle)
- * [windowTitle](#windowTitle)
+ * [urlParts](#urlparts)
+ * [userAgent](#useragent)
+ * [windowCallback](#windowcallback)
+ * [windowStyle](#windowstyle)
+ * [windowTitle](#windowtitle)
 
 ## API Documentation
 
 ### Deprecateds
 
 
-### [asHSDrawing](#asHSDrawing)
+### [asHSDrawing](#ashsdrawing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [asHSWindow](#asHSWindow)
+### [asHSWindow](#ashswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [setLevel](#setLevel)
+### [setLevel](#setlevel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 ### Constants
 
 
-### [certificateOIDs](#certificateOIDs)
+### [certificateOIDs](#certificateoids)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [windowMasks](#windowMasks)
+### [windowMasks](#windowmasks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 ### Functions
 
 
-### [titleVisibility](#titleVisibility)
+### [titleVisibility](#titlevisibility)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -186,7 +186,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [newBrowser](#newBrowser)
+### [newBrowser](#newbrowser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -201,7 +201,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 ### Methods
 
 
-### [allowGestures](#allowGestures)
+### [allowGestures](#allowgestures)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [allowMagnificationGestures](#allowMagnificationGestures)
+### [allowMagnificationGestures](#allowmagnificationgestures)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [allowNavigationGestures](#allowNavigationGestures)
+### [allowNavigationGestures](#allownavigationgestures)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [allowNewWindows](#allowNewWindows)
+### [allowNewWindows](#allownewwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [allowTextEntry](#allowTextEntry)
+### [allowTextEntry](#allowtextentry)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [attachedToolbar](#attachedToolbar)
+### [attachedToolbar](#attachedtoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [behaviorAsLabels](#behaviorAsLabels)
+### [behaviorAsLabels](#behavioraslabels)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -318,7 +318,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [bringToFront](#bringToFront)
+### [bringToFront](#bringtofront)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -331,7 +331,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [certificateChain](#certificateChain)
+### [certificateChain](#certificatechain)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -357,7 +357,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [closeOnEscape](#closeOnEscape)
+### [closeOnEscape](#closeonescape)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -370,7 +370,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [darkMode](#darkMode)
+### [darkMode](#darkmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -396,7 +396,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [deleteOnClose](#deleteOnClose)
+### [deleteOnClose](#deleteonclose)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -409,7 +409,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [estimatedProgress](#estimatedProgress)
+### [estimatedProgress](#estimatedprogress)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -422,7 +422,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [evaluateJavaScript](#evaluateJavaScript)
+### [evaluateJavaScript](#evaluatejavascript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -437,7 +437,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [examineInvalidCertificates](#examineInvalidCertificates)
+### [examineInvalidCertificates](#examineinvalidcertificates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -463,7 +463,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [goBack](#goBack)
+### [goBack](#goback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -476,7 +476,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [goForward](#goForward)
+### [goForward](#goforward)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -502,7 +502,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [historyList](#historyList)
+### [historyList](#historylist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -541,7 +541,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [isOnlySecureContent](#isOnlySecureContent)
+### [isOnlySecureContent](#isonlysecurecontent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -554,7 +554,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [isVisible](#isVisible)
+### [isVisible](#isvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -606,7 +606,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [navigationCallback](#navigationCallback)
+### [navigationCallback](#navigationcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -623,7 +623,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [navigationID](#navigationID)
+### [navigationID](#navigationid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -636,7 +636,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [orderAbove](#orderAbove)
+### [orderAbove](#orderabove)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -649,7 +649,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [orderBelow](#orderBelow)
+### [orderBelow](#orderbelow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -675,7 +675,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [policyCallback](#policyCallback)
+### [policyCallback](#policycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -696,7 +696,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [privateBrowsing](#privateBrowsing)
+### [privateBrowsing](#privatebrowsing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -722,7 +722,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [sendToBack](#sendToBack)
+### [sendToBack](#sendtoback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -774,7 +774,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [sslCallback](#sslCallback)
+### [sslCallback](#sslcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -796,7 +796,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [stopLoading](#stopLoading)
+### [stopLoading](#stoploading)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -822,7 +822,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [topLeft](#topLeft)
+### [topLeft](#topleft)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -871,7 +871,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [urlParts](#urlParts)
+### [urlParts](#urlparts)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -884,7 +884,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [userAgent](#userAgent)
+### [userAgent](#useragent)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -897,7 +897,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [windowCallback](#windowCallback)
+### [windowCallback](#windowcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -913,7 +913,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [windowStyle](#windowStyle)
+### [windowStyle](#windowstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -929,7 +929,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ---
 
-### [windowTitle](#windowTitle)
+### [windowTitle](#windowtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

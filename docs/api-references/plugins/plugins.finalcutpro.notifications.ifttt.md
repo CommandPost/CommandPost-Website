@@ -7,12 +7,12 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [init](#init)
- * [sendNotification](#sendNotification)
+ * [sendNotification](#sendnotification)
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [appAPIKey](#appAPIKey)
+ * [appAPIKey](#appapikey)
  * [enabled](#enabled)
- * [userAPIKey](#userAPIKey)
+ * [userAPIKey](#userapikey)
 
 ## API Documentation
 
@@ -32,7 +32,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 
 ---
 
-### [sendNotification](#sendNotification)
+### [sendNotification](#sendnotification)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 ### Fields
 
 
-### [appAPIKey](#appAPIKey)
+### [appAPIKey](#appapikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 
 ---
 
-### [userAPIKey](#userAPIKey)
+### [userAPIKey](#userapikey)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

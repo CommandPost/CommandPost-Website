@@ -100,51 +100,51 @@ Core Hammerspoon functionality
 * Constants - Useful values which cannot be changed
  * [configdir](#configdir)
  * [docstrings_json_file](#docstrings_json_file)
- * [processInfo](#processInfo)
+ * [processInfo](#processinfo)
 * Variables - Configurable values
- * [accessibilityStateCallback](#accessibilityStateCallback)
- * [completionsForInputString](#completionsForInputString)
- * [dockIconClickCallback](#dockIconClickCallback)
- * [fileDroppedToDockIconCallback](#fileDroppedToDockIconCallback)
- * [shutdownCallback](#shutdownCallback)
- * [textDroppedToDockIconCallback](#textDroppedToDockIconCallback)
+ * [accessibilityStateCallback](#accessibilitystatecallback)
+ * [completionsForInputString](#completionsforinputstring)
+ * [dockIconClickCallback](#dockiconclickcallback)
+ * [fileDroppedToDockIconCallback](#filedroppedtodockiconcallback)
+ * [shutdownCallback](#shutdowncallback)
+ * [textDroppedToDockIconCallback](#textdroppedtodockiconcallback)
 * Functions - API calls offered directly by the extension
- * [accessibilityState](#accessibilityState)
- * [allowAppleScript](#allowAppleScript)
- * [autoLaunch](#autoLaunch)
- * [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)
- * [cameraState](#cameraState)
- * [canCheckForUpdates](#canCheckForUpdates)
- * [checkForUpdates](#checkForUpdates)
- * [cleanUTF8forConsole](#cleanUTF8forConsole)
- * [closeConsole](#closeConsole)
- * [closePreferences](#closePreferences)
- * [consoleOnTop](#consoleOnTop)
- * [coroutineApplicationYield](#coroutineApplicationYield)
- * [dockIcon](#dockIcon)
+ * [accessibilityState](#accessibilitystate)
+ * [allowAppleScript](#allowapplescript)
+ * [autoLaunch](#autolaunch)
+ * [automaticallyCheckForUpdates](#automaticallycheckforupdates)
+ * [cameraState](#camerastate)
+ * [canCheckForUpdates](#cancheckforupdates)
+ * [checkForUpdates](#checkforupdates)
+ * [cleanUTF8forConsole](#cleanutf8forconsole)
+ * [closeConsole](#closeconsole)
+ * [closePreferences](#closepreferences)
+ * [consoleOnTop](#consoleontop)
+ * [coroutineApplicationYield](#coroutineapplicationyield)
+ * [dockIcon](#dockicon)
  * [execute](#execute)
  * [focus](#focus)
- * [getObjectMetatable](#getObjectMetatable)
+ * [getObjectMetatable](#getobjectmetatable)
  * [help](#help)
  * [hsdocs](#hsdocs)
- * [loadSpoon](#loadSpoon)
- * [menuIcon](#menuIcon)
- * [microphoneState](#microphoneState)
+ * [loadSpoon](#loadspoon)
+ * [menuIcon](#menuicon)
+ * [microphoneState](#microphonestate)
  * [open](#open)
- * [openAbout](#openAbout)
- * [openConsole](#openConsole)
- * [openConsoleOnDockClick](#openConsoleOnDockClick)
- * [openPreferences](#openPreferences)
- * [preferencesDarkMode](#preferencesDarkMode)
+ * [openAbout](#openabout)
+ * [openConsole](#openconsole)
+ * [openConsoleOnDockClick](#openconsoleondockclick)
+ * [openPreferences](#openpreferences)
+ * [preferencesDarkMode](#preferencesdarkmode)
  * [printf](#printf)
  * [rawprint](#rawprint)
  * [relaunch](#relaunch)
  * [reload](#reload)
- * [screenRecordingState](#screenRecordingState)
- * [showError](#showError)
- * [toggleConsole](#toggleConsole)
- * [updateAvailable](#updateAvailable)
- * [uploadCrashData](#uploadCrashData)
+ * [screenRecordingState](#screenrecordingstate)
+ * [showError](#showerror)
+ * [toggleConsole](#toggleconsole)
+ * [updateAvailable](#updateavailable)
+ * [uploadCrashData](#uploadcrashdata)
 
 ## API Documentation
 
@@ -171,7 +171,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [processInfo](#processInfo)
+### [processInfo](#processinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -183,7 +183,7 @@ Core Hammerspoon functionality
 ### Variables
 
 
-### [accessibilityStateCallback](#accessibilityStateCallback)
+### [accessibilityStateCallback](#accessibilitystatecallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [completionsForInputString](#completionsForInputString)
+### [completionsForInputString](#completionsforinputstring)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -207,7 +207,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [dockIconClickCallback](#dockIconClickCallback)
+### [dockIconClickCallback](#dockiconclickcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -218,7 +218,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [fileDroppedToDockIconCallback](#fileDroppedToDockIconCallback)
+### [fileDroppedToDockIconCallback](#filedroppedtodockiconcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -229,7 +229,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [shutdownCallback](#shutdownCallback)
+### [shutdownCallback](#shutdowncallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -240,7 +240,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [textDroppedToDockIconCallback](#textDroppedToDockIconCallback)
+### [textDroppedToDockIconCallback](#textdroppedtodockiconcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -253,7 +253,7 @@ Core Hammerspoon functionality
 ### Functions
 
 
-### [accessibilityState](#accessibilityState)
+### [accessibilityState](#accessibilitystate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -266,7 +266,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [allowAppleScript](#allowAppleScript)
+### [allowAppleScript](#allowapplescript)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -279,7 +279,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [autoLaunch](#autoLaunch)
+### [autoLaunch](#autolaunch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [automaticallyCheckForUpdates](#automaticallyCheckForUpdates)
+### [automaticallyCheckForUpdates](#automaticallycheckforupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -305,7 +305,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [cameraState](#cameraState)
+### [cameraState](#camerastate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -318,7 +318,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [canCheckForUpdates](#canCheckForUpdates)
+### [canCheckForUpdates](#cancheckforupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -331,7 +331,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [checkForUpdates](#checkForUpdates)
+### [checkForUpdates](#checkforupdates)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -344,7 +344,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [cleanUTF8forConsole](#cleanUTF8forConsole)
+### [cleanUTF8forConsole](#cleanutf8forconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -357,7 +357,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [closeConsole](#closeConsole)
+### [closeConsole](#closeconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -370,7 +370,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [closePreferences](#closePreferences)
+### [closePreferences](#closepreferences)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -383,7 +383,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [consoleOnTop](#consoleOnTop)
+### [consoleOnTop](#consoleontop)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -396,7 +396,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [coroutineApplicationYield](#coroutineApplicationYield)
+### [coroutineApplicationYield](#coroutineapplicationyield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -409,7 +409,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [dockIcon](#dockIcon)
+### [dockIcon](#dockicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -448,7 +448,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [getObjectMetatable](#getObjectMetatable)
+### [getObjectMetatable](#getobjectmetatable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -487,7 +487,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [loadSpoon](#loadSpoon)
+### [loadSpoon](#loadspoon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -500,7 +500,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [menuIcon](#menuIcon)
+### [menuIcon](#menuicon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -513,7 +513,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [microphoneState](#microphoneState)
+### [microphoneState](#microphonestate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -539,7 +539,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [openAbout](#openAbout)
+### [openAbout](#openabout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -552,7 +552,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [openConsole](#openConsole)
+### [openConsole](#openconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -565,7 +565,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [openConsoleOnDockClick](#openConsoleOnDockClick)
+### [openConsoleOnDockClick](#openconsoleondockclick)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -578,7 +578,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [openPreferences](#openPreferences)
+### [openPreferences](#openpreferences)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -591,7 +591,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [preferencesDarkMode](#preferencesDarkMode)
+### [preferencesDarkMode](#preferencesdarkmode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -656,7 +656,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [screenRecordingState](#screenRecordingState)
+### [screenRecordingState](#screenrecordingstate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -669,7 +669,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [showError](#showError)
+### [showError](#showerror)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -682,7 +682,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [toggleConsole](#toggleConsole)
+### [toggleConsole](#toggleconsole)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -695,7 +695,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [updateAvailable](#updateAvailable)
+### [updateAvailable](#updateavailable)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -708,7 +708,7 @@ Core Hammerspoon functionality
 
 ---
 
-### [uploadCrashData](#uploadCrashData)
+### [uploadCrashData](#uploadcrashdata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

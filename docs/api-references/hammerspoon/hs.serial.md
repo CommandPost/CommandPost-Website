@@ -14,37 +14,37 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [availablePortDetails](#availablePortDetails)
- * [availablePortNames](#availablePortNames)
- * [availablePortPaths](#availablePortPaths)
- * [deviceCallback](#deviceCallback)
+ * [availablePortDetails](#availableportdetails)
+ * [availablePortNames](#availableportnames)
+ * [availablePortPaths](#availableportpaths)
+ * [deviceCallback](#devicecallback)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [newFromName](#newFromName)
- * [newFromPath](#newFromPath)
+ * [newFromName](#newfromname)
+ * [newFromPath](#newfrompath)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [baudRate](#baudRate)
+ * [baudRate](#baudrate)
  * [callback](#callback)
  * [close](#close)
- * [dataBits](#dataBits)
+ * [dataBits](#databits)
  * [dtr](#dtr)
- * [isOpen](#isOpen)
+ * [isOpen](#isopen)
  * [name](#name)
  * [open](#open)
  * [parity](#parity)
  * [path](#path)
  * [rts](#rts)
- * [sendData](#sendData)
- * [shouldEchoReceivedData](#shouldEchoReceivedData)
- * [stopBits](#stopBits)
- * [usesDTRDSRFlowControl](#usesDTRDSRFlowControl)
- * [usesRTSCTSFlowControl](#usesRTSCTSFlowControl)
+ * [sendData](#senddata)
+ * [shouldEchoReceivedData](#shouldechoreceiveddata)
+ * [stopBits](#stopbits)
+ * [usesDTRDSRFlowControl](#usesdtrdsrflowcontrol)
+ * [usesRTSCTSFlowControl](#usesrtsctsflowcontrol)
 
 ## API Documentation
 
 ### Functions
 
 
-### [availablePortDetails](#availablePortDetails)
+### [availablePortDetails](#availableportdetails)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [availablePortNames](#availablePortNames)
+### [availablePortNames](#availableportnames)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [availablePortPaths](#availablePortPaths)
+### [availablePortPaths](#availableportpaths)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [deviceCallback](#deviceCallback)
+### [deviceCallback](#devicecallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Constructors
 
 
-### [newFromName](#newFromName)
+### [newFromName](#newfromname)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [newFromPath](#newFromPath)
+### [newFromPath](#newfrompath)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -126,7 +126,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Methods
 
 
-### [baudRate](#baudRate)
+### [baudRate](#baudrate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -165,7 +165,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [dataBits](#dataBits)
+### [dataBits](#databits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [isOpen](#isOpen)
+### [isOpen](#isopen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -269,7 +269,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [sendData](#sendData)
+### [sendData](#senddata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [shouldEchoReceivedData](#shouldEchoReceivedData)
+### [shouldEchoReceivedData](#shouldechoreceiveddata)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -295,7 +295,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [stopBits](#stopBits)
+### [stopBits](#stopbits)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -308,7 +308,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [usesDTRDSRFlowControl](#usesDTRDSRFlowControl)
+### [usesDTRDSRFlowControl](#usesdtrdsrflowcontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -321,7 +321,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-### [usesRTSCTSFlowControl](#usesRTSCTSFlowControl)
+### [usesRTSCTSFlowControl](#usesrtsctsflowcontrol)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

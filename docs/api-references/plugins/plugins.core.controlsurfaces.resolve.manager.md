@@ -4,32 +4,32 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [DEFAULT_JOG_MODE](#DEFAULT_JOG_MODE)
- * [DEFAULT_SENSITIVITY](#DEFAULT_SENSITIVITY)
- * [LONG_PRESS_DURATION](#LONG_PRESS_DURATION)
+ * [DEFAULT_JOG_MODE](#default_jog_mode)
+ * [DEFAULT_SENSITIVITY](#default_sensitivity)
+ * [LONG_PRESS_DURATION](#long_press_duration)
 * Variables - Configurable values
- * [defaultLayout](#defaultLayout)
- * [repeatTimers](#repeatTimers)
+ * [defaultLayout](#defaultlayout)
+ * [repeatTimers](#repeattimers)
 * Functions - API calls offered directly by the extension
- * [batteryStatus](#batteryStatus)
- * [buttonCallback](#buttonCallback)
- * [discoveryCallback](#discoveryCallback)
+ * [batteryStatus](#batterystatus)
+ * [buttonCallback](#buttoncallback)
+ * [discoveryCallback](#discoverycallback)
  * [start](#start)
  * [update](#update)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeBanks](#activeBanks)
- * [automaticallySwitchApplications](#automaticallySwitchApplications)
+ * [activeBanks](#activebanks)
+ * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [enabled](#enabled)
  * [items](#items)
- * [lastApplication](#lastApplication)
- * [lastBundleID](#lastBundleID)
+ * [lastApplication](#lastapplication)
+ * [lastBundleID](#lastbundleid)
 
 ## API Documentation
 
 ### Constants
 
 
-### [DEFAULT_JOG_MODE](#DEFAULT_JOG_MODE)
+### [DEFAULT_JOG_MODE](#default_jog_mode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [DEFAULT_SENSITIVITY](#DEFAULT_SENSITIVITY)
+### [DEFAULT_SENSITIVITY](#default_sensitivity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [LONG_PRESS_DURATION](#LONG_PRESS_DURATION)
+### [LONG_PRESS_DURATION](#long_press_duration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 ### Variables
 
 
-### [defaultLayout](#defaultLayout)
+### [defaultLayout](#defaultlayout)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [repeatTimers](#repeatTimers)
+### [repeatTimers](#repeattimers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -83,7 +83,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 ### Functions
 
 
-### [batteryStatus](#batteryStatus)
+### [batteryStatus](#batterystatus)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [buttonCallback](#buttonCallback)
+### [buttonCallback](#buttoncallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [discoveryCallback](#discoveryCallback)
+### [discoveryCallback](#discoverycallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 ### Fields
 
 
-### [activeBanks](#activeBanks)
+### [activeBanks](#activebanks)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [automaticallySwitchApplications](#automaticallySwitchApplications)
+### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [lastApplication](#lastApplication)
+### [lastApplication](#lastapplication)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ---
 
-### [lastBundleID](#lastBundleID)
+### [lastBundleID](#lastbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

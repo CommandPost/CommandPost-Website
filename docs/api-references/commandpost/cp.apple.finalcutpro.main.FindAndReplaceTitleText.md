@@ -4,30 +4,30 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ## API Overview
 * Constructors - API calls which return an object, typically one that offers API methods
- * [FindAndReplaceTitleText](#FindAndReplaceTitleText)
+ * [FindAndReplaceTitleText](#findandreplacetitletext)
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [findText](#findText)
- * [loopSearch](#loopSearch)
- * [matchCase](#matchCase)
+ * [findText](#findtext)
+ * [loopSearch](#loopsearch)
+ * [matchCase](#matchcase)
  * [next](#next)
  * [previous](#previous)
  * [replace](#replace)
- * [replaceAll](#replaceAll)
- * [replaceAndFind](#replaceAndFind)
- * [replaceText](#replaceText)
- * [searchIn](#searchIn)
- * [wholeWords](#wholeWords)
+ * [replaceAll](#replaceall)
+ * [replaceAndFind](#replaceandfind)
+ * [replaceText](#replacetext)
+ * [searchIn](#searchin)
+ * [wholeWords](#wholewords)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doFindAndReplaceAll](#doFindAndReplaceAll)
- * [doHide](#doHide)
- * [doShow](#doShow)
+ * [doFindAndReplaceAll](#dofindandreplaceall)
+ * [doHide](#dohide)
+ * [doShow](#doshow)
 
 ## API Documentation
 
 ### Constructors
 
 
-### [FindAndReplaceTitleText](#FindAndReplaceTitleText)
+### [FindAndReplaceTitleText](#findandreplacetitletext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -42,7 +42,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 ### Fields
 
 
-### [findText](#findText)
+### [findText](#findtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [loopSearch](#loopSearch)
+### [loopSearch](#loopsearch)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [matchCase](#matchCase)
+### [matchCase](#matchcase)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [replaceAll](#replaceAll)
+### [replaceAll](#replaceall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [replaceAndFind](#replaceAndFind)
+### [replaceAndFind](#replaceandfind)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [replaceText](#replaceText)
+### [replaceText](#replacetext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [searchIn](#searchIn)
+### [searchIn](#searchin)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [wholeWords](#wholeWords)
+### [wholeWords](#wholewords)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 ### Methods
 
 
-### [doFindAndReplaceAll](#doFindAndReplaceAll)
+### [doFindAndReplaceAll](#dofindandreplaceall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -167,7 +167,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [doHide](#doHide)
+### [doHide](#dohide)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ---
 
-### [doShow](#doShow)
+### [doShow](#doshow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

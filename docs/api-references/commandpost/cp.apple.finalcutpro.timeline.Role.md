@@ -6,22 +6,22 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [TITLE_KEY](#TITLE_KEY)
- * [TYPE](#TYPE)
+ * [TITLE_KEY](#title_key)
+ * [TYPE](#type)
 * Functions - API calls offered directly by the extension
- * [findTitle](#findTitle)
+ * [findTitle](#findtitle)
  * [is](#is)
  * [matches](#matches)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [Role](#Role)
+ * [Role](#role)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [active](#active)
- * [cellUI](#cellUI)
- * [subroleRow](#subroleRow)
+ * [cellUI](#cellui)
+ * [subroleRow](#subrolerow)
  * [title](#title)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [doActivate](#doActivate)
- * [doDeactivate](#doDeactivate)
+ * [doActivate](#doactivate)
+ * [doDeactivate](#dodeactivate)
  * [type](#type)
 
 ## API Documentation
@@ -29,7 +29,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 ### Constants
 
 
-### [TITLE_KEY](#TITLE_KEY)
+### [TITLE_KEY](#title_key)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ---
 
-### [TYPE](#TYPE)
+### [TYPE](#type)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 ### Functions
 
 
-### [findTitle](#findTitle)
+### [findTitle](#findtitle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 ### Constructors
 
 
-### [Role](#Role)
+### [Role](#role)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ---
 
-### [cellUI](#cellUI)
+### [cellUI](#cellui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ---
 
-### [subroleRow](#subroleRow)
+### [subroleRow](#subrolerow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 ### Methods
 
 
-### [doActivate](#doActivate)
+### [doActivate](#doactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md
 
 ---
 
-### [doDeactivate](#doDeactivate)
+### [doDeactivate](#dodeactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

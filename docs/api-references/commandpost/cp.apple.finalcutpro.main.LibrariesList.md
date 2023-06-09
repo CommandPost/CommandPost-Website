@@ -5,25 +5,25 @@ Libraries List Module.
 ## API Overview
 * Functions - API calls offered directly by the extension
  * [clips](#clips)
- * [clipsUI](#clipsUI)
- * [deselectAll](#deselectAll)
- * [indexOfClip](#indexOfClip)
- * [selectAll](#selectAll)
- * [selectClip](#selectClip)
- * [selectClipAt](#selectClipAt)
- * [selectClipTitled](#selectClipTitled)
- * [selectedClips](#selectedClips)
- * [selectedClipsUI](#selectedClipsUI)
- * [showClip](#showClip)
+ * [clipsUI](#clipsui)
+ * [deselectAll](#deselectall)
+ * [indexOfClip](#indexofclip)
+ * [selectAll](#selectall)
+ * [selectClip](#selectclip)
+ * [selectClipAt](#selectclipat)
+ * [selectClipTitled](#selectcliptitled)
+ * [selectedClips](#selectedclips)
+ * [selectedClipsUI](#selectedclipsui)
+ * [showClip](#showclip)
 * Constructors - API calls which return an object, typically one that offers API methods
- * [LibrariesList](#LibrariesList)
+ * [LibrariesList](#librarieslist)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [contents](#contents)
- * [isFocused](#isFocused)
- * [isShowing](#isShowing)
- * [playerUI](#playerUI)
+ * [isFocused](#isfocused)
+ * [isShowing](#isshowing)
+ * [playerUI](#playerui)
  * [playhead](#playhead)
- * [skimmingPlayhead](#skimmingPlayhead)
+ * [skimmingPlayhead](#skimmingplayhead)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [columns](#columns)
  * [show](#show)
@@ -46,7 +46,7 @@ Libraries List Module.
 
 ---
 
-### [clipsUI](#clipsUI)
+### [clipsUI](#clipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Libraries List Module.
 
 ---
 
-### [deselectAll](#deselectAll)
+### [deselectAll](#deselectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Libraries List Module.
 
 ---
 
-### [indexOfClip](#indexOfClip)
+### [indexOfClip](#indexofclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -85,7 +85,7 @@ Libraries List Module.
 
 ---
 
-### [selectAll](#selectAll)
+### [selectAll](#selectall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Libraries List Module.
 
 ---
 
-### [selectClip](#selectClip)
+### [selectClip](#selectclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Libraries List Module.
 
 ---
 
-### [selectClipAt](#selectClipAt)
+### [selectClipAt](#selectclipat)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ Libraries List Module.
 
 ---
 
-### [selectClipTitled](#selectClipTitled)
+### [selectClipTitled](#selectcliptitled)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ Libraries List Module.
 
 ---
 
-### [selectedClips](#selectedClips)
+### [selectedClips](#selectedclips)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ Libraries List Module.
 
 ---
 
-### [selectedClipsUI](#selectedClipsUI)
+### [selectedClipsUI](#selectedclipsui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -163,7 +163,7 @@ Libraries List Module.
 
 ---
 
-### [showClip](#showClip)
+### [showClip](#showclip)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ Libraries List Module.
 ### Constructors
 
 
-### [LibrariesList](#LibrariesList)
+### [LibrariesList](#librarieslist)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ Libraries List Module.
 
 ---
 
-### [isFocused](#isFocused)
+### [isFocused](#isfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -213,7 +213,7 @@ Libraries List Module.
 
 ---
 
-### [isShowing](#isShowing)
+### [isShowing](#isshowing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -223,7 +223,7 @@ Libraries List Module.
 
 ---
 
-### [playerUI](#playerUI)
+### [playerUI](#playerui)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,7 +243,7 @@ Libraries List Module.
 
 ---
 
-### [skimmingPlayhead](#skimmingPlayhead)
+### [skimmingPlayhead](#skimmingplayhead)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

@@ -50,76 +50,76 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 ## API Overview
 * Constants - Useful values which cannot be changed
  * [default](#default)
- * [defaultCurrentSpace](#defaultCurrentSpace)
- * [hasNoWindows](#hasNoWindows)
- * [hasWindow](#hasWindow)
- * [sortByCreated](#sortByCreated)
- * [sortByCreatedLast](#sortByCreatedLast)
- * [sortByFocused](#sortByFocused)
- * [sortByFocusedLast](#sortByFocusedLast)
- * [windowAllowed](#windowAllowed)
- * [windowCreated](#windowCreated)
- * [windowDestroyed](#windowDestroyed)
- * [windowFocused](#windowFocused)
- * [windowFullscreened](#windowFullscreened)
- * [windowHidden](#windowHidden)
- * [windowInCurrentSpace](#windowInCurrentSpace)
- * [windowMinimized](#windowMinimized)
- * [windowMoved](#windowMoved)
- * [windowNotInCurrentSpace](#windowNotInCurrentSpace)
- * [windowNotOnScreen](#windowNotOnScreen)
- * [windowNotVisible](#windowNotVisible)
- * [windowOnScreen](#windowOnScreen)
- * [windowRejected](#windowRejected)
- * [windowsChanged](#windowsChanged)
- * [windowTitleChanged](#windowTitleChanged)
- * [windowUnfocused](#windowUnfocused)
- * [windowUnfullscreened](#windowUnfullscreened)
- * [windowUnhidden](#windowUnhidden)
- * [windowUnminimized](#windowUnminimized)
- * [windowVisible](#windowVisible)
+ * [defaultCurrentSpace](#defaultcurrentspace)
+ * [hasNoWindows](#hasnowindows)
+ * [hasWindow](#haswindow)
+ * [sortByCreated](#sortbycreated)
+ * [sortByCreatedLast](#sortbycreatedlast)
+ * [sortByFocused](#sortbyfocused)
+ * [sortByFocusedLast](#sortbyfocusedlast)
+ * [windowAllowed](#windowallowed)
+ * [windowCreated](#windowcreated)
+ * [windowDestroyed](#windowdestroyed)
+ * [windowFocused](#windowfocused)
+ * [windowFullscreened](#windowfullscreened)
+ * [windowHidden](#windowhidden)
+ * [windowInCurrentSpace](#windowincurrentspace)
+ * [windowMinimized](#windowminimized)
+ * [windowMoved](#windowmoved)
+ * [windowNotInCurrentSpace](#windownotincurrentspace)
+ * [windowNotOnScreen](#windownotonscreen)
+ * [windowNotVisible](#windownotvisible)
+ * [windowOnScreen](#windowonscreen)
+ * [windowRejected](#windowrejected)
+ * [windowsChanged](#windowschanged)
+ * [windowTitleChanged](#windowtitlechanged)
+ * [windowUnfocused](#windowunfocused)
+ * [windowUnfullscreened](#windowunfullscreened)
+ * [windowUnhidden](#windowunhidden)
+ * [windowUnminimized](#windowunminimized)
+ * [windowVisible](#windowvisible)
 * Variables - Configurable values
- * [allowedWindowRoles](#allowedWindowRoles)
- * [forceRefreshOnSpaceChange](#forceRefreshOnSpaceChange)
- * [ignoreAlways](#ignoreAlways)
+ * [allowedWindowRoles](#allowedwindowroles)
+ * [forceRefreshOnSpaceChange](#forcerefreshonspacechange)
+ * [ignoreAlways](#ignorealways)
 * Functions - API calls offered directly by the extension
- * [focusEast](#focusEast)
- * [focusNorth](#focusNorth)
- * [focusSouth](#focusSouth)
- * [focusWest](#focusWest)
- * [isGuiApp](#isGuiApp)
- * [switchedToSpace](#switchedToSpace)
+ * [focusEast](#focuseast)
+ * [focusNorth](#focusnorth)
+ * [focusSouth](#focussouth)
+ * [focusWest](#focuswest)
+ * [isGuiApp](#isguiapp)
+ * [switchedToSpace](#switchedtospace)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [copy](#copy)
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [allowApp](#allowApp)
- * [focusWindowEast](#focusWindowEast)
- * [focusWindowNorth](#focusWindowNorth)
- * [focusWindowSouth](#focusWindowSouth)
- * [focusWindowWest](#focusWindowWest)
- * [getFilters](#getFilters)
- * [getWindows](#getWindows)
- * [isAppAllowed](#isAppAllowed)
- * [isWindowAllowed](#isWindowAllowed)
+ * [allowApp](#allowapp)
+ * [focusWindowEast](#focuswindoweast)
+ * [focusWindowNorth](#focuswindownorth)
+ * [focusWindowSouth](#focuswindowsouth)
+ * [focusWindowWest](#focuswindowwest)
+ * [getFilters](#getfilters)
+ * [getWindows](#getwindows)
+ * [isAppAllowed](#isappallowed)
+ * [isWindowAllowed](#iswindowallowed)
  * [pause](#pause)
- * [rejectApp](#rejectApp)
+ * [rejectApp](#rejectapp)
  * [resume](#resume)
- * [setAppFilter](#setAppFilter)
- * [setCurrentSpace](#setCurrentSpace)
- * [setDefaultFilter](#setDefaultFilter)
- * [setFilters](#setFilters)
- * [setOverrideFilter](#setOverrideFilter)
- * [setRegions](#setRegions)
- * [setScreens](#setScreens)
- * [setSortOrder](#setSortOrder)
+ * [setAppFilter](#setappfilter)
+ * [setCurrentSpace](#setcurrentspace)
+ * [setDefaultFilter](#setdefaultfilter)
+ * [setFilters](#setfilters)
+ * [setOverrideFilter](#setoverridefilter)
+ * [setRegions](#setregions)
+ * [setScreens](#setscreens)
+ * [setSortOrder](#setsortorder)
  * [subscribe](#subscribe)
  * [unsubscribe](#unsubscribe)
- * [unsubscribeAll](#unsubscribeAll)
- * [windowsToEast](#windowsToEast)
- * [windowsToNorth](#windowsToNorth)
- * [windowsToSouth](#windowsToSouth)
- * [windowsToWest](#windowsToWest)
+ * [unsubscribeAll](#unsubscribeall)
+ * [windowsToEast](#windowstoeast)
+ * [windowsToNorth](#windowstonorth)
+ * [windowsToSouth](#windowstosouth)
+ * [windowsToWest](#windowstowest)
 
 ## API Documentation
 
@@ -137,7 +137,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [defaultCurrentSpace](#defaultCurrentSpace)
+### [defaultCurrentSpace](#defaultcurrentspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [hasNoWindows](#hasNoWindows)
+### [hasNoWindows](#hasnowindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -159,7 +159,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [hasWindow](#hasWindow)
+### [hasWindow](#haswindow)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [sortByCreated](#sortByCreated)
+### [sortByCreated](#sortbycreated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [sortByCreatedLast](#sortByCreatedLast)
+### [sortByCreatedLast](#sortbycreatedlast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -190,7 +190,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [sortByFocused](#sortByFocused)
+### [sortByFocused](#sortbyfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -200,7 +200,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [sortByFocusedLast](#sortByFocusedLast)
+### [sortByFocusedLast](#sortbyfocusedlast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -211,7 +211,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowAllowed](#windowAllowed)
+### [windowAllowed](#windowallowed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowCreated](#windowCreated)
+### [windowCreated](#windowcreated)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowDestroyed](#windowDestroyed)
+### [windowDestroyed](#windowdestroyed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowFocused](#windowFocused)
+### [windowFocused](#windowfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -252,7 +252,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowFullscreened](#windowFullscreened)
+### [windowFullscreened](#windowfullscreened)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -262,7 +262,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowHidden](#windowHidden)
+### [windowHidden](#windowhidden)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -272,7 +272,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowInCurrentSpace](#windowInCurrentSpace)
+### [windowInCurrentSpace](#windowincurrentspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -282,7 +282,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowMinimized](#windowMinimized)
+### [windowMinimized](#windowminimized)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -292,7 +292,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowMoved](#windowMoved)
+### [windowMoved](#windowmoved)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -302,7 +302,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowNotInCurrentSpace](#windowNotInCurrentSpace)
+### [windowNotInCurrentSpace](#windownotincurrentspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowNotOnScreen](#windowNotOnScreen)
+### [windowNotOnScreen](#windownotonscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -322,7 +322,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowNotVisible](#windowNotVisible)
+### [windowNotVisible](#windownotvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -332,7 +332,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowOnScreen](#windowOnScreen)
+### [windowOnScreen](#windowonscreen)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -342,7 +342,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowRejected](#windowRejected)
+### [windowRejected](#windowrejected)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowsChanged](#windowsChanged)
+### [windowsChanged](#windowschanged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -364,7 +364,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowTitleChanged](#windowTitleChanged)
+### [windowTitleChanged](#windowtitlechanged)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -374,7 +374,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowUnfocused](#windowUnfocused)
+### [windowUnfocused](#windowunfocused)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -384,7 +384,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowUnfullscreened](#windowUnfullscreened)
+### [windowUnfullscreened](#windowunfullscreened)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -394,7 +394,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowUnhidden](#windowUnhidden)
+### [windowUnhidden](#windowunhidden)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -404,7 +404,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowUnminimized](#windowUnminimized)
+### [windowUnminimized](#windowunminimized)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -414,7 +414,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowVisible](#windowVisible)
+### [windowVisible](#windowvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -426,7 +426,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 ### Variables
 
 
-### [allowedWindowRoles](#allowedWindowRoles)
+### [allowedWindowRoles](#allowedwindowroles)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -437,7 +437,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [forceRefreshOnSpaceChange](#forceRefreshOnSpaceChange)
+### [forceRefreshOnSpaceChange](#forcerefreshonspacechange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -448,7 +448,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [ignoreAlways](#ignoreAlways)
+### [ignoreAlways](#ignorealways)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -461,7 +461,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 ### Functions
 
 
-### [focusEast](#focusEast)
+### [focusEast](#focuseast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -474,7 +474,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusNorth](#focusNorth)
+### [focusNorth](#focusnorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -487,7 +487,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusSouth](#focusSouth)
+### [focusSouth](#focussouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -500,7 +500,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusWest](#focusWest)
+### [focusWest](#focuswest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -513,7 +513,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [isGuiApp](#isGuiApp)
+### [isGuiApp](#isguiapp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -526,7 +526,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [switchedToSpace](#switchedToSpace)
+### [switchedToSpace](#switchedtospace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -575,7 +575,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 ### Methods
 
 
-### [allowApp](#allowApp)
+### [allowApp](#allowapp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -588,7 +588,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusWindowEast](#focusWindowEast)
+### [focusWindowEast](#focuswindoweast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -601,7 +601,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusWindowNorth](#focusWindowNorth)
+### [focusWindowNorth](#focuswindownorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -614,7 +614,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusWindowSouth](#focusWindowSouth)
+### [focusWindowSouth](#focuswindowsouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -627,7 +627,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [focusWindowWest](#focusWindowWest)
+### [focusWindowWest](#focuswindowwest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -640,7 +640,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [getFilters](#getFilters)
+### [getFilters](#getfilters)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -653,7 +653,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [getWindows](#getWindows)
+### [getWindows](#getwindows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -666,7 +666,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [isAppAllowed](#isAppAllowed)
+### [isAppAllowed](#isappallowed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -679,7 +679,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [isWindowAllowed](#isWindowAllowed)
+### [isWindowAllowed](#iswindowallowed)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -705,7 +705,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [rejectApp](#rejectApp)
+### [rejectApp](#rejectapp)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -731,7 +731,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setAppFilter](#setAppFilter)
+### [setAppFilter](#setappfilter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -757,7 +757,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setCurrentSpace](#setCurrentSpace)
+### [setCurrentSpace](#setcurrentspace)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -770,7 +770,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setDefaultFilter](#setDefaultFilter)
+### [setDefaultFilter](#setdefaultfilter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -783,7 +783,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setFilters](#setFilters)
+### [setFilters](#setfilters)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -796,7 +796,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setOverrideFilter](#setOverrideFilter)
+### [setOverrideFilter](#setoverridefilter)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -809,7 +809,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setRegions](#setRegions)
+### [setRegions](#setregions)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -822,7 +822,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setScreens](#setScreens)
+### [setScreens](#setscreens)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -835,7 +835,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [setSortOrder](#setSortOrder)
+### [setSortOrder](#setsortorder)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -877,7 +877,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [unsubscribeAll](#unsubscribeAll)
+### [unsubscribeAll](#unsubscribeall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -890,7 +890,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowsToEast](#windowsToEast)
+### [windowsToEast](#windowstoeast)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -903,7 +903,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowsToNorth](#windowsToNorth)
+### [windowsToNorth](#windowstonorth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -916,7 +916,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowsToSouth](#windowsToSouth)
+### [windowsToSouth](#windowstosouth)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -929,7 +929,7 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
 
 ---
 
-### [windowsToWest](#windowsToWest)
+### [windowsToWest](#windowstowest)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

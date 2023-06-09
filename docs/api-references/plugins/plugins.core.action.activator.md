@@ -19,62 +19,62 @@ will not affect the "yadayada" activator.
 
 ## API Overview
 * Fields - Variables which can only be accessed from an object returned by a constructor
- * [activeHandlers](#activeHandlers)
- * [allowedHandlers](#allowedHandlers)
+ * [activeHandlers](#activehandlers)
+ * [allowedHandlers](#allowedhandlers)
  * [configurable](#configurable)
- * [favoriteChoices](#favoriteChoices)
- * [hiddenChoices](#hiddenChoices)
- * [lastQueryRemembered](#lastQueryRemembered)
- * [lastQueryValue](#lastQueryValue)
- * [lastRows](#lastRows)
- * [popularChoices](#popularChoices)
+ * [favoriteChoices](#favoritechoices)
+ * [hiddenChoices](#hiddenchoices)
+ * [lastQueryRemembered](#lastqueryremembered)
+ * [lastQueryValue](#lastqueryvalue)
+ * [lastRows](#lastrows)
+ * [popularChoices](#popularchoices)
  * [query](#query)
- * [reducedTransparency](#reducedTransparency)
- * [searchSubText](#searchSubText)
- * [showHidden](#showHidden)
+ * [reducedTransparency](#reducedtransparency)
+ * [searchSubText](#searchsubtext)
+ * [showHidden](#showhidden)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [activate](#activate)
- * [activeChoices](#activeChoices)
- * [allChoices](#allChoices)
- * [allowHandlers](#allowHandlers)
+ * [activeChoices](#activechoices)
+ * [allChoices](#allchoices)
+ * [allowHandlers](#allowhandlers)
  * [chooser](#chooser)
- * [disableAllHandlers](#disableAllHandlers)
- * [disableHandler](#disableHandler)
- * [enableAllHandlers](#enableAllHandlers)
- * [enableHandler](#enableHandler)
- * [enableHandlers](#enableHandlers)
- * [favoriteChoice](#favoriteChoice)
- * [findChoice](#findChoice)
- * [getActiveHandler](#getActiveHandler)
- * [getPopularity](#getPopularity)
+ * [disableAllHandlers](#disableallhandlers)
+ * [disableHandler](#disablehandler)
+ * [enableAllHandlers](#enableallhandlers)
+ * [enableHandler](#enablehandler)
+ * [enableHandlers](#enablehandlers)
+ * [favoriteChoice](#favoritechoice)
+ * [findChoice](#findchoice)
+ * [getActiveHandler](#getactivehandler)
+ * [getPopularity](#getpopularity)
  * [hide](#hide)
- * [hideChoice](#hideChoice)
+ * [hideChoice](#hidechoice)
  * [id](#id)
- * [incPopularity](#incPopularity)
- * [isDisabledHandler](#isDisabledHandler)
- * [isHiddenChoice](#isHiddenChoice)
- * [isVisible](#isVisible)
- * [onActivate](#onActivate)
- * [preloadChoices](#preloadChoices)
+ * [incPopularity](#incpopularity)
+ * [isDisabledHandler](#isdisabledhandler)
+ * [isHiddenChoice](#ishiddenchoice)
+ * [isVisible](#isvisible)
+ * [onActivate](#onactivate)
+ * [preloadChoices](#preloadchoices)
  * [refresh](#refresh)
- * [refreshChooser](#refreshChooser)
- * [rightClickAction](#rightClickAction)
- * [rightClickMain](#rightClickMain)
- * [setBundleID](#setBundleID)
+ * [refreshChooser](#refreshchooser)
+ * [rightClickAction](#rightclickaction)
+ * [rightClickMain](#rightclickmain)
+ * [setBundleID](#setbundleid)
  * [show](#show)
- * [sortChoices](#sortChoices)
+ * [sortChoices](#sortchoices)
  * [toggle](#toggle)
- * [toolbarIcons](#toolbarIcons)
- * [unfavoriteChoice](#unfavoriteChoice)
- * [unhideChoice](#unhideChoice)
- * [updateSelectedToolbarIcon](#updateSelectedToolbarIcon)
+ * [toolbarIcons](#toolbaricons)
+ * [unfavoriteChoice](#unfavoritechoice)
+ * [unhideChoice](#unhidechoice)
+ * [updateSelectedToolbarIcon](#updateselectedtoolbaricon)
 
 ## API Documentation
 
 ### Fields
 
 
-### [activeHandlers](#activeHandlers)
+### [activeHandlers](#activehandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [allowedHandlers](#allowedHandlers)
+### [allowedHandlers](#allowedhandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [favoriteChoices](#favoriteChoices)
+### [favoriteChoices](#favoritechoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [hiddenChoices](#hiddenChoices)
+### [hiddenChoices](#hiddenchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [lastQueryRemembered](#lastQueryRemembered)
+### [lastQueryRemembered](#lastqueryremembered)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [lastQueryValue](#lastQueryValue)
+### [lastQueryValue](#lastqueryvalue)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [lastRows](#lastRows)
+### [lastRows](#lastrows)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [popularChoices](#popularChoices)
+### [popularChoices](#popularchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -174,7 +174,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [reducedTransparency](#reducedTransparency)
+### [reducedTransparency](#reducedtransparency)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [searchSubText](#searchSubText)
+### [searchSubText](#searchsubtext)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [showHidden](#showHidden)
+### [showHidden](#showhidden)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [activeChoices](#activeChoices)
+### [activeChoices](#activechoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [allChoices](#allChoices)
+### [allChoices](#allchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [allowHandlers](#allowHandlers)
+### [allowHandlers](#allowhandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [disableAllHandlers](#disableAllHandlers)
+### [disableAllHandlers](#disableallhandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -284,7 +284,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [disableHandler](#disableHandler)
+### [disableHandler](#disablehandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -297,7 +297,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [enableAllHandlers](#enableAllHandlers)
+### [enableAllHandlers](#enableallhandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -310,7 +310,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [enableHandler](#enableHandler)
+### [enableHandler](#enablehandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -323,7 +323,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [enableHandlers](#enableHandlers)
+### [enableHandlers](#enablehandlers)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -336,7 +336,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [favoriteChoice](#favoriteChoice)
+### [favoriteChoice](#favoritechoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -349,7 +349,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [findChoice](#findChoice)
+### [findChoice](#findchoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -362,7 +362,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [getActiveHandler](#getActiveHandler)
+### [getActiveHandler](#getactivehandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -375,7 +375,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [getPopularity](#getPopularity)
+### [getPopularity](#getpopularity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -401,7 +401,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [hideChoice](#hideChoice)
+### [hideChoice](#hidechoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -427,7 +427,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [incPopularity](#incPopularity)
+### [incPopularity](#incpopularity)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -440,7 +440,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [isDisabledHandler](#isDisabledHandler)
+### [isDisabledHandler](#isdisabledhandler)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -453,7 +453,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [isHiddenChoice](#isHiddenChoice)
+### [isHiddenChoice](#ishiddenchoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -466,7 +466,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [isVisible](#isVisible)
+### [isVisible](#isvisible)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -479,7 +479,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [onActivate](#onActivate)
+### [onActivate](#onactivate)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -492,7 +492,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [preloadChoices](#preloadChoices)
+### [preloadChoices](#preloadchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -518,7 +518,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [refreshChooser](#refreshChooser)
+### [refreshChooser](#refreshchooser)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -531,7 +531,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [rightClickAction](#rightClickAction)
+### [rightClickAction](#rightclickaction)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -544,7 +544,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [rightClickMain](#rightClickMain)
+### [rightClickMain](#rightclickmain)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -557,7 +557,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [setBundleID](#setBundleID)
+### [setBundleID](#setbundleid)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -583,7 +583,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [sortChoices](#sortChoices)
+### [sortChoices](#sortchoices)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -609,7 +609,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [toolbarIcons](#toolbarIcons)
+### [toolbarIcons](#toolbaricons)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -622,7 +622,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [unfavoriteChoice](#unfavoriteChoice)
+### [unfavoriteChoice](#unfavoritechoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -635,7 +635,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [unhideChoice](#unhideChoice)
+### [unhideChoice](#unhidechoice)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -648,7 +648,7 @@ will not affect the "yadayada" activator.
 
 ---
 
-### [updateSelectedToolbarIcon](#updateSelectedToolbarIcon)
+### [updateSelectedToolbarIcon](#updateselectedtoolbaricon)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

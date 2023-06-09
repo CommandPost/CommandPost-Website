@@ -7,17 +7,17 @@ Create and manage global keyboard shortcuts
 
 ## API Overview
 * Variables - Configurable values
- * [alertDuration](#alertDuration)
+ * [alertDuration](#alertduration)
 * Functions - API calls offered directly by the extension
  * [assignable](#assignable)
- * [deleteAll](#deleteAll)
- * [disableAll](#disableAll)
- * [getHotkeys](#getHotkeys)
- * [showHotkeys](#showHotkeys)
- * [systemAssigned](#systemAssigned)
+ * [deleteAll](#deleteall)
+ * [disableAll](#disableall)
+ * [getHotkeys](#gethotkeys)
+ * [showHotkeys](#showhotkeys)
+ * [systemAssigned](#systemassigned)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [bind](#bind)
- * [bindSpec](#bindSpec)
+ * [bindSpec](#bindspec)
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
  * [delete](#delete)
@@ -29,7 +29,7 @@ Create and manage global keyboard shortcuts
 ### Variables
 
 
-### [alertDuration](#alertDuration)
+### [alertDuration](#alertduration)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [deleteAll](#deleteAll)
+### [deleteAll](#deleteall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [disableAll](#disableAll)
+### [disableAll](#disableall)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [getHotkeys](#getHotkeys)
+### [getHotkeys](#gethotkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [showHotkeys](#showHotkeys)
+### [showHotkeys](#showhotkeys)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [systemAssigned](#systemAssigned)
+### [systemAssigned](#systemassigned)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -158,7 +158,7 @@ Create and manage global keyboard shortcuts
 
 ---
 
-### [bindSpec](#bindSpec)
+### [bindSpec](#bindspec)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

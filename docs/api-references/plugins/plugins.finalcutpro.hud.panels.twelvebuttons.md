@@ -4,7 +4,7 @@ Twelve Button Panel for the Final Cut Pro HUD.
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [updateInfo](#updateInfo)
+ * [updateInfo](#updateinfo)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [buttons](#buttons)
 
@@ -13,7 +13,7 @@ Twelve Button Panel for the Final Cut Pro HUD.
 ### Functions
 
 
-### [updateInfo](#updateInfo)
+### [updateInfo](#updateinfo)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

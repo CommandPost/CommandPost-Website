@@ -7,12 +7,12 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 
 ## API Overview
 * Functions - API calls offered directly by the extension
- * [clearHistory](#clearHistory)
+ * [clearHistory](#clearhistory)
  * [history](#history)
  * [init](#init)
- * [pruneHistory](#pruneHistory)
- * [retrieveHistory](#retrieveHistory)
- * [saveHistory](#saveHistory)
+ * [pruneHistory](#prunehistory)
+ * [retrieveHistory](#retrievehistory)
+ * [saveHistory](#savehistory)
 * Fields - Variables which can only be accessed from an object returned by a constructor
  * [cache](#cache)
 
@@ -21,7 +21,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 ### Functions
 
 
-### [clearHistory](#clearHistory)
+### [clearHistory](#clearhistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 
 ---
 
-### [pruneHistory](#pruneHistory)
+### [pruneHistory](#prunehistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 
 ---
 
-### [retrieveHistory](#retrieveHistory)
+### [retrieveHistory](#retrievehistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 
 ---
 
-### [saveHistory](#saveHistory)
+### [saveHistory](#savehistory)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|

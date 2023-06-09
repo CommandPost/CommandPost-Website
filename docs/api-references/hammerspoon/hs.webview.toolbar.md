@@ -36,49 +36,49 @@ Notes:
 
 ## API Overview
 * Constants - Useful values which cannot be changed
- * [itemPriorities](#itemPriorities)
- * [systemToolbarItems](#systemToolbarItems)
+ * [itemPriorities](#itempriorities)
+ * [systemToolbarItems](#systemtoolbaritems)
 * Functions - API calls offered directly by the extension
- * [attachToolbar](#attachToolbar)
- * [inTitleBar](#inTitleBar)
- * [uniqueName](#uniqueName)
+ * [attachToolbar](#attachtoolbar)
+ * [inTitleBar](#intitlebar)
+ * [uniqueName](#uniquename)
 * Constructors - API calls which return an object, typically one that offers API methods
  * [new](#new)
 * Methods - API calls which can only be made on an object returned by a constructor
- * [addItems](#addItems)
- * [allowedItems](#allowedItems)
+ * [addItems](#additems)
+ * [allowedItems](#alloweditems)
  * [autosaves](#autosaves)
- * [canCustomize](#canCustomize)
+ * [canCustomize](#cancustomize)
  * [copy](#copy)
- * [customizePanel](#customizePanel)
+ * [customizePanel](#customizepanel)
  * [delete](#delete)
- * [deleteItem](#deleteItem)
- * [displayMode](#displayMode)
+ * [deleteItem](#deleteitem)
+ * [displayMode](#displaymode)
  * [identifier](#identifier)
- * [insertItem](#insertItem)
- * [isAttached](#isAttached)
- * [isCustomizing](#isCustomizing)
- * [itemDetails](#itemDetails)
+ * [insertItem](#insertitem)
+ * [isAttached](#isattached)
+ * [isCustomizing](#iscustomizing)
+ * [itemDetails](#itemdetails)
  * [items](#items)
- * [modifyItem](#modifyItem)
- * [notifyOnChange](#notifyOnChange)
- * [removeItem](#removeItem)
- * [savedSettings](#savedSettings)
- * [selectedItem](#selectedItem)
- * [selectSearchField](#selectSearchField)
+ * [modifyItem](#modifyitem)
+ * [notifyOnChange](#notifyonchange)
+ * [removeItem](#removeitem)
+ * [savedSettings](#savedsettings)
+ * [selectedItem](#selecteditem)
+ * [selectSearchField](#selectsearchfield)
  * [separator](#separator)
- * [setCallback](#setCallback)
- * [sizeMode](#sizeMode)
- * [toolbarStyle](#toolbarStyle)
+ * [setCallback](#setcallback)
+ * [sizeMode](#sizemode)
+ * [toolbarStyle](#toolbarstyle)
  * [visible](#visible)
- * [visibleItems](#visibleItems)
+ * [visibleItems](#visibleitems)
 
 ## API Documentation
 
 ### Constants
 
 
-### [itemPriorities](#itemPriorities)
+### [itemPriorities](#itempriorities)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ Notes:
 
 ---
 
-### [systemToolbarItems](#systemToolbarItems)
+### [systemToolbarItems](#systemtoolbaritems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@ Notes:
 ### Functions
 
 
-### [attachToolbar](#attachToolbar)
+### [attachToolbar](#attachtoolbar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Notes:
 
 ---
 
-### [inTitleBar](#inTitleBar)
+### [inTitleBar](#intitlebar)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ Notes:
 
 ---
 
-### [uniqueName](#uniqueName)
+### [uniqueName](#uniquename)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -160,7 +160,7 @@ Notes:
 ### Methods
 
 
-### [addItems](#addItems)
+### [addItems](#additems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@ Notes:
 
 ---
 
-### [allowedItems](#allowedItems)
+### [allowedItems](#alloweditems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -199,7 +199,7 @@ Notes:
 
 ---
 
-### [canCustomize](#canCustomize)
+### [canCustomize](#cancustomize)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -225,7 +225,7 @@ Notes:
 
 ---
 
-### [customizePanel](#customizePanel)
+### [customizePanel](#customizepanel)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -251,7 +251,7 @@ Notes:
 
 ---
 
-### [deleteItem](#deleteItem)
+### [deleteItem](#deleteitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -264,7 +264,7 @@ Notes:
 
 ---
 
-### [displayMode](#displayMode)
+### [displayMode](#displaymode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -290,7 +290,7 @@ Notes:
 
 ---
 
-### [insertItem](#insertItem)
+### [insertItem](#insertitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -303,7 +303,7 @@ Notes:
 
 ---
 
-### [isAttached](#isAttached)
+### [isAttached](#isattached)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -316,7 +316,7 @@ Notes:
 
 ---
 
-### [isCustomizing](#isCustomizing)
+### [isCustomizing](#iscustomizing)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -329,7 +329,7 @@ Notes:
 
 ---
 
-### [itemDetails](#itemDetails)
+### [itemDetails](#itemdetails)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -355,7 +355,7 @@ Notes:
 
 ---
 
-### [modifyItem](#modifyItem)
+### [modifyItem](#modifyitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -368,7 +368,7 @@ Notes:
 
 ---
 
-### [notifyOnChange](#notifyOnChange)
+### [notifyOnChange](#notifyonchange)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -381,7 +381,7 @@ Notes:
 
 ---
 
-### [removeItem](#removeItem)
+### [removeItem](#removeitem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -394,7 +394,7 @@ Notes:
 
 ---
 
-### [savedSettings](#savedSettings)
+### [savedSettings](#savedsettings)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -407,7 +407,7 @@ Notes:
 
 ---
 
-### [selectedItem](#selectedItem)
+### [selectedItem](#selecteditem)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -420,7 +420,7 @@ Notes:
 
 ---
 
-### [selectSearchField](#selectSearchField)
+### [selectSearchField](#selectsearchfield)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -446,7 +446,7 @@ Notes:
 
 ---
 
-### [setCallback](#setCallback)
+### [setCallback](#setcallback)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -459,7 +459,7 @@ Notes:
 
 ---
 
-### [sizeMode](#sizeMode)
+### [sizeMode](#sizemode)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -472,7 +472,7 @@ Notes:
 
 ---
 
-### [toolbarStyle](#toolbarStyle)
+### [toolbarStyle](#toolbarstyle)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
@@ -498,7 +498,7 @@ Notes:
 
 ---
 
-### [visibleItems](#visibleItems)
+### [visibleItems](#visibleitems)
 
 |                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
