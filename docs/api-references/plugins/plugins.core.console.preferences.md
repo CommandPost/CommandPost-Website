@@ -14,7 +14,7 @@ Preferences for the Search Console.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [scanRunningApplicationMenubarsOnStartup](#scanrunningapplicationmenubarsonstartup)
@@ -24,8 +24,10 @@ Preferences for the Search Console.
 | **Signature**                               | `plugins.core.console.preferences.scanRunningApplicationMenubarsOnStartup <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan Running Application Menubars on Startup                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scanTheMenubarsOfTheActiveApplication](#scanthemenubarsoftheactiveapplication)
 
@@ -34,5 +36,7 @@ Preferences for the Search Console.
 | **Signature**                               | `plugins.core.console.preferences.scanTheMenubarsOfTheActiveApplication <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Scan the Menubars of the Active Application                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -31,7 +31,7 @@ Timeline Index Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -43,10 +43,11 @@ Timeline Index Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Index](#index)
@@ -58,10 +59,11 @@ Timeline Index Module.
 | **Description**                             | Creates a new Timeline Index.                                                                     |
 | **Parameters**                              | <ul><li>timeline - [Timeline](cp.apple.finalcutpro.timeline.Timeline.md).</li></ul> |
 | **Returns**                                 | <ul><li>A new `Index` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [captions](#captions)
@@ -71,8 +73,10 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.captions <cp.apple.finalcutpro.timeline.IndexCaptions>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexCaptions](cp.apple.finalcutpro.timeline.IndexCaptions.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [clips](#clips)
 
@@ -81,8 +85,10 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.clips <cp.apple.finalcutpro.timeline.IndexClips>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips](cp.apple.finalcutpro.timeline.IndexClips.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mode](#mode)
 
@@ -91,8 +97,10 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.mode <cp.apple.finalcutpro.timeline.IndexMode>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexMode](cp.apple.finalcutpro.timeline.IndexMode.md) for the Index.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [roles](#roles)
 
@@ -101,8 +109,10 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.roles <cp.apple.finalcutpro.timeline.IndexRoles>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRoles](cp.apple.finalcutpro.timeline.IndexRoles.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [search](#search)
 
@@ -111,8 +121,10 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.search <cp.ui.SearchField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [SearchField](cp.ui.SearchField.md) for the Timeline Index.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tags](#tags)
 
@@ -121,9 +133,11 @@ Timeline Index Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Index.tags <cp.apple.finalcutpro.timeline.IndexTags>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags](cp.apple.finalcutpro.timeline.IndexTags.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [activeTab](#activetab)
@@ -135,9 +149,10 @@ Timeline Index Module.
 | **Description**                             | Gets the active tab.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The active tab or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -148,9 +163,10 @@ Timeline Index Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) which will hide the Index if possible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doLayout](#dolayout)
 
@@ -161,9 +177,10 @@ Timeline Index Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -174,9 +191,10 @@ Timeline Index Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) which will show the Index if possible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -187,6 +205,7 @@ Timeline Index Module.
 | **Description**                             | Returns a `table` containing the layout configuration for this class.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

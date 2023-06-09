@@ -37,7 +37,7 @@ Menu Button Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -49,10 +49,11 @@ Menu Button Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [MenuButton](#menubutton)
@@ -64,10 +65,11 @@ Menu Button Module.
 | **Description**                             | Creates a new MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>parent        - The parent object. Should have an `isShowing` property.</li><li>uiFinder      - A `cp.prop` or function which will return a `hs.axuielement`, or `nil` if it's not available.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [menuUI](#menuui)
@@ -77,8 +79,10 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.menuUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `AXMenu` for the MenuButton if it is currently visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [title](#title)
 
@@ -87,8 +91,10 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the title for the MenuButton.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [value](#value)
 
@@ -97,9 +103,11 @@ Menu Button Module.
 | **Signature**                               | `cp.ui.MenuButton.value <cp.prop: anything>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns or sets the current MenuButton value.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doPress](#dopress)
@@ -111,9 +119,10 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that presses the `MenuButton`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectItem](#doselectitem)
 
@@ -124,9 +133,10 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index number of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectItemMatching](#doselectitemmatching)
 
@@ -137,9 +147,10 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by pattern.                                                                     |
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li><li>[altPattern] - An optional alternate pattern to match if the first pattern fails.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectValue](#doselectvalue)
 
@@ -150,9 +161,10 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by value.                                                                     |
 | **Parameters**                              | <ul><li>value - The value of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowMenu](#doshowmenu)
 
@@ -163,9 +175,10 @@ Menu Button Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that presses the `MenuButton` if the menu is not showing.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getTitle](#gettitle)
 
@@ -176,9 +189,10 @@ Menu Button Module.
 | **Description**                             | Gets the `MenuButton` title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MenuButton` title as string, or `nil` if the title cannot be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getValue](#getvalue)
 
@@ -189,9 +203,10 @@ Menu Button Module.
 | **Description**                             | Gets the `MenuButton` value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MenuButton` value as string, or `nil` if the value cannot be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -202,9 +217,10 @@ Menu Button Module.
 | **Description**                             | Loads a `MenuButton` layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the `MenuButton` layout settings - created using [saveLayout](#saveLayout).</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [press](#press)
 
@@ -215,9 +231,10 @@ Menu Button Module.
 | **Description**                             | Presses the MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -228,9 +245,10 @@ Menu Button Module.
 | **Description**                             | Saves the current `MenuButton` layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current `MenuButton` Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectItem](#selectitem)
 
@@ -241,9 +259,10 @@ Menu Button Module.
 | **Description**                             | Select an item on the `MenuButton` by index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the item you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectItemMatching](#selectitemmatching)
 
@@ -254,9 +273,10 @@ Menu Button Module.
 | **Description**                             | Select an item on the `MenuButton` by pattern.                                                                     |
 | **Parameters**                              | <ul><li>pattern - A pattern used to select the `MenuButton` item.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setValue](#setvalue)
 
@@ -267,9 +287,10 @@ Menu Button Module.
 | **Description**                             | Sets the `MenuButton` value.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set the `MenuButton` to.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -280,6 +301,7 @@ Menu Button Module.
 | **Description**                             | Show's the MenuButton.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

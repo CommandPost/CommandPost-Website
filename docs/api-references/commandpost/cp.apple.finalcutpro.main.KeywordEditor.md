@@ -34,7 +34,7 @@ Keyword Editor Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
@@ -44,9 +44,11 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.NUMBER_OF_SHORTCUTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -58,10 +60,11 @@ Keyword Editor Module.
 | **Description**                             | Checks to see if an `hs.axuielement` object matches a Keyword Editor window                                                                     |
 | **Parameters**                              | <ul><li>element - the `hs.axuielement` object you want to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if a match otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [KeywordEditor](#keywordeditor)
@@ -73,10 +76,11 @@ Keyword Editor Module.
 | **Description**                             | Creates a new KeywordEditor object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A KeywordEditor object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [isShowing](#isshowing)
@@ -86,8 +90,10 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.isShowing <cp.prop: boolean; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates whether or not the Keyword Editor is currently showing.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keyboardShortcuts](#keyboardshortcuts)
 
@@ -96,8 +102,10 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.keyboardShortcuts <cp.ui.DisclosureWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `DisclosureTriangle` that shows/hides the keyboard shortcuts configuration.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywords](#keywords)
 
@@ -106,8 +114,10 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.keywords <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that contains the current keywords. The value is a `table` of `string` values for each individual keyword.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [resetButton](#resetbutton)
 
@@ -116,8 +126,10 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.resetButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that resets the current keywords to blank.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [shortcutButtons](#shortcutbuttons)
 
@@ -126,8 +138,10 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.shortcutButtons <table of cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of keyboard shortcut `Button`s. The button for `Cmd+1` is accessed via `shortcutButtons[1]`, and so on.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [shortcutFields](#shortcutfields)
 
@@ -136,9 +150,11 @@ Keyword Editor Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.KeywordEditor.shortcutFields <table of KeywordField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of keyboard shortcut `KeywordField`s. The field for `Cmd+1` is accessed via `shortcutFields[1]`, and so on.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doHide](#dohide)
@@ -150,9 +166,10 @@ Keyword Editor Module.
 | **Description**                             | A `Statement` that hides the Keyword Editor.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -163,9 +180,10 @@ Keyword Editor Module.
 | **Description**                             | A `Statement` that shows the Keyword Editor.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -176,9 +194,10 @@ Keyword Editor Module.
 | **Description**                             | Hides the Keyword Editor.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>KeywordEditor object</li><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -189,9 +208,10 @@ Keyword Editor Module.
 | **Description**                             | Returns the KeywordEditor's parent table                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The parent object as a table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -202,6 +222,7 @@ Keyword Editor Module.
 | **Description**                             | Shows the Keyword Editor.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>KeywordEditor object</li><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

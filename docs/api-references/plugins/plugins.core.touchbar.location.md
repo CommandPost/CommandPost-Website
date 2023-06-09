@@ -18,7 +18,7 @@ Virtual Touch Bar Update Location Callback
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [callbackFn](#callbackfn)
@@ -30,9 +30,10 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns the callbackFn of the current Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The callbackFn of the current Shutdown Callback</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [delete](#delete)
 
@@ -43,9 +44,10 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Deletes a Update Location Callback based on an ID.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [get](#get)
 
@@ -56,9 +58,10 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Gets an Update Location Callback based on an ID.                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the callback you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the callback</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getAll](#getall)
 
@@ -69,9 +72,10 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns all of the created Update Location Callbacks                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [id](#id)
 
@@ -82,9 +86,10 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Returns the ID of the current Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the current File Dropped to Dock Icon Callback as a `string`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -95,6 +100,7 @@ Virtual Touch Bar Update Location Callback
 | **Description**                             | Creates a new Update Location Callback                                                                     |
 | **Parameters**                              | <ul><li>`id` - The unique ID for this callback.</li><li>`callbackFn` - The callback function.</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

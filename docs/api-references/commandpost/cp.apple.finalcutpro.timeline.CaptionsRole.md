@@ -22,7 +22,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -34,10 +34,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Description**                             | Checks if the element is a "Captions" Role.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [CaptionsRole](#captionsrole)
@@ -49,10 +50,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Description**                             | Creates a new instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [subrolesExpanded](#subrolesexpanded)
@@ -62,8 +64,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsRole.subrolesExpanded <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that toggles whether the sub-captions are visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [visibleInViewer](#visibleinviewer)
 
@@ -72,5 +76,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Captions.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.CaptionsRole.visibleInViewer <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that toggles whether captions are visible in the [Viewer](cp.apple.finalcutpro.viewer.Viewer.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

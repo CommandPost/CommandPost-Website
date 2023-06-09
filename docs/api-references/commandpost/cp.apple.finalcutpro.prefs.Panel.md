@@ -14,7 +14,7 @@ Preferences Panel.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [hide](#hide)
@@ -26,9 +26,10 @@ Preferences Panel.
 | **Description**                             | Hides the General Preferences Panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -39,6 +40,7 @@ Preferences Panel.
 | **Description**                             | Shows the Panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

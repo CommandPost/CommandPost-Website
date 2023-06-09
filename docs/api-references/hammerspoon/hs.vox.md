@@ -34,7 +34,7 @@ Controls for VOX music player
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [addurl](#addurl)
@@ -46,9 +46,10 @@ Controls for VOX music player
 | **Description**                             | Add media URL to current list                                                                     |
 | **Parameters**                              | <ul><li>url {string}</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [backward](#backward)
 
@@ -59,9 +60,10 @@ Controls for VOX music player
 | **Description**                             | Skips the playback position backwards by about 7 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [decreaseVolume](#decreasevolume)
 
@@ -72,9 +74,10 @@ Controls for VOX music player
 | **Description**                             | Decreases the player volume                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fastBackward](#fastbackward)
 
@@ -85,9 +88,10 @@ Controls for VOX music player
 | **Description**                             | Skips the playback position backwards by about 14 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fastForward](#fastforward)
 
@@ -98,9 +102,10 @@ Controls for VOX music player
 | **Description**                             | Skips the playback position forwards by about 17 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [forward](#forward)
 
@@ -111,9 +116,10 @@ Controls for VOX music player
 | **Description**                             | Skips the playback position forwards by about 7 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getAlbumArtist](#getalbumartist)
 
@@ -124,9 +130,10 @@ Controls for VOX music player
 | **Description**                             | Gets the artist of current Album                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the artist of current Album, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentAlbum](#getcurrentalbum)
 
@@ -137,9 +144,10 @@ Controls for VOX music player
 | **Description**                             | Gets the name of the album of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentArtist](#getcurrentartist)
 
@@ -150,9 +158,10 @@ Controls for VOX music player
 | **Description**                             | Gets the name of the artist of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPlayerState](#getplayerstate)
 
@@ -163,9 +172,10 @@ Controls for VOX music player
 | **Description**                             | Gets the current playback state of vox                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>0 for paused</li><li>1 for playing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getUniqueID](#getuniqueid)
 
@@ -176,9 +186,10 @@ Controls for VOX music player
 | **Description**                             | Gets the uniqueID of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [increaseVolume](#increasevolume)
 
@@ -189,9 +200,10 @@ Controls for VOX music player
 | **Description**                             | Increases the player volume                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -202,9 +214,10 @@ Controls for VOX music player
 | **Description**                             | Returns whether VOX is currently open                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the vox application is running</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [next](#next)
 
@@ -215,9 +228,10 @@ Controls for VOX music player
 | **Description**                             | Skips to the next track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pause](#pause)
 
@@ -228,9 +242,10 @@ Controls for VOX music player
 | **Description**                             | Pauses the current vox track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [play](#play)
 
@@ -241,9 +256,10 @@ Controls for VOX music player
 | **Description**                             | Plays the current vox track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playpause](#playpause)
 
@@ -254,9 +270,10 @@ Controls for VOX music player
 | **Description**                             | Toggles play/pause of current vox track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playurl](#playurl)
 
@@ -267,9 +284,10 @@ Controls for VOX music player
 | **Description**                             | Play media from the given URL                                                                     |
 | **Parameters**                              | <ul><li>url {string}</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [previous](#previous)
 
@@ -280,9 +298,10 @@ Controls for VOX music player
 | **Description**                             | Skips to previous track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shuffle](#shuffle)
 
@@ -293,9 +312,10 @@ Controls for VOX music player
 | **Description**                             | Toggle shuffle state of current list                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [togglePlaylist](#toggleplaylist)
 
@@ -306,9 +326,10 @@ Controls for VOX music player
 | **Description**                             | Toggle playlist                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [trackInfo](#trackinfo)
 
@@ -319,6 +340,7 @@ Controls for VOX music player
 | **Description**                             | Displays information for current track on screen                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

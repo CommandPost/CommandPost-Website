@@ -13,7 +13,7 @@ Save Browser to CSV
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [saveBrowserContentsToCSV](#savebrowsercontentstocsv)
@@ -25,6 +25,7 @@ Save Browser to CSV
 | **Description**                             | Save Browser Contents to CSV                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -21,7 +21,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -33,10 +33,11 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Description**                             | Tests if the `thing` is an `Observer`.                                                                     |
 | **Parameters**                              | <ul><li>thing   - The thing to test.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is an `Observer`, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [create](#create)
@@ -48,10 +49,11 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Description**                             | Creates a new Observer.                                                                     |
 | **Parameters**                              | <ul><li>onNext - Called when the Observable produces a value.</li><li>onError - Called when the Observable terminates due to an error.</li><li>onCompleted - Called when the Observable completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>The new Observer.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [onCompleted](#oncompleted)
@@ -63,9 +65,10 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Description**                             | Notify the Observer that the sequence has completed and will produce no more values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onError](#onerror)
 
@@ -76,9 +79,10 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Description**                             | Notify the Observer that an error has occurred.                                                                     |
 | **Parameters**                              | <ul><li>message - A string describing what went wrong.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onNext](#onnext)
 
@@ -89,6 +93,7 @@ Observers are simple objects that receive values from [Observables](cp.rx.Observ
 | **Description**                             | Pushes zero or more values to the Observer.                                                                     |
 | **Parameters**                              | <ul><li>... - The list of values to send.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

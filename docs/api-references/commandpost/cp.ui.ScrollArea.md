@@ -81,7 +81,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [containing](#containing)
@@ -93,9 +93,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | A static method that returns a new `ScrollArea.Builder`.                                                                     |
 | **Parameters**                              | <ul><li>elementInit - An `Element` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>A new `ScrollArea.Builder` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -106,10 +107,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ScrollArea](#scrollarea)
@@ -121,10 +123,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new `ScrollArea`.                                                                     |
 | **Parameters**                              | <ul><li>parent       - The parent object.</li><li>uiFinder     - A `function` or `cp.prop` which will return the `hs.axuielement` when available.</li><li>contentsInit - An optional function to initialise the `contentsUI`. Uses `cp.ui.Element` by default.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ScrollArea`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contents](#contents)
@@ -134,8 +137,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.contents <cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `Element` representing the `ScrollArea` Contents.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contentsUI](#contentsui)
 
@@ -144,8 +149,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.contentsUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Contents, or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [horizontalScrollBar](#horizontalscrollbar)
 
@@ -154,8 +161,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.horizontalScrollBar <cp.ui.ScrollBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The horizontal [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [selectedChildrenUI](#selectedchildrenui)
 
@@ -164,8 +173,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.selectedChildrenUI <cp.prop: hs.axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` representing the Scroll Area Selected Children, or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [verticalScrollBar](#verticalscrollbar)
 
@@ -174,8 +185,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.verticalScrollBar <cp.ui.ScrollBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The vertical [ScrollBar](cp.ui.ScrollBar.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewFrame](#viewframe)
 
@@ -184,9 +197,11 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Signature**                               | `cp.ui.ScrollArea.viewFrame <cp.prop:table; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` reporting the Scroll Area frame as a table containing `{x, y, w, h}`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [childrenUI](#childrenui)
@@ -198,9 +213,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Returns the list of `axuielement`s representing the Scroll Area Contents, sorted top-down, or `nil` if not available.                                                                     |
 | **Parameters**                              | <ul><li>filterFn - The function which checks if the child matches the requirements.</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [deselectAll](#deselectall)
 
@@ -211,9 +227,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Deselect all children in a scroll area.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -224,9 +241,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Loads a Scroll Area layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the ScrollArea layout settings, typically created using [saveLayout](#saveLayout).</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -237,9 +255,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Saves the current Scroll Area layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Scroll Area Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectAll](#selectall)
 
@@ -250,9 +269,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Select all children in a scroll area.                                                                     |
 | **Parameters**                              | <ul><li>childrenUI - A table of `hs.axuielement` objects.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectChild](#selectchild)
 
@@ -263,9 +283,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Select a specific child within a Scroll Area.                                                                     |
 | **Parameters**                              | <ul><li>childUI - The `hs.axuielement` object of the child you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectChildAt](#selectchildat)
 
@@ -276,9 +297,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Select a child element in a Scroll Area given a specific index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the child you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shiftHorizontalBy](#shifthorizontalby)
 
@@ -289,9 +311,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Attempts to shift the horizontal scroll bar by the specified amount.                                                                     |
 | **Parameters**                              | <ul><li>amount - The amount to shift</li></ul> |
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shiftHorizontalTo](#shifthorizontalto)
 
@@ -302,9 +325,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Attempts to shift the horizontal scroll bar to the specified value.                                                                     |
 | **Parameters**                              | <ul><li>value - The new value (typically between `0` and `1`).</li></ul> |
 | **Returns**                                 | <ul><li>The actual value of the horizontal scroll bar.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shiftVerticalBy](#shiftverticalby)
 
@@ -315,9 +339,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Attempts to shift the vertical scroll bar by the specified amount.                                                                     |
 | **Parameters**                              | <ul><li>amount - The amount to shift</li></ul> |
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shiftVerticalTo](#shiftverticalto)
 
@@ -328,9 +353,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Attempts to shift the vertical scroll bar to the specified value.                                                                     |
 | **Parameters**                              | <ul><li>value - The new value (typically between `0` and `1`).</li></ul> |
 | **Returns**                                 | <ul><li>The actual value of the vertical scroll bar.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showChild](#showchild)
 
@@ -341,9 +367,10 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Show's a child element in a Scroll Area.                                                                     |
 | **Parameters**                              | <ul><li>childUI - The `hs.axuielement` object of the child you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showChildAt](#showchildat)
 
@@ -354,6 +381,7 @@ This is a subclass of [Element](cp.ui.Element.md).
 | **Description**                             | Show's a child element in a Scroll Area given a specific index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the child you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

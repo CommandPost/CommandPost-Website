@@ -16,7 +16,7 @@ A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http`
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [closed](#closed)
@@ -26,8 +26,10 @@ A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http`
 | **Signature**                               | `cp.websocket.status.closed <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is closed.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [closing](#closing)
 
@@ -36,8 +38,10 @@ A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http`
 | **Signature**                               | `cp.websocket.status.closing <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to close.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [open](#open)
 
@@ -46,8 +50,10 @@ A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http`
 | **Signature**                               | `cp.websocket.status.open <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is open.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [opening](#opening)
 
@@ -56,5 +62,7 @@ A `table` of statuses used by both `cp.websocket.serial` and `cp.websocket.http`
 | **Signature**                               | `cp.websocket.status.opening <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to open.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

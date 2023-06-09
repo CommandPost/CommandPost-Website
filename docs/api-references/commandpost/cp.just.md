@@ -16,7 +16,7 @@ delayed, up to a finite number of loops.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [doUntil](#dountil)
@@ -28,9 +28,10 @@ delayed, up to a finite number of loops.
 | **Description**                             | Performs an `action` function, looping until the result of the function evaluates to `true` (or a non-nil value). It will halt after the `timeout` in seconds after checking every `frequency` seconds.                                                                     |
 | **Parameters**                              | <ul><li>`actionFn`	- a fuction which is called on each loop. It should return a 'truthy' value.</li><li>`timeout`	- (optional) the number of seconds after which we will give up. Defaults to 1 second.</li><li>`frequency`	- (optional) the amount of time in seconds between checks. Defaults to 1 millisecond.</li></ul> |
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doWhile](#dowhile)
 
@@ -41,9 +42,10 @@ delayed, up to a finite number of loops.
 | **Description**                             | Performs an 'action' function, looping while the result of the function evaluates to `true`. It will halt after `timeout` seconds, checking with the specified `frequency`.                                                                     |
 | **Parameters**                              | <ul><li>`actionFn`	- a fuction which is called on each loop. It should return a 'truthy' value.</li><li>`timeout`	- (optional) the number of seconds after which we will give up. Defaults to 1 second.</li><li>`frequency`	- (optional) the time between checks. Defaults to 1 millisecond.</li></ul> |
 | **Returns**                                 | <ul><li>The last return value of the action function.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [wait](#wait)
 
@@ -54,6 +56,7 @@ delayed, up to a finite number of loops.
 | **Description**                             | Pauses the application for the specified number of seconds.                                                                     |
 | **Parameters**                              | <ul><li>periodInSeconds - the number of seconds to pause for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -21,7 +21,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -33,10 +33,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Description**                             | Checks if the element is a "Video" Role.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [VideoRole](#videorole)
@@ -48,10 +49,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Description**                             | Creates a new instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [subrolesExpanded](#subrolesexpanded)
@@ -61,6 +63,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Video clips.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.VideoRole.subrolesExpanded <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Button](cp.ui.Button.md) that toggles whether the sub-captions are visible.                                                                     |
-| **Notes**                                   | <ul><li>This [Button](cp.ui.Button.md) is only visible when the pointer is hovering over the Role.</li></ul>                |
+| **Notes**                                   | <ul><li>This [Button](cp.ui.Button.md) is only visible when the pointer is hovering over the Role.</li></ul> |
 
 ---
+

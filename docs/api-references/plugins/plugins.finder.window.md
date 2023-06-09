@@ -25,7 +25,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [gridparts](#gridparts)
@@ -35,9 +35,11 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Signature**                               | `plugins.finder.window.gridparts`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | An integer specifying how many gridparts the screen should be divided into. Defaults to 30.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [centerCursor](#centercursor)
@@ -49,9 +51,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Center the cursor on the focused window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [grid](#grid)
 
@@ -62,9 +65,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Shows a modal keyboard driven interface for interactive window resizing.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hints](#hints)
 
@@ -75,9 +79,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Displays a keyboard hint for switching focus to each window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [moveAndResize](#moveandresize)
 
@@ -88,9 +93,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move and resize the focused window.                                                                     |
 | **Parameters**                              | <ul><li>option - A string specifying the option, valid strings are: `halfleft`, `halfright`, `halfup`, `halfdown`, `cornerNW`, `cornerSW`, `cornerNE`, `cornerSE`, `center`, `fullscreen`, `expand`, `shrink`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [moveToScreen](#movetoscreen)
 
@@ -101,9 +107,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move the focused window between all of the screens in the `direction`.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`, `next`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stepMove](#stepmove)
 
@@ -114,9 +121,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Move the focused window in the `direction` by one step. The step scale equals to the width/height of one gridpart.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stepResize](#stepresize)
 
@@ -127,9 +135,10 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Resize the focused window in the `direction` by on step.                                                                     |
 | **Parameters**                              | <ul><li>direction - A string specifying the direction, valid strings are: `left`, `right`, `up`, `down`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [undo](#undo)
 
@@ -140,6 +149,7 @@ Inspired by [WinWin](http://www.hammerspoon.org/Spoons/WinWin.html) for [Hammers
 | **Description**                             | Undo the last window manipulation. Only those "moveAndResize" manipulations can be undone.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

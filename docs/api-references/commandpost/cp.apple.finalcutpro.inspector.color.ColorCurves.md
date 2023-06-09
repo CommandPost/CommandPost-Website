@@ -36,7 +36,7 @@ Requires Final Cut Pro 10.4 or later.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -48,10 +48,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Checks if the specified element is the Color Curves element.                                                                     |
 | **Parameters**                              | <ul><li>element	- The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is the Color Curves.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ColorCurves](#colorcurves)
@@ -63,10 +64,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Creates a new ColorCurves object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [blue](#blue)
@@ -76,8 +78,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.blue <ColorCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contentUI](#contentui)
 
@@ -86,8 +90,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the ColorCurves corrector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [green](#green)
 
@@ -96,8 +102,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.green <ColorCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [luma](#luma)
 
@@ -106,8 +114,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.luma <ColorCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mix](#mix)
 
@@ -116,8 +126,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.mix <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The mix amount for this corrector. A number ranging from `0` to `1`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mixRow](#mixrow)
 
@@ -126,8 +138,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.mixRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PropertyRow` that provides access to the 'Mix' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mixSlider](#mixslider)
 
@@ -136,8 +150,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.mixSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Mix' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preserveLuma](#preserveluma)
 
@@ -146,8 +162,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.preserveLuma <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a [CheckBox](cp.ui.CheckBox.md) that provides access to the 'Preserve Luma' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preserveLumaRow](#preservelumarow)
 
@@ -156,8 +174,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.preserveLumaRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Preserve Luma' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [red](#red)
 
@@ -166,8 +186,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.red <ColorCurve>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [ColorCurve](cp.apple.finalcutpro.inspector.color.ColorCurve.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewingAllCurves](#viewingallcurves)
 
@@ -176,8 +198,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.viewingAllCurves <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and modifies whether the corrector is showing "All Curves" (`true`) or "Single Curves" (`false`).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewModeButton](#viewmodebutton)
 
@@ -186,8 +210,10 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.viewModeButton <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the [MenuButton](cp.ui.MenuButton.md) for the View Mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [wheelType](#wheeltype)
 
@@ -196,9 +222,11 @@ Requires Final Cut Pro 10.4 or later.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorCurves.wheelType <RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` that allows selection of the curve type. Only available when                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [show](#show)
@@ -210,6 +238,7 @@ Requires Final Cut Pro 10.4 or later.
 | **Description**                             | Show's the Color Board within the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorCurves object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

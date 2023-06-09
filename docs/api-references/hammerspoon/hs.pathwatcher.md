@@ -23,7 +23,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -37,10 +37,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
   `paths`: a table containing a list of file paths that have changed
   `flagTables`: a table containing a list of tables denoting how each corresponding file in `paths` has changed, each containing boolean values indicating which types of events occurred; The possible keys are:mustScanSubDirsuserDroppedkernelDroppedeventIdsWrappedhistoryDonerootChangedmountunmountitemCreateditemRemoveditemInodeMetaModitemRenameditemModifieditemFinderInfoModitemChangeOwneritemXattrModitemIsFileitemIsDiritemIsSymlinkownEvent (OS X 10.9+)itemIsHardlink (OS X 10.10+)itemIsLastHardlink (OS X 10.10+)</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.pathwatcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>For more information about the event flags, see [the official documentation](https://developer.apple.com/reference/coreservices/1455361-fseventstreameventflags/)</li></ul>                |
+| **Notes**                                   | <ul><li>For more information about the event flags, see [the official documentation](https://developer.apple.com/reference/coreservices/1455361-fseventstreameventflags/)</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [start](#start)
@@ -52,9 +53,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts a path watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.pathwatcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -65,6 +67,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops a path watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

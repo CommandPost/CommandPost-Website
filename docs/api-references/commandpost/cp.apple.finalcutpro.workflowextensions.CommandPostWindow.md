@@ -27,7 +27,7 @@ The CommandPost Workflow Extension Window.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -39,10 +39,11 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [CommandPostWindow](#commandpostwindow)
@@ -54,10 +55,11 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Creates a new CommandPost Workflow Extension window object.                                                                     |
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `CommandPostWindow` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [reloadButton](#reloadbutton)
@@ -67,9 +69,11 @@ The CommandPost Workflow Extension Window.
 | **Signature**                               | `cp.apple.finalcutpro.workflowextensions.CommandPostWindow.reloadButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Reload Button within a stalled Workflow Extension.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doHide](#dohide)
@@ -81,9 +85,10 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | A `Statement` that attempts to hide the CommandPost Workflow Extension window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -94,9 +99,10 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | A `Statement` that attempts to show the CommandPost Workflow Extension window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hasStalled](#hasstalled)
 
@@ -107,9 +113,10 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Has the Workflow Extension stalled?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if stalled, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -120,9 +127,10 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Attempts to hide the CommandPost Workflow Extension window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reload](#reload)
 
@@ -133,9 +141,10 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Press the Reload Button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -146,6 +155,7 @@ The CommandPost Workflow Extension Window.
 | **Description**                             | Attempts to show the CommandPost Workflow Extension window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `CommandPostWindow`, for chaining.</li></ul>          |
-| **Notes**                                   | <ul><li>If the Workflow Extension has stalled, this method will restart it.</li></ul>                |
+| **Notes**                                   | <ul><li>If the Workflow Extension has stalled, this method will restart it.</li></ul> |
 
 ---
+

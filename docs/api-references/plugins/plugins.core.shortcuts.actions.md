@@ -18,7 +18,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [eventTapCount](#eventtapcount)
@@ -28,8 +28,10 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Signature**                               | `plugins.core.shortcuts.actions.eventTapCount -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A counter to detect how many times the event tap has been triggered.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [heldKeys](#heldkeys)
 
@@ -38,9 +40,11 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Signature**                               | `plugins.core.shortcuts.actions.heldKeys -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of held down modifier keys.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [startEventTap](#starteventtap)
@@ -52,9 +56,10 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Description**                             | Start Event Tap                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopEventTap](#stopeventtap)
 
@@ -65,6 +70,7 @@ Adds actions which allow you to trigger keyboard shortcuts.
 | **Description**                             | Start Event Tap                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

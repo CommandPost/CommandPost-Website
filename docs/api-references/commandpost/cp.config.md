@@ -57,7 +57,7 @@ Manage CommandPost's constants and settings.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [appBuild](#appbuild)
@@ -67,8 +67,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.appBuild -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Build                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [appName](#appname)
 
@@ -77,8 +79,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.appName -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The name of the Application                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [appVersion](#appversion)
 
@@ -87,8 +91,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.appVersion -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application Version                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [assetsPath](#assetspath)
 
@@ -97,8 +103,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.assetsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Assets are stored                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [basePath](#basepath)
 
@@ -107,8 +115,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.basePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where the Extensions & Plugins folders are stored.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [bundledPluginsPath](#bundledpluginspath)
 
@@ -117,8 +127,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.bundledPluginsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to bundled plugins                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [bundleID](#bundleid)
 
@@ -127,8 +139,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.bundleID -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Bundle ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [cachePath](#cachepath)
 
@@ -137,8 +151,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.cachePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the CommandPost Cache folder.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [configPrefix](#configprefix)
 
@@ -147,8 +163,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.configPrefix -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Prefix used for Configuration Settings                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [iconPath](#iconpath)
 
@@ -157,8 +175,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.iconPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Application Icon                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [languagePath](#languagepath)
 
@@ -167,8 +187,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.languagePath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to the Languages Folder                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [pluginPaths](#pluginpaths)
 
@@ -177,8 +199,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.pluginPaths -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Plugins Paths. Earlier entries take precedence.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [privacyPolicyURL](#privacypolicyurl)
 
@@ -187,8 +211,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.privacyPolicyURL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Privacy Policy                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [processID](#processid)
 
@@ -197,8 +223,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.processID -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Application's Process ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scriptPath](#scriptpath)
 
@@ -207,8 +235,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.scriptPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Path to where Application Scripts are stored                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sourceExtensions](#sourceextensions)
 
@@ -217,8 +247,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.sourceExtensions -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Extensions for files which will trigger a reload when modified.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sourceWatcher](#sourcewatcher)
 
@@ -227,8 +259,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.sourceWatcher -> SourceWatcher`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `cp.sourcewatcher` that will watch for source files and reload CommandPost if any change.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [translationURL](#translationurl)
 
@@ -237,8 +271,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.translationURL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | URL for Translations                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [userConfigRootPath](#userconfigrootpath)
 
@@ -247,8 +283,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.userConfigRootPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user configuration folders                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [userPluginsPath](#userpluginspath)
 
@@ -257,9 +295,11 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.userPluginsPath -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to user plugins                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [automaticScriptReloading](#automaticscriptreloading)
@@ -269,8 +309,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.automaticScriptReloading <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatic Script Reloading.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [watcher](#watcher)
 
@@ -279,9 +321,11 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.watcher() -> watcher`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Config Watcher                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [application](#application)
@@ -293,9 +337,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Returns the Application as a hs.application object                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>hs.application object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [get](#get)
 
@@ -306,9 +351,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Loads a setting                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing the name of the setting</li><li>defaultValue - A default value if the setting doesn't already exist</li></ul> |
 | **Returns**                                 | <ul><li>The value of the setting</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [prop](#prop)
 
@@ -319,9 +365,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Returns a `cp.prop` instance connected to the value of the specified key. When the value is modified, it will be notified.                                                                     |
 | **Parameters**                              | <ul><li>`key`				- The configuration setting key.</li><li>`defaultValue`	- The default value if the key has not been set.</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.prop` instance for the key.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -332,9 +379,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Resets all the settings for the Application                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [set](#set)
 
@@ -345,9 +393,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Saves a setting with common datatypes                                                                     |
 | **Parameters**                              | <ul><li>`key`		- A string containing the name of the setting</li><li>`value`		- An optional value for the setting.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This function cannot set dates or raw data types</li><li>Valid datatypes are:</li><li>   ** string</li><li>   ** number</li><li>   ** boolean</li><li>   ** nil</li><li>   ** table (which may contain any of the same valid datatypes)</li><li>if no value is provided, it is assumed to be nil</li></ul>                |
+| **Notes**                                   | <ul><li>This function cannot set dates or raw data types</li><li>Valid datatypes are:</li><li>   ** string</li><li>   ** number</li><li>   ** boolean</li><li>   ** nil</li><li>   ** table (which may contain any of the same valid datatypes)</li><li>if no value is provided, it is assumed to be nil</li></ul> |
 
 ---
+
 
 ### [unwatch](#unwatch)
 
@@ -358,9 +407,10 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Unregisters the watcher with the specified ID.                                                                     |
 | **Parameters**                              | <ul><li>`id`		- The ID, originally returned from the `watch` function.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if a watcher with the ID existed and was successfully removed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watch](#watch)
 
@@ -371,10 +421,11 @@ Manage CommandPost's constants and settings.
 | **Description**                             | Watches for config events.                                                                     |
 | **Parameters**                              | <ul><li>`events`	- a table containing functions for each event to watch for.</li></ul> |
 | **Returns**                                 | <ul><li>a unique ID that can be used to `unwatch`.</li></ul>          |
-| **Notes**                                   | <ul><li>Supported events:</li><li> ** `reset()`	- occurs after CommandPost's settings are reset.</li></ul>                |
+| **Notes**                                   | <ul><li>Supported events:</li><li> ** `reset()`	- occurs after CommandPost's settings are reset.</li></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [developerMode](#developermode)
@@ -384,8 +435,10 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.developerMode <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | When `true`, the app is in developer mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [frontmost](#frontmost)
 
@@ -394,5 +447,7 @@ Manage CommandPost's constants and settings.
 | **Signature**                               | `cp.config.frontmost <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Application is frontmost.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

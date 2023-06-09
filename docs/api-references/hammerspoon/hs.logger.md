@@ -40,7 +40,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [defaultLogLevel](#defaultloglevel)
@@ -50,9 +50,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Signature**                               | `hs.logger.defaultLogLevel`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default log level for new logger instances.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [history](#history)
@@ -64,9 +66,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Returns the global log history                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a list of (at most `hs.logger.historySize()`) log entries produced by all the logger instances, in chronological order;</li><li>   each entry is a table with the following fields:</li><li>  time - timestamp in seconds since the epoch</li><li>  level - a number between 1 (error) and 5 (verbose)</li><li>  id - a string containing the id of the logger instance that produced this entry</li><li>  message - a string containing the logged message</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [historySize](#historysize)
 
@@ -77,9 +80,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Sets or gets the global log history size                                                                     |
 | **Parameters**                              | <ul><li>size - (optional) the desired number of log entries to keep in the history; if omitted, will return the current size; the starting value is 0 (disabled)</li></ul> |
 | **Returns**                                 | <ul><li>the current or new history size</li></ul>          |
-| **Notes**                                   | <ul><li>if you change history size (other than from 0) after creating any logger instances, things will likely break</li></ul>                |
+| **Notes**                                   | <ul><li>if you change history size (other than from 0) after creating any logger instances, things will likely break</li></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -90,9 +94,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Creates a new logger instance                                                                     |
 | **Parameters**                              | <ul><li>id - a string identifier for the instance (usually the module name)</li><li>loglevel - (optional) can be 'nothing', 'error', 'warning', 'info', 'debug', or 'verbose', or a corresponding number between 0 and 5; uses `hs.logger.defaultLogLevel` if omitted</li></ul> |
 | **Returns**                                 | <ul><li>the new logger instance</li></ul>          |
-| **Notes**                                   | <ul><li>the logger instance created by this method is not a regular object, but a plain table with "static" functions;</li><li>   therefore, do not use the colon syntax for so-called "methods" in this module (as in `mylogger.setLogLevel(3)`);</li><li>   you must instead use the regular dot syntax: `mylogger.setLogLevel(3)`</li><li></li><li>Example:</li><li>```lua</li><li>local log = hs.logger.new('mymodule','debug')</li><li>log.i('Initializing') -- will print "[mymodule] Initializing" to the console```</li></ul>                |
+| **Notes**                                   | <ul><li>the logger instance created by this method is not a regular object, but a plain table with "static" functions;</li><li>   therefore, do not use the colon syntax for so-called "methods" in this module (as in `mylogger.setLogLevel(3)`);</li><li>   you must instead use the regular dot syntax: `mylogger.setLogLevel(3)`</li><li></li><li>Example:</li><li>```lua</li><li>local log = hs.logger.new('mymodule','debug')</li><li>log.i('Initializing') -- will print "[mymodule] Initializing" to the console```</li></ul> |
 
 ---
+
 
 ### [printHistory](#printhistory)
 
@@ -103,9 +108,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Prints the global log history to the console                                                                     |
 | **Parameters**                              | <ul><li>entries - (optional) the maximum number of entries to print; if omitted, all entries in the history will be printed</li><li>level - (optional) the desired log level (see `hs.logger.setLogLevel()`); if omitted, defaults to `verbose`</li><li>filter - (optional) a string to filter the entries (by logger id or message) via `string.find` plain matching</li><li>caseSensitive - (optional) if true, filtering is case sensitive</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGlobalLogLevel](#setgloballoglevel)
 
@@ -116,9 +122,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Sets the log level for all logger instances (including objects' loggers)                                                                     |
 | **Parameters**                              | <ul><li>lvl</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setModulesLogLevel](#setmodulesloglevel)
 
@@ -129,10 +136,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Sets the log level for all currently loaded modules                                                                     |
 | **Parameters**                              | <ul><li>lvl</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This function only affects *module*-level loggers, object instances with their own loggers (e.g. windowfilters) won't be affected;</li><li>   you can use `hs.logger.setGlobalLogLevel()` for those</li></ul>                |
+| **Notes**                                   | <ul><li>This function only affects *module*-level loggers, object instances with their own loggers (e.g. windowfilters) won't be affected;</li><li>   you can use `hs.logger.setGlobalLogLevel()` for those</li></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [level](#level)
@@ -142,9 +150,11 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Signature**                               | `hs.logger.level`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The log level of the logger instance, as a number between 0 and 5                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [d](#d)
@@ -156,9 +166,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs debug info to the console                                                                     |
 | **Parameters**                              | <ul><li>... - one or more message strings</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [df](#df)
 
@@ -169,9 +180,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs formatted debug info to the console                                                                     |
 | **Parameters**                              | <ul><li>fmt - formatting string as per string.format</li><li>... - arguments to fmt</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [e](#e)
 
@@ -182,9 +194,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs an error to the console                                                                     |
 | **Parameters**                              | <ul><li>... - one or more message strings</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ef](#ef)
 
@@ -195,9 +208,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs a formatted error to the console                                                                     |
 | **Parameters**                              | <ul><li>fmt - formatting string as per string.format</li><li>... - arguments to fmt</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [f](#f)
 
@@ -208,9 +222,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs formatted info to the console                                                                     |
 | **Parameters**                              | <ul><li>fmt - formatting string as per string.format</li><li>... - arguments to fmt</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLogLevel](#getloglevel)
 
@@ -221,9 +236,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Gets the log level of the logger instance                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The log level of this logger as a number between 0 and 5</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [i](#i)
 
@@ -234,9 +250,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs info to the console                                                                     |
 | **Parameters**                              | <ul><li>... - one or more message strings</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setLogLevel](#setloglevel)
 
@@ -247,9 +264,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Sets the log level of the logger instance                                                                     |
 | **Parameters**                              | <ul><li>loglevel - can be 'nothing', 'error', 'warning', 'info', 'debug', or 'verbose'; or a corresponding number between 0 and 5</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [v](#v)
 
@@ -260,9 +278,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs verbose info to the console                                                                     |
 | **Parameters**                              | <ul><li>... - one or more message strings</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [vf](#vf)
 
@@ -273,9 +292,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs formatted verbose info to the console                                                                     |
 | **Parameters**                              | <ul><li>fmt - formatting string as per string.format</li><li>... - arguments to fmt</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [w](#w)
 
@@ -286,9 +306,10 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs a warning to the console                                                                     |
 | **Parameters**                              | <ul><li>... - one or more message strings</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [wf](#wf)
 
@@ -299,6 +320,7 @@ Note: "methods" in this module are actually "static" functions - see `hs.logger.
 | **Description**                             | Logs a formatted warning to the console                                                                     |
 | **Parameters**                              | <ul><li>fmt - formatting string as per string.format</li><li>... - arguments to fmt</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

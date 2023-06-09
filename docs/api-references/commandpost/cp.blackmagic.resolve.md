@@ -52,7 +52,7 @@ The Blackmagic DaVinci Resolve Extension.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
@@ -62,8 +62,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION <semver>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version this API supports.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preferences](#preferences)
 
@@ -72,9 +74,11 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for DaVinci Resolve.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [Color](#color)
@@ -86,8 +90,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | The Color Workspace.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the Browser</li></ul>          |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [currentLocale](#currentlocale)
 
@@ -96,8 +102,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.currentLocale <cp.prop: cp.i18n.localeID; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets and sets the current locale for FCPX.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isFrontmost](#isfrontmost)
 
@@ -106,8 +114,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve:isFrontmost <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is DaVinci Resolve Frontmost?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isInstalled](#isinstalled)
 
@@ -116,8 +126,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.isInstalled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is any version of DaVinci Resolve Installed?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isModalDialogOpen](#ismodaldialogopen)
 
@@ -126,8 +138,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve:isModalDialogOpen <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a modal dialog currently open?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -136,8 +150,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.isRunning <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is DaVinci Resolve Running?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -146,8 +162,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut visible on screen?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isSupported](#issupported)
 
@@ -156,9 +174,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.isSupported <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a supported version of DaVinci Resolve installed?                                                                     |
-| **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to `cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION`</li></ul>                |
+| **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to `cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION`</li></ul> |
 
 ---
+
 
 ### [isUnsupported](#isunsupported)
 
@@ -167,9 +186,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.isUnsupported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is an unsupported version of DaVinci Resolve installed?                                                                     |
-| **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION</li></ul>                |
+| **Notes**                                   | <ul><li>Supported version refers to any version of DaVinci Resolve equal or higher to cp.blackmagic.resolve.EARLIEST_SUPPORTED_VERSION</li></ul> |
 
 ---
+
 
 ### [primaryWindow](#primarywindow)
 
@@ -178,8 +198,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.primaryWindow <PrimaryWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The DaVinci Resolve Primary Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [supportedLocales](#supportedlocales)
 
@@ -188,8 +210,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.supportedLocales <cp.prop: table of cp.i18n.localeID; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of supported locales for this version of FCPX.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -198,8 +222,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.UI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The DaVinci Resolve `axuielement`, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [version](#version)
 
@@ -208,8 +234,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.version <cp.prop: semver; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The version number of the running or default installation of FCPX as a `semver`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [versionString](#versionstring)
 
@@ -218,8 +246,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.versionString <cp.prop: string; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The version number of the running or default installation of FCPX as a `string`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [windowsUI](#windowsui)
 
@@ -228,9 +258,11 @@ The Blackmagic DaVinci Resolve Extension.
 | **Signature**                               | `cp.blackmagic.resolve.windowsUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI containing the list of windows in the app.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [bundleID](#bundleid)
@@ -242,9 +274,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Returns the Bundle ID for the app.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Bundle ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -255,9 +288,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will hide the FCP.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doLaunch](#dolaunch)
 
@@ -268,9 +302,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will launch, or focus it if already running FCP.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doQuit](#doquit)
 
@@ -281,9 +316,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will quit FCP.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doRestart](#dorestart)
 
@@ -294,9 +330,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.cp) that will restart DaVinci Resolve, if it is running. If not, nothing happens.                                                                     |
 | **Parameters**                              | <ul><li>None.</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -307,9 +344,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show FCP on-screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPath](#getpath)
 
@@ -320,9 +358,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Path to DaVinci Resolve Application                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing DaVinci Resolve's filesystem path, or nil if DaVinci Resolve's path could not be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -333,9 +372,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Hides DaVinci Resolve                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [launch](#launch)
 
@@ -346,9 +386,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Launches DaVinci Resolve, or brings it to the front if it was already running.                                                                     |
 | **Parameters**                              | <ul><li>`waitSeconds` - If provided, the number of seconds to wait until the launch completes. If `nil`, it will return immediately.</li><li>`path`        - An optional full path to an application without an extension (i.e `/Applications/DaVinci Resolve 10.3.4`). This allows you to load previous versions of the application.</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [notifier](#notifier)
 
@@ -359,9 +400,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Returns a notifier that is tracking the application UI element. It has already been started.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [quit](#quit)
 
@@ -372,9 +414,10 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Quits DaVinci Resolve, if it's running.                                                                     |
 | **Parameters**                              | <ul><li>waitSeconds      - The number of seconds to wait for the quit to complete.</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -385,6 +428,7 @@ The Blackmagic DaVinci Resolve Extension.
 | **Description**                             | Activate DaVinci Resolve, if it is running.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The FCP instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

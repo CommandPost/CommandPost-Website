@@ -13,7 +13,7 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -25,6 +25,7 @@ A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inhe
 | **Description**                             | Checks if the `element` is a `Table`.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

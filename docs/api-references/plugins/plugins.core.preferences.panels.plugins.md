@@ -16,7 +16,7 @@ Plugins Preferences Panel
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [SETTINGS_DISABLED](#settings_disabled)
@@ -26,9 +26,11 @@ Plugins Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.plugins.SETTINGS_DISABLED`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Plugins Disabled                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [init](#init)
@@ -40,6 +42,7 @@ Plugins Preferences Panel
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - The plugin dependencies.</li><li>env  - The plugin environment.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

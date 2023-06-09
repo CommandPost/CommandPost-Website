@@ -14,7 +14,7 @@ Window Slide Widget for Touch Bar.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -26,9 +26,10 @@ Window Slide Widget for Touch Bar.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [widget](#widget)
 
@@ -39,6 +40,7 @@ Window Slide Widget for Touch Bar.
 | **Description**                             | The Widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

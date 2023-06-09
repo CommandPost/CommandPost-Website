@@ -20,7 +20,7 @@ Your functions/chunks can return text, which will be returned by the action in S
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [list](#list)
@@ -32,9 +32,10 @@ Your functions/chunks can return text, which will be returned by the action in S
 | **Description**                             | Returns a list of available shortcuts                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of shortcuts, each being a table with the following keys:</li><li> name - The name of the shortcut</li><li> id - A unique ID for the shortcut</li><li> acceptsInput - A boolean indicating if the shortcut requires input</li><li> actionCount - A number relating to how many actions are in the shortcut</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [run](#run)
 
@@ -45,6 +46,7 @@ Your functions/chunks can return text, which will be returned by the action in S
 | **Description**                             | Execute a Shortcuts shortcut by name                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of the Shortcut to execute</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

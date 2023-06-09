@@ -47,7 +47,7 @@ myButton(false) == false	-- now false
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -59,10 +59,11 @@ myButton(false) == false	-- now false
 | **Description**                             | Checks if the provided `hs.axuielement` is a DisclosureTriangle.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [DisclosureTriangle](#disclosuretriangle)
@@ -74,10 +75,11 @@ myButton(false) == false	-- now false
 | **Description**                             | Creates a new DisclosureTriangle.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `DisclosureTriangle`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [opened](#opened)
@@ -87,8 +89,10 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.DisclosureTriangle.opened <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the disclosure triangle is currently opened.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [title](#title)
 
@@ -97,9 +101,11 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.DisclosureTriangle.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [click](#click)
@@ -111,9 +117,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Performs a single mouse click on the triangle.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doClose](#doclose)
 
@@ -124,9 +131,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will ensure the `DisclosureTriangle` is unopened.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doOpen](#doopen)
 
@@ -137,9 +145,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will ensure the `DisclosureTriangle` is opened.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doPress](#dopress)
 
@@ -150,9 +159,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will press the button when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -163,9 +173,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Applies the settings in the provided layout table.                                                                     |
 | **Parameters**                              | <ul><li>layout - The table containing layout settings. Usually created by the `saveLayout` method.</li></ul> |
 | **Returns**                                 | <ul><li>nil</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [press](#press)
 
@@ -176,9 +187,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Attempts to press the button. May fail if the `UI` is not available.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -189,9 +201,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a table containing the layout settings. This table may be passed to the `loadLayout` method to restore the saved layout.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A settings table.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggle](#toggle)
 
@@ -202,6 +215,7 @@ myButton(false) == false	-- now false
 | **Description**                             | Toggles the `opened` status of the button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `DisclosureTriangle` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

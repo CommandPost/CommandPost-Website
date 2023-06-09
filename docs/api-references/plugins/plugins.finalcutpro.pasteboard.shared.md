@@ -29,7 +29,7 @@ Shared Pasteboard Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [copyWithCustomClipName](#copywithcustomclipname)
@@ -41,9 +41,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Triggers a copy with custom clip name action.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [copyWithCustomClipNameAndFolder](#copywithcustomclipnameandfolder)
 
@@ -54,9 +55,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Copy with Custom Label & Folder.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doDecodeHistoryItem](#dodecodehistoryitem)
 
@@ -67,9 +69,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Decodes a Paste History Item.                                                                     |
 | **Parameters**                              | <ul><li>folderName - The folder name</li><li>index - The index of the item you want to decode</li></ul> |
 | **Returns**                                 | <ul><li>The decoded Pasteboard History Item or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doPasteHistoryItem](#dopastehistoryitem)
 
@@ -80,9 +83,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Paste History Item.                                                                     |
 | **Parameters**                              | <ul><li>folderName - The folder name</li><li>index - The index of the item you want to paste</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generateSharedPasteboardMenu](#generatesharedpasteboardmenu)
 
@@ -93,9 +97,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Generates the shared pasteboard menu.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The shared pasteboard menu as a table.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getFolderNames](#getfoldernames)
 
@@ -106,9 +111,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Returns the list of folder names as an array of strings.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of folder names.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHistory](#gethistory)
 
@@ -119,9 +125,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Gets the history for a supplied folder name.                                                                     |
 | **Parameters**                              | <ul><li>folderName - The folder name</li></ul> |
 | **Returns**                                 | <ul><li>The history in a table.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHistoryPath](#gethistorypath)
 
@@ -132,9 +139,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Gets the History Path.                                                                     |
 | **Parameters**                              | <ul><li>folderName - The folder name</li><li>fileExtension - The file extension</li></ul> |
 | **Returns**                                 | <ul><li>The history path as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLocalFolderName](#getlocalfoldername)
 
@@ -145,9 +153,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Gets the local folder name.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [overrideNextFolderName](#overridenextfoldername)
 
@@ -158,9 +167,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Overrides the folder name for the next clip which is copied from Final Cut Pro to the specified value. Once the override has been used, the standard folder name via `mod.getLocalFolderName()` will be used for subsequent copy operations.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The local folder name as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setHistory](#sethistory)
 
@@ -171,9 +181,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Clears the history.                                                                     |
 | **Parameters**                              | <ul><li>folderName - The folder name</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -184,9 +195,10 @@ Shared Pasteboard Plugin.
 | **Description**                             | Starts or stops the Shared Pasteboard watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [validRootPath](#validrootpath)
 
@@ -197,10 +209,11 @@ Shared Pasteboard Plugin.
 | **Description**                             | Gets whether or not the current root path exists.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it exists otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -210,8 +223,10 @@ Shared Pasteboard Plugin.
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets whether or not the shared pasteboard is enabled as a boolean.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [path](#path)
 
@@ -220,5 +235,7 @@ Shared Pasteboard Plugin.
 | **Signature**                               | `plugins.finalcutpro.pasteboard.shared.path <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Shared Pasteboard Root Path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

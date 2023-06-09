@@ -108,7 +108,7 @@ approximations, and leave it at that!
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [perFrame100](#perframe100)
@@ -118,8 +118,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame100`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 100 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame120](#perframe120)
 
@@ -128,8 +130,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame120`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 120 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame120NTSC](#perframe120ntsc)
 
@@ -138,8 +142,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame120NTSC`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 120 fps in NTSC, a.k.a. ~119.88 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame24](#perframe24)
 
@@ -148,8 +154,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame24`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 24 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame24NTSC](#perframe24ntsc)
 
@@ -158,8 +166,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame24NTSC`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 24 fps in NTSC, a.k.a. 23.976 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame25](#perframe25)
 
@@ -168,8 +178,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame25`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 25 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame30](#perframe30)
 
@@ -178,8 +190,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame30`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 30 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame30NTSC](#perframe30ntsc)
 
@@ -188,8 +202,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame30NTSC`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 30 fps in NTSC, a.k.a. 29.97 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame44100](#perframe44100)
 
@@ -198,8 +214,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame44100`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 44100 fps, a.k.a. 44.1 Hz.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame48](#perframe48)
 
@@ -208,8 +226,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame48`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 48 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame48000](#perframe48000)
 
@@ -218,8 +238,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame48000`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 44100 fps, a.k.a. 48 Hz.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame50](#perframe50)
 
@@ -228,8 +250,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame50`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 50 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame60](#perframe60)
 
@@ -238,8 +262,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame60`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 60 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame60NTSC](#perframe60ntsc)
 
@@ -248,8 +274,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame60NTSC`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An approximate for flicks in 1 frame at 60 fps in NTSC, a.k.a. 59.94 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perFrame90](#perframe90)
 
@@ -258,8 +286,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perFrame90`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 frame at 90 fps.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perHour](#perhour)
 
@@ -268,8 +298,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perHour`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 hour.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perMinutes](#perminutes)
 
@@ -278,8 +310,10 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perMinutes`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 minute.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [perSecond](#persecond)
 
@@ -288,9 +322,11 @@ approximations, and leave it at that!
 | **Signature**                               | `cp.time.flicks.perSecond`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of flicks in 1 second.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [is](#is)
@@ -302,10 +338,11 @@ approximations, and leave it at that!
 | **Description**                             | Checks if the `thing` is a `flicks` instance.                                                                     |
 | **Parameters**                              | <ul><li>thing - the thing to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thingis a flicks instance, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -317,9 +354,10 @@ approximations, and leave it at that!
 | **Description**                             | Creates a new `flicks` instance. By default, the unit is in flicks`, but can be set as a different unit using the `flicks.perXXX` constants.                                                                     |
 | **Parameters**                              | <ul><li>value - the base value to set to</li></ul> |
 | **Returns**                                 | <ul><li>the new `flicks` instance</li></ul>          |
-| **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local oneFlick = flicks.new(1)</li><li>local oneSecond = flicks.new(1flicks.perSecond)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>local oneFlick = flicks.new(1)</li><li>local oneSecond = flicks.new(1flicks.perSecond)</li><li>```</li></ul> |
 
 ---
+
 
 ### [parse](#parse)
 
@@ -330,10 +368,11 @@ approximations, and leave it at that!
 | **Description**                             | Attempts to parse the timecode string value with the specified framerate.                                                                     |
 | **Parameters**                              | <ul><li>timecodeString   - The timecode as a string.</li><li>framerate        - The number of frames per second.</li></ul> |
 | **Returns**                                 | <ul><li>a new `flicks` instance for the timecode.</li></ul>          |
-| **Notes**                                   | <ul><li>The timecode can match the folowing patterns:</li><li></li><li>`"HH:MM:SS:FF"`</li><li>`"HH:MM:SS;FF"`</li><li>`"HHMMSSFF"`</li><li></li><li>The characters above match to `H`ours, `M`inutes `S`econds and `F`rames, respectively. For example,</li><li>a timecode of 1 hour, 23 minutes, 45 seconds and 12 frames could be expressed as:</li><li></li><li>`"01:23:45:12"`</li><li>`"01:23:45;12"`</li><li>`"01234512"`</li><li></li><li>Times with a value of zero from left to right may be omitted. After the first non-zero value, all</li><li>other numbers including framesmust always be expressed, even if they are zero.</li><li>So, if your timecode is 1 minute 30 seconds, you could use:</li><li></li><li>`"1:30:00"`</li><li>`"1:30;00"`</li><li>`"13000"`</li><li></li><li>You can also put numbers up to `99` in each block. So, another way of expressing 1 minute 30 seconds is:</li><li></li><li>`"90:00"`</li><li>`"90;00"`</li><li>`"9000"`</li></ul>                |
+| **Notes**                                   | <ul><li>The timecode can match the folowing patterns:</li><li></li><li>`"HH:MM:SS:FF"`</li><li>`"HH:MM:SS;FF"`</li><li>`"HHMMSSFF"`</li><li></li><li>The characters above match to `H`ours, `M`inutes `S`econds and `F`rames, respectively. For example,</li><li>a timecode of 1 hour, 23 minutes, 45 seconds and 12 frames could be expressed as:</li><li></li><li>`"01:23:45:12"`</li><li>`"01:23:45;12"`</li><li>`"01234512"`</li><li></li><li>Times with a value of zero from left to right may be omitted. After the first non-zero value, all</li><li>other numbers including framesmust always be expressed, even if they are zero.</li><li>So, if your timecode is 1 minute 30 seconds, you could use:</li><li></li><li>`"1:30:00"`</li><li>`"1:30;00"`</li><li>`"13000"`</li><li></li><li>You can also put numbers up to `99` in each block. So, another way of expressing 1 minute 30 seconds is:</li><li></li><li>`"90:00"`</li><li>`"90;00"`</li><li>`"9000"`</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [toFrames](#toframes)
@@ -345,9 +384,10 @@ approximations, and leave it at that!
 | **Description**                             | Converts the flicks into a number for the specific framerate.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the number of frames</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toSeconds](#toseconds)
 
@@ -358,9 +398,10 @@ approximations, and leave it at that!
 | **Description**                             | Converts the flicks into a decimal value of the number of seconds it represents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the number of seconds</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toTimecode](#totimecode)
 
@@ -371,6 +412,7 @@ approximations, and leave it at that!
 | **Description**                             | Converts the flicks into a string of the format "HH[:]MM[:]SS[:;]FF", with hours, minutes and frames listed respectively.                                                                     |
 | **Parameters**                              | <ul><li>framerate    - the framerate to use when calculating frames per second.</li><li>delimeter    - either `nil` (default), ":", or ";".</li></ul> |
 | **Returns**                                 | <ul><li>String of the timecode.</li></ul>          |
-| **Notes**                                   | <ul><li> By default, there will be no delimiter. If you provide ":" then all delimiters will be colons. If you provide ";" then the final delimiter will be a semic-colon, all others will be colons.</li></ul>                |
+| **Notes**                                   | <ul><li> By default, there will be no delimiter. If you provide ":" then all delimiters will be colons. If you provide ";" then the final delimiter will be a semic-colon, all others will be colons.</li></ul> |
 
 ---
+

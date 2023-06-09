@@ -33,7 +33,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [NUMBER_OF_DEVICES](#number_of_devices)
@@ -43,9 +43,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.NUMBER_OF_DEVICES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of devices of the same type supported.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [executeAction](#executeaction)
@@ -57,10 +59,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Executes an action.                                                                     |
 | **Parameters**                              | <ul><li>thisAction - The action to execute</li><li>deviceNumber - The device number</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -72,10 +75,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Creates a new Loupedeck object.                                                                     |
 | **Parameters**                              | <ul><li>deviceType - The device type defined in `hs.loupedeck.deviceTypes`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul>                |
+| **Notes**                                   | <ul><li>The deviceType should be either `hs.loupedeck.deviceTypes.LIVE`</li><li>   or `hs.loupedeck.deviceTypes.CT`.</li></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [lastApplication](#lastapplication)
@@ -85,8 +89,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.lastApplication <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last application                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBank](#lastbank)
 
@@ -95,8 +101,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.lastBank <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last bank                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
 
@@ -105,9 +113,11 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Signature**                               | `plugins.core.loupedeckctandlive.manager.previewSelectedApplicationAndBankOnHardware <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we preview the selected application and bank on hardware?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [callback](#callback)
@@ -119,9 +129,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | The Loupedeck callback.                                                                     |
 | **Parameters**                              | <ul><li>data - The callback data.</li><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [clearCache](#clearcache)
 
@@ -132,9 +143,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Clears the cache.                                                                     |
 | **Parameters**                              | <ul><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getFlashDrivePath](#getflashdrivepath)
 
@@ -145,9 +157,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Gets the Loupedeck Flash Drive path.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Loupedeck Flash Drive path as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refresh](#refresh)
 
@@ -158,9 +171,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Refreshes the Loupedeck screens and LED buttons.                                                                     |
 | **Parameters**                              | <ul><li>dueToAppChange - A optional boolean to specify whether the refresh is due to an application focus change.</li><li>deviceNumber - The device number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refreshItems](#refreshitems)
 
@@ -171,9 +185,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Refreshes the items to either either local drive or the Loupedeck Flash Drive.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -184,9 +199,10 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Resets the config back to the default layout.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateBacklightLevel](#updatebacklightlevel)
 
@@ -197,6 +213,7 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
 | **Description**                             | Update the backlight level for a Loupedeck device.                                                                     |
 | **Parameters**                              | <ul><li>deviceNumber - The device number.</li><li>value - The backlight level</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

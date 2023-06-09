@@ -18,7 +18,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [shortcuts](#shortcuts)
@@ -28,9 +28,11 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Signature**                               | `plugins.core.actions.custom.shortcuts <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of shortcuts.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [apply](#apply)
@@ -42,9 +44,10 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Description**                             | Applies a shortcut.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The Custom Action ID.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [assign](#assign)
 
@@ -55,6 +58,7 @@ This allows you to assign any action to a shortcut key in CommandPost.
 | **Description**                             | Assigns an Action to a Shortcut via a Console.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The Custom Action ID.</li><li>`completionFn` - An optional completion function that triggers when a selection is made.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

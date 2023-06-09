@@ -15,7 +15,7 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [First](#first)
@@ -27,6 +27,7 @@ A [Statement](cp.rx.go.Statement.md) that will complete after the first result r
 | **Description**                             | Creates a new `First` `Statement` that will return the first value from the `resolvable` and complete.                                                                     |
 | **Parameters**                              | <ul><li>resolvable  - a `resolvable` value, of which the first result will be returned.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>First(someObservable)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>First(someObservable)</li><li>```</li></ul> |
 
 ---
+

@@ -19,7 +19,7 @@ Fullscreen Shortcuts
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [enabled](#enabled)
@@ -29,9 +29,11 @@ Fullscreen Shortcuts
 | **Signature**                               | `plugins.finalcutpro.fullscreen.shortcuts.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the module enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [checkCommand](#checkcommand)
@@ -43,9 +45,10 @@ Fullscreen Shortcuts
 | **Description**                             | Checks to see if a shortcut has been pressed, then processes.                                                                     |
 | **Parameters**                              | <ul><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ninjaKeyStroke](#ninjakeystroke)
 
@@ -56,9 +59,10 @@ Fullscreen Shortcuts
 | **Description**                             | Performs a Ninja Key Stoke.                                                                     |
 | **Parameters**                              | <ul><li>whichModifier - Modifier Key</li><li>whichKey - Key</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [performCommand](#performcommand)
 
@@ -69,9 +73,10 @@ Fullscreen Shortcuts
 | **Description**                             | Performs a command.                                                                     |
 | **Parameters**                              | <ul><li>cmd - The Command.</li><li>whichModifier - Which modifier key to check.</li><li>whichKey - Which key to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -82,6 +87,7 @@ Fullscreen Shortcuts
 | **Description**                             | Toggles the watches for monitoring fullscreen playback.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

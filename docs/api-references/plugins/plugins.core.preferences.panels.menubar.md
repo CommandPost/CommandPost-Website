@@ -17,7 +17,7 @@ Menubar Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [displayMenubarAsIcon](#displaymenubarasicon)
@@ -27,8 +27,10 @@ Menubar Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.menubar.displayMenubarAsIcon <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastGroup](#lastgroup)
 
@@ -37,8 +39,10 @@ Menubar Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.menubar.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastIconPath](#lasticonpath)
 
@@ -47,8 +51,10 @@ Menubar Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.menubar.lastIconPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Icon path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [menubarLabel](#menubarlabel)
 
@@ -57,8 +63,10 @@ Menubar Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.menubar.menubarLabel <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The menubar icon.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showSectionHeadingsInMenubar](#showsectionheadingsinmenubar)
 
@@ -67,5 +75,7 @@ Menubar Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.menubar.showSectionHeadingsInMenubar <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Show section headings in menubar.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

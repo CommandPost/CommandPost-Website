@@ -18,7 +18,7 @@ The set of event types received from websocket connections.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [closed](#closed)
@@ -28,8 +28,10 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.closed <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has closed.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [closing](#closing)
 
@@ -38,8 +40,10 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.closing <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to close.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [error](#error)
 
@@ -48,8 +52,10 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.error <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | There was an error. The connection may still be open.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [message](#message)
 
@@ -58,8 +64,10 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.message <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has sent a message.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [opened](#opened)
 
@@ -68,8 +76,10 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.opened <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket has opened.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [opening](#opening)
 
@@ -78,5 +88,7 @@ The set of event types received from websocket connections.
 | **Signature**                               | `cp.websocket.event.opening <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The socket is attempting to open.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

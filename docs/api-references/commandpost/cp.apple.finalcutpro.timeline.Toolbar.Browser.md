@@ -14,7 +14,7 @@ A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Ef
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [effects](#effects)
@@ -24,8 +24,10 @@ A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Ef
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Browser.effects <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Effects' browser visibility.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [transitions](#transitions)
 
@@ -34,5 +36,7 @@ A [RadioGroup](cp.ui.RadioGroup.md) that contains buttons to show or hide the Ef
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Browser.transitions <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) which toggles the 'Transitions' browser visibility.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

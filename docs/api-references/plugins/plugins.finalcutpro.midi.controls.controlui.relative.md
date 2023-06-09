@@ -14,7 +14,7 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [control](#control)
@@ -26,9 +26,10 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Description**                             | Control Function                                                                     |
 | **Parameters**                              | <ul><li>metadata - table of metadata from the MIDI callback</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -39,6 +40,7 @@ Adds the ability to control any Final Cut Pro User Interface Element via a MIDI 
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The module</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

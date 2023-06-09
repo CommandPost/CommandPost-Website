@@ -13,7 +13,7 @@ CommandPost's Internationalisation & Localisation Manger.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -25,6 +25,7 @@ CommandPost's Internationalisation & Localisation Manger.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

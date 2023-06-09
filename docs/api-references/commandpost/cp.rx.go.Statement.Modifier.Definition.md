@@ -18,7 +18,7 @@ all of it's methods also.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -30,10 +30,11 @@ all of it's methods also.
 | **Description**                             | Checks if the `thing` is a `Statement.Modifier.Definition`.                                                                     |
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Modifier.Definition`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [define](#define)
@@ -45,6 +46,7 @@ all of it's methods also.
 | **Description**                             | Defines the `Statement.Modifier`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new [Statement.Modifier](cp.rx.go.Statement.Modifier.md) definition.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

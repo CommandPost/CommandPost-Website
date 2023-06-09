@@ -31,7 +31,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [default](#default)
@@ -43,10 +43,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Gets and sets the current default `Handler` implementation. This is used when processing test runs.                                                                     |
 | **Parameters**                              | <ul><li>handler - (optional) when provided, sets the default to the specified handler.</li></ul> |
 | **Returns**                                 | <ul><li>The current `Handler` implementation.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Handler](#handler)
@@ -58,10 +59,11 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Creates a new `Handler`                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [aborted](#aborted)
@@ -73,9 +75,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has had an abort.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li><li>msg - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [checkVerbose](#checkverbose)
 
@@ -86,9 +89,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Indicates if either the handler or the individual [Run](cp.spec.Run.md) is "verbose". If so, more messages may be output by the handler.                                                                     |
 | **Parameters**                              | <ul><li>run</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [failed](#failed)
 
@@ -99,9 +103,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has failed.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [filter](#filter)
 
@@ -112,9 +117,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) is running due to being filtered.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>msg       - The message.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [passed](#passed)
 
@@ -125,9 +131,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has passed.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -138,9 +145,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has started.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -151,9 +159,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has completed.                                                                     |
 | **Parameters**                              | <ul><li>run - The test run.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [summary](#summary)
 
@@ -164,9 +173,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate the [run](cp.spec.Run.md) has passed with the given [report](cp.spec.Report.md).                                                                     |
 | **Parameters**                              | <ul><li>run  - The test run.</li><li>report - The test reports.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [verbose](#verbose)
 
@@ -177,9 +187,10 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Indicate that the handler is (or is not) verbose. If not provided, this is set to `true`.                                                                     |
 | **Parameters**                              | <ul><li>isVerbose - (optional) If set to `false`, the handler will not be verbose. Defaults to `true`.</li></ul> |
 | **Returns**                                 | <ul><li>The `Handler` instance, for chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [waiting](#waiting)
 
@@ -190,6 +201,7 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
 | **Description**                             | Call to indicate that the run is waiting asynchronously.                                                                     |
 | **Parameters**                              | <ul><li>run      - The test run.</li><li>timeout  - The timeout, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

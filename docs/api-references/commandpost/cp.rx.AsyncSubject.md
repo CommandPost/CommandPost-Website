@@ -23,7 +23,7 @@ the `Observer` will immediately receive the value or the error.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [create](#create)
@@ -35,10 +35,11 @@ the `Observer` will immediately receive the value or the error.
 | **Description**                             | Creates a new `AsyncSubject`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `AsyncSubject`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [onCompleted](#oncompleted)
@@ -50,9 +51,10 @@ the `Observer` will immediately receive the value or the error.
 | **Description**                             | Signal to all [Observers](cp.rx.Observers.md) that the `AsyncSubject` will not produce any more values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onError](#onerror)
 
@@ -63,9 +65,10 @@ the `Observer` will immediately receive the value or the error.
 | **Description**                             | Signal to all [Observers](cp.rx.Observer.md) that an error has occurred.                                                                     |
 | **Parameters**                              | <ul><li>message - A string describing what went wrong.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onNext](#onnext)
 
@@ -76,9 +79,10 @@ the `Observer` will immediately receive the value or the error.
 | **Description**                             | Pushes zero or more values to the `AsyncSubject`.                                                                     |
 | **Parameters**                              | <ul><li>...       - The values to send.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [subscribe](#subscribe)
 
@@ -89,6 +93,7 @@ the `Observer` will immediately receive the value or the error.
 | **Description**                             | Creates a new [Observer](cp.rx.Observer.md) and attaches it to the `AsyncSubject`.                                                                     |
 | **Parameters**                              | <ul><li>onNext | observer - A `function` called when the `AsyncSubject` produces a value or an existing [Observer](cp.rx.Observer.md) to attach to the `AsyncSubject`.</li><li>onError           - A `function` called when the `AsyncSubject` terminates due to an error.</li><li>onCompleted       - A `funtion` called when the `AsyncSubject` completes normally.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

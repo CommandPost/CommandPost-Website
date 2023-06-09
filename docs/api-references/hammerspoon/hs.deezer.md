@@ -39,7 +39,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [state_paused](#state_paused)
@@ -49,8 +49,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is paused                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_playing](#state_playing)
 
@@ -59,8 +61,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is playing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_stopped](#state_stopped)
 
@@ -69,9 +73,11 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Signature**                               | `hs.deezer.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.deezer.getPlaybackState()` to indicates deezer is stopped                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [displayCurrentTrack](#displaycurrenttrack)
@@ -83,9 +89,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Displays information for current track on screen                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ff](#ff)
 
@@ -96,9 +103,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips the playback position forwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentAlbum](#getcurrentalbum)
 
@@ -109,9 +117,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the album of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentArtist](#getcurrentartist)
 
@@ -122,9 +131,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the artist of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentTrack](#getcurrenttrack)
 
@@ -135,9 +145,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the name of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPlaybackState](#getplaybackstate)
 
@@ -148,9 +159,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the current playback state of deezer                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.deezer.state_stopped`</li><li>   - `hs.deezer.state_paused`</li><li>   - `hs.deezer.state_playing`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPosition](#getposition)
 
@@ -161,9 +173,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the playback position (in seconds) in the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getVolume](#getvolume)
 
@@ -174,9 +187,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Gets the deezer volume setting                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the volume deezer is set to between 1 and 100</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPlaying](#isplaying)
 
@@ -187,9 +201,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Returns whether deezer is currently playing                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether deezer is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -200,9 +215,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Returns whether deezer is currently open. Most other functions in hs.deezer will automatically start the application, so this function can be used to guard against that.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the deezer application is running.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [next](#next)
 
@@ -213,9 +229,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips to the next deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pause](#pause)
 
@@ -226,9 +243,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Pauses the current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [play](#play)
 
@@ -239,9 +257,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Plays the current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playpause](#playpause)
 
@@ -252,9 +271,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Toggles play/pause of current deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [previous](#previous)
 
@@ -265,9 +285,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips to previous deezer track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rw](#rw)
 
@@ -278,9 +299,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Skips the playback position backwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPosition](#setposition)
 
@@ -291,9 +313,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Sets the playback position in the current song                                                                     |
 | **Parameters**                              | <ul><li>pos - A number containing the position (in seconds) to jump to in the current song</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setVolume](#setvolume)
 
@@ -304,9 +327,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Sets the deezer volume setting                                                                     |
 | **Parameters**                              | <ul><li>vol - A number between 1 and 100</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeDown](#volumedown)
 
@@ -317,9 +341,10 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Reduces the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeUp](#volumeup)
 
@@ -330,6 +355,7 @@ Heavily inspired by 'hs.spotify', credits to the original author.
 | **Description**                             | Increases the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

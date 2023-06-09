@@ -15,7 +15,7 @@ Adds text pasteboard history actions to the Search Console.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -25,8 +25,10 @@ Adds text pasteboard history actions to the Search Console.
 | **Signature**                               | `plugins.finder.pasteboard.history.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Text Pasteboard History Enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [history](#history)
 
@@ -35,8 +37,10 @@ Adds text pasteboard history actions to the Search Console.
 | **Signature**                               | `plugins.finder.pasteboard.history.history <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the pasteboard history.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [historySize](#historysize)
 
@@ -45,5 +49,7 @@ Adds text pasteboard history actions to the Search Console.
 | **Signature**                               | `plugins.finder.pasteboard.history.historySize <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Maximum Pasteboard History Size                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

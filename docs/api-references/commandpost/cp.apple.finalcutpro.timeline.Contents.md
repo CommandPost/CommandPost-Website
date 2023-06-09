@@ -42,7 +42,7 @@ Timeline Contents Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [clipsUI](#clipsui)
@@ -54,9 +54,10 @@ Timeline Contents Module.
 | **Description**                             | Returns a table containing the list of clips in the Timeline.                                                                     |
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
-| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
+| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -67,9 +68,10 @@ Timeline Contents Module.
 | **Description**                             | Checks if an `axuielementObject` matches the `Contents` type.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playheadClipsUI](#playheadclipsui)
 
@@ -80,9 +82,10 @@ Timeline Contents Module.
 | **Description**                             | Returns a table array containing the list of clips in the Timeline under the playhead, ordered with the highest clips at the beginning of the array.                                                                     |
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
-| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
+| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
 
 ---
+
 
 ### [positionClipsUI](#positionclipsui)
 
@@ -93,9 +96,10 @@ Timeline Contents Module.
 | **Description**                             | Returns a table array containing the list of clips in the Timeline at the specified `position`, ordered with the highest clips at the beginning of the array.                                                                     |
 | **Parameters**                              | <ul><li>position     - The `X` (or horizontal) position value to find clips under.</li><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
-| **Notes**                                   | <ul><li>If `expandsGroups` is `true` any `AXGroup` items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
+| **Notes**                                   | <ul><li>If `expandsGroups` is `true` any `AXGroup` items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
 
 ---
+
 
 ### [skimmingPlayheadClipsUI](#skimmingplayheadclipsui)
 
@@ -106,10 +110,11 @@ Timeline Contents Module.
 | **Description**                             | Returns a table array containing the list of clips in the Timeline under the skimming playhead, ordered with the highest clips at the beginning of the array.                                                                     |
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of axuielements that match the conditions</li></ul>          |
-| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
+| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained `AXLayoutItems`.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Contents](#contents)
@@ -121,10 +126,11 @@ Timeline Contents Module.
 | **Description**                             | Creates a new Timeline `Contents` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent `Timeline`</li></ul> |
 | **Returns**                                 | <ul><li>A new `Contents` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [children](#children)
@@ -134,8 +140,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.children <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of child elements in the Contents.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isLoaded](#isloaded)
 
@@ -144,8 +152,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.isLoaded <cp.prop: booelan; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Timeline has content loaded.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playhead](#playhead)
 
@@ -154,8 +164,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.playhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main Playhead.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scrollArea](#scrollarea)
 
@@ -164,8 +176,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollArea <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` for the Contents element.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scrollAreaUI](#scrollareaui)
 
@@ -174,8 +188,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.scrollAreaUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent `ScrollArea` UI of the Timeline Contents area.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [selectedChildren](#selectedchildren)
 
@@ -184,8 +200,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.selectedChildren <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current set of selected child elements in the Contents.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [skimmingPlayhead](#skimmingplayhead)
 
@@ -194,8 +212,10 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.skimmingPlayhead <cp.apple.finalcutpro.main.Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Playhead that tracks with the mouse pointer.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewFrame](#viewframe)
 
@@ -204,9 +224,11 @@ Timeline Contents Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Contents.viewFrame <cp.prop: table; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current 'frame' of the internal timeline content,  or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [activePlayhead](#activeplayhead)
@@ -218,9 +240,10 @@ Timeline Contents Module.
 | **Description**                             | Returns the active Playhead. If the Skimming Playhead is available, return that, otherwise, return the normal Playhead.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The active `Playhead`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFocus](#dofocus)
 
@@ -231,9 +254,10 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will focus on the `Contents`.                                                                     |
 | **Parameters**                              | <ul><li>show      - if `true`, the `Contents` will be shown before focusing.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -244,9 +268,10 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the Timeline Contents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectClip](#doselectclip)
 
@@ -257,9 +282,10 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will select the specified single `hs.axuielement` value in the Timeline Contents area.                                                                     |
 | **Parameters**                              | <ul><li>clipUI       - The `hs._asm.axuilement` values to select.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clip or throw an error if there is an issue.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectClips](#doselectclips)
 
@@ -270,9 +296,10 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) which will select the specified list of `hs.axuielement` values in the Timeline Contents area.                                                                     |
 | **Parameters**                              | <ul><li>clipsUI       - The table of `hs._asm.axuilement` values to select.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) that will select the clips or throw an error if there is an issue.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectNone](#doselectnone)
 
@@ -283,9 +310,10 @@ Timeline Contents Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will clear any clip selection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectTopClip](#doselecttopclip)
 
@@ -296,9 +324,10 @@ Timeline Contents Module.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) that will select the top clip at the given position, resolving to the top clip if available.                                                                     |
 | **Parameters**                              | <ul><li>position - (optional) The position `table` to select the top clip at. If not provided, the current active playhead position is used.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -309,9 +338,10 @@ Timeline Contents Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the Timeline Contents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rangeSelectionUI](#rangeselectionui)
 
@@ -322,9 +352,10 @@ Timeline Contents Module.
 | **Description**                             | Returns the UI for the current 'Range Selection', if present.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The 'Range Selection' UI or `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedClipsUI](#selectedclipsui)
 
@@ -335,6 +366,7 @@ Timeline Contents Module.
 | **Description**                             | Returns a table containing the list of selected clips.                                                                     |
 | **Parameters**                              | <ul><li>expandGroups	- (optional) if true, expand AXGroups to include contained AXLayoutItems</li><li>filterFn		- (optional) if provided, the function will be called to check each clip</li></ul> |
 | **Returns**                                 | <ul><li>The table of selected axuielements that match the conditions</li></ul>          |
-| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul>                |
+| **Notes**                                   | <ul><li>If `expandsGroups` is true any AXGroup items will be expanded to the list of contained AXLayoutItems.</li><li>If `filterFn` is provided it will be called with a single argument to check if the provided clip should be included in the final table.</li></ul> |
 
 ---
+

@@ -28,7 +28,7 @@ Accessibility Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [enabled](#enabled)
@@ -38,9 +38,11 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.enabled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Is `true` if Accessibility permissions have been enabled for CommandPost.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [shouldWeTryCloseSystemPreferences](#shouldwetryclosesystempreferences)
@@ -50,8 +52,10 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.shouldWeTryCloseSystemPreferences -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should we try and close system preferences?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [systemPreferencesAlreadyOpen](#systempreferencesalreadyopen)
 
@@ -60,9 +64,11 @@ Accessibility Plugin.
 | **Signature**                               | `plugins.core.accessibility.systemPreferencesAlreadyOpen -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was System Preferences already open?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [completeSetupPanel](#completesetuppanel)
@@ -74,9 +80,10 @@ Accessibility Plugin.
 | **Description**                             | Called when the setup panel for accessibility was shown and is ready to complete.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -87,9 +94,10 @@ Accessibility Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>setup - Dependancies setup</li></ul> |
 | **Returns**                                 | <ul><li>The module as a table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showSetupPanel](#showsetuppanel)
 
@@ -100,6 +108,7 @@ Accessibility Plugin.
 | **Description**                             | Called when the Setup Panel should be shown to prompt the user about enabling Accessbility.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

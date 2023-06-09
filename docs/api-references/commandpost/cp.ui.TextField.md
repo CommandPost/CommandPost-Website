@@ -34,7 +34,7 @@ Text Field Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -46,10 +46,11 @@ Text Field Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li><li>subrole - (optional) If provided, the field must have the specified subrole.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [convertingGet](#convertingget)
@@ -61,9 +62,10 @@ Text Field Module.
 | **Description**                             | Creates a `Builder` that will convert the result of the `TextField:value()` getter to a different type.                                                                     |
 | **Parameters**                              | <ul><li>getter - A `function` that will be called to get the value from the `TextField`.</li></ul> |
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
-| **Notes**                                   | <ul><li>The `getter` will be called with the `string` value from the `TextField` as its only parameter.</li><li>For example, `TextField:convertGet(tonumber)` will use the standard `tonumber` function to convert the value to a number.</li></ul>                |
+| **Notes**                                   | <ul><li>The `getter` will be called with the `string` value from the `TextField` as its only parameter.</li><li>For example, `TextField:convertGet(tonumber)` will use the standard `tonumber` function to convert the value to a number.</li></ul> |
 
 ---
+
 
 ### [convertingSet](#convertingset)
 
@@ -74,9 +76,10 @@ Text Field Module.
 | **Description**                             | Creates a `Builder` that will convert the value before setting it in the `TextField`.                                                                     |
 | **Parameters**                              | <ul><li>setter - A `function` that will be called to set the value in the `TextField`.</li></ul> |
 | **Returns**                                 | <ul><li>The `TextField.Builder`</li></ul>          |
-| **Notes**                                   | <ul><li>The `setter` will be called with the input value from a `TextField:value(...)` call as its only parameter.</li><li>   It should return a `string` to be saved into the `TextField`.</li><li>For example, `TextField:convertSet(tostring)` will use the standard `tostring` function to convert the value to a string.</li></ul>                |
+| **Notes**                                   | <ul><li>The `setter` will be called with the input value from a `TextField:value(...)` call as its only parameter.</li><li>   It should return a `string` to be saved into the `TextField`.</li><li>For example, `TextField:convertSet(tostring)` will use the standard `tostring` function to convert the value to a string.</li></ul> |
 
 ---
+
 
 ### [value](#value)
 
@@ -85,9 +88,11 @@ Text Field Module.
 | **Signature**                               | `cp.ui.TextField.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [clear](#clear)
@@ -99,9 +104,10 @@ Text Field Module.
 | **Description**                             | Clears the value of a Text Field.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doConfirm](#doconfirm)
 
@@ -112,9 +118,10 @@ Text Field Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will confirm the current text value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFocus](#dofocus)
 
@@ -125,9 +132,10 @@ Text Field Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to focus on the current `TextField`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [forceFocus](#forcefocus)
 
@@ -138,9 +146,10 @@ Text Field Module.
 | **Description**                             | Configures the TextField to force a focus on the field before editing. Some fields seem to require this to actually update the text value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getValue](#getvalue)
 
@@ -151,9 +160,10 @@ Text Field Module.
 | **Description**                             | Gets the value of the Text Field.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The value of the Text Field as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -164,9 +174,10 @@ Text Field Module.
 | **Description**                             | Loads a Text Field layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Text Field layout settings - created using `cp.ui.TextField:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -177,9 +188,10 @@ Text Field Module.
 | **Description**                             | Saves the current Text Field layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Text Field Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setValue](#setvalue)
 
@@ -190,9 +202,10 @@ Text Field Module.
 | **Description**                             | Sets the value of the Text Field.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set the Text Field to as a string.</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [TextField](#textfield)
 
@@ -203,6 +216,7 @@ Text Field Module.
 | **Description**                             | Creates a new TextField. They have a parent and a finder function.                                                                     |
 | **Parameters**                              | <ul><li>parent   - The parent object.</li><li>uiFinder - The function will return the `axuielement` for the TextField.</li><li>getConvertFn    - (optional) If provided, will be passed the `string` value when returning.</li><li>setConvertFn    - (optional) If provided, will be passed the `number` value when setting.</li></ul> |
 | **Returns**                                 | <ul><li>The new `TextField`.</li></ul>          |
-| **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li></li><li> For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = TextField(parent, function() return ... end, tonumber, tostring)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Additionally, an optional `convert` function can be provided, with the following signature:</li><li></li><li>`function(textValue) -> anything`</li><li></li><li>The `value` will be passed to the function before being returned, if present. All values passed into `value(x)` will be converted to a `string` first via `tostring`.</li><li></li><li> For example, to have the value be converted into a `number`, simply use `tonumber` like this:</li><li></li><li>```lua</li><li>local numberField = TextField(parent, function() return ... end, tonumber, tostring)</li><li>```</li></ul> |
 
 ---
+

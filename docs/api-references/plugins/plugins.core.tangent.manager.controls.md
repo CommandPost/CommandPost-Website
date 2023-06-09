@@ -30,7 +30,7 @@ Represents a Tangent Group
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [controls](#controls)
@@ -42,10 +42,11 @@ Represents a Tangent Group
 | **Description**                             | Creates a new `Group` instance.                                                                     |
 | **Parameters**                              | <ul><li>manager - The manager</li></ul> |
 | **Returns**                                 | <ul><li>A new `Group` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [active](#active)
@@ -55,8 +56,10 @@ Represents a Tangent Group
 | **Signature**                               | `plugins.core.tangent.manager.controls.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are active. They will be active if `enabled` is `true`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -65,9 +68,11 @@ Represents a Tangent Group
 | **Signature**                               | `plugins.core.tangent.manager.controls.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the controls are enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [action](#action)
@@ -79,9 +84,10 @@ Represents a Tangent Group
 | **Description**                             | Adds an `action` to this controls.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new action</li><li>name  - The name of the action.</li></ul> |
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [controls](#controls)
 
@@ -92,9 +98,10 @@ Represents a Tangent Group
 | **Description**                             | Returns this `controls` instance.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `controls instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findByID](#findbyid)
 
@@ -105,9 +112,10 @@ Represents a Tangent Group
 | **Description**                             | Finds a control (Action/Parameter/Mode) by its unique ID.                                                                     |
 | **Parameters**                              | <ul><li>id        - the ID to search by</li></ul> |
 | **Returns**                                 | <ul><li>The control, or `nil` if not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [group](#group)
 
@@ -118,9 +126,10 @@ Represents a Tangent Group
 | **Description**                             | Adds a subgroup to this group.                                                                     |
 | **Parameters**                              | <ul><li>name  - the name of the new sub-group</li></ul> |
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [menu](#menu)
 
@@ -131,9 +140,10 @@ Represents a Tangent Group
 | **Description**                             | Adds an `menu` to this controls.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new menu</li><li>name  - The name of the menu.</li></ul> |
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parameter](#parameter)
 
@@ -144,9 +154,10 @@ Represents a Tangent Group
 | **Description**                             | Adds an `parameter` to this controls.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new parameter</li><li>name  - The name of the parameter.</li></ul> |
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -157,9 +168,10 @@ Represents a Tangent Group
 | **Description**                             | Always returns `nil`, sinces `controls` have no parent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [register](#register)
 
@@ -170,9 +182,10 @@ Represents a Tangent Group
 | **Description**                             | Registers a control (Action/Parameter/Menu) with it's ID. This allows efficient retrieval via the `findById(...)` method, as well as checking that ID is unique.                                                                     |
 | **Parameters**                              | <ul><li>control       - The Action/Parameter/Menu to register</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [tangent](#tangent)
 
@@ -183,9 +196,10 @@ Represents a Tangent Group
 | **Description**                             | The `hs.tangent` connection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unregister](#unregister)
 
@@ -196,9 +210,10 @@ Represents a Tangent Group
 | **Description**                             | Unregisters a control (Action/Parameter/Menu) with it's ID                                                                     |
 | **Parameters**                              | <ul><li>control       - The Action/Parameter/Menu to unregister</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -209,6 +224,7 @@ Represents a Tangent Group
 | **Description**                             | Returns the `xml` configuration for the Group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

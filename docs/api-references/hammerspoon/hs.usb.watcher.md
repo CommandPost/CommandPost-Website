@@ -17,7 +17,7 @@ Watch for USB device connection/disconnection events
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -34,10 +34,11 @@ Watch for USB device connection/disconnection events
   vendorID - A number containing the Vendor ID of the device
   productID - A number containing the Product ID of the device</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [start](#start)
@@ -49,9 +50,10 @@ Watch for USB device connection/disconnection events
 | **Description**                             | Starts the USB watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -62,6 +64,7 @@ Watch for USB device connection/disconnection events
 | **Description**                             | Stops the USB watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.usb.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

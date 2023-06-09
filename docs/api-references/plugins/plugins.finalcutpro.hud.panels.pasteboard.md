@@ -13,7 +13,7 @@ FCPXML Panel for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [lastValue](#lastvalue)
@@ -23,5 +23,7 @@ FCPXML Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.pasteboard.lastValue <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last value in FCPXML HUD.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

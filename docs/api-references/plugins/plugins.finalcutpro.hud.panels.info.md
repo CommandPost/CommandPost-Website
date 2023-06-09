@@ -14,7 +14,7 @@ Info Panel for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [updateInfo](#updateinfo)
@@ -26,9 +26,10 @@ Info Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Info Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateWatchers](#updatewatchers)
 
@@ -39,6 +40,7 @@ Info Panel for the Final Cut Pro HUD.
 | **Description**                             | Sets up or destroys the Info Panel watchers.                                                                     |
 | **Parameters**                              | <ul><li>enabled - `true` to setup, `false` to destroy</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

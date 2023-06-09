@@ -13,7 +13,7 @@ Updates Module.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [automaticallyCheckForUpdates](#automaticallycheckforupdates)
@@ -23,5 +23,7 @@ Updates Module.
 | **Signature**                               | `plugins.core.preferences.updates.automaticallyCheckForUpdates <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically check for updates?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

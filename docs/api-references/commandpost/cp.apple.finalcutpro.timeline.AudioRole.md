@@ -29,7 +29,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -41,10 +41,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | Checks if the element is a "Audio" Role.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [AudioRole](#audiorole)
@@ -56,10 +57,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | Creates a new instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [focusedInTimeline](#focusedintimeline)
@@ -69,8 +71,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioRole.focusedInTimeline <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckBox](cp.ui.CheckBox.md) that toggles this role is larger than the other audio roles on the timeline.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [subroleLanes](#subrolelanes)
 
@@ -79,8 +83,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioRole.subroleLanes <cp.ui.CheckButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the subroles are visible in the [Timeline](cp.apple.finalcutpro.timeline.Timeline.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [subrolesExpanded](#subrolesexpanded)
 
@@ -89,10 +95,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.AudioRole.subrolesExpanded <cp.ui.CheckButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [CheckButton](cp.ui.CheckButton.md) that toggles whether the roles are visible in the Index.                                                                     |
-| **Notes**                                   | <ul><li>Unlike the [VideoRole](cp.finalcutpro.apple.timeline.VideoRole.md) and [CaptionsRole](cp.apple.finalcutpro.timeline.CaptionsRole.md), this is a [CheckBox](cp.ui.CheckBox.md) and is always visible.</li></ul>                |
+| **Notes**                                   | <ul><li>Unlike the [VideoRole](cp.finalcutpro.apple.timeline.VideoRole.md) and [CaptionsRole](cp.apple.finalcutpro.timeline.CaptionsRole.md), this is a [CheckBox](cp.ui.CheckBox.md) and is always visible.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doFocusInTimeline](#dofocusintimeline)
@@ -104,9 +111,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to focus on this audio role in the timeline.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHideSubroleLanes](#dohidesubrolelanes)
 
@@ -117,9 +125,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the subrole lanes on this audio role in the timeline.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowSubroleLanes](#doshowsubrolelanes)
 
@@ -130,9 +139,10 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the subrole lanes on this audio role in the timeline.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doUnfocusInTimeline](#dounfocusintimeline)
 
@@ -143,6 +153,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to unfocus on this audio role in the timeline.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

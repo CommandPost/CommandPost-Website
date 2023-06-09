@@ -13,7 +13,7 @@ Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -25,6 +25,7 @@ Adds Final Cut Pro Plugins (i.e. Effects, Generators, Titles and Transitions) to
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>`actionmanager` - Action Manager Plugin</li><li>`generators` - Generators Plugin</li><li>`titles` - Titles Plugin</li><li>`transitions` - Transitions Plugin</li><li>`audioeffects` - Audio Effects Plugin</li><li>`videoeffects` - Video Effects Plugin</li></ul> |
 | **Returns**                                 | <ul><li>The module</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

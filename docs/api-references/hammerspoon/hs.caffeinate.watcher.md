@@ -34,7 +34,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [screensaverDidStart](#screensaverdidstart)
@@ -44,8 +44,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensaverDidStart`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver started                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensaverDidStop](#screensaverdidstop)
 
@@ -54,8 +56,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensaverDidStop`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver stopped                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensaverWillStop](#screensaverwillstop)
 
@@ -64,8 +68,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensaverWillStop`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screensaver is about to stop                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensDidLock](#screensdidlock)
 
@@ -74,8 +80,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensDidLock`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screen was locked                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensDidSleep](#screensdidsleep)
 
@@ -84,8 +92,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensDidSleep`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The displays have gone to sleep                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensDidUnlock](#screensdidunlock)
 
@@ -94,8 +104,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensDidUnlock`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The screen was unlocked                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [screensDidWake](#screensdidwake)
 
@@ -104,8 +116,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.screensDidWake`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The displays have woken from sleep                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sessionDidBecomeActive](#sessiondidbecomeactive)
 
@@ -114,8 +128,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.sessionDidBecomeActive`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The session became active, due to fast user switching                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sessionDidResignActive](#sessiondidresignactive)
 
@@ -124,8 +140,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.sessionDidResignActive`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The session is no longer active, due to fast user switching                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [systemDidWake](#systemdidwake)
 
@@ -134,8 +152,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.systemDidWake`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The system woke from sleep                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [systemWillPowerOff](#systemwillpoweroff)
 
@@ -144,8 +164,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.systemWillPowerOff`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The user requested a logout or shutdown                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [systemWillSleep](#systemwillsleep)
 
@@ -154,9 +176,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.caffeinate.watcher.systemWillSleep`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The system is preparing to sleep                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -169,10 +193,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Parameters**                              | <ul><li>fn - A function that will be called when system/display events happen. It should accept one parameter:
   An event type (see the constants defined above)</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [start](#start)
@@ -184,9 +209,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts the sleep/wake watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -197,6 +223,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops the sleep/wake watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.caffeinate.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

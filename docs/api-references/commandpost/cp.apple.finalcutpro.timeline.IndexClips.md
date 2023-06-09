@@ -43,7 +43,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [IndexClips](#indexclips)
@@ -55,10 +55,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Creates the `IndexClips` instance.                                                                     |
 | **Parameters**                              | <ul><li>index - The [Index](cp.apple.finalcutpro.timeline.Index.md) instance.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activate](#activate)
@@ -68,8 +69,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Clips' section.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [all](#all)
 
@@ -78,8 +81,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.all <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [audio](#audio)
 
@@ -88,8 +93,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.audio <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [list](#list)
 
@@ -98,8 +105,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.list <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of clips as a [Table](cp.ui.OldTable.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [titles](#titles)
 
@@ -108,8 +117,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.titles <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [type](#type)
 
@@ -118,8 +129,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.type <cp.apple.finalcutpro.timeline.IndexClips.Type>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexClips.Type](cp.apple.finalcutpro.timeline.IndexClips.Type.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [video](#video)
 
@@ -128,9 +141,11 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.video <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doFindAuditions](#dofindauditions)
@@ -142,9 +157,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for all "Auditions".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFindClipsContaining](#dofindclipscontaining)
 
@@ -155,9 +171,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.go.rx.Statement.md) that will use the index to search for clips containing the specified text.                                                                     |
 | **Parameters**                              | <ul><li>text - The text to search for.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>Because the `text` can change each time, this result is not cached automatically. However as long as you are searching for the same text the result can be safely cached. The [#toFindMissingMedia] method does this, for example.</li></ul>                |
+| **Notes**                                   | <ul><li>Because the `text` can change each time, this result is not cached automatically. However as long as you are searching for the same text the result can be safely cached. The [#toFindMissingMedia] method does this, for example.</li></ul> |
 
 ---
+
 
 ### [doFindCompoundClips](#dofindcompoundclips)
 
@@ -168,9 +185,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for all "Compound Clips".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFindMissingMedia](#dofindmissingmedia)
 
@@ -181,9 +199,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for all "Missing Media".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFindMulticams](#dofindmulticams)
 
@@ -194,9 +213,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for all "Multicam" clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFindSynchronized](#dofindsynchronized)
 
@@ -207,9 +227,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will use the index to search for all "Synchronized" Clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doLayout](#dolayout)
 
@@ -220,9 +241,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowAll](#doshowall)
 
@@ -233,9 +255,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the clip index to "All" media types.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowAudio](#doshowaudio)
 
@@ -246,9 +269,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the clip index to "Audio" media types.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowTitles](#doshowtitles)
 
@@ -259,9 +283,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the clip index to "Titles" media types.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowVideo](#doshowvideo)
 
@@ -272,9 +297,10 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the clip index to "Video" media types.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -285,6 +311,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a `table` containing the layout configuration for this class.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

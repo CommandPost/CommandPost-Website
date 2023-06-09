@@ -19,7 +19,7 @@ Done()
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Done](#done)
@@ -31,6 +31,7 @@ Done()
 | **Description**                             | Creates a new `Done` `Statement` that will complete without sending any values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will complete immediately.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

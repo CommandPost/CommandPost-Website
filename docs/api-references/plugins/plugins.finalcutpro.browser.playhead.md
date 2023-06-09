@@ -24,7 +24,7 @@ Browser Playhead Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [changeHighlightColor](#changehighlightcolor)
@@ -36,9 +36,10 @@ Browser Playhead Plugin.
 | **Description**                             | Prompts the user to change the Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [deleteHighlight](#deletehighlight)
 
@@ -49,9 +50,10 @@ Browser Playhead Plugin.
 | **Description**                             | Delete's the highlight if it's currently visible on the screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHighlightColor](#gethighlightcolor)
 
@@ -62,9 +64,10 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight colour.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHighlightCustomColor](#gethighlightcustomcolor)
 
@@ -75,9 +78,10 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current custom highlight colour.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An RGB table with the selected colour (see `hs.drawing.color`) or `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHighlightShape](#gethighlightshape)
 
@@ -88,9 +92,10 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight shape.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>"Rectangle", "Circle" or "Diamond" or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHighlightTime](#gethighlighttime)
 
@@ -101,9 +106,10 @@ Browser Playhead Plugin.
 | **Description**                             | Returns the current highlight playhead time.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number or `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [highlight](#highlight)
 
@@ -114,9 +120,10 @@ Browser Playhead Plugin.
 | **Description**                             | Highlight's the Final Cut Pro Browser Playhead.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [highlightFrame](#highlightframe)
 
@@ -127,9 +134,10 @@ Browser Playhead Plugin.
 | **Description**                             | Highlights a specific frame.                                                                     |
 | **Parameters**                              | <ul><li>frame - Frame as per `hs.geometry.rect`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setHighlightColor](#sethighlightcolor)
 
@@ -140,9 +148,10 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setHighlightCustomColor](#sethighlightcustomcolor)
 
@@ -153,9 +162,10 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Colour.                                                                     |
 | **Parameters**                              | <ul><li>value - An RGB table with the selected colour (see `hs.drawing.color`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setHighlightShape](#sethighlightshape)
 
@@ -166,9 +176,10 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Shape.                                                                     |
 | **Parameters**                              | <ul><li>value - A string which can be "Rectangle", "Circle" or "Diamond".</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setHighlightTime](#sethighlighttime)
 
@@ -179,6 +190,7 @@ Browser Playhead Plugin.
 | **Description**                             | Sets the Custom Playhead Highlight Time.                                                                     |
 | **Parameters**                              | <ul><li>value - A number</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

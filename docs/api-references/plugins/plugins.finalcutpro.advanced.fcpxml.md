@@ -14,7 +14,7 @@ Adds preferences for extra FCPXML import and export options.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [exportEnabled](#exportenabled)
@@ -24,8 +24,10 @@ Adds preferences for extra FCPXML import and export options.
 | **Signature**                               | `plugins.finalcutpro.advanced.fcpxml.exportEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML export options enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [importEnabled](#importenabled)
 
@@ -34,5 +36,7 @@ Adds preferences for extra FCPXML import and export options.
 | **Signature**                               | `plugins.finalcutpro.advanced.fcpxml.importEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are extra FCPXML import options enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

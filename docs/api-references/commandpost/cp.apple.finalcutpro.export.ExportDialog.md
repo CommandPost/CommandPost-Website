@@ -23,7 +23,7 @@ Export Dialog Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [ExportDialogTitleText](#exportdialogtitletext)
@@ -35,10 +35,11 @@ Export Dialog Module.
 | **Description**                             | Creates a new Export [Dialog](cp.ui.Dialog.md)                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [fileExtension](#fileextension)
@@ -48,8 +49,10 @@ Export Dialog Module.
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog.fileExtension <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "File Extension" [StaticText](cp.ui.StaticText.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [saveSheet](#savesheet)
 
@@ -58,9 +61,11 @@ Export Dialog Module.
 | **Signature**                               | `cp.apple.finalcutpro.export.ExportDialog.saveSheet <SaveSheet>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `SaveSheet`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [hide](#hide)
@@ -72,9 +77,10 @@ Export Dialog Module.
 | **Description**                             | Hides the Export Dialog                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pressCancel](#presscancel)
 
@@ -85,9 +91,10 @@ Export Dialog Module.
 | **Description**                             | Presses the Cancel Button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pressNext](#pressnext)
 
@@ -98,9 +105,10 @@ Export Dialog Module.
 | **Description**                             | Presses the Next Button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -111,6 +119,7 @@ Export Dialog Module.
 | **Description**                             | Shows the Export Dialog with the Destination that matches the `destinationSelect`.                                                                     |
 | **Parameters**                              | <ul><li>destinationSelect        - The name, number or match function of the destination to export with.</li><li>ignoreProxyWarning       - if `true`, the warning regarding exporting Proxies will be ignored.</li><li>ignoreMissingMedia       - if `true`, the warning regarding exporting with missing media will be ignored.</li><li>ignoreInvalidCaptions    - if `true`, the warning regarding exporting with Bad Captions will be ignored.</li><li>quiet                    - if `true`, no dialogs will be shown if there is an error.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ExportDialog` object for method chaining.</li><li>If an error occurred, the message is returned as the second value</li></ul>          |
-| **Notes**                                   | <ul><li>If providing a function, it will be passed one item - the name of the destination, and should return `true` to indicate a match. The name will not contain " (default)" if present.</li></ul>                |
+| **Notes**                                   | <ul><li>If providing a function, it will be passed one item - the name of the destination, and should return `true` to indicate a match. The name will not contain " (default)" if present.</li></ul> |
 
 ---
+

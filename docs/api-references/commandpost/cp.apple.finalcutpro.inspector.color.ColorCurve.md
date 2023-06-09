@@ -16,7 +16,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -28,10 +28,11 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the specified value is a `ColorCurve`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches a ColorCurve element.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ColorCurve](#colorcurve)
@@ -43,6 +44,7 @@ A ColorCurve [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new `ColorCurve` [Element](cp.ui.Element.md).                                                                     |
 | **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The [TYPE](#TYPE) of curve.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ColorCurve`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

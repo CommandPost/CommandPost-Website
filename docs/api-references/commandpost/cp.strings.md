@@ -36,7 +36,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -48,10 +48,11 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Creates a new `strings` instance. You should add sources with the [from](#from) or [fromPlist](#fromPlist) methods.                                                                     |
 | **Parameters**                              | <ul><li>context      - The initial context.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.strings`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [context](#context)
@@ -63,9 +64,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Gets or sets a context to be set for the strings. This typically includes a `language`, which provides the default language code, but may have other source-specific properties. Calling this method may may clear caches, etc.                                                                     |
 | **Parameters**                              | <ul><li>context   - A table with values which may be used by the source.</li></ul> |
 | **Returns**                                 | <ul><li>If a new context is provided, the `cp.string.source` is returned, otherwise the current context table is returned.</li></ul>          |
-| **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>string:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>For example:</li><li></li><li>```lua</li><li>string:context({language = "fr"}) -- set the default language to French.</li><li>```</li></ul> |
 
 ---
+
 
 ### [find](#find)
 
@@ -76,9 +78,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Searches for the specified key, caching the result when found.                                                                     |
 | **Parameters**                              | <ul><li>`key`        - The key to retrieve from the file.</li><li>`context`    - Optional table with additional/alternate context.</li><li>`quiet`      - Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findAllKeys](#findallkeys)
 
@@ -89,9 +92,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Searches for all keys in all sources, with the given context.                                                                     |
 | **Parameters**                              | <ul><li>context      - The intial context to use.</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findInSources](#findinsources)
 
@@ -102,9 +106,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Searches directly in the sources for the specified key.                                                                     |
 | **Parameters**                              | <ul><li>`key`        - The key to retrieve from the file.</li><li>`context`    - Optional table with additional/alternate context.</li><li>`quiet`      - Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The value of the key, or `nil` if not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findKeys](#findkeys)
 
@@ -115,9 +120,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Searches for the list of keys with a matching value, in the specified language.                                                                     |
 | **Parameters**                              | <ul><li>value      - The value to search for.</li><li>context    - The language code to look for (e.g. `"en"`, or `"fr"`).</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
-| **Notes**                                   | <ul><li>Not recommended in production code, as it will potentially be very inefficient.</li></ul>                |
+| **Notes**                                   | <ul><li>Not recommended in production code, as it will potentially be very inefficient.</li></ul> |
 
 ---
+
 
 ### [findKeysInSources](#findkeysinsources)
 
@@ -128,9 +134,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Searches directly in the sources for the specified key value pattern.                                                                     |
 | **Parameters**                              | <ul><li>`value`      - The value to search for.</li><li>`context`    - Optional additional context for the request.</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys, or `{}` if not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [from](#from)
 
@@ -141,9 +148,10 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Adds the source to the strings sources.                                                                     |
 | **Parameters**                              | <ul><li>`source`		- The source to add.</li></ul> |
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromPlist](#fromplist)
 
@@ -154,6 +162,7 @@ Notes: This will load the file on each request. To have values cached, use the `
 | **Description**                             | Convenience method for adding a `plist` source to the strings instance.                                                                     |
 | **Parameters**                              | <ul><li>`pathPattern` - The path to load from. May contain a special `${language}` marker which will be replace with the provided langauge when searching.</li></ul> |
 | **Returns**                                 | <ul><li>The current `cp.strings` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

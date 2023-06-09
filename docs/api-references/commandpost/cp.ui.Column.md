@@ -21,7 +21,7 @@ Represents a Column in a Table.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -33,10 +33,11 @@ Represents a Column in a Table.
 | **Description**                             | Checks if the `axuielement` is a `Column`.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is a Column.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [index](#index)
@@ -46,8 +47,10 @@ Represents a Column in a Table.
 | **Signature**                               | `cp.ui.Column.index <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The numeric index of this column in the overall container, with `0` being the first item.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [selected](#selected)
 
@@ -56,9 +59,11 @@ Represents a Column in a Table.
 | **Signature**                               | `cp.ui.Column.selected <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the column is currently selected. May be set.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [rows](#rows)
@@ -70,9 +75,10 @@ Represents a Column in a Table.
 | **Description**                             | Returns a `table` of [Row](cp.ui.OldRow.md)s contained in the Column.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [visibleRows](#visiblerows)
 
@@ -83,6 +89,7 @@ Represents a Column in a Table.
 | **Description**                             | Returns a `table` of [Row](cp.ui.OldRow.md)s which are currently visible on screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `table`, or `nil` if the column's UI is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

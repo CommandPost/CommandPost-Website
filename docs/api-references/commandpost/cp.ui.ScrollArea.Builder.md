@@ -13,7 +13,7 @@
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [containing](#containing)
@@ -25,6 +25,7 @@
 | **Description**                             | Sets the content `Element` type/builder to the specified value.                                                                     |
 | **Parameters**                              | <ul><li>contentBuilder - A `callable` that accepts a `parent` and `uiFinder` parameter, and returns an `Element` instance.</li></ul> |
 | **Returns**                                 | <ul><li>The `Builder` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

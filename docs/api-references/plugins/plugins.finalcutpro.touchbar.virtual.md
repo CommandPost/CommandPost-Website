@@ -24,7 +24,7 @@ Virtual Touch Bar Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [LOCATION_TIMELINE](#location_timeline)
@@ -34,8 +34,10 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.LOCATION_TIMELINE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is displayed in the top centre of the Final Cut Pro timeline                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [VISIBILITY_ALWAYS](#visibility_always)
 
@@ -44,8 +46,10 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.VISIBILITY_ALWAYS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is Always Visible                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [VISIBILITY_DEFAULT](#visibility_default)
 
@@ -54,8 +58,10 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.VISIBILITY_DEFAULT -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default visibility.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [VISIBILITY_FCP](#visibility_fcp)
 
@@ -64,9 +70,11 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.VISIBILITY_FCP -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Virtual Touch Bar is only visible when Final Cut Pro is active.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [updateLocation](#updatelocation)
@@ -78,10 +86,11 @@ Virtual Touch Bar Plugin.
 | **Description**                             | Updates the Location of the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -91,8 +100,10 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [location](#location)
 
@@ -101,8 +112,10 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.location <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Virtual Touch Bar Location Setting                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [visibility](#visibility)
 
@@ -111,5 +124,7 @@ Virtual Touch Bar Plugin.
 | **Signature**                               | `plugins.finalcutpro.touchbar.virtual.visibility <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | When should the Virtual Touch Bar be visible?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

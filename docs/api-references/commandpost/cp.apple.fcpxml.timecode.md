@@ -31,7 +31,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [fromFFSSMMHH](#fromffssmmhh)
@@ -43,9 +43,10 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Parses a timecode string in the format `FFSSMMHH` and returns a new timecode object.                                                                     |
 | **Parameters**                              | <ul><li>timecodeString - The timecode string.</li></ul> |
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromHH_MM_SS_FF](#fromhh_mm_ss_ff)
 
@@ -56,9 +57,10 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Parses a timecode string in the format `HH:MM:SS:FF` and returns a new timecode object.                                                                     |
 | **Parameters**                              | <ul><li>timecodeString - The timecode string.</li></ul> |
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -69,10 +71,11 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Creates a new timecode object.                                                                     |
 | **Parameters**                              | <ul><li>hours - The number of hours.</li><li>minutes - The number of minutes.</li><li>seconds - The number of seconds.</li><li>frames - The number of frames.</li></ul> |
 | **Returns**                                 | <ul><li>The new timecode object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [__tostring](#__tostring)
@@ -84,9 +87,10 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Returns the timecode as a string in the format `HH:MM:SS:FF`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The timecode string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [timeWithFrameDuration](#timewithframeduration)
 
@@ -97,9 +101,10 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Calculates the `time` for the timecode, given the frame duration `time` value.                                                                     |
 | **Parameters**                              | <ul><li>frameDuration - The frame duration as a `time` value.</li></ul> |
 | **Returns**                                 | <ul><li>The `time` value.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [totalFramesWithFPS](#totalframeswithfps)
 
@@ -110,6 +115,7 @@ Note, this currently does not support "Drop Frame" timecodes.
 | **Description**                             | Calculates the total number of frames for the timecode, given the specified frame rate.                                                                     |
 | **Parameters**                              | <ul><li>fps - The frame rate as a `number`.</li></ul> |
 | **Returns**                                 | <ul><li>The total number of frames as a `number`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

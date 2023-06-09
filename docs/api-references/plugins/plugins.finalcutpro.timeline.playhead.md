@@ -15,7 +15,7 @@ Manages features relating to the Timeline Playhead.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [alwaysCentered](#alwayscentered)
@@ -25,8 +25,10 @@ Manages features relating to the Timeline Playhead.
 | **Signature**                               | `plugins.finalcutpro.timeline.playhead.alwaysCentered <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true`, the playhead will be centered in the view while scrolling.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scrollingTimeline](#scrollingtimeline)
 
@@ -35,8 +37,10 @@ Manages features relating to the Timeline Playhead.
 | **Signature**                               | `plugins.finalcutpro.timeline.playhead.scrollingTimeline <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Enables or disables the scrolling timeline.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tracking](#tracking)
 
@@ -45,5 +49,7 @@ Manages features relating to the Timeline Playhead.
 | **Signature**                               | `plugins.finalcutpro.timeline.playhead.tracking <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true`, we are tracking the playhead position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

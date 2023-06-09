@@ -69,7 +69,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [allDevices](#alldevices)
@@ -81,9 +81,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Returns a list of all connected devices                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of zero or more audio devices connected to the system</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [allInputDevices](#allinputdevices)
 
@@ -94,9 +95,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Returns a list of all connected input devices.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of zero or more audio input devices connected to the system</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [allOutputDevices](#alloutputdevices)
 
@@ -107,9 +109,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Returns a list of all connected output devices                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of zero or more audio output devices connected to the system</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [current](#current)
 
@@ -120,9 +123,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Fetch various metadata about the current default audio devices                                                                     |
 | **Parameters**                              | <ul><li>output - An optional boolean, true to fetch information about the default input device, false for output device. Defaults to false</li></ul> |
 | **Returns**                                 | <ul><li>A table with the following contents:</li><li>```lua</li><li>    {</li><li>        name = defaultOutputDevice():name(),</li><li>        uid = module.defaultOutputDevice():uid(),</li><li>        muted = defaultOutputDevice():muted(),</li><li>        volume = defaultOutputDevice():volume(),</li><li>        device = defaultOutputDevice(),</li><li>    }</li><li>```</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [defaultEffectDevice](#defaulteffectdevice)
 
@@ -133,9 +137,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the currently selected sound effect device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [defaultInputDevice](#defaultinputdevice)
 
@@ -146,9 +151,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the currently selected audio input device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [defaultOutputDevice](#defaultoutputdevice)
 
@@ -159,9 +165,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the currently selected audio output device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object, or nil if no suitable device could be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findDeviceByName](#finddevicebyname)
 
@@ -172,9 +179,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio device by name                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of an audio device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.audiodevice` object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findDeviceByUID](#finddevicebyuid)
 
@@ -185,9 +193,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio device by UID                                                                     |
 | **Parameters**                              | <ul><li>uid - A string containing the UID of an audio device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.audiodevice` object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findInputByName](#findinputbyname)
 
@@ -198,9 +207,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio input device by name                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of an audio input device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findInputByUID](#findinputbyuid)
 
@@ -211,9 +221,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio input device by UID                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the UID of an audio input device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findOutputByName](#findoutputbyname)
 
@@ -224,9 +235,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio output device by name                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of an audio output device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findOutputByUID](#findoutputbyuid)
 
@@ -237,10 +249,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Find an audio output device by UID                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the UID of an audio output device to search for</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice object or nil if the device could not be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [allInputDataSources](#allinputdatasources)
@@ -252,9 +265,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets all of the input data sources of an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A list of hs.audiodevice.dataSource objects, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [allOutputDataSources](#alloutputdatasources)
 
@@ -265,9 +279,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets all of the output data sources of an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A list of hs.audiodevice.dataSource objects, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [balance](#balance)
 
@@ -278,9 +293,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the current left/right balance of this audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number between 0.0 and 1.0, representing the balance (0.0 for full left, 1.0 for full right, 0.5 for center), or nil if the audio device does not support balance</li></ul>          |
-| **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul>                |
+| **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul> |
 
 ---
+
 
 ### [currentInputDataSource](#currentinputdatasource)
 
@@ -291,9 +307,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets the current input data source of an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice.dataSource object, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsInputDataSources()</li></ul>                |
+| **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsInputDataSources()</li></ul> |
 
 ---
+
 
 ### [currentOutputDataSource](#currentoutputdatasource)
 
@@ -304,9 +321,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets the current output data source of an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An hs.audiodevice.dataSource object, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsOutputDataSources()</li></ul>                |
+| **Notes**                                   | <ul><li>Before calling this method, you should check the result of hs.audiodevice:supportsOutputDataSources()</li></ul> |
 
 ---
+
 
 ### [inputMuted](#inputmuted)
 
@@ -317,9 +335,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the Input mutedness state of the audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device's Input is muted. False if it's not muted, nil if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [inputVolume](#inputvolume)
 
@@ -330,9 +349,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the current input volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the input volume percentage, or nil if the audio device does not support input volume levels</li></ul>          |
-| **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul>                |
+| **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul> |
 
 ---
+
 
 ### [inUse](#inuse)
 
@@ -343,9 +363,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Check if the audio device is in use                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device is in use, False if not. nil if an error occurred.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isInputDevice](#isinputdevice)
 
@@ -356,9 +377,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Determines if an audio device is an input device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the device is an input device, false if not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isOutputDevice](#isoutputdevice)
 
@@ -369,9 +391,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Determines if an audio device is an output device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the device is an output device, false if not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [jackConnected](#jackconnected)
 
@@ -382,9 +405,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Determines whether an audio jack (e.g. headphones) is connected to an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if a jack is connected, false if not, or nil if the device does not support jack sense</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [muted](#muted)
 
@@ -395,9 +419,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the mutedness state of the audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device is muted, False if it is not muted, nil if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:inputMuted()` and `:outputMuted()` for specific variants.</li></ul>                |
+| **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:inputMuted()` and `:outputMuted()` for specific variants.</li></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -408,9 +433,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the name of the audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the audio device, or nil if it has no name</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [outputMuted](#outputmuted)
 
@@ -421,9 +447,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the Output mutedness state of the audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device's Output is muted. False if it's not muted, nil if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [outputVolume](#outputvolume)
 
@@ -434,9 +461,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the current output volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the output volume percentage, or nil if the audio device does not support output volume levels</li></ul>          |
-| **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul>                |
+| **Notes**                                   | <ul><li>The return value will be a floating point number</li></ul> |
 
 ---
+
 
 ### [setBalance](#setbalance)
 
@@ -447,9 +475,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the balance of this audio device                                                                     |
 | **Parameters**                              | <ul><li>level - A number between 0.0 and 1.0, representing the balance (0.0 for full left, 1.0 for full right, 0.5 for center)</li></ul> |
 | **Returns**                                 | <ul><li>True if the balance was set, false if the audio device does not support setting a balance.</li></ul>          |
-| **Notes**                                   | <ul><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul>                |
+| **Notes**                                   | <ul><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul> |
 
 ---
+
 
 ### [setDefaultEffectDevice](#setdefaulteffectdevice)
 
@@ -460,9 +489,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Selects this device as the audio output device for system sound effects                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setDefaultInputDevice](#setdefaultinputdevice)
 
@@ -473,9 +503,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Selects this device as the system's audio input device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setDefaultOutputDevice](#setdefaultoutputdevice)
 
@@ -486,9 +517,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Selects this device as the system's audio output device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if the audio device was successfully selected, otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setInputMuted](#setinputmuted)
 
@@ -499,9 +531,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the mutedness state of the Input of the audio device                                                                     |
 | **Parameters**                              | <ul><li>state - A boolean value. True to mute the device, False to unmute it</li></ul> |
 | **Returns**                                 | <ul><li>True if the device's Input mutedness state was set, or False if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setInputVolume](#setinputvolume)
 
@@ -512,9 +545,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the input volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>level - A number between 0 and 100, representing the input volume as a percentage</li></ul> |
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting an input volume level</li></ul>          |
-| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul>                |
+| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul> |
 
 ---
+
 
 ### [setMuted](#setmuted)
 
@@ -525,9 +559,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the mutedness state of the audio device                                                                     |
 | **Parameters**                              | <ul><li>state - A boolean value. True to mute the device, False to unmute it</li></ul> |
 | **Returns**                                 | <ul><li>True if the device's mutedness state was set, or False if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:setInputMuted()` and `:setOutputMuted()` for specific variants.</li></ul>                |
+| **Notes**                                   | <ul><li>If a device is capable of both input and output, this method will prefer the output. See `:setInputMuted()` and `:setOutputMuted()` for specific variants.</li></ul> |
 
 ---
+
 
 ### [setOutputMuted](#setoutputmuted)
 
@@ -538,9 +573,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the mutedness state of the Output of the audio device                                                                     |
 | **Parameters**                              | <ul><li>state - A boolean value. True to mute the device, False to unmute it</li></ul> |
 | **Returns**                                 | <ul><li>True if the device's Output mutedness state was set, or False if it does not support muting</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setOutputVolume](#setoutputvolume)
 
@@ -551,9 +587,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the output volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>level - A number between 0 and 100, representing the output volume as a percentage</li></ul> |
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting an output volume level</li></ul>          |
-| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul>                |
+| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments</li></ul> |
 
 ---
+
 
 ### [setVolume](#setvolume)
 
@@ -564,9 +601,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Set the volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>level - A number between 0 and 100, representing the volume as a percentage</li></ul> |
 | **Returns**                                 | <ul><li>True if the volume was set, false if the audio device does not support setting a volume level.</li></ul>          |
-| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments.</li><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul>                |
+| **Notes**                                   | <ul><li>The volume level is a floating point number. Depending on your audio hardware, it may not be possible to increase volume in single digit increments.</li><li>This method will inspect the device to determine if it is an input or output device, and set the appropriate volume. For devices that are both input and output devices, see `:setInputVolume()` and `:setOutputVolume()`</li></ul> |
 
 ---
+
 
 ### [supportsInputDataSources](#supportsinputdatasources)
 
@@ -577,9 +615,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Determines whether an audio device supports input data sources                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the device supports input data sources, false if not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [supportsOutputDataSources](#supportsoutputdatasources)
 
@@ -590,9 +629,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Determines whether an audio device supports output data sources                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the device supports output data sources, false if not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [transportType](#transporttype)
 
@@ -603,9 +643,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets the hardware transport type of an audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the transport type, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [uid](#uid)
 
@@ -616,9 +657,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the unique identifier of the audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the UID of the audio device, or nil if it has no UID.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volume](#volume)
 
@@ -629,9 +671,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Get the current volume of this audio device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number between 0 and 100, representing the volume percentage, or nil if the audio device does not support volume levels</li></ul>          |
-| **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul>                |
+| **Notes**                                   | <ul><li>The return value will be a floating point number</li><li>This method will inspect the device to determine if it is an input or output device, and return the appropriate volume. For devices that are both input and output devices, see `:inputVolume()` and `:outputVolume()`</li></ul> |
 
 ---
+
 
 ### [watcherCallback](#watchercallback)
 
@@ -658,9 +701,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
   1 - Typically this means the Left channel
   2 - Typically this means the Right channel</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object</li></ul>          |
-| **Notes**                                   | <ul><li>You will receive many events to your callback, so filtering on the name/scope/element arguments is vital. For example, on a stereo device, it is not uncommon to receive a `volm` event for each audio channel when the volume changes, or multiple `mute` events for channels. Dragging a volume slider in the system Sound preferences will produce a large number of `volm` events. Plugging/unplugging headphones may trigger `volm` events in addition to `jack` ones, etc.</li><li>If you need to use the `hs.audiodevice` object in your callback, use `hs.audiodevice.findDeviceByUID()` to obtain it fro the first callback argument</li></ul>                |
+| **Notes**                                   | <ul><li>You will receive many events to your callback, so filtering on the name/scope/element arguments is vital. For example, on a stereo device, it is not uncommon to receive a `volm` event for each audio channel when the volume changes, or multiple `mute` events for channels. Dragging a volume slider in the system Sound preferences will produce a large number of `volm` events. Plugging/unplugging headphones may trigger `volm` events in addition to `jack` ones, etc.</li><li>If you need to use the `hs.audiodevice` object in your callback, use `hs.audiodevice.findDeviceByUID()` to obtain it fro the first callback argument</li></ul> |
 
 ---
+
 
 ### [watcherIsRunning](#watcherisrunning)
 
@@ -671,9 +715,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Gets the status of the `hs.audiodevice` object watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the watcher is running, false if not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watcherStart](#watcherstart)
 
@@ -684,9 +729,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts the watcher on an `hs.audiodevice` object                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watcherStop](#watcherstop)
 
@@ -697,6 +743,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops the watcher on an `hs.audiodevice` object                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.audiodevice` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

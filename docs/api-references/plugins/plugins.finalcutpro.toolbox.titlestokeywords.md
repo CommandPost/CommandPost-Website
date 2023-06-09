@@ -27,7 +27,7 @@ Converts Titles to Keywords
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [addSpaceAfterSequence](#addspaceaftersequence)
@@ -37,8 +37,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.addSpaceAfterSequence <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Add Space After Sequence                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [duration](#duration)
 
@@ -47,8 +49,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.duration <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Duration of the titles created by "Create Titles from Text"                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mergeWithExistingEvent](#mergewithexistingevent)
 
@@ -57,8 +61,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.mergeWithExistingEvent <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge With Existing Event?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [padding](#padding)
 
@@ -67,8 +73,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.padding <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Padding Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [prefix](#prefix)
 
@@ -77,8 +85,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.prefix <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Prefix Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [removeProjectFromEvent](#removeprojectfromevent)
 
@@ -87,8 +97,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.removeProjectFromEvent <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replaceCommasWithAlternativeCommas](#replacecommaswithalternativecommas)
 
@@ -97,8 +109,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.replaceCommasWithAlternativeCommas <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Project from Event                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [startOrEnd](#startorend)
 
@@ -107,8 +121,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.startOrEnd <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start or End Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [startWith](#startwith)
 
@@ -117,8 +133,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.startWith <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Start With Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [stepValue](#stepvalue)
 
@@ -127,8 +145,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.stepValue <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Step With Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [suffix](#suffix)
 
@@ -137,8 +157,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.suffix <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Suffix Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [textEditor](#texteditor)
 
@@ -147,8 +169,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.textEditor <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [textEditorTwo](#texteditortwo)
 
@@ -157,8 +181,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.textEditorTwo <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Text Editor Two Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatfavoriteandrejectasratingsinsteadofkeywords)
 
@@ -167,8 +193,10 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.treatFavoriteAndRejectAsRatingsInsteadOfKeywords <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Treat FAVORITE and REJECT as ratings instead of keywords                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [useTitleContentsInsteadOfTitleName](#usetitlecontentsinsteadoftitlename)
 
@@ -177,5 +205,7 @@ Converts Titles to Keywords
 | **Signature**                               | `plugins.finalcutpro.toolbox.titlestokeywords.useTitleContentsInsteadOfTitleName <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Use Title Contents Instead of Title Name?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

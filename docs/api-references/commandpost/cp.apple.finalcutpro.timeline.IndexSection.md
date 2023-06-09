@@ -30,7 +30,7 @@ This will generally not be created directly, but will be created via subclass su
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [IndexSection](#indexsection)
@@ -42,10 +42,11 @@ This will generally not be created directly, but will be created via subclass su
 | **Description**                             | Creates the `IndexSection` instance.                                                                     |
 | **Parameters**                              | <ul><li>index - The [Index](cp.apple.finalcutpro.timeline.Index.md) instance.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activate](#activate)
@@ -55,9 +56,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the section.                                                                     |
-| **Notes**                                   | <ul><li>Must be overridden in subclasses to provide the actual RadioButton.</li></ul>                |
+| **Notes**                                   | <ul><li>Must be overridden in subclasses to provide the actual RadioButton.</li></ul> |
 
 ---
+
 
 ### [index](#index)
 
@@ -66,8 +68,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.index <cp.apple.finalcutpro.timeline.Index>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The parent [Index](cp.apple.finalcutpro.timeline.Index.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -76,8 +80,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.isShowing <cp.prop: boolean; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the section is currently showing.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [search](#search)
 
@@ -86,8 +92,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.search <cp.ui.SearchField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The shared [SearchField](cp.ui.SearchField.md) for the [Index](cp.apple.finalcutpro.timeline.Index.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -96,9 +104,11 @@ This will generally not be created directly, but will be created via subclass su
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexSection.UI <cp.prop: axuielement; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` that represents the item.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [app](#app)
@@ -110,9 +120,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Description**                             | The [Final Cut Pro](cp.apple.finalcutpro.md) instance.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Final Cut Pro](cp.apple.finalcutpro.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doActivateSearch](#doactivatesearch)
 
@@ -123,9 +134,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will show the Clips in the Timeline Index and focus on the Search field.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns a [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -136,9 +148,10 @@ This will generally not be created directly, but will be created via subclass su
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Clips section in the Timeline Index, if possible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -149,6 +162,7 @@ This will generally not be created directly, but will be created via subclass su
 | **Description**                             | The parent index.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The parent index.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

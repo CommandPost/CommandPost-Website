@@ -41,7 +41,7 @@ A Window UI element.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [findSectionUI](#findsectionui)
@@ -53,9 +53,10 @@ A Window UI element.
 | **Description**                             | Finds the `axuielement` for the specified `sectionID`, if present in the provided `axuielement` `windowUI`.                                                                     |
 | **Parameters**                              | <ul><li>windowUI - The `AXWindow` `axuielement` to search in.</li><li>sectionID - The string value for the `SectionUniqueID`.</li></ul> |
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -66,10 +67,11 @@ A Window UI element.
 | **Description**                             | Checks if the provided element is a valid window.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Window](#window)
@@ -81,10 +83,11 @@ A Window UI element.
 | **Description**                             | Creates a new Window                                                                     |
 | **Parameters**                              | <ul><li>`cpApp`    - a `cp.app` for the application the Window belongs to.</li><li>`uiProp`   - a `cp.prop` that returns the `hs.axuielement` for the window.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Window` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [alert](#alert)
@@ -94,8 +97,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.alert <cp.ui.Alert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides access to any 'Alert' windows on the Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [exists](#exists)
 
@@ -104,8 +109,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.exists <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists. It may not be visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [focused](#focused)
 
@@ -114,8 +121,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.focused <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window has mouse/keyboard focused.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [frame](#frame)
 
@@ -124,8 +133,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.frame <cp.prop: hs.geometry rect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.geometry` rect value describing the window's position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hsWindow](#hswindow)
 
@@ -134,8 +145,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.hsWindow <cp.prop: hs.window; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [id](#id)
 
@@ -144,8 +157,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.id <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The window title, or `nil` if the window is not currently visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isFullScreen](#isfullscreen)
 
@@ -154,8 +169,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.isFullScreen <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is full-screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -164,8 +181,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.isShowing <cp.prop: boolean; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the `Window` is currently showing on screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [minimized](#minimized)
 
@@ -174,8 +193,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.minimized <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window exists and is minimised.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -184,8 +205,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window position                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [size](#size)
 
@@ -194,8 +217,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.size <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets or sets the window size                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -204,8 +229,10 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.UI <cp.prop: hs.axuielement: read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The UI `axuielement` for the Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [visible](#visible)
 
@@ -214,9 +241,11 @@ A Window UI element.
 | **Signature**                               | `cp.ui.Window.visible <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the window is visible on a screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [close](#close)
@@ -228,9 +257,10 @@ A Window UI element.
 | **Description**                             | Attempts to close the window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the window was successfully closed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doClose](#doclose)
 
@@ -241,9 +271,10 @@ A Window UI element.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will attempt to close the window, if it is visible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute, resolving to `true` if the window is closed successfully, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doFocus](#dofocus)
 
@@ -254,9 +285,10 @@ A Window UI element.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) will attempt to focus on the window, if it is visible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute, which resolves to `true` if the window was successfully focused, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findSectionUI](#findsectionui)
 
@@ -267,9 +299,10 @@ A Window UI element.
 | **Description**                             | Looks for th section with the specified `SectionUniqueID` value and returns the matching `axuielement` value.                                                                     |
 | **Parameters**                              | <ul><li>sectionID - The string for the section ID.</li></ul> |
 | **Returns**                                 | <ul><li>The matching `axuielement`, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [focus](#focus)
 
@@ -280,9 +313,10 @@ A Window UI element.
 | **Description**                             | Attempts to focus the window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the window was successfully focused.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [notifier](#notifier)
 
@@ -293,9 +327,10 @@ A Window UI element.
 | **Description**                             | Returns a `notifier` that is tracking the application UI element. It has already been started.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [snapshot](#snapshot)
 
@@ -306,6 +341,7 @@ A Window UI element.
 | **Description**                             | Takes a snapshot of the UI in its current state as a PNG and returns it. If the `path` is provided, the image will be saved at the specified location.                                                                     |
 | **Parameters**                              | <ul><li>path		- (optional) The path to save the file. Should include the extension (should be `.png`).</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.image` that was created, or `nil` if the UI is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

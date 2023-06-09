@@ -20,7 +20,7 @@ Razer Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
@@ -30,8 +30,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.changeBankOnHardwareWhenChangingHere <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we change bank on hardware when changing in preferences?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastApplication](#lastapplication)
 
@@ -40,8 +42,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastControlID](#lastcontrolid)
 
@@ -50,8 +54,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastControlID <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control ID used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastControlType](#lastcontroltype)
 
@@ -60,8 +66,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastControlType <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control Type used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastDevice](#lastdevice)
 
@@ -70,8 +78,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastDevice <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportPath](#lastexportpath)
 
@@ -80,8 +90,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastImportPath](#lastimportpath)
 
@@ -90,8 +102,10 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [pasteboard](#pasteboard)
 
@@ -100,5 +114,7 @@ Razer Preferences Panel
 | **Signature**                               | `plugins.core.razer.prefs.pasteboard <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

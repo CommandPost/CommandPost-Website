@@ -18,7 +18,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -30,10 +30,11 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | Checks if the element is a "Audio" Subrole.                                                                     |
 | **Parameters**                              | <ul><li>element - An element to check</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [AudioSubrole](#audiosubrole)
@@ -45,6 +46,7 @@ A [Role](cp.apple.finalcutpro.timeline.Role.md) representing Audio.
 | **Description**                             | Creates a new instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent `Element`.</li><li>uiFinder - a `function` or `cp.prop` containing the `axuielement`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

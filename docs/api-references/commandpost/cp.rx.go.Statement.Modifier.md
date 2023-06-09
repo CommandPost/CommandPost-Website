@@ -25,7 +25,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -37,10 +37,11 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Description**                             | Checks if the `thing` is a `Statement.Modifier`.                                                                     |
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [context](#context)
@@ -52,9 +53,10 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Description**                             | Returns the `context` table for the `Statement.Modifier`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `context` table.</li></ul>          |
-| **Notes**                                   | <ul><li>The `context` is shared between the `Statement` and all `Statement.Modifiers` when being executed.</li></ul>                |
+| **Notes**                                   | <ul><li>The `context` is shared between the `Statement` and all `Statement.Modifiers` when being executed.</li></ul> |
 
 ---
+
 
 ### [toObservable](#toobservable)
 
@@ -65,6 +67,7 @@ All `Statement.Modifier` instances will also have the methods defined by [Statem
 | **Description**                             | Creates a new `Observable` instance for the current configuration.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Observable` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

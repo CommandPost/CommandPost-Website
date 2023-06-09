@@ -43,7 +43,7 @@ Manager for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_HEIGHT](#default_height)
@@ -53,8 +53,10 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of HUD                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_WIDTH](#default_width)
 
@@ -63,8 +65,10 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of HUD                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastTab](#lasttab)
 
@@ -73,8 +77,10 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager.lastTab`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -83,9 +89,11 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager.position`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [_handlers](#_handlers)
@@ -95,8 +103,10 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager._handlers -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [_panels](#_panels)
 
@@ -105,9 +115,11 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager._panels -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addHandler](#addhandler)
@@ -119,9 +131,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Adds a Handler                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li><li>handlerFn - the handler function</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [addPanel](#addpanel)
 
@@ -132,9 +145,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Adds a new panel with the specified `params` to the HUD manager.                                                                     |
 | **Parameters**                              | <ul><li>`params` - The parameters table. Details below.</li></ul> |
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `openFn`        - A callback function that's triggered when the panel is opened.</li><li> ** `closeFn`       - A callback function that's triggered when the panel is closed.</li><li> ** `loadedFn`      - A callback function that's triggered when the panel is loaded.</li></ul>                |
+| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `openFn`        - A callback function that's triggered when the panel is opened.</li><li> ** `closeFn`       - A callback function that's triggered when the panel is closed.</li><li> ** `loadedFn`      - A callback function that's triggered when the panel is loaded.</li></ul> |
 
 ---
+
 
 ### [currentPanelID](#currentpanelid)
 
@@ -145,9 +159,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Returns the panel ID with the highest priority.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The panel ID as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [delete](#delete)
 
@@ -158,9 +173,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Deletes the existing HUD if it exists                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHandler](#gethandler)
 
@@ -171,9 +187,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Returns the handler for a given ID.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLabel](#getlabel)
 
@@ -184,9 +201,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Returns the Webview label.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getWebview](#getwebview)
 
@@ -197,9 +215,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Returns the Webview of the HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -210,9 +229,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Hides the HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [injectScript](#injectscript)
 
@@ -223,9 +243,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Injects JavaScript into the HUD Webview.                                                                     |
 | **Parameters**                              | <ul><li>script - The JavaScript code you want to inject in the form of a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [maxPanelHeight](#maxpanelheight)
 
@@ -236,9 +257,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Returns the maximum size defined by a panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -249,9 +271,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Creates a new HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refresh](#refresh)
 
@@ -262,9 +285,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Refreshes the HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resize](#resize)
 
@@ -275,9 +299,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Resizes the HUD.                                                                     |
 | **Parameters**                              | <ul><li>height - The new height of the HUD as number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectPanel](#selectpanel)
 
@@ -288,9 +313,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Selects a HUD Panel.                                                                     |
 | **Parameters**                              | <ul><li>id - the optional ID of the panel you want to select. If no ID is supplied then the current panel ID will be used.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -301,9 +327,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Shows the HUD                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -314,9 +341,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Enables or Disables the HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updatePosition](#updateposition)
 
@@ -327,9 +355,10 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Updates the HUD position.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateVisibility](#updatevisibility)
 
@@ -340,10 +369,11 @@ Manager for the Final Cut Pro HUD.
 | **Description**                             | Update the visibility of the HUD.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -353,5 +383,7 @@ Manager for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the HUD enabled in the settings?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

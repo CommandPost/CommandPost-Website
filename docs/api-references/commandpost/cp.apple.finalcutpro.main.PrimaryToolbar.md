@@ -26,7 +26,7 @@ Timeline Toolbar.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -38,10 +38,11 @@ Timeline Toolbar.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [PrimaryToolbar](#primarytoolbar)
@@ -53,10 +54,11 @@ Timeline Toolbar.
 | **Description**                             | Creates a new `PrimaryToolbar` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `PrimaryToolbar` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [backgroundTasksWindow](#backgroundtaskswindow)
@@ -66,8 +68,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.backgroundTasksWindow <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `BackgroundTasksWindow` dialog                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [browserShowing](#browsershowing)
 
@@ -76,8 +80,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.browserShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Browser` is showing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [extensions](#extensions)
 
@@ -86,8 +92,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.extensions <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the "Available Extensions" dialog, or trigger the only extension, if only one is installed.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [inspectorShowing](#inspectorshowing)
 
@@ -96,8 +104,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.inspectorShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the Inspector is showing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywordEditor](#keywordeditor)
 
@@ -106,8 +116,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.keywordEditor <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` that will open the `KeywordEditor` dialog when checked.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mediaImport](#mediaimport)
 
@@ -116,8 +128,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.mediaImport <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that will open the `MediaImport` dialog                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [shareButton](#sharebutton)
 
@@ -126,8 +140,10 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.shareButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Share Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [timelineShowing](#timelineshowing)
 
@@ -136,5 +152,7 @@ Timeline Toolbar.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryToolbar.timelineShowing <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CheckBox` indicating if the `Timeline` is showing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

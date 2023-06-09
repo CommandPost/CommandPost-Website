@@ -25,7 +25,7 @@ Touch Bar Preferences Panel
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [defaultIconPath](#defaulticonpath)
@@ -35,8 +35,10 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.defaultIconPath -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Path where built-in icons are stored                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [maxItems](#maxitems)
 
@@ -45,8 +47,10 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [supportedExtensions](#supportedextensions)
 
@@ -55,9 +59,11 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.supportedExtensions -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of supported extensions for Touch Bar Icons.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [getGroupEditor](#getgroupeditor)
@@ -69,9 +75,10 @@ Touch Bar Preferences Panel
 | **Description**                             | Gets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li></ul> |
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -82,9 +89,10 @@ Touch Bar Preferences Panel
 | **Description**                             | Initialise the Module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Dependancies Table</li><li>env - Environment Table</li></ul> |
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGroupEditor](#setgroupeditor)
 
@@ -95,10 +103,11 @@ Touch Bar Preferences Panel
 | **Description**                             | Sets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li><li>editorFn - Editor Function</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -108,8 +117,10 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastGroup](#lastgroup)
 
@@ -118,8 +129,10 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scrollBarPosition](#scrollbarposition)
 
@@ -128,5 +141,7 @@ Touch Bar Preferences Panel
 | **Signature**                               | `plugins.core.touchbar.prefs.scrollBarPosition <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

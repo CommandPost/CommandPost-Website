@@ -100,7 +100,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 
 ## API Documentation
 
-### Deprecateds
+#### Deprecateds
 
 
 ### [asHSDrawing](#ashsdrawing)
@@ -112,8 +112,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Because use of this method can easily lead to a crash, useful methods from `hs.drawing` have been added to the `hs.webview` module itself.  If you believe that a useful method has been overlooked, please submit an issue.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a placeholder object</li></ul>          |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [asHSWindow](#ashswindow)
 
@@ -122,8 +124,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Signature**                               | `hs.webview:asHSWindow() -> hs.window object`                                                                    |
 | **Type**                                    | Deprecated                                                                     |
 | **Description**                             | Returns an hs.window object for the webview so that you can use hs.window methods on it.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [setLevel](#setlevel)
 
@@ -134,10 +138,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Deprecated; you should use [hs.webview:level](#level) instead.                                                                     |
 | **Parameters**                              | <ul><li>`theLevel` - the level specified as a number, which can be obtained from `hs.drawing.windowLevels`.</li></ul> |
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
-| **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul>                |
+| **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul> |
 
 ---
-### Constants
+
+#### Constants
 
 
 ### [certificateOIDs](#certificateoids)
@@ -147,8 +152,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Signature**                               | `hs.webview.certificateOIDs[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of common OID values found in SSL certificates.  SSL certificates provided to the callback function for [hs.webview:sslCallback](#sslCallback) or in the results of [hs.webview:certificateChain](#certificateChain) use OID strings as the keys which describe the properties of the certificate and this table can be used to get a more common name for the keys you are most likely to see.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [windowMasks](#windowmasks)
 
@@ -157,10 +164,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Signature**                               | `hs.webview.windowMasks[]`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing valid masks for the webview window.                                                                     |
-| **Notes**                                   | <ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul>                |
+| **Notes**                                   | <ul><li>The Maximize button in the window title is enabled when Resizable is set.</li><li>The Close, Minimize, and Maximize buttons are only visible when the Window is also Titled.</li></ul> |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [titleVisibility](#titlevisibility)
@@ -172,10 +180,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the title text appears in the webview window.                                                                     |
 | **Parameters**                              | <ul><li>`state` - an optional string containing the text "visible" or "hidden", specifying whether or not the webview's title text appears when webview's window style includes "titled".</li></ul> |
 | **Returns**                                 | <ul><li>if a value is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>See also [hs.webview:windowStyle](#windowStyle) and [hs.webview.windowMasks](#windowMasks).</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window's title ("visible") or in the window's title bar itself, as seen in applications like Safari ("hidden"). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with `hs.webview.toolbar:displayMode`.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with `hs.webview:attachedToolbar():inTitleBar(boolean)`</li></ul>                |
+| **Notes**                                   | <ul><li>See also [hs.webview:windowStyle](#windowStyle) and [hs.webview.windowMasks](#windowMasks).</li><li></li><li>When a toolbar is attached to the webview, this function can be used to specify whether the Toolbar appears underneath the webview window's title ("visible") or in the window's title bar itself, as seen in applications like Safari ("hidden"). When the title is hidden, the toolbar will only display the toolbar items as icons without labels, and ignores changes made with `hs.webview.toolbar:displayMode`.</li><li></li><li>If a toolbar is attached to the webview, you can achieve the same effect as this method with `hs.webview:attachedToolbar():inTitleBar(boolean)`</li></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -193,9 +202,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `suppressesIncrementalRendering`        - suppresses content rendering until fully loaded into memory (default false)
   The following additional preferences may also be set under OS X 10.11 or later (they will be ignored with a warning printed if used under OS X 10.10):`applicationName`                       - a string specifying an application name to be listed at the end of the browser's USER-AGENT header.  Note that this is only appended to the default user agent string; if you set a custom one with [hs.webview:userAgent](#userAgent), this value is ignored.`allowsAirPlay`                         - a boolean specifying whether media playback within the webview can play through AirPlay devices.`datastore`                             - an `hs.webview.datastore` object specifying where website data such as cookies, cacheable content, etc. is to be stored.`privateBrowsing`                       - a boolean (default false) specifying that the datastore should be set to a new, empty and non-persistent datastore.  Note that this will override the `datastore` key if both are specified and this is set to true.</li><li>`userContentController` - an optional `hs.webview.usercontent` object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>To set the initial URL, use the `hs.webview:url` method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple's documentation, but is included in the WebKit2 documentation.</li></ul>                |
+| **Notes**                                   | <ul><li>To set the initial URL, use the `hs.webview:url` method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple's documentation, but is included in the WebKit2 documentation.</li></ul> |
 
 ---
+
 
 ### [newBrowser](#newbrowser)
 
@@ -206,10 +216,11 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Create a webviewObject with some presets common to an interactive web browser.                                                                     |
 | **Parameters**                              | <ul><li>`rect`                  - a rectangle specifying where the webviewObject should be displayed.</li><li>`preferencesTable`      - an optional table which specifies special settings for the webview object.</li><li>`userContentController` - an optional `hs.webview.usercontent` object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>The parameters are the same as for [hs.webview.new](#new) -- check there for more details</li><li>This constructor is just a short-hand for `hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)`, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See [hs.webview.new](#new) and the following for more details:</li><li> [hs.webview:allowGestures](#allowGestures)</li><li> [hs.webview:allowTextEntry](#allowTextEntry)</li><li> [hs.webview:windowStyle](#windowStyle)</li><li> [hs.webview.windowMasks](#windowMasks)</li></ul>                |
+| **Notes**                                   | <ul><li>The parameters are the same as for [hs.webview.new](#new) -- check there for more details</li><li>This constructor is just a short-hand for `hs.webview.new(...):allowTextEntry(true):allowGestures(true):windowStyle(15)`, which specifies a webview with a title bar, title bar buttons (zoom, close, minimize), and allows form entry and gesture support for previous and next pages.</li><li></li><li>* See [hs.webview.new](#new) and the following for more details:</li><li> [hs.webview:allowGestures](#allowGestures)</li><li> [hs.webview:allowTextEntry](#allowTextEntry)</li><li> [hs.webview:windowStyle](#windowStyle)</li><li> [hs.webview.windowMasks](#windowMasks)</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [allowGestures](#allowgestures)
@@ -221,9 +232,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview will respond to gestures from a trackpad or magic mouse.  Default is false.                                                                     |
 | **Parameters**                              | <ul><li>value - an optional boolean value indicating whether or not the webview should respond gestures.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>This is a shorthand method for getting or setting both `hs.webview:allowMagnificationGestures` and `hs.webview:allowNavigationGestures`.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if *both* gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul>                |
+| **Notes**                                   | <ul><li>This is a shorthand method for getting or setting both `hs.webview:allowMagnificationGestures` and `hs.webview:allowNavigationGestures`.</li><li>This method will set both types of gestures to true or false, if given an argument, but will only return true if *both* gesture types are currently true; if either or both gesture methods are false, then this method will return false.</li></ul> |
 
 ---
+
 
 ### [allowMagnificationGestures](#allowmagnificationgestures)
 
@@ -234,9 +246,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview will respond to magnification gestures from a trackpad or magic mouse.  Default is false.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value indicating whether or not the webview should respond to magnification gestures.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [allowNavigationGestures](#allownavigationgestures)
 
@@ -247,9 +260,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview will respond to the navigation gestures from a trackpad or magic mouse.  Default is false.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value indicating whether or not the webview should respond to navigation gestures.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [allowNewWindows](#allownewwindows)
 
@@ -260,9 +274,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview allows new windows to be opened from it by any method.  Defaults to true.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value indicating whether or not the webview should allow new windows to be opened from it.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting "Open in a New Window", JavaScript pop-ups, links with the target of "__blank", etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks *all* methods.</li></ul>                |
+| **Notes**                                   | <ul><li>This method allows you to prevent a webview from being able to open a new window by any method.   This includes right-clicking on a link and selecting "Open in a New Window", JavaScript pop-ups, links with the target of "__blank", etc.</li><li>If you just want to prevent automatic JavaScript windows, set the preference value javaScriptCanOpenWindowsAutomatically to false when creating the web view - this method blocks *all* methods.</li></ul> |
 
 ---
+
 
 ### [allowTextEntry](#allowtextentry)
 
@@ -273,9 +288,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview can accept keyboard for web form entry. Defaults to false.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value which sets whether or not the webview will accept keyboard input.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [alpha](#alpha)
 
@@ -286,9 +302,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the alpha level of the window containing the hs.webview object.                                                                     |
 | **Parameters**                              | <ul><li>`alpha` - an optional number between 0.0 and 1.0 specifying the new alpha level for the webview.</li></ul> |
 | **Returns**                                 | <ul><li>If a parameter is provided, returns the webview object; otherwise returns the current value.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [attachedToolbar](#attachedtoolbar)
 
@@ -299,9 +316,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or attach/detach a toolbar to/from the webview.                                                                     |
 | **Parameters**                              | <ul><li>`toolbar` - if an `hs.webview.toolbar` object is specified, it will be attached to the webview.  If an explicit nil is specified, the current toolbar will be removed from the webview.</li></ul> |
 | **Returns**                                 | <ul><li>if a toolbarObject or explicit nil is specified, returns the webviewObject; otherwise returns the current toolbarObject or nil, if no toolbar is attached to the webview.</li></ul>          |
-| **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see `hs.webview.toolbar:copy`.</li></ul>                |
+| **Notes**                                   | <ul><li>this method is a convenience wrapper for the `hs.webview.toolbar.attachToolbar` function.</li><li></li><li>If the toolbarObject is currently attached to another window when this method is called, it will be detached from the original window and attached to the webview.  If you wish to attach the same toolbar to multiple webviews, see `hs.webview.toolbar:copy`.</li></ul> |
 
 ---
+
 
 ### [behavior](#behavior)
 
@@ -312,9 +330,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the window behavior settings for the webview object.                                                                     |
 | **Parameters**                              | <ul><li>`behavior` - an optional number representing the desired window behaviors for the webview object.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
+| **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul> |
 
 ---
+
 
 ### [behaviorAsLabels](#behavioraslabels)
 
@@ -325,9 +344,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the window behavior settings for the webview object using labels defined in `hs.drawing.windowBehaviors`.                                                                     |
 | **Parameters**                              | <ul><li>behaviorTable - an optional table of strings and/or numbers specifying the desired window behavior for the webview object.</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul>                |
+| **Notes**                                   | <ul><li>Window behaviors determine how the webview object is handled by Spaces and Exposé. See `hs.drawing.windowBehaviors` for more information.</li></ul> |
 
 ---
+
 
 ### [bringToFront](#bringtofront)
 
@@ -338,9 +358,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Places the drawing object on top of normal windows                                                                     |
 | **Parameters**                              | <ul><li>`aboveEverything` - An optional boolean value that controls how far to the front the webview should be placed. True to place the webview on top of all windows (including the dock and menubar and fullscreen windows), false to place the webview above normal windows, but below the dock, menubar and fullscreen windows. Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [certificateChain](#certificatechain)
 
@@ -351,9 +372,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns the certificate chain for the most recently committed navigation of the webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the certificates that make up the SSL certificate chain securing the most recent committed navigation.  Each certificate is described in a table with the following keys:</li><li>  `commonName` - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate's purpose.</li><li>  `values`     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in [hs.webview.certificateOIDs](#certificateOIDs). The value for each key will be a table with the following keys:</li><li>    `label`           - a description or label for the entry</li><li>    `localized label` - a localized version of `label`</li><li>    `type`            - a description of the data type for this value</li><li>    `value`           - the value</li></ul>          |
-| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of "date" -- e.g. "2.5.29.24" (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua `os.date` command.</li><li>For OIDs which are known to represent a date, but specify its type as a "number" -- e.g. "2.16.840.1.113741.2.1.1.1.7" (X509V1ValidityNotAfter) or "2.16.840.1.113741.2.1.1.1.6" (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  `os.date("%c", value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})`</li></ul>                |
+| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li>A navigation which was performed via HTTP instead of HTTPS will return an empty array.</li><li></li><li>For OIDs which specify a type of "date" -- e.g. "2.5.29.24" (invalidityDate) -- the number provided represents the number of seconds since 12:00:00 AM, January 1, 1970 and can be used directly with the Lua `os.date` command.</li><li>For OIDs which are known to represent a date, but specify its type as a "number" -- e.g. "2.16.840.1.113741.2.1.1.1.7" (X509V1ValidityNotAfter) or "2.16.840.1.113741.2.1.1.1.6" (X509V1ValidityNotBefore) -- the epoch is 12:00:00 AM, Jan 1, 2001.  To convert these dates into a format usable by Lua, you will need to do something similar to the following:  `os.date("%c", value + os.time({year=2001,month=1,day=1,hour=0,min=0,sec=0})`</li></ul> |
 
 ---
+
 
 ### [children](#children)
 
@@ -364,9 +386,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns an array of webview objects which have been opened as children of this webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an array containing the webview objects of all child windows opened from this webview.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [closeOnEscape](#closeonescape)
 
@@ -377,9 +400,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | If the webview is closable, this will get or set whether or not the Escape key is allowed to close the webview window.                                                                     |
 | **Parameters**                              | <ul><li>`flag` - an optional boolean value which indicates whether a webview, when it's style includes Closable (see `hs.webview:windowStyle`), should allow the Escape key to be a shortcut for closing the webview window.  Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul>                |
+| **Notes**                                   | <ul><li>If this is set to true, Escape will only close the window if no other element responds to the Escape key first (e.g. if you are editing a text input field, the Escape will be captured by the text field, not by the webview Window.)</li></ul> |
 
 ---
+
 
 ### [darkMode](#darkmode)
 
@@ -390,9 +414,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Set or display whether or not the `hs.webview` window should display in dark mode.                                                                     |
 | **Parameters**                              | <ul><li>`state` - an optional boolean which will set whether or not the `hs.webview` window should display in dark mode.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, `true` if dark mode is enabled otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [delete](#delete)
 
@@ -403,9 +428,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Destroys the webview object, optionally fading it out first (if currently visible).                                                                     |
 | **Parameters**                              | <ul><li>`propagate`   - an optional boolean, default false, which indicates whether or not the child windows of this webview should also be deleted.</li><li>`fadeOutTime` - an optional number of seconds over which to fade out the webview object. Defaults to zero.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul>                |
+| **Notes**                                   | <ul><li>This method is automatically called during garbage collection, notably during a Hammerspoon termination or reload, with a fade time of 0.</li></ul> |
 
 ---
+
 
 ### [deleteOnClose](#deleteonclose)
 
@@ -416,9 +442,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview should delete itself when its window is closed.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value which sets whether or not the webview will delete itself when its window is closed by any method.  Defaults to false for a window created with `hs.webview.new` and true for any webview windows created by the main webview (user selects "Open Link in New Window", etc.)</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see `hs.webview.windowStyle`).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the "newWindow" action.</li></ul>                |
+| **Notes**                                   | <ul><li>If set to true, a webview object will be deleted when the user clicks on the close button of a titled and closable webview (see `hs.webview.windowStyle`).</li><li>Children of an explicitly created webview automatically have this attribute set to true.  To cause closed children to remain after the user closes the parent, you can set this to false with a policy callback function when it receives the "newWindow" action.</li></ul> |
 
 ---
+
 
 ### [estimatedProgress](#estimatedprogress)
 
@@ -429,9 +456,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns the estimated percentage of expected content that has been loaded.  Will equal 1.0 when all content has been loaded.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a numerical value between 0.0 and 1.0 indicating the percentage of expected content which has been loaded.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [evaluateJavaScript](#evaluatejavascript)
 
@@ -444,9 +472,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `result` - the result of the executed JavaScript code or nil if there was no result or an error occurred.
   `error`  - an NSError table describing any error that occurred during the JavaScript execution or nil if no error occurred.</li></ul> |
 | **Returns**                                 | <ul><li>the webview object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [examineInvalidCertificates](#examineinvalidcertificates)
 
@@ -457,9 +486,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not invalid SSL server certificates that are approved by the ssl callback function are accepted as valid for browsing with the webview.                                                                     |
 | **Parameters**                              | <ul><li>`flag` - an optional boolean, default false, specifying whether or not an invalid SSL server certificate should be  accepted if it is approved by the ssl callback function.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>In order for this setting to have any effect, you must also register an ssl callback function with [hs.webview:sslCallback](#sslCallback) which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback *must* be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate's common name is www.site.com, but it is being used for something else, possibly just https://site.com, possibly something else entirely</li><li>  some corporate proxy servers don't handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by `hs.httpserver` uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul>                |
+| **Notes**                                   | <ul><li>In order for this setting to have any effect, you must also register an ssl callback function with [hs.webview:sslCallback](#sslCallback) which should return true if the certificate should be granted an exception or false if it should not.  For a certificate to be granted an exception, both this method and the result of the callback *must* be true.</li><li></li><li>A server certificate may be invalid for a variety of reasons:</li><li>  it is not signed by a recognized certificate authority - most commonly this means the certificate is self-signed.</li><li>  the certificate has expired</li><li>  the certificate has a common name (web site server name) other than the one requested (e.g. the certificate's common name is www.site.com, but it is being used for something else, possibly just https://site.com, possibly something else entirely</li><li>  some corporate proxy servers don't handle SSL properly and can cause a certificate to appear invalid even when they are valid (this is less common then it used to be, but does still occur occasionally)</li><li>  potentially nefarious reasons including man-in-the-middle attacks or phishing scams.</li><li></li><li>The Hammerspoon server provided by `hs.httpserver` uses a self-signed certificate when set to use SSL, so it will be considered invalid for reason 1 above.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this setting has no effect for that certificate.</li></ul> |
 
 ---
+
 
 ### [frame](#frame)
 
@@ -470,9 +500,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the frame of the webview window.                                                                     |
 | **Parameters**                              | <ul><li>rect - An optional rect-table containing the co-ordinates and size the webview window should be moved and set to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys `x`  and `y`) and the new size (keys `h` and `w`).  The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
+| **Notes**                                   | <ul><li>a rect-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview window (keys `x`  and `y`) and the new size (keys `h` and `w`).  The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 
 ---
+
 
 ### [goBack](#goback)
 
@@ -483,9 +514,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Move to the previous page in the webview's history, if possible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [goForward](#goforward)
 
@@ -496,9 +528,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Move to the next page in the webview's history, if possible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -509,9 +542,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Hides the webview object                                                                     |
 | **Parameters**                              | <ul><li>`fadeOutTime` - An optional number of seconds over which to fade out the webview. Defaults to zero</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [historyList](#historylist)
 
@@ -522,9 +556,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns the URL history for the current webview as an array.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table which is an array of the URLs viewed within this webview and a key named `current` which is equal to the index corresponding to the currently visible entry.  Each array element will be a table with the following keys:</li><li>  `URL`        - the URL of the web page</li><li>  `initialURL` - the URL of the initial request that led to this item</li><li>  `title`      - the web page title</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hswindow](#hswindow)
 
@@ -535,9 +570,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns an hs.window object for the webview so that you can use hs.window methods on it.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>an hs.window object</li></ul>          |
-| **Notes**                                   | <ul><li>hs.window:minimize only works if the webview is minimizable (see `hs.webview.windowStyle`)</li><li>hs.window:setSize only works if the webview is resizable (see `hs.webview.windowStyle`)</li><li>hs.window:close only works if the webview is closable (see `hs.webview.windowStyle`)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see `hs.webview.windowStyle`)</li></ul>                |
+| **Notes**                                   | <ul><li>hs.window:minimize only works if the webview is minimizable (see `hs.webview.windowStyle`)</li><li>hs.window:setSize only works if the webview is resizable (see `hs.webview.windowStyle`)</li><li>hs.window:close only works if the webview is closable (see `hs.webview.windowStyle`)</li><li>hs.window:maximize will reposition the webview to the upper left corner of your screen, but will only resize the webview if the webview is resizable (see `hs.webview.windowStyle`)</li></ul> |
 
 ---
+
 
 ### [html](#html)
 
@@ -548,9 +584,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Render the given HTML in the webview with an optional base URL for relative links.                                                                     |
 | **Parameters**                              | <ul><li>`html`    - the html to be rendered in the webview</li><li>`baseURL` - an optional Base URL to use as the starting point for any relative links within the provided html.</li></ul> |
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
-| **Notes**                                   | <ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul>                |
+| **Notes**                                   | <ul><li>Web Pages generated in this manner are not added to the webview history list</li></ul> |
 
 ---
+
 
 ### [isOnlySecureContent](#isonlysecurecontent)
 
@@ -561,9 +598,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns a boolean value indicating if all content current displayed in the webview was loaded over securely encrypted connections.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if all content current displayed in the web view was loaded over securely encrypted connections; otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isVisible](#isvisible)
 
@@ -574,9 +612,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Checks to see if a webview window is visible or not.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the webview window is visible, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [level](#level)
 
@@ -587,9 +626,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the window level                                                                     |
 | **Parameters**                              | <ul><li>`theLevel` - an optional parameter specifying the desired level as an integer, which can be obtained from `hs.drawing.windowLevels`.</li></ul> |
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webview object, otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul>                |
+| **Notes**                                   | <ul><li>see the notes for `hs.drawing.windowLevels`</li></ul> |
 
 ---
+
 
 ### [loading](#loading)
 
@@ -600,9 +640,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns a boolean value indicating whether or not the webview is still loading content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if the content is still being loaded, or false if it has completed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [magnification](#magnification)
 
@@ -613,9 +654,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the webviews current magnification level. Default is 1.0.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional number specifying the webviews magnification level.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [navigationCallback](#navigationcallback)
 
@@ -630,9 +672,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `navID`   - a navigation identifier which can be used to link this event back to a specific request made by a `hs.webview:url`, `hs.webview:html`, or `hs.webview:reload` method.
   `error`   - a table which will only be provided when `action` is equal to `didFailNavigation` or `didFailProvisionalNavigation`.  If provided, it will contain at leas some of the following keys, possibly others as well:`code`        - a numerical value indicating the type of error code.  This will mostly be of use to developers or in debugging and may be removed in the future.`domain`      - a string indicating the error domain of the error.  This will mostly be of use to developers or in debugging and may be removed in the future.`description` - a string describing the condition or problem that has occurred.`reason`      - if available, more information about what may have caused the problem to occur.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>The return value of the callback function is ignored except when the `action` argument is equal to `didFailNavigation` or `didFailProvisionalNavigation`.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul>                |
+| **Notes**                                   | <ul><li>The return value of the callback function is ignored except when the `action` argument is equal to `didFailNavigation` or `didFailProvisionalNavigation`.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul> |
 
 ---
+
 
 ### [navigationID](#navigationid)
 
@@ -643,9 +686,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get the most recent navigation identifier for the specified webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the navigation identifier</li></ul>          |
-| **Notes**                                   | <ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see `hs.webview.navigationCallback`.</li></ul>                |
+| **Notes**                                   | <ul><li>This navigation identifier can be used to track the progress of a webview with the navigation callback function - see `hs.webview.navigationCallback`.</li></ul> |
 
 ---
+
 
 ### [orderAbove](#orderabove)
 
@@ -656,9 +700,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Moves webview object above webview2, or all webview objects in the same presentation level, if webview2 is not given.                                                                     |
 | **Parameters**                              | <ul><li>`webview2` -An optional webview object to place the webview object above.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul>                |
+| **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul> |
 
 ---
+
 
 ### [orderBelow](#orderbelow)
 
@@ -669,9 +714,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Moves webview object below webview2, or all webview objects in the same presentation level, if webview2 is not given.                                                                     |
 | **Parameters**                              | <ul><li>`webview2` -An optional webview object to place the webview object below.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul>                |
+| **Notes**                                   | <ul><li>If the webview object and webview2 are not at the same presentation level, this method will move the webview object as close to the desired relationship without changing the webview object's presentation level. See [hs.webview.level](#level).</li></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -682,9 +728,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get the parent webview object for the calling webview object, or nil if the webview has no parent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the parent webview object for the calling webview object, or nil if the webview has no parent</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [policyCallback](#policycallback)
 
@@ -703,9 +750,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `authenticationChallenge`:  This applies to a web page which requires a log in credential for HTTPBasic or HTTPDigest authentication.the second argument will be the webview this request originates from.the third argument will be a table containing the challenge details and may contain any of the following keys:`previousFailureCount` - an integer indicating the number of previously failed login attempts.  This will be 0 for the first try.`failureResponse`      - the response data as described for `navigationResponse` above for the last authentication failureResponse`proposedCredential`   - a table containing the previously failed credential containing any of the following keys:`hasPassword`          - a boolean value indicating if a password was provided with this credential`persistence`          - a string value identifying the persistence of this credential.  This value will be one of the following:None                 - the credential is for this URL request only and no other`session`              - the credential is for this session and will be forgotten once the webview is deleted`permanent`            - the credential is stored in the user's keychain`synchronized`         - the credential is stored in the user's keychain and may be shared with other devices with the same owning Apple ID.`user`                 - the username of the failed credential`password`             - the password of the failed credential`protectionSpace`      - a table describing the realm for the authentication and may contain any of the following keys:`port`                       - the port of the server with which communication for this request is occurring`receivesCredentialSecurely` - a boolean value indicating whether or not the credential can be sent to the server securely`authenticationMethod`       - a string indicating the authentication type: default, HTTPBasic, or HTTPDigest.  Other types exists but are not currently supported with this module or do not apply to webview activities.`host`                       - the host name of the server with which communication for this request is occurring`protocol`                   - the protocol for which the authentication is occurring`isProxy`                    - a boolean indicating whether or not the authentication is occurring with a proxy server`proxyType`                  - a string representing the type of proxy server: http, https, ftp, or socks.`realm`                      - a string representing the realm name for the authentication.
   The callback function should return true if the user should be prompted for the username and password credentials, a table with the keys `user` and `password` containing the username and password to log in with, or false if the login request should be cancelled.  Note that if your function returns a table and fails to authenticate three times, the user will be prompted anyways to prevent loops.</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>With the `newWindow` action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul>                |
+| **Notes**                                   | <ul><li>With the `newWindow` action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul> |
 
 ---
+
 
 ### [privateBrowsing](#privatebrowsing)
 
@@ -716,9 +764,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns whether or not the webview browser is set up for private browsing (i.e. uses a non-persistent datastore)                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean value indicating whether or not the datastore is non-persistent.</li></ul>          |
-| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See `hs.webview.datastore` and [hs.webview.new](#new) for more information.</li></ul>                |
+| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>See `hs.webview.datastore` and [hs.webview.new](#new) for more information.</li></ul> |
 
 ---
+
 
 ### [reload](#reload)
 
@@ -729,9 +778,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Reload the page in the webview, optionally performing end-to-end revalidation using cache-validating conditionals if possible.                                                                     |
 | **Parameters**                              | <ul><li>`validate` - an optional boolean indicating whether or not an attempt to perform end-to-end revalidation of cached data should be performed.  Defaults to false.</li></ul> |
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendToBack](#sendtoback)
 
@@ -742,9 +792,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Places the webview object behind normal windows, between the desktop wallpaper and desktop icons                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The drawing object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shadow](#shadow)
 
@@ -755,9 +806,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview window has shadows. Default to false.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value indicating whether or not the webview should have shadows.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -768,9 +820,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Displays the webview object                                                                     |
 | **Parameters**                              | <ul><li>`fadeInTime` - An optional number of seconds over which to fade in the webview. Defaults to zero</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [size](#size)
 
@@ -781,9 +834,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the size of a webview window                                                                     |
 | **Parameters**                              | <ul><li>`size` - An optional size-table specifying the width and height the webview window should be resized to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>a size-table is a table with key-value pairs specifying the size (keys `h` and `w`) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
+| **Notes**                                   | <ul><li>a size-table is a table with key-value pairs specifying the size (keys `h` and `w`) the webview should be resized to. The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 
 ---
+
 
 ### [sslCallback](#sslcallback)
 
@@ -803,9 +857,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `realm`                      - a string representing the realm name for the authentication.
   `certificates` - an array of tables, each table describing a certificate in the SSL certificate chain provided by the server responding to the webview's request.  Each table will contain the following keys:`commonName` - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate's purpose.`values`     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in [hs.webview.certificateOIDs](#certificateOIDs). The value for each key will be a table with the following keys:`label`           - a description or label for the entry`localized label` - a localized version of `label``type`            - a description of the data type for this value`value`           - the value</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns `true`, the certificate will only be granted an exception if [hs.webview:examineInvalidCertificates](#examineInvalidCertificates) has also been set to `true`.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul>                |
+| **Notes**                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns `true`, the certificate will only be granted an exception if [hs.webview:examineInvalidCertificates](#examineInvalidCertificates) has also been set to `true`.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user's keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul> |
 
 ---
+
 
 ### [stopLoading](#stoploading)
 
@@ -816,9 +871,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Stop loading additional content for the webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if [hs.webview:loading](#loading) would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul>                |
+| **Notes**                                   | <ul><li>this method does not stop the loading of the primary content for the page at the specified URL</li><li>if [hs.webview:loading](#loading) would return true, this method does nothing -- see notes:</li><li>  The documentation from Apple is unclear and experimentation has shown that if this method is applied before the content of the specified URL has loaded, it can cause the webview to lock up; however it appears to stop the loading of additional resources specified for the content (external script files, external style files, AJAX queries, etc.) and should be used in this context.</li></ul> |
 
 ---
+
 
 ### [title](#title)
 
@@ -829,9 +885,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get the title of the page displayed in the webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the title</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [topLeft](#topleft)
 
@@ -842,9 +899,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the top-left coordinate of the webview window                                                                     |
 | **Parameters**                              | <ul><li>`point` - An optional point-table specifying the new coordinate the top-left of the webview window should be moved to</li></ul> |
 | **Returns**                                 | <ul><li>If an argument is provided, the webview object; otherwise the current value.</li></ul>          |
-| **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul>                |
+| **Notes**                                   | <ul><li>a point-table is a table with key-value pairs specifying the new top-left coordinate on the screen of the webview (keys `x`  and `y`). The table may be crafted by any method which includes these keys, including the use of an `hs.geometry` object.</li></ul> |
 
 ---
+
 
 ### [transparent](#transparent)
 
@@ -855,9 +913,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set whether or not the webview background is transparent.  Default is false.                                                                     |
 | **Parameters**                              | <ul><li>`value` - an optional boolean value indicating whether or not the webview should be transparent.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is provided, then this method returns the webview object; otherwise the current value</li></ul>          |
-| **Notes**                                   | <ul><li>When enabled, the webview's background color is equal to the body's `background-color` (transparent by default)</li><li>Setting `background-color:rgba(0, 225, 0, 0.3)` on `<body>` will give a translucent green webview background</li></ul>                |
+| **Notes**                                   | <ul><li>When enabled, the webview's background color is equal to the body's `background-color` (transparent by default)</li><li>Setting `background-color:rgba(0, 225, 0, 0.3)` on `<body>` will give a translucent green webview background</li></ul> |
 
 ---
+
 
 ### [url](#url)
 
@@ -878,9 +937,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   `networkServiceType`      - a string value representing the network service type of the request.  It should match one of the following:`default`                 - (default) standard network traffic.  You should rarely use a value other than this as it can affect the responsiveness of your computer and other applications.`VoIP`                    - with the VoIP service type, the kernel continues to listen for incoming traffic while your app is in the background, then wakes up your app whenever new data arrives. This should be used only for connections that are used to communicate with a VoIP service.`video`                   - specifies that this is video traffic`background`              - use this for data if your are performing a download that was not requested by the user — for example, prefetching content so that it will be available when the user chooses to view it.`voice`                   - specifies that this is voice traffic
   `HTTPHeaderFields`        - a table containing key-value pairs corresponding to additional headers you wish to include in your request.  Because the HTTP specification requires that both keys and values are strings, any key which is not a string is ignored, and any value which is not a string or number is also ignored.  In addition, the following keys are handled automatically behind the scenes and will be ignored if you specify them:`Authorization``Connection``Host``WWW-Authenticate``Content-Length`</li></ul> |
 | **Returns**                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
-| **Notes**                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system's ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul>                |
+| **Notes**                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system's ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul> |
 
 ---
+
 
 ### [urlParts](#urlparts)
 
@@ -891,9 +951,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Returns a table of keys containing the individual components of the URL for the webview.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a table containing the keys for the webview's URL.  See the function `hs.http.urlParts` for a description of the possible keys returned in the table.</li></ul>          |
-| **Notes**                                   | <ul><li>This method is a wrapper to the `hs.http.urlParts` function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the `hs.httpserver.hsminweb.urlParts` function for a version more consistent with RFC 3986.</li></ul>                |
+| **Notes**                                   | <ul><li>This method is a wrapper to the `hs.http.urlParts` function wich uses the OS X APIs, based on RFC 1808.</li><li>You may also want to consider the `hs.httpserver.hsminweb.urlParts` function for a version more consistent with RFC 3986.</li></ul> |
 
 ---
+
 
 ### [userAgent](#useragent)
 
@@ -904,9 +965,10 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Get or set the webview's user agent string                                                                     |
 | **Parameters**                              | <ul><li>`agent` - an options string specifying the user agent string to include in all URL requests made by the webview object.</li></ul> |
 | **Returns**                                 | <ul><li>if a parameter is specified, returns the webviewObject, otherwise returns the current value</li></ul>          |
-| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)"</li><li>By default, this method will return the empty string ("") when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to "" with this method (e.g. `hs.webview:userAgent("")`).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at http://www.useragentstring.com/pages/useragentstring.php.</li><li></li><li>If you have set the user agent application name with the `applicationName` parameter to the [hs.webview.new](#new) constructor, it will be ignored unless this value is "", i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul>                |
+| **Notes**                                   | <ul><li>This method is only supported by OS X 10.11 and newer</li><li></li><li>The default user string used by webview objects will be something like this (the exact version numbers will differ, depending upon your OS X version):</li><li> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko)"</li><li>By default, this method will return the empty string ("") when queried -- this indicates that the default, shown above, is used.  You can also return to this default by setting the user agent to "" with this method (e.g. `hs.webview:userAgent("")`).</li><li></li><li>Some web sites tailor content based on the user string or use it for other internal purposes (tracking, statistics, page availability, layout, etc.).  Common user-agent strings can be found at http://www.useragentstring.com/pages/useragentstring.php.</li><li></li><li>If you have set the user agent application name with the `applicationName` parameter to the [hs.webview.new](#new) constructor, it will be ignored unless this value is "", i.e. the default user agent string.  If you wish to specify an application name after the user agent string and use a custom string, include the application name in your custom string.</li></ul> |
 
 ---
+
 
 ### [windowCallback](#windowcallback)
 
@@ -920,9 +982,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   "focusChange", webview, state - indicates that the webview window has either become or stopped being the focused window`action`  - in this case "focusChange", specifying that the webview window is being closed`webview` - the webview that is being closed`state`   - a boolean, true if the webview has become the focused window, or false if it has lost focus
   "frameChange", webview, frame - indicates that the webview window has been moved or resized`action`  - in this case "focusChange", specifying that the webview window is being closed`webview` - the webview that is being closed`frame`   - a rect-table containing the new co-ordinates and size of the webview window</li></ul> |
 | **Returns**                                 | <ul><li>The webview object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [windowStyle](#windowstyle)
 
@@ -936,9 +999,10 @@ Any suggestions or updates to the code to address any of these or other limitati
   string  - a single key from `hs.webview.windowMasks` which will be toggled in the current window style.
   table   - a list of keys from `hs.webview.windowMasks` which will be combined to make the final style by combining their values with the logical or operator.</li></ul> |
 | **Returns**                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [windowTitle](#windowtitle)
 
@@ -949,6 +1013,7 @@ Any suggestions or updates to the code to address any of these or other limitati
 | **Description**                             | Sets the title for the webview window.                                                                     |
 | **Parameters**                              | <ul><li>`title` - if specified and not nil, the title to set for the webview window.  If this parameter is not present or is nil, the title will follow the title of the webview's content.</li></ul> |
 | **Returns**                                 | <ul><li>The webview Object</li></ul>          |
-| **Notes**                                   | <ul><li>The title will be hidden unless the window style includes the "titled" style (see `hs.webview.windowStyle` and `hs.webview.windowMasks`)</li></ul>                |
+| **Notes**                                   | <ul><li>The title will be hidden unless the window style includes the "titled" style (see `hs.webview.windowStyle` and `hs.webview.windowMasks`)</li></ul> |
 
 ---
+

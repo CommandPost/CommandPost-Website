@@ -15,7 +15,7 @@ Commands Row.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [command](#command)
@@ -25,8 +25,10 @@ Commands Row.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.command <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The command [TextField](cp.ui.TextField.md) (read-only).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [key](#key)
 
@@ -35,8 +37,10 @@ Commands Row.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.key <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The key [TextField](cp.ui.TextField.md) (read-only).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [modifiers](#modifiers)
 
@@ -45,5 +49,7 @@ Commands Row.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Row.modifiers <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The modifiers [TextField](cp.ui.TextField.md) (read-only)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

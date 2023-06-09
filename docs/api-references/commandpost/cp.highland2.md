@@ -21,7 +21,7 @@ Highland 2 support.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [documents](#documents)
@@ -31,8 +31,10 @@ Highland 2 support.
 | **Signature**                               | `cp.highland2.documents <cp.prop: table of cp.highland2.Document>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of [Documents](cp.highland2.Document.md) currently open.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [focusedDocument](#focuseddocument)
 
@@ -41,5 +43,7 @@ Highland 2 support.
 | **Signature**                               | `cp.highland2.focusedDocument <cp.prop: cp.highland2.Document>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The currently-focused [Document](cp.highland2.Document.md), if applicable.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -191,7 +191,7 @@ cp.spec "*" ()
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [describe](#describe)
@@ -203,9 +203,10 @@ cp.spec "*" ()
 | **Description**                             | Returns a `function` which will accept a list of test [definitions](cp.spec.Definition.md), or a `table` of [definitions](cp.spec.Definition.md).                                                                     |
 | **Parameters**                              | <ul><li>name      - The name of the test suite.</li></ul> |
 | **Returns**                                 | <ul><li>A `function` that must be called with the set of [definitions](cp.spec.Definition.md) or [suites](cp.spec.Specification.md) to run.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [find](#find)
 
@@ -216,9 +217,10 @@ cp.spec "*" ()
 | **Description**                             | Attempts to find specs that match the provided ID pattern.                                                                     |
 | **Parameters**                              | <ul><li>idPattern - the ID pattern</li></ul> |
 | **Returns**                                 | <ul><li>The spec or `nil` and an error message.</li></ul>          |
-| **Notes**                                   | <ul><li>Essentially, this is a standard `require` id/path to the spec file, with an optional `"*"` at the end to indicate that all specs available under that path should be loaded. Eg. "foo.bar" will find the specific spec at `foo/bar_spec.lua` or `foo/bar/._spec.lua`, or if those don't exist it will see if there is a `foo/bar_test.lua` or `foo/bar/._test.lua` and load that via [test](#test) instead.</li><li>However, if the pattern is "foo.bar.*", it will not only look for those specs, but will also check under that folder for other `_spec.lua` or `_test.lua` files to add to the collection to run.</li></ul>                |
+| **Notes**                                   | <ul><li>Essentially, this is a standard `require` id/path to the spec file, with an optional `"*"` at the end to indicate that all specs available under that path should be loaded. Eg. "foo.bar" will find the specific spec at `foo/bar_spec.lua` or `foo/bar/._spec.lua`, or if those don't exist it will see if there is a `foo/bar_test.lua` or `foo/bar/._test.lua` and load that via [test](#test) instead.</li><li>However, if the pattern is "foo.bar.*", it will not only look for those specs, but will also check under that folder for other `_spec.lua` or `_test.lua` files to add to the collection to run.</li></ul> |
 
 ---
+
 
 ### [it](#it)
 
@@ -229,9 +231,10 @@ cp.spec "*" ()
 | **Description**                             | Returns an [Scenario](cp.spec.Scenario.md) with the specified name and optional `doingFn` function. If the function is not provided, it must be done via the [doing](#doing) method prior to running.                                                                     |
 | **Parameters**                              | <ul><li>name      - The name of the scenario.</li><li>doingFn   - (optional) The `function` to call when doing the operation. Will be passed the [Run.This](cp.spec.Run.This.md) instance for the definition.</li></ul> |
 | **Returns**                                 | <ul><li>A `cp.spec.Scenario` object</li></ul>          |
-| **Notes**                                   | <ul><li>See [doing](cp.spec.Scenario.md#doing) for more details regarding the function.</li></ul>                |
+| **Notes**                                   | <ul><li>See [doing](cp.spec.Scenario.md#doing) for more details regarding the function.</li></ul> |
 
 ---
+
 
 ### [setSearchPath](#setsearchpath)
 
@@ -242,9 +245,10 @@ cp.spec "*" ()
 | **Description**                             | Sets the path that will be used to search for `spec` files with the `spec "my.extension"` call. By default it will search the current package path. If specified, it will also search the provided path.                                                                     |
 | **Parameters**                              | <ul><li>path - The path to search for `spec` files. Set to `nil` to only search the default package path.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [spec](#spec)
 
@@ -255,9 +259,10 @@ cp.spec "*" ()
 | **Description**                             | This will search the package path (and [specPath](#setSpecPath), if set) for `_spec.lua` files.                                                                     |
 | **Parameters**                              | <ul><li>id - the path ID for the spec. Eg. "cp.app"</li></ul> |
 | **Returns**                                 | <ul><li>The [Definition](cp.spec.Definition.md), or throws an error.</li></ul>          |
-| **Notes**                                   | <ul><li>It will first look for a file ending with `_spec.lua`, then will look for a file named `_spec.lua` in the folder.</li><li>For example, if you run `require "cp.spec" "foo.bar"`, it will first look for `"foo/bar_spec.lua"`, then `"foo/bar/_spec.lua"`.</li><li>This gives flexibility for extensions that are organised as single files or as folders.</li></ul>                |
+| **Notes**                                   | <ul><li>It will first look for a file ending with `_spec.lua`, then will look for a file named `_spec.lua` in the folder.</li><li>For example, if you run `require "cp.spec" "foo.bar"`, it will first look for `"foo/bar_spec.lua"`, then `"foo/bar/_spec.lua"`.</li><li>This gives flexibility for extensions that are organised as single files or as folders.</li></ul> |
 
 ---
+
 
 ### [test](#test)
 
@@ -268,6 +273,7 @@ cp.spec "*" ()
 | **Description**                             | Attempts to load a [cp.test](cp.test.md) with the specified ID, converting it to a `cp.spec` [Definition](cp.spec.Definition.md). This can then be run like any other `spec`.                                                                     |
 | **Parameters**                              | <ul><li>id - The `cp.test` ID (eg. `"cp.app"`).</li></ul> |
 | **Returns**                                 | <ul><li>The `Definition` or throws an error if it can't be found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

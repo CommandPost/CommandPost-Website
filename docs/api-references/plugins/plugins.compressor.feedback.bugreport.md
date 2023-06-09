@@ -16,7 +16,7 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [open](#open)
@@ -28,10 +28,11 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Description**                             | Opens Final Cut Pro Feedback Screen                                                                     |
 | **Parameters**                              | <ul><li>bugReport - Is it a bug report or an enhancement request?</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [position](#position)
@@ -41,5 +42,7 @@ Sends Apple a Bug Report or Feature Request for Compressor.
 | **Signature**                               | `plugins.compressor.feedback.bugreport.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The webview position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

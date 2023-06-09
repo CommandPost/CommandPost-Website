@@ -26,7 +26,7 @@ Pasteboard History
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [FILE_NAME](#file_name)
@@ -36,8 +36,10 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.FILE_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | File name of settings file.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FOLDER_NAME](#folder_name)
 
@@ -46,8 +48,10 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.FOLDER_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Folder Name where settings file is contained.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [HISTORY_MAXIMUM_SIZE](#history_maximum_size)
 
@@ -56,9 +60,11 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.HISTORY_MAXIMUM_SIZE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum Size of Pasteboard History                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addHistoryItem](#addhistoryitem)
@@ -70,9 +76,10 @@ Pasteboard History
 | **Description**                             | Adds an item to the Pasteboard history.                                                                     |
 | **Parameters**                              | <ul><li>data - The data</li><li>label - The label</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [clearHistory](#clearhistory)
 
@@ -83,9 +90,10 @@ Pasteboard History
 | **Description**                             | Clears the Pasteboard History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doPasteHistoryItem](#dopastehistoryitem)
 
@@ -96,9 +104,10 @@ Pasteboard History
 | **Description**                             | Returns a function which will paste a Pasteboard History Item when executed.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the Pasteboard history item.</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to be executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -109,9 +118,10 @@ Pasteboard History
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>manager - The Pasteboard manager object.</li></ul> |
 | **Returns**                                 | <ul><li>Pasteboard History Object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -122,10 +132,11 @@ Pasteboard History
 | **Description**                             | Enable or disable the Pasteboard History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [_history](#_history)
@@ -135,8 +146,10 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history._history <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved Touch Bar Buttons                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -145,5 +158,7 @@ Pasteboard History
 | **Signature**                               | `plugins.finalcutpro.pasteboard.history.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the Pasteboard History.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

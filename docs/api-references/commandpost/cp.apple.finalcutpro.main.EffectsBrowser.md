@@ -62,7 +62,7 @@ Effects Browser Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [EFFECTS](#effects)
@@ -72,8 +72,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.EFFECTS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Effects.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [TRANSITIONS](#transitions)
 
@@ -82,9 +84,11 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.TRANSITIONS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transitions.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [isShowing](#isshowing)
@@ -94,9 +98,11 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.isShowing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is the Effects Browser showing?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -108,10 +114,11 @@ Effects Browser Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [EffectsBrowser](#effectsbrowser)
@@ -123,10 +130,11 @@ Effects Browser Module.
 | **Description**                             | Creates a new `EffectsBrowser` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>type - A string determining whether the Effects Browser is for Effects (`cp.apple.finalcutpro.main.EffectsBrowser.EFFECTS`) or Transitions (`cp.apple.finalcutpro.main.EffectsBrowser.TRANSITIONS`).</li></ul> |
 | **Returns**                                 | <ul><li>A new `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contents](#contents)
@@ -136,8 +144,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.contents <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Contents.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [group](#group)
 
@@ -146,8 +156,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group `PopUpButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mainGroupUI](#maingroupui)
 
@@ -156,8 +168,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser:mainGroupUI() -> <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Main Group UI.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [search](#search)
 
@@ -166,8 +180,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.search <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Search `PopUpButton` object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sidebar](#sidebar)
 
@@ -176,8 +192,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The sidebar `Table` object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sidebarToggle](#sidebartoggle)
 
@@ -186,8 +204,10 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.sidebarToggle <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar Toggle.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [toggleButton](#togglebutton)
 
@@ -196,9 +216,11 @@ Effects Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.EffectsBrowser.toggleButton <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Effects Browser Toggle Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [applyItem](#applyitem)
@@ -210,9 +232,10 @@ Effects Browser Module.
 | **Description**                             | Applies an item by double clicking on it.                                                                     |
 | **Parameters**                              | <ul><li>itemUI - The `axuielementObject` of the item you want to apply.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [audioCategoryRowsUI](#audiocategoryrowsui)
 
@@ -223,9 +246,10 @@ Effects Browser Module.
 | **Description**                             | Gets the Audio Category Rows UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [currentItemsUI](#currentitemsui)
 
@@ -236,9 +260,10 @@ Effects Browser Module.
 | **Description**                             | Gets the current items UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHideSidebar](#dohidesidebar)
 
@@ -249,9 +274,10 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will hide the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -262,9 +288,10 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will show the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowSidebar](#doshowsidebar)
 
@@ -275,9 +302,10 @@ Effects Browser Module.
 | **Description**                             | Returns a `Statement` that will show the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doToggleSidebar](#dotogglesidebar)
 
@@ -288,9 +316,10 @@ Effects Browser Module.
 | **Description**                             | A `Statement` to toggle the Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentTitles](#getcurrenttitles)
 
@@ -301,9 +330,10 @@ Effects Browser Module.
 | **Description**                             | Returns the list of titles for all effects/transitions currently visible.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -314,9 +344,10 @@ Effects Browser Module.
 | **Description**                             | Hide the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hideSidebar](#hidesidebar)
 
@@ -327,9 +358,10 @@ Effects Browser Module.
 | **Description**                             | Hide Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [itemIsSelected](#itemisselected)
 
@@ -340,9 +372,10 @@ Effects Browser Module.
 | **Description**                             | Checks to see if an item is selected.                                                                     |
 | **Parameters**                              | <ul><li>itemUI - A `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the item is selected, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -353,9 +386,10 @@ Effects Browser Module.
 | **Description**                             | Loads a Effects Browser layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Effects Browser layout settings - created using `cp.apple.finalcutpro.main.Browser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -366,9 +400,10 @@ Effects Browser Module.
 | **Description**                             | Saves the current Effects Browser layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Effects Browser Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedItemsUI](#selecteditemsui)
 
@@ -379,9 +414,10 @@ Effects Browser Module.
 | **Description**                             | Gets the selected items UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -392,9 +428,10 @@ Effects Browser Module.
 | **Description**                             | Show the Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showAllAudioEffects](#showallaudioeffects)
 
@@ -405,9 +442,10 @@ Effects Browser Module.
 | **Description**                             | Show All Audio Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showAllEffects](#showalleffects)
 
@@ -418,9 +456,10 @@ Effects Browser Module.
 | **Description**                             | Show All Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showAllTransitions](#showalltransitions)
 
@@ -431,9 +470,10 @@ Effects Browser Module.
 | **Description**                             | Show All Transitions.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showAllVideoEffects](#showallvideoeffects)
 
@@ -444,9 +484,10 @@ Effects Browser Module.
 | **Description**                             | Show All Video Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showAudioCategory](#showaudiocategory)
 
@@ -457,9 +498,10 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Audio' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>`name`		- The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The browser.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showInstalledEffects](#showinstalledeffects)
 
@@ -470,9 +512,10 @@ Effects Browser Module.
 | **Description**                             | Show Installed Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showInstalledTransitions](#showinstalledtransitions)
 
@@ -483,9 +526,10 @@ Effects Browser Module.
 | **Description**                             | Show Installed Transitions.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showSidebar](#showsidebar)
 
@@ -496,9 +540,10 @@ Effects Browser Module.
 | **Description**                             | Show Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showTransitionsCategory](#showtransitionscategory)
 
@@ -509,9 +554,10 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Transitions' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>name - The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showVideoCategory](#showvideocategory)
 
@@ -522,9 +568,10 @@ Effects Browser Module.
 | **Description**                             | Ensures the sidebar is showing and that the selected 'Video' category is selected, if available.                                                                     |
 | **Parameters**                              | <ul><li>name - The category name, in the current language.</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggleSidebar](#togglesidebar)
 
@@ -535,9 +582,10 @@ Effects Browser Module.
 | **Description**                             | Toggle Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `EffectsBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [type](#type)
 
@@ -548,9 +596,10 @@ Effects Browser Module.
 | **Description**                             | Type of Effects Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>App</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [videoCategoryRowsUI](#videocategoryrowsui)
 
@@ -561,6 +610,7 @@ Effects Browser Module.
 | **Description**                             | Gets the Video Category Rows UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

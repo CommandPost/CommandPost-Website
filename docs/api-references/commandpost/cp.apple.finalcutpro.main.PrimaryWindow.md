@@ -41,7 +41,7 @@ Primary Window Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -53,10 +53,11 @@ Primary Window Module.
 | **Description**                             | Checks to see if a window matches the PrimaryWindow requirements                                                                     |
 | **Parameters**                              | <ul><li>w - The window to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [PrimaryWindow](#primarywindow)
@@ -68,10 +69,11 @@ Primary Window Module.
 | **Description**                             | Creates a new PrimaryWindow.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [alert](#alert)
@@ -81,8 +83,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.alert <cp.ui.Alert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides access to any 'Alert' windows on the PrimaryWindow.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [bottomGroupUI](#bottomgroupui)
 
@@ -91,8 +95,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow:bottomGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the bottom group UI as a `hs.axuielement` object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [browserGroupUI](#browsergroupui)
 
@@ -101,8 +107,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.browserGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI which contains the Browser.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [colorBoard](#colorboard)
 
@@ -111,8 +119,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.colorBoard <ColorBoard>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -122,8 +132,10 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [frame](#frame)
 
@@ -132,8 +144,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.frame <cp.prop: frame>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current position (x, y, width, height) of the window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hsWindow](#hswindow)
 
@@ -142,8 +156,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.hsWindow <cp.prop: hs.window; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `hs.window` instance for the window, or `nil` if it can't be found.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [inspector](#inspector)
 
@@ -152,8 +168,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.inspector <Inspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Inspector object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isFullScreen](#isfullscreen)
 
@@ -162,8 +180,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.isFullScreen <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is full-screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -172,8 +192,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.isShowing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the window is visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [leftGroupUI](#leftgroupui)
 
@@ -182,8 +204,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.leftGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the left group UI as a `hs.axuielement` object                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [rightGroupUI](#rightgroupui)
 
@@ -192,8 +216,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.rightGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the right group UI as a `hs.axuielement` object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [rootGroupUI](#rootgroupui)
 
@@ -202,8 +228,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.rootGroupUI() <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the top AXSplitGroup as a `hs.axuielement` object                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [timelineGroupUI](#timelinegroupui)
 
@@ -212,8 +240,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.timelineGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI that contains the `Timeline`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [toolbar](#toolbar)
 
@@ -222,8 +252,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.toolbar <cp.ui.PrimaryToolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The PrimaryToolbar element.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [topGroupUI](#topgroupui)
 
@@ -232,8 +264,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.topGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the top group UI as a `hs.axuielement` object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -242,8 +276,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.UI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `axuielement` for the window. May be `nil` if not currently available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewerGroupUI](#viewergroupui)
 
@@ -252,8 +288,10 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.viewerGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the UI that contains the `Viewer`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [window](#window)
 
@@ -262,9 +300,11 @@ Primary Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.PrimaryWindow.window <cp.ui.Window>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Window` instance.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [app](#app)
@@ -276,9 +316,10 @@ Primary Window Module.
 | **Description**                             | Returns the application the display belongs to.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The app instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -289,6 +330,7 @@ Primary Window Module.
 | **Description**                             | Shows the Primary Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

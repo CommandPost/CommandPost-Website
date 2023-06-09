@@ -17,7 +17,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [audioSkimming](#audioskimming)
@@ -27,8 +27,10 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.audioSkimming <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is played while skimming.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [skimming](#skimming)
 
@@ -37,8 +39,10 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.skimming <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if video/audio skimming is active.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [snapping](#snapping)
 
@@ -47,8 +51,10 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.snapping <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if snapping is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [solo](#solo)
 
@@ -57,8 +63,10 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.solo <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) that indicates if audio is soloed on the selected clip(s).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [trimAlignedEdges](#trimalignededges)
 
@@ -67,6 +75,7 @@ Provides access to clip options such as skimming, audio skimming, soloing and sn
 | **Signature**                               | `cp.apple.finalcutpro.timeline.Toolbar.Clip.trimAlignedEdges <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CheckBox](cp.ui.CheckBox.md) which allows the user to trim the edges of the selected clips.                                                                     |
-| **Notes**                                   | <ul><li>As of FCP 10.6.3, this is currently always hidden, and cannot have its value changed.</li><li>Uncertain in exactly which version this turned up.</li></ul>                |
+| **Notes**                                   | <ul><li>As of FCP 10.6.3, this is currently always hidden, and cannot have its value changed.</li><li>Uncertain in exactly which version this turned up.</li></ul> |
 
 ---
+

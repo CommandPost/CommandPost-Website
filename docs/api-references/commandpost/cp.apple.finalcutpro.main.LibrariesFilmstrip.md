@@ -35,7 +35,7 @@ Libraries Filmstrip Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [clips](#clips)
@@ -47,9 +47,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Gets clips using a custom filter.                                                                     |
 | **Parameters**                              | <ul><li>filterFn - A function to filter the UI results.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clip UI could be found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [clipsUI](#clipsui)
 
@@ -60,9 +61,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Gets clip UIs using a custom filter.                                                                     |
 | **Parameters**                              | <ul><li>filterFn - A function to filter the UI results.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clip UI could be found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [deselectAll](#deselectall)
 
@@ -73,9 +75,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Deselect all clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [indexOfClip](#indexofclip)
 
@@ -86,9 +89,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Gets the index of a specific clip.                                                                     |
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to get the index of.</li></ul> |
 | **Returns**                                 | <ul><li>The index or `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectAll](#selectall)
 
@@ -99,9 +103,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Select all clips.                                                                     |
 | **Parameters**                              | <ul><li>clips - A optional table of `Clip` objects.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectClip](#selectclip)
 
@@ -112,9 +117,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Selects a clip.                                                                     |
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectClipAt](#selectclipat)
 
@@ -125,9 +131,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Select clip at a specific index.                                                                     |
 | **Parameters**                              | <ul><li>index - A number of where the clip appears in the list.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectClipTitled](#selectcliptitled)
 
@@ -138,9 +145,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Select clip with a specific title.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of a clip.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedClips](#selectedclips)
 
@@ -151,9 +159,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Gets selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Clip` objects or `nil` if no clips are selected.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedClipsUI](#selectedclipsui)
 
@@ -164,9 +173,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Gets selected clips UI's.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of `axuielementObject` objects or `nil` if no clips are selected.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showClip](#showclip)
 
@@ -177,9 +187,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Shows a clip.                                                                     |
 | **Parameters**                              | <ul><li>clip - The `Clip` you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showClipAt](#showclipat)
 
@@ -190,9 +201,10 @@ Libraries Filmstrip Module.
 | **Description**                             | Shows a clip at a specific index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index of the clip you want to show.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sortClips](#sortclips)
 
@@ -203,10 +215,11 @@ Libraries Filmstrip Module.
 | **Description**                             | Determines if clip A is above clip B or not.                                                                     |
 | **Parameters**                              | <ul><li>a - Clip A</li><li>b - Clip B</li></ul> |
 | **Returns**                                 | <ul><li>`true` if clip A is above clip B, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -218,10 +231,11 @@ Libraries Filmstrip Module.
 | **Description**                             | Creates a new `LibrariesFilmstrip` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
 | **Returns**                                 | <ul><li>A new `LibrariesFilmstrip` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [playhead](#playhead)
@@ -231,8 +245,10 @@ Libraries Filmstrip Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.playhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Playhead.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [skimmingPlayhead](#skimmingplayhead)
 
@@ -241,9 +257,11 @@ Libraries Filmstrip Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.LibrariesFilmstrip.skimmingPlayhead <Playhead>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Libraries Filmstrip Skimming Playhead.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [show](#show)
@@ -255,6 +273,7 @@ Libraries Filmstrip Module.
 | **Description**                             | Show the Libraries Filmstrip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`LibrariesFilmstrip` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

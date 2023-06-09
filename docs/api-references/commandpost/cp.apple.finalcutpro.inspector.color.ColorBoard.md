@@ -44,7 +44,7 @@ Color Board Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [aspect](#aspect)
@@ -54,9 +54,11 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.aspect -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table containing tables of all the aspect panel settings                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [currentAspect](#currentaspect)
@@ -66,9 +68,11 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.currentAspect -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The current aspect as a string.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -80,10 +84,11 @@ Color Board Module.
 | **Description**                             | Checks to see if a GUI element is the Color Board.                                                                     |
 | **Parameters**                              | <ul><li>`element`    - The element you want to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is a Color Board otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ColorBoard](#colorboard)
@@ -95,10 +100,11 @@ Color Board Module.
 | **Description**                             | Creates a new ColorBoard object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [aspectGroup](#aspectgroup)
@@ -108,8 +114,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.aspectGroup <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` for the 'aspect' currently being controlled                                                                      |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [color](#color)
 
@@ -118,8 +126,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.color <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `color` aspect of the color board.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contentUI](#contentui)
 
@@ -128,8 +138,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object for the Color Board's content.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [exposure](#exposure)
 
@@ -138,8 +150,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.exposure <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `exposure` aspect of the color board.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isActive](#isactive)
 
@@ -148,8 +162,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard:isActive <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is active                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -158,8 +174,10 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns whether or not the Color Board is visible.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [saturation](#saturation)
 
@@ -168,9 +186,11 @@ Color Board Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorBoard.saturation <ColorBoardAspect>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `saturation` aspect of the color board.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [childUI](#childui)
@@ -182,9 +202,10 @@ Color Board Module.
 | **Description**                             | Gets the `hs.axuielement` object for a child with the specified ID.                                                                     |
 | **Parameters**                              | <ul><li>axID - `AXIdentifier` of the child</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.axuielement` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [current](#current)
 
@@ -195,9 +216,10 @@ Color Board Module.
 | **Description**                             | Returns the currently-selected 'aspect' of the Color Board - either the `color`, `saturation` or `exposure`. If the color board is not currently visible, it returns the `color` aspect by default.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The currently active `ColorBoardAspect`, or the `color` aspect if none is showing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -208,9 +230,10 @@ Color Board Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that hides the Color Board.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doNextAspect](#donextaspect)
 
@@ -221,9 +244,10 @@ Color Board Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that toggles the Color Board Panels between "Color", "Saturation" and "Exposure".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doResetCurrent](#doresetcurrent)
 
@@ -234,9 +258,10 @@ Color Board Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will reset the current 'active' aspect (e.g. `color`) in the Color Board. If the `range` is provided, only that subset (`master`, `shadows`, `midtones`, `highlights`) will be reset.                                                                     |
 | **Parameters**                              | <ul><li>range     - Optional range to reset in the current aspect.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving with `true` if completed or an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectAspect](#doselectaspect)
 
@@ -247,9 +272,10 @@ Color Board Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to select the specified aspect `index`. If the `index` is not between `1` and `3`, and error will be thrown.                                                                     |
 | **Parameters**                              | <ul><li>index     - The index to select.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or throw an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -260,9 +286,10 @@ Color Board Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that shows the Color Board.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will send a single `true` if successful, otherwise `false`, or an error being sent.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -273,9 +300,10 @@ Color Board Module.
 | **Description**                             | Hides the Color Board                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nextAspect](#nextaspect)
 
@@ -286,9 +314,10 @@ Color Board Module.
 | **Description**                             | Toggles the Color Board Panels between "Color", "Saturation" and "Exposure"                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -299,9 +328,10 @@ Color Board Module.
 | **Description**                             | Resets the current aspect.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -312,6 +342,7 @@ Color Board Module.
 | **Description**                             | Shows the Color Board                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorBoard object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

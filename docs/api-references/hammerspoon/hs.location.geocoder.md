@@ -44,7 +44,7 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [lookupAddress](#lookupaddress)
@@ -58,9 +58,10 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `state`  - a boolean indicating whether or not geocoding data was provided
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
-| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |
+| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul> |
 
 ---
+
 
 ### [lookupAddressNear](#lookupaddressnear)
 
@@ -73,9 +74,10 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `state`  - a boolean indicating whether or not geocoding data was provided
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
-| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li><li>While a partial address can be given, the more information you provide, the more likely the results will be useful.  The `regionTable` only determines sort order if multiple entries are returned, it does not constrain the search.</li></ul>                |
+| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li><li>While a partial address can be given, the more information you provide, the more likely the results will be useful.  The `regionTable` only determines sort order if multiple entries are returned, it does not constrain the search.</li></ul> |
 
 ---
+
 
 ### [lookupLocation](#lookuplocation)
 
@@ -88,10 +90,11 @@ A `placemarkTable` is returned to the callback functions used by the constructor
   `state`  - a boolean indicating whether or not geocoding data was provided
   `result` - if `state` is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If `state` is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | **Returns**                                 | <ul><li>a geocodingObject</li></ul>          |
-| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |
+| **Notes**                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [cancel](#cancel)
@@ -103,9 +106,10 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Description**                             | Cancels the pending or in progress geocoding request.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>nil to facilitate garbage collection by assigning this result to the geocodeObject</li></ul>          |
-| **Notes**                                   | <ul><li>This method has no effect if the geocoding process has already completed.</li></ul>                |
+| **Notes**                                   | <ul><li>This method has no effect if the geocoding process has already completed.</li></ul> |
 
 ---
+
 
 ### [geocoding](#geocoding)
 
@@ -116,6 +120,7 @@ A `placemarkTable` is returned to the callback functions used by the constructor
 | **Description**                             | Returns a boolean indicating whether or not the geocoding process is still active.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a boolean indicating if the geocoding process is still active.  If false, then the callback function either has already been called or will be as soon as the main thread of Hammerspoon becomes idle again.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

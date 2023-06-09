@@ -26,7 +26,7 @@ Video Inspector Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [metadataViews](#metadataviews)
@@ -36,9 +36,11 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataViews -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Metadata Views                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -50,10 +52,11 @@ Video Inspector Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -65,10 +68,11 @@ Video Inspector Module.
 | **Description**                             | Creates a new InfoInspector object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A InfoInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [metadataView](#metadataview)
@@ -78,8 +82,10 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataView <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the name of the current metadata view.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [metadataViewButton](#metadataviewbutton)
 
@@ -88,9 +94,11 @@ Video Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoInspector.metadataViewButton <cp.io.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Info Inspector Metadata View Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [propertiesUI](#propertiesui)
@@ -102,6 +110,7 @@ Video Inspector Module.
 | **Description**                             | Returns the `hs.axuielement` object for the Properties UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.axuielement` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

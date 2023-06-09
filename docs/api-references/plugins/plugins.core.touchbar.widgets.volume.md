@@ -14,7 +14,7 @@ Volume Slider
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -26,9 +26,10 @@ Volume Slider
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [widget](#widget)
 
@@ -39,6 +40,7 @@ Volume Slider
 | **Description**                             | The Widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs._asm.undocumented.touchbar.item`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -80,7 +80,7 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [build](#build)
@@ -92,6 +92,7 @@ The `"withLeftOf"` value will still be passed to the constructor first, because 
 | **Description**                             | Builds a new [Element](cp.ui.Element.md) instance, passing in the `parent` and `uiFinder` parameters, followed by any extra arguments that have been set, in the order passed to the constructor.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent `Element`.</li><li>uiFinder - A `cp.prop` or `axuielement` that will be used to find this `Element`'s `axuielement`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Element` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

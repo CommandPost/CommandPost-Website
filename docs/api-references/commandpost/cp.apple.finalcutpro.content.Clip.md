@@ -26,7 +26,7 @@ Represents a clip of media inside FCP.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [filmstrip](#filmstrip)
@@ -36,8 +36,10 @@ Represents a clip of media inside FCP.
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.filmstrip`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a filmstrip.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [row](#row)
 
@@ -46,9 +48,11 @@ Represents a clip of media inside FCP.
 | **Signature**                               | `cp.apple.finalcutpro.content.Clip.type.row`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A constant for clips which are represented by a table row.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [is](#is)
@@ -60,10 +64,11 @@ Represents a clip of media inside FCP.
 | **Description**                             | Checks if the specified `thing` is a `Clip` instance.                                                                     |
 | **Parameters**                              | <ul><li>`thing`  - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `thing` is a `Clip`, otherwise returns `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -75,10 +80,11 @@ Represents a clip of media inside FCP.
 | **Description**                             | Creates a new `Clip` pointing at the specified element, with the specified options.                                                                     |
 | **Parameters**                              | <ul><li>`element`        - The `axuielement` the clip represents.</li><li>`options`        - A table containing the options for the clip.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Clip`.</li></ul>          |
-| **Notes**                                   | <ul><li>The options may be:</li><li> ** `columnIndex`   - A number which will be used to specify the column number to find the title in, if relevant.</li></ul>                |
+| **Notes**                                   | <ul><li>The options may be:</li><li> ** `columnIndex`   - A number which will be used to specify the column number to find the title in, if relevant.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [getTitle](#gettitle)
@@ -90,9 +96,10 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the title of the clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The clip title.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getType](#gettype)
 
@@ -103,9 +110,10 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the type of clip (one of the `Clip.type` values)                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Clip.type` value (e.g. `Clip.type.row` or Clip.type.filmstrip`)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setTitle](#settitle)
 
@@ -116,9 +124,10 @@ Represents a clip of media inside FCP.
 | **Description**                             | Sets the title of a clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -129,6 +138,7 @@ Represents a clip of media inside FCP.
 | **Description**                             | Returns the `axuielement` for the clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` for the clip.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

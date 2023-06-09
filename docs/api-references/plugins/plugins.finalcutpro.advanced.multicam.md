@@ -13,7 +13,7 @@ Show Timeline In Player.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [enabled](#enabled)
@@ -23,5 +23,7 @@ Show Timeline In Player.
 | **Signature**                               | `plugins.finalcutpro.advanced.multicam.enabled <cp.prop: boolean; live>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Use Better Quality in Angles Viewer?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

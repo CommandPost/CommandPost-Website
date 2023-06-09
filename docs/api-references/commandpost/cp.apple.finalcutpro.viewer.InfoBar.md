@@ -27,7 +27,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -39,10 +39,11 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Description**                             | Checks if the element is an `InfoBar` instance.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `InfoBar`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [InfoBar](#infobar)
@@ -54,10 +55,11 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Description**                             | Creates a new `InfoBar` instance.                                                                     |
 | **Parameters**                              | <ul><li>viewer       - The [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `InfoBar`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [format](#format)
@@ -67,8 +69,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar.format <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the full format text value, or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [formatField](#formatfield)
 
@@ -77,8 +81,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar.formatField <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Field" value for the current clip, as a [StaticText](cp.ui.StaticText.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [framerate](#framerate)
 
@@ -87,8 +93,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar.framerate <cp.prop: number; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the framerate as a number, or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [title](#title)
 
@@ -97,8 +105,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar.title <cp.prop: string; read-only; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the Title of the clip in the Viewer as a [StaticText](cp.ui.StaticText.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [titleField](#titlefield)
 
@@ -107,8 +117,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar.titleField <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides the Title of the clip in the Viewer as a [StaticText](cp.ui.StaticText.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewMenu](#viewmenu)
 
@@ -117,8 +129,10 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar:viewMenu <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the "View" menu.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [zoomwMenu](#zoomwmenu)
 
@@ -127,5 +141,7 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 | **Signature**                               | `cp.apple.finalcutpro.viewer.InfoBar:zoomwMenu <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the "Zoom Level" menu.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

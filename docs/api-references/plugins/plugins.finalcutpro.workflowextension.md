@@ -64,7 +64,7 @@ Commands that can be SENT to the Workflow Extension:
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [connected](#connected)
@@ -74,8 +74,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.connected -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is CommandPost connecting to the Workflow Extension?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastPlayheadPosition](#lastplayheadposition)
 
@@ -84,8 +86,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.lastPlayheadPosition -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last playhead position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [skimmingRestoreTimer](#skimmingrestoretimer)
 
@@ -94,8 +98,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.skimmingRestoreTimer -> hs.timer.delayed`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Delayed Timer to Restore the Skimming Feature (if required)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [wasSkimmingEnabled](#wasskimmingenabled)
 
@@ -104,9 +110,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.wasSkimmingEnabled -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Was the Skimming Feature enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [callback](#callback)
@@ -118,9 +126,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Triggers when the Socket receives data.                                                                     |
 | **Parameters**                              | <ul><li>data - The incoming data.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [connect](#connect)
 
@@ -131,9 +140,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Connect to the Workflow Extension Socket Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [connectionCallback](#connectioncallback)
 
@@ -144,9 +154,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Triggers when the Socket makes a connection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [decrementPlayhead](#decrementplayhead)
 
@@ -157,9 +168,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Decrements the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>frames - The amount of frames to increment by</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [disconnect](#disconnect)
 
@@ -170,9 +182,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Disconnects from the Workflow Extension Socket Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [forcefullyInstall](#forcefullyinstall)
 
@@ -183,9 +196,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Forcefully installs the Workflow Extension.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [incrementPlayhead](#incrementplayhead)
 
@@ -196,9 +210,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Increments the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>frames - The amount of frames to increment by</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [movePlayheadToSeconds](#moveplayheadtoseconds)
 
@@ -209,9 +224,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Moves the Final Cut Pro playhead via the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>seconds - The value you want the timeline playhead to move to in seconds</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ping](#ping)
 
@@ -222,9 +238,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Sends a ping to the Workflow Extension                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [repositionWorkflowExtension](#repositionworkflowextension)
 
@@ -235,9 +252,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Repositions the Workflow Extension.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendCommand](#sendcommand)
 
@@ -248,9 +266,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Sends a command to the Workflow                                                                     |
 | **Parameters**                              | <ul><li>command - The command as a string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setupActions](#setupactions)
 
@@ -261,10 +280,11 @@ Commands that can be SENT to the Workflow Extension:
 | **Description**                             | Setup the Workflow Extension Actions                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [hasWorkflowExtensionBeenAddedVersion](#hasworkflowextensionbeenaddedversion)
@@ -274,8 +294,10 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenAddedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was added.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hasWorkflowExtensionBeenMovedVersion](#hasworkflowextensionbeenmovedversion)
 
@@ -284,5 +306,7 @@ Commands that can be SENT to the Workflow Extension:
 | **Signature**                               | `plugins.finalcutpro.workflowextension.hasWorkflowExtensionBeenMovedVersion -> cp.prop`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the CommandPost Version String for the last time the Workflow Extension was moved.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

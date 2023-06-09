@@ -22,7 +22,7 @@ Timeline Index Mode Radio Group Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -34,10 +34,11 @@ Timeline Index Mode Radio Group Module.
 | **Description**                             | Checks if the element is the `IndexMode`.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [IndexMode](#indexmode)
@@ -49,10 +50,11 @@ Timeline Index Mode Radio Group Module.
 | **Description**                             | Creates a new `IndexMode` instance.                                                                     |
 | **Parameters**                              | <ul><li>index - The [Index](cp.apple.finalcutpro.timeline.Index.md) that contains the `mode`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `IndexMode` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [captions](#captions)
@@ -62,8 +64,10 @@ Timeline Index Mode Radio Group Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexMode.captions <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Captions" mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [clips](#clips)
 
@@ -72,8 +76,10 @@ Timeline Index Mode Radio Group Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexMode.clips <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Clips" mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [roles](#roles)
 
@@ -82,8 +88,10 @@ Timeline Index Mode Radio Group Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexMode.roles <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Roles" mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tags](#tags)
 
@@ -92,5 +100,7 @@ Timeline Index Mode Radio Group Module.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexMode.tags <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.ui) for the "Tags" mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

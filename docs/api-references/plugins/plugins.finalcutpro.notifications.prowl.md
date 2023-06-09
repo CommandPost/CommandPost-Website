@@ -21,7 +21,7 @@ Prowl Notifications Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -33,9 +33,10 @@ Prowl Notifications Plugin.
 | **Description**                             | Initialises the plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendNotification](#sendnotification)
 
@@ -46,9 +47,10 @@ Prowl Notifications Plugin.
 | **Description**                             | Sends a notification.                                                                     |
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li><li>[title] - An optional Title for the message as a string.</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -59,9 +61,10 @@ Prowl Notifications Plugin.
 | **Description**                             | Enables or disables Prowl Notifications depending on the user's preferences.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [validateAPIKey](#validateapikey)
 
@@ -72,10 +75,11 @@ Prowl Notifications Plugin.
 | **Description**                             | Validates a Growl API Key                                                                     |
 | **Parameters**                              | <ul><li>key - The API key as string</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [apiKey](#apikey)
@@ -85,8 +89,10 @@ Prowl Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.apiKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Prowl API Key                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [apiValidated](#apivalidated)
 
@@ -95,8 +101,10 @@ Prowl Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.apiValidated <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API key has been validated.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -105,5 +113,7 @@ Prowl Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.prowl.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

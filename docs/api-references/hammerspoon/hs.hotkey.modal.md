@@ -29,7 +29,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -45,10 +45,11 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   "alt", "option" or "⌥"
   "shift" or "⇧"</li><li>key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number</li><li>message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert</li></ul> |
 | **Returns**                                 | <ul><li>A new `hs.hotkey.modal` object</li></ul>          |
-| **Notes**                                   | <ul><li>If `key` is nil, no global hotkey will be registered (all other parameters will be ignored)</li></ul>                |
+| **Notes**                                   | <ul><li>If `key` is nil, no global hotkey will be registered (all other parameters will be ignored)</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [bind](#bind)
@@ -64,9 +65,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
   "alt", "option" or "⌥"
   "shift" or "⇧"</li><li>key - A string containing the name of a keyboard key (as found in [hs.keycodes.map](hs.keycodes.html#map) ), or a raw keycode number</li><li>message - A string containing a message to be displayed via `hs.alert()` when the hotkey has been triggered, or nil for no alert</li><li>pressedfn - A function that will be called when the hotkey has been pressed, or nil</li><li>releasedfn - A function that will be called when the hotkey has been released, or nil</li><li>repeatfn - A function that will be called when a pressed hotkey is repeating, or nil</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [delete](#delete)
 
@@ -77,9 +79,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Deletes a modal hotkey object without calling :exited()                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [enter](#enter)
 
@@ -90,9 +93,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Enters a modal state                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>This method will enable all of the hotkeys defined in the modal state via `hs.hotkey.modal:bind()`,</li><li>   and disable the hotkey that entered the modal state (if one was defined)</li><li>If the modal state was created with a keyboard combination, this method will be called automatically</li></ul>                |
+| **Notes**                                   | <ul><li>This method will enable all of the hotkeys defined in the modal state via `hs.hotkey.modal:bind()`,</li><li>   and disable the hotkey that entered the modal state (if one was defined)</li><li>If the modal state was created with a keyboard combination, this method will be called automatically</li></ul> |
 
 ---
+
 
 ### [entered](#entered)
 
@@ -103,9 +107,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Optional callback for when a modal is entered                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul>                |
+| **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul> |
 
 ---
+
 
 ### [exit](#exit)
 
@@ -116,9 +121,10 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Exits a modal state                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.hotkey.modal` object for method chaining</li></ul>          |
-| **Notes**                                   | <ul><li>This method will disable all of the hotkeys defined in the modal state, and enable the hotkey for entering the modal state (if one was defined)</li></ul>                |
+| **Notes**                                   | <ul><li>This method will disable all of the hotkeys defined in the modal state, and enable the hotkey for entering the modal state (if one was defined)</li></ul> |
 
 ---
+
 
 ### [exited](#exited)
 
@@ -129,6 +135,7 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
 | **Description**                             | Optional callback for when a modal is exited                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul>                |
+| **Notes**                                   | <ul><li>This is a preexisting function that you should override if you need to use it; the default implementation does nothing.</li></ul> |
 
 ---
+

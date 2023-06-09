@@ -21,7 +21,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -33,10 +33,11 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Description**                             | Called as a method, this will check if the provided object is an instance of this class.                                                                     |
 | **Parameters**                              | <ul><li>instance - The instance to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the instance is an instance of this class.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Definition](#definition)
@@ -48,10 +49,11 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Description**                             | Creates a new test definition.                                                                     |
 | **Parameters**                              | <ul><li>name - The name</li><li>doing - doing</li></ul> |
 | **Returns**                                 | <ul><li>cp.spec.Definition object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [run](#run)
@@ -63,6 +65,7 @@ classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Sc
 | **Description**                             | Runs the definition with the specified filter `string`, `function` or `table` of `string`s and `function`s. The [Run](cp.spec.Run.md) will have already started with the provided `filter`.                                                                     |
 | **Parameters**                              | <ul><li>... - (optional) The list of filters to apply to any child definitions.</li></ul> |
 | **Returns**                                 | <ul><li>The [Run](cp.spec.Run.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -31,7 +31,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [If](#if)
@@ -43,10 +43,11 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Creates a new `If` `Statement` which will check the first result of `value`.                                                                     |
 | **Parameters**                              | <ul><li>value  - a `resolvable` value that will be checked.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `resolvable` matches the requirement.</li></ul>          |
-| **Notes**                                   | <ul><li>By default, it will check if the value is `truthy` - not `nil` and not `false`.</li><li>Other checks can be specified via the `If:Is/IsNot/Matches` methods.</li><li>If the check passes, the `If:Then(...)` method is processed. If not, the `Otherwise` method</li><li>can specify other `resolvables` to execute instead.</li><li></li><li>Example:</li><li></li><li>```lua</li><li>If(someObservable):Is(true):Then(</li><li>    function() ... end</li><li>):Otherwise(</li><li>    function() ... end</li><li>)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>By default, it will check if the value is `truthy` - not `nil` and not `false`.</li><li>Other checks can be specified via the `If:Is/IsNot/Matches` methods.</li><li>If the check passes, the `If:Then(...)` method is processed. If not, the `Otherwise` method</li><li>can specify other `resolvables` to execute instead.</li><li></li><li>Example:</li><li></li><li>```lua</li><li>If(someObservable):Is(true):Then(</li><li>    function() ... end</li><li>):Otherwise(</li><li>    function() ... end</li><li>)</li><li>```</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Are](#are)
@@ -58,9 +59,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to wait for.</li></ul> |
 | **Returns**                                 | <ul><li>The [Are](cp.rx.go.If.Are.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [AreNot](#arenot)
 
@@ -71,9 +73,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to not match.</li></ul> |
 | **Returns**                                 | <ul><li>The [AreNot](cp.rx.go.If.AreNot.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Is](#is)
 
@@ -84,9 +87,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>The [Is](cp.rx.go.If.Is.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [IsNot](#isnot)
 
@@ -97,9 +101,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Specifies the value to not match.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>The [IsNot](cp.rx.go.If.IsNot.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Matches](#matches)
 
@@ -110,9 +115,10 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Specifies the predicate function that will check the `value` results.                                                                     |
 | **Parameters**                              | <ul><li>predicate  - The function that will get called to determine if it has been found.</li></ul> |
 | **Returns**                                 | <ul><li>The [Matches](cp.rx.go.If.Matches.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>If(someObservable):Matches(function(value) return value % 2 == 0 end):Then(doSomething())</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>If(someObservable):Matches(function(value) return value % 2 == 0 end):Then(doSomething())</li><li>```</li></ul> |
 
 ---
+
 
 ### [Then](#then)
 
@@ -123,6 +129,7 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
 | **Description**                             | Call this to define what will happen if value resolves successfully.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolveable` values to process for the successful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>```</li></ul> |
 
 ---
+

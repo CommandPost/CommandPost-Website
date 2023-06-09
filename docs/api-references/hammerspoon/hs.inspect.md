@@ -16,7 +16,7 @@ https://github.com/kikito/inspect.lua
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [inspect](#inspect)
@@ -33,6 +33,7 @@ https://github.com/kikito/inspect.lua
   process - A function that will be called for each item. It should accept two arguments, `item` (the current item being processed) and `path` (the item's position in the variable being inspected. The function should either return a processed form of the variable, the original variable itself if it requires no processing, or `nil` to remove the item from the inspected output.
   metatables - If `true`, include (and traverse) metatables</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the human readable version of `variable`</li></ul>          |
-| **Notes**                                   | <ul><li>For convenience, you can call this function as `hs.inspect(variable)`</li><li>To view the output in Hammerspoon's Console, use `print(hs.inspect(variable))`</li><li>For more information on the options, and some examples, see [the upstream docs](https://github.com/kikito/inspect.lua)</li></ul>                |
+| **Notes**                                   | <ul><li>For convenience, you can call this function as `hs.inspect(variable)`</li><li>To view the output in Hammerspoon's Console, use `print(hs.inspect(variable))`</li><li>For more information on the options, and some examples, see [the upstream docs](https://github.com/kikito/inspect.lua)</li></ul> |
 
 ---
+

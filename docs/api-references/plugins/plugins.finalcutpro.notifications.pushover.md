@@ -22,7 +22,7 @@ Pushover Notifications Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -34,9 +34,10 @@ Pushover Notifications Plugin.
 | **Description**                             | Initialises the plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendNotification](#sendnotification)
 
@@ -47,9 +48,10 @@ Pushover Notifications Plugin.
 | **Description**                             | Sends a notification.                                                                     |
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li><li>[title] - An optional Title for the message as a string.</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -60,9 +62,10 @@ Pushover Notifications Plugin.
 | **Description**                             | Enables or disables Pushover Notifications depending on the user's preferences.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [validateAPIKeys](#validateapikeys)
 
@@ -73,10 +76,11 @@ Pushover Notifications Plugin.
 | **Description**                             | Validates a Pushover User & Application API Key                                                                     |
 | **Parameters**                              | <ul><li>userKey - The User API Key as a string</li><li>appKey - The Application API Key as a string</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [apiValidated](#apivalidated)
@@ -86,8 +90,10 @@ Pushover Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.apiValidated <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the API keys have been validated.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [appAPIKey](#appapikey)
 
@@ -96,8 +102,10 @@ Pushover Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.appAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -106,8 +114,10 @@ Pushover Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [userAPIKey](#userapikey)
 
@@ -116,5 +126,7 @@ Pushover Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.pushover.userAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

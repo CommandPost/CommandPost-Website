@@ -26,7 +26,7 @@ Extends:
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [OPTIONS](#options)
@@ -36,10 +36,11 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.OPTIONS <table of tables>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The options for the Tool Palette Menu Button.                                                                     |
-| **Notes**                                   | <ul><li>Contains `SELECT`, `TRIM`, `POSITION`, `RANGE`, `BLADE`, `ZOOM`, and `HAND`.</li><li>The `CommandSetID` value can be used with `cp.apple.finalcutpro:doShortcut()`.</li></ul>                |
+| **Notes**                                   | <ul><li>Contains `SELECT`, `TRIM`, `POSITION`, `RANGE`, `BLADE`, `ZOOM`, and `HAND`.</li><li>The `CommandSetID` value can be used with `cp.apple.finalcutpro:doShortcut()`.</li></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [isBlade](#isblade)
@@ -49,8 +50,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isBlade <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `BLADE` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isHand](#ishand)
 
@@ -59,8 +62,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isHand <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `HAND` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isPosition](#isposition)
 
@@ -69,8 +74,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isPosition <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `POSITION` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isRange](#isrange)
 
@@ -79,8 +86,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isRange <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `RANGE` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isSelect](#isselect)
 
@@ -89,8 +98,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isSelect <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `SELECT` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isTrim](#istrim)
 
@@ -99,8 +110,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isTrim <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `TRIM` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isZoom](#iszoom)
 
@@ -109,8 +122,10 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.isZoom <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` that indicates if the Tool Palette is set to the `ZOOM` option.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [value](#value)
 
@@ -119,5 +134,7 @@ Extends:
 | **Signature**                               | `cp.apple.finalcutpro.timeline.ToolPalette.value <cp.prop: ToolPalette.OPTIONS, live?, read-write>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `cp.prop` containing the current [OPTIONS](#OPTIONS) value of the Tool Palette. May be `nil` if the toolbar is not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -16,7 +16,7 @@ Final Cut Pro Tangent View Group
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [group](#group)
@@ -26,9 +26,11 @@ Final Cut Pro Tangent View Group
 | **Signature**                               | `plugins.finalcutpro.tangent.new.group`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `core.tangent.manager.group` that collects Final Cut Pro New actions/parameters/etc.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [init](#init)
@@ -40,6 +42,7 @@ Final Cut Pro Tangent View Group
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

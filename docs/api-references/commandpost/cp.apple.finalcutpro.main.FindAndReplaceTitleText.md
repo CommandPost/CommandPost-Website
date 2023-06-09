@@ -31,7 +31,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [FindAndReplaceTitleText](#findandreplacetitletext)
@@ -43,10 +43,11 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Description**                             | Creates a new "Find and Replace Title Text" [Dialog](cp.ui.Dialog.md)                                                                     |
 | **Parameters**                              | <ul><li>cpApp - The cpApp</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [findText](#findtext)
@@ -56,8 +57,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.findText <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Find" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [loopSearch](#loopsearch)
 
@@ -66,8 +69,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.loopSearch <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Loop search" [CheckBox](cp.ui.CheckBox.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [matchCase](#matchcase)
 
@@ -76,8 +81,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.matchCase <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Match case" [CheckBox](cp.ui.CheckBox.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [next](#next)
 
@@ -86,8 +93,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.next <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Next" [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [previous](#previous)
 
@@ -96,8 +105,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.previous <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Previous" [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replace](#replace)
 
@@ -106,8 +117,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replace <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replaceAll](#replaceall)
 
@@ -116,8 +129,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace All" [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replaceAndFind](#replaceandfind)
 
@@ -126,8 +141,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceAndFind <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace & Find" [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replaceText](#replacetext)
 
@@ -136,8 +153,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.replaceText <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Replace" search field, as a [TextField](cp.ui.TextField.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [searchIn](#searchin)
 
@@ -146,8 +165,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.searchIn <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Search In" [PopUpButton](cp.ui.PopUpButton.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [wholeWords](#wholewords)
 
@@ -156,9 +177,11 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Signature**                               | `cp.apple.finalcutpro.main.FindAndReplaceTitleText.wholeWords <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Whole words" [CheckBox](cp.ui.CheckBox.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doFindAndReplaceAll](#dofindandreplaceall)
@@ -170,9 +193,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to find all titles containing `find` and replace them with `replace`.                                                                     |
 | **Parameters**                              | <ul><li>find - what to find</li><li>replace - what to replace</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -183,9 +207,10 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to hide the "Find And Replace Title Text" dialog.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -196,6 +221,7 @@ Represents a "Find and Replace Title Text" dialogue box.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will attempt to show the "Find And Replace Title Text" dialog.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

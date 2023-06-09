@@ -21,7 +21,7 @@ Watch Folder Media Panel.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [watchFolderTableID](#watchfoldertableid)
@@ -31,9 +31,11 @@ Watch Folder Media Panel.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.media.panel.watchFolderTableID -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watch Folder Table ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addWatchFolder](#addwatchfolder)
@@ -45,9 +47,10 @@ Watch Folder Media Panel.
 | **Description**                             | Opens the "Add Watch Folder" Dialog.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [controllerCallback](#controllercallback)
 
@@ -58,9 +61,10 @@ Watch Folder Media Panel.
 | **Description**                             | Callback Controller                                                                     |
 | **Parameters**                              | <ul><li>id - ID as string</li><li>params - table of Parameters</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generateTable](#generatetable)
 
@@ -71,9 +75,10 @@ Watch Folder Media Panel.
 | **Description**                             | Generate HTML Table                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns a HTML table as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -84,9 +89,10 @@ Watch Folder Media Panel.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>mediaFolderManager - Media Folder Manager</li><li>panelManager - Panel Manager</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refreshTable](#refreshtable)
 
@@ -97,9 +103,10 @@ Watch Folder Media Panel.
 | **Description**                             | Refreshes the Final Cut Pro Watch Folder Panel via JavaScript Injection                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [styleSheet](#stylesheet)
 
@@ -110,6 +117,7 @@ Watch Folder Media Panel.
 | **Description**                             | Generates Style Sheet                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns Style Sheet as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

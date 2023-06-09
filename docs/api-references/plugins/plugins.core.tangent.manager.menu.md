@@ -30,7 +30,7 @@ list of options.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -42,10 +42,11 @@ list of options.
 | **Description**                             | Checks if the `thing` is a `menu` instance.                                                                     |
 | **Parameters**                              | <ul><li>thing     - The other object to test.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `menu`, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [menu](#menu)
@@ -57,10 +58,11 @@ list of options.
 | **Description**                             | Creates a new `Action` instance.                                                                     |
 | **Parameters**                              | <ul><li>id        - The ID number of the menu.</li><li>name      - The name of the menu.</li><li>parent    - The parent of the menu.</li></ul> |
 | **Returns**                                 | <ul><li>the new `menu`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [get](#get)
@@ -72,9 +74,10 @@ list of options.
 | **Description**                             | Executes the `get` function, if present, returning the string value for the current menu.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [next](#next)
 
@@ -85,9 +88,10 @@ list of options.
 | **Description**                             | Executes the `next` function, if present.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onGet](#onget)
 
@@ -98,9 +102,10 @@ list of options.
 | **Description**                             | Sets the function that will be called when the Tangent sends a `menu string request`.                                                                     |
 | **Parameters**                              | <ul><li>getFn     - The function to call when the Tangent requests the `menu string`.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>--- This function should have this signature:</li><li></li><li>`function() -> string`</li></ul>                |
+| **Notes**                                   | <ul><li>--- This function should have this signature:</li><li></li><li>`function() -> string`</li></ul> |
 
 ---
+
 
 ### [onNext](#onnext)
 
@@ -111,9 +116,10 @@ list of options.
 | **Description**                             | Sets the function that will be called when the Tangent sends a `menu change +1` request.                                                                     |
 | **Parameters**                              | <ul><li>nextFn     - The function to call when the Tangent requests the `menu change +1`.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the end of the list of options a subsequent `next` call will cycle back to the beginning of the options. This is particularly useful for menus with two options.</li></ul>                |
+| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the end of the list of options a subsequent `next` call will cycle back to the beginning of the options. This is particularly useful for menus with two options.</li></ul> |
 
 ---
+
 
 ### [onPrev](#onprev)
 
@@ -124,9 +130,10 @@ list of options.
 | **Description**                             | Sets the function that will be called when the Tangent sends a `menu change -1` request.                                                                     |
 | **Parameters**                              | <ul><li>prevFn     - The function to call when the Tangent requests the `menu change -1`.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the start of the list of options a subsequent `prev` call will cycle to the end of the options. This is particularly useful for menus with two options.</li></ul>                |
+| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li><li></li><li>It is suggested that when arriving at the start of the list of options a subsequent `prev` call will cycle to the end of the options. This is particularly useful for menus with two options.</li></ul> |
 
 ---
+
 
 ### [onReset](#onreset)
 
@@ -137,9 +144,10 @@ list of options.
 | **Description**                             | Sets the function that will be called when the Tangent sends a 'parameter reset' request.                                                                     |
 | **Parameters**                              | <ul><li>resetFn     - The function to call when the Tangent requests the parameter reset.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
+| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 
 ---
+
 
 ### [prev](#prev)
 
@@ -150,9 +158,10 @@ list of options.
 | **Description**                             | Executes the `prev` function, if present.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -163,9 +172,10 @@ list of options.
 | **Description**                             | Executes the `reset` function if present. Returns the current value of the parameter after reset.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `nil` if it can't be accessed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -176,9 +186,10 @@ list of options.
 | **Description**                             | Updates the Tangent panel with the current value.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the update was sent.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -189,6 +200,7 @@ list of options.
 | **Description**                             | Returns the `xml` configuration for the Action.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

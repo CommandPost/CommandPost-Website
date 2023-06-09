@@ -29,7 +29,7 @@ Common Final Cut Pro functions for Tangent
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [buttonParameter](#buttonparameter)
@@ -41,9 +41,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Button Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [checkboxParameter](#checkboxparameter)
 
@@ -54,9 +55,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Checkbox Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [checkboxParameterByIndex](#checkboxparameterbyindex)
 
@@ -67,9 +69,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new AXCheckBox object for the Tangent.                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>section - The section as it appears in the FCPX Inspector.</li><li>nextSection - The next section as it appears in the FCPX Inspector.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>index - The index of the checkbox in the section.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [checkboxSliderParameter](#checkboxsliderparameter)
 
@@ -80,9 +83,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Popup Slider parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li><li>resetIndex - An index of which item to use when "reset" is triggered.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [commandParameter](#commandparameter)
 
@@ -93,9 +97,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Command Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>commandID - The command ID.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowParameter](#doshowparameter)
 
@@ -106,9 +111,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new `DoShow` Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [dynamicPopupSliderParameter](#dynamicpopupsliderparameter)
 
@@ -119,9 +125,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Popup Slider parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>defaultValue - The default value to use when the reset button is pressed.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [functionParameter](#functionparameter)
 
@@ -132,9 +139,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Function Parameter for the Tangent.                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>path - The list of menu items you'd like to activate as a table.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [menuParameter](#menuparameter)
 
@@ -145,9 +153,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Final Cut Pro Menu Parameter for the Tangent.                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>path - The list of menu items you'd like to activate as a table.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popupParameter](#popupparameter)
 
@@ -158,9 +167,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Popup Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter.</li><li>id - The Tangent ID.</li><li>value - The value to select as a string.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popupParameters](#popupparameters)
 
@@ -171,9 +181,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Popup Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popupSliderParameter](#popupsliderparameter)
 
@@ -184,9 +195,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Popup Slider parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>options - A table of options. The key for each option should be a number ID (in the order it appears in the UI), and the value should be another table with keys for `flexoID` and `i18n` values.</li><li>resetIndex - An index of which item to use when "reset" is triggered.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [radioButtonParameter](#radiobuttonparameter)
 
@@ -197,9 +209,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Checkbox Parameter for the Tangent                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>param - The Parameter</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shortcutParameter](#shortcutparameter)
 
@@ -210,9 +223,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Final Cut Pro Shortcut Parameter for the Tangent.                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group.</li><li>id - The Tangent ID.</li><li>label - The label to be used by the Tangent. This can either be an i18n ID or a plain string.</li><li>shortcutID - The shortcut ID.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sliderParameter](#sliderparameter)
 
@@ -223,9 +237,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Slider Parameter                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li><li>default - The default value</li><li>label - An optional label as an i18n ID or plain string. If no label is supplied the `param` label will be used.</li><li>optionalParamA - An optional parameter. Useful if you need to link parameters.</li><li>optionalParamB - An optional parameter. Useful if you need to link parameters.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeSliderParameter](#volumesliderparameter)
 
@@ -236,9 +251,10 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new Volume Slider Parameter                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li><li>default - The default value</li><li>label - An optional label as an i18n ID or plain string. If no label is supplied the `param` label will be used.</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The parameters value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xyParameter](#xyparameter)
 
@@ -249,6 +265,7 @@ Common Final Cut Pro functions for Tangent
 | **Description**                             | Sets up a new XY Parameter                                                                     |
 | **Parameters**                              | <ul><li>group - The Tangent Group</li><li>param - The Parameter</li><li>id - The Tangent ID</li><li>minValue - The minimum value</li><li>maxValue - The maximum value</li><li>stepSize - The step size</li></ul> |
 | **Returns**                                 | <ul><li>An updated ID</li><li>The `x` parameter value</li><li>The `y` parameter value</li><li>The xy binding</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

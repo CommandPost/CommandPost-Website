@@ -16,7 +16,7 @@ The `cp.app` for Blackmagic DaVinci Resolve.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [app](#app)
@@ -26,9 +26,11 @@ The `cp.app` for Blackmagic DaVinci Resolve.
 | **Signature**                               | `cp.blackmagic.resolve.app <cp.app>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for DaVinci Resolve.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [application](#application)
@@ -38,5 +40,7 @@ The `cp.app` for Blackmagic DaVinci Resolve.
 | **Signature**                               | `cp.blackmagic.resolve.application <cp.prop: hs.application; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the running `hs.application` for DaVinci Resolve, or `nil` if it's not running.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

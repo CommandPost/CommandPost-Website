@@ -72,7 +72,7 @@ Core CommandPost functionality.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [imageBase64](#imagebase64)
@@ -84,9 +84,10 @@ Core CommandPost functionality.
 | **Description**                             | Creates a base65 image string.                                                                     |
 | **Parameters**                              | <ul><li>pathToImage - path to the image</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -97,10 +98,11 @@ Core CommandPost functionality.
 | **Description**                             | Initialise CommandPost                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [connectClip](#connectclip)
@@ -110,5 +112,7 @@ Core CommandPost functionality.
 | **Signature**                               | `cp.cp.apple.finalcutpro.timeline.Timeline.connectClip <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Button](cp.ui.Button.md) which connects a clip from the Browser to the Primary Storyline in the Timeline.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

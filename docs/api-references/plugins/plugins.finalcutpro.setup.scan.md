@@ -13,7 +13,7 @@ Show setup panel if Final Cut Pro needs scanning.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -25,6 +25,7 @@ Show setup panel if Final Cut Pro needs scanning.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - A table of dependencies.</li></ul> |
 | **Returns**                                 | <ul><li>self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -19,7 +19,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -31,10 +31,11 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Description**                             | Checks if the `thing` is an instance of `Statement.Definition`.                                                                     |
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the thing is a `Statement.Definition`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [define](#define)
@@ -46,9 +47,10 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Description**                             | Completes the definition of the [Statement](cp.rx.go.Statement.md).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onInit](#oninit)
 
@@ -59,9 +61,10 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Description**                             | Defines the function which will be called to initialise the context.                                                                     |
 | **Parameters**                              | <ul><li>initFn       - The init function.</li></ul> |
 | **Returns**                                 | <ul><li>The Statement Definition</li></ul>          |
-| **Notes**                                   | <ul><li>* The function will be passed the `context` table as the first parameter,</li><li>  and any other parameters passed to the statement follow.</li></ul>                |
+| **Notes**                                   | <ul><li>* The function will be passed the `context` table as the first parameter,</li><li>  and any other parameters passed to the statement follow.</li></ul> |
 
 ---
+
 
 ### [onObservable](#onobservable)
 
@@ -72,6 +75,7 @@ A definition is initiated with the [Statement:modifier(...)](cp.rx.go.Statement.
 | **Description**                             | Defines the function which will be called to create the [Observable](cp.rx.Observable.md) for the [Statement](cp.rx.go.Statement.md). The function will be passed the `context` table and must return an `Observable`.                                                                     |
 | **Parameters**                              | <ul><li>observableFn     - The observable creator function.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement.Definition`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

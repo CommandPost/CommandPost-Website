@@ -14,7 +14,7 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [app](#app)
@@ -26,9 +26,10 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Description**                             | Opens Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [commandEditor](#commandeditor)
 
@@ -39,6 +40,7 @@ Opens Final Cut Pro via Global Shortcut & Menubar.
 | **Description**                             | Opens the Final Cut Pro Command Editor                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

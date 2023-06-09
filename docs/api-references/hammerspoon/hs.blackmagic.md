@@ -108,7 +108,7 @@ limitations under the License.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [buttonNames](#buttonnames)
@@ -118,8 +118,10 @@ limitations under the License.
 | **Signature**                               | `hs.blackmagic.buttonNames`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the button names used.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [deviceTypes](#devicetypes)
 
@@ -128,8 +130,10 @@ limitations under the License.
 | **Signature**                               | `hs.blackmagic.deviceTypes`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the supported device types.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [jogModeNames](#jogmodenames)
 
@@ -138,8 +142,10 @@ limitations under the License.
 | **Signature**                               | `hs.blackmagic.jogModeNames`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the jog mode names used by each device type.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ledNames](#lednames)
 
@@ -148,9 +154,11 @@ limitations under the License.
 | **Signature**                               | `hs.blackmagic.ledNames`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A table of the LED names used by each device type.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [discoveryCallback](#discoverycallback)
@@ -164,9 +172,10 @@ limitations under the License.
   A boolean, true if a device was connected, false if a device was disconnected.
   An `hs.blackmagic` object, being the device that was connected/disconnected.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDevice](#getdevice)
 
@@ -177,9 +186,10 @@ limitations under the License.
 | **Description**                             | Gets an `hs.blackmagic` object for the specified device.                                                                     |
 | **Parameters**                              | <ul><li>num - A number that should be within the bounds of the number of connected devices.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.blackmagic` object or `nil` if something goes wrong.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -192,9 +202,10 @@ limitations under the License.
   A boolean, `true` if a device was connected, `false` if a device was disconnected.
   An `hs.blackmagic` object, being the device that was connected/disconnected.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul>                |
+| **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used.</li></ul> |
 
 ---
+
 
 ### [numDevices](#numdevices)
 
@@ -205,10 +216,11 @@ limitations under the License.
 | **Description**                             | Gets the number of Blackmagic devices connected.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the number of Blackmagic devices attached to the system.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [battery](#battery)
@@ -220,9 +232,10 @@ limitations under the License.
 | **Description**                             | Gets the battery status for the Blackmagic device.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if charging, otherwise `false`</li><li>The battery level between 0 and 100.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [callback](#callback)
 
@@ -233,9 +246,10 @@ limitations under the License.
 | **Description**                             | Sets/clears the button and jog wheel callback function for a Blackmagic device.                                                                     |
 | **Parameters**                              | <ul><li>fn - A function to be called when a button is pressed/released, or the jog wheel is rotated on the Blackmagic device.</li></ul> |
 | **Returns**                                 | <ul><li>The hs.blackmagic device</li><li>The callback function should receive three arguments:</li><li> The `hs.blackmagic` userdata object</li><li> A string containing the name of the button or "JOG WHEEL"</li><li> A boolean indicating whether the button was pressed (true) or released (false). Not relevant if a Jog Wheel action.</li><li> The Jog Wheel Mode (if not a button press)</li><li> The Jog Wheel value (if not a button press)</li><li>You can use `hs.blackmagic.buttonNames[deviceType]` to get a table of possible values.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [deviceType](#devicetype)
 
@@ -246,9 +260,10 @@ limitations under the License.
 | **Description**                             | Gets the device type for the Blackmagic device.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The device type as a string - either "Speed Editor" or "Editor Keyboard".</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [jogMode](#jogmode)
 
@@ -259,9 +274,10 @@ limitations under the License.
 | **Description**                             | Gets or Sets the Jog Mode for the Blackmagic device.                                                                     |
 | **Parameters**                              | <ul><li>value - an optional string of "RELATIVE", "ABSOLUTE" and "ABSOLUTE ZERO" if setting.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.blackmagic` device</li><li>"RELATIVE", "ABSOLUTE" and "ABSOLUTE ZERO" as a string, or `nil` if something has gone wrong.</li></ul>          |
-| **Notes**                                   | <ul><li>You can use `hs.blackmagic.jogModeNames[deviceType]` to get a table of possible values.</li><li>"RELATIVE" - Returns a “relative” position - a positive number if turning right, and a negative number if turning left. The faster you turn, the higher the number. One step is 360.</li><li>"ABSOLUTE" - Returns an “absolute” position, based on when the mode was set. It has a range of -4096 (left of 0) to 4096 (right of 0). On the Editor Keyboard it has mechanical hard stops at -4096 and 4096, meaning you only use one half of the wheel.</li><li>"ABSOLUTE ZERO" - The same as "ABSOLUTE", but has a small dead zone around 0 - which mechincally "snaps" to zero on a Editor Keyboard.</li></ul>                |
+| **Notes**                                   | <ul><li>You can use `hs.blackmagic.jogModeNames[deviceType]` to get a table of possible values.</li><li>"RELATIVE" - Returns a “relative” position - a positive number if turning right, and a negative number if turning left. The faster you turn, the higher the number. One step is 360.</li><li>"ABSOLUTE" - Returns an “absolute” position, based on when the mode was set. It has a range of -4096 (left of 0) to 4096 (right of 0). On the Editor Keyboard it has mechanical hard stops at -4096 and 4096, meaning you only use one half of the wheel.</li><li>"ABSOLUTE ZERO" - The same as "ABSOLUTE", but has a small dead zone around 0 - which mechincally "snaps" to zero on a Editor Keyboard.</li></ul> |
 
 ---
+
 
 ### [led](#led)
 
@@ -272,9 +288,10 @@ limitations under the License.
 | **Description**                             | Sets the status for the LED lights.                                                                     |
 | **Parameters**                              | <ul><li>options - A table where the key is the button ID, and the value is a boolean to turn the LED on or off.</li></ul> |
 | **Returns**                                 | <ul><li>The hs.blackmagic device.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use `hs.blackmagic.ledNames[deviceType]` to get a table of possible values.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use `hs.blackmagic.ledNames[deviceType]` to get a table of possible values.</li></ul> |
 
 ---
+
 
 ### [serialNumber](#serialnumber)
 
@@ -285,6 +302,7 @@ limitations under the License.
 | **Description**                             | Gets the serial number for the Blackmagic device.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The serial number as a string.</li></ul>          |
-| **Notes**                                   | <ul><li>The serial number is the unique identifier from the USB Device, and not the product serial number that's on the sticker on the back of the Blackmagic device.</li></ul>                |
+| **Notes**                                   | <ul><li>The serial number is the unique identifier from the USB Device, and not the product serial number that's on the sticker on the back of the Blackmagic device.</li></ul> |
 
 ---
+

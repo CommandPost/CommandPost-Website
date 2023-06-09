@@ -19,7 +19,7 @@ Loupedeck+ Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [lastApplication](#lastapplication)
@@ -29,8 +29,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBank](#lastbank)
 
@@ -39,8 +41,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastBank <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportPath](#lastexportpath)
 
@@ -49,8 +53,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastImportPath](#lastimportpath)
 
@@ -59,8 +65,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastIsButton](#lastisbutton)
 
@@ -69,8 +77,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastIsButton <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the last selected item in the Preferences was a button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastLabel](#lastlabel)
 
@@ -79,8 +89,10 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastLabel <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last label used in the Preferences panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastNote](#lastnote)
 
@@ -89,5 +101,7 @@ Loupedeck+ Preferences Panel
 | **Signature**                               | `plugins.core.loupedeck.prefs.lastNote <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last note used in the Preferences panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -55,7 +55,7 @@ share:stabilization():smoothing():show():value(1.5)
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -67,10 +67,11 @@ share:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Checks if the provided element could be a ShareInspector.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -82,6 +83,7 @@ share:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Creates a new `ShareInspector` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`		- The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `ShareInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

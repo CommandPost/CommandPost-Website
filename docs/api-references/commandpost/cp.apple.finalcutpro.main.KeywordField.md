@@ -17,7 +17,7 @@ Keyword Text Field Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [KeywordField](#keywordfield)
@@ -29,10 +29,11 @@ Keyword Text Field Module.
 | **Description**                             | Constructs a new KeywordField.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent object.</li><li>uiFinder - The `function` or `cp.prop` that provides the axuielement.</li></ul> |
 | **Returns**                                 | <ul><li>The new `KeywordField`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [addKeyword](#addkeyword)
@@ -44,9 +45,10 @@ Keyword Text Field Module.
 | **Description**                             | Attempts to add the specified keyword.                                                                     |
 | **Parameters**                              | <ul><li>keyword - The keyword string to add.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the keyword was not present and added, otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [removeKeyword](#removekeyword)
 
@@ -57,6 +59,7 @@ Keyword Text Field Module.
 | **Description**                             | Attempts to remove the specified keyword.                                                                     |
 | **Parameters**                              | <ul><li>keyword - The keyword string to remove.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the keyword was present and removed, otherwise false.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

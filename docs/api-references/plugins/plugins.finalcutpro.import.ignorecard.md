@@ -18,7 +18,7 @@ Ignore Final Cut Pro's Media Import Window.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [enabled](#enabled)
@@ -28,9 +28,11 @@ Ignore Final Cut Pro's Media Import Window.
 | **Signature**                               | `plugins.finalcutpro.import.ignorecard.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Ignore Card Plugin                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [start](#start)
@@ -42,9 +44,10 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Starts the Media Import Window Watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -55,9 +58,10 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Stops the Media Import Window Watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -68,6 +72,7 @@ Ignore Final Cut Pro's Media Import Window.
 | **Description**                             | Starts to stops the Ignore Card device watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

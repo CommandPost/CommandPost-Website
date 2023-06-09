@@ -32,7 +32,7 @@ The results of a test [run](cp.spec.Run.md).
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Report](#report)
@@ -44,10 +44,11 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Creates a new test report.                                                                     |
 | **Parameters**                              | <ul><li>run</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.spec.Report` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [aborts](#aborts)
@@ -57,8 +58,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.aborts <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of aborts in the run.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [failures](#failures)
 
@@ -67,8 +70,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.failures <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of failures in the run.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [passes](#passes)
 
@@ -77,8 +82,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.passes <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of passes in the run.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [run](#run)
 
@@ -87,8 +94,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.run <cp.spec.Run>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [run](cp.spec.Run.md) the reports are for.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [startTime](#starttime)
 
@@ -97,8 +106,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.startTime <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds since epoch when the test started, or `nil` if not started yet.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [stopTime](#stoptime)
 
@@ -107,8 +118,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.stopTime <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds since epoch when the tests stopped, or `nil` if not stopped yet.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [totalTime](#totaltime)
 
@@ -117,9 +130,11 @@ The results of a test [run](cp.spec.Run.md).
 | **Signature**                               | `cp.spec.Report.totalTime <number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The number of seconds the run took (may be decimal), or `nil` if the test hasn't run.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [aborted](#aborted)
@@ -131,9 +146,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Records an abort, with the specified message.                                                                     |
 | **Parameters**                              | <ul><li>message - The related message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [add](#add)
 
@@ -144,9 +160,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Adds the passes/failures/aborts from the other report into this one.                                                                     |
 | **Parameters**                              | <ul><li>otherReport   - The other report to add.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [failed](#failed)
 
@@ -157,9 +174,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Records a fail, with the specified message.                                                                     |
 | **Parameters**                              | <ul><li>message - The related message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [passed](#passed)
 
@@ -170,9 +188,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Records a pass, with the specified message.                                                                     |
 | **Parameters**                              | <ul><li>message - an optional additional message to output.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -183,9 +202,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Logs the start time.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -196,9 +216,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Logs the end time.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [summary](#summary)
 
@@ -209,9 +230,10 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Summarise the reports.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [waiting](#waiting)
 
@@ -222,6 +244,7 @@ The results of a test [run](cp.spec.Run.md).
 | **Description**                             | Records that a run is waiting for up to the specified amount of time.                                                                     |
 | **Parameters**                              | <ul><li>timeout - The timeout to wait for, in seconds.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

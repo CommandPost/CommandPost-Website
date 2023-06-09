@@ -13,7 +13,7 @@ User Guide Menu Item.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [show](#show)
@@ -25,6 +25,7 @@ User Guide Menu Item.
 | **Description**                             | Opens the CommandPost User Guide in your default Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -13,7 +13,7 @@ Color Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Color](#color)
@@ -25,6 +25,7 @@ Color Module.
 | **Description**                             | Creates a new `Color` instance.                                                                     |
 | **Parameters**                              | <ul><li>app - The Final Cut Pro app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

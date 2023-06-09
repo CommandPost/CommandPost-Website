@@ -15,7 +15,7 @@ Extends [BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md).
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [TitleInspector](#titleinspector)
@@ -27,6 +27,7 @@ Extends [BaseMotionPanel](cp.apple.finalcutpro.inspector.BaseMotionPanel.md).
 | **Description**                             | Creates a new `TitleInspector` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`		- The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `TitleInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

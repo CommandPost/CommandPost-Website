@@ -27,7 +27,7 @@ Inspect the system's camera devices
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [allCameras](#allcameras)
@@ -39,9 +39,10 @@ Inspect the system's camera devices
 | **Description**                             | Get all the cameras known to the system                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing all of the known cameras</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isWatcherRunning](#iswatcherrunning)
 
@@ -52,9 +53,10 @@ Inspect the system's camera devices
 | **Description**                             | Checks if the camera devices watcher is running                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, True if the watcher is running, otherwise False</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setWatcherCallback](#setwatchercallback)
 
@@ -65,9 +67,10 @@ Inspect the system's camera devices
 | **Description**                             | Sets/clears the callback function for the camera devices watcher                                                                     |
 | **Parameters**                              | <ul><li>fn - A callback function, or nil to remove a previously set callback. The callback should accept a two arguments (see Notes below)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>The callback will be called when a camera is added or removed from the system</li><li>To watch for changes within a single camera device, see `hs.camera:newWatcher()`</li><li>The callback function arguments are:</li><li> An hs.camera device object for the affected device</li><li> A string, either "Added" or "Removed" depending on whether the device was added or removed from the system</li><li>For "Removed" events, most methods on the hs.camera device object will not function correctly anymore and the device object passed to the callback is likely to be useless. It is recommended you re-check `hs.camera.allCameras()` and keep records of the cameras you care about</li><li>Passing nil will cause the watcher to stop if it is running</li></ul>                |
+| **Notes**                                   | <ul><li>The callback will be called when a camera is added or removed from the system</li><li>To watch for changes within a single camera device, see `hs.camera:newWatcher()`</li><li>The callback function arguments are:</li><li> An hs.camera device object for the affected device</li><li> A string, either "Added" or "Removed" depending on whether the device was added or removed from the system</li><li>For "Removed" events, most methods on the hs.camera device object will not function correctly anymore and the device object passed to the callback is likely to be useless. It is recommended you re-check `hs.camera.allCameras()` and keep records of the cameras you care about</li><li>Passing nil will cause the watcher to stop if it is running</li></ul> |
 
 ---
+
 
 ### [startWatcher](#startwatcher)
 
@@ -78,9 +81,10 @@ Inspect the system's camera devices
 | **Description**                             | Starts the camera devices watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopWatcher](#stopwatcher)
 
@@ -91,10 +95,11 @@ Inspect the system's camera devices
 | **Description**                             | Stops the camera devices watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [connectionID](#connectionid)
@@ -106,9 +111,10 @@ Inspect the system's camera devices
 | **Description**                             | Get the raw connection ID of the camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the connection ID of the camera</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isInUse](#isinuse)
 
@@ -119,9 +125,10 @@ Inspect the system's camera devices
 | **Description**                             | Get the usage status of the camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, True if the camera is in use, otherwise False</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPropertyWatcherRunning](#ispropertywatcherrunning)
 
@@ -132,9 +139,10 @@ Inspect the system's camera devices
 | **Description**                             | Checks if the property watcher on a camera object is running                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, True if the property watcher is running, otherwise False</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -145,9 +153,10 @@ Inspect the system's camera devices
 | **Description**                             | Get the name of the camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the camera</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPropertyWatcherCallback](#setpropertywatchercallback)
 
@@ -163,9 +172,10 @@ Inspect the system's camera devices
   A string containing the scope of the event, this will likely always be "glob"
   A number containing the element of the event, this will likely always be "0"</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [startPropertyWatcher](#startpropertywatcher)
 
@@ -176,9 +186,10 @@ Inspect the system's camera devices
 | **Description**                             | Starts the property watcher on a camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopPropertyWatcher](#stoppropertywatcher)
 
@@ -189,9 +200,10 @@ Inspect the system's camera devices
 | **Description**                             | Stops the property watcher on a camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.camera` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [uid](#uid)
 
@@ -202,6 +214,7 @@ Inspect the system's camera devices
 | **Description**                             | Get the UID of the camera                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the UID of the camera</li></ul>          |
-| **Notes**                                   | <ul><li>The UID is not guaranteed to be stable across reboots</li></ul>                |
+| **Notes**                                   | <ul><li>The UID is not guaranteed to be stable across reboots</li></ul> |
 
 ---
+

@@ -22,7 +22,7 @@ require("cp.docs").generate()
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [generate](#generate)
@@ -34,9 +34,10 @@ require("cp.docs").generate()
 | **Description**                             | Generates the CommandPost Developers Guide.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generateExtensionLinks](#generateextensionlinks)
 
@@ -47,9 +48,10 @@ require("cp.docs").generate()
 | **Description**                             | Returns markup of all of the API links for a specific group of extensions.                                                                     |
 | **Parameters**                              | <ul><li>folder - The folder you want to process (i.e. "cp", "plugins" or "hs").</li></ul> |
 | **Returns**                                 | <ul><li>The result as a string, otherwise `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateDeveloperGuideSummary](#updatedeveloperguidesummary)
 
@@ -60,6 +62,7 @@ require("cp.docs").generate()
 | **Description**                             | Updates the Developer Guide Summary.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

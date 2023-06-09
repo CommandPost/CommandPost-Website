@@ -17,7 +17,7 @@ Libraries Sidebar Browser Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [LibrariesSidebar](#librariessidebar)
@@ -29,10 +29,11 @@ Libraries Sidebar Browser Module.
 | **Description**                             | Creates a new `LibrariesSidebar` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `LibrariesSidebar` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [selectActiveLibrary](#selectactivelibrary)
@@ -44,9 +45,10 @@ Libraries Sidebar Browser Module.
 | **Description**                             | Selects the active library.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -57,6 +59,7 @@ Libraries Sidebar Browser Module.
 | **Description**                             | Show the Libraries Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `LibrariesSidebar` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

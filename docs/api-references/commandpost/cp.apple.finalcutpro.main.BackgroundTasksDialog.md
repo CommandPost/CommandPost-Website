@@ -20,7 +20,7 @@ Represents the Background Tasks warning dialog.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -32,10 +32,11 @@ Represents the Background Tasks warning dialog.
 | **Description**                             | Checks if the element is an `BackgroundTasksDialog` instance.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `BackgroundTasksDialog``.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [BackgroundTasksDialog](#backgroundtasksdialog)
@@ -47,10 +48,11 @@ Represents the Background Tasks warning dialog.
 | **Description**                             | Creates a new Background Tasks [Dialog](cp.ui.Dialog.md)                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [cancel](#cancel)
@@ -60,8 +62,10 @@ Represents the Background Tasks warning dialog.
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Cancel button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [continue](#continue)
 
@@ -70,5 +74,7 @@ Represents the Background Tasks warning dialog.
 | **Signature**                               | `cp.apple.finalcutpro.main.BackgroundTasksDialog.continue <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Continue button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

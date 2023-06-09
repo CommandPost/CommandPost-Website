@@ -35,7 +35,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -47,10 +47,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Checks if the `thing` is a `group`.                                                                     |
 | **Parameters**                              | <ul><li>thing    - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `group`, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [group](#group)
@@ -62,10 +63,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Creates a new `Group` instance.                                                                     |
 | **Parameters**                              | <ul><li>name - The name of the group.</li><li>manager - The Tangent Manager.</li><li>parent - The parent group.</li><li>localActive - If `true`, this group will ignore the parent's `active` status when determining its own `active` status. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [active](#active)
@@ -75,8 +77,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Signature**                               | `plugins.core.tangent.manager.group.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is active. It will only be active if                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -85,8 +89,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Signature**                               | `plugins.core.tangent.manager.group.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [localActive](#localactive)
 
@@ -95,9 +101,11 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Signature**                               | `plugins.core.tangent.manager.group.localActive <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the group should ignore the parent's `enabled` state when determining if the group is active.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [action](#action)
@@ -109,9 +117,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Adds an `action` to this group.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new action</li><li>name  - The name of the action.</li><li>localActive - If true, the parent group's `active` state is ignored when determining if this action is active.</li></ul> |
 | **Returns**                                 | <ul><li>The new `action`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [binding](#binding)
 
@@ -122,9 +131,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Adds an `binding` to this group.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new binding</li><li>name  - The name of the binding.</li></ul> |
 | **Returns**                                 | <ul><li>The new `binding`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [controls](#controls)
 
@@ -135,9 +145,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Retrieves the `controls` for this group. May be `nil` if the group was created independently.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `controls`, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [group](#group)
 
@@ -148,9 +159,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Adds a subgroup to this group.                                                                     |
 | **Parameters**                              | <ul><li>name - the name of the new sub-group</li><li>localActive - An optional boolean. If `true`, this group will ignore the parent's `active` status when determining its own `active` status. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `group`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [menu](#menu)
 
@@ -161,9 +173,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Adds an `menu` to this group.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new menu</li><li>name  - The name of the menu.</li></ul> |
 | **Returns**                                 | <ul><li>The new `menu`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -174,9 +187,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Returns the `name` given to the group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parameter](#parameter)
 
@@ -187,9 +201,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Adds an `parameter` to this group.                                                                     |
 | **Parameters**                              | <ul><li>id    - The ID number of the new parameter</li><li>name  - The name of the parameter.</li></ul> |
 | **Returns**                                 | <ul><li>The new `parameter`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -200,9 +215,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Returns the parent of the group, which should be either a `group`, `controls` or `nil`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The group's parents.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -213,9 +229,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | This will remove all parameters, actions, menus and bindings from the group. It does not remove sub-groups. Use with care!                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `group` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [tangent](#tangent)
 
@@ -226,9 +243,10 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | The `hs.tangent` connection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.tangent`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -239,6 +257,7 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
 | **Description**                             | Returns the `xml` configuration for the Group, sorted alphabetically.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Group.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

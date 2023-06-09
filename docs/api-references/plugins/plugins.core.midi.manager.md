@@ -44,7 +44,7 @@ MIDI Manager Plugin.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [defaultLayout](#defaultlayout)
@@ -54,8 +54,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default MIDI Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultLoupedeckLayout](#defaultloupedecklayout)
 
@@ -64,8 +66,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLoupedeckLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultLoupedeckPlusLayout](#defaultloupedeckpluslayout)
 
@@ -74,8 +78,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.defaultLoupedeckPlusLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck+ Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastActiveBundleID](#lastactivebundleid)
 
@@ -84,8 +90,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.lastActiveBundleID -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last Active Bundle ID. Used for AudioSwift workaround.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [learningMode](#learningmode)
 
@@ -94,8 +102,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.learningMode -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Whether or not the MIDI Manager is in learning mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [maxItems](#maxitems)
 
@@ -104,9 +114,11 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of MIDI items per bank.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [devices](#devices)
@@ -118,9 +130,10 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a table of Physical MIDI Device Names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of Physical MIDI Device Names.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDevice](#getdevice)
 
@@ -131,9 +144,10 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a MIDI Device.                                                                     |
 | **Parameters**                              | <ul><li>deviceName - The device name.</li><li>virtual - A boolean that defines whether or not the device is virtual.</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.midi` object or nil if no MIDI device by that name exists.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getItem](#getitem)
 
@@ -144,9 +158,10 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a MIDI item from Preferences.                                                                     |
 | **Parameters**                              | <ul><li>item - The item you want to get.</li><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>A table otherwise `nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -157,9 +172,10 @@ MIDI Manager Plugin.
 | **Description**                             | Starts the MIDI Plugin                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -170,9 +186,10 @@ MIDI Manager Plugin.
 | **Description**                             | Stops the MIDI Plugin                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -183,9 +200,10 @@ MIDI Manager Plugin.
 | **Description**                             | Updates the MIDI Watchers.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [virtualDevices](#virtualdevices)
 
@@ -196,10 +214,11 @@ MIDI Manager Plugin.
 | **Description**                             | Gets a table of Virtual MIDI Source Names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of Virtual MIDI Source Names.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activeBanks](#activebanks)
@@ -209,8 +228,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [activeLoupedeckBanks](#activeloupedeckbanks)
 
@@ -219,8 +240,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeLoupedeckBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [activeLoupedeckPlusBanks](#activeloupedeckplusbanks)
 
@@ -229,8 +252,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.activeLoupedeckPlusBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
@@ -239,8 +264,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -249,8 +276,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabledLoupedeck](#enabledloupedeck)
 
@@ -259,8 +288,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabledLoupedeck <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Loupedeck Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabledLoupedeckPlus](#enabledloupedeckplus)
 
@@ -269,8 +300,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.enabledLoupedeckPlus <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable MIDI Loupedeck+ Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ignoreEverySecondControlDialCommand](#ignoreeverysecondcontroldialcommand)
 
@@ -279,8 +312,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.ignoreEverySecondControlDialCommand <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A preference for ignoring double actions when turning the Control Dial                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ignoreEverySecondP1ToP8WheelCommand](#ignoreeverysecondp1top8wheelcommand)
 
@@ -289,8 +324,10 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.ignoreEverySecondP1ToP8WheelCommand <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A preference for ignoring double actions when turning a P1 to P8 wheel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [numberOfMidiDevices](#numberofmididevices)
 
@@ -299,5 +336,7 @@ MIDI Manager Plugin.
 | **Signature**                               | `plugins.core.midi.manager.numberOfMidiDevices -> <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Total number of MIDI Devices detected (including both physical and virtual).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

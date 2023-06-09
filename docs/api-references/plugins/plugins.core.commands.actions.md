@@ -18,7 +18,7 @@ Registers itself with the `core.action.manager`.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [execute](#execute)
@@ -30,9 +30,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Executes the action with the provided parameters.                                                                     |
 | **Parameters**                              | <ul><li>`action` - A table representing the action, matching the following:`id` - The specific Command ID within the group.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the action was executed successfully.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getId](#getid)
 
@@ -43,9 +44,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Gets an ID from an action table                                                                     |
 | **Parameters**                              | <ul><li>`action`      - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -56,9 +58,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>`actionmanager` - The Action Manager Plugin</li><li>`cmds` - The Commands Plugin.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onChoices](#onchoices)
 
@@ -69,9 +72,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Adds available choices to the  selection.                                                                     |
 | **Parameters**                              | <ul><li>`choices`     - The `cp.choices` to add choices to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -82,6 +86,7 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Resets the set of choices.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

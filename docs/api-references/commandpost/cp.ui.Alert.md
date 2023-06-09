@@ -13,7 +13,7 @@ Alert UI Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -25,6 +25,7 @@ Alert UI Module.
 | **Description**                             | Creates a new `Alert` instance. It will automatically search the parent's children for Alerts.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

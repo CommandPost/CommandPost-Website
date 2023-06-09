@@ -20,7 +20,7 @@ Registers itself with the `core.action.manager`.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [execute](#execute)
@@ -32,9 +32,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Executes the action with the provided parameters.                                                                     |
 | **Parameters**                              | <ul><li>`action`  - A table representing the action</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getId](#getid)
 
@@ -45,9 +46,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Gets the ID from an action.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getId](#getid)
 
@@ -58,9 +60,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Get ID.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>The ID as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -71,9 +74,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>actionmanager - The action manager object</li><li>cmds - Final Cut Pro commands manager</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onChoices](#onchoices)
 
@@ -84,9 +88,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Adds available choices to the selection.                                                                     |
 | **Parameters**                              | <ul><li>`choices` - The optional `cp.choices` to add choices to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onExecute](#onexecute)
 
@@ -97,9 +102,10 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | On Execute.                                                                     |
 | **Parameters**                              | <ul><li>action - The action table.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -110,6 +116,7 @@ Registers itself with the `core.action.manager`.
 | **Description**                             | Resets the set of choices.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

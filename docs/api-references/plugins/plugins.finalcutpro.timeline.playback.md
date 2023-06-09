@@ -14,7 +14,7 @@ Playback Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [pause](#pause)
@@ -26,9 +26,10 @@ Playback Plugin.
 | **Description**                             | 'Pause' in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [play](#play)
 
@@ -39,6 +40,7 @@ Playback Plugin.
 | **Description**                             | 'Play' in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

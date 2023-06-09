@@ -19,7 +19,7 @@ Represents a Tangent Binding
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [binding](#binding)
@@ -31,10 +31,11 @@ Represents a Tangent Binding
 | **Description**                             | Creates a new `Binding` instance.                                                                     |
 | **Parameters**                              | <ul><li>name - The name of the binding.</li></ul> |
 | **Returns**                                 | <ul><li>the new `binding`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [member](#member)
@@ -46,9 +47,10 @@ Represents a Tangent Binding
 | **Description**                             | Adds a `parameter` as a member of the Binding group. The order is significant - it will determine the order the parameters are applied to group controls in the Mapper.                                                                     |
 | **Parameters**                              | <ul><li>param     - The `parameter` to add to the binding.</li></ul> |
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [members](#members)
 
@@ -59,9 +61,10 @@ Represents a Tangent Binding
 | **Description**                             | Adds the list of parameters to this binding.                                                                     |
 | **Parameters**                              | <ul><li>...   - the list of parameters to bind.</li></ul> |
 | **Returns**                                 | <ul><li>The `binding` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -72,9 +75,10 @@ Represents a Tangent Binding
 | **Description**                             | Returns the `name` of this binding.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The name.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -85,6 +89,7 @@ Represents a Tangent Binding
 | **Description**                             | Returns the `xml` configuration for the Binding.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Binding.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

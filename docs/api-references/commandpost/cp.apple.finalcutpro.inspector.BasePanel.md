@@ -21,7 +21,7 @@ Extends [Element](cp.ui.Element.md).
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [BasePanel](#basepanel)
@@ -33,10 +33,11 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Constructs the panel, initialising the parent and the [UI](cp.ui.Element.md#UI).                                                                     |
 | **Parameters**                              | <ul><li>parent        - The parent [Element](cp.ui.Element.md).</li><li>panelType     - The panel type string, as defined in [Inspector.INSPECTOR_TABS](cp.apple.finalcutpro.inspector.Inspector.md#INSPECTOR_TABS).</li></ul> |
 | **Returns**                                 | <ul><li>The new `BasePanel` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doShow](#doshow)
@@ -48,9 +49,10 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that hides the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -61,9 +63,10 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Hides the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [panelType](#paneltype)
 
@@ -74,9 +77,10 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Gets the type of panel this is.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The panel type identifier.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -87,6 +91,7 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Shows the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

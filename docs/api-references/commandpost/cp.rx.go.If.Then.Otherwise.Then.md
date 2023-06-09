@@ -13,7 +13,7 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [Then](#then)
@@ -25,6 +25,7 @@ Each [Otherwise](cp.rx.go.If.Then.Otherwise.md) can have a subsequent `Then` whi
 | **Description**                             | Specifies additional `resolvables` to resolve after the previous `Then`.                                                                     |
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Then` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -22,7 +22,7 @@ Choices Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [new](#new)
@@ -34,10 +34,11 @@ Choices Module.
 | **Description**                             | Creates a new `cp.choices` instance for the specified type.                                                                     |
 | **Parameters**                              | <ul><li>`type` - The unique ID for the type.</li></ul> |
 | **Returns**                                 | <ul><li>The new `choices` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [getChoices](#getchoices)
@@ -49,9 +50,10 @@ Choices Module.
 | **Description**                             | Returns the array of choices that have been added to this instance.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The array of choices.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -62,6 +64,7 @@ Choices Module.
 | **Description**                             | Adds a new choice with the specified.                                                                     |
 | **Parameters**                              | <ul><li>`text`	- The text title for the choice.</li></ul> |
 | **Returns**                                 | <ul><li>The choice builder, added to the choices set.</li></ul>          |
-| **Notes**                                   | <ul><li>Additional settings can be set using the returned builder instance. E.g.:</li><li></li><li>```</li><li>choices:add("Do Something")</li><li>	:subText("Cool Actions")</li><li>		:params({</li><li>		one = "foo",</li><li>		two = "bar",</li><li>	})</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Additional settings can be set using the returned builder instance. E.g.:</li><li></li><li>```</li><li>choices:add("Do Something")</li><li>	:subText("Cool Actions")</li><li>		:params({</li><li>		one = "foo",</li><li>		two = "bar",</li><li>	})</li><li>```</li></ul> |
 
 ---
+

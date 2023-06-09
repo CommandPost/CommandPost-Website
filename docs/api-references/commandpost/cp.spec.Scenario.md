@@ -83,7 +83,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Scenario](#scenario)
@@ -95,10 +95,11 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Description**                             | Creates a new `Scenario` with the specified name.                                                                     |
 | **Parameters**                              | <ul><li>name          - The name of the scenario.</li><li>testFn     - (optional) The `function` which performs the test for in the scenario.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Scenario`.</li></ul>          |
-| **Notes**                                   | <ul><li>If the `testFn` is not provided here, it must be done via the [doing](#doing) method prior to running,</li><li>  an `error` will occur.</li></ul>                |
+| **Notes**                                   | <ul><li>If the `testFn` is not provided here, it must be done via the [doing](#doing) method prior to running,</li><li>  an `error` will occur.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doing](#doing)
@@ -110,9 +111,10 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Description**                             | Specifies the `function` for the definition.                                                                     |
 | **Parameters**                              | <ul><li>testFn - The function that will do the test.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Definition`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [run](#run)
 
@@ -123,9 +125,10 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Description**                             | Runs the scenario.                                                                     |
 | **Parameters**                              | <ul><li>...   - The list of filters. The first one will be compared to this scenario to determine it should be run.</li></ul> |
 | **Returns**                                 | <ul><li>cp.spec.Run object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [where](#where)
 
@@ -136,6 +139,7 @@ instance (such as "async" or "done") so ensure that you pick names that don't cl
 | **Description**                             | Specifies a `table` of data that will be iterated through as multiple [Runs](cp.spec.Run.md), one row at a time.                                                                     |
 | **Parameters**                              | <ul><li>data      - The data table.</li></ul> |
 | **Returns**                                 | <ul><li>The [Where](cp.spec.Where.md).</li></ul>          |
-| **Notes**                                   | <ul><li>The first row should be all strings, which will be the name of the parameter. Subsequent rows are the values for those rows.</li></ul>                |
+| **Notes**                                   | <ul><li>The first row should be all strings, which will be the name of the parameter. Subsequent rows are the values for those rows.</li></ul> |
 
 ---
+

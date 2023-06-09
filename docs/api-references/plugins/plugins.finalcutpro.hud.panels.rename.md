@@ -26,7 +26,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [code](#code)
@@ -36,8 +36,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.code <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [codeProcessing](#codeprocessing)
 
@@ -46,8 +48,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.codeProcessing <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Code Processing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [find](#find)
 
@@ -56,8 +60,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.find <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Find Preference                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keepOriginal](#keeporiginal)
 
@@ -66,8 +72,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.keepOriginal <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Keep Original Preference                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [padding](#padding)
 
@@ -76,8 +84,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.padding <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Padding                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [prefix](#prefix)
 
@@ -86,8 +96,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.prefix <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Prefix Preference                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replace](#replace)
 
@@ -96,8 +108,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.replace <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Replace Preference                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sequence](#sequence)
 
@@ -106,8 +120,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.sequence <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Sequence mode                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [startWith](#startwith)
 
@@ -116,8 +132,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.startWith <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [stepValue](#stepvalue)
 
@@ -126,8 +144,10 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.stepValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Start with                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [suffix](#suffix)
 
@@ -136,9 +156,11 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.rename.suffix <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Suffix Preference                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [updateInfo](#updateinfo)
@@ -150,6 +172,7 @@ Batch Rename Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Buttons Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

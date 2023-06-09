@@ -28,7 +28,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [activated](#activated)
@@ -38,8 +38,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.activated`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been activated (i.e. given keyboard/mouse focus)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [deactivated](#deactivated)
 
@@ -48,8 +50,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.deactivated`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been deactivated (i.e. lost keyboard/mouse focus)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hidden](#hidden)
 
@@ -58,8 +62,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.hidden`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been hidden                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [launched](#launched)
 
@@ -68,8 +74,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.launched`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been launched                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [launching](#launching)
 
@@ -78,8 +86,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.launching`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application is in the process of being launched                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [terminated](#terminated)
 
@@ -88,8 +98,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.terminated`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been terminated                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [unhidden](#unhidden)
 
@@ -98,9 +110,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Signature**                               | `hs.application.watcher.unhidden`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An application has been unhidden                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -115,10 +129,11 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
   An event type (see the constants defined above)
   An `hs.application` object representing the application, or nil if the application couldn't be found</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.application.watcher` object</li></ul>          |
-| **Notes**                                   | <ul><li>If the function is called with an event type of `hs.application.watcher.terminated` then the application name parameter will be `nil` and the `hs.application` parameter, will only be useful for getting the UNIX process ID (i.e. the PID) of the application</li></ul>                |
+| **Notes**                                   | <ul><li>If the function is called with an event type of `hs.application.watcher.terminated` then the application name parameter will be `nil` and the `hs.application` parameter, will only be useful for getting the UNIX process ID (i.e. the PID) of the application</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [start](#start)
@@ -130,9 +145,10 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Starts the application watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.application.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -143,6 +159,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
 | **Description**                             | Stops the application watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.application.watcher` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

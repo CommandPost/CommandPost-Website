@@ -23,7 +23,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -35,10 +35,11 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Description**                             | Checks if the provided element could be a BaseMotionPanel.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [BaseMotionPanel](#basemotionpanel)
@@ -50,10 +51,11 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Description**                             | Creates a new `BaseMotionPanel` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`		- The parent</li><li>`panelType`  - The panel type.</li></ul> |
 | **Returns**                                 | <ul><li>A `BaseMotionPanel` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentUI](#contentui)
@@ -63,8 +65,10 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The primary content `axuielement` for the panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [published](#published)
 
@@ -73,5 +77,7 @@ Extends [BasePanel](cp.apple.finalcutpro.inspector.BasePanel.md).
 | **Signature**                               | `cp.apple.finalcutpro.inspector.BaseMotionPanel.published <cp.prop: cp.ui.PropertyRow; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'Published Parameters' section.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -38,7 +38,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [activate](#activate)
@@ -48,8 +48,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Tags' section.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [all](#all)
 
@@ -58,8 +60,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.all <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that will show "All" types of media.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [analysisKeywords](#analysiskeywords)
 
@@ -68,8 +72,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.analysisKeywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [chapters](#chapters)
 
@@ -78,8 +84,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.chapters <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [completeTodos](#completetodos)
 
@@ -88,8 +96,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.completeTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [incompleteTodos](#incompletetodos)
 
@@ -98,8 +108,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.incompleteTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywords](#keywords)
 
@@ -108,8 +120,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.keywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [list](#list)
 
@@ -118,8 +132,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.list <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The list of tags as a [Table](cp.ui.OldTable.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [standardMarkers](#standardmarkers)
 
@@ -128,8 +144,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.standardMarkers <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Standard markers" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [type](#type)
 
@@ -138,9 +156,11 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.type <cp.apple.finalcutpro.timeline.IndexTags.Type>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexTags.Type](cp.apple.finalcutpro.timeline.IndexTags.Type.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doLayout](#dolayout)
@@ -152,9 +172,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowAll](#doshowall)
 
@@ -165,9 +186,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "All" media types.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowAnalysisKeywords](#doshowanalysiskeywords)
 
@@ -178,9 +200,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Analysis Keywords".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowChapters](#doshowchapters)
 
@@ -191,9 +214,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Chapter" markers.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowCompleteTodos](#doshowcompletetodos)
 
@@ -204,9 +228,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Complete Todos".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowIncompleteTodos](#doshowincompletetodos)
 
@@ -217,9 +242,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Incomplete Todo Markers".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowKeywords](#doshowkeywords)
 
@@ -230,9 +256,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Keywords".                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowStandardMarkers](#doshowstandardmarkers)
 
@@ -243,9 +270,10 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will set the tag index to "Standard" markers.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -256,6 +284,7 @@ Provides access to the 'Tags' section of the [Timeline Index](cp.apple.finalcutp
 | **Description**                             | Returns a `table` containing the layout configuration for this class.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

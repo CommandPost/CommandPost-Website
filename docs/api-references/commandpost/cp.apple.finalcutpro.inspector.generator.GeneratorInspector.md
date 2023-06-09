@@ -13,7 +13,7 @@ Generator Inspector Module. This appears for both Generators and Titles.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [GeneratorInspector](#generatorinspector)
@@ -25,6 +25,7 @@ Generator Inspector Module. This appears for both Generators and Titles.
 | **Description**                             | Creates a new GeneratorInspector object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A GeneratorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

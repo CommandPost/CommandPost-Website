@@ -66,7 +66,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [encoding](#encoding)
@@ -76,10 +76,11 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Signature**                               | `cp.text.encoding`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The list of supported encoding formats.                                                                     |
-| **Notes**                                   | <ul><li>The list of supported encoding formats:</li><li>  ** `utf8`		- UTF-8. The most common format on the web, backwards compatible with ANSI/ASCII.</li><li>  ** `utf16le`	- UTF-16 (little-endian). Commonly used in Windows and Mac text files.</li><li>  ** `utf16be`	- UTF-16 (big-endian). Alternate 16-bit format, common on Linux and PowerPC-based architectures.</li></ul>                |
+| **Notes**                                   | <ul><li>The list of supported encoding formats:</li><li>  ** `utf8`		- UTF-8. The most common format on the web, backwards compatible with ANSI/ASCII.</li><li>  ** `utf16le`	- UTF-16 (little-endian). Commonly used in Windows and Mac text files.</li><li>  ** `utf16be`	- UTF-16 (big-endian). Alternate 16-bit format, common on Linux and PowerPC-based architectures.</li></ul> |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [is](#is)
@@ -91,10 +92,11 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Checks if the provided value is a `text` instance.                                                                     |
 | **Parameters**                              | <ul><li>`value`	- The value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is a `text` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [char](#char)
@@ -106,9 +108,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns the list of one or more codepoint items into a text value, concatenating the results.                                                                     |
 | **Parameters**                              | <ul><li>`...`	- The list of codepoint integers.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.text` value for the list of codepoint values.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromCodepoints](#fromcodepoints)
 
@@ -119,9 +122,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns a new `text` instance representing the specified array of codepoints. Since `i` and `j` default to the first and last indexes of the array, simply passing in the array will convert all codepoints in that array.                                                                     |
 | **Parameters**                              | <ul><li>`codepoints`	- The array of codepoint integers.</li><li>`i`			- The starting index to read from codepoints. Defaults to `1`.</li><li>`j`			- The ending index to read from codepoints. Default to `-1`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>You can use a *negative* value for `i` and `j`. If so, it will count back from then end of the `codepoints` array.</li><li>If the codepoint array begins with a Byte-Order Marker (BOM), the BOM is skipped in the resulting text.</li></ul>                |
+| **Notes**                                   | <ul><li>You can use a *negative* value for `i` and `j`. If so, it will count back from then end of the `codepoints` array.</li><li>If the codepoint array begins with a Byte-Order Marker (BOM), the BOM is skipped in the resulting text.</li></ul> |
 
 ---
+
 
 ### [fromFile](#fromfile)
 
@@ -132,9 +136,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns a new `text` instance representing the text loaded from the specified path. If no encoding is specified, it will attempt to determine the encoding from a leading Byte-Order Marker (BOM). If none is present, it defaults to UTF-8.                                                                     |
 | **Parameters**                              | <ul><li>`value`		- The value to turn into a unicode text instance.</li><li>`encoding`	- One of the falues from `text.encoding`: `utf8`, `utf16le`, or `utf16be`. Defaults to `utf8`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromString](#fromstring)
 
@@ -145,10 +150,11 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns a new `text` instance representing the string value of the specified value. If no encoding is specified, it will attempt to determine the encoding from a leading Byte-Order Marker (BOM). If none is present, it defaults to UTF-8.                                                                     |
 | **Parameters**                              | <ul><li>`value`		- The value to turn into a unicode text instance.</li><li>`encoding`	- One of the falues from `text.encoding`: `utf8`, `utf16le`, or `utf16be`. Defaults to `utf8`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `text` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>Calling `text(value)` is the same as calling `text.fromString(value, text.encoding.utf8)`, so simple text can be initialized via `local x = text "foo"` when the `.lua` file's encoding is UTF-8.</li></ul>                |
+| **Notes**                                   | <ul><li>Calling `text(value)` is the same as calling `text.fromString(value, text.encoding.utf8)`, so simple text can be initialized via `local x = text "foo"` when the `.lua` file's encoding is UTF-8.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [encode](#encode)
@@ -160,9 +166,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns the text as an encoded `string` value.                                                                     |
 | **Parameters**                              | <ul><li>`encoding` - The encoding to use when converting. Defaults to `cp.text.encoding.utf8`.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [find](#find)
 
@@ -173,9 +180,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Looks for the first match of pattern in the string `value`. If it finds a match, then find returns the indices of `value` where this occurrence starts and ends; otherwise, it returns `nil`. A third, optional numerical argument `init` specifies where to start the search; its default value is `1` and can be negative. A value of `true` as a fourth, optional argument plain turns off the pattern matching facilities, so the function does a plain "find substring" operation, with no characters in pattern being considered "magic". Note that if plain is given, then `init` must be given as well.                                                                     |
 | **Parameters**                              | <ul><li>`pattern`		- The pattern to find.</li><li>`init`			- The index to start matching from. Defaults to `1`.</li><li>`plain`			- If `true`, the pattern is treated as plain text.</li></ul> |
 | **Returns**                                 | <ul><li>the start index, the end index, followed by any captures</li></ul>          |
-| **Notes**                                   | <ul><li>If the pattern has captures, then in a successful match the captured values are also returned, after the two indices.</li></ul>                |
+| **Notes**                                   | <ul><li>If the pattern has captures, then in a successful match the captured values are also returned, after the two indices.</li></ul> |
 
 ---
+
 
 ### [len](#len)
 
@@ -186,9 +194,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns the number of codepoints in the text.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of codepoints.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [match](#match)
 
@@ -199,9 +208,10 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Looks for the first match of the `pattern` in the text value. If it finds one, then match returns the captures from the pattern; otherwise it returns `nil`. If pattern specifies no captures, then the whole match is returned. A third, optional numerical argument `init` specifies where to start the search; its default value is `1` and can be negative.                                                                     |
 | **Parameters**                              | <ul><li>`pattern`	- The text pattern to process.</li><li>`start`		- If specified, indicates the starting position to process from. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The capture results, the whole match, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sub](#sub)
 
@@ -212,6 +222,7 @@ Note that `text` values are not in any specific encoding, since they are stored 
 | **Description**                             | Returns the substring of this text that starts at `i` and continues until `j`; `i` and `j` can be negative.                                                                     |
 | **Parameters**                              | <ul><li>i - See above</li><li>j - See above</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>If `j` is absent, then it is assumed to be equal to `-1` (which is the same as the string length).</li><li>In particular, the call `cp.text:sub(1,j)` returns a prefix of `s` with length `j`, and `cp.text:sub(-i)` (for a positive `i`) returns a suffix of s with length i.</li></ul>                |
+| **Notes**                                   | <ul><li>If `j` is absent, then it is assumed to be equal to `-1` (which is the same as the string length).</li><li>In particular, the call `cp.text:sub(1,j)` returns a prefix of `s` with length `j`, and `cp.text:sub(-i)` (for a positive `i`) returns a suffix of s with length i.</li></ul> |
 
 ---
+

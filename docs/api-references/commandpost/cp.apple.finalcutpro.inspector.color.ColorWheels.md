@@ -51,7 +51,7 @@ Extends [Element](cp.ui.Element.md)
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -63,10 +63,11 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | Checks if the specified element is the Color Wheels element.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is the Color Wheels.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ColorWheels](#colorwheels)
@@ -78,10 +79,11 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | Creates a new ColorWheels object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A new `ColorInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentUI](#contentui)
@@ -91,8 +93,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` representing the content element of the ColorWheels corrector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [highlights](#highlights)
 
@@ -101,8 +105,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.highlights <ColorWheel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'highlights' color settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hue](#hue)
 
@@ -111,8 +117,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.hue <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The hue for the corrector. A number from `0` to `360`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hueRow](#huerow)
 
@@ -121,8 +129,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.hueRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Hue' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hueSlider](#hueslider)
 
@@ -131,8 +141,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.hueSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a `Slider` that provides access to the 'Hue' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hueTextField](#huetextfield)
 
@@ -141,8 +153,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.hueTextField <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Hue' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [master](#master)
 
@@ -151,8 +165,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.master <ColorWheel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'master' color settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [maxValue](#maxvalue)
 
@@ -161,8 +177,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.maxValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The maximum value of the indicator as a number.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [midtones](#midtones)
 
@@ -171,8 +189,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.midtones <ColorWheel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'midtones' color settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [minValue](#minvalue)
 
@@ -181,8 +201,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.minValue <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The minimum value of the indicator as a number.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mix](#mix)
 
@@ -191,8 +213,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.mix <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The mix amount for this corrector. A number ranging from `0` to `1`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mixRow](#mixrow)
 
@@ -201,8 +225,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.mixRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Mix' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mixSlider](#mixslider)
 
@@ -211,8 +237,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.mixSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Mix' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mixTextField](#mixtextfield)
 
@@ -221,8 +249,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.mixTextField <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Mix' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [shadows](#shadows)
 
@@ -231,8 +261,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.shadows <ColorWheel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `ColorWheel` that allows control of the 'shadows' color settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [temperature](#temperature)
 
@@ -241,8 +273,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.temperature <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The color temperature for this corrector. A number from 2500 to 10000.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [temperatureRow](#temperaturerow)
 
@@ -251,8 +285,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.temperatureRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Temperatures' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [temperatureSlider](#temperatureslider)
 
@@ -261,8 +297,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.temperatureSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `Slider` that provides access to the 'Temperatures' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [temperatureTextField](#temperaturetextfield)
 
@@ -271,8 +309,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.temperatureTextField <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Temperature' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tint](#tint)
 
@@ -281,8 +321,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.tint <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The tint for the corrector. A number from `-50` to `50`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tintRow](#tintrow)
 
@@ -291,8 +333,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.tintRow <cp.ui.PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `PropertyRow` that provides access to the 'Tint' parameter, and `axuielement`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tintSlider](#tintslider)
 
@@ -301,8 +345,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.tintSlider <cp.ui.Slider>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns a `Slider` that provides access to the 'Tint' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tintTextField](#tinttextfield)
 
@@ -311,8 +357,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.tintTextField <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A `TextField` that provides access to the 'Tint' slider.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [value](#value)
 
@@ -321,8 +369,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.value <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The value of the value indicator as a number.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewingAllWheels](#viewingallwheels)
 
@@ -331,8 +381,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.viewingAllWheels <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Reports and modifies whether the ColorWheels corrector is showing "All Wheels" (`true`) or "Single Wheels" (`false`).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewMode](#viewmode)
 
@@ -341,8 +393,10 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.viewMode <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [MenuButton](cp.ui.MenuButton.md) for the View Mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [wheelType](#wheeltype)
 
@@ -351,9 +405,11 @@ Extends [Element](cp.ui.Element.md)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorWheels.wheelType <cp.ui.RadioGroup>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `RadioGroup` that allows selection of the wheel type. Only available when                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doShow](#doshow)
@@ -365,9 +421,10 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that shows the Color Board within the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successfully shown.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -378,6 +435,7 @@ Extends [Element](cp.ui.Element.md)
 | **Description**                             | Show's the Color Board within the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorWheels object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

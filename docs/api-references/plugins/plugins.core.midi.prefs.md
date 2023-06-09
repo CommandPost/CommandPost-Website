@@ -17,7 +17,7 @@ MIDI Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [lastApplication](#lastapplication)
@@ -27,8 +27,10 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last application used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBank](#lastbank)
 
@@ -37,8 +39,10 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastBank <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last bank used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportPath](#lastexportpath)
 
@@ -47,8 +51,10 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastImportPath](#lastimportpath)
 
@@ -57,8 +63,10 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [scrollBarPosition](#scrollbarposition)
 
@@ -67,5 +75,7 @@ MIDI Preferences Panel
 | **Signature**                               | `plugins.core.midi.prefs.scrollBarPosition <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Scroll Bar Position                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

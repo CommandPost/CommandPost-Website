@@ -16,7 +16,7 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -28,10 +28,11 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the specified value is a `HueSaturationCurve`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches a HueSaturationCurve element.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [HueSaturationCurve](#huesaturationcurve)
@@ -43,6 +44,7 @@ A HueSaturationCurve [Element](cp.ui.Element.md).
 | **Description**                             | Creates a new `HueSaturationCurve` [Element](cp.ui.Element.md).                                                                     |
 | **Parameters**                              | <ul><li>parent    - The parent `Element`.</li><li>type     - The [TYPE](#TYPE) of curve.</li></ul> |
 | **Returns**                                 | <ul><li>The new `HueSaturationCurve`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -14,7 +14,7 @@ Functions for managing text on the web.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [escapeXML](#escapexml)
@@ -26,9 +26,10 @@ Functions for managing text on the web.
 | **Description**                             | Escapes a string                                                                     |
 | **Parameters**                              | <ul><li>s - The string you want to escape</li></ul> |
 | **Returns**                                 | <ul><li>The string, escaped for XML.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unescapeXML](#unescapexml)
 
@@ -39,6 +40,7 @@ Functions for managing text on the web.
 | **Description**                             | Unescapes a string from XML encoding.                                                                     |
 | **Parameters**                              | <ul><li>s - The string you want to unescape</li></ul> |
 | **Returns**                                 | <ul><li>The string, unescaped.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

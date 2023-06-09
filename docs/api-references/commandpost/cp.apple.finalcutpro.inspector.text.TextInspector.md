@@ -60,7 +60,7 @@ text:stabilization():smoothing():show():value(1.5)
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -72,10 +72,11 @@ text:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Checks if the provided element could be a TextInspector.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [TextInspector](#textinspector)
@@ -87,10 +88,11 @@ text:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Creates a new `TextInspector` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `TextInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doHide](#dohide)
@@ -102,9 +104,10 @@ text:stabilization():smoothing():show():value(1.5)
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that hides the Text Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -115,9 +118,10 @@ text:stabilization():smoothing():show():value(1.5)
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that shows the Text Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -128,6 +132,7 @@ text:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Shows the Text Inspector                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>TextInspector</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

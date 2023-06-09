@@ -38,7 +38,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [SECONDS_UNTIL_DELETE](#seconds_until_delete)
@@ -48,9 +48,11 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.SECONDS_UNTIL_DELETE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Seconds until a file is deleted.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [automaticallyImport](#automaticallyimport)
@@ -60,8 +62,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.automaticallyImport <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not new generated voice file are automatically added to the timeline or not.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [deleteAfterImport](#deleteafterimport)
 
@@ -70,8 +74,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.deleteAfterImport <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Boolean that sets whether or not you want to delete file after they've been imported.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [disableImport](#disableimport)
 
@@ -80,8 +86,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.disableImport -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | When `true` Notifications will no longer be triggered.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [filesInTransit](#filesintransit)
 
@@ -90,8 +98,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.filesInTransit -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Files currently being copied                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [notifications](#notifications)
 
@@ -100,8 +110,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.notifications -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Notifications                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [savedNotifications](#savednotifications)
 
@@ -110,8 +122,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.savedNotifications <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Notifications that are saved between restarts                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [watchFolders](#watchfolders)
 
@@ -120,8 +134,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.watchFolders <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of the users watch folders.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [watchFolderTableID](#watchfoldertableid)
 
@@ -130,9 +146,11 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Signature**                               | `plugins.finalcutpro.watchfolders.fcpxml.watchFolderTableID -> string`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watch Folder Table ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addWatchFolder](#addwatchfolder)
@@ -144,9 +162,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Opens the "Add Watch Folder" Dialog.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [controllerCallback](#controllercallback)
 
@@ -157,9 +176,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Callback Controller                                                                     |
 | **Parameters**                              | <ul><li>id - ID as string</li><li>params - table of Parameters</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [createNotification](#createnotification)
 
@@ -170,9 +190,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Creates a new notification                                                                     |
 | **Parameters**                              | <ul><li>file - File name</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generateTable](#generatetable)
 
@@ -183,9 +204,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Generate HTML Table                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns a HTML table as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [importFile](#importfile)
 
@@ -196,9 +218,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Imports a file into Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>file - File name</li><li>tag - The notification tag</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -209,9 +232,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - The dependencies environment</li><li>env - The plugin environment</li></ul> |
 | **Returns**                                 | <ul><li>Table of the module.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [insertFilesIntoFinalCutPro](#insertfilesintofinalcutpro)
 
@@ -222,9 +246,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Imports a file into Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>files - File names in table</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [newWatcher](#newwatcher)
 
@@ -235,9 +260,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | New Folder Watcher                                                                     |
 | **Parameters**                              | <ul><li>path - Path to Watch Folder</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refreshTable](#refreshtable)
 
@@ -248,9 +274,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Refreshes the Final Cut Pro Watch Folder Panel via JavaScript Injection                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [removeWatcher](#removewatcher)
 
@@ -261,9 +288,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Remove Folder Watcher                                                                     |
 | **Parameters**                              | <ul><li>path - Path to Watch Folder</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setupWatchers](#setupwatchers)
 
@@ -274,9 +302,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Setup Folder Watchers                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [styleSheet](#stylesheet)
 
@@ -287,9 +316,10 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Generates Style Sheet                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns Style Sheet as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watchFolderTriggered](#watchfoldertriggered)
 
@@ -300,6 +330,7 @@ Final Cut Pro FCPXML Watch Folder Plugin.
 | **Description**                             | Watch Folder Triggered                                                                     |
 | **Parameters**                              | <ul><li>files - A table of files</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

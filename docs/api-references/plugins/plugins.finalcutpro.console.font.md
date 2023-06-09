@@ -17,7 +17,7 @@ Final Cut Pro Font Console
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [processedFonts](#processedfonts)
@@ -27,9 +27,11 @@ Final Cut Pro Font Console
 | **Signature**                               | `plugins.finalcutpro.console.font.processedFonts -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of font paths which have already been loaded or skipped.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [onActivate](#onactivate)
@@ -41,9 +43,10 @@ Final Cut Pro Font Console
 | **Description**                             | Handles Console Activations.                                                                     |
 | **Parameters**                              | <ul><li>_ - Placeholder</li><li>action - Action table.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -54,6 +57,7 @@ Final Cut Pro Font Console
 | **Description**                             | Shows the Font Console.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

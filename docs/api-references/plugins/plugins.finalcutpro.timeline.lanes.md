@@ -13,7 +13,7 @@ Controls Final Cut Pro's Lanes.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [selectClipAtLane](#selectclipatlane)
@@ -25,6 +25,7 @@ Controls Final Cut Pro's Lanes.
 | **Description**                             | Select Clip at Lane in Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>whichLane - Lane Number</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

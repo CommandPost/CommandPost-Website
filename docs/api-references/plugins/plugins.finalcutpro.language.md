@@ -13,7 +13,7 @@ Final Cut Pro Language Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [change](#change)
@@ -25,6 +25,7 @@ Final Cut Pro Language Plugin.
 | **Description**                             | Changes the Final Cut Pro Language to the specified locale, if supported.                                                                     |
 | **Parameters**                              | <ul><li>locale - The `cp.i18n.localeID` or locale string you want to change to.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

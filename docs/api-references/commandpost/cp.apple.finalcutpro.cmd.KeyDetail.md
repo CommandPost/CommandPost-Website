@@ -20,7 +20,7 @@ This class provides a UI for displaying the details of a key when it is selected
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -32,10 +32,11 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Description**                             | Checks if the element matches the criteria for this class.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentGroupUI](#contentgroupui)
@@ -45,8 +46,10 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contentGroupUI <cp.prop: axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [axuielement](cp.prop.axuielement) for the content Group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contents](#contents)
 
@@ -55,8 +58,10 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.contents <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Table` that displays the contents.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [detail](#detail)
 
@@ -65,8 +70,10 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.detail <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ScrollArea` that displays the detail.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [key](#key)
 
@@ -75,8 +82,10 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.key <cp.ui.Image>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Image` that displays the key.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [label](#label)
 
@@ -85,5 +94,7 @@ This class provides a UI for displaying the details of a key when it is selected
 | **Signature**                               | `cp.apple.finalcutpro.cmd.KeyDetail.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` that displays the label.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

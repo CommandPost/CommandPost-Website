@@ -20,7 +20,7 @@ Provides support for NIB files.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [fromBytes](#frombytes)
@@ -32,6 +32,7 @@ Provides support for NIB files.
 | **Description**                             | Unarchives the given `string` of bytes into a `table`, if it is a valid `NIBArchive`.                                                                     |
 | **Parameters**                              | <ul><li>data - The `string` of bytes to unarchive.</li></ul> |
 | **Returns**                                 | <ul><li>The `table` containing the unarchived data, or `nil` if the `archive` is not a valid `NIBArchive`.</li><li>The `string` error message, if any.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -21,7 +21,7 @@ Adds actions that allows you to transcode clips from the timeline.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [transcodeType](#transcodetype)
@@ -31,9 +31,11 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Signature**                               | `plugins.finalcutpro.timeline.transcode.transcodeType -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Transcode type.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [doTranscodeSelectedBrowserClips](#dotranscodeselectedbrowserclips)
@@ -45,9 +47,10 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected browser clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doTranscodeSelectedClips](#dotranscodeselectedclips)
 
@@ -58,9 +61,10 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doTranscodeSelectedTimelineClips](#dotranscodeselectedtimelineclips)
 
@@ -71,9 +75,10 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to transcode selected timeline clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [optimizeSelectedClips](#optimizeselectedclips)
 
@@ -84,9 +89,10 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Create optimised media for selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [proxySelectedClips](#proxyselectedclips)
 
@@ -97,9 +103,10 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Create Proxies for selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [transcodeSelectedClips](#transcodeselectedclips)
 
@@ -110,6 +117,7 @@ Adds actions that allows you to transcode clips from the timeline.
 | **Description**                             | Transcode selected clips.                                                                     |
 | **Parameters**                              | <ul><li>transcodeType - Either "optimized" or "proxy"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

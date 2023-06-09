@@ -24,7 +24,7 @@ methods, fields and other properties.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -36,10 +36,11 @@ methods, fields and other properties.
 | **Description**                             | Checks if the `element` is a `Button`, returning `true` if so.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `hs.axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` is a `Button`, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Button](#button)
@@ -51,10 +52,11 @@ methods, fields and other properties.
 | **Description**                             | Creates a new `Button` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object. Should have a `UI` and `isShowing` field.</li><li>uiFinder		- A function which will return the `hs.axuielement` the button belongs to, or `nil` if not available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Button` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [title](#title)
@@ -64,9 +66,11 @@ methods, fields and other properties.
 | **Signature**                               | `cp.ui.Button.title <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The button title, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doPress](#dopress)
@@ -78,9 +82,10 @@ methods, fields and other properties.
 | **Description**                             | Returns a `Statement` that will press the button when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [press](#press)
 
@@ -91,6 +96,7 @@ methods, fields and other properties.
 | **Description**                             | Performs a button press action, if the button is available.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Button` instance.</li><li>`true` if the button was actually pressed successfully.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

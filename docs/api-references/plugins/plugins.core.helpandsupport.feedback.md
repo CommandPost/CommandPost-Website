@@ -13,7 +13,7 @@ Feedback Menu Item.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [show](#show)
@@ -25,6 +25,7 @@ Feedback Menu Item.
 | **Description**                             | Opens CommandPost Credits Window                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

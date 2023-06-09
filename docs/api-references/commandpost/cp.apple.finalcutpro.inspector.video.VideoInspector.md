@@ -69,7 +69,7 @@ video:stabilization():smoothing():show():value(1.5)
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [BLEND_MODES](#blend_modes)
@@ -79,8 +79,10 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.BLEND_MODES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Blend Modes                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [CROP_TYPES](#crop_types)
 
@@ -89,8 +91,10 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.CROP_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Crop Types                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ROLLING_SHUTTER_AMOUNTS](#rolling_shutter_amounts)
 
@@ -99,8 +103,10 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.ROLLING_SHUTTER_AMOUNTS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Rolling Shutter Amounts                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [SPATIAL_CONFORM_TYPES](#spatial_conform_types)
 
@@ -109,8 +115,10 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.SPATIAL_CONFORM_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Spatial Conform Types                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [STABILIZATION_METHODS](#stabilization_methods)
 
@@ -119,9 +127,11 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.STABILIZATION_METHODS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Stabilisation Methods                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -133,9 +143,10 @@ video:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Checks if the provided element could be a VideoInspector.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedEffectCheckBox](#selectedeffectcheckbox)
 
@@ -146,10 +157,11 @@ video:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Gets the selected effect checkbox object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A axuielement object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [VideoInspector](#videoinspector)
@@ -161,10 +173,11 @@ video:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Creates a new `VideoInspector` object                                                                     |
 | **Parameters**                              | <ul><li>`parent`		- The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `VideoInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentUI](#contentui)
@@ -174,9 +187,11 @@ video:stabilization():smoothing():show():value(1.5)
 | **Signature**                               | `cp.apple.finalcutpro.inspector.video.VideoInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [effectCheckBoxes](#effectcheckboxes)
@@ -188,6 +203,7 @@ video:stabilization():smoothing():show():value(1.5)
 | **Description**                             | Gets a table containing all of the effect checkboxes.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

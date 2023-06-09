@@ -13,7 +13,7 @@ Block.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -25,6 +25,7 @@ Block.
 | **Description**                             | Checks if the `value` is an `cp.web.block`.                                                                     |
 | **Parameters**                              | <ul><li>value		- the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

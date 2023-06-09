@@ -51,7 +51,7 @@ here: http://www.tangentwave.co.uk/developer-support
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [APPLICATION_NAME_SUFFIX](#application_name_suffix)
@@ -61,8 +61,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.APPLICATION_NAME_SUFFIX -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A suffix applied to the end of Application Names as they appear in Tangent Mapper                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [MAXIMUM_CONNECTIONS](#maximum_connections)
 
@@ -71,8 +73,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.MAXIMUM_CONNECTIONS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of socket connections to Tangent Hub.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [NUMBER_OF_FAVOURITES](#number_of_favourites)
 
@@ -81,8 +85,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.NUMBER_OF_FAVOURITES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum number of favourites.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [USER_CONTROL_MAPS_FOLDER](#user_control_maps_folder)
 
@@ -91,9 +97,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.USER_CONTROL_MAPS_FOLDER -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The full name for storing User Control Maps                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [applicationNameToGroupID](#applicationnametogroupid)
@@ -103,8 +111,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.applicationNameToGroupID -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table to translate an Application Name to a Group ID for the Search Console                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [customApplications](#customapplications)
 
@@ -113,8 +123,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.customApplications <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Custom Applications                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -123,8 +135,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Enable or disables the Tangent Manager.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tangentHubInstalled](#tangenthubinstalled)
 
@@ -133,8 +147,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.tangentHubInstalled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Hub Installed?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [tangentMapperInstalled](#tangentmapperinstalled)
 
@@ -143,9 +159,11 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Signature**                               | `plugins.core.tangent.manager.tangentMapperInstalled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Tangent Mapper Installed?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [applicationNames](#applicationnames)
@@ -157,9 +175,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Gets a table listing all the connections application names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the names of all the registered connections.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getConnection](#getconnection)
 
@@ -170,9 +189,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Gets a Tangent connection object.                                                                     |
 | **Parameters**                              | <ul><li>applicationName - Your application name as a string</li></ul> |
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [launchTangentMapper](#launchtangentmapper)
 
@@ -183,9 +203,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Launches the Tangent Mapper.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [newConnection](#newconnection)
 
@@ -196,9 +217,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Creates a new Tangent Connection                                                                     |
 | **Parameters**                              | <ul><li>applicationName - The application name as a string. This is what appears in CommandPost Preferences.</li><li>systemPath - A string containing the absolute path of the directory that contains the Controls and Default Map XML files.</li><li>userPath - An optional string containing the absolute path of the directory that contains the User’s Default Map XML files.</li><li>task - An optional string containing the name of the task associated with the application.</li><li>pluginPath - A string containing the absolute path of the directory that contains the built-in Default Map XML files.</li><li>addDefaultModes - A boolean which indicates whether or not CommandPost should add any default modes.</li><li>setupFn - Setup function.</li><li>transportFn - Transport function.</li><li>groupID - The group ID used by the Search Console.</li></ul> |
 | **Returns**                                 | <ul><li>The connection object</li></ul>          |
-| **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul>                |
+| **Notes**                                   | <ul><li>Notes for the `task` parameter:</li><li>  ** This is used to assist with automatic switching of panels when your application gains mouse focus on the GUI.</li><li>  ** This parameter should only be required if the string passed in appStr does not match the Task name that the OS identifies as your application. Typically, this is only usually required for Plugins which run within a parent Host application. Under these circumstances it is the name of the Host Application’s Task which should be passed.</li></ul> |
 
 ---
+
 
 ### [registerCustomApplication](#registercustomapplication)
 
@@ -209,9 +231,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Registers a new Custom Application                                                                     |
 | **Parameters**                              | <ul><li>applicationName - The display name of the custom application</li><li>bundleExecutable - The bundle executable identifier of the custom application</li></ul> |
 | **Returns**                                 | <ul><li>A table where the application name is the key, and display name is the value.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [removeCustomApplication](#removecustomapplication)
 
@@ -222,9 +245,10 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Removes a Custom Application.                                                                     |
 | **Parameters**                              | <ul><li>applicationName - The display name of the Custom Application to Remove.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setupCustomApplications](#setupcustomapplications)
 
@@ -235,6 +259,7 @@ here: http://www.tangentwave.co.uk/developer-support
 | **Description**                             | Setup the Custom Applications.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

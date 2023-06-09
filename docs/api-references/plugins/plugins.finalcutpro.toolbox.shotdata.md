@@ -21,7 +21,7 @@ Shot Data Toolbox Panel.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [automaticallyUploadCSV](#automaticallyuploadcsv)
@@ -31,8 +31,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.automaticallyUploadCSV <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Automatically Upload CSV?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [databaseURL](#databaseurl)
 
@@ -41,8 +43,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.databaseURL <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Database URL.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultEmoji](#defaultemoji)
 
@@ -51,8 +55,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.defaultEmoji <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Ignore Columns                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [destinationPath](#destinationpath)
 
@@ -61,8 +67,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.destinationPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last save path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastOpenPath](#lastopenpath)
 
@@ -71,8 +79,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.lastOpenPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last open path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastUploadPath](#lastuploadpath)
 
@@ -81,8 +91,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.lastUploadPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last upload path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mergeData](#mergedata)
 
@@ -91,8 +103,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.mergeData <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge data?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [settings](#settings)
 
@@ -101,8 +115,10 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.settings <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [token](#token)
 
@@ -111,5 +127,7 @@ Shot Data Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.shotdata.token <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Token.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

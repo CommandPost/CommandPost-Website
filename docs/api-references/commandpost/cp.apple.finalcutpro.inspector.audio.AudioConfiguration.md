@@ -20,7 +20,7 @@ The Audio Configuration section of the Audio Inspector.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [AudioConfiguration](#audioconfiguration)
@@ -32,9 +32,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Creates a new Media Import object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new AudioConfiguration object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -45,10 +46,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [component](#component)
@@ -60,9 +62,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Returns a table of `AudioComponent` objects for all main audio components.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -73,9 +76,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | A Statement that will attempt to show the bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -86,9 +90,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Attempts to show the bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `AudioConfiguration` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [subcomponent](#subcomponent)
 
@@ -99,6 +104,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Returns a table of `AudioComponent` objects for all audio subcomponents.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing `AudioComponent` objects.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

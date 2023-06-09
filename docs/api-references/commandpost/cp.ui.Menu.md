@@ -22,7 +22,7 @@ UI for AXMenus.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -34,10 +34,11 @@ UI for AXMenus.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Menu](#menu)
@@ -49,10 +50,11 @@ UI for AXMenus.
 | **Description**                             | Creates a new `Menu` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Menu` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [cancel](#cancel)
@@ -64,9 +66,10 @@ UI for AXMenus.
 | **Description**                             | Closes a menu.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doCancel](#docancel)
 
@@ -77,9 +80,10 @@ UI for AXMenus.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will cancel a menu.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectItem](#doselectitem)
 
@@ -90,9 +94,10 @@ UI for AXMenus.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `MenuButton` by index.                                                                     |
 | **Parameters**                              | <ul><li>index - The index number of the item to match.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectValue](#doselectvalue)
 
@@ -103,6 +108,7 @@ UI for AXMenus.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will select an item on the `Menu` by value.                                                                     |
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li><li>[altPattern] - An optional alternate pattern to match if the first pattern fails.</li></ul> |
 | **Returns**                                 | <ul><li>the `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

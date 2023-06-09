@@ -23,7 +23,7 @@ Touch Bar Widgets Manager
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [widgets](#widgets)
@@ -33,9 +33,11 @@ Touch Bar Widgets Manager
 | **Signature**                               | `plugins.core.touchbar.manager.widgets -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Widget Manager                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [allGroups](#allgroups)
@@ -47,10 +49,11 @@ Touch Bar Widgets Manager
 | **Description**                             | Returns a table containing all of the widget groups.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [get](#get)
@@ -62,9 +65,10 @@ Touch Bar Widgets Manager
 | **Description**                             | Gets a Touch Bar widget                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the widget you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getAll](#getall)
 
@@ -75,9 +79,10 @@ Touch Bar Widgets Manager
 | **Description**                             | Returns all of the created widgets                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [id](#id)
 
@@ -88,9 +93,10 @@ Touch Bar Widgets Manager
 | **Description**                             | Returns the ID of the widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -101,9 +107,10 @@ Touch Bar Widgets Manager
 | **Description**                             | Creates a new Touch Bar Widget.                                                                     |
 | **Parameters**                              | <ul><li>`id` - The unique ID for this widget.</li><li>`params` - A table of parameters</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [params](#params)
 
@@ -114,6 +121,7 @@ Touch Bar Widgets Manager
 | **Description**                             | Returns the paramaters of the widget                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

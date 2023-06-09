@@ -37,7 +37,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [activate](#activate)
@@ -47,8 +47,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.activate <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) that activates the 'Roles' section.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [area](#area)
 
@@ -57,8 +59,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.area <cp.apple.finalcutpro.timeline.IndexRolesArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesArea](cp.apple.finalcutpro.timeline.IndexRolesArea.md) containing the list of [Role](cp.apple.finalcutpro.timeline.Role.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [collapseSubroles](#collapsesubroles)
 
@@ -67,8 +71,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.collapseSubroles <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Collapse Subroles` [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [editRoles](#editroles)
 
@@ -77,8 +83,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.editRoles <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Edit Roles...` [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hideAudioLanes](#hideaudiolanes)
 
@@ -87,8 +95,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.hideAudioLanes <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Hide Audio Lanes` [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [list](#list)
 
@@ -97,8 +107,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.list <cp.apple.finalcutpro.timeline.IndexRolesList>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [IndexRolesList](cp.apple.finalcutpro.timeline.IndexRolesList.md) for the roles.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showAudioLanes](#showaudiolanes)
 
@@ -107,9 +119,11 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexRoles.showAudioLanes <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Show Audio Lanes` [Button](cp.ui.Button.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [allRoles](#allroles)
@@ -121,9 +135,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Finds all Roles, optionally including all Subroles                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [audioRoles](#audioroles)
 
@@ -134,9 +149,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Finds all Audio Roles, optionally including all Subroles                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [captionRoles](#captionroles)
 
@@ -147,9 +163,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Finds all Caption Roles, optionally including all Subroles                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doActivate](#doactivate)
 
@@ -160,9 +177,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will activate the provided role, if it is available. This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doCollapseSubroles](#docollapsesubroles)
 
@@ -173,9 +191,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will collapse subroles, if they are currently expanded.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doDeactivate](#dodeactivate)
 
@@ -186,9 +205,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will deactivate the provided role, if it is available. This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doFocusInTimeline](#dofocusintimeline)
 
@@ -199,9 +219,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will focus the listed role, if it is available and is an [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md). This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doHideAudioLanes](#dohideaudiolanes)
 
@@ -212,9 +233,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will collapse subroles (if necessary) and hide the audio lanes.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHideSubroleLanes](#dohidesubrolelanes)
 
@@ -225,9 +247,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will hide the subrole lanes for the listed role, if it is available and is an [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md). This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doLayout](#dolayout)
 
@@ -238,9 +261,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowAudioLanes](#doshowaudiolanes)
 
@@ -251,9 +275,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Audio Lanes when executed.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A Statement</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowSubroleLanes](#doshowsubrolelanes)
 
@@ -264,9 +289,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will show subrole lanes for the role, if it is available and is an [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md). This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doUnfocusInTimeline](#dounfocusintimeline)
 
@@ -277,9 +303,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will unfocus the listed role, if it is available and is an [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md). This will automatically show and hide the Index if it is not currently visible.                                                                     |
 | **Parameters**                              | <ul><li>The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [fineRoleTitled](#fineroletitled)
 
@@ -290,9 +317,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Finds the [Role](cp.apple.finalcutpro.timeline.Role.md) with the specified title.                                                                     |
 | **Parameters**                              | <ul><li>title - The title to match.</li></ul> |
 | **Returns**                                 | <ul><li>The [Role](cp.apple.finalcutpro.timeline.Role.md) with the title, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -303,9 +331,10 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Returns a `table` containing the layout configuration for this class.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The layout configuration `table`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [videoRoles](#videoroles)
 
@@ -316,6 +345,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
 | **Description**                             | Finds all Video Roles, optionally including all Subroles                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - (defaults to `false`) if `true` include subroles.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

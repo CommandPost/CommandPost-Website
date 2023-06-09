@@ -13,7 +13,7 @@ A [Statement.Modifier] of [If](cp.rx.go.If.md) that sets the values to match.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [Then](#then)
@@ -25,6 +25,7 @@ A [Statement.Modifier] of [If](cp.rx.go.If.md) that sets the values to match.
 | **Description**                             | Specifies what happens after the [If](cp.rx.go.If.md) test passes.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` items to process.</li></ul> |
 | **Returns**                                 | <ul><li>An [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

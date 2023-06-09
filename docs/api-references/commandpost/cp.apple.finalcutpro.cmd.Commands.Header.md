@@ -15,7 +15,7 @@ The header of the Commands.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [command](#command)
@@ -25,8 +25,10 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.command <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Command". Pressing more than                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [key](#key)
 
@@ -35,8 +37,10 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.key <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Key". Pressing more than                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [modifiers](#modifiers)
 
@@ -45,5 +49,7 @@ The header of the Commands.
 | **Signature**                               | `cp.apple.finalcutpro.cmd.Commands.Header.modifiers <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Button` that can be pressed to sort by "Modifiers". Pressing more than                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -22,7 +22,7 @@ Represents a Tangent Mode
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -34,10 +34,11 @@ Represents a Tangent Mode
 | **Description**                             | Checks to see if `thing` is a `mode` or not.                                                                     |
 | **Parameters**                              | <ul><li>thing - The item to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if is a mode otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [mode](#mode)
@@ -49,10 +50,11 @@ Represents a Tangent Mode
 | **Description**                             | Creates a new `Mode` instance.                                                                     |
 | **Parameters**                              | <ul><li>id        - The ID number of the mode.</li><li>name      - The name of the mode.</li></ul> |
 | **Returns**                                 | <ul><li> *</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [activate](#activate)
@@ -64,9 +66,10 @@ Represents a Tangent Mode
 | **Description**                             | Executes the `activate` function, if present.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`nil`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onActivate](#onactivate)
 
@@ -77,9 +80,10 @@ Represents a Tangent Mode
 | **Description**                             | Sets the function that will be called when the Tangent sends a 'mode change' request.                                                                     |
 | **Parameters**                              | <ul><li>activateFn     - The function to call when the Tangent requests the mode change.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>```lua</li><li>function() -> nil</li><li>```</li></ul> |
 
 ---
+
 
 ### [onDeactivate](#ondeactivate)
 
@@ -90,9 +94,10 @@ Represents a Tangent Mode
 | **Description**                             | Sets the function that will be called when the Tangent sends a 'mode change' request and switche to a different mode.                                                                     |
 | **Parameters**                              | <ul><li>deactivateFn     - The function to call when the Tangent requests the mode change.</li></ul> |
 | **Returns**                                 | <ul><li>The `parameter` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul>                |
+| **Notes**                                   | <ul><li>This function should have this signature:</li><li></li><li>`function() -> nil`</li></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -103,6 +108,7 @@ Represents a Tangent Mode
 | **Description**                             | Returns the `xml` configuration for the Mode.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Mode.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -16,7 +16,7 @@ Add Note Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [addNoteToSelectedClip](#addnotetoselectedclip)
@@ -28,10 +28,11 @@ Add Note Plugin.
 | **Description**                             | Add Note to Selected Clip.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [recentNotes](#recentnotes)
@@ -41,5 +42,7 @@ Add Note Plugin.
 | **Signature**                               | `plugins.finalcutpro.browser.addnote.recentNotes <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of recent notes.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

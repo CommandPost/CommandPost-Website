@@ -48,7 +48,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [new](#new)
@@ -60,10 +60,11 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Constructs a new watcher instance.                                                                     |
 | **Parameters**                              | <ul><li>`...` - The list of event name strings supported by the watcher.</li></ul> |
 | **Returns**                                 | <ul><li>a new watcher instance</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [events](#events)
@@ -75,9 +76,10 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Returns a list of the event names supported by this watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of event names.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCount](#getcount)
 
@@ -88,9 +90,10 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Returns the number of watchers currently registered.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of watchers.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [notify](#notify)
 
@@ -101,9 +104,10 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Notifies watchers of the specified event type.                                                                     |
 | **Parameters**                              | <ul><li>`type`	- The event type to notify. Must be one of the supported events.</li><li>`...`	- These parameters are passed directly to the event watcher functions.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unwatch](#unwatch)
 
@@ -114,9 +118,10 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Removes the watchers which were added with the specified ID.                                                                     |
 | **Parameters**                              | <ul><li>`id`		- The unique ID returned from `watch`.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if a watcher with the specified ID exists and was successfully removed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watch](#watch)
 
@@ -127,6 +132,7 @@ Then, whenever `thing.update(xxx)` is called, the watcher will output `"New valu
 | **Description**                             | Adds a watcher for the specified events.                                                                     |
 | **Parameters**                              | <ul><li>`events`		- A table of functions, one for each event to watch.</li></ul> |
 | **Returns**                                 | <ul><li>A unique ID that can be passed to `unwatch` to stop watching.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

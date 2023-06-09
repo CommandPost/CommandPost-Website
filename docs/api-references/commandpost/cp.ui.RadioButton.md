@@ -45,7 +45,7 @@ myButton(false) == false	-- now false
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -57,10 +57,11 @@ myButton(false) == false	-- now false
 | **Description**                             | Checks if the provided `hs.axuielement` is a RadioButton.                                                                     |
 | **Parameters**                              | <ul><li>element		- The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it's a match, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [checked](#checked)
@@ -70,9 +71,11 @@ myButton(false) == false	-- now false
 | **Signature**                               | `cp.ui.RadioButton.checked <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the checkbox is currently checked. May be set by calling as a function with `true` or `false` to the function.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doCheck](#docheck)
@@ -84,9 +87,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will check the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doLayout](#dolayout)
 
@@ -97,9 +101,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will apply the layout provided, if possible.                                                                     |
 | **Parameters**                              | <ul><li>layout - the `table` containing the layout configuration. Usually created via the [#saveLayout] method.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doPress](#dopress)
 
@@ -110,9 +115,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will press the button when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will press the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doToggle](#dotoggle)
 
@@ -123,9 +129,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will toggle the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doUncheck](#douncheck)
 
@@ -136,9 +143,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `Statement` that will uncheck the button value when executed, if available at the time. If not an `error` is sent.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will toggle the button when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -149,9 +157,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Processes the `layout` table to restore this to match the provided `layout`.                                                                     |
 | **Parameters**                              | <ul><li>layout - the table of state values to restore to.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [press](#press)
 
@@ -162,9 +171,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Attempts to press the button. May fail if the `UI` is not available.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [RadioButton](#radiobutton)
 
@@ -175,9 +185,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Creates a new RadioButton.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>finderFn		- A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>The new `RadioButton`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -188,9 +199,10 @@ myButton(false) == false	-- now false
 | **Description**                             | Returns a `table` with the button's current state. This can be passed to [#loadLayout] later to restore the original state.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of the layout state.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggle](#toggle)
 
@@ -201,6 +213,7 @@ myButton(false) == false	-- now false
 | **Description**                             | Toggles the `checked` status of the button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `RadioButton` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

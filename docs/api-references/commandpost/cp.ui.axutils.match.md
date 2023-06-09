@@ -19,7 +19,7 @@ Contains common `hs.axuielement` matching functions.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [emptyList](#emptylist)
@@ -31,9 +31,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return true if `element` is an empty list, or has no children.                                                                     |
 | **Parameters**                              | <ul><li>element  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is an empty list.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [exactly](#exactly)
 
@@ -44,9 +45,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return true if the `axuielement` matches the provided value exactly.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the value matches exactly.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isAbove](#isabove)
 
@@ -57,9 +59,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return `true` if the `axuielement` is above the provided `value` `axuielement`.                                                                     |
 | **Parameters**                              | <ul><li>value  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A function returning `true` if the element is above the provided `value`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isBelow](#isbelow)
 
@@ -70,9 +73,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return `true` if the `axuielement` is below the provided `value` `axuielement`.                                                                     |
 | **Parameters**                              | <ul><li>value  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A function returning `true` if the element is below the provided `value`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isLeftOf](#isleftof)
 
@@ -83,9 +87,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return `true` if the `axuielement` is left of the provided `value` `axuielement`.                                                                     |
 | **Parameters**                              | <ul><li>value  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A function returning `true` if the element is left of the provided `value`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isRightOf](#isrightof)
 
@@ -96,9 +101,10 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return `true` if the `axuielement` is right of the provided `value` `axuielement`.                                                                     |
 | **Parameters**                              | <ul><li>value  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>A function returning `true` if the element is right of the provided `value`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [role](#role)
 
@@ -109,6 +115,7 @@ Contains common `hs.axuielement` matching functions.
 | **Description**                             | Returns a `match` function that will return true if the `axuielement` has the specified `AXRole`.                                                                     |
 | **Parameters**                              | <ul><li>roleName  - The role to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`function(element) -> boolean` that checks the `AXRole` is `roleName`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -48,7 +48,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [availablePortDetails](#availableportdetails)
@@ -60,9 +60,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns a table of currently connected serial ports details, organised by port name.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the IOKit details of any connected serial ports, organised by port name.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [availablePortNames](#availableportnames)
 
@@ -73,9 +74,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns a table of currently connected serial ports names.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port names as strings.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [availablePortPaths](#availableportpaths)
 
@@ -86,9 +88,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns a table of currently connected serial ports paths.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the names of any connected serial port paths as strings.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [deviceCallback](#devicecallback)
 
@@ -99,10 +102,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | A callback that's triggered when a serial port is added or removed from the system.                                                                     |
 | **Parameters**                              | <ul><li>callbackFn - the callback function to trigger, or nil to remove the current callback</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>The callback function should expect 1 argument and should not return anything:</li><li>  `devices` - A table containing the names of any serial ports connected as strings.</li></ul>                |
+| **Notes**                                   | <ul><li>The callback function should expect 1 argument and should not return anything:</li><li>  `devices` - A table containing the names of any serial ports connected as strings.</li></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [newFromName](#newfromname)
@@ -114,9 +118,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new `hs.serial` object using the port name.                                                                     |
 | **Parameters**                              | <ul><li>portName - A string containing the port name.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortNames()`.</li></ul>                |
+| **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortNames()`.</li></ul> |
 
 ---
+
 
 ### [newFromPath](#newfrompath)
 
@@ -127,10 +132,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new `hs.serial` object using a path.                                                                     |
 | **Parameters**                              | <ul><li>path - A string containing the path (i.e. "/dev/cu.usbserial").</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.serial` object or `nil` if an error occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortPaths()`.</li></ul>                |
+| **Notes**                                   | <ul><li>A valid port name can be found by checking `hs.serial.availablePortPaths()`.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [baudRate](#baudrate)
@@ -142,9 +148,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the baud rate for the serial port.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional number to set the baud rate.</li><li>[allowNonStandardBaudRates] - An optional boolean to enable non-standard baud rates. Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the baud rate as a number</li></ul>          |
-| **Notes**                                   | <ul><li>This function supports the following standard baud rates as numbers: 300, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200, 230400.</li><li>If no baud rate is supplied, it defaults to 115200.</li></ul>                |
+| **Notes**                                   | <ul><li>This function supports the following standard baud rates as numbers: 300, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200, 230400.</li><li>If no baud rate is supplied, it defaults to 115200.</li></ul> |
 
 ---
+
 
 ### [callback](#callback)
 
@@ -155,9 +162,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Sets or removes a callback function for the `hs.serial` object.                                                                     |
 | **Parameters**                              | <ul><li>`callbackFn` - a function to set as the callback for this `hs.serial` object.  If the value provided is `nil`, any currently existing callback function is removed.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.serial` object</li></ul>          |
-| **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `serialPortObject` - The serial port object that triggered the callback.</li><li>  `callbackType` - A string containing "opened", "closed", "received", "removed" or "error".</li><li>  `message` - If the `callbackType` is "received", then this will be the data received as a string. If the `callbackType` is "error", this will be the error message as a string.</li><li>  `hexadecimalString` - If the `callbackType` is "received", then this will be the data received as a hexadecimal string.</li></ul>                |
+| **Notes**                                   | <ul><li>The callback function should expect 4 arguments and should not return anything:</li><li>  `serialPortObject` - The serial port object that triggered the callback.</li><li>  `callbackType` - A string containing "opened", "closed", "received", "removed" or "error".</li><li>  `message` - If the `callbackType` is "received", then this will be the data received as a string. If the `callbackType` is "error", this will be the error message as a string.</li><li>  `hexadecimalString` - If the `callbackType` is "received", then this will be the data received as a hexadecimal string.</li></ul> |
 
 ---
+
 
 ### [close](#close)
 
@@ -168,9 +176,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Closes the serial port.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.serial` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [dataBits](#databits)
 
@@ -181,9 +190,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the number of data bits for the serial port.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional number to set the number of data bits. It can be 5 to 8.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the data bits as a number.</li><li>The default value is 8.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [dtr](#dtr)
 
@@ -194,9 +204,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the state of the serial port's DTR (Data Terminal Ready) pin.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional boolean.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul> |
 
 ---
+
 
 ### [isOpen](#isopen)
 
@@ -207,9 +218,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets whether or not a serial port is open.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -220,9 +232,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the name of a `hs.serial` object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The name as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [open](#open)
 
@@ -233,9 +246,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Opens the serial port.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.serial` object or `nil` if the port could not be opened.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parity](#parity)
 
@@ -246,9 +260,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the parity for the serial port.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional string to set the parity. It can be "none", "odd" or "even".</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a string value of "none", "odd" or "even".</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [path](#path)
 
@@ -259,9 +274,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the path of a `hs.serial` object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The path as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rts](#rts)
 
@@ -272,9 +288,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the state of the serial port's RTS (Request to Send) pin.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional boolean.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is `false`.</li><li>Setting this to `true` is most likely required for Arduino devices prior to opening the serial port.</li></ul> |
 
 ---
+
 
 ### [sendData](#senddata)
 
@@ -285,9 +302,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Sends data via a serial port.                                                                     |
 | **Parameters**                              | <ul><li>value - A string of data to send.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shouldEchoReceivedData](#shouldechoreceiveddata)
 
@@ -298,9 +316,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets whether the port should echo received data.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional boolean.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 
 ---
+
 
 ### [stopBits](#stopbits)
 
@@ -311,9 +330,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets the number of stop bits for the serial port.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional number to set the number of stop bits. It can be 1 or 2.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns the number of stop bits as a number.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is 1.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is 1.</li></ul> |
 
 ---
+
 
 ### [usesDTRDSRFlowControl](#usesdtrdsrflowcontrol)
 
@@ -324,9 +344,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets whether the port should use DTR/DSR Flow Control.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional boolean.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 
 ---
+
 
 ### [usesRTSCTSFlowControl](#usesrtsctsflowcontrol)
 
@@ -337,6 +358,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets or sets whether the port should use RTS/CTS Flow Control.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional boolean.</li></ul> |
 | **Returns**                                 | <ul><li>If a value is specified, then this method returns the serial port object. Otherwise this method returns a boolean.</li></ul>          |
-| **Notes**                                   | <ul><li>The default value is `false`.</li></ul>                |
+| **Notes**                                   | <ul><li>The default value is `false`.</li></ul> |
 
 ---
+

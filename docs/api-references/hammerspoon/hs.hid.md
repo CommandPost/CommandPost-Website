@@ -22,7 +22,7 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [get](#get)
@@ -34,9 +34,10 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Checks the state of the caps lock via HID                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [set](#set)
 
@@ -47,9 +48,10 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Assigns capslock to the desired state                                                                     |
 | **Parameters**                              | <ul><li>state - A boolean indicating desired state</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggle](#toggle)
 
@@ -60,6 +62,7 @@ Portions sourced from (https://discussions.apple.com/thread/7094207).
 | **Description**                             | Toggles the state of caps lock via HID                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>true if on, false if off</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

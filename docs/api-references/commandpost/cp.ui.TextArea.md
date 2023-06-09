@@ -23,7 +23,7 @@ UI Text Area.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -35,10 +35,11 @@ UI Text Area.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [TextArea](#textarea)
@@ -50,10 +51,11 @@ UI Text Area.
 | **Description**                             | Creates a new `TextArea` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li></ul> |
 | **Returns**                                 | <ul><li>A new `TextArea` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [value](#value)
@@ -63,9 +65,11 @@ UI Text Area.
 | **Signature**                               | `cp.ui.TextArea.value <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current value of the text field.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [append](#append)
@@ -77,9 +81,10 @@ UI Text Area.
 | **Description**                             | Appends `moreText` to the end of the current value, returning the combined text value. If no text is currently set, `moreText` becomes the value.                                                                     |
 | **Parameters**                              | <ul><li>moreText - The text to add.</li></ul> |
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [prepend](#prepend)
 
@@ -90,6 +95,7 @@ UI Text Area.
 | **Description**                             | Appends `moreText` to the beginning of the current value, returning the combined text value. If no text is currently set, `moreText` becomes the value.                                                                     |
 | **Parameters**                              | <ul><li>moreText - The text to add.</li></ul> |
 | **Returns**                                 | <ul><li>The combined `string` value.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -36,7 +36,7 @@ Manager for the CommandPost Watch Folders Panel.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_HEIGHT](#default_height)
@@ -46,8 +46,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of the Watch Folder Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_TITLE](#default_title)
 
@@ -56,8 +58,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_TITLE -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Title of the Watch Folder Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_WIDTH](#default_width)
 
@@ -66,8 +70,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of the Watch Folder Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_WINDOW_STYLE](#default_window_style)
 
@@ -76,8 +82,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.DEFAULT_WINDOW_STYLE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Default Window Style                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -86,8 +94,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [WEBVIEW_LABEL](#webview_label)
 
@@ -96,9 +106,11 @@ Manager for the CommandPost Watch Folders Panel.
 | **Signature**                               | `plugins.core.watchfolders.manager.WEBVIEW_LABEL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | WebView Label                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addHandler](#addhandler)
@@ -110,9 +122,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Adds a Handler                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li><li>handlerFn - the handler function</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [addPanel](#addpanel)
 
@@ -123,9 +136,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Adds a new panel with the specified `params` to the preferences manager.                                                                     |
 | **Parameters**                              | <ul><li>`params` - The parameters table. Details below.</li></ul> |
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li></ul>                |
+| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li></ul> |
 
 ---
+
 
 ### [getHandler](#gethandler)
 
@@ -136,9 +150,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Returns the handler for a given ID.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLabel](#getlabel)
 
@@ -149,9 +164,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Returns the Webview label.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -162,9 +178,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Hides the Watch Folders Window                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -175,9 +192,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Initialises the Watch Folder Manager.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [injectScript](#injectscript)
 
@@ -188,9 +206,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Injects JavaScript into the Watch Folders Webview.                                                                     |
 | **Parameters**                              | <ul><li>script - The JavaScript code you want to inject in the form of a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [maxPanelHeight](#maxpanelheight)
 
@@ -201,9 +220,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Gets the maximum panel height as a number                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectPanel](#selectpanel)
 
@@ -214,9 +234,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Selects a Preferences Panel.                                                                     |
 | **Parameters**                              | <ul><li>id - the ID of the panel you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPanelRenderer](#setpanelrenderer)
 
@@ -227,9 +248,10 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Sets a Panel Renderer                                                                     |
 | **Parameters**                              | <ul><li>renderer - The renderer</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -240,6 +262,7 @@ Manager for the CommandPost Watch Folders Panel.
 | **Description**                             | Shows the Watch Folders Window                                                                     |
 | **Parameters**                              | <ul><li>[panelID] - An optional panel ID</li></ul> |
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

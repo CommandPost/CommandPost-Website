@@ -16,7 +16,7 @@ Schedules `Observables` by running all operations immediately.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [create](#create)
@@ -28,10 +28,11 @@ Schedules `Observables` by running all operations immediately.
 | **Description**                             | Creates a new `ImmediateScheduler`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `ImmediateScheduler`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [schedule](#schedule)
@@ -43,6 +44,7 @@ Schedules `Observables` by running all operations immediately.
 | **Description**                             | Schedules a `function` to be run on the scheduler. It is executed immediately.                                                                     |
 | **Parameters**                              | <ul><li>action    - The `function` to execute.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -18,7 +18,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [filesChanged](#fileschanged)
@@ -30,9 +30,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Checks that the file that triggered the Path Watcher matches the extension given.                                                                     |
 | **Parameters**                              | <ul><li>`files`      - Table of files to check as strings</li><li>`flagTables` - Table of flagTables (see: `hs.pathwatcher.new`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matchesExtensions](#matchesextensions)
 
@@ -43,9 +44,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Checks that the file that triggered the Path Watcher matches the extension given.                                                                     |
 | **Parameters**                              | <ul><li>`file`       - The file as string</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -56,9 +58,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Creates a new `sourcewatcher` instance.                                                                     |
 | **Parameters**                              | <ul><li>`extensions`     - Extensions</li></ul> |
 | **Returns**                                 | <ul><li>A sourcewatcher instance</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -69,9 +72,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Starts a Source Watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -82,9 +86,10 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Stops a Source Watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watchPath](#watchpath)
 
@@ -95,6 +100,7 @@ Watches folders for specific file extensions and reloads the app if they change.
 | **Description**                             | Watches a path.                                                                     |
 | **Parameters**                              | <ul><li>`path`       - The path you want to watch as a string.</li></ul> |
 | **Returns**                                 | <ul><li>sourcewatcher</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

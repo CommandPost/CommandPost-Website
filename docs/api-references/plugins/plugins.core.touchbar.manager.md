@@ -57,7 +57,7 @@ Touch Bar Manager Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_GROUP](#default_group)
@@ -67,8 +67,10 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.DEFAULT_GROUP -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FILE_NAME](#file_name)
 
@@ -77,8 +79,10 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.FILE_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | File name of settings file.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FOLDER_NAME](#folder_name)
 
@@ -87,9 +91,11 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.FOLDER_NAME -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Folder Name where settings file is contained.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [maxItems](#maxitems)
@@ -99,8 +105,10 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.maxItems -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The maximum number of Touch Bar items per group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [numberOfSubGroups](#numberofsubgroups)
 
@@ -109,9 +117,11 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.numberOfSubGroups -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The number of Sub Groups per Touch Bar Group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [activeGroup](#activegroup)
@@ -123,9 +133,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns the active group or `manager.defaultGroup` as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [activeSubGroup](#activesubgroup)
 
@@ -136,9 +147,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the active sub-group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Returns the active sub group as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [clear](#clear)
 
@@ -149,9 +161,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Clears the Touch Bar items.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [forceGroupChange](#forcegroupchange)
 
@@ -162,9 +175,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Loads a specific sub-group.                                                                     |
 | **Parameters**                              | <ul><li>combinedGroupAndSubGroupID - The group and subgroup as a single string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getAction](#getaction)
 
@@ -175,9 +189,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getActionHandlerID](#getactionhandlerid)
 
@@ -188,9 +203,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action Handler ID.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getActionTitle](#getactiontitle)
 
@@ -201,9 +217,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Action Title.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Action as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getBankLabel](#getbanklabel)
 
@@ -214,9 +231,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Bank Label.                                                                     |
 | **Parameters**                              | <ul><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Label as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getIcon](#geticon)
 
@@ -227,9 +245,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Icon.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Icon data as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLabel](#getlabel)
 
@@ -240,9 +259,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns a specific Touch Bar Label.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>Label as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [gotoSubGroup](#gotosubgroup)
 
@@ -253,9 +273,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Loads a specific sub-group.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the sub-group.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [groupStatus](#groupstatus)
 
@@ -266,9 +287,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a group's visibility status.                                                                     |
 | **Parameters**                              | <ul><li>groupID - the group you want to update as a string.</li><li>status - the status of the group as a boolean.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [incrementActiveSubGroup](#incrementactivesubgroup)
 
@@ -279,9 +301,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Increments the active sub-group                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -292,9 +315,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The module.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nextSubGroup](#nextsubgroup)
 
@@ -305,9 +329,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Goes to the next sub-group for the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [previousSubGroup](#previoussubgroup)
 
@@ -318,9 +343,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Goes to the previous sub-group for the active group.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -331,9 +357,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Starts the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -344,9 +371,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Stops the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggle](#toggle)
 
@@ -357,9 +385,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Toggles the CommandPost Touch Bar module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [touchbar](#touchbar)
 
@@ -370,9 +399,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Returns the `hs._asm.undocumented.touchbar` object if it exists.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`hs._asm.undocumented.touchbar`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -383,9 +413,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates the Touch Bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateAction](#updateaction)
 
@@ -396,9 +427,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar action.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>actionTitle - Action Title as string</li><li>handlerID - Handler ID as string</li><li>action - Action as table</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successfully updated, or `false` if a duplicate entry was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateBankLabel](#updatebanklabel)
 
@@ -409,9 +441,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar Bank Label.                                                                     |
 | **Parameters**                              | <ul><li>group - Group ID as string</li><li>label - Label as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateIcon](#updateicon)
 
@@ -422,9 +455,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar icon.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>icon - Icon Data as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateLabel](#updatelabel)
 
@@ -435,9 +469,10 @@ Touch Bar Manager Plugin.
 | **Description**                             | Updates a Touch Bar label.                                                                     |
 | **Parameters**                              | <ul><li>button - Button ID as string</li><li>group - Group ID as string</li><li>label - Label as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateOrder](#updateorder)
 
@@ -448,10 +483,11 @@ Touch Bar Manager Plugin.
 | **Description**                             | Shifts a Touch Bar button either up or down.                                                                     |
 | **Parameters**                              | <ul><li>direction - Either "up" or "down"</li><li>button - Button ID as string</li><li>group - Group ID as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [buttons](#buttons)
@@ -461,8 +497,10 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.buttons <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved Touch Bar Buttons                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -471,8 +509,10 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Touch Bar Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [supported](#supported)
 
@@ -481,5 +521,7 @@ Touch Bar Manager Plugin.
 | **Signature**                               | `plugins.core.touchbar.manager.supported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the Touch Bar is supported on this version of macOS.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

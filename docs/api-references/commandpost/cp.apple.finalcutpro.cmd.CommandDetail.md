@@ -18,7 +18,7 @@ This class provides a UI for displaying the details of a command when it is sele
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -30,10 +30,11 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Description**                             | Checks if the element matches the criteria for this class.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contents](#contents)
@@ -43,8 +44,10 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.contents <cp.ui.TextArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The TextArea that displays the content.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [detail](#detail)
 
@@ -53,8 +56,10 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.detail <cp.ui.ScrollArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ScrollArea](cp.ui.ScrollArea.md) that displays the contained [TextArea](cp.ui.TextArea.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [label](#label)
 
@@ -63,5 +68,7 @@ This class provides a UI for displaying the details of a command when it is sele
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandDetail.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The StaticText that displays the label.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

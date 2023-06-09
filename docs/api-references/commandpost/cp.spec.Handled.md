@@ -13,7 +13,7 @@ An synchronous/asynchronous test library for Lua.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -25,6 +25,7 @@ An synchronous/asynchronous test library for Lua.
 | **Description**                             | Checks if the `other` is an instance of the `Handled` class.                                                                     |
 | **Parameters**                              | <ul><li>other - An object to check.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

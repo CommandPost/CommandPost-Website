@@ -20,7 +20,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [active](#active)
@@ -30,8 +30,10 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Signature**                               | `plugins.finalcutpro.touchbar.widgets.colorboard.active <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Indicates if the widget is active.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hasWidgets](#haswidgets)
 
@@ -40,8 +42,10 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Signature**                               | `plugins.finalcutpro.touchbar.widgets.colorboard.hasWidgets <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Indicates if any widgests have been created.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [updateInterval](#updateinterval)
 
@@ -50,9 +54,11 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Signature**                               | `plugins.finalcutpro.touchbar.widgets.colorboard.updateInterval -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | How often the Touch Bar widgets should be refreshed in seconds                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [init](#init)
@@ -64,9 +70,10 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -77,9 +84,10 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Description**                             | Stops the Timer.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -90,6 +98,7 @@ A collection of Final Cut Pro Color Board Widgets for the Touch Bar.
 | **Description**                             | Stops the Timer.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

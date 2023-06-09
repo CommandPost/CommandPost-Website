@@ -13,7 +13,7 @@ Notes Panel for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [updateInfo](#updateinfo)
@@ -25,6 +25,7 @@ Notes Panel for the Final Cut Pro HUD.
 | **Description**                             | Update the Notes Panel HTML content.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

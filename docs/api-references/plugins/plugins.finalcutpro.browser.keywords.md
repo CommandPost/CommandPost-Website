@@ -18,7 +18,7 @@ Browser Keywords Presets.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [NUMBER_OF_PRESETS](#number_of_presets)
@@ -28,8 +28,10 @@ Browser Keywords Presets.
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of presets available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [NUMBER_OF_SHORTCUTS](#number_of_shortcuts)
 
@@ -38,9 +40,11 @@ Browser Keywords Presets.
 | **Signature**                               | `plugins.finalcutpro.browser.keywords.NUMBER_OF_SHORTCUTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The number of Keyword Keyboard shortcuts available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [restore](#restore)
@@ -52,9 +56,10 @@ Browser Keywords Presets.
 | **Description**                             | Restores a Keyword preset.                                                                     |
 | **Parameters**                              | <ul><li>preset - A preset number between 1 and the value of `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [save](#save)
 
@@ -65,6 +70,7 @@ Browser Keywords Presets.
 | **Description**                             | Saves a Keyword preset.                                                                     |
 | **Parameters**                              | <ul><li>preset - A preset number between 1 and the value of `plugins.finalcutpro.browser.keywords.NUMBER_OF_PRESETS`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

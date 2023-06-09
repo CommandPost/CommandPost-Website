@@ -42,7 +42,7 @@ Media Browser Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [GARAGE_BAND](#garage_band)
@@ -52,8 +52,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.GARAGE_BAND -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Garage Band ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ITUNES](#itunes)
 
@@ -62,8 +64,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.ITUNES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | iTunes ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LEGACY_TITLE](#legacy_title)
 
@@ -72,8 +76,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.LEGACY_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.1 and earlier.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [MAX_SECTIONS](#max_sections)
 
@@ -82,8 +88,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.MAX_SECTIONS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Maximum Sections.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [PHOTOS](#photos)
 
@@ -92,8 +100,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.PHOTOS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [SOUND_EFFECTS](#sound_effects)
 
@@ -102,8 +112,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.SOUND_EFFECTS -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Sound Effects ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [TITLE](#title)
 
@@ -112,9 +124,11 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Photos & Audio Title in v10.6.2 and later.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [MediaBrowser](#mediabrowser)
@@ -126,10 +140,11 @@ Media Browser Module.
 | **Description**                             | Creates a new `Browser` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [group](#group)
@@ -139,8 +154,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.group <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The group PopUpButton.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -149,8 +166,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the Media Browser is showing.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mainGroupUI](#maingroupui)
 
@@ -159,8 +178,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.mainGroupUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the main group UI for the Media Browser, or `nil` if not available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [search](#search)
 
@@ -169,8 +190,10 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.search <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The search TextField.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sidebar](#sidebar)
 
@@ -179,9 +202,11 @@ Media Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.MediaBrowser.sidebar <cp.ui.OldTable>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sidebar `Table`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [hide](#hide)
@@ -193,9 +218,10 @@ Media Browser Module.
 | **Description**                             | Hide the Media Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -206,9 +232,10 @@ Media Browser Module.
 | **Description**                             | Loads a Media Browser layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Media Browser layout settings - created using `cp.apple.finalcutpro.main.MediaBrowser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -219,9 +246,10 @@ Media Browser Module.
 | **Description**                             | Saves the current Media Browser layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Media Browser Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -232,9 +260,10 @@ Media Browser Module.
 | **Description**                             | Show the Media Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showGarageBand](#showgarageband)
 
@@ -245,9 +274,10 @@ Media Browser Module.
 | **Description**                             | Show Garage Band Section.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showITunes](#showitunes)
 
@@ -258,9 +288,10 @@ Media Browser Module.
 | **Description**                             | Show iTunes Section.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showPhotos](#showphotos)
 
@@ -271,9 +302,10 @@ Media Browser Module.
 | **Description**                             | Show Photos Section.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showSection](#showsection)
 
@@ -284,9 +316,10 @@ Media Browser Module.
 | **Description**                             | Show a specific section.                                                                     |
 | **Parameters**                              | <ul><li>index - The index ID of the section you want to show as a number.</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showSidebar](#showsidebar)
 
@@ -297,9 +330,10 @@ Media Browser Module.
 | **Description**                             | Show the Media Browser Sidebar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showSoundEffects](#showsoundeffects)
 
@@ -310,9 +344,10 @@ Media Browser Module.
 | **Description**                             | Show Sound Effects Section.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`MediaBrowser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [topCategoriesUI](#topcategoriesui)
 
@@ -323,6 +358,7 @@ Media Browser Module.
 | **Description**                             | Get the Top Categories UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`axuielementObject` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

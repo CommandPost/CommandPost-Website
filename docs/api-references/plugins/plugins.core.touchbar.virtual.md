@@ -35,7 +35,7 @@ Virtual Touch Bar Manager
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [LOCATION_DEFAULT_VALUE](#location_default_value)
@@ -45,8 +45,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.LOCATION_DEFAULT_VALUE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default location value.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LOCATION_DRAGGABLE](#location_draggable)
 
@@ -55,8 +57,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.LOCATION_DRAGGABLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Location is Draggable.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LOCATION_MOUSE](#location_mouse)
 
@@ -65,9 +69,11 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.LOCATION_MOUSE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Location is Mouse.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [updateLocationCallback](#updatelocationcallback)
@@ -77,9 +83,11 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.updateLocationCallback -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Update Location Callback                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [callback](#callback)
@@ -91,9 +99,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Callback Function for the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>obj - the touchbarObject the callback is for</li><li>message - the message to the callback, either "didEnter" or "didExit"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -104,9 +113,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Hide the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -117,9 +127,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -130,9 +141,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Show the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -143,9 +155,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Initialises the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -156,9 +169,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Stops the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [touchbar](#touchbar)
 
@@ -169,9 +183,10 @@ Virtual Touch Bar Manager
 | **Description**                             | Returns the `hs._asm.undocumented.touchbar` object if it exists.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`hs._asm.undocumented.touchbar`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -182,10 +197,11 @@ Virtual Touch Bar Manager
 | **Description**                             | Updates the visibility and location of the Virtual Touch Bar                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -195,8 +211,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isActive](#isactive)
 
@@ -205,8 +223,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.isActive <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled and the TouchBar is supported on this OS.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastLocation](#lastlocation)
 
@@ -215,8 +235,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.lastLocation <cp.prop: point table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last known Virtual Touch Bar Location                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [macOSVersionSupported](#macosversionsupported)
 
@@ -225,8 +247,10 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.macOSVersionSupported <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Does the macOS version support the Touch Bar?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [supported](#supported)
 
@@ -235,5 +259,7 @@ Virtual Touch Bar Manager
 | **Signature**                               | `plugins.core.touchbar.virtual.supported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the Touch Bar is supported on this version of macOS.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

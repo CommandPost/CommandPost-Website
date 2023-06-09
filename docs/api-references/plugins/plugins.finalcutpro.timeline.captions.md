@@ -13,7 +13,7 @@ Caption Tools
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [doPasteTextAsCaption](#dopastetextascaption)
@@ -25,6 +25,7 @@ Caption Tools
 | **Description**                             | A [Statement](../cp/cp.rx.go.Statement.md) to Paste Text As Caption.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`cp.rx.go.Statement`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

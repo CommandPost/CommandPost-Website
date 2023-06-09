@@ -33,7 +33,7 @@ Represents the Compressor application, providing functions that allow different 
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [ALLOWED_IMPORT_ALL_EXTENSIONS](#allowed_import_all_extensions)
@@ -43,8 +43,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_ALL_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
 
@@ -53,8 +55,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_AUDIO_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
 
@@ -63,8 +67,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_IMAGE_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
 
@@ -73,8 +79,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.ALLOWED_IMPORT_VIDEO_EXTENSIONS`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [BUNDLE_ID](#bundle_id)
 
@@ -83,8 +91,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.BUNDLE_ID`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Compressor's Bundle ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
@@ -93,9 +103,11 @@ Represents the Compressor application, providing functions that allow different 
 | **Signature**                               | `cp.apple.compressor.EARLIEST_SUPPORTED_VERSION <semver>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version this API supports.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [bundleID](#bundleid)
@@ -107,9 +119,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Returns the Compressor Bundle ID                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the Compressor Bundle ID</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doRestart](#dorestart)
 
@@ -120,9 +133,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will restart the application.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the application was running and restarted successfully.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -133,9 +147,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Hides Compressor                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [launch](#launch)
 
@@ -146,9 +161,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Launches Compressor, or brings it to the front if it was already running.                                                                     |
 | **Parameters**                              | <ul><li>waitSeconds      - if provided, we will wait for up to the specified seconds for the launch to complete.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if Compressor was either launched or focused, otherwise false (e.g. if Compressor doesn't exist)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [notifier](#notifier)
 
@@ -159,9 +175,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Returns a notifier that is tracking the application UI element. It has already been started.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The notifier.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [path](#path)
 
@@ -172,9 +189,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Path to Compressor Application                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing Compressor's filesystem path, or `nil` if the bundle identifier could not be located</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [quit](#quit)
 
@@ -185,9 +203,10 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Quits Compressor                                                                     |
 | **Parameters**                              | <ul><li>waitSeconds  - if provided, we will wait for the specified time for the quit to complete before returning.</li></ul> |
 | **Returns**                                 | <ul><li>The `compressor` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -198,6 +217,7 @@ Represents the Compressor application, providing functions that allow different 
 | **Description**                             | Activate Compressor                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The compressor instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

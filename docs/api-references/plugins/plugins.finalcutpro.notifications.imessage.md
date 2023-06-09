@@ -19,7 +19,7 @@ iMessage Notifications Plugin.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -31,9 +31,10 @@ iMessage Notifications Plugin.
 | **Description**                             | Initialises the plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendNotification](#sendnotification)
 
@@ -44,9 +45,10 @@ iMessage Notifications Plugin.
 | **Description**                             | Sends a notification.                                                                     |
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -57,10 +59,11 @@ iMessage Notifications Plugin.
 | **Description**                             | Enables or disables iMessage Notifications depending on the user's preferences.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -70,8 +73,10 @@ iMessage Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.imessage.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [target](#target)
 
@@ -80,5 +85,7 @@ iMessage Notifications Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.imessage.target <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A string containing a mobile number or Apple ID                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

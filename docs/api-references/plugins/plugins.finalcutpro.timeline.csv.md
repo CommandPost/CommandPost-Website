@@ -13,7 +13,7 @@ Save Timeline Index to CSV
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [saveTimelineIndexToCSV](#savetimelineindextocsv)
@@ -25,6 +25,7 @@ Save Timeline Index to CSV
 | **Description**                             | Save Timeline Index to CSV                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

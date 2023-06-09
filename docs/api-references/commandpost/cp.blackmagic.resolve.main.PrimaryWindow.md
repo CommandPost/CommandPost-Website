@@ -23,7 +23,7 @@ Primary Window Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -35,10 +35,11 @@ Primary Window Module.
 | **Description**                             | Checks to see if a window matches the PrimaryWindow requirements                                                                     |
 | **Parameters**                              | <ul><li>w - The window to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matched otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [PrimaryWindow](#primarywindow)
@@ -50,10 +51,11 @@ Primary Window Module.
 | **Description**                             | Creates a new PrimaryWindow.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>PrimaryWindow</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [doShow](#doshow)
@@ -64,8 +66,10 @@ Primary Window Module.
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Primary Window.                                                                     |
 | **Returns**                                 | <ul><li>The `Statement`, which resolves as either `true` or sends an error.</li></ul>          |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [resolve](#resolve)
 
@@ -74,9 +78,11 @@ Primary Window Module.
 | **Signature**                               | `cp.blackmagic.resolve.main.PrimaryWindow.resolve -> cp.blackmagic.resolve`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The main `Resolve` application root.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [show](#show)
@@ -88,6 +94,7 @@ Primary Window Module.
 | **Description**                             | Shows the Primary Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `PrimaryWindow` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

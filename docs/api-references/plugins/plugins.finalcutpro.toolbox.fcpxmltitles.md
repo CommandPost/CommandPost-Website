@@ -22,7 +22,7 @@ FCPXML Titles Toolbox Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [ignoreFirstRow](#ignorefirstrow)
@@ -32,8 +32,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.ignoreFirstRow <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Ignore first row of CSV?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBatchProcessPath](#lastbatchprocesspath)
 
@@ -42,8 +44,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastBatchProcessPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Batch Process Path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportCSVPath](#lastexportcsvpath)
 
@@ -52,8 +56,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastExportCSVPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export CSV Path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportFCPXMLPath](#lastexportfcpxmlpath)
 
@@ -62,8 +68,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastExportFCPXMLPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export Path                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastFCPXMLPath](#lastfcpxmlpath)
 
@@ -72,8 +80,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.lastFCPXMLPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last FCPXMLPath                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [newTitleColumn](#newtitlecolumn)
 
@@ -82,8 +92,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.newTitleColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | New Title Column                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [originalTitleColumn](#originaltitlecolumn)
 
@@ -92,8 +104,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.originalTitleColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Original Title Column                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [removeLineBreaks](#removelinebreaks)
 
@@ -102,8 +116,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.removeLineBreaks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Line Breaks                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sentToFinalCutPro](#senttofinalcutpro)
 
@@ -112,8 +128,10 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.sentToFinalCutPro <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Send to Final Cut Pro                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [trimWhiteSpace](#trimwhitespace)
 
@@ -122,5 +140,7 @@ FCPXML Titles Toolbox Panel
 | **Signature**                               | `plugins.finalcutpro.toolbox.fcpxmltitles.trimWhiteSpace <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Trim White Space                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

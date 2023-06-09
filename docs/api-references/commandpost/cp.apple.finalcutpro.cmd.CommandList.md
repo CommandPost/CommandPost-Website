@@ -19,7 +19,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -31,10 +31,11 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Description**                             | Checks if the element matches the CommandList.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [commands](#commands)
@@ -44,8 +45,10 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandList.commands <cp.apple.finalcutpro.cmd.Commands>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Commands](cp.apple.finalcutpro.cmd.Commands.md) for this CommandList.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [groups](#groups)
 
@@ -54,8 +57,10 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandList.groups <cp.apple.finalcutpro.cmd.CommandGroups>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [CommandGroups](cp.apple.finalcutpro.cmd.CommandGroups.md) for this CommandList.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [label](#label)
 
@@ -64,8 +69,10 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandList.label <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The StaticText that displays the label.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [splitter](#splitter)
 
@@ -74,5 +81,7 @@ A list of commands available in the [CommandEditor](cp.apple.finalcutpro.cmd.Com
 | **Signature**                               | `cp.apple.finalcutpro.cmd.CommandList.splitter <cp.ui.Splitter>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Splitter](cp.ui.Splitter.md) for this CommandList.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

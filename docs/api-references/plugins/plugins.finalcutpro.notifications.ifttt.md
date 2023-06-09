@@ -22,7 +22,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -34,9 +34,10 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Initialises the plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendNotification](#sendnotification)
 
@@ -47,9 +48,10 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Sends a notification.                                                                     |
 | **Parameters**                              | <ul><li>message - The message you want to send as a string.</li><li>[title] - An optional Title for the message as a string.</li></ul> |
 | **Returns**                                 | <ul><li>success - `true` if successful otherwise `false`</li><li>errorMessage - a string containing any error messages</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -60,10 +62,11 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Description**                             | Enables or disables ifttt Notifications depending on the user's preferences.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [appAPIKey](#appapikey)
@@ -73,8 +76,10 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.appAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Application API Key                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -83,8 +88,10 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Whether or not the plugin has been enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [userAPIKey](#userapikey)
 
@@ -93,5 +100,7 @@ Author: [JFtechOfficial](https://github.com/JFtechOfficial)
 | **Signature**                               | `plugins.finalcutpro.notifications.ifttt.userAPIKey <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | User API Key                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

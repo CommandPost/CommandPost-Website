@@ -49,7 +49,7 @@ Inspector
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [INSPECTOR_TABS](#inspector_tabs)
@@ -59,9 +59,11 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of supported Inspector Tabs                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -73,10 +75,11 @@ Inspector
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - axuielementObject</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Inspector](#inspector)
@@ -88,10 +91,11 @@ Inspector
 | **Description**                             | Creates a new Inspector.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>The Inspector object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [audio](#audio)
@@ -101,8 +105,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.audio <cp.apple.finalcutpro.inspector.AudioInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [AudioInspector](cp.apple.finalcutpro.inspector.AudioInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [bottomBarUI](#bottombarui)
 
@@ -111,8 +117,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.bottomBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the bottom bar `axuielement` for the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [color](#color)
 
@@ -121,8 +129,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.color <cp.apple.finalcutpro.inspector.ColorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ColorInspector](cp.apple.finalcutpro.inspector.ColorInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [generator](#generator)
 
@@ -131,8 +141,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.generator <cp.apple.finalcutpro.inspector.GeneratorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [GeneratorInspector](package.GeneratorInspector.md)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [info](#info)
 
@@ -141,8 +153,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.info <cp.apple.finalcutpro.inspector.InfoInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The  [InfoInspector](cp.apple.finalcutpro.inspector.InfoInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isFullHeight](#isfullheight)
 
@@ -151,8 +165,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.isFullHeight <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the Inspector is full height.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -161,8 +177,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.isShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the Inspector is showing otherwise `false`                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [labelUI](#labelui)
 
@@ -171,8 +189,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.labelUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `axuielement` for text label at the top of the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [panelUI](#panelui)
 
@@ -181,8 +201,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.panelUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the central panel `axuielement` for the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [projectInfo](#projectinfo)
 
@@ -191,8 +213,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.projectInfo <cp.apple.finalcutpro.inspector.InfoProjectInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The  [InfoProjectInspector](cp.apple.finalcutpro.inspector.InfoProjectInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [propertiesUI](#propertiesui)
 
@@ -201,8 +225,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.propertiesUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the properties `axuielement` for the Inspector. This contains the rows of property values.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [share](#share)
 
@@ -211,8 +237,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.share <cp.apple.finalcutpro.inspector.ShareInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [ShareInspector](cp.apple.finalcutpro.inspector.ShareInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [text](#text)
 
@@ -221,8 +249,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.text <cp.apple.finalcutpro.inspector.TextInspector`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextzInspector](cp.apple.finalcutpro.inspector.TextzInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [title](#title)
 
@@ -231,8 +261,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.title <cp.apple.finalcutpro.inspector.TitleInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TitleInspector](cp.apple.finalcutpro.inspector.TitleInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [topBarUI](#topbarui)
 
@@ -241,8 +273,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.topBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the "top bar" `axuielement` for the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [transition](#transition)
 
@@ -251,8 +285,10 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.transition <cp.apple.finalcutpro.inspector.TransitionInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TransitionInspector](cp.apple.finalcutpro.inspector.TransitionInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [video](#video)
 
@@ -261,9 +297,11 @@ Inspector
 | **Signature**                               | `cp.apple.finalcutpro.inspector.Inspector.video <cp.apple.finalcutpro.inspector.VideoInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [VideoInspector](cp.apple.finalcutpro.inspector.VideoInspector.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doFindTabButton](#dofindtabbutton)
@@ -275,9 +313,10 @@ Inspector
 | **Description**                             | Finds the named Inspector tab button, or sends an error if the type is unsupported.                                                                     |
 | **Parameters**                              | <ul><li>type - the type of the button to return. (e.g. "Video")</li></ul> |
 | **Returns**                                 | <ul><li>A [Statement](cp.rx.go.Statement.md) to execute.</li></ul>          |
-| **Notes**                                   | <ul><li>Valid strings for `type` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li><li>Not all button types are available in all contexts.</li></ul>                |
+| **Notes**                                   | <ul><li>Valid strings for `type` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li><li>Not all button types are available in all contexts.</li></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -288,9 +327,10 @@ Inspector
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to hide the `Inspector`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the Inspector was hidden successfully, or an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doSelectTab](#doselecttab)
 
@@ -301,9 +341,10 @@ Inspector
 | **Description**                             | A Statement that selects the specified tab title.                                                                     |
 | **Parameters**                              | <ul><li>title     - The title of the tab to select.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -314,9 +355,10 @@ Inspector
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the `Inspector`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if the Inspector was shown successfully, or an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -327,9 +369,10 @@ Inspector
 | **Description**                             | Hides the inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Inspector` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedTab](#selectedtab)
 
@@ -340,9 +383,10 @@ Inspector
 | **Description**                             | Returns the name of the selected inspector tab otherwise `nil`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string of the selected tab, otherwise `nil` if the Inspector is closed or an error occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>The tab strings can be:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul>                |
+| **Notes**                                   | <ul><li>The tab strings can be:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
 
 ---
+
 
 ### [selectTab](#selecttab)
 
@@ -353,9 +397,10 @@ Inspector
 | **Description**                             | Selects a tab in the inspector.                                                                     |
 | **Parameters**                              | <ul><li>tab - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>A string of the selected tab, otherwise `nil` if an error occurred.</li></ul>          |
-| **Notes**                                   | <ul><li>This method will open the Inspector if it's closed, and leave it open.</li><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul>                |
+| **Notes**                                   | <ul><li>This method will open the Inspector if it's closed, and leave it open.</li><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -366,9 +411,10 @@ Inspector
 | **Description**                             | Shows the inspector.                                                                     |
 | **Parameters**                              | <ul><li>[tab] - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>The `Inspector` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul>                |
+| **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
 
 ---
+
 
 ### [tabAvailable](#tabavailable)
 
@@ -379,6 +425,7 @@ Inspector
 | **Description**                             | Checks to see if a tab is currently available in the Inspector.                                                                     |
 | **Parameters**                              | <ul><li>tab - A string from the `cp.apple.finalcutpro.inspector.Inspector.INSPECTOR_TABS` table</li></ul> |
 | **Returns**                                 | <ul><li>`true` if available otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul>                |
+| **Notes**                                   | <ul><li>Valid strings for `value` are as follows:</li><li>  Audio</li><li>  Color</li><li>  Effect</li><li>  Generator</li><li>  Info</li><li>  Share</li><li>  Text</li><li>  Title</li><li>  Transition</li><li>  Video</li></ul> |
 
 ---
+

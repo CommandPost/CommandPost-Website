@@ -26,7 +26,7 @@ UI Group.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [containing](#containing)
@@ -38,9 +38,10 @@ UI Group.
 | **Description**                             | Returns a `Builder` with the `Element` initializers for the children in the group.                                                                     |
 | **Parameters**                              | <ul><li>... - A variable list of `Element` initializers, one for each child.</li></ul> |
 | **Returns**                                 | <ul><li>The `Group.Builder`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -51,10 +52,11 @@ UI Group.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Group](#group)
@@ -66,10 +68,11 @@ UI Group.
 | **Description**                             | Creates a new `Group` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>uiFinder - A function which will return the `hs.axuielement` when available.</li><li>--- - Anything else</li></ul> |
 | **Returns**                                 | <ul><li>A new `Group` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [children](#children)
@@ -79,8 +82,10 @@ UI Group.
 | **Signature**                               | `cp.ui.Group.children <table of cp.ui.Element>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `Element` children of the group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [childrenUI](#childrenui)
 
@@ -89,5 +94,7 @@ UI Group.
 | **Signature**                               | `cp.ui.Group.childrenUI <cp.prop: table of axuielement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains the list of `axuielement` children of the group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

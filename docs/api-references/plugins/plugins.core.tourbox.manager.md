@@ -25,7 +25,7 @@ Loupedeck CT Manager Plugin.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [defaultLayout](#defaultlayout)
@@ -35,9 +35,11 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck CT Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [connectToTourBox](#connecttotourbox)
@@ -49,9 +51,10 @@ Loupedeck CT Manager Plugin.
 | **Description**                             | Attempts to establish the TourBox serial connection.                                                                     |
 | **Parameters**                              | <ul><li>portName - The optional port name of the device.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -62,9 +65,10 @@ Loupedeck CT Manager Plugin.
 | **Description**                             | Resets the config back to the default layout.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resetTimers](#resettimers)
 
@@ -75,10 +79,11 @@ Loupedeck CT Manager Plugin.
 | **Description**                             | Resets all the various timers and memories.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activeBanks](#activebanks)
@@ -88,8 +93,10 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
@@ -98,8 +105,10 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.automaticallySwitchApplications <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
@@ -108,8 +117,10 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -118,8 +129,10 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Loupedeck CT support enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [items](#items)
 
@@ -128,5 +141,7 @@ Loupedeck CT Manager Plugin.
 | **Signature**                               | `plugins.core.tourbox.manager.items <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved TourBox layouts.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

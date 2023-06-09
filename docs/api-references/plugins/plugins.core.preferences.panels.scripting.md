@@ -13,7 +13,7 @@ Scripting Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [snippets](#snippets)
@@ -23,5 +23,7 @@ Scripting Preferences Panel
 | **Signature**                               | `plugins.core.preferences.panels.scripting.snippets <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

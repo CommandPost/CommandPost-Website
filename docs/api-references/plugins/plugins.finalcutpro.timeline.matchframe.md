@@ -18,7 +18,7 @@ Match Frame Tools for Final Cut Pro.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [hiddenKeywords](#hiddenkeywords)
@@ -28,9 +28,11 @@ Match Frame Tools for Final Cut Pro.
 | **Signature**                               | `plugins.finalcutpro.timeline.matchframe.hiddenKeywords <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Favourite Keywords                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [getMulticamAngleFromSelectedClip](#getmulticamanglefromselectedclip)
@@ -42,9 +44,10 @@ Match Frame Tools for Final Cut Pro.
 | **Description**                             | Get Multicam Angle From Selected Clip                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Angle or `false` on error</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matchFrame](#matchframe)
 
@@ -55,9 +58,10 @@ Match Frame Tools for Final Cut Pro.
 | **Description**                             | Performs a Single Match Frame.                                                                     |
 | **Parameters**                              | <ul><li>`focus`  - If set to `true`, the library will search for the matched clip title</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [multicamMatchFrame](#multicammatchframe)
 
@@ -68,6 +72,7 @@ Match Frame Tools for Final Cut Pro.
 | **Description**                             | Multicam Match Frame                                                                     |
 | **Parameters**                              | <ul><li>goBackToTimeline - `true` if you want to go back to the timeline after opening the clip in the Multicam Editor</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -44,7 +44,7 @@ Manager for the CommandPost Preferences Window.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_HEIGHT](#default_height)
@@ -54,8 +54,10 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Height of Preferences Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_WIDTH](#default_width)
 
@@ -64,8 +66,10 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Width of Preferences Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastTab](#lasttab)
 
@@ -74,8 +78,10 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager.lastTab`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last tab saved in settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -84,8 +90,10 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager.position`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returns the last frame saved in settings.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [WEBVIEW_LABEL](#webview_label)
 
@@ -94,9 +102,11 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager.WEBVIEW_LABEL -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The WebView Label                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [_handlers](#_handlers)
@@ -106,8 +116,10 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager._handlers -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing handlers.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [_panels](#_panels)
 
@@ -116,9 +128,11 @@ Manager for the CommandPost Preferences Window.
 | **Signature**                               | `plugins.core.preferences.manager._panels -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table containing panels.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addHandler](#addhandler)
@@ -130,9 +144,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Adds a Handler                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li><li>handlerFn - the handler function</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [addPanel](#addpanel)
 
@@ -143,9 +158,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Adds a new panel with the specified `params` to the preferences manager.                                                                     |
 | **Parameters**                              | <ul><li>`params` - The parameters table. Details below.</li></ul> |
 | **Returns**                                 | <ul><li>The new `panel` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `closeFn`       - A callback function that's triggered when the Preferences window is closed.</li></ul>                |
+| **Notes**                                   | <ul><li>The `params` can have the following properties. The `priority` and `id` and properties are **required**.</li><li> ** `priority`      - An integer value specifying the priority of the panel compared to others.</li><li> ** `id`            - A string containing the unique ID of the panel.</li><li> ** `label`         - The human-readable label for the panel icon.</li><li> ** `image`         - The `hs.image` for the panel icon.</li><li> ** `tooltip`       - The human-readable details for the toolbar icon when the mouse is hovering over it.</li><li> ** `closeFn`       - A callback function that's triggered when the Preferences window is closed.</li></ul> |
 
 ---
+
 
 ### [currentPanelID](#currentpanelid)
 
@@ -156,9 +172,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Returns the panel ID with the highest priority.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The panel ID as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [focus](#focus)
 
@@ -169,9 +186,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Puts focus on the Preferences Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful or otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getHandler](#gethandler)
 
@@ -182,9 +200,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Returns the handler for a given ID.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLabel](#getlabel)
 
@@ -195,9 +214,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Returns the Webview label.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getWebview](#getwebview)
 
@@ -208,9 +228,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Returns the Webview of the Preferences Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.webview`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -221,9 +242,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Hides the Preferences Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -234,9 +256,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Initialises the preferences panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [injectScript](#injectscript)
 
@@ -247,9 +270,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Injects JavaScript into the Preferences Webview.                                                                     |
 | **Parameters**                              | <ul><li>script - The JavaScript code you want to inject in the form of a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [maxPanelHeight](#maxpanelheight)
 
@@ -260,9 +284,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Returns the maximum size defined by a panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The maximum panel height.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -273,9 +298,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Creates a new Preferences Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refresh](#refresh)
 
@@ -286,9 +312,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Refreshes the Preferences Window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectPanel](#selectpanel)
 
@@ -299,9 +326,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Selects a Preferences Panel.                                                                     |
 | **Parameters**                              | <ul><li>id - the ID of the panel you want to select.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPanelRenderer](#setpanelrenderer)
 
@@ -312,9 +340,10 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Sets a Panel Renderer                                                                     |
 | **Parameters**                              | <ul><li>renderer - The renderer</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -325,6 +354,7 @@ Manager for the CommandPost Preferences Window.
 | **Description**                             | Shows the Preferences Window                                                                     |
 | **Parameters**                              | <ul><li>[panelID] - An optional panel ID</li></ul> |
 | **Returns**                                 | <ul><li>True if successful or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

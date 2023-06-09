@@ -19,7 +19,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -31,10 +31,11 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Description**                             | Checks if the element matches the MainProperties.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [MainProperties](#mainproperties)
@@ -46,10 +47,11 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Description**                             | Creates a new MainProperties.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder	- The `axuielement` object that represents this element.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentUI](#contentui)
@@ -59,5 +61,7 @@ The MainProperties UI for the [AudioInspector](cp.apple.finalcutpro.inspector.au
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.MainProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the MainProperties group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

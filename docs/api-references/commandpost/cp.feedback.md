@@ -20,7 +20,7 @@ Feedback Form.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [defaultHeight](#defaultheight)
@@ -30,8 +30,10 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultHeight -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview height.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultTitle](#defaulttitle)
 
@@ -40,8 +42,10 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultTitle -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview title.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultWidth](#defaultwidth)
 
@@ -50,8 +54,10 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.defaultWidth -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default webview width.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -60,8 +66,10 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.position -> prop`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Webview Position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [quitOnComplete](#quitoncomplete)
 
@@ -70,9 +78,11 @@ Feedback Form.
 | **Signature**                               | `cp.feedback.quitOnComplete -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Quit on complete?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [showFeedback](#showfeedback)
@@ -84,6 +94,7 @@ Feedback Form.
 | **Description**                             | Displays the Feedback Screen.                                                                     |
 | **Parameters**                              | <ul><li>quitOnComplete - `true` if you want CommandPost to quit after the Feedback is complete otherwise `false`</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

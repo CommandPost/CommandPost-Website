@@ -16,7 +16,7 @@ Actions for control user interface elements via the Accessibility API.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [currentlyDragging](#currentlydragging)
@@ -26,9 +26,11 @@ Actions for control user interface elements via the Accessibility API.
 | **Signature**                               | `plugins.core.accessibility.tools.currentlyDragging -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we currently dragging something?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [changeElementUnderMouse](#changeelementundermouse)
@@ -40,6 +42,7 @@ Actions for control user interface elements via the Accessibility API.
 | **Description**                             | Change the value of a Accessibility Element under the mouse.                                                                     |
 | **Parameters**                              | <ul><li>increase - A boolean to set the direction.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

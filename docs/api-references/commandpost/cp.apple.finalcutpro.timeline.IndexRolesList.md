@@ -23,7 +23,7 @@ Timeline Index Roles List.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [allRoles](#allroles)
@@ -35,9 +35,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns the list of caption [Role](cp.ui.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [audioRoles](#audioroles)
 
@@ -48,9 +49,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns the list of all audio [Role](cp.ui.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doActivate](#doactivate)
 
@@ -61,9 +63,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will activate the provided role, if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doDeactivate](#dodeactivate)
 
@@ -74,9 +77,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will deactivate the provided role, if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to deactivate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doFocusInTimeline](#dofocusintimeline)
 
@@ -87,9 +91,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will focus the provided [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md), if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doHideSubroleLanes](#dohidesubrolelanes)
 
@@ -100,9 +105,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will hide subrole lanes for the provided [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md), if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doShowSubroleLanes](#doshowsubrolelanes)
 
@@ -113,9 +119,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will show subrole lanes for the provided [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md), if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md).</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [doUnfocusInTimeline](#dounfocusintimeline)
 
@@ -126,9 +133,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that will unfocus the provided [AudioRole](cp.apple.finalcutpro.timeline.AudioRole.md), if it is available.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the [Role](cp.apple.finalcutpro.timeline.Role.md) to activate.</li></ul> |
 | **Returns**                                 | <ul><li>The [Statement](cp.rx.go.Statement.md)</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Dialogue", "Music", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [filterRoles](#filterroles)
 
@@ -139,9 +147,10 @@ Timeline Index Roles List.
 | **Description**                             | Filters the current list of [Role](cp.apple.finalcutpro.timeline.Role.md)s based on the given `matchesFn` predicate.                                                                     |
 | **Parameters**                              | <ul><li>matchesFn - the matcher function. If not provided, no additional filtering occurs.</li></ul> |
 | **Returns**                                 | <ul><li>The table of [Role](cp.apple.finalcutpro.timeline.Role.md), or `nil` if no UI is currently available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [findRoleTitled](#findroletitled)
 
@@ -152,9 +161,10 @@ Timeline Index Roles List.
 | **Description**                             | Returns the [Role](cp.apple.finalcutpro.timeline.Role.md) with the specified title.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the role to find.</li></ul> |
 | **Returns**                                 | <ul><li>The [Role](cp.apple.finalcutpro.timeline.Role.md), or `nil` if it can't be found.</li></ul>          |
-| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul>                |
+| **Notes**                                   | <ul><li>The title can be the English name (eg. "Video", "Titles", etc.) for default Roles, and it will find the correct role in the current FCPX language.</li></ul> |
 
 ---
+
 
 ### [videoRoles](#videoroles)
 
@@ -165,6 +175,7 @@ Timeline Index Roles List.
 | **Description**                             | Returns the list of all video [Role](cp.ui.Role.md)s in the current list.                                                                     |
 | **Parameters**                              | <ul><li>includeSubroles - if `true`, include Subroles, otherwise exclude them.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` of [Role](cp.apple.finalcutpro.timeline.Role.md)s, or `nil` if no UI is available currently.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

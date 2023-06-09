@@ -17,7 +17,7 @@ work required to clean up after the Observable completes or the Observer cancels
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [create](#create)
@@ -29,10 +29,11 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Description**                             | Creates a new Reference.                                                                     |
 | **Parameters**                              | <ul><li>action - The action to run when the reference is canceld. It will only be run once.</li></ul> |
 | **Returns**                                 | <ul><li>the [Reference](cp.rx.Reference.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [cancel](#cancel)
@@ -44,6 +45,7 @@ work required to clean up after the Observable completes or the Observer cancels
 | **Description**                             | Unsubscribes the reference, performing any necessary cleanup work.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

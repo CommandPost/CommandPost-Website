@@ -20,7 +20,7 @@ that can be mapped to a keyboard shortcut.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -32,6 +32,7 @@ that can be mapped to a keyboard shortcut.
 | **Description**                             | Checks if the element matches the criteria for this class.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches the criteria for this class.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

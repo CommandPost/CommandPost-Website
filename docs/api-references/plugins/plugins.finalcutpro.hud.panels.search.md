@@ -23,7 +23,7 @@ Ten Panel for the Final Cut Pro HUD.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [exactMatch](#exactmatch)
@@ -33,8 +33,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.exactMatch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [filterBrowserBeforeSearch](#filterbrowserbeforesearch)
 
@@ -43,8 +45,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.filterBrowserBeforeSearch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Filter Browser Before Search                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [history](#history)
 
@@ -53,8 +57,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.history <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search History                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastColumn](#lastcolumn)
 
@@ -63,8 +69,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.lastColumn <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Column                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastValue](#lastvalue)
 
@@ -73,8 +81,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.lastValue <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Last Value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [loopSearch](#loopsearch)
 
@@ -83,8 +93,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.loopSearch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Loop Search                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [matchCase](#matchcase)
 
@@ -93,8 +105,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.matchCase <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Match Case                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [openProject](#openproject)
 
@@ -103,8 +117,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.openProject <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Project                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playAfterFind](#playafterfind)
 
@@ -113,8 +129,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.playAfterFind <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Play After Find                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [searchEntireLibrary](#searchentirelibrary)
 
@@ -123,8 +141,10 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.searchEntireLibrary <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Search Entire Library                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [wholeWords](#wholewords)
 
@@ -133,5 +153,7 @@ Ten Panel for the Final Cut Pro HUD.
 | **Signature**                               | `plugins.finalcutpro.hud.panels.search.wholeWords <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Whole Words                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

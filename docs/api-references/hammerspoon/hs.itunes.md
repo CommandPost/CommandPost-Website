@@ -38,7 +38,7 @@ Controls for iTunes music player
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [state_paused](#state_paused)
@@ -48,8 +48,10 @@ Controls for iTunes music player
 | **Signature**                               | `hs.itunes.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is paused                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_playing](#state_playing)
 
@@ -58,8 +60,10 @@ Controls for iTunes music player
 | **Signature**                               | `hs.itunes.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is playing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_stopped](#state_stopped)
 
@@ -68,9 +72,11 @@ Controls for iTunes music player
 | **Signature**                               | `hs.itunes.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.itunes.getPlaybackState()` to indicates iTunes is stopped                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [displayCurrentTrack](#displaycurrenttrack)
@@ -82,9 +88,10 @@ Controls for iTunes music player
 | **Description**                             | Displays information for current track on screen                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ff](#ff)
 
@@ -95,9 +102,10 @@ Controls for iTunes music player
 | **Description**                             | Skips the current playback forwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentAlbum](#getcurrentalbum)
 
@@ -108,9 +116,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the name of the current Album                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentArtist](#getcurrentartist)
 
@@ -121,9 +130,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the name of the current Artist                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentTrack](#getcurrenttrack)
 
@@ -134,9 +144,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the name of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDuration](#getduration)
 
@@ -147,9 +158,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the duration (in seconds) of the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPlaybackState](#getplaybackstate)
 
@@ -160,9 +172,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the current playback state of iTunes                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.itunes.state_stopped`</li><li>   - `hs.itunes.state_paused`</li><li>   - `hs.itunes.state_playing`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPosition](#getposition)
 
@@ -173,9 +186,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the playback position (in seconds) of the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getVolume](#getvolume)
 
@@ -186,9 +200,10 @@ Controls for iTunes music player
 | **Description**                             | Gets the current iTunes volume setting                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number, between 1 and 100, containing the current iTunes playback volume</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPlaying](#isplaying)
 
@@ -199,9 +214,10 @@ Controls for iTunes music player
 | **Description**                             | Returns whether iTunes is currently playing                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether iTunes is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -212,9 +228,10 @@ Controls for iTunes music player
 | **Description**                             | Returns whether iTunes is currently open. Most other functions in hs.itunes will automatically start the application, so this function can be used to guard against that.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the iTunes application is running.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [next](#next)
 
@@ -225,9 +242,10 @@ Controls for iTunes music player
 | **Description**                             | Skips to the next itunes track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pause](#pause)
 
@@ -238,9 +256,10 @@ Controls for iTunes music player
 | **Description**                             | Pauses the current iTunes track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [play](#play)
 
@@ -251,9 +270,10 @@ Controls for iTunes music player
 | **Description**                             | Plays the current iTunes track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playpause](#playpause)
 
@@ -264,9 +284,10 @@ Controls for iTunes music player
 | **Description**                             | Toggles play/pause of current iTunes track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [previous](#previous)
 
@@ -277,9 +298,10 @@ Controls for iTunes music player
 | **Description**                             | Skips to previous itunes track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rw](#rw)
 
@@ -290,9 +312,10 @@ Controls for iTunes music player
 | **Description**                             | Skips the current playback backwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPosition](#setposition)
 
@@ -303,9 +326,10 @@ Controls for iTunes music player
 | **Description**                             | Sets the playback position of the current song                                                                     |
 | **Parameters**                              | <ul><li>pos - A number indicating the playback position (in seconds) to skip to</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setVolume](#setvolume)
 
@@ -316,9 +340,10 @@ Controls for iTunes music player
 | **Description**                             | Sets the iTunes playback volume                                                                     |
 | **Parameters**                              | <ul><li>vol - A number, between 1 and 100</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeDown](#volumedown)
 
@@ -329,9 +354,10 @@ Controls for iTunes music player
 | **Description**                             | Decreases the iTunes playback volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeUp](#volumeup)
 
@@ -342,6 +368,7 @@ Controls for iTunes music player
 | **Description**                             | Increases the iTunes playback volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

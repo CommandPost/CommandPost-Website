@@ -24,7 +24,7 @@ Preferences Window Module.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [editingPanel](#editingpanel)
@@ -34,8 +34,10 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.editingPanel <EditingPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `EditingPanel` for the Preferences Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [generalPanel](#generalpanel)
 
@@ -44,8 +46,10 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.generalPanel <GeneralPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `GeneralPanel` for the Preferences Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [importPanel](#importpanel)
 
@@ -54,8 +58,10 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.importPanel <ImportPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `ImportPanel` for the Preferences Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playbackPanel](#playbackpanel)
 
@@ -64,8 +70,10 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.playbackPanel <PlaybackPanel>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `PlaybackPanel` for the Preferences Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [title](#title)
 
@@ -74,8 +82,10 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.title <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `StaticText` for the Preferences Window title.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [toolbar](#toolbar)
 
@@ -84,9 +94,11 @@ Preferences Window Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.PreferencesWindow.toolbar <cp.ui.Toolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `Toolbar` for the Preferences Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doHide](#dohide)
@@ -98,9 +110,10 @@ Preferences Window Module.
 | **Description**                             | A `Statement` that attempts to hide the Preferences window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -111,9 +124,10 @@ Preferences Window Module.
 | **Description**                             | A `Statement` that attempts to show the Preferences window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -124,9 +138,10 @@ Preferences Window Module.
 | **Description**                             | Attempts to hide the Preferences window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -137,6 +152,7 @@ Preferences Window Module.
 | **Description**                             | Attempts to show the Preferences window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The same `PreferencesWindow`, for chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

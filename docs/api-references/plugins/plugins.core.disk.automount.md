@@ -18,7 +18,7 @@ Automatic Disk Mounting & Unmounting.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [autoMountOnAC](#automountonac)
@@ -28,8 +28,10 @@ Automatic Disk Mounting & Unmounting.
 | **Signature**                               | `plugins.core.disk.automount.autoMountOnAC <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically mount on connection to mains power.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [autoUnmountOnBattery](#autounmountonbattery)
 
@@ -38,9 +40,11 @@ Automatic Disk Mounting & Unmounting.
 | **Signature**                               | `plugins.core.disk.automount.autoUnmountOnBattery <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Automatically Unmount on disconnection from battery.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [mountPhysicalDrives](#mountphysicaldrives)
@@ -52,9 +56,10 @@ Automatic Disk Mounting & Unmounting.
 | **Description**                             | Mount Physical Drives                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unmountPhysicalDrives](#unmountphysicaldrives)
 
@@ -65,6 +70,7 @@ Automatic Disk Mounting & Unmounting.
 | **Description**                             | Unmount Physical Drives                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -24,7 +24,7 @@ The Audio Configuration section of the Audio Inspector.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [AudioComponent](#audiocomponent)
@@ -36,9 +36,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Creates a new Audio Component object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li><li>subcomponent - A boolean that defines whether or not this is a subcomponent.</li><li>index - The index of the component</li></ul> |
 | **Returns**                                 | <ul><li>A new AudioComponent object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -49,10 +50,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [channels](#channels)
@@ -62,8 +64,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.channels <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The channels popup menu button for the component. This only present for                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [role](#role)
 
@@ -72,8 +76,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.role <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The role popup menu button for the subcomponent. Only present for                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showAs](#showas)
 
@@ -82,9 +88,11 @@ The Audio Configuration section of the Audio Inspector.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.AudioComponent.showAs <cp.ui.MenuButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The subroles popup menu button for the component. Only present for                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doShow](#doshow)
@@ -96,9 +104,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | A Statement that will attempt to show the bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which will resolve to `true` if successful, or send an `error` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -109,9 +118,10 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Gets the enable/disable button for the component.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Button` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -122,6 +132,7 @@ The Audio Configuration section of the Audio Inspector.
 | **Description**                             | Attempts to show the bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `AudioComponent` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

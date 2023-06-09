@@ -25,7 +25,7 @@ A generalized framework for working with OSX UI elements
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [focusedElement](#focusedelement)
@@ -37,10 +37,11 @@ A generalized framework for working with OSX UI elements
 | **Description**                             | Gets the currently focused UI element                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.uielement` object or nil if no object could be found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [isApplication](#isapplication)
@@ -52,9 +53,10 @@ A generalized framework for working with OSX UI elements
 | **Description**                             | Returns whether the UI element represents an application.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is an application</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isWindow](#iswindow)
 
@@ -65,9 +67,10 @@ A generalized framework for working with OSX UI elements
 | **Description**                             | Returns whether the UI element represents a window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean, true if the UI element is a window, otherwise false</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [newWatcher](#newwatcher)
 
@@ -82,9 +85,10 @@ A generalized framework for working with OSX UI elements
   watcher: The watcher object being created.
   userData: The userData you included, if any.</li><li>an optional userData object which will be included as the final argument to the callback function when it is called.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.uielement.watcher` object, or `nil` if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [role](#role)
 
@@ -95,9 +99,10 @@ A generalized framework for working with OSX UI elements
 | **Description**                             | Returns the role of the element.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the role of the UI element</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectedText](#selectedtext)
 
@@ -108,6 +113,7 @@ A generalized framework for working with OSX UI elements
 | **Description**                             | Returns the selected text in the element                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the selected text, or nil if none could be found</li></ul>          |
-| **Notes**                                   | <ul><li>Many applications (e.g. Safari, Mail, Firefox) do not implement the necessary accessibility features for this to work in their web views</li></ul>                |
+| **Notes**                                   | <ul><li>Many applications (e.g. Safari, Mail, Firefox) do not implement the necessary accessibility features for this to work in their web views</li></ul> |
 
 ---
+

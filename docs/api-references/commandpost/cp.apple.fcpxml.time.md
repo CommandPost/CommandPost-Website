@@ -38,7 +38,7 @@ into whole seconds (for example, 5s).
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [ONE](#one)
@@ -48,9 +48,11 @@ into whole seconds (for example, 5s).
 | **Signature**                               | `cp.apple.fcpxml.time.ONE -> timeObject`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A time object with a value of 0/1s.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [add](#add)
@@ -62,9 +64,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Adds one time object to another.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [div](#div)
 
@@ -75,9 +78,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Divides one time object with another.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doesIntersect](#doesintersect)
 
@@ -88,9 +92,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Checks to see if two clips intersect.                                                                     |
 | **Parameters**                              | <ul><li>aStart - The start time of clip one as a time object.</li><li>aDuration - The duration of clip one as a time object.</li><li>bStart - The start time of clip two as a time object.</li><li>bDuration - The duration of clip two as a time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [eq](#eq)
 
@@ -101,9 +106,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Compares two time objects to ensure they're equal.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [gcd](#gcd)
 
@@ -114,9 +120,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Gets the greatest common divisor.                                                                     |
 | **Parameters**                              | <ul><li>numerator - A numerator as a number</li><li>denominator - A denominator as a number</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the greatest common divisor.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [lt](#lt)
 
@@ -127,9 +134,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Is time object A less than or equal to time object B?                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [max](#max)
 
@@ -140,9 +148,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Gets the bigger of the two time objects.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [min](#min)
 
@@ -153,9 +162,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Gets the smaller of the two time objects.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A time object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [mul](#mul)
 
@@ -166,9 +176,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | To the power of a time value.                                                                     |
 | **Parameters**                              | <ul><li>object - A time object.</li><li>value - The power value</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sub](#sub)
 
@@ -179,9 +190,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Subtract one time object from another.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li><li>b - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [tonumber](#tonumber)
 
@@ -192,9 +204,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Gets the number value of a time object.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A number</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [tostring](#tostring)
 
@@ -205,9 +218,10 @@ into whole seconds (for example, 5s).
 | **Description**                             | Gets the string value of a time object.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unm](#unm)
 
@@ -218,10 +232,11 @@ into whole seconds (for example, 5s).
 | **Description**                             | Negates a time object.                                                                     |
 | **Parameters**                              | <ul><li>a - A time object.</li></ul> |
 | **Returns**                                 | <ul><li>A new time object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -233,6 +248,7 @@ into whole seconds (for example, 5s).
 | **Description**                             |                                                                      |
 | **Parameters**                              | <ul><li>An optional numerator as a number (i.e. 3400) or a string value (i.e. "3400/2500s" or "2s"). Defaults to "0s".</li><li>A optional denominator as a number (i.e 2500)</li></ul> |
 | **Returns**                                 | <ul><li>A new `cp.apple.fcpxml.time` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

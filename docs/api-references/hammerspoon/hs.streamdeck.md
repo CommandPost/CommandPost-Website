@@ -47,7 +47,7 @@ This module would not have been possible without standing on the shoulders of ot
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [discoveryCallback](#discoverycallback)
@@ -61,9 +61,10 @@ This module would not have been possible without standing on the shoulders of ot
   A boolean, true if a device was connected, false if a device was disconnected
   An hs.streamdeck object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDevice](#getdevice)
 
@@ -74,9 +75,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets an hs.streamdeck object for the specified device                                                                     |
 | **Parameters**                              | <ul><li>num - A number that should be within the bounds of the number of connected devices</li></ul> |
 | **Returns**                                 | <ul><li>An hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -89,9 +91,10 @@ This module would not have been possible without standing on the shoulders of ot
   A boolean, true if a device was connected, false if a device was disconnected
   An hs.streamdeck object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul>                |
+| **Notes**                                   | <ul><li>This function must be called before any other parts of this module are used</li></ul> |
 
 ---
+
 
 ### [numDevices](#numdevices)
 
@@ -102,10 +105,11 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the number of Stream Deck devices connected                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the number of Stream Deck devices attached to the system</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [buttonCallback](#buttoncallback)
@@ -120,9 +124,10 @@ This module would not have been possible without standing on the shoulders of ot
   A number containing the button that was pressed/released
   A boolean indicating whether the button was pressed (true) or released (false)</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [buttonLayout](#buttonlayout)
 
@@ -133,9 +138,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the layout of buttons a Stream Deck device has                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of columns</li><li>The number of rows</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [encoderCallback](#encodercallback)
 
@@ -151,9 +157,10 @@ This module would not have been possible without standing on the shoulders of ot
   A boolean indicating that the button was turned left
   A boolean indicating that the button was turned right</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [firmwareVersion](#firmwareversion)
 
@@ -164,9 +171,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the firmware version of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the firmware version of the deck</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [imageSize](#imagesize)
 
@@ -177,9 +185,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the width and height of the buttons in pixels                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>An table with keys `w` and `h` containing the width and height, respectively, of images expected by the Stream Deck</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -190,9 +199,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Resets a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [screenCallback](#screencallback)
 
@@ -209,9 +219,10 @@ This module would not have been possible without standing on the shoulders of ot
   The X position of where the screen was last touched (if swiping)
   The Y position of where the screen was last touched (if swiping)</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [serialNumber](#serialnumber)
 
@@ -222,9 +233,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Gets the serial number of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the serial number of the deck</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setBrightness](#setbrightness)
 
@@ -235,9 +247,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the brightness of a Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>brightness - A whole number between 0 and 100 indicating the percentage brightness level to set</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck device</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setButtonColor](#setbuttoncolor)
 
@@ -248,9 +261,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets a button on the Stream Deck device to the specified color                                                                     |
 | **Parameters**                              | <ul><li>button - A number (from 1 to 15) describing which button to set the color on</li><li>color - An hs.drawing.color object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setButtonImage](#setbuttonimage)
 
@@ -261,9 +275,10 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the image of a button on the Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>button - A number (from 1 to 15) describing which button to set the image for</li><li>image - An hs.image object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setScreenImage](#setscreenimage)
 
@@ -274,6 +289,7 @@ This module would not have been possible without standing on the shoulders of ot
 | **Description**                             | Sets the image of the screen on the Stream Deck device                                                                     |
 | **Parameters**                              | <ul><li>encoder - A number (from 1 to 4) describing which encoder to set the image for</li><li>image - An hs.image object</li></ul> |
 | **Returns**                                 | <ul><li>The hs.streamdeck object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

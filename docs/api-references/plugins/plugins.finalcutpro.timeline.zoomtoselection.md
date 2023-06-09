@@ -15,7 +15,7 @@ Zoom the Timeline to fit the currently-selected clips.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [toggleZoomToFit](#togglezoomtofit)
@@ -27,9 +27,10 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Description**                             | Toggles between "Zoom to Selection" and the last zoom amount.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggleZoomToSelection](#togglezoomtoselection)
 
@@ -40,9 +41,10 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Description**                             | Toggles between "Zoom to Selection" and the last zoom amount.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [zoomToSelection](#zoomtoselection)
 
@@ -53,6 +55,7 @@ Zoom the Timeline to fit the currently-selected clips.
 | **Description**                             | Zooms the view to fit the currently-selected clips.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if there is selected content in the timeline and zooming was successful.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

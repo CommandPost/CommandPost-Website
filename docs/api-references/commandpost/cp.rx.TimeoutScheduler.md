@@ -15,7 +15,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [create](#create)
@@ -27,9 +27,10 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Description**                             | Creates a new `TimeoutScheduler`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `TimeoutScheduler`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [schedule](#schedule)
 
@@ -40,9 +41,10 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Description**                             | Schedules an action to run at a future point in time.                                                                     |
 | **Parameters**                              | <ul><li>action  - The action to run.</li><li>delay   - The delay, in milliseconds. Defaults to `0`.</li></ul> |
 | **Returns**                                 | <ul><li>The [Reference](cp.rx.Reference.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopAll](#stopall)
 
@@ -53,6 +55,7 @@ A scheduler that uses the `hs.timer` library to schedule events on an event loop
 | **Description**                             | Stops all future timers from running and clears them.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

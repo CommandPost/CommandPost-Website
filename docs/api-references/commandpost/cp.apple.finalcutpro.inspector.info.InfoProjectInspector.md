@@ -23,7 +23,7 @@ Info Inspector Module when a Project is selected.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -35,10 +35,11 @@ Info Inspector Module when a Project is selected.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -50,10 +51,11 @@ Info Inspector Module when a Project is selected.
 | **Description**                             | Creates a new InfoProjectInspector object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A InfoProjectInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [modify](#modify)
@@ -63,9 +65,11 @@ Info Inspector Module when a Project is selected.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.info.InfoProjectInspector.modify <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Modify Project button in the Info Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doShow](#doshow)
@@ -77,9 +81,10 @@ Info Inspector Module when a Project is selected.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that shows the panel.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful and sending an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [propertiesUI](#propertiesui)
 
@@ -90,6 +95,7 @@ Info Inspector Module when a Project is selected.
 | **Description**                             | Returns the `hs.axuielement` object for the Properties UI.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `hs.axuielement` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

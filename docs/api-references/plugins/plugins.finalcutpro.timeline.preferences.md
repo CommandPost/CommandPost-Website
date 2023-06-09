@@ -16,7 +16,7 @@ Final Cut Pro Timeline Preferences.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [backgroundRender](#backgroundrender)
@@ -26,9 +26,11 @@ Final Cut Pro Timeline Preferences.
 | **Signature**                               | `plugins.finalcutpro.timeline.preferences.backgroundRender <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Background Render enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [getAutoRenderDelay](#getautorenderdelay)
@@ -40,6 +42,7 @@ Final Cut Pro Timeline Preferences.
 | **Description**                             | Gets the 'FFAutoRenderDelay' value from the Final Cut Pro Preferences file.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>'FFAutoRenderDelay' value as number.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

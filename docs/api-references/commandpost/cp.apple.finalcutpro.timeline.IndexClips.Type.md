@@ -18,7 +18,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [audio](#audio)
@@ -28,8 +28,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.audio <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Audio" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [titles](#titles)
 
@@ -38,8 +40,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.titles <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Titles" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [video](#video)
 
@@ -48,9 +52,11 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexClips.Type.video <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Video" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [matches](#matches)
@@ -62,6 +68,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Description**                             | Checks if the `element` is the `IndexClips.Type` group.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

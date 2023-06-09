@@ -19,7 +19,7 @@ General Panel Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [TIME_DISPLAY](#time_display)
@@ -29,9 +29,11 @@ General Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.GeneralPanel.TIME_DISPLAY -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The time display options.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [timeDisplay](#timedisplay)
@@ -43,10 +45,11 @@ General Panel Module.
 | **Description**                             | Gets to sets the Time Display value.                                                                     |
 | **Parameters**                              | <ul><li>value - An optional value to set the Time Display.</li></ul> |
 | **Returns**                                 | <ul><li>The time display if successful, otherwise `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [GeneralPanel](#generalpanel)
@@ -58,6 +61,7 @@ General Panel Module.
 | **Description**                             | Creates a new `GeneralPanel` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `GeneralPanel` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

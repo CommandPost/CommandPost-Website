@@ -13,7 +13,7 @@ Disable Waveforms Plugin.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [disableWaveform](#disablewaveform)
@@ -23,5 +23,7 @@ Disable Waveforms Plugin.
 | **Signature**                               | `plugins.finalcutpro.advanced.disablewaveforms.disableWaveform <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Waveforms Disabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

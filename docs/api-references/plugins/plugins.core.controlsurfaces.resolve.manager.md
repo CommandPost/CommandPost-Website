@@ -34,7 +34,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_JOG_MODE](#default_jog_mode)
@@ -44,8 +44,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.DEFAULT_JOG_MODE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default Jog Wheel Mode.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_SENSITIVITY](#default_sensitivity)
 
@@ -54,8 +56,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.DEFAULT_SENSITIVITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default sensitivity used for Blackmagic Resolve Control Surfaces.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LONG_PRESS_DURATION](#long_press_duration)
 
@@ -64,9 +68,11 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.LONG_PRESS_DURATION -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | How long a button needs to be pressed before it's considered a long press (in seconds).                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [defaultLayout](#defaultlayout)
@@ -76,8 +82,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [repeatTimers](#repeattimers)
 
@@ -86,9 +94,11 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.repeatTimers -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing `hs.timer` objects.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [batteryStatus](#batterystatus)
@@ -100,9 +110,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Description**                             | Gets the Battery Status for a specific device                                                                     |
 | **Parameters**                              | <ul><li>deviceType - A string, either "Speed Editor" or "Editor Keyboard"</li><li>deviceID - A string with the device ID</li></ul> |
 | **Returns**                                 | <ul><li>charging - A boolean</li><li>level - The battery level as a number</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [buttonCallback](#buttoncallback)
 
@@ -113,9 +124,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Description**                             | Control Surface Button Callback                                                                     |
 | **Parameters**                              | <ul><li>object - The `hs.resolve` userdata object</li><li>buttonID - A number containing the button that was pressed/released</li><li>pressed - A boolean indicating whether the button was pressed (`true`) or released (`false`)</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [discoveryCallback](#discoverycallback)
 
@@ -126,9 +138,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Description**                             | Control Surface Discovery Callback                                                                     |
 | **Parameters**                              | <ul><li>connected - A boolean, `true` if a device was connected, `false` if a device was disconnected</li><li>object - An `hs.speededitor` object, being the device that was connected/disconnected</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -139,9 +152,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Description**                             | Stops DaVinci Resolve Control Surface Support.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -152,10 +166,11 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Description**                             | Updates all the control surface LEDs.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activeBanks](#activebanks)
@@ -165,8 +180,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
@@ -175,8 +192,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.automaticallySwitchApplications <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -185,8 +204,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable DaVinci Resolve Control Surface support                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [items](#items)
 
@@ -195,8 +216,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.items <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A table containing the control surface layout.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastApplication](#lastapplication)
 
@@ -205,8 +228,10 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBundleID](#lastbundleid)
 
@@ -215,5 +240,7 @@ Blackmagic DaVinci Resolve Control Surface Support.
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.manager.lastBundleID <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last Bundle ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

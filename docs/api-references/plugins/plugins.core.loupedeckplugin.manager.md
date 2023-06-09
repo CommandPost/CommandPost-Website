@@ -31,7 +31,7 @@ Loupedeck Plugin Manager Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [NUMBER_OF_FAVOURITES](#number_of_favourites)
@@ -41,9 +41,11 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.NUMBER_OF_FAVOURITES -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Number of favourites                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [favourites](#favourites)
@@ -53,8 +55,10 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.favourites <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A `cp.prop` that that contains all the Monogram Favourites.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [performAction](#performaction)
 
@@ -63,9 +67,11 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.performAction -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of actions that are triggered by the callback function.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [installPlugin](#installplugin)
@@ -77,9 +83,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Installs the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false` if fails.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [registerAction](#registeraction)
 
@@ -90,9 +97,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Registers a new Loupedeck Plugin Action.                                                                     |
 | **Parameters**                              | <ul><li>name - The name of the action.</li><li>fn - The function to trigger.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [removePlugin](#removeplugin)
 
@@ -103,9 +111,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Removes the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Will always return `true`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [requestKeywordShortcuts](#requestkeywordshortcuts)
 
@@ -116,9 +125,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Triggered when the Loupedeck Service requests a JSON of commands                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [sendMessage](#sendmessage)
 
@@ -129,9 +139,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Sends a websocket message.                                                                     |
 | **Parameters**                              | <ul><li>message - The message to send</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setEnabled](#setenabled)
 
@@ -142,9 +153,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Enables or disables Loupedeck Plugin Support.                                                                     |
 | **Parameters**                              | <ul><li>enabled - A boolean</li></ul> |
 | **Returns**                                 | <ul><li>`true` if Loupedeck Plugin support is enabled, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [startWebSocketClient](#startwebsocketclient)
 
@@ -155,9 +167,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Starts the WebSocket Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopWebSocketClient](#stopwebsocketclient)
 
@@ -168,9 +181,10 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Stops the WebSocket Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updatePlugin](#updateplugin)
 
@@ -181,10 +195,11 @@ Loupedeck Plugin Manager Plugin.
 | **Description**                             | Updates the Loupedeck Plugin.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -194,5 +209,7 @@ Loupedeck Plugin Manager Plugin.
 | **Signature**                               | `plugins.core.loupedeckplugin.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable Monogram Support.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

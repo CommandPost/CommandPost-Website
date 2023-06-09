@@ -22,7 +22,7 @@ Search Console
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [register](#register)
@@ -34,9 +34,10 @@ Search Console
 | **Description**                             | Registers an application specific Search Console.                                                                     |
 | **Parameters**                              | <ul><li>bundleID - The bundle ID of the application</li><li>activatorFn - A function that returns an activator.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -47,6 +48,7 @@ Search Console
 | **Description**                             | Shows the Search Console.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

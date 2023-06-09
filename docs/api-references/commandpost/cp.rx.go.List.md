@@ -25,7 +25,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [List](#list)
@@ -37,10 +37,11 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Description**                             | Creates a new `List` `Statement` that will loop through the provided table as a list.                                                                     |
 | **Parameters**                              | <ul><li>values  - a `table` value, or a `function` which returns a table.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` which will return the first value when executed.</li></ul>          |
-| **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>List(someTable)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Example:</li><li></li><li>```lua</li><li>List(someTable)</li><li>```</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Sorted](#sorted)
@@ -52,9 +53,10 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Description**                             | Indicates the List should be sorted by its natural order before being sent out individually.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Sorted` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):Sorted()</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):Sorted()</li><li>```</li></ul> |
 
 ---
+
 
 ### [SortedBy](#sortedby)
 
@@ -65,6 +67,7 @@ A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list fr
 | **Description**                             | Indicates the List should be sorted by the provided `function`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `SortedBy` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):SortedBy(function(a, b) return b < a)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>For example:</li><li>```lua</li><li>Sort(9,2,5):SortedBy(function(a, b) return b < a)</li><li>```</li></ul> |
 
 ---
+

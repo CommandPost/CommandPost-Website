@@ -42,7 +42,7 @@ These work on all UI elements, including windows.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [element](#element)
@@ -54,9 +54,10 @@ These work on all UI elements, including windows.
 | **Description**                             | Returns the element the watcher is watching.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The element the watcher is watching.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pid](#pid)
 
@@ -67,9 +68,10 @@ These work on all UI elements, including windows.
 | **Description**                             | Returns the PID of the element being watched                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The PID of the element being watched</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -80,9 +82,10 @@ These work on all UI elements, including windows.
 | **Description**                             | Tells the watcher to start watching for the given list of events.                                                                     |
 | **Parameters**                              | <ul><li>An array of events to be watched for.</li></ul> |
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
-| **Notes**                                   | <ul><li>See hs.uielement.watcher for a list of events. You may also specify arbitrary event names as strings.</li><li>Does nothing if the watcher has already been started. To start with different events, stop it first.</li></ul>                |
+| **Notes**                                   | <ul><li>See hs.uielement.watcher for a list of events. You may also specify arbitrary event names as strings.</li><li>Does nothing if the watcher has already been started. To start with different events, stop it first.</li></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -93,6 +96,7 @@ These work on all UI elements, including windows.
 | **Description**                             | Tells the watcher to stop listening for events.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>hs.uielement.watcher</li></ul>          |
-| **Notes**                                   | <ul><li>This is automatically called if the element is destroyed.</li></ul>                |
+| **Notes**                                   | <ul><li>This is automatically called if the element is destroyed.</li></ul> |
 
 ---
+

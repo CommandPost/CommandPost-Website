@@ -75,7 +75,7 @@ back after you restart FCPX.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [indexOf](#indexof)
@@ -87,9 +87,10 @@ back after you restart FCPX.
 | **Description**                             | Returns the index of the Destination with the specified name, or `nil` if not found.                                                                     |
 | **Parameters**                              | <ul><li>`name`   - The name of the Destination</li></ul> |
 | **Returns**                                 | <ul><li>The index of the named Destination, or `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [names](#names)
 
@@ -100,6 +101,7 @@ back after you restart FCPX.
 | **Description**                             | Returns an array of the names of destinations, in their current order.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The table of Share Destination names, or `nil` if an error has occurred.</li><li>An error message as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

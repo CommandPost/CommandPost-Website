@@ -13,7 +13,7 @@ Add a marker to all selected clips under the playhead, or all clips if only one 
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [markAllClips](#markallclips)
@@ -25,6 +25,7 @@ Add a marker to all selected clips under the playhead, or all clips if only one 
 | **Description**                             | Add a marker to all selected clips under the playhead, or all clips if only one clip is selected.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

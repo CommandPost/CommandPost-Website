@@ -17,7 +17,7 @@ Notion Toolbox Panel.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [databaseURL](#databaseurl)
@@ -27,8 +27,10 @@ Notion Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.notion.databaseURL <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Database URL.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [defaultEmoji](#defaultemoji)
 
@@ -37,8 +39,10 @@ Notion Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.notion.defaultEmoji <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Default Emoji                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mergeData](#mergedata)
 
@@ -47,8 +51,10 @@ Notion Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.notion.mergeData <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Merge data?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [settings](#settings)
 
@@ -57,8 +63,10 @@ Notion Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.notion.settings <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Snippets                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [token](#token)
 
@@ -67,5 +75,7 @@ Notion Toolbox Panel.
 | **Signature**                               | `plugins.finalcutpro.toolbox.notion.token <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Notion Token.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

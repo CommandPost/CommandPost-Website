@@ -20,7 +20,7 @@ Final Cut Pro Proxy Icon Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [procyMenuIconEnabled](#procymenuiconenabled)
@@ -30,9 +30,11 @@ Final Cut Pro Proxy Icon Plugin.
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.procyMenuIconEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Toggles the Enable Proxy Menu Icon                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [generateProxyTitle](#generateproxytitle)
@@ -44,9 +46,10 @@ Final Cut Pro Proxy Icon Plugin.
 | **Description**                             | Generates the Proxy Title                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>String containing the Proxy Title</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -57,10 +60,11 @@ Final Cut Pro Proxy Icon Plugin.
 | **Description**                             | Initalise the module.                                                                     |
 | **Parameters**                              | <ul><li>menuManager - The menu manager plugin</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [usingProxies](#usingproxies)
@@ -70,5 +74,7 @@ Final Cut Pro Proxy Icon Plugin.
 | **Signature**                               | `plugins.finalcutpro.menu.proxyicon.usingProxies -> <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Using Proxies?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

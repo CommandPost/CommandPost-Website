@@ -53,7 +53,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [contains](#contains)
@@ -65,9 +65,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Checks if the `queue` contains the specified `item`.                                                                     |
 | **Parameters**                              | <ul><li>queue    - The queue to check.</li><li>item     - The item to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [len](#len)
 
@@ -78,9 +79,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the number of items in the queue.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to check.</li></ul> |
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [peekLeft](#peekleft)
 
@@ -91,9 +93,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the left-most value from the `queue` without removig it.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to peek into.</li></ul> |
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [peekRight](#peekright)
 
@@ -104,9 +107,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the right-most value from the `queue` without removig it.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to peek into.</li></ul> |
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popLeft](#popleft)
 
@@ -117,9 +121,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Removes the left-most value from the `queue` and returns it.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to pop from.</li></ul> |
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popRight](#popright)
 
@@ -130,9 +135,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Removes the right-most value from the `queue` and returns it.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to pop from.</li></ul> |
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pushLeft](#pushleft)
 
@@ -143,9 +149,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Pushes the values to the left side of the `queue`.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to push into.</li><li>...          - The values to push.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul>                |
+| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul> |
 
 ---
+
 
 ### [pushRight](#pushright)
 
@@ -156,9 +163,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Pushes the values to the right side of the `queue`.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to push into.</li><li>...          - The values to push.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul>                |
+| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul> |
 
 ---
+
 
 ### [removeItem](#removeitem)
 
@@ -169,9 +177,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Attempts to remove the specified item from the queue.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to modify.</li><li>item         - The item to remove, if present.</li></ul> |
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
-| **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul>                |
+| **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul> |
 
 ---
+
 
 ### [removeItem](#removeitem)
 
@@ -182,10 +191,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Attempts to remove the specified item from the queue.                                                                     |
 | **Parameters**                              | <ul><li>item         - The item to remove, if present.</li></ul> |
 | **Returns**                                 | <ul><li>The index of the item, or `nil` if not found.</li></ul>          |
-| **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul>                |
+| **Notes**                                   | <ul><li>This call may be very expensive if there are many items in the queue after the specified item.</li><li>If the item was found, the index it was found at is returned.</li><li>If not, `nil` is returned.</li></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -197,10 +207,11 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Creates a new Queue.                                                                     |
 | **Parameters**                              | <ul><li>...      - The optional list of values to add to the right of the queue.</li></ul> |
 | **Returns**                                 | <ul><li>the new `Queue`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also create a new queue by calling `Queue(..)` directly.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also create a new queue by calling `Queue(..)` directly.</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [contains](#contains)
@@ -212,9 +223,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Checks if the `queue` contains the specified `item`.                                                                     |
 | **Parameters**                              | <ul><li>item     - The item to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the item is in the queue.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [len](#len)
 
@@ -225,9 +237,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the number of items in the queue.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to check.</li></ul> |
 | **Returns**                                 | <ul><li>The total number of items.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [peekLeft](#peekleft)
 
@@ -238,9 +251,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the left-most value from the `queue` without removig it.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [peekRight](#peekright)
 
@@ -251,9 +265,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Returns the right-most value from the `queue` without removig it.                                                                     |
 | **Parameters**                              | <ul><li>queue        - The queue to peek into.</li></ul> |
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popLeft](#popleft)
 
@@ -264,9 +279,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Removes the left-most value from the `queue` and returns it.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The left-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [popRight](#popright)
 
@@ -277,9 +293,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Removes the right-most value from the `queue` and returns it.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The right-most value of the `Queue`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pushLeft](#pushleft)
 
@@ -290,9 +307,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Pushes the values to the left side of the `queue`.                                                                     |
 | **Parameters**                              | <ul><li>...          - The values to push.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul>                |
+| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from right to left.</li><li>That is to say, the left-most of the new values will be the left-most value of the queue.</li></ul> |
 
 ---
+
 
 ### [pushRight](#pushright)
 
@@ -303,6 +321,7 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 | **Description**                             | Pushes the values to the right side of the `queue`.                                                                     |
 | **Parameters**                              | <ul><li>...          - The values to push.</li></ul> |
 | **Returns**                                 | <ul><li>The same `Queue` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul>                |
+| **Notes**                                   | <ul><li>If there are multiple values, then they will be added from left to right.</li><li>That is to say, the right-most of the new values will be the right-most value of the queue.</li></ul> |
 
 ---
+

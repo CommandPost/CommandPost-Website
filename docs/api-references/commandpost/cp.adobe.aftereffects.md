@@ -27,7 +27,7 @@ Adobe After Effects Extension
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [preferences](#preferences)
@@ -37,9 +37,11 @@ Adobe After Effects Extension
 | **Signature**                               | `cp.adobe.aftereffects.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for After Effects.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [allowScriptsToWriteFilesAndAccessNetwork](#allowscriptstowritefilesandaccessnetwork)
@@ -51,9 +53,10 @@ Adobe After Effects Extension
 | **Description**                             | Is "Allow Scripts to Write Files and Access Network" enabled in After Effects Preferences?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [preferencesFilePath](#preferencesfilepath)
 
@@ -64,9 +67,10 @@ Adobe After Effects Extension
 | **Description**                             | The path to the main Preferences file.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [preferencesPath](#preferencespath)
 
@@ -77,9 +81,10 @@ Adobe After Effects Extension
 | **Description**                             | The path to After Effects Preferences folder.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string or `nil` if no path can be found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [refreshPreferences](#refreshpreferences)
 
@@ -90,9 +95,10 @@ Adobe After Effects Extension
 | **Description**                             | If After Effects is running, this forces the preferences file to be saved to disk.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shortcutsPreferences](#shortcutspreferences)
 
@@ -103,9 +109,10 @@ Adobe After Effects Extension
 | **Description**                             | Gets a table of all the active After Effects keyboard shortcuts.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shortcutsPreferencesPath](#shortcutspreferencespath)
 
@@ -116,6 +123,7 @@ Adobe After Effects Extension
 | **Description**                             | Gets the active shortcut key preferences file path.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

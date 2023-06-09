@@ -22,7 +22,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [Then](#then)
@@ -32,9 +32,11 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Signature**                               | `cp.rx.go.If.Then <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp`, which should be created via `SetProp:To(value)`                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Otherwise](#otherwise)
@@ -46,9 +48,10 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Description**                             | Call this to define what will happen if value doesn't resolve successfully.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolveable` values to process for the unsuccessful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>The `Then` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:Otherwise(false)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>The parameters can be any `resolvable` type.</li><li></li><li>For example:</li><li>```lua</li><li>If(anObservable)</li><li>:Then(function(aResult)</li><li>    doSomethingWith(aResult, anotherResult)</li><li>    return true</li><li>end)</li><li>:Otherwise(false)</li><li>```</li></ul> |
 
 ---
+
 
 ### [Then](#then)
 
@@ -59,6 +62,7 @@ A `Statement.Modifier` that defines what happens when an `If` matches.
 | **Description**                             | Each [Then](cp.rx.go.If.Then.md) can have a subsequent `Then` which will be executed after the previous one resolves.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` values to process for the sucessful `If` result.</li></ul> |
 | **Returns**                                 | <ul><li>A new [If.Then](cp.rx.go.If.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

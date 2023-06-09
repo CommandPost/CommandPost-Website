@@ -34,7 +34,7 @@ and if not, it will send an error.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [OrThrow](#orthrow)
@@ -44,9 +44,11 @@ and if not, it will send an error.
 | **Signature**                               | `cp.rx.go.Require.OrThrow <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the message to throw if the requirement is not met.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [Require](#require)
@@ -58,10 +60,11 @@ and if not, it will send an error.
 | **Description**                             | Creates a new `Require` `Statement` with the specified `requirement`.                                                                     |
 | **Parameters**                              | <ul><li>requirement  - a `resolvable` value that will be checked.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `requirement` matches the requirement.</li></ul>          |
-| **Notes**                                   | <ul><li>By default, it will require that all items in the requirement are not `nil` and completed.</li><li>This is most useful with `Given`, allowing retrieval and checking of values before continuing.</li><li>Example:</li><li></li><li>```lua</li><li>Given(</li><li>    Require(someObservable):Is(2):OrThrow("Must be 2")</li><li>):Then(function(someValue)</li><li>    -- do stuff with `someValue`</li><li>):Now()</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>By default, it will require that all items in the requirement are not `nil` and completed.</li><li>This is most useful with `Given`, allowing retrieval and checking of values before continuing.</li><li>Example:</li><li></li><li>```lua</li><li>Given(</li><li>    Require(someObservable):Is(2):OrThrow("Must be 2")</li><li>):Then(function(someValue)</li><li>    -- do stuff with `someValue`</li><li>):Now()</li><li>```</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Are](#are)
@@ -73,9 +76,10 @@ and if not, it will send an error.
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [AreNot](#arenot)
 
@@ -86,9 +90,10 @@ and if not, it will send an error.
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Is](#is)
 
@@ -99,9 +104,10 @@ and if not, it will send an error.
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [IsNot](#isnot)
 
@@ -112,9 +118,10 @@ and if not, it will send an error.
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must not match.</li></ul> |
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Matches](#matches)
 
@@ -125,9 +132,10 @@ and if not, it will send an error.
 | **Description**                             | Specifies the predicate to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value that all results from the `requirement` must not match.</li></ul> |
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>Require(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>Example:</li><li>```lua</li><li>Require(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul> |
 
 ---
+
 
 ### [OrThrow](#orthrow)
 
@@ -138,6 +146,7 @@ and if not, it will send an error.
 | **Description**                             | Specifies the message to throw if the requirement is not met.                                                                     |
 | **Parameters**                              | <ul><li>message  - The string to throw when there is an error.</li></ul> |
 | **Returns**                                 | <ul><li>The `OrThrow` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

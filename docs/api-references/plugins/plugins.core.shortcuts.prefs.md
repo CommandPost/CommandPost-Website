@@ -21,7 +21,7 @@ Shortcuts Preferences Panel
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_SHORTCUTS](#default_shortcuts)
@@ -31,9 +31,11 @@ Shortcuts Preferences Panel
 | **Signature**                               | `plugins.core.shortcuts.prefs.DEFAULT_SHORTCUTS -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Default Shortcuts File Name                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [getGroupEditor](#getgroupeditor)
@@ -45,9 +47,10 @@ Shortcuts Preferences Panel
 | **Description**                             | Gets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li></ul> |
 | **Returns**                                 | <ul><li>Group Editor</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -58,9 +61,10 @@ Shortcuts Preferences Panel
 | **Description**                             | Initialise the Module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Dependancies Table</li><li>env - Environment Table</li></ul> |
 | **Returns**                                 | <ul><li>The Module</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGroupEditor](#setgroupeditor)
 
@@ -71,10 +75,11 @@ Shortcuts Preferences Panel
 | **Description**                             | Sets the Group Editor                                                                     |
 | **Parameters**                              | <ul><li>groupId - Group ID</li><li>editorFn - Editor Function</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [lastGroup](#lastgroup)
@@ -84,5 +89,7 @@ Shortcuts Preferences Panel
 | **Signature**                               | `plugins.core.shortcuts.prefs.lastGroup <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last group used in the Preferences Drop Down.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

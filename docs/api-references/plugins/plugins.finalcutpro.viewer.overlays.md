@@ -63,7 +63,7 @@ Final Cut Pro Viewer Overlays.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [activeMemory](#activememory)
@@ -73,8 +73,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.activeMemory <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [basicGridEnabled](#basicgridenabled)
 
@@ -83,8 +85,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.basicGridEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Grid Enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [capslock](#capslock)
 
@@ -93,8 +97,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.capslock <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggle Viewer Overlays with Caps Lock.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [crossHairAlpha](#crosshairalpha)
 
@@ -103,8 +109,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairAlpha <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Alpha                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [crossHairColor](#crosshaircolor)
 
@@ -113,8 +121,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [crossHairEnabled](#crosshairenabled)
 
@@ -123,8 +133,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.crossHairEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Cross Hair Enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [customCrossHairColor](#customcrosshaircolor)
 
@@ -133,8 +145,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customCrossHairColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Cross Hair Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [customGridColor](#customgridcolor)
 
@@ -143,8 +157,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customGridColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [customGuideColor](#customguidecolor)
 
@@ -153,8 +169,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.customGuideColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Guide Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [disabled](#disabled)
 
@@ -163,8 +181,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.disabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are all the Viewer Overlay's disabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [draggableGuideEnabled](#draggableguideenabled)
 
@@ -173,8 +193,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.draggableGuideEnabled <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Grid Enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enableViewerRightClick](#enableviewerrightclick)
 
@@ -183,8 +205,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.enableViewerRightClick <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Allow the user to right click on the top of the viewer to access the menu?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [gridAlpha](#gridalpha)
 
@@ -193,8 +217,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridAlpha <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Alpha                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [gridColor](#gridcolor)
 
@@ -203,8 +229,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridColor <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Grid Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [gridSpacing](#gridspacing)
 
@@ -213,8 +241,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.gridSpacing <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Custom Grid Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [guideAlpha](#guidealpha)
 
@@ -223,8 +253,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guideAlpha <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Guide Alpha                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [guideColor](#guidecolor)
 
@@ -233,8 +265,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guideColor <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Viewer Guide Color as HTML value                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [guidePosition](#guideposition)
 
@@ -243,8 +277,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.guidePosition <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Guide Position.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [letterboxEnabled](#letterboxenabled)
 
@@ -253,8 +289,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.letterboxEnabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Is Viewer Letterbox Enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [letterboxHeight](#letterboxheight)
 
@@ -263,8 +301,10 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.letterboxHeight <cp.prop: number>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Letterbox Height                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [stillsLayout](#stillslayout)
 
@@ -273,9 +313,11 @@ Final Cut Pro Viewer Overlays.
 | **Signature**                               | `plugins.finalcutpro.viewer.overlays.stillsLayout <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Stills layout.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [deleteMemory](#deletememory)
@@ -287,9 +329,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Deletes a memory.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [disableAllDraggableGuides](#disablealldraggableguides)
 
@@ -300,9 +343,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Disable all draggable guides.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [draggableGuidesEnabled](#draggableguidesenabled)
 
@@ -313,9 +357,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Are any draggable guides enabled?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if at least one draggable guide is enabled otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [enableAllDraggableGuides](#enablealldraggableguides)
 
@@ -326,9 +371,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Enable all draggable guides.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCustomGuideColor](#getcustomguidecolor)
 
@@ -339,9 +385,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Custom Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDraggableGuideEnabled](#getdraggableguideenabled)
 
@@ -352,9 +399,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Enabled.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getGuideAlpha](#getguidealpha)
 
@@ -365,9 +413,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Alpha.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getGuideColor](#getguidecolor)
 
@@ -378,9 +427,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getGuidePosition](#getguideposition)
 
@@ -391,9 +441,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Get Guide Position.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getMemory](#getmemory)
 
@@ -404,9 +455,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Gets an image from memory.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the memory you want to retrieve.</li></ul> |
 | **Returns**                                 | <ul><li>The memory as a `hs.image` or `nil` if the memory could not be retrieved.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getStillsFolderPath](#getstillsfolderpath)
 
@@ -417,9 +469,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Gets the stills folder path.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The stills folder path as a string or `nil` if an error occurs.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -430,9 +483,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Hides the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [importMemory](#importmemory)
 
@@ -443,9 +497,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Import a file to memory.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resetDraggableGuide](#resetdraggableguide)
 
@@ -456,9 +511,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Reset a specific Draggable Guide.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resetOverlays](#resetoverlays)
 
@@ -469,9 +525,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Resets all overlays to their default values.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveMemory](#savememory)
 
@@ -482,9 +539,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Saves a still frame to file.                                                                     |
 | **Parameters**                              | <ul><li>id - An identifier in the form of a number.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setCustomCrossHairColor](#setcustomcrosshaircolor)
 
@@ -495,9 +553,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for cross hairs.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setCustomGridColor](#setcustomgridcolor)
 
@@ -508,9 +567,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for grid lines.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setCustomGuideColor](#setcustomguidecolor)
 
@@ -521,9 +581,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Pops up a Color Dialog box allowing the user to select a custom colour for guide lines.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGridAlpha](#setgridalpha)
 
@@ -534,9 +595,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Alpha.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGridColor](#setgridcolor)
 
@@ -547,9 +609,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Color.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGridSpacing](#setgridspacing)
 
@@ -560,9 +623,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Grid Spacing.                                                                     |
 | **Parameters**                              | <ul><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGuideAlpha](#setguidealpha)
 
@@ -573,9 +637,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Guide Alpha.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setGuideColor](#setguidecolor)
 
@@ -586,9 +651,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Sets Guide Color.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li><li>value - The value you want to set.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -599,9 +665,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Show's the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [toggleDraggableGuide](#toggledraggableguide)
 
@@ -612,9 +679,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Toggle Guide Enabled.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the guide.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -625,9 +693,10 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | Updates the Viewer Grid.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [viewMemory](#viewmemory)
 
@@ -638,6 +707,7 @@ Final Cut Pro Viewer Overlays.
 | **Description**                             | View a memory.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the memory you want to retrieve.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

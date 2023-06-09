@@ -26,7 +26,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [customModifier](#custommodifier)
@@ -36,8 +36,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.customModifier <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Should Mouse Zoom be inverted?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -46,8 +48,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Toggles the Enable Proxy Menu Icon                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [numberOfTouchDevices](#numberoftouchdevices)
 
@@ -56,8 +60,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.numberOfTouchDevices -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Number of Touch Devices Detected.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [offset](#offset)
 
@@ -66,8 +72,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.offset -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Offset Value used in difference calculations.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sensitivity](#sensitivity)
 
@@ -76,8 +84,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.sensitivity <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Sensitivity Level                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [threshold](#threshold)
 
@@ -86,9 +96,11 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Signature**                               | `plugins.finalcutpro.timeline.mousezoom.threshold -> number`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Threshold Value used in difference calculations.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [findMagicMouses](#findmagicmouses)
@@ -100,9 +112,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Description**                             | Find Magic Mouse Devices and adds them to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -113,9 +126,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Description**                             | Enables the ability to zoon a timeline using your mouse scroll wheel and the OPTION modifier key.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -126,9 +140,10 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Description**                             | Disables the ability to zoom a timeline using your mouse scroll wheel and the OPTION modifier key.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -139,6 +154,7 @@ Special Thanks: Iain Anderson (@funwithstuff) for all his incredible testing!
 | **Description**                             | Checks to see whether or not we should enable the timeline zoom watchers.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

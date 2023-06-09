@@ -20,7 +20,7 @@ Final Cut Pro Browser List View Columns
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Columns](#columns)
@@ -32,10 +32,11 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Constructs a new Columns object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object</li></ul> |
 | **Returns**                                 | <ul><li>The new `Columns` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [menu](#menu)
@@ -45,9 +46,11 @@ Final Cut Pro Browser List View Columns
 | **Signature**                               | `cp.apple.finalcutpro.browser.Columns.menu <cp.ui.Menu>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Columns menu object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [isMenuShowing](#ismenushowing)
@@ -59,9 +62,10 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Is the Columns menu popup showing?                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the columns menu popup is showing, otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -72,6 +76,7 @@ Final Cut Pro Browser List View Columns
 | **Description**                             | Shows the Browser List View columns menu popup.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

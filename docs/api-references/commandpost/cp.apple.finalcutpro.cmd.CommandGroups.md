@@ -13,7 +13,7 @@ Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -25,6 +25,7 @@ Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.
 | **Description**                             | Checks if the element is a Command Groups element.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

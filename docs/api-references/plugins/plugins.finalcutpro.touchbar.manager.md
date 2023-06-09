@@ -13,7 +13,7 @@ Final Cut Pro Touch Bar Manager.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [enabled](#enabled)
@@ -23,5 +23,7 @@ Final Cut Pro Touch Bar Manager.
 | **Signature**                               | `plugins.finalcutpro.touchbar.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the plugin is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

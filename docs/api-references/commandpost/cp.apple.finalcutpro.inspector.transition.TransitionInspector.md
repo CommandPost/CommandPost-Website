@@ -21,7 +21,7 @@ Transition Inspector Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [EASE](#ease)
@@ -31,8 +31,10 @@ Transition Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.EASE -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Ease Types                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FADE_TYPES](#fade_types)
 
@@ -41,8 +43,10 @@ Transition Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.FADE_TYPES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Fade Types                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LOOKS](#looks)
 
@@ -51,9 +55,11 @@ Transition Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.transition.TransitionInspector.LOOKS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Cross Dissolve Looks                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -65,10 +71,11 @@ Transition Inspector Module.
 | **Description**                             | Checks if the element is the `TransitionInspector`                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is a match, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [TransitionInspector](#transitioninspector)
@@ -80,6 +87,7 @@ Transition Inspector Module.
 | **Description**                             | Creates a new `TransitionInspector` object.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A `TransitionInspector` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

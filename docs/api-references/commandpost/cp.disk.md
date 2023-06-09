@@ -39,7 +39,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [eject](#eject)
@@ -51,9 +51,10 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Unmounts and ejects (where appropriate) all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [mount](#mount)
 
@@ -64,9 +65,10 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Mounts all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unmount](#unmount)
 
@@ -77,9 +79,10 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Unmounts all disks matching the provided `options`.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [visit](#visit)
 
@@ -90,6 +93,7 @@ local externalDrives = disk.devices({physical = true, ejectable = true})
 | **Description**                             | Visits all drives matching the `options` and executes the `fn` function with the `deviceID` string (e.g. "disk0" or "disk2s1") and a table of additional data about the drive.                                                                     |
 | **Parameters**                              | <ul><li>options   - The table of filter options.</li><li>fn        - The function to execute.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

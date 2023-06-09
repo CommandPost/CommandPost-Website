@@ -31,7 +31,7 @@ Reads & Writes plist data.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [base64ToTable](#base64totable)
@@ -43,9 +43,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts base64 encoded Property List string into a Table.                                                                     |
 | **Parameters**                              | <ul><li>base64Data - Binary data encoded in base64 as a string</li></ul> |
 | **Returns**                                 | <ul><li>A table of the plist data</li><li>A error message as string if an error occurs</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [binaryFileToTable](#binaryfiletotable)
 
@@ -56,9 +57,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts the data from a Binary File into a LUA Table.                                                                     |
 | **Parameters**                              | <ul><li>plistFileName - Path & Filename of the Binary File</li></ul> |
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [binaryFileToXML](#binaryfiletoxml)
 
@@ -69,9 +71,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts the data from a Binary plist File into XML as a string.                                                                     |
 | **Parameters**                              | <ul><li>plistFileName - Path & Filename of the Binary File</li></ul> |
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [binaryToTable](#binarytotable)
 
@@ -82,9 +85,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts Binary Data into a LUA Table.                                                                     |
 | **Parameters**                              | <ul><li>binaryData       - Binary data</li></ul> |
 | **Returns**                                 | <ul><li>data             - A string of XML data</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fileToTable](#filetotable)
 
@@ -95,9 +99,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts plist data from a binary or XML file into a LUA Table.                                                                     |
 | **Parameters**                              | <ul><li>plistFileName    - Path & Filename of the XML File</li></ul> |
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul><li>It will check the file prior to loading to determine which type it is.</li><li>If you know which type of file you're dealing with in advance, you can use cp.plist.xmlFileToTable() or hs.plist.binaryFileToTable() instead.</li></ul>                |
+| **Notes**                                   | <ul><li>It will check the file prior to loading to determine which type it is.</li><li>If you know which type of file you're dealing with in advance, you can use cp.plist.xmlFileToTable() or hs.plist.binaryFileToTable() instead.</li></ul> |
 
 ---
+
 
 ### [isBinaryPlist](#isbinaryplist)
 
@@ -108,9 +113,10 @@ Reads & Writes plist data.
 | **Description**                             | Checks if the provided data is a binary plist.                                                                     |
 | **Parameters**                              | <ul><li>data - The data to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a binary plist, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isBinaryPlistFile](#isbinaryplistfile)
 
@@ -121,9 +127,10 @@ Reads & Writes plist data.
 | **Description**                             | Returns `true` if plistList is a binary plist file otherwise `false`.                                                                     |
 | **Parameters**                              | <ul><li>plistList - Path to the file</li></ul> |
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPlist](#isplist)
 
@@ -134,9 +141,10 @@ Reads & Writes plist data.
 | **Description**                             | Checks if the data is either a binary or XML plist data `string`.                                                                     |
 | **Parameters**                              | <ul><li>data             - The data to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the data is a plist, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPlistFile](#isplistfile)
 
@@ -147,9 +155,10 @@ Reads & Writes plist data.
 | **Description**                             | Checks if the provided file is a binary or XML plist file.                                                                     |
 | **Parameters**                              | <ul><li>plistFileName    - Path & Filename of the XML File</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a binary or XML plist file, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isXMLPlist](#isxmlplist)
 
@@ -160,9 +169,10 @@ Reads & Writes plist data.
 | **Description**                             | Checks if the provided data is an XML plist.                                                                     |
 | **Parameters**                              | <ul><li>data - The data to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an XML plist, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul><li>This will only check if it is an XML file, it does not check the actual format is correct.</li></ul>                |
+| **Notes**                                   | <ul><li>This will only check if it is an XML file, it does not check the actual format is correct.</li></ul> |
 
 ---
+
 
 ### [isXMLPlistFile](#isxmlplistfile)
 
@@ -173,9 +183,10 @@ Reads & Writes plist data.
 | **Description**                             | Returns `true` if plistList is (probably) an XML plist file otherwise `false`.                                                                     |
 | **Parameters**                              | <ul><li>plistList - Path to the file</li></ul> |
 | **Returns**                                 | <ul><li>Boolean</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xmlFileToTable](#xmlfiletotable)
 
@@ -186,9 +197,10 @@ Reads & Writes plist data.
 | **Description**                             | Converts XML data from a file into a LUA Table.                                                                     |
 | **Parameters**                              | <ul><li>plistFileName    - Path & Filename of the XML File</li></ul> |
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xmlToTable](#xmltotable)
 
@@ -199,6 +211,7 @@ Reads & Writes plist data.
 | **Description**                             | Converts an XML plist string into a LUA Table.                                                                     |
 | **Parameters**                              | <ul><li>plistXml         - The XML string</li></ul> |
 | **Returns**                                 | <ul><li>data             - A table of plist data, or `nil` if there was a problem.</li><li>err              - The error message, or `nil` if there were no problems.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

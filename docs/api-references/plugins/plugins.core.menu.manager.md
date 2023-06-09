@@ -31,7 +31,7 @@ Menu Manager Plugin.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [rootSection](#rootsection)
@@ -41,8 +41,10 @@ Menu Manager Plugin.
 | **Signature**                               | `plugins.core.menu.manager.rootSection() -> section`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A new Root Section                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [titleSuffix](#titlesuffix)
 
@@ -51,9 +53,11 @@ Menu Manager Plugin.
 | **Signature**                               | `plugins.core.menu.manager.titleSuffix() -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Table of Title Suffix's                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addSection](#addsection)
@@ -65,9 +69,10 @@ Menu Manager Plugin.
 | **Description**                             | Creates a new menu section, which can have items and sub-menus added to it.                                                                     |
 | **Parameters**                              | <ul><li>priority - The priority order of menu items created in the section relative to other sections.</li></ul> |
 | **Returns**                                 | <ul><li>section - The section that was created.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [addTitleSuffix](#addtitlesuffix)
 
@@ -78,9 +83,10 @@ Menu Manager Plugin.
 | **Description**                             | Allows you to add a custom Suffix to the Menubar Title                                                                     |
 | **Parameters**                              | <ul><li>fnTitleSuffix - A function that returns a single string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [disable](#disable)
 
@@ -91,9 +97,10 @@ Menu Manager Plugin.
 | **Description**                             | Removes the menu from the system menu bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [enable](#enable)
 
@@ -104,9 +111,10 @@ Menu Manager Plugin.
 | **Description**                             | Returns the previously removed menu back to the system menu bar.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the menubaritem</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generateMenuTable](#generatemenutable)
 
@@ -117,9 +125,10 @@ Menu Manager Plugin.
 | **Description**                             | Generates the Menu Table                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Menu Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -130,9 +139,10 @@ Menu Manager Plugin.
 | **Description**                             | Initialises the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [updateMenubarIcon](#updatemenubaricon)
 
@@ -143,10 +153,11 @@ Menu Manager Plugin.
 | **Description**                             | Updates the Menubar Icon                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [displayMenubarAsIcon](#displaymenubarasicon)
@@ -156,5 +167,7 @@ Menu Manager Plugin.
 | **Signature**                               | `plugins.core.menu.manager.displayMenubarAsIcon <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If `true`, the menubar item will be the app icon. If not, it will be the app name.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

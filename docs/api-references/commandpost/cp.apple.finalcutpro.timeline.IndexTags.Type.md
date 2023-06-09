@@ -21,7 +21,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [analysisKeywords](#analysiskeywords)
@@ -31,8 +31,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.analysisKeywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Auto-analysis keywords" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [chapters](#chapters)
 
@@ -41,8 +43,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.chapters <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Chapter markers" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [completeTodos](#completetodos)
 
@@ -51,8 +55,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.completeTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Complete todo marker" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [incompleteTodos](#incompletetodos)
 
@@ -61,8 +67,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.incompleteTodos <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Incomplete todo marker" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywords](#keywords)
 
@@ -71,8 +79,10 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.keywords <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Keywords" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [standardMarkers](#standardmarkers)
 
@@ -81,9 +91,11 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Signature**                               | `cp.apple.finalcutpro.timeline.IndexTags.Type.standardMarkers <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [RadioButton](cp.ui.RadioButton.md) for the "Show standard markers" filter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [matches](#matches)
@@ -95,6 +107,7 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
 | **Description**                             | Checks if the `element` is the `IndexTags.Type` group.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

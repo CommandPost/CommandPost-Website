@@ -13,7 +13,7 @@ A `Statement.Modifier` that specifies that the `cp.prop` is reset to its origina
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [ThenReset](#thenreset)
@@ -23,5 +23,7 @@ A `Statement.Modifier` that specifies that the `cp.prop` is reset to its origina
 | **Signature**                               | `cp.rx.go.SetProp.To.Then.ThenReset <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `SetProp.To.Then`, which should be created via `SetProp:To(...):Then(...):ThenReset()`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

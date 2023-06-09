@@ -206,7 +206,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
@@ -216,8 +216,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_AUDIO_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of audio file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_EXTENSIONS](#allowed_import_extensions)
 
@@ -226,8 +228,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of all file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
 
@@ -236,8 +240,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_IMAGE_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of image file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [ALLOWED_IMPORT_VIDEO_EXTENSIONS](#allowed_import_video_extensions)
 
@@ -246,8 +252,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.ALLOWED_IMPORT_VIDEO_EXTENSIONS -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of video file extensions Final Cut Pro can import.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
@@ -256,8 +264,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The earliest version of Final Cut Pro supported by this module.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [EVENT_DESCRIPTION_PATH](#event_description_path)
 
@@ -266,8 +276,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.EVENT_DESCRIPTION_PATH -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The Event Description Path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FLEXO_LANGUAGES](#flexo_languages)
 
@@ -276,8 +288,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.FLEXO_LANGUAGES -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Final Cut Pro's supported Languages for the Flexo Framework                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [PASTEBOARD_UTI](#pasteboard_uti)
 
@@ -286,8 +300,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.PASTEBOARD_UTI -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Final Cut Pro's Pasteboard UTI                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preferences](#preferences)
 
@@ -296,8 +312,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.preferences <cp.app.prefs>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app.prefs` for Final Cut Pro.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [WORKSPACES_PATH](#workspaces_path)
 
@@ -306,9 +324,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.WORKSPACES_PATH -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The path to the custom workspaces folder.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [activeCommandSet](#activecommandset)
@@ -318,8 +338,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.activeCommandSet <cp.prop: table; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Contins the 'Active Command Set' as a `table`. The result is cached, but                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [customWorkspaces](#customworkspaces)
 
@@ -328,8 +350,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro:customWorkspaces <cp.prop: table; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table containing the display names of all the user created custom workspaces.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [openAndSavePanelDefaultPath](#openandsavepaneldefaultpath)
 
@@ -338,8 +362,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro:openAndSavePanelDefaultPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A string containing the default open/save panel path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [selectedWorkspace](#selectedworkspace)
 
@@ -348,9 +374,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.selectedWorkspace <cp.prop: string; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The currently selected workspace name. The result is cached, but updated                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [commandSet](#commandset)
@@ -362,9 +390,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets the Command Set at the specified path as a table.                                                                     |
 | **Parameters**                              | <ul><li>`path`	- The path to the Command Set.</li></ul> |
 | **Returns**                                 | <ul><li>The Command Set as a table, or `nil` if there was a problem.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -375,9 +404,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -388,9 +418,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Checks if the element is an `TranscodeMedia` instance.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `TranscodeMedia`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [userCommandSetPath](#usercommandsetpath)
 
@@ -401,9 +432,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets the path where User Command Set files are stored.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A path as a string or `nil` if the folder doesn't exist.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [workflowExtensionNames](#workflowextensionnames)
 
@@ -414,10 +446,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets the names of all the installed Workflow Extensions.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of Workflow Extension names</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Color](#color)
@@ -429,9 +462,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Creates a new `Color` instance.                                                                     |
 | **Parameters**                              | <ul><li>app - The Final Cut Pro app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Color`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [TranscodeMedia](#transcodemedia)
 
@@ -442,10 +476,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Creates a new `TranscodeMedia` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>The new `TranscodeMedia`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activeCommandSetPath](#activecommandsetpath)
@@ -455,8 +490,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.activeCommandSetPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the 'Active Command Set' value from the Final Cut Pro preferences                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [alert](#alert)
 
@@ -465,8 +502,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.alert <cp.ui.Alert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides basic access to any 'alert' dialog windows in the app.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [audioEnhancements](#audioenhancements)
 
@@ -475,8 +514,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.audioEnhancements <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Enhancements                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [audioLanes](#audiolanes)
 
@@ -485,8 +526,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.timeline.audioLanes <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if audio lanes are currently showing. May be set to ensure it is showing or hidden.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [audioMeters](#audiometers)
 
@@ -495,8 +538,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.audioMeters <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Audio Meters button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backgroundTasksDialog](#backgroundtasksdialog)
 
@@ -505,8 +550,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.backgroundTasksDialog <cp.apple.finalcutpro.main.BackgroundTasksDialog>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [BackgroundTasksDialog](cp.apple.finalcutpro.main.BackgroundTasksDialog.md) dialog window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [browser](#browser)
 
@@ -515,8 +562,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.browser <cp.apple.finalcutpro.main.Browser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Browser](cp.apple.finalcutpro.main.Browser.md) instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [changePosition](#changeposition)
 
@@ -525,8 +574,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.changePosition <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Change Position Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [color](#color)
 
@@ -535,8 +586,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.color <ColorInspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorInspector instance from the primary window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [colorBoard](#colorboard)
 
@@ -545,8 +598,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.colorBoard <ColorBoard>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard instance from the primary window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [colorCorrection](#colorcorrection)
 
@@ -555,8 +610,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.colorCorrection <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Color Correction" `PopUpButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [commandDescriptions](#commanddescriptions)
 
@@ -565,8 +622,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.commandDescriptions <cp.strings>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command descriptions, with keys mapped to human-readable descriptions in the current locale.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [commandEditor](#commandeditor)
 
@@ -575,8 +634,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.commandEditor <CommandEditor>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Command Editor                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [commandNames](#commandnames)
 
@@ -585,8 +646,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.commandNames <cp.strings>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `table` of all available command names, with keys mapped to human-readable names in the current locale.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [commandPostWorkflowExtension](#commandpostworkflowextension)
 
@@ -595,8 +658,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.commandPostWorkflowExtension <CommandPostWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CommandPost Workflow Extension window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contentUI](#contentui)
 
@@ -605,8 +670,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [contentUI](#contentui)
 
@@ -615,8 +682,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ShareInspector.contentUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` containing the properties rows, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [deselectAll](#deselectall)
 
@@ -625,8 +694,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.deselectAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [effects](#effects)
 
@@ -635,8 +706,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.effects <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The EffectsBrowser instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [effects](#effects)
 
@@ -645,8 +718,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.effects <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Effects                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [eventViewer](#eventviewer)
 
@@ -655,8 +730,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.eventViewer <cp.apple.finalcutpro.viewer.Viewer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Event [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [exportDialog](#exportdialog)
 
@@ -665,8 +742,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.exportDialog <cp.apple.finalcutpro.main.ExportDialog>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Export Dialog Box                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [findAndReplaceTitleText](#findandreplacetitletext)
 
@@ -675,8 +754,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.findAndReplaceTitleText <cp.apple.finalcutpro.main.FindAndReplaceTitleText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [FindAndReplaceTitleText](cp.apple.finalcutpro.main.FindAndReplaceTitleText.md) dialog window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [fullScreenPlayer](#fullscreenplayer)
 
@@ -685,8 +766,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.fullScreenPlayer <FullScreenPlayer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the Final Cut Pro Full Screen Window (usually triggered by Cmd+Shift+F)                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [generators](#generators)
 
@@ -695,8 +778,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.generators <cp.apple.finalcutpro.main.GeneratorsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The GeneratorsBrowser instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [inspector](#inspector)
 
@@ -705,8 +790,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector <cp.apple.finalcutpro.inspector.Inspector>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Inspector](cp.apple.finalcutpro.inspector.Inspector.md) instance from the primary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [inspectorUnits](#inspectorunits)
 
@@ -715,8 +802,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.inspectorUnits <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Inspector Units" `PopUpButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isAudioScrubbingEnabled](#isaudioscrubbingenabled)
 
@@ -725,8 +814,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isAudioScrubbingEnabled <bool; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the audio scrubbing is enabled for the application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isFrontmost](#isfrontmost)
 
@@ -735,8 +826,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro:isFrontmost <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Frontmost?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isInstalled](#isinstalled)
 
@@ -745,8 +838,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isInstalled <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is any version of Final Cut Pro Installed?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isModalDialogOpen](#ismodaldialogopen)
 
@@ -755,8 +850,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro:isModalDialogOpen <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a modal dialog currently open?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isPlaying](#isplaying)
 
@@ -765,8 +862,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.main.ControlBar.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isPlaying](#isplaying)
 
@@ -775,8 +874,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.main.Viewer.isPlaying <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The 'playing' status of the viewer. If true, it is playing, if not it is paused.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -785,8 +886,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isRunning <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut Pro Running?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isShowing](#isshowing)
 
@@ -795,8 +898,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isShowing <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Final Cut visible on screen?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isSkimmingEnabled](#isskimmingenabled)
 
@@ -805,8 +910,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isSkimmingEnabled <bool; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns `true` if the skimming playhead is enabled for the application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isSupported](#issupported)
 
@@ -815,9 +922,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isSupported <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is a supported version of Final Cut Pro installed?                                                                     |
-| **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION`</li></ul>                |
+| **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to `cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION`</li></ul> |
 
 ---
+
 
 ### [isUnsupported](#isunsupported)
 
@@ -826,9 +934,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.isUnsupported <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is an unsupported version of Final Cut Pro installed?                                                                     |
-| **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION</li></ul>                |
+| **Notes**                                   | <ul><li>Supported version refers to any version of Final Cut Pro equal or higher to cp.apple.finalcutpro.EARLIEST_SUPPORTED_VERSION</li></ul> |
 
 ---
+
 
 ### [keywordEditor](#keywordeditor)
 
@@ -837,8 +946,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.keywordEditor <KeywordEditor>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Keyword Editor                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [libraries](#libraries)
 
@@ -847,8 +958,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.libraries <cp.apple.finalcutpro.main.LibrariesBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [LibrariesBrowser](cp.apple.finalcutpro.main.LibrariesBrowser.md) instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [media](#media)
 
@@ -857,8 +970,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.media <cp.apple.finalcutpro.main.MediaBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The MediaBrowser instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mediaImport](#mediaimport)
 
@@ -867,8 +982,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.mediaImport <MediaImport>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Media Import Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [pan](#pan)
 
@@ -877,8 +994,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.pan <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pan                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playButton](#playbutton)
 
@@ -887,8 +1006,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playButton <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playFullScreen](#playfullscreen)
 
@@ -897,8 +1018,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playFullScreen <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Full Screen Button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [playImage](#playimage)
 
@@ -907,8 +1030,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.playImage <cp.ui.Image>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Play Image.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preferencesWindow](#preferenceswindow)
 
@@ -917,8 +1042,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.preferencesWindow <PreferencesWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [preset](#preset)
 
@@ -927,8 +1054,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.preset <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The preset popup found at the top of the inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [primaryWindow](#primarywindow)
 
@@ -937,8 +1066,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.primaryWindow <cp.apple.finalcutpro.main.PrimaryWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Primary Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [resetDialogWarnings](#resetdialogwarnings)
 
@@ -947,8 +1078,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.resetDialogWarnings <cp.ui.Buton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Reset Dialog warnings" `Button`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [secondaryWindow](#secondarywindow)
 
@@ -957,8 +1090,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.secondaryWindow <cp.apple.finalcutpro.main.SecondaryWindow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro Preferences Window                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [textArea](#textarea)
 
@@ -967,8 +1102,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textArea <cp.ui.TextArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Text Inspector main Text Area.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [textLayerLeft](#textlayerleft)
 
@@ -977,8 +1114,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textLayerLeft <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [textLayerRight](#textlayerright)
 
@@ -987,8 +1126,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.TextInspector.textLayerRight <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The left text layer arrow at the bottom of the Inspector.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [timecodeField](#timecodefield)
 
@@ -997,8 +1138,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.timecodeField <cp.ui.StaticText>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Timecode Field                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [timeDisplay](#timedisplay)
 
@@ -1007,8 +1150,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.timeDisplay <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Time Display" `PopUpButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [timeline](#timeline)
 
@@ -1017,8 +1162,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.timeline <Timeline>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Timeline instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [toolbar](#toolbar)
 
@@ -1027,8 +1174,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.toolbar <cp.apple.finalcutpro.main.PrimaryToolbar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Primary Toolbar - the toolbar at the top of the Primary Window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [transcodeMedia](#transcodemedia)
 
@@ -1037,8 +1186,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.transcodeMedia <cp.apple.finalcutpro.main.TranscodeMedia>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TranscodeMedia](cp.apple.finalcutpro.main.TranscodeMedia.md) sheet.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [transitions](#transitions)
 
@@ -1047,8 +1198,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.transitions <cp.apple.finalcutpro.main.EffectsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Transitions `EffectsBrowser` instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [UI](#ui)
 
@@ -1057,8 +1210,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.UI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Final Cut Pro `axuielement`, if available.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [validateAudioUnits](#validateaudiounits)
 
@@ -1067,8 +1222,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.presfs.GeneralPanel.validateAudioUnits <cp.ui.Buton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Validate Audio Units" `Button`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewer](#viewer)
 
@@ -1077,8 +1234,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.viewer <cp.apple.finalcutpro.viewer.Viewer>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance, whether it is in the primary or secondary window.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [volume](#volume)
 
@@ -1087,9 +1246,11 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.VideoInspector.volume <cp.prop: PropertyRow>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Volume                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [activeLibraryPaths](#activelibrarypaths)
@@ -1101,9 +1262,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets a table of all the active library paths.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing any active library paths.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [closeLibrary](#closelibrary)
 
@@ -1114,9 +1276,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Attempts to close a library with the specified `title`.                                                                     |
 | **Parameters**                              | <ul><li>title	- The title of the FCP Library to close.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [defaultCommandSetPath](#defaultcommandsetpath)
 
@@ -1127,9 +1290,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets the path to the 'Default' Command Set.                                                                     |
 | **Parameters**                              | <ul><li>`locale`	- The optional locale to use. Defaults to the [current locale](#currentLocale).</li></ul> |
 | **Returns**                                 | <ul><li>The 'Default' Command Set path, or `nil` if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShortcut](#doshortcut)
 
@@ -1140,9 +1304,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Perform a Final Cut Pro Keyboard Shortcut                                                                     |
 | **Parameters**                              | <ul><li>whichShortcut - As per the Command Set name</li><li>suppressPrompt - If `true`, and no shortcut is found for the specified command, then no prompt will be shown and an error is thrown Defaults to `false`.</li></ul> |
 | **Returns**                                 | <ul><li>A `Statement` that will perform the shortcut when executed.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCommandShortcuts](#getcommandshortcuts)
 
@@ -1153,9 +1318,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Finds a shortcut from the Active Command Set with the specified ID and returns a table of `hs.commands.shortcut`s for the specified command, or `nil` if it doesn't exist.                                                                     |
 | **Parameters**                              | <ul><li>id - The unique ID for the command.</li></ul> |
 | **Returns**                                 | <ul><li>The array of shortcuts, or `nil` if no command exists with the specified `id`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPath](#getpath)
 
@@ -1166,9 +1332,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Path to Final Cut Pro Application                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing Final Cut Pro's filesystem path, or nil if Final Cut Pro's path could not be determined.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [importXML](#importxml)
 
@@ -1179,9 +1346,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Imports an XML file into Final Cut Pro                                                                     |
 | **Parameters**                              | <ul><li>path = Path to XML File</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the AppleScript succeeded or not</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [keysWithString](#keyswithstring)
 
@@ -1192,9 +1360,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Looks up an application string and returns an array of keys that match. It will take into account current locale the app is running in, or use `locale` if provided.                                                                     |
 | **Parameters**                              | <ul><li>`key`	- The key to look up.</li><li>`locale`	- The locale (defaults to current FCPX locale).</li></ul> |
 | **Returns**                                 | <ul><li>The array of keys with a matching string.</li></ul>          |
-| **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul>                |
+| **Notes**                                   | <ul><li>This method may be very inefficient, since it has to search through every possible key/value pair to find matches. It is not recommended that this is used in production.</li></ul> |
 
 ---
+
 
 ### [openLibrary](#openlibrary)
 
@@ -1205,9 +1374,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Attempts to open a file at the specified absolute `path`.                                                                     |
 | **Parameters**                              | <ul><li>path	- The path to the FCP Library to open.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [plugins](#plugins)
 
@@ -1218,9 +1388,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Returns the plugins manager for the app.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The plugins manager.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [recentLibraryNames](#recentlibrarynames)
 
@@ -1231,9 +1402,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets a table of all the recent library names (that are accessible).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing any recent library names.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [recentLibraryPaths](#recentlibrarypaths)
 
@@ -1244,9 +1416,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets a table of all the recent library paths (that are accessible).                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing any recent library paths.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanPlugins](#scanplugins)
 
@@ -1257,9 +1430,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Scan Final Cut Pro Plugins                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A MenuBar object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [selectLibrary](#selectlibrary)
 
@@ -1270,9 +1444,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Attempts to select an open library with the specified title.                                                                     |
 | **Parameters**                              | <ul><li>title - The title of the library to select.</li></ul> |
 | **Returns**                                 | <ul><li>The library row `axuielement`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [string](#string)
 
@@ -1283,9 +1458,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Looks up an application string with the specified `key`. If no `locale` value is provided, the [current locale](#currentLocale) is used.                                                                     |
 | **Parameters**                              | <ul><li>`key`	- The key to look up.</li><li>`locale`	- The locale code to use. Defaults to the current locale.</li><li>`quiet`	- Optional boolean, defaults to `false`. If `true`, no warnings are logged for missing keys.</li></ul> |
 | **Returns**                                 | <ul><li>The requested string or `nil` if the application is not running.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [userCommandSets](#usercommandsets)
 
@@ -1296,6 +1472,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 | **Description**                             | Gets the names of all of the user command sets.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of user command sets as strings.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

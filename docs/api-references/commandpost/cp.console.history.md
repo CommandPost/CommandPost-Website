@@ -24,7 +24,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [clearHistory](#clearhistory)
@@ -36,9 +36,10 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Clears the Console History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [history](#history)
 
@@ -49,9 +50,10 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Gets a history item.                                                                     |
 | **Parameters**                              | <ul><li>toFind - Number of the item to find.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -62,9 +64,10 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pruneHistory](#prunehistory)
 
@@ -75,9 +78,10 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Prune History                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Current History Count</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [retrieveHistory](#retrievehistory)
 
@@ -88,9 +92,10 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Retrieve's the Console History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveHistory](#savehistory)
 
@@ -101,10 +106,11 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Description**                             | Saves the Console History.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [cache](#cache)
@@ -114,5 +120,7 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
 | **Signature**                               | `cp.console.history.cache <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Console History Cache                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

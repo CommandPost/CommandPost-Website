@@ -74,7 +74,7 @@ a + b | c ~= a + (b | c)
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [everything](#everything)
@@ -84,8 +84,10 @@ a + b | c ~= a + (b | c)
 | **Signature**                               | `cp.collect.Set.everything <cp.collect.Set>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Set` which contains the whole universe.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [nothing](#nothing)
 
@@ -94,9 +96,11 @@ a + b | c ~= a + (b | c)
 | **Signature**                               | `cp.collect.Set.nothing <cp.collect.Set>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | An empty `Set`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [complement](#complement)
@@ -108,9 +112,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns a `Set` which is the complement of the provided set.                                                                     |
 | **Parameters**                              | <ul><li>set       - The `Set` to complement.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [difference](#difference)
 
@@ -121,9 +126,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns a new `Set` which is the set of values in `left` that are not in `right`.                                                                     |
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [has](#has)
 
@@ -134,9 +140,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Checks if the set has the specified value.                                                                     |
 | **Parameters**                              | <ul><li>set   - The `Set` to check.</li><li>value - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is contained in the `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [intersection](#intersection)
 
@@ -147,9 +154,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             |                                                                      |
 | **Parameters**                              | <ul><li>left      - The left `Set`</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Set` which contains an intersection `left` and `right`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [is](#is)
 
@@ -160,9 +168,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Checks if the `thing` is a `Set`.                                                                     |
 | **Parameters**                              | <ul><li>thing     - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is a `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isComplement](#iscomplement)
 
@@ -173,9 +182,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Checks if the set is a complement set.                                                                     |
 | **Parameters**                              | <ul><li>set       - The set to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [size](#size)
 
@@ -186,9 +196,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns the size of the set.                                                                     |
 | **Parameters**                              | <ul><li>set   - The set to find the size of.</li></ul> |
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
-| **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul>                |
+| **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul> |
 
 ---
+
 
 ### [symetricDifference](#symetricdifference)
 
@@ -199,9 +210,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Performs a symetric difference of keys with a value of `true` in the left and right table into a new table. The resulting table will contain items that only occur in the `left` or `right` set, but not both.                                                                     |
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [union](#union)
 
@@ -212,10 +224,11 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns a new `Set` which is a union of the `left` and `right`                                                                     |
 | **Parameters**                              | <ul><li>left      - The left `Set`.</li><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Set` which contains a union of the `left` and `right` `Set`s.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [clone](#clone)
@@ -227,9 +240,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new `Set` which is a clone of the provided `Set`.                                                                     |
 | **Parameters**                              | <ul><li>set       - The set to clone.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromList](#fromlist)
 
@@ -240,9 +254,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new `Set` instance, containing the unique items in the table collected as a list from `1` to `n`. Any duplicate items will only occur in the `Set` once.                                                                     |
 | **Parameters**                              | <ul><li>list      - The table that contains items as a list to add to the `Set`. E.g. `{"foo", "bar"}</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromMap](#frommap)
 
@@ -253,9 +268,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new `Set` instance, containing the items in the provided `table` who's key value is `true`. Keys with values other than `true` will be ignored.                                                                     |
 | **Parameters**                              | <ul><li>map      - The table that contains key/value items to add to the set. E.g. `{foo = true, bar = true}`</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [of](#of)
 
@@ -266,10 +282,11 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new `Set` instance, containing the items in the parameter list.                                                                     |
 | **Parameters**                              | <ul><li>The set items.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [complement](#complement)
@@ -281,9 +298,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns a new `Set` which is the complement of the current `Set`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use the `-` or `~` prefix operators. E.g. `-a` or `~a`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use the `-` or `~` prefix operators. E.g. `-a` or `~a`.</li></ul> |
 
 ---
+
 
 ### [difference](#difference)
 
@@ -294,9 +312,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns a new `Set` which is the set of values in this `Set` that are not in `right`.                                                                     |
 | **Parameters**                              | <ul><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use the `-` operator. E.g. `a - b`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use the `-` operator. E.g. `a - b`.</li></ul> |
 
 ---
+
 
 ### [has](#has)
 
@@ -307,9 +326,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Checks if this set has the specified value.                                                                     |
 | **Parameters**                              | <ul><li>value     - The value to check for.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `Set` contains the `value`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also check for specific values via `mySet['key']` or `mySet.key`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also check for specific values via `mySet['key']` or `mySet.key`.</li></ul> |
 
 ---
+
 
 ### [intersection](#intersection)
 
@@ -320,9 +340,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new `Set` which is an intersection of the current values plus other `Set`s passed in.                                                                     |
 | **Parameters**                              | <ul><li>...       - The list of `Set`s to create an intersection from.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use the `&` operator. E.g. `a & b`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use the `&` operator. E.g. `a & b`.</li></ul> |
 
 ---
+
 
 ### [isComplement](#iscomplement)
 
@@ -333,9 +354,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Checks if the set is a complement set.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the set is a complement.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [size](#size)
 
@@ -346,9 +368,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Returns the size of the `Set`. If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>the number of values in the set, or the number of values removed from a complement set.</li></ul>          |
-| **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul>                |
+| **Notes**                                   | <ul><li>If the set is empty, `0` is returned.</li><li>If the set is a complement, this will return a negative number indicating how many values have been removed from the universal set of all things.</li><li>If the set is a complement of an empty set, `nil` is returned to indicate the size is infinite.</li></ul> |
 
 ---
+
 
 ### [symetricDifference](#symetricdifference)
 
@@ -359,9 +382,10 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Performs a symetric difference of keys with a value of `true` in the left and right table into a new table. The resulting table will contain items that only occur in the `left` or `right` set, but not both.                                                                     |
 | **Parameters**                              | <ul><li>right     - The right `Set`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set`.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use the `~` operator. E.g. `a ~ b`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use the `~` operator. E.g. `a ~ b`.</li></ul> |
 
 ---
+
 
 ### [union](#union)
 
@@ -372,6 +396,7 @@ a + b | c ~= a + (b | c)
 | **Description**                             | Creates a new set which is a union of the current set plus other `Set`s passed in.                                                                     |
 | **Parameters**                              | <ul><li>...       - The list of `Set`s to create a union from.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Set` which is a union.</li></ul>          |
-| **Notes**                                   | <ul><li>You can also use the `\|` or `+` operator. E.g. `a \| b` or `a + b`.</li></ul>                |
+| **Notes**                                   | <ul><li>You can also use the `\|` or `+` operator. E.g. `a \| b` or `a + b`.</li></ul> |
 
 ---
+

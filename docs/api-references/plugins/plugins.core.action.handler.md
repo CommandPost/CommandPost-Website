@@ -40,7 +40,7 @@ containing the details of the action to execute if the choice is selected.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [new](#new)
@@ -52,10 +52,11 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Creates a new handler with the specified ID.                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The unique ID of the action handler.</li><li>`group`   - The group the handler belongs to.</li><li>`label`   - An optional label for the handler (over-riding a supplied i18n value)</li></ul> |
 | **Returns**                                 | <ul><li>The new action handler instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [cached](#cached)
@@ -65,8 +66,10 @@ containing the details of the action to execute if the choice is selected.
 | **Signature**                               | `plugins.core.action.handler.cached <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | If set to `true` (the default), any choices created will be cached until [reset] is called.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [choices](#choices)
 
@@ -75,9 +78,11 @@ containing the details of the action to execute if the choice is selected.
 | **Signature**                               | `plugins.core.action.handler.choices <cp.prop: cp.choices; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Provides `cp.choices` instance for the handler. May be watched/monitored/etc.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [actionId](#actionid)
@@ -89,9 +94,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Returns a string that can be used as a unique ID for the action details.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [execute](#execute)
 
@@ -102,9 +108,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Executes the action, based on values in the table.                                                                     |
 | **Parameters**                              | <ul><li>`action`      - A table of details about the action.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the execution succeeded.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [group](#group)
 
@@ -115,9 +122,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Returns the group for this handler.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Group as string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [id](#id)
 
@@ -128,9 +136,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Returns the ID for this handler.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [label](#label)
 
@@ -141,9 +150,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Returns the label for this handler.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onActionId](#onactionid)
 
@@ -154,9 +164,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Configures a function to handle converting an action to unique ID. The function is passed the `action` table and should return a string.                                                                     |
 | **Parameters**                              | <ul><li>`actionFn`    - The function with a signature of `function(action) -> string`</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onChoices](#onchoices)
 
@@ -167,9 +178,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Adds a callback function which will receive the `cp.choices` instance to add choices to. This will only get called when required - the results will be cached if the [cached](#cached) property is set to `true`.                                                                     |
 | **Parameters**                              | <ul><li>`choicesFn`       - The function with the signature of `function(choices) -> nothing`</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [onExecute](#onexecute)
 
@@ -180,9 +192,10 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Configures the function to call when a choice is executed. This will be passed the choice parameters in a single table.                                                                     |
 | **Parameters**                              | <ul><li>`executeFn`       - The function to call when executing.</li></ul> |
 | **Returns**                                 | <ul><li>This action handler.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -193,6 +206,7 @@ containing the details of the action to execute if the choice is selected.
 | **Description**                             | Resets the handler, clearing any cached result and requesting new ones.                                                                     |
 | **Parameters**                              | <ul><li>`updateNow`   - (optional) If `true`, the choices will update immediately, otherwise they will update when the choices are next requested.</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

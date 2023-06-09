@@ -41,7 +41,7 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [Do](#do)
@@ -53,10 +53,11 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Description**                             | Begins the definition of a `Do` `Statement`.                                                                     |
 | **Parameters**                              | <ul><li>...      - the list of `resolvable` values to evaluate.</li></ul> |
 | **Returns**                                 | <ul><li>A new `Do` `Statement` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Then](#then)
@@ -68,6 +69,7 @@ For more power, you can add a [Then](#Then) to futher modify the results, or cha
 | **Description**                             | Call this to define what will happen once the `Do` values resolve successfully. The parameters can be any 'resolvable' type.                                                                     |
 | **Parameters**                              | <ul><li>...  - The list of `resolvable` values to process for each `Do` result.</li></ul> |
 | **Returns**                                 | <ul><li>The [Then](cp.rx.go.Do.Then.md) [Statement.Modifier](cp.rx.go.Statement.Modifier.md).</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

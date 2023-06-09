@@ -20,7 +20,7 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [Then](#then)
@@ -32,6 +32,7 @@ Given(anObservable):Then(function(value) return value:doSomething() end)
 | **Description**                             | Allows another set of `resolvables` to be processed after a `Then` has resolved.                                                                     |
 | **Parameters**                              | <ul><li>...      - The list of `resolvable` values to process.</li></ul> |
 | **Returns**                                 | <ul><li>Another [Given.Then](cp.rx.go.Given.Then.md) instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

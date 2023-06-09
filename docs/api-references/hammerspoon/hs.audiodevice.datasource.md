@@ -16,7 +16,7 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [name](#name)
@@ -28,9 +28,10 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Description**                             | Gets the name of an audio device datasource                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the datasource</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setDefault](#setdefault)
 
@@ -41,6 +42,7 @@ Note: These objects are obtained from the methods on an `hs.audiodevice` object
 | **Description**                             | Sets the audio device datasource as the default                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.audiodevice.datasource` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

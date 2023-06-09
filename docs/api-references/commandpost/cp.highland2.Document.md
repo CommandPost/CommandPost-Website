@@ -24,7 +24,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -36,10 +36,11 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Description**                             | Checks if the element is a Document.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [documentPath](#documentpath)
@@ -49,8 +50,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document:documentPath() -> cp.prop <string; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current path for the document.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -59,8 +62,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.doShow <cp.rx.go.Statement>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the `Document` when run.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [revisionMode](#revisionmode)
 
@@ -69,8 +74,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.revisionMode <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Revision Mode button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sidebar](#sidebar)
 
@@ -79,8 +86,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.sidebar <cp.highland2.Sidebar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [Sidebar](cp.highland2.Sidebar.md).                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [splitter](#splitter)
 
@@ -89,8 +98,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.splitter <cp.ui.Splitter>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Splitter.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [sprint](#sprint)
 
@@ -99,8 +110,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.sprint <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Sprint button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [templatePicker](#templatepicker)
 
@@ -109,8 +122,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.templatePicker <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Template Picker button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [text](#text)
 
@@ -119,8 +134,10 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.text <cp.ui.TextArea>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The [TextArea](cp.ui.TextArea.md) containing the document text.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [themePicker](#themepicker)
 
@@ -129,5 +146,7 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
 | **Signature**                               | `cp.highland2.Document.themePicker <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Theme Picker button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

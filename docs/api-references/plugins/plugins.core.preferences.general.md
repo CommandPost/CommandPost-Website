@@ -25,7 +25,7 @@ General Preferences Panel.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [dragAndDropFileActions](#draganddropfileactions)
@@ -35,8 +35,10 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropFileActions -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop File Actions.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [dragAndDropTextActions](#draganddroptextactions)
 
@@ -45,8 +47,10 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropTextActions -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of registered Drag & Drop Text Actions.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [openDebugConsoleOnDockClick](#opendebugconsoleondockclick)
 
@@ -55,9 +59,11 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.openDebugConsoleOnDockClick <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Open Error Log on Dock Icon Click.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [registerDragAndDropFileAction](#registerdraganddropfileaction)
@@ -69,9 +75,10 @@ General Preferences Panel.
 | **Description**                             | Registers a new Drag & Drop File Action.                                                                     |
 | **Parameters**                              | <ul><li>id - A unique identifier as a string</li><li>label - The label that should be display in the user interface</li><li>fn - A callback function</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [registerDragAndDropTextAction](#registerdraganddroptextaction)
 
@@ -82,10 +89,11 @@ General Preferences Panel.
 | **Description**                             | Registers a new Drag & Drop Text Action.                                                                     |
 | **Parameters**                              | <ul><li>id - A unique identifier as a string</li><li>label - The label that should be display in the user interface</li><li>fn - A callback function</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [autoLaunch](#autolaunch)
@@ -95,8 +103,10 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.autoLaunch <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls if CommandPost will automatically upload crash data to the developer.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [dockIcon](#dockicon)
 
@@ -105,8 +115,10 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.dockIcon <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Controls whether or not CommandPost should show a dock icon.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [dragAndDropFileAction](#draganddropfileaction)
 
@@ -115,8 +127,10 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropFileAction <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop File Action is enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [dragAndDropTextAction](#draganddroptextaction)
 
@@ -125,5 +139,7 @@ General Preferences Panel.
 | **Signature**                               | `plugins.core.preferences.general.dragAndDropTextAction <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Which Drag & Drop Text Action is enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

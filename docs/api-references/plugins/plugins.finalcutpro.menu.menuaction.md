@@ -15,7 +15,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [actionId](#actionid)
@@ -27,9 +27,10 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Description**                             | Gets the action ID from the parameters table.                                                                     |
 | **Parameters**                              | <ul><li>params - Parameters table.</li></ul> |
 | **Returns**                                 | <ul><li>Action ID as string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [init](#init)
 
@@ -40,6 +41,7 @@ Registers itself with the `plugins.core.actions.actionmanager`.
 | **Description**                             | Initialises the Menu Action plugin                                                                     |
 | **Parameters**                              | <ul><li>`actionmanager` - the Action Manager plugin</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

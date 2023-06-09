@@ -18,7 +18,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [OfRows](#ofrows)
@@ -30,10 +30,11 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Description**                             | Creates a new `GridElement.OfRows` instance.                                                                     |
 | **Parameters**                              | <ul><li>... - The `Cell` initialisers.</li></ul> |
 | **Returns**                                 | <ul><li>A new `GridElement.OfRows` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [createRow](#createrow)
@@ -45,9 +46,10 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Description**                             | Creates a new `Row` instance.                                                                     |
 | **Parameters**                              | <ul><li>tbl - The `GridElement` instance.</li><li>rowFinder - a callable that will return the `axuielementObject` for the row.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Row` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [createRows](#createrows)
 
@@ -58,6 +60,7 @@ Each of the defined `Element` initialisers will be used to create a cell within 
 | **Description**                             | Creates the [Row](cp.ui.Row.md)s for the `GridElement`.                                                                     |
 | **Parameters**                              | <ul><li>tbl - The `GridElement` instance</li><li>rowsFinder - a callable that will return the a table of `cp.ui.Row` values.</li></ul> |
 | **Returns**                                 | <ul><li>A table of `Row`s.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

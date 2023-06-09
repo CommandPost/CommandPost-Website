@@ -15,7 +15,7 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [keys](#keys)
@@ -25,8 +25,10 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.keys -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing key translations.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [labels](#labels)
 
@@ -35,8 +37,10 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.labels -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing label translations.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [modifiers](#modifiers)
 
@@ -45,5 +49,7 @@ Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 | **Signature**                               | `cp.adobe.aftereffects.shortcuts.modifiers -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table containing modifier translations.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

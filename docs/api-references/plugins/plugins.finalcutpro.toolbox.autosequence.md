@@ -13,7 +13,7 @@ Orders clips on a timeline by timecode.
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [removeGaps](#removegaps)
@@ -23,5 +23,7 @@ Orders clips on a timeline by timecode.
 | **Signature**                               | `plugins.finalcutpro.toolbox.autosequence.removeGaps <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Remove Gaps?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

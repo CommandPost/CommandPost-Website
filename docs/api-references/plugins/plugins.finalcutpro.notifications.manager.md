@@ -20,7 +20,7 @@ Notifications Manager Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [manager](#manager)
@@ -30,9 +30,11 @@ Notifications Manager Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.manager -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Event Types                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [watchers](#watchers)
@@ -42,9 +44,11 @@ Notifications Manager Plugin.
 | **Signature**                               | `plugins.finalcutpro.notifications.manager.watchers -> watcher`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Watchers                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [unwatch](#unwatch)
@@ -56,9 +60,10 @@ Notifications Manager Plugin.
 | **Description**                             | Start Watchers                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the watcher to unwatch as string</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watch](#watch)
 
@@ -69,6 +74,7 @@ Notifications Manager Plugin.
 | **Description**                             | Start Watchers                                                                     |
 | **Parameters**                              | <ul><li>events - Events to watch</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the watcher as string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

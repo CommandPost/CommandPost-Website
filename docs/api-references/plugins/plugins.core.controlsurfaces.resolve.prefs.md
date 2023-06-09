@@ -23,7 +23,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
@@ -33,8 +33,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.changeBankOnHardwareWhenChangingHere <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Should we change bank on hardware when changing in preferences?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
@@ -43,8 +45,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display a message when changing banks?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastDevice](#lastdevice)
 
@@ -53,8 +57,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastDevice <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Device used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportPath](#lastexportpath)
 
@@ -63,8 +69,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastImportPath](#lastimportpath)
 
@@ -73,8 +81,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastUnit](#lastunit)
 
@@ -83,8 +93,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.lastUnit <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Unit used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [pasteboard](#pasteboard)
 
@@ -93,8 +105,10 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.pasteboard <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Pasteboard                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 
@@ -103,9 +117,11 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Signature**                               | `plugins.core.controlsurfaces.resolve.prefs.snippetsRefreshFrequency <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | How often snippets are refreshed.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [setItem](#setitem)
@@ -117,6 +133,7 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
 | **Description**                             | Update the Speed Editor layout file.                                                                     |
 | **Parameters**                              | <ul><li>app - The application bundle ID as a string</li><li>bank - The bank ID as a string</li><li>button - The button ID as a string</li><li>key - The key as a string or a table if replacing the entire button contents</li><li>value - The optional value</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

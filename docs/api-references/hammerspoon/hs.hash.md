@@ -24,7 +24,7 @@ Various hashing algorithms
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [bMD5](#bmd5)
@@ -36,9 +36,10 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [bSHA1](#bsha1)
 
@@ -49,9 +50,10 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [bSHA256](#bsha256)
 
@@ -62,9 +64,10 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [bSHA512](#bsha512)
 
@@ -75,9 +78,10 @@ Various hashing algorithms
 | **Description**                             | Calculates a binary SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the binary hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hmacMD5](#hmacmd5)
 
@@ -88,9 +92,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and an MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hmacSHA1](#hmacsha1)
 
@@ -101,9 +106,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hmacSHA256](#hmacsha256)
 
@@ -114,9 +120,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hmacSHA512](#hmacsha512)
 
@@ -127,9 +134,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an HMAC using a key and a SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>key - A string containing a secret key to use</li><li>data - A string containing the data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [MD5](#md5)
 
@@ -140,9 +148,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an MD5 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [SHA1](#sha1)
 
@@ -153,9 +162,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA1 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [SHA256](#sha256)
 
@@ -166,9 +176,10 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA256 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [SHA512](#sha512)
 
@@ -179,6 +190,7 @@ Various hashing algorithms
 | **Description**                             | Calculates an SHA512 hash                                                                     |
 | **Parameters**                              | <ul><li>data - A string containing some data to hash</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the hash of the supplied data, encoded as hexadecimal</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

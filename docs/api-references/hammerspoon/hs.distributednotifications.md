@@ -29,7 +29,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [post](#post)
@@ -41,10 +41,11 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Description**                             | Sends a distributed notification                                                                     |
 | **Parameters**                              | <ul><li>name - A string containing the name of the notification</li><li>sender - An optional string containing the name of the sender of the notification (in the form `com.domain.application.foo`). Defaults to nil.</li><li>userInfo - An optional table containing additional information to post with the notification. Defaults to nil.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -57,10 +58,11 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Parameters**                              | <ul><li>callback - A function to be called when a matching notification arrives. The function should accept one argument:
   notificationName - A string containing the name of the notification</li><li>name - An optional string containing the name of notifications to watch for. A value of `nil` will cause all notifications to be watched on macOS versions earlier than Catalina. Defaults to `nil`.</li><li>object - An optional string containing the name of sending objects to watch for. A value of `nil` will cause all sending objects to be watched. Defaults to `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.distributednotifications` object</li></ul>          |
-| **Notes**                                   | <ul><li>On Catalina and above, it is no longer possible to observe all notifications - the `name` parameter is effectively now required. See https://mjtsai.com/blog/2019/10/04/nsdistributednotificationcenter-no-longer-supports-nil-names</li></ul>                |
+| **Notes**                                   | <ul><li>On Catalina and above, it is no longer possible to observe all notifications - the `name` parameter is effectively now required. See https://mjtsai.com/blog/2019/10/04/nsdistributednotificationcenter-no-longer-supports-nil-names</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [start](#start)
@@ -72,9 +74,10 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Description**                             | Starts a NSDistributedNotificationCenter watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -85,6 +88,7 @@ Note that distributed notifications are expensive - they involve lots of IPC. Al
 | **Description**                             | Stops a NSDistributedNotificationCenter watcher                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.distributednotifications` object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

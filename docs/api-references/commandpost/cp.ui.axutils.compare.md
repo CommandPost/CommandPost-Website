@@ -16,7 +16,7 @@ Contains functions for comparing `axuielement`s.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [bottomToTop](#bottomtotop)
@@ -28,9 +28,10 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is below element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is below `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [leftToRight](#lefttoright)
 
@@ -41,9 +42,10 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is left of element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is left of `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rightToLeft](#righttoleft)
 
@@ -54,9 +56,10 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is right of element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is right of `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [topToBottom](#toptobottom)
 
@@ -67,6 +70,7 @@ Contains functions for comparing `axuielement`s.
 | **Description**                             | Returns `true` if element `a` is above element `b`. May be used with `table.sort`.                                                                     |
 | **Parameters**                              | <ul><li>a - The first element</li><li>b - The second element</li></ul> |
 | **Returns**                                 | <ul><li>`true` if `a` is above `b`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

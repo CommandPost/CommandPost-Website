@@ -22,7 +22,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [SIGNATURE](#signature)
@@ -32,9 +32,11 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Signature**                               | `cp.nib.archiver.SIGNATURE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Marks the data stream as an `NIBArchive`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [isSupported](#issupported)
@@ -46,10 +48,11 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Checks if the given `data` is an NIBArchive.                                                                     |
 | **Parameters**                              | <ul><li>data - The data to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `data` is an NIBArchive, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [new](#new)
@@ -61,10 +64,11 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Creates a new `cp.nib.archiver` instance, with the specified list of `decoders`.                                                                     |
 | **Parameters**                              | <ul><li>decoders - The list of `cp.nib.decoder` functions to use.</li></ul> |
 | **Returns**                                 | <ul><li>The new `cp.nib.archiver` instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [fromFile](#fromfile)
@@ -76,6 +80,7 @@ Provides support for loading NIB files stored in the `NIBArchive` format.
 | **Description**                             | Attempts to read the specified `filename` and unarchives it into a `table`, if it is a valid NIBArchive.                                                                     |
 | **Parameters**                              | <ul><li>filename - The `string` of the file to read.</li></ul> |
 | **Returns**                                 | <ul><li>A `table` containing the archive data, or `nil` if the file could not be read.</li><li>The `string` error message, if any.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

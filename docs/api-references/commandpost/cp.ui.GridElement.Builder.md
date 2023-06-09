@@ -15,7 +15,7 @@ A `Builder` for `GridElement`s.
 
 ## API Documentation
 
-### Methods
+#### Methods
 
 
 ### [withColumnsOf](#withcolumnsof)
@@ -27,9 +27,10 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Column` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>columnInit - A `Column` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withHeaderOf](#withheaderof)
 
@@ -40,9 +41,10 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Header` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>headerInit - A `Header` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withRowsOf](#withrowsof)
 
@@ -53,6 +55,7 @@ A `Builder` for `GridElement`s.
 | **Description**                             | Adds a `Row` initializer to the `GridElement` builder.                                                                     |
 | **Parameters**                              | <ul><li>rowInit - A `Row` initializer.</li></ul> |
 | **Returns**                                 | <ul><li>The `GridElement` builder.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

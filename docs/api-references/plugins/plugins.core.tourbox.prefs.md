@@ -17,7 +17,7 @@ TourBox Preferences Panel
 
 ## API Documentation
 
-### Fields
+#### Fields
 
 
 ### [lastApplication](#lastapplication)
@@ -27,8 +27,10 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastApplication <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Bank used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastControlType](#lastcontroltype)
 
@@ -37,8 +39,10 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastControlType <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Selected Control Type used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastExportPath](#lastexportpath)
 
@@ -47,8 +51,10 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastExportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Export path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastImportPath](#lastimportpath)
 
@@ -57,8 +63,10 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastImportPath <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Import path.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastPage](#lastpage)
 
@@ -67,5 +75,7 @@ TourBox Preferences Panel
 | **Signature**                               | `plugins.core.tourbox.prefs.lastPage <cp.prop: number>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Last Page used in the Preferences Panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

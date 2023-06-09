@@ -14,7 +14,7 @@ String-related functional programming helpers.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [isEmpty](#isempty)
@@ -26,9 +26,10 @@ String-related functional programming helpers.
 | **Description**                             | Checks if the string is empty.                                                                     |
 | **Parameters**                              | <ul><li>str - The string to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the string is empty, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [match](#match)
 
@@ -39,6 +40,7 @@ String-related functional programming helpers.
 | **Description**                             | Creates a function that matches the given pattern. Any groups in the pattern will be returned as multiple values.                                                                     |
 | **Parameters**                              | <ul><li>pattern - The pattern to match.</li></ul> |
 | **Returns**                                 | <ul><li>A function that takes a string and returns the matches.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -23,7 +23,7 @@ MIDI Manager Controls.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [controls](#controls)
@@ -33,9 +33,11 @@ MIDI Manager Controls.
 | **Signature**                               | `plugins.core.midi.manager.controls -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Controls                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [allGroups](#allgroups)
@@ -47,10 +49,11 @@ MIDI Manager Controls.
 | **Description**                             | Returns a table containing all of the control groups.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Table</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [get](#get)
@@ -62,9 +65,10 @@ MIDI Manager Controls.
 | **Description**                             | Gets a MIDI control.                                                                     |
 | **Parameters**                              | <ul><li>`id`      - The unique ID for the widget you want to return.</li></ul> |
 | **Returns**                                 | <ul><li>table containing the widget</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getAll](#getall)
 
@@ -75,9 +79,10 @@ MIDI Manager Controls.
 | **Description**                             | Returns all of the created controls.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>table containing all of the created callbacks</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [id](#id)
 
@@ -88,9 +93,10 @@ MIDI Manager Controls.
 | **Description**                             | Returns the ID of the control.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The ID of the widget as a `string`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -101,9 +107,10 @@ MIDI Manager Controls.
 | **Description**                             | Creates a new MIDI control.                                                                     |
 | **Parameters**                              | <ul><li>id       - The unique ID for this widget.</li><li>params   - A table of parameters for the MIDI control.</li></ul> |
 | **Returns**                                 | <ul><li>table that has been created</li></ul>          |
-| **Notes**                                   | <ul><li>The parameters table should include:</li><li>  group      - The group as a string (i.e. "fcpx")</li><li>  text       - The name of the control as it will appear in the Console</li><li>  subText    - The subtext of the control as it will appear in the Console</li><li>  fn         - The callback function. This functions should accept one parameter</li><li>                  which contains all the MIDI callback metadata.</li></ul>                |
+| **Notes**                                   | <ul><li>The parameters table should include:</li><li>  group      - The group as a string (i.e. "fcpx")</li><li>  text       - The name of the control as it will appear in the Console</li><li>  subText    - The subtext of the control as it will appear in the Console</li><li>  fn         - The callback function. This functions should accept one parameter</li><li>                  which contains all the MIDI callback metadata.</li></ul> |
 
 ---
+
 
 ### [params](#params)
 
@@ -114,6 +121,7 @@ MIDI Manager Controls.
 | **Description**                             | Returns the paramaters of the control.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The paramaters of the widget</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

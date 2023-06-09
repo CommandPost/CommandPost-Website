@@ -19,7 +19,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -31,10 +31,11 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Description**                             | Checks if the element matches the TopProperties.                                                                     |
 | **Parameters**                              | <ul><li>element - The element to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element matches, `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [TopProperties](#topproperties)
@@ -46,10 +47,11 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Description**                             | Creates a new TopProperties.                                                                     |
 | **Parameters**                              | <ul><li>parent		- The parent object.</li><li>uiFinder	- The `axuielement` object that represents this element.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [contentUI](#contentui)
@@ -59,5 +61,7 @@ The `TopProperties` class is used to represent the top properties group of the A
 | **Signature**                               | `cp.apple.finalcutpro.inspector.audio.TopProperties.contentUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `axuielement` object that represents the content of the TopProperties group.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -13,7 +13,7 @@ The `cp.app` for Adobe After Effects.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [app](#app)
@@ -23,5 +23,7 @@ The `cp.app` for Adobe After Effects.
 | **Signature**                               | `cp.adobe.aftereffects.app <cp.app>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The `cp.app` for After Effects.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

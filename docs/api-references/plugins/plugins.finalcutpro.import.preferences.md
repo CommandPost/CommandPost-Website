@@ -16,7 +16,7 @@ Import Preferences
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [createMulticamOptimizedMedia](#createmulticamoptimizedmedia)
@@ -26,8 +26,10 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createMulticamOptimizedMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Multicam Optimised Media                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [createOptimizedMedia](#createoptimizedmedia)
 
@@ -36,8 +38,10 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createOptimizedMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Optimised Media                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [createProxyMedia](#createproxymedia)
 
@@ -46,8 +50,10 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.createProxyMedia <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Create Proxy Media                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [leaveInPlace](#leaveinplace)
 
@@ -56,5 +62,7 @@ Import Preferences
 | **Signature**                               | `plugins.finalcutpro.import.preferences.leaveInPlace <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Leave In Place.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

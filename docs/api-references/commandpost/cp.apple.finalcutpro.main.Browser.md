@@ -47,7 +47,7 @@ Browser Module.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -59,10 +59,11 @@ Browser Module.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [Browser](#browser)
@@ -74,10 +75,11 @@ Browser Module.
 | **Description**                             | Creates a new `Browser` instance.                                                                     |
 | **Parameters**                              | <ul><li>app - The Final Cut Pro app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `Browser`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [generators](#generators)
@@ -87,8 +89,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generators <cp.apple.finalcutpro.main.GeneratorsBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Generators Browser object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [generatorsShowing](#generatorsshowing)
 
@@ -97,8 +101,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.generatorsShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Generators' button active, and thus showing?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isOnPrimary](#isonprimary)
 
@@ -107,8 +113,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnPrimary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Primary Window?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [isOnSecondary](#isonsecondary)
 
@@ -117,8 +125,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.isOnSecondary <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the Browser on the Secondary Window?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [libraries](#libraries)
 
@@ -129,8 +139,10 @@ Browser Module.
 | **Description**                             | The [module](package.module.md) object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A `LibrariesBrowser` object.</li></ul>          |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [librariesShowing](#librariesshowing)
 
@@ -139,8 +151,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.librariesShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Libraries' button active, and thus showing?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [markerPopover](#markerpopover)
 
@@ -149,8 +163,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.markerPopover <BrowserMarkerPopover>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Browser Marker Popover object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [media](#media)
 
@@ -159,8 +175,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.media <cp.apple.finalcutpro.main.MediaBrowser>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Media Browser object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [mediaShowing](#mediashowing)
 
@@ -169,8 +187,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.mediaShowing <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the 'Media' button active, and thus showing?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showGenerators](#showgenerators)
 
@@ -179,8 +199,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showGenerators <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The CheckBox indicating if the Generators Browser is showing.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showLibraries](#showlibraries)
 
@@ -189,8 +211,10 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showLibraries <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if Libraries is showing, and can be clicked to toggle.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [showMedia](#showmedia)
 
@@ -199,9 +223,11 @@ Browser Module.
 | **Signature**                               | `cp.apple.finalcutpro.main.Browser.showMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | CheckBox indicating if the  Media Browser is showing.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [appearanceAndFiltering](#appearanceandfiltering)
@@ -213,9 +239,10 @@ Browser Module.
 | **Description**                             | The Clip [AppearanceAndFiltering](cp.apple.finalcutpro.main.AppearanceAndFiltering.md) Menu Popover                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doHide](#dohide)
 
@@ -226,9 +253,10 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will hide the Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -239,9 +267,10 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will ensure the Browser is showing. If it's currently showing on the Secondary Screen it will stay there, otherwise it will get shown on the Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowOnPrimary](#doshowonprimary)
 
@@ -252,9 +281,10 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Browser on Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShowOnSecondary](#doshowonsecondary)
 
@@ -265,9 +295,10 @@ Browser Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that will show the Browser on Secondary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -278,9 +309,10 @@ Browser Module.
 | **Description**                             | Hides the Browser.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [loadLayout](#loadlayout)
 
@@ -291,9 +323,10 @@ Browser Module.
 | **Description**                             | Loads a Browser layout.                                                                     |
 | **Parameters**                              | <ul><li>layout - A table containing the Browser layout settings - created using `cp.apple.finalcutpro.main.Browser:saveLayout()`.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -304,9 +337,10 @@ Browser Module.
 | **Description**                             | Saves the current Browser layout to a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the current Browser Layout.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showOnPrimary](#showonprimary)
 
@@ -317,9 +351,10 @@ Browser Module.
 | **Description**                             | Show Browser on Primary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [showOnSecondary](#showonsecondary)
 
@@ -330,6 +365,7 @@ Browser Module.
 | **Description**                             | Show Browser on Secondary Screen.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Browser` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -27,7 +27,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [Are](#are)
@@ -37,8 +37,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Signature**                               | `cp.rx.go.WaitUntil.Are <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets the values to match.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [AreNot](#arenot)
 
@@ -47,8 +49,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Signature**                               | `cp.rx.go.WaitUntil.AreNot <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value to skip over.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [Is](#is)
 
@@ -57,8 +61,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Signature**                               | `cp.rx.go.WaitUntil.Is <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a specific value to wait for.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [IsNot](#isnot)
 
@@ -67,8 +73,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Signature**                               | `cp.rx.go.WaitUntil.IsNot <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a value that is skipped over.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [Matches](#matches)
 
@@ -77,9 +85,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Signature**                               | `cp.rx.go.WaitUntil.Matches <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A `Statement.Modifier` that sets a predicate check values against.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [WaitUntil](#waituntil)
@@ -91,10 +101,11 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Creates a new `WaitUntil` `Statement` with the specified `requirement`.                                                                     |
 | **Parameters**                              | <ul><li>requirement  - a `resolvable` value that will be checked.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` instance which will check if the `resolvable` matches the requirement.</li></ul>          |
-| **Notes**                                   | <ul><li>By default, it will wait until the value is `truthy` - not `nil` and not `false`.</li><li>Example:</li><li></li><li>```lua</li><li>WaitUntil(someObservable):Is(true)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>By default, it will wait until the value is `truthy` - not `nil` and not `false`.</li><li>Example:</li><li></li><li>```lua</li><li>WaitUntil(someObservable):Is(true)</li><li>```</li></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [Are](#are)
@@ -106,9 +117,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to wait for.</li></ul> |
 | **Returns**                                 | <ul><li>The `Are` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [AreNot](#arenot)
 
@@ -119,9 +131,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Specifies the value to skip over.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to skip over.</li></ul> |
 | **Returns**                                 | <ul><li>The `AreNot` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Is](#is)
 
@@ -132,9 +145,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Specifies the value to check.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to wait for.</li></ul> |
 | **Returns**                                 | <ul><li>The `Is` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [IsNot](#isnot)
 
@@ -145,9 +159,10 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Specifies the value to skip.                                                                     |
 | **Parameters**                              | <ul><li>value  - The value to skip over.</li></ul> |
 | **Returns**                                 | <ul><li>The `IsNot` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [Matches](#matches)
 
@@ -158,6 +173,7 @@ A [Statement](cp.rx.go.Statement.md) that will wait for the first value from a `
 | **Description**                             | Specifies the predicate function that will check the `requirement` results.                                                                     |
 | **Parameters**                              | <ul><li>predicate  - The function that will get called to determine if it has been found.</li></ul> |
 | **Returns**                                 | <ul><li>The `Matches` `Statement.Modifier`.</li></ul>          |
-| **Notes**                                   | <ul><li>* Example:</li><li>```lua</li><li>WaitUntil(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul>                |
+| **Notes**                                   | <ul><li>* Example:</li><li>```lua</li><li>WaitUntil(someObservable):Matches(function(value) return value % 2 == 0 end)</li><li>```</li></ul> |
 
 ---
+

@@ -13,7 +13,7 @@ A `Statement.Modifier` that specifies the list should be sorted by its 'natural'
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [Sorted](#sorted)
@@ -23,5 +23,7 @@ A `Statement.Modifier` that specifies the list should be sorted by its 'natural'
 | **Signature**                               | `cp.rx.go.List.Sorted <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `List`, which should be created via `List:Sorted()`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -13,7 +13,7 @@ Multicam Tools.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [doCutAndSwitchMulticam](#docutandswitchmulticam)
@@ -25,6 +25,7 @@ Multicam Tools.
 | **Description**                             | Creates a [Statement](cp.rx.go.Statement.md) to Cut & Switch Multicam.                                                                     |
 | **Parameters**                              | <ul><li>whichMode - "Audio", "Video" or "Both" as string</li><li>whichAngle - Number of Angle</li></ul> |
 | **Returns**                                 | <ul><li>[Statement](cp.rx.go.Statement.md) to execute</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -31,7 +31,7 @@ as described below.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -43,9 +43,10 @@ as described below.
 | **Description**                             | Check if the `thing` is a `named` table.                                                                     |
 | **Parameters**                              | <ul><li>thing     - The thing to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is `named.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [xml](#xml)
 
@@ -56,10 +57,11 @@ as described below.
 | **Description**                             | Returns the `xml` configuration for the Action.                                                                     |
 | **Parameters**                              | <ul><li>thing     - The thing to retrieve the names from.</li></ul> |
 | **Returns**                                 | <ul><li>The `xml` for the Action.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [named](#named)
@@ -71,10 +73,11 @@ as described below.
 | **Description**                             | Creates a new `named` instance, with the specified base name.                                                                     |
 | **Parameters**                              | <ul><li>id - the unique ID for the value.</li><li>name - The base name of the</li><li>parent - the parent</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [active](#active)
@@ -84,8 +87,10 @@ as described below.
 | **Signature**                               | `plugins.core.tangent.manager.named.active <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is active. It will only be active if                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -94,9 +99,11 @@ as described below.
 | **Signature**                               | `plugins.core.tangent.manager.named.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Indicates if the parameter is enabled.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [controls](#controls)
@@ -108,9 +115,10 @@ as described below.
 | **Description**                             | Returns the `controls` the parameter belongs to.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `controls`, or `nil` if not specified.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [name](#name)
 
@@ -121,9 +129,10 @@ as described below.
 | **Description**                             | Gets or sets the full name.                                                                     |
 | **Parameters**                              | <ul><li>value - The new name value.</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nameX](#namex)
 
@@ -134,9 +143,10 @@ as described below.
 | **Description**                             | Sets the name `X`, where `X` is a number as defined when the `named` was created.                                                                     |
 | **Parameters**                              | <ul><li>value - The new name value.</li></ul> |
 | **Returns**                                 | <ul><li>The current value, or `self` if a new value was provided.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [parent](#parent)
 
@@ -147,9 +157,10 @@ as described below.
 | **Description**                             | Returns the `group` or `controls` that contains this parameter.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The parent.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [tangent](#tangent)
 
@@ -160,6 +171,7 @@ as described below.
 | **Description**                             | The Tangent Hub connection for this value, from the `parent`.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.tangent`, if available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

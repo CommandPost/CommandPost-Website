@@ -33,7 +33,7 @@ If a # is place before the timecode, it will create a "To Do" marker.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -45,9 +45,10 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Plugin Dependencies</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [process](#process)
 
@@ -58,6 +59,7 @@ If a # is place before the timecode, it will create a "To Do" marker.
 | **Description**                             | Processes Pasteboard to Markers                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

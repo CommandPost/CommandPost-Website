@@ -17,7 +17,7 @@ Color Board Plugins.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [colorBoardMousePuckRelease](#colorboardmousepuckrelease)
@@ -29,9 +29,10 @@ Color Board Plugins.
 | **Description**                             | Color Board Mouse Puck Release                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nextAspect](#nextaspect)
 
@@ -42,9 +43,10 @@ Color Board Plugins.
 | **Description**                             | Goes to the next Color Board aspect.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [startMousePuck](#startmousepuck)
 
@@ -55,9 +57,10 @@ Color Board Plugins.
 | **Description**                             | Color Board - Puck Control Via Mouse                                                                     |
 | **Parameters**                              | <ul><li>aspect - "global", "shadows", "midtones" or "highlights"</li><li>property - "Color", "Saturation" or "Exposure"</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [startShiftingPuck](#startshiftingpuck)
 
@@ -68,9 +71,10 @@ Color Board Plugins.
 | **Description**                             | Starts shifting the puck, repeating at the keyboard repeat rate. Runs until `stopShiftingPuck()` is called.                                                                     |
 | **Parameters**                              | <ul><li>puck         - The puck to shift</li><li>property     - The property to shift (typically the `percent` or `angle` value for the puck)</li><li>amount       - The amount to shift the property.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stopShiftingPuck](#stopshiftingpuck)
 
@@ -81,6 +85,7 @@ Color Board Plugins.
 | **Description**                             | Stops the puck from shifting with the keyboard.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

@@ -13,7 +13,7 @@ A `Statement.Modifier` that specifies the list should be sorted by the specified
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [SortedBy](#sortedby)
@@ -23,5 +23,7 @@ A `Statement.Modifier` that specifies the list should be sorted by the specified
 | **Signature**                               | `cp.rx.go.List.SortedBy <cp.rx.go.Statement.Modifier>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | This is a configuration of `List`, which should be created via `List:SortedBy(...)`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

@@ -33,7 +33,7 @@ Import Panel Module.
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [ImportPanel](#importpanel)
@@ -45,10 +45,11 @@ Import Panel Module.
 | **Description**                             | Creates a new `ImportPanel` instance.                                                                     |
 | **Parameters**                              | <ul><li>parent - The parent object.</li></ul> |
 | **Returns**                                 | <ul><li>A new `ImportPanel` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [analyzeAudioProblems](#analyzeaudioproblems)
@@ -58,8 +59,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.analyzeAudioProblems <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Analyze and fix audio problems" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [analyzeBalanceColor](#analyzebalancecolor)
 
@@ -68,8 +71,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.analyzeBalanceColor <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Analyze video for balance color" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [assignAudioRole](#assignaudiorole)
 
@@ -78,8 +83,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.assignAudioRole <cp.ui.PopUpButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Assign Role" `PopUpButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [copyToLibraryStorageLocation](#copytolibrarystoragelocation)
 
@@ -88,8 +95,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.copyToLibraryStorageLocation <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Copy to library storage location" `RadioButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [createOptimizedMedia](#createoptimizedmedia)
 
@@ -98,8 +107,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.createOptimizedMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create optimized media" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [createProxyMedia](#createproxymedia)
 
@@ -108,8 +119,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.createProxyMedia <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create proxy media" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [findPeople](#findpeople)
 
@@ -118,8 +131,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.findPeople <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Find people" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [findPeopleConsolidatedResults](#findpeopleconsolidatedresults)
 
@@ -128,8 +143,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.findPeopleConsolidatedResults <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Consolidate find people results" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [findPeopleSmartCollections](#findpeoplesmartcollections)
 
@@ -138,8 +155,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.findPeopleSmartCollections <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Create Smart Collections after analysis" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [iXMLRoles](#ixmlroles)
 
@@ -148,8 +167,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.iXMLRoles <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Assign iXML track names if available" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywordsFromFinderTags](#keywordsfromfindertags)
 
@@ -158,8 +179,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.keywordsFromFinderTags <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keywords from Finder tags" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keywordsFromFolders](#keywordsfromfolders)
 
@@ -168,8 +191,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.keywordsFromFolders <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Keywords from folders" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [leaveFilesInPlace](#leavefilesinplace)
 
@@ -178,8 +203,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.leaveFilesInPlace <cp.ui.RadioButton>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Leave files in place" `RadioButton`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [removeSilentChannels](#removesilentchannels)
 
@@ -188,8 +215,10 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.removeSilentChannels <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Remove silent channels" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [separateMonoGroupStereoAudio](#separatemonogroupstereoaudio)
 
@@ -198,9 +227,11 @@ Import Panel Module.
 | **Signature**                               | `cp.apple.finalcutpro.prefs.ImportPanel.separateMonoGroupStereoAudio <cp.ui.CheckBox>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Separate mono and group stereo audio" `CheckBox`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [toggleMediaLocation](#togglemedialocation)
@@ -212,6 +243,7 @@ Import Panel Module.
 | **Description**                             | A `Statement` that toggles between the "Copy to library storage location" and "Leave files in place" options.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

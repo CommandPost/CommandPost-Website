@@ -43,7 +43,7 @@ buff:bytes()     -- "lo world!"
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -55,10 +55,11 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Checks if the `value` is an instance of a `buffer`.                                                                     |
 | **Parameters**                              | <ul><li>`value`  - The value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the value is an instance of `buffer`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [clone](#clone)
@@ -70,9 +71,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Creates a copy of the provided buffer. It shares data with the original, but can be modified via `pop`/`push`, etc without affecting the original.                                                                     |
 | **Parameters**                              | <ul><li>otherBuffer - The `buffer` to clone.</li></ul> |
 | **Returns**                                 | <ul><li>the clone of the original `buffer`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fromHex](#fromhex)
 
@@ -83,9 +85,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Creates a buffer from the bytes represented by the provided hex string.                                                                     |
 | **Parameters**                              | <ul><li>hexString - The string of hex characters to convert.</li><li>spacer - The character to ignore as a spacer. Defaults to space (" ").</li></ul> |
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
-| **Notes**                                   | <ul><li>Examples:</li><li> `buffer.fromHex("ABCDE")`</li><li> `buffer.fromHex("12-34-56", "-")`</li></ul>                |
+| **Notes**                                   | <ul><li>Examples:</li><li> `buffer.fromHex("ABCDE")`</li><li> `buffer.fromHex("12-34-56", "-")`</li></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -96,10 +99,11 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Creates a new byte string buffer containing the provided `string` chunks.                                                                     |
 | **Parameters**                              | <ul><li>... - The new `string` chunks to add to the end of the buffer.</li></ul> |
 | **Returns**                                 | <ul><li>The new `buffer`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [drop](#drop)
@@ -111,9 +115,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Drops the specified `len` of bytes from the start of the buffer.                                                                     |
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful, or `false` if there are not enough bytes available for the requested `len`.</li></ul>          |
-| **Notes**                                   | <ul><li>Equivalent to, but more efficient than `pop` if you don't need the bytes being dropped.</li></ul>                |
+| **Notes**                                   | <ul><li>Equivalent to, but more efficient than `pop` if you don't need the bytes being dropped.</li></ul> |
 
 ---
+
 
 ### [len](#len)
 
@@ -124,9 +129,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Returns the total number of bytes in the buffer.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of bytes in the buffer.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [peek](#peek)
 
@@ -137,9 +143,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Reads the specified `len` of bytes from the start of the buffer without removing them.                                                                     |
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pop](#pop)
 
@@ -150,9 +157,10 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Reads the specified `len` of bytes from the start of the buffer, removing them.                                                                     |
 | **Parameters**                              | <ul><li>len - The number of bytes to read.</li></ul> |
 | **Returns**                                 | <ul><li>The `string` of bytes or `nil` if there are not enough bytes available for the requested `len`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [push](#push)
 
@@ -163,6 +171,7 @@ buff:bytes()     -- "lo world!"
 | **Description**                             | Pushes the provided `string`s onto the end of the buffer.                                                                     |
 | **Parameters**                              | <ul><li>... - The new `string` chunks to add to the end of the buffer.</li></ul> |
 | **Returns**                                 | <ul><li>The same `buffer` instance.</li></ul>          |
-| **Notes**                                   | <ul><li>Throws an error if more than `cp.buffer.maxChunks` are currently in the buffer when a new value is pushed.</li></ul>                |
+| **Notes**                                   | <ul><li>Throws an error if more than `cp.buffer.maxChunks` are currently in the buffer when a new value is pushed.</li></ul> |
 
 ---
+

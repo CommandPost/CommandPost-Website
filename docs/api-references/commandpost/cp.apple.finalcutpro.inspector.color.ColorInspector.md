@@ -36,7 +36,7 @@ Color Inspector Module.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [CORRECTION_TYPES](#correction_types)
@@ -46,9 +46,11 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.CORRECTION_TYPES`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of Correction Types:                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [matches](#matches)
@@ -60,10 +62,11 @@ Color Inspector Module.
 | **Description**                             | Checks if the specified element is the Color Inspector element.                                                                     |
 | **Parameters**                              | <ul><li>element   - The element to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is the Color Inspector.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [colorBoard](#colorboard)
@@ -73,8 +76,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorBoard <ColorBoard>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorBoard object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [colorCurves](#colorcurves)
 
@@ -83,8 +88,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorCurves <ColorCurves>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorCurves object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [colorWheels](#colorwheels)
 
@@ -93,8 +100,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.colorWheels <ColorWheels>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The ColorWheels object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [corrections](#corrections)
 
@@ -103,8 +112,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.corrections <CorrectionsBar>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `CorrectionsBar` instance representing the available corrections,                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [correctorUI](#correctorui)
 
@@ -113,8 +124,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.correctorUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the currently-selected corrector panel.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [hueSaturationCurves](#huesaturationcurves)
 
@@ -123,8 +136,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.hueSaturationCurves <HueSaturationCurves>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The HueSaturationCurves object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [topBarUI](#topbarui)
 
@@ -133,8 +148,10 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.topBarUI <cp.prop: hs.axuielement; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Returns the `hs.axuielement` object representing the top bar.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [value](#value)
 
@@ -143,9 +160,11 @@ Color Inspector Module.
 | **Signature**                               | `cp.apple.finalcutpro.inspector.color.ColorInspector.value <cp.prop: cp.drawing.color>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Gets the Color Well Value as a `cp.drawing.color`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [activateCorrection](#activatecorrection)
@@ -157,9 +176,10 @@ Color Inspector Module.
 | **Description**                             | Activates the named correction type and number, if present. If no corrector with the type/number combination exists, a new one is added.                                                                     |
 | **Parameters**                              | <ul><li>correctionType   - The string for the type of correction (in English). E.g. "Color Wheels", "Color Board", etc.</li><li>number           - The correction number for that type. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [addCorrection](#addcorrection)
 
@@ -170,9 +190,10 @@ Color Inspector Module.
 | **Description**                             | Adds the named correction type.                                                                     |
 | **Parameters**                              | <ul><li>correctionType   - The string for the type of correction (in English). E.g. "Color Wheels", "Color Board", etc.</li></ul> |
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ColorInspector](#colorinspector)
 
@@ -183,9 +204,10 @@ Color Inspector Module.
 | **Description**                             | Creates a new ColorInspector object                                                                     |
 | **Parameters**                              | <ul><li>`parent`     - The parent</li></ul> |
 | **Returns**                                 | <ul><li>A ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doActivateCorrection](#doactivatecorrection)
 
@@ -196,9 +218,10 @@ Color Inspector Module.
 | **Description**                             | Returns a [Statement](cp.rx.go.Statement.md) that activates the named correction type and number, if present. If no corrector with the type/number combination exists, a new one is added.                                                                     |
 | **Parameters**                              | <ul><li>correctionType   - The string for the type of correction (in English). E.g. "Color Wheels", "Color Board", etc.</li><li>number           - The correction number for that type. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, which sends a single `true` value if successful, or sends an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doAddCorrection](#doaddcorrection)
 
@@ -209,9 +232,10 @@ Color Inspector Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that adds the named correction type.                                                                     |
 | **Parameters**                              | <ul><li>correctionType   - The string for the type of correction (in English). E.g. "Color Wheels", "Color Board", etc.</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful, or sending an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doShow](#doshow)
 
@@ -222,9 +246,10 @@ Color Inspector Module.
 | **Description**                             | A [Statement](cp.rx.go.Statement.md) that attempts to show the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement`, resolving to `true` if successful or sending an error if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hide](#hide)
 
@@ -235,9 +260,10 @@ Color Inspector Module.
 | **Description**                             | Hides the Color Inspector                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -248,6 +274,7 @@ Color Inspector Module.
 | **Description**                             | Shows the Color Inspector.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>ColorInspector object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

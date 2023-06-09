@@ -39,7 +39,7 @@ Razer Manager Plugin.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [bankLabels](#banklabels)
@@ -49,8 +49,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.bankLabels -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of bank labels, which reflect the LED icons.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [supportedDevices](#supporteddevices)
 
@@ -59,9 +61,11 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.supportedDevices -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table supported devices.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [defaultLayout](#defaultlayout)
@@ -71,8 +75,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.defaultLayout -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Default Loupedeck CT Layout                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [manager](#manager)
 
@@ -81,9 +87,11 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager -> table`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | A table of Razer devices.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [refresh](#refresh)
@@ -95,9 +103,10 @@ Razer Manager Plugin.
 | **Description**                             | Refreshes the LEDs on a Razer device.                                                                     |
 | **Parameters**                              | <ul><li>trashCache - an optional boolean to trash the LED cache</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -108,9 +117,10 @@ Razer Manager Plugin.
 | **Description**                             | Resets the config back to the default layout.                                                                     |
 | **Parameters**                              | <ul><li>completelyEmpty - A boolean</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resetTimers](#resettimers)
 
@@ -121,10 +131,11 @@ Razer Manager Plugin.
 | **Description**                             | Resets all the various timers and memories.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [activeBanks](#activebanks)
@@ -134,8 +145,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.activeBanks <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Table of active banks for each application.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [automaticallySwitchApplications](#automaticallyswitchapplications)
 
@@ -144,8 +157,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.automaticallySwitchApplications <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Enable or disable the automatic switching of applications.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightBrightness](#backlightbrightness)
 
@@ -154,8 +169,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightBrightness <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlights brightness for all the Razer devices.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightEffectColorA](#backlighteffectcolora)
 
@@ -164,8 +181,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightEffectColorA <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect primary color.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightEffectColorB](#backlighteffectcolorb)
 
@@ -174,8 +193,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightEffectColorB <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect secondary color.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightEffectDirection](#backlighteffectdirection)
 
@@ -184,8 +205,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightEffectDirection <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect direction.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightEffectSpeed](#backlighteffectspeed)
 
@@ -194,8 +217,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightEffectSpeed <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlight effect speed.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [backlightsMode](#backlightsmode)
 
@@ -204,8 +229,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.backlightsMode <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The backlights mode for all the Razer devices.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [delayUntilRepeat](#delayuntilrepeat)
 
@@ -214,8 +241,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.delayUntilRepeat <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Delay Until Repeat Preference.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
 
@@ -224,8 +253,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.displayMessageWhenChangingBanks <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Display message when changing banks?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -234,8 +265,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is Loupedeck CT support enabled?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [items](#items)
 
@@ -244,8 +277,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.items <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Contains all the saved TourBox layouts.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [keyRepeat](#keyrepeat)
 
@@ -254,8 +289,10 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.keyRepeat <cp.prop: string>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Key Repeat Preference.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastBundleID](#lastbundleid)
 
@@ -264,5 +301,7 @@ Razer Manager Plugin.
 | **Signature**                               | `plugins.core.razer.manager.lastBundleID <cp.prop: table>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The last used bundle ID.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

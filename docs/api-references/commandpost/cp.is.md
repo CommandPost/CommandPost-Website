@@ -48,7 +48,7 @@ isnt_blank(nil) == false
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [blank](#blank)
@@ -60,9 +60,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a blank string value - either `nil` or `tostring(value) == ""`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [boolean](#boolean)
 
@@ -73,9 +74,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `function`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [callable](#callable)
 
@@ -86,9 +88,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a callable - either a `function` or a `table` with `__call` in it's metatable hierarchy.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [falsey](#falsey)
 
@@ -99,9 +102,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `falsey` value. A value is considered to be `falsey` if it is `nil` or `false`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [fn](#fn)
 
@@ -112,9 +116,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `function`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [instance](#instance)
 
@@ -125,9 +130,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is an instance of the provided class `table`. It is considered an instance if the `class` is either the value itself, or is the `__index` or `__class` field of the `metatable`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li><li>class     - the class table to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [list](#list)
 
@@ -138,9 +144,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `list`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nothing](#nothing)
 
@@ -151,9 +158,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is `nil`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [number](#number)
 
@@ -164,9 +172,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `number`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [object](#object)
 
@@ -177,9 +186,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `object`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [something](#something)
 
@@ -190,9 +200,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is not `nil`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [string](#string)
 
@@ -203,9 +214,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a string.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [table](#table)
 
@@ -216,9 +228,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `table`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [truthy](#truthy)
 
@@ -229,9 +242,10 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `truthy` value. A value is considered to be truthy if it is not `nil` nor `false`.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [userdata](#userdata)
 
@@ -242,6 +256,7 @@ isnt_blank(nil) == false
 | **Description**                             | Check if the value is a `userdata` object.                                                                     |
 | **Parameters**                              | <ul><li>value     - the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches, `false` if not.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

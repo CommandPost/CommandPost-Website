@@ -39,7 +39,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## API Documentation
 
-### Constructors
+#### Constructors
 
 
 ### [newClient](#newclient)
@@ -51,9 +51,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>host - A string of the host path.</li><li>port - A number of the port.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [newServer](#newserver)
 
@@ -64,10 +65,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Creates a new OSC Server.                                                                     |
 | **Parameters**                              | <ul><li>listeningPort - A number for the listening port.</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.osc` object or `nil` if an error occured.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [callback](#callback)
@@ -79,9 +81,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Sets or removes a callback function for a OSC Server.                                                                     |
 | **Parameters**                              | <ul><li>`callbackFn` - a function to set as the callback for this OSC Server.  If the value provided is `nil`, any currently existing callback function is removed.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object</li></ul>          |
-| **Notes**                                   | <ul><li>The callback function should expect 3 arguments and should not return anything:</li><li>  `oscObject` - The OSC object that triggered the callback.</li><li>  `addressParts` - A table of address parts.</li><li>  `arguments` - A table of arguments.</li></ul>                |
+| **Notes**                                   | <ul><li>The callback function should expect 3 arguments and should not return anything:</li><li>  `oscObject` - The OSC object that triggered the callback.</li><li>  `addressParts` - A table of address parts.</li><li>  `arguments` - A table of arguments.</li></ul> |
 
 ---
+
 
 ### [host](#host)
 
@@ -92,9 +95,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the host path of a OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The host as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isActive](#isactive)
 
@@ -105,9 +109,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Gets whether or not a OSC Server or Client is active.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if open, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [listeningPort](#listeningport)
 
@@ -118,9 +123,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the listening port of a OSC Server.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [port](#port)
 
@@ -131,9 +137,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Returns the port of a OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The port as a number.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [send](#send)
 
@@ -144,9 +151,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Sends a message from an OSC Client.                                                                     |
 | **Parameters**                              | <ul><li>address - A string of the OSC address.</li><li>arguments - A table of arguments.</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [start](#start)
 
@@ -157,9 +165,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Starts an OSC Server or Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [stop](#stop)
 
@@ -170,6 +179,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 | **Description**                             | Stops an OSC Server or Client.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `hs.osc` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

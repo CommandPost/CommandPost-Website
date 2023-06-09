@@ -30,7 +30,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [HORIZONTAL_ORIENTATION](#horizontal_orientation)
@@ -40,8 +40,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.HORIZONTAL_ORIENTATION <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is horizontal.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [VERTICAL_ORIENTATION](#vertical_orientation)
 
@@ -50,9 +52,11 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.VERTICAL_ORIENTATION <string>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The value for `AXOrientation` when it is vertical.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ScrollBar](#scrollbar)
@@ -64,10 +68,11 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Description**                             | Creates a new `ScrollBar` instance with the specified `parent` and `uiFinder`.                                                                     |
 | **Parameters**                              | <ul><li>parent - the parent object.</li><li>uiFinder - a `function` or `cp.prop` that provides the `AXScrollBar` `axuielement`.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ScrollBar`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [hidden](#hidden)
@@ -77,8 +82,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.hidden <cp.prop: boolean; read-only, live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is currently hidden.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [horizontal](#horizontal)
 
@@ -87,8 +94,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.horizontal <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is horizontal, otherwise `false`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [orientation](#orientation)
 
@@ -97,8 +106,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.orientation <cp.prop: string; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The `AXOrientation` string.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [value](#value)
 
@@ -107,8 +118,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.value <cp.prop: number; live?>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is the numeric scroll value, typically between `0.0` and `1.0`. May be set.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [vertical](#vertical)
 
@@ -117,9 +130,11 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Signature**                               | `cp.ui.ScrollBar.vertical <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Is `true` if the `ScrollBar` is vertical, otherwise `false`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [loadLayout](#loadlayout)
@@ -131,9 +146,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Description**                             | Loads the provided `layout` table of configuration parameters.                                                                     |
 | **Parameters**                              | <ul><li>layout - the table of parameters.</li></ul> |
 | **Returns**                                 | <ul></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [matches](#matches)
 
@@ -144,9 +160,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Description**                             | Checks if the element is a `ScrollBar`.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` being matched.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveLayout](#savelayout)
 
@@ -157,9 +174,10 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Description**                             | Saves the `ScrollBar` layout configuration.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>a `table` with the configuration parameters.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [shiftValueBy](#shiftvalueby)
 
@@ -170,6 +188,7 @@ Provides access to `AXScrollBar` `axuielement` values.
 | **Description**                             | Attempts to shift the value by the specified amount.                                                                     |
 | **Parameters**                              | <ul><li>amount - The amount to shift by.</li></ul> |
 | **Returns**                                 | <ul><li>The new value, or `nil` if not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

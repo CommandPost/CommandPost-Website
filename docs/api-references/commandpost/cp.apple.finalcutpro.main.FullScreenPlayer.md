@@ -27,7 +27,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -39,10 +39,11 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [FullScreenPlayer](#fullscreenplayer)
@@ -54,10 +55,11 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Creates a new FCPX `FullScreenPlayer` instance.                                                                     |
 | **Parameters**                              | <ul><li>app       - The FCP app instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `FullScreenPlayer`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [isFullScreen](#isfullscreen)
@@ -67,8 +69,10 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.isFullScreen <cp.prop; boolean; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | Checks if the window is full-screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [rootGroupUI](#rootgroupui)
 
@@ -77,8 +81,10 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.rootGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The root `AXGroup`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [viewerGroupUI](#viewergroupui)
 
@@ -87,9 +93,11 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Signature**                               | `cp.apple.finalcutpro.main.FullScreenPlayer.viewerGroupUI <cp.prop: hs.axuielement; read-only; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Viewer's group UI element.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [doShow](#doshow)
@@ -101,9 +109,10 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | A `Statement` that attempts to show the full screen window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` to execute.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -114,6 +123,7 @@ Triggered by the "View > Playback > Play Full Screen" menubar item.
 | **Description**                             | Attempts to show the full screen window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The window instance.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

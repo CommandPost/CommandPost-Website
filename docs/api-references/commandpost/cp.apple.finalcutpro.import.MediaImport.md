@@ -24,7 +24,7 @@ Media Import
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -36,10 +36,11 @@ Media Import
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [MediaImport](#mediaimport)
@@ -51,10 +52,11 @@ Media Import
 | **Description**                             | Creates a new Media Import object.                                                                     |
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new MediaImport object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [importAll](#importall)
@@ -64,8 +66,10 @@ Media Import
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport.importAll <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Import All button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [stopImport](#stopimport)
 
@@ -74,9 +78,11 @@ Media Import
 | **Signature**                               | `cp.apple.finalcutpro.import.MediaImport.stopImport <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Stop Import" button.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [hide](#hide)
@@ -88,9 +94,10 @@ Media Import
 | **Description**                             | Hides the Media Import window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -101,6 +108,7 @@ Media Import
 | **Description**                             | Shows the Media Import window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.import.MediaImport` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

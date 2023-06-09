@@ -41,7 +41,7 @@ Manager for the CommandPost Setup Screen.
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [DEFAULT_HEIGHT](#default_height)
@@ -51,8 +51,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.DEFAULT_HEIGHT -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel height.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_TITLE](#default_title)
 
@@ -61,8 +63,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.DEFAULT_TITLE -> string`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel title.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [DEFAULT_WIDTH](#default_width)
 
@@ -71,8 +75,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.DEFAULT_WIDTH -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The default panel width.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [enabled](#enabled)
 
@@ -81,8 +87,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.enabled <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Set to `true` if the manager is enabled. Defaults to `false`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [FIRST_PRIORITY](#first_priority)
 
@@ -91,8 +99,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.FIRST_PRIORITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The first panel priority.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [LAST_PRIORITY](#last_priority)
 
@@ -101,8 +111,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.LAST_PRIORITY -> number`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | The last panel priority.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [visible](#visible)
 
@@ -111,9 +123,11 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.visible <cp.prop: boolean; read-only>`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | A property indicating if the welcome window is visible on screen.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Variables
+
+#### Variables
 
 
 ### [onboardingRequired](#onboardingrequired)
@@ -123,8 +137,10 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.onboardingRequired <cp.prop: boolean>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Set to `true` if on-boarding is required otherwise `false`. Defaults to `true`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [position](#position)
 
@@ -133,9 +149,11 @@ Manager for the CommandPost Setup Screen.
 | **Signature**                               | `plugins.core.setup.position <cp.prop: table>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last known position of the Setup Window as a frame.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [addPanel](#addpanel)
@@ -147,9 +165,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Adds the new panel to the manager. Panels are created via the `plugins.core.setup.panel.new(...)` function.                                                                     |
 | **Parameters**                              | <ul><li>`newPanel`   - The panel to add.</li></ul> |
 | **Returns**                                 | <ul><li>The manager.</li></ul>          |
-| **Notes**                                   | <ul><li>If the Setup Manager is `enabled`, the window will be displayed immediately when a panel is added.</li></ul>                |
+| **Notes**                                   | <ul><li>If the Setup Manager is `enabled`, the window will be displayed immediately when a panel is added.</li></ul> |
 
 ---
+
 
 ### [currentPanel](#currentpanel)
 
@@ -160,9 +179,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | The Current Panel                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The current panel as a string</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [delete](#delete)
 
@@ -173,9 +193,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Deletes the Setup Panels.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [focus](#focus)
 
@@ -186,9 +207,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Focuses on the Setup Panels window.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getLabel](#getlabel)
 
@@ -199,9 +221,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Returns the Webview label.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Webview label as a string.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [injectScript](#injectscript)
 
@@ -212,9 +235,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Injects JavaScript into the Setup Panels.                                                                     |
 | **Parameters**                              | <ul><li>script - The JavaScript you want to inject as a string.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -225,9 +249,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Creates the Setup Panels.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [nextPanel](#nextpanel)
 
@@ -238,9 +263,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Moves to the next panel. If the window is visible, the panel will be updated. If no panels are left in the queue, the window will be closed.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if there was another panel to move to, or `false` if no panels remain.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPanelRenderer](#setpanelrenderer)
 
@@ -251,9 +277,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Sets a Panel Renderer                                                                     |
 | **Parameters**                              | <ul><li>renderer - The renderer</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [show](#show)
 
@@ -264,9 +291,10 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Shows the Setup Panels.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [update](#update)
 
@@ -277,6 +305,7 @@ Manager for the CommandPost Setup Screen.
 | **Description**                             | Updates the Setup Panels.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

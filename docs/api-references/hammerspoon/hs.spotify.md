@@ -40,7 +40,7 @@ Controls for Spotify music player
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [state_paused](#state_paused)
@@ -50,8 +50,10 @@ Controls for Spotify music player
 | **Signature**                               | `hs.spotify.state_paused`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is paused                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_playing](#state_playing)
 
@@ -60,8 +62,10 @@ Controls for Spotify music player
 | **Signature**                               | `hs.spotify.state_playing`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is playing                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [state_stopped](#state_stopped)
 
@@ -70,9 +74,11 @@ Controls for Spotify music player
 | **Signature**                               | `hs.spotify.state_stopped`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Returned by `hs.spotify.getPlaybackState()` to indicates Spotify is stopped                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [displayCurrentTrack](#displaycurrenttrack)
@@ -84,9 +90,10 @@ Controls for Spotify music player
 | **Description**                             | Displays information for current track on screen                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ff](#ff)
 
@@ -97,9 +104,10 @@ Controls for Spotify music player
 | **Description**                             | Skips the playback position forwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentAlbum](#getcurrentalbum)
 
@@ -110,9 +118,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the name of the album of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Album of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentArtist](#getcurrentartist)
 
@@ -123,9 +132,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the name of the artist of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the Artist of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentTrack](#getcurrenttrack)
 
@@ -136,9 +146,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the name of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the name of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getCurrentTrackId](#getcurrenttrackid)
 
@@ -149,9 +160,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the id of the current track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing the id of the current track, or nil if an error occurred</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getDuration](#getduration)
 
@@ -162,9 +174,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the duration (in seconds) of the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The number of seconds long the current song is, 0 if no song is playing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPlaybackState](#getplaybackstate)
 
@@ -175,9 +188,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the current playback state of Spotify                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string containing one of the following constants:</li><li>   - `hs.spotify.state_stopped`</li><li>   - `hs.spotify.state_paused`</li><li>   - `hs.spotify.state_playing`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getPosition](#getposition)
 
@@ -188,9 +202,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the playback position (in seconds) in the current song                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number indicating the current position in the song</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getVolume](#getvolume)
 
@@ -201,9 +216,10 @@ Controls for Spotify music player
 | **Description**                             | Gets the Spotify volume setting                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A number containing the volume Spotify is set to between 1 and 100</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isPlaying](#isplaying)
 
@@ -214,9 +230,10 @@ Controls for Spotify music player
 | **Description**                             | Returns whether Spotify is currently playing                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether Spotify is currently playing a track, or nil if an error occurred (unknown player state). Also returns false if the application is not running</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isRunning](#isrunning)
 
@@ -227,9 +244,10 @@ Controls for Spotify music player
 | **Description**                             | Returns whether Spotify is currently open. Most other functions in hs.spotify will automatically start the application, so this function can be used to guard against that.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A boolean value indicating whether the Spotify application is running.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [next](#next)
 
@@ -240,9 +258,10 @@ Controls for Spotify music player
 | **Description**                             | Skips to the next Spotify track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [pause](#pause)
 
@@ -253,9 +272,10 @@ Controls for Spotify music player
 | **Description**                             | Pauses the current Spotify track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [play](#play)
 
@@ -266,9 +286,10 @@ Controls for Spotify music player
 | **Description**                             | Plays the current Spotify track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playpause](#playpause)
 
@@ -279,9 +300,10 @@ Controls for Spotify music player
 | **Description**                             | Toggles play/pause of current Spotify track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [playTrack](#playtrack)
 
@@ -292,9 +314,10 @@ Controls for Spotify music player
 | **Description**                             | Plays the Spotify track with the given id                                                                     |
 | **Parameters**                              | <ul><li>id - The Spotify id of the track to be played</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [previous](#previous)
 
@@ -305,9 +328,10 @@ Controls for Spotify music player
 | **Description**                             | Skips to previous Spotify track                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [rw](#rw)
 
@@ -318,9 +342,10 @@ Controls for Spotify music player
 | **Description**                             | Skips the playback position backwards by 5 seconds                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setPosition](#setposition)
 
@@ -331,9 +356,10 @@ Controls for Spotify music player
 | **Description**                             | Sets the playback position in the current song                                                                     |
 | **Parameters**                              | <ul><li>pos - A number containing the position (in seconds) to jump to in the current song</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setVolume](#setvolume)
 
@@ -344,9 +370,10 @@ Controls for Spotify music player
 | **Description**                             | Sets the Spotify volume setting                                                                     |
 | **Parameters**                              | <ul><li>vol - A number between 1 and 100</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeDown](#volumedown)
 
@@ -357,9 +384,10 @@ Controls for Spotify music player
 | **Description**                             | Reduces the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [volumeUp](#volumeup)
 
@@ -370,6 +398,7 @@ Controls for Spotify music player
 | **Description**                             | Increases the volume by 5                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

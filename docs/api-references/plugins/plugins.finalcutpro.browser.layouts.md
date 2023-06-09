@@ -56,7 +56,7 @@ file.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [busy](#busy)
@@ -66,8 +66,10 @@ file.
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.busy -> boolean`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | Are we already in the process of doing something?                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [lastCollection](#lastcollection)
 
@@ -76,9 +78,11 @@ file.
 | **Signature**                               | `plugins.finalcutpro.browser.layouts.lastCollection -> string | nil`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | The last collection registered.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [getActiveColumnsNames](#getactivecolumnsnames)
@@ -90,9 +94,10 @@ file.
 | **Description**                             | Get active column names in a table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of active column names or an empty table if something goes wrong.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getClipNameSize](#getclipnamesize)
 
@@ -103,9 +108,10 @@ file.
 | **Description**                             | Gets the Clip Name Size as a string.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The Clip Name Size as a string or `nil` if cannot be found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [getSingleSelectedCollection](#getsingleselectedcollection)
 
@@ -116,9 +122,10 @@ file.
 | **Description**                             | If a single collection is selected in the browser it's value is returned as a string.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A string if successful otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [resetBrowserLayoutForSelectedCollection](#resetbrowserlayoutforselectedcollection)
 
@@ -129,9 +136,10 @@ file.
 | **Description**                             | Reset Browser Layout for selected collection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>An error sound will play if there's nothing to reset.</li></ul>                |
+| **Notes**                                   | <ul><li>An error sound will play if there's nothing to reset.</li></ul> |
 
 ---
+
 
 ### [restoreBrowserLayoutForSelectedCollection](#restorebrowserlayoutforselectedcollection)
 
@@ -142,9 +150,10 @@ file.
 | **Description**                             | Restore Browser Layout for selected collection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>An error sound will play if there's nothing to restore.</li></ul>                |
+| **Notes**                                   | <ul><li>An error sound will play if there's nothing to restore.</li></ul> |
 
 ---
+
 
 ### [restoreLayoutFromTable](#restorelayoutfromtable)
 
@@ -155,9 +164,10 @@ file.
 | **Description**                             | Restore Layout from Table.                                                                     |
 | **Parameters**                              | <ul><li>layout - The layout settings in a table.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if successful otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [saveBrowserLayoutForSelectedCollection](#savebrowserlayoutforselectedcollection)
 
@@ -168,9 +178,10 @@ file.
 | **Description**                             | Save Browser Layout for selected collection.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul><li>An error sound will play if there's nothing to save.</li></ul>                |
+| **Notes**                                   | <ul><li>An error sound will play if there's nothing to save.</li></ul> |
 
 ---
+
 
 ### [saveLayoutToTable](#savelayouttotable)
 
@@ -181,9 +192,10 @@ file.
 | **Description**                             | Save Layout to Table.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table containing the layout settings if successful otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [setupWatcher](#setupwatcher)
 
@@ -194,6 +206,7 @@ file.
 | **Description**                             | Creates or destroys the keyboard watcher.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

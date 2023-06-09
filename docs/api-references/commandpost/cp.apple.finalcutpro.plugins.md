@@ -59,7 +59,7 @@ Usage:
 
 ## API Documentation
 
-### Constants
+#### Constants
 
 
 ### [types](#types)
@@ -69,9 +69,11 @@ Usage:
 | **Signature**                               | `cp.apple.finalcutpro.plugins.types -> table`                                                                    |
 | **Type**                                    | Constant                                                                     |
 | **Description**                             | Table of the different audio/video/transition/generator types.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Functions
+
+#### Functions
 
 
 ### [clearCaches](#clearcaches)
@@ -83,9 +85,10 @@ Usage:
 | **Description**                             | Clears any local caches created for tracking the plugins.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the caches have been cleared successfully.</li></ul>          |
-| **Notes**                                   | <ul><li>Does not uninstall any of the actual plugins.</li></ul>                |
+| **Notes**                                   | <ul><li>Does not uninstall any of the actual plugins.</li></ul> |
 
 ---
+
 
 ### [new](#new)
 
@@ -96,9 +99,10 @@ Usage:
 | **Description**                             | Creates a new Plugins Object.                                                                     |
 | **Parameters**                              | <ul><li>fcp - The `cp.apple.finalcutpro` object</li></ul> |
 | **Returns**                                 | <ul><li>The plugins object</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scan](#scan)
 
@@ -109,9 +113,10 @@ Usage:
 | **Description**                             | Scans Final Cut Pro for Effects, Transitions, Generators & Titles                                                                     |
 | **Parameters**                              | <ul><li>fcp - the `cp.apple.finalcutpro` instance</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAppEffectsPresets](#scanappeffectspresets)
 
@@ -122,9 +127,10 @@ Usage:
 | **Description**                             | Scans Final Cut Pro Built-in Effects Presets                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanned](#scanned)
 
@@ -135,9 +141,10 @@ Usage:
 | **Description**                             | Gets if the system has been scanned.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>`true` is scanned otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanSystemAudioUnits](#scansystemaudiounits)
 
@@ -148,9 +155,10 @@ Usage:
 | **Description**                             | Scans for Validated Audio Units, and saves the results to a cache for faster subsequent startup times.                                                                     |
 | **Parameters**                              | <ul><li>locale   - the locale to scan in.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanUserColorPresets](#scanusercolorpresets)
 
@@ -161,9 +169,10 @@ Usage:
 | **Description**                             | Scans Final Cut Pro User Color Presets                                                                     |
 | **Parameters**                              | <ul><li>`locale` - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanUserEffectsPresets](#scanusereffectspresets)
 
@@ -174,10 +183,11 @@ Usage:
 | **Description**                             | Scans Final Cut Pro Effects Presets                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [app](#app)
@@ -189,9 +199,10 @@ Usage:
 | **Description**                             | Returns the `cp.apple.finalcutpro` object.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro` object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [audioEffects](#audioeffects)
 
@@ -202,9 +213,10 @@ Usage:
 | **Description**                             | Finds the 'audio effect' plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [effectBundleStrings](#effectbundlestrings)
 
@@ -215,9 +227,10 @@ Usage:
 | **Description**                             | Returns all the Effect Bundle Strings.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The effect bundle strings in a table.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [effectStrings](#effectstrings)
 
@@ -228,9 +241,10 @@ Usage:
 | **Description**                             | Returns a table of Effects Strings.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>A table of effect strings.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [generators](#generators)
 
@@ -241,9 +255,10 @@ Usage:
 | **Description**                             | Finds the 'generator' plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [ofType](#oftype)
 
@@ -254,9 +269,10 @@ Usage:
 | **Description**                             | Finds the plugins of the specified type (`types.videoEffect`, etc.) and if provided, locale.                                                                     |
 | **Parameters**                              | <ul><li>`type`        - The plugin type. See `types` for the complete list.</li><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins of the specified type.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [registerPlugin](#registerplugin)
 
@@ -267,9 +283,10 @@ Usage:
 | **Description**                             | Registers a plugin with the specified details.                                                                     |
 | **Parameters**                              | <ul><li>`path`           - The path to the plugin directory.</li><li>`type`           - The type of plugin</li><li>`categoryName`   - The category name, in the specified locale.</li><li>`themeName`      - The theme name, in the specified locale. May be `nil` if not in a theme.</li><li>`pluginName`     - The plugin name, in the specified locale.</li><li>`locale`         - The `cp.i18n.localeID` or string code for same (e.g. "en", "fr", "de")</li></ul> |
 | **Returns**                                 | <ul><li>The plugin object.</li></ul>          |
-| **Notes**                                   | <ul><li>`locale` defaults to the current Final Cut Pro locale if nothing is supplied.</li></ul>                |
+| **Notes**                                   | <ul><li>`locale` defaults to the current Final Cut Pro locale if nothing is supplied.</li></ul> |
 
 ---
+
 
 ### [reset](#reset)
 
@@ -280,9 +297,10 @@ Usage:
 | **Description**                             | Resets all the cached plugins.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAll](#scanall)
 
@@ -293,9 +311,10 @@ Usage:
 | **Description**                             | Scans all supported locales, loading them into memory.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>Nothing</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAppAudioEffectBundles](#scanappaudioeffectbundles)
 
@@ -306,9 +325,10 @@ Usage:
 | **Description**                             | Scans the Audio Effect Bundles directories.                                                                     |
 | **Parameters**                              | <ul><li>directoryPath - Directory to scan</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAppBuiltInPlugins](#scanappbuiltinplugins)
 
@@ -319,9 +339,10 @@ Usage:
 | **Description**                             | Scan Built In Plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The `cp.i18n.localeID` code to search for. Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAppEdelEffects](#scanappedeleffects)
 
@@ -332,9 +353,10 @@ Usage:
 | **Description**                             | Scans for Soundtrack Pro EDEL Effects.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanAppMotionTemplates](#scanappmotiontemplates)
 
@@ -345,9 +367,10 @@ Usage:
 | **Description**                             | Scans for app-provided Final Cut Pro Plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanPluginCategoryDirectory](#scanplugincategorydirectory)
 
@@ -358,9 +381,10 @@ Usage:
 | **Description**                             | Scans a folder as a plugin category folder. The contents will be folders that are either theme folders or actual plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`        - The locale to scan with.</li><li>`path`            - The path to the plugin type directory</li><li>`plugin`      - A table containing the plugin details collected so far.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanPluginsDirectory](#scanpluginsdirectory)
 
@@ -371,9 +395,10 @@ Usage:
 | **Description**                             | Scans a root plugins directory.                                                                     |
 | **Parameters**                              | <ul><li>`locale`   - The locale code to scan for (e.g. "en" or "fr").</li><li>`path`       - The path of the root plugin directory to scan.</li><li>`checkFn`    - A function which will receive the path being scanned and return `true` if it should be scanned.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the plugin directory was successfully scanned.</li></ul>          |
-| **Notes**                                   | <ul><li>Plugins directories have a standard structure which comes in two flavours:</li><li>  ** <type>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<theme>/<plugin name>/<plugin name>.<ext></li><li>This is somewhat complicated by 'localization', wherein each of the folder levels may have a `.localized` extension. If this is the case, it will contain a subfolder called `.localized`, which in turn contains files which describe the local name for the folder in any number of locales.</li><li>This function will drill down through the contents of the specified `path`, assuming the above structure, and then register any contained plugins in the `locale` provided. Other locales are ignored, other than some use of English when checking for specific effect types (Effect, Generator, etc.).</li></ul>                |
+| **Notes**                                   | <ul><li>Plugins directories have a standard structure which comes in two flavours:</li><li>  ** <type>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<plugin name>/<plugin name>.<ext></li><li>  ** <type>/<group>/<theme>/<plugin name>/<plugin name>.<ext></li><li>This is somewhat complicated by 'localization', wherein each of the folder levels may have a `.localized` extension. If this is the case, it will contain a subfolder called `.localized`, which in turn contains files which describe the local name for the folder in any number of locales.</li><li>This function will drill down through the contents of the specified `path`, assuming the above structure, and then register any contained plugins in the `locale` provided. Other locales are ignored, other than some use of English when checking for specific effect types (Effect, Generator, etc.).</li></ul> |
 
 ---
+
 
 ### [scanPluginThemeDirectory](#scanpluginthemedirectory)
 
@@ -384,9 +409,10 @@ Usage:
 | **Description**                             | Scans a folder as a plugin theme folder. The contents will be plugin folders.                                                                     |
 | **Parameters**                              | <ul><li>`locale`        - The locale to scan with.</li><li>`path`            - The path to the plugin type directory</li><li>`plugin`          - A table containing the plugin details collected so far.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the folder was scanned successfully.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanSystemMotionTemplates](#scansystemmotiontemplates)
 
@@ -397,9 +423,10 @@ Usage:
 | **Description**                             | Scans for system-provided Final Cut Pro Plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [scanUserMotionTemplates](#scanusermotiontemplates)
 
@@ -410,9 +437,10 @@ Usage:
 | **Description**                             | Scans for user-provided Final Cut Pro Plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale to scan for.</li></ul> |
 | **Returns**                                 | <ul><li>None</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [titles](#titles)
 
@@ -423,9 +451,10 @@ Usage:
 | **Description**                             | Finds the 'title' plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [transitions](#transitions)
 
@@ -436,9 +465,10 @@ Usage:
 | **Description**                             | Finds the 'transitions' plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [translateEffectBundle](#translateeffectbundle)
 
@@ -449,9 +479,10 @@ Usage:
 | **Description**                             | Translates an Effect Bundle Item.                                                                     |
 | **Parameters**                              | <ul><li>input - The original name</li><li>locale - The locale code you want to attempt to translate to</li></ul> |
 | **Returns**                                 | <ul><li>The translated value for `input` in the specified locale, if present.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [unwatch](#unwatch)
 
@@ -462,9 +493,10 @@ Usage:
 | **Description**                             | Unwatches a watcher with a specific ID.                                                                     |
 | **Parameters**                              | <ul><li>id - The ID of the watcher to stop watching.</li></ul> |
 | **Returns**                                 | <ul><li>The watcher object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [videoEffects](#videoeffects)
 
@@ -475,9 +507,10 @@ Usage:
 | **Description**                             | Finds the 'video effect' plugins.                                                                     |
 | **Parameters**                              | <ul><li>`locale`    - The locale code to search for (e.g. "en"). Defaults to the current FCPX langauge.</li></ul> |
 | **Returns**                                 | <ul><li>A table of the available plugins.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [watch](#watch)
 
@@ -488,6 +521,7 @@ Usage:
 | **Description**                             | Adds a watcher for the provided events table.                                                                     |
 | **Parameters**                              | <ul><li>events - A table of events to watch.</li></ul> |
 | **Returns**                                 | <ul><li>The watcher object</li></ul>          |
-| **Notes**                                   | <ul><li>The events can be:</li><li> ** videoEffects</li><li> ** audioEffects</li><li> ** transitions</li><li> ** titles</li><li> ** generators</li></ul>                |
+| **Notes**                                   | <ul><li>The events can be:</li><li> ** videoEffects</li><li> ** audioEffects</li><li> ** transitions</li><li> ** titles</li><li> ** generators</li></ul> |
 
 ---
+

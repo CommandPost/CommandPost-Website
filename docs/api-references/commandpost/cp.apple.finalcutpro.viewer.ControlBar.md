@@ -20,7 +20,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -32,10 +32,11 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Description**                             | Checks if the element is a `ControlBar` instance.                                                                     |
 | **Parameters**                              | <ul><li>element       - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it matches the pattern for a `Viewer` `ControlBar`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ControlBar](#controlbar)
@@ -47,10 +48,11 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Description**                             | Creates a new `ControlBar` instance.                                                                     |
 | **Parameters**                              | <ul><li>viewer       - The [Viewer](cp.apple.finalcutpro.viewer.Viewer.md) instance.</li></ul> |
 | **Returns**                                 | <ul><li>The new `ControlBar`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [timecode](#timecode)
@@ -60,5 +62,7 @@ which contains the play/pause button, timecode, audio meters, etc.
 | **Signature**                               | `cp.apple.finalcutpro.viewer.ControlBar.timecode <cp.prop: string; live>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The current timecode value, with the format "hh:mm:ss:ff". Setting also supports "hh:mm:ss;ff".                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

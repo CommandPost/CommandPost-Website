@@ -13,7 +13,7 @@ Tangent Display Functions.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [init](#init)
@@ -25,6 +25,7 @@ Tangent Display Functions.
 | **Description**                             | Initialise the module.                                                                     |
 | **Parameters**                              | <ul><li>deps - Dependancies</li></ul> |
 | **Returns**                                 | <ul><li>Self</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

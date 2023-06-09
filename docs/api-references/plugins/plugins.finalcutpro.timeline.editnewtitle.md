@@ -14,7 +14,7 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [doEditNewLowerThirds](#doeditnewlowerthirds)
@@ -26,9 +26,10 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Description**                             | Creates the new two-thirds title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [doEditNewTitle](#doeditnewtitle)
 
@@ -39,6 +40,7 @@ Allows adding and editing titles in Final Cut Pro's timeline.
 | **Description**                             | Creates the new default title.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `Statement` that will create the new title.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

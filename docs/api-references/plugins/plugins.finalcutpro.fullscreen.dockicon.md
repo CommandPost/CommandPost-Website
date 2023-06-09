@@ -18,7 +18,7 @@ our drawing/canvas images will not display correctly.
 
 ## API Documentation
 
-### Variables
+#### Variables
 
 
 ### [dockIconEnabled](#dockiconenabled)
@@ -28,8 +28,10 @@ our drawing/canvas images will not display correctly.
 | **Signature**                               | `plugins.finalcutpro.fullscreen.dockicon.dockIconEnabled <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` the CommandPost dock icon should be hidden.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [fcpActiveFullScreen](#fcpactivefullscreen)
 
@@ -38,5 +40,7 @@ our drawing/canvas images will not display correctly.
 | **Signature**                               | `plugins.finalcutpro.fullscreen.dockicon.fcpActiveFullScreen <cp.prop: boolean; read-only; live>`                                                                    |
 | **Type**                                    | Variable                                                                     |
 | **Description**                             | If `true` FCP is full-screen and the frontmost app.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+

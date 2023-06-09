@@ -24,7 +24,7 @@ Save Sheet
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -36,9 +36,10 @@ Save Sheet
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [SaveSheet](#savesheet)
 
@@ -49,10 +50,11 @@ Save Sheet
 | **Description**                             | Creates a new SaveSheet object.                                                                     |
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new SaveSheet object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Fields
+
+#### Fields
 
 
 ### [cancel](#cancel)
@@ -62,8 +64,10 @@ Save Sheet
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.cancel <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Cancel" `Button`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [filename](#filename)
 
@@ -72,8 +76,10 @@ Save Sheet
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.filename <cp.ui.TextField>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Save Sheet Filename Text Field.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [goToPrompt](#gotoprompt)
 
@@ -82,8 +88,10 @@ Save Sheet
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.goToPrompt <GoToPrompt>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Go To Prompt object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [replaceAlert](#replacealert)
 
@@ -92,8 +100,10 @@ Save Sheet
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.replaceAlert <ReplaceAlert>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The Replace Alert object.                                                                     |
+| **Notes**                                   | - None |
 
 ---
+
 
 ### [save](#save)
 
@@ -102,9 +112,11 @@ Save Sheet
 | **Signature**                               | `cp.apple.finalcutpro.export.SaveSheet.save <cp.ui.Button>`                                                                    |
 | **Type**                                    | Field                                                                     |
 | **Description**                             | The "Save" `Button`.                                                                     |
+| **Notes**                                   | - None |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [setPath](#setpath)
@@ -116,6 +128,7 @@ Save Sheet
 | **Description**                             | Sets the path.                                                                     |
 | **Parameters**                              | <ul><li>path - The path as a string.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.SaveSheet` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

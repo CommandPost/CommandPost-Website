@@ -49,7 +49,7 @@ There are two 'special' tag names:
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [is](#is)
@@ -61,6 +61,7 @@ There are two 'special' tag names:
 | **Description**                             | Checks if the `value` is an `cp.web.xml` block.                                                                     |
 | **Parameters**                              | <ul><li>value		- the value to check</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an HTML block, or `false` otherwise.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

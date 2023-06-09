@@ -51,7 +51,7 @@ Utility functions to support `hs.axuielement`.
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [cache](#cache)
@@ -63,9 +63,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the cached value at the `source[key]` is a valid axuielement. If not it will call the provided `finderFn()` function (with no arguments), cache the result and return it.                                                                     |
 | **Parameters**                              | <ul><li>source       - the table containing the cache</li><li>key          - the key the value is cached under</li><li>finderFn     - the function which will return the element if not found.</li><li>[verifyFn]   - an optional function which will check the cached element to verify it is still valid.</li></ul> |
 | **Returns**                                 | <ul><li>The valid cached value.</li></ul>          |
-| **Notes**                                   | <ul><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul>                |
+| **Notes**                                   | <ul><li>If the optional `verifyFn` is provided, it will be called to check that the cached value is still valid. It is passed a single parameter (the axuielement) and is expected to return `true` or `false`.</li></ul> |
 
 ---
+
 
 ### [childAtIndex](#childatindex)
 
@@ -76,9 +77,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Searches for the child element which is at number `index` when sorted using the `compareFn`.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement or array of axuielements</li><li>index        - the index number of the child to find.</li><li>compareFn    - a function to compare the elements.</li><li>matcherFn    - an optional function which is passed each child and returns `true` if the child should be processed.</li></ul> |
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childFromBottom](#childfrombottom)
 
@@ -89,9 +91,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Searches for the child element which is at number `index` when sorted bottom-to-top.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement or array of axuielements</li><li>index        - the index number of the child to find.</li><li>matcherFn    - an optional function which is passed each child and returns `true` if the child should be processed.</li></ul> |
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childFromLeft](#childfromleft)
 
@@ -102,9 +105,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Searches for the child element which is at number `index` when sorted left-to-right.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement or array of axuielements</li><li>index        - the index number of the child to find.</li><li>matcherFn    - an optional function which is passed each child and returns `true` if the child should be processed.</li></ul> |
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childFromRight](#childfromright)
 
@@ -115,9 +119,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Searches for the child element which is at number `index` when sorted right-to-left.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement or array of axuielements</li><li>index        - the index number of the child to find.</li><li>matcherFn    - an optional function which is passed each child and returns `true` if the child should be processed.</li></ul> |
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childFromTop](#childfromtop)
 
@@ -128,9 +133,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Searches for the child element which is at number `index` when sorted top-to-bottom.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement or array of axuielements</li><li>index        - the index number of the child to find.</li><li>matcherFn    - an optional function which is passed each child and returns `true` if the child should be processed.</li></ul> |
 | **Returns**                                 | <ul><li>The child, or `nil` if the index is larger than the number of children.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childInColumn](#childincolumn)
 
@@ -141,9 +147,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the children for an element, then checks to see if they match the supplied role. It then compares the vertical position data of all matching children and returns an element defined by the `childIndex`, which lines up vertially with the element defined by the `startIndex`.                                                                     |
 | **Parameters**                              | <ul><li>element     - The element to retrieve the children from.</li><li>role        - The required role as a string.</li><li>startIndex  - A number which defines the index of the first element to use.</li><li>childIndex  - A number which defines the index of the element to return.</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childIndex](#childindex)
 
@@ -154,9 +161,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the index of the specified child element, if it is present. If not, `nil` is returned.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to find the index of.</li></ul> |
 | **Returns**                                 | <ul><li>The index (`1` or higher) of the `element`, or `nil` if it was not found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childMatching](#childmatching)
 
@@ -167,9 +175,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element for which the provided function returns `true`. The function will receive one parameter - the current child.                                                                     |
 | **Parameters**                              | <ul><li>element      - the axuielement</li><li>matcherFn    - the function which checks if the child matches the requirements.</li><li>index        - the number of matching child to return. Defaults to `1`.</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [children](#children)
 
@@ -180,9 +189,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the children for the element. If it is an `hs.axuielement`, it will attempt to get the `AXChildren` attribute. If it is a table with a `children` function, that will get called. If no children exist, an empty table will be returned.                                                                     |
 | **Parameters**                              | <ul><li>element      - The element to retrieve the children of.</li><li>compareFn    - Optional function to use to sort the order of the returned children.</li></ul> |
 | **Returns**                                 | <ul><li>a table of children</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenAbove](#childrenabove)
 
@@ -193,9 +203,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the list of `axuielement` children from the `element` which are above the specified `bottomElement`. If the `element` is `nil`, `nil` is returned. If the `topElement` is `nil` all children are returned.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to find the children of.</li><li>topElement - The `axuielement` that the other children must be above.</li></ul> |
 | **Returns**                                 | <ul><li>The table of `axuielements` that are above, or `nil` if the element is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenBelow](#childrenbelow)
 
@@ -206,9 +217,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the list of `axuielement` children from the `element` which are below the specified `topElement`. If the `element` is `nil`, `nil` is returned. If the `topElement` is `nil` all children are returned.                                                                     |
 | **Parameters**                              | <ul><li>element - The `axuielement` to find the children of.</li><li>topElement - The `axuielement` that the other children must be below.</li></ul> |
 | **Returns**                                 | <ul><li>The table of `axuielements` that are below, or `nil` if the element is not available.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenInColumn](#childrenincolumn)
 
@@ -219,9 +231,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Finds the children for an element, then checks to see if they match the supplied role. It then compares the vertical position data of all matching children and returns a table with only the elements that line up to the element defined by the startIndex.                                                                     |
 | **Parameters**                              | <ul><li>element     - The element to retrieve the children from.</li><li>role        - The required role as a string.</li><li>startIndex  - A number which defines the index of the first element to use.</li></ul> |
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenInLine](#childreninline)
 
@@ -232,9 +245,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Gets a table of children that are all in the same family and line as the supplied element.                                                                     |
 | **Parameters**                              | <ul><li>element     - The base element.</li></ul> |
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenInNextLine](#childreninnextline)
 
@@ -245,9 +259,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Gets a table of children that are in the next line in relation to the supplied element. Scrollbars will be ignored.                                                                     |
 | **Parameters**                              | <ul><li>element - The base element.</li></ul> |
 | **Returns**                                 | <ul><li>The table of `axuielement` objects, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenMatching](#childrenmatching)
 
@@ -258,9 +273,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for all children of the specified element for which the provided function returns `true`. The function will receive one parameter - the current child.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>matcherFn    - the function which checks if the child matches the requirements.</li></ul> |
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenWith](#childrenwith)
 
@@ -271,9 +287,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for all children of the specified element which has an attribute with the matching name and value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>name     - the name of the attribute</li><li>value    - the value of the attribute</li></ul> |
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childrenWithRole](#childrenwithrole)
 
@@ -284,9 +301,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for all children of the specified element which has an `AXRole` attribute with the matching value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>value    - the value of the attribute</li></ul> |
 | **Returns**                                 | <ul><li>All matching children, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childWith](#childwith)
 
@@ -297,9 +315,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element which has an attribute with the matching name and value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>name     - the name of the attribute</li><li>value    - the value of the attribute</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or nil if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childWithDescription](#childwithdescription)
 
@@ -310,9 +329,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element which has `AXDescription` with the specified value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>value    - the value</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childWithID](#childwithid)
 
@@ -323,9 +343,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element which has `AXIdentifier` with the specified value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>value    - the value</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childWithRole](#childwithrole)
 
@@ -336,9 +357,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element which has `AXRole` with the specified value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li><li>value    - the value</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [childWithTitle](#childwithtitle)
 
@@ -349,9 +371,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | This searches for the first child of the specified element which has `AXTitle` with the specified value.                                                                     |
 | **Parameters**                              | <ul><li>element	- the axuielement</li><li>value	- the value</li></ul> |
 | **Returns**                                 | <ul><li>The first matching child, or `nil` if none was found</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hasAttributeValue](#hasattributevalue)
 
@@ -362,9 +385,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks to see if an element has a specific value.                                                                     |
 | **Parameters**                              | <ul><li>element  - the `axuielement`</li><li>name     - the name of the attribute</li><li>value    - the value of the attribute</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the `element` has the supplied attribute value, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [hasChild](#haschild)
 
@@ -375,9 +399,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the axuielement has a child that passes the `matcherFn`.                                                                     |
 | **Parameters**                              | <ul><li>element - the `axuielement` to check.</li><li>matcherFn - the `function` that accepts an `axuielement` and returns a `boolean`</li></ul> |
 | **Returns**                                 | <ul><li>`true` if any child matches, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [isValid](#isvalid)
 
@@ -388,9 +413,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the axuilelement is still valid - that is, still active in the UI.                                                                     |
 | **Parameters**                              | <ul><li>element  - the axuielement</li></ul> |
 | **Returns**                                 | <ul><li>`true` if the element is valid.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [prop](#prop)
 
@@ -401,9 +427,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Creates a new `cp.prop` which will find the `hs.axuielement` via the `uiFinder` and get/set the value (if settable is `true`).                                                                     |
 | **Parameters**                              | <ul><li>uiFinder      - the `cp.prop` or `function` which will retrieve the current `hs.axuielement`.</li><li>attributeName - the `AX` atrribute name the property links to.</li><li>settable      - Defaults to `false`. If `true`, the property will also be settable.</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.prop` for the attribute.</li></ul>          |
-| **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul>                |
+| **Notes**                                   | <ul><li>If the `uiFinder` is a `cp.prop`, it will be monitored for changes, making the resulting `prop` "live".</li></ul> |
 
 ---
+
 
 ### [snapshot](#snapshot)
 
@@ -414,9 +441,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Takes a snapshot of the specified `axuielement` and returns it. If the `filename` is provided it also saves the file to the specified location.                                                                     |
 | **Parameters**                              | <ul><li>element      - The `axuielement` to snap.</li><li>filename     - (optional) The path to save the image as a PNG file.</li><li>elementFrame - (optional) The hs.geometry frame of what you want to capture</li></ul> |
 | **Returns**                                 | <ul><li>An `hs.image` file, or `nil` if the element could not be snapped.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [valueOf](#valueof)
 
@@ -427,9 +455,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Returns the named `AX` attribute value, or the `default` if it is empty.                                                                     |
 | **Parameters**                              | <ul><li>element - the `axuielement` to retrieve the attribute value for.</li><li>attribute - The attribute name (e.g. "AXValue")</li><li>default - (optional) if provided, this will be returned if the attribute is `nil`.</li></ul> |
 | **Returns**                                 | <ul><li>The attribute value, or the `default` if none is found.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withAttributeValue](#withattributevalue)
 
@@ -440,9 +469,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the element has an attribute value with the specified `name` and `value`. If so, the element is returned, otherwise `nil`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The element to check</li><li>name          - The name of the attribute to check</li><li>value         - The value of the attribute</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withRole](#withrole)
 
@@ -453,9 +483,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the element has an "AXRole" attribute with the specified `role`. If so, the element is returned, otherwise `nil`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The element to check</li><li>role          - The required role</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withTitle](#withtitle)
 
@@ -466,9 +497,10 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the element has an "AXTitle" attribute with the specified `title`. If so, the element is returned, otherwise `nil`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The element to check</li><li>title         - The required title</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
 
 ### [withValue](#withvalue)
 
@@ -479,6 +511,7 @@ Utility functions to support `hs.axuielement`.
 | **Description**                             | Checks if the element has an "AXValue" attribute with the specified `value`. If so, the element is returned, otherwise `nil`.                                                                     |
 | **Parameters**                              | <ul><li>element       - The element to check</li><li>value         - The required value</li></ul> |
 | **Returns**                                 | <ul><li>The `axuielement` if it matches, otherwise `nil`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

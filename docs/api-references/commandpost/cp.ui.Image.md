@@ -15,7 +15,7 @@ Extends [Element](cp.ui.Element.md).
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -27,6 +27,7 @@ Extends [Element](cp.ui.Element.md).
 | **Description**                             | Checks if the provided `axuielement` is an `AXImage`.                                                                     |
 | **Parameters**                              | <ul><li>element  - The `axuielement` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if it is an `AXImage`, otherwise `false`.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+

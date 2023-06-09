@@ -19,7 +19,7 @@ Replace Alert
 
 ## API Documentation
 
-### Functions
+#### Functions
 
 
 ### [matches](#matches)
@@ -31,10 +31,11 @@ Replace Alert
 | **Description**                             | Checks to see if an element matches what we think it should be.                                                                     |
 | **Parameters**                              | <ul><li>element - An `axuielementObject` to check.</li></ul> |
 | **Returns**                                 | <ul><li>`true` if matches otherwise `false`</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Constructors
+
+#### Constructors
 
 
 ### [ReplaceAlert](#replacealert)
@@ -46,10 +47,11 @@ Replace Alert
 | **Description**                             | Creates a new Replace Alert object.                                                                     |
 | **Parameters**                              | <ul><li>app - The `cp.apple.finalcutpro` object.</li></ul> |
 | **Returns**                                 | <ul><li>A new ReplaceAlert object.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
-### Methods
+
+#### Methods
 
 
 ### [pressReplace](#pressreplace)
@@ -61,6 +63,7 @@ Replace Alert
 | **Description**                             | Presses the Replace button.                                                                     |
 | **Parameters**                              | <ul><li>None</li></ul> |
 | **Returns**                                 | <ul><li>The `cp.apple.finalcutpro.export.ReplaceAlert` object for method chaining.</li></ul>          |
-| **Notes**                                   | <ul></ul>                |
+| **Notes**                                   | <ul></ul> |
 
 ---
+
