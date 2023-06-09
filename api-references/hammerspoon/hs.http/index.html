@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -328,11 +328,17 @@
         <span>Variables</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="htmlentities">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htmlentities">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#htmlEntities">htmlEntities</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#htmlEntities">htmlEntities</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -356,13 +362,20 @@
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="functions">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#asyncGet">asyncGet</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="asyncget">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#asyncget">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#asyncGet">asyncGet</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.http.asyncGet(url, headers, callback)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -373,7 +386,14 @@ A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#asyncPost">asyncPost</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="asyncpost">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#asyncpost">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#asyncPost">asyncPost</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.http.asyncPost(url, data, headers, callback)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -384,7 +404,14 @@ A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#asyncPut">asyncPut</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="asyncput">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#asyncput">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#asyncPut">asyncPut</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.http.asyncPut(url, data, headers, callback)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -395,11 +422,18 @@ A string containing the response body
 A table containing the response headers</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the request fails, the callback function&#x27;s first parameter will be negative and the second parameter will contain an error message. The third parameter will be nil</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="converthtmlentities">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#converthtmlentities">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#convertHtmlEntities">convertHtmlEntities</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#convertHtmlEntities">convertHtmlEntities</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -431,7 +465,14 @@ A table containing the response headers</li></ul> |
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#doAsyncRequest">doAsyncRequest</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="doasyncrequest">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#doasyncrequest">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#doAsyncRequest">doAsyncRequest</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.http.doAsyncRequest(url, method, data, headers, callback, [cachePolicy|enableRedirect])</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -442,11 +483,18 @@ body - A string containing the body of the response
 headers - A table containing the HTTP headers of the response</li><li>cachePolicy - An optional string containing the cache policy (&quot;protocolCachePolicy&quot;, &quot;ignoreLocalCache&quot;, &quot;ignoreLocalAndRemoteCache&quot;, &quot;returnCacheOrLoad&quot;, &quot;returnCacheDontLoad&quot; or &quot;reloadRevalidatingCache&quot;). Defaults to <code v-pre>protocolCachePolicy</code>.</li><li>enableRedirect - An optional boolean to indicate whether to redirect the http request. Defaults to true.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If authentication is required in order to download the request, the required credentials must be specified as part of the URL (e.g. &quot;http://user:<a href="mailto:password@host.com">password@host.com</a>/&quot;). If authentication fails, or credentials are missing, the connection will attempt to continue without credentials.</li><li>If the Content-Type response header begins <code v-pre>text/</code> then the response body return value is a UTF8 string. Any other content type passes the response body, unaltered, as a stream of bytes.</li><li>If enableRedirect is set to true, response body will be empty string. Http body will be dropped even though response has the body. This seems the limitation of &#x27;connection:willSendRequest:redirectResponse&#x27; method.</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="dorequest">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dorequest">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#doRequest">doRequest</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#doRequest">doRequest</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -478,11 +526,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="encodeforquery">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#encodeforquery">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#encodeForQuery">encodeForQuery</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#encodeForQuery">encodeForQuery</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -514,11 +569,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="get">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#get">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#get">get</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#get">get</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -550,11 +612,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="post">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#post">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#post">post</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#post">post</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -586,11 +655,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="put">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#put">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#put">put</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#put">put</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -622,11 +698,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="registerentity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#registerentity">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#registerEntity">registerEntity</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#registerEntity">registerEntity</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -658,11 +741,18 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="urlparts">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#urlparts">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#urlParts">urlParts</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable" key="">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#urlParts">urlParts</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -694,6 +784,7 @@ headers - A table containing the HTTP headers of the response</li><li>cachePolic
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

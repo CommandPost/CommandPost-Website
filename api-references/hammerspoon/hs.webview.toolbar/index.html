@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739627089413" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739627267256" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -381,11 +381,17 @@ t.attachToolbar(a)</code></pre>
         <span>Constants</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="itempriorities">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#itempriorities">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#itemPriorities">itemPriorities</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#itemPriorities">itemPriorities</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -405,11 +411,18 @@ t.attachToolbar(a)</code></pre>
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="systemtoolbaritems">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#systemtoolbaritems">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#systemToolbarItems">systemToolbarItems</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#systemToolbarItems">systemToolbarItems</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -429,13 +442,20 @@ t.attachToolbar(a)</code></pre>
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="functions">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#attachToolbar">attachToolbar</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="attachtoolbar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#attachtoolbar">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#attachToolbar">attachToolbar</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.webview.toolbar.attachToolbar([obj1], [obj2]) -&gt; obj1</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -447,11 +467,18 @@ if one argument is provided and it is an hs.webview or hs.chooser object, this f
 if two arguments are provided and the first is an hs.webview or hs.chooser object and the second is a toolbarObject or nil, this function will attach or detach a toolbarObject to/from the object.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if the function is used to attach/detach a toolbar, then the first object provided (the target) will be returned ; if this function is used to get the current toolbar object for a webview, chooser, or console, then the toolbarObject or nil will be returned.</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This function is not expected to be used directly (though it can be) -- it is added to the <code v-pre>hs.webview</code> and <code v-pre>hs.chooser</code> object metatables so that it may be invoked as <code v-pre>hs.webview:attachedToolbar([toolbarObject | nil])</code>/<code v-pre>hs.chooser:attachedToolbar([toolbarObject | nil])</code> and to the <code v-pre>hs.console</code> module so that it may be invoked as <code v-pre>hs.console.toolbar([toolbarObject | nil])</code>.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the new one specified by this function.</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="intitlebar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#intitlebar">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#inTitleBar">inTitleBar</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#inTitleBar">inTitleBar</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -483,11 +510,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="uniquename">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#uniquename">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#uniqueName">uniqueName</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#uniqueName">uniqueName</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -519,17 +553,24 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="constructors">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="new">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#new">new</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#new">new</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -561,17 +602,24 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="methods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="additems">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#additems">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#addItems">addItems</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#addItems">addItems</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -603,11 +651,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="alloweditems">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#alloweditems">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#allowedItems">allowedItems</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#allowedItems">allowedItems</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -639,11 +694,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="autosaves">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#autosaves">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#autosaves">autosaves</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#autosaves">autosaves</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -675,11 +737,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="cancustomize">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cancustomize">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#canCustomize">canCustomize</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#canCustomize">canCustomize</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -711,11 +780,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="copy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#copy">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#copy">copy</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -747,11 +823,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="customizepanel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customizepanel">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#customizePanel">customizePanel</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#customizePanel">customizePanel</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -783,11 +866,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="delete">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#delete">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -819,11 +909,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="deleteitem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deleteitem">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#deleteItem">deleteItem</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#deleteItem">deleteItem</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -855,11 +952,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="displaymode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#displaymode">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#displayMode">displayMode</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#displayMode">displayMode</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -891,11 +995,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="identifier">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#identifier">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#identifier">identifier</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#identifier">identifier</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -927,11 +1038,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="insertitem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#insertitem">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#insertItem">insertItem</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#insertItem">insertItem</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -963,11 +1081,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="isattached">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#isattached">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#isAttached">isAttached</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#isAttached">isAttached</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -999,11 +1124,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="iscustomizing">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#iscustomizing">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#isCustomizing">isCustomizing</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#isCustomizing">isCustomizing</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1035,11 +1167,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="itemdetails">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#itemdetails">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#itemDetails">itemDetails</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#itemDetails">itemDetails</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1071,11 +1210,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="items">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#items">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#items">items</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#items">items</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1107,11 +1253,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="modifyitem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifyitem">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#modifyItem">modifyItem</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#modifyItem">modifyItem</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1143,11 +1296,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="notifyonchange">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notifyonchange">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#notifyOnChange">notifyOnChange</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#notifyOnChange">notifyOnChange</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1179,11 +1339,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="removeitem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#removeitem">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#removeItem">removeItem</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#removeItem">removeItem</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1215,11 +1382,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="savedsettings">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#savedsettings">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#savedSettings">savedSettings</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#savedSettings">savedSettings</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1251,11 +1425,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="selecteditem">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#selecteditem">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#selectedItem">selectedItem</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#selectedItem">selectedItem</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1287,11 +1468,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="selectsearchfield">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#selectsearchfield">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#selectSearchField">selectSearchField</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#selectSearchField">selectSearchField</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1323,11 +1511,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="separator">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#separator">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#separator">separator</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#separator">separator</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1359,11 +1554,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="setcallback">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setcallback">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setCallback">setCallback</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setCallback">setCallback</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1395,11 +1597,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="sizemode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sizemode">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#sizeMode">sizeMode</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#sizeMode">sizeMode</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1431,11 +1640,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="toolbarstyle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#toolbarstyle">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toolbarStyle">toolbarStyle</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toolbarStyle">toolbarStyle</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1467,11 +1683,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="visible">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#visible">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#visible">visible</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#visible">visible</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1503,11 +1726,18 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="visibleitems">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#visibleitems">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#visibleItems">visibleItems</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#visibleItems">visibleItems</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1539,6 +1769,7 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -342,11 +342,17 @@
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="addresses">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addresses">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -378,7 +384,14 @@
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#cpuUsage">cpuUsage</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="cpuusage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cpuusage">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#cpuUsage">cpuUsage</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.host.cpuUsage([period], [callback]) -&gt; table</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -388,11 +401,18 @@ If <code v-pre>callback</code> is not provided, this is an optional integer, def
 If <code v-pre>callback</code> is provided, this is an optional number, default 1.0, specifying the number of seconds between samples collected.  Hammerspoon will <em>not</em> block during this time period.</li><li><code v-pre>callback</code> - an optional callback function which will receive the cpu usage statistics in a table, described below, as its sole argument.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a callback function is not provided, this function will return a table containing the following:</li><li>  Individual tables, indexed by the core number, for each CPU core with the following keys in each subtable:</li><li>    user   -- percentage of CPU time occupied by user level processes.</li><li>    system -- percentage of CPU time occupied by system (kernel) level processes.</li><li>    nice   -- percentage of CPU time occupied by user level processes with a positive nice value. (See notes below)</li><li>    active -- For convenience, when you just want the total CPU usage, this is the sum of user, system, and nice.</li><li>    idle   -- percentage of CPU time spent idle</li><li>  The key <code v-pre>overall</code> containing the same keys as described above but based upon the average of all cores combined.</li><li>  The key <code v-pre>n</code> containing the number of cores detected.</li><li>If a callback function is provided, this function will return a placeholder table with the following metamethods:</li><li>  <code v-pre>hs.host.cpuUsage:finished()</code> - returns a boolean indicating if the second CPU sample has been collected yet (true) or not (false).</li><li>  <code v-pre>hs.host.cpuUsage:stop()</code>     - abort the sample collection.  The callback function will not be invoked.</li><li>  The results of the cpu statistics will be submitted as a table, described above, to the callback function.</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If no callback function is provided, Hammerspoon will block (i.e. no other Hammerspoon activity can occur) during execution of this function for <code v-pre>period</code> microseconds (1 second = 1,000,000 microseconds).  The default period is 1/10 of a second. If <code v-pre>period</code> is too small, it is possible that some of the CPU statistics may result in <code v-pre>nan</code> (not-a-number).</li><li></li><li>For reference, the <code v-pre>top</code> command has a default period between samples of 1 second.</li><li></li><li>The subtables for each core and <code v-pre>overall</code> have a __tostring() metamethod which allows listing it&#x27;s contents in the Hammerspoon console by typing <code v-pre>hs.host.cpuUsage()[#]</code> where # is the core you are interested in or the string &quot;overall&quot;.</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="cpuusageticks">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cpuusageticks">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#cpuUsageTicks">cpuUsageTicks</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#cpuUsageTicks">cpuUsageTicks</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -424,11 +444,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="globallyuniquestring">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#globallyuniquestring">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#globallyUniqueString">globallyUniqueString</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#globallyUniqueString">globallyUniqueString</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -460,11 +487,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="gpuvram">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gpuvram">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#gpuVRAM">gpuVRAM</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#gpuVRAM">gpuVRAM</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -496,11 +530,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="idletime">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#idletime">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#idleTime">idleTime</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#idleTime">idleTime</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -532,11 +573,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="interfacestyle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interfacestyle">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#interfaceStyle">interfaceStyle</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#interfaceStyle">interfaceStyle</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -568,11 +616,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="localizedname">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#localizedname">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#localizedName">localizedName</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#localizedName">localizedName</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -604,11 +659,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="names">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#names">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#names">names</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#names">names</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -640,11 +702,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="operatingsystemversion">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#operatingsystemversion">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#operatingSystemVersion">operatingSystemVersion</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#operatingSystemVersion">operatingSystemVersion</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -676,11 +745,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="operatingsystemversionstring">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#operatingsystemversionstring">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#operatingSystemVersionString">operatingSystemVersionString</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#operatingSystemVersionString">operatingSystemVersionString</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -712,11 +788,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="thermalstate">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#thermalstate">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#thermalState">thermalState</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#thermalState">thermalState</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -748,11 +831,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="uuid">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#uuid">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#uuid">uuid</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#uuid">uuid</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -784,11 +874,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="vmstat">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vmstat">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#vmStat">vmStat</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#vmStat">vmStat</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -820,11 +917,18 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="volumeinformation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#volumeinformation">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#volumeInformation">volumeInformation</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#volumeInformation">volumeInformation</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -856,6 +960,7 @@ If <code v-pre>callback</code> is provided, this is an optional number, default 
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -374,11 +374,17 @@ System Preferences-&gt;Displays-&gt;Arrangement). The origin <code v-pre>0,0</co
         <span>Variables</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="strictscreenindirection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#strictscreenindirection">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#strictScreenInDirection">strictScreenInDirection</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#strictScreenInDirection">strictScreenInDirection</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -398,17 +404,24 @@ System Preferences-&gt;Displays-&gt;Arrangement). The origin <code v-pre>0,0</co
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="functions">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="accessibilitysettings">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessibilitysettings">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#accessibilitySettings">accessibilitySettings</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#accessibilitySettings">accessibilitySettings</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -440,7 +453,14 @@ System Preferences-&gt;Displays-&gt;Arrangement). The origin <code v-pre>0,0</co
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#find">find</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="find">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#find">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#find">find</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.screen.find(hint) -&gt; hs.screen object(s)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -454,11 +474,18 @@ an hs.geometry <em>size</em> object, or constructor argument, with the <em>resol
 an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary rect in absolute coordinates; the screen containing the largest part of the rect will be returned</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>one or more hs.screen objects that match the supplied search criterion, or <code v-pre>nil</code> if none found</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>for convenience you call this as <code v-pre>hs.screen(hint)</code></li><li></li><li>Example:</li><li><code v-pre>lua&lt;/li&gt;&lt;li&gt;hs.screen(724562417) --&gt; Color LCD - by id&lt;/li&gt;&lt;li&gt;hs.screen'Dell'      --&gt; DELL U2414M - by name&lt;/li&gt;&lt;li&gt;hs.screen'Built%-in' --&gt; Built-in Retina Display, note the % to escape the hyphen repetition character&lt;/li&gt;&lt;li&gt;hs.screen'0,0'       --&gt; PHL BDM4065 - by position, same as hs.screen.primaryScreen()&lt;/li&gt;&lt;li&gt;hs.screen{x=-1,y=0}  --&gt; DELL U2414M - by position, screen to the immediate left of the primary screen&lt;/li&gt;&lt;li&gt;hs.screen'3840x2160' --&gt; PHL BDM4065 - by screen resolution&lt;/li&gt;&lt;li&gt;hs.screen'-500,240 700x1300' --&gt; DELL U2414M, by arbitrary rect&lt;/li&gt;&lt;li&gt;</code></li></ul>                |</p>
+<hr />
+<doc-anchor-target id="restoregamma">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#restoregamma">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#restoreGamma">restoreGamma</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#restoreGamma">restoreGamma</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -490,11 +517,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="screenpositions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#screenpositions">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#screenPositions">screenPositions</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable" x="X,y=Y">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#screenPositions">screenPositions</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -526,17 +560,24 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="constructors">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="allscreens">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#allscreens">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#allScreens">allScreens</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#allScreens">allScreens</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -568,11 +609,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="mainscreen">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mainscreen">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#mainScreen">mainScreen</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#mainScreen">mainScreen</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -604,11 +652,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="primaryscreen">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#primaryscreen">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#primaryScreen">primaryScreen</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#primaryScreen">primaryScreen</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -640,17 +695,24 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="methods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="absolutetolocal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#absolutetolocal">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#absoluteToLocal">absoluteToLocal</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#absoluteToLocal">absoluteToLocal</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -682,11 +744,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="availablemodes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#availablemodes">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#availableModes">availableModes</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#availableModes">availableModes</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -718,11 +787,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="currentmode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#currentmode">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#currentMode">currentMode</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#currentMode">currentMode</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -754,11 +830,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="desktopimageurl">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#desktopimageurl">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#desktopImageURL">desktopImageURL</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#desktopImageURL">desktopImageURL</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -790,11 +873,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="frame">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frame">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#frame">frame</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#frame">frame</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -826,11 +916,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="fromunitrect">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fromunitrect">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#fromUnitRect">fromUnitRect</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#fromUnitRect">fromUnitRect</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -862,11 +959,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="fullframe">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fullframe">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#fullFrame">fullFrame</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#fullFrame">fullFrame</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -898,11 +1002,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getbrightness">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getbrightness">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getBrightness">getBrightness</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getBrightness">getBrightness</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -934,11 +1045,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getforcetogray">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getforcetogray">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getForceToGray">getForceToGray</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getForceToGray">getForceToGray</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -970,11 +1088,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getgamma">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getgamma">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getGamma">getGamma</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getGamma">getGamma</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1006,11 +1131,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getinfo">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getinfo">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getInfo">getInfo</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getInfo">getInfo</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1042,11 +1174,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getinvertedpolarity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getinvertedpolarity">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getInvertedPolarity">getInvertedPolarity</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getInvertedPolarity">getInvertedPolarity</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1078,11 +1217,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="getuuid">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getuuid">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getUUID">getUUID</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getUUID">getUUID</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1114,11 +1260,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="id">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#id">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#id">id</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#id">id</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1150,11 +1303,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="localtoabsolute">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#localtoabsolute">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#localToAbsolute">localToAbsolute</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#localToAbsolute">localToAbsolute</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1186,11 +1346,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="mirrorof">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mirrorof">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#mirrorOf">mirrorOf</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#mirrorOf">mirrorOf</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1222,11 +1389,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="mirrorstop">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mirrorstop">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#mirrorStop">mirrorStop</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#mirrorStop">mirrorStop</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1258,11 +1432,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="name">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#name">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#name">name</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#name">name</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1294,11 +1475,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="next">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#next">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#next">next</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#next">next</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1330,11 +1518,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="position">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#position">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#position">position</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#position">position</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1366,11 +1561,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="previous">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#previous">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#previous">previous</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#previous">previous</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1402,7 +1604,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#rotate">rotate</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="rotate">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rotate">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#rotate">rotate</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.screen:rotate([degrees]) -&gt; bool or rotation angle</code>                                                                    |
 | <strong>Type</strong>                                    | Method                                                                     |
@@ -1414,11 +1623,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 270</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If the rotation is being set, a boolean, true if the operation succeeded, otherwise false. If the rotation is being queried, a number will be returned</li></ul>          |
 | <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<hr />
+<doc-anchor-target id="setbrightness">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setbrightness">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setBrightness">setBrightness</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setBrightness">setBrightness</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1450,11 +1666,18 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="setforcetogray">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setforcetogray">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setForceToGray">setForceToGray</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setForceToGray">setForceToGray</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1486,7 +1709,14 @@ an hs.geometry <em>rect</em> object, or constructor argument, with an arbitrary 
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#setGamma">setGamma</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="setgamma">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setgamma">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setGamma">setGamma</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.screen:setGamma(whitepoint, blackpoint) -&gt; boolean</code>                                                                    |
 | <strong>Type</strong>                                    | Method                                                                     |
@@ -1500,11 +1730,18 @@ green
 blue</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A boolean, true if the gamma settings were applied, false if an error occurred</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>If the whitepoint and blackpoint specified, are very similar, it will be impossible to read the screen. You should exercise caution, and may wish to bind a hotkey to <code v-pre>hs.screen.restoreGamma()</code> when experimenting</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="setinvertedpolarity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setinvertedpolarity">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setInvertedPolarity">setInvertedPolarity</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setInvertedPolarity">setInvertedPolarity</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1536,11 +1773,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="setmode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setmode">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setMode">setMode</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setMode">setMode</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1572,11 +1816,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="setorigin">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setorigin">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setOrigin">setOrigin</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setOrigin">setOrigin</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1608,11 +1859,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="setprimary">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setprimary">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#setPrimary">setPrimary</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#setPrimary">setPrimary</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1644,11 +1902,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="shotasjpg">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shotasjpg">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#shotAsJPG">shotAsJPG</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#shotAsJPG">shotAsJPG</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1680,11 +1945,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="shotaspng">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shotaspng">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#shotAsPNG">shotAsPNG</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#shotAsPNG">shotAsPNG</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1716,11 +1988,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="snapshot">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#snapshot">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#snapshot">snapshot</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#snapshot">snapshot</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1752,11 +2031,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="toeast">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#toeast">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toEast">toEast</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toEast">toEast</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1788,11 +2074,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="tonorth">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tonorth">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toNorth">toNorth</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toNorth">toNorth</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1824,11 +2117,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="tosouth">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tosouth">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toSouth">toSouth</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toSouth">toSouth</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1860,11 +2160,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="tounitrect">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tounitrect">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toUnitRect">toUnitRect</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toUnitRect">toUnitRect</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1896,11 +2203,18 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="towest">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#towest">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#toWest">toWest</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#toWest">toWest</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -1932,6 +2246,7 @@ blue</li></ul> |
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

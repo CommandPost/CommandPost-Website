@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -333,7 +333,13 @@
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#browserDarkMode">browserDarkMode</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="browserdarkmode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#browserdarkmode">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#browserDarkMode">browserDarkMode</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.doc.hsdocs.browserDarkMode([value]) -&gt; currentValue</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -345,11 +351,18 @@ if value is <code v-pre>nil</code>, then the output will be inverted only when t
 if the value is a number between 0 and 100, the number specifies the inversion ratio, where 0 means no inversion, 100 means full inversion, and 50 is completely unreadable because the foreground and background are equally adjusted.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the current, possibly new, value</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>Inversion is applied through the use of CSS filtering, so while numeric values other than 0 (false) and 100 (true) are allowed, the result is generally not what is desired.</li><li></li><li>Changes made with this function are saved with <code v-pre>hs.settings</code> with the label &quot;_documentationServer.invertDocs&quot; and will persist through a reload or restart of Hammerspoon.</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="browserframe">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#browserframe">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#browserFrame">browserFrame</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#browserFrame">browserFrame</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -381,11 +394,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="forceexternalbrowser">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#forceexternalbrowser">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#forceExternalBrowser">forceExternalBrowser</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#forceExternalBrowser">forceExternalBrowser</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -417,11 +437,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="help">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#help">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#help">help</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#help">help</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -453,11 +480,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="interface">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interface">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#interface">interface</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#interface">interface</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -489,11 +523,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="moduleentitiesinsidebar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#moduleentitiesinsidebar">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#moduleEntitiesInSidebar">moduleEntitiesInSidebar</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#moduleEntitiesInSidebar">moduleEntitiesInSidebar</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -525,11 +566,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="port">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#port">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#port">port</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#port">port</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -561,11 +609,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="start">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#start">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#start">start</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#start">start</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -597,11 +652,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="stop">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stop">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#stop">stop</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#stop">stop</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -633,11 +695,18 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="trackbrowserframe">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#trackbrowserframe">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#trackBrowserFrame">trackBrowserFrame</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#trackBrowserFrame">trackBrowserFrame</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -669,6 +738,7 @@ if the value is a number between 0 and 100, the number specifies the inversion r
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

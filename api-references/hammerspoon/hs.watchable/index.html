@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -325,11 +325,17 @@
         <span>Constructors</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="new">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#new">new</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#new">new</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -361,7 +367,14 @@
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#watch">watch</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="watch">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#watch">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#watch">watch</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.watchable.watch(path, [key], callback) -&gt; watchableObject</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -374,17 +387,24 @@
 <code v-pre>new</code>     - the new value for this key, may be nil</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a watchableObject</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This constructor is used by code which wishes to watch state information which is being shared by other code.</li><li></li><li>The callback function is invoked after the new value has already been set -- the callback is a &quot;didChange&quot; notification, not a &quot;willChange&quot; notification.</li><li></li><li>If the key (specified as a separate argument or as the final component of path) is &quot;*&quot;, then all key-value pair changes that occur for the table specified by the path will invoke a callback.  This is a shortcut for watching an entire table, rather than just a specific key-value pair of the table.</li><li>It is possible to register a watcher for a path that has not been registered with <doc-anchor-trigger to="#new">hs.watchable.new</doc-anchor-trigger> yet. Retrieving the current value with <doc-anchor-trigger to="#value">hs.watchable:value</doc-anchor-trigger> in such a case will return nil.</li></ul>                |</p>
+<hr />
 <doc-anchor-target id="methods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="callback">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#callback">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#callback">callback</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#callback">callback</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -416,11 +436,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="change">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#change">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#change">change</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#change">change</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -452,11 +479,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="pause">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pause">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#pause">pause</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#pause">pause</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -488,11 +522,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="release">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#release">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#release">release</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#release">release</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -524,11 +565,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="resume">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#resume">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#resume">resume</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#resume">resume</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -560,11 +608,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="value">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#value">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#value">value</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#value">value</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -596,6 +651,7 @@
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

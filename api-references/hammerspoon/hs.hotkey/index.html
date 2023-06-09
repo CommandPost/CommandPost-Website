@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -339,11 +339,17 @@
         <span>Variables</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="alertduration">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#alertduration">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#alertDuration">alertDuration</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#alertDuration">alertDuration</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -363,13 +369,20 @@
 </tbody>
 </table>
 </div>
+<hr />
 <doc-anchor-target id="functions">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#assignable">assignable</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="assignable">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#assignable">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#assignable">assignable</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.assignable(mods, key) -&gt; boolean</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -381,7 +394,14 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a boolean value, true if the hotkey combination can be given an assignment by Hammerspoon or false if it cannot.</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>The most common reason a hotkey combination cannot be given an assignment by Hammerspoon is because it is in use by the Mac operating system -- see the Shortcuts tab of Keyboard in the System Preferences application or <doc-anchor-trigger to="#systemAssigned">hs.hotkey.systemAssigned</doc-anchor-trigger>.</li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#deleteAll">deleteAll</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="deleteall">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deleteall">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#deleteAll">deleteAll</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.deleteAll(mods, key)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -393,7 +413,14 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul></ul>                |</p>
-<p>| <doc-anchor-trigger to="#disableAll">disableAll</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="disableall">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disableall">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#disableAll">disableAll</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.disableAll(mods, key)</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -405,11 +432,18 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
 | <strong>Notes</strong>                                   | <ul></ul>                |</p>
+<hr />
+<doc-anchor-target id="gethotkeys">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gethotkeys">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#getHotkeys">getHotkeys</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#getHotkeys">getHotkeys</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -441,7 +475,14 @@
 </tbody>
 </table>
 </div>
-<p>| <doc-anchor-trigger to="#showHotkeys">showHotkeys</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="showhotkeys">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#showhotkeys">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#showHotkeys">showHotkeys</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.showHotkeys(mods, key) -&gt; hs.hotkey object</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -453,7 +494,14 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The new <code v-pre>hs.hotkey</code> object</li></ul>          |
 | <strong>Notes</strong>                                   | <ul></ul>                |</p>
-<p>| <doc-anchor-trigger to="#systemAssigned">systemAssigned</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="systemassigned">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#systemassigned">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#systemAssigned">systemAssigned</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.systemAssigned(mods, key) -&gt; table | false</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -465,13 +513,20 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if the hotkey combination is in use by a system function, returns a table containing the following keys:</li><li>  keycode - the numeric keycode for the hotkey</li><li>  mods    - a numeric representation of the modifier flags for the hotkey</li><li>  enabled - a boolean indicating whether or not the key is currently enabled</li><li>if the hotkey combination is not in use by the operating system, returns the boolean value <code v-pre>false</code></li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>this is provided for informational purposes and does not provide a reliable test as to whether or not Hammerspoon can use the combination to create a custom hotkey -- some combinations which return a table can be over-ridden by Hammerspoon while others cannot.  See also <doc-anchor-trigger to="#assignable">hs.hotkey.assignable</doc-anchor-trigger>.</li></ul>                |</p>
+<hr />
 <doc-anchor-target id="constructors">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#bind">bind</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="bind">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bind">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#bind">bind</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.bind(mods, key, [message,] pressedfn, releasedfn, repeatfn) -&gt; hs.hotkey object</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -483,7 +538,14 @@
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li><li>message - (optional) A string containing a message to be displayed via <code v-pre>hs.alert()</code> when the hotkey has been triggered; if omitted, no alert will be shown</li><li>pressedfn - A function that will be called when the hotkey has been pressed, or nil</li><li>releasedfn - A function that will be called when the hotkey has been released, or nil</li><li>repeatfn - A function that will be called when a pressed hotkey is repeating, or nil</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A new <code v-pre>hs.hotkey</code> object or nil if the hotkey could not be enabled</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This function is just a wrapper that performs <code v-pre>hs.hotkey.new(...):enable()</code></li><li>You can create multiple <code v-pre>hs.hotkey</code> objects for the same keyboard combination, but only one can be active</li><li>   at any given time - see <code v-pre>hs.hotkey:enable()</code></li><li>If <code v-pre>message</code> is the empty string <code v-pre>&quot;&quot;</code>, the alert will just show the triggered keyboard combination</li><li>If you don&#x27;t want any alert, you must <em>actually</em> omit the <code v-pre>message</code> parameter; a <code v-pre>nil</code> in 3rd position</li><li>   will be interpreted as a missing <code v-pre>pressedfn</code></li><li>You must pass at least one of <code v-pre>pressedfn</code>, <code v-pre>releasedfn</code> or <code v-pre>repeatfn</code>; to delete a hotkey, use <code v-pre>hs.hotkey:delete()</code></li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#bindSpec">bindSpec</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="bindspec">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bindspec">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#bindSpec">bindSpec</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.bindSpec(keyspec, ...) -&gt; hs.hotkey object</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -493,7 +555,14 @@ first, a table containing keyboard modifiers, as specified in <code v-pre>hs.hot
 second, a string containing the name of a keyboard key, as specified in <code v-pre>hs.hotkey.bind()</code></li><li>... - All remaining arguments are as specified in <code v-pre>hs.hotkey.bind()</code></li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A new <code v-pre>hs.hotkey</code> object for method chaining</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This function is just a wrapper that performs <code v-pre>hs.hotkey.bind(keyspec[1], keyspec[2], ...)</code></li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#new">new</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="new">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#new">new</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.hotkey.new(mods, key, [message,] pressedfn, releasedfn, repeatfn) -&gt; hs.hotkey object</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -505,17 +574,24 @@ second, a string containing the name of a keyboard key, as specified in <code v-
 &quot;shift&quot; or &quot;⇧&quot;</li><li>key - A string containing the name of a keyboard key (as found in <a href="hs.keycodes.html#map">hs.keycodes.map</a> ), or a raw keycode number</li><li>message - (optional) A string containing a message to be displayed via <code v-pre>hs.alert()</code> when the hotkey has been triggered; if omitted, no alert will be shown</li><li>pressedfn - A function that will be called when the hotkey has been pressed, or nil</li><li>releasedfn - A function that will be called when the hotkey has been released, or nil</li><li>repeatfn - A function that will be called when a pressed hotkey is repeating, or nil</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A new <code v-pre>hs.hotkey</code> object or nil if the hotkey could not be enabled</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>You can create multiple <code v-pre>hs.hotkey</code> objects for the same keyboard combination, but only one can be active</li><li>   at any given time - see <code v-pre>hs.hotkey:enable()</code></li><li>If <code v-pre>message</code> is the empty string <code v-pre>&quot;&quot;</code>, the alert will just show the triggered keyboard combination</li><li>If you don&#x27;t want any alert, you must <em>actually</em> omit the <code v-pre>message</code> parameter; a <code v-pre>nil</code> in 3rd position</li><li>   will be interpreted as a missing <code v-pre>pressedfn</code></li><li>You must pass at least one of <code v-pre>pressedfn</code>, <code v-pre>releasedfn</code> or <code v-pre>repeatfn</code>; to delete a hotkey, use <code v-pre>hs.hotkey:delete()</code></li></ul>                |</p>
+<hr />
 <doc-anchor-target id="methods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="delete">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#delete">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#delete">delete</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -547,11 +623,18 @@ second, a string containing the name of a keyboard key, as specified in <code v-
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="disable">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#disable">disable</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#disable">disable</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -583,11 +666,18 @@ second, a string containing the name of a keyboard key, as specified in <code v-
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="enable">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#enable">enable</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#enable">enable</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -619,6 +709,7 @@ second, a string containing the name of a keyboard key, as specified in <code v-
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

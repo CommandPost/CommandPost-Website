@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -343,7 +343,13 @@
         <span>Constructors</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#lookupAddress">lookupAddress</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="lookupaddress">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lookupaddress">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#lookupAddress">lookupAddress</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.location.geocoder.lookupAddress(address, fn) -&gt; geocoderObject</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -353,7 +359,14 @@
 <code v-pre>result</code> - if <code v-pre>state</code> is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If <code v-pre>state</code> is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a geocodingObject</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#lookupAddressNear">lookupAddressNear</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="lookupaddressnear">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lookupaddressnear">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#lookupAddressNear">lookupAddressNear</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.location.geocoder.lookupAddressNear(address, [regionTable], fn) -&gt; geocoderObject</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -363,7 +376,14 @@
 <code v-pre>result</code> - if <code v-pre>state</code> is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If <code v-pre>state</code> is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a geocodingObject</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li><li>While a partial address can be given, the more information you provide, the more likely the results will be useful.  The <code v-pre>regionTable</code> only determines sort order if multiple entries are returned, it does not constrain the search.</li></ul>                |</p>
-<p>| <doc-anchor-trigger to="#lookupLocation">lookupLocation</doc-anchor-trigger>         |                                                                                     |
+<hr />
+<doc-anchor-target id="lookuplocation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lookuplocation">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#lookupLocation">lookupLocation</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.location.geocoder.lookupLocation(locationTable, fn) -&gt; geocoderObject</code>                                                                    |
 | <strong>Type</strong>                                    | Constructor                                                                     |
@@ -373,17 +393,24 @@
 <code v-pre>result</code> - if <code v-pre>state</code> is true indicating that geocoding was successful, this argument will be a table containing one or more placemarkTables (as described in the module header) containing the geocoding data available for the location.  If <code v-pre>state</code> is false, this argument will be a string containing an error message describing the problem encountered.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>a geocodingObject</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>This constructor requires internet access and the callback will be invoked with an error message if the internet is not currently accessible.</li><li>This constructor does not require Location Services to be enabled for Hammerspoon.</li></ul>                |</p>
+<hr />
 <doc-anchor-target id="methods">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
     </h3>
 </doc-anchor-target>
+<doc-anchor-target id="cancel">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cancel">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#cancel">cancel</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#cancel">cancel</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -415,11 +442,18 @@
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="geocoding">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#geocoding">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#geocoding">geocoding</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#geocoding">geocoding</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -451,6 +485,7 @@
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"

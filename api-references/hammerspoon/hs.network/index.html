@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627267256">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739627267256" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739627267256" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -331,7 +331,13 @@
         <span>Functions</span>
     </h3>
 </doc-anchor-target>
-<p>| <doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger>         |                                                                                     |
+<doc-anchor-target id="addresses">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addresses">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#addresses">addresses</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
+<p>|                                             |                                                                                     |
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>hs.network.addresses([interface_list]) -&gt; table</code>                                                                    |
 | <strong>Type</strong>                                    | Function                                                                     |
@@ -342,11 +348,18 @@ if the first argument is a table, it is assumes to be a table containing a list 
 if no arguments are specified, then the results of <doc-anchor-trigger to="#interfaces">hs.network.interfaces</doc-anchor-trigger> is used.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A table containing a list of the IP addresses for the interfaces as determined by the arguments provided.</li></ul>          |
 | <strong>Notes</strong>                                   | <ul><li>The order of the IP addresses returned is undefined.</li><li>If no arguments are provided, then this function returns the same results as <code v-pre>hs.host.addresses</code>, but does not block.</li></ul>                |</p>
+<hr />
+<doc-anchor-target id="interfacedetails">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interfacedetails">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#interfaceDetails">interfaceDetails</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#interfaceDetails">interfaceDetails</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -378,11 +391,18 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="interfacename">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interfacename">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#interfaceName">interfaceName</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#interfaceName">interfaceName</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -414,11 +434,18 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="interfaces">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interfaces">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#interfaces">interfaces</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#interfaces">interfaces</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -450,11 +477,18 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 </tbody>
 </table>
 </div>
+<hr />
+<doc-anchor-target id="primaryinterfaces">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#primaryinterfaces">#</doc-anchor-trigger>
+        <span><doc-anchor-trigger to="#primaryInterfaces">primaryInterfaces</doc-anchor-trigger></span>
+    </h3>
+</doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
-<th><doc-anchor-trigger to="#primaryInterfaces">primaryInterfaces</doc-anchor-trigger></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
@@ -486,6 +520,7 @@ if no arguments are specified, then the results of <doc-anchor-trigger to="#inte
 </tbody>
 </table>
 </div>
+<hr />
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"
