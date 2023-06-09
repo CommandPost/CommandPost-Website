@@ -2,7 +2,11 @@
 
 Final Cut Pro MIDI Timeline Controls.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

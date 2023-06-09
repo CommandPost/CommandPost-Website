@@ -35,12 +35,14 @@ Keep in mind that Lua's operator precedence may be different to that of standard
 a + b | c ~= a + (b | c)
 ```
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [everything](#everything)
  * [nothing](#nothing)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [complement](#complement)
  * [difference](#difference)
  * [has](#has)
@@ -51,13 +53,13 @@ a + b | c ~= a + (b | c)
  * [symetricDifference](#symetricdifference)
  * [union](#union)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [clone](#clone)
  * [fromList](#fromlist)
  * [fromMap](#frommap)
  * [of](#of)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [complement](#complement)
  * [difference](#difference)
  * [has](#has)
@@ -67,6 +69,8 @@ a + b | c ~= a + (b | c)
  * [symetricDifference](#symetricdifference)
  * [union](#union)
 
+
+---
 
 ## API Documentation
 

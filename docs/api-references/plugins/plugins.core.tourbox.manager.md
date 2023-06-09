@@ -2,22 +2,26 @@
 
 Loupedeck CT Manager Plugin.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultLayout](#defaultlayout)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [connectToTourBox](#connecttotourbox)
  * [reset](#reset)
  * [resetTimers](#resettimers)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeBanks](#activebanks)
  * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
  * [enabled](#enabled)
  * [items](#items)
 
+
+---
 
 ## API Documentation
 

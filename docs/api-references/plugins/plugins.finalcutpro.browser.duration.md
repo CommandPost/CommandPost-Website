@@ -2,13 +2,17 @@
 
 Shortcut for changing Final Cut Pro's Browser Height
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [changeBrowserDurationAlreadyInProgress](#changebrowserdurationalreadyinprogress)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [changeBrowserDuration](#changebrowserduration)
 
+
+---
 
 ## API Documentation
 

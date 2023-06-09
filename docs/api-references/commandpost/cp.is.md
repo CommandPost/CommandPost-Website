@@ -23,8 +23,10 @@ local isnt_blank = is.nt.blank
 isnt_blank(nil) == false
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [blank](#blank)
  * [boolean](#boolean)
  * [callable](#callable)
@@ -41,6 +43,8 @@ isnt_blank(nil) == false
  * [truthy](#truthy)
  * [userdata](#userdata)
 
+
+---
 
 ## API Documentation
 

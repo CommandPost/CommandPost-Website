@@ -2,10 +2,14 @@
 
 [Builder](cp.ui.Builder.md) class for [ScrollArea](cp.ui.ScrollArea.lua).
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [containing](#containing)
 
+
+---
 
 ## API Documentation
 

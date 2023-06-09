@@ -2,11 +2,15 @@
 
 Manager for the CommandPost Setup Screen.
 
+---
+
 ## Submodules
  * [plugins.core.setup.panel](plugins.core.setup.panel.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_TITLE](#default_title)
  * [DEFAULT_WIDTH](#default_width)
@@ -15,11 +19,11 @@ Manager for the CommandPost Setup Screen.
  * [LAST_PRIORITY](#last_priority)
  * [visible](#visible)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [onboardingRequired](#onboardingrequired)
  * [position](#position)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addPanel](#addpanel)
  * [currentPanel](#currentpanel)
  * [delete](#delete)
@@ -32,6 +36,8 @@ Manager for the CommandPost Setup Screen.
  * [show](#show)
  * [update](#update)
 
+
+---
 
 ## API Documentation
 

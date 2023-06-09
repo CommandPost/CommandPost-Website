@@ -2,8 +2,10 @@
 
 The set of event types received from websocket connections.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [closed](#closed)
  * [closing](#closing)
  * [error](#error)
@@ -11,6 +13,8 @@ The set of event types received from websocket connections.
  * [opened](#opened)
  * [opening](#opening)
 
+
+---
 
 ## API Documentation
 

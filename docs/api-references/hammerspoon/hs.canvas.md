@@ -12,30 +12,34 @@ Attributes for canvas elements are defined in [hs.canvas.attributes](#attributes
 
 Some examples of how to use this module can be found at https://github.com/asmagill/hammerspoon/wiki/hs.canvas.examples
 
+---
+
 ## Submodules
  * [hs.canvas.matrix](hs.canvas.matrix.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [compositeTypes](#compositetypes)
  * [windowBehaviors](#windowbehaviors)
  * [windowLevels](#windowlevels)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [defaultTextStyle](#defaulttextstyle)
  * [elementSpec](#elementspec)
  * [help](#help)
  * [useCustomAccessibilitySubrole](#usecustomaccessibilitysubrole)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [attributes](#attributes)
  * [object](#object)
  * [percentages](#percentages)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [_accessibilitySubrole](#_accessibilitysubrole)
  * [alpha](#alpha)
  * [appendElements](#appendelements)
@@ -78,6 +82,8 @@ Some examples of how to use this module can be found at https://github.com/asmag
  * [transformation](#transformation)
  * [wantsLayer](#wantslayer)
 
+
+---
 
 ## API Documentation
 

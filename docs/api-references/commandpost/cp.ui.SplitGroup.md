@@ -4,20 +4,24 @@ Split Group UI. A SplitGroup is a container that can be split into multiple sect
 Each section is an [Element](cp.ui.Element.md), and they are divided by a [Splitter](cp.ui.Splitter.md),
 resulting in something like `{ Element, Splitter, Element }`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [SplitGroup](#splitgroup)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [children](#children)
  * [childrenUI](#childrenui)
  * [sections](#sections)
  * [splitters](#splitters)
  * [splittersUI](#splittersui)
 
+
+---
 
 ## API Documentation
 

@@ -30,17 +30,21 @@ thing.watch({
 
 Then, whenever `thing.update(xxx)` is called, the watcher will output `"New value is xxx"`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [events](#events)
  * [getCount](#getcount)
  * [notify](#notify)
  * [unwatch](#unwatch)
  * [watch](#watch)
 
+
+---
 
 ## API Documentation
 

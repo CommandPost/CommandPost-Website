@@ -5,13 +5,17 @@ JSON encoding and decoding
 This module is based partially on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [decode](#decode)
  * [encode](#encode)
  * [read](#read)
  * [write](#write)
 
+
+---
 
 ## API Documentation
 

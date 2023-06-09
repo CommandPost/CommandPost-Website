@@ -19,18 +19,20 @@ myButton() == true			-- still true
 myButton(false) == false	-- now false
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [DisclosureTriangle](#disclosuretriangle)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [opened](#opened)
  * [title](#title)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [click](#click)
  * [doClose](#doclose)
  * [doOpen](#doopen)
@@ -40,6 +42,8 @@ myButton(false) == false	-- now false
  * [saveLayout](#savelayout)
  * [toggle](#toggle)
 
+
+---
 
 ## API Documentation
 

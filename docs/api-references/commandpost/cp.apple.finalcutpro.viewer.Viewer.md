@@ -2,18 +2,20 @@
 
 Viewer Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [BACKGROUND](#background)
  * [PLAYBACK_MODE](#playback_mode)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Viewer](#viewer)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [background](#background)
  * [betterQuality](#betterquality)
  * [contentsUI](#contentsui)
@@ -36,7 +38,7 @@ Viewer Module.
  * [videoImage](#videoimage)
  * [videoImageUI](#videoimageui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [currentWindow](#currentwindow)
  * [doHide](#dohide)
@@ -49,6 +51,8 @@ Viewer Module.
  * [showOnPrimary](#showonprimary)
  * [showOnSecondary](#showonsecondary)
 
+
+---
 
 ## API Documentation
 

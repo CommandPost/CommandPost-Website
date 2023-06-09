@@ -3,14 +3,18 @@
 Creates a bunch of commands that can be used to assign actions to.
 This allows you to assign any action to a shortcut key in CommandPost.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [shortcuts](#shortcuts)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [apply](#apply)
  * [assign](#assign)
 
+
+---
 
 ## API Documentation
 

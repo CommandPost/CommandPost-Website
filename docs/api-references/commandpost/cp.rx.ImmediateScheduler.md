@@ -2,13 +2,17 @@
 
 Schedules `Observables` by running all operations immediately.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [schedule](#schedule)
 
+
+---
 
 ## API Documentation
 

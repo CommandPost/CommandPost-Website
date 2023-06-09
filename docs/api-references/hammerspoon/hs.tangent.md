@@ -14,20 +14,22 @@ You can download the Tangent Developer Support Pack & Tangent Hub Installer for 
 
 This extension was thrown together by [Chris Hocking](https://github.com/latenitefilms), then dramatically improved by [David Peterson](https://github.com/randomeizer) for [CommandPost](http://commandpost.io).
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [action](#action)
  * [fromHub](#fromhub)
  * [panelType](#paneltype)
  * [parameter](#parameter)
  * [toHub](#tohub)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [automaticallySendApplicationDefinition](#automaticallysendapplicationdefinition)
  * [ipAddress](#ipaddress)
  * [port](#port)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [callback](#callback)
  * [connect](#connect)
  * [connected](#connected)
@@ -48,6 +50,8 @@ This extension was thrown together by [Chris Hocking](https://github.com/latenit
  * [sendUnmanagedPanelCapabilitiesRequest](#sendunmanagedpanelcapabilitiesrequest)
  * [setLogLevel](#setloglevel)
 
+
+---
 
 ## API Documentation
 

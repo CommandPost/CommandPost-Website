@@ -2,15 +2,19 @@
 
 Menu Manager Plugin.
 
+---
+
 ## Submodules
  * [plugins.core.menu.manager.section](plugins.core.menu.manager.section.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [rootSection](#rootsection)
  * [titleSuffix](#titlesuffix)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addSection](#addsection)
  * [addTitleSuffix](#addtitlesuffix)
  * [disable](#disable)
@@ -19,9 +23,11 @@ Menu Manager Plugin.
  * [init](#init)
  * [updateMenubarIcon](#updatemenubaricon)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [displayMenubarAsIcon](#displaymenubarasicon)
 
+
+---
 
 ## API Documentation
 

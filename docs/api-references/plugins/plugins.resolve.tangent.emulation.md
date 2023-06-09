@@ -2,7 +2,11 @@
 
 Emulates a Tangent Element Panel.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

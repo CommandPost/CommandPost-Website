@@ -33,12 +33,14 @@ We're also currently using the menu position for selecting "Show/Hide All Column
 as the strings for these values are contained within a `.nib` file not a `.strings`
 file.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [busy](#busy)
  * [lastCollection](#lastcollection)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getActiveColumnsNames](#getactivecolumnsnames)
  * [getClipNameSize](#getclipnamesize)
  * [getSingleSelectedCollection](#getsingleselectedcollection)
@@ -49,6 +51,8 @@ file.
  * [saveLayoutToTable](#savelayouttotable)
  * [setupWatcher](#setupwatcher)
 
+
+---
 
 ## API Documentation
 

@@ -2,16 +2,20 @@
 
 Simple on-screen alerts
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultStyle](#defaultstyle)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [closeAll](#closeall)
  * [closeSpecific](#closespecific)
  * [show](#show)
  * [showWithImage](#showwithimage)
 
+
+---
 
 ## API Documentation
 

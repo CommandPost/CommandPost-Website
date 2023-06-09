@@ -2,8 +2,10 @@
 
 Converts Titles to Keywords
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [addSpaceAfterSequence](#addspaceaftersequence)
  * [duration](#duration)
  * [mergeWithExistingEvent](#mergewithexistingevent)
@@ -20,6 +22,8 @@ Converts Titles to Keywords
  * [treatFavoriteAndRejectAsRatingsInsteadOfKeywords](#treatfavoriteandrejectasratingsinsteadofkeywords)
  * [useTitleContentsInsteadOfTitleName](#usetitlecontentsinsteadoftitlename)
 
+
+---
 
 ## API Documentation
 

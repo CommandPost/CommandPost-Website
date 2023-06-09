@@ -2,19 +2,23 @@
 
 Text Field Module.
 
+---
+
 ## Submodules
  * [cp.ui.TextField.Builder](cp.ui.TextField.Builder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [convertingGet](#convertingget)
  * [convertingSet](#convertingset)
  * [value](#value)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [clear](#clear)
  * [doConfirm](#doconfirm)
  * [doFocus](#dofocus)
@@ -25,6 +29,8 @@ Text Field Module.
  * [setValue](#setvalue)
  * [TextField](#textfield)
 
+
+---
 
 ## API Documentation
 

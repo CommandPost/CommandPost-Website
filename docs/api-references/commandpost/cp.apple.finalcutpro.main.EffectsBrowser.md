@@ -2,21 +2,23 @@
 
 Effects Browser Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [EFFECTS](#effects)
  * [TRANSITIONS](#transitions)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [isShowing](#isshowing)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [EffectsBrowser](#effectsbrowser)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [group](#group)
  * [mainGroupUI](#maingroupui)
@@ -25,7 +27,7 @@ Effects Browser Module.
  * [sidebarToggle](#sidebartoggle)
  * [toggleButton](#togglebutton)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [applyItem](#applyitem)
  * [audioCategoryRowsUI](#audiocategoryrowsui)
  * [currentItemsUI](#currentitemsui)
@@ -55,6 +57,8 @@ Effects Browser Module.
  * [type](#type)
  * [videoCategoryRowsUI](#videocategoryrowsui)
 
+
+---
 
 ## API Documentation
 

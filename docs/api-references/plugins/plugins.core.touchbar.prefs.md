@@ -2,22 +2,26 @@
 
 Touch Bar Preferences Panel
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultIconPath](#defaulticonpath)
  * [maxItems](#maxitems)
  * [supportedExtensions](#supportedextensions)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getGroupEditor](#getgroupeditor)
  * [init](#init)
  * [setGroupEditor](#setgroupeditor)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [lastGroup](#lastgroup)
  * [scrollBarPosition](#scrollbarposition)
 
+
+---
 
 ## API Documentation
 

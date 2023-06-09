@@ -8,10 +8,14 @@ Example:
 Throw("There was an error: %s", errorMessage)
 ```
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Throw](#throw)
 
+
+---
 
 ## API Documentation
 

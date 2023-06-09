@@ -7,6 +7,8 @@ RxLua gives Lua the power of Observables, which are data structures that represe
  * Originally forked from: https://github.com/bjornbytes/rxlua
  * MIT License: https://github.com/bjornbytes/RxLua/blob/master/LICENSE
 
+---
+
 ## Submodules
  * [cp.rx.AsyncSubject](cp.rx.AsyncSubject.md)
  * [cp.rx.BehaviorSubject](cp.rx.BehaviorSubject.md)
@@ -20,7 +22,11 @@ RxLua gives Lua the power of Observables, which are data structures that represe
  * [cp.rx.TimeoutScheduler](cp.rx.TimeoutScheduler.md)
  * [cp.rx.go](cp.rx.go.md)
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

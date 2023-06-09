@@ -2,7 +2,11 @@
 
 Final Cut Pro Menu Manager.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

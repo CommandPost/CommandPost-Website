@@ -2,7 +2,11 @@
 
 Defines a `Group` builder.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

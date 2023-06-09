@@ -3,14 +3,18 @@
 An `action` which will execute a command with matching group/id values.
 Registers itself with the `core.action.manager`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [execute](#execute)
  * [getId](#getid)
  * [init](#init)
  * [onChoices](#onchoices)
  * [reset](#reset)
 
+
+---
 
 ## API Documentation
 

@@ -2,16 +2,22 @@
 
 Highland 2 support.
 
+---
+
 ## Submodules
  * [cp.highland2.Document](cp.highland2.Document.md)
  * [cp.highland2.Sidebar](cp.highland2.Sidebar.md)
  * [cp.highland2.app](cp.highland2.app.md)
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [documents](#documents)
  * [focusedDocument](#focuseddocument)
 
+
+---
 
 ## API Documentation
 

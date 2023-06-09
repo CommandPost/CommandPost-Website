@@ -38,14 +38,18 @@ There are two 'special' tag names:
  * `CDATA`  - will generate a `&lt;![CDATA[ ... ]]&gt;` section with the content contained.
  * `__`     - (double underscore) will generate a `&lt!-- ... --&gt` comment block.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [append](#append)
  * [prepend](#prepend)
 
+
+---
 
 ## API Documentation
 

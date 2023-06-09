@@ -2,13 +2,17 @@
 
 Contains functions for comparing `axuielement`s.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bottomToTop](#bottomtotop)
  * [leftToRight](#lefttoright)
  * [rightToLeft](#righttoleft)
  * [topToBottom](#toptobottom)
 
+
+---
 
 ## API Documentation
 

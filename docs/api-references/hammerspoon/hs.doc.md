@@ -24,13 +24,17 @@ Results in:
 
 By default, the internal core documentation and portions of the Lua 5.3 manual, located at http://www.lua.org/manual/5.3/manual.html, are already registered for inclusion within this documentation object, but you can register additional documentation from 3rd party modules with `hs.registerJSONFile(...)`.
 
+---
+
 ## Submodules
  * [hs.doc.builder](hs.doc.builder.md)
  * [hs.doc.hsdocs](hs.doc.hsdocs.md)
  * [hs.doc.markdown](hs.doc.markdown.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [help](#help)
  * [locateJSONFile](#locatejsonfile)
  * [preloadSpoonDocs](#preloadspoondocs)
@@ -38,6 +42,8 @@ By default, the internal core documentation and portions of the Lua 5.3 manual, 
  * [registerJSONFile](#registerjsonfile)
  * [unregisterJSONFile](#unregisterjsonfile)
 
+
+---
 
 ## API Documentation
 

@@ -2,18 +2,22 @@
 
 Transition Inspector Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [EASE](#ease)
  * [FADE_TYPES](#fade_types)
  * [LOOKS](#looks)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [TransitionInspector](#transitioninspector)
 
+
+---
 
 ## API Documentation
 

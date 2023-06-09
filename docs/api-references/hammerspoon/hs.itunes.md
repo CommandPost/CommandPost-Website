@@ -2,13 +2,15 @@
 
 Controls for iTunes music player
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [state_paused](#state_paused)
  * [state_playing](#state_playing)
  * [state_stopped](#state_stopped)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [displayCurrentTrack](#displaycurrenttrack)
  * [ff](#ff)
  * [getCurrentAlbum](#getcurrentalbum)
@@ -31,6 +33,8 @@ Controls for iTunes music player
  * [volumeDown](#volumedown)
  * [volumeUp](#volumeup)
 
+
+---
 
 ## API Documentation
 

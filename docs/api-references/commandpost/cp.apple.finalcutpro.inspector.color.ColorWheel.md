@@ -2,17 +2,19 @@
 
 Represents a single Color Well in the Color Wheels Inspector.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [TYPE](#type)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorWheel](#colorwheel)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [brightnessValue](#brightnessvalue)
  * [colorOrientation](#colororientation)
  * [colorPosition](#colorposition)
@@ -21,7 +23,7 @@ Represents a single Color Well in the Color Wheels Inspector.
  * [reset](#reset)
  * [saturationValue](#saturationvalue)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [brightness](#brightness)
  * [colorWell](#colorwell)
  * [doNudgeColor](#donudgecolor)
@@ -32,6 +34,8 @@ Represents a single Color Well in the Color Wheels Inspector.
  * [select](#select)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -2,21 +2,25 @@
 
 An individual run of a test [Definition](cp.spec.Definition.md) or [Specification](cp.spec.Specification.md).
 
+---
+
 ## Submodules
  * [cp.spec.Run.This](cp.spec.Run.This.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Run](#run)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [phase](#phase)
  * [report](#report)
  * [result](#result)
  * [shared](#shared)
  * [source](#source)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [debug](#debug)
  * [expectAbort](#expectabort)
  * [expectFail](#expectfail)
@@ -30,6 +34,8 @@ An individual run of a test [Definition](cp.spec.Definition.md) or [Specificatio
  * [parent](#parent)
  * [verbose](#verbose)
 
+
+---
 
 ## API Documentation
 

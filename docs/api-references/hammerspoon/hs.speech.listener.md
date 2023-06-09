@@ -4,11 +4,13 @@ This module provides access to the Speech Recognizer component of OS X.
 
 The speech recognizer functions and methods provide a way to add commands which may be issued to Hammerspoon through spoken words and phrases to trigger a callback.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [blocksOtherRecognizers](#blocksotherrecognizers)
  * [commands](#commands)
  * [delete](#delete)
@@ -19,6 +21,8 @@ The speech recognizer functions and methods provide a way to add commands which 
  * [stop](#stop)
  * [title](#title)
 
+
+---
 
 ## API Documentation
 

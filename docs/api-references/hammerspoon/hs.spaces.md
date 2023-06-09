@@ -12,14 +12,18 @@ It is recommended that you also enable "Displays have separate Spaces" in System
 
 This module is a distillation of my previous `hs._asm.undocumented.spaces` module, changes inspired by reviewing the `Yabai` source, and some experimentation with `hs.axuielement`. If you require more sophisticated control, I encourage you to check out https://github.com/koekeishiya/yabai -- it does require some additional setup (changes to SIP, possibly edits to `sudoers`, etc.) but may be worth the extra steps for some power users.
 
+---
+
 ## Submodules
  * [hs.spaces.watcher](hs.spaces.watcher.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [MCwaitTime](#mcwaittime)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [activeSpaceOnScreen](#activespaceonscreen)
  * [activeSpaces](#activespaces)
  * [addSpaceToScreen](#addspacetoscreen)
@@ -45,6 +49,8 @@ This module is a distillation of my previous `hs._asm.undocumented.spaces` modul
  * [windowsForSpace](#windowsforspace)
  * [windowSpaces](#windowspaces)
 
+
+---
 
 ## API Documentation
 

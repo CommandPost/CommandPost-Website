@@ -5,10 +5,14 @@ Produce human-readable representations of Lua variables (particularly tables)
 This extension is based on inspect.lua by Enrique García Cota
 https://github.com/kikito/inspect.lua
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [inspect](#inspect)
 
+
+---
 
 ## API Documentation
 

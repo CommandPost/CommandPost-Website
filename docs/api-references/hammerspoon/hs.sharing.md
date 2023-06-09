@@ -23,19 +23,21 @@ Common item data types that can be shared with Sharing Services include (but are
  * web sites and other URLs through the use of the [hs.sharing.URL](#URL) function
  * local files through the use of file URLs created with the [hs.sharing.fileURL](#fileURL) function
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [builtinSharingServices](#builtinsharingservices)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [fileURL](#fileurl)
  * [shareTypesFor](#sharetypesfor)
  * [URL](#url)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [newShare](#newshare)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [accountName](#accountname)
  * [alternateImage](#alternateimage)
  * [attachments](#attachments)
@@ -50,6 +52,8 @@ Common item data types that can be shared with Sharing Services include (but are
  * [subject](#subject)
  * [title](#title)
 
+
+---
 
 ## API Documentation
 

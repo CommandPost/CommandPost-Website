@@ -16,18 +16,22 @@ As this submodule utilizes private and undocumented functions in the HIServices 
     hs.inspect(hs.processInfo)
     hs.host.operatingSystemVersionString()
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [_functionCheck](#_functioncheck)
  * [bytes](#bytes)
  * [endMarker](#endmarker)
  * [length](#length)
  * [startMarker](#startmarker)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [newMarker](#newmarker)
  * [newRange](#newrange)
 
+
+---
 
 ## API Documentation
 

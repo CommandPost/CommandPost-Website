@@ -2,10 +2,14 @@
 
 Contains pattern matching utility functions.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [doesMatch](#doesmatch)
 
+
+---
 
 ## API Documentation
 

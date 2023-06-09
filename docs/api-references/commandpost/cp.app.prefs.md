@@ -16,17 +16,21 @@ for k,v in pairs(previewPrefs) do
 end
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bundleID](#bundleid)
  * [get](#get)
  * [is](#is)
  * [prop](#prop)
  * [set](#set)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [prefs](#prefs)
 
+
+---
 
 ## API Documentation
 

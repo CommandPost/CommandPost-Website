@@ -21,7 +21,11 @@ mod = _bench.press("mymod", mod)
 -- Just the "foo" and "bar" functions are benchmarked.
 mod = _bench.press("mymod", mod, {"foo", "bar"})
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,15 +2,21 @@
 
 Provides support for NIB files.
 
+---
+
 ## Submodules
  * [cp.nib.archiver](cp.nib.archiver.md)
  * [cp.nib.type](cp.nib.type.md)
  * [cp.nib.types](cp.nib.types.md)
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [fromBytes](#frombytes)
 
+
+---
 
 ## API Documentation
 

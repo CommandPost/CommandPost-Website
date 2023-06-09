@@ -15,15 +15,17 @@ end
 
 This is a subclass of [Element](cp.ui.Element.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [with](#with)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Cell](#cell)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [children](#children)
  * [childrenUI](#childrenui)
  * [columnIndexRange](#columnindexrange)
@@ -31,9 +33,11 @@ This is a subclass of [Element](cp.ui.Element.md).
  * [selected](#selected)
  * [value](#value)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [textValueIs](#textvalueis)
 
+
+---
 
 ## API Documentation
 

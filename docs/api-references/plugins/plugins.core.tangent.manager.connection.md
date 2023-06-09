@@ -2,14 +2,16 @@
 
 Represents a Tangent Connection.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [connections](#connections)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [connection](#connection)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addMode](#addmode)
  * [applicationName](#applicationname)
  * [device](#device)
@@ -26,6 +28,8 @@ Represents a Tangent Connection.
  * [userPath](#userpath)
  * [writeControlsXML](#writecontrolsxml)
 
+
+---
 
 ## API Documentation
 

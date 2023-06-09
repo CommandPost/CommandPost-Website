@@ -2,11 +2,13 @@
 
 Playback Panel Module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [PlaybackPanel](#playbackpanel)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [avOutput](#avoutput)
  * [backgroundRender](#backgroundrender)
  * [backgroundRenderDelay](#backgroundrenderdelay)
@@ -20,6 +22,8 @@ Playback Panel Module.
  * [warnAfterPlaybackOnVRFrameDrop](#warnafterplaybackonvrframedrop)
  * [warnOnFrameDrop](#warnonframedrop)
 
+
+---
 
 ## API Documentation
 

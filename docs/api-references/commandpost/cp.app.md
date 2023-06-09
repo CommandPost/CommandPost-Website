@@ -9,23 +9,27 @@ This extension differs from the `hs.application` extension in several ways:
  * `cp.app` instances are long-lived. You request it once and it will stay up-to-date even if the app quits.
  * It makes extensive use of `cp.prop`, so you can `watch` many most properties of the app and get live notifications when they change.
 
+---
+
 ## Submodules
  * [cp.app.menu](cp.app.menu.md)
  * [cp.app.prefs](cp.app.prefs.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [frontmostApp](#frontmostapp)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [apps](#apps)
  * [bundleIDs](#bundleids)
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [forBundleID](#forbundleid)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [baseLocale](#baselocale)
  * [baseResourcesPath](#baseresourcespath)
  * [currentLocale](#currentlocale)
@@ -54,7 +58,7 @@ This extension differs from the `hs.application` extension in several ways:
  * [windows](#windows)
  * [windowsUI](#windowsui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bestSupportedLocale](#bestsupportedlocale)
  * [bundleID](#bundleid)
  * [doHide](#dohide)
@@ -74,6 +78,8 @@ This extension differs from the `hs.application` extension in several ways:
  * [show](#show)
  * [update](#update)
 
+
+---
 
 ## API Documentation
 

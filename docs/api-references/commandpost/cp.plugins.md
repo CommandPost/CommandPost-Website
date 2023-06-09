@@ -145,19 +145,23 @@ local fooBar = require("foo.bar")
 
 These modules will not be accessible to other plugins or to the main application. They are only available to code inside the plugin.
 
+---
+
 ## Submodules
  * [cp.plugins.env](cp.plugins.env.md)
  * [cp.plugins.plugin](cp.plugins.plugin.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [CACHE](#cache)
  * [SETTINGS_DISABLED](#settings_disabled)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [IDS](#ids)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addDependent](#adddependent)
  * [disable](#disable)
  * [enable](#enable)
@@ -178,6 +182,8 @@ These modules will not be accessible to other plugins or to the main application
  * [scanDirectory](#scandirectory)
  * [watchPluginPaths](#watchpluginpaths)
 
+
+---
 
 ## API Documentation
 

@@ -2,17 +2,21 @@
 
 Choices Builder Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [id](#id)
  * [image](#image)
  * [params](#params)
  * [subText](#subtext)
  * [text](#text)
 
+
+---
 
 ## API Documentation
 

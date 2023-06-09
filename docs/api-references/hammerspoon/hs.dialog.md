@@ -2,17 +2,23 @@
 
 A collection of useful dialog boxes, alerts and panels for user interaction.
 
+---
+
 ## Submodules
  * [hs.dialog.color](hs.dialog.color.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [alert](#alert)
  * [blockAlert](#blockalert)
  * [chooseFileOrFolder](#choosefileorfolder)
  * [textPrompt](#textprompt)
  * [webviewAlert](#webviewalert)
 
+
+---
 
 ## API Documentation
 

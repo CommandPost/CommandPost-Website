@@ -67,15 +67,19 @@ This will do a run for each variation and interpolate the value into the run nam
  **Note:** "where" parameters will not override built-in functions and fields in the [this](cp.spec.Run.This.md)
 instance (such as "async" or "done") so ensure that you pick names that don't clash.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Scenario](#scenario)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doing](#doing)
  * [run](#run)
  * [where](#where)
 
+
+---
 
 ## API Documentation
 

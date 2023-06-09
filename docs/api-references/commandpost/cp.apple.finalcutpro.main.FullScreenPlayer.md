@@ -4,22 +4,26 @@ Full Screen Window Player.
 
 Triggered by the "View > Playback > Play Full Screen" menubar item.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [FullScreenPlayer](#fullscreenplayer)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isFullScreen](#isfullscreen)
  * [rootGroupUI](#rootgroupui)
  * [viewerGroupUI](#viewergroupui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -38,18 +38,22 @@ that require an "`Element` init" that will only be provided a parent and UI find
 
 This is a subclass of [Element](cp.ui.Element.md).
 
+---
+
 ## Submodules
  * [cp.ui.ScrollArea.Builder](cp.ui.ScrollArea.Builder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [containing](#containing)
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ScrollArea](#scrollarea)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [contentsUI](#contentsui)
  * [horizontalScrollBar](#horizontalscrollbar)
@@ -57,7 +61,7 @@ This is a subclass of [Element](cp.ui.Element.md).
  * [verticalScrollBar](#verticalscrollbar)
  * [viewFrame](#viewframe)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [childrenUI](#childrenui)
  * [deselectAll](#deselectall)
  * [loadLayout](#loadlayout)
@@ -72,6 +76,8 @@ This is a subclass of [Element](cp.ui.Element.md).
  * [showChild](#showchild)
  * [showChildAt](#showchildat)
 
+
+---
 
 ## API Documentation
 

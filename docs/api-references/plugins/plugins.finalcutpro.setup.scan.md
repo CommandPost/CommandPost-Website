@@ -2,10 +2,14 @@
 
 Show setup panel if Final Cut Pro needs scanning.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [init](#init)
 
+
+---
 
 ## API Documentation
 

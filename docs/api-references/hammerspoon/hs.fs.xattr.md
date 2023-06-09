@@ -17,14 +17,18 @@ Note that the following options did not seem to be valid for the initial tests p
  * "noDefault"       - bypass the default extended attribute file (dot-underscore file)
 
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [get](#get)
  * [getHumanReadable](#gethumanreadable)
  * [list](#list)
  * [remove](#remove)
  * [set](#set)
 
+
+---
 
 ## API Documentation
 

@@ -2,17 +2,21 @@
 
 The Blackmagic DaVinci Resolve Extension.
 
+---
+
 ## Submodules
  * [cp.blackmagic.resolve.app](cp.blackmagic.resolve.app.md)
  * [cp.blackmagic.resolve.color](cp.blackmagic.resolve.color.md)
  * [cp.blackmagic.resolve.main](cp.blackmagic.resolve.main.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
  * [preferences](#preferences)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [Color](#color)
  * [currentLocale](#currentlocale)
  * [isFrontmost](#isfrontmost)
@@ -29,7 +33,7 @@ The Blackmagic DaVinci Resolve Extension.
  * [versionString](#versionstring)
  * [windowsUI](#windowsui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bundleID](#bundleid)
  * [doHide](#dohide)
  * [doLaunch](#dolaunch)
@@ -43,6 +47,8 @@ The Blackmagic DaVinci Resolve Extension.
  * [quit](#quit)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

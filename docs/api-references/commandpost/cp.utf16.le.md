@@ -2,8 +2,10 @@
 
 A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [char](#char)
  * [codepoint](#codepoint)
  * [codes](#codes)
@@ -11,6 +13,8 @@ A pure-LUA implementation of UTF-16 decoding with little-endian ordering.
  * [len](#len)
  * [offset](#offset)
 
+
+---
 
 ## API Documentation
 

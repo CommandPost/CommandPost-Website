@@ -2,13 +2,17 @@
 
 Final Cut Pro Tangent Trim Group
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [group](#group)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [init](#init)
 
+
+---
 
 ## API Documentation
 

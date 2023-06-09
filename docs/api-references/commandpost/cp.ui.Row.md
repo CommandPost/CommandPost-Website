@@ -2,28 +2,34 @@
 
 Represents an `AXRow` `axuielement`.
 
+---
+
 ## Submodules
  * [cp.ui.Row.Builder](cp.ui.Row.Builder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [containing](#containing)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Row](#row)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [childrenUI](#childrenui)
  * [disclosing](#disclosing)
  * [disclosureLevel](#disclosurelevel)
  * [index](#index)
  * [selected](#selected)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [disclosedByRow](#disclosedbyrow)
  * [disclosedRows](#disclosedrows)
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

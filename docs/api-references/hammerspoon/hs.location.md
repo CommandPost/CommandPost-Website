@@ -28,11 +28,15 @@ The following labels are used to describe tables which are used by functions and
    * `notifyOnEntry` - a boolean specifying whether or not a callback with the "didEnterRegion" message should be generated when the machine enters the region. When not specified in a table being used as an argument, this defaults to true.
    * `notifyOnExit`  - a boolean specifying whether or not a callback with the "didExitRegion" message should be generated when the machine exits the region. When not specified in a table being used as an argument, this defaults to true.
 
+---
+
 ## Submodules
  * [hs.location.geocoder](hs.location.geocoder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [authorizationStatus](#authorizationstatus)
  * [distance](#distance)
  * [dstOffset](#dstoffset)
@@ -45,10 +49,10 @@ The following labels are used to describe tables which are used by functions and
  * [sunset](#sunset)
  * [unregister](#unregister)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addMonitoredRegion](#addmonitoredregion)
  * [callback](#callback)
  * [currentRegion](#currentregion)
@@ -59,6 +63,8 @@ The following labels are used to describe tables which are used by functions and
  * [startTracking](#starttracking)
  * [stopTracking](#stoptracking)
 
+
+---
 
 ## API Documentation
 

@@ -2,14 +2,16 @@
 
 Color Inspector Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [CORRECTION_TYPES](#correction_types)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [colorBoard](#colorboard)
  * [colorCurves](#colorcurves)
  * [colorWheels](#colorwheels)
@@ -19,7 +21,7 @@ Color Inspector Module.
  * [topBarUI](#topbarui)
  * [value](#value)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activateCorrection](#activatecorrection)
  * [addCorrection](#addcorrection)
  * [ColorInspector](#colorinspector)
@@ -29,6 +31,8 @@ Color Inspector Module.
  * [hide](#hide)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

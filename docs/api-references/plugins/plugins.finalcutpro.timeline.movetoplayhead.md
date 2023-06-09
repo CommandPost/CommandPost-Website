@@ -2,7 +2,11 @@
 
 Move To Playhead.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -13,17 +13,21 @@ where `frameDuration` is the frame duration as a `time` value.
 
 Note, this currently does not support "Drop Frame" timecodes.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [fromFFSSMMHH](#fromffssmmhh)
  * [fromHH_MM_SS_FF](#fromhh_mm_ss_ff)
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [__tostring](#__tostring)
  * [timeWithFrameDuration](#timewithframeduration)
  * [totalFramesWithFPS](#totalframeswithfps)
 
+
+---
 
 ## API Documentation
 

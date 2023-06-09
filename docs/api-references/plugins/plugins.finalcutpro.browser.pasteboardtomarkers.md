@@ -21,11 +21,15 @@ between the current timecode value and the next timecode value.
 
 If a # is place before the timecode, it will create a "To Do" marker.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [init](#init)
  * [process](#process)
 
+
+---
 
 ## API Documentation
 

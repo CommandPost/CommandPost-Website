@@ -2,10 +2,14 @@
 
 Controls Final Cut Pro's Transitions.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [transitions](#transitions)
 
+
+---
 
 ## API Documentation
 

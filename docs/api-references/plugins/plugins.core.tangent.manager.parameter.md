@@ -2,15 +2,17 @@
 
 Represents a Tangent Parameter control.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
  * [update](#update)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [parameter](#parameter)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [change](#change)
  * [get](#get)
  * [maxValue](#maxvalue)
@@ -24,6 +26,8 @@ Represents a Tangent Parameter control.
  * [stepSize](#stepsize)
  * [xml](#xml)
 
+
+---
 
 ## API Documentation
 

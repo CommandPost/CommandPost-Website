@@ -5,8 +5,10 @@ using `cp.web.html` as the basis. Most functions return a `html` element which i
 potentially dynamically updatable. Most values can be set using a value or a function,
 and if functions are provided, they are re-evaluated every time the element is generated.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [heading](#heading)
  * [img](#img)
  * [javascript](#javascript)
@@ -16,10 +18,12 @@ and if functions are provided, they are re-evaluated every time the element is g
  * [template](#template)
  * [textbox](#textbox)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [button](#button)
  * [checkbox](#checkbox)
 
+
+---
 
 ## API Documentation
 

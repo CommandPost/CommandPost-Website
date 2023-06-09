@@ -2,14 +2,18 @@
 
 Watch for USB device connection/disconnection events
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

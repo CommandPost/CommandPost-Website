@@ -2,8 +2,10 @@
 
 The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by Video/Audio/Title.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [analysisKeywords](#analysiskeywords)
  * [chapters](#chapters)
  * [completeTodos](#completetodos)
@@ -11,9 +13,11 @@ The collection of [RadioButtons](cp.ui.RadioButton.md) that allow filtering by V
  * [keywords](#keywords)
  * [standardMarkers](#standardmarkers)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

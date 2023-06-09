@@ -2,10 +2,14 @@
 
 An synchronous/asynchronous test library for Lua.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
+
+---
 
 ## API Documentation
 

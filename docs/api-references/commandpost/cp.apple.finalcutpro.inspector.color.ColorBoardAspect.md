@@ -2,21 +2,23 @@
 
 Represents a particular aspect of the color board (Color/Saturation/Exposure).
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [ids](#ids)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorBoardAspect](#colorboardaspect)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [highlights](#highlights)
  * [master](#master)
  * [midtones](#midtones)
  * [selected](#selected)
  * [shadows](#shadows)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [hasAngle](#hasangle)
  * [id](#id)
@@ -24,6 +26,8 @@ Represents a particular aspect of the color board (Color/Saturation/Exposure).
  * [reset](#reset)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

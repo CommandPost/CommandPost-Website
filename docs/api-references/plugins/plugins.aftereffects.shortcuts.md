@@ -2,7 +2,11 @@
 
 Trigger After Effects Shortcuts
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

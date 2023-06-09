@@ -2,16 +2,20 @@
 
 Represents a Tangent Binding
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [binding](#binding)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [member](#member)
  * [members](#members)
  * [name](#name)
  * [xml](#xml)
 
+
+---
 
 ## API Documentation
 

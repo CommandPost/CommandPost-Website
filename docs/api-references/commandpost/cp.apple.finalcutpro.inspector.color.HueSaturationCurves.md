@@ -4,14 +4,16 @@ Color Curves Module.
 
 Requires Final Cut Pro 10.4 or later.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [HueSaturationCurves](#huesaturationcurves)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [colorVsSat](#colorvssat)
  * [contentUI](#contentui)
  * [hueVsHue](#huevshue)
@@ -26,9 +28,11 @@ Requires Final Cut Pro 10.4 or later.
  * [viewModeButton](#viewmodebutton)
  * [wheelType](#wheeltype)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

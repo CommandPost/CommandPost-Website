@@ -2,7 +2,11 @@
 
 Rename Clip
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

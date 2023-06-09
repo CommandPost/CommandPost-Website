@@ -2,13 +2,19 @@
 
 Inspect USB devices
 
+---
+
 ## Submodules
  * [hs.usb.watcher](hs.usb.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [attachedDevices](#attacheddevices)
 
+
+---
 
 ## API Documentation
 

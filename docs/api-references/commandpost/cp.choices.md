@@ -2,17 +2,23 @@
 
 Choices Module.
 
+---
+
 ## Submodules
  * [cp.choices.builder](cp.choices.builder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [getChoices](#getchoices)
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

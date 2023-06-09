@@ -102,7 +102,11 @@ end
 myClassValue:doSomething():Now()
 ```
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

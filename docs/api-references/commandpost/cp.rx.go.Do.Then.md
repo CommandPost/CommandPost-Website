@@ -20,10 +20,14 @@ Do(anObservable, anotherObservable)
 end)
 ```
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

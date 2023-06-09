@@ -271,16 +271,18 @@ So, a little bit tricky. The general rule of thumb is:
 2. If working with an array of immutible objects, use the `shallow` table copy.
 3. In most other cases, use a `deep` table copy.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [NIL](#nil)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bind](#bind)
  * [extend](#extend)
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [AND](#and)
  * [FALSE](#false)
  * [FROM](#from)
@@ -291,10 +293,10 @@ So, a little bit tricky. The general rule of thumb is:
  * [THIS](#this)
  * [TRUE](#true)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [mainWindow](#mainwindow)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [ABOVE](#above)
  * [AND](#and)
  * [ATLEAST](#atleast)
@@ -332,6 +334,8 @@ So, a little bit tricky. The general rule of thumb is:
  * [watch](#watch)
  * [wrap](#wrap)
 
+
+---
 
 ## API Documentation
 

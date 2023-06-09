@@ -4,14 +4,16 @@ Represents the bar of information about the [Viewer](cp.apple.finalcutpro.viewer
 
 See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [InfoBar](#infobar)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [format](#format)
  * [formatField](#formatfield)
  * [framerate](#framerate)
@@ -20,6 +22,8 @@ See also [ControlBar](cp.apple.finalcutpro.viewer.ControlBar.md).
  * [viewMenu](#viewmenu)
  * [zoomwMenu](#zoomwmenu)
 
+
+---
 
 ## API Documentation
 

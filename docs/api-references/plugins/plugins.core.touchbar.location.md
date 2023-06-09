@@ -2,8 +2,10 @@
 
 Virtual Touch Bar Update Location Callback
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [callbackFn](#callbackfn)
  * [delete](#delete)
  * [get](#get)
@@ -11,6 +13,8 @@ Virtual Touch Bar Update Location Callback
  * [id](#id)
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

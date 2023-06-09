@@ -157,6 +157,8 @@ Or run every spec in your system like so:
 cp.spec "*" ()
 ```
 
+---
+
 ## Submodules
  * [cp.spec.DefaultHandler](cp.spec.DefaultHandler.md)
  * [cp.spec.Definition](cp.spec.Definition.md)
@@ -173,8 +175,10 @@ cp.spec "*" ()
  * [cp.spec.Where](cp.spec.Where.md)
  * [cp.spec.expect](cp.spec.expect.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [describe](#describe)
  * [find](#find)
  * [it](#it)
@@ -182,6 +186,8 @@ cp.spec "*" ()
  * [spec](#spec)
  * [test](#test)
 
+
+---
 
 ## API Documentation
 

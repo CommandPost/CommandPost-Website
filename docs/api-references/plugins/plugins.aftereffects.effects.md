@@ -2,7 +2,11 @@
 
 Apply an After Effect effect to selected layer
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

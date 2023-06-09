@@ -27,7 +27,11 @@ This will return a table containing the following:
 Notes: This data was adapted from [arnubol's code](https://github.com/anurbol/languages-iso-639-1-2-3-json)
 under an [MIT license](https://raw.githubusercontent.com/anurbol/languages-iso-639-1-2-3-json/master/LICENSE).
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,22 +2,24 @@
 
 Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_DEVICES](#number_of_devices)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [executeAction](#executeaction)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [lastApplication](#lastapplication)
  * [lastBank](#lastbank)
  * [previewSelectedApplicationAndBankOnHardware](#previewselectedapplicationandbankonhardware)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [callback](#callback)
  * [clearCache](#clearcache)
  * [getFlashDrivePath](#getflashdrivepath)
@@ -26,6 +28,8 @@ Manager Plugin for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stre
  * [reset](#reset)
  * [updateBacklightLevel](#updatebacklightlevel)
 
+
+---
 
 ## API Documentation
 

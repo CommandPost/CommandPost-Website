@@ -4,14 +4,16 @@ Represents a Tangent Menu. Menus are controls that have a fixed set of
 non-numerical values. This could be as simple as "On" and "Off", or a long
 list of options.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [menu](#menu)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [get](#get)
  * [next](#next)
  * [onGet](#onget)
@@ -23,6 +25,8 @@ list of options.
  * [update](#update)
  * [xml](#xml)
 
+
+---
 
 ## API Documentation
 

@@ -2,7 +2,11 @@
 
 Loupedeck Plugin Preferences Panel
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,11 +2,15 @@
 
 Manager for the CommandPost Preferences Window.
 
+---
+
 ## Submodules
  * [plugins.core.controlsurfaces.manager.panel](plugins.core.controlsurfaces.manager.panel.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_WIDTH](#default_width)
  * [lastTab](#lasttab)
@@ -15,11 +19,11 @@ Manager for the CommandPost Preferences Window.
  * [position](#position)
  * [WEBVIEW_LABEL](#webview_label)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addHandler](#addhandler)
  * [addPanel](#addpanel)
  * [currentPanelID](#currentpanelid)
@@ -37,6 +41,8 @@ Manager for the CommandPost Preferences Window.
  * [setPanelRenderer](#setpanelrenderer)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -6,14 +6,18 @@ Notes:
  * Running an HTTP server is potentially dangerous, you should seriously consider the security implications of exposing your Hammerspoon instance to a network - especially to the Internet
  * As a user of Hammerspoon, you are assumed to be highly capable, and aware of the security issues
 
+---
+
 ## Submodules
  * [hs.httpserver.hsminweb](hs.httpserver.hsminweb.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [getInterface](#getinterface)
  * [getName](#getname)
  * [getPort](#getport)
@@ -28,6 +32,8 @@ Notes:
  * [stop](#stop)
  * [websocket](#websocket)
 
+
+---
 
 ## API Documentation
 

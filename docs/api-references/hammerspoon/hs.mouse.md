@@ -30,8 +30,10 @@ misrepresented as being the original software.
 
     Ryan C. Gordon <icculus@icculus.org>
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [absolutePosition](#absoluteposition)
  * [count](#count)
  * [currentCursorType](#currentcursortype)
@@ -43,6 +45,8 @@ misrepresented as being the original software.
  * [setRelativePosition](#setrelativeposition)
  * [trackingSpeed](#trackingspeed)
 
+
+---
 
 ## API Documentation
 

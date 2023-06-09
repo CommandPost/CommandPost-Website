@@ -10,14 +10,16 @@ local value = plistSource:find("en", "AKey")
 This will load the file for the specified language (replacing `${language}` with `"en"` in the path) and return the value.
 Notes: This will load the file on each request. To have values cached, use the `cp.strings` module and specify a `plist` as a source.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [defaultCacheSeconds](#defaultcacheseconds)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [context](#context)
  * [find](#find)
  * [findKeys](#findkeys)
@@ -25,6 +27,8 @@ Notes: This will load the file on each request. To have values cached, use the `
  * [pathToAbsolute](#pathtoabsolute)
  * [reset](#reset)
 
+
+---
 
 ## API Documentation
 

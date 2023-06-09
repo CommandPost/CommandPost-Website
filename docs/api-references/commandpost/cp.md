@@ -2,6 +2,8 @@
 
 Core CommandPost functionality.
 
+---
+
 ## Submodules
  * [cp.18n](cp.18n.md)
  * [cp.adobe](cp.adobe.md)
@@ -55,14 +57,18 @@ Core CommandPost functionality.
  * [cp.web](cp.web.md)
  * [cp.websocket](cp.websocket.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [imageBase64](#imagebase64)
  * [init](#init)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [connectClip](#connectclip)
 
+
+---
 
 ## API Documentation
 

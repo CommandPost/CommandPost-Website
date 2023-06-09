@@ -4,10 +4,14 @@ Represents an `AXImage` `axuielement` value.
 
 Extends [Element](cp.ui.Element.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

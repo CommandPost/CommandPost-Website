@@ -2,14 +2,18 @@
 
 Manage CommandPost's constants and settings.
 
+---
+
 ## Submodules
  * [cp.config.dockIconClickCallback](cp.config.dockIconClickCallback.md)
  * [cp.config.fileDroppedToDockIconCallback](cp.config.fileDroppedToDockIconCallback.md)
  * [cp.config.shutdownCallback](cp.config.shutdownCallback.md)
  * [cp.config.textDroppedToDockIconCallback](cp.config.textDroppedToDockIconCallback.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [appBuild](#appbuild)
  * [appName](#appname)
  * [appVersion](#appversion)
@@ -31,11 +35,11 @@ Manage CommandPost's constants and settings.
  * [userConfigRootPath](#userconfigrootpath)
  * [userPluginsPath](#userpluginspath)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [automaticScriptReloading](#automaticscriptreloading)
  * [watcher](#watcher)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [application](#application)
  * [get](#get)
  * [prop](#prop)
@@ -44,10 +48,12 @@ Manage CommandPost's constants and settings.
  * [unwatch](#unwatch)
  * [watch](#watch)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [developerMode](#developermode)
  * [frontmost](#frontmost)
 
+
+---
 
 ## API Documentation
 

@@ -2,7 +2,11 @@
 
 macOS Shortcuts Preferences Panel
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

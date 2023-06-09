@@ -2,7 +2,11 @@
 
 Final Cut Pro Share Inspector for Tangent
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

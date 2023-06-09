@@ -9,12 +9,16 @@ Example Usage:
 require("cp.docs").generate()
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [generate](#generate)
  * [generateExtensionLinks](#generateextensionlinks)
  * [updateDeveloperGuideSummary](#updatedeveloperguidesummary)
 
+
+---
 
 ## API Documentation
 

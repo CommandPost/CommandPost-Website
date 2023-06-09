@@ -26,7 +26,11 @@ This will return a table containing the following:
 Notes: This data was adapted from [wooorm's code](https://github.com/wooorm/iso-15924)
 under an [MIT license](https://raw.githubusercontent.com/wooorm/iso-15924/master/LICENSE).
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

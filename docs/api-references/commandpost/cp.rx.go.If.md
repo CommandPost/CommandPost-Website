@@ -2,6 +2,8 @@
 
 A `Statement` that will check if a `resolvable` matches a predicate, then executes other `resolvables`.
 
+---
+
 ## Submodules
  * [cp.rx.go.If.Are](cp.rx.go.If.Are.md)
  * [cp.rx.go.If.AreNot](cp.rx.go.If.AreNot.md)
@@ -10,11 +12,13 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
  * [cp.rx.go.If.Matches](cp.rx.go.If.Matches.md)
  * [cp.rx.go.If.Then](cp.rx.go.If.Then.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [If](#if)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Are](#are)
  * [AreNot](#arenot)
  * [Is](#is)
@@ -22,6 +26,8 @@ A `Statement` that will check if a `resolvable` matches a predicate, then execut
  * [Matches](#matches)
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

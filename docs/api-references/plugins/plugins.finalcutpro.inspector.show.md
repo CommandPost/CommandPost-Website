@@ -2,7 +2,11 @@
 
 Final Cut Pro Inspector Additions.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

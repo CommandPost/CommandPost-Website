@@ -35,18 +35,22 @@ hs.hotkey.bind('ctrl-cmd','e','Expose',function()expose:toggleShow()end)
 hs.hotkey.bind('ctrl-cmd-shift','e','App Expose',function()expose_app:toggleShow()end)
 ```
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [ui](#ui)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [hide](#hide)
  * [show](#show)
  * [toggleShow](#toggleshow)
 
+
+---
 
 ## API Documentation
 

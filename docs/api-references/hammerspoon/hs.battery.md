@@ -5,11 +5,15 @@ All functions here may return nil, if the information requested is not available
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## Submodules
  * [hs.battery.watcher](hs.battery.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [_report](#_report)
  * [adapterSerialNumber](#adapterserialnumber)
  * [amperage](#amperage)
@@ -37,6 +41,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [warningLevel](#warninglevel)
  * [watts](#watts)
 
+
+---
 
 ## API Documentation
 

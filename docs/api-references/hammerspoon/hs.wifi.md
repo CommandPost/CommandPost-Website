@@ -2,11 +2,15 @@
 
 Inspect WiFi networks
 
+---
+
 ## Submodules
  * [hs.wifi.watcher](hs.wifi.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [associate](#associate)
  * [availableNetworks](#availablenetworks)
  * [currentNetwork](#currentnetwork)
@@ -15,12 +19,14 @@ Inspect WiFi networks
  * [interfaces](#interfaces)
  * [setPower](#setpower)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [backgroundScan](#backgroundscan)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [isDone](#isdone)
 
+
+---
 
 ## API Documentation
 

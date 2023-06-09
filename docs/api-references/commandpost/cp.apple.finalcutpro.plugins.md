@@ -7,14 +7,18 @@ Usage:
     require("cp.apple.finalcutpro"):plugins():scan()
 ```
 
+---
+
 ## Submodules
  * [cp.apple.finalcutpro.plugins.guiscan](cp.apple.finalcutpro.plugins.guiscan.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [types](#types)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clearCaches](#clearcaches)
  * [new](#new)
  * [scan](#scan)
@@ -24,7 +28,7 @@ Usage:
  * [scanUserColorPresets](#scanusercolorpresets)
  * [scanUserEffectsPresets](#scanusereffectspresets)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [audioEffects](#audioeffects)
  * [effectBundleStrings](#effectbundlestrings)
@@ -50,6 +54,8 @@ Usage:
  * [videoEffects](#videoeffects)
  * [watch](#watch)
 
+
+---
 
 ## API Documentation
 

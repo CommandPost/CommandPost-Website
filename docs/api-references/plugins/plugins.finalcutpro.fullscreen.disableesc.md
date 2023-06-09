@@ -2,10 +2,14 @@
 
 Disables the ESC key when Final Cut Pro is in fullscreen mode.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [enabled](#enabled)
 
+
+---
 
 ## API Documentation
 

@@ -10,25 +10,29 @@ or `cp.i18n.script` tables. These contain the full details for each language/reg
 
 You can also convert the resulting table back to the code via `tostring`, or the [code](#code) method.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
  * [parse](#parse)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [forCode](#forcode)
  * [forLocaleID](#forlocaleid)
  * [forParts](#forparts)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [code](#code)
  * [language](#language)
  * [region](#region)
  * [script](#script)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [toLocaleID](#tolocaleid)
 
+
+---
 
 ## API Documentation
 

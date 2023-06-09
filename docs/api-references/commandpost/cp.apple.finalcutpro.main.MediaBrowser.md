@@ -2,8 +2,10 @@
 
 Media Browser Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [GARAGE_BAND](#garage_band)
  * [ITUNES](#itunes)
  * [LEGACY_TITLE](#legacy_title)
@@ -12,17 +14,17 @@ Media Browser Module.
  * [SOUND_EFFECTS](#sound_effects)
  * [TITLE](#title)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [MediaBrowser](#mediabrowser)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [group](#group)
  * [isShowing](#isshowing)
  * [mainGroupUI](#maingroupui)
  * [search](#search)
  * [sidebar](#sidebar)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [hide](#hide)
  * [loadLayout](#loadlayout)
  * [saveLayout](#savelayout)
@@ -35,6 +37,8 @@ Media Browser Module.
  * [showSoundEffects](#showsoundeffects)
  * [topCategoriesUI](#topcategoriesui)
 
+
+---
 
 ## API Documentation
 

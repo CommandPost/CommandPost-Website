@@ -2,8 +2,10 @@
 
 A set of handy developer tools for CommandPost.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [elementAtMouse](#elementatmouse)
  * [findUnusedLanguageStrings](#findunusedlanguagestrings)
  * [highlight](#highlight)
@@ -17,6 +19,8 @@ A set of handy developer tools for CommandPost.
  * [test](#test)
  * [which](#which)
 
+
+---
 
 ## API Documentation
 

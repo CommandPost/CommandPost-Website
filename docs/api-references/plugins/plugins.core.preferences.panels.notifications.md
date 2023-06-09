@@ -2,7 +2,11 @@
 
 Notifications Preferences Panel
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

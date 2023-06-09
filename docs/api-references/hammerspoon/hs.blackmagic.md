@@ -80,20 +80,22 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [buttonNames](#buttonnames)
  * [deviceTypes](#devicetypes)
  * [jogModeNames](#jogmodenames)
  * [ledNames](#lednames)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [discoveryCallback](#discoverycallback)
  * [getDevice](#getdevice)
  * [init](#init)
  * [numDevices](#numdevices)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [battery](#battery)
  * [callback](#callback)
  * [deviceType](#devicetype)
@@ -101,6 +103,8 @@ limitations under the License.
  * [led](#led)
  * [serialNumber](#serialnumber)
 
+
+---
 
 ## API Documentation
 

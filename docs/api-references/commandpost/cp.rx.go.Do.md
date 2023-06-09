@@ -22,16 +22,22 @@ This will result in:
 
 For more power, you can add a [Then](#Then) to futher modify the results, or chain other operations.
 
+---
+
 ## Submodules
  * [cp.rx.go.Do.Then](cp.rx.go.Do.Then.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Do](#do)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

@@ -2,11 +2,13 @@
 
 Observables push values to [Observers](cp.rx.Observer.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
  * [defer](#defer)
  * [empty](#empty)
@@ -21,7 +23,7 @@ Observables push values to [Observers](cp.rx.Observer.md).
  * [throw](#throw)
  * [zip](#zip)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [all](#all)
  * [average](#average)
  * [buffer](#buffer)
@@ -79,6 +81,8 @@ Observables push values to [Observers](cp.rx.Observer.md).
  * [unwrap](#unwrap)
  * [with](#with)
 
+
+---
 
 ## API Documentation
 

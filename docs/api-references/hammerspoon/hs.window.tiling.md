@@ -10,10 +10,14 @@ Tile windows
 The `tileWindows` function in this module is primarily meant for use by `hs.window.layout`; however you can call it manually
 (e.g. for your custom layout engine).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [tileWindows](#tilewindows)
 
+
+---
 
 ## API Documentation
 

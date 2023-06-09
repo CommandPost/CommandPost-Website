@@ -19,21 +19,25 @@ hs.hotkey.bind('alt','tab','Next window',hs.window.switcher.nextWindow)
 hs.hotkey.bind('alt-shift','tab','Prev window',hs.window.switcher.previousWindow,nil,hs.window.switcher.previousWindow)
 ```
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [ui](#ui)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [nextWindow](#nextwindow)
  * [previousWindow](#previouswindow)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [next](#next)
  * [previous](#previous)
 
+
+---
 
 ## API Documentation
 

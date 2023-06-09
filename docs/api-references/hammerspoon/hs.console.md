@@ -4,15 +4,17 @@ Some functions for manipulating the Hammerspoon console.
 
 These functions allow altering the behavior and display of the Hammerspoon console.  They should be considered experimental, but have worked well for me.
 
+---
+
 ## API Overview
-### **Deprecateds** - _API features which will be removed in an future release_
+**Deprecateds** - _API features which will be removed in an future release_
  * [asHSDrawing](#ashsdrawing)
  * [asHSWindow](#ashswindow)
 
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [defaultToolbar](#defaulttoolbar)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [alpha](#alpha)
  * [behaviorAsLabels](#behavioraslabels)
  * [clearConsole](#clearconsole)
@@ -35,10 +37,12 @@ These functions allow altering the behavior and display of the Hammerspoon conso
  * [titleVisibility](#titlevisibility)
  * [windowBackgroundColor](#windowbackgroundcolor)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [behavior](#behavior)
  * [toolbar](#toolbar)
 
+
+---
 
 ## API Documentation
 

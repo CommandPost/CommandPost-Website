@@ -6,14 +6,18 @@ A spotlightGroupObject is a special object created when you specify one or more 
 
 For each spotlightGroupObject you can identify the attribute and value the grouping represents with the [hs.spotlight.group:attribute](#attribute) and [hs.spotlight.group:value](#value) methods.  An array of the results which belong to the group can be retrieved with the [hs.spotlight.group:resultAtIndex](#resultAtIndex) method.  For convenience, metamethods have been added to the spotlightGroupObject which make accessing individual results easier:  an individual spotlightItemObject may be accessed from a spotlightGroupObject by treating the spotlightGroupObject like an array; e.g. `spotlightGroupObject[n]` will access the n'th spotlightItemObject in the grouped results.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [attribute](#attribute)
  * [count](#count)
  * [resultAtIndex](#resultatindex)
  * [subgroups](#subgroups)
  * [value](#value)
 
+
+---
 
 ## API Documentation
 

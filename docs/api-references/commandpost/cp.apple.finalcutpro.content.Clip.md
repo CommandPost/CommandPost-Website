@@ -2,23 +2,27 @@
 
 Represents a clip of media inside FCP.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [filmstrip](#filmstrip)
  * [row](#row)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [getTitle](#gettitle)
  * [getType](#gettype)
  * [setTitle](#settitle)
  * [UI](#ui)
 
+
+---
 
 ## API Documentation
 

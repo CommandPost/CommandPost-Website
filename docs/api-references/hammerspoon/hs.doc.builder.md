@@ -10,12 +10,16 @@ Documentation for modules and spoons is expected to be embedded in the source co
 
 Most of this submodule should be considered at the "Proof of Concept" stage and will require some additional work on your part to generate useful documentation in HTML, Markdown, or Docset formats.  This is expected to change in the future.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [genComments](#gencomments)
  * [genJSON](#genjson)
  * [genSQL](#gensql)
 
+
+---
 
 ## API Documentation
 

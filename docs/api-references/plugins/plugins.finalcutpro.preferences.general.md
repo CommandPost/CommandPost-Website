@@ -2,7 +2,11 @@
 
 Final Cut Pro General Preferences
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

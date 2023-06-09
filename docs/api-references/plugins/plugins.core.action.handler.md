@@ -14,15 +14,17 @@ local handler = actionManager:addHandler("foobar")
 The choices added to the `choices` should have the `params` value set to a table
 containing the details of the action to execute if the choice is selected.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cached](#cached)
  * [choices](#choices)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [actionId](#actionid)
  * [execute](#execute)
  * [group](#group)
@@ -33,6 +35,8 @@ containing the details of the action to execute if the choice is selected.
  * [onExecute](#onexecute)
  * [reset](#reset)
 
+
+---
 
 ## API Documentation
 

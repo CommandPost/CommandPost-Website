@@ -3,15 +3,19 @@
 Lists are similar `tables` which can contain `nil` items without shortening the length.
 They also have a few additional methods to assist with managing the size.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [of](#of)
  * [sized](#sized)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [size](#size)
  * [trim](#trim)
 
+
+---
 
 ## API Documentation
 

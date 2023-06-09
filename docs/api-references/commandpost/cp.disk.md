@@ -25,13 +25,17 @@ local disk = require("cp.disk")
 local externalDrives = disk.devices({physical = true, ejectable = true})
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [eject](#eject)
  * [mount](#mount)
  * [unmount](#unmount)
  * [visit](#visit)
 
+
+---
 
 ## API Documentation
 

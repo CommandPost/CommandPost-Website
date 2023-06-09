@@ -71,15 +71,17 @@ In addition, the following metamethods have been included:
 
 Note that due to differences in the way Lua determines when to use metamethods for equality comparisons versus relative-position comparisons, ==/~= cannot compare an object to a Lua string (it will always return false because the types are different).  You must use object:getString() ==/~= `string`.  (see `hs.styledtext:getString`)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [defaultFonts](#defaultfonts)
  * [fontTraits](#fonttraits)
  * [lineAppliesTo](#lineappliesto)
  * [linePatterns](#linepatterns)
  * [lineStyles](#linestyles)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [convertFont](#convertfont)
  * [fontFamilies](#fontfamilies)
  * [fontInfo](#fontinfo)
@@ -90,13 +92,13 @@ Note that due to differences in the way Lua determines when to use metamethods f
  * [loadFont](#loadfont)
  * [validFont](#validfont)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ansi](#ansi)
  * [getStyledTextFromData](#getstyledtextfromdata)
  * [getStyledTextFromFile](#getstyledtextfromfile)
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [asTable](#astable)
  * [byte](#byte)
  * [convert](#convert)
@@ -115,6 +117,8 @@ Note that due to differences in the way Lua determines when to use metamethods f
  * [sub](#sub)
  * [upper](#upper)
 
+
+---
 
 ## API Documentation
 

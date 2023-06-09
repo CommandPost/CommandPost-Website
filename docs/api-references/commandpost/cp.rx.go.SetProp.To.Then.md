@@ -2,16 +2,22 @@
 
 A `Statement.Modifier` that defines what happens when after `SetProp.To` is executed.
 
+---
+
 ## Submodules
  * [cp.rx.go.SetProp.To.Then.ThenReset](cp.rx.go.SetProp.To.Then.ThenReset.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [Then](#then)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [ThenReset](#thenreset)
 
+
+---
 
 ## API Documentation
 

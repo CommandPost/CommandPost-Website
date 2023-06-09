@@ -15,11 +15,13 @@ hs.hotkey.bind(HYPER,'f1','Invert',hs.redshift.toggleInvert)
 Note:
  * As of macOS 10.12.4, Apple provides "Night Shift", which implements a simple red-shift effect, as part of the OS. It seems unlikely that `hs.redshift` will see significant future development.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [COLORRAMP](#colorramp)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [invertSubscribe](#invertsubscribe)
  * [invertUnsubscribe](#invertunsubscribe)
  * [isInverted](#isinverted)
@@ -29,6 +31,8 @@ Note:
  * [toggle](#toggle)
  * [toggleInvert](#toggleinvert)
 
+
+---
 
 ## API Documentation
 

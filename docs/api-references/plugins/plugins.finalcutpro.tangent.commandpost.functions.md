@@ -2,7 +2,11 @@
 
 CommandPost Functions for Tangent.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

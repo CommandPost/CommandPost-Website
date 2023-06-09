@@ -3,6 +3,8 @@
 A `Statement` that will require that the `resolvable` value matches a predicate,
 and if not, it will send an error.
 
+---
+
 ## Submodules
  * [cp.rx.go.Require.Are](cp.rx.go.Require.Are.md)
  * [cp.rx.go.Require.AreNot](cp.rx.go.Require.AreNot.md)
@@ -10,14 +12,16 @@ and if not, it will send an error.
  * [cp.rx.go.Require.IsNot](cp.rx.go.Require.IsNot.md)
  * [cp.rx.go.Require.Matches](cp.rx.go.Require.Matches.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [OrThrow](#orthrow)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [Require](#require)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Are](#are)
  * [AreNot](#arenot)
  * [Is](#is)
@@ -25,6 +29,8 @@ and if not, it will send an error.
  * [Matches](#matches)
  * [OrThrow](#orthrow)
 
+
+---
 
 ## API Documentation
 

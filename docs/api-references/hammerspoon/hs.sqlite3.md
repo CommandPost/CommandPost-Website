@@ -7,7 +7,11 @@ Notes:
  * It is unmodified apart from removing `db:load_extension()` as this feature is not available in Apple's libsqlite3.dylib
  * For API documentation please see [http://lua.sqlite.org](http://lua.sqlite.org)
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

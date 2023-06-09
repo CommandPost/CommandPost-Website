@@ -2,11 +2,13 @@
 
 Timeline Appearance Popup module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Appearance](#appearance)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [angles](#angles)
  * [clipHeight](#clipheight)
  * [clipNames](#clipnames)
@@ -15,10 +17,12 @@ Timeline Appearance Popup module.
  * [laneHeaders](#laneheaders)
  * [zoomAmount](#zoomamount)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

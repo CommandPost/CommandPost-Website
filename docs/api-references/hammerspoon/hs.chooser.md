@@ -5,14 +5,16 @@ Graphical, interactive tool for choosing/searching data
 Notes:
  * This module was influenced heavily by Choose, by Steven Degutis (https://github.com/sdegutis/choose)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [globalCallback](#globalcallback)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [attachedToolbar](#attachedtoolbar)
  * [bgDark](#bgdark)
  * [cancel](#cancel)
@@ -39,6 +41,8 @@ Notes:
  * [subTextColor](#subtextcolor)
  * [width](#width)
 
+
+---
 
 ## API Documentation
 

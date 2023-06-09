@@ -2,13 +2,17 @@
 
 Ten Panel for the Final Cut Pro HUD.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [updateInfo](#updateinfo)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [buttons](#buttons)
 
+
+---
 
 ## API Documentation
 

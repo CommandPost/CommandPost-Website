@@ -2,7 +2,11 @@
 
 Trigger Zoom Shortcuts
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

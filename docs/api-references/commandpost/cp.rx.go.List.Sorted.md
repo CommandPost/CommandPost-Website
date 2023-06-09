@@ -2,10 +2,14 @@
 
 A `Statement.Modifier` that specifies the list should be sorted by its 'natural' order - that is `a < b`.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [Sorted](#sorted)
 
+
+---
 
 ## API Documentation
 

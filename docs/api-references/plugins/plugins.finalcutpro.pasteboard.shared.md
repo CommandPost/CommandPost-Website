@@ -2,8 +2,10 @@
 
 Shared Pasteboard Plugin.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [copyWithCustomClipName](#copywithcustomclipname)
  * [copyWithCustomClipNameAndFolder](#copywithcustomclipnameandfolder)
  * [doDecodeHistoryItem](#dodecodehistoryitem)
@@ -18,10 +20,12 @@ Shared Pasteboard Plugin.
  * [update](#update)
  * [validRootPath](#validrootpath)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [path](#path)
 
+
+---
 
 ## API Documentation
 

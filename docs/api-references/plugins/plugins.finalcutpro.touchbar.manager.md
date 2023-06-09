@@ -2,10 +2,14 @@
 
 Final Cut Pro Touch Bar Manager.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
 
+
+---
 
 ## API Documentation
 

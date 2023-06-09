@@ -5,6 +5,8 @@ Inspect/manipulate windows
 Notes:
  * See `hs.screen` and `hs.geometry` for more information on how Hammerspoon uses window/screen frames and coordinates
 
+---
+
 ## Submodules
  * [hs.window.filter](hs.window.filter.md)
  * [hs.window.highlight](hs.window.highlight.md)
@@ -12,12 +14,14 @@ Notes:
  * [hs.window.switcher](hs.window.switcher.md)
  * [hs.window.tiling](hs.window.tiling.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [animationDuration](#animationduration)
  * [setFrameCorrectness](#setframecorrectness)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [allWindows](#allwindows)
  * [desktop](#desktop)
  * [invisibleWindows](#invisiblewindows)
@@ -29,13 +33,13 @@ Notes:
  * [timeout](#timeout)
  * [visibleWindows](#visiblewindows)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [find](#find)
  * [focusedWindow](#focusedwindow)
  * [frontmostWindow](#frontmostwindow)
  * [get](#get)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [application](#application)
  * [becomeMain](#becomemain)
  * [centerOnScreen](#centeronscreen)
@@ -89,6 +93,8 @@ Notes:
  * [windowsToWest](#windowstowest)
  * [zoomButtonRect](#zoombuttonrect)
 
+
+---
 
 ## API Documentation
 

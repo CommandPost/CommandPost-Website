@@ -2,8 +2,10 @@
 
 Various features/facilities for developers who are working on Hammerspoon itself, or writing extensions for it. It is extremely unlikely that you should need any part of this extension, in a normal user configuration.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [attemptMemoryRelease](#attemptmemoryrelease)
  * [crash](#crash)
  * [crashKV](#crashkv)
@@ -12,6 +14,8 @@ Various features/facilities for developers who are working on Hammerspoon itself
  * [residentSize](#residentsize)
  * [throwObjCException](#throwobjcexception)
 
+
+---
 
 ## API Documentation
 

@@ -2,14 +2,16 @@
 
 Create and manage menubar icons
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [imagePositions](#imagepositions)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [autosaveName](#autosavename)
  * [delete](#delete)
  * [frame](#frame)
@@ -27,6 +29,8 @@ Create and manage menubar icons
  * [stateImageSize](#stateimagesize)
  * [title](#title)
 
+
+---
 
 ## API Documentation
 

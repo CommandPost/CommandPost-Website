@@ -10,12 +10,16 @@ Note that the above considerations only apply to creating new "global" variables
 
 See the documentation for the [cgilua.lp.include](#include) for more information.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [compile](#compile)
  * [include](#include)
  * [translate](#translate)
 
+
+---
 
 ## API Documentation
 

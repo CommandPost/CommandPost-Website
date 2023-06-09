@@ -2,18 +2,22 @@
 
 Shortcuts Preferences Panel
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_SHORTCUTS](#default_shortcuts)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getGroupEditor](#getgroupeditor)
  * [init](#init)
  * [setGroupEditor](#setgroupeditor)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [lastGroup](#lastgroup)
 
+
+---
 
 ## API Documentation
 

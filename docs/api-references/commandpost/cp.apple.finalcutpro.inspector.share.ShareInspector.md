@@ -41,13 +41,17 @@ You should also be able to show a specific property and it will be revealed:
 share:stabilization():smoothing():show():value(1.5)
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

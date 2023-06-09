@@ -2,17 +2,21 @@
 
 Provides access to resources in the plugin environment. In generally, this will be files stored in a Complex Plugin's folder.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [compileTemplate](#compiletemplate)
  * [pathToAbsolute](#pathtoabsolute)
  * [pathToURL](#pathtourl)
  * [readResource](#readresource)
  * [renderTemplate](#rendertemplate)
 
+
+---
 
 ## API Documentation
 

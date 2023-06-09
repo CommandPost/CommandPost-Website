@@ -2,7 +2,11 @@
 
 Clip Navigation Actions.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

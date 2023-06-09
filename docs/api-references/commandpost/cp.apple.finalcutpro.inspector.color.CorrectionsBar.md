@@ -4,16 +4,18 @@ The Correction selection/management bar at the top of the ColorInspector
 
 Requires Final Cut Pro 10.4 or later.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [CorrectionsBar](#correctionsbar)
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [correction](#correction)
  * [menuButton](#menubutton)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [add](#add)
  * [doActivate](#doactivate)
@@ -21,6 +23,8 @@ Requires Final Cut Pro 10.4 or later.
  * [findCorrectionLabel](#findcorrectionlabel)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

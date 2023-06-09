@@ -2,8 +2,10 @@
 
 Razer Preferences Panel
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
  * [lastApplication](#lastapplication)
  * [lastControlID](#lastcontrolid)
@@ -13,6 +15,8 @@ Razer Preferences Panel
  * [lastImportPath](#lastimportpath)
  * [pasteboard](#pasteboard)
 
+
+---
 
 ## API Documentation
 

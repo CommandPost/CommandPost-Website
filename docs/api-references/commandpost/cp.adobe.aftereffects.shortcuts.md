@@ -2,12 +2,16 @@
 
 Translations between After Effects shortcuts and Hammerspoon-friendly shortcuts.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [keys](#keys)
  * [labels](#labels)
  * [modifiers](#modifiers)
 
+
+---
 
 ## API Documentation
 

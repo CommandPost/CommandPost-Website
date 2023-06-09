@@ -2,12 +2,16 @@
 
 A `Builder` for `GridElement`s.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [withColumnsOf](#withcolumnsof)
  * [withHeaderOf](#withheaderof)
  * [withRowsOf](#withrowsof)
 
+
+---
 
 ## API Documentation
 

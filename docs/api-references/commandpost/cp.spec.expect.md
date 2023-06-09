@@ -11,7 +11,11 @@ expect(value):isAtLeast(10)
 expect.given("the world is a globe"):that(theEarth):isNot("flat")
 ```
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

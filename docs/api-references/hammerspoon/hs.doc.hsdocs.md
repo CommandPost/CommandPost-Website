@@ -12,8 +12,10 @@ Future enhancements to this module under consideration include:
 
 The intent of this sub-module is to provide as close a rendering of the same documentation available at the Hammerspoon GitHub site and Dash documentation as possible in a manner suitable for run-time modification so module developers can test out documentation additions without requiring a complete recompilation of the Hammerspoon source.  As always, the most current and official documentation can be found at https://www.hammerspoon.org and in the official Hammerspoon Dash docset.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [browserDarkMode](#browserdarkmode)
  * [browserFrame](#browserframe)
  * [forceExternalBrowser](#forceexternalbrowser)
@@ -25,6 +27,8 @@ The intent of this sub-module is to provide as close a rendering of the same doc
  * [stop](#stop)
  * [trackBrowserFrame](#trackbrowserframe)
 
+
+---
 
 ## API Documentation
 

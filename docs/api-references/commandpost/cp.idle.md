@@ -4,10 +4,14 @@ This library allows tasks to be queue for execution when the computer has
 been idle for a specified amount of time. 'Idle' is defined as no keyboard
 or mouse movement.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [queue](#queue)
 
+
+---
 
 ## API Documentation
 

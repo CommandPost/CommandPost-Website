@@ -2,7 +2,11 @@
 
 Final Cut Pro Text Inspector for Tangent
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

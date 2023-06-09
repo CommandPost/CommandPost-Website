@@ -2,10 +2,14 @@
 
 A `Statement` that will complete after the only the last result resolves.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Last](#last)
 
+
+---
 
 ## API Documentation
 

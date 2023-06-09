@@ -2,11 +2,13 @@
 
 Text to Speech Plugin.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [copyToMediaFolder](#copytomediafolder)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [addCaption](#addcaption)
  * [addCustomKeyword](#addcustomkeyword)
  * [addKeywordForVoiceName](#addkeywordforvoicename)
@@ -25,11 +27,13 @@ Text to Speech Plugin.
  * [useUnderscore](#useunderscore)
  * [voice](#voice)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [chooseFolder](#choosefolder)
  * [insertFromPasteboard](#insertfrompasteboard)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

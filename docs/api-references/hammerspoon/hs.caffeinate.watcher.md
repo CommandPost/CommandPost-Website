@@ -5,8 +5,10 @@ and for fast user switching session events.
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [screensaverDidStart](#screensaverdidstart)
  * [screensaverDidStop](#screensaverdidstop)
  * [screensaverWillStop](#screensaverwillstop)
@@ -20,13 +22,15 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [systemWillPowerOff](#systemwillpoweroff)
  * [systemWillSleep](#systemwillsleep)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

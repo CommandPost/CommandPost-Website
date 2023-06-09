@@ -7,8 +7,10 @@ In addition to specific property row types like `textField`, `slider`, etc.,
 there is also a `section`, which is for rows which expand/collapse to reveal
 other properties.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [checkBox](#checkbox)
  * [hasProperties](#hasproperties)
  * [menuButton](#menubutton)
@@ -21,6 +23,8 @@ other properties.
  * [textField](#textfield)
  * [xy](#xy)
 
+
+---
 
 ## API Documentation
 

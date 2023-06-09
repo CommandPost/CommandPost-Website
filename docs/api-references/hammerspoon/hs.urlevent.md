@@ -14,12 +14,14 @@ NOTE: If CommandPost is not running when a `commandpost://` URL is opened, Comma
 NOTE: Any event which is received, for which no callback has been bound, will be logged to the CommandPost Console
 NOTE: When you trigger a URL from another application, it is usually best to have the URL open in the background, if that option is available. Otherwise, OS X will activate CommandPost (i.e. give it focus), which makes URL events difficult to use for things like window management.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [httpCallback](#httpcallback)
  * [mailtoCallback](#mailtocallback)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bind](#bind)
  * [getAllHandlersForScheme](#getallhandlersforscheme)
  * [getDefaultHandler](#getdefaulthandler)
@@ -28,6 +30,8 @@ NOTE: When you trigger a URL from another application, it is usually best to hav
  * [setDefaultHandler](#setdefaulthandler)
  * [setRestoreHandler](#setrestorehandler)
 
+
+---
 
 ## API Documentation
 

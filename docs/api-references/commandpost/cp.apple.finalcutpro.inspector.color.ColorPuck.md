@@ -2,27 +2,29 @@
 
 Color ColorPuck Module.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_ANGLES](#default_angles)
  * [ELASTICITY](#elasticity)
  * [NATURAL_LENGTH](#natural_length)
  * [RANGE](#range)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorPuck](#colorpuck)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [angle](#angle)
  * [label](#label)
  * [percent](#percent)
  * [row](#row)
  * [skimming](#skimming)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [accumulate](#accumulate)
  * [cleanup](#cleanup)
  * [colorMarker](#colormarker)
@@ -45,6 +47,8 @@ Color ColorPuck Module.
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

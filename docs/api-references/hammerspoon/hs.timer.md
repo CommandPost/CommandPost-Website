@@ -6,11 +6,15 @@ Execute functions with various timing rules
 Especially, repeating timers won't be triggered at the specified time when there are sleeps in between.
 The workaround is to prevent system from sleeping, configured in Energy Saver in System Preferences.
 
+---
+
 ## Submodules
  * [hs.timer.delayed](hs.timer.delayed.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [absoluteTime](#absolutetime)
  * [days](#days)
  * [hours](#hours)
@@ -21,7 +25,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [usleep](#usleep)
  * [weeks](#weeks)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [doAfter](#doafter)
  * [doAt](#doat)
  * [doEvery](#doevery)
@@ -31,7 +35,7 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [waitUntil](#waituntil)
  * [waitWhile](#waitwhile)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [fire](#fire)
  * [nextTrigger](#nexttrigger)
  * [running](#running)
@@ -39,6 +43,8 @@ The workaround is to prevent system from sleeping, configured in Energy Saver in
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

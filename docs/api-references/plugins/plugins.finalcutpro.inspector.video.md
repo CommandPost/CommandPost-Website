@@ -2,7 +2,11 @@
 
 Final Cut Pro Video Inspector Additions.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

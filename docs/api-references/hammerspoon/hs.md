@@ -2,6 +2,8 @@
 
 Core Hammerspoon functionality
 
+---
+
 ## Submodules
  * [hs.alert](hs.alert.md)
  * [hs.appfinder](hs.appfinder.md)
@@ -96,13 +98,15 @@ Core Hammerspoon functionality
  * [hs.wifi](hs.wifi.md)
  * [hs.window](hs.window.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [configdir](#configdir)
  * [docstrings_json_file](#docstrings_json_file)
  * [processInfo](#processinfo)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [accessibilityStateCallback](#accessibilitystatecallback)
  * [completionsForInputString](#completionsforinputstring)
  * [dockIconClickCallback](#dockiconclickcallback)
@@ -110,7 +114,7 @@ Core Hammerspoon functionality
  * [shutdownCallback](#shutdowncallback)
  * [textDroppedToDockIconCallback](#textdroppedtodockiconcallback)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [accessibilityState](#accessibilitystate)
  * [allowAppleScript](#allowapplescript)
  * [autoLaunch](#autolaunch)
@@ -148,6 +152,8 @@ Core Hammerspoon functionality
  * [updateAvailable](#updateavailable)
  * [uploadCrashData](#uploadcrashdata)
 
+
+---
 
 ## API Documentation
 

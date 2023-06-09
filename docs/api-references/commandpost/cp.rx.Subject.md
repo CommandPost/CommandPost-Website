@@ -4,16 +4,20 @@
 `Observable` functions, including [subscribe](#subscribe). Values can also be pushed to the `Subject`, which will
 be broadcasted to any subscribed [Observers](cp.rx.Observers.md).
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onCompleted](#oncompleted)
  * [onError](#onerror)
  * [onNext](#onnext)
  * [subscribe](#subscribe)
 
+
+---
 
 ## API Documentation
 

@@ -2,14 +2,16 @@
 
 Represents an `AXOutline` `axuielement`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [OldOutline](#oldoutline)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [childrenUI](#childrenui)
  * [columns](#columns)
  * [columnsUI](#columnsui)
@@ -22,6 +24,8 @@ Represents an `AXOutline` `axuielement`.
  * [rows](#rows)
  * [rowsUI](#rowsui)
 
+
+---
 
 ## API Documentation
 

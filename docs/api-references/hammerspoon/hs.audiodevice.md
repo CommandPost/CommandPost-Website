@@ -4,12 +4,16 @@ Manipulate the system's audio devices
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## Submodules
  * [hs.audiodevice.datasource](hs.audiodevice.datasource.md)
  * [hs.audiodevice.watcher](hs.audiodevice.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [allDevices](#alldevices)
  * [allInputDevices](#allinputdevices)
  * [allOutputDevices](#alloutputdevices)
@@ -24,7 +28,7 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [findOutputByName](#findoutputbyname)
  * [findOutputByUID](#findoutputbyuid)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allInputDataSources](#allinputdatasources)
  * [allOutputDataSources](#alloutputdatasources)
  * [balance](#balance)
@@ -60,6 +64,8 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [watcherStart](#watcherstart)
  * [watcherStop](#watcherstop)
 
+
+---
 
 ## API Documentation
 

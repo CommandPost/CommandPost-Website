@@ -2,16 +2,20 @@
 
 Commands Module.
 
+---
+
 ## Submodules
  * [cp.commands.command](cp.commands.command.md)
  * [cp.commands.englishKeyCodes](cp.commands.englishKeyCodes.md)
  * [cp.commands.shortcut](cp.commands.shortcut.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_EXTENSION](#default_extension)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getShortcutsPath](#getshortcutspath)
  * [group](#group)
  * [groupIds](#groupids)
@@ -20,11 +24,11 @@ Commands Module.
  * [new](#new)
  * [saveToFile](#savetofile)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [isEditable](#iseditable)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [add](#add)
  * [clear](#clear)
@@ -38,6 +42,8 @@ Commands Module.
  * [saveShortcuts](#saveshortcuts)
  * [watch](#watch)
 
+
+---
 
 ## API Documentation
 

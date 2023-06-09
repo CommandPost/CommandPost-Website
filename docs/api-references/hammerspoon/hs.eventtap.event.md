@@ -23,16 +23,18 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [properties](#properties)
  * [rawFlagMasks](#rawflagmasks)
  * [types](#types)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [newKeyEventSequence](#newkeyeventsequence)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [copy](#copy)
  * [newEvent](#newevent)
  * [newEventFromData](#neweventfromdata)
@@ -42,7 +44,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * [newScrollEvent](#newscrollevent)
  * [newSystemKeyEvent](#newsystemkeyevent)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [asData](#asdata)
  * [getButtonState](#getbuttonstate)
  * [getCharacters](#getcharacters)
@@ -65,6 +67,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  * [systemKey](#systemkey)
  * [timestamp](#timestamp)
 
+
+---
 
 ## API Documentation
 

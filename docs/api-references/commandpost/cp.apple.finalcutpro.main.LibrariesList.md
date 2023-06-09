@@ -2,8 +2,10 @@
 
 Libraries List Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clips](#clips)
  * [clipsUI](#clipsui)
  * [deselectAll](#deselectall)
@@ -16,10 +18,10 @@ Libraries List Module.
  * [selectedClipsUI](#selectedclipsui)
  * [showClip](#showclip)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [LibrariesList](#librarieslist)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [isFocused](#isfocused)
  * [isShowing](#isshowing)
@@ -27,10 +29,12 @@ Libraries List Module.
  * [playhead](#playhead)
  * [skimmingPlayhead](#skimmingplayhead)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [columns](#columns)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

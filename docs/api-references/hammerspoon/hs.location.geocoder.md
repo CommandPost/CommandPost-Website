@@ -27,16 +27,20 @@ A `placemarkTable` is returned to the callback functions used by the constructor
  * `subThoroughfare`       - a string containing additional street-level information for the placemark
  * `timeZone`              - a string containing the time zone associated with the placemark
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [lookupAddress](#lookupaddress)
  * [lookupAddressNear](#lookupaddressnear)
  * [lookupLocation](#lookuplocation)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [cancel](#cancel)
  * [geocoding](#geocoding)
 
+
+---
 
 ## API Documentation
 

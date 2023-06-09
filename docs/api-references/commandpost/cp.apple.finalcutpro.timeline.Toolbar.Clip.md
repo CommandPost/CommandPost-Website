@@ -2,14 +2,18 @@
 
 Provides access to clip options such as skimming, audio skimming, soloing and snap.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [audioSkimming](#audioskimming)
  * [skimming](#skimming)
  * [snapping](#snapping)
  * [solo](#solo)
  * [trimAlignedEdges](#trimalignededges)
 
+
+---
 
 ## API Documentation
 

@@ -2,17 +2,21 @@
 
 Provides a full HTTP-based websocket implementation.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [close](#close)
  * [isOpen](#isopen)
  * [open](#open)
  * [send](#send)
  * [status](#status)
 
+
+---
 
 ## API Documentation
 

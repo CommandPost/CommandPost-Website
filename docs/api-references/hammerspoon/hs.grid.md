@@ -24,12 +24,14 @@ You can also use the arrow keys to move the window onto adjacent screens, and th
 Once you selected a cell, you can use the arrow keys to navigate through the grid. In this case, the grid will highlight the selected cells.
 After highlighting enough cells, press enter to move/resize the window to the highlighted area.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [HINTS](#hints)
  * [ui](#ui)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [adjustWindow](#adjustwindow)
  * [get](#get)
  * [getCell](#getcell)
@@ -52,6 +54,8 @@ After highlighting enough cells, press enter to move/resize the window to the hi
  * [snap](#snap)
  * [toggleShow](#toggleshow)
 
+
+---
 
 ## API Documentation
 

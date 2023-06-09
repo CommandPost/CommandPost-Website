@@ -2,13 +2,17 @@
 
 Application manager.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [defaultSearchConsoleToolbar](#defaultsearchconsoletoolbar)
  * [getApplications](#getapplications)
  * [getSearchConsoleToolbar](#getsearchconsoletoolbar)
  * [registerApplication](#registerapplication)
 
+
+---
 
 ## API Documentation
 

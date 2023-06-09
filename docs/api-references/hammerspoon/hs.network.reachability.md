@@ -30,24 +30,28 @@ A specific test for determining if an OpenVPN network is available.  This exampl
    end):start()
 ~~~
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [flags](#flags)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [forAddress](#foraddress)
  * [forAddressPair](#foraddresspair)
  * [forHostName](#forhostname)
  * [internet](#internet)
  * [linkLocal](#linklocal)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [setCallback](#setcallback)
  * [start](#start)
  * [status](#status)
  * [statusString](#statusstring)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

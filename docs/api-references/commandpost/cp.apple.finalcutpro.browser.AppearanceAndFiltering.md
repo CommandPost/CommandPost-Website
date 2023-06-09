@@ -2,17 +2,19 @@
 
 Clip Appearance & Filtering Menu Popover
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DURATION](#duration)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [AppearanceAndFiltering](#appearanceandfiltering)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [button](#button)
  * [clipHeight](#clipheight)
  * [continuousPlayback](#continuousplayback)
@@ -21,10 +23,12 @@ Clip Appearance & Filtering Menu Popover
  * [sortBy](#sortby)
  * [waveforms](#waveforms)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

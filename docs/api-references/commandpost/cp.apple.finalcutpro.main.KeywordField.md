@@ -2,14 +2,18 @@
 
 Keyword Text Field Module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [KeywordField](#keywordfield)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addKeyword](#addkeyword)
  * [removeKeyword](#removekeyword)
 
+
+---
 
 ## API Documentation
 

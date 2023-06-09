@@ -34,20 +34,22 @@ Notes:
  * This module is supported in OS X versions prior to 10.10 (for the Hammerspoon console only), even though its parent `hs.webview` is not. To load this module directly, use `require("hs.webview.toolbar")` instead of relying on module auto-loading.
  * Toolbar items are rendered in the order they are supplied, although if the toolbar is marked as customizable, the user may have changed the order.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [itemPriorities](#itempriorities)
  * [systemToolbarItems](#systemtoolbaritems)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [attachToolbar](#attachtoolbar)
  * [inTitleBar](#intitlebar)
  * [uniqueName](#uniquename)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addItems](#additems)
  * [allowedItems](#alloweditems)
  * [autosaves](#autosaves)
@@ -76,6 +78,8 @@ Notes:
  * [visible](#visible)
  * [visibleItems](#visibleitems)
 
+
+---
 
 ## API Documentation
 

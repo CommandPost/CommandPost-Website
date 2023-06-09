@@ -21,7 +21,11 @@ This will return a table containing the following:
 Notes: This data was adapted from the [datahub.io list](https://datahub.io/core/country-list)
 released under a Public Domain license.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

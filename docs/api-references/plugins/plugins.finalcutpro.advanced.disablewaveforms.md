@@ -2,10 +2,14 @@
 
 Disable Waveforms Plugin.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [disableWaveform](#disablewaveform)
 
+
+---
 
 ## API Documentation
 

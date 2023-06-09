@@ -2,7 +2,11 @@
 
 Manager for After Effects Tangent Support
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

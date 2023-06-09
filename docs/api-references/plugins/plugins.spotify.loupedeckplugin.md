@@ -2,7 +2,11 @@
 
 Spotify Loupedeck Plugin Actions
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

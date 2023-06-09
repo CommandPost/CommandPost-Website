@@ -17,7 +17,11 @@ local plistStr = <string-ified plist file>
 local plistTable = plistParse(plistStr)
 ```
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

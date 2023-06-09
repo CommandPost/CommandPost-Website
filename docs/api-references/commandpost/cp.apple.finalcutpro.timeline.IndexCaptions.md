@@ -2,16 +2,20 @@
 
 Provides access to the 'Captions' section of the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md)
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [list](#list)
  * [viewErrors](#viewerrors)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doLayout](#dolayout)
  * [saveLayout](#savelayout)
 
+
+---
 
 ## API Documentation
 

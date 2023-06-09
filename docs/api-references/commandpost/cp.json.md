@@ -2,14 +2,18 @@
 
 A collection of handy JSON tools.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [decode](#decode)
  * [encode](#encode)
  * [prop](#prop)
  * [read](#read)
  * [write](#write)
 
+
+---
 
 ## API Documentation
 

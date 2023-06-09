@@ -16,20 +16,24 @@ You can also check to see if the initial gathering phase is in progress with the
 
 You can access the individual results of the query with the [hs.spotlight:resultAtIndex](#resultAtIndex) method. For convenience, metamethods have been added to the spotlightObject which make accessing individual results easier:  an individual spotlightItemObject may be accessed from a spotlightObject by treating the spotlightObject like an array; e.g. `spotlightObject[n]` will access the n'th spotlightItemObject in the current results.
 
+---
+
 ## Submodules
  * [hs.spotlight.group](hs.spotlight.group.md)
  * [hs.spotlight.item](hs.spotlight.item.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [commonAttributeKeys](#commonattributekeys)
  * [definedSearchScopes](#definedsearchscopes)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [newWithin](#newwithin)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [callbackMessages](#callbackmessages)
  * [count](#count)
  * [groupedResults](#groupedresults)
@@ -47,6 +51,8 @@ You can access the individual results of the query with the [hs.spotlight:result
  * [valueListAttributes](#valuelistattributes)
  * [valueLists](#valuelists)
 
+
+---
 
 ## API Documentation
 

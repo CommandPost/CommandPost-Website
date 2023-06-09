@@ -6,12 +6,14 @@ Settings must have a string key and must be made up of serializable Lua objects 
 This module is based partially on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [bundleID](#bundleid)
  * [dateFormat](#dateformat)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clear](#clear)
  * [get](#get)
  * [getKeys](#getkeys)
@@ -20,6 +22,8 @@ This module is based partially on code from the previous incarnation of Mjolnir 
  * [setDate](#setdate)
  * [watchKey](#watchkey)
 
+
+---
 
 ## API Documentation
 

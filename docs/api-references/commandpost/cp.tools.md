@@ -2,8 +2,10 @@
 
 A collection of handy miscellaneous tools for Lua development.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [appleScriptViaTask](#applescriptviatask)
  * [between](#between)
  * [camelCase](#camelcase)
@@ -93,6 +95,8 @@ A collection of handy miscellaneous tools for Lua development.
  * [volumeFormat](#volumeformat)
  * [writeToFile](#writetofile)
 
+
+---
 
 ## API Documentation
 

@@ -6,20 +6,24 @@ The speech synthesizer functions and methods provide access to OS X's Text-To-Sp
 
 A discussion concerning the embedding of commands into the text to be spoken can be found at https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html#//apple_ref/doc/uid/TP40004365-CH5-SW6.  It is somewhat dated and specific to the older MacinTalk style voices, but still contains some information relevant to the more modern higher quality voices as well in its discussion about embedded commands.
 
+---
+
 ## Submodules
  * [hs.speech.listener](hs.speech.listener.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [attributesForVoice](#attributesforvoice)
  * [availableVoices](#availablevoices)
  * [defaultVoice](#defaultvoice)
  * [isAnyApplicationSpeaking](#isanyapplicationspeaking)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [continue](#continue)
  * [isPaused](#ispaused)
  * [isSpeaking](#isspeaking)
@@ -39,6 +43,8 @@ A discussion concerning the embedding of commands into the text to be spoken can
  * [voice](#voice)
  * [volume](#volume)
 
+
+---
 
 ## API Documentation
 

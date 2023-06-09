@@ -4,14 +4,16 @@ Color Wheels Module.
 
 Extends [Element](cp.ui.Element.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ColorWheels](#colorwheels)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentUI](#contentui)
  * [highlights](#highlights)
  * [hue](#hue)
@@ -40,10 +42,12 @@ Extends [Element](cp.ui.Element.md)
  * [viewMode](#viewmode)
  * [wheelType](#wheeltype)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

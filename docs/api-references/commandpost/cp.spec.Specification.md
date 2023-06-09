@@ -17,19 +17,23 @@ return describe "a specification" {
 }
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Specification](#specification)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onAfterEach](#onaftereach)
  * [onBeforeEach](#onbeforeeach)
  * [run](#run)
  * [with](#with)
 
+
+---
 
 ## API Documentation
 

@@ -2,14 +2,16 @@
 
 Timeline Index Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Index](#index)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [captions](#captions)
  * [clips](#clips)
  * [mode](#mode)
@@ -17,13 +19,15 @@ Timeline Index Module.
  * [search](#search)
  * [tags](#tags)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activeTab](#activetab)
  * [doHide](#dohide)
  * [doLayout](#dolayout)
  * [doShow](#doshow)
  * [saveLayout](#savelayout)
 
+
+---
 
 ## API Documentation
 

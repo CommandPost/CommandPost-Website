@@ -2,7 +2,11 @@
 
 Minimise button for the Final Cut Pro HUD.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

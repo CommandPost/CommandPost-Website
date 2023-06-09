@@ -20,8 +20,10 @@ for i,v in ipairs(q) do print(v) end  -- Outputs "1"
 for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [contains](#contains)
  * [len](#len)
  * [peekLeft](#peekleft)
@@ -33,10 +35,10 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
  * [removeItem](#removeitem)
  * [removeItem](#removeitem)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [contains](#contains)
  * [len](#len)
  * [peekLeft](#peekleft)
@@ -46,6 +48,8 @@ for i = 1, #q do print(v) end -- Outputs "1", "nil", "3"
  * [pushLeft](#pushleft)
  * [pushRight](#pushright)
 
+
+---
 
 ## API Documentation
 

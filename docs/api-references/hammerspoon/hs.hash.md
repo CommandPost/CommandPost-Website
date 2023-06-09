@@ -2,8 +2,10 @@
 
 Various hashing algorithms
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bMD5](#bmd5)
  * [bSHA1](#bsha1)
  * [bSHA256](#bsha256)
@@ -17,6 +19,8 @@ Various hashing algorithms
  * [SHA256](#sha256)
  * [SHA512](#sha512)
 
+
+---
 
 ## API Documentation
 

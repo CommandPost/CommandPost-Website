@@ -10,14 +10,18 @@ local value = strs:find("en", "AKey")
 This will load the file for the specified language (replacing `${language}` with `"en"` in the path) and return the value.
 Notes: This will load the file on each request. To have values cached, use the `cp.strings` module and specify a `plist` as a source.
 
+---
+
 ## Submodules
  * [cp.strings.source](cp.strings.source.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [context](#context)
  * [find](#find)
  * [findAllKeys](#findallkeys)
@@ -27,6 +31,8 @@ Notes: This will load the file on each request. To have values cached, use the `
  * [from](#from)
  * [fromPlist](#fromplist)
 
+
+---
 
 ## API Documentation
 

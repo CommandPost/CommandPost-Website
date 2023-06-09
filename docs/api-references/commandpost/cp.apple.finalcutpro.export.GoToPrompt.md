@@ -2,24 +2,28 @@
 
 Go To Prompt.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [new](#new)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cancel](#cancel)
  * [go](#go)
  * [valueCombo](#valuecombo)
  * [valueText](#valuetext)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [hide](#hide)
  * [setValue](#setvalue)
  * [show](#show)
  * [value](#value)
  * [valueField](#valuefield)
 
+
+---
 
 ## API Documentation
 

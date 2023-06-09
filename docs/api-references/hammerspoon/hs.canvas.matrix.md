@@ -15,11 +15,13 @@ Many of the methods defined in this module can be used both as constructors and 
 
 For more information on the mathematics behind these, you can check the web.  One site I used for reference (but there are many more which go into much more detail) can be found at http://www.cs.trinity.edu/~jhowland/cs2322/2d/2d/.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [identity](#identity)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [append](#append)
  * [invert](#invert)
  * [prepend](#prepend)
@@ -28,6 +30,8 @@ For more information on the mathematics behind these, you can check the web.  On
  * [shear](#shear)
  * [translate](#translate)
 
+
+---
 
 ## API Documentation
 

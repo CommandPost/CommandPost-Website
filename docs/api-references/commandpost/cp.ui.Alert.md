@@ -2,10 +2,14 @@
 
 Alert UI Module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

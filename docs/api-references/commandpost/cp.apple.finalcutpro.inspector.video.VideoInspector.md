@@ -41,27 +41,31 @@ You should also be able to show a specific property and it will be revealed:
 video:stabilization():smoothing():show():value(1.5)
 ```
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [BLEND_MODES](#blend_modes)
  * [CROP_TYPES](#crop_types)
  * [ROLLING_SHUTTER_AMOUNTS](#rolling_shutter_amounts)
  * [SPATIAL_CONFORM_TYPES](#spatial_conform_types)
  * [STABILIZATION_METHODS](#stabilization_methods)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [selectedEffectCheckBox](#selectedeffectcheckbox)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [VideoInspector](#videoinspector)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentUI](#contentui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [effectCheckBoxes](#effectcheckboxes)
 
+
+---
 
 ## API Documentation
 

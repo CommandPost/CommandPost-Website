@@ -2,24 +2,26 @@
 
 Blackmagic DaVinci Resolve Control Surface Support.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_JOG_MODE](#default_jog_mode)
  * [DEFAULT_SENSITIVITY](#default_sensitivity)
  * [LONG_PRESS_DURATION](#long_press_duration)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultLayout](#defaultlayout)
  * [repeatTimers](#repeattimers)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [batteryStatus](#batterystatus)
  * [buttonCallback](#buttoncallback)
  * [discoveryCallback](#discoverycallback)
  * [start](#start)
  * [update](#update)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeBanks](#activebanks)
  * [automaticallySwitchApplications](#automaticallyswitchapplications)
  * [enabled](#enabled)
@@ -27,6 +29,8 @@ Blackmagic DaVinci Resolve Control Surface Support.
  * [lastApplication](#lastapplication)
  * [lastBundleID](#lastbundleid)
 
+
+---
 
 ## API Documentation
 

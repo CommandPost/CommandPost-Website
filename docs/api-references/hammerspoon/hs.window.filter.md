@@ -47,8 +47,10 @@ wf_terminal:subscribe(wf.windowFocused,some_fn) -- run a function whenever a ter
 wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,stopAnnoyingMe) -- fight procrastination :)
 ```
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [default](#default)
  * [defaultCurrentSpace](#defaultcurrentspace)
  * [hasNoWindows](#hasnowindows)
@@ -79,12 +81,12 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
  * [windowUnminimized](#windowunminimized)
  * [windowVisible](#windowvisible)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [allowedWindowRoles](#allowedwindowroles)
  * [forceRefreshOnSpaceChange](#forcerefreshonspacechange)
  * [ignoreAlways](#ignorealways)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [focusEast](#focuseast)
  * [focusNorth](#focusnorth)
  * [focusSouth](#focussouth)
@@ -92,11 +94,11 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
  * [isGuiApp](#isguiapp)
  * [switchedToSpace](#switchedtospace)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [copy](#copy)
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allowApp](#allowapp)
  * [focusWindowEast](#focuswindoweast)
  * [focusWindowNorth](#focuswindownorth)
@@ -125,6 +127,8 @@ wf_timewaster:subscribe(wf.hasWindow,startAnnoyingMe):subscribe(wf.hasNoWindows,
  * [windowsToSouth](#windowstosouth)
  * [windowsToWest](#windowstowest)
 
+
+---
 
 ## API Documentation
 

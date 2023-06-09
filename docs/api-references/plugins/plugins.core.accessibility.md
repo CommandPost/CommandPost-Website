@@ -2,23 +2,29 @@
 
 Accessibility Plugin.
 
+---
+
 ## Submodules
  * [plugins.core.accessibility.screenrecording](plugins.core.accessibility.screenrecording.md)
  * [plugins.core.accessibility.tools](plugins.core.accessibility.tools.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [enabled](#enabled)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [shouldWeTryCloseSystemPreferences](#shouldwetryclosesystempreferences)
  * [systemPreferencesAlreadyOpen](#systempreferencesalreadyopen)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [completeSetupPanel](#completesetuppanel)
  * [init](#init)
  * [showSetupPanel](#showsetuppanel)
 
+
+---
 
 ## API Documentation
 

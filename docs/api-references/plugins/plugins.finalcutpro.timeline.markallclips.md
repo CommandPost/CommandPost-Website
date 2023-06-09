@@ -2,10 +2,14 @@
 
 Add a marker to all selected clips under the playhead, or all clips if only one clip is selected.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [markAllClips](#markallclips)
 
+
+---
 
 ## API Documentation
 

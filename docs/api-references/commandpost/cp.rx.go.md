@@ -43,6 +43,8 @@ end)
 For more information on using and creating statements, see the
 [Statements](cp.rx.go.Statements.md) documentation.
 
+---
+
 ## Submodules
  * [cp.rx.go.Do](cp.rx.go.Do.md)
  * [cp.rx.go.Done](cp.rx.go.Done.md)
@@ -58,7 +60,11 @@ For more information on using and creating statements, see the
  * [cp.rx.go.Throw](cp.rx.go.Throw.md)
  * [cp.rx.go.WaitUntil](cp.rx.go.WaitUntil.md)
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

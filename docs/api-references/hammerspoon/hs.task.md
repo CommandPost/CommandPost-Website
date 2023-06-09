@@ -6,11 +6,13 @@ Notes:
  * This is not intended to be used for processes which never exit. While it is possible to run such things with hs.task, it is not possible to read their output while they run and if they produce significant output, eventually the internal OS buffers will fill up and the task will be suspended.
  * An hs.task object can only be used once
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [closeInput](#closeinput)
  * [environment](#environment)
  * [interrupt](#interrupt)
@@ -30,6 +32,8 @@ Notes:
  * [waitUntilExit](#waituntilexit)
  * [workingDirectory](#workingdirectory)
 
+
+---
 
 ## API Documentation
 

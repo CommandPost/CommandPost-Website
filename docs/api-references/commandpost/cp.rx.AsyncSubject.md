@@ -6,16 +6,20 @@ no value is produced and `onError` is called on any subscribed [Observers](cp.rx
 If an [Observer](cp.rx.Observer.md) subscribes and the `AsyncSubject` has already terminated,
 the `Observer` will immediately receive the value or the error.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [create](#create)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [onCompleted](#oncompleted)
  * [onError](#onerror)
  * [onNext](#onnext)
  * [subscribe](#subscribe)
 
+
+---
 
 ## API Documentation
 

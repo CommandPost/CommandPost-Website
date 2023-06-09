@@ -2,13 +2,17 @@
 
 Represents the Transcode Media sheet.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cancel](#cancel)
  * [createOptimizedMedia](#createoptimizedmedia)
  * [createProxyMedia](#createproxymedia)
  * [ok](#ok)
 
+
+---
 
 ## API Documentation
 

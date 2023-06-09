@@ -8,12 +8,16 @@ The goal of this file is to provide most of the same functionality that CGILua d
 
 **Do not include this file directly in your Lua templates.**  This library is provided automatically in the `cgilua` table (module) in Lua template web server files.  This submodule will only work from within that environment and should not be used in any other code.
 
+---
+
 ## Submodules
  * [hs.httpserver.hsminweb.cgilua.lp](hs.httpserver.hsminweb.cgilua.lp.md)
  * [hs.httpserver.hsminweb.cgilua.urlcode](hs.httpserver.hsminweb.cgilua.urlcode.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [script_file](#script_file)
  * [script_path](#script_path)
  * [script_pdir](#script_pdir)
@@ -22,7 +26,7 @@ The goal of this file is to provide most of the same functionality that CGILua d
  * [tmp_path](#tmp_path)
  * [urlpath](#urlpath)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [contentheader](#contentheader)
  * [doif](#doif)
  * [doscript](#doscript)
@@ -40,6 +44,8 @@ The goal of this file is to provide most of the same functionality that CGILua d
  * [tmpfile](#tmpfile)
  * [tmpname](#tmpname)
 
+
+---
 
 ## API Documentation
 

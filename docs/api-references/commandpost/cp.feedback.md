@@ -2,17 +2,21 @@
 
 Feedback Form.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultHeight](#defaultheight)
  * [defaultTitle](#defaulttitle)
  * [defaultWidth](#defaultwidth)
  * [position](#position)
  * [quitOnComplete](#quitoncomplete)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [showFeedback](#showfeedback)
 
+
+---
 
 ## API Documentation
 

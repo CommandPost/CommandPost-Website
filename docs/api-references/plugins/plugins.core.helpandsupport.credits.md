@@ -2,7 +2,11 @@
 
 Credits Menu Item.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

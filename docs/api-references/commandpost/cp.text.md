@@ -34,29 +34,35 @@ local utf16leString		= unicodeText:encode(text.encoding.utf16le) -- or you can b
 
 Note that `text` values are not in any specific encoding, since they are stored as 64-bit integer `code-points` rather than 8-bit characers.
 
+---
+
 ## Submodules
  * [cp.text.matcher](cp.text.matcher.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [encoding](#encoding)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [char](#char)
  * [fromCodepoints](#fromcodepoints)
  * [fromFile](#fromfile)
  * [fromString](#fromstring)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [encode](#encode)
  * [find](#find)
  * [len](#len)
  * [match](#match)
  * [sub](#sub)
 
+
+---
 
 ## API Documentation
 

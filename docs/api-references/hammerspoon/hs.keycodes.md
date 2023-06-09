@@ -2,11 +2,13 @@
 
 Convert between key-strings and key-codes. Also provides functionality for querying and changing keyboard layouts.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [map](#map)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [currentLayout](#currentlayout)
  * [currentLayoutIcon](#currentlayouticon)
  * [currentMethod](#currentmethod)
@@ -18,6 +20,8 @@ Convert between key-strings and key-codes. Also provides functionality for query
  * [setLayout](#setlayout)
  * [setMethod](#setmethod)
 
+
+---
 
 ## API Documentation
 

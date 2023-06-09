@@ -2,10 +2,14 @@
 
 Helps look up localized names for folders.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getLocalizedName](#getlocalizedname)
 
+
+---
 
 ## API Documentation
 

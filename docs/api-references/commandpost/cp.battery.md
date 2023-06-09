@@ -16,8 +16,10 @@ power supply changes.
 By default the watcher initialises in a "stopped" state, and must be started for
 the `cp.prop` watchers to trigger.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [amperage](#amperage)
  * [capacity](#capacity)
  * [cycles](#cycles)
@@ -36,13 +38,15 @@ the `cp.prop` watchers to trigger.
  * [voltage](#voltage)
  * [watts](#watts)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [_watcher](#_watcher)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

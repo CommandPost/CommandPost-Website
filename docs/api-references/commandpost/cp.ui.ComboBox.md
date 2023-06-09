@@ -2,13 +2,17 @@
 
 Combo Box Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [ComboBox](#combobox)
 
+
+---
 
 ## API Documentation
 

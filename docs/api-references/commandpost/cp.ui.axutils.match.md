@@ -2,8 +2,10 @@
 
 Contains common `hs.axuielement` matching functions.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [emptyList](#emptylist)
  * [exactly](#exactly)
  * [isAbove](#isabove)
@@ -12,6 +14,8 @@ Contains common `hs.axuielement` matching functions.
  * [isRightOf](#isrightof)
  * [role](#role)
 
+
+---
 
 ## API Documentation
 

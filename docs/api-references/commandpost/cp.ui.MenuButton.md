@@ -2,19 +2,21 @@
 
 Menu Button Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [MenuButton](#menubutton)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [menuUI](#menuui)
  * [title](#title)
  * [value](#value)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doPress](#dopress)
  * [doSelectItem](#doselectitem)
  * [doSelectItemMatching](#doselectitemmatching)
@@ -30,6 +32,8 @@ Menu Button Module.
  * [setValue](#setvalue)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

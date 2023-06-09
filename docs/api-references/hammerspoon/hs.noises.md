@@ -24,14 +24,18 @@ This detector has an almost zero false positive rate in my experience and a very
 Personally I use this to scroll up by a large increment in case I scroll down too far with "sss", and when my RSS reader is focused it moves to the next article.
 The only false positives I've ever had with this detector are various rare throat clearing noises that make a pop sound very much like a lip pop.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

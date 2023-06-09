@@ -2,7 +2,11 @@
 
 Play Full Screen & Stop
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

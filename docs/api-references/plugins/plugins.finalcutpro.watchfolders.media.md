@@ -2,20 +2,24 @@
 
 Final Cut Pro Media Watch Folder Plugin.
 
+---
+
 ## Submodules
  * [plugins.finalcutpro.watchfolders.media.MediaFolder](plugins.finalcutpro.watchfolders.media.MediaFolder.md)
  * [plugins.finalcutpro.watchfolders.media.panel](plugins.finalcutpro.watchfolders.media.panel.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [SECONDS_UNTIL_DELETE](#seconds_until_delete)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [automaticallyImport](#automaticallyimport)
  * [deleteAfterImport](#deleteafterimport)
  * [insertIntoTimeline](#insertintotimeline)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addMediaFolder](#addmediafolder)
  * [hasMediaFolder](#hasmediafolder)
  * [init](#init)
@@ -24,6 +28,8 @@ Final Cut Pro Media Watch Folder Plugin.
  * [removeMediaFolder](#removemediafolder)
  * [saveMediaFolders](#savemediafolders)
 
+
+---
 
 ## API Documentation
 

@@ -63,11 +63,15 @@ Fun fact: even if you delete third party applications such as "Vimeo (advanced)"
 and "Xsend Motion" from your Final Cut Pro destinations preferences, they'll come
 back after you restart FCPX.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [indexOf](#indexof)
  * [names](#names)
 
+
+---
 
 ## API Documentation
 

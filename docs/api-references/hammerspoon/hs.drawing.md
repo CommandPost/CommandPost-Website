@@ -4,21 +4,25 @@ DEPRECATED. Primitives for drawing on the screen in various ways.
 
 hs.drawing is now deprecated and will be removed in a future release. Its functionality is now implemented by hs.canvas and you should migrate your code to using that directly. The API docs for hs.drawing remain here as a convenience.
 
+---
+
 ## Submodules
  * [hs.drawing.color](hs.drawing.color.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [windowBehaviors](#windowbehaviors)
  * [windowLevels](#windowlevels)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [defaultTextStyle](#defaulttextstyle)
  * [disableScreenUpdates](#disablescreenupdates)
  * [enableScreenUpdates](#enablescreenupdates)
  * [getTextDrawingSize](#gettextdrawingsize)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [appImage](#appimage)
  * [arc](#arc)
  * [circle](#circle)
@@ -28,7 +32,7 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
  * [rectangle](#rectangle)
  * [text](#text)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [alpha](#alpha)
  * [behavior](#behavior)
  * [behaviorAsLabels](#behavioraslabels)
@@ -74,6 +78,8 @@ hs.drawing is now deprecated and will be removed in a future release. Its functi
  * [setTopLeft](#settopleft)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

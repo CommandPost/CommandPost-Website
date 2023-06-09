@@ -6,16 +6,22 @@ first result of each to the next stage as individual parameters.
 This will continue until one of the `Observables` has completed, at which
 point other results from values are ignored.
 
+---
+
 ## Submodules
  * [cp.rx.go.Given.Then](cp.rx.go.Given.Then.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Given](#given)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

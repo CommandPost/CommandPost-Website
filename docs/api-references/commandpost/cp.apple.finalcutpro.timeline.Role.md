@@ -4,30 +4,34 @@
 
 Represents a Role in the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md).
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [TITLE_KEY](#title_key)
  * [TYPE](#type)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [findTitle](#findtitle)
  * [is](#is)
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Role](#role)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [cellUI](#cellui)
  * [subroleRow](#subrolerow)
  * [title](#title)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doActivate](#doactivate)
  * [doDeactivate](#dodeactivate)
  * [type](#type)
 
+
+---
 
 ## API Documentation
 

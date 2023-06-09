@@ -2,15 +2,17 @@
 
 Final Cut Pro Media Watch Folder Plugin.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [freeze](#freeze)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [thaw](#thaw)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addIncoming](#addincoming)
  * [addReady](#addready)
  * [checkNotifications](#checknotifications)
@@ -34,6 +36,8 @@ Final Cut Pro Media Watch Folder Plugin.
  * [updateIncomingNotification](#updateincomingnotification)
  * [updateReadyNotification](#updatereadynotification)
 
+
+---
 
 ## API Documentation
 

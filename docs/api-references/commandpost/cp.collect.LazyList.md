@@ -10,10 +10,14 @@ an item is required.
 This allows the list to be created lazily, and the items to be created on demand. That is useful for
 lists that are expensive to create, but are only required when they are actually used.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

@@ -5,11 +5,15 @@ It also provides convenience wrappers for sending mouse and keyboard events. If 
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## Submodules
  * [hs.eventtap.event](hs.eventtap.event.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [checkKeyboardModifiers](#checkkeyboardmodifiers)
  * [checkMouseButtons](#checkmousebuttons)
  * [doubleClickInterval](#doubleclickinterval)
@@ -24,14 +28,16 @@ This module is based primarily on code from the previous incarnation of Mjolnir 
  * [rightClick](#rightclick)
  * [scrollWheel](#scrollwheel)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [isEnabled](#isenabled)
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

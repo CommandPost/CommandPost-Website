@@ -2,13 +2,17 @@
 
 Read and write Property List files
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [read](#read)
  * [readString](#readstring)
  * [write](#write)
  * [writeString](#writestring)
 
+
+---
 
 ## API Documentation
 

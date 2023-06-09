@@ -2,14 +2,16 @@
 
 Secondary Window Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [SecondaryWindow](#secondarywindow)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [browserGroupUI](#browsergroupui)
  * [frame](#frame)
  * [hsWindow](#hswindow)
@@ -19,11 +21,13 @@ Secondary Window Module.
  * [timelineGroupUI](#timelinegroupui)
  * [viewerGroupUI](#viewergroupui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [doShow](#doshow)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

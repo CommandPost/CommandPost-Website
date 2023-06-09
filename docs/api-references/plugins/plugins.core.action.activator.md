@@ -17,8 +17,10 @@ be preserved for future loads of the finder with the same ID. They are also loca
 to instances of this activator, so disabling "videoEffect" in the "foobar" activator
 will not affect the "yadayada" activator.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeHandlers](#activehandlers)
  * [allowedHandlers](#allowedhandlers)
  * [configurable](#configurable)
@@ -33,7 +35,7 @@ will not affect the "yadayada" activator.
  * [searchSubText](#searchsubtext)
  * [showHidden](#showhidden)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activate](#activate)
  * [activeChoices](#activechoices)
  * [allChoices](#allchoices)
@@ -70,6 +72,8 @@ will not affect the "yadayada" activator.
  * [unhideChoice](#unhidechoice)
  * [updateSelectedToolbarIcon](#updateselectedtoolbaricon)
 
+
+---
 
 ## API Documentation
 

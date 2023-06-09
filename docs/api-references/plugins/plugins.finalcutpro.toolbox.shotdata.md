@@ -2,8 +2,10 @@
 
 Shot Data Toolbox Panel.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [automaticallyUploadCSV](#automaticallyuploadcsv)
  * [databaseURL](#databaseurl)
  * [defaultEmoji](#defaultemoji)
@@ -14,6 +16,8 @@ Shot Data Toolbox Panel.
  * [settings](#settings)
  * [token](#token)
 
+
+---
 
 ## API Documentation
 

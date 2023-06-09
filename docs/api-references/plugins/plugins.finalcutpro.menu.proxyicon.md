@@ -2,17 +2,21 @@
 
 Final Cut Pro Proxy Icon Plugin.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [procyMenuIconEnabled](#procymenuiconenabled)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [generateProxyTitle](#generateproxytitle)
  * [init](#init)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [usingProxies](#usingproxies)
 
+
+---
 
 ## API Documentation
 

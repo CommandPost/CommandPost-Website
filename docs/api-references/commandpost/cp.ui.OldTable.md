@@ -2,8 +2,10 @@
 
 Represents an AXTable in the Apple Accessibility UX API.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [cellTextValue](#celltextvalue)
  * [cellTextValueIs](#celltextvalueis)
  * [discloseRow](#discloserow)
@@ -13,16 +15,16 @@ Represents an AXTable in the Apple Accessibility UX API.
  * [matchesContent](#matchescontent)
  * [visitRow](#visitrow)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [OldTable](#oldtable)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contentUI](#contentui)
  * [horizontalScrollBarUI](#horizontalscrollbarui)
  * [isFocused](#isfocused)
  * [verticalScrollBarUI](#verticalscrollbarui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [columnsUI](#columnsui)
  * [deselectAll](#deselectall)
  * [deselectRow](#deselectrow)
@@ -42,6 +44,8 @@ Represents an AXTable in the Apple Accessibility UX API.
  * [topRowsUI](#toprowsui)
  * [viewFrame](#viewframe)
 
+
+---
 
 ## API Documentation
 

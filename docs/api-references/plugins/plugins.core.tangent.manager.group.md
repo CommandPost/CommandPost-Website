@@ -3,19 +3,21 @@
 Represents a Tangent Group. Groups can also be used to enable/disable multiple
 Parameters/Actions/Menus by enabling/disabling the containing group.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [group](#group)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [enabled](#enabled)
  * [localActive](#localactive)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [action](#action)
  * [binding](#binding)
  * [controls](#controls)
@@ -28,6 +30,8 @@ Parameters/Actions/Menus by enabling/disabling the containing group.
  * [tangent](#tangent)
  * [xml](#xml)
 
+
+---
 
 ## API Documentation
 

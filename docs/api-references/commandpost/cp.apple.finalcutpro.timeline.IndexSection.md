@@ -6,23 +6,27 @@ This contains common methods and other definitions that apply for all sections.
 This will generally not be created directly, but will be created via subclass such as
 [IndexClips](cp.apple.finalcutpro.timeline.IndexClips.md).
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [IndexSection](#indexsection)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [index](#index)
  * [isShowing](#isshowing)
  * [search](#search)
  * [UI](#ui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [doActivateSearch](#doactivatesearch)
  * [doShow](#doshow)
  * [parent](#parent)
 
+
+---
 
 ## API Documentation
 

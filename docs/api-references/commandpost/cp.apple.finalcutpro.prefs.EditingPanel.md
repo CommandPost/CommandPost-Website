@@ -2,11 +2,13 @@
 
 Editing Panel Module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [EditingPanel](#editingpanel)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [audioFadeDuration](#audiofadeduration)
  * [positionPlayheadAfterEditOperation](#positionplayheadaftereditoperation)
  * [showDetailedTrimmingFeedback](#showdetailedtrimmingfeedback)
@@ -14,6 +16,8 @@ Editing Panel Module.
  * [stillImageDuration](#stillimageduration)
  * [transitionDuration](#transitionduration)
 
+
+---
 
 ## API Documentation
 

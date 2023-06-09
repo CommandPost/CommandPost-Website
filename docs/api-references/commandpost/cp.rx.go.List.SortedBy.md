@@ -2,10 +2,14 @@
 
 A `Statement.Modifier` that specifies the list should be sorted by the specified `function`.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [SortedBy](#sortedby)
 
+
+---
 
 ## API Documentation
 

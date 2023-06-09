@@ -2,17 +2,23 @@
 
 A `Statement.Modifier` that defines what happens when an `If` matches.
 
+---
+
 ## Submodules
  * [cp.rx.go.If.Then.Otherwise](cp.rx.go.If.Then.Otherwise.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [Then](#then)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Otherwise](#otherwise)
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

@@ -6,25 +6,29 @@ The macOS coordinate system used by Hammerspoon assumes a grid that spans all th
 System Preferences->Displays->Arrangement). The origin `0,0` is at the top left corner of the *primary screen*.
 (Screens to the left of the primary screen, or above it, and windows on these screens, will have negative coordinates)
 
+---
+
 ## Submodules
  * [hs.screen.watcher](hs.screen.watcher.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [strictScreenInDirection](#strictscreenindirection)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [accessibilitySettings](#accessibilitysettings)
  * [find](#find)
  * [restoreGamma](#restoregamma)
  * [screenPositions](#screenpositions)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [allScreens](#allscreens)
  * [mainScreen](#mainscreen)
  * [primaryScreen](#primaryscreen)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [absoluteToLocal](#absolutetolocal)
  * [availableModes](#availablemodes)
  * [currentMode](#currentmode)
@@ -63,6 +67,8 @@ System Preferences->Displays->Arrangement). The origin `0,0` is at the top left 
  * [toUnitRect](#tounitrect)
  * [toWest](#towest)
 
+
+---
 
 ## API Documentation
 

@@ -2,19 +2,21 @@
 
 Sheet UI Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Sheet](#sheet)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cancel](#cancel)
  * [default](#default)
  * [title](#title)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [containsText](#containstext)
  * [doCancel](#docancel)
  * [doDefault](#dodefault)
@@ -24,6 +26,8 @@ Sheet UI Module.
  * [pressCancel](#presscancel)
  * [pressDefault](#pressdefault)
 
+
+---
 
 ## API Documentation
 

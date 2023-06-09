@@ -4,16 +4,20 @@ A [Definition](cp.spec.Definition.md) is a superclass for a "runnable" specifica
 It doesn't do anything itself, but provides a common ancestor for all implementation
 classes like [Specification](cp.spec.Specification.md) and [Scenario](cp.spec.Scenario.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Definition](#definition)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [run](#run)
 
+
+---
 
 ## API Documentation
 

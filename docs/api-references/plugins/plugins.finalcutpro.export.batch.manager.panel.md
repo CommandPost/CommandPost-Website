@@ -2,11 +2,13 @@
 
 CommandPost Batch Export Panel.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addButton](#addbutton)
  * [addCheckbox](#addcheckbox)
  * [addContent](#addcontent)
@@ -19,6 +21,8 @@ CommandPost Batch Export Panel.
  * [addTextbox](#addtextbox)
  * [getToolbarItem](#gettoolbaritem)
 
+
+---
 
 ## API Documentation
 

@@ -2,10 +2,14 @@
 
 A [Statement.Modifier](cp.rx.go.Statement.Modifier.md) for [If](cp.rx.go.If.md) that sets a specific value to match.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

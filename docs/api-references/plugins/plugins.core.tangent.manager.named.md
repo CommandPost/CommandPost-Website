@@ -5,25 +5,29 @@ Provides common functions for 'named' Tangent nodes
 Tables with `named` in it's metatable chain will have `name` methods added
 as described below.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
  * [xml](#xml)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [named](#named)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [active](#active)
  * [enabled](#enabled)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [controls](#controls)
  * [name](#name)
  * [nameX](#namex)
  * [parent](#parent)
  * [tangent](#tangent)
 
+
+---
 
 ## API Documentation
 

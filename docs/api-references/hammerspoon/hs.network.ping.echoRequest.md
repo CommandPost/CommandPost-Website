@@ -15,11 +15,13 @@ When a callback function argument is specified as an ICMP table, the Lua table r
 
 In cases where the callback receives a "receivedUnexpectedPacket" message because the packet is corrupted or truncated, this table may only contain the `_raw` field.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [echoRequest](#echorequest)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [acceptAddressFamily](#acceptaddressfamily)
  * [hostAddress](#hostaddress)
  * [hostAddressFamily](#hostaddressfamily)
@@ -33,6 +35,8 @@ In cases where the callback receives a "receivedUnexpectedPacket" message becaus
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

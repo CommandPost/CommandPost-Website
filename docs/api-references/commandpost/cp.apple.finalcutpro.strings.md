@@ -4,14 +4,18 @@ The `cp.strings` for I18N lookups related to Final Cut Pro.
 This has been populated with common lookups for user interface values
 that appear in Final Cut Pro.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [strings](#strings)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [find](#find)
  * [findKeys](#findkeys)
 
+
+---
 
 ## API Documentation
 

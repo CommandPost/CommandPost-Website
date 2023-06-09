@@ -3,15 +3,17 @@
 A module for capturing and manipulating image objects from other modules for use with hs.drawing.
 
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [additionalImageNames](#additionalimagenames)
  * [systemImageNames](#systemimagenames)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [getExifFromPath](#getexiffrompath)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [iconForFile](#iconforfile)
  * [iconForFileType](#iconforfiletype)
  * [imageFromAppBundle](#imagefromappbundle)
@@ -21,7 +23,7 @@ A module for capturing and manipulating image objects from other modules for use
  * [imageFromPath](#imagefrompath)
  * [imageFromURL](#imagefromurl)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bitmapRepresentation](#bitmaprepresentation)
  * [colorAt](#colorat)
  * [copy](#copy)
@@ -36,6 +38,8 @@ A module for capturing and manipulating image objects from other modules for use
  * [template](#template)
  * [toASCII](#toascii)
 
+
+---
 
 ## API Documentation
 

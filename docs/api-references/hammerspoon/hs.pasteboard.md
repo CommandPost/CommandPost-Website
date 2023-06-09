@@ -4,11 +4,15 @@ Inspect/manipulate pasteboards (more commonly called clipboards). Both the syste
 
 This module is based partially on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## Submodules
  * [hs.pasteboard.watcher](hs.pasteboard.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [allContentTypes](#allcontenttypes)
  * [callbackWhenChanged](#callbackwhenchanged)
  * [changeCount](#changecount)
@@ -36,6 +40,8 @@ This module is based partially on code from the previous incarnation of Mjolnir 
  * [writeObjects](#writeobjects)
  * [writePListForUTI](#writeplistforuti)
 
+
+---
 
 ## API Documentation
 

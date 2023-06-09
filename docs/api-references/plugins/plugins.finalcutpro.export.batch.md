@@ -2,14 +2,18 @@
 
 Timeline Batch Export Plugin.
 
+---
+
 ## Submodules
  * [plugins.finalcutpro.export.batch.manager](plugins.finalcutpro.export.batch.manager.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_CUSTOM_FILENAME](#default_custom_filename)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [batchExport](#batchexport)
  * [batchExportTimelineClips](#batchexporttimelineclips)
  * [changeCustomFilename](#changecustomfilename)
@@ -19,7 +23,7 @@ Timeline Batch Export Plugin.
  * [getDestinationPreset](#getdestinationpreset)
  * [performBatchExport](#performbatchexport)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [customFilename](#customfilename)
  * [destinationPreset](#destinationpreset)
  * [ignoreBackgroundTasks](#ignorebackgroundtasks)
@@ -29,6 +33,8 @@ Timeline Batch Export Plugin.
  * [replaceExistingFiles](#replaceexistingfiles)
  * [useCustomFilename](#usecustomfilename)
 
+
+---
 
 ## API Documentation
 

@@ -2,15 +2,19 @@
 
 This class provides a UI for displaying the details of a command when it is selected on the `CommandList`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [detail](#detail)
  * [label](#label)
 
+
+---
 
 ## API Documentation
 

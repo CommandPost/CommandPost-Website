@@ -2,11 +2,15 @@
 
 Functions for managing text on the web.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [escapeXML](#escapexml)
  * [unescapeXML](#unescapexml)
 
+
+---
 
 ## API Documentation
 

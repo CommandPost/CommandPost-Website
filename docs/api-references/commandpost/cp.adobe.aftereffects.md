@@ -2,15 +2,19 @@
 
 Adobe After Effects Extension
 
+---
+
 ## Submodules
  * [cp.adobe.aftereffects.app](cp.adobe.aftereffects.app.md)
  * [cp.adobe.aftereffects.shortcuts](cp.adobe.aftereffects.shortcuts.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [preferences](#preferences)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [allowScriptsToWriteFilesAndAccessNetwork](#allowscriptstowritefilesandaccessnetwork)
  * [preferencesFilePath](#preferencesfilepath)
  * [preferencesPath](#preferencespath)
@@ -18,6 +22,8 @@ Adobe After Effects Extension
  * [shortcutsPreferences](#shortcutspreferences)
  * [shortcutsPreferencesPath](#shortcutspreferencespath)
 
+
+---
 
 ## API Documentation
 

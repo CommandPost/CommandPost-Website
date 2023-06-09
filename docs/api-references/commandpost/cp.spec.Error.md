@@ -2,10 +2,14 @@
 
 Provides an Error message, which can be thrown via the `error` function.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
+
+---
 
 ## API Documentation
 

@@ -2,18 +2,20 @@
 
 Timeline Contents Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clipsUI](#clipsui)
  * [matches](#matches)
  * [playheadClipsUI](#playheadclipsui)
  * [positionClipsUI](#positionclipsui)
  * [skimmingPlayheadClipsUI](#skimmingplayheadclipsui)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Contents](#contents)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [children](#children)
  * [isLoaded](#isloaded)
  * [playhead](#playhead)
@@ -23,7 +25,7 @@ Timeline Contents Module.
  * [skimmingPlayhead](#skimmingplayhead)
  * [viewFrame](#viewframe)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activePlayhead](#activeplayhead)
  * [doFocus](#dofocus)
  * [doHide](#dohide)
@@ -35,6 +37,8 @@ Timeline Contents Module.
  * [rangeSelectionUI](#rangeselectionui)
  * [selectedClipsUI](#selectedclipsui)
 
+
+---
 
 ## API Documentation
 

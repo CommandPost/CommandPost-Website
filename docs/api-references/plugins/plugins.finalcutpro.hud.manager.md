@@ -2,18 +2,20 @@
 
 Manager for the Final Cut Pro HUD.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_WIDTH](#default_width)
  * [lastTab](#lasttab)
  * [position](#position)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [_handlers](#_handlers)
  * [_panels](#_panels)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addHandler](#addhandler)
  * [addPanel](#addpanel)
  * [currentPanelID](#currentpanelid)
@@ -33,9 +35,11 @@ Manager for the Final Cut Pro HUD.
  * [updatePosition](#updateposition)
  * [updateVisibility](#updatevisibility)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
 
+
+---
 
 ## API Documentation
 

@@ -16,11 +16,13 @@ update()
 -- one second after the inital call to `update()`, one "Updated!" is printed.
 ```
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [action](#action)
  * [delay](#delay)
  * [run](#run)
@@ -28,6 +30,8 @@ update()
  * [stop](#stop)
  * [waiting](#waiting)
 
+
+---
 
 ## API Documentation
 

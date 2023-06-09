@@ -2,7 +2,11 @@
 
 Facebook Group Menu Item.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

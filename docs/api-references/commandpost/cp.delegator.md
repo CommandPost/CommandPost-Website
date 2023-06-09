@@ -81,7 +81,11 @@ assert(myInstance.delegated.value == "delegated value") -- passes
 
 The easy way to remember is to read them together - "lazy delegator" sounds better than "delegator lazy".
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

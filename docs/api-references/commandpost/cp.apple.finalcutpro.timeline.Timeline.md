@@ -5,15 +5,17 @@ The timeline module provides an interface to the Final Cut Pro timeline.
 It delegates to the `contents` property, so any functions which can be called
 on the `contents` property can be called on the Timeline module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
  * [matchesMain](#matchesmain)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Timeline](#timeline)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [contents](#contents)
  * [effects](#effects)
  * [index](#index)
@@ -29,7 +31,7 @@ on the `contents` property can be called on the Timeline module.
  * [toolbar](#toolbar)
  * [transitions](#transitions)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [doHide](#dohide)
  * [doOpenProject](#doopenproject)
@@ -40,6 +42,8 @@ on the `contents` property can be called on the Timeline module.
  * [showOnPrimary](#showonprimary)
  * [showOnSecondary](#showonsecondary)
 
+
+---
 
 ## API Documentation
 

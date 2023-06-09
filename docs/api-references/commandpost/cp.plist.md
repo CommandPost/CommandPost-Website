@@ -2,12 +2,16 @@
 
 Reads & Writes plist data.
 
+---
+
 ## Submodules
  * [cp.plist.archiver](cp.plist.archiver.md)
  * [cp.plist.plistParser](cp.plist.plistParser.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [base64ToTable](#base64totable)
  * [binaryFileToTable](#binaryfiletotable)
  * [binaryFileToXML](#binaryfiletoxml)
@@ -22,6 +26,8 @@ Reads & Writes plist data.
  * [xmlFileToTable](#xmlfiletotable)
  * [xmlToTable](#xmltotable)
 
+
+---
 
 ## API Documentation
 

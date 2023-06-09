@@ -2,8 +2,10 @@
 
 A panel that allows users to select a color.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [alpha](#alpha)
  * [callback](#callback)
  * [color](#color)
@@ -13,6 +15,8 @@ A panel that allows users to select a color.
  * [show](#show)
  * [showsAlpha](#showsalpha)
 
+
+---
 
 ## API Documentation
 

@@ -69,10 +69,14 @@ local myElementBuilder = MyElement:withRightOf(Group):withLeftOf(Button)
 
 The `"withLeftOf"` value will still be passed to the constructor first, because it is listed first in the `Builder` constructor.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [build](#build)
 
+
+---
 
 ## API Documentation
 

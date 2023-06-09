@@ -4,11 +4,15 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
 
 **NOTE**: Any sleep preventions will be removed when hs.reload() is called. A future version of the module will save/restore state across reloads.
 
+---
+
 ## Submodules
  * [hs.caffeinate.watcher](hs.caffeinate.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [currentAssertions](#currentassertions)
  * [declareUserActivity](#declareuseractivity)
  * [fastUserSwitch](#fastuserswitch)
@@ -23,6 +27,8 @@ Control system power states (sleeping, preventing sleep, screen locking, etc)
  * [systemSleep](#systemsleep)
  * [toggle](#toggle)
 
+
+---
 
 ## API Documentation
 

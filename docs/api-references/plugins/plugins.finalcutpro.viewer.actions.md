@@ -2,7 +2,11 @@
 
 Viewer Actions
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

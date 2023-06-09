@@ -3,14 +3,20 @@
 The list of available commands (depending on search and/or [CommandGroup](cp.apple.finalcutpro.cmd.CommandGroups.md])
 that can be mapped to a keyboard shortcut.
 
+---
+
 ## Submodules
  * [cp.apple.finalcutpro.cmd.Commands.Header](cp.apple.finalcutpro.cmd.Commands.Header.md)
  * [cp.apple.finalcutpro.cmd.Commands.Row](cp.apple.finalcutpro.cmd.Commands.Row.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

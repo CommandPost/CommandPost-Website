@@ -2,12 +2,16 @@
 
 The header of the Commands.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [command](#command)
  * [key](#key)
  * [modifiers](#modifiers)
 
+
+---
 
 ## API Documentation
 

@@ -19,14 +19,16 @@ This module would not have been possible without standing on the shoulders of ot
  * https://github.com/Lange/node-elgato-stream-deck
  * Hopper
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [discoveryCallback](#discoverycallback)
  * [getDevice](#getdevice)
  * [init](#init)
  * [numDevices](#numdevices)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [buttonCallback](#buttoncallback)
  * [buttonLayout](#buttonlayout)
  * [encoderCallback](#encodercallback)
@@ -40,6 +42,8 @@ This module would not have been possible without standing on the shoulders of ot
  * [setButtonImage](#setbuttonimage)
  * [setScreenImage](#setscreenimage)
 
+
+---
 
 ## API Documentation
 

@@ -4,14 +4,16 @@
 
 Represents the Speed Popover.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [SpeedPopover](#speedpopover)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [byDuration](#byduration)
  * [byRate](#byrate)
  * [direction](#direction)
@@ -22,9 +24,11 @@ Represents the Speed Popover.
  * [ripple](#ripple)
  * [setSpeed](#setspeed)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doShow](#doshow)
 
+
+---
 
 ## API Documentation
 

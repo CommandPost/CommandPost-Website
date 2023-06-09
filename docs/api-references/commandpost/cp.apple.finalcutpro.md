@@ -66,6 +66,8 @@ Notes: All values/methods/props from delegates can be accessed directly from the
 fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
 ```
 
+---
+
 ## Submodules
  * [cp.apple.finalcutpro.app](cp.apple.finalcutpro.app.md)
  * [cp.apple.finalcutpro.browser](cp.apple.finalcutpro.browser.md)
@@ -83,8 +85,10 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [cp.apple.finalcutpro.viewer](cp.apple.finalcutpro.viewer.md)
  * [cp.apple.finalcutpro.workflowextensions](cp.apple.finalcutpro.workflowextensions.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
  * [ALLOWED_IMPORT_EXTENSIONS](#allowed_import_extensions)
  * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
@@ -96,24 +100,24 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [preferences](#preferences)
  * [WORKSPACES_PATH](#workspaces_path)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [activeCommandSet](#activecommandset)
  * [customWorkspaces](#customworkspaces)
  * [openAndSavePanelDefaultPath](#openandsavepaneldefaultpath)
  * [selectedWorkspace](#selectedworkspace)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [commandSet](#commandset)
  * [matches](#matches)
  * [matches](#matches)
  * [userCommandSetPath](#usercommandsetpath)
  * [workflowExtensionNames](#workflowextensionnames)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Color](#color)
  * [TranscodeMedia](#transcodemedia)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeCommandSetPath](#activecommandsetpath)
  * [alert](#alert)
  * [audioEnhancements](#audioenhancements)
@@ -179,7 +183,7 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [viewer](#viewer)
  * [volume](#volume)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [activeLibraryPaths](#activelibrarypaths)
  * [closeLibrary](#closelibrary)
  * [defaultCommandSetPath](#defaultcommandsetpath)
@@ -197,6 +201,8 @@ fcp.app:UI() == fcp:UI() -- the same `cp.prop` result.
  * [string](#string)
  * [userCommandSets](#usercommandsets)
 
+
+---
 
 ## API Documentation
 

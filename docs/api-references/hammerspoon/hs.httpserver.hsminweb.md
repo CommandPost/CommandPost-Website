@@ -16,29 +16,33 @@ An example web site is provided in the `hsdocs` folder of the `hs.doc` module.  
 You can start this web server by typing the following into your Hammerspoon console:
 `require("hs.doc.hsdocs").start()` and then visiting `http://localhost:12345/` with your web browser.
 
+---
+
 ## Submodules
  * [hs.httpserver.hsminweb.cgilua](hs.httpserver.hsminweb.cgilua.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [dateFormatString](#dateformatstring)
  * [statusCodes](#statuscodes)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [_accessLog](#_accesslog)
  * [_errorHandlers](#_errorhandlers)
  * [_serverAdmin](#_serveradmin)
  * [_supportMethods](#_supportmethods)
  * [log](#log)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [formattedDate](#formatteddate)
  * [urlParts](#urlparts)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [accessList](#accesslist)
  * [allowDirectory](#allowdirectory)
  * [bonjour](#bonjour)
@@ -59,6 +63,8 @@ You can start this web server by typing the following into your Hammerspoon cons
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

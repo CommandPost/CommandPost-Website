@@ -2,7 +2,11 @@
 
 Monogram Preferences Panel
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

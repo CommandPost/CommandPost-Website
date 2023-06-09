@@ -5,8 +5,10 @@ Console History Manager.
 Based on code by @asmagill
 https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/consoleHistory.lua
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clearHistory](#clearhistory)
  * [history](#history)
  * [init](#init)
@@ -14,9 +16,11 @@ https://github.com/asmagill/hammerspoon-config-take2/blob/master/utils/_actions/
  * [retrieveHistory](#retrievehistory)
  * [saveHistory](#savehistory)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [cache](#cache)
 
+
+---
 
 ## API Documentation
 

@@ -3,8 +3,10 @@
 Default implementation of [Handler](cp.spec.Handler.md), which
 outputs via the standard `print` function.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [aborted](#aborted)
  * [failed](#failed)
  * [filter](#filter)
@@ -15,6 +17,8 @@ outputs via the standard `print` function.
  * [summary](#summary)
  * [waiting](#waiting)
 
+
+---
 
 ## API Documentation
 

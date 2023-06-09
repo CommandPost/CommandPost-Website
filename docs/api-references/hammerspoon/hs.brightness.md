@@ -6,12 +6,16 @@ Home: https://github.com/asmagill/mjolnir_asm.sys
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [ambient](#ambient)
  * [get](#get)
  * [set](#set)
 
+
+---
 
 ## API Documentation
 

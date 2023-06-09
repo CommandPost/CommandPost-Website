@@ -5,11 +5,15 @@ Inspect information about the machine Hammerspoon is running on
 Notes:
  * The network/hostname calls can be slow, as network resolution calls can be called, which are synchronous and will block Hammerspoon until they complete.
 
+---
+
 ## Submodules
  * [hs.host.locale](hs.host.locale.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addresses](#addresses)
  * [cpuUsage](#cpuusage)
  * [cpuUsageTicks](#cpuusageticks)
@@ -26,6 +30,8 @@ Notes:
  * [vmStat](#vmstat)
  * [volumeInformation](#volumeinformation)
 
+
+---
 
 ## API Documentation
 

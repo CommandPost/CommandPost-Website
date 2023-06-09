@@ -2,10 +2,14 @@
 
 tmuxomatic-like window management
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [go](#go)
 
+
+---
 
 ## API Documentation
 

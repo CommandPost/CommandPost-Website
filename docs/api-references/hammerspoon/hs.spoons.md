@@ -4,8 +4,10 @@ Utility and management functions for Spoons
 Spoons are Lua plugins for Hammerspoon.
 See https://www.hammerspoon.org/Spoons/ for more information
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [bindHotkeysToSpec](#bindhotkeystospec)
  * [isInstalled](#isinstalled)
  * [isLoaded](#isloaded)
@@ -15,6 +17,8 @@ See https://www.hammerspoon.org/Spoons/ for more information
  * [scriptPath](#scriptpath)
  * [use](#use)
 
+
+---
 
 ## API Documentation
 

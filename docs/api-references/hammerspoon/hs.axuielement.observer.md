@@ -2,14 +2,16 @@
 
 This submodule allows you to create observers for accessibility elements and be notified when they trigger notifications. Not all notifications are supported by all elements and not all elements support notifications, so some trial and error will be necessary, but for compliant applications, this can allow your code to be notified when an application's user interface changes in some way.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [notifications](#notifications)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addWatcher](#addwatcher)
  * [callback](#callback)
  * [isRunning](#isrunning)
@@ -18,6 +20,8 @@ This submodule allows you to create observers for accessibility elements and be 
  * [stop](#stop)
  * [watching](#watching)
 
+
+---
 
 ## API Documentation
 

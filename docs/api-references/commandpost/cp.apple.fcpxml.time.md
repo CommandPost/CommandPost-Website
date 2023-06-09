@@ -9,11 +9,13 @@ use a frame duration of 1001/30000s (29.97 fps) or 1001/60000s (59.94 fps). If a
 value is equal to a whole number of seconds, Final Cut Pro may reduce the fraction
 into whole seconds (for example, 5s).
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [ONE](#one)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [add](#add)
  * [div](#div)
  * [doesIntersect](#doesintersect)
@@ -28,9 +30,11 @@ into whole seconds (for example, 5s).
  * [tostring](#tostring)
  * [unm](#unm)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
+
+---
 
 ## API Documentation
 

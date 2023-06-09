@@ -2,7 +2,11 @@
 
 Screen Recording Permission.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

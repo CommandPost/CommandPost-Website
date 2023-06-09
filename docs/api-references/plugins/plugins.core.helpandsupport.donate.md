@@ -2,7 +2,11 @@
 
 Donate Menu Item.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

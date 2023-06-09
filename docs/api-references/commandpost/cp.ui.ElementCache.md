@@ -2,11 +2,13 @@
 
 Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache children.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ElementCache](#elementcache)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [cachedElement](#cachedelement)
  * [cacheElement](#cacheelement)
  * [clean](#clean)
@@ -14,6 +16,8 @@ Provides caching for [Element](cp.ui.Element.md) subclasses that want to cache c
  * [fetchElements](#fetchelements)
  * [reset](#reset)
 
+
+---
 
 ## API Documentation
 

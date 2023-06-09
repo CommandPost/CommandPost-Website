@@ -2,12 +2,16 @@
 
 Manages features relating to the Timeline Playhead.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [alwaysCentered](#alwayscentered)
  * [scrollingTimeline](#scrollingtimeline)
  * [tracking](#tracking)
 
+
+---
 
 ## API Documentation
 

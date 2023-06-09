@@ -2,7 +2,11 @@
 
 Final Cut Pro MIDI Zoom Control.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,17 +2,23 @@
 
 A pure-LUA implementation of UTF-16 decoding
 
+---
+
 ## Submodules
  * [cp.utf16.be](cp.utf16.be.md)
  * [cp.utf16.le](cp.utf16.le.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [char](#char)
  * [codepoint](#codepoint)
  * [codes](#codes)
  * [offset](#offset)
 
+
+---
 
 ## API Documentation
 

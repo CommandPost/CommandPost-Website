@@ -2,19 +2,23 @@
 
 Timeline Index Mode Radio Group Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [IndexMode](#indexmode)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [captions](#captions)
  * [clips](#clips)
  * [roles](#roles)
  * [tags](#tags)
 
+
+---
 
 ## API Documentation
 

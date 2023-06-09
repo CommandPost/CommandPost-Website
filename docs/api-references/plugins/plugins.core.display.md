@@ -2,7 +2,11 @@
 
 Display Controls.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

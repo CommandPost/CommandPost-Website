@@ -2,7 +2,11 @@
 
 Touch Bar Bank Actions.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

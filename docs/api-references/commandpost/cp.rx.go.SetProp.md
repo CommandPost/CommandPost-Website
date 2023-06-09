@@ -4,16 +4,22 @@ A `Statement` that will update a `cp.prop` value, then optionally execute other 
 This is useful for simply changing a `cp.prop` value without requiring a custom `function()`, but is extra useful when you only want to temporarily change
 the value.
 
+---
+
 ## Submodules
  * [cp.rx.go.SetProp.To](cp.rx.go.SetProp.To.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [SetProp](#setprop)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [To](#to)
 
+
+---
 
 ## API Documentation
 

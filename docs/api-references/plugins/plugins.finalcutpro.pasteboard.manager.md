@@ -2,16 +2,18 @@
 
 Pasteboard Manager.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [NUMBER_OF_PASTEBOARD_BUFFERS](#number_of_pasteboard_buffers)
  * [RESTART_DELAY](#restart_delay)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [excludedClassnames](#excludedclassnames)
  * [WATCHER_FREQUENCY](#watcher_frequency)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [copyWithCustomClipName](#copywithcustomclipname)
  * [doDecodeBuffer](#dodecodebuffer)
  * [doRestoreFromBuffer](#dorestorefrombuffer)
@@ -34,10 +36,12 @@ Pasteboard Manager.
  * [watch](#watch)
  * [writeFCPXData](#writefcpxdata)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [buffer](#buffer)
  * [watching](#watching)
 
+
+---
 
 ## API Documentation
 

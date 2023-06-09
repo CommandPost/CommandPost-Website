@@ -4,10 +4,14 @@ _Extends:_ [Statement](cp.rx.go.Statement.md)
 
 A [Statement](cp.rx.go.Statement.md) that will complete after the first result resolves.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [First](#first)
 
+
+---
 
 ## API Documentation
 

@@ -2,12 +2,16 @@
 
 Represents the sidebar for a document opened in Highland.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [document](#document)
  * [doHide](#dohide)
  * [doShow](#doshow)
 
+
+---
 
 ## API Documentation
 

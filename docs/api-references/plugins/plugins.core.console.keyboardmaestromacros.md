@@ -2,7 +2,11 @@
 
 Adds Keyboard Maestro Macros to the Search Console.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

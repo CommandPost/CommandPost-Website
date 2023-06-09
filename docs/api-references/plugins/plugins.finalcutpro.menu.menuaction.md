@@ -3,11 +3,15 @@
 A `action` which will trigger an Final Cut Pro menu with a matching path, if available/enabled.
 Registers itself with the `plugins.core.actions.actionmanager`.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [actionId](#actionid)
  * [init](#init)
 
+
+---
 
 ## API Documentation
 

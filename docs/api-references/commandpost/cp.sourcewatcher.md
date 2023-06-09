@@ -2,8 +2,10 @@
 
 Watches folders for specific file extensions and reloads the app if they change.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [filesChanged](#fileschanged)
  * [matchesExtensions](#matchesextensions)
  * [new](#new)
@@ -11,6 +13,8 @@ Watches folders for specific file extensions and reloads the app if they change.
  * [stop](#stop)
  * [watchPath](#watchpath)
 
+
+---
 
 ## API Documentation
 

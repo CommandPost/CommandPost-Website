@@ -2,10 +2,14 @@
 
 Show Timeline In Player.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [enabled](#enabled)
 
+
+---
 
 ## API Documentation
 

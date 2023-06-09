@@ -2,13 +2,17 @@
 
 Actions for control user interface elements via the Accessibility API.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [currentlyDragging](#currentlydragging)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [changeElementUnderMouse](#changeelementundermouse)
 
+
+---
 
 ## API Documentation
 

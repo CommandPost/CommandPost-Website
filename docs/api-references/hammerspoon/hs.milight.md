@@ -2,15 +2,17 @@
 
 Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and EasyBulb)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [maxBrightness](#maxbrightness)
  * [minBrightness](#minbrightness)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [delete](#delete)
  * [disco](#disco)
  * [send](#send)
@@ -20,6 +22,8 @@ Simple controls for the MiLight LED WiFi bridge (also known as LimitlessLED and 
  * [zoneOn](#zoneon)
  * [zoneWhite](#zonewhite)
 
+
+---
 
 ## API Documentation
 

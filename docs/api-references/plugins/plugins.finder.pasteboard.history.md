@@ -2,12 +2,16 @@
 
 Adds text pasteboard history actions to the Search Console.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [history](#history)
  * [historySize](#historysize)
 
+
+---
 
 ## API Documentation
 

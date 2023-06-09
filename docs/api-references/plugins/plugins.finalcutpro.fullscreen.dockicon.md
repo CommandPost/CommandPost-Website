@@ -6,11 +6,15 @@ in how macOS manages full-screen windows, it seems that we need to make
 CP 'dockless' when an app we are working with goes full-screen. Otherwise
 our drawing/canvas images will not display correctly.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [dockIconEnabled](#dockiconenabled)
  * [fcpActiveFullScreen](#fcpactivefullscreen)
 
+
+---
 
 ## API Documentation
 

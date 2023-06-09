@@ -2,14 +2,18 @@
 
 Represents the Motion application, providing functions that allow different tasks to be accomplished.
 
+---
+
 ## Submodules
  * [cp.apple.motion.app](cp.apple.motion.app.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [BUNDLE_ID](#bundle_id)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bundleID](#bundleid)
  * [doRestart](#dorestart)
  * [hide](#hide)
@@ -19,6 +23,8 @@ Represents the Motion application, providing functions that allow different task
  * [quit](#quit)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -2,13 +2,17 @@
 
 Specifies that the `Require`d value `Matches` a function predicate.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [Matches](#matches)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [OrThrow](#orthrow)
 
+
+---
 
 ## API Documentation
 

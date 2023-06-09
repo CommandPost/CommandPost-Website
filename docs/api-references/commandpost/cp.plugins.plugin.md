@@ -2,7 +2,11 @@
 
 CommandPost Plugin.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

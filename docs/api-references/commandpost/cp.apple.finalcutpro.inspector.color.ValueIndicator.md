@@ -2,14 +2,16 @@
 
 ValueIndicator Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ValueIndicator](#valueindicator)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [decrement](#decrement)
  * [increment](#increment)
  * [isShowing](#isshowing)
@@ -17,6 +19,8 @@ ValueIndicator Module.
  * [saveLayout](#savelayout)
  * [shiftValue](#shiftvalue)
 
+
+---
 
 ## API Documentation
 

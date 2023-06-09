@@ -2,20 +2,26 @@
 
 This module provides functions for inquiring about and monitoring changes to the network.
 
+---
+
 ## Submodules
  * [hs.network.configuration](hs.network.configuration.md)
  * [hs.network.host](hs.network.host.md)
  * [hs.network.ping](hs.network.ping.md)
  * [hs.network.reachability](hs.network.reachability.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addresses](#addresses)
  * [interfaceDetails](#interfacedetails)
  * [interfaceName](#interfacename)
  * [interfaces](#interfaces)
  * [primaryInterfaces](#primaryinterfaces)
 
+
+---
 
 ## API Documentation
 

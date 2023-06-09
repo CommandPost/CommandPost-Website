@@ -14,11 +14,13 @@ Prior to upgrading Hammerspoon's Lua interpreter to 5.3, UTF8 support was provid
 Additional functions that are specific to Hammerspoon which provide expanded support for UTF8 are documented here.
 
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [registeredKeys](#registeredkeys)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [asciiOnly](#asciionly)
  * [codepointToUTF8](#codepointtoutf8)
  * [fixUTF8](#fixutf8)
@@ -26,6 +28,8 @@ Additional functions that are specific to Hammerspoon which provide expanded sup
  * [registerCodepoint](#registercodepoint)
  * [registeredLabels](#registeredlabels)
 
+
+---
 
 ## API Documentation
 

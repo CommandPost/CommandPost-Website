@@ -5,17 +5,23 @@ They are initiated via the [modifier](#modifier) method of a defined [Statement]
 
 All `Statement.Modifier` instances will also have the methods defined by [Statement](cp.rx.go.Statement.md).
 
+---
+
 ## Submodules
  * [cp.rx.go.Statement.Modifier.Definition](cp.rx.go.Statement.Modifier.Definition.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [context](#context)
  * [toObservable](#toobservable)
 
+
+---
 
 ## API Documentation
 

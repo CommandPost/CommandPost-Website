@@ -2,10 +2,14 @@
 
 Represents the list of Command Groups in the [CommandList](cp.apple.finalcutpro.cmd.CommandList.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

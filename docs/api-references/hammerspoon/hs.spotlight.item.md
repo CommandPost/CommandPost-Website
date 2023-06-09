@@ -6,11 +6,15 @@ Each Spotlight item contains attributes which you can access with the [hs.spotli
 
 For convenience, metamethods have been added to the spotlightItemObjects as a shortcut to the [hs.spotlight.item:valueForAttribute](#valueForAttribute) method; e.g. you can access the value of a specific attribute by treating the attribute as a key name: `spotlightItemObject.kMDItemPath` will return the path to the entity the spotlightItemObject refers to.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [attributes](#attributes)
  * [valueForAttribute](#valueforattribute)
 
+
+---
 
 ## API Documentation
 

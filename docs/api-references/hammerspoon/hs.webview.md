@@ -13,29 +13,33 @@ This module is not intended to replace a full web browser and does have some lim
 Any suggestions or updates to the code to address any of these or other limitations as they may become apparent are welcome at the Hammerspoon github site: https://www.github.com/Hammerspoon/hammerspoon
 
 
+---
+
 ## Submodules
  * [hs.webview.datastore](hs.webview.datastore.md)
  * [hs.webview.toolbar](hs.webview.toolbar.md)
  * [hs.webview.usercontent](hs.webview.usercontent.md)
 
+---
+
 ## API Overview
-### **Deprecateds** - _API features which will be removed in an future release_
+**Deprecateds** - _API features which will be removed in an future release_
  * [asHSDrawing](#ashsdrawing)
  * [asHSWindow](#ashswindow)
  * [setLevel](#setlevel)
 
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [certificateOIDs](#certificateoids)
  * [windowMasks](#windowmasks)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [titleVisibility](#titlevisibility)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [newBrowser](#newbrowser)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allowGestures](#allowgestures)
  * [allowMagnificationGestures](#allowmagnificationgestures)
  * [allowNavigationGestures](#allownavigationgestures)
@@ -91,6 +95,8 @@ Any suggestions or updates to the code to address any of these or other limitati
  * [windowStyle](#windowstyle)
  * [windowTitle](#windowtitle)
 
+
+---
 
 ## API Documentation
 

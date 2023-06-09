@@ -2,14 +2,18 @@
 
 This module provides a basic ping function which can test host availability. Ping is a network diagnostic tool commonly found in most operating systems which can be used to test if a route to a specified host exists and if that host is responding to network traffic.
 
+---
+
 ## Submodules
  * [hs.network.ping.echoRequest](hs.network.ping.echoRequest.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ping](#ping)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [address](#address)
  * [cancel](#cancel)
  * [count](#count)
@@ -23,6 +27,8 @@ This module provides a basic ping function which can test host availability. Pin
  * [setCallback](#setcallback)
  * [summary](#summary)
 
+
+---
 
 ## API Documentation
 

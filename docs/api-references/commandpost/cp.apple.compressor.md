@@ -2,11 +2,15 @@
 
 Represents the Compressor application, providing functions that allow different tasks to be accomplished.
 
+---
+
 ## Submodules
  * [cp.apple.compressor.app](cp.apple.compressor.app.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [ALLOWED_IMPORT_ALL_EXTENSIONS](#allowed_import_all_extensions)
  * [ALLOWED_IMPORT_AUDIO_EXTENSIONS](#allowed_import_audio_extensions)
  * [ALLOWED_IMPORT_IMAGE_EXTENSIONS](#allowed_import_image_extensions)
@@ -14,7 +18,7 @@ Represents the Compressor application, providing functions that allow different 
  * [BUNDLE_ID](#bundle_id)
  * [EARLIEST_SUPPORTED_VERSION](#earliest_supported_version)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bundleID](#bundleid)
  * [doRestart](#dorestart)
  * [hide](#hide)
@@ -24,6 +28,8 @@ Represents the Compressor application, providing functions that allow different 
  * [quit](#quit)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

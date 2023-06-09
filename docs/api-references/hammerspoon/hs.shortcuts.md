@@ -8,11 +8,15 @@ You can use this action to call functions defined in your `init.lua` or to just 
 
 Your functions/chunks can return text, which will be returned by the action in Shortcuts.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [list](#list)
  * [run](#run)
 
+
+---
 
 ## API Documentation
 

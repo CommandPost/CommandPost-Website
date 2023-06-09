@@ -7,15 +7,17 @@ This module allows you to explore the details of discovered services including i
 This module will *not* allow you to publish proxy records for other hosts on your local network.
 Additional submodules which may address this limitation as well as provide additional functions available with Apple's dns-sd library are being considered but there is no estimated timeframe at present.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [serviceTypes](#servicetypes)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [remote](#remote)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addresses](#addresses)
  * [domain](#domain)
  * [hostname](#hostname)
@@ -30,6 +32,8 @@ Additional submodules which may address this limitation as well as provide addit
  * [txtRecord](#txtrecord)
  * [type](#type)
 
+
+---
 
 ## API Documentation
 

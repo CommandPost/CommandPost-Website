@@ -2,8 +2,10 @@
 
 Loupedeck+ Preferences Panel
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [lastApplication](#lastapplication)
  * [lastBank](#lastbank)
  * [lastExportPath](#lastexportpath)
@@ -12,6 +14,8 @@ Loupedeck+ Preferences Panel
  * [lastLabel](#lastlabel)
  * [lastNote](#lastnote)
 
+
+---
 
 ## API Documentation
 

@@ -4,18 +4,24 @@ _Extends:_ [Statement](cp.rx.go.Statement.md)
 
 A [Statement](cp.rx.go.Statement.md) that will loop through a table as a list from item `1` to the table length.
 
+---
+
 ## Submodules
  * [cp.rx.go.List.Sorted](cp.rx.go.List.Sorted.md)
  * [cp.rx.go.List.SortedBy](cp.rx.go.List.SortedBy.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [List](#list)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Sorted](#sorted)
  * [SortedBy](#sortedby)
 
+
+---
 
 ## API Documentation
 

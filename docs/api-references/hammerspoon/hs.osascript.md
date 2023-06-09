@@ -3,14 +3,18 @@
 Execute Open Scripting Architecture (OSA) code - AppleScript and JavaScript
 
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [_osascript](#_osascript)
  * [applescript](#applescript)
  * [applescriptFromFile](#applescriptfromfile)
  * [javascript](#javascript)
  * [javascriptFromFile](#javascriptfromfile)
 
+
+---
 
 ## API Documentation
 

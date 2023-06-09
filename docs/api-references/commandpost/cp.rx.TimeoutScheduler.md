@@ -2,12 +2,16 @@
 
 A scheduler that uses the `hs.timer` library to schedule events on an event loop.
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [create](#create)
  * [schedule](#schedule)
  * [stopAll](#stopall)
 
+
+---
 
 ## API Documentation
 

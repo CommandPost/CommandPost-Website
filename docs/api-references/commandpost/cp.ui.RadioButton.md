@@ -19,14 +19,16 @@ myButton() == true			-- still true
 myButton(false) == false	-- now false
 ```
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [checked](#checked)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doCheck](#docheck)
  * [doLayout](#dolayout)
  * [doPress](#dopress)
@@ -38,6 +40,8 @@ myButton(false) == false	-- now false
  * [saveLayout](#savelayout)
  * [toggle](#toggle)
 
+
+---
 
 ## API Documentation
 

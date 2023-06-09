@@ -2,10 +2,14 @@
 
 Generator Inspector Module. This appears for both Generators and Titles.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [GeneratorInspector](#generatorinspector)
 
+
+---
 
 ## API Documentation
 

@@ -2,7 +2,11 @@
 
 Debug Console Menu Item.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,7 +2,11 @@
 
 Final Cut Pro Tangent Open FCPX.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

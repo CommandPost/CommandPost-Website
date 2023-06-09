@@ -8,21 +8,25 @@ This module allows you to list and selectively purge the types of data stored lo
 
 The datastore for a webview contains various types of data including cookies, disk and memory caches, and persistent data such as WebSQL, IndexedDB databases, and local storage.  You can use methods in this module to selectively or completely purge the common datastore (used by all Hammerspoon `hs.webview` instances that do not use a non-persistent datastore).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [websiteDataTypes](#websitedatatypes)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [default](#default)
  * [fromWebview](#fromwebview)
  * [newPrivate](#newprivate)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [fetchRecords](#fetchrecords)
  * [persistent](#persistent)
  * [removeRecordsAfter](#removerecordsafter)
  * [removeRecordsFor](#removerecordsfor)
 
+
+---
 
 ## API Documentation
 

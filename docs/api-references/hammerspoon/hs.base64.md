@@ -4,11 +4,15 @@ Base64 encoding and decoding
 
 Portions sourced from (https://gist.github.com/shpakovski/1902994).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [decode](#decode)
  * [encode](#encode)
 
+
+---
 
 ## API Documentation
 

@@ -5,11 +5,13 @@ Represents the Tool Palette Menu Button in the Timeline.
 Extends:
  * [MenuButton](cp.ui.MenuButton.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [OPTIONS](#options)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isBlade](#isblade)
  * [isHand](#ishand)
  * [isPosition](#isposition)
@@ -19,6 +21,8 @@ Extends:
  * [isZoom](#iszoom)
  * [value](#value)
 
+
+---
 
 ## API Documentation
 

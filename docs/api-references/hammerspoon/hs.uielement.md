@@ -2,20 +2,26 @@
 
 A generalized framework for working with OSX UI elements
 
+---
+
 ## Submodules
  * [hs.uielement.watcher](hs.uielement.watcher.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [focusedElement](#focusedelement)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [isApplication](#isapplication)
  * [isWindow](#iswindow)
  * [newWatcher](#newwatcher)
  * [role](#role)
  * [selectedText](#selectedtext)
 
+
+---
 
 ## API Documentation
 

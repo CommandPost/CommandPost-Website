@@ -10,11 +10,13 @@ function k:exited()  hs.alert'Exited mode'  end
 k:bind('', 'escape', function() k:exit() end)
 k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pressed' end)```
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [bind](#bind)
  * [delete](#delete)
  * [enter](#enter)
@@ -22,6 +24,8 @@ k:bind('', 'J', 'Pressed J',function() print'let the record show that J was pres
  * [exit](#exit)
  * [exited](#exited)
 
+
+---
 
 ## API Documentation
 

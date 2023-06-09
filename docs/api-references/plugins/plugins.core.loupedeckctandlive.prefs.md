@@ -2,20 +2,22 @@
 
 Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer Stream Controller.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultIconPath](#defaulticonpath)
  * [supportedExtensions](#supportedextensions)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [buildIconFromLabel](#buildiconfromlabel)
  * [processEncodedIcon](#processencodedicon)
  * [updateUI](#updateui)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [generateContent](#generatecontent)
  * [generateKnobImages](#generateknobimages)
  * [panelCallback](#panelcallback)
@@ -23,6 +25,8 @@ Preferences Panels for Loupedeck CT, Loupedeck Live, Loupedeck Live-S and Razer 
  * [renderPanel](#renderpanel)
  * [setItem](#setitem)
 
+
+---
 
 ## API Documentation
 

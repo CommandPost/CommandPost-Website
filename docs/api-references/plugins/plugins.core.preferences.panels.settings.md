@@ -2,7 +2,11 @@
 
 Settings Preferences Panel
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

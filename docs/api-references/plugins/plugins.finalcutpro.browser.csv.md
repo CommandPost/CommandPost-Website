@@ -2,10 +2,14 @@
 
 Save Browser to CSV
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [saveBrowserContentsToCSV](#savebrowsercontentstocsv)
 
+
+---
 
 ## API Documentation
 

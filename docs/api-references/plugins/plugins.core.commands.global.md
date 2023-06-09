@@ -2,7 +2,11 @@
 
 The 'global' command collection.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

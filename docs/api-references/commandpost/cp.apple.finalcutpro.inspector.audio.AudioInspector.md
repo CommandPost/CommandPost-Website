@@ -41,20 +41,24 @@ You should also be able to show a specific property and it will be revealed:
 audio:stabilization():smoothing():show():value(1.5)
 ```
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [EQ_MODES](#eq_modes)
  * [PAN_MODES](#pan_modes)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [AudioInspector](#audioinspector)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [audioConfiguration](#audioconfiguration)
 
+
+---
 
 ## API Documentation
 

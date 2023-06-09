@@ -2,11 +2,15 @@
 
 MIDI Manager Plugin.
 
+---
+
 ## Submodules
  * [plugins.core.midi.manager.controls](plugins.core.midi.manager.controls.md)
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [defaultLayout](#defaultlayout)
  * [defaultLoupedeckLayout](#defaultloupedecklayout)
  * [defaultLoupedeckPlusLayout](#defaultloupedeckpluslayout)
@@ -14,7 +18,7 @@ MIDI Manager Plugin.
  * [learningMode](#learningmode)
  * [maxItems](#maxitems)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [devices](#devices)
  * [getDevice](#getdevice)
  * [getItem](#getitem)
@@ -23,7 +27,7 @@ MIDI Manager Plugin.
  * [update](#update)
  * [virtualDevices](#virtualdevices)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activeBanks](#activebanks)
  * [activeLoupedeckBanks](#activeloupedeckbanks)
  * [activeLoupedeckPlusBanks](#activeloupedeckplusbanks)
@@ -35,6 +39,8 @@ MIDI Manager Plugin.
  * [ignoreEverySecondP1ToP8WheelCommand](#ignoreeverysecondp1top8wheelcommand)
  * [numberOfMidiDevices](#numberofmididevices)
 
+
+---
 
 ## API Documentation
 

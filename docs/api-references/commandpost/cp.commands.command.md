@@ -2,12 +2,14 @@
 
 Commands Module.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [isActive](#isactive)
  * [isEnabled](#isenabled)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [action](#action)
  * [activated](#activated)
  * [activatedBy](#activatedby)
@@ -39,6 +41,8 @@ Commands Module.
  * [whenReleased](#whenreleased)
  * [whenRepeated](#whenrepeated)
 
+
+---
 
 ## API Documentation
 

@@ -2,13 +2,19 @@
 
 A `Statement.Modifier` that defines what value to set a `cp.prop` to.
 
+---
+
 ## Submodules
  * [cp.rx.go.SetProp.To.Then](cp.rx.go.SetProp.To.Then.md)
 
+---
+
 ## API Overview
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [Then](#then)
 
+
+---
 
 ## API Documentation
 

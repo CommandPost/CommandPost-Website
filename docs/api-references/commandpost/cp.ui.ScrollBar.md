@@ -2,27 +2,31 @@
 
 Provides access to `AXScrollBar` `axuielement` values.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [HORIZONTAL_ORIENTATION](#horizontal_orientation)
  * [VERTICAL_ORIENTATION](#vertical_orientation)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ScrollBar](#scrollbar)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [hidden](#hidden)
  * [horizontal](#horizontal)
  * [orientation](#orientation)
  * [value](#value)
  * [vertical](#vertical)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [loadLayout](#loadlayout)
  * [matches](#matches)
  * [saveLayout](#savelayout)
  * [shiftValueBy](#shiftvalueby)
 
+
+---
 
 ## API Documentation
 

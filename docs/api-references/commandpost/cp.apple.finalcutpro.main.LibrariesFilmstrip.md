@@ -2,8 +2,10 @@
 
 Libraries Filmstrip Module.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [clips](#clips)
  * [clipsUI](#clipsui)
  * [deselectAll](#deselectall)
@@ -18,16 +20,18 @@ Libraries Filmstrip Module.
  * [showClipAt](#showclipat)
  * [sortClips](#sortclips)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [playhead](#playhead)
  * [skimmingPlayhead](#skimmingplayhead)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

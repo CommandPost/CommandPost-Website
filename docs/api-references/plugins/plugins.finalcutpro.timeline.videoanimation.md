@@ -2,7 +2,11 @@
 
 Video Animation Actions
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

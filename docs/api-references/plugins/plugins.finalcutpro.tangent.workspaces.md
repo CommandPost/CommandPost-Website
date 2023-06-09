@@ -2,7 +2,11 @@
 
 Final Cut Pro Workspace Actions for Tangent
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

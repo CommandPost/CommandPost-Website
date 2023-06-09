@@ -85,18 +85,20 @@ from host: 192.168.0.3 port: 53057
 ```
 
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [timeout](#timeout)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [parseAddress](#parseaddress)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
  * [server](#server)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [broadcast](#broadcast)
  * [close](#close)
  * [closed](#closed)
@@ -118,6 +120,8 @@ from host: 192.168.0.3 port: 53057
  * [setTimeout](#settimeout)
  * [write](#write)
 
+
+---
 
 ## API Documentation
 

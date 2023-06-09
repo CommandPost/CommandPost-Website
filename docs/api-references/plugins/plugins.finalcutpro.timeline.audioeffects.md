@@ -2,10 +2,14 @@
 
 Controls Final Cut Pro's Audio Effects.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [audioeffects](#audioeffects)
 
+
+---
 
 ## API Documentation
 

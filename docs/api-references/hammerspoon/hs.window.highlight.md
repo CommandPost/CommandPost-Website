@@ -14,15 +14,19 @@ the window shown/hidden flashes - enable those with `hs.window.highlight.ui.flas
 you prefer). Isolate mode is always available and can be toggled manually via `hs.window.highlight.toggleIsolate()`
 or automatically by passing an appropriate windowfilter (or a list of apps) to `hs.window.highlight.start()`.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [ui](#ui)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [start](#start)
  * [stop](#stop)
  * [toggleIsolate](#toggleisolate)
 
+
+---
 
 ## API Documentation
 

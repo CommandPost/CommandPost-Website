@@ -2,7 +2,11 @@
 
 Manager for DaVinci Resolve's Tangent Support
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

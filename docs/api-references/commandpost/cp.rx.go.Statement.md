@@ -59,21 +59,25 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
 > late as possible, typically in the `onObservable` function handler. Otherwise, input values
 > may get resolved before the user intends.
 
+---
+
 ## Submodules
  * [cp.rx.go.Statement.Definition](cp.rx.go.Statement.Definition.md)
  * [cp.rx.go.Statement.Modifier](cp.rx.go.Statement.Modifier.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [defaultObserverFactory](#defaultobserverfactory)
  * [is](#is)
  * [toObservable](#toobservable)
  * [toObservables](#toobservables)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [named](#named)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [After](#after)
  * [Catch](#catch)
  * [Debug](#debug)
@@ -87,6 +91,8 @@ by calling the [Now](cp.rx.go.Statement.md#Now) or [After](cp.rx.go.Statement.md
  * [TimeoutAfter](#timeoutafter)
  * [toObservable](#toobservable)
 
+
+---
 
 ## API Documentation
 

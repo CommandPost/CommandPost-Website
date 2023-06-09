@@ -2,10 +2,14 @@
 
 A Table UI element. It extends [GridElement](cp.ui.GridElement.md), so will inherit all of its properties and methods.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
+
+---
 
 ## API Documentation
 

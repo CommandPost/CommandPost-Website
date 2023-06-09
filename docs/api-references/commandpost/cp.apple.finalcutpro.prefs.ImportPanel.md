@@ -2,11 +2,13 @@
 
 Import Panel Module.
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [ImportPanel](#importpanel)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [analyzeAudioProblems](#analyzeaudioproblems)
  * [analyzeBalanceColor](#analyzebalancecolor)
  * [assignAudioRole](#assignaudiorole)
@@ -23,9 +25,11 @@ Import Panel Module.
  * [removeSilentChannels](#removesilentchannels)
  * [separateMonoGroupStereoAudio](#separatemonogroupstereoaudio)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [toggleMediaLocation](#togglemedialocation)
 
+
+---
 
 ## API Documentation
 

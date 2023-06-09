@@ -2,13 +2,17 @@
 
 Plugins Preferences Panel
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [SETTINGS_DISABLED](#settings_disabled)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [init](#init)
 
+
+---
 
 ## API Documentation
 

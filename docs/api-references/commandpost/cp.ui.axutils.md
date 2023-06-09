@@ -2,12 +2,16 @@
 
 Utility functions to support `hs.axuielement`.
 
+---
+
 ## Submodules
  * [cp.ui.axutils.compare](cp.ui.axutils.compare.md)
  * [cp.ui.axutils.match](cp.ui.axutils.match.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [cache](#cache)
  * [childAtIndex](#childatindex)
  * [childFromBottom](#childfrombottom)
@@ -42,6 +46,8 @@ Utility functions to support `hs.axuielement`.
  * [withTitle](#withtitle)
  * [withValue](#withvalue)
 
+
+---
 
 ## API Documentation
 

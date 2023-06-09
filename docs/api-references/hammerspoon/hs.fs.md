@@ -4,12 +4,16 @@ Access/inspect the filesystem
 
 This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.github.io/luafilesystem/). It has been modified to remove functions which do not apply to macOS filesystems and additional functions providing macOS specific filesystem information have been added.
 
+---
+
 ## Submodules
  * [hs.fs.volume](hs.fs.volume.md)
  * [hs.fs.xattr](hs.fs.xattr.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [attributes](#attributes)
  * [chdir](#chdir)
  * [currentDir](#currentdir)
@@ -37,6 +41,8 @@ This module is partial superset of LuaFileSystem 1.8.0 (http://keplerproject.git
  * [unlock](#unlock)
  * [urlFromPath](#urlfrompath)
 
+
+---
 
 ## API Documentation
 

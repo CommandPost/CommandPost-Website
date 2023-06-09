@@ -2,21 +2,27 @@
 
 UI Group.
 
+---
+
 ## Submodules
  * [cp.ui.Group.Builder](cp.ui.Group.Builder.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [containing](#containing)
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Group](#group)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [children](#children)
  * [childrenUI](#childrenui)
 
+
+---
 
 ## API Documentation
 

@@ -2,8 +2,10 @@
 
 Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md)
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [area](#area)
  * [collapseSubroles](#collapsesubroles)
@@ -12,7 +14,7 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
  * [list](#list)
  * [showAudioLanes](#showaudiolanes)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [allRoles](#allroles)
  * [audioRoles](#audioroles)
  * [captionRoles](#captionroles)
@@ -30,6 +32,8 @@ Provides access to the 'Roles' section of the [Timeline Index](cp.apple.finalcut
  * [saveLayout](#savelayout)
  * [videoRoles](#videoroles)
 
+
+---
 
 ## API Documentation
 

@@ -38,12 +38,16 @@ ParameterizedAttributes:
 
    * The specific value required for a each parameterized attribute is different and is often application specific thus requiring some experimentation. Notes regarding identified parameter types and thoughts on some still being investigated will be provided in the Hammerspoon Wiki, hopefully shortly after this module becomes part of a Hammerspoon release.
 
+---
+
 ## Submodules
  * [hs.axuielement.axtextmarker](hs.axuielement.axtextmarker.md)
  * [hs.axuielement.observer](hs.axuielement.observer.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [actions](#actions)
  * [attributes](#attributes)
  * [orientations](#orientations)
@@ -54,17 +58,17 @@ ParameterizedAttributes:
  * [subroles](#subroles)
  * [units](#units)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [searchCriteriaFunction](#searchcriteriafunction)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [applicationElement](#applicationelement)
  * [applicationElementForPID](#applicationelementforpid)
  * [systemElementAtPosition](#systemelementatposition)
  * [systemWideElement](#systemwideelement)
  * [windowElement](#windowelement)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [actionDescription](#actiondescription)
  * [actionNames](#actionnames)
  * [allAttributeValues](#allattributevalues)
@@ -90,6 +94,8 @@ ParameterizedAttributes:
  * [setAttributeValue](#setattributevalue)
  * [setTimeout](#settimeout)
 
+
+---
 
 ## API Documentation
 

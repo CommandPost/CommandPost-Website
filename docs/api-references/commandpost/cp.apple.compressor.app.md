@@ -2,7 +2,11 @@
 
 The `cp.app` for Apple's Compressor.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

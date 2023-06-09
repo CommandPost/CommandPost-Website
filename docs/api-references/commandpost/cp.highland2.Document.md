@@ -2,11 +2,13 @@
 
 Highland 2 Document [Window](cp.ui.Window.md) extension.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [matches](#matches)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [documentPath](#documentpath)
  * [doShow](#doshow)
  * [revisionMode](#revisionmode)
@@ -17,6 +19,8 @@ Highland 2 Document [Window](cp.ui.Window.md) extension.
  * [text](#text)
  * [themePicker](#themepicker)
 
+
+---
 
 ## API Documentation
 

@@ -2,11 +2,13 @@
 
 Allows managing values/IDs which can vary between versions.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [currentVersion](#currentversion)
  * [load](#load)
  * [of](#of)
@@ -14,6 +16,8 @@ Allows managing values/IDs which can vary between versions.
  * [previousVersion](#previousversion)
  * [versions](#versions)
 
+
+---
 
 ## API Documentation
 

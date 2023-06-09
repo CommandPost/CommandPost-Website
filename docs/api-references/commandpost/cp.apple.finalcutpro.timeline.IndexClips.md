@@ -4,14 +4,18 @@
 
 Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcutpro.timeline.Index.md)
 
+---
+
 ## Submodules
  * [cp.apple.finalcutpro.timeline.IndexClips.Type](cp.apple.finalcutpro.timeline.IndexClips.Type.md)
 
+---
+
 ## API Overview
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [IndexClips](#indexclips)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [activate](#activate)
  * [all](#all)
  * [audio](#audio)
@@ -20,7 +24,7 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
  * [type](#type)
  * [video](#video)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [doFindAuditions](#dofindauditions)
  * [doFindClipsContaining](#dofindclipscontaining)
  * [doFindCompoundClips](#dofindcompoundclips)
@@ -34,6 +38,8 @@ Provides access to the 'Clips' section of the [Timeline Index](cp.apple.finalcut
  * [doShowVideo](#doshowvideo)
  * [saveLayout](#savelayout)
 
+
+---
 
 ## API Documentation
 

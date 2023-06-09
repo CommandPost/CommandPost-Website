@@ -3,17 +3,19 @@
 A token passed to test functions to allow them to indicate if a test [run](cp.spec.Run.md)
 will complete asynchronously.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [state](#state)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [defaultTimeout](#defaulttimeout)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [This](#this)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [abort](#abort)
  * [cleanup](#cleanup)
  * [done](#done)
@@ -29,6 +31,8 @@ will complete asynchronously.
  * [toObserver](#toobserver)
  * [wait](#wait)
 
+
+---
 
 ## API Documentation
 

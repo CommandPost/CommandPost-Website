@@ -2,10 +2,14 @@
 
 FCPXML Panel for the Final Cut Pro HUD.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [lastValue](#lastvalue)
 
+
+---
 
 ## API Documentation
 

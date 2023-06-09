@@ -2,27 +2,29 @@
 
 Represents a single property row, typically in a Property Inspector.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [intersectBuffer](#intersectbuffer)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [isParent](#isparent)
  * [matches](#matches)
  * [parentUIFinder](#parentuifinder)
  * [prepareParent](#prepareparent)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [PropertyRow](#propertyrow)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [label](#label)
  * [labelUI](#labelui)
  * [propertiesUI](#propertiesui)
  * [reset](#reset)
  * [UI](#ui)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [app](#app)
  * [children](#children)
  * [doHide](#dohide)
@@ -33,6 +35,8 @@ Represents a single property row, typically in a Property Inspector.
  * [parent](#parent)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -2,15 +2,17 @@
 
 A Window UI element.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [findSectionUI](#findsectionui)
  * [matches](#matches)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Window](#window)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [alert](#alert)
  * [exists](#exists)
  * [focused](#focused)
@@ -25,7 +27,7 @@ A Window UI element.
  * [UI](#ui)
  * [visible](#visible)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [close](#close)
  * [doClose](#doclose)
  * [doFocus](#dofocus)
@@ -34,6 +36,8 @@ A Window UI element.
  * [notifier](#notifier)
  * [snapshot](#snapshot)
 
+
+---
 
 ## API Documentation
 

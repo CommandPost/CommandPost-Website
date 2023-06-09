@@ -2,7 +2,11 @@
 
 Actions for selecting libraries
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

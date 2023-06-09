@@ -2,23 +2,27 @@
 
 Pasteboard History
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [FILE_NAME](#file_name)
  * [FOLDER_NAME](#folder_name)
  * [HISTORY_MAXIMUM_SIZE](#history_maximum_size)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [addHistoryItem](#addhistoryitem)
  * [clearHistory](#clearhistory)
  * [doPasteHistoryItem](#dopastehistoryitem)
  * [init](#init)
  * [update](#update)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [_history](#_history)
  * [enabled](#enabled)
 
+
+---
 
 ## API Documentation
 

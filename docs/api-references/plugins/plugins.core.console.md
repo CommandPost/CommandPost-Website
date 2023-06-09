@@ -2,17 +2,23 @@
 
 Search Console
 
+---
+
 ## Submodules
  * [plugins.core.console.applications](plugins.core.console.applications.md)
  * [plugins.core.console.keyboardmaestromacros](plugins.core.console.keyboardmaestromacros.md)
  * [plugins.core.console.preferences](plugins.core.console.preferences.md)
  * [plugins.core.console.scripts](plugins.core.console.scripts.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [register](#register)
  * [show](#show)
 
+
+---
 
 ## API Documentation
 

@@ -2,10 +2,14 @@
 
 Orders clips on a timeline by timecode.
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [removeGaps](#removegaps)
 
+
+---
 
 ## API Documentation
 

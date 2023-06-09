@@ -2,7 +2,11 @@
 
 Color Wheel Enhancements.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

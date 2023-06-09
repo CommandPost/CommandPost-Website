@@ -11,6 +11,8 @@ In general, the functions in this module come in two categories:
 The second category of functions are called "combinators". A combinator is a function that returns a new function,
 often with configuration parameters passed in.
 
+---
+
 ## Submodules
  * [cp.fn.args](cp.fn.args.md)
  * [cp.fn.ax](cp.fn.ax.md)
@@ -19,8 +21,10 @@ often with configuration parameters passed in.
  * [cp.fn.table](cp.fn.table.md)
  * [cp.fn.value](cp.fn.value.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [all](#all)
  * [any](#any)
  * [call](#call)
@@ -44,6 +48,8 @@ often with configuration parameters passed in.
  * [uncurry](#uncurry)
  * [with](#with)
 
+
+---
 
 ## API Documentation
 

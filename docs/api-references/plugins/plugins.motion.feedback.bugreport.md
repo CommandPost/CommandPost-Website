@@ -2,18 +2,22 @@
 
 Sends Apple a Bug Report or Feature Request for Motion.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DEFAULT_HEIGHT](#default_height)
  * [DEFAULT_TITLE](#default_title)
  * [DEFAULT_WIDTH](#default_width)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [open](#open)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [position](#position)
 
+
+---
 
 ## API Documentation
 

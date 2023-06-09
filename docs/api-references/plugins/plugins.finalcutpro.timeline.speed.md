@@ -2,7 +2,11 @@
 
 Speed Related Actions
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

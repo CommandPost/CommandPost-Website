@@ -2,8 +2,10 @@
 
 Blackmagic DaVinci Resolve Control Surface Preferences Panel
 
+---
+
 ## API Overview
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [changeBankOnHardwareWhenChangingHere](#changebankonhardwarewhenchanginghere)
  * [displayMessageWhenChangingBanks](#displaymessagewhenchangingbanks)
  * [lastDevice](#lastdevice)
@@ -13,9 +15,11 @@ Blackmagic DaVinci Resolve Control Surface Preferences Panel
  * [pasteboard](#pasteboard)
  * [snippetsRefreshFrequency](#snippetsrefreshfrequency)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [setItem](#setitem)
 
+
+---
 
 ## API Documentation
 

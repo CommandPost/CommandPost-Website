@@ -2,11 +2,15 @@
 
 Adds the ability to control any Final Cut Pro User Interface Element via a MIDI Knob/Slider.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [control](#control)
  * [init](#init)
 
+
+---
 
 ## API Documentation
 

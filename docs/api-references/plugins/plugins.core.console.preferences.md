@@ -2,11 +2,15 @@
 
 Preferences for the Search Console.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [scanRunningApplicationMenubarsOnStartup](#scanrunningapplicationmenubarsonstartup)
  * [scanTheMenubarsOfTheActiveApplication](#scanthemenubarsoftheactiveapplication)
 
+
+---
 
 ## API Documentation
 

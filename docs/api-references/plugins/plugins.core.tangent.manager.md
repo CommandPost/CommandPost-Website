@@ -8,6 +8,8 @@ panels (Element, Virtual Element Apps, Wave, Ripple and any future panels).
 Download the Tangent Developer Support Pack & Tangent Hub Installer for Mac
 here: http://www.tangentwave.co.uk/developer-support
 
+---
+
 ## Submodules
  * [plugins.core.tangent.manager.action](plugins.core.tangent.manager.action.md)
  * [plugins.core.tangent.manager.binding](plugins.core.tangent.manager.binding.md)
@@ -19,21 +21,23 @@ here: http://www.tangentwave.co.uk/developer-support
  * [plugins.core.tangent.manager.named](plugins.core.tangent.manager.named.md)
  * [plugins.core.tangent.manager.parameter](plugins.core.tangent.manager.parameter.md)
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [APPLICATION_NAME_SUFFIX](#application_name_suffix)
  * [MAXIMUM_CONNECTIONS](#maximum_connections)
  * [NUMBER_OF_FAVOURITES](#number_of_favourites)
  * [USER_CONTROL_MAPS_FOLDER](#user_control_maps_folder)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [applicationNameToGroupID](#applicationnametogroupid)
  * [customApplications](#customapplications)
  * [enabled](#enabled)
  * [tangentHubInstalled](#tangenthubinstalled)
  * [tangentMapperInstalled](#tangentmapperinstalled)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [applicationNames](#applicationnames)
  * [getConnection](#getconnection)
  * [launchTangentMapper](#launchtangentmapper)
@@ -42,6 +46,8 @@ here: http://www.tangentwave.co.uk/developer-support
  * [removeCustomApplication](#removecustomapplication)
  * [setupCustomApplications](#setupcustomapplications)
 
+
+---
 
 ## API Documentation
 

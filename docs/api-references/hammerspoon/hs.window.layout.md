@@ -67,20 +67,22 @@ results will be unpredictable (if such a situation is detected, you'll see an er
 Each layout can have an associated screen configuration; if so, the layout will only be valid while the current screen
 arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for more information.
 
+---
+
 ## API Overview
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [applyDelay](#applydelay)
  * [screensChangedDelay](#screenschangeddelay)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [applyLayout](#applylayout)
  * [pauseAllInstances](#pauseallinstances)
  * [resumeAllInstances](#resumeallinstances)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [apply](#apply)
  * [getRules](#getrules)
  * [pause](#pause)
@@ -89,6 +91,8 @@ arrangement satisfies it; see `hs.window.layout:setScreenConfiguration()` for mo
  * [start](#start)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

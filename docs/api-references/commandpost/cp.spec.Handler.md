@@ -5,14 +5,16 @@ All methods do nothing.
 
 See [DefaultHandler](cp.spec.DefaultHandler.md).
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [default](#default)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Handler](#handler)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [aborted](#aborted)
  * [checkVerbose](#checkverbose)
  * [failed](#failed)
@@ -24,6 +26,8 @@ See [DefaultHandler](cp.spec.DefaultHandler.md).
  * [verbose](#verbose)
  * [waiting](#waiting)
 
+
+---
 
 ## API Documentation
 

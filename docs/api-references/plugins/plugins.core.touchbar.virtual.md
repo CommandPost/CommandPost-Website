@@ -2,16 +2,18 @@
 
 Virtual Touch Bar Manager
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [LOCATION_DEFAULT_VALUE](#location_default_value)
  * [LOCATION_DRAGGABLE](#location_draggable)
  * [LOCATION_MOUSE](#location_mouse)
 
-### **Variables** - _Configurable values_
+**Variables** - _Configurable values_
  * [updateLocationCallback](#updatelocationcallback)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [callback](#callback)
  * [hide](#hide)
  * [init](#init)
@@ -21,13 +23,15 @@ Virtual Touch Bar Manager
  * [touchbar](#touchbar)
  * [update](#update)
 
-### **Fields** - _Variables which can only be accessed from an object returned by a constructor_
+**Fields** - _Variables which can only be accessed from an object returned by a constructor_
  * [enabled](#enabled)
  * [isActive](#isactive)
  * [lastLocation](#lastlocation)
  * [macOSVersionSupported](#macosversionsupported)
  * [supported](#supported)
 
+
+---
 
 ## API Documentation
 

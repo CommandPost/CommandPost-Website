@@ -5,18 +5,22 @@ _Extends:_ [Statement](cp.rx.go.Statement.md)
 A [Statement](cp.rx.go.Statement.md) that will retry the contained statement if there is an error.
 It can be limited to a set number of retries, and have a delay added between retries.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [DelayedBy](#delayedby)
  * [UpTo](#upto)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [Retry](#retry)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [DelayedBy](#delayedby)
  * [UpTo](#upto)
 
+
+---
 
 ## API Documentation
 

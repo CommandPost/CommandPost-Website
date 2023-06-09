@@ -2,19 +2,21 @@
 
 CommandPost Setup Window Panel.
 
+---
+
 ## API Overview
-### **Constants** - _Useful values which cannot be changed_
+**Constants** - _Useful values which cannot be changed_
  * [WEBVIEW_LABEL](#webview_label)
 
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [panelCount](#panelcount)
  * [panelNumber](#panelnumber)
  * [panelQueue](#panelqueue)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [addButton](#addbutton)
  * [addCheckbox](#addcheckbox)
  * [addContent](#addcontent)
@@ -29,6 +31,8 @@ CommandPost Setup Window Panel.
  * [addTextbox](#addtextbox)
  * [getHandler](#gethandler)
 
+
+---
 
 ## API Documentation
 

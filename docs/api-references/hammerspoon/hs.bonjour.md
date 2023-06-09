@@ -4,24 +4,30 @@ Find and publish network services advertised by multicast DNS (Bonjour) with Ham
 
 This module will allow you to discover services advertised on your network through multicast DNS and publish services offered by your computer.
 
+---
+
 ## Submodules
  * [hs.bonjour.service](hs.bonjour.service.md)
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [machineServices](#machineservices)
  * [networkServices](#networkservices)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [new](#new)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [findBrowsableDomains](#findbrowsabledomains)
  * [findRegistrationDomains](#findregistrationdomains)
  * [findServices](#findservices)
  * [includesPeerToPeer](#includespeertopeer)
  * [stop](#stop)
 
+
+---
 
 ## API Documentation
 

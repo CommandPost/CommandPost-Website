@@ -33,21 +33,25 @@ local value = clamped(-1, 0, 100):get()
 
 If you want to perform other tasks, check for `.failure` or `.success` and perform the appropriate response.
 
+---
+
 ## API Overview
-### **Functions** - _API calls offered directly by the extension_
+**Functions** - _API calls offered directly by the extension_
  * [is](#is)
 
-### **Constructors** - _API calls which return an object, typically one that offers API methods_
+**Constructors** - _API calls which return an object, typically one that offers API methods_
  * [failure](#failure)
  * [from](#from)
  * [okValue](#okvalue)
  * [success](#success)
  * [valueErr](#valueerr)
 
-### **Methods** - _API calls which can only be made on an object returned by a constructor_
+**Methods** - _API calls which can only be made on an object returned by a constructor_
  * [get](#get)
  * [log](#log)
 
+
+---
 
 ## API Documentation
 

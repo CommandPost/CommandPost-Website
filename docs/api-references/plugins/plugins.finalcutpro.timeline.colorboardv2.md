@@ -2,7 +2,11 @@
 
 Color Board Plugins.
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

@@ -2,7 +2,11 @@
 
 Actions for changing the Timeline Horizontally
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 

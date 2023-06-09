@@ -8,7 +8,11 @@ any string can be easily interpolated, like so:
 "Hello ${world}" % { world = "Earth" }
 ```
 
+---
+
 ## API Overview
+
+---
 
 ## API Documentation
 
