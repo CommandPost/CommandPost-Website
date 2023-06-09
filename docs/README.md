@@ -18,10 +18,10 @@ It's been used for projects at **Netflix**, **Pixar** and the **BBC**. People at
 
 ### Built for Professionals
 
-> “Titles to keywords is a huge timesaver when editing complex scenes. Couldn’t live  without it anymore. And directors love that every delivery of any line from any take I just one click away.”_<br />
-> **[Knut Hake*](http://www.knuthake.de){target="_blank"} (Editor on Netflix's Blood Red Sky)**
+> _“ Titles to keywords is a huge timesaver when editing complex scenes. Couldn’t live  without it anymore. And directors love that every delivery of any line from any take I just one click away. ”_<br />
+> **[Knut Hake](http://www.knuthake.de){target="_blank"} (Editor on Netflix's Blood Red Sky)**
 
-> _“Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters.”_<br />
+> _“ Chris, you have no idea how helpful your Titles to Keywords toolbox has been on our latest production. Without the toolbox these 2-3 hour long timelines (around 900 keywords) would have been nearly impossible to tag with the FCP built in way. It's very long scenes with around 50 lines of text for all characters. ”_<br />
 > **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/){target="_blank"} (Assistant Editor on Netflix's Blood Red Sky)**
 
 **Blood & Gold** was cut on Final Cut Pro and made extensive use of CommandPost's [Titles to Keywords Toolbox](https://commandpost.io/toolbox/titles-to-keywords/).
@@ -34,7 +34,7 @@ We also developed specific features for [Apollo: Missions to the Moon](https://w
 
 ### Where Technology Meets Creativity
 
-> _“CommandPost and FCP are so intertwined on my day to day that I see them as one app”._<br />
+> _“ CommandPost and FCP are so intertwined on my day to day that I see them as one app ”._<br />
 > **[Marcos Castiel BFE](http://www.marcoscastiel.com/){target="_blank"}**
 
 CommandPost has been **built by filmmakers, for filmmakers**.
@@ -47,7 +47,7 @@ However, it's also used by developers, scientists and macOS power users all over
 
 ### Experience Unparalleled Control
 
-> _“As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable”._
+> _“ As someone who doesn’t like clicking to do things, CommandPost makes my work much more likeable ”._
 > **[Oli Frost](https://olifro.st/){target="_blank"}**
 
 CommandPost has deep support for a wide range of **control surfaces**.
