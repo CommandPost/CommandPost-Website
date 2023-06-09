@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739622232864">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -33,12 +33,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon" />
-    <link href="../../resources/css/retype.css?v=3.0.3.739622232864" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739622232864" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739622232864" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739622232864" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=3.0.3.739627089413" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -295,59 +295,55 @@
         <span>Snippets</span>
     </h1>
 </doc-anchor-target>
-<hr />
 <p>CommandPost allows you to create Lua code snippets, which appear as actions in CommandPost&#x27;s Search Console.</p>
 <p>This means you can trigger a Snippet via a shortcut key or control surface button.</p>
 <p>For example, to launch Final Cut Pro, you can use this simple Lua code:</p>
 <p><code v-pre>cp.apple.finalcutpro:launch()</code></p>
-<p>CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the Hammerspoon website:</p>
-<p><a href="http://www.hammerspoon.org/go/">http://www.hammerspoon.org/go/</a></p>
-<p>You can learn more about Lua here:</p>
-<p><a href="https://dev.commandpost.io/lua/lua-overview">https://dev.commandpost.io/lua/lua-overview</a></p>
-<p>Here&#x27;s a link to Hammerspoon&#x27;s API reference:</p>
-<p><a href="http://www.hammerspoon.org/docs/index.html">http://www.hammerspoon.org/docs/index.html</a></p>
+<p>CommandPost is also compatible with Hammerspoon, so you can also use any of the examples on the <a href="http://www.hammerspoon.org/go/" target="_blank">Hammerspoon website</a>.</p>
+<p>You can learn more about Lua <a href="../../developer/lua-overview/">here</a></p>
+<p>You can find the Hammerspoon API reference <a href="../../api-references/hammerspoon/hs/">here</a>.</p>
 <p>Here&#x27;s some direct links to some useful Hammerspoon functions:</p>
 <ul>
-<li><a href="http://www.hammerspoon.org/docs/hs.timer.html#usleep"><code v-pre>hs.timer.usleep(microsecs)</code></a> - Add a delay</li>
-<li><a href="http://www.hammerspoon.org/docs/hs.eventtap.html#keyStroke"><code v-pre>hs.eventtap.keyStroke(modifiers, character[, delay, application])</code></a> - Trigger a virtual key stroke</li>
-<li><a href="http://www.hammerspoon.org/docs/hs.application.html#selectMenuItem"><code v-pre>hs.application:selectMenuItem(menuitem[, isRegex])</code></a> - Trigger an application menu item</li>
+<li><a href="../../api-references/hammerspoon/hs.timer/"><code v-pre>hs.timer.usleep(microsecs)</code></a> - <strong>Add a delay</strong></li>
+<li><a href="../../api-references/hammerspoon/hs.eventtap/"><code v-pre>hs.eventtap.keyStroke(modifiers, character[, delay, application])</code></a> - <strong>Trigger a virtual key stroke</strong></li>
+<li><a href="../../api-references/hammerspoon/hs.application/"><code v-pre>hs.application:selectMenuItem(menuitem[, isRegex])</code></a> - <strong>Trigger an application menu item</strong></li>
 </ul>
 <p>Here&#x27;s some direct links to some useful CommandPost functions:</p>
 <ul>
-<li><a href="https://dev.commandpost.io/commandpost-api/cp.tools"><code v-pre>cp.tools</code></a></li>
+<li><a href="../../api-references/commandpost/cp.tools/"><code v-pre>cp.tools</code></a></li>
 </ul>
 <hr />
 <doc-anchor-target id="examples">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#examples">#</doc-anchor-trigger>
         <span>Examples</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
 <doc-anchor-target id="press-cmdc">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#press-cmdc">#</doc-anchor-trigger>
         <span>Press &quot;CMD+C&quot;</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;cmd&quot;}, &quot;c&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="type-test">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#type-test">#</doc-anchor-trigger>
         <span>Type &quot;test&quot;</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStrokes(&quot;test&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="trigger-shortcuts-with-delays-in-between">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#trigger-shortcuts-with-delays-in-between">#</doc-anchor-trigger>
         <span>Trigger Shortcuts with Delay&#x27;s in-between</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">-- Type &quot;t&quot;
@@ -361,10 +357,10 @@ hs.eventtap.keyStroke({}, &quot;e&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="forcefully-restart-an-application-by-its-bundle-identifier">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#forcefully-restart-an-application-by-its-bundle-identifier">#</doc-anchor-trigger>
         <span>Forcefully restart an application by its bundle identifier</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">local bundleID = &quot;com.logitech.manager.daemon&quot;
@@ -376,10 +372,10 @@ hs.application.launchOrFocusByBundleID(bundleID)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="select-all-even-clips-in-a-timeline">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#select-all-even-clips-in-a-timeline">#</doc-anchor-trigger>
         <span>Select all even clips in a timeline</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">cp.apple.finalcutpro:launch()
@@ -395,10 +391,10 @@ cp.apple.finalcutpro:timeline():contents():selectClips(evenClips)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="go-back-500-frames-and-play">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#go-back-500-frames-and-play">#</doc-anchor-trigger>
         <span>Go back 500 frames and play</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({}, &quot;-&quot;, 0)
@@ -411,10 +407,10 @@ cp.apple.finalcutpro:doShortcut(&quot;JogForward&quot;):Now()</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="audio-cross-dissolve-backward-j-cut">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-backward-j-cut">#</doc-anchor-trigger>
         <span>Audio Cross Dissolve Backward (J-Cut)</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
@@ -434,10 +430,10 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;, 0)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="audio-cross-dissolve-centre">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-centre">#</doc-anchor-trigger>
         <span>Audio Cross Dissolve Centre</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;]&quot;, 0)
@@ -466,10 +462,10 @@ hs.eventtap.keyStroke({&quot;ctrl&quot;}, &quot;s&quot;)</code></pre>
 </doc-codeblock></div>
 <hr />
 <doc-anchor-target id="audio-cross-dissolve-forward-l-cut">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#audio-cross-dissolve-forward-l-cut">#</doc-anchor-trigger>
         <span>Audio Cross Dissolve Forward (L-Cut)</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-lua"><code v-pre class="language-lua">hs.eventtap.keyStroke({&quot;shift&quot;}, &quot;[&quot;, 0)

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739622232864">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739627089413">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Frequently Asked Questions</title>
     <meta name="title" content="Frequently Asked Questions">
-    <meta name="description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014." />
+    <meta name="description" content="If you're using macOS Catalina or later, CommandPost requires the Screen Recording permission to detect things on your screen." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://commandpost.io/faq/" />
@@ -20,24 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://commandpost.io/faq/">
     <meta property="og:title" content="Frequently Asked Questions">
-    <meta property="og:description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014.">
+    <meta property="og:description" content="If you're using macOS Catalina or later, CommandPost requires the Screen Recording permission to detect things on your screen.">
     <meta property="og:image" content="https://commandpost.io/static/thumbnail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://commandpost.io/faq/">
     <meta property="twitter:title" content="Frequently Asked Questions">
-    <meta property="twitter:description" content="Moveable Markers was first discovered by Alex Goldner back in June 2014.">
+    <meta property="twitter:description" content="If you're using macOS Catalina or later, CommandPost requires the Screen Recording permission to detect things on your screen.">
     <meta property="twitter:image" content="https://commandpost.io/static/thumbnail.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon" />
-    <link href="../resources/css/retype.css?v=3.0.3.739622232864" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.739627089413" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739622232864" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739622232864" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739627089413" data-turbo-eval="false" defer></script>
 
     <style>
         /* Hide Logos on Mobile */
@@ -294,15 +294,44 @@
         <span>Frequently Asked Questions</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="why-does-commandpost-require-screen-recording-permissions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-does-commandpost-require-screen-recording-permissions">#</doc-anchor-trigger>
+        <span>Why does CommandPost require &quot;Screen Recording&quot; permissions?</span>
+    </h3>
+</doc-anchor-target>
+<p>If you&#x27;re using macOS Catalina or later, CommandPost requires the <strong>Screen Recording</strong> permission to detect things on your screen.</p>
+<p>This is a new Security Setting in macOS Catalina, not a change to how CommandPost works.</p>
+<p><strong>CommandPost does not record the screen.</strong></p>
+<p>We&#x27;re not &quot;recording&quot; the screen as a video like a QuickTime Player or a screen recording application would do - we&#x27;re simply using Apple&#x27;s APIs to get access to information about the contents of the screen.</p>
+<p>We use Apple&#x27;s API&#x27;s to get the name of windows that are open.</p>
+<p>We also use the API&#x27;s to help detect when Final Cut Pro is playing and paused, by &quot;looking&quot; at the play/pause button in the Viewer.</p>
+<p><strong>Nothing is saved to disk. Nothing is transmitted online.</strong></p>
+<p>We simply use Apple&#x27;s APIs to access screen information.</p>
+<p>We also have the option of <strong>OPTIONALLY</strong> sending screenshots when you submit feedback.</p>
+<p>Lots of other applications like <a href="https://www.macbartender.com/Screen-Recording-Permission/" target="_blank">Bartender</a> and <a href="https://folivora.ai/blog/post/13011/" target="_blank">BetterTouchTool</a> have this same limitation.</p>
+<p>Also remember, CommandPost is totally open-source, so you can always <a href="https://github.com/CommandPost/CommandPost" target="_blank">inspect the code</a> to see what we&#x27;re doing.</p>
+<hr />
+<doc-anchor-target id="why-did-you-remove-the-vimeo-toolbox">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-did-you-remove-the-vimeo-toolbox">#</doc-anchor-trigger>
+        <span>Why did you remove the &quot;Vimeo Toolbox&quot;?</span>
+    </h3>
+</doc-anchor-target>
+<p>The Vimeo Toolbox has &quot;graduated&quot; from CommandPost and has been spun out into a standalone commercial app called Marker Toolbox.</p>
+<p>It&#x27;s our intention to &quot;spin out&quot; a lot of CommandPost&#x27;s features into standalone apps with enhancements over the coming years.</p>
+<p>However, you can still use Vimeo Toolbox in <a href="https://github.com/CommandPost/CommandPost/releases" target="_blank">older versions of CommandPost</a> - no one if forcing you to update CommandPost if you rely on this functionality.</p>
+<p>You can learn more about Marker Toolbox <a href="https://markertoolbox.io" target="_blank">here</a>.</p>
+<hr />
 <doc-anchor-target id="why-did-you-remove-moveable-markers">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#why-did-you-remove-moveable-markers">#</doc-anchor-trigger>
         <span>Why did you remove &quot;Moveable Markers&quot;?</span>
     </h3>
 </doc-anchor-target>
-<p>Moveable Markers was <a href="http://alex4d.com/notes/item/fcpx-movable-markers">first discovered</a> by Alex Goldner back in June 2014.</p>
+<p>Moveable Markers was <a href="http://alex4d.com/notes/item/fcpx-movable-markers" target="_blank">first discovered</a> by <strong>Alex Goldner</strong> back in June 2014.</p>
 <p>To enable it, you basically just need to toggle a boolean hidden within a preference file inside the Final Cut Pro Library.</p>
-<p>In the early days of <a href="https://latenitefilms.com/blog/fcpx-hacks">FCPX Hacks</a> we added an option for Moveable Markers which enables them using the same technique Alex found, except it allowed users to easily toggle the feature on and off using the menu bar or shortcut keys.</p>
+<p>In the early days of <a href="https://latenitefilms.com/blog/final-cut-pro-hacks/" target="_blank">FCPX Hacks</a> we added an option for Moveable Markers which enables them using the same technique Alex found, except it allowed users to easily toggle the feature on and off using the menu bar or shortcut keys.</p>
 <p>When we transitioned FCPX Hacks to CommandPost, we kept this feature, however we&#x27;ve since decided that it&#x27;s probably a bad idea to modify the contents of the Final Cut Pro application bundle, so we removed this feature all together, along with other features that modify the contents of the Final Cut Pro application bundle (such as inserting our commands into the Final Cut Pro Command Editor).</p>
 <p>We want CommandPost to be as safe and reliable as possible, and we want to avoid using &quot;hacks&quot; to make things happen.</p>
 <p>The easiest way to enable Moveable Markers is via Terminal.</p>
@@ -322,7 +351,7 @@
 <p>Unfortunately Apple removed the hidden &quot;Show Timeline in Viewers&quot; preference in Final Cut Pro 10.4.9.</p>
 <p>As CommandPost is just enabling this hidden preference, unfortunately there&#x27;s nothing we can do to bring it back.</p>
 <p>However, you can still use this feature if you&#x27;re using Final Cut Pro 10.4.4 to 10.4.8.</p>
-<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro.html">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
+<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro/" target="_blank">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
 <hr />
 <doc-anchor-target id="why-did-you-remove-the-hidden-fcpxml-importexport-option">
     <h3>
@@ -333,7 +362,7 @@
 <p>Unfortunately Apple removed the &quot;Hidden FCPXML Import/Export Option&quot; preferences in Final Cut Pro 10.4.9.</p>
 <p>As CommandPost is just enabling these hidden preferences, unfortunately there&#x27;s nothing we can do to bring them back.</p>
 <p>However, you can still use these features if you&#x27;re using Final Cut Pro 10.4.4 to 10.4.8.</p>
-<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro.html">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
+<p>If you found this feature useful, please <a href="https://www.apple.com/feedback/finalcutpro/" target="_blank">send feedback to Apple</a> explaining how you used it and why you found it useful.</p>
 <hr />
 <script src="https://giscus.app/client.js"
         data-repo="CommandPost/CommandPost"
