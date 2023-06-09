@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -468,10 +468,10 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="variables">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
         <span>Variables</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="applydelay">
     <h3>
@@ -499,6 +499,10 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
 <tr>
 <td><strong>Description</strong></td>
 <td>When &quot;active mode&quot; windowlayouts apply a rule, they will pause briefly for this amount of time in seconds, to allow windows</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -531,15 +535,19 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
 <td><strong>Description</strong></td>
 <td>The number of seconds to wait, after a screen configuration change has been detected, before</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="applylayout">
     <h3>
@@ -671,10 +679,10 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -720,10 +728,10 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="apply">
     <h3>
@@ -913,7 +921,7 @@ arrangement satisfies it; see <code v-pre>hs.window.layout:setScreenConfiguratio
 <code v-pre>false</code> - the screen must be currently absent
 an <code v-pre>hs.geometry</code> point (or constructor argument) - the screen must be present and in this specific position in the current arrangement (as per <code v-pre>hs.screen:position()</code>)</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the <code v-pre>hs.window.layout</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If <code v-pre>screens</code> is <code v-pre>nil</code>, any previous screen configuration is removed, and this windowlayout will be always allowed</li><li>For &quot;active&quot; windowlayouts, call this method <em>before</em> calling <code v-pre>hs.window.layout:start()</code></li><li>By using <code v-pre>hs.geometry</code> size objects as hints you can define separate layouts for the same physical screen at different resolutions</li><li>With this method you can define different windowlayouts for different screen configurations (as per System Preferences-&gt;Displays-&gt;Arrangement).</li><li>For example, suppose you define two &quot;graphics design work&quot; windowlayouts, one for &quot;desk with dual monitors&quot; and one for &quot;laptop only mode&quot;:</li><li>  &quot;passive mode&quot; use: you call <code v-pre>:apply()</code> on <em>both</em> on your chosen hotkey (via <code v-pre>hs.hotkey:bind()</code>), but only the appropriate layout for the current arrangement will be applied</li><li>  &quot;active mode&quot; use: you just call <code v-pre>:start()</code> on both windowlayouts; as you switch between workplaces (by attaching or detaching external screens) the correct layout &quot;kicks in&quot; automatically - this is in effect a convenience wrapper that calls <code v-pre>:pause()</code> on the no longer relevant layout, and <code v-pre>:resume()</code> on the appropriate one, at every screen configuration change</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>If <code v-pre>screens</code> is <code v-pre>nil</code>, any previous screen configuration is removed, and this windowlayout will be always allowed</li><li>For &quot;active&quot; windowlayouts, call this method <em>before</em> calling <code v-pre>hs.window.layout:start()</code></li><li>By using <code v-pre>hs.geometry</code> size objects as hints you can define separate layouts for the same physical screen at different resolutions</li><li>With this method you can define different windowlayouts for different screen configurations (as per System Preferences-&gt;Displays-&gt;Arrangement).</li><li>For example, suppose you define two &quot;graphics design work&quot; windowlayouts, one for &quot;desk with dual monitors&quot; and one for &quot;laptop only mode&quot;:</li><li>  &quot;passive mode&quot; use: you call <code v-pre>:apply()</code> on <em>both</em> on your chosen hotkey (via <code v-pre>hs.hotkey:bind()</code>), but only the appropriate layout for the current arrangement will be applied</li><li>  &quot;active mode&quot; use: you just call <code v-pre>:start()</code> on both windowlayouts; as you switch between workplaces (by attaching or detaching external screens) the correct layout &quot;kicks in&quot; automatically - this is in effect a convenience wrapper that calls <code v-pre>:pause()</code> on the no longer relevant layout, and <code v-pre>:resume()</code> on the appropriate one, at every screen configuration change</li></ul> |</p>
 <hr />
 <doc-anchor-target id="start">
     <h3>

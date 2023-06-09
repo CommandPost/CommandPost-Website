@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -459,10 +459,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="compositetypes">
     <h3>
@@ -490,6 +490,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>A table containing the possible compositing rules for elements within the canvas.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -521,6 +525,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Array of window behavior labels for determining how a canvas or drawing object is handled in Spaces and Exposé</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -562,10 +570,10 @@
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="defaulttextstyle">
     <h3>
@@ -740,10 +748,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -789,10 +797,10 @@
 </div>
 <hr />
 <doc-anchor-target id="fields">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#fields">#</doc-anchor-trigger>
         <span>Fields</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="attributes">
     <h3>
@@ -900,10 +908,10 @@
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="_accessibilitysubrole">
     <h3>
@@ -1093,7 +1101,7 @@ integer - a number representing the behavior which can be created by combining v
 string  - a single key from <doc-anchor-trigger to="#windowBehaviors">hs.canvas.windowBehaviors</doc-anchor-trigger> which will be toggled in the current window behavior.
 table   - a list of keys from <doc-anchor-trigger to="#windowBehaviors">hs.canvas.windowBehaviors</doc-anchor-trigger> which will be combined to make the final behavior by combining their values with the logical or operator.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if an argument is provided, then the canvasObject is returned; otherwise the current behavior value is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="behavioraslabels">
     <h3>
@@ -1153,7 +1161,7 @@ table   - a list of keys from <doc-anchor-trigger to="#windowBehaviors">hs.canva
 if true, place the canvas on top of all windows (including the dock and menubar and fullscreen windows).
 if false, place the canvas above normal windows, but below the dock, menubar and fullscreen windows.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The canvas object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.canvas</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>As of macOS Sierra and later, if you want a <code v-pre>hs.canvas</code> object to appear above full-screen windows you must hide the Hammerspoon Dock icon first using: <code v-pre>hs.dockicon.hide()</code></li></ul> |</p>
 <hr />
 <doc-anchor-target id="canvasdefaultfor">
     <h3>

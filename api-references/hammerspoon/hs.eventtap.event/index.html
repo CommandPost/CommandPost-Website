@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -437,10 +437,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="properties">
     <h3>
@@ -553,10 +553,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="newkeyeventsequence">
     <h3>
@@ -602,10 +602,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="copy">
     <h3>
@@ -797,7 +797,7 @@ shift
 ctrl
 fn</li><li>key - A string containing the name of a key (see <code v-pre>hs.hotkey</code> for more information) or an integer specifying the virtual keycode for the key.</li><li>isdown - A boolean, true if the event should be a key-down, false if it should be a key-up</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.eventtap.event</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The original version of this constructor utilized a shortcut which merged <code v-pre>flagsChanged</code> and <code v-pre>keyUp</code>/<code v-pre>keyDown</code> events into one.  This approach is still supported for backwards compatibility and because it <em>does</em> work in most cases.</li><li>According to Apple Documentation, the proper way to perform a keypress with modifiers is through multiple key events; for example to generate &#x27;Å&#x27;, you should do the following:</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, true):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, true):post()</li><li>    hs.eventtap.event.newKeyEvent(&quot;a&quot;, true):post()</li><li>    hs.eventtap.event.newKeyEvent(&quot;a&quot;, false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, false):post()</li><li> ~~~</li><li>The shortcut method is still supported, though if you run into odd behavior or need to generate <code v-pre>flagsChanged</code> events without a corresponding <code v-pre>keyUp</code> or <code v-pre>keyDown</code>, please check out the syntax demonstrated above.</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent({&quot;shift&quot;, &quot;alt&quot;}, &quot;a&quot;, true):post()</li><li>    hs.eventtap.event.newKeyEvent({&quot;shift&quot;, &quot;alt&quot;}, &quot;a&quot;, false):post()</li><li> ~~~</li><li>The shortcut approach is still limited to generating only the left version of modifiers.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>The original version of this constructor utilized a shortcut which merged <code v-pre>flagsChanged</code> and <code v-pre>keyUp</code>/<code v-pre>keyDown</code> events into one.  This approach is still supported for backwards compatibility and because it <em>does</em> work in most cases.</li><li>According to Apple Documentation, the proper way to perform a keypress with modifiers is through multiple key events; for example to generate &#x27;Å&#x27;, you should do the following:</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, true):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, true):post()</li><li>    hs.eventtap.event.newKeyEvent(&quot;a&quot;, true):post()</li><li>    hs.eventtap.event.newKeyEvent(&quot;a&quot;, false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.alt, false):post()</li><li>    hs.eventtap.event.newKeyEvent(hs.keycodes.map.shift, false):post()</li><li> ~~~</li><li>The shortcut method is still supported, though if you run into odd behavior or need to generate <code v-pre>flagsChanged</code> events without a corresponding <code v-pre>keyUp</code> or <code v-pre>keyDown</code>, please check out the syntax demonstrated above.</li><li> ~~~lua</li><li>    hs.eventtap.event.newKeyEvent({&quot;shift&quot;, &quot;alt&quot;}, &quot;a&quot;, true):post()</li><li>    hs.eventtap.event.newKeyEvent({&quot;shift&quot;, &quot;alt&quot;}, &quot;a&quot;, false):post()</li><li> ~~~</li><li>The shortcut approach is still limited to generating only the left version of modifiers.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="newmouseevent">
     <h3>
@@ -817,7 +817,7 @@ shift
 ctrl
 fn</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.eventtap</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="newscrollevent">
     <h3>
@@ -837,7 +837,7 @@ shift
 ctrl
 fn</li><li>unit - An optional string containing the name of the unit for scrolling. Either &quot;line&quot; (the default) or &quot;pixel&quot;</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.eventtap.event</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="newsystemkeyevent">
     <h3>
@@ -874,13 +874,13 @@ CAPS_LOCK
 HELP
 NUM_LOCK</li><li>isdown - A boolean, true if the event should be a key-down, false if it should be a key-up</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.eventtap.event</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>To set modifiers on a system key event (e.g. cmd/ctrl/etc), see the <code v-pre>hs.eventtap.event:setFlags()</code> method</li><li>The event names are case sensitive</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>To set modifiers on a system key event (e.g. cmd/ctrl/etc), see the <code v-pre>hs.eventtap.event:setFlags()</code> method</li><li>The event names are case sensitive</li></ul> |</p>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="asdata">
     <h3>
@@ -1502,7 +1502,7 @@ shift
 ctrl
 fn</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The <code v-pre>hs.eventap.event</code> object.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="setkeycode">
     <h3>

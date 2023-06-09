@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,12 +31,12 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739648713886" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../../resources/js/prism.js?v=3.0.3.739649620661" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -453,10 +453,10 @@ t.attachToolbar(a)</code></pre>
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="itempriorities">
     <h3>
@@ -484,6 +484,10 @@ t.attachToolbar(a)</code></pre>
 <tr>
 <td><strong>Description</strong></td>
 <td>A table containing some pre-defined toolbar item priority values for use when determining item order in the toolbar.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -516,15 +520,19 @@ t.attachToolbar(a)</code></pre>
 <td><strong>Description</strong></td>
 <td>An array containing string identifiers for supported system defined toolbar items.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="attachtoolbar">
     <h3>
@@ -543,7 +551,7 @@ if one argument is provided and it is a toolbarObject or nil, this function will
 if one argument is provided and it is an hs.webview or hs.chooser object, this function will return the current toolbarObject for the object, or nil if one is not attached.
 if two arguments are provided and the first is an hs.webview or hs.chooser object and the second is a toolbarObject or nil, this function will attach or detach a toolbarObject to/from the object.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if the function is used to attach/detach a toolbar, then the first object provided (the target) will be returned ; if this function is used to get the current toolbar object for a webview, chooser, or console, then the toolbarObject or nil will be returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>This function is not expected to be used directly (though it can be) -- it is added to the <code v-pre>hs.webview</code> and <code v-pre>hs.chooser</code> object metatables so that it may be invoked as <code v-pre>hs.webview:attachedToolbar([toolbarObject | nil])</code>/<code v-pre>hs.chooser:attachedToolbar([toolbarObject | nil])</code> and to the <code v-pre>hs.console</code> module so that it may be invoked as <code v-pre>hs.console.toolbar([toolbarObject | nil])</code>.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the new one specified by this function.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>This function is not expected to be used directly (though it can be) -- it is added to the <code v-pre>hs.webview</code> and <code v-pre>hs.chooser</code> object metatables so that it may be invoked as <code v-pre>hs.webview:attachedToolbar([toolbarObject | nil])</code>/<code v-pre>hs.chooser:attachedToolbar([toolbarObject | nil])</code> and to the <code v-pre>hs.console</code> module so that it may be invoked as <code v-pre>hs.console.toolbar([toolbarObject | nil])</code>.</li><li></li><li>If the toolbar is currently attached to another window when this function is called, it will be detached from the original window and attached to the new one specified by this function.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="intitlebar">
     <h3>
@@ -632,10 +640,10 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -681,10 +689,10 @@ if two arguments are provided and the first is an hs.webview or hs.chooser objec
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="additems">
     <h3>

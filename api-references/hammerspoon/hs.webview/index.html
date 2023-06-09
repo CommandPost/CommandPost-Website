@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -478,10 +478,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="deprecateds">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#deprecateds">#</doc-anchor-trigger>
         <span>Deprecateds</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="ashsdrawing">
     <h3>
@@ -518,6 +518,10 @@
 <td><strong>Returns</strong></td>
 <td><ul><li>a placeholder object</li></ul></td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -548,6 +552,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Returns an hs.window object for the webview so that you can use hs.window methods on it.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -597,10 +605,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="certificateoids">
     <h3>
@@ -628,6 +636,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>A table of common OID values found in SSL certificates.  SSL certificates provided to the callback function for <doc-anchor-trigger to="#sslCallback">hs.webview:sslCallback</doc-anchor-trigger> or in the results of <doc-anchor-trigger to="#certificateChain">hs.webview:certificateChain</doc-anchor-trigger> use OID strings as the keys which describe the properties of the certificate and this table can be used to get a more common name for the keys you are most likely to see.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -669,10 +681,10 @@
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="titlevisibility">
     <h3>
@@ -718,10 +730,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -742,7 +754,7 @@
 <code v-pre>suppressesIncrementalRendering</code>        - suppresses content rendering until fully loaded into memory (default false)
 The following additional preferences may also be set under OS X 10.11 or later (they will be ignored with a warning printed if used under OS X 10.10):<code v-pre>applicationName</code>                       - a string specifying an application name to be listed at the end of the browser&#x27;s USER-AGENT header.  Note that this is only appended to the default user agent string; if you set a custom one with <doc-anchor-trigger to="#userAgent">hs.webview:userAgent</doc-anchor-trigger>, this value is ignored.<code v-pre>allowsAirPlay</code>                         - a boolean specifying whether media playback within the webview can play through AirPlay devices.<code v-pre>datastore</code>                             - an <code v-pre>hs.webview.datastore</code> object specifying where website data such as cookies, cacheable content, etc. is to be stored.<code v-pre>privateBrowsing</code>                       - a boolean (default false) specifying that the datastore should be set to a new, empty and non-persistent datastore.  Note that this will override the <code v-pre>datastore</code> key if both are specified and this is set to true.</li><li><code v-pre>userContentController</code> - an optional <code v-pre>hs.webview.usercontent</code> object to provide script injection and JavaScript messaging with Hammerspoon from the webview.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>To set the initial URL, use the <code v-pre>hs.webview:url</code> method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple&#x27;s documentation, but is included in the WebKit2 documentation.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>To set the initial URL, use the <code v-pre>hs.webview:url</code> method before showing the webview object.</li><li>Preferences can only be set when the webview object is created.  To change the preferences of an open webview, you will need to close it and recreate it with this method.</li><li></li><li>developerExtrasEnabled is not listed in Apple&#x27;s documentation, but is included in the WebKit2 documentation.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="newbrowser">
     <h3>
@@ -788,10 +800,10 @@ The following additional preferences may also be set under OS X 10.11 or later (
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="allowgestures">
     <h3>
@@ -1539,7 +1551,7 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <code v-pre>result</code> - the result of the executed JavaScript code or nil if there was no result or an error occurred.
 <code v-pre>error</code>  - an NSError table describing any error that occurred during the JavaScript execution or nil if no error occurred.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>the webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="examineinvalidcertificates">
     <h3>
@@ -2117,7 +2129,7 @@ The following additional preferences may also be set under OS X 10.11 or later (
 <code v-pre>navID</code>   - a navigation identifier which can be used to link this event back to a specific request made by a <code v-pre>hs.webview:url</code>, <code v-pre>hs.webview:html</code>, or <code v-pre>hs.webview:reload</code> method.
 <code v-pre>error</code>   - a table which will only be provided when <code v-pre>action</code> is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If provided, it will contain at leas some of the following keys, possibly others as well:<code v-pre>code</code>        - a numerical value indicating the type of error code.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>domain</code>      - a string indicating the error domain of the error.  This will mostly be of use to developers or in debugging and may be removed in the future.<code v-pre>description</code> - a string describing the condition or problem that has occurred.<code v-pre>reason</code>      - if available, more information about what may have caused the problem to occur.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The return value of the callback function is ignored except when the <code v-pre>action</code> argument is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>The return value of the callback function is ignored except when the <code v-pre>action</code> argument is equal to <code v-pre>didFailNavigation</code> or <code v-pre>didFailProvisionalNavigation</code>.  If the return value when the action argument is one of these values is a string, it will be treated as html and displayed in the webview as the error message.  If the return value is the boolean value true, then no change will be made to the webview (it will continue to display the previous web page).  All other return values or no return value at all, if these navigation actions occur, will cause a default error page to be displayed in the webview.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="navigationid">
     <h3>
@@ -2312,7 +2324,7 @@ The callback function should return <code v-pre>true</code> if the new window sh
 <code v-pre>authenticationChallenge</code>:  This applies to a web page which requires a log in credential for HTTPBasic or HTTPDigest authentication.the second argument will be the webview this request originates from.the third argument will be a table containing the challenge details and may contain any of the following keys:<code v-pre>previousFailureCount</code> - an integer indicating the number of previously failed login attempts.  This will be 0 for the first try.<code v-pre>failureResponse</code>      - the response data as described for <code v-pre>navigationResponse</code> above for the last authentication failureResponse<code v-pre>proposedCredential</code>   - a table containing the previously failed credential containing any of the following keys:<code v-pre>hasPassword</code>          - a boolean value indicating if a password was provided with this credential<code v-pre>persistence</code>          - a string value identifying the persistence of this credential.  This value will be one of the following:None                 - the credential is for this URL request only and no other<code v-pre>session</code>              - the credential is for this session and will be forgotten once the webview is deleted<code v-pre>permanent</code>            - the credential is stored in the user&#x27;s keychain<code v-pre>synchronized</code>         - the credential is stored in the user&#x27;s keychain and may be shared with other devices with the same owning Apple ID.<code v-pre>user</code>                 - the username of the failed credential<code v-pre>password</code>             - the password of the failed credential<code v-pre>protectionSpace</code>      - a table describing the realm for the authentication and may contain any of the following keys:<code v-pre>port</code>                       - the port of the server with which communication for this request is occurring<code v-pre>receivesCredentialSecurely</code> - a boolean value indicating whether or not the credential can be sent to the server securely<code v-pre>authenticationMethod</code>       - a string indicating the authentication type: default, HTTPBasic, or HTTPDigest.  Other types exists but are not currently supported with this module or do not apply to webview activities.<code v-pre>host</code>                       - the host name of the server with which communication for this request is occurring<code v-pre>protocol</code>                   - the protocol for which the authentication is occurring<code v-pre>isProxy</code>                    - a boolean indicating whether or not the authentication is occurring with a proxy server<code v-pre>proxyType</code>                  - a string representing the type of proxy server: http, https, ftp, or socks.<code v-pre>realm</code>                      - a string representing the realm name for the authentication.
 The callback function should return true if the user should be prompted for the username and password credentials, a table with the keys <code v-pre>user</code> and <code v-pre>password</code> containing the username and password to log in with, or false if the login request should be cancelled.  Note that if your function returns a table and fails to authenticate three times, the user will be prompted anyways to prevent loops.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>With the <code v-pre>newWindow</code> action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>With the <code v-pre>newWindow</code> action, the navigationCallback and policyCallback are automatically replicated for the new window from its parent.  If you wish to disable these for the new window or assign a different set of callback functions, you can do so before returning true in the callback function with the webview argument provided.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="privatebrowsing">
     <h3>
@@ -2594,7 +2606,7 @@ The callback function should return true if the user should be prompted for the 
 <code v-pre>realm</code>                      - a string representing the realm name for the authentication.
 <code v-pre>certificates</code> - an array of tables, each table describing a certificate in the SSL certificate chain provided by the server responding to the webview&#x27;s request.  Each table will contain the following keys:<code v-pre>commonName</code> - the common name for the certificate; most commonly this will be a string matching the server portion of the URL request or other descriptor of the certificate&#x27;s purpose.<code v-pre>values</code>     - a table containing key-value pairs describing the certificate.  The keys will be certificate OIDs.  Common OIDs and their meaning can be found in <doc-anchor-trigger to="#certificateOIDs">hs.webview.certificateOIDs</doc-anchor-trigger>. The value for each key will be a table with the following keys:<code v-pre>label</code>           - a description or label for the entry<code v-pre>localized label</code> - a localized version of <code v-pre>label``type</code>            - a description of the data type for this value<code v-pre>value</code>           - the value</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns <code v-pre>true</code>, the certificate will only be granted an exception if <doc-anchor-trigger to="#examineInvalidCertificates">hs.webview:examineInvalidCertificates</doc-anchor-trigger> has also been set to <code v-pre>true</code>.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>The callback function should return true if an exception should be granted for this certificate or false if it should be rejected.</li><li>even if this callback returns <code v-pre>true</code>, the certificate will only be granted an exception if <doc-anchor-trigger to="#examineInvalidCertificates">hs.webview:examineInvalidCertificates</doc-anchor-trigger> has also been set to <code v-pre>true</code>.</li><li>once an invalid certificate has been granted an exception, the exception will remain in effect until the webview object is deleted.</li><li>the callback is only invoked for invalid certificates -- if a certificate is valid, or once an exception has been granted, the callback will not (no longer) be called for that certificate.</li><li></li><li>* If the certificate has been granted an exception in another application which registers the exception in the user&#x27;s keychain (e.g. Safari), then the certificate is no longer considered invalid and this callback will not be invoked.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="stoploading">
     <h3>
@@ -2791,7 +2803,7 @@ The callback function should return true if the user should be prompted for the 
 <code v-pre>networkServiceType</code>      - a string value representing the network service type of the request.  It should match one of the following:<code v-pre>default</code>                 - (default) standard network traffic.  You should rarely use a value other than this as it can affect the responsiveness of your computer and other applications.<code v-pre>VoIP</code>                    - with the VoIP service type, the kernel continues to listen for incoming traffic while your app is in the background, then wakes up your app whenever new data arrives. This should be used only for connections that are used to communicate with a VoIP service.<code v-pre>video</code>                   - specifies that this is video traffic<code v-pre>background</code>              - use this for data if your are performing a download that was not requested by the user — for example, prefetching content so that it will be available when the user chooses to view it.<code v-pre>voice</code>                   - specifies that this is voice traffic
 <code v-pre>HTTPHeaderFields</code>        - a table containing key-value pairs corresponding to additional headers you wish to include in your request.  Because the HTTP specification requires that both keys and values are strings, any key which is not a string is ignored, and any value which is not a string or number is also ignored.  In addition, the following keys are handled automatically behind the scenes and will be ignored if you specify them:<code v-pre>Authorization``Connection``Host``WWW-Authenticate``Content-Length</code></li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>If a URL is specified, then this method returns the webview Object; otherwise it returns the current url being displayed.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system&#x27;s ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>The networkServiceType field of the URL request table is a hint to the operating system about what the underlying traffic is used for. This hint enhances the system&#x27;s ability to prioritize traffic, determine how quickly it needs to wake up the Wi-Fi radio, and so on. By providing accurate information, you improve the ability of the system to optimally balance battery life, performance, and other considerations.  Likewise, inaccurate information can have a deleterious effect on your system performance and battery life.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="urlparts">
     <h3>
@@ -2895,7 +2907,7 @@ The callback function should return true if the user should be prompted for the 
 &quot;focusChange&quot;, webview, state - indicates that the webview window has either become or stopped being the focused window<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>state</code>   - a boolean, true if the webview has become the focused window, or false if it has lost focus
 &quot;frameChange&quot;, webview, frame - indicates that the webview window has been moved or resized<code v-pre>action</code>  - in this case &quot;focusChange&quot;, specifying that the webview window is being closed<code v-pre>webview</code> - the webview that is being closed<code v-pre>frame</code>   - a rect-table containing the new co-ordinates and size of the webview window</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The webview object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="windowstyle">
     <h3>
@@ -2913,7 +2925,7 @@ integer - a number representing the style which can be created by combining valu
 string  - a single key from <code v-pre>hs.webview.windowMasks</code> which will be toggled in the current window style.
 table   - a list of keys from <code v-pre>hs.webview.windowMasks</code> which will be combined to make the final style by combining their values with the logical or operator.</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>if a mask is provided, then the webviewObject is returned; otherwise the current mask value is returned.</li></ul>          |
-| <strong>Notes</strong>                                   | <ul></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul></ul> |</p>
 <hr />
 <doc-anchor-target id="windowtitle">
     <h3>

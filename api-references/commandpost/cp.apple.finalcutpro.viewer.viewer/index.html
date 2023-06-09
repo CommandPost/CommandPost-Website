@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -428,10 +428,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="background">
     <h3>
@@ -459,6 +459,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Lists the possible background values: <code v-pre>BLACK</code>, <code v-pre>WHITE</code>, <code v-pre>CHECKERBOARD</code>.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -491,15 +495,19 @@
 <td><strong>Description</strong></td>
 <td>Lists the possible playback modes for the viewer: <code v-pre>ORIGINAL_BETTER_QUALITY</code>, <code v-pre>ORIGINAL_BETTER_PERFORMANCE</code>, <code v-pre>PROXY_PREFERRED</code>, <code v-pre>PROXY_ONLY</code>.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="matches">
     <h3>
@@ -545,10 +553,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="viewer">
     <h3>
@@ -594,10 +602,10 @@
 </div>
 <hr />
 <doc-anchor-target id="fields">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#fields">#</doc-anchor-trigger>
         <span>Fields</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="background-1">
     <h3>
@@ -644,7 +652,7 @@
 | --------------------------------------------|-------------------------------------------------------------------------------------|
 | <strong>Signature</strong>                               | <code v-pre>cp.apple.finalcutpro.viewer.Viewer.betterQuality &lt;cp.prop: boolean, read-only&gt;</code>                                                                    |
 | <strong>Type</strong>                                    | Field                                                                     |
-| <strong>Description</strong>                             | Checks if the viewer is using playing with better quality (<code v-pre>true</code>) or performance (<code v-pre>false).                                                                     | | **Notes**                                   | &lt;ul&gt;&lt;li&gt;Use </code>playbackMode&#x60; to change modes between original/proxy/quality/performance.</li></ul>                |</p>
+| <strong>Description</strong>                             | Checks if the viewer is using playing with better quality (<code v-pre>true</code>) or performance (<code v-pre>false).                                                                     | | **Notes**                                   | &lt;ul&gt;&lt;li&gt;Use </code>playbackMode&#x60; to change modes between original/proxy/quality/performance.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="contentsui">
     <h3>
@@ -672,6 +680,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Provides the <code v-pre>axuielement</code> for the media contents of the Viewer, or <code v-pre>nil</code> if not available.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -704,6 +716,10 @@
 <td><strong>Description</strong></td>
 <td>Provides the <a href="../cp.apple.finalcutpro.viewer.controlbar/">ControlBar</a> for this <code v-pre>Viewer</code>.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -734,6 +750,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Returns the current frame for the viewer, or <code v-pre>nil</code> if it is not available.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -766,6 +786,10 @@
 <td><strong>Description</strong></td>
 <td>Provides the framerate as a number, or nil if not available.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -796,6 +820,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Provides the format text value, or <code v-pre>nil</code> if none is available.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -828,6 +856,10 @@
 <td><strong>Description</strong></td>
 <td>Checks if the viewer has Player Controls visible.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -858,6 +890,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Provides the <a href="../cp.apple.finalcutpro.viewer.infobar/">InfoBar</a> for this <code v-pre>Viewer</code>.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -890,6 +926,10 @@
 <td><strong>Description</strong></td>
 <td>Returns <code v-pre>true</code> if this is the Event Viewer.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -920,6 +960,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Returns <code v-pre>true</code> if this is the main Viewer.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -952,6 +996,10 @@
 <td><strong>Description</strong></td>
 <td>Checks if the Viewer is showing on the Primary Window.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -983,6 +1031,10 @@
 <td><strong>Description</strong></td>
 <td>Checks if the Viewer is showing on the Secondary Window.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1013,6 +1065,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Reports and allows modification of the current playback mode.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -1053,6 +1109,10 @@
 <td><strong>Returns</strong></td>
 <td><ul><li>A Button</li></ul></td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1083,6 +1143,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>The current timecode value, with the format &quot;hh:mm:ss:ff&quot;. Setting also supports &quot;hh:mm:ss;ff&quot;.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -1115,6 +1179,10 @@
 <td><strong>Description</strong></td>
 <td>The <a href="../cp.ui.statictext/">StaticText</a> containing the timecode value.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1145,6 +1213,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Provides the Title of the clip in the Viewer as a <a href="../cp.ui.statictext/">StaticText</a></td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -1212,6 +1284,10 @@
 <td><strong>Description</strong></td>
 <td>The <code v-pre>Image</code> for the video content.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1243,15 +1319,19 @@
 <td><strong>Description</strong></td>
 <td>Provides the <code v-pre>axuielement</code> for video image within the Viewer, or <code v-pre>nil</code> if not available.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="app">
     <h3>

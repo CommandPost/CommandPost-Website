@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -442,10 +442,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="dateformatstring">
     <h3>
@@ -473,6 +473,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>A format string, usable with <code v-pre>os.date</code>, which will display a date in the format expected for HTTP communications as described in RFC 822, updated by RFC 1123.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -514,10 +518,10 @@
 </div>
 <hr />
 <doc-anchor-target id="variables">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
         <span>Variables</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="_accesslog">
     <h3>
@@ -545,6 +549,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Accessed as <code v-pre>self._accessLog</code>.  If query logging is enabled for the web server, an Apache style common log entry will be appended to this string for each request.  See <doc-anchor-trigger to="#queryLogging">hs.httpserver.hsminweb:queryLogging</doc-anchor-trigger>.</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -577,6 +585,10 @@
 <td><strong>Description</strong></td>
 <td>Accessed as <code v-pre>self._errorHandlers[errorCode]</code>.  A table whose keyed entries specify the function to generate the error response page for an HTTP error.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -607,6 +619,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>Accessed as <code v-pre>self._serverAdmin</code>.  A string containing the administrator for the web server.  Defaults to the currently logged in user&#x27;s short form username and the computer&#x27;s localized name as returned by <code v-pre>hs.host.localizedName()</code> (e.g. &quot;<a href="mailto:user@computer">user@computer</a>&quot;).</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -639,6 +655,10 @@
 <td><strong>Description</strong></td>
 <td>Accessed as <code v-pre>self._supportMethods[method]</code>.  A table whose keyed entries specify whether or not a specified HTTP method is supported by this server.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -670,15 +690,19 @@
 <td><strong>Description</strong></td>
 <td>The <code v-pre>hs.logger</code> instance for the <code v-pre>hs.httpserver.hsminweb</code> module. See the documentation for <code v-pre>hs.logger</code> for more information.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="formatteddate">
     <h3>
@@ -767,10 +791,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -816,10 +840,10 @@
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="accesslist">
     <h3>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -394,10 +394,10 @@ Settings must have a string key and must be made up of serializable Lua objects 
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="bundleid">
     <h3>
@@ -425,6 +425,10 @@ Settings must have a string key and must be made up of serializable Lua objects 
 <tr>
 <td><strong>Description</strong></td>
 <td>A string representing the ID of the bundle Hammerspoon&#x27;s settings are stored in . You can use this with the command line tool <code v-pre>defaults</code> or other tools which allow access to the <code v-pre>User Defaults</code> of applications, to access these outside of Hammerspoon</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -457,15 +461,19 @@ Settings must have a string key and must be made up of serializable Lua objects 
 <td><strong>Description</strong></td>
 <td>A string representing the expected format of date and time when presenting the date and time as a string to <code v-pre>hs.setDate()</code>.  e.g. <code v-pre>os.date(hs.settings.dateFormat)</code></td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="clear">
     <h3>
@@ -614,7 +622,7 @@ boolean
 nil
 table (which may contain any of the same valid datatypes)</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>None</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If no val parameter is provided, it is assumed to be nil</li><li>This function cannot set dates or raw data types, see <code v-pre>hs.settings.setDate()</code> and <code v-pre>hs.settings.setData()</code></li><li>Assigning a nil value is equivalent to clearing the value with <code v-pre>hs.settings.clear</code></li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>If no val parameter is provided, it is assumed to be nil</li><li>This function cannot set dates or raw data types, see <code v-pre>hs.settings.setDate()</code> and <code v-pre>hs.settings.setData()</code></li><li>Assigning a nil value is equivalent to clearing the value with <code v-pre>hs.settings.clear</code></li></ul> |</p>
 <hr />
 <doc-anchor-target id="setdata">
     <h3>

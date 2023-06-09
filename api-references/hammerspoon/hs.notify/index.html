@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -435,10 +435,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="activationtypes">
     <h3>
@@ -502,15 +502,19 @@
 <td><strong>Description</strong></td>
 <td>The string representation of the default notification sound. Use <code v-pre>hs.notify:soundName()</code> or set the <code v-pre>soundName</code> attribute in <code v-pre>hs:notify.new()</code>, to this constant, if you want to use the default sound</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="variables">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#variables">#</doc-anchor-trigger>
         <span>Variables</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="registry">
     <h3>
@@ -574,15 +578,19 @@
 <td><strong>Description</strong></td>
 <td>A value indicating whether or not a missing notification function tag should cause a warning.  Defaults to <code v-pre>true</code>.</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="deliverednotifications">
     <h3>
@@ -886,10 +894,10 @@
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -922,7 +930,7 @@ responsePlaceholder         - see <doc-anchor-trigger to="#responsePlaceholder">
 alwaysShowAdditionalActions - see <doc-anchor-trigger to="#alwaysShowAdditionalActions">hs.notify:alwaysShowAdditionalActions</doc-anchor-trigger>
 withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.notify:withdrawAfter</doc-anchor-trigger></li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>A notification object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>A function-tag is a string key which corresponds to a function stored in the <doc-anchor-trigger to="#registry">hs.notify.registry</doc-anchor-trigger> table with the <code v-pre>hs.notify.register()</code> function.</li><li>If a notification does not have a <code v-pre>title</code> attribute set, OS X will not display it, so by default it will be set to &quot;Notification&quot;. You can use the <code v-pre>title</code> key in the attributes table, or call <code v-pre>hs.notify:title()</code> before displaying the notification to change this.</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>A function-tag is a string key which corresponds to a function stored in the <doc-anchor-trigger to="#registry">hs.notify.registry</doc-anchor-trigger> table with the <code v-pre>hs.notify.register()</code> function.</li><li>If a notification does not have a <code v-pre>title</code> attribute set, OS X will not display it, so by default it will be set to &quot;Notification&quot;. You can use the <code v-pre>title</code> key in the attributes table, or call <code v-pre>hs.notify:title()</code> before displaying the notification to change this.</li></ul> |</p>
 <hr />
 <doc-anchor-target id="show">
     <h3>
@@ -968,10 +976,10 @@ withdrawAfter               - see <doc-anchor-trigger to="#withdrawAfter">hs.not
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="actionbuttontitle">
     <h3>

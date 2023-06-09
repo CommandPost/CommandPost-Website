@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -397,10 +397,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="constants">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constants">#</doc-anchor-trigger>
         <span>Constants</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="activated">
     <h3>
@@ -428,6 +428,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>An application has been activated (i.e. given keyboard/mouse focus)</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -460,6 +464,10 @@
 <td><strong>Description</strong></td>
 <td>An application has been deactivated (i.e. lost keyboard/mouse focus)</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -490,6 +498,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>An application has been hidden</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -522,6 +534,10 @@
 <td><strong>Description</strong></td>
 <td>An application has been launched</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -552,6 +568,10 @@
 <tr>
 <td><strong>Description</strong></td>
 <td>An application is in the process of being launched</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
 </tr>
 </tbody>
 </table>
@@ -584,6 +604,10 @@
 <td><strong>Description</strong></td>
 <td>An application has been terminated</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -615,15 +639,19 @@
 <td><strong>Description</strong></td>
 <td>An application has been unhidden</td>
 </tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>- None</td>
+</tr>
 </tbody>
 </table>
 </div>
 <hr />
 <doc-anchor-target id="constructors">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#constructors">#</doc-anchor-trigger>
         <span>Constructors</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="new">
     <h3>
@@ -641,13 +669,13 @@ A string containing the name of the application
 An event type (see the constants defined above)
 An <code v-pre>hs.application</code> object representing the application, or nil if the application couldn&#x27;t be found</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>An <code v-pre>hs.application.watcher</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>If the function is called with an event type of <code v-pre>hs.application.watcher.terminated</code> then the application name parameter will be <code v-pre>nil</code> and the <code v-pre>hs.application</code> parameter, will only be useful for getting the UNIX process ID (i.e. the PID) of the application</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>If the function is called with an event type of <code v-pre>hs.application.watcher.terminated</code> then the application name parameter will be <code v-pre>nil</code> and the <code v-pre>hs.application</code> parameter, will only be useful for getting the UNIX process ID (i.e. the PID) of the application</li></ul> |</p>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="start">
     <h3>

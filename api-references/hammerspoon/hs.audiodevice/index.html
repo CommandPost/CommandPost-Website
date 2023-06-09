@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739648713886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739649620661">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../static/favicon.ico" rel="icon" />
-    <link href="../../../resources/css/retype.css?v=3.0.3.739648713886" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=3.0.3.739649620661" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739648713886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=3.0.3.739649620661" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -442,10 +442,10 @@
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="functions">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#functions">#</doc-anchor-trigger>
         <span>Functions</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="alldevices">
     <h3>
@@ -1007,10 +1007,10 @@
 </div>
 <hr />
 <doc-anchor-target id="methods">
-    <h3>
+    <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#methods">#</doc-anchor-trigger>
         <span>Methods</span>
-    </h3>
+    </h4>
 </doc-anchor-target>
 <doc-anchor-target id="allinputdatasources">
     <h3>
@@ -2331,7 +2331,7 @@ A number containing the element of the event. Typical values are:
 1 - Typically this means the Left channel
 2 - Typically this means the Right channel</li></ul> |
 | <strong>Returns</strong>                                 | <ul><li>The <code v-pre>hs.audiodevice</code> object</li></ul>          |
-| <strong>Notes</strong>                                   | <ul><li>You will receive many events to your callback, so filtering on the name/scope/element arguments is vital. For example, on a stereo device, it is not uncommon to receive a <code v-pre>volm</code> event for each audio channel when the volume changes, or multiple <code v-pre>mute</code> events for channels. Dragging a volume slider in the system Sound preferences will produce a large number of <code v-pre>volm</code> events. Plugging/unplugging headphones may trigger <code v-pre>volm</code> events in addition to <code v-pre>jack</code> ones, etc.</li><li>If you need to use the <code v-pre>hs.audiodevice</code> object in your callback, use <code v-pre>hs.audiodevice.findDeviceByUID()</code> to obtain it fro the first callback argument</li></ul>                |</p>
+| <strong>Notes</strong>                                   | <ul><li>You will receive many events to your callback, so filtering on the name/scope/element arguments is vital. For example, on a stereo device, it is not uncommon to receive a <code v-pre>volm</code> event for each audio channel when the volume changes, or multiple <code v-pre>mute</code> events for channels. Dragging a volume slider in the system Sound preferences will produce a large number of <code v-pre>volm</code> events. Plugging/unplugging headphones may trigger <code v-pre>volm</code> events in addition to <code v-pre>jack</code> ones, etc.</li><li>If you need to use the <code v-pre>hs.audiodevice</code> object in your callback, use <code v-pre>hs.audiodevice.findDeviceByUID()</code> to obtain it fro the first callback argument</li></ul> |</p>
 <hr />
 <doc-anchor-target id="watcherisrunning">
     <h3>
